@@ -1,0 +1,1056 @@
+{
+  "schemaVersion": 5,
+  "catalogType": "curation-candidates",
+  "generatedAt": "2026-07-30T07:52:28.423Z",
+  "source": "openstreetmap",
+  "sourceExtract": "cuba-latest.osm.pbf",
+  "radiusMeters": 10000,
+  "port": {
+    "id": "havana-cuba",
+    "city": "Havana",
+    "country": "Cuba"
+  },
+  "defaultTerminalId": "osm/generated/b57fd0e4c8021ca6df2e",
+  "terminal": {
+    "id": "osm/generated/b57fd0e4c8021ca6df2e",
+    "name": "Terminal de Cruceros de La Habana",
+    "nameEnglish": "Havana Cruise Ship Terminal",
+    "lat": 23.1378294,
+    "lng": -82.3469918,
+    "address": "Avenida del Puerto, La Habana",
+    "source": "verified_terminal_candidate",
+    "sourceId": "osm/generated/b57fd0e4c8021ca6df2e",
+    "terminalType": "passenger_cruise_terminal",
+    "verified": true,
+    "notes": "Accepted 1 candidate explicitly identified as an ocean-cruise or cruise-passenger terminal; ferry and unrelated results were excluded.",
+    "sourceUrls": [],
+    "sources": [
+      "openstreetmap",
+      "nominatim"
+    ],
+    "sourceIds": [
+      "osm/generated/b57fd0e4c8021ca6df2e",
+      "osm/way/415366060"
+    ],
+    "osmTags": {
+      "amenity": "ferry_terminal",
+      "building": "yes",
+      "cargo": "passengers",
+      "ferry": "yes",
+      "name:en": "Havana Cruise Ship Terminal",
+      "public_transport": "station"
+    },
+    "matchedBy": [
+      "amenity=ferry_terminal",
+      "terminal-like name",
+      "Nominatim query: Havana cruise terminal, Cuba"
+    ],
+    "distanceFromPortMeters": 2509
+  },
+  "terminals": [
+    {
+      "id": "osm/generated/b57fd0e4c8021ca6df2e",
+      "name": "Terminal de Cruceros de La Habana",
+      "nameEnglish": "Havana Cruise Ship Terminal",
+      "lat": 23.1378294,
+      "lng": -82.3469918,
+      "address": "Avenida del Puerto, La Habana",
+      "source": "verified_terminal_candidate",
+      "sourceId": "osm/generated/b57fd0e4c8021ca6df2e",
+      "terminalType": "passenger_cruise_terminal",
+      "verified": true,
+      "notes": "Accepted 1 candidate explicitly identified as an ocean-cruise or cruise-passenger terminal; ferry and unrelated results were excluded.",
+      "sourceUrls": [],
+      "sources": [
+        "openstreetmap",
+        "nominatim"
+      ],
+      "sourceIds": [
+        "osm/generated/b57fd0e4c8021ca6df2e",
+        "osm/way/415366060"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "building": "yes",
+        "cargo": "passengers",
+        "ferry": "yes",
+        "name:en": "Havana Cruise Ship Terminal",
+        "public_transport": "station"
+      },
+      "matchedBy": [
+        "amenity=ferry_terminal",
+        "terminal-like name",
+        "Nominatim query: Havana cruise terminal, Cuba"
+      ],
+      "distanceFromPortMeters": 2509
+    }
+  ],
+  "terminalCandidateRadiusMeters": 5000,
+  "terminalCandidates": [
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/3e3a21316b20a20afe72",
+      "name": "Emboque de Luz",
+      "nameEnglish": "",
+      "lat": 23.1338225,
+      "lng": -82.3470808,
+      "distanceFromPortMeters": 2382,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "alt_name": "Muelle de Luz",
+        "amenity": "ferry_terminal",
+        "building": "yes",
+        "ferry": "yes",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/3e3a21316b20a20afe72"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/9b44fdf6681fe00bf36e",
+      "name": "Terminal de Cruceros Santa Maestra",
+      "nameEnglish": "",
+      "lat": 23.1359503,
+      "lng": -82.347241,
+      "distanceFromPortMeters": 2419,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal",
+        "terminal-like name"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/9b44fdf6681fe00bf36e"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/2c2ab6ccd074b43ae87e",
+      "name": "Lanchas a Casablanca y Regla",
+      "nameEnglish": "Ferries to Casa Blanca and Regla",
+      "lat": 23.1338277,
+      "lng": -82.3465529,
+      "distanceFromPortMeters": 2435,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "cargo": "passengers;bycicle",
+        "ferry": "yes",
+        "name:en": "Ferries to Casa Blanca and Regla",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/2c2ab6ccd074b43ae87e"
+      ]
+    },
+    {
+      "source": "openstreetmap+nominatim",
+      "sourceId": "osm/generated/b57fd0e4c8021ca6df2e",
+      "name": "Terminal de Cruceros de La Habana",
+      "nameEnglish": "Havana Cruise Ship Terminal",
+      "lat": 23.1378294,
+      "lng": -82.3469918,
+      "distanceFromPortMeters": 2509,
+      "address": "Avenida del Puerto, La Habana",
+      "matchedBy": [
+        "amenity=ferry_terminal",
+        "terminal-like name",
+        "Nominatim query: Havana cruise terminal, Cuba"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "building": "yes",
+        "cargo": "passengers",
+        "ferry": "yes",
+        "name:en": "Havana Cruise Ship Terminal",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap",
+        "nominatim"
+      ],
+      "sourceIds": [
+        "osm/generated/b57fd0e4c8021ca6df2e",
+        "osm/way/415366060"
+      ],
+      "displayName": "Terminal de Cruceros de La Habana, Avenida del Puerto (San Pedro), Plaza Vieja, La Habana, Habana del Este, 10104, Cuba",
+      "query": "Havana cruise terminal, Cuba"
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/2326e2c294ee3490adec",
+      "name": "Lanchita de Casablanca",
+      "nameEnglish": "Ferry of Casablanca",
+      "lat": 23.141932,
+      "lng": -82.344526,
+      "distanceFromPortMeters": 2923,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "name:en": "Ferry of Casablanca",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/2326e2c294ee3490adec"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d5dae0d221382fa5fe84",
+      "name": "Lanchita de Regla",
+      "nameEnglish": "",
+      "lat": 23.13273,
+      "lng": -82.337254,
+      "distanceFromPortMeters": 3362,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/d5dae0d221382fa5fe84"
+      ]
+    }
+  ],
+  "counts": {
+    "attraction": 11,
+    "outdoors": 4,
+    "food_drink": 12,
+    "shopping": 1,
+    "essentials": 1
+  },
+  "pois": [
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/8ffc17a235fd13557109",
+      "name": "Museo Masónico",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 23.1322051,
+      "lng": -82.3698787,
+      "distanceFromTerminalMeters": 246,
+      "distanceFromDefaultTerminalMeters": 246,
+      "minDistanceFromAnyTerminalMeters": 246,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Avenida Salvador Allende (Carlos III), Centro Habana",
+      "openingHours": "",
+      "website": "http://www.granlogiacuba.org/museo",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ae098ebde6cf15236093",
+      "name": "Museo 28 de Septiembre",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 23.1387374,
+      "lng": -82.35342,
+      "distanceFromTerminalMeters": 1954,
+      "distanceFromDefaultTerminalMeters": 1954,
+      "minDistanceFromAnyTerminalMeters": 1954,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "https://www.ecured.cu/Museo_28_de_Septiembre",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "ubicado en Obispo 310e/ Habana y Aguilar, en el capitalino municipio de La Habana Vieja",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/a06239602e18a3cae6c1",
+      "name": "Museo Nacional de la Música",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 23.1436829,
+      "lng": -82.3554491,
+      "distanceFromTerminalMeters": 2128,
+      "distanceFromDefaultTerminalMeters": 2128,
+      "minDistanceFromAnyTerminalMeters": 2128,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Calle Capdevila e/ Habana y Aguiar",
+      "openingHours": "",
+      "website": "https://www.centenariobenny.home.blog/",
+      "phone": "+53 (7) 861 9846;+53 7 863 0052",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "En este centro se encuentra información referente a la vida musical de Benny Moré",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/e5f4188ddbfe0bd29d12",
+      "name": "Vicente Hernández",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "gallery",
+      "lat": 23.136263,
+      "lng": -82.3908905,
+      "distanceFromTerminalMeters": 2247,
+      "distanceFromDefaultTerminalMeters": 2247,
+      "minDistanceFromAnyTerminalMeters": 2247,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "459 Calle E, La Habana, 10400",
+      "openingHours": "Mo-Sa 09:00-18:00",
+      "website": "https://vicentehh.com",
+      "phone": "+5358415648",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Estudio del pintor Vicente Hernández",
+      "osmTags": {
+        "tourism": "gallery"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f89cea0267552495001d",
+      "name": "ESTUDIO Chuli HERRERA",
+      "nameEnglish": "Chuli HERRERA STUDIO",
+      "category": "attraction",
+      "subcategory": "gallery",
+      "lat": 23.1411254,
+      "lng": -82.3557892,
+      "distanceFromTerminalMeters": 1908,
+      "distanceFromDefaultTerminalMeters": 1908,
+      "minDistanceFromAnyTerminalMeters": 1908,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "205 Chacón, La Habana Vieja, 10100",
+      "openingHours": "Mo-Fr 10:00-15:00",
+      "website": "https://www.chuliherrera.com",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "gallery"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/0d3b04176cfd2eeea062",
+      "name": "Museo de la Revolución",
+      "nameEnglish": "Museum of the Revolution",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 23.1415907,
+      "lng": -82.3566875,
+      "distanceFromTerminalMeters": 1875,
+      "distanceFromDefaultTerminalMeters": 1875,
+      "minDistanceFromAnyTerminalMeters": 1875,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Calle Refugio e/ Zulueta y Monserrate, La Habana",
+      "openingHours": "Mo-Su 10:00-17:00",
+      "website": "",
+      "phone": "+53 (7) 8622463, 8624091 al 98",
+      "cuisine": [],
+      "wheelchair": "no",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/5729923bce5c99308750",
+      "name": "ArteContinua",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 23.1346709,
+      "lng": -82.3637678,
+      "distanceFromTerminalMeters": 822,
+      "distanceFromDefaultTerminalMeters": 822,
+      "minDistanceFromAnyTerminalMeters": 822,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "108 Rayo",
+      "openingHours": "Mo-Su 10:00-18:00",
+      "website": "https://www.galleriacontinua.com/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/5131c679ba61fb7a5a76",
+      "name": "Walking Tour Havana behind the Scenes",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 23.1382613,
+      "lng": -82.3631352,
+      "distanceFromTerminalMeters": 1156,
+      "distanceFromDefaultTerminalMeters": 1156,
+      "minDistanceFromAnyTerminalMeters": 1156,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "257 Avenida de Italia (Galiano), La Habana",
+      "openingHours": "",
+      "website": "https://www.airbnb.com/experiences/328930",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Walking Tour Havana behind the Scenes",
+      "osmTags": {
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/7e8936589f4a063e846d",
+      "name": "Free Bike Tour",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 23.1384585,
+      "lng": -82.35531,
+      "distanceFromTerminalMeters": 1772,
+      "distanceFromDefaultTerminalMeters": 1772,
+      "minDistanceFromAnyTerminalMeters": 1772,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "O'Reilly, La Habana Vieja",
+      "openingHours": "Mo-Sa 15:20-18:00",
+      "website": "https://www.freetour.com/havana/free-bike-tour-havana",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c093dc4a9d50f2f9c5b7",
+      "name": "GUIDE Français Lassar",
+      "nameEnglish": "Coche 23",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 23.1370684,
+      "lng": -82.3583374,
+      "distanceFromTerminalMeters": 1428,
+      "distanceFromDefaultTerminalMeters": 1428,
+      "minDistanceFromAnyTerminalMeters": 1428,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1 Plaza del parque central, 10100",
+      "openingHours": "Mo-Sa 10:00-17:00",
+      "website": "",
+      "phone": "+53 52 506653",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f402e9c0878e1c9bf8c2",
+      "name": "Coco taxi",
+      "nameEnglish": "Coco taxi.unique in cuba",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 23.1433128,
+      "lng": -82.3784239,
+      "distanceFromTerminalMeters": 1713,
+      "distanceFromDefaultTerminalMeters": 1713,
+      "minDistanceFromAnyTerminalMeters": 1713,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Calle 23 (La Rampa)",
+      "openingHours": "24/7",
+      "website": "",
+      "phone": "+5352650901",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/26e29e7b49527f3ef747",
+      "name": "Parque Carlos Marx",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 23.1314182,
+      "lng": -82.3699359,
+      "distanceFromTerminalMeters": 158,
+      "distanceFromDefaultTerminalMeters": 158,
+      "minDistanceFromAnyTerminalMeters": 158,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Padre Varela (Belascoaín), Centro Habana",
+      "openingHours": "",
+      "website": "https://fotosdlahabana.com/parque-carlos-marx-belascoain-centro-habana/?fbclid=IwAR0imBqjsmayvhuPHEEW-3KIMVOOciwrdtXMFVe9zHsOU1dmP3msrPMnfZw",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/0e545b167fabb7ce81e2",
+      "name": "Camara Oscura",
+      "nameEnglish": "Dark Chamber",
+      "category": "outdoors",
+      "subcategory": "viewpoint",
+      "lat": 23.1363909,
+      "lng": -82.3497272,
+      "distanceFromTerminalMeters": 2191,
+      "distanceFromDefaultTerminalMeters": 2191,
+      "minDistanceFromAnyTerminalMeters": 2191,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Tu-Su 09:30-16:30",
+      "website": "https://youtu.be/5Qi_8W50a_U",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "viewpoint"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/2a3490cbcbbae443fd80",
+      "name": "Parque Finlay",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 23.1308526,
+      "lng": -82.3692622,
+      "distanceFromTerminalMeters": 121,
+      "distanceFromDefaultTerminalMeters": 121,
+      "minDistanceFromAnyTerminalMeters": 121,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Padre Varela (Belascoaín), Centro Habana",
+      "openingHours": "24/7",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/747a59d93b19b700e32b",
+      "name": "Parque Central",
+      "nameEnglish": "Central Park",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 23.1374743,
+      "lng": -82.3586735,
+      "distanceFromTerminalMeters": 1426,
+      "distanceFromDefaultTerminalMeters": 1426,
+      "minDistanceFromAnyTerminalMeters": 1426,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Paseo de Martí (Paseo del Prado), Habana Vieja",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "park",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d7c2789079a6783b6ffd",
+      "name": "Galycafé",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 23.1358983,
+      "lng": -82.3626736,
+      "distanceFromTerminalMeters": 996,
+      "distanceFromDefaultTerminalMeters": 996,
+      "minDistanceFromAnyTerminalMeters": 996,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "262 San José",
+      "openingHours": "Mo-Su 12:00-03:00",
+      "website": "https://conocecuba.com/galycafe",
+      "phone": "+5378634580",
+      "cuisine": [
+        "italian_pizza",
+        "fish",
+        "friture",
+        "coffee_shop",
+        "sandwich"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/fe721b292dfae18aee1c",
+      "name": "Casa Sol y Salsa - Casa particular",
+      "nameEnglish": "Casa Sol y Salsa - B&B (guesthouse)",
+      "category": "food_drink",
+      "subcategory": "bar",
+      "lat": 23.1376585,
+      "lng": -82.3671707,
+      "distanceFromTerminalMeters": 899,
+      "distanceFromDefaultTerminalMeters": 899,
+      "minDistanceFromAnyTerminalMeters": 899,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "558 Neptuno, entre Lealtad y Escobar, La Habana, 10300",
+      "openingHours": "24/7",
+      "website": "https://www.casasolysalsa.com",
+      "phone": "+53 5 348 3948",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "The B&B 'Casa Sol y Salsa' is the perfect choice for guests who love dance, music, art and nature. The nice and spacious colonial house is very colorful with many huge paintings of stunning city views. Beautiful terrace with many plants and flowers.",
+      "osmTags": {
+        "amenity": "bar",
+        "tourism": "guest_house"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/644fe5906e13c714d7f0",
+      "name": "El Café",
+      "nameEnglish": "El Cafe",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 23.1364347,
+      "lng": -82.3551493,
+      "distanceFromTerminalMeters": 1679,
+      "distanceFromDefaultTerminalMeters": 1679,
+      "minDistanceFromAnyTerminalMeters": 1679,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "358 Amargura, La Habana, 10400",
+      "openingHours": "Mo-Su 08:00-17:00",
+      "website": "https://elcafe.restaurantwebexperts.com/",
+      "phone": "+5378613817",
+      "cuisine": [
+        "breakfast",
+        "coffee_shop",
+        "sandwich",
+        "salad",
+        "burger"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/336636e799265fc534ac",
+      "name": "San Cristóbal",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 23.1362386,
+      "lng": -82.3663716,
+      "distanceFromTerminalMeters": 787,
+      "distanceFromDefaultTerminalMeters": 787,
+      "minDistanceFromAnyTerminalMeters": 787,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "469 San Rafael",
+      "openingHours": "Mo-Sa 12:00-00:00",
+      "website": "https://www.alamesacuba.com/es/la-habana/restaurant/san-cristobal/",
+      "phone": "+53 7 8601705",
+      "cuisine": [
+        "regional"
+      ],
+      "wheelchair": "limited",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/4c46eadb8aae6dd36eb6",
+      "name": "Paladar La Guarida",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 23.1383395,
+      "lng": -82.3683352,
+      "distanceFromTerminalMeters": 943,
+      "distanceFromDefaultTerminalMeters": 943,
+      "minDistanceFromAnyTerminalMeters": 943,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "418 Concordia",
+      "openingHours": "Mo-Su 12:00-00:00",
+      "website": "https://www.laguarida.com/",
+      "phone": "+53 7 866 9047",
+      "cuisine": [
+        "cuban"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/75a689c4984f973cf1a1",
+      "name": "Café Bohemia",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 23.1357738,
+      "lng": -82.350267,
+      "distanceFromTerminalMeters": 2117,
+      "distanceFromDefaultTerminalMeters": 2117,
+      "minDistanceFromAnyTerminalMeters": 2117,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "364 San Ignacio, 10100",
+      "openingHours": "Mo-Su 08:00-22:00",
+      "website": "https://conocecuba.com/cafe-Bohemia",
+      "phone": "+53780183311",
+      "cuisine": [
+        "local"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ba31e380368400e4525b",
+      "name": "Viejo Amigo",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 23.1343418,
+      "lng": -82.3647228,
+      "distanceFromTerminalMeters": 724,
+      "distanceFromDefaultTerminalMeters": 724,
+      "minDistanceFromAnyTerminalMeters": 724,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "356 Dragones, La Habana",
+      "openingHours": "",
+      "website": "https://www.alamesacuba.com/es/la-habana/restaurant/viejo-amigo/",
+      "phone": "+53 7 8618095",
+      "cuisine": [
+        "chinese"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/187a36768b06ad59cc68",
+      "name": "El Cuarto de Tula",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 23.138464,
+      "lng": -82.3772762,
+      "distanceFromTerminalMeters": 1200,
+      "distanceFromDefaultTerminalMeters": 1200,
+      "minDistanceFromAnyTerminalMeters": 1200,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1063 San Lázaro, Espada, 10400",
+      "openingHours": "Mo-Su 08:00-20:00",
+      "website": "https://www.elcuartodetula.com/",
+      "phone": "+53 78731177",
+      "cuisine": [
+        "caribbean",
+        "international",
+        "breakfast"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Hotel - Restaurant",
+      "osmTags": {
+        "amenity": "restaurant",
+        "tourism": "guest_house"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/312755d57129f15e16f4",
+      "name": "Nazdarovie",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 23.1449064,
+      "lng": -82.3593904,
+      "distanceFromTerminalMeters": 1981,
+      "distanceFromDefaultTerminalMeters": 1981,
+      "minDistanceFromAnyTerminalMeters": 1981,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "#25 Malecón (Avenida de Antonio Maceo)",
+      "openingHours": "12:00-24:00",
+      "website": "https://www.nazdarovie-havana.com/",
+      "phone": "+5378602947",
+      "cuisine": [
+        "russian"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Russian cuisine 2do Piso e/ Prado y Cárcel",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/79dce9855c8851dd039d",
+      "name": "El Patio",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 23.1409279,
+      "lng": -82.3518696,
+      "distanceFromTerminalMeters": 2217,
+      "distanceFromDefaultTerminalMeters": 2217,
+      "minDistanceFromAnyTerminalMeters": 2217,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "54 San Ignacio, La Habana, 10100",
+      "openingHours": "",
+      "website": "http://www.habaguanex.cu/restaurantes/restaurante-el-patio/",
+      "phone": "+537 861 8504",
+      "cuisine": [
+        "international"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Casa del Marqués de Aguas Claras",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/5b2d2e672f2e4bb0264d",
+      "name": "Don RicarDón",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 23.137314,
+      "lng": -82.3609131,
+      "distanceFromTerminalMeters": 1235,
+      "distanceFromDefaultTerminalMeters": 1235,
+      "minDistanceFromAnyTerminalMeters": 1235,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "352 Industria, La Habana",
+      "openingHours": "Mo-Su 12:00-00:00",
+      "website": "https://app.ricardon.com/",
+      "phone": "+5378660396 - +5378614325",
+      "cuisine": [
+        "pizza",
+        "regional",
+        "italian",
+        "seafood"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/1b9dfdbf122502ae2a01",
+      "name": "Mexico lindo y querido",
+      "nameEnglish": "!México Lindo... y que Rico!",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 23.1392636,
+      "lng": -82.3756849,
+      "distanceFromTerminalMeters": 1183,
+      "distanceFromDefaultTerminalMeters": 1183,
+      "minDistanceFromAnyTerminalMeters": 1183,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "966 San Lázaro, 10400",
+      "openingHours": "Mo-Su 09:00-23:00",
+      "website": "",
+      "phone": "+5352529216",
+      "cuisine": [
+        "mexican",
+        "caribbean",
+        "italian_pizza",
+        "breakfast",
+        "friture",
+        "burger",
+        "ice_cream",
+        "seafood",
+        "pasta",
+        "grill",
+        "hotdog",
+        "fish",
+        "pizza",
+        "chicken",
+        "ramen",
+        "sandwich",
+        "noodles",
+        "pancake"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/8ede5ff36a09fec0e0c5",
+      "name": "Centro Comercial Carlos III",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "mall",
+      "lat": 23.1308365,
+      "lng": -82.3743639,
+      "distanceFromTerminalMeters": 456,
+      "distanceFromDefaultTerminalMeters": 456,
+      "minDistanceFromAnyTerminalMeters": 456,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Avenida Salvador Allende (Carlos III), Centro Habana",
+      "openingHours": "Mo-Su 10:00-18:00",
+      "website": "https://www.carlostercero.ca/",
+      "phone": "78736373",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "shop": "mall"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b5a1388f56870df2e494",
+      "name": "Casas cubanas",
+      "nameEnglish": "Casas cubanas",
+      "category": "essentials",
+      "subcategory": "visitor_information",
+      "lat": 23.1422997,
+      "lng": -82.385906,
+      "distanceFromTerminalMeters": 2125,
+      "distanceFromDefaultTerminalMeters": 2125,
+      "minDistanceFromAnyTerminalMeters": 2125,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "212 Calle L",
+      "openingHours": "Mo-Fr 09:00-18:00; Sa-Su 09:00-13:00",
+      "website": "http://www.casascubanas.com",
+      "phone": "+53 54267464",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "information"
+      }
+    }
+  ],
+  "portAnchor": {
+    "id": "ports-json-anchor",
+    "name": "BAHAI DE LA HABANA Port",
+    "lat": 23.13,
+    "lng": -82.37,
+    "address": "Havana, La Habana, Cuba",
+    "source": "ports.json",
+    "sourceId": "",
+    "score": 0,
+    "slug": "bahai-de-la-habana-port"
+  },
+  "terminalResolution": {
+    "status": "resolved",
+    "method": "accepted_terminal_candidate",
+    "verified": true,
+    "notes": "Accepted 1 candidate explicitly identified as an ocean-cruise or cruise-passenger terminal; ferry and unrelated results were excluded."
+  }
+}

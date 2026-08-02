@@ -1,0 +1,424 @@
+{
+  "schemaVersion": 5,
+  "catalogType": "curation-candidates",
+  "generatedAt": "2026-07-30T08:53:14.328Z",
+  "source": "openstreetmap",
+  "sourceExtract": "shandong-latest.osm.pbf",
+  "radiusMeters": 10000,
+  "port": {
+    "id": "huangdao-district-china",
+    "city": "Huangdao District",
+    "country": "China"
+  },
+  "defaultTerminalId": "ports-json-anchor",
+  "terminal": {
+    "id": "ports-json-anchor",
+    "name": "QINGDAO GANG Port",
+    "lat": 36.03,
+    "lng": 120.27,
+    "address": "Huangdao District, Shandong, China",
+    "source": "ports.json",
+    "sourceId": "",
+    "score": 0,
+    "slug": "qingdao-gang-port"
+  },
+  "terminals": [
+    {
+      "id": "ports-json-anchor",
+      "name": "QINGDAO GANG Port",
+      "lat": 36.03,
+      "lng": 120.27,
+      "address": "Huangdao District, Shandong, China",
+      "source": "ports.json",
+      "sourceId": "",
+      "score": 0,
+      "slug": "qingdao-gang-port"
+    }
+  ],
+  "terminalCandidateRadiusMeters": 5000,
+  "terminalCandidates": [
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b9763dd3bc4fb188c531",
+      "name": "快船码头",
+      "nameEnglish": "",
+      "lat": 36.0465598,
+      "lng": 120.2289262,
+      "distanceFromPortMeters": 4127,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "cargo": "passengers",
+        "ferry": "yes",
+        "operator": "青岛正和海上客运旅游有限公司",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/b9763dd3bc4fb188c531"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/dc57464589ccac5228da",
+      "name": "黄岛",
+      "nameEnglish": "",
+      "lat": 36.0456886,
+      "lng": 120.2283083,
+      "distanceFromPortMeters": 4135,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/dc57464589ccac5228da"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/41a52aa943df2b0d049c",
+      "name": "(unnamed maritime feature)",
+      "nameEnglish": "",
+      "lat": 36.046969,
+      "lng": 120.2281488,
+      "distanceFromPortMeters": 4210,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "building": "yes",
+        "ferry": "yes",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/41a52aa943df2b0d049c"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/e02b579130b54bc21cda",
+      "name": "青岛轮渡站",
+      "nameEnglish": "Qingdao Ferry Terminal",
+      "lat": 36.0672777,
+      "lng": 120.2965219,
+      "distanceFromPortMeters": 4782,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "building": "yes",
+        "ferry": "yes",
+        "name:en": "Qingdao Ferry Terminal",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/e02b579130b54bc21cda"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/409295808f205de619f8",
+      "name": "(unnamed maritime feature)",
+      "nameEnglish": "",
+      "lat": 36.0677592,
+      "lng": 120.2954888,
+      "distanceFromPortMeters": 4783,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/409295808f205de619f8"
+      ]
+    }
+  ],
+  "counts": {
+    "attraction": 2,
+    "outdoors": 2,
+    "food_drink": 3,
+    "shopping": 2,
+    "essentials": 0
+  },
+  "pois": [
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ca4c958441f566e4db52",
+      "name": "游内山灯塔",
+      "nameEnglish": "Youneishan Lighthouse",
+      "category": "attraction",
+      "subcategory": "lighthouse",
+      "lat": 36.0447767,
+      "lng": 120.2826218,
+      "distanceFromTerminalMeters": 1997,
+      "distanceFromDefaultTerminalMeters": 1997,
+      "minDistanceFromAnyTerminalMeters": 1997,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "man_made": "lighthouse"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/e8fabbf74ce22ef95deb",
+      "name": "U·Sea奇幻海世界",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "theme_park",
+      "lat": 36.0573203,
+      "lng": 120.3079271,
+      "distanceFromTerminalMeters": 4567,
+      "distanceFromDefaultTerminalMeters": 4567,
+      "minDistanceFromAnyTerminalMeters": 4567,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "2 西陵峡路",
+      "openingHours": "Mo-Su 09:30-18:00",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "元宇宙数字海洋主题乐园",
+      "osmTags": {
+        "tourism": "theme_park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b67c79c05cd3a831f406",
+      "name": "八大峡广场",
+      "nameEnglish": "Badaxia Square",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 36.0528807,
+      "lng": 120.3046678,
+      "distanceFromTerminalMeters": 4024,
+      "distanceFromDefaultTerminalMeters": 4024,
+      "minDistanceFromAnyTerminalMeters": 4024,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/7aee9d657d632ff7776e",
+      "name": "Guizhou Road",
+      "nameEnglish": "Guizhou Road",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 36.0586988,
+      "lng": 120.3056811,
+      "distanceFromTerminalMeters": 4525,
+      "distanceFromDefaultTerminalMeters": 4525,
+      "minDistanceFromAnyTerminalMeters": 4525,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ed58cb94f72a09d46bae",
+      "name": "85度C",
+      "nameEnglish": "85C Bakery Cafe",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 36.0656417,
+      "lng": 120.2961111,
+      "distanceFromTerminalMeters": 4606,
+      "distanceFromDefaultTerminalMeters": 4606,
+      "minDistanceFromAnyTerminalMeters": 4606,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [
+        "coffee_shop"
+      ],
+      "wheelchair": "",
+      "brand": "85度C",
+      "description": "",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/6d91b4be10f81987e873",
+      "name": "阿香米线",
+      "nameEnglish": "AXIANG Rice Noodles",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 36.0578999,
+      "lng": 120.3037174,
+      "distanceFromTerminalMeters": 4338,
+      "distanceFromDefaultTerminalMeters": 4338,
+      "minDistanceFromAnyTerminalMeters": 4338,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [
+        "chinese",
+        "rice_noodles"
+      ],
+      "wheelchair": "",
+      "brand": "阿香米线",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f85fada47610dae922df",
+      "name": "塔斯汀",
+      "nameEnglish": "Tastien",
+      "category": "food_drink",
+      "subcategory": "fast_food",
+      "lat": 36.0649884,
+      "lng": 120.2964882,
+      "distanceFromTerminalMeters": 4562,
+      "distanceFromDefaultTerminalMeters": 4562,
+      "minDistanceFromAnyTerminalMeters": 4562,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [
+        "burger"
+      ],
+      "wheelchair": "",
+      "brand": "塔斯汀",
+      "description": "",
+      "osmTags": {
+        "amenity": "fast_food"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/92169fc67339acd5f808",
+      "name": "青岛金茂湾购物中心",
+      "nameEnglish": "Qingdao Jinmao Harbour Shopping Center",
+      "category": "shopping",
+      "subcategory": "mall",
+      "lat": 36.0661852,
+      "lng": 120.2957337,
+      "distanceFromTerminalMeters": 4641,
+      "distanceFromDefaultTerminalMeters": 4641,
+      "minDistanceFromAnyTerminalMeters": 4641,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "四川路, 青岛市",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "shop": "mall"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/2bbe73c62fdf87a4404c",
+      "name": "嘉祥路农贸市场",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "marketplace",
+      "lat": 36.0652019,
+      "lng": 120.2999607,
+      "distanceFromTerminalMeters": 4752,
+      "distanceFromDefaultTerminalMeters": 4752,
+      "minDistanceFromAnyTerminalMeters": 4752,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "marketplace"
+      }
+    }
+  ],
+  "portAnchor": {
+    "id": "ports-json-anchor",
+    "name": "QINGDAO GANG Port",
+    "lat": 36.03,
+    "lng": 120.27,
+    "address": "Huangdao District, Shandong, China",
+    "source": "ports.json",
+    "sourceId": "",
+    "score": 0,
+    "slug": "qingdao-gang-port"
+  },
+  "terminalResolution": {
+    "status": "unresolved",
+    "method": "ports_json_fallback",
+    "verified": false,
+    "notes": "All supplied candidates are ferry-only stops, local docks, unnamed maritime features, or unrelated places rather than passenger cruise terminals."
+  }
+}

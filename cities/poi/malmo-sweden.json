@@ -1,0 +1,1057 @@
+{
+  "schemaVersion": 5,
+  "catalogType": "curation-candidates",
+  "generatedAt": "2026-07-30T09:09:01.495Z",
+  "source": "openstreetmap",
+  "sourceExtract": "sweden-latest.osm.pbf",
+  "radiusMeters": 10000,
+  "port": {
+    "id": "malmo-sweden",
+    "city": "Malmo",
+    "country": "Sweden"
+  },
+  "defaultTerminalId": "osm/way/52243626",
+  "terminal": {
+    "id": "osm/way/52243626",
+    "name": "Cruise Terminal Malmö",
+    "nameEnglish": "",
+    "lat": 55.6159128,
+    "lng": 13.0016293,
+    "address": "Cruise Terminal Malmö, Grimsbygatan, Inre Hamnen, Norr, Malmö, Malmö kommun, Skåne län, 211 20, Sverige",
+    "source": "verified_terminal_candidate",
+    "sourceId": "osm/way/52243626",
+    "terminalType": "passenger_cruise_terminal",
+    "verified": true,
+    "notes": "Accepted 1 candidate explicitly identified as an ocean-cruise or cruise-passenger terminal; ferry and unrelated results were excluded.",
+    "sourceUrls": [],
+    "sources": [
+      "nominatim"
+    ],
+    "sourceIds": [
+      "osm/way/52243626"
+    ],
+    "osmTags": {},
+    "matchedBy": [
+      "Nominatim query: Malmo cruise terminal, Sweden"
+    ],
+    "distanceFromPortMeters": 466
+  },
+  "terminals": [
+    {
+      "id": "osm/way/52243626",
+      "name": "Cruise Terminal Malmö",
+      "nameEnglish": "",
+      "lat": 55.6159128,
+      "lng": 13.0016293,
+      "address": "Cruise Terminal Malmö, Grimsbygatan, Inre Hamnen, Norr, Malmö, Malmö kommun, Skåne län, 211 20, Sverige",
+      "source": "verified_terminal_candidate",
+      "sourceId": "osm/way/52243626",
+      "terminalType": "passenger_cruise_terminal",
+      "verified": true,
+      "notes": "Accepted 1 candidate explicitly identified as an ocean-cruise or cruise-passenger terminal; ferry and unrelated results were excluded.",
+      "sourceUrls": [],
+      "sources": [
+        "nominatim"
+      ],
+      "sourceIds": [
+        "osm/way/52243626"
+      ],
+      "osmTags": {},
+      "matchedBy": [
+        "Nominatim query: Malmo cruise terminal, Sweden"
+      ],
+      "distanceFromPortMeters": 466
+    }
+  ],
+  "terminalCandidateRadiusMeters": 5000,
+  "terminalCandidates": [
+    {
+      "source": "nominatim",
+      "sourceId": "osm/way/52243626",
+      "osmType": "way",
+      "osmId": "52243626",
+      "name": "Cruise Terminal Malmö",
+      "nameEnglish": "",
+      "lat": 55.6159128,
+      "lng": 13.0016293,
+      "distanceFromPortMeters": 466,
+      "address": "Cruise Terminal Malmö, Grimsbygatan, Inre Hamnen, Norr, Malmö, Malmö kommun, Skåne län, 211 20, Sverige",
+      "displayName": "Cruise Terminal Malmö, Grimsbygatan, Inre Hamnen, Norr, Malmö, Malmö kommun, Skåne län, 211 20, Sverige",
+      "query": "Malmo cruise terminal, Sweden",
+      "matchedBy": [
+        "Nominatim query: Malmo cruise terminal, Sweden"
+      ],
+      "osmTags": {},
+      "sources": [
+        "nominatim"
+      ],
+      "sourceIds": [
+        "osm/way/52243626"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/eb97b52818f2d8118f74",
+      "name": "(unnamed maritime feature)",
+      "nameEnglish": "",
+      "lat": 55.6265262,
+      "lng": 12.9916657,
+      "distanceFromPortMeters": 895,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/eb97b52818f2d8118f74"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b1f852a6f8b623e477bf",
+      "name": "(unnamed maritime feature)",
+      "nameEnglish": "",
+      "lat": 55.6272989,
+      "lng": 12.9900069,
+      "distanceFromPortMeters": 1026,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/b1f852a6f8b623e477bf"
+      ]
+    }
+  ],
+  "counts": {
+    "attraction": 14,
+    "outdoors": 5,
+    "food_drink": 12,
+    "shopping": 3,
+    "essentials": 0
+  },
+  "pois": [
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c6d00f6043fbe578949e",
+      "name": "Bore",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 55.6116471,
+      "lng": 12.9970506,
+      "distanceFromTerminalMeters": 947,
+      "distanceFromDefaultTerminalMeters": 947,
+      "minDistanceFromAnyTerminalMeters": 947,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "10 Skeppsbron, Malmö, 211 20",
+      "openingHours": "",
+      "website": "https://malmo.se/Uppleva-och-gora/Konst-och-museer/Bore.html",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/83e3be07b70b6eb76973",
+      "name": "Disgusting Food Museum",
+      "nameEnglish": "Disgusting Food Museum",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 55.6008966,
+      "lng": 13.0013096,
+      "distanceFromTerminalMeters": 2126,
+      "distanceFromDefaultTerminalMeters": 2126,
+      "minDistanceFromAnyTerminalMeters": 2126,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "2 Södra Förstadsgatan, Malmö, 21120, SE",
+      "openingHours": "We-Su 12:00-18:00",
+      "website": "https://disgustingfoodmuseum.com",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/7e5d186b89b91bc4cdb0",
+      "name": "Form Design Center",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 55.6045029,
+      "lng": 12.9992059,
+      "distanceFromTerminalMeters": 1724,
+      "distanceFromDefaultTerminalMeters": 1724,
+      "minDistanceFromAnyTerminalMeters": 1724,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Tu-Sa 11:00-17:00; Su 12:00-16:00",
+      "website": "https://www.formdesigncenter.com/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/2dacea73e643beb82fb4",
+      "name": "Moderna Museet",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 55.6046324,
+      "lng": 13.0095667,
+      "distanceFromTerminalMeters": 1811,
+      "distanceFromDefaultTerminalMeters": 1811,
+      "minDistanceFromAnyTerminalMeters": 1811,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "2-4 Ola Billgrens plats, Malmö",
+      "openingHours": "Tu-We,Fr-Su 11:00-17:00; Th 11:00-19:00",
+      "website": "https://www.modernamuseet.se/malmo/sv/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c3cdbbeb5f6ea8f2c2ae",
+      "name": "Digitaliseum",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "gallery",
+      "lat": 55.6153266,
+      "lng": 13.0209064,
+      "distanceFromTerminalMeters": 1412,
+      "distanceFromDefaultTerminalMeters": 1412,
+      "minDistanceFromAnyTerminalMeters": 1412,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1 Lodgatan",
+      "openingHours": "We, Th 17:00-19:00; Sa 12:00-16:00",
+      "website": "https://digitaliseum.org/",
+      "phone": "+46 708 255 556",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "gallery"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/43f4691178e298ee0e44",
+      "name": "Kipi Konsthall",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "gallery",
+      "lat": 55.6155616,
+      "lng": 13.0203011,
+      "distanceFromTerminalMeters": 1367,
+      "distanceFromDefaultTerminalMeters": 1367,
+      "minDistanceFromAnyTerminalMeters": 1367,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "4 Lodgatan, Malmö, 211 24",
+      "openingHours": "",
+      "website": "https://kipi.se",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "gallery"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/5af0d602741314285bfe",
+      "name": "Naturum Öresund",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "aquarium",
+      "lat": 55.5981779,
+      "lng": 12.9474653,
+      "distanceFromTerminalMeters": 4096,
+      "distanceFromDefaultTerminalMeters": 4096,
+      "minDistanceFromAnyTerminalMeters": 4096,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "4 Ribersborgsstigen, Malmö, 216 13, SE",
+      "openingHours": "Tu-Fr 12:00-16:30; Sa 11:00-15:00",
+      "website": "https://www.naturumoresund.se/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "Marinpedagogisk verksamhet, naturum Öresund, akvarier och utställning",
+      "osmTags": {
+        "tourism": "aquarium"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/153cad6d571b68a0158b",
+      "name": "Länsresidenset Malmö",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "castle",
+      "lat": 55.6069199,
+      "lng": 13.0010067,
+      "distanceFromTerminalMeters": 1456,
+      "distanceFromDefaultTerminalMeters": 1456,
+      "minDistanceFromAnyTerminalMeters": 1456,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "castle"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/39fa0651d069e48a69ae",
+      "name": "Malmöhus slott",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "castle",
+      "lat": 55.6047852,
+      "lng": 12.9871145,
+      "distanceFromTerminalMeters": 1875,
+      "distanceFromDefaultTerminalMeters": 1875,
+      "minDistanceFromAnyTerminalMeters": 1875,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "castle"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/cc157ca13fcb5a54dcfb",
+      "name": "Scaniabadet",
+      "nameEnglish": "Scania Public Bath",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 55.617435,
+      "lng": 12.9745619,
+      "distanceFromTerminalMeters": 1623,
+      "distanceFromDefaultTerminalMeters": 1623,
+      "minDistanceFromAnyTerminalMeters": 1623,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Scaniastigen, 211 14",
+      "openingHours": "24/7",
+      "website": "https://malmo.se/Uppleva-och-gora/Bada-och-simma/Strander-och-badplatser/Scaniabadet.html",
+      "phone": "+4640341000",
+      "cuisine": [],
+      "wheelchair": "limited",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/72cfd55dd1ca5aa3e742",
+      "name": "Skeppsbrokajen",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "square",
+      "lat": 55.6112676,
+      "lng": 12.9973966,
+      "distanceFromTerminalMeters": 985,
+      "distanceFromDefaultTerminalMeters": 985,
+      "minDistanceFromAnyTerminalMeters": 985,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Skeppsbrokajen has been turned into a temporary pedestrian plaza since at least 2023 as a pilot project.",
+      "osmTags": {
+        "place": "square"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/701285858e729be31999",
+      "name": "Prison Island",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "theme_park",
+      "lat": 55.6068797,
+      "lng": 13.0200403,
+      "distanceFromTerminalMeters": 1927,
+      "distanceFromDefaultTerminalMeters": 1927,
+      "minDistanceFromAnyTerminalMeters": 1927,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "theme_park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/7aadfb581da158f95118",
+      "name": "Ekotemplet",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "monument",
+      "lat": 55.5910192,
+      "lng": 12.9908754,
+      "distanceFromTerminalMeters": 3273,
+      "distanceFromDefaultTerminalMeters": 3273,
+      "minDistanceFromAnyTerminalMeters": 3273,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Uppfördes vid ingången till Baltiska Utställningen 1914. Rtad av Ferdinand Boberg.",
+      "osmTags": {
+        "historic": "monument"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f231f3cf17ec3935c162",
+      "name": "Brunnskar",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "monument",
+      "lat": 55.5904661,
+      "lng": 12.9909561,
+      "distanceFromTerminalMeters": 3333,
+      "distanceFromDefaultTerminalMeters": 3333,
+      "minDistanceFromAnyTerminalMeters": 3333,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Uppfördes vid ingången till Baltiska Utställningen 1914. Ritades av Ferdinand Boberg.",
+      "osmTags": {
+        "historic": "monument"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/3b02d20c257f037b5322",
+      "name": "Ribersborgsstranden",
+      "nameEnglish": "Ribersborg Beach",
+      "category": "outdoors",
+      "subcategory": "beach",
+      "lat": 55.6023981,
+      "lng": 12.9604528,
+      "distanceFromTerminalMeters": 3162,
+      "distanceFromDefaultTerminalMeters": 3162,
+      "minDistanceFromAnyTerminalMeters": 3162,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "https://malmo.se/Uppleva-och-gora/Bada-och-simma/Strander-och-badplatser/Ribersborgsstranden.html",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "natural": "beach"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d2905554f155fa08ac1f",
+      "name": "Stapelbäddens Trädgård",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "garden",
+      "lat": 55.6120885,
+      "lng": 12.9852522,
+      "distanceFromTerminalMeters": 1277,
+      "distanceFromDefaultTerminalMeters": 1277,
+      "minDistanceFromAnyTerminalMeters": 1277,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "https://www.stapelbaddenstradgard.se/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Stapelbäddens trädgård is a community urban garden on a rooftop of what used to be a slipway in Västra Hamnen, Malmö.",
+      "osmTags": {
+        "leisure": "garden"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/7f41e098676a67c0f9ef",
+      "name": "Klimatträdgården",
+      "nameEnglish": "Climate Garden",
+      "category": "outdoors",
+      "subcategory": "garden",
+      "lat": 55.6038334,
+      "lng": 12.9883683,
+      "distanceFromTerminalMeters": 1940,
+      "distanceFromDefaultTerminalMeters": 1940,
+      "minDistanceFromAnyTerminalMeters": 1940,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "garden"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/657ee2c327eb2a4e8071",
+      "name": "Turboträdgården",
+      "nameEnglish": "Turbo Garden",
+      "category": "outdoors",
+      "subcategory": "garden",
+      "lat": 55.6037927,
+      "lng": 12.9881256,
+      "distanceFromTerminalMeters": 1950,
+      "distanceFromDefaultTerminalMeters": 1950,
+      "minDistanceFromAnyTerminalMeters": 1950,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "garden"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/83df9fbab4695897e31e",
+      "name": "Slottträdgårdens Kafé-trädgård",
+      "nameEnglish": "Slottträdgårde's Café Garden",
+      "category": "outdoors",
+      "subcategory": "garden",
+      "lat": 55.6035734,
+      "lng": 12.988732,
+      "distanceFromTerminalMeters": 1959,
+      "distanceFromDefaultTerminalMeters": 1959,
+      "minDistanceFromAnyTerminalMeters": 1959,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "garden"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/cc4a60447942da6f7486",
+      "name": "Surf Shack Beach Diner",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 55.6041322,
+      "lng": 12.9794436,
+      "distanceFromTerminalMeters": 2186,
+      "distanceFromDefaultTerminalMeters": 2186,
+      "minDistanceFromAnyTerminalMeters": 2186,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Peterstorpsvägen",
+      "openingHours": "Mo-Th 11:00-21:00; Fr-Sa 11:00-22:00; Su 11:30-20:00",
+      "website": "https://surfshacksmashburgers.com/",
+      "phone": "+46763089967",
+      "cuisine": [
+        "burger"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/32be28603c4134bbc142",
+      "name": "Saltimporten",
+      "nameEnglish": "Saltimporten Canteen",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 55.616066,
+      "lng": 12.9971197,
+      "distanceFromTerminalMeters": 473,
+      "distanceFromDefaultTerminalMeters": 473,
+      "minDistanceFromAnyTerminalMeters": 473,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "24 Grimsbygatan, Malmö, SE",
+      "openingHours": "Mo-Fr 12:00-14:00",
+      "website": "http://www.saltimporten.com/",
+      "phone": "",
+      "cuisine": [
+        "regional"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/9350c0745b8504527cd0",
+      "name": "Dojo Sushi",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 55.6154864,
+      "lng": 12.9902665,
+      "distanceFromTerminalMeters": 791,
+      "distanceFromDefaultTerminalMeters": 791,
+      "minDistanceFromAnyTerminalMeters": 791,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "2 Krankajen, Malmö, 211 12, SE",
+      "openingHours": "Mo-Th 11:00-21:30; Fr 11:00-22:30; Sa 12:00-22:30; Su 12:00-21:00",
+      "website": "https://dojosushi.se/",
+      "phone": "+46 40 12 29 60",
+      "cuisine": [
+        "sushi"
+      ],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/e7026803c5c664895013",
+      "name": "Glasklart",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 55.6152476,
+      "lng": 12.9904305,
+      "distanceFromTerminalMeters": 800,
+      "distanceFromDefaultTerminalMeters": 800,
+      "minDistanceFromAnyTerminalMeters": 800,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1 Dockplatsen, Malmö, 211 19, SE",
+      "openingHours": "Mo-Fr 11:15-13:30",
+      "website": "https://glasklart.eu/",
+      "phone": "+46 40 661 00 19",
+      "cuisine": [
+        "regional"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/9ebf063cbb599fef4425",
+      "name": "La Fonderie",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 55.6110522,
+      "lng": 12.9915462,
+      "distanceFromTerminalMeters": 1128,
+      "distanceFromDefaultTerminalMeters": 1128,
+      "minDistanceFromAnyTerminalMeters": 1128,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "10 Ångfärjekajen, Malmö, 211 19",
+      "openingHours": "Mo-Fr 11:30-15:00 Tue-Sat 17:00-late",
+      "website": "https://www.lafonderie.se/",
+      "phone": "+46 72 748 44 03",
+      "cuisine": [
+        "french"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/a40be9b54ea615a3e243",
+      "name": "Aro Deli",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 55.6094447,
+      "lng": 12.9939079,
+      "distanceFromTerminalMeters": 1234,
+      "distanceFromDefaultTerminalMeters": 1234,
+      "minDistanceFromAnyTerminalMeters": 1234,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "2A Beijerskajen, Malmö, 211 19",
+      "openingHours": "Mo-Tu 11:00-17:00,We-Fr 11:00-15:00,We-Fr 17:00-21:00,Sa 12:00-20:00",
+      "website": "https://www.arodeli.se/",
+      "phone": "+46 70 870 79 00",
+      "cuisine": [
+        "italian"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/360af744a516e0e6dcf8",
+      "name": "Haqvin",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 55.6081289,
+      "lng": 13.0074286,
+      "distanceFromTerminalMeters": 1400,
+      "distanceFromDefaultTerminalMeters": 1400,
+      "minDistanceFromAnyTerminalMeters": 1400,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "7b Östergatan, Malmö, SE",
+      "openingHours": "Tu-Th 16:00-22:00; Fr-Sa 15:30-24:00",
+      "website": "https://www.haqvin.nu/",
+      "phone": "+46760304421",
+      "cuisine": [
+        "international",
+        "cocktails"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/cc94bc832aa97255d078",
+      "name": "Papi",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 55.607922,
+      "lng": 12.9911234,
+      "distanceFromTerminalMeters": 1454,
+      "distanceFromDefaultTerminalMeters": 1454,
+      "minDistanceFromAnyTerminalMeters": 1454,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "211 18",
+      "openingHours": "Mo-Th 11:00-20:00; Fr-Sa 11:00-21:00; Su 11:30-17:00",
+      "website": "https://www.papisaluhallen.se/",
+      "phone": "+46 40 23 03 03",
+      "cuisine": [
+        "italian"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/2b71bb392b5108419671",
+      "name": "Zushi",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 55.608405,
+      "lng": 13.0107324,
+      "distanceFromTerminalMeters": 1455,
+      "distanceFromDefaultTerminalMeters": 1455,
+      "minDistanceFromAnyTerminalMeters": 1455,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "4 Drottningtorget, Malmö, 21125, SE",
+      "openingHours": "Tu-Th 16:30-22:00; Fr-Sa 16:30-24:00; Su 16:00-21:30",
+      "website": "https://zushi.se/malmo/",
+      "phone": "+46 40 21 28 80",
+      "cuisine": [
+        "sushi"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/476a2166ab5684496bd4",
+      "name": "Thap Thim",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 55.6067208,
+      "lng": 12.997288,
+      "distanceFromTerminalMeters": 1486,
+      "distanceFromDefaultTerminalMeters": 1486,
+      "minDistanceFromAnyTerminalMeters": 1486,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "9 Västergatan, Malmö, 211 21, SE",
+      "openingHours": "Mo-Fr 11:30-21:00;Sa-Su 15:00-21:00",
+      "website": "http://www.thapthim.dinstudio.se/",
+      "phone": "+46 40 23 10 61",
+      "cuisine": [
+        "thai"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/4cbd7fbaef7d40f20827",
+      "name": "Ruths",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 55.6061645,
+      "lng": 12.9976916,
+      "distanceFromTerminalMeters": 1545,
+      "distanceFromDefaultTerminalMeters": 1545,
+      "minDistanceFromAnyTerminalMeters": 1545,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "11 Mäster Johansgatan, Malmö, 211 21, SE",
+      "openingHours": "Mo-Fr 07:30-00:00; Sa 08:00-00:00",
+      "website": "https://ruthsmalmo.se/",
+      "phone": "+4640121318",
+      "cuisine": [
+        "regional",
+        "international",
+        "frukost"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/e8aff7250573e1f9e4ca",
+      "name": "Syltan Kök & Bar",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 55.6080921,
+      "lng": 13.0144393,
+      "distanceFromTerminalMeters": 1605,
+      "distanceFromDefaultTerminalMeters": 1605,
+      "minDistanceFromAnyTerminalMeters": 1605,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "2 Östra Förstadsgatan, Malmö, 21131, SE",
+      "openingHours": "Tu-Th 17:00-24:00; Fr-Sa 15:00-00:00; Sa-Su 00:00-01:00",
+      "website": "https://www.syltan.com/",
+      "phone": "+46 40 12 52 55",
+      "cuisine": [
+        "international",
+        "svensk",
+        "skagenröra",
+        "burrata",
+        "inkokt_päron",
+        "ostbricka",
+        "råbiff",
+        "hamburgare",
+        "köttbullar",
+        "ölglass",
+        "moules_frites",
+        "raggmunk",
+        "caesarsallad",
+        "stekt_sill"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/6f7e364a17dfc3c4fcf3",
+      "name": "Entré",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "mall",
+      "lat": 55.6076604,
+      "lng": 13.0247791,
+      "distanceFromTerminalMeters": 2075,
+      "distanceFromDefaultTerminalMeters": 2075,
+      "minDistanceFromAnyTerminalMeters": 2075,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Su 06:30-00:00",
+      "website": "https://www.entremalmo.se/",
+      "phone": "+46406200050",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "shop": "mall"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/a5bd7bb60e9ca5f7c56d",
+      "name": "Kv. Caroli",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "mall",
+      "lat": 55.607673,
+      "lng": 13.0073805,
+      "distanceFromTerminalMeters": 1447,
+      "distanceFromDefaultTerminalMeters": 1447,
+      "minDistanceFromAnyTerminalMeters": 1447,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "12 Östergatan, Malmö, SE",
+      "openingHours": "",
+      "website": "https://caroli.se",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "shop": "mall"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/168257c0003935621dcb",
+      "name": "Malmö Saluhall",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "marketplace",
+      "lat": 55.6078421,
+      "lng": 12.9908519,
+      "distanceFromTerminalMeters": 1469,
+      "distanceFromDefaultTerminalMeters": 1469,
+      "minDistanceFromAnyTerminalMeters": 1469,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "6 Gibraltargatan, Malmö, 211 18, SE",
+      "openingHours": "Mo-Th 11:00-20:00; Fr,Sa 11:00-21:00; Su 11:00-17:00",
+      "website": "https://www.malmosaluhall.se",
+      "phone": "+46 40 6267730",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "marketplace"
+      }
+    }
+  ],
+  "portAnchor": {
+    "id": "ports-json-anchor",
+    "name": "MALMO Port",
+    "lat": 55.62,
+    "lng": 13,
+    "address": "Malmo, Skåne, Sweden",
+    "source": "ports.json",
+    "sourceId": "",
+    "score": 0,
+    "slug": "malmo-port"
+  },
+  "terminalResolution": {
+    "status": "resolved",
+    "method": "accepted_terminal_candidate",
+    "verified": true,
+    "notes": "Accepted 1 candidate explicitly identified as an ocean-cruise or cruise-passenger terminal; ferry and unrelated results were excluded."
+  }
+}

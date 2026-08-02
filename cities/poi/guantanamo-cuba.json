@@ -1,0 +1,180 @@
+{
+  "schemaVersion": 5,
+  "catalogType": "curation-candidates",
+  "generatedAt": "2026-07-30T07:52:20.848Z",
+  "source": "openstreetmap",
+  "sourceExtract": "cuba-latest.osm.pbf",
+  "radiusMeters": 10000,
+  "port": {
+    "id": "guantanamo-cuba",
+    "city": "Guantanamo",
+    "country": "Cuba"
+  },
+  "defaultTerminalId": "ports-json-anchor",
+  "terminal": {
+    "id": "ports-json-anchor",
+    "name": "PUERTO GUANTANAMO Port",
+    "lat": 19.98,
+    "lng": -75.13,
+    "address": "Guantanamo, Guantanamo, Cuba",
+    "source": "ports.json",
+    "sourceId": "",
+    "score": 0,
+    "slug": "puerto-guantanamo-port"
+  },
+  "terminals": [
+    {
+      "id": "ports-json-anchor",
+      "name": "PUERTO GUANTANAMO Port",
+      "lat": 19.98,
+      "lng": -75.13,
+      "address": "Guantanamo, Guantanamo, Cuba",
+      "source": "ports.json",
+      "sourceId": "",
+      "score": 0,
+      "slug": "puerto-guantanamo-port"
+    }
+  ],
+  "terminalCandidateRadiusMeters": 5000,
+  "terminalCandidates": [
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d9b9f2bd0a8d3da61f19",
+      "name": "(unnamed maritime feature)",
+      "nameEnglish": "",
+      "lat": 19.9870926,
+      "lng": -75.1198537,
+      "distanceFromPortMeters": 1321,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/d9b9f2bd0a8d3da61f19"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/74e9d7401f52264754bc",
+      "name": "(unnamed maritime feature)",
+      "nameEnglish": "",
+      "lat": 19.9736634,
+      "lng": -75.1415468,
+      "distanceFromPortMeters": 1397,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/74e9d7401f52264754bc"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/fb629c47ff2b729d5279",
+      "name": "(unnamed maritime feature)",
+      "nameEnglish": "",
+      "lat": 19.9737243,
+      "lng": -75.1444362,
+      "distanceFromPortMeters": 1662,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/fb629c47ff2b729d5279"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/df7a780ef45eafe35534",
+      "name": "(unnamed maritime feature)",
+      "nameEnglish": "",
+      "lat": 19.9915782,
+      "lng": -75.1493976,
+      "distanceFromPortMeters": 2401,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/df7a780ef45eafe35534"
+      ]
+    }
+  ],
+  "counts": {
+    "food_drink": 1,
+    "attraction": 0,
+    "shopping": 0,
+    "outdoors": 0,
+    "essentials": 0
+  },
+  "pois": [
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/9c04df567e3bd8897d2f",
+      "name": "El Tokio",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 19.9949014,
+      "lng": -75.153078,
+      "distanceFromTerminalMeters": 2926,
+      "distanceFromDefaultTerminalMeters": 2926,
+      "minDistanceFromAnyTerminalMeters": 2926,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    }
+  ],
+  "portAnchor": {
+    "id": "ports-json-anchor",
+    "name": "PUERTO GUANTANAMO Port",
+    "lat": 19.98,
+    "lng": -75.13,
+    "address": "Guantanamo, Guantanamo, Cuba",
+    "source": "ports.json",
+    "sourceId": "",
+    "score": 0,
+    "slug": "puerto-guantanamo-port"
+  },
+  "terminalResolution": {
+    "status": "unresolved",
+    "method": "ports_json_fallback",
+    "verified": false,
+    "notes": "All supplied candidates are ferry-only stops, local docks, unnamed maritime features, or unrelated places rather than passenger cruise terminals."
+  }
+}

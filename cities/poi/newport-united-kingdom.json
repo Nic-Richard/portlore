@@ -1,0 +1,1233 @@
+{
+  "schemaVersion": 5,
+  "catalogType": "curation-candidates",
+  "generatedAt": "2026-07-30T09:29:56.828Z",
+  "source": "openstreetmap",
+  "sourceExtract": "wales-latest.osm.pbf",
+  "radiusMeters": 10000,
+  "port": {
+    "id": "newport-united-kingdom",
+    "city": "Newport",
+    "country": "United Kingdom"
+  },
+  "defaultTerminalId": "manual/newport-united-kingdom/newport-docks-cruise-berth",
+  "terminal": {
+    "id": "manual/newport-united-kingdom/newport-docks-cruise-berth",
+    "name": "Newport Docks Cruise Berth",
+    "nameEnglish": "",
+    "lat": 51.55559,
+    "lng": -2.98652,
+    "address": "",
+    "source": "manual_web_research",
+    "sourceId": "manual/newport-united-kingdom/newport-docks-cruise-berth",
+    "terminalType": "occasional_cruise_berth",
+    "verified": true,
+    "notes": "Occasional passenger-call area inside Newport Docks. Passengers require controlled transport through the commercial port rather than walking directly into the city.",
+    "sourceUrls": [
+      "https://www.cruisebritain.org/ports/",
+      "https://www.openstreetmap.org/?mlat=51.55559&mlon=-2.98652#map=17/51.55559/-2.98652"
+    ],
+    "sources": [
+      "manual_web_research"
+    ],
+    "sourceIds": [
+      "manual/newport-united-kingdom/newport-docks-cruise-berth"
+    ],
+    "osmTags": {},
+    "matchedBy": [
+      "web_researched_terminal"
+    ],
+    "distanceFromPortMeters": null
+  },
+  "terminals": [
+    {
+      "id": "manual/newport-united-kingdom/newport-docks-cruise-berth",
+      "name": "Newport Docks Cruise Berth",
+      "nameEnglish": "",
+      "lat": 51.55559,
+      "lng": -2.98652,
+      "address": "",
+      "source": "manual_web_research",
+      "sourceId": "manual/newport-united-kingdom/newport-docks-cruise-berth",
+      "terminalType": "occasional_cruise_berth",
+      "verified": true,
+      "notes": "Occasional passenger-call area inside Newport Docks. Passengers require controlled transport through the commercial port rather than walking directly into the city.",
+      "sourceUrls": [
+        "https://www.cruisebritain.org/ports/",
+        "https://www.openstreetmap.org/?mlat=51.55559&mlon=-2.98652#map=17/51.55559/-2.98652"
+      ],
+      "sources": [
+        "manual_web_research"
+      ],
+      "sourceIds": [
+        "manual/newport-united-kingdom/newport-docks-cruise-berth"
+      ],
+      "osmTags": {},
+      "matchedBy": [
+        "web_researched_terminal"
+      ],
+      "distanceFromPortMeters": null
+    }
+  ],
+  "terminalCandidateRadiusMeters": 5000,
+  "terminalCandidates": [
+    {
+      "source": "nominatim",
+      "sourceId": "osm/way/1012906848",
+      "osmType": "way",
+      "osmId": "1012906848",
+      "name": "Unit 1",
+      "nameEnglish": "",
+      "lat": 51.5706996,
+      "lng": -2.9998371,
+      "distanceFromPortMeters": 2679,
+      "address": "Unit 1, Newport West Food Park, 28, Port Road, Maesglas Retail Park, Pillgwenlly, Newport, Cymru / Wales, NP20 2NS, United Kingdom",
+      "displayName": "Unit 1, Newport West Food Park, 28, Port Road, Maesglas Retail Park, Pillgwenlly, Newport, Cymru / Wales, NP20 2NS, United Kingdom",
+      "query": "NEWPORT Port, Newport, United Kingdom",
+      "matchedBy": [
+        "Nominatim query: NEWPORT Port, Newport, United Kingdom"
+      ],
+      "osmTags": {},
+      "sources": [
+        "nominatim"
+      ],
+      "sourceIds": [
+        "osm/way/1012906848"
+      ]
+    },
+    {
+      "source": "nominatim",
+      "sourceId": "osm/node/7804948631",
+      "osmType": "node",
+      "osmId": "7804948631",
+      "name": "Newport City Truck Stop",
+      "nameEnglish": "Newport City Truck Stop",
+      "lat": 51.5718141,
+      "lng": -3.0021608,
+      "distanceFromPortMeters": 2869,
+      "address": "Newport City Truck Stop, Port Road, Maesglas Retail Park, Pillgwenlly, Newport, Cymru / Wales, NP20 2NS, United Kingdom",
+      "displayName": "Newport City Truck Stop, Port Road, Maesglas Retail Park, Pillgwenlly, Newport, Cymru / Wales, NP20 2NS, United Kingdom",
+      "query": "NEWPORT Port, Newport, United Kingdom",
+      "matchedBy": [
+        "Nominatim query: NEWPORT Port, Newport, United Kingdom"
+      ],
+      "osmTags": {},
+      "sources": [
+        "nominatim"
+      ],
+      "sourceIds": [
+        "osm/node/7804948631"
+      ]
+    }
+  ],
+  "counts": {
+    "attraction": 19,
+    "outdoors": 7,
+    "food_drink": 12,
+    "shopping": 3,
+    "essentials": 1
+  },
+  "pois": [
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d9171883029613fa7628",
+      "name": "Tredegar House Museum",
+      "nameEnglish": "Tredegar House Museum",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 51.5613372,
+      "lng": -3.0280302,
+      "distanceFromTerminalMeters": 3552,
+      "distanceFromDefaultTerminalMeters": 3552,
+      "minDistanceFromAnyTerminalMeters": 3552,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "https://www.nationaltrust.org.uk/tredegar-house",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/43cf38c57180ebe312a3",
+      "name": "Newport Museum and Art Gallery",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 51.5856926,
+      "lng": -2.9937525,
+      "distanceFromTerminalMeters": 4081,
+      "distanceFromDefaultTerminalMeters": 4081,
+      "minDistanceFromAnyTerminalMeters": 4081,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "John Frost Square, Newport, NP20 1PA",
+      "openingHours": "Mo off; Tu-Fr 09:30-17:30; Sa 09:00-16:00; Su off; PH off",
+      "website": "https://www.newport.gov.uk/heritage/en/Museum-Art-Gallery/",
+      "phone": "+44 1633 656 656",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/e25a657229460771478f",
+      "name": "Our Chartist Heritage",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 51.5871897,
+      "lng": -2.9959043,
+      "distanceFromTerminalMeters": 4279,
+      "distanceFromDefaultTerminalMeters": 4279,
+      "minDistanceFromAnyTerminalMeters": 4279,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "170 Commercial Street, Newport, NP20 1JN",
+      "openingHours": "",
+      "website": "https://www.ourchartistheritage.co.uk",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/34a2f003c8b516d28484",
+      "name": "Newport Medieval Ship museum",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 51.5703733,
+      "lng": -2.9459337,
+      "distanceFromTerminalMeters": 3268,
+      "distanceFromDefaultTerminalMeters": 3268,
+      "minDistanceFromAnyTerminalMeters": 3268,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Temporary location of the NMS conservation project",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/3c3a0936aafca2577485",
+      "name": "National Roman Legion Museum",
+      "nameEnglish": "Roman Legionary Museum Caerleon",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 51.6101311,
+      "lng": -2.9553711,
+      "distanceFromTerminalMeters": 6899,
+      "distanceFromDefaultTerminalMeters": 6899,
+      "minDistanceFromAnyTerminalMeters": 6899,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "High Street, Newport, NP18 1AE, GB",
+      "openingHours": "We-Sa 10:00-17:00",
+      "website": "https://museum.wales/roman/",
+      "phone": "+44 300 111 2 333",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d0986d915b54e751de9a",
+      "name": "Caerleon Roman Fortress Baths",
+      "nameEnglish": "Caerleon Roman Fortress Baths",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 51.6101809,
+      "lng": -2.9540734,
+      "distanceFromTerminalMeters": 6927,
+      "distanceFromDefaultTerminalMeters": 6927,
+      "minDistanceFromAnyTerminalMeters": 6927,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "High Street, Newport, NP18 1AE",
+      "openingHours": "Apr-Oct 10:30-17:00; Nov-Mar Mo-Sa 10:00-17:00; Nov-Mar Su 10:00-16:00; Dec 24-26 off; Jan 01 off",
+      "website": "https://cadw.gov.wales/visit/places-to-visit/caerleon-roman-fortress-and-baths#opening-times",
+      "phone": "+44 1633 422 518",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/e9204b3af11d5b13e4b5",
+      "name": "This Little Piggy Went to the Market",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "artwork",
+      "lat": 51.588921,
+      "lng": -2.9954872,
+      "distanceFromTerminalMeters": 4458,
+      "distanceFromDefaultTerminalMeters": 4458,
+      "minDistanceFromAnyTerminalMeters": 4458,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "https://statues.vanderkrogt.net/object.php?webpage=ST&record=gbwa006",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "Bronze sculpture of a Gloucester Old Spot pig with baskets of fruit and vegetables. It stands on a granite base with brass text strips and ornaments.",
+      "osmTags": {
+        "tourism": "artwork"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/42f6de0bd30ec78fa39e",
+      "name": "D-Day Landing golden anniversary memorial",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "memorial",
+      "lat": 51.5897833,
+      "lng": -2.9969799,
+      "distanceFromTerminalMeters": 4577,
+      "distanceFromDefaultTerminalMeters": 4577,
+      "minDistanceFromAnyTerminalMeters": 4577,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "http://openplaques.org/plaques/12180",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Among those who landed in the vicinity of Asnelles, on that part of the Normandy coastline code-named gold beach, was the 2nd Battalion The South Wales Borderers. The brave actions of all those who participated in Operation Overlord, including the men and",
+      "osmTags": {
+        "historic": "memorial"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/a89fc0f747dfe171ff9b",
+      "name": "Prysg Field Barracks",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 51.6107432,
+      "lng": -2.9591061,
+      "distanceFromTerminalMeters": 6907,
+      "distanceFromDefaultTerminalMeters": 6907,
+      "minDistanceFromAnyTerminalMeters": 6907,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Roman fortress and barracks, home to a Legion of the Roman Empire",
+      "osmTags": {
+        "historic": "archaeological_site",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d8ea549732418753432c",
+      "name": "Caerleon Roman Barracks",
+      "nameEnglish": "Caerleon Roman Barracks",
+      "category": "attraction",
+      "subcategory": "archaeological_site",
+      "lat": 51.6090027,
+      "lng": -2.9609104,
+      "distanceFromTerminalMeters": 6692,
+      "distanceFromDefaultTerminalMeters": 6692,
+      "minDistanceFromAnyTerminalMeters": 6692,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Roman fortress and barracks, home to a Legion of the Roman Empire",
+      "osmTags": {
+        "historic": "archaeological_site"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/8624517c895f89132a96",
+      "name": "Caerleon Castle Medieval Tower",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "building",
+      "lat": 51.6083202,
+      "lng": -2.9520982,
+      "distanceFromTerminalMeters": 6765,
+      "distanceFromDefaultTerminalMeters": 6765,
+      "minDistanceFromAnyTerminalMeters": 6765,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Remains of Caerleon Castle",
+      "osmTags": {
+        "historic": "building",
+        "man_made": "tower"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/887566291bccbd2381ec",
+      "name": "Caerleon Castle Mound",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "archaeological_site",
+      "lat": 51.6098509,
+      "lng": -2.9509231,
+      "distanceFromTerminalMeters": 6952,
+      "distanceFromDefaultTerminalMeters": 6952,
+      "minDistanceFromAnyTerminalMeters": 6952,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "archaeological_site"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/24c185405921d290988c",
+      "name": "East Usk Lighthouse",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "lighthouse",
+      "lat": 51.5400136,
+      "lng": -2.9669621,
+      "distanceFromTerminalMeters": 1430,
+      "distanceFromDefaultTerminalMeters": 1430,
+      "minDistanceFromAnyTerminalMeters": 1430,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "man_made": "lighthouse"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/64bcc1ad457e9e299f04",
+      "name": "West Usk Lighthouse",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "lighthouse",
+      "lat": 51.5406228,
+      "lng": -2.994671,
+      "distanceFromTerminalMeters": 1455,
+      "distanceFromDefaultTerminalMeters": 1455,
+      "minDistanceFromAnyTerminalMeters": 1455,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "man_made": "lighthouse"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ffd57646730c9d203b4a",
+      "name": "Downing Street signpost",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "monument",
+      "lat": 51.5878462,
+      "lng": -2.9967666,
+      "distanceFromTerminalMeters": 4365,
+      "distanceFromDefaultTerminalMeters": 4365,
+      "minDistanceFromAnyTerminalMeters": 4365,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "A headstone pointing the way to Downing Street in tribute to the Chartist marchers in the City who protested at the spot",
+      "osmTags": {
+        "historic": "monument"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f9db4c8187eed7210b80",
+      "name": "Merchant Navy Memorial",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 51.5819387,
+      "lng": -2.9924674,
+      "distanceFromTerminalMeters": 3654,
+      "distanceFromDefaultTerminalMeters": 3654,
+      "minDistanceFromAnyTerminalMeters": 3654,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "memorial",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f88f1fa42e1a373d4846",
+      "name": "Caerleon Roman Amphitheatre",
+      "nameEnglish": "Caerleon Roman Amphitheatre",
+      "category": "attraction",
+      "subcategory": "archaeological_site",
+      "lat": 51.6080619,
+      "lng": -2.9568748,
+      "distanceFromTerminalMeters": 6651,
+      "distanceFromDefaultTerminalMeters": 6651,
+      "minDistanceFromAnyTerminalMeters": 6651,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "09:30-17:00",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Roman Ampitheatre managed by Cadw. Hours are restricted to daylight.",
+      "osmTags": {
+        "historic": "archaeological_site"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ed605c22f0319a359a17",
+      "name": "Fort View Park",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 51.5773376,
+      "lng": -3.0530725,
+      "distanceFromTerminalMeters": 5895,
+      "distanceFromDefaultTerminalMeters": 5895,
+      "minDistanceFromAnyTerminalMeters": 5895,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Fort View, Newport, NP10 8PF",
+      "openingHours": "24/7",
+      "website": "https://www.newport.gov.uk/en/Leisure-Tourism/Countryside--Parks/Play-Areas/Play-areas.aspx",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/2e3bc7a97bb03abdfe6c",
+      "name": "Tredegar Park Recreation Ground",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 51.5697416,
+      "lng": -3.0272334,
+      "distanceFromTerminalMeters": 3935,
+      "distanceFromDefaultTerminalMeters": 3935,
+      "minDistanceFromAnyTerminalMeters": 3935,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Cardiff Road, Newport, NP10 8TF",
+      "openingHours": "Mo-Su 09:00-21:00",
+      "website": "https://www.newport.gov.uk/en/Leisure-Tourism/Countryside--Parks/Parks/Tredegar-Park.aspx",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Park open during seasonal hours to vehicles. Skate park and footpath access from 9am to 9pm year round.",
+      "osmTags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/565631506da3af707e6e",
+      "name": "RSPB Newport Wetlands",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "nature_reserve",
+      "lat": 51.5417248,
+      "lng": -2.9628229,
+      "distanceFromTerminalMeters": 1503,
+      "distanceFromDefaultTerminalMeters": 1503,
+      "minDistanceFromAnyTerminalMeters": 1503,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "West Nash Road, Newport, NP18 2BZ",
+      "openingHours": "Mo-Su 09:00-17:00",
+      "website": "https://www.rspb.org.uk/reserves-and-events/reserves-a-z/newport-wetlands/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "nature_reserve"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/e5d931a2b0a9269e11f8",
+      "name": "Jubilee Gardens Park",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 51.5881394,
+      "lng": -2.9829559,
+      "distanceFromTerminalMeters": 4246,
+      "distanceFromDefaultTerminalMeters": 4246,
+      "minDistanceFromAnyTerminalMeters": 4246,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Rugby Road, Newport, NP19 0BQ",
+      "openingHours": "24/7",
+      "website": "https://www.newport.gov.uk/en/Leisure-Tourism/Countryside--Parks/Play-Areas/Play-areas.aspx",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/611af6c19b452effcd0e",
+      "name": "Great Traston Meadows",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "nature_reserve",
+      "lat": 51.5553539,
+      "lng": -2.9446627,
+      "distanceFromTerminalMeters": 2515,
+      "distanceFromDefaultTerminalMeters": 2515,
+      "minDistanceFromAnyTerminalMeters": 2515,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Nash Road, Newport, NP18 2BW",
+      "openingHours": "24/7",
+      "website": "https://www.gwentwildlife.org/nature-reserves/great-traston-meadows-sssi",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "nature_reserve"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c0815db976cbf288fd19",
+      "name": "Courtybella Gardens",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 51.5758286,
+      "lng": -2.9890618,
+      "distanceFromTerminalMeters": 2940,
+      "distanceFromDefaultTerminalMeters": 2940,
+      "minDistanceFromAnyTerminalMeters": 2940,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Courtybella Terrace, Newport, NP20 2GN",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b80ef3b9e37d855a5005",
+      "name": "19 Hills",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "nature_reserve",
+      "lat": 51.593767,
+      "lng": -2.9357432,
+      "distanceFromTerminalMeters": 5748,
+      "distanceFromDefaultTerminalMeters": 5748,
+      "minDistanceFromAnyTerminalMeters": 5748,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Ringland Circle, Newport, NP19 9PP",
+      "openingHours": "24/7",
+      "website": "https://www.newport.gov.uk/en/Leisure-Tourism/Countryside--Parks/Biodiversity/19-Hills,-Ringland.aspx",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "nature_reserve"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/baab38a53958827045e2",
+      "name": "Waterloo Hotel",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "pub",
+      "lat": 51.5708492,
+      "lng": -2.9889897,
+      "distanceFromTerminalMeters": 2400,
+      "distanceFromDefaultTerminalMeters": 2400,
+      "minDistanceFromAnyTerminalMeters": 2400,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "113 Alexandra Road, Newport, NP20 2JU",
+      "openingHours": "Mo-Fr 12:00-14:00,17:30-21:30; Sa 12:00-14:00,18:00-21:30; Su 11:00-14:00",
+      "website": "https://thewaterloohotel.co.uk/",
+      "phone": "+44 1633 264 266",
+      "cuisine": [
+        "bistro"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "pub"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/dfa89516efce31dd8474",
+      "name": "Rise & Grind Cafe",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 51.5686251,
+      "lng": -2.9997986,
+      "distanceFromTerminalMeters": 2482,
+      "distanceFromDefaultTerminalMeters": 2482,
+      "minDistanceFromAnyTerminalMeters": 2482,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Newport, NP20 2NW, GB",
+      "openingHours": "Mo-Fr 07:30-15:30; Sa-Su 08:30-15:30",
+      "website": "",
+      "phone": "",
+      "cuisine": [
+        "coffee_shop"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "coffee van each day at this same location",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c7afb41886dda2893299",
+      "name": "Chef Read Catering",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 51.5741783,
+      "lng": -2.9854816,
+      "distanceFromTerminalMeters": 2715,
+      "distanceFromDefaultTerminalMeters": 2715,
+      "minDistanceFromAnyTerminalMeters": 2715,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Usk Way, Newport, NP20 2JQ",
+      "openingHours": "M-Fr 08:30-14:00; Sa 09:00-13:00; Su Off",
+      "website": "https://www.just-eat.co.uk/restaurants-chefread-newport/",
+      "phone": "+44 7450 220 134",
+      "cuisine": [
+        "hot_dog",
+        "chicken",
+        "burger",
+        "breakfast",
+        "british"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Food van each day at this same location",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/de8fcbe85380b944bd9d",
+      "name": "Fresh Cafe",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 51.5841566,
+      "lng": -2.9936785,
+      "distanceFromTerminalMeters": 3914,
+      "distanceFromDefaultTerminalMeters": 3914,
+      "minDistanceFromAnyTerminalMeters": 3914,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "122 Commercial Street, Newport, NP20 1LX",
+      "openingHours": "Mo-Su 09:00-22:00; PH 09:00-22:00",
+      "website": "https://freshcafeandrestaurant.co.uk/",
+      "phone": "+44 1633 904 142",
+      "cuisine": [
+        "breakfast",
+        "british"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f1cce99de8399aba9a52",
+      "name": "Vittorios",
+      "nameEnglish": "Vittorio's",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 51.5827023,
+      "lng": -3.0000257,
+      "distanceFromTerminalMeters": 3891,
+      "distanceFromDefaultTerminalMeters": 3891,
+      "minDistanceFromAnyTerminalMeters": 3891,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "113 Stow Hill, Newport, NP20 4ED",
+      "openingHours": "Mo off; Tu-Fr 12:00-14:00,18:00-22:30; Sa 18:00-22:30; Su 12:00-15:00",
+      "website": "https://www.vittoriosrestaurant.co.uk",
+      "phone": "+44 1633 840 261",
+      "cuisine": [
+        "italian"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ae7a9fa8a403acce2f93",
+      "name": "Punjab Tikka Peri Peri",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 51.5777463,
+      "lng": -2.9890502,
+      "distanceFromTerminalMeters": 3148,
+      "distanceFromDefaultTerminalMeters": 3148,
+      "minDistanceFromAnyTerminalMeters": 3148,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "141 Commercial Road, Newport, NP20 2PJ",
+      "openingHours": "Mo-Su 13:00-23:00; PH 13:00-23:00",
+      "website": "http://punjabtikkaperiperi.co.uk/",
+      "phone": "+44 1633 662 202",
+      "cuisine": [
+        "indian",
+        "chicken",
+        "pakistani"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/e74ec554bfecd886c4ea",
+      "name": "Bana Restaurant",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 51.5782084,
+      "lng": -2.9891161,
+      "distanceFromTerminalMeters": 3199,
+      "distanceFromDefaultTerminalMeters": 3199,
+      "minDistanceFromAnyTerminalMeters": 3199,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "70 Commercial Road, Newport, NP20 2PF",
+      "openingHours": "Mo-Su 12:00-23:00",
+      "website": "https://www.banarestaurant.co.uk/",
+      "phone": "+44 7424 091305",
+      "cuisine": [
+        "middle_eastern"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/9b06567a7d8b7bcd98ba",
+      "name": "Golden Bowl",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 51.5794211,
+      "lng": -2.9899894,
+      "distanceFromTerminalMeters": 3344,
+      "distanceFromDefaultTerminalMeters": 3344,
+      "minDistanceFromAnyTerminalMeters": 3344,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "48 Commercial Road, Newport, NP20 2PE",
+      "openingHours": "Mo off; Tu-Sa 16:30-22:00; Su 16:30-21:00",
+      "website": "https://website--2997950042628723412138-chinesetakeaway.business.site/",
+      "phone": "+44 1633 214 819",
+      "cuisine": [
+        "chinese"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/5f0617e75154558dea35",
+      "name": "Chan's Noodle Bar",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 51.5801932,
+      "lng": -2.9905424,
+      "distanceFromTerminalMeters": 3436,
+      "distanceFromDefaultTerminalMeters": 3436,
+      "minDistanceFromAnyTerminalMeters": 3436,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "35a Commercial Road, Newport, NP20 2PE",
+      "openingHours": "Mo-Su 13:00-22:45",
+      "website": "https://www.just-eat.co.uk/restaurants-chans-noodle-bar-chinese-takeaway-newport-/menu",
+      "phone": "+44 1633 259 911",
+      "cuisine": [
+        "chinese"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b8a306caa527a2eef019",
+      "name": "Patt Thai",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 51.5814975,
+      "lng": -2.9935027,
+      "distanceFromTerminalMeters": 3625,
+      "distanceFromDefaultTerminalMeters": 3625,
+      "minDistanceFromAnyTerminalMeters": 3625,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "40 Cardiff Road, Newport, NP20 2ED",
+      "openingHours": "Mo off; Tu off; We off; Th-Su 16:30-22:30",
+      "website": "https://www.patt-thai.co.uk",
+      "phone": "+44 1633 376 593",
+      "cuisine": [
+        "thai"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/738b351d5a33abd42928",
+      "name": "Hatti",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 51.5830285,
+      "lng": -2.9892889,
+      "distanceFromTerminalMeters": 3728,
+      "distanceFromDefaultTerminalMeters": 3728,
+      "minDistanceFromAnyTerminalMeters": 3728,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "77-78 Lower Dock Street, Newport, NP20 1EH",
+      "openingHours": "Mo off; Tu-Th 16:30-22:30; Fr-Sa 16:30-23:00; Su 17:00-22:30",
+      "website": "https://www.hatti.co.uk/",
+      "phone": "+44 1633 222 788",
+      "cuisine": [
+        "indian"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/672cb6e0b94d6f65829a",
+      "name": "Smoky's Newport",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 51.5732871,
+      "lng": -2.9866471,
+      "distanceFromTerminalMeters": 2630,
+      "distanceFromDefaultTerminalMeters": 2630,
+      "minDistanceFromAnyTerminalMeters": 2630,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "2 Mill Parade, Newport, NP20 2JR",
+      "openingHours": "Mo-Su 10:00-16:00",
+      "website": "",
+      "phone": "+44 7500 650 841",
+      "cuisine": [
+        "american"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/4e44c840c516cfbb6a69",
+      "name": "The Market at Kingsway",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "marketplace",
+      "lat": 51.5848421,
+      "lng": -2.9927693,
+      "distanceFromTerminalMeters": 3974,
+      "distanceFromDefaultTerminalMeters": 3974,
+      "minDistanceFromAnyTerminalMeters": 3974,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Newport, NP20 1ED, GB",
+      "openingHours": "Mo Off; Tu Off; We Off; Th Off; Fr Off; Sa 10:00-15:00; Su 10:00-15:00",
+      "website": "https://themarketkingsway.co.uk/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "marketplace"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b0dbc4512a652ac2df9b",
+      "name": "Newport Market",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "marketplace",
+      "lat": 51.588973,
+      "lng": -2.9961693,
+      "distanceFromTerminalMeters": 4475,
+      "distanceFromDefaultTerminalMeters": 4475,
+      "minDistanceFromAnyTerminalMeters": 4475,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "High Street, Newport, NP20 1GL",
+      "openingHours": "Mo-Tu 09:00-17:00; We-Sa 09:00-22:00; Su 10:00-17:00",
+      "website": "https://newport-market.co.uk/",
+      "phone": "+44 2920 710 170",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "marketplace"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/fcfc1ff2f928cec98ef9",
+      "name": "City Market",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "marketplace",
+      "lat": 51.5742289,
+      "lng": -2.9856441,
+      "distanceFromTerminalMeters": 2722,
+      "distanceFromDefaultTerminalMeters": 2722,
+      "minDistanceFromAnyTerminalMeters": 2722,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Mill Parade, Newport, NP20 2JQ",
+      "openingHours": "Mo-Fr off; Sa 08:00-15:00; Su 08:00-13:00",
+      "website": "",
+      "phone": "+44 7768 334 477",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "marketplace"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/dfb18cdee1f612611e55",
+      "name": "Newport Wetlands Visitor Centre",
+      "nameEnglish": "",
+      "category": "essentials",
+      "subcategory": "visitor_information",
+      "lat": 51.5443217,
+      "lng": -2.9614614,
+      "distanceFromTerminalMeters": 1429,
+      "distanceFromDefaultTerminalMeters": 1429,
+      "minDistanceFromAnyTerminalMeters": 1429,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "West Nash Road, Newport, NP18 2BZ",
+      "openingHours": "",
+      "website": "https://www.rspb.org.uk/reserves-and-events/reserves-a-z/newport-wetlands/",
+      "phone": "+44 1633 636 363",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "information"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d9cd5b2aebec555346a4",
+      "name": "Baltic Oil Works",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "building",
+      "lat": 51.5761386,
+      "lng": -2.9810665,
+      "distanceFromTerminalMeters": 2907,
+      "distanceFromDefaultTerminalMeters": 2907,
+      "minDistanceFromAnyTerminalMeters": 2907,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Usk Way, Newport, NP20 2BX",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "One of the few surviving buildings of the Old Town Dock built 1842",
+      "osmTags": {
+        "historic": "building"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/248007c2a7d07f1d4afa",
+      "name": "Fields House",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 51.5886068,
+      "lng": -3.0133083,
+      "distanceFromTerminalMeters": 4871,
+      "distanceFromDefaultTerminalMeters": 4871,
+      "minDistanceFromAnyTerminalMeters": 4871,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "18 Fields Park Avenue, Newport, NP20 5BH",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "6 bedroom Grade II listed Victorian 'gentleman's residence'",
+      "osmTags": {
+        "tourism": "attraction"
+      }
+    }
+  ],
+  "portAnchor": {
+    "id": "ports-json-anchor",
+    "name": "NEWPORT Port",
+    "lat": 51.55,
+    "lng": -2.98,
+    "address": "Newport, Wales, United Kingdom",
+    "source": "ports.json",
+    "sourceId": "",
+    "score": 0,
+    "slug": "newport-port"
+  },
+  "terminalResolution": {
+    "status": "resolved",
+    "method": "manual_web_research",
+    "verified": true,
+    "notes": "Terminal records were added from researched cruise-port sources because no supplied candidate accurately represented the passenger arrival point."
+  }
+}

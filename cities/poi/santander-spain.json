@@ -1,0 +1,944 @@
+{
+  "schemaVersion": 5,
+  "catalogType": "curation-candidates",
+  "generatedAt": "2026-07-30T07:40:35.860Z",
+  "source": "openstreetmap",
+  "sourceExtract": "cantabria-latest.osm.pbf",
+  "radiusMeters": 10000,
+  "port": {
+    "id": "santander-spain",
+    "city": "Santander",
+    "country": "Spain"
+  },
+  "defaultTerminalId": "ports-json-anchor",
+  "terminal": {
+    "id": "ports-json-anchor",
+    "name": "SANTANDER Port",
+    "lat": 43.47,
+    "lng": -3.78,
+    "address": "Santander, Cantabria, Spain",
+    "source": "ports.json",
+    "sourceId": "",
+    "score": 0,
+    "slug": "santander-port"
+  },
+  "terminals": [
+    {
+      "id": "ports-json-anchor",
+      "name": "SANTANDER Port",
+      "lat": 43.47,
+      "lng": -3.78,
+      "address": "Santander, Cantabria, Spain",
+      "source": "ports.json",
+      "sourceId": "",
+      "score": 0,
+      "slug": "santander-port"
+    }
+  ],
+  "terminalCandidateRadiusMeters": 5000,
+  "terminalCandidates": [
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/8b559381d121b88bb475",
+      "name": "El Puntal",
+      "nameEnglish": "",
+      "lat": 43.4571062,
+      "lng": -3.7727482,
+      "distanceFromPortMeters": 1549,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "operator": "Los Reginas",
+        "public_transport": "stop_position"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/8b559381d121b88bb475"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/3f1bc9963a48738fd32e",
+      "name": "Embarcadero de Santander",
+      "nameEnglish": "",
+      "lat": 43.4615114,
+      "lng": -3.8016377,
+      "distanceFromPortMeters": 1985,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "cargo": "passengers;bicycle",
+        "ferry": "yes",
+        "operator": "Los Reginas, SA",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/3f1bc9963a48738fd32e"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/8b159deb1f286a6fb903",
+      "name": "Terminal Marítima de Santander",
+      "nameEnglish": "Maritime Terminal of Santander",
+      "lat": 43.4589467,
+      "lng": -3.8056117,
+      "distanceFromPortMeters": 2405,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal",
+        "terminal-like name"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "cargo": "passengers;vehicle",
+        "ferry": "yes",
+        "name:en": "Maritime Terminal of Santander",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/8b159deb1f286a6fb903"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/81da952e3ffa57e08d45",
+      "name": "Embarcadero de Pedreña",
+      "nameEnglish": "",
+      "lat": 43.4489115,
+      "lng": -3.7688343,
+      "distanceFromPortMeters": 2512,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "cargo": "passengers;bicycle",
+        "ferry": "yes",
+        "operator": "Los Reginas, SA",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/81da952e3ffa57e08d45"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/76f8ca994e17fd030730",
+      "name": "Embarcadero de Somo",
+      "nameEnglish": "",
+      "lat": 43.4518419,
+      "lng": -3.7464275,
+      "distanceFromPortMeters": 3379,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "cargo": "passengers;bicycle",
+        "ferry": "yes",
+        "operator": "Los Reginas, SA",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/76f8ca994e17fd030730"
+      ]
+    }
+  ],
+  "counts": {
+    "attraction": 14,
+    "outdoors": 5,
+    "food_drink": 10,
+    "shopping": 0,
+    "essentials": 0
+  },
+  "pois": [
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/a91cdb9f3be65b504162",
+      "name": "Naves de Gamazo",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 43.4623974,
+      "lng": -3.7878432,
+      "distanceFromTerminalMeters": 1056,
+      "distanceFromDefaultTerminalMeters": 1056,
+      "minDistanceFromAnyTerminalMeters": 1056,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "3 Avenida de Severiano Ballesteros, Santander, 39004",
+      "openingHours": "Mo-Fr 11:00-14:00,16:00-20:00; Sa 11:00-14:00,16:00-20:00; Su,PH 11:00-15:00; Dec 24,Dec 25,Dec 31,Jan 01,Jan 06: off",
+      "website": "https://www.navesdegamazo.com/",
+      "phone": "+34 942 502 013",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "Centro de Arte Contemporáneo de la Fundación ENAIRE",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/022ccc0d26a3b04c77e1",
+      "name": "Centro de Interpretación de la Historia de la Ciudad",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 43.4607801,
+      "lng": -3.8076355,
+      "distanceFromTerminalMeters": 2455,
+      "distanceFromDefaultTerminalMeters": 2455,
+      "minDistanceFromAnyTerminalMeters": 2455,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Calle de Somorrostro, Santander, 39002",
+      "openingHours": "Mo,Tu off; We-Fr 10:30-11:45, 16:45-18:00; Su off",
+      "website": "https://www.anillocultural.com/",
+      "phone": "+34 942 203 099",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Centro dedicado a la historia de la ciudad de Santander, situado en la Catedral.",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/036548d6c98eafa4ee5c",
+      "name": "Museo del Deporte",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 43.4754154,
+      "lng": -3.7967261,
+      "distanceFromTerminalMeters": 1478,
+      "distanceFromDefaultTerminalMeters": 1478,
+      "minDistanceFromAnyTerminalMeters": 1478,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Calle del Alcalde Vega Lamera, Santander, 39008",
+      "openingHours": "",
+      "website": "https://www.santander.es/servicios-ciudadano/areas-tematicas/museos-centros-culturales/museo-del-deporte",
+      "phone": "+34 942203176",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "El museo hace un recorrido por la historia del deporte en Cantabria.",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/4be90cf32fc9f404cd72",
+      "name": "Planetario de la Universidad de Cantabria",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 43.462963,
+      "lng": -3.791042,
+      "distanceFromTerminalMeters": 1186,
+      "distanceFromDefaultTerminalMeters": 1186,
+      "minDistanceFromAnyTerminalMeters": 1186,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1 Calle de Germán Gamazo, Santander, 39004",
+      "openingHours": "Jun Mo-Th 10:00-13:00; Jun Fr 15:00-18:00; Jul-Aug Mo-Fr 10:00-13:00",
+      "website": "https://web.unican.es/centros/nautica/planetario",
+      "phone": "+34 942 20 13 14",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/9eb6eb75b6808894f54a",
+      "name": "Tren turístico Magdaleno",
+      "nameEnglish": "Santander Magdalena Tren Experience",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 43.4690152,
+      "lng": -3.7728778,
+      "distanceFromTerminalMeters": 585,
+      "distanceFromDefaultTerminalMeters": 585,
+      "minDistanceFromAnyTerminalMeters": 585,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Avenida de La Magdalena, Santander",
+      "openingHours": "Mo-Su 10:00-14:00, 15:30-19:00",
+      "website": "https://city-sightseeing-spain.com/es/27/santander/3499/santander-magdalena-tren-experience",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Recorre el parque de la Península de la Magdalena mientras narran su historia. En los meses de verano, el billete incluye una visita guiada en las inmediaciones del Palacio de la Magdalena",
+      "osmTags": {
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/cb9cd3e60a755775e8e9",
+      "name": "Antigua batería costera de Cabo Menor",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "fort",
+      "lat": 43.4852359,
+      "lng": -3.781137,
+      "distanceFromTerminalMeters": 1697,
+      "distanceFromDefaultTerminalMeters": 1697,
+      "minDistanceFromAnyTerminalMeters": 1697,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Fortificación costera de pequeñas dimensiones del siglo XVIII.",
+      "osmTags": {
+        "historic": "fort"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/30d700f1742f1c6c6d9d",
+      "name": "Refugio antiaéreo",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 43.4623464,
+      "lng": -3.8056189,
+      "distanceFromTerminalMeters": 2236,
+      "distanceFromDefaultTerminalMeters": 2236,
+      "minDistanceFromAnyTerminalMeters": 2236,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Plaza del Príncipe, Santander, 39003",
+      "openingHours": "Mo 14:00-20:00; Tu 14:00-20:00; We-Sa 10:00-20:00; Su 10:00-14:00",
+      "website": "https://anillocultural.com/",
+      "phone": "+34 942 20 30 99",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Refugio antiaéreo de la Guerra Civil Española, construido para proteger a la población civil de los bombardeos. Para su visita es necesaria inscripción previa en el Centro Arqueológico de la Muralla de Santander,",
+      "osmTags": {
+        "historic": "bunker",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/535dc217a0dad4bc69bb",
+      "name": "Palacio de La Magdalena",
+      "nameEnglish": "Palacio de la Magdalena",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 43.4692187,
+      "lng": -3.7662837,
+      "distanceFromTerminalMeters": 1110,
+      "distanceFromDefaultTerminalMeters": 1110,
+      "minDistanceFromAnyTerminalMeters": 1110,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "https://palaciomagdalena.com",
+      "phone": "+34 942 29 88 00",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "monument",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/502c02de07a21a68add9",
+      "name": "Monumento al Rotary Club",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "monument",
+      "lat": 43.4763,
+      "lng": -3.7951451,
+      "distanceFromTerminalMeters": 1409,
+      "distanceFromDefaultTerminalMeters": 1409,
+      "minDistanceFromAnyTerminalMeters": 1409,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "monument"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/70453fca19832d3a4eb6",
+      "name": "Playa del Camello",
+      "nameEnglish": "El Camello Beach",
+      "category": "outdoors",
+      "subcategory": "beach",
+      "lat": 43.4696732,
+      "lng": -3.7754851,
+      "distanceFromTerminalMeters": 366,
+      "distanceFromDefaultTerminalMeters": 366,
+      "minDistanceFromAnyTerminalMeters": 366,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "natural": "beach"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/9a41fec0a5bbc9f102e5",
+      "name": "Playa de la Magdalena",
+      "nameEnglish": "Magdalena Beach",
+      "category": "outdoors",
+      "subcategory": "beach",
+      "lat": 43.4674837,
+      "lng": -3.7721845,
+      "distanceFromTerminalMeters": 690,
+      "distanceFromDefaultTerminalMeters": 690,
+      "minDistanceFromAnyTerminalMeters": 690,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "natural": "beach"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b94a042d6db7403537d2",
+      "name": "Playa de La Concha",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "beach",
+      "lat": 43.4717957,
+      "lng": -3.7789338,
+      "distanceFromTerminalMeters": 217,
+      "distanceFromDefaultTerminalMeters": 217,
+      "minDistanceFromAnyTerminalMeters": 217,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "natural": "beach"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ae1bf7267810ac7231e7",
+      "name": "Playa de los Bikinis",
+      "nameEnglish": "Bikini Beach",
+      "category": "outdoors",
+      "subcategory": "beach",
+      "lat": 43.46725,
+      "lng": -3.7680755,
+      "distanceFromTerminalMeters": 1010,
+      "distanceFromDefaultTerminalMeters": 1010,
+      "minDistanceFromAnyTerminalMeters": 1010,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "natural": "beach"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/89b06761d9ed59dbefe4",
+      "name": "Plea Beach House",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "garden",
+      "lat": 43.4641601,
+      "lng": -3.7185045,
+      "distanceFromTerminalMeters": 5005,
+      "distanceFromDefaultTerminalMeters": 5005,
+      "minDistanceFromAnyTerminalMeters": 5005,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "10 Barrio del Juncal",
+      "openingHours": "",
+      "website": "https://www.plea.es",
+      "phone": "+34 942 509 163",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "garden",
+        "tourism": "hostel"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/e82bbeb90d7af95c8858",
+      "name": "Restaurante Parrilla Ginés",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 43.4757651,
+      "lng": -3.7894278,
+      "distanceFromTerminalMeters": 995,
+      "distanceFromDefaultTerminalMeters": 995,
+      "minDistanceFromAnyTerminalMeters": 995,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "15 Avenida de Fernández Castañeda, Santander",
+      "openingHours": "",
+      "website": "https://www.parrillagines.es/",
+      "phone": "+34 942281020",
+      "cuisine": [
+        "regional"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Especialidad en carne a la parrilla, el cocido lebaniego y el chorizo criollo.",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/caf9af06baf2f872efaf",
+      "name": "Pizzería Vittorio",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 43.470204,
+      "lng": -3.7904218,
+      "distanceFromTerminalMeters": 841,
+      "distanceFromDefaultTerminalMeters": 841,
+      "minDistanceFromAnyTerminalMeters": 841,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "6 Bajada de la Encina, Santander, 39005",
+      "openingHours": "Tu-Su 13:30-23:00",
+      "website": "http://pizzeriavittoriosantander.com",
+      "phone": "+34 942050509",
+      "cuisine": [
+        "pizza"
+      ],
+      "wheelchair": "limited",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/7c3844a3fc6280941068",
+      "name": "Restaurante del Hotel Hoyuela",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 43.4716843,
+      "lng": -3.7836826,
+      "distanceFromTerminalMeters": 351,
+      "distanceFromDefaultTerminalMeters": 351,
+      "minDistanceFromAnyTerminalMeters": 351,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "7 Avenida de los Hoteles, Santander",
+      "openingHours": "",
+      "website": "https://www.hotelhoyuela.es/",
+      "phone": "+34 942282628",
+      "cuisine": [
+        "regional"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/a1d3e88b84f58535f850",
+      "name": "Restaurante Balneario de la Concha",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 43.4714745,
+      "lng": -3.7799884,
+      "distanceFromTerminalMeters": 164,
+      "distanceFromDefaultTerminalMeters": 164,
+      "minDistanceFromAnyTerminalMeters": 164,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "46 Avenida de la Reina Victoria, Santander",
+      "openingHours": "Mo-Su 08:00-00:30",
+      "website": "https://www.balneariodelaconcha.es/",
+      "phone": "+34 942290919",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/64a6e5d1b4033ccb3868",
+      "name": "Restaurante Bar del Puerto",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 43.4633359,
+      "lng": -3.7969046,
+      "distanceFromTerminalMeters": 1553,
+      "distanceFromDefaultTerminalMeters": 1553,
+      "minDistanceFromAnyTerminalMeters": 1553,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "63 Calle de Hernán Cortés, Santander, 39003",
+      "openingHours": "",
+      "website": "https://www.bardelpuerto.com/",
+      "phone": "+34 942 213 001",
+      "cuisine": [
+        "seafood"
+      ],
+      "wheelchair": "limited",
+      "brand": "",
+      "description": "Especializado en productos del mar, especialmente pescados frescos y mariscos de la costa del Mar Cantábrico.",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/9cd8895bf10ffcc25678",
+      "name": "La Cruz Blanca",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 43.4629316,
+      "lng": -3.7997121,
+      "distanceFromTerminalMeters": 1774,
+      "distanceFromDefaultTerminalMeters": 1774,
+      "minDistanceFromAnyTerminalMeters": 1774,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "24 Calle de Hernán Cortés, Santander",
+      "openingHours": "",
+      "website": "https://cruzblancasantander.com/",
+      "phone": "+34 942364295",
+      "cuisine": [
+        "german"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Especializado en la gastronomía alemana autóctona y sus cervezas con más de 30 tipos diferentes.",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/122e8887194a3651af2c",
+      "name": "Dondenando",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 43.4713373,
+      "lng": -3.7825104,
+      "distanceFromTerminalMeters": 251,
+      "distanceFromDefaultTerminalMeters": 251,
+      "minDistanceFromAnyTerminalMeters": 251,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "43 Calle de Joaquín Costa, Santander, 39005",
+      "openingHours": "Mo-Su 07:00-03:00",
+      "website": "",
+      "phone": "+34 670 24 50 14",
+      "cuisine": [
+        "burger",
+        "regional"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ad1a0ab9524da9ba663d",
+      "name": "EcoTierruca",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 43.4710741,
+      "lng": -3.7964074,
+      "distanceFromTerminalMeters": 1329,
+      "distanceFromDefaultTerminalMeters": 1329,
+      "minDistanceFromAnyTerminalMeters": 1329,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "16 Calle de Honduras, Santander, 39005",
+      "openingHours": "Mo-Fr 12:00-16:00; Sa 10:00-14:00",
+      "website": "https://ecotierruca.com",
+      "phone": "+34 655 452 356",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Casa de comidas saludables con ingredientes frescos y de cercanía.",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/15fee6c240d7e487186c",
+      "name": "iSabor",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 43.4665313,
+      "lng": -3.7967226,
+      "distanceFromTerminalMeters": 1404,
+      "distanceFromDefaultTerminalMeters": 1404,
+      "minDistanceFromAnyTerminalMeters": 1404,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "49 Paseo de Menéndez Pelayo, 39006",
+      "openingHours": "We-Mo 08:00-23:30",
+      "website": "https://isabor.es/",
+      "phone": "+34 680 86 82 76",
+      "cuisine": [
+        "breakfast",
+        "burger",
+        "hotdog"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/a1c69cae9fa1f0d31038",
+      "name": "Restaurante La Mulata",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 43.4652416,
+      "lng": -3.7962904,
+      "distanceFromTerminalMeters": 1417,
+      "distanceFromDefaultTerminalMeters": 1417,
+      "minDistanceFromAnyTerminalMeters": 1417,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1 Calle de Tetuán, Santander",
+      "openingHours": "Mo-Su 13:00-17:00,20:00-23:30",
+      "website": "https://www.restaurantemulata.es/",
+      "phone": "+34 942363785",
+      "cuisine": [
+        "seafood"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/3631df67dba92c776b3e",
+      "name": "Galería de Arte Estela Docal",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "gallery",
+      "lat": 43.464867,
+      "lng": -3.7958321,
+      "distanceFromTerminalMeters": 1399,
+      "distanceFromDefaultTerminalMeters": 1399,
+      "minDistanceFromAnyTerminalMeters": 1399,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "7 Calle de Andrés del Río, Santander, 39004",
+      "openingHours": "",
+      "website": "http://www.esteladocal.com/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "gallery"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/af14adaf642bac36c6a9",
+      "name": "El Hombre y La Mar",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 43.4705987,
+      "lng": -3.7707955,
+      "distanceFromTerminalMeters": 746,
+      "distanceFromDefaultTerminalMeters": 746,
+      "minDistanceFromAnyTerminalMeters": 746,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "https://www.diariodelviajero.com/museos/museo-del-hombre-y-la-mar-en-la-peninsula-de-la-magdalena-santander-un-homenaje-a-la-aventura",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b055e200a0c79451418b",
+      "name": "Fuerte de San Salvador de Ano",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "fort",
+      "lat": 43.469551,
+      "lng": -3.7656866,
+      "distanceFromTerminalMeters": 1156,
+      "distanceFromDefaultTerminalMeters": 1156,
+      "minDistanceFromAnyTerminalMeters": 1156,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "fort"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ee656422046562c23605",
+      "name": "Fuerte de San Carlos de la Cerda",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "fort",
+      "lat": 43.466297,
+      "lng": -3.7649243,
+      "distanceFromTerminalMeters": 1284,
+      "distanceFromDefaultTerminalMeters": 1284,
+      "minDistanceFromAnyTerminalMeters": 1284,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "fort"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/07181fb79bf5c6a2c365",
+      "name": "Calle de la Universidad",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "square",
+      "lat": 43.4703825,
+      "lng": -3.7958592,
+      "distanceFromTerminalMeters": 1281,
+      "distanceFromDefaultTerminalMeters": 1281,
+      "minDistanceFromAnyTerminalMeters": 1281,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "place": "square"
+      }
+    }
+  ],
+  "portAnchor": {
+    "id": "ports-json-anchor",
+    "name": "SANTANDER Port",
+    "lat": 43.47,
+    "lng": -3.78,
+    "address": "Santander, Cantabria, Spain",
+    "source": "ports.json",
+    "sourceId": "",
+    "score": 0,
+    "slug": "santander-port"
+  },
+  "terminalResolution": {
+    "status": "unresolved",
+    "method": "ports_json_fallback",
+    "verified": false,
+    "notes": "All supplied candidates are ferry-only stops, local docks, unnamed maritime features, or unrelated places rather than passenger cruise terminals."
+  }
+}

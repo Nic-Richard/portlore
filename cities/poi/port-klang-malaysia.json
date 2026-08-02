@@ -1,0 +1,953 @@
+{
+  "schemaVersion": 5,
+  "catalogType": "curation-candidates",
+  "generatedAt": "2026-07-30T08:19:12.103Z",
+  "source": "openstreetmap",
+  "sourceExtract": "malaysia-singapore-brunei-latest.osm.pbf",
+  "radiusMeters": 10000,
+  "port": {
+    "id": "port-klang-malaysia",
+    "city": "Port Klang",
+    "country": "Malaysia"
+  },
+  "defaultTerminalId": "osm/generated/b67934b969a0e6b2fc3e",
+  "terminal": {
+    "id": "osm/generated/b67934b969a0e6b2fc3e",
+    "name": "Terminal Penumpang South Port",
+    "nameEnglish": "South Port Passenger Terminal",
+    "lat": 2.9983094,
+    "lng": 101.3919948,
+    "address": "Pelabuhan Klang",
+    "source": "verified_terminal_candidate",
+    "sourceId": "osm/generated/b67934b969a0e6b2fc3e",
+    "terminalType": "passenger_cruise_terminal",
+    "verified": true,
+    "notes": "Accepted 1 candidate explicitly identified as an ocean-cruise or cruise-passenger terminal; ferry and unrelated results were excluded.",
+    "sourceUrls": [],
+    "sources": [
+      "openstreetmap"
+    ],
+    "sourceIds": [
+      "osm/generated/b67934b969a0e6b2fc3e"
+    ],
+    "osmTags": {
+      "amenity": "ferry_terminal",
+      "building": "yes",
+      "ferry": "yes",
+      "name:en": "South Port Passenger Terminal",
+      "public_transport": "station"
+    },
+    "matchedBy": [
+      "amenity=ferry_terminal",
+      "terminal-like name"
+    ],
+    "distanceFromPortMeters": 909
+  },
+  "terminals": [
+    {
+      "id": "osm/generated/b67934b969a0e6b2fc3e",
+      "name": "Terminal Penumpang South Port",
+      "nameEnglish": "South Port Passenger Terminal",
+      "lat": 2.9983094,
+      "lng": 101.3919948,
+      "address": "Pelabuhan Klang",
+      "source": "verified_terminal_candidate",
+      "sourceId": "osm/generated/b67934b969a0e6b2fc3e",
+      "terminalType": "passenger_cruise_terminal",
+      "verified": true,
+      "notes": "Accepted 1 candidate explicitly identified as an ocean-cruise or cruise-passenger terminal; ferry and unrelated results were excluded.",
+      "sourceUrls": [],
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/b67934b969a0e6b2fc3e"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "building": "yes",
+        "ferry": "yes",
+        "name:en": "South Port Passenger Terminal",
+        "public_transport": "station"
+      },
+      "matchedBy": [
+        "amenity=ferry_terminal",
+        "terminal-like name"
+      ],
+      "distanceFromPortMeters": 909
+    }
+  ],
+  "terminalCandidateRadiusMeters": 5000,
+  "terminalCandidates": [
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b67934b969a0e6b2fc3e",
+      "name": "Terminal Penumpang South Port",
+      "nameEnglish": "South Port Passenger Terminal",
+      "lat": 2.9983094,
+      "lng": 101.3919948,
+      "distanceFromPortMeters": 909,
+      "address": "Pelabuhan Klang",
+      "matchedBy": [
+        "amenity=ferry_terminal",
+        "terminal-like name"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "building": "yes",
+        "ferry": "yes",
+        "name:en": "South Port Passenger Terminal",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/b67934b969a0e6b2fc3e"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c466df9afcc6dcd92777",
+      "name": "(unnamed maritime feature)",
+      "nameEnglish": "",
+      "lat": 2.9984997,
+      "lng": 101.3908765,
+      "distanceFromPortMeters": 1027,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/c466df9afcc6dcd92777"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/843eb6576ab4ad04f4c2",
+      "name": "Pelabuhan Klang",
+      "nameEnglish": "Port Klang",
+      "lat": 2.9986856,
+      "lng": 101.3884665,
+      "distanceFromPortMeters": 1289,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "name:en": "Port Klang",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/843eb6576ab4ad04f4c2"
+      ]
+    },
+    {
+      "source": "nominatim",
+      "sourceId": "osm/node/7731561424",
+      "osmType": "node",
+      "osmId": "7731561424",
+      "name": "Pos Malaysia",
+      "nameEnglish": "",
+      "lat": 3.0068237,
+      "lng": 101.4171578,
+      "distanceFromPortMeters": 2051,
+      "address": "Pos Malaysia, Jalan Banting, Kampung Baru Pandamaran, Pelabuhan Klang, Bandaraya Klang, Klang, Selangor, 42000, Malaysia",
+      "displayName": "Pos Malaysia, Jalan Banting, Kampung Baru Pandamaran, Pelabuhan Klang, Bandaraya Klang, Klang, Selangor, 42000, Malaysia",
+      "query": "PORT KLANG Port, Port Klang, Malaysia",
+      "matchedBy": [
+        "Nominatim query: PORT KLANG Port, Port Klang, Malaysia"
+      ],
+      "osmTags": {
+        "operator": "Pos Malaysia"
+      },
+      "sources": [
+        "nominatim"
+      ],
+      "sourceIds": [
+        "osm/node/7731561424"
+      ]
+    },
+    {
+      "source": "nominatim",
+      "sourceId": "osm/way/397123907",
+      "osmType": "way",
+      "osmId": "397123907",
+      "name": "NOBLift Malaysia Sdn Bhd",
+      "nameEnglish": "NOBLift Malaysia Sdn Bhd",
+      "lat": 2.9714357,
+      "lng": 101.4022346,
+      "distanceFromPortMeters": 3186,
+      "address": "NOBLift Malaysia Sdn Bhd, Jalan Canang Emas 8, Kampung Nelayan Telok Gong, Bandaraya Klang, Klang, Selangor, 42009, Malaysia",
+      "displayName": "NOBLift Malaysia Sdn Bhd, Jalan Canang Emas 8, Kampung Nelayan Telok Gong, Bandaraya Klang, Klang, Selangor, 42009, Malaysia",
+      "query": "PORT KLANG Port, Port Klang, Malaysia",
+      "matchedBy": [
+        "Nominatim query: PORT KLANG Port, Port Klang, Malaysia"
+      ],
+      "osmTags": {},
+      "sources": [
+        "nominatim"
+      ],
+      "sourceIds": [
+        "osm/way/397123907"
+      ]
+    },
+    {
+      "source": "nominatim",
+      "sourceId": "osm/way/875437809",
+      "osmType": "way",
+      "osmId": "875437809",
+      "name": "Persatuan Penganut Agama Buddha Fo Guang Malaysia",
+      "nameEnglish": "",
+      "lat": 3.0276899,
+      "lng": 101.4263074,
+      "distanceFromPortMeters": 4244,
+      "address": "Persatuan Penganut Agama Buddha Fo Guang Malaysia, Persiaran Raja Muda Musa, Taman Gembira, Pandamaran, Pelabuhan Klang, Bandaraya Klang, Klang, Selangor, 42000, Malaysia",
+      "displayName": "Persatuan Penganut Agama Buddha Fo Guang Malaysia, Persiaran Raja Muda Musa, Taman Gembira, Pandamaran, Pelabuhan Klang, Bandaraya Klang, Klang, Selangor, 42000, Malaysia",
+      "query": "PORT KLANG Port, Port Klang, Malaysia",
+      "matchedBy": [
+        "Nominatim query: PORT KLANG Port, Port Klang, Malaysia"
+      ],
+      "osmTags": {
+        "building": "yes"
+      },
+      "sources": [
+        "nominatim"
+      ],
+      "sourceIds": [
+        "osm/way/875437809"
+      ]
+    },
+    {
+      "source": "nominatim",
+      "sourceId": "osm/node/9803521241",
+      "osmType": "node",
+      "osmId": "9803521241",
+      "name": "Yayasan St John Ambulans Malaysia Kawasan Pantai Selangor",
+      "nameEnglish": "",
+      "lat": 3.0285589,
+      "lng": 101.4281058,
+      "distanceFromPortMeters": 4452,
+      "address": "Yayasan St John Ambulans Malaysia Kawasan Pantai Selangor, Persiaran Raja Muda Musa, Taman Gembira, Pandamaran, Pelabuhan Klang, Bandaraya Klang, Klang, Selangor, 42000, Malaysia",
+      "displayName": "Yayasan St John Ambulans Malaysia Kawasan Pantai Selangor, Persiaran Raja Muda Musa, Taman Gembira, Pandamaran, Pelabuhan Klang, Bandaraya Klang, Klang, Selangor, 42000, Malaysia",
+      "query": "PORT KLANG Port, Port Klang, Malaysia",
+      "matchedBy": [
+        "Nominatim query: PORT KLANG Port, Port Klang, Malaysia"
+      ],
+      "osmTags": {},
+      "sources": [
+        "nominatim"
+      ],
+      "sourceIds": [
+        "osm/node/9803521241"
+      ]
+    },
+    {
+      "source": "nominatim",
+      "sourceId": "osm/node/9803521242",
+      "osmType": "node",
+      "osmId": "9803521242",
+      "name": "St John Ambulans Malaysia Selangor Darul Ehsan",
+      "nameEnglish": "",
+      "lat": 3.0286114,
+      "lng": 101.428211,
+      "distanceFromPortMeters": 4465,
+      "address": "St John Ambulans Malaysia Selangor Darul Ehsan, Persiaran Raja Muda Musa, Taman Gembira, Pandamaran, Pelabuhan Klang, Bandaraya Klang, Klang, Selangor, 42000, Malaysia",
+      "displayName": "St John Ambulans Malaysia Selangor Darul Ehsan, Persiaran Raja Muda Musa, Taman Gembira, Pandamaran, Pelabuhan Klang, Bandaraya Klang, Klang, Selangor, 42000, Malaysia",
+      "query": "PORT KLANG Port, Port Klang, Malaysia",
+      "matchedBy": [
+        "Nominatim query: PORT KLANG Port, Port Klang, Malaysia"
+      ],
+      "osmTags": {},
+      "sources": [
+        "nominatim"
+      ],
+      "sourceIds": [
+        "osm/node/9803521242"
+      ]
+    },
+    {
+      "source": "nominatim",
+      "sourceId": "osm/node/4980756311",
+      "osmType": "node",
+      "osmId": "4980756311",
+      "name": "Agensi Penguatkuasaan Maritim Malaysia",
+      "nameEnglish": "",
+      "lat": 3.0121125,
+      "lng": 101.3609418,
+      "distanceFromPortMeters": 4541,
+      "address": "Agensi Penguatkuasaan Maritim Malaysia, Lingkaran Sultan Hishamuddin, Tanjung Harapan, Pelabuhan Klang, Bandaraya Klang, Klang, Selangor, 42009, Malaysia",
+      "displayName": "Agensi Penguatkuasaan Maritim Malaysia, Lingkaran Sultan Hishamuddin, Tanjung Harapan, Pelabuhan Klang, Bandaraya Klang, Klang, Selangor, 42009, Malaysia",
+      "query": "PORT KLANG Port, Port Klang, Malaysia",
+      "matchedBy": [
+        "Nominatim query: PORT KLANG Port, Port Klang, Malaysia"
+      ],
+      "osmTags": {},
+      "sources": [
+        "nominatim"
+      ],
+      "sourceIds": [
+        "osm/node/4980756311"
+      ]
+    },
+    {
+      "source": "nominatim",
+      "sourceId": "osm/way/696534753",
+      "osmType": "way",
+      "osmId": "696534753",
+      "name": "Nichiren Shoshu Malaysia Propagation Centre",
+      "nameEnglish": "Nichiren Shoshu Malaysia Propagation Centre",
+      "lat": 3.0321246,
+      "lng": 101.4261598,
+      "distanceFromPortMeters": 4604,
+      "address": "Nichiren Shoshu Malaysia Propagation Centre, Jalan Hilir, Taman Gembira, Teluk Pulai, Pelabuhan Klang, Bandaraya Klang, Klang, Selangor, 41250, Malaysia",
+      "displayName": "Nichiren Shoshu Malaysia Propagation Centre, Jalan Hilir, Taman Gembira, Teluk Pulai, Pelabuhan Klang, Bandaraya Klang, Klang, Selangor, 41250, Malaysia",
+      "query": "PORT KLANG Port, Port Klang, Malaysia",
+      "matchedBy": [
+        "Nominatim query: PORT KLANG Port, Port Klang, Malaysia"
+      ],
+      "osmTags": {
+        "building": "yes"
+      },
+      "sources": [
+        "nominatim"
+      ],
+      "sourceIds": [
+        "osm/way/696534753"
+      ]
+    }
+  ],
+  "counts": {
+    "attraction": 7,
+    "outdoors": 4,
+    "food_drink": 7,
+    "shopping": 4,
+    "essentials": 1
+  },
+  "pois": [
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/324239267c4f6d8ffed4",
+      "name": "班厝 Rumah Papan Pandamaran",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 3.0113442,
+      "lng": 101.4181535,
+      "distanceFromTerminalMeters": 2378,
+      "distanceFromDefaultTerminalMeters": 2378,
+      "minDistanceFromAnyTerminalMeters": 2378,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "124 Jalan Kemanis",
+      "openingHours": "Tu-Su,PH 10:00-18:00",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/1a01e039fc2e7590a7d0",
+      "name": "Galeri Diraja Sultan Abdul Aziz",
+      "nameEnglish": "Sultan Abdul Aziz Royal Gallery",
+      "category": "attraction",
+      "subcategory": "gallery",
+      "lat": 3.0412723,
+      "lng": 101.4492406,
+      "distanceFromTerminalMeters": 7138,
+      "distanceFromDefaultTerminalMeters": 7138,
+      "minDistanceFromAnyTerminalMeters": 7138,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Klang",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "gallery"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/4bd5ab9f96bd91f1c1ee",
+      "name": "Tanjung Harapan",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 3.0047671,
+      "lng": 101.3623931,
+      "distanceFromTerminalMeters": 4209,
+      "distanceFromDefaultTerminalMeters": 4209,
+      "minDistanceFromAnyTerminalMeters": 4209,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/cae9912a1b3800cc9ec1",
+      "name": "Little India",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 3.040365,
+      "lng": 101.4470032,
+      "distanceFromTerminalMeters": 6884,
+      "distanceFromDefaultTerminalMeters": 6884,
+      "minDistanceFromAnyTerminalMeters": 6884,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/3fa419f2ff19db853322",
+      "name": "Kota Raja Mahadi",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 3.0450501,
+      "lng": 101.4450828,
+      "distanceFromTerminalMeters": 7082,
+      "distanceFromDefaultTerminalMeters": 7082,
+      "minDistanceFromAnyTerminalMeters": 7082,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/a518804d9995fe02862e",
+      "name": "Taman Pengkalan Hampar",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 3.0459925,
+      "lng": 101.4479389,
+      "distanceFromTerminalMeters": 7382,
+      "distanceFromDefaultTerminalMeters": 7382,
+      "minDistanceFromAnyTerminalMeters": 7382,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/5e2d888479f21a74efe2",
+      "name": "Central Park",
+      "nameEnglish": "Central Park",
+      "category": "attraction",
+      "subcategory": "square",
+      "lat": 3.0472614,
+      "lng": 101.4430651,
+      "distanceFromTerminalMeters": 7105,
+      "distanceFromDefaultTerminalMeters": 7105,
+      "minDistanceFromAnyTerminalMeters": 7105,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "place": "square"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/34c1f153bc4c0aa17508",
+      "name": "Botanic Park",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 2.9876037,
+      "lng": 101.4313264,
+      "distanceFromTerminalMeters": 3742,
+      "distanceFromDefaultTerminalMeters": 3742,
+      "minDistanceFromAnyTerminalMeters": 3742,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Persiaran Botanic, Klang, 41200",
+      "openingHours": "24/7",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/e723c36e14dbbcda7d2f",
+      "name": "Royal Yacht Club",
+      "nameEnglish": "Royal Yacht Club",
+      "category": "outdoors",
+      "subcategory": "marina",
+      "lat": 3.0063451,
+      "lng": 101.3885696,
+      "distanceFromTerminalMeters": 1452,
+      "distanceFromDefaultTerminalMeters": 1452,
+      "minDistanceFromAnyTerminalMeters": 1452,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "marina"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/47c8fdf0dac71e5dd959",
+      "name": "Taman Bandar Diraja Klang",
+      "nameEnglish": "Royal Klang Park",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 3.036429,
+      "lng": 101.4458943,
+      "distanceFromTerminalMeters": 6510,
+      "distanceFromDefaultTerminalMeters": 6510,
+      "minDistanceFromAnyTerminalMeters": 6510,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/279b96d1c575665e900c",
+      "name": "Bandar Puteri Klang Lake Garden",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 2.994803,
+      "lng": 101.4663259,
+      "distanceFromTerminalMeters": 7388,
+      "distanceFromDefaultTerminalMeters": 7388,
+      "minDistanceFromAnyTerminalMeters": 7388,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Jalan Kerongsang 11, Klang, 41200",
+      "openingHours": "Mo-Su 07:00-23:00",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/1ff92b362b9136c34c36",
+      "name": "Kuey Teaw",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 3.0051558,
+      "lng": 101.4026082,
+      "distanceFromTerminalMeters": 642,
+      "distanceFromDefaultTerminalMeters": 642,
+      "minDistanceFromAnyTerminalMeters": 642,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [
+        "chinese"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d62f2456f82c52bc1ba2",
+      "name": "Siong Huat Bah Kut Teh",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 3.006534,
+      "lng": 101.3998513,
+      "distanceFromTerminalMeters": 727,
+      "distanceFromDefaultTerminalMeters": 727,
+      "minDistanceFromAnyTerminalMeters": 727,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [
+        "chinese"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/6288ae3c64a9d88a903b",
+      "name": "FK Hailam Seafood",
+      "nameEnglish": "FK Hailam Seafood",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 3.0037644,
+      "lng": 101.3867811,
+      "distanceFromTerminalMeters": 1526,
+      "distanceFromDefaultTerminalMeters": 1526,
+      "minDistanceFromAnyTerminalMeters": 1526,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Pelabuhan Klang",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [
+        "seafood",
+        "chinese"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d100ca2d7429bd99610b",
+      "name": "Bagan Seafood",
+      "nameEnglish": "Bagan Seafood",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 3.0069533,
+      "lng": 101.3866862,
+      "distanceFromTerminalMeters": 1668,
+      "distanceFromDefaultTerminalMeters": 1668,
+      "minDistanceFromAnyTerminalMeters": 1668,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Pelabuhan Klang",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [
+        "seafood",
+        "malay"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/8346fb229e9fb860536d",
+      "name": "Chen Chen Ho Steamboat",
+      "nameEnglish": "Chen Chen Ho Steamboat",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 2.9983479,
+      "lng": 101.4419286,
+      "distanceFromTerminalMeters": 4659,
+      "distanceFromDefaultTerminalMeters": 4659,
+      "minDistanceFromAnyTerminalMeters": 4659,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "https://www.facebook.com/chenchenhosteamboat/",
+      "phone": "+60183231618",
+      "cuisine": [
+        "steamboat",
+        "chinese",
+        "non_halal"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/4ed5e11167ad47ae712f",
+      "name": "Korean BBQ",
+      "nameEnglish": "Korean BBQ",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 2.9975207,
+      "lng": 101.4438603,
+      "distanceFromTerminalMeters": 4878,
+      "distanceFromDefaultTerminalMeters": 4878,
+      "minDistanceFromAnyTerminalMeters": 4878,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "+603-33193140",
+      "cuisine": [
+        "korean_food"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Owned by: Hancock BBQ House Sdn Bhd (1196033-H)",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/087de03f1b234d736c77",
+      "name": "Sungai Bagan Seafood",
+      "nameEnglish": "Sungai Bagan Seafood",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 3.0017981,
+      "lng": 101.3731504,
+      "distanceFromTerminalMeters": 2988,
+      "distanceFromDefaultTerminalMeters": 2988,
+      "minDistanceFromAnyTerminalMeters": 2988,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Pelabuhan Klang",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [
+        "seafood",
+        "malay"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c34681863d0d97cb3720",
+      "name": "AEON Bukit Tinggi Shopping Centre",
+      "nameEnglish": "AEON Bukit Tinggi Shopping Centre",
+      "category": "shopping",
+      "subcategory": "mall",
+      "lat": 2.993965,
+      "lng": 101.4443971,
+      "distanceFromTerminalMeters": 4975,
+      "distanceFromDefaultTerminalMeters": 4975,
+      "minDistanceFromAnyTerminalMeters": 4975,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "shop": "mall"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/88e26a5894fe6a471c5a",
+      "name": "Pasar Awam Pelabuhan Klang",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "marketplace",
+      "lat": 2.9999775,
+      "lng": 101.3970589,
+      "distanceFromTerminalMeters": 327,
+      "distanceFromDefaultTerminalMeters": 327,
+      "minDistanceFromAnyTerminalMeters": 327,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "marketplace"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/924e7f552b1591b41fcc",
+      "name": "Pasar Pandamaran",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "marketplace",
+      "lat": 3.0066763,
+      "lng": 101.414587,
+      "distanceFromTerminalMeters": 1782,
+      "distanceFromDefaultTerminalMeters": 1782,
+      "minDistanceFromAnyTerminalMeters": 1782,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "marketplace"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/694714ba8f3724069d9b",
+      "name": "SEGI FRESH",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "marketplace",
+      "lat": 3.0705459,
+      "lng": 101.4114755,
+      "distanceFromTerminalMeters": 7947,
+      "distanceFromDefaultTerminalMeters": 7947,
+      "minDistanceFromAnyTerminalMeters": 7947,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Jalan Rantau Panjang, Klang, 42100",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "marketplace"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c5356896c4e264debab5",
+      "name": "I ❤ Kampung Delek",
+      "nameEnglish": "",
+      "category": "essentials",
+      "subcategory": "visitor_information",
+      "lat": 3.0333831,
+      "lng": 101.4109706,
+      "distanceFromTerminalMeters": 3907,
+      "distanceFromDefaultTerminalMeters": 3907,
+      "minDistanceFromAnyTerminalMeters": 3907,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "information"
+      }
+    }
+  ],
+  "portAnchor": {
+    "id": "ports-json-anchor",
+    "name": "PORT KLANG Port",
+    "lat": 3,
+    "lng": 101.4,
+    "address": "Port Klang, Selangor, Malaysia",
+    "source": "ports.json",
+    "sourceId": "",
+    "score": 0,
+    "slug": "port-klang-port"
+  },
+  "terminalResolution": {
+    "status": "resolved",
+    "method": "accepted_terminal_candidate",
+    "verified": true,
+    "notes": "Accepted 1 candidate explicitly identified as an ocean-cruise or cruise-passenger terminal; ferry and unrelated results were excluded."
+  }
+}

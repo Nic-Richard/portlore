@@ -1,0 +1,849 @@
+{
+  "schemaVersion": 5,
+  "catalogType": "curation-candidates",
+  "generatedAt": "2026-07-30T08:10:38.523Z",
+  "source": "openstreetmap",
+  "sourceExtract": "java-latest.osm.pbf",
+  "radiusMeters": 10000,
+  "port": {
+    "id": "jakarta-indonesia",
+    "city": "Jakarta",
+    "country": "Indonesia"
+  },
+  "defaultTerminalId": "osm/generated/69921fcdfff483fe2037",
+  "terminal": {
+    "id": "osm/generated/69921fcdfff483fe2037",
+    "name": "Terminal Penumpang Pelabuhan Tanjung Priok",
+    "nameEnglish": "",
+    "lat": -6.1037524,
+    "lng": 106.8818244,
+    "address": "Tanjung Priok",
+    "source": "verified_terminal_candidate",
+    "sourceId": "osm/generated/69921fcdfff483fe2037",
+    "terminalType": "passenger_cruise_terminal",
+    "verified": true,
+    "notes": "Accepted Terminal Penumpang Pelabuhan Tanjung Priok, the mapped passenger terminal in the port complex where cruise visitors are processed ashore.",
+    "sourceUrls": [],
+    "sources": [
+      "openstreetmap"
+    ],
+    "sourceIds": [
+      "osm/generated/69921fcdfff483fe2037"
+    ],
+    "osmTags": {
+      "amenity": "ferry_terminal",
+      "building": "ferry_terminal",
+      "ferry": "yes",
+      "public_transport": "station"
+    },
+    "matchedBy": [
+      "amenity=ferry_terminal"
+    ],
+    "distanceFromPortMeters": 463
+  },
+  "terminals": [
+    {
+      "id": "osm/generated/69921fcdfff483fe2037",
+      "name": "Terminal Penumpang Pelabuhan Tanjung Priok",
+      "nameEnglish": "",
+      "lat": -6.1037524,
+      "lng": 106.8818244,
+      "address": "Tanjung Priok",
+      "source": "verified_terminal_candidate",
+      "sourceId": "osm/generated/69921fcdfff483fe2037",
+      "terminalType": "passenger_cruise_terminal",
+      "verified": true,
+      "notes": "Accepted Terminal Penumpang Pelabuhan Tanjung Priok, the mapped passenger terminal in the port complex where cruise visitors are processed ashore.",
+      "sourceUrls": [],
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/69921fcdfff483fe2037"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "building": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "station"
+      },
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "distanceFromPortMeters": 463
+    }
+  ],
+  "terminalCandidateRadiusMeters": 5000,
+  "terminalCandidates": [
+    {
+      "source": "nominatim",
+      "sourceId": "osm/node/6335494598",
+      "osmType": "node",
+      "osmId": "6335494598",
+      "name": "BNI",
+      "nameEnglish": "BNI",
+      "lat": -6.103603,
+      "lng": 106.8815822,
+      "distanceFromPortMeters": 437,
+      "address": "BNI, Jalan Panaitan, Kawasan Pelabuhan Tanjung Priok, Tanjung Priok, Jakarta Utara, Daerah Khusus Ibukota Jakarta, 14310, Indonesia",
+      "displayName": "BNI, Jalan Panaitan, Kawasan Pelabuhan Tanjung Priok, Tanjung Priok, Jakarta Utara, Daerah Khusus Ibukota Jakarta, 14310, Indonesia",
+      "query": "JAKARTA Port, Jakarta, Indonesia",
+      "matchedBy": [
+        "Nominatim query: JAKARTA Port, Jakarta, Indonesia"
+      ],
+      "osmTags": {},
+      "sources": [
+        "nominatim"
+      ],
+      "sourceIds": [
+        "osm/node/6335494598"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/69921fcdfff483fe2037",
+      "name": "Terminal Penumpang Pelabuhan Tanjung Priok",
+      "nameEnglish": "",
+      "lat": -6.1037524,
+      "lng": 106.8818244,
+      "distanceFromPortMeters": 463,
+      "address": "Tanjung Priok",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "building": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/69921fcdfff483fe2037"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d80c6055ec6f2b9d3edf",
+      "name": "Pelabuhan Tanjung Priok",
+      "nameEnglish": "Tanjung Priok Port",
+      "lat": -6.1037982,
+      "lng": 106.8824532,
+      "distanceFromPortMeters": 502,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "name:en": "Tanjung Priok Port",
+        "operator": "Pelindo",
+        "public_transport": "stop_position"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/d80c6055ec6f2b9d3edf"
+      ]
+    }
+  ],
+  "counts": {
+    "attraction": 9,
+    "outdoors": 4,
+    "food_drink": 7,
+    "shopping": 6,
+    "essentials": 0
+  },
+  "pois": [
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f465e0cb83f7ebf06bab",
+      "name": "Art1 Museum of Art",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": -6.1469392,
+      "lng": 106.8402043,
+      "distanceFromTerminalMeters": 6826,
+      "distanceFromDefaultTerminalMeters": 6826,
+      "minDistanceFromAnyTerminalMeters": 6826,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Su 10:00-16:00; Tu-Sa 10:00-18:00",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b2b3f5b9ddb4eefcb7c6",
+      "name": "Art & Craft Market",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": -6.1265697,
+      "lng": 106.8391335,
+      "distanceFromTerminalMeters": 5398,
+      "distanceFromDefaultTerminalMeters": 5398,
+      "minDistanceFromAnyTerminalMeters": 5398,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/360610663d2bbcf10f28",
+      "name": "SeaWorld Ancol",
+      "nameEnglish": "SeaWorld Ancol",
+      "category": "attraction",
+      "subcategory": "aquarium",
+      "lat": -6.125815,
+      "lng": 106.8428832,
+      "distanceFromTerminalMeters": 5008,
+      "distanceFromDefaultTerminalMeters": 5008,
+      "minDistanceFromAnyTerminalMeters": 5008,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Taman Impian Jaya Ancol, Jl. Lodan Timur No.7, 14430",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "aquarium"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/403f13100d78abdf5fe1",
+      "name": "Taman Impian Jaya Ancol",
+      "nameEnglish": "Ancol Dreamland Theme Park",
+      "category": "attraction",
+      "subcategory": "theme_park",
+      "lat": -6.1216033,
+      "lng": 106.8452834,
+      "distanceFromTerminalMeters": 4528,
+      "distanceFromDefaultTerminalMeters": 4528,
+      "minDistanceFromAnyTerminalMeters": 4528,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "No.7 Jl. Lodan Timur, North Jakarta, 14430",
+      "openingHours": "",
+      "website": "https://www.ancol.com/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "theme_park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/6c41b44015883c69679b",
+      "name": "Makam Mbah Priok",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "tomb",
+      "lat": -6.103098,
+      "lng": 106.8987854,
+      "distanceFromTerminalMeters": 2105,
+      "distanceFromDefaultTerminalMeters": 2105,
+      "minDistanceFromAnyTerminalMeters": 2105,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "tomb"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/aeeb991001677e39dd2a",
+      "name": "Museum Sejarah Jakarta",
+      "nameEnglish": "Jakarta History Museum",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": -6.1351548,
+      "lng": 106.813289,
+      "distanceFromTerminalMeters": 8348,
+      "distanceFromDefaultTerminalMeters": 8348,
+      "minDistanceFromAnyTerminalMeters": 8348,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1 Jalan Taman Fatahillah, Taman Sari, West Jakarta, 11110",
+      "openingHours": "Tu-Su 09:00-15:00",
+      "website": "",
+      "phone": "+62 21 6929101",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/e9c4c23c61e30c163b65",
+      "name": "Museum Kebangkitan Nasional",
+      "nameEnglish": "National Awakening Museum",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": -6.1787409,
+      "lng": 106.8380412,
+      "distanceFromTerminalMeters": 9909,
+      "distanceFromDefaultTerminalMeters": 9909,
+      "minDistanceFromAnyTerminalMeters": 9909,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Jl. Abdul Rachman Saleh No.26, Central Jakarta, 10410",
+      "openingHours": "Tu-Th, Sa, Su 08:00-16:00; Fr 08:00-16:30",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/9ed791b2b754ab23589d",
+      "name": "Old town",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": -6.134501,
+      "lng": 106.8139406,
+      "distanceFromTerminalMeters": 8250,
+      "distanceFromDefaultTerminalMeters": 8250,
+      "minDistanceFromAnyTerminalMeters": 8250,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/233d521c4235f61cf2dc",
+      "name": "Istana Merdeka",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "castle",
+      "lat": -6.1701667,
+      "lng": 106.8241962,
+      "distanceFromTerminalMeters": 9947,
+      "distanceFromDefaultTerminalMeters": 9947,
+      "minDistanceFromAnyTerminalMeters": 9947,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "castle"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/617079b741db19e08dbd",
+      "name": "Out Bond Beach",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "beach",
+      "lat": -6.1211412,
+      "lng": 106.8419398,
+      "distanceFromTerminalMeters": 4820,
+      "distanceFromDefaultTerminalMeters": 4820,
+      "minDistanceFromAnyTerminalMeters": 4820,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "natural": "beach"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/0a03c68589f0199a643f",
+      "name": "Pantai Laguna",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "beach",
+      "lat": -6.1224294,
+      "lng": 106.8411746,
+      "distanceFromTerminalMeters": 4965,
+      "distanceFromDefaultTerminalMeters": 4965,
+      "minDistanceFromAnyTerminalMeters": 4965,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "natural": "beach"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/dc0f1413eab43566329c",
+      "name": "Taman Segitiga Gorontalo",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": -6.1133504,
+      "lng": 106.8831519,
+      "distanceFromTerminalMeters": 1525,
+      "distanceFromDefaultTerminalMeters": 1525,
+      "minDistanceFromAnyTerminalMeters": 1525,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/6dca7872cdd746e7d1d4",
+      "name": "Taman RW 08",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": -6.1263956,
+      "lng": 106.8833951,
+      "distanceFromTerminalMeters": 2959,
+      "distanceFromDefaultTerminalMeters": 2959,
+      "minDistanceFromAnyTerminalMeters": 2959,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/08d8dec46651811bfe8a",
+      "name": "Staircaze Music Studio",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": -6.122117,
+      "lng": 106.8824851,
+      "distanceFromTerminalMeters": 2475,
+      "distanceFromDefaultTerminalMeters": 2475,
+      "minDistanceFromAnyTerminalMeters": 2475,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Su 10:00-22:00",
+      "website": "",
+      "phone": "+6281381930304",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Staircaze Music Studio is a music recording studio with services: studio rental, music recording, tracking & mastering",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/3c29c479e6fdb0bc1403",
+      "name": "Karawang",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": -6.1088047,
+      "lng": 106.8811879,
+      "distanceFromTerminalMeters": 988,
+      "distanceFromDefaultTerminalMeters": 988,
+      "minDistanceFromAnyTerminalMeters": 988,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [
+        "indonesian"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/28d621af09eaaf1774e8",
+      "name": "Coffee Grounds JKT",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": -6.1406513,
+      "lng": 106.8720954,
+      "distanceFromTerminalMeters": 4604,
+      "distanceFromDefaultTerminalMeters": 4604,
+      "minDistanceFromAnyTerminalMeters": 4604,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "4A Jl. Sunter Karya Timur Raya No.4A, Sunter Agung, Kec. Tj. Priok, Jkt Utara, Daerah Khusus Ibukota Jakarta 14350, Jakarta Utara, 14350",
+      "openingHours": "Mo-Su 07:30-22:00",
+      "website": "https://ouiuikkguy.my.canva.site/coffeegrounds-jkt",
+      "phone": "+62 821 1297 8810",
+      "cuisine": [
+        "coffee_shop",
+        "cafe"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/3cdc6d9ccf74fb84f572",
+      "name": "Aneka Seafood 38",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": -6.1386469,
+      "lng": 106.8568898,
+      "distanceFromTerminalMeters": 5000,
+      "distanceFromDefaultTerminalMeters": 5000,
+      "minDistanceFromAnyTerminalMeters": 5000,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "No. A2 No. 6 Jalan Danau Sunter Barat, Jakarta Utara, 14350",
+      "openingHours": "Mo-Su 10:00-22:00",
+      "website": "",
+      "phone": "+62 815 1611 257",
+      "cuisine": [
+        "seafood"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/cdce40d89333687b80c6",
+      "name": "Gocha Gocha",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": -6.1447063,
+      "lng": 106.8634404,
+      "distanceFromTerminalMeters": 5298,
+      "distanceFromDefaultTerminalMeters": 5298,
+      "minDistanceFromAnyTerminalMeters": 5298,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "73 Jalan Danau Agung 2, 14350",
+      "openingHours": "Su-Th 18:00-22:00; Fr-Sa 18:00-23:00",
+      "website": "https://gochasizzling.com",
+      "phone": "+62 822 8307 6242",
+      "cuisine": [
+        "japanese"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c485e7a3168bf6d13b52",
+      "name": "warung tahu",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": -6.1521531,
+      "lng": 106.9059748,
+      "distanceFromTerminalMeters": 6471,
+      "distanceFromDefaultTerminalMeters": 6471,
+      "minDistanceFromAnyTerminalMeters": 6471,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "8 Jalan Raya Kelapa Nias QB5, Kelapa Gading, North Jakarta, 14240",
+      "openingHours": "Mo-Su 08:00-20:00",
+      "website": "https://warungtahu.com",
+      "phone": "",
+      "cuisine": [
+        "indonesian",
+        "asian",
+        "breakfast",
+        "lunch",
+        "diner"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/9b03d14004cec590fac9",
+      "name": "Mang Engking Kelapa Gading",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": -6.159886,
+      "lng": 106.902129,
+      "distanceFromTerminalMeters": 7094,
+      "distanceFromDefaultTerminalMeters": 7094,
+      "minDistanceFromAnyTerminalMeters": 7094,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Jalan Pelepah Raya, Kelapa Gading, North Jakarta, 14240",
+      "openingHours": "Mo-Su 10:00-22:00",
+      "website": "https://www.mangengkinggroup.co.id/",
+      "phone": "+62 819 5914 0414",
+      "cuisine": [
+        "seafood",
+        "regional",
+        "chicken"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/e15b3e3dd9d74769b7d2",
+      "name": "Ancol Beach City Mall",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "mall",
+      "lat": -6.1175505,
+      "lng": 106.8582405,
+      "distanceFromTerminalMeters": 3098,
+      "distanceFromDefaultTerminalMeters": 3098,
+      "minDistanceFromAnyTerminalMeters": 3098,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Th 10:00-21:00; Fr-Su 10:00-22:00",
+      "website": "https://beachcityjakarta.com",
+      "phone": "+62 821 3600 9600",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "shop": "mall"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ed1c33fb6ab5c68730ab",
+      "name": "Ramayana Plaza Koja",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "mall",
+      "lat": -6.1138835,
+      "lng": 106.8938117,
+      "distanceFromTerminalMeters": 2171,
+      "distanceFromDefaultTerminalMeters": 2171,
+      "minDistanceFromAnyTerminalMeters": 2171,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Laks. Yos Sudarso, North Jakarta, 14320",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "shop": "mall"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ce648bc3a78af11be984",
+      "name": "Pasar Anyar Bahari",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "marketplace",
+      "lat": -6.1147537,
+      "lng": 106.8791647,
+      "distanceFromTerminalMeters": 1643,
+      "distanceFromDefaultTerminalMeters": 1643,
+      "minDistanceFromAnyTerminalMeters": 1643,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Jalan Tengkol",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "marketplace"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/9593ce82e4afefe86e10",
+      "name": "Pasar Asrama",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "marketplace",
+      "lat": -6.1141607,
+      "lng": 106.8852331,
+      "distanceFromTerminalMeters": 1678,
+      "distanceFromDefaultTerminalMeters": 1678,
+      "minDistanceFromAnyTerminalMeters": 1678,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Jalan Kebon Bawang XIV",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "marketplace"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/251b5f1cf66ebd83eefd",
+      "name": "Pasar Warakas",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "marketplace",
+      "lat": -6.1154535,
+      "lng": 106.8797374,
+      "distanceFromTerminalMeters": 1719,
+      "distanceFromDefaultTerminalMeters": 1719,
+      "minDistanceFromAnyTerminalMeters": 1719,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Jalan Warakas I",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "marketplace"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/934b0a02766fef81e34f",
+      "name": "Pasar Ular Permai",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "marketplace",
+      "lat": -6.1141846,
+      "lng": 106.8924169,
+      "distanceFromTerminalMeters": 2091,
+      "distanceFromDefaultTerminalMeters": 2091,
+      "minDistanceFromAnyTerminalMeters": 2091,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Jalan Kebon Bawang V",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "marketplace"
+      }
+    }
+  ],
+  "portAnchor": {
+    "id": "ports-json-anchor",
+    "name": "JAKARTA Port",
+    "lat": -6.1,
+    "lng": 106.88,
+    "address": "Jakarta, Jakarta, Indonesia",
+    "source": "ports.json",
+    "sourceId": "",
+    "score": 0,
+    "slug": "jakarta-port"
+  },
+  "terminalResolution": {
+    "status": "resolved",
+    "method": "accepted_terminal_candidate",
+    "verified": true,
+    "notes": "Accepted Terminal Penumpang Pelabuhan Tanjung Priok, the mapped passenger terminal in the port complex where cruise visitors are processed ashore."
+  }
+}

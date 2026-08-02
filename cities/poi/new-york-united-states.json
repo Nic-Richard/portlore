@@ -1,0 +1,1024 @@
+{
+  "schemaVersion": 5,
+  "catalogType": "curation-candidates",
+  "generatedAt": "2026-07-30T09:23:34.692Z",
+  "source": "openstreetmap",
+  "sourceExtract": "new-york-latest.osm.pbf",
+  "radiusMeters": 10000,
+  "port": {
+    "id": "new-york-united-states",
+    "city": "New York",
+    "country": "United States"
+  },
+  "defaultTerminalId": "osm/generated/c368578c2f5918952724",
+  "terminal": {
+    "id": "osm/generated/c368578c2f5918952724",
+    "name": "Manhattan Cruise Terminal",
+    "nameEnglish": "",
+    "lat": 40.767583,
+    "lng": -73.9988369,
+    "address": "",
+    "source": "verified_terminal_candidate",
+    "sourceId": "osm/generated/c368578c2f5918952724",
+    "terminalType": "passenger_cruise_terminal",
+    "verified": true,
+    "notes": "Accepted 1 candidate explicitly identified as an ocean-cruise or cruise-passenger terminal; ferry and unrelated results were excluded.",
+    "sourceUrls": [],
+    "sources": [
+      "openstreetmap"
+    ],
+    "sourceIds": [
+      "osm/generated/c368578c2f5918952724"
+    ],
+    "osmTags": {
+      "harbour": "yes",
+      "operator": "Ports America",
+      "seamark:type": "harbour"
+    },
+    "matchedBy": [
+      "terminal-like name"
+    ],
+    "distanceFromPortMeters": 484
+  },
+  "terminals": [
+    {
+      "id": "osm/generated/c368578c2f5918952724",
+      "name": "Manhattan Cruise Terminal",
+      "nameEnglish": "",
+      "lat": 40.767583,
+      "lng": -73.9988369,
+      "address": "",
+      "source": "verified_terminal_candidate",
+      "sourceId": "osm/generated/c368578c2f5918952724",
+      "terminalType": "passenger_cruise_terminal",
+      "verified": true,
+      "notes": "Accepted 1 candidate explicitly identified as an ocean-cruise or cruise-passenger terminal; ferry and unrelated results were excluded.",
+      "sourceUrls": [],
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/c368578c2f5918952724"
+      ],
+      "osmTags": {
+        "harbour": "yes",
+        "operator": "Ports America",
+        "seamark:type": "harbour"
+      },
+      "matchedBy": [
+        "terminal-like name"
+      ],
+      "distanceFromPortMeters": 484
+    }
+  ],
+  "terminalCandidateRadiusMeters": 5000,
+  "terminalCandidates": [
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/fecf5b15c20e0ac1843e",
+      "name": "Midtown/West 39th Street",
+      "nameEnglish": "",
+      "lat": 40.760592,
+      "lng": -74.0039047,
+      "distanceFromPortMeters": 443,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "stop_position"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/fecf5b15c20e0ac1843e"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c368578c2f5918952724",
+      "name": "Manhattan Cruise Terminal",
+      "nameEnglish": "",
+      "lat": 40.767583,
+      "lng": -73.9988369,
+      "distanceFromPortMeters": 484,
+      "address": "",
+      "matchedBy": [
+        "terminal-like name"
+      ],
+      "osmTags": {
+        "harbour": "yes",
+        "operator": "Ports America",
+        "seamark:type": "harbour"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/c368578c2f5918952724"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/e566a11c3856f5b809cb",
+      "name": "Lincoln Harbor",
+      "nameEnglish": "",
+      "lat": 40.7587891,
+      "lng": -74.022811,
+      "distanceFromPortMeters": 1793,
+      "address": "Harbor Boulevard, Weehawken, NJ, 07086",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "operator": "NY Waterway",
+        "public_transport": "stop_position"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/e566a11c3856f5b809cb"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/8b928e4778af5fc5d0cb",
+      "name": "Hoboken 14th Street",
+      "nameEnglish": "",
+      "lat": 40.752646,
+      "lng": -74.020864,
+      "distanceFromPortMeters": 2007,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "stop_position"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/8b928e4778af5fc5d0cb"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/738a24d465bdd80dfd61",
+      "name": "East 34th Street/Midtown",
+      "nameEnglish": "",
+      "lat": 40.7439373,
+      "lng": -73.9707115,
+      "distanceFromPortMeters": 3547,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/738a24d465bdd80dfd61"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/717ac4e18cf181e42581",
+      "name": "Hoboken NJ Transit Terminal",
+      "nameEnglish": "",
+      "lat": 40.7350368,
+      "lng": -74.0265592,
+      "distanceFromPortMeters": 3835,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "stop_position"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/717ac4e18cf181e42581"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b5703902a5d68440547d",
+      "name": "Long Island City - Gantry Plaza",
+      "nameEnglish": "",
+      "lat": 40.7484308,
+      "lng": -73.9577247,
+      "distanceFromPortMeters": 4204,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/b5703902a5d68440547d"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/29bb825e7b6745b045b6",
+      "name": "Hunters Point South/Long Island City",
+      "nameEnglish": "",
+      "lat": 40.7418457,
+      "lng": -73.9613465,
+      "distanceFromPortMeters": 4312,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "stop_position"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/29bb825e7b6745b045b6"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/77b812eb506ef7addd55",
+      "name": "Roosevelt Island",
+      "nameEnglish": "",
+      "lat": 40.756819,
+      "lng": -73.9524692,
+      "distanceFromPortMeters": 4332,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/77b812eb506ef7addd55"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/1080b64efddd09ad9323",
+      "name": "Stuyvesant Cove",
+      "nameEnglish": "",
+      "lat": 40.7319845,
+      "lng": -73.9728883,
+      "distanceFromPortMeters": 4412,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/1080b64efddd09ad9323"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f3fc7d4992fa416c663a",
+      "name": "India Street/Greenpoint",
+      "nameEnglish": "",
+      "lat": 40.7313641,
+      "lng": -73.9636871,
+      "distanceFromPortMeters": 4948,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "operator": "Lendlease",
+        "public_transport": "stop_position"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/f3fc7d4992fa416c663a"
+      ]
+    }
+  ],
+  "counts": {
+    "shopping": 3,
+    "attraction": 6,
+    "outdoors": 4,
+    "food_drink": 12,
+    "essentials": 0
+  },
+  "pois": [
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ba8c0007bdb19090e1f4",
+      "name": "Stile's Farmers Market ",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "greengrocer",
+      "lat": 40.7549345,
+      "lng": -73.9949239,
+      "distanceFromTerminalMeters": 1258,
+      "distanceFromDefaultTerminalMeters": 1258,
+      "minDistanceFromAnyTerminalMeters": 1258,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "476 9th Avenue, 10018",
+      "openingHours": "Mo-Sa 07:00-18:30; Su 09:00-17:00",
+      "website": "https://stiles-farmers-market-inc.hub.biz",
+      "phone": "+1 212-868-7070",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "shop": "greengrocer"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d6a41492fef0e0101c48",
+      "name": "IGT Jewelry Shopping Mall",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "marketplace",
+      "lat": 40.7572806,
+      "lng": -73.9806094,
+      "distanceFromTerminalMeters": 2042,
+      "distanceFromDefaultTerminalMeters": 2042,
+      "minDistanceFromAnyTerminalMeters": 2042,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "44 West 47th Street, 10036",
+      "openingHours": "Mo-Sa 09:00-18:00; Nov Th[4] - Dec 25 Mo-Sa 08:30-19:30; Nov Th[4] - Dec 25 Su 10:00-17:00",
+      "website": "https://www.igtny.com/mall/visiting-the-mall",
+      "phone": "+1-212-575-1115",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "marketplace"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/7b7ebecdb1f493421aa1",
+      "name": "The Shops at Columbus Circle",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "mall",
+      "lat": 40.7684026,
+      "lng": -73.9828296,
+      "distanceFromTerminalMeters": 1745,
+      "distanceFromDefaultTerminalMeters": 1745,
+      "minDistanceFromAnyTerminalMeters": 1745,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "10 Columbus Circle, New York, NY",
+      "openingHours": "Mo-Sa 10:00-20:00; Su 11:00-19:00",
+      "website": "https://www.theshopsatcolumbuscircle.com/",
+      "phone": "+1 212-823-6300",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "shop": "mall"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/842c04ff46bece44a75e",
+      "name": "Intrepid Museum",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 40.7645198,
+      "lng": -73.9995256,
+      "distanceFromTerminalMeters": 284,
+      "distanceFromDefaultTerminalMeters": 284,
+      "minDistanceFromAnyTerminalMeters": 284,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "86 West 46th Street, New York, NY, 10036",
+      "openingHours": "Apr 01-Sep 30 Mo-Fr 10:00-17:00; Apr 01-Sep 30 Sa,Su, PH 10:00-18:00; Oct 01-Mar 31 10:00-17:00; Nov Th[4] off; Dec 25 off",
+      "website": "https://www.intrepidmuseum.org/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "Museum of Marine, Aircraft and Space",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/1bf561741b8dd68b2c7e",
+      "name": "Anya & Andrew Shiva Gallery",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "gallery",
+      "lat": 40.771366,
+      "lng": -73.9902725,
+      "distanceFromTerminalMeters": 1309,
+      "distanceFromDefaultTerminalMeters": 1309,
+      "minDistanceFromAnyTerminalMeters": 1309,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "860 11th Avenue, New York, NY, 10019",
+      "openingHours": "Mo-Fr 10:00-18:00",
+      "website": "https://shivagallery.org/",
+      "phone": "+1-212-237-1439",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "gallery"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d97a6f3d15216b4c88c3",
+      "name": "Microscope Gallery",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "gallery",
+      "lat": 40.7521088,
+      "lng": -74.0026522,
+      "distanceFromTerminalMeters": 1378,
+      "distanceFromDefaultTerminalMeters": 1378,
+      "minDistanceFromAnyTerminalMeters": 1378,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "525 West 29th Street, New York, NY, 10001",
+      "openingHours": "Tu-Sa 12:00-18:00",
+      "website": "https://microscopegallery.com",
+      "phone": "+1-347-925-1433",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "gallery"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/8b88b9434a266590a848",
+      "name": "Malin Gallery",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "gallery",
+      "lat": 40.75193,
+      "lng": -74.0022364,
+      "distanceFromTerminalMeters": 1399,
+      "distanceFromDefaultTerminalMeters": 1399,
+      "minDistanceFromAnyTerminalMeters": 1399,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "515 West 29th Street, New York, NY, 10001",
+      "openingHours": "Tu-Sa 10:00-18:00",
+      "website": "https://www.malingallery.com",
+      "phone": "+1-646-918-7696",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "gallery"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/1e9c6dcf5b5efe0fca86",
+      "name": "Viridian Artists",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "gallery",
+      "lat": 40.7516496,
+      "lng": -74.0041354,
+      "distanceFromTerminalMeters": 1433,
+      "distanceFromDefaultTerminalMeters": 1433,
+      "minDistanceFromAnyTerminalMeters": 1433,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "548 West 28th Street, New York, NY, 10001",
+      "openingHours": "Tu-Sa 10:00-18:00",
+      "website": "https://viridianartist.com",
+      "phone": "+1-212-414-4040",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "gallery"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/140f509fcac89a1ca1c9",
+      "name": "Carter Burden Gallery",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "gallery",
+      "lat": 40.7516054,
+      "lng": -74.0041652,
+      "distanceFromTerminalMeters": 1438,
+      "distanceFromDefaultTerminalMeters": 1438,
+      "minDistanceFromAnyTerminalMeters": 1438,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "548 West 28th Street, New York, NY, 10001",
+      "openingHours": "Tu-Fr 11:00-17:00; Sa 11:00-18:00",
+      "website": "https://www.carterburdengallery.org",
+      "phone": "+1-212-564-8405",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "gallery"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/acaf772fdb3f8a3b906e",
+      "name": "Pier 76",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 40.7591506,
+      "lng": -74.005364,
+      "distanceFromTerminalMeters": 630,
+      "distanceFromDefaultTerminalMeters": 630,
+      "minDistanceFromAnyTerminalMeters": 630,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "408 12th Avenue, New York, NY, 10018",
+      "openingHours": "",
+      "website": "https://hudsonriverpark.org/pier-76/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/a022cb9c403ae4194ef4",
+      "name": "Clinton Community Garden",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "garden",
+      "lat": 40.7627781,
+      "lng": -73.9917305,
+      "distanceFromTerminalMeters": 960,
+      "distanceFromDefaultTerminalMeters": 960,
+      "minDistanceFromAnyTerminalMeters": 960,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "http://clintongarden.org/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "garden"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d6ee711ccf058b9c7bb0",
+      "name": "Afficionado Coffee Roasters",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 40.7675057,
+      "lng": -73.9931234,
+      "distanceFromTerminalMeters": 889,
+      "distanceFromDefaultTerminalMeters": 889,
+      "minDistanceFromAnyTerminalMeters": 889,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "750 11th Avenue, New York, NY, 10019",
+      "openingHours": "Mo-Sa 07:00-17:00; Su 07:30-16:00",
+      "website": "https://www.afficionadocoffee.com/",
+      "phone": "+1-914-482-1521",
+      "cuisine": [
+        "coffee_shop"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/2850b20a10391f1c09c6",
+      "name": "The High Line",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 40.7479527,
+      "lng": -74.0039539,
+      "distanceFromTerminalMeters": 1842,
+      "distanceFromDefaultTerminalMeters": 1842,
+      "minDistanceFromAnyTerminalMeters": 1842,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "New York, NY",
+      "openingHours": "Mo-Su 07:00-19:00",
+      "website": "https://www.thehighline.org/",
+      "phone": "+1 212-500-6035",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "The High Line is a 1.45-mile-long elevated linear park, greenway, and rail trail created on a former New York Central Railroad spur on the west side of Manhattan in New York City.",
+      "osmTags": {
+        "leisure": "park",
+        "man_made": "bridge",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/e9e6b39c7a096dc8baee",
+      "name": "30 Lincoln Plaza",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 40.7707961,
+      "lng": -73.9814012,
+      "distanceFromTerminalMeters": 1941,
+      "distanceFromDefaultTerminalMeters": 1941,
+      "minDistanceFromAnyTerminalMeters": 1941,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1886 Broadway, New York, NY, 10023",
+      "openingHours": "8:00-23:00",
+      "website": "https://capitalplanning.nyc.gov/pops/M070015#16.52/40.76956/-73.98279",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/02dbfbecc3721abb8912",
+      "name": "Robert's Steakhouse",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 40.7630348,
+      "lng": -73.9972682,
+      "distanceFromTerminalMeters": 502,
+      "distanceFromDefaultTerminalMeters": 502,
+      "minDistanceFromAnyTerminalMeters": 502,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "603 West 45th Street",
+      "openingHours": "Mo-Fr 19:00-00:30; Sa 08:00-00:30",
+      "website": "http://www.pecnyc.com",
+      "phone": "+1-212-245-0002",
+      "cuisine": [
+        "steak"
+      ],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "Luxe haunt with surf 'n' turf fare and strip shows on the balcony of the Penthouse Executive Club.",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/5e2703cacc1231a991fd",
+      "name": "Kochi",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 40.7620108,
+      "lng": -73.9935128,
+      "distanceFromTerminalMeters": 838,
+      "distanceFromDefaultTerminalMeters": 838,
+      "minDistanceFromAnyTerminalMeters": 838,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "652 10th Avenue, New York, NY, 10036",
+      "openingHours": "Mo-Th 17:00-21:30, Fr-Sa 17:00-22:00, Su 17:00-21:30",
+      "website": "https://kochinyc.com",
+      "phone": "+1-646-478-7308",
+      "cuisine": [
+        "korean"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "upscale korean skewer tasting menu only",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/8f5226fb46911d431ae5",
+      "name": "UFC Chicken",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 40.7560518,
+      "lng": -73.9941118,
+      "distanceFromTerminalMeters": 1196,
+      "distanceFromDefaultTerminalMeters": 1196,
+      "minDistanceFromAnyTerminalMeters": 1196,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "528 9th Avenue, New York, NY, 10018",
+      "openingHours": "Mo-Sa 12:00-23:00; Su 12:00-22:00",
+      "website": "https://www.ufchicken.com/",
+      "phone": "+1 646-422-7451",
+      "cuisine": [
+        "chicken",
+        "korean",
+        "fried_chicken"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Korean Fried Chicken & Craft Beer",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/58d79fe5b0d29fa68592",
+      "name": "Dim Sum Palace",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 40.7602273,
+      "lng": -73.9893114,
+      "distanceFromTerminalMeters": 1239,
+      "distanceFromDefaultTerminalMeters": 1239,
+      "minDistanceFromAnyTerminalMeters": 1239,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "10036",
+      "openingHours": "Mo-Fr 11:00-01:30; Sa-Su 10:30-13:30",
+      "website": "https://dimsumpalace.com/",
+      "phone": "+1-646-861-1910",
+      "cuisine": [
+        "chinese"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/148b17c80951b788bcfa",
+      "name": "Kings of Kobe",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 40.7614427,
+      "lng": -74.0003975,
+      "distanceFromTerminalMeters": 400,
+      "distanceFromDefaultTerminalMeters": 400,
+      "minDistanceFromAnyTerminalMeters": 400,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "650 West 42nd Street, New York, NY, 10036",
+      "openingHours": "Tu-Su 12:00-21:00; Fr,Sa 12:00-22:00",
+      "website": "https://www.kingsofkobe.com/",
+      "phone": "+1-646-370-5121",
+      "cuisine": [
+        "burger",
+        "american"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/899f85e377f6724dea39",
+      "name": "Creamline",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 40.7621194,
+      "lng": -73.9970358,
+      "distanceFromTerminalMeters": 560,
+      "distanceFromDefaultTerminalMeters": 560,
+      "minDistanceFromAnyTerminalMeters": 560,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "600 11th Avenue, New York, NY, 10011",
+      "openingHours": "Mo-Su 11:00-19:00",
+      "website": "https://www.creamlinenyc.com/gotham-west-market",
+      "phone": "+1-607-566-7691",
+      "cuisine": [
+        "american",
+        "burger"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/06450920bd43edb0666f",
+      "name": "Mémé Mediterranean",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 40.7609011,
+      "lng": -73.9947642,
+      "distanceFromTerminalMeters": 794,
+      "distanceFromDefaultTerminalMeters": 794,
+      "minDistanceFromAnyTerminalMeters": 794,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "607 10th Avenue, 10036",
+      "openingHours": "Mo-Fr 12:00-22:00; Sa, Su 11:00-22:00",
+      "website": "http://mememediterranean.com",
+      "phone": "+1 917-262-0827",
+      "cuisine": [
+        "mediterranean"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/08b7efb468cb210539b7",
+      "name": "Pio Pio",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 40.7605928,
+      "lng": -73.9945435,
+      "distanceFromTerminalMeters": 827,
+      "distanceFromDefaultTerminalMeters": 827,
+      "minDistanceFromAnyTerminalMeters": 827,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "604 10th Avenue, 10036",
+      "openingHours": "Mo-Th, Su 11:00-23:00; Fr, Sa 11:00-24:00",
+      "website": "https://www.piopio.com/locations/hells_kitchen.html",
+      "phone": "+1 212-459-2929",
+      "cuisine": [
+        "peruvian"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f687358e9d4e80304208",
+      "name": "Senza Gluten by Jemiko",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 40.7610811,
+      "lng": -73.9941852,
+      "distanceFromTerminalMeters": 827,
+      "distanceFromDefaultTerminalMeters": 827,
+      "minDistanceFromAnyTerminalMeters": 827,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "626 10th Avenue, 10036",
+      "openingHours": "Mo-Fr 16:00-23:00; Sa,Su 11:00-23:00",
+      "website": "https://senzaglutenbyjemiko.com/",
+      "phone": "+1-212-933-4845 ; +1-212-475-7771",
+      "cuisine": [
+        "italian"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/8370c95bbcb291aa359f",
+      "name": "Claudio’s Pizza & Pasta",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 40.7603948,
+      "lng": -73.9946972,
+      "distanceFromTerminalMeters": 828,
+      "distanceFromDefaultTerminalMeters": 828,
+      "minDistanceFromAnyTerminalMeters": 828,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "598 10th Avenue, New York, NY, 10036",
+      "openingHours": "Mo-Su 10:45-22:30",
+      "website": "https://claudiospizza10thave.com/",
+      "phone": "+1-212-586-3145",
+      "cuisine": [
+        "pizza"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/aa47dc3d4d581040c8f2",
+      "name": "The Marshal",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 40.7612529,
+      "lng": -73.994034,
+      "distanceFromTerminalMeters": 829,
+      "distanceFromDefaultTerminalMeters": 829,
+      "minDistanceFromAnyTerminalMeters": 829,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "628 10th Avenue, New York, 10036",
+      "openingHours": "Mo-Su 11:00-22:00",
+      "website": "https://www.the-marshal.com/",
+      "phone": "+1 212-582-6300",
+      "cuisine": [
+        "american"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    }
+  ],
+  "portAnchor": {
+    "id": "ports-json-anchor",
+    "name": "New York Cruise Terminals",
+    "lat": 40.7645,
+    "lng": -74.0029,
+    "address": "New York metropolitan area, United States",
+    "source": "ports.json",
+    "sourceId": "",
+    "score": 0,
+    "slug": "new-york-cruise-terminals"
+  },
+  "terminalResolution": {
+    "status": "resolved",
+    "method": "accepted_terminal_candidate",
+    "verified": true,
+    "notes": "Accepted 1 candidate explicitly identified as an ocean-cruise or cruise-passenger terminal; ferry and unrelated results were excluded."
+  }
+}

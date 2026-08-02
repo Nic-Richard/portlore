@@ -1,0 +1,2216 @@
+{
+  "schemaVersion": 5,
+  "catalogType": "curation-candidates",
+  "generatedAt": "2026-07-30T07:56:37.873Z",
+  "source": "openstreetmap",
+  "sourceExtract": "finland-latest.osm.pbf",
+  "radiusMeters": 10000,
+  "port": {
+    "id": "helsinki-finland",
+    "city": "Helsinki",
+    "country": "Finland"
+  },
+  "defaultTerminalId": "manual/helsinki-finland/hernesaari-cruise-terminal",
+  "terminal": {
+    "id": "manual/helsinki-finland/hernesaari-cruise-terminal",
+    "name": "Hernesaari Cruise Terminal",
+    "nameEnglish": "",
+    "lat": 60.14835,
+    "lng": 24.92108,
+    "address": "",
+    "source": "manual_web_research",
+    "sourceId": "manual/helsinki-finland/hernesaari-cruise-terminal",
+    "terminalType": "cruise_quay",
+    "verified": true,
+    "notes": "Main large-ship cruise area southwest of central Helsinki.",
+    "sourceUrls": [
+      "https://www.portofhelsinki.fi/en/passengers/cruise-passengers/",
+      "https://www.openstreetmap.org/?mlat=60.14835&mlon=24.92108#map=17/60.14835/24.92108"
+    ],
+    "sources": [
+      "manual_web_research"
+    ],
+    "sourceIds": [
+      "manual/helsinki-finland/hernesaari-cruise-terminal"
+    ],
+    "osmTags": {},
+    "matchedBy": [
+      "web_researched_terminal"
+    ],
+    "distanceFromPortMeters": null
+  },
+  "terminals": [
+    {
+      "id": "manual/helsinki-finland/hernesaari-cruise-terminal",
+      "name": "Hernesaari Cruise Terminal",
+      "nameEnglish": "",
+      "lat": 60.14835,
+      "lng": 24.92108,
+      "address": "",
+      "source": "manual_web_research",
+      "sourceId": "manual/helsinki-finland/hernesaari-cruise-terminal",
+      "terminalType": "cruise_quay",
+      "verified": true,
+      "notes": "Main large-ship cruise area southwest of central Helsinki.",
+      "sourceUrls": [
+        "https://www.portofhelsinki.fi/en/passengers/cruise-passengers/",
+        "https://www.openstreetmap.org/?mlat=60.14835&mlon=24.92108#map=17/60.14835/24.92108"
+      ],
+      "sources": [
+        "manual_web_research"
+      ],
+      "sourceIds": [
+        "manual/helsinki-finland/hernesaari-cruise-terminal"
+      ],
+      "osmTags": {},
+      "matchedBy": [
+        "web_researched_terminal"
+      ],
+      "distanceFromPortMeters": null
+    },
+    {
+      "id": "manual/helsinki-finland/katajanokka-cruise-quay",
+      "name": "Katajanokka Cruise Quay",
+      "nameEnglish": "",
+      "lat": 60.16539,
+      "lng": 24.97515,
+      "address": "",
+      "source": "manual_web_research",
+      "sourceId": "manual/helsinki-finland/katajanokka-cruise-quay",
+      "terminalType": "cruise_quay",
+      "verified": true,
+      "notes": "Central cruise quay on Katajanokka, separate from the regular ferry terminal.",
+      "sourceUrls": [
+        "https://www.portofhelsinki.fi/en/passengers/cruise-passengers/",
+        "https://www.openstreetmap.org/?mlat=60.16539&mlon=24.97515#map=17/60.16539/24.97515"
+      ],
+      "sources": [
+        "manual_web_research"
+      ],
+      "sourceIds": [
+        "manual/helsinki-finland/katajanokka-cruise-quay"
+      ],
+      "osmTags": {},
+      "matchedBy": [
+        "web_researched_terminal"
+      ],
+      "distanceFromPortMeters": null
+    },
+    {
+      "id": "manual/helsinki-finland/west-harbour-cruise-quay",
+      "name": "West Harbour Cruise Quay",
+      "nameEnglish": "",
+      "lat": 60.15249,
+      "lng": 24.90893,
+      "address": "",
+      "source": "manual_web_research",
+      "sourceId": "manual/helsinki-finland/west-harbour-cruise-quay",
+      "terminalType": "cruise_quay",
+      "verified": true,
+      "notes": "Cruise berth in Helsinki's West Harbour passenger-port complex.",
+      "sourceUrls": [
+        "https://www.portofhelsinki.fi/en/passengers/cruise-passengers/",
+        "https://www.openstreetmap.org/?mlat=60.15249&mlon=24.90893#map=17/60.15249/24.90893"
+      ],
+      "sources": [
+        "manual_web_research"
+      ],
+      "sourceIds": [
+        "manual/helsinki-finland/west-harbour-cruise-quay"
+      ],
+      "osmTags": {},
+      "matchedBy": [
+        "web_researched_terminal"
+      ],
+      "distanceFromPortMeters": null
+    }
+  ],
+  "terminalCandidateRadiusMeters": 5000,
+  "terminalCandidates": [
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c878ab5e3001c7b19b21",
+      "name": "Meritullintori",
+      "nameEnglish": "",
+      "lat": 60.1697491,
+      "lng": 24.9602674,
+      "distanceFromPortMeters": 539,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/c878ab5e3001c7b19b21"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f4cd12d0d59dc0bf4211",
+      "name": "(unnamed maritime feature)",
+      "nameEnglish": "",
+      "lat": 60.1653783,
+      "lng": 24.9751481,
+      "distanceFromPortMeters": 588,
+      "address": "4 Katajanokanranta",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "building": "yes",
+        "ferry": "yes",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/f4cd12d0d59dc0bf4211"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/63ccd261cdeca20c1df3",
+      "name": "Katajanokka",
+      "nameEnglish": "",
+      "lat": 60.1673696,
+      "lng": 24.9803248,
+      "distanceFromPortMeters": 642,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "cargo": "passengers;vehicle",
+        "man_made": "pier",
+        "public_transport": "platform"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/63ccd261cdeca20c1df3"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f9fb8b7c3558c9e1d5c3",
+      "name": "Katajanokan terminaali",
+      "nameEnglish": "Katajanokka Terminal",
+      "lat": 60.163824,
+      "lng": 24.9683614,
+      "distanceFromPortMeters": 693,
+      "address": "8 Katajanokanlaituri, Helsinki, 00160, FI",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "building": "yes",
+        "ferry": "yes",
+        "name:en": "Katajanokka Terminal",
+        "operator": "Helsingin Satama Oy",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/f9fb8b7c3558c9e1d5c3"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/39005ba632a1f300077e",
+      "name": "Katajanokan laituri EK7",
+      "nameEnglish": "Katajanokka pier EK7",
+      "lat": 60.1639885,
+      "lng": 24.9658523,
+      "distanceFromPortMeters": 707,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "name:en": "Katajanokka pier EK7",
+        "operator": "Viking Line",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/39005ba632a1f300077e"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/3f3f5d49f8bffe0a4816",
+      "name": "Korkeasaari",
+      "nameEnglish": "Korkeasaari Zoo",
+      "lat": 60.1751464,
+      "lng": 24.9792067,
+      "distanceFromPortMeters": 766,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "alt_name": "Korkeasaaren saaristovenelaituri",
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "name:en": "Korkeasaari Zoo",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/3f3f5d49f8bffe0a4816"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/5e2df01c336f410b698d",
+      "name": "Linnanlaituri",
+      "nameEnglish": "",
+      "lat": 60.1675115,
+      "lng": 24.9565671,
+      "distanceFromPortMeters": 793,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "cargo": "passengers",
+        "ferry": "yes",
+        "operator": "m/s J.L. Runeberg",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/5e2df01c336f410b698d"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d29ae2b67892de74c2cb",
+      "name": "(unnamed maritime feature)",
+      "nameEnglish": "",
+      "lat": 60.1675054,
+      "lng": 24.9563522,
+      "distanceFromPortMeters": 804,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "cargo": "passengers",
+        "ferry": "yes",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/d29ae2b67892de74c2cb"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/475483e60c6f91cd96db",
+      "name": "Kauppatori",
+      "nameEnglish": "",
+      "lat": 60.1672559,
+      "lng": 24.9556524,
+      "distanceFromPortMeters": 850,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/475483e60c6f91cd96db"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c4610c3756dc4f5e32b6",
+      "name": "Kauppatori (Keisarinluodonlaituri)",
+      "nameEnglish": "",
+      "lat": 60.1668769,
+      "lng": 24.955427,
+      "distanceFromPortMeters": 878,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "cargo": "passengers",
+        "ferry": "yes",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/c4610c3756dc4f5e32b6"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/995666418b9dd3ce711a",
+      "name": "(unnamed maritime feature)",
+      "nameEnglish": "",
+      "lat": 60.166873,
+      "lng": 24.9549034,
+      "distanceFromPortMeters": 905,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "alt_name": "Kauppatorin saaristoliikennelaituri",
+        "amenity": "ferry_terminal",
+        "cargo": "passengers",
+        "ferry": "yes",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/995666418b9dd3ce711a"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ffb5982a2c479c437581",
+      "name": "Kauppatori (Lyypekinlaituri)",
+      "nameEnglish": "",
+      "lat": 60.1665006,
+      "lng": 24.9540977,
+      "distanceFromPortMeters": 962,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/ffb5982a2c479c437581"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/08625770c9c6195c4081",
+      "name": "Kauppatori (Kolera-allas)",
+      "nameEnglish": "",
+      "lat": 60.1672975,
+      "lng": 24.9533655,
+      "distanceFromPortMeters": 968,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "cargo": "passengers",
+        "ferry": "yes",
+        "operator": "JT-LINES",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/08625770c9c6195c4081"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b108497ffac6cb5fe8d0",
+      "name": "Kauppatori (Laituripaikka 4)",
+      "nameEnglish": "",
+      "lat": 60.1668842,
+      "lng": 24.9535886,
+      "distanceFromPortMeters": 972,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "cargo": "passengers",
+        "ferry": "yes",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/b108497ffac6cb5fe8d0"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/2ec483048fd1bb2796a1",
+      "name": "(unnamed maritime feature)",
+      "nameEnglish": "",
+      "lat": 60.1674238,
+      "lng": 24.9530299,
+      "distanceFromPortMeters": 981,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "cargo": "passengers",
+        "ferry": "yes",
+        "public_transport": "station",
+        "operator": "IHA-Lines"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/2ec483048fd1bb2796a1"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/1a5615010cf89174b5ac",
+      "name": "Olympiaterminaali",
+      "nameEnglish": "Olympia Terminal",
+      "lat": 60.1625918,
+      "lng": 24.957495,
+      "distanceFromPortMeters": 1076,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "name:en": "Olympia Terminal",
+        "public_transport": "stop_position"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/1a5615010cf89174b5ac"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/6b6cb6ab5377fff0dded",
+      "name": "Katajanokanluoto",
+      "nameEnglish": "",
+      "lat": 60.162364,
+      "lng": 24.9820597,
+      "distanceFromPortMeters": 1080,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/6b6cb6ab5377fff0dded"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/6149994176db72b150a9",
+      "name": "Olympiaterminaali",
+      "nameEnglish": "Olympia terminal",
+      "lat": 60.16077,
+      "lng": 24.9588161,
+      "distanceFromPortMeters": 1198,
+      "address": "1 Olympiaranta, Helsinki, 00140",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "building": "yes",
+        "ferry": "yes",
+        "name:en": "Olympia terminal",
+        "operator": "Helsingin Satama Oy",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/6149994176db72b150a9"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/474cd4225f41af1a9771",
+      "name": "Kalasataman saaristovenelaituri",
+      "nameEnglish": "",
+      "lat": 60.1825895,
+      "lng": 24.9807019,
+      "distanceFromPortMeters": 1520,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/474cd4225f41af1a9771"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/e43c3735bf58d6a80738",
+      "name": "Ullanlinnanlaituri",
+      "nameEnglish": "",
+      "lat": 60.1546868,
+      "lng": 24.9598139,
+      "distanceFromPortMeters": 1794,
+      "address": "3 Ehrenströmintie, Helsinki, 00140",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "alt_name": "Kaivopuiston laituri",
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/e43c3735bf58d6a80738"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/744afd9a849735ece423",
+      "name": "Kompassitorin laituri",
+      "nameEnglish": "",
+      "lat": 60.1551146,
+      "lng": 24.9504676,
+      "distanceFromPortMeters": 1977,
+      "address": "8 Merisatamanranta, Helsinki, 00150, FI",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/744afd9a849735ece423"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/60019b98cef7a8f3a20a",
+      "name": "Uunisaarenlaituri",
+      "nameEnglish": "",
+      "lat": 60.1538214,
+      "lng": 24.952103,
+      "distanceFromPortMeters": 2053,
+      "address": "1 Pohjoinen Uunisaari, Helsinki, 00140, FI",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/60019b98cef7a8f3a20a"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/35e13b230dee578ca970",
+      "name": "Lonna",
+      "nameEnglish": "",
+      "lat": 60.1537718,
+      "lng": 24.9892294,
+      "distanceFromPortMeters": 2095,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/35e13b230dee578ca970"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/63ab05fc5832c2585a08",
+      "name": "Harakanlaituri",
+      "nameEnglish": "",
+      "lat": 60.1520023,
+      "lng": 24.957862,
+      "distanceFromPortMeters": 2111,
+      "address": "1 Harakka, Helsinki, 00140",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/63ab05fc5832c2585a08"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/876d4177adf4649baedf",
+      "name": "(unnamed maritime feature)",
+      "nameEnglish": "",
+      "lat": 60.1542968,
+      "lng": 24.9465146,
+      "distanceFromPortMeters": 2177,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/876d4177adf4649baedf"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d25fe1d471b3ee025174",
+      "name": "(unnamed maritime feature)",
+      "nameEnglish": "",
+      "lat": 60.1531978,
+      "lng": 24.946579,
+      "distanceFromPortMeters": 2274,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/d25fe1d471b3ee025174"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/5da63b395d96e88e9ad1",
+      "name": "Kruunuvuorenranta",
+      "nameEnglish": "",
+      "lat": 60.1660762,
+      "lng": 25.0118352,
+      "distanceFromPortMeters": 2355,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "man_made": "pier",
+        "public_transport": "platform"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/5da63b395d96e88e9ad1"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d98029de67693575361c",
+      "name": "(unnamed maritime feature)",
+      "nameEnglish": "",
+      "lat": 60.1519754,
+      "lng": 24.9473508,
+      "distanceFromPortMeters": 2364,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/d98029de67693575361c"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ff33bd25f3ee69dd4c84",
+      "name": "(unnamed maritime feature)",
+      "nameEnglish": "",
+      "lat": 60.1661324,
+      "lng": 25.0121516,
+      "distanceFromPortMeters": 2371,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "man_made": "pier",
+        "public_transport": "platform"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/ff33bd25f3ee69dd4c84"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/56246d5650bd98891b5f",
+      "name": "Suomenlinna, päälaituri",
+      "nameEnglish": "Suomenlinna, main quay",
+      "lat": 60.1492739,
+      "lng": 24.9839388,
+      "distanceFromPortMeters": 2430,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "cargo": "passengers;vehicle",
+        "ferry": "yes",
+        "name:en": "Suomenlinna, main quay",
+        "public_transport": "stop_position"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/56246d5650bd98891b5f"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c7b588750ca20eae1322",
+      "name": "Suomenlinna, huoltolaituri",
+      "nameEnglish": "",
+      "lat": 60.1464432,
+      "lng": 24.9924614,
+      "distanceFromPortMeters": 2899,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "cargo": "passengers;vehicle",
+        "man_made": "pier",
+        "public_transport": "platform"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/c7b588750ca20eae1322"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/7cd0623853b57c28caf6",
+      "name": "Suomenlinna (Tykistölahti)",
+      "nameEnglish": "",
+      "lat": 60.1448757,
+      "lng": 24.9877307,
+      "distanceFromPortMeters": 2961,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/7cd0623853b57c28caf6"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/bef5f425b912da378a72",
+      "name": "Vasikkasaari",
+      "nameEnglish": "",
+      "lat": 60.1522907,
+      "lng": 25.0164471,
+      "distanceFromPortMeters": 3237,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/bef5f425b912da378a72"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/95993b6f0fccab3fe207",
+      "name": "Ruoholahti (Kellosaaren laituri)",
+      "nameEnglish": "",
+      "lat": 60.1614762,
+      "lng": 24.9118061,
+      "distanceFromPortMeters": 3356,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/95993b6f0fccab3fe207"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c2d3b6865a357e3a3bc4",
+      "name": "Taivallahti",
+      "nameEnglish": "",
+      "lat": 60.1763729,
+      "lng": 24.9098931,
+      "distanceFromPortMeters": 3399,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/c2d3b6865a357e3a3bc4"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/430bbc34dc15ef75439b",
+      "name": "(unnamed maritime feature)",
+      "nameEnglish": "",
+      "lat": 60.1519579,
+      "lng": 24.9196912,
+      "distanceFromPortMeters": 3431,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/430bbc34dc15ef75439b"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/68f3de1162246489775b",
+      "name": "Kuninkaanportti",
+      "nameEnglish": "King’s Gate Quay",
+      "lat": 60.1400381,
+      "lng": 24.9899877,
+      "distanceFromPortMeters": 3510,
+      "address": "Helsinki, 00190",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "cargo": "passengers",
+        "ferry": "yes",
+        "name:en": "King’s Gate Quay",
+        "operator": "JT-Line",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/68f3de1162246489775b"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b4e82dbed67775cc8309",
+      "name": "Suomenlinna (Kuninkaanportti)",
+      "nameEnglish": "",
+      "lat": 60.1400106,
+      "lng": 24.9900249,
+      "distanceFromPortMeters": 3514,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/b4e82dbed67775cc8309"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/aeaea3efce207da11175",
+      "name": "Herttoniemen saaristovenelaituri",
+      "nameEnglish": "",
+      "lat": 60.185467,
+      "lng": 25.0283002,
+      "distanceFromPortMeters": 3654,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "operator": "Suomen Saaristokuljetus Oy",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/aeaea3efce207da11175"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/3c8504607e2936d94964",
+      "name": "Länsiterminaali 2",
+      "nameEnglish": "West Terminal 2",
+      "lat": 60.1496351,
+      "lng": 24.9143323,
+      "distanceFromPortMeters": 3823,
+      "address": "14 Tyynenmerenkatu, Helsinki, 00220",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "building": "block",
+        "ferry": "yes",
+        "name:en": "West Terminal 2",
+        "operator": "Helsingin Satama Oy",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/3c8504607e2936d94964"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/37ba365cac37f7ea43ff",
+      "name": "Vallisaari (Luotsipiha)",
+      "nameEnglish": "",
+      "lat": 60.1405862,
+      "lng": 25.0072124,
+      "distanceFromPortMeters": 3865,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/37ba365cac37f7ea43ff"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b6badb10aacb9e2282ea",
+      "name": "Vallisaari (Torpedolahti)",
+      "nameEnglish": "",
+      "lat": 60.1376552,
+      "lng": 25.0106486,
+      "distanceFromPortMeters": 4242,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/b6badb10aacb9e2282ea"
+      ]
+    }
+  ],
+  "counts": {
+    "attraction": 12,
+    "outdoors": 9,
+    "food_drink": 15,
+    "shopping": 2,
+    "essentials": 1
+  },
+  "pois": [
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/652ea264b4a347954843",
+      "name": "Uspenskin katedraali",
+      "nameEnglish": "Uspenski Cathedral",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 60.1684504,
+      "lng": 24.959952,
+      "distanceFromTerminalMeters": 582,
+      "distanceFromDefaultTerminalMeters": 582,
+      "minDistanceFromAnyTerminalMeters": 582,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1 Kanavakatu, Helsinki, 00160",
+      "openingHours": "Tu-Fr 09:30-16:00; Sa 10:00-15:00; Su 12:00-15:00",
+      "website": "http://hos.fi/fi/uspenskin-katedraali",
+      "phone": "+358 9 85646100",
+      "cuisine": [],
+      "wheelchair": "no",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "place_of_worship",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f2f4385dd5f8b987a10a",
+      "name": "Helsingin kaupunginmuseo",
+      "nameEnglish": "Helsinki City Museum",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 60.1687584,
+      "lng": 24.9540256,
+      "distanceFromTerminalMeters": 894,
+      "distanceFromDefaultTerminalMeters": 894,
+      "minDistanceFromAnyTerminalMeters": 894,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "16 Aleksanterinkatu, Helsinki, 00170",
+      "openingHours": "Mo-Fr 11:00-19:00; Sa-Su 11:00-17:00",
+      "website": "http://www.helsinginkaupunginmuseo.fi/",
+      "phone": "+358 9 310 36630",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/cd6bfc9c9ca5ae6c0402",
+      "name": "Lasten kaupunki",
+      "nameEnglish": "Children’s Town",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 60.1689232,
+      "lng": 24.9538172,
+      "distanceFromTerminalMeters": 903,
+      "distanceFromDefaultTerminalMeters": 903,
+      "minDistanceFromAnyTerminalMeters": 903,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "16-18 Aleksanterinkatu, Helsinki, 00170",
+      "openingHours": "Mo-Fr 11:00-19:00; Sa-Su 11:00-17:00",
+      "website": "https://www.helsinginkaupunginmuseo.fi/nayttelyt/lasten-kaupunki/",
+      "phone": "+358 9 3103 6630",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f022a32f142645c104b0",
+      "name": "Suomen Pankin rahamuseo",
+      "nameEnglish": "Bank of Finland Museum",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 60.170329,
+      "lng": 24.9532664,
+      "distanceFromTerminalMeters": 926,
+      "distanceFromDefaultTerminalMeters": 926,
+      "minDistanceFromAnyTerminalMeters": 926,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "2 Snellmaninkatu, Helsinki, 00170, FI",
+      "openingHours": "Mo off; Tu-Fr 11:00-17:00; Sa-Su 11:00-16:00",
+      "website": "https://www.rahamuseo.fi/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "no",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f1691149fefac24f9d98",
+      "name": "Ruiskumestarin talo",
+      "nameEnglish": "Burgher's house",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 60.1754768,
+      "lng": 24.9560878,
+      "distanceFromTerminalMeters": 981,
+      "distanceFromDefaultTerminalMeters": 981,
+      "minDistanceFromAnyTerminalMeters": 981,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "12 Kristianinkatu, Helsinki, FI",
+      "openingHours": "Nov 26-Dec 21 We-Fr 13:00-18:00; Nov 26-Dec 21 Sa,Su 11:00-17:00; Dec 22-Jan 08 We-Fr 11:00-17:00",
+      "website": "https://ruiskumestarintalo.fi",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/7351bd5dab0f4a7ef394",
+      "name": "Helsingin tuomiokirkko",
+      "nameEnglish": "Helsinki Cathedral",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 60.1703785,
+      "lng": 24.9521853,
+      "distanceFromTerminalMeters": 986,
+      "distanceFromDefaultTerminalMeters": 986,
+      "minDistanceFromAnyTerminalMeters": 986,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "29 Unioninkatu, Helsinki, 00170",
+      "openingHours": "Jun-Aug: Su-Sa 09:00-24:00; Sep-May: Su-Sa 09:00-18:00",
+      "website": "https://www.helsinginseurakunnat.fi/seurakunnat/tuomiokirkkoseurakunta/yhteystiedot_0/kirkot/tuomiokirkko.html",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "limited",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "place_of_worship",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f0984db63f967ac18d42",
+      "name": "Päivikki ja Sakari Sohlbergin kotimuseo",
+      "nameEnglish": "Päivikki and Sakari Sohlberg Home Museum",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 60.1672432,
+      "lng": 24.9673102,
+      "distanceFromTerminalMeters": 341,
+      "distanceFromDefaultTerminalMeters": 341,
+      "minDistanceFromAnyTerminalMeters": 341,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "11 Kauppiaankatu, Helsinki, 00160",
+      "openingHours": "",
+      "website": "https://pss-saatio.fi/kotimuseo/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/09c57e5ae915389bffb7",
+      "name": "Galleria Dromig",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "gallery",
+      "lat": 60.1680808,
+      "lng": 24.9630612,
+      "distanceFromTerminalMeters": 439,
+      "distanceFromDefaultTerminalMeters": 439,
+      "minDistanceFromAnyTerminalMeters": 439,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "7 Satamakatu",
+      "openingHours": "Mo off; Tu-Fr 11:00-17:00; Sa-Su 12:00-16:00",
+      "website": "https://dromig.fi",
+      "phone": "+358 44 2401830",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "gallery"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/23ea7bf870869f8e7194",
+      "name": "Väestönsuojelumuseo",
+      "nameEnglish": "Museum of Civil Defence",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 60.1764418,
+      "lng": 24.9540705,
+      "distanceFromTerminalMeters": 1135,
+      "distanceFromDefaultTerminalMeters": 1135,
+      "minDistanceFromAnyTerminalMeters": 1135,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "14 Siltavuorenranta, Helsinki, 00170, FI",
+      "openingHours": "Sep-May: Sa 10:00-14:00",
+      "website": "https://hvssy.fi/vaestonsuojelumuseo/",
+      "phone": "+358 9 278 2018",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/cdf3ca571305dc3768bb",
+      "name": "Mannerheim-museo",
+      "nameEnglish": "Mannerheim Museum",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 60.1588725,
+      "lng": 24.9604698,
+      "distanceFromTerminalMeters": 1345,
+      "distanceFromDefaultTerminalMeters": 1345,
+      "minDistanceFromAnyTerminalMeters": 1345,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "14 Kalliolinnantie, Helsinki, 00140, FI",
+      "openingHours": "Fr-Su 11:00-17:00",
+      "website": "https://www.mannerheim-museo.fi/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c7ce465cc84a0c70df29",
+      "name": "Temppeliaukion kirkko",
+      "nameEnglish": "Temppeliaukio Church",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 60.1729665,
+      "lng": 24.9252044,
+      "distanceFromTerminalMeters": 2499,
+      "distanceFromDefaultTerminalMeters": 2499,
+      "minDistanceFromAnyTerminalMeters": 2499,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "3 Lutherinkatu, Helsinki, 00100",
+      "openingHours": "Mo-Su 10:00-17:00",
+      "website": "https://www.temppeliaukionkirkko.fi/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "place_of_worship",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/09ba0488f8c7c88efee1",
+      "name": "Korkeasaaren eläintarha",
+      "nameEnglish": "Korkeasaari Zoo",
+      "category": "attraction",
+      "subcategory": "zoo",
+      "lat": 60.1745867,
+      "lng": 24.9861129,
+      "distanceFromTerminalMeters": 1027,
+      "distanceFromDefaultTerminalMeters": 1027,
+      "minDistanceFromAnyTerminalMeters": 1027,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1 Mischan ja Maschan aukio, Helsinki, 00570",
+      "openingHours": "",
+      "website": "https://www.korkeasaari.fi/",
+      "phone": "+35850 352 5989",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "zoo"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/8770acd008f078a4e641",
+      "name": "Pohjoisranta Harbour",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "marina",
+      "lat": 60.1732331,
+      "lng": 24.9640337,
+      "distanceFromTerminalMeters": 488,
+      "distanceFromDefaultTerminalMeters": 488,
+      "minDistanceFromAnyTerminalMeters": 488,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1 Tervasaarenkannas, Helsinki, 00170",
+      "openingHours": "",
+      "website": "https://pohjoisrantaharbour.fi/",
+      "phone": "+358 40 508 8344",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "A full service guest harbour. Marine gas station and a marine shop in the area.",
+      "osmTags": {
+        "leisure": "marina"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/98477135dc2973613fcc",
+      "name": "Mustikkamaan uimaranta",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "beach",
+      "lat": 60.1788626,
+      "lng": 24.9931843,
+      "distanceFromTerminalMeters": 1617,
+      "distanceFromDefaultTerminalMeters": 1617,
+      "minDistanceFromAnyTerminalMeters": 1617,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "https://www.hel.fi/helsinki/fi/kulttuuri-ja-vapaa-aika/liikunta/ulkoliikuntapaikat/maauimalat-ja-uimarannat/mustikkamaan-uimaranta",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "bathing_place",
+        "natural": "beach"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/186d98448aae5e346a92",
+      "name": "Suomenlinnan uimaranta",
+      "nameEnglish": "Suomenlinna beach",
+      "category": "outdoors",
+      "subcategory": "beach",
+      "lat": 60.1411122,
+      "lng": 24.9850769,
+      "distanceFromTerminalMeters": 3319,
+      "distanceFromDefaultTerminalMeters": 3319,
+      "minDistanceFromAnyTerminalMeters": 3319,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Helsinki, 00190",
+      "openingHours": "",
+      "website": "https://www.hel.fi/www/helsinki/fi/kulttuuri-ja-vapaa-aika/liikunta/ulkoliikuntapaikat/maauimalat-ja-uimarannat/suomenlinnan-uimaranta",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "no",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "bathing_place",
+        "natural": "beach"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/4cf273dbaca0e2c8a580",
+      "name": "Kaisaniemen kasvitieteellinen puutarha",
+      "nameEnglish": "Kaisaniemi Botanical Garden",
+      "category": "outdoors",
+      "subcategory": "garden",
+      "lat": 60.1753344,
+      "lng": 24.9471157,
+      "distanceFromTerminalMeters": 1398,
+      "distanceFromDefaultTerminalMeters": 1398,
+      "minDistanceFromAnyTerminalMeters": 1398,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "2 Kaisaniemenranta, Helsinki, 00170",
+      "openingHours": "Mo-Su 09:00-20:00",
+      "website": "https://www.luomus.fi/fi/kaisaniemen-kasvitieteellinen-puutarha",
+      "phone": "+358 294 124 455",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "garden",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c7cf78543416505bccc2",
+      "name": "Syötävä puisto",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "garden",
+      "lat": 60.1799441,
+      "lng": 24.9856334,
+      "distanceFromTerminalMeters": 1404,
+      "distanceFromDefaultTerminalMeters": 1404,
+      "minDistanceFromAnyTerminalMeters": 1404,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "https://nuorten.hel.fi/nuorisotalot/syotava-puisto/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "garden"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c4ae6053deb8abc180c4",
+      "name": "Sompasauna",
+      "nameEnglish": "Sompasauna",
+      "category": "outdoors",
+      "subcategory": "sauna",
+      "lat": 60.1807507,
+      "lng": 24.9988826,
+      "distanceFromTerminalMeters": 1995,
+      "distanceFromDefaultTerminalMeters": 1995,
+      "minDistanceFromAnyTerminalMeters": 1995,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "5 Kansanpuistonpolku, Helsinki, 00570",
+      "openingHours": "24/7",
+      "website": "https://www.sompasauna.fi/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "no",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "sauna",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/60725db0fff1c09d8e0e",
+      "name": "Talvipuutarha",
+      "nameEnglish": "Winter Garden",
+      "category": "outdoors",
+      "subcategory": "garden",
+      "lat": 60.1861151,
+      "lng": 24.9317308,
+      "distanceFromTerminalMeters": 2773,
+      "distanceFromDefaultTerminalMeters": 2773,
+      "minDistanceFromAnyTerminalMeters": 2773,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1A Hammarskjöldintie, Helsinki, 00250",
+      "openingHours": "Mo-Th 10:00-16:00; Sa-Su 10:00-16:00; Fr off",
+      "website": "https://www.hel.fi/fi/kulttuuri-ja-vapaa-aika/ulkoilu-puistot-ja-luontokohteet/puistot/talvipuutarha",
+      "phone": "+358 9 310 39985",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "garden",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f16c897b719e2f5cbb2d",
+      "name": "Isoisänsilta",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "viewpoint",
+      "lat": 60.1820269,
+      "lng": 24.982702,
+      "distanceFromTerminalMeters": 1511,
+      "distanceFromDefaultTerminalMeters": 1511,
+      "minDistanceFromAnyTerminalMeters": 1511,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "2 Capellan puistotie, Helsinki, 00540",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "viewpoint"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f892446261a1e898ad22",
+      "name": "Uusi Sauna",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "sauna",
+      "lat": 60.1593559,
+      "lng": 24.918119,
+      "distanceFromTerminalMeters": 3105,
+      "distanceFromDefaultTerminalMeters": 3105,
+      "minDistanceFromAnyTerminalMeters": 3105,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "10 Välimerenkatu",
+      "openingHours": "We-Su 16:00-22:00",
+      "website": "https://uusisauna.fi/",
+      "phone": "+35844 758 3228",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "sauna",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/47e5ab20f92d4b068c49",
+      "name": "Finca Las Ventanas",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 60.1663425,
+      "lng": 24.9648463,
+      "distanceFromTerminalMeters": 497,
+      "distanceFromDefaultTerminalMeters": 497,
+      "minDistanceFromAnyTerminalMeters": 497,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "3 Kanavakatu, Helsinki, 00160",
+      "openingHours": "Mo-Fr 07:30-14:30; Sa-Su 08:30-15:00",
+      "website": "https://www.fincalasventanas.com/",
+      "phone": "+358 401 794 137",
+      "cuisine": [
+        "colombian"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/1c56d3141823d96e4bbd",
+      "name": "Garden By Olo",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 60.1683054,
+      "lng": 24.9548759,
+      "distanceFromTerminalMeters": 858,
+      "distanceFromDefaultTerminalMeters": 858,
+      "minDistanceFromAnyTerminalMeters": 858,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "2 Helenankatu, Helsinki, 00170",
+      "openingHours": "Mo-Su 08:00-23:00",
+      "website": "https://olo-ravintola.fi/garden-by-olo-olo-isoille-seurueille/",
+      "phone": "+358 10 320 6250",
+      "cuisine": [
+        "international",
+        "regional"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "The refurbished Garden by Olo is a unique space for unique occasions. Its piazza-like courtyard, surrounded by old stone walls, provides a delightful atmosphere regardless of the season. This spacious facility is ideal for creating unforgettable dinners,",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f116f1de7bee47a6c4d7",
+      "name": "Everest Nokka",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 60.1678809,
+      "lng": 24.9666238,
+      "distanceFromTerminalMeters": 301,
+      "distanceFromDefaultTerminalMeters": 301,
+      "minDistanceFromAnyTerminalMeters": 301,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "12 a Luotsikatu, Helsinki, 00160",
+      "openingHours": "Mo-Fr 10:30-22:00; Sa-Su 12:00-22:00",
+      "website": "https://www.everestyeti.fi/",
+      "phone": "09-6221966",
+      "cuisine": [
+        "nepalese"
+      ],
+      "wheelchair": "limited",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/eac818ffb6605c47d151",
+      "name": "Terassi Linnanpiha",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 60.1667844,
+      "lng": 24.9690612,
+      "distanceFromTerminalMeters": 361,
+      "distanceFromDefaultTerminalMeters": 361,
+      "minDistanceFromAnyTerminalMeters": 361,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1 Merikasarminkatu, Helsinki, 00160, FI",
+      "openingHours": "Jun-Jul: Mo-Fr,Su 15:00-22:00; Jun-Jul: Sa 13:00-22:00; Aug: Mo-Fr 11:30-23:00 open \"Weather permitting\", Aug: Sa 13:00-23:00 open \"Weather permitting\"; Jan-May: closed; Sep-Dec: closed",
+      "website": "https://linnankellari.fi/jailyard/",
+      "phone": "+358 9 686 45 136",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Open in summertime (June - August).",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d8527d22e7040daad9df",
+      "name": "Swad Indian Bistro & Bar",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 60.1683307,
+      "lng": 24.9622162,
+      "distanceFromTerminalMeters": 469,
+      "distanceFromDefaultTerminalMeters": 469,
+      "minDistanceFromAnyTerminalMeters": 469,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "3 Rahapajankatu, Helsinki, 00160, FI",
+      "openingHours": "Mo-Fr 11:00-22:00; Sa,Su 12:00-22:00",
+      "website": "https://swad.fi/",
+      "phone": "+358404411385",
+      "cuisine": [
+        "indian"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/5a0ef218e0c3f13f7674",
+      "name": "Ravintola Nokka",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 60.1690544,
+      "lng": 24.9611588,
+      "distanceFromTerminalMeters": 500,
+      "distanceFromDefaultTerminalMeters": 500,
+      "minDistanceFromAnyTerminalMeters": 500,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "7 F Kanavaranta, Helsinki, 00160",
+      "openingHours": "Mo-Th 17:00-23:00; Fr-Sa 17:00-24:00; Su off",
+      "website": "https://nokkahelsinki.fi/",
+      "phone": "+358 9 61285600",
+      "cuisine": [
+        "regional"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/59dab7faa4b29cc0f3c7",
+      "name": "Locanda Scappi",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 60.1666914,
+      "lng": 24.9633725,
+      "distanceFromTerminalMeters": 519,
+      "distanceFromDefaultTerminalMeters": 519,
+      "minDistanceFromAnyTerminalMeters": 519,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1 Kanavakatu, Helsinki, 00170, FI",
+      "openingHours": "Tu-Th 16:00-23:00; Fr 16:00-00:00; Sa 14:00-00:00",
+      "website": "https://www.locandascappi.fi/",
+      "phone": "+358400244027",
+      "cuisine": [
+        "italian"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/54fa7a2e44dd332166a3",
+      "name": "Kuurna",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 60.170133,
+      "lng": 24.9584748,
+      "distanceFromTerminalMeters": 638,
+      "distanceFromDefaultTerminalMeters": 638,
+      "minDistanceFromAnyTerminalMeters": 638,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "6 Meritullinkatu, Helsinki, 00170, FI",
+      "openingHours": "Mo-Sa 17:00-23:00; Su off",
+      "website": "https://www.kuurna.fi",
+      "phone": "+358 44 7554555",
+      "cuisine": [
+        "regional",
+        "french"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/9c9e8baa3481226ca5bc",
+      "name": "Nepali Chulo",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 60.1724262,
+      "lng": 24.9586072,
+      "distanceFromTerminalMeters": 685,
+      "distanceFromDefaultTerminalMeters": 685,
+      "minDistanceFromAnyTerminalMeters": 685,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "13 Meritullinkatu, Helsinki, 00170, FI",
+      "openingHours": "Mo-Fr 10:30-22:00, Sa-Su 12:30-22:00",
+      "website": "https://nepalichulo.fi/",
+      "phone": "+358 40 178 5022",
+      "cuisine": [
+        "nepalese"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/76a1dbbdf8e10b496886",
+      "name": "Rodolfo",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 60.171071,
+      "lng": 24.9577282,
+      "distanceFromTerminalMeters": 689,
+      "distanceFromDefaultTerminalMeters": 689,
+      "minDistanceFromAnyTerminalMeters": 689,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "5 Kirkkokatu, Helsinki, 00170, FI",
+      "openingHours": "Mo-Th 11:00-23:00; Fr 11:00-24:00; Sa 14:00-24:00",
+      "website": "https://www.ravintolarodolfo.fi/",
+      "phone": "+358 9 625 024",
+      "cuisine": [
+        "italian"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/491c68ec21eb97dce9ef",
+      "name": "Kolme Kruunua",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 60.1743607,
+      "lng": 24.9588995,
+      "distanceFromTerminalMeters": 782,
+      "distanceFromDefaultTerminalMeters": 782,
+      "minDistanceFromAnyTerminalMeters": 782,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "5 Liisankatu, Helsinki, 00170, FI",
+      "openingHours": "Su 14:00-01:00; Mo-Tu 16:00-01:00; We-Sa 16:00-03:00",
+      "website": "https://kolmekruunua.fi/",
+      "phone": "+358 9 135 4172",
+      "cuisine": [
+        "regional"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/9f8560c4e1b3ac722477",
+      "name": "Korea House",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 60.1729461,
+      "lng": 24.956653,
+      "distanceFromTerminalMeters": 808,
+      "distanceFromDefaultTerminalMeters": 808,
+      "minDistanceFromAnyTerminalMeters": 808,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Mariankatu, Helsinki, 00170, FI",
+      "openingHours": "Mo-Fr 11:00-22:00; Sa 12:00-22:00",
+      "website": "http://www.koreahouse.fi",
+      "phone": "+358 9 135 7158",
+      "cuisine": [
+        "korean"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ea9365443582d07ac83c",
+      "name": "Bona Fide",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 60.1722304,
+      "lng": 24.9555756,
+      "distanceFromTerminalMeters": 835,
+      "distanceFromDefaultTerminalMeters": 835,
+      "minDistanceFromAnyTerminalMeters": 835,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "8 Vironkatu, Helsinki, 00170, FI",
+      "openingHours": "Mo-Tu,Su off; We-Sa 17:00-23:00",
+      "website": "https://bonafide.fi",
+      "phone": "+358 50 5144220",
+      "cuisine": [
+        "finedining"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/2022667d58b1351de46d",
+      "name": "Viet Balo",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 60.1743083,
+      "lng": 24.9571661,
+      "distanceFromTerminalMeters": 856,
+      "distanceFromDefaultTerminalMeters": 856,
+      "minDistanceFromAnyTerminalMeters": 856,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "9 Liisankatu, Helsinki, 00170, FI",
+      "openingHours": "Sa 12:00-19:00; Mo-Fr 11:00-19:00",
+      "website": "https://www.thevietbalo.com/",
+      "phone": "+358442103939",
+      "cuisine": [
+        "vietnamese"
+      ],
+      "wheelchair": "no",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ce7d77e2d75908c61802",
+      "name": "Dong Bei House",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 60.17169,
+      "lng": 24.9541231,
+      "distanceFromTerminalMeters": 898,
+      "distanceFromDefaultTerminalMeters": 898,
+      "minDistanceFromAnyTerminalMeters": 898,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "15 Rauhankatu, Helsinki, 00170, FI",
+      "openingHours": "Mo-Fr 11:00-21:00, Sa-Su 12:00-21:00",
+      "website": "https://www.dongbeihouse.fi/",
+      "phone": "+358 50 550 8655",
+      "cuisine": [
+        "chinese"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/6a4a7da2e9f9f3502d01",
+      "name": "Kauppatori",
+      "nameEnglish": "Market Square",
+      "category": "shopping",
+      "subcategory": "marketplace",
+      "lat": 60.1676344,
+      "lng": 24.9539636,
+      "distanceFromTerminalMeters": 925,
+      "distanceFromDefaultTerminalMeters": 925,
+      "minDistanceFromAnyTerminalMeters": 925,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Fr 06:30-18:00; Sa 06:30-16:00; Su 10:00-17:00",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "marketplace"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f9258946e77388976a75",
+      "name": "Stupido Market Kallio",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "music",
+      "lat": 60.1821141,
+      "lng": 24.951086,
+      "distanceFromTerminalMeters": 1705,
+      "distanceFromDefaultTerminalMeters": 1705,
+      "minDistanceFromAnyTerminalMeters": 1705,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "4 Porthaninkatu",
+      "openingHours": "Mo-Fr 12:00-18:00; Sa 12:00-17:00; Su off",
+      "website": "https://stupido.fi/stupido-market/",
+      "phone": "+358 50 4708664",
+      "cuisine": [],
+      "wheelchair": "no",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "shop": "music"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d18126e112445cc32838",
+      "name": "Senaatintori",
+      "nameEnglish": "Senate Square",
+      "category": "essentials",
+      "subcategory": "bicycle_rental",
+      "lat": 60.1691182,
+      "lng": 24.9526599,
+      "distanceFromTerminalMeters": 964,
+      "distanceFromDefaultTerminalMeters": 964,
+      "minDistanceFromAnyTerminalMeters": 964,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Helsinki",
+      "openingHours": "24/7",
+      "website": "https://hsl.fi/kaupunkipyorat",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "bicycle_rental"
+      }
+    }
+  ],
+  "portAnchor": {
+    "id": "ports-json-anchor",
+    "name": "HELSINKI Port",
+    "lat": 60.17,
+    "lng": 24.97,
+    "address": "Helsinki, Uusimaa, Finland",
+    "source": "ports.json",
+    "sourceId": "",
+    "score": 0,
+    "slug": "helsinki-port"
+  },
+  "terminalResolution": {
+    "status": "resolved",
+    "method": "manual_web_research",
+    "verified": true,
+    "notes": "Terminal records were added from researched cruise-port sources because no supplied candidate accurately represented the passenger arrival point."
+  }
+}

@@ -1,0 +1,1054 @@
+{
+  "schemaVersion": 5,
+  "catalogType": "curation-candidates",
+  "generatedAt": "2026-07-30T08:20:01.232Z",
+  "source": "openstreetmap",
+  "sourceExtract": "mecklenburg-vorpommern-latest.osm.pbf",
+  "radiusMeters": 10000,
+  "port": {
+    "id": "rostock-germany",
+    "city": "Rostock",
+    "country": "Germany"
+  },
+  "defaultTerminalId": "ports-json-anchor",
+  "terminal": {
+    "id": "ports-json-anchor",
+    "name": "ROSTOCK Port",
+    "lat": 54.1,
+    "lng": 12.13,
+    "address": "Rostock, Mecklenburg-Vorpommern, Germany",
+    "source": "ports.json",
+    "sourceId": "",
+    "score": 0,
+    "slug": "rostock-port"
+  },
+  "terminals": [
+    {
+      "id": "ports-json-anchor",
+      "name": "ROSTOCK Port",
+      "lat": 54.1,
+      "lng": 12.13,
+      "address": "Rostock, Mecklenburg-Vorpommern, Germany",
+      "source": "ports.json",
+      "sourceId": "",
+      "score": 0,
+      "slug": "rostock-port"
+    }
+  ],
+  "terminalCandidateRadiusMeters": 5000,
+  "terminalCandidates": [
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/3b920376c711b2f95328",
+      "name": "Schnickmannstraße",
+      "nameEnglish": "",
+      "lat": 54.0929855,
+      "lng": 12.1336521,
+      "distanceFromPortMeters": 816,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "cargo": "passengers",
+        "ferry": "yes",
+        "operator": "Rostocker Straßenbahn AG",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/3b920376c711b2f95328"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c637fa48c10cde8f1884",
+      "name": "Gehlsdorf Fähre",
+      "nameEnglish": "",
+      "lat": 54.0994549,
+      "lng": 12.1140139,
+      "distanceFromPortMeters": 1044,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "cargo": "passengers",
+        "ferry": "yes",
+        "public_transport": "stop_position"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/c637fa48c10cde8f1884"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/aff24204631d2a1273ff",
+      "name": "Kabutzenhof Fähre",
+      "nameEnglish": "",
+      "lat": 54.095006,
+      "lng": 12.1145661,
+      "distanceFromPortMeters": 1149,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "cargo": "passengers",
+        "ferry": "yes",
+        "public_transport": "stop_position"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/aff24204631d2a1273ff"
+      ]
+    }
+  ],
+  "counts": {
+    "attraction": 17,
+    "outdoors": 5,
+    "food_drink": 11,
+    "essentials": 1,
+    "shopping": 1
+  },
+  "pois": [
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/12bf27ec932690b259de",
+      "name": "Dokumentations- und Gedenkstätte in der ehemaligen Untersuchungshaft der Staatssicherheit Rostock",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 54.0847712,
+      "lng": 12.1343951,
+      "distanceFromTerminalMeters": 1717,
+      "distanceFromDefaultTerminalMeters": 1717,
+      "minDistanceFromAnyTerminalMeters": 1717,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "5 Grüner Weg, Rostock, 18055, DE",
+      "openingHours": "Tu, Th 10:00-15:00",
+      "website": "https://www.lpb-mv.de/projekte/dug-rostock/",
+      "phone": "+49 157 30285136",
+      "cuisine": [],
+      "wheelchair": "no",
+      "brand": "",
+      "description": "de:Öffentliche Führungen Juli bis November Donnerstag 15 Uhr (außer an Feiertagen)\nen:Public guided tours July to November Thursday 3 pm (except on public holidays)",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/db9ef07512c4ef916fbc",
+      "name": "Kröpeliner Tor",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 54.0884532,
+      "lng": 12.1292082,
+      "distanceFromTerminalMeters": 1285,
+      "distanceFromDefaultTerminalMeters": 1285,
+      "minDistanceFromAnyTerminalMeters": 1285,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "50 Kröpeliner Straße, Rostock, 18055, DE",
+      "openingHours": "Mo-Su 10:00-18:00",
+      "website": "https://www.geschichtswerkstatt-rostock.de/historisches-gebaeude-kroepeliner-tor/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "no",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "yes",
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ca00eedacefa6f7f2c43",
+      "name": "Zoologische Sammlung der Universität Rostock",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 54.0874681,
+      "lng": 12.1337277,
+      "distanceFromTerminalMeters": 1415,
+      "distanceFromDefaultTerminalMeters": 1415,
+      "minDistanceFromAnyTerminalMeters": 1415,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "2 Universitätsplatz, Rostock, 18055, DE",
+      "openingHours": "Mo-Fr 10:00-17:00; Sa-Su 10:00-16:00",
+      "website": "http://www.zoologie.uni-rostock.de/sammlung/schausammlung/",
+      "phone": "+49 381 498 6261",
+      "cuisine": [],
+      "wheelchair": "no",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/36b295b86723b5bba615",
+      "name": "Kulturhistorisches Museum Rostock",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 54.0873584,
+      "lng": 12.1327482,
+      "distanceFromTerminalMeters": 1417,
+      "distanceFromDefaultTerminalMeters": 1417,
+      "minDistanceFromAnyTerminalMeters": 1417,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "7 Klosterhof, Rostock, 18055, DE",
+      "openingHours": "Tu-Su 10:00-18:00",
+      "website": "https://kulturhistorisches-museum-rostock.de/",
+      "phone": "+49 381 381 45 30",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/afdc2bef9c53760b60d0",
+      "name": "Hochschule für Musik und Theater",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "monastery",
+      "lat": 54.0916499,
+      "lng": 12.144495,
+      "distanceFromTerminalMeters": 1325,
+      "distanceFromDefaultTerminalMeters": 1325,
+      "minDistanceFromAnyTerminalMeters": 1325,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "8 Beim St.-Katharinenstift, Rostock, 18055, DE",
+      "openingHours": "07:00-22:00",
+      "website": "https://www.hmt-rostock.de/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "limited",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "university",
+        "historic": "monastery"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/49bfb61ad1a5222cac59",
+      "name": "Hausbaumhaus",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 54.0908,
+      "lng": 12.1360287,
+      "distanceFromTerminalMeters": 1096,
+      "distanceFromDefaultTerminalMeters": 1096,
+      "minDistanceFromAnyTerminalMeters": 1096,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "40 Wokrenterstraße, Rostock, 18055, DE",
+      "openingHours": "Tu-Fr 11:00-15:00",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "no",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/e4a2acc97e7a45fc8c97",
+      "name": "Stephan Jantzen",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 54.0932295,
+      "lng": 12.1283662,
+      "distanceFromTerminalMeters": 760,
+      "distanceFromDefaultTerminalMeters": 760,
+      "minDistanceFromAnyTerminalMeters": 760,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Su 10:00-16:00",
+      "website": "https://www.technische-flotte-rostock.de/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "no",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "ship",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d2662dad21d402fa29e2",
+      "name": "Zoologischer Garten Rostock",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "zoo",
+      "lat": 54.0779371,
+      "lng": 12.0848969,
+      "distanceFromTerminalMeters": 3830,
+      "distanceFromDefaultTerminalMeters": 3830,
+      "minDistanceFromAnyTerminalMeters": 3830,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "21 Rennbahnallee, Rostock, 18059, DE",
+      "openingHours": "Mar-Apr: 09:00-17:00; May-Aug: 09:00-18:00; Sep-Oct: 09:00-17:00; Nov-Feb 09:00-16:00 || \"Darwineum und Tierhäuser schließen eine Stunde nach Kassenschluss.\"",
+      "website": "https://www.zoo-rostock.de/",
+      "phone": "+49 381 20820",
+      "cuisine": [],
+      "wheelchair": "limited",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "zoo"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/aff379661a808846cf29",
+      "name": "Der Hafentretkran",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 54.0927249,
+      "lng": 12.1356849,
+      "distanceFromTerminalMeters": 890,
+      "distanceFromDefaultTerminalMeters": 890,
+      "minDistanceFromAnyTerminalMeters": 890,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "dieser Kran ist nicht historisch, sondern ein Nachbau!",
+      "osmTags": {
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f7ebda075fdd80f94dc4",
+      "name": "Archäologische Ausgrabungen am Primelberg",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "archaeological_site",
+      "lat": 54.1037035,
+      "lng": 12.1398678,
+      "distanceFromTerminalMeters": 764,
+      "distanceFromDefaultTerminalMeters": 764,
+      "minDistanceFromAnyTerminalMeters": 764,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "alte Slawische Siedlung",
+      "osmTags": {
+        "historic": "archaeological_site"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/fadaa8082e2aea0cf213",
+      "name": "Gestern Heute Morgen - Gesellschaft",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "memorial",
+      "lat": 54.0858008,
+      "lng": 12.1363838,
+      "distanceFromTerminalMeters": 1633,
+      "distanceFromDefaultTerminalMeters": 1633,
+      "minDistanceFromAnyTerminalMeters": 1633,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "http://www.rostock-lichtenhagen-1992.de/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "\"Gestern Heute Morgen\" ist ein Kunstwerk der Gruppe SCHAUM, dass an das Progrom von Rostock-Lichtenhagen im Jahr 1992 erinnert.",
+      "osmTags": {
+        "historic": "memorial"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/3cb65107c62c3103689a",
+      "name": "Lagebuschturm",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 54.0866281,
+      "lng": 12.1423832,
+      "distanceFromTerminalMeters": 1692,
+      "distanceFromDefaultTerminalMeters": 1692,
+      "minDistanceFromAnyTerminalMeters": 1692,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1 Hinter der Mauer, Rostock, 18055, DE",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "yes",
+        "man_made": "tower",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/e03168b0bb980b22c26d",
+      "name": "Kuhtor",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 54.0867201,
+      "lng": 12.1436606,
+      "distanceFromTerminalMeters": 1725,
+      "distanceFromDefaultTerminalMeters": 1725,
+      "minDistanceFromAnyTerminalMeters": 1725,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "2 Hinter der Mauer, Rostock, 18055, DE",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "limited",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "city_gate",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/da38ab3be67d2dff0582",
+      "name": "Bernhard Rubensohn",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "memorial",
+      "lat": 54.0888832,
+      "lng": 12.1427503,
+      "distanceFromTerminalMeters": 1490,
+      "distanceFromDefaultTerminalMeters": 1490,
+      "minDistanceFromAnyTerminalMeters": 1490,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Weißgerberstraße, Rostock, 18055, DE",
+      "openingHours": "",
+      "website": "https://max-samuel-haus.de/de/denksteine/liste-der-stolper-und-denksteine",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "memorial"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/6cf0cec1f00e9ca42d8d",
+      "name": "Freundschaftsbaum",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "memorial",
+      "lat": 54.0927892,
+      "lng": 12.1101903,
+      "distanceFromTerminalMeters": 1520,
+      "distanceFromDefaultTerminalMeters": 1520,
+      "minDistanceFromAnyTerminalMeters": 1520,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "24/7",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Freundschaftsbaum Zur Erinnerung ab die ungarischen Jugendlichen, die zwischen 1968 und 1983 in Rostock gearbeitet und zur Freundschaft beider Völker beigetragen haben. 19. April 2015",
+      "osmTags": {
+        "historic": "memorial"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/5058de0e24ebff82a5d6",
+      "name": "Aussichtsturm Petrikirche",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "viewpoint",
+      "lat": 54.0906581,
+      "lng": 12.147618,
+      "distanceFromTerminalMeters": 1549,
+      "distanceFromDefaultTerminalMeters": 1549,
+      "minDistanceFromAnyTerminalMeters": 1549,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "May-Sep 10:00-18:00; Oct-Apr 10:00-15:00",
+      "website": "https://www.petrikirche-rostock.de/kirche/oeffnungszeiten/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "viewpoint"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/0823663d36be1ac72ca6",
+      "name": "Jakobikirchplatz",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 54.0891039,
+      "lng": 12.1325068,
+      "distanceFromTerminalMeters": 1223,
+      "distanceFromDefaultTerminalMeters": 1223,
+      "minDistanceFromAnyTerminalMeters": 1223,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Apr 01-Oct 31: Mo-Th 08:00-22:00; Fr-Su 08:00-24:00; Nov 01-Mar 31: Mo-Su 09:00-18:00",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "Ehem. Standort Jakobikirche",
+      "osmTags": {
+        "historic": "yes",
+        "leisure": "park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/fab4bd7ba13e71012588",
+      "name": "Museumshafen Hansestadt Rostock",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "marina",
+      "lat": 54.0926526,
+      "lng": 12.1255797,
+      "distanceFromTerminalMeters": 866,
+      "distanceFromDefaultTerminalMeters": 866,
+      "minDistanceFromAnyTerminalMeters": 866,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "https://museumshafen-rostock.de/",
+      "phone": "+49 381 4902435",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "marina"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/a1736853077dd5e6227e",
+      "name": "Gedenkstätte revolutionärer Matrosen",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "viewpoint",
+      "lat": 54.0940748,
+      "lng": 12.112655,
+      "distanceFromTerminalMeters": 1309,
+      "distanceFromDefaultTerminalMeters": 1309,
+      "minDistanceFromAnyTerminalMeters": 1309,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "no",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "memorial",
+        "tourism": "viewpoint"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/40a0cb639e3a9a88a2c4",
+      "name": "Heubastion",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "viewpoint",
+      "lat": 54.0862725,
+      "lng": 12.1329769,
+      "distanceFromTerminalMeters": 1539,
+      "distanceFromDefaultTerminalMeters": 1539,
+      "minDistanceFromAnyTerminalMeters": 1539,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "place": "locality",
+        "tourism": "viewpoint"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/a8fedf878a0e1120866f",
+      "name": "Bäckerei Mertins",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 54.103167,
+      "lng": 12.1157974,
+      "distanceFromTerminalMeters": 991,
+      "distanceFromDefaultTerminalMeters": 991,
+      "minDistanceFromAnyTerminalMeters": 991,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "47 Fährstraße, Rostock, 18147, DE",
+      "openingHours": "Mo-Sa 06:00-18:00",
+      "website": "https://baecker-mertins.de/",
+      "phone": "+49 381 690265",
+      "cuisine": [
+        "sandwich",
+        "cake"
+      ],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "cafe",
+        "shop": "bakery"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/10d451a7c9bba5bd3ac5",
+      "name": "Zum alten Fritz",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 54.0921736,
+      "lng": 12.1269378,
+      "distanceFromTerminalMeters": 893,
+      "distanceFromDefaultTerminalMeters": 893,
+      "minDistanceFromAnyTerminalMeters": 893,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "11:00+",
+      "website": "https://www.alter-fritz.de/",
+      "phone": "+49 381 20 87 80",
+      "cuisine": [
+        "german",
+        "fish"
+      ],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/6b9302612774f207cd28",
+      "name": "Zur Kogge",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 54.0920133,
+      "lng": 12.1354248,
+      "distanceFromTerminalMeters": 956,
+      "distanceFromDefaultTerminalMeters": 956,
+      "minDistanceFromAnyTerminalMeters": 956,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "27 Wokrenterstraße, Rostock, 18055, DE",
+      "openingHours": "Mo-We 16:00-22:00; Th-Sa 12:00-22:00",
+      "website": "https://www.zur-kogge.de/",
+      "phone": "+49 381 493 4493",
+      "cuisine": [
+        "seafood"
+      ],
+      "wheelchair": "no",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/abadde7598690ebdd334",
+      "name": "Hafenrestaurant Borwin",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 54.0925391,
+      "lng": 12.1376689,
+      "distanceFromTerminalMeters": 969,
+      "distanceFromDefaultTerminalMeters": 969,
+      "minDistanceFromAnyTerminalMeters": 969,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "9 Kempowski-Ufer, Rostock, 18055, DE",
+      "openingHours": "Mo-Su 11:30-00:00",
+      "website": "https://www.borwin-hafenrestaurant.de/",
+      "phone": "+493814907525",
+      "cuisine": [
+        "fish"
+      ],
+      "wheelchair": "limited",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/54771d68fb15f42059cf",
+      "name": "Panoramico",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 54.092494,
+      "lng": 12.1222516,
+      "distanceFromTerminalMeters": 976,
+      "distanceFromDefaultTerminalMeters": 976,
+      "minDistanceFromAnyTerminalMeters": 976,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "64a Warnowufer, Rostock, 18057, DE",
+      "openingHours": "Mo-Th 16:00+, Fr-Su 17:00+",
+      "website": "https://www.panoramico-rostock.de/",
+      "phone": "",
+      "cuisine": [
+        "spanish"
+      ],
+      "wheelchair": "limited",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/2c2dd1d6b6574284a38c",
+      "name": "Blauer Esel am Hafen",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 54.0925658,
+      "lng": 12.1381298,
+      "distanceFromTerminalMeters": 982,
+      "distanceFromDefaultTerminalMeters": 982,
+      "minDistanceFromAnyTerminalMeters": 982,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "8 Kempowski-Ufer, Rostock, 18055, DE",
+      "openingHours": "Mo-Su 12:00-23:00",
+      "website": "https://blauer-esel.de",
+      "phone": "+493812526996",
+      "cuisine": [
+        "italian"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/01af020f688fa83d1555",
+      "name": "Salsarico",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 54.0912272,
+      "lng": 12.1330841,
+      "distanceFromTerminalMeters": 996,
+      "distanceFromDefaultTerminalMeters": 996,
+      "minDistanceFromAnyTerminalMeters": 996,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "5 Badstüberstraße, Rostock, 18055, DE",
+      "openingHours": "17:00+",
+      "website": "https://www.salsarico.de/wRostock/",
+      "phone": "+49 381 4 591 491",
+      "cuisine": [
+        "mexican"
+      ],
+      "wheelchair": "no",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/81f5fdf26b53a1897de1",
+      "name": "Jyoti",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 54.0881198,
+      "lng": 12.1206707,
+      "distanceFromTerminalMeters": 1454,
+      "distanceFromDefaultTerminalMeters": 1454,
+      "minDistanceFromAnyTerminalMeters": 1454,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "23 Leonhardstraße, Rostock, 18057, DE",
+      "openingHours": "Mo-Su 09:30-23:00",
+      "website": "https://jyoti-restaurant.jimdosite.com/",
+      "phone": "+49 381 4590485",
+      "cuisine": [
+        "indian"
+      ],
+      "wheelchair": "no",
+      "brand": "",
+      "description": "Indische Brasserie",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/9a5eae8ea59ed990423e",
+      "name": "Amici",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 54.0925768,
+      "lng": 12.1390274,
+      "distanceFromTerminalMeters": 1014,
+      "distanceFromDefaultTerminalMeters": 1014,
+      "minDistanceFromAnyTerminalMeters": 1014,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "6 Kempowski-Ufer, Rostock, 18055, DE",
+      "openingHours": "Tu-Th 16:00-22:00; Fr-Su 12:00-22:00",
+      "website": "https://www.amici-rostock.de/",
+      "phone": "+49 381 46086450",
+      "cuisine": [
+        "italian"
+      ],
+      "wheelchair": "limited",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/2be16c3c952d7e66ebc2",
+      "name": "Rosmarin'o",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 54.0930366,
+      "lng": 12.1439615,
+      "distanceFromTerminalMeters": 1195,
+      "distanceFromDefaultTerminalMeters": 1195,
+      "minDistanceFromAnyTerminalMeters": 1195,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "3 Am Strande, Rostock, 18055, DE",
+      "openingHours": "Mo-Fr 16:30+; Sa-Su 12:00+",
+      "website": "https://www.rosmarino-rostock.de",
+      "phone": "+49 381 2523090",
+      "cuisine": [
+        "steak_house"
+      ],
+      "wheelchair": "no",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/366e73caf3c8d22aca56",
+      "name": "Royal Tandoor",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 54.0932304,
+      "lng": 12.1100204,
+      "distanceFromTerminalMeters": 1505,
+      "distanceFromDefaultTerminalMeters": 1505,
+      "minDistanceFromAnyTerminalMeters": 1505,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "32 Lübecker Straße, Rostock, 18057",
+      "openingHours": "Tu-Th 17:00-22:00; Fr-Su 12:00-15; 17:00-22:00",
+      "website": "https://royal-tandoor.de/",
+      "phone": "+49 38151093630",
+      "cuisine": [
+        "indian",
+        "pakistani"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/4df689110649f19ca816",
+      "name": "Tourist-Information",
+      "nameEnglish": "",
+      "category": "essentials",
+      "subcategory": "visitor_information",
+      "lat": 54.0880477,
+      "lng": 12.1351719,
+      "distanceFromTerminalMeters": 1371,
+      "distanceFromDefaultTerminalMeters": 1371,
+      "minDistanceFromAnyTerminalMeters": 1371,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "6 Universitätsplatz, Rostock, 18055, DE",
+      "openingHours": "May-Oct: Mo-Fr 10:00-18:00; May-Oct: Sa,Su 10:00-15:00; Nov-Apr: Mo-Fr 10:00-17:00; Nov-Apr: Sa 10:00-15:00",
+      "website": "https://www.rostock.de/urlaub/touristinfo.html",
+      "phone": "+49 381 381 2222",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "information"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/a8a01d60354a27750c91",
+      "name": "Rostocker Fischmarkt",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "seafood",
+      "lat": 54.1156023,
+      "lng": 12.08701,
+      "distanceFromTerminalMeters": 3296,
+      "distanceFromDefaultTerminalMeters": 3296,
+      "minDistanceFromAnyTerminalMeters": 3296,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "431 Warnowpier",
+      "openingHours": "Tu-Sa 11:00-15:00",
+      "website": "https://www.rostocker-fischmarkt.de/",
+      "phone": "+4938120268829",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Der Fischmarkt bietet im Ladengeschäft der Firma F&F Fisch und Feinkost GmbH ein umfangreiches Angebot für alle Fischfreunde.",
+      "osmTags": {
+        "shop": "seafood"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/2714e246a421cd3815e7",
+      "name": "Kloster zum Heiligen Kreuz",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 54.0874128,
+      "lng": 12.1323241,
+      "distanceFromTerminalMeters": 1408,
+      "distanceFromDefaultTerminalMeters": 1408,
+      "minDistanceFromAnyTerminalMeters": 1408,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "7 Klosterhof, Rostock, 18055, DE",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "man_made": "surveillance",
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/56bce264463f48fe8b1f",
+      "name": "Doberaner Platz",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "square",
+      "lat": 54.0881921,
+      "lng": 12.1233097,
+      "distanceFromTerminalMeters": 1384,
+      "distanceFromDefaultTerminalMeters": 1384,
+      "minDistanceFromAnyTerminalMeters": 1384,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "place": "square"
+      }
+    }
+  ],
+  "portAnchor": {
+    "id": "ports-json-anchor",
+    "name": "ROSTOCK Port",
+    "lat": 54.1,
+    "lng": 12.13,
+    "address": "Rostock, Mecklenburg-Vorpommern, Germany",
+    "source": "ports.json",
+    "sourceId": "",
+    "score": 0,
+    "slug": "rostock-port"
+  },
+  "terminalResolution": {
+    "status": "unresolved",
+    "method": "ports_json_fallback",
+    "verified": false,
+    "notes": "All supplied candidates are ferry-only stops, local docks, unnamed maritime features, or unrelated places rather than passenger cruise terminals."
+  }
+}

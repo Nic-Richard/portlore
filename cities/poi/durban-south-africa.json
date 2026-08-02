@@ -1,0 +1,1103 @@
+{
+  "schemaVersion": 5,
+  "catalogType": "curation-candidates",
+  "generatedAt": "2026-07-30T08:56:28.991Z",
+  "source": "openstreetmap",
+  "sourceExtract": "south-africa-latest.osm.pbf",
+  "radiusMeters": 10000,
+  "port": {
+    "id": "durban-south-africa",
+    "city": "Durban",
+    "country": "South Africa"
+  },
+  "defaultTerminalId": "osm/generated/9546000a49c5ab57eacd",
+  "terminal": {
+    "id": "osm/generated/9546000a49c5ab57eacd",
+    "name": "Nelson Mandela Cruise Terminal",
+    "nameEnglish": "",
+    "lat": -29.8731378,
+    "lng": 31.0474951,
+    "address": "",
+    "source": "verified_terminal_candidate",
+    "sourceId": "osm/generated/9546000a49c5ab57eacd",
+    "terminalType": "passenger_cruise_terminal",
+    "verified": true,
+    "notes": "Accepted 1 candidate explicitly identified as an ocean-cruise or cruise-passenger terminal; ferry and unrelated results were excluded.",
+    "sourceUrls": [],
+    "sources": [
+      "openstreetmap"
+    ],
+    "sourceIds": [
+      "osm/generated/9546000a49c5ab57eacd"
+    ],
+    "osmTags": {
+      "amenity": "ferry_terminal",
+      "building": "yes",
+      "ferry": "yes",
+      "public_transport": "station"
+    },
+    "matchedBy": [
+      "amenity=ferry_terminal",
+      "terminal-like name"
+    ],
+    "distanceFromPortMeters": 2198
+  },
+  "terminals": [
+    {
+      "id": "osm/generated/9546000a49c5ab57eacd",
+      "name": "Nelson Mandela Cruise Terminal",
+      "nameEnglish": "",
+      "lat": -29.8731378,
+      "lng": 31.0474951,
+      "address": "",
+      "source": "verified_terminal_candidate",
+      "sourceId": "osm/generated/9546000a49c5ab57eacd",
+      "terminalType": "passenger_cruise_terminal",
+      "verified": true,
+      "notes": "Accepted 1 candidate explicitly identified as an ocean-cruise or cruise-passenger terminal; ferry and unrelated results were excluded.",
+      "sourceUrls": [],
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/9546000a49c5ab57eacd"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "building": "yes",
+        "ferry": "yes",
+        "public_transport": "station"
+      },
+      "matchedBy": [
+        "amenity=ferry_terminal",
+        "terminal-like name"
+      ],
+      "distanceFromPortMeters": 2198
+    }
+  ],
+  "terminalCandidateRadiusMeters": 5000,
+  "terminalCandidates": [
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/9546000a49c5ab57eacd",
+      "name": "Nelson Mandela Cruise Terminal",
+      "nameEnglish": "",
+      "lat": -29.8731378,
+      "lng": 31.0474951,
+      "distanceFromPortMeters": 2198,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal",
+        "terminal-like name"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "building": "yes",
+        "ferry": "yes",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/9546000a49c5ab57eacd"
+      ]
+    },
+    {
+      "source": "nominatim",
+      "sourceId": "osm/way/511713340",
+      "osmType": "way",
+      "osmId": "511713340",
+      "name": "Port of Durban",
+      "nameEnglish": "",
+      "lat": -29.8831775,
+      "lng": 31.0437485,
+      "distanceFromPortMeters": 2925,
+      "address": "Port of Durban, Durban, eThekwini Metropolitan Municipality, KwaZulu-Natal, South Africa",
+      "displayName": "Port of Durban, Durban, eThekwini Metropolitan Municipality, KwaZulu-Natal, South Africa",
+      "query": "DURBAN Port, Durban, South Africa",
+      "matchedBy": [
+        "Nominatim query: DURBAN Port, Durban, South Africa"
+      ],
+      "osmTags": {},
+      "sources": [
+        "nominatim"
+      ],
+      "sourceIds": [
+        "osm/way/511713340"
+      ]
+    }
+  ],
+  "counts": {
+    "attraction": 17,
+    "outdoors": 6,
+    "food_drink": 12,
+    "shopping": 2,
+    "essentials": 0
+  },
+  "pois": [
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/03dd3066abd737afb934",
+      "name": "Natal Maritime Museum",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": -29.8615919,
+      "lng": 31.0287017,
+      "distanceFromTerminalMeters": 4091,
+      "distanceFromDefaultTerminalMeters": 4091,
+      "minDistanceFromAnyTerminalMeters": 4091,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/5b06aefd64bb68c74fa9",
+      "name": "Durban Holocaust & Genocide Centre",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": -29.8492911,
+      "lng": 31.0339745,
+      "distanceFromTerminalMeters": 4168,
+      "distanceFromDefaultTerminalMeters": 4168,
+      "minDistanceFromAnyTerminalMeters": 4168,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ee43c2a1a6423ca356f0",
+      "name": "Old Court House Museum",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": -29.8583431,
+      "lng": 31.0275835,
+      "distanceFromTerminalMeters": 4291,
+      "distanceFromDefaultTerminalMeters": 4291,
+      "minDistanceFromAnyTerminalMeters": 4291,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "leisure",
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/3c1b509d30be82a65098",
+      "name": "Kwa Muhle museum",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": -29.8528596,
+      "lng": 31.023869,
+      "distanceFromTerminalMeters": 4840,
+      "distanceFromDefaultTerminalMeters": 4840,
+      "minDistanceFromAnyTerminalMeters": 4840,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/91a69bccda1f9ca773ad",
+      "name": "Victoria Street Market",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": -29.856595,
+      "lng": 31.0148621,
+      "distanceFromTerminalMeters": 5522,
+      "distanceFromDefaultTerminalMeters": 5522,
+      "minDistanceFromAnyTerminalMeters": 5522,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "https://www.victoriastreetmarket.co.za",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/24638c44ec624b614c50",
+      "name": "Old House Museum",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": -29.8630648,
+      "lng": 31.0175077,
+      "distanceFromTerminalMeters": 5120,
+      "distanceFromDefaultTerminalMeters": 5120,
+      "minDistanceFromAnyTerminalMeters": 5120,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "31 Diakonia Avenue, Durban",
+      "openingHours": "",
+      "website": "",
+      "phone": "+27 31 311 2261",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/5aac2f0304cda49f9884",
+      "name": "Fish and meat market",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": -29.8564991,
+      "lng": 31.015339,
+      "distanceFromTerminalMeters": 5481,
+      "distanceFromDefaultTerminalMeters": 5481,
+      "minDistanceFromAnyTerminalMeters": 5481,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/1ab2a9fef242b11be2e0",
+      "name": "Bell Tower",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "monument",
+      "lat": -29.8465689,
+      "lng": 31.0070001,
+      "distanceFromTerminalMeters": 6610,
+      "distanceFromDefaultTerminalMeters": 6610,
+      "minDistanceFromAnyTerminalMeters": 6610,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "monument"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/342b0c673b4ffe9a54d3",
+      "name": "Seal Stadium Stands",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": -29.8669202,
+      "lng": 31.0452692,
+      "distanceFromTerminalMeters": 2409,
+      "distanceFromDefaultTerminalMeters": 2409,
+      "minDistanceFromAnyTerminalMeters": 2409,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c3215bdf20bebbd893ca",
+      "name": "Dolphin Stadium Stands",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": -29.8672847,
+      "lng": 31.0445859,
+      "distanceFromTerminalMeters": 2469,
+      "distanceFromDefaultTerminalMeters": 2469,
+      "minDistanceFromAnyTerminalMeters": 2469,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/20b75c6b0a1be783fd9b",
+      "name": "Durban Funworld",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "theme_park",
+      "lat": -29.854101,
+      "lng": 31.0390444,
+      "distanceFromTerminalMeters": 3469,
+      "distanceFromDefaultTerminalMeters": 3469,
+      "minDistanceFromAnyTerminalMeters": 3469,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "78 OR Tambo Parade, Durban, 4001",
+      "openingHours": "Fr-Su 11:00-17:00",
+      "website": "https://www.durbanfunworld.com/",
+      "phone": "+27 65 945 8208",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "theme_park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/10c531673f62bfde9b0e",
+      "name": "Mitchell Park Zoo",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "zoo",
+      "lat": -29.8252818,
+      "lng": 31.0120318,
+      "distanceFromTerminalMeters": 7482,
+      "distanceFromDefaultTerminalMeters": 7482,
+      "minDistanceFromAnyTerminalMeters": 7482,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "zoo"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ebb1808e992a91fd2ae8",
+      "name": "Umkhumbane Museum",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": -29.8631762,
+      "lng": 30.9670268,
+      "distanceFromTerminalMeters": 9958,
+      "distanceFromDefaultTerminalMeters": 9958,
+      "minDistanceFromAnyTerminalMeters": 9958,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/7a19518cf2f36ea871d9",
+      "name": "Mini Town",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "theme_park",
+      "lat": -29.8445623,
+      "lng": 31.0355736,
+      "distanceFromTerminalMeters": 4361,
+      "distanceFromDefaultTerminalMeters": 4361,
+      "minDistanceFromAnyTerminalMeters": 4361,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "theme_park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/afba56284ae199171ca5",
+      "name": "Statue of Louis Botha",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "monument",
+      "lat": -29.8606204,
+      "lng": 31.0095963,
+      "distanceFromTerminalMeters": 5917,
+      "distanceFromDefaultTerminalMeters": 5917,
+      "minDistanceFromAnyTerminalMeters": 5917,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "monument"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/5b780e0a9bd1fe398891",
+      "name": "Statue of Dinuzulu kaCetshwayo",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "monument",
+      "lat": -29.8605135,
+      "lng": 31.0091262,
+      "distanceFromTerminalMeters": 5964,
+      "distanceFromDefaultTerminalMeters": 5964,
+      "minDistanceFromAnyTerminalMeters": 5964,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "monument"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/a6d4a57e882b4c599234",
+      "name": "The Natal Anti-TB 50 Year Memorial",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "monument",
+      "lat": -29.8456059,
+      "lng": 31.0070586,
+      "distanceFromTerminalMeters": 6648,
+      "distanceFromDefaultTerminalMeters": 6648,
+      "minDistanceFromAnyTerminalMeters": 6648,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "monument"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ff7d6f4e5940eb6682df",
+      "name": "New Beach",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "beach",
+      "lat": -29.8557922,
+      "lng": 31.0407007,
+      "distanceFromTerminalMeters": 3237,
+      "distanceFromDefaultTerminalMeters": 3237,
+      "minDistanceFromAnyTerminalMeters": 3237,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "natural": "beach"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/e9d5feee0e3c6b0241d1",
+      "name": "The Old Fort",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": -29.8508238,
+      "lng": 31.025769,
+      "distanceFromTerminalMeters": 4769,
+      "distanceFromDefaultTerminalMeters": 4769,
+      "minDistanceFromAnyTerminalMeters": 4769,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/85f0f4b2729e3163a7a2",
+      "name": "Suncoast Beach",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "beach",
+      "lat": -29.8345928,
+      "lng": 31.0366418,
+      "distanceFromTerminalMeters": 5084,
+      "distanceFromDefaultTerminalMeters": 5084,
+      "minDistanceFromAnyTerminalMeters": 5084,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "natural": "beach"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d6a2189d071fd858097e",
+      "name": "Fynnland Park",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": -29.8928195,
+      "lng": 31.0315349,
+      "distanceFromTerminalMeters": 4494,
+      "distanceFromDefaultTerminalMeters": 4494,
+      "minDistanceFromAnyTerminalMeters": 4494,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Bluff Road, Durban, 4052",
+      "openingHours": "sunrise-sunset",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/4c0fe038a3ffd973de8e",
+      "name": "Cape Town Fish Market",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": -29.8673769,
+      "lng": 31.0467263,
+      "distanceFromTerminalMeters": 2263,
+      "distanceFromDefaultTerminalMeters": 2263,
+      "minDistanceFromAnyTerminalMeters": 2263,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d59e8324cf81905d884d",
+      "name": "Robsons Brewery",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "pub",
+      "lat": -29.8722597,
+      "lng": 31.047178,
+      "distanceFromTerminalMeters": 2215,
+      "distanceFromDefaultTerminalMeters": 2215,
+      "minDistanceFromAnyTerminalMeters": 2215,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "72 Mahatma Gandhi Road",
+      "openingHours": "Mo-Fr 10:00-23:00; Sa-Su 10:00-23:00",
+      "website": "http://www.robsonsrealbeer.com",
+      "phone": "+27 31 332 2742",
+      "cuisine": [
+        "burger",
+        "chicken",
+        "pizza"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "pub"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b55419f044116977c941",
+      "name": "Silver Spear Spur",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": -29.8692998,
+      "lng": 31.0461395,
+      "distanceFromTerminalMeters": 2302,
+      "distanceFromDefaultTerminalMeters": 2302,
+      "minDistanceFromAnyTerminalMeters": 2302,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Durban, ZA",
+      "openingHours": "Mo-Th 09:00-19:00; Fr 09:00-21:00; Sa 08:00-21:00; Su 08:00-20:00",
+      "website": "https://www.spursteakranches.com/za/restaurant/kwazulu-natal/durban/point/silver-spear-spur",
+      "phone": "+27 87 092 8310",
+      "cuisine": [
+        "steak_house"
+      ],
+      "wheelchair": "",
+      "brand": "Spur",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/5b63b7e846bac86d0245",
+      "name": "Steers",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "fast_food",
+      "lat": -29.8692401,
+      "lng": 31.0458476,
+      "distanceFromTerminalMeters": 2330,
+      "distanceFromDefaultTerminalMeters": 2330,
+      "minDistanceFromAnyTerminalMeters": 2330,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Durban, 4069, ZA",
+      "openingHours": "Mo-Su 10:00-18:00",
+      "website": "https://location.steers.co.za/ushaka-marine-park",
+      "phone": "+27 31 940 7014",
+      "cuisine": [
+        "burger"
+      ],
+      "wheelchair": "",
+      "brand": "Steers",
+      "description": "",
+      "osmTags": {
+        "amenity": "fast_food"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/fe832b12b847fb9fb2b5",
+      "name": "Mahā",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": -29.8716433,
+      "lng": 31.0517427,
+      "distanceFromTerminalMeters": 1770,
+      "distanceFromDefaultTerminalMeters": 1770,
+      "minDistanceFromAnyTerminalMeters": 1770,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Su 06:00-16:00",
+      "website": "https://thepointwaterfront.co.za/maha-cafe/",
+      "phone": "+27 82 817 2957",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/520bbf0f4d48ec79f220",
+      "name": "Thunder Peak Spur",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": -29.8585638,
+      "lng": 31.0239452,
+      "distanceFromTerminalMeters": 4619,
+      "distanceFromDefaultTerminalMeters": 4619,
+      "minDistanceFromAnyTerminalMeters": 4619,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "303 Doctor Pixley Kaseme Street, Durban, 4001, ZA",
+      "openingHours": "Mo-Th 07:00-19:00; Fr-Sa 07:00-20:00; Su 07:00-19:00",
+      "website": "https://www.spursteakranches.com/za/restaurant/kwazulu-natal/durban/durban-central/thunder-peak-spur",
+      "phone": "+27 87 164 1491",
+      "cuisine": [
+        "steak_house"
+      ],
+      "wheelchair": "",
+      "brand": "Spur",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b353505a8b851af827d5",
+      "name": "Kudta Pier",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "bar",
+      "lat": -29.8665899,
+      "lng": 31.04818,
+      "distanceFromTerminalMeters": 2138,
+      "distanceFromDefaultTerminalMeters": 2138,
+      "minDistanceFromAnyTerminalMeters": 2138,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Tapas and cocktail lounge",
+      "osmTags": {
+        "amenity": "bar"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/5dc95f5c6db5a314671b",
+      "name": "Panarotti's",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": -29.8693873,
+      "lng": 31.0460063,
+      "distanceFromTerminalMeters": 2315,
+      "distanceFromDefaultTerminalMeters": 2315,
+      "minDistanceFromAnyTerminalMeters": 2315,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [
+        "pizza"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/31306255a76236d90349",
+      "name": "Wimpy",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": -29.8690348,
+      "lng": 31.0459874,
+      "distanceFromTerminalMeters": 2318,
+      "distanceFromDefaultTerminalMeters": 2318,
+      "minDistanceFromAnyTerminalMeters": 2318,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [
+        "burger",
+        "breakfast"
+      ],
+      "wheelchair": "",
+      "brand": "Wimpy",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/bc31e15968f9a0ec40c9",
+      "name": "Ocean Basket",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": -29.869376,
+      "lng": 31.0457188,
+      "distanceFromTerminalMeters": 2342,
+      "distanceFromDefaultTerminalMeters": 2342,
+      "minDistanceFromAnyTerminalMeters": 2342,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [
+        "seafood"
+      ],
+      "wheelchair": "",
+      "brand": "Ocean Basket",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f1ea26acd827db8656bb",
+      "name": "Roma Revolving Restaurant",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": -29.8607401,
+      "lng": 31.0305165,
+      "distanceFromTerminalMeters": 3944,
+      "distanceFromDefaultTerminalMeters": 3944,
+      "minDistanceFromAnyTerminalMeters": 3944,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Durban",
+      "openingHours": "",
+      "website": "https://www.roma.co.za/",
+      "phone": "",
+      "cuisine": [
+        "Italian cuisine."
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c31bf8f4c19ba3f5de24",
+      "name": "The Grill Jichana",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": -29.846855,
+      "lng": 31.034747,
+      "distanceFromTerminalMeters": 4264,
+      "distanceFromDefaultTerminalMeters": 4264,
+      "minDistanceFromAnyTerminalMeters": 4264,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "63 Snell Parade, Durban",
+      "openingHours": "Tu-Sa 18:00-22:00",
+      "website": "https://www.southernsun.com/southern-sun-elangeni-maharani/dining/grill-jichana-durban?utm_source=openstreetmaps&utm_medium=businesslisting&utm_campaign=rstrnt_the-grill-jichana",
+      "phone": "+27 31 362 1300",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/1be4d88499fa04f6b56c",
+      "name": "City View Shopping Centre",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "mall",
+      "lat": -29.8418543,
+      "lng": 31.0214274,
+      "distanceFromTerminalMeters": 5634,
+      "distanceFromDefaultTerminalMeters": 5634,
+      "minDistanceFromAnyTerminalMeters": 5634,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "10 Mathews Meyiwa Road, Durban, 4001",
+      "openingHours": "",
+      "website": "https://www.cityview.co.za/",
+      "phone": "+27 31 309 6737",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "parking",
+        "shop": "mall"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/06c49ec29dc0cee73f5e",
+      "name": "The Workshop",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "mall",
+      "lat": -29.8559446,
+      "lng": 31.026036,
+      "distanceFromTerminalMeters": 4518,
+      "distanceFromDefaultTerminalMeters": 4518,
+      "minDistanceFromAnyTerminalMeters": 4518,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "shop": "mall"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/1b1df63900b04bb1ab95",
+      "name": "Victoria Park",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": -29.8528067,
+      "lng": 31.0363201,
+      "distanceFromTerminalMeters": 3769,
+      "distanceFromDefaultTerminalMeters": 3769,
+      "minDistanceFromAnyTerminalMeters": 3769,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/6de5ad44c84c45803360",
+      "name": "Snake Park",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": -29.8435645,
+      "lng": 31.0362206,
+      "distanceFromTerminalMeters": 4388,
+      "distanceFromDefaultTerminalMeters": 4388,
+      "minDistanceFromAnyTerminalMeters": 4388,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "park"
+      }
+    }
+  ],
+  "portAnchor": {
+    "id": "ports-json-anchor",
+    "name": "DURBAN Port",
+    "lat": -29.87,
+    "lng": 31.07,
+    "address": "Durban, KwaZulu-Natal, South Africa",
+    "source": "ports.json",
+    "sourceId": "",
+    "score": 0,
+    "slug": "durban-port"
+  },
+  "terminalResolution": {
+    "status": "resolved",
+    "method": "accepted_terminal_candidate",
+    "verified": true,
+    "notes": "Accepted 1 candidate explicitly identified as an ocean-cruise or cruise-passenger terminal; ferry and unrelated results were excluded."
+  }
+}

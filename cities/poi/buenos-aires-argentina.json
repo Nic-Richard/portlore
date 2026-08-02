@@ -1,0 +1,1051 @@
+{
+  "schemaVersion": 5,
+  "catalogType": "curation-candidates",
+  "generatedAt": "2026-07-30T07:35:50.062Z",
+  "source": "openstreetmap",
+  "sourceExtract": "argentina-latest.osm.pbf",
+  "radiusMeters": 10000,
+  "port": {
+    "id": "buenos-aires-argentina",
+    "city": "Buenos Aires",
+    "country": "Argentina"
+  },
+  "defaultTerminalId": "ports-json-anchor",
+  "terminal": {
+    "id": "ports-json-anchor",
+    "name": "BUENOS AIRES Port",
+    "lat": -34.6,
+    "lng": -58.37,
+    "address": "Buenos Aires, Buenos Aires, Argentina",
+    "source": "ports.json",
+    "sourceId": "",
+    "score": 0,
+    "slug": "buenos-aires-port"
+  },
+  "terminals": [
+    {
+      "id": "ports-json-anchor",
+      "name": "BUENOS AIRES Port",
+      "lat": -34.6,
+      "lng": -58.37,
+      "address": "Buenos Aires, Buenos Aires, Argentina",
+      "source": "ports.json",
+      "sourceId": "",
+      "score": 0,
+      "slug": "buenos-aires-port"
+    }
+  ],
+  "terminalCandidateRadiusMeters": 5000,
+  "terminalCandidates": [
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/409b3053199e83dc1ce9",
+      "name": "Buquebus",
+      "nameEnglish": "",
+      "lat": -34.5972762,
+      "lng": -58.3675983,
+      "distanceFromPortMeters": 374,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "building": "yes",
+        "cargo": "passenger;bicycle;vehicle",
+        "ferry": "yes",
+        "operator": "Buquebus",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/409b3053199e83dc1ce9"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/aa5f341477c7cbbddffe",
+      "name": "Sturla",
+      "nameEnglish": "",
+      "lat": -34.5974471,
+      "lng": -58.3658967,
+      "distanceFromPortMeters": 471,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "cargo": "passengers",
+        "ferry": "yes",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/aa5f341477c7cbbddffe"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/fc46bc5905f75bfa195d",
+      "name": "(unnamed maritime feature)",
+      "nameEnglish": "",
+      "lat": -34.5973462,
+      "lng": -58.36392,
+      "distanceFromPortMeters": 630,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "cargo": "passengers",
+        "ferry": "yes",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/fc46bc5905f75bfa195d"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/49f62b239800a1d46f72",
+      "name": "Terminal de Cruceros Quinquela Martín",
+      "nameEnglish": "",
+      "lat": -34.5827952,
+      "lng": -58.3699594,
+      "distanceFromPortMeters": 1913,
+      "address": "3 Avenida Presidente Ramón S. Castillo, Ciudad Autónoma de Buenos Aires, AR",
+      "matchedBy": [
+        "amenity=ferry_terminal",
+        "terminal-like name"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "building": "transportation",
+        "cargo": "passengers",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/49f62b239800a1d46f72"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/072129ec6f8fa2721a9f",
+      "name": "Colonia Express",
+      "nameEnglish": "",
+      "lat": -34.6253802,
+      "lng": -58.3605725,
+      "distanceFromPortMeters": 2951,
+      "address": "155 Avenida Elvira Rawson de Dellepiane, Ciudad Autónoma de Buenos Aires, AR",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "building": "yes",
+        "cargo": "passenger;bicycle;vehicle",
+        "ferry": "yes",
+        "operator": "Colonia Express",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/072129ec6f8fa2721a9f"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/273ad9549c95eb6eaf91",
+      "name": "(unnamed maritime feature)",
+      "nameEnglish": "",
+      "lat": -34.6381774,
+      "lng": -58.3563789,
+      "distanceFromPortMeters": 4424,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "cargo": "passengers"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/273ad9549c95eb6eaf91"
+      ]
+    }
+  ],
+  "counts": {
+    "attraction": 7,
+    "outdoors": 6,
+    "food_drink": 12,
+    "shopping": 4,
+    "essentials": 3
+  },
+  "pois": [
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ae6397a779203a4c3d2a",
+      "name": "Colección de Arte 'Amalia Lacroze de Fortabat'",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": -34.5995425,
+      "lng": -58.364992,
+      "distanceFromTerminalMeters": 461,
+      "distanceFromDefaultTerminalMeters": 461,
+      "minDistanceFromAnyTerminalMeters": 461,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "141 Olga Cossetini, Ciudad Autónoma de Buenos Aires, C1107CCC, AR",
+      "openingHours": "Tu-Su 12:00-20:00",
+      "website": "https://www.coleccionfortabat.org.ar/",
+      "phone": "+54 11 4310-6600",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "La colección presenta obras de arte argentino desde el siglo XIX hasta la actualidad, y un sector destacado con obras de artistas internacionales del siglo XVI hasta el XX seleccionadas por la fundadora. Objetos de la antigüedad egipcia y griega",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/6ddad1d77d28d04b473e",
+      "name": "Buque Museo Corbeta A.R.A. Uruguay",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": -34.6041969,
+      "lng": -58.3662214,
+      "distanceFromTerminalMeters": 581,
+      "distanceFromDefaultTerminalMeters": 581,
+      "minDistanceFromAnyTerminalMeters": 581,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "500 Avenida Alicia Moreau de Justo, Ciudad Autónoma de Buenos Aires, 1144, AR",
+      "openingHours": "Mo-Su 10:00-19:00",
+      "website": "https://www.ara.mil.ar/pag.asp?idItem=113",
+      "phone": "+54 11 4314-1090",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Es el buque argentino más antiguo botado en 1874. Comprado por el presidente Domingo Farmiento Sarmiento. Integró la flota de hierro y vapor de nuestro país. Fué buque escuela. Sembró soberanía. En 1903 rescató la expedición científica del Dr. Otto Norde",
+      "osmTags": {
+        "historic": "ship",
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/5c9445d2246388e9795c",
+      "name": "Museo Mitre",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": -34.6040767,
+      "lng": -58.3741857,
+      "distanceFromTerminalMeters": 594,
+      "distanceFromDefaultTerminalMeters": 594,
+      "minDistanceFromAnyTerminalMeters": 594,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "336 San Martín, Ciudad Autónoma de Buenos Aires, C1004AAH, AR",
+      "openingHours": "Mo-Fr 13:00-17:30",
+      "website": "https://museomitre.cultura.gob.ar/",
+      "phone": "+54 11 4394-7659",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Mobiliario y objetos personales pertenecientes al general Bartolomé Mitre. Numismática y medallística. Archivo documental. Biblioteca y mapoteca, que abarcan desde el período colonial hasta el siglo XX.",
+      "osmTags": {
+        "historic": "building",
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f528d6b73cd349b52ace",
+      "name": "Museo de la Inmigración",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": -34.5929041,
+      "lng": -58.3679245,
+      "distanceFromTerminalMeters": 812,
+      "distanceFromDefaultTerminalMeters": 812,
+      "minDistanceFromAnyTerminalMeters": 812,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Avenida Antártida Argentina, Ciudad Autónoma de Buenos Aires, C1104ACC, AR",
+      "openingHours": "Tu-Su 12:00-18:00",
+      "website": "https://untref.edu.ar/muntref/es/museo-de-la-inmigracion",
+      "phone": "+54 11 4317-0285",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Está situado en el antiguo hotel de inmigrantes (1911-1953). Valora el conjunto arquitectónico, destacando la importancia histórica, cultural, económica y social del fenómeno inmigratorio en el país.",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/9e9636ad94353101040a",
+      "name": "Museo Casa Rosada",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": -34.6083444,
+      "lng": -58.3695595,
+      "distanceFromTerminalMeters": 929,
+      "distanceFromDefaultTerminalMeters": 929,
+      "minDistanceFromAnyTerminalMeters": 929,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "100 Avenida Paseo Colón, Ciudad Autónoma de Buenos Aires, C1063ACN, AR",
+      "openingHours": "Mo-Fr 10:00-18:00; Su 14:00-18:00",
+      "website": "https://www.casarosada.gob.ar/museo",
+      "phone": "+54 11 4344-3802",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "El museo posee un acervo de varios miles de piezas de carácter histórico y artístico que abarcan desde el período hispánico hasta los presidentes argentinos.",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/cf613c440b1d2d286509",
+      "name": "Catedral Metropolitana",
+      "nameEnglish": "Metropolitan Cathedral",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": -34.607476,
+      "lng": -58.3732471,
+      "distanceFromTerminalMeters": 883,
+      "distanceFromDefaultTerminalMeters": 883,
+      "minDistanceFromAnyTerminalMeters": 883,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "27 San Martín, Ciudad Autónoma de Buenos Aires, C1004AAA, AR",
+      "openingHours": "Mo-Fr 07:30-18:30; Sa 09:00-17:00; Su 09:00-18:30",
+      "website": "http://www.catedralbuenosaires.org.ar/",
+      "phone": "+541143312845;+541143453369;+541143453736",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "place_of_worship",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/74143d32fa5824a66029",
+      "name": "Museo de Informática",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": -34.5964433,
+      "lng": -58.3774819,
+      "distanceFromTerminalMeters": 791,
+      "distanceFromDefaultTerminalMeters": 791,
+      "minDistanceFromAnyTerminalMeters": 791,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "738 Marcelo T. de Alvear, Ciudad Autónoma de Buenos Aires, AR",
+      "openingHours": "",
+      "website": "https://museodeinformatica.org.ar/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Es el primer Museo de Informática de nuestro país y la exhibición de equipos informáticos históricos favorece la enseñanza a través de objetos reales y operativos, brindando una oportunidad única al público en general, estudiantes y profesionales.",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/431f1bb5119261d455f5",
+      "name": "Paseo Lineal del Bajo",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": -34.5988547,
+      "lng": -58.3689045,
+      "distanceFromTerminalMeters": 162,
+      "distanceFromDefaultTerminalMeters": 162,
+      "minDistanceFromAnyTerminalMeters": 162,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Parque Lineal del Bajo",
+      "osmTags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/3730fb931ef024e48191",
+      "name": "Mirador Galería Güemes",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "viewpoint",
+      "lat": -34.6063874,
+      "lng": -58.3747973,
+      "distanceFromTerminalMeters": 835,
+      "distanceFromDefaultTerminalMeters": 835,
+      "minDistanceFromAnyTerminalMeters": 835,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "viewpoint"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/0fd8c8294b7af09d7222",
+      "name": "Plaza de la Defensa",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": -34.6141732,
+      "lng": -58.3720464,
+      "distanceFromTerminalMeters": 1587,
+      "distanceFromDefaultTerminalMeters": 1587,
+      "minDistanceFromAnyTerminalMeters": 1587,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "https://turismo.buenosaires.gob.ar/es/atractivo/centro-cultural-plaza-defensa",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/0cbaed492fff5c3e7bad",
+      "name": "Plaza Lorea",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": -34.6091835,
+      "lng": -58.3878011,
+      "distanceFromTerminalMeters": 1923,
+      "distanceFromDefaultTerminalMeters": 1923,
+      "minDistanceFromAnyTerminalMeters": 1923,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "https://www.euskonews.com/0383zbk/kosmo38301.html",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/795a87540f97da50b1c4",
+      "name": "Yacht Club Argentino",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "marina",
+      "lat": -34.5960537,
+      "lng": -58.3615336,
+      "distanceFromTerminalMeters": 891,
+      "distanceFromDefaultTerminalMeters": 891,
+      "minDistanceFromAnyTerminalMeters": 891,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Ciudad Autónoma de Buenos Aires, 1107, AR",
+      "openingHours": "",
+      "website": "https://yca.org.ar/",
+      "phone": "+54 11 4314-0505",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "marina"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/4efa4464c03628a18952",
+      "name": "Reserva Ecológica Costanera Sur",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "nature_reserve",
+      "lat": -34.6069227,
+      "lng": -58.3515043,
+      "distanceFromTerminalMeters": 1860,
+      "distanceFromDefaultTerminalMeters": 1860,
+      "minDistanceFromAnyTerminalMeters": 1860,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "http://www.reservacostanera.com.ar/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "nature_reserve"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/15ff8b0a8afd91ac2118",
+      "name": "Los Inmortales",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": -34.6025402,
+      "lng": -58.3773658,
+      "distanceFromTerminalMeters": 731,
+      "distanceFromDefaultTerminalMeters": 731,
+      "minDistanceFromAnyTerminalMeters": 731,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "746 Lavalle, Ciudad Autónoma de Buenos Aires, AR",
+      "openingHours": "",
+      "website": "https://www.losinmortales.com/",
+      "phone": "+54 11 4322 5493",
+      "cuisine": [
+        "pizza"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Pizzería, Restaurant, Café",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/86c40ba78f2a47098ae0",
+      "name": "Murasaki",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": -34.5966151,
+      "lng": -58.3751071,
+      "distanceFromTerminalMeters": 600,
+      "distanceFromDefaultTerminalMeters": 600,
+      "minDistanceFromAnyTerminalMeters": 600,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "971 Florida, Ciudad Autónoma de Buenos Aires, AR",
+      "openingHours": "Mo-Sa 12:00-16:00; Su off",
+      "website": "https://murasaki.com.ar/",
+      "phone": "+54 11 4314-6866",
+      "cuisine": [
+        "japanese"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "En Galería Larreta, restaurante japones, excelente.",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/e5ee0a4a5bd59adacbbd",
+      "name": "Fa Song Song",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": -34.5965017,
+      "lng": -58.3783831,
+      "distanceFromTerminalMeters": 860,
+      "distanceFromDefaultTerminalMeters": 860,
+      "minDistanceFromAnyTerminalMeters": 860,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "993 Esmeralda, Ciudad Autónoma de Buenos Aires, AR",
+      "openingHours": "Mo-Fr 12:00-15:30,18:30-22:30; Sa 18:30-22:30",
+      "website": "https://instagram.com/fasongsong_ar",
+      "phone": "https://www.pedidosya.com.ar/restaurantes/buenos-aires/fa-song-song-menu?utm_source=google&utm_medium=organic&utm_campaign=google_reserve_place_order_action; +54 9 11 3903-0097",
+      "cuisine": [
+        "korean"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Restaurante Coreano",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/bd5f768f6c702349b6ff",
+      "name": "Los Inmortales - Corrientes",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": -34.6038313,
+      "lng": -58.3860258,
+      "distanceFromTerminalMeters": 1527,
+      "distanceFromDefaultTerminalMeters": 1527,
+      "minDistanceFromAnyTerminalMeters": 1527,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1369 Avenida Corrientes, Ciudad Autónoma de Buenos Aires, AR",
+      "openingHours": "",
+      "website": "https://www.losinmortales.com/",
+      "phone": "+54 11 4373-5303",
+      "cuisine": [
+        "pizza"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Pizzería, Restaurant, Café",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/be67a53a7e618ec171df",
+      "name": "SushiClub",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": -34.6017402,
+      "lng": -58.367092,
+      "distanceFromTerminalMeters": 329,
+      "distanceFromDefaultTerminalMeters": 329,
+      "minDistanceFromAnyTerminalMeters": 329,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "286 Avenida Alicia Moreau de Justo, Ciudad Autónoma de Buenos Aires, 1107, AR",
+      "openingHours": "Su-We 12:00-01:00; Th 12:00-01:30; Fr,Sa 12:00-02:00",
+      "website": "https://www.sushiclub.com.ar/",
+      "phone": "",
+      "cuisine": [
+        "sushi"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/00d7580f226b3007d5e5",
+      "name": "Rapanui",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": -34.5951935,
+      "lng": -58.3778671,
+      "distanceFromTerminalMeters": 897,
+      "distanceFromDefaultTerminalMeters": 897,
+      "minDistanceFromAnyTerminalMeters": 897,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "772 Avenida Santa Fe, Ciudad Autónoma de Buenos Aires, 1006, AR",
+      "openingHours": "Su-Th 10:00-00:00; Fr-Sa 10:00-01:00",
+      "website": "https://chocolatesrapanui.com.ar/",
+      "phone": "+54 810 888 7272",
+      "cuisine": [
+        "chocolate"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/def9874c154040c8c932",
+      "name": "Mr. Ho",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": -34.5977855,
+      "lng": -58.3794945,
+      "distanceFromTerminalMeters": 903,
+      "distanceFromDefaultTerminalMeters": 903,
+      "minDistanceFromAnyTerminalMeters": 903,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "884 Paraguay, Ciudad Autónoma de Buenos Aires, 1057, AR",
+      "openingHours": "Mo-Sa 12:00-15:00; Mo-Th 18:00-22:00; Fr, Sa 18:00-23:00",
+      "website": "https://queresto.com/mrho",
+      "phone": "+54 11 6560 1004",
+      "cuisine": [
+        "korean"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d06e588b90a73c4cbd7a",
+      "name": "Pick & Go Café",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": -34.6095398,
+      "lng": -58.373753,
+      "distanceFromTerminalMeters": 1115,
+      "distanceFromDefaultTerminalMeters": 1115,
+      "minDistanceFromAnyTerminalMeters": 1115,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "512 Avenida Presidente Julio A. Roca, Ciudad Autónoma de Buenos Aires",
+      "openingHours": "Mo-Fr 08:00-17:00",
+      "website": "https://www.instagram.com/pickngocafe?igshid=YmMyMTA2M2Y%3D",
+      "phone": "",
+      "cuisine": [
+        "coffee_shop",
+        "cafe_de_especialidad"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/5c66541fdd3a593cf2aa",
+      "name": "Nica",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": -34.6100683,
+      "lng": -58.3721554,
+      "distanceFromTerminalMeters": 1137,
+      "distanceFromDefaultTerminalMeters": 1137,
+      "minDistanceFromAnyTerminalMeters": 1137,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "401 Adolfo Alsina",
+      "openingHours": "Mo-Fr 08:00-19:00",
+      "website": "https://www.instagram.com/nica.cocina/",
+      "phone": "",
+      "cuisine": [
+        "coffee_shop"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/2e38cd338defd5d2cde5",
+      "name": "La Martona de Arenales",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": -34.5942192,
+      "lng": -58.3788681,
+      "distanceFromTerminalMeters": 1035,
+      "distanceFromDefaultTerminalMeters": 1035,
+      "minDistanceFromAnyTerminalMeters": 1035,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "820 Arenales, Ciudad Autónoma de Buenos Aires, AR",
+      "openingHours": "Mo-Fr 08:00-23:00",
+      "website": "https://www.instagram.com/lamartonadearenales/",
+      "phone": "+54 11 3375-8912",
+      "cuisine": [
+        "argentinian"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Excellent tradicional and affordable neighborhood restaurant.",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/9bf2498a2a71fd3ff7fc",
+      "name": "Santa Fe 1234",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": -34.5957765,
+      "lng": -58.3846552,
+      "distanceFromTerminalMeters": 1421,
+      "distanceFromDefaultTerminalMeters": 1421,
+      "minDistanceFromAnyTerminalMeters": 1421,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1234 Avenida Santa Fe, Ciudad Autónoma de Buenos Aires, 1059, AR",
+      "openingHours": "Mo-Su 06:00-03:00",
+      "website": "http://santafe1234.com.ar",
+      "phone": "+54 11 4811-2356",
+      "cuisine": [
+        "argentinian",
+        "breakfast"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b87df7239ed1e4336977",
+      "name": "Gran Bar Danzón",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": -34.5948934,
+      "lng": -58.3843075,
+      "distanceFromTerminalMeters": 1427,
+      "distanceFromDefaultTerminalMeters": 1427,
+      "minDistanceFromAnyTerminalMeters": 1427,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1161 Libertad, Ciudad Autónoma de Buenos Aires, AR",
+      "openingHours": "Mo-Th 19:00-02:00; Fr 19:00-04:00; Sa 20:00-04:00; Su 20:00-01:00",
+      "website": "http://www.granbardanzon.com.ar",
+      "phone": "+54 11 4811-1108",
+      "cuisine": [
+        "international",
+        "sushi"
+      ],
+      "wheelchair": "no",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/df844012ae1a7c57e271",
+      "name": "Galerías Pacífico",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "mall",
+      "lat": -34.5992439,
+      "lng": -58.3747417,
+      "distanceFromTerminalMeters": 442,
+      "distanceFromDefaultTerminalMeters": 442,
+      "minDistanceFromAnyTerminalMeters": 442,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "550 Avenida Córdoba, Ciudad Autónoma de Buenos Aires, AR",
+      "openingHours": "Mo-Su 10:00-21:00",
+      "website": "https://www.galeriaspacifico.com.ar/",
+      "phone": "+54 11 5555 5110",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "shop": "mall",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/6a3d7c93434846e1dbeb",
+      "name": "Recoleta Urban Mall",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "mall",
+      "lat": -34.5892125,
+      "lng": -58.3938785,
+      "distanceFromTerminalMeters": 2493,
+      "distanceFromDefaultTerminalMeters": 2493,
+      "minDistanceFromAnyTerminalMeters": 2493,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "2050 Vicente López, Ciudad Autónoma de Buenos Aires, AR",
+      "openingHours": "Mo-Su 10:00-21:00",
+      "website": "https://www.recoletamall.com.ar/",
+      "phone": "+54 11 4808-0605",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "Centrp comercial y gastronómico con cine y estacionamiento cubierto.",
+      "osmTags": {
+        "shop": "mall"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/649d1183bc485a54ebdf",
+      "name": "Galería Solar de French",
+      "nameEnglish": "Solar de French",
+      "category": "shopping",
+      "subcategory": "mall",
+      "lat": -34.6202558,
+      "lng": -58.3710932,
+      "distanceFromTerminalMeters": 2255,
+      "distanceFromDefaultTerminalMeters": 2255,
+      "minDistanceFromAnyTerminalMeters": 2255,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1066 Defensa, Ciudad Autónoma de Buenos Aires, AR",
+      "openingHours": "Mo-Su 10:00-20:00",
+      "website": "https://www.solardefrench.com",
+      "phone": "+54 11 4361 5045",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "shop": "mall"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/84b82d2dc8939ab0e459",
+      "name": "Mercado de San Telmo",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "marketplace",
+      "lat": -34.6190607,
+      "lng": -58.3722354,
+      "distanceFromTerminalMeters": 2129,
+      "distanceFromDefaultTerminalMeters": 2129,
+      "minDistanceFromAnyTerminalMeters": 2129,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "963 Defensa, Ciudad Autónoma de Buenos Aires, AR",
+      "openingHours": "Mo-Su 09:00-20:00",
+      "website": "https://mercadosantelmo.com.ar/",
+      "phone": "+54 11 4314 0133",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "marketplace"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f97151c64fc8a7c09f80",
+      "name": "Centro de Atención al Turista: Casco Histórico",
+      "nameEnglish": "Historic Quarter Tourist Assistance Center",
+      "category": "essentials",
+      "subcategory": "visitor_information",
+      "lat": -34.6073979,
+      "lng": -58.3750711,
+      "distanceFromTerminalMeters": 945,
+      "distanceFromDefaultTerminalMeters": 945,
+      "minDistanceFromAnyTerminalMeters": 945,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "50 Florida, Ciudad Autónoma de Buenos Aires, AR",
+      "openingHours": "Mo-Su 09:00-18:00",
+      "website": "https://turismo.buenosaires.gob.ar/es/atractivo/centro-de-atenci%C3%B3n-al-turista-casco-hist%C3%B3rico",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "information"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/7995c3db2e755e1d718d",
+      "name": "Defensoría del Turista",
+      "nameEnglish": "Puerto Madero Tourist Assistance Center",
+      "category": "essentials",
+      "subcategory": "visitor_information",
+      "lat": -34.6007534,
+      "lng": -58.3669103,
+      "distanceFromTerminalMeters": 295,
+      "distanceFromDefaultTerminalMeters": 295,
+      "minDistanceFromAnyTerminalMeters": 295,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "200 Juana Manuela Gorriti",
+      "openingHours": "Mo-Fr 10:00-18:00; Sa, Su 11:00-17:00",
+      "website": "https://defensoria.org.ar/derechos/derechos-urbanos-y-ambiente/turismo/",
+      "phone": "08009993722",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "information"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/4fe4088bed0f8cd82549",
+      "name": "Centro de Atención al Turista: Retiro",
+      "nameEnglish": "Retiro Coach Station Tourist Assistance Center",
+      "category": "essentials",
+      "subcategory": "visitor_information",
+      "lat": -34.5876022,
+      "lng": -58.3729395,
+      "distanceFromTerminalMeters": 1405,
+      "distanceFromDefaultTerminalMeters": 1405,
+      "minDistanceFromAnyTerminalMeters": 1405,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Estación Terminal de Ómnibus - Puente 3 Local 83",
+      "openingHours": "Mo-Su 07:00-16:00",
+      "website": "https://turismo.buenosaires.gob.ar/es/atractivo/centro-de-atenci%C3%B3n-al-turista-retiro",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "information"
+      }
+    }
+  ],
+  "portAnchor": {
+    "id": "ports-json-anchor",
+    "name": "BUENOS AIRES Port",
+    "lat": -34.6,
+    "lng": -58.37,
+    "address": "Buenos Aires, Buenos Aires, Argentina",
+    "source": "ports.json",
+    "sourceId": "",
+    "score": 0,
+    "slug": "buenos-aires-port"
+  },
+  "terminalResolution": {
+    "status": "unresolved",
+    "method": "ports_json_fallback",
+    "verified": false,
+    "notes": "All supplied candidates are ferry-only stops, local docks, unnamed maritime features, or unrelated places rather than passenger cruise terminals."
+  }
+}

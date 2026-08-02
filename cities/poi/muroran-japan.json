@@ -1,0 +1,710 @@
+{
+  "schemaVersion": 5,
+  "catalogType": "curation-candidates",
+  "generatedAt": "2026-07-30T08:05:13.767Z",
+  "source": "openstreetmap",
+  "sourceExtract": "hokkaido-latest.osm.pbf",
+  "radiusMeters": 10000,
+  "port": {
+    "id": "muroran-japan",
+    "city": "Muroran",
+    "country": "Japan"
+  },
+  "defaultTerminalId": "osm/generated/ffedcb6109a274524fb3",
+  "terminal": {
+    "id": "osm/generated/ffedcb6109a274524fb3",
+    "name": "Cruise Ship Dock",
+    "nameEnglish": "",
+    "lat": 42.3466468,
+    "lng": 140.9451,
+    "address": "",
+    "source": "verified_terminal_candidate",
+    "sourceId": "osm/generated/ffedcb6109a274524fb3",
+    "terminalType": "passenger_cruise_terminal",
+    "verified": true,
+    "notes": "Accepted 1 candidate explicitly identified as an ocean-cruise or cruise-passenger terminal; ferry and unrelated results were excluded.",
+    "sourceUrls": [],
+    "sources": [
+      "openstreetmap"
+    ],
+    "sourceIds": [
+      "osm/generated/ffedcb6109a274524fb3"
+    ],
+    "osmTags": {
+      "amenity": "ferry_terminal"
+    },
+    "matchedBy": [
+      "amenity=ferry_terminal",
+      "terminal-like name"
+    ],
+    "distanceFromPortMeters": 2080
+  },
+  "terminals": [
+    {
+      "id": "osm/generated/ffedcb6109a274524fb3",
+      "name": "Cruise Ship Dock",
+      "nameEnglish": "",
+      "lat": 42.3466468,
+      "lng": 140.9451,
+      "address": "",
+      "source": "verified_terminal_candidate",
+      "sourceId": "osm/generated/ffedcb6109a274524fb3",
+      "terminalType": "passenger_cruise_terminal",
+      "verified": true,
+      "notes": "Accepted 1 candidate explicitly identified as an ocean-cruise or cruise-passenger terminal; ferry and unrelated results were excluded.",
+      "sourceUrls": [],
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/ffedcb6109a274524fb3"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal"
+      },
+      "matchedBy": [
+        "amenity=ferry_terminal",
+        "terminal-like name"
+      ],
+      "distanceFromPortMeters": 2080
+    }
+  ],
+  "terminalCandidateRadiusMeters": 5000,
+  "terminalCandidates": [
+    {
+      "source": "nominatim",
+      "sourceId": "osm/node/3647004493",
+      "osmType": "node",
+      "osmId": "3647004493",
+      "name": "室蘭築港",
+      "nameEnglish": "Muroran Chicko",
+      "lat": 42.3400139,
+      "lng": 140.9515551,
+      "distanceFromPortMeters": 1879,
+      "address": "室蘭築港, 北海道道699号室蘭港線, 祝津町一丁目, 室蘭市, 胆振総合振興局, 北海道, 北海道地方, 051-0036, 日本",
+      "displayName": "室蘭築港, 北海道道699号室蘭港線, 祝津町一丁目, 室蘭市, 胆振総合振興局, 北海道, 北海道地方, 051-0036, 日本",
+      "query": "MURORAN KO Port, Muroran, Japan",
+      "matchedBy": [
+        "Nominatim query: MURORAN KO Port, Muroran, Japan"
+      ],
+      "osmTags": {
+        "operator": "道南バス",
+        "public_transport": "platform"
+      },
+      "sources": [
+        "nominatim"
+      ],
+      "sourceIds": [
+        "osm/node/3647004493"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ffedcb6109a274524fb3",
+      "name": "Cruise Ship Dock",
+      "nameEnglish": "",
+      "lat": 42.3466468,
+      "lng": 140.9451,
+      "distanceFromPortMeters": 2080,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal",
+        "terminal-like name"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/ffedcb6109a274524fb3"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d949fa1683ae17a02252",
+      "name": "室蘭港",
+      "nameEnglish": "",
+      "lat": 42.3271991,
+      "lng": 140.9765039,
+      "distanceFromPortMeters": 2591,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/d949fa1683ae17a02252"
+      ]
+    },
+    {
+      "source": "nominatim",
+      "sourceId": "osm/node/3518548137",
+      "osmType": "node",
+      "osmId": "3518548137",
+      "name": "室蘭観光協会前",
+      "nameEnglish": "Muroran Kanko Kyokai Mae (Muroran Tourist Association)",
+      "lat": 42.3217208,
+      "lng": 140.9701754,
+      "distanceFromPortMeters": 3145,
+      "address": "室蘭観光協会前, 北海道道699号室蘭港線, 海岸町二丁目, 室蘭市, 胆振総合振興局, 北海道, 北海道地方, 051-0022, 日本",
+      "displayName": "室蘭観光協会前, 北海道道699号室蘭港線, 海岸町二丁目, 室蘭市, 胆振総合振興局, 北海道, 北海道地方, 051-0022, 日本",
+      "query": "MURORAN KO Port, Muroran, Japan",
+      "matchedBy": [
+        "Nominatim query: MURORAN KO Port, Muroran, Japan"
+      ],
+      "osmTags": {
+        "description": "のりば4",
+        "public_transport": "platform"
+      },
+      "sources": [
+        "nominatim"
+      ],
+      "sourceIds": [
+        "osm/node/3518548137"
+      ]
+    }
+  ],
+  "counts": {
+    "attraction": 6,
+    "outdoors": 4,
+    "food_drink": 6,
+    "shopping": 4,
+    "essentials": 0
+  },
+  "pois": [
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/5b8c7cb015813269963a",
+      "name": "市立室蘭水族館",
+      "nameEnglish": "Muroran Public Aquarium",
+      "category": "attraction",
+      "subcategory": "theme_park",
+      "lat": 42.3397409,
+      "lng": 140.9441021,
+      "distanceFromTerminalMeters": 2415,
+      "distanceFromDefaultTerminalMeters": 2415,
+      "minDistanceFromAnyTerminalMeters": 2415,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "https://iburi.net/murosui/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "theme_park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/121009a142440f8d02d7",
+      "name": "港の文学館",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 42.319002,
+      "lng": 140.9730721,
+      "distanceFromTerminalMeters": 3456,
+      "distanceFromDefaultTerminalMeters": 3456,
+      "minDistanceFromAnyTerminalMeters": 3456,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "北海道道699号室蘭港線, 室蘭市",
+      "openingHours": "",
+      "website": "http://www.city.muroran.lg.jp/main/shisetsu/minatonobungakukan.html",
+      "phone": "+81-143-22-1501",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/fe7fea835dc663982db3",
+      "name": "旧・港の文学館",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 42.3255213,
+      "lng": 140.9682588,
+      "distanceFromTerminalMeters": 2726,
+      "distanceFromDefaultTerminalMeters": 2726,
+      "minDistanceFromAnyTerminalMeters": 2726,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "北海道道699号室蘭港線, 室蘭市",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/85aa278dbe44d73557cc",
+      "name": "室蘭市民美術館",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 42.3153418,
+      "lng": 140.9706986,
+      "distanceFromTerminalMeters": 3854,
+      "distanceFromDefaultTerminalMeters": 3854,
+      "minDistanceFromAnyTerminalMeters": 3854,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "no",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/1890f2bc5d70be409d27",
+      "name": "室蘭市青少年科学館 プラネタリム",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 42.3140615,
+      "lng": 140.9739517,
+      "distanceFromTerminalMeters": 4009,
+      "distanceFromDefaultTerminalMeters": 4009,
+      "minDistanceFromAnyTerminalMeters": 4009,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "中央東線, 室蘭市",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/274ed11d082f9b9cdda0",
+      "name": "北黄金貝塚",
+      "nameEnglish": "Historic site Kitakogane Shell Midden",
+      "category": "attraction",
+      "subcategory": "building",
+      "lat": 42.4013919,
+      "lng": 140.9122184,
+      "distanceFromTerminalMeters": 7429,
+      "distanceFromDefaultTerminalMeters": 7429,
+      "minDistanceFromAnyTerminalMeters": 7429,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "09:00-17:00",
+      "website": "https://jomon-japan.jp/learn/jomon-sites/kitakogane",
+      "phone": "+81 142-24-2122",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "building"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/85f0eed00311d3e4c963",
+      "name": "港北１丁目公園",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 42.3609064,
+      "lng": 140.9846564,
+      "distanceFromTerminalMeters": 1709,
+      "distanceFromDefaultTerminalMeters": 1709,
+      "minDistanceFromAnyTerminalMeters": 1709,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/0d3ad8386edb22df9623",
+      "name": "ひまわり公園",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 42.3654034,
+      "lng": 140.9655494,
+      "distanceFromTerminalMeters": 1751,
+      "distanceFromDefaultTerminalMeters": 1751,
+      "minDistanceFromAnyTerminalMeters": 1751,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b8261df611645b23fcc9",
+      "name": "測量山",
+      "nameEnglish": "Mt. Sokuryo",
+      "category": "outdoors",
+      "subcategory": "peak",
+      "lat": 42.3220458,
+      "lng": 140.9582005,
+      "distanceFromTerminalMeters": 3256,
+      "distanceFromDefaultTerminalMeters": 3256,
+      "minDistanceFromAnyTerminalMeters": 3256,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "natural": "peak"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/cd577de584e9bb861442",
+      "name": "すき家",
+      "nameEnglish": "Sukiya",
+      "category": "food_drink",
+      "subcategory": "fast_food",
+      "lat": 42.349381,
+      "lng": 141.0159881,
+      "distanceFromTerminalMeters": 3780,
+      "distanceFromDefaultTerminalMeters": 3780,
+      "minDistanceFromAnyTerminalMeters": 3780,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "室蘭市, 050-0074",
+      "openingHours": "24/7",
+      "website": "https://www.sukiya.jp/",
+      "phone": "",
+      "cuisine": [
+        "beef_bowl"
+      ],
+      "wheelchair": "",
+      "brand": "すき家",
+      "description": "",
+      "osmTags": {
+        "amenity": "fast_food"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/8389eb157b1909784737",
+      "name": "びっくりドンキー",
+      "nameEnglish": "Bikkuri Donkey",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 42.3426694,
+      "lng": 141.018868,
+      "distanceFromTerminalMeters": 4098,
+      "distanceFromDefaultTerminalMeters": 4098,
+      "minDistanceFromAnyTerminalMeters": 4098,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "室蘭市",
+      "openingHours": "11:00-02:00",
+      "website": "https://www.bikkuri-donkey.com/",
+      "phone": "+81 143 42 2252",
+      "cuisine": [
+        "burger"
+      ],
+      "wheelchair": "",
+      "brand": "びっくりドンキー",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/e4594d22dc3a8f41355b",
+      "name": "CAFE FUKUROU",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 42.3472299,
+      "lng": 141.0283192,
+      "distanceFromTerminalMeters": 4803,
+      "distanceFromDefaultTerminalMeters": 4803,
+      "minDistanceFromAnyTerminalMeters": 4803,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "13, 室蘭市, 050-0083",
+      "openingHours": "",
+      "website": "https://cafe-fukurou.business.site/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/bdaad606238f67b79323",
+      "name": "つぼ八",
+      "nameEnglish": "Tsubohachi",
+      "category": "food_drink",
+      "subcategory": "pub",
+      "lat": 42.352126,
+      "lng": 141.0129237,
+      "distanceFromTerminalMeters": 3535,
+      "distanceFromDefaultTerminalMeters": 3535,
+      "minDistanceFromAnyTerminalMeters": 3535,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "11, 室蘭市",
+      "openingHours": "",
+      "website": "",
+      "phone": "+81-143-41-1777",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "つぼ八",
+      "description": "",
+      "osmTags": {
+        "amenity": "pub"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c926d437b8a6c28be21d",
+      "name": "ちょいす Jr.",
+      "nameEnglish": "Choice Jr.",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 42.354798,
+      "lng": 141.0186325,
+      "distanceFromTerminalMeters": 4032,
+      "distanceFromDefaultTerminalMeters": 4032,
+      "minDistanceFromAnyTerminalMeters": 4032,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "11:00-21:00",
+      "website": "",
+      "phone": "",
+      "cuisine": [
+        "sushi"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/761fc79713128f36580b",
+      "name": "ほっともっと",
+      "nameEnglish": "Hotto Motto",
+      "category": "food_drink",
+      "subcategory": "fast_food",
+      "lat": 42.349764,
+      "lng": 141.012134,
+      "distanceFromTerminalMeters": 3463,
+      "distanceFromDefaultTerminalMeters": 3463,
+      "minDistanceFromAnyTerminalMeters": 3463,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [
+        "japanese"
+      ],
+      "wheelchair": "",
+      "brand": "ほっともっと",
+      "description": "",
+      "osmTags": {
+        "amenity": "fast_food"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d0f6e750f7b4f48387b1",
+      "name": "モルエ中島Ｆ棟",
+      "nameEnglish": "Hard Off/Hobby Off/Off House",
+      "category": "shopping",
+      "subcategory": "mall",
+      "lat": 42.3511721,
+      "lng": 141.0086875,
+      "distanceFromTerminalMeters": 3182,
+      "distanceFromDefaultTerminalMeters": 3182,
+      "minDistanceFromAnyTerminalMeters": 3182,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Su 10:00-20:00",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "shop": "mall"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/6853aa3288d55a972cd9",
+      "name": "モルエ中島Ａ棟",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "mall",
+      "lat": 42.3528189,
+      "lng": 141.0126424,
+      "distanceFromTerminalMeters": 3518,
+      "distanceFromDefaultTerminalMeters": 3518,
+      "minDistanceFromAnyTerminalMeters": 3518,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Su 10:00-20:00",
+      "website": "https://www.morue.jp/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "shop": "mall"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/7eaf5005c95f8e3549c8",
+      "name": "モルエ中島Ｇ棟",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "mall",
+      "lat": 42.3526507,
+      "lng": 141.0079381,
+      "distanceFromTerminalMeters": 3132,
+      "distanceFromDefaultTerminalMeters": 3132,
+      "minDistanceFromAnyTerminalMeters": 3132,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Su 09:00-21:00",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "shop": "mall"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/1eb3a3d4ae01fb703f80",
+      "name": "モルエ中島Ｅ棟",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "mall",
+      "lat": 42.3506298,
+      "lng": 141.0094448,
+      "distanceFromTerminalMeters": 3242,
+      "distanceFromDefaultTerminalMeters": 3242,
+      "minDistanceFromAnyTerminalMeters": 3242,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Su 10:00-21:00",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "shop": "mall"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/a98dd61424325e1ad81b",
+      "name": "海岸町３丁目公園",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 42.325902,
+      "lng": 140.9676166,
+      "distanceFromTerminalMeters": 2687,
+      "distanceFromDefaultTerminalMeters": 2687,
+      "minDistanceFromAnyTerminalMeters": 2687,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "park"
+      }
+    }
+  ],
+  "portAnchor": {
+    "id": "ports-json-anchor",
+    "name": "MURORAN KO Port",
+    "lat": 42.35,
+    "lng": 140.97,
+    "address": "Muroran, Hokkaido, Japan",
+    "source": "ports.json",
+    "sourceId": "",
+    "score": 0,
+    "slug": "muroran-ko-port"
+  },
+  "terminalResolution": {
+    "status": "resolved",
+    "method": "accepted_terminal_candidate",
+    "verified": true,
+    "notes": "Accepted 1 candidate explicitly identified as an ocean-cruise or cruise-passenger terminal; ferry and unrelated results were excluded."
+  }
+}

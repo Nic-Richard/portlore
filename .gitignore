@@ -1,0 +1,39 @@
+# Dependencies
+node_modules/
+server/node_modules/
+scripts/node_modules/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+!.env.*.example
+!**/.env.example
+!**/.env.*.example
+creds.env
+
+# Generated city guides and runtime caches
+cities/*.json
+!cities/ports.json
+cities/.generation-usage.json
+cities/.osm-geocode-cache.json
+cities/.google-place-id-cache.json
+
+# Generated pipeline artifacts
+cities/osm-extracts.json
+cities/poi-raw/
+
+# Raw OpenStreetMap inputs
+data/osm/
+*.osm.pbf
+
+# Logs and local tooling
+logs/
+*.log
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Generated port candidates
+cities/port-candidates.json

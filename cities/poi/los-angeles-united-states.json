@@ -1,0 +1,1624 @@
+{
+  "schemaVersion": 5,
+  "catalogType": "curation-candidates",
+  "generatedAt": "2026-07-30T08:54:43.727Z",
+  "source": "openstreetmap",
+  "sourceExtract": "socal-latest.osm.pbf",
+  "radiusMeters": 10000,
+  "port": {
+    "id": "los-angeles-united-states",
+    "city": "Los Angeles",
+    "country": "United States"
+  },
+  "defaultTerminalId": "osm/way/667254123",
+  "terminal": {
+    "id": "osm/way/667254123",
+    "name": "Los Angeles World Cruise Center",
+    "nameEnglish": "",
+    "lat": 33.7449169,
+    "lng": -118.2775646,
+    "address": "Los Angeles World Cruise Center, East 1st Street, Port of Los Angeles, San Pedro Arts and Cultural District, San Pedro, Los Angeles, Los Angeles County, California, 90731, United States",
+    "source": "verified_terminal_candidate",
+    "sourceId": "osm/way/667254123",
+    "terminalType": "passenger_cruise_terminal",
+    "verified": true,
+    "notes": "Accepted 2 candidates explicitly identified as an ocean-cruise or cruise-passenger terminal; ferry and unrelated results were excluded.",
+    "sourceUrls": [],
+    "sources": [
+      "nominatim"
+    ],
+    "sourceIds": [
+      "osm/way/667254123"
+    ],
+    "osmTags": {
+      "ferry": "yes",
+      "public_transport": "station"
+    },
+    "matchedBy": [
+      "Nominatim query: LOS ANGELES Port, Los Angeles, United States"
+    ],
+    "distanceFromPortMeters": 2610
+  },
+  "terminals": [
+    {
+      "id": "osm/way/667254123",
+      "name": "Los Angeles World Cruise Center",
+      "nameEnglish": "",
+      "lat": 33.7449169,
+      "lng": -118.2775646,
+      "address": "Los Angeles World Cruise Center, East 1st Street, Port of Los Angeles, San Pedro Arts and Cultural District, San Pedro, Los Angeles, Los Angeles County, California, 90731, United States",
+      "source": "verified_terminal_candidate",
+      "sourceId": "osm/way/667254123",
+      "terminalType": "passenger_cruise_terminal",
+      "verified": true,
+      "notes": "Accepted 2 candidates explicitly identified as an ocean-cruise or cruise-passenger terminal; ferry and unrelated results were excluded.",
+      "sourceUrls": [],
+      "sources": [
+        "nominatim"
+      ],
+      "sourceIds": [
+        "osm/way/667254123"
+      ],
+      "osmTags": {
+        "ferry": "yes",
+        "public_transport": "station"
+      },
+      "matchedBy": [
+        "Nominatim query: LOS ANGELES Port, Los Angeles, United States"
+      ],
+      "distanceFromPortMeters": 2610
+    },
+    {
+      "id": "osm/generated/e4dd8f2777f8d5783429",
+      "name": "Los Angeles World Cruise Center",
+      "nameEnglish": "",
+      "lat": 33.7461483,
+      "lng": -118.2771727,
+      "address": "",
+      "source": "verified_terminal_candidate",
+      "sourceId": "osm/generated/e4dd8f2777f8d5783429",
+      "terminalType": "passenger_cruise_terminal",
+      "verified": true,
+      "notes": "Accepted 2 candidates explicitly identified as an ocean-cruise or cruise-passenger terminal; ferry and unrelated results were excluded.",
+      "sourceUrls": [],
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/e4dd8f2777f8d5783429"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "station"
+      },
+      "matchedBy": [
+        "amenity=ferry_terminal",
+        "terminal-like name"
+      ],
+      "distanceFromPortMeters": 2549
+    }
+  ],
+  "terminalCandidateRadiusMeters": 5000,
+  "terminalCandidates": [
+    {
+      "source": "nominatim",
+      "sourceId": "osm/way/408511298",
+      "osmType": "way",
+      "osmId": "408511298",
+      "name": "Los Angeles Fire Department Fire Station 49",
+      "nameEnglish": "",
+      "lat": 33.7655751,
+      "lng": -118.2557238,
+      "distanceFromPortMeters": 1811,
+      "address": "Los Angeles Fire Department Fire Station 49, 400, Yacht Street, Port of Los Angeles, Wilmington, Los Angeles, Los Angeles County, California, 90744, United States",
+      "displayName": "Los Angeles Fire Department Fire Station 49, 400, Yacht Street, Port of Los Angeles, Wilmington, Los Angeles, Los Angeles County, California, 90744, United States",
+      "query": "LOS ANGELES Port, Los Angeles, United States",
+      "matchedBy": [
+        "Nominatim query: LOS ANGELES Port, Los Angeles, United States"
+      ],
+      "osmTags": {
+        "building": "yes",
+        "operator": "Los Angeles Fire Department"
+      },
+      "sources": [
+        "nominatim"
+      ],
+      "sourceIds": [
+        "osm/way/408511298"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f6803859535df9416e05",
+      "name": "California Yacht Marina - Wilmington",
+      "nameEnglish": "",
+      "lat": 33.76743,
+      "lng": -118.2505604,
+      "distanceFromPortMeters": 1939,
+      "address": "718 Peninsula Road, Wilmington, CA, 90744",
+      "matchedBy": [
+        "terminal-like name"
+      ],
+      "osmTags": {
+        "building": "yes",
+        "description": "Our mission is to provide boaters in SoCal the best experience possible- marinas that are maintained in a first class manner. CYM Wilmington lies in the heart of Los Angeles Harbor and is a short cruise down the channel to either Long Beach or open water."
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/f6803859535df9416e05"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/cee9f2ecb4e16de288cb",
+      "name": "Catalina Express San Pedro Terminal",
+      "nameEnglish": "",
+      "lat": 33.7496588,
+      "lng": -118.2746339,
+      "distanceFromPortMeters": 2278,
+      "address": "95 Berth",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "building": "yes",
+        "ferry": "yes"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/cee9f2ecb4e16de288cb"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/e4dd8f2777f8d5783429",
+      "name": "Los Angeles World Cruise Center",
+      "nameEnglish": "",
+      "lat": 33.7461483,
+      "lng": -118.2771727,
+      "distanceFromPortMeters": 2549,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal",
+        "terminal-like name"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/e4dd8f2777f8d5783429"
+      ]
+    },
+    {
+      "source": "nominatim",
+      "sourceId": "osm/way/667254123",
+      "osmType": "way",
+      "osmId": "667254123",
+      "name": "Los Angeles World Cruise Center",
+      "nameEnglish": "",
+      "lat": 33.7449169,
+      "lng": -118.2775646,
+      "distanceFromPortMeters": 2610,
+      "address": "Los Angeles World Cruise Center, East 1st Street, Port of Los Angeles, San Pedro Arts and Cultural District, San Pedro, Los Angeles, Los Angeles County, California, 90731, United States",
+      "displayName": "Los Angeles World Cruise Center, East 1st Street, Port of Los Angeles, San Pedro Arts and Cultural District, San Pedro, Los Angeles, Los Angeles County, California, 90731, United States",
+      "query": "LOS ANGELES Port, Los Angeles, United States",
+      "matchedBy": [
+        "Nominatim query: LOS ANGELES Port, Los Angeles, United States"
+      ],
+      "osmTags": {
+        "ferry": "yes",
+        "public_transport": "station"
+      },
+      "sources": [
+        "nominatim"
+      ],
+      "sourceIds": [
+        "osm/way/667254123"
+      ]
+    },
+    {
+      "source": "nominatim",
+      "sourceId": "osm/relation/15793692",
+      "osmType": "relation",
+      "osmId": "15793692",
+      "name": "Los Angeles Maritime Museum",
+      "nameEnglish": "Los Angeles Maritime Museum",
+      "lat": 33.7388079,
+      "lng": -118.2786967,
+      "distanceFromPortMeters": 2931,
+      "address": "Los Angeles Maritime Museum, East 6th Street, Port of Los Angeles, San Pedro Arts and Cultural District, San Pedro, Los Angeles, Los Angeles County, California, 90731, United States",
+      "displayName": "Los Angeles Maritime Museum, East 6th Street, Port of Los Angeles, San Pedro Arts and Cultural District, San Pedro, Los Angeles, Los Angeles County, California, 90731, United States",
+      "query": "LOS ANGELES Port, Los Angeles, United States",
+      "matchedBy": [
+        "Nominatim query: LOS ANGELES Port, Los Angeles, United States"
+      ],
+      "osmTags": {
+        "building": "yes"
+      },
+      "sources": [
+        "nominatim"
+      ],
+      "sourceIds": [
+        "osm/relation/15793692"
+      ]
+    },
+    {
+      "source": "nominatim",
+      "sourceId": "osm/way/407355960",
+      "osmType": "way",
+      "osmId": "407355960",
+      "name": "U.S. Coast Guard - Station Los Angeles - Long Beach",
+      "nameEnglish": "U.S. Coast Guard - Station Los Angeles - Long Beach",
+      "lat": 33.7272251,
+      "lng": -118.2693785,
+      "distanceFromPortMeters": 3102,
+      "address": "U.S. Coast Guard - Station Los Angeles - Long Beach, ICE Access, Port of Los Angeles, Los Angeles, Los Angeles County, California, 90734, United States",
+      "displayName": "U.S. Coast Guard - Station Los Angeles - Long Beach, ICE Access, Port of Los Angeles, Los Angeles, Los Angeles County, California, 90734, United States",
+      "query": "LOS ANGELES Port, Los Angeles, United States",
+      "matchedBy": [
+        "Nominatim query: LOS ANGELES Port, Los Angeles, United States"
+      ],
+      "osmTags": {
+        "building": "yes",
+        "description": "U.S. Coast Guard Boat Station, primary duties, include search and rescue, enforcement of laws and treaties, National Defense, marine environmental protection and recreational boating safety."
+      },
+      "sources": [
+        "nominatim"
+      ],
+      "sourceIds": [
+        "osm/way/407355960"
+      ]
+    },
+    {
+      "source": "nominatim",
+      "sourceId": "osm/relation/14285933",
+      "osmType": "relation",
+      "osmId": "14285933",
+      "name": "Captain of the Port",
+      "nameEnglish": "Captain of the Port",
+      "lat": 33.7263869,
+      "lng": -118.2685581,
+      "distanceFromPortMeters": 3137,
+      "address": "Captain of the Port, ICE Access, Port of Los Angeles, Los Angeles, Los Angeles County, California, 90734, United States",
+      "displayName": "Captain of the Port, ICE Access, Port of Los Angeles, Los Angeles, Los Angeles County, California, 90734, United States",
+      "query": "LOS ANGELES Port, Los Angeles, United States",
+      "matchedBy": [
+        "Nominatim query: LOS ANGELES Port, Los Angeles, United States"
+      ],
+      "osmTags": {
+        "building": "yes",
+        "description": "Sector Los Angeles - Long Beach is responsible for all U.S. Coast Guard operations for Southern and Central California from Dana Point to San Simeon and offshore waters to 200 nautical miles."
+      },
+      "sources": [
+        "nominatim"
+      ],
+      "sourceIds": [
+        "osm/relation/14285933"
+      ]
+    },
+    {
+      "source": "nominatim",
+      "sourceId": "osm/way/407355977",
+      "osmType": "way",
+      "osmId": "407355977",
+      "name": "CRAFTED at the Port of Los Angeles",
+      "nameEnglish": "",
+      "lat": 33.7279718,
+      "lng": -118.2800261,
+      "distanceFromPortMeters": 3702,
+      "address": "CRAFTED at the Port of Los Angeles, 112, Miner Street, Port of Los Angeles, San Pedro Arts and Cultural District, San Pedro, Los Angeles, Los Angeles County, California, 90731, United States",
+      "displayName": "CRAFTED at the Port of Los Angeles, 112, Miner Street, Port of Los Angeles, San Pedro Arts and Cultural District, San Pedro, Los Angeles, Los Angeles County, California, 90731, United States",
+      "query": "LOS ANGELES Port, Los Angeles, United States",
+      "matchedBy": [
+        "Nominatim query: LOS ANGELES Port, Los Angeles, United States"
+      ],
+      "osmTags": {},
+      "sources": [
+        "nominatim"
+      ],
+      "sourceIds": [
+        "osm/way/407355977"
+      ]
+    },
+    {
+      "source": "nominatim",
+      "sourceId": "osm/relation/17077518",
+      "osmType": "relation",
+      "osmId": "17077518",
+      "name": "AltaSea at the Port of Los Angeles",
+      "nameEnglish": "AltaSea at the Port of Los Angeles",
+      "lat": 33.7224588,
+      "lng": -118.2736302,
+      "distanceFromPortMeters": 3762,
+      "address": "AltaSea at the Port of Los Angeles, Dave Arian Way, Port of Los Angeles, San Pedro Arts and Cultural District, San Pedro, Los Angeles, Los Angeles County, California, 90731, United States",
+      "displayName": "AltaSea at the Port of Los Angeles, Dave Arian Way, Port of Los Angeles, San Pedro Arts and Cultural District, San Pedro, Los Angeles, Los Angeles County, California, 90731, United States",
+      "query": "LOS ANGELES Port, Los Angeles, United States",
+      "matchedBy": [
+        "Nominatim query: LOS ANGELES Port, Los Angeles, United States"
+      ],
+      "osmTags": {},
+      "sources": [
+        "nominatim"
+      ],
+      "sourceIds": [
+        "osm/relation/17077518"
+      ]
+    },
+    {
+      "source": "nominatim",
+      "sourceId": "osm/way/1312710274",
+      "osmType": "way",
+      "osmId": "1312710274",
+      "name": "Los Angeles Light",
+      "nameEnglish": "Los Angeles Light",
+      "lat": 33.7085513,
+      "lng": -118.2516154,
+      "distanceFromPortMeters": 4611,
+      "address": "Los Angeles Light, Navy Way, Port of Los Angeles, Los Angeles, Los Angeles County, California, 90734, United States",
+      "displayName": "Los Angeles Light, Navy Way, Port of Los Angeles, Los Angeles, Los Angeles County, California, 90734, United States",
+      "query": "LOS ANGELES Port, Los Angeles, United States",
+      "matchedBy": [
+        "Nominatim query: LOS ANGELES Port, Los Angeles, United States"
+      ],
+      "osmTags": {
+        "building": "yes",
+        "seamark:type": "landmark"
+      },
+      "sources": [
+        "nominatim"
+      ],
+      "sourceIds": [
+        "osm/way/1312710274"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/0b91334be1beb58458c1",
+      "name": "Catalina Express Long Beach Downtown Landing",
+      "nameEnglish": "",
+      "lat": 33.7633617,
+      "lng": -118.1993614,
+      "distanceFromPortMeters": 4912,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/0b91334be1beb58458c1"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ebc64f5861cc383c131a",
+      "name": "Catalina Express",
+      "nameEnglish": "",
+      "lat": 33.7635049,
+      "lng": -118.1992743,
+      "distanceFromPortMeters": 4924,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/ebc64f5861cc383c131a"
+      ]
+    }
+  ],
+  "counts": {
+    "attraction": 19,
+    "outdoors": 8,
+    "food_drink": 15,
+    "essentials": 3,
+    "shopping": 0
+  },
+  "pois": [
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/dd68ca25e54de519e543",
+      "name": "Los Angeles Maritime Museum",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 33.7388106,
+      "lng": -118.2786497,
+      "distanceFromTerminalMeters": 2927,
+      "distanceFromDefaultTerminalMeters": 2927,
+      "minDistanceFromAnyTerminalMeters": 2927,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "East 6th Street, San Pedro, CA, 90731",
+      "openingHours": "We-Su 12:00-17:00",
+      "website": "https://www.lamaritimemuseum.org/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "maritime",
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/8538435bf433d384ad96",
+      "name": "Battleship USS Iowa",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 33.7419912,
+      "lng": -118.2773065,
+      "distanceFromTerminalMeters": 2677,
+      "distanceFromDefaultTerminalMeters": 2677,
+      "minDistanceFromAnyTerminalMeters": 2677,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "ship",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/147ee08a41e447138af9",
+      "name": "Piazza Miramare",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "square",
+      "lat": 33.7384745,
+      "lng": -118.2802184,
+      "distanceFromTerminalMeters": 3074,
+      "distanceFromDefaultTerminalMeters": 3074,
+      "minDistanceFromAnyTerminalMeters": 3074,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "629 South Harbor Boulevard, Los Angeles",
+      "openingHours": "",
+      "website": "https://lilaa.org/piazza/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "A \"European-style piazza\", see https://lilaa.org/piazza/",
+      "osmTags": {
+        "place": "square"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/62cd213d53a1b133c1a4",
+      "name": "Banning Residence Museum",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 33.7899977,
+      "lng": -118.2588223,
+      "distanceFromTerminalMeters": 4522,
+      "distanceFromDefaultTerminalMeters": 4522,
+      "minDistanceFromAnyTerminalMeters": 4522,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "401 East M Street, Wilmington, CA, 90744",
+      "openingHours": "",
+      "website": "https://www.thebanningmuseum.org/",
+      "phone": "+1-310-548-7777",
+      "cuisine": [],
+      "wheelchair": "limited",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/3fc65caf314c3e46f0f6",
+      "name": "SS Lane Victory",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 33.7210834,
+      "lng": -118.2745849,
+      "distanceFromTerminalMeters": 3938,
+      "distanceFromDefaultTerminalMeters": 3938,
+      "minDistanceFromAnyTerminalMeters": 3938,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "ship",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/bf79a0402b32fe9628aa",
+      "name": "Aquarium of the Pacific",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "aquarium",
+      "lat": 33.7619955,
+      "lng": -118.1971331,
+      "distanceFromTerminalMeters": 5066,
+      "distanceFromDefaultTerminalMeters": 5066,
+      "minDistanceFromAnyTerminalMeters": 5066,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Su 11:00-17:00+",
+      "website": "https://www.aquariumofpacific.org/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "designated",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "aquarium"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/3828f717599bc4522de1",
+      "name": "Cabrillo Marine Aquarium",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "aquarium",
+      "lat": 33.7112889,
+      "lng": -118.2855537,
+      "distanceFromTerminalMeters": 5417,
+      "distanceFromDefaultTerminalMeters": 5417,
+      "minDistanceFromAnyTerminalMeters": 5417,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "3720 Stephen M. White Drive, San Pedro, CA, 90731",
+      "openingHours": "Tu-Fr 12:00-17:00; Sa-Su 10:00-17:00",
+      "website": "https://cma.recreation.parks.lacity.gov/",
+      "phone": "+1-310-548-7562",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "aquarium"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c76a7ba9c9f52efb0e1a",
+      "name": "Fort MacArthur Museum",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 33.7119914,
+      "lng": -118.2959581,
+      "distanceFromTerminalMeters": 5994,
+      "distanceFromDefaultTerminalMeters": 5994,
+      "minDistanceFromAnyTerminalMeters": 5994,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "CA",
+      "openingHours": "",
+      "website": "http://ftmac.org/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "military",
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d4a6eae92380bcf4e75d",
+      "name": "Museum of Latin American Art",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 33.7745764,
+      "lng": -118.179678,
+      "distanceFromTerminalMeters": 7052,
+      "distanceFromDefaultTerminalMeters": 7052,
+      "minDistanceFromAnyTerminalMeters": 7052,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "CA",
+      "openingHours": "",
+      "website": "https://molaa.org/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/e02c974db6952d5dd474",
+      "name": "Lomita Railroad Museum",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 33.7984211,
+      "lng": -118.3187316,
+      "distanceFromTerminalMeters": 8328,
+      "distanceFromDefaultTerminalMeters": 8328,
+      "minDistanceFromAnyTerminalMeters": 8328,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "2137 250th Street",
+      "openingHours": "Fr-Su 10:00-17:00; Mo-Th off; PH off",
+      "website": "https://www.lomita-rr.org/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/fa8113af38989ced6085",
+      "name": "Odd Fellows Temple #348",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "building",
+      "lat": 33.7349518,
+      "lng": -118.2920912,
+      "distanceFromTerminalMeters": 4236,
+      "distanceFromDefaultTerminalMeters": 4236,
+      "minDistanceFromAnyTerminalMeters": 4236,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1006 South Gaffey Street, San Pedro, CA, 90731",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "building"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/519dfcb8b993ecc24097",
+      "name": "Los Angeles Harbor Light Station",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "lighthouse",
+      "lat": 33.7085476,
+      "lng": -118.2516146,
+      "distanceFromTerminalMeters": 4612,
+      "distanceFromDefaultTerminalMeters": 4612,
+      "minDistanceFromAnyTerminalMeters": 4612,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "lighthouse",
+        "man_made": "lighthouse"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/fed63f5f8c89f5f0f313",
+      "name": "Battery Farley",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "fort",
+      "lat": 33.7114557,
+      "lng": -118.2955879,
+      "distanceFromTerminalMeters": 6012,
+      "distanceFromDefaultTerminalMeters": 6012,
+      "minDistanceFromAnyTerminalMeters": 6012,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "fort"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/bbfb8aef49ca7b209135",
+      "name": "Off the Wall Art Designs",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "gallery",
+      "lat": 33.7386609,
+      "lng": -118.2840161,
+      "distanceFromTerminalMeters": 3388,
+      "distanceFromDefaultTerminalMeters": 3388,
+      "minDistanceFromAnyTerminalMeters": 3388,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "319 West 6th Street, San Pedro, CA, 90731",
+      "openingHours": "\"by appointment\"",
+      "website": "",
+      "phone": "+1-310-488-6533",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "gallery"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/2501b86a10ba812be218",
+      "name": "EDDIE ROQUE STUDIO ART",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "gallery",
+      "lat": 33.7371352,
+      "lng": -118.2850923,
+      "distanceFromTerminalMeters": 3546,
+      "distanceFromDefaultTerminalMeters": 3546,
+      "minDistanceFromAnyTerminalMeters": 3546,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "366 West 8th Street, san pedro, CA",
+      "openingHours": "Mo-Su 09:00-21:00",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "gallery"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/9f6149055fc057a1ac24",
+      "name": "Point Fermin Lighthouse",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "lighthouse",
+      "lat": 33.7054422,
+      "lng": -118.2936951,
+      "distanceFromTerminalMeters": 6394,
+      "distanceFromDefaultTerminalMeters": 6394,
+      "minDistanceFromAnyTerminalMeters": 6394,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "https://sanpedro.com/san-pedro-area-points-interest/point-fermin-lighthouse/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "lighthouse",
+        "man_made": "lighthouse"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/65f515ffa9d875461dfa",
+      "name": "Lions Lighthouse",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "lighthouse",
+      "lat": 33.7602383,
+      "lng": -118.1941072,
+      "distanceFromTerminalMeters": 5291,
+      "distanceFromDefaultTerminalMeters": 5291,
+      "minDistanceFromAnyTerminalMeters": 5291,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "man_made": "lighthouse"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/8422139c881186200718",
+      "name": "Long Beach Light",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "lighthouse",
+      "lat": 33.7232263,
+      "lng": -118.1868787,
+      "distanceFromTerminalMeters": 6552,
+      "distanceFromDefaultTerminalMeters": 6552,
+      "minDistanceFromAnyTerminalMeters": 6552,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "man_made": "lighthouse"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/31bf7d016b0dd8422ef5",
+      "name": "Gull Park",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "nature_reserve",
+      "lat": 33.7444703,
+      "lng": -118.2192314,
+      "distanceFromTerminalMeters": 2910,
+      "distanceFromDefaultTerminalMeters": 2910,
+      "minDistanceFromAnyTerminalMeters": 2910,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Originally constructed as a mitigation for Black Crowned Night Heron roosting. Now maintained as a roosting site for Great Blue Herons, gulls, cormorants, and other local birds.",
+      "osmTags": {
+        "leisure": "nature_reserve"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/949a020d944b5b73f293",
+      "name": "Wilmington Waterfront Promenade",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 33.7669566,
+      "lng": -118.2617188,
+      "distanceFromTerminalMeters": 2175,
+      "distanceFromDefaultTerminalMeters": 2175,
+      "minDistanceFromAnyTerminalMeters": 2175,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "301 South Avalon Boulevard, Los Angeles, CA, 90744",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b4df341023ff3fa13640",
+      "name": "John Mendez Baseball Park",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 33.7823234,
+      "lng": -118.2567423,
+      "distanceFromTerminalMeters": 3648,
+      "distanceFromDefaultTerminalMeters": 3648,
+      "minDistanceFromAnyTerminalMeters": 3648,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "920 Banning Blvd",
+      "openingHours": "",
+      "website": "http://www.johnmendezbaseball.com/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f87eca51445487270f02",
+      "name": "Field of Dreams",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 33.7620756,
+      "lng": -118.2908543,
+      "distanceFromTerminalMeters": 4009,
+      "distanceFromDefaultTerminalMeters": 4009,
+      "minDistanceFromAnyTerminalMeters": 4009,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "San Pedro, CA, 90731",
+      "openingHours": "sunrise-sunset",
+      "website": "https://recreation.parks.lacity.gov/park/field-dreams",
+      "phone": "+1-310-325-8906",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/091f8d8924d548b783eb",
+      "name": "California Yacht Marina - Wilmington",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "water",
+      "lat": 33.7669137,
+      "lng": -118.2512675,
+      "distanceFromTerminalMeters": 1884,
+      "distanceFromDefaultTerminalMeters": 1884,
+      "minDistanceFromAnyTerminalMeters": 1884,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "718 Peninsula Road, Wilmington, CA, 90744",
+      "openingHours": "",
+      "website": "",
+      "phone": "+1-310-834-7113",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "marina",
+        "natural": "water"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/8b2575cf2e84348ed997",
+      "name": "Wilmington Waterfront Park",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 33.7714805,
+      "lng": -118.2728316,
+      "distanceFromTerminalMeters": 3187,
+      "distanceFromDefaultTerminalMeters": 3187,
+      "minDistanceFromAnyTerminalMeters": 3187,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/0d28702848678a0a4e24",
+      "name": "Colossus",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 33.74036,
+      "lng": -118.2799659,
+      "distanceFromTerminalMeters": 2971,
+      "distanceFromDefaultTerminalMeters": 2971,
+      "minDistanceFromAnyTerminalMeters": 2971,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "511 South Harbor Boulevard, San Pedro, CA, 90731",
+      "openingHours": "Mo-Fr 07:00-20:00; Sa,Su 08:00-20:00",
+      "website": "https://www.colossusbread.com/",
+      "phone": "",
+      "cuisine": [
+        "pizza",
+        "coffee_shop",
+        "pastry"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/70e9385f9fb1e39d72d5",
+      "name": "San Pedro Fish Market",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 33.7378819,
+      "lng": -118.2788263,
+      "distanceFromTerminalMeters": 2987,
+      "distanceFromDefaultTerminalMeters": 2987,
+      "minDistanceFromAnyTerminalMeters": 2987,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "706 South Harbor Boulevard, San Pedro, CA",
+      "openingHours": "Mon-Thu 10:00-20:00,Fri 10:00-22:00, Sat 8:00-22:00, Sun 8:00-21:00",
+      "website": "https://www.sanpedrofish.com/",
+      "phone": "",
+      "cuisine": [
+        "seafood"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/78661ec2c535034e42e6",
+      "name": "La Bocca Felice",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 33.7386208,
+      "lng": -118.2837442,
+      "distanceFromTerminalMeters": 3367,
+      "distanceFromDefaultTerminalMeters": 3367,
+      "minDistanceFromAnyTerminalMeters": 3367,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "301 West 6th Street, San Pedro, CA, 90731",
+      "openingHours": "Tu-Th 16:00-21:30, Fr-Su 11:30-21:00",
+      "website": "https://bfelice.com/",
+      "phone": "+1-310-935-2135",
+      "cuisine": [
+        "italian"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f88de0e71fe9d1d143e7",
+      "name": "Happy Diner",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 33.7382226,
+      "lng": -118.2838512,
+      "distanceFromTerminalMeters": 3393,
+      "distanceFromDefaultTerminalMeters": 3393,
+      "minDistanceFromAnyTerminalMeters": 3393,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "617 South Centre Street, San Pedro, CA, 90731",
+      "openingHours": "Mo-Su 6:00-16:00",
+      "website": "http://happydinersp.com/",
+      "phone": "+1-310-241-0917",
+      "cuisine": [
+        "diner"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b6d5bb1c73c76422d715",
+      "name": "La Siciliana",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 33.7385772,
+      "lng": -118.2844131,
+      "distanceFromTerminalMeters": 3426,
+      "distanceFromDefaultTerminalMeters": 3426,
+      "minDistanceFromAnyTerminalMeters": 3426,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "374 West 6th Street, San Pedro, CA, 90731",
+      "openingHours": "Tu-Su 12:00-21:00",
+      "website": "https://eatlasiciliana.com/",
+      "phone": "+1-424-570-0101",
+      "cuisine": [
+        "italian"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/2696f32e7a0d85ef8e27",
+      "name": "Baramee Thai Restaurant",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 33.7389129,
+      "lng": -118.2847852,
+      "distanceFromTerminalMeters": 3444,
+      "distanceFromDefaultTerminalMeters": 3444,
+      "minDistanceFromAnyTerminalMeters": 3444,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "354 West 6th Street, San Pedro, CA, 90731",
+      "openingHours": "Mo-Su 12:00-21:00",
+      "website": "https://www.barameethai.com",
+      "phone": "+1-310-521-9400",
+      "cuisine": [
+        "thai"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/3baa520f31cfdb915e63",
+      "name": "Kalaveras",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 33.7394767,
+      "lng": -118.2851758,
+      "distanceFromTerminalMeters": 3456,
+      "distanceFromDefaultTerminalMeters": 3456,
+      "minDistanceFromAnyTerminalMeters": 3456,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "383 West 5th Street, San Pedro, CA, 90731",
+      "openingHours": "Mo-Fr 10:00-23:00",
+      "website": "https://kalaveras.com/",
+      "phone": "+1-424-264-5454",
+      "cuisine": [
+        "mexican"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c615792ed3002dc9a8db",
+      "name": "KoRyu Ramen San Pedro",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 33.7388583,
+      "lng": -118.2849026,
+      "distanceFromTerminalMeters": 3457,
+      "distanceFromDefaultTerminalMeters": 3457,
+      "minDistanceFromAnyTerminalMeters": 3457,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "362 West 6th Street, San Pedro, CA, 90731",
+      "openingHours": "Mo-Su 11:00-20:30",
+      "website": "https://koryuramen.com/",
+      "phone": "+1-310-935-2886",
+      "cuisine": [
+        "ramen"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/0b3a64e8f318b71208d3",
+      "name": "Sebastian's Mediterranean Cuisine",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 33.7389419,
+      "lng": -118.285148,
+      "distanceFromTerminalMeters": 3475,
+      "distanceFromDefaultTerminalMeters": 3475,
+      "minDistanceFromAnyTerminalMeters": 3475,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "376 West 6th Street, San Pedro, CA, 90731",
+      "openingHours": "Tu-Su 11:00-21:00",
+      "website": "https://www.sebastiansmc.com/",
+      "phone": "+1-310-684-1351",
+      "cuisine": [
+        "mediterranean"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/3d2e8325da7d8a3d1527",
+      "name": "Distrito Coffee",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 33.7377087,
+      "lng": -118.2846146,
+      "distanceFromTerminalMeters": 3480,
+      "distanceFromDefaultTerminalMeters": 3480,
+      "minDistanceFromAnyTerminalMeters": 3480,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "345 West 7th Street, San Pedro, CA, 90731",
+      "openingHours": "Mo-Fr 07:00-15:00; Sa,Su 07:00-16:00",
+      "website": "https://www.distritocoffee.com/",
+      "phone": "",
+      "cuisine": [
+        "cafe",
+        "coffee_shop",
+        "baked_goods"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/53d4d41d38caca4a5c8a",
+      "name": "Niko's Pizzeria",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 33.7385041,
+      "lng": -118.2855502,
+      "distanceFromTerminalMeters": 3527,
+      "distanceFromDefaultTerminalMeters": 3527,
+      "minDistanceFromAnyTerminalMeters": 3527,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "399 West 6th Street, San Pedro, 90731",
+      "openingHours": "Su-Th 10:30-22:30; Fr-Sa 10:30-23:30",
+      "website": "https://www.nikospizzeria.com",
+      "phone": "+1-310-241-1400",
+      "cuisine": [
+        "pizza",
+        "italian"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/928123bc64290ef763df",
+      "name": "Slavko's Harbor Poultry",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 33.7330085,
+      "lng": -118.2876961,
+      "distanceFromTerminalMeters": 3965,
+      "distanceFromDefaultTerminalMeters": 3965,
+      "minDistanceFromAnyTerminalMeters": 3965,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1224 South Pacific Avenue, San Pedro, CA, 90731",
+      "openingHours": "",
+      "website": "http://www.slavkos.com",
+      "phone": "+1-310-832-5723",
+      "cuisine": [
+        "chicken"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/4a67abc7c3a14a8bde42",
+      "name": "Tokyo Teriyaki and Burgers",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 33.7308411,
+      "lng": -118.2877939,
+      "distanceFromTerminalMeters": 4093,
+      "distanceFromDefaultTerminalMeters": 4093,
+      "minDistanceFromAnyTerminalMeters": 4093,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1438 South Pacific Avenue, San Pedro, CA, 90731-4720",
+      "openingHours": "Mo-Su 10:00-21:00",
+      "website": "http://places.singleplatform.com/tokyo-teriyaki-and-burger/menu",
+      "phone": "+1-424-287-2029",
+      "cuisine": [
+        "asian",
+        "burger"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/5c09e64e1bece5c29ff1",
+      "name": "The Artistry Lounge and Gallery",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "bar",
+      "lat": 33.7386423,
+      "lng": -118.2877512,
+      "distanceFromTerminalMeters": 3712,
+      "distanceFromDefaultTerminalMeters": 3712,
+      "minDistanceFromAnyTerminalMeters": 3712,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "491 West 6th Street, San Pedro, CA, 90731",
+      "openingHours": "We-Sa 17:00-22:00",
+      "website": "https://www.theartistryla.com/",
+      "phone": "+1-310-982-0523",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "bar"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/75b981bcdb9b40a3b3b3",
+      "name": "Gladstone's Long beach",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 33.7619955,
+      "lng": -118.1933466,
+      "distanceFromTerminalMeters": 5405,
+      "distanceFromDefaultTerminalMeters": 5405,
+      "minDistanceFromAnyTerminalMeters": 5405,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "330 South Pine Avenue, Long Beach, CA, 90802",
+      "openingHours": "Mo 16-21:30; Tu-Th,Su 11:30-21:30; Fr-Sa 11:30-22",
+      "website": "https://www.gladstoneslongbeach.com/",
+      "phone": "+1-562-432-8588",
+      "cuisine": [
+        "seafood"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/31d481fe42568cc949fc",
+      "name": "CVS Pharmacy",
+      "nameEnglish": "",
+      "category": "essentials",
+      "subcategory": "pharmacy",
+      "lat": 33.7372138,
+      "lng": -118.291572,
+      "distanceFromTerminalMeters": 4098,
+      "distanceFromDefaultTerminalMeters": 4098,
+      "minDistanceFromAnyTerminalMeters": 4098,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "700 South Gaffey Street",
+      "openingHours": "",
+      "website": "https://www.cvs.com/store-locator/san-pedro-ca-pharmacies/700-s-gaffey-st-san-pedro-ca-90731/storeid=9122",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "CVS Pharmacy",
+      "description": "",
+      "osmTags": {
+        "amenity": "pharmacy"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/6a7f9f20c82657279d56",
+      "name": "Ward's Pharmacy",
+      "nameEnglish": "",
+      "category": "essentials",
+      "subcategory": "pharmacy",
+      "lat": 33.7752111,
+      "lng": -118.1896259,
+      "distanceFromTerminalMeters": 6246,
+      "distanceFromDefaultTerminalMeters": 6246,
+      "minDistanceFromAnyTerminalMeters": 6246,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "653 Long Beach Boulevard, Long Beach, CA, 90802",
+      "openingHours": "Mo-Sa 09:00-17:00",
+      "website": "https://wardspharmacy.com",
+      "phone": "+1-562-437-0678",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "pharmacy"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d58e09aa8de1840104a7",
+      "name": "Go Native!",
+      "nameEnglish": "",
+      "category": "essentials",
+      "subcategory": "visitor_information",
+      "lat": 33.7707046,
+      "lng": -118.326204,
+      "distanceFromTerminalMeters": 7411,
+      "distanceFromDefaultTerminalMeters": 7411,
+      "minDistanceFromAnyTerminalMeters": 7411,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "California native plants",
+      "osmTags": {
+        "tourism": "information"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/673f43f8279d591cc6df",
+      "name": "Gallery 478",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "gallery",
+      "lat": 33.7379938,
+      "lng": -118.2873537,
+      "distanceFromTerminalMeters": 3703,
+      "distanceFromDefaultTerminalMeters": 3703,
+      "minDistanceFromAnyTerminalMeters": 3703,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "478 West 7th Street",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "gallery"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/912f7fbd2756406ff85d",
+      "name": "John S Gibson Junior Park",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 33.7396389,
+      "lng": -118.2795748,
+      "distanceFromTerminalMeters": 2967,
+      "distanceFromDefaultTerminalMeters": 2967,
+      "minDistanceFromAnyTerminalMeters": 2967,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b02e04964e0bec89a3f2",
+      "name": "West Harbor - Pop Up Park",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 33.7382504,
+      "lng": -118.2790576,
+      "distanceFromTerminalMeters": 2988,
+      "distanceFromDefaultTerminalMeters": 2988,
+      "minDistanceFromAnyTerminalMeters": 2988,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "park"
+      }
+    }
+  ],
+  "portAnchor": {
+    "id": "ports-json-anchor",
+    "name": "LOS ANGELES Port",
+    "lat": 33.75,
+    "lng": -118.25,
+    "address": "Los Angeles, California, United States",
+    "source": "ports.json",
+    "sourceId": "",
+    "score": 0,
+    "slug": "los-angeles-port"
+  },
+  "terminalResolution": {
+    "status": "resolved",
+    "method": "accepted_terminal_candidate",
+    "verified": true,
+    "notes": "Accepted 2 candidates explicitly identified as an ocean-cruise or cruise-passenger terminal; ferry and unrelated results were excluded."
+  }
+}

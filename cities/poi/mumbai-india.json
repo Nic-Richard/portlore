@@ -1,0 +1,754 @@
+{
+  "schemaVersion": 5,
+  "catalogType": "curation-candidates",
+  "generatedAt": "2026-07-30T09:30:26.481Z",
+  "source": "openstreetmap",
+  "sourceExtract": "western-zone-latest.osm.pbf",
+  "radiusMeters": 10000,
+  "port": {
+    "id": "mumbai-india",
+    "city": "Mumbai",
+    "country": "India"
+  },
+  "defaultTerminalId": "ports-json-anchor",
+  "terminal": {
+    "id": "ports-json-anchor",
+    "name": "MUMBAI (BOMBAY) Port",
+    "lat": 18.97,
+    "lng": 72.87,
+    "address": "Mumbai, Maharashtra, India",
+    "source": "ports.json",
+    "sourceId": "",
+    "score": 0,
+    "slug": "mumbai-bombay-port"
+  },
+  "terminals": [
+    {
+      "id": "ports-json-anchor",
+      "name": "MUMBAI (BOMBAY) Port",
+      "lat": 18.97,
+      "lng": 72.87,
+      "address": "Mumbai, Maharashtra, India",
+      "source": "ports.json",
+      "sourceId": "",
+      "score": 0,
+      "slug": "mumbai-bombay-port"
+    }
+  ],
+  "terminalCandidateRadiusMeters": 5000,
+  "terminalCandidates": [
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/98ce794c52a439d3fff3",
+      "name": "Bhaucha Dhakka / Ferry Wharf",
+      "nameEnglish": "",
+      "lat": 18.9568222,
+      "lng": 72.8494839,
+      "distanceFromPortMeters": 2608,
+      "address": "400010",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/98ce794c52a439d3fff3"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/410f69b8d51ccac57af7",
+      "name": "(unnamed maritime feature)",
+      "nameEnglish": "",
+      "lat": 18.9558676,
+      "lng": 72.8491974,
+      "distanceFromPortMeters": 2694,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/410f69b8d51ccac57af7"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/69d1bf295959a30692d4",
+      "name": "M2M Ro-Ro Terminal",
+      "nameEnglish": "",
+      "lat": 18.9573602,
+      "lng": 72.8475783,
+      "distanceFromPortMeters": 2745,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/69d1bf295959a30692d4"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ade25c4ea7eb8275a5e0",
+      "name": "Angriya Water Terminal",
+      "nameEnglish": "",
+      "lat": 18.953769,
+      "lng": 72.8464559,
+      "distanceFromPortMeters": 3064,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/ade25c4ea7eb8275a5e0"
+      ]
+    }
+  ],
+  "counts": {
+    "attraction": 10,
+    "outdoors": 4,
+    "food_drink": 4,
+    "shopping": 5,
+    "essentials": 0
+  },
+  "pois": [
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/0040f68505542c5f59fc",
+      "name": "Kwan Tai Shek Temple",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 18.9660503,
+      "lng": 72.8467717,
+      "distanceFromTerminalMeters": 2482,
+      "distanceFromDefaultTerminalMeters": 2482,
+      "minDistanceFromAnyTerminalMeters": 2482,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Chinese Temple dedicated to General Kwan Tai Kwon",
+      "osmTags": {
+        "amenity": "place_of_worship",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/69d35fb0a570814cdeaa",
+      "name": "भाऊ दाजी लाड संग्रहालय",
+      "nameEnglish": "Bhau Daji Lad Museum (Victoria & Albert Museum)",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 18.9791636,
+      "lng": 72.8348012,
+      "distanceFromTerminalMeters": 3839,
+      "distanceFromDefaultTerminalMeters": 3839,
+      "minDistanceFromAnyTerminalMeters": 3839,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f915d01967b4fc07cf78",
+      "name": "Bombay Fort Wall Remnant",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "fort",
+      "lat": 18.9411898,
+      "lng": 72.8385062,
+      "distanceFromTerminalMeters": 4608,
+      "distanceFromDefaultTerminalMeters": 4608,
+      "minDistanceFromAnyTerminalMeters": 4608,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Mumbai, 400001",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Bombay Fort was constructed by the British in 1769. Most of the old fort was demolished in 1862, but this one structure remains till today. Currently occupied by the Directorate of Archeology and Museums, Maharashtra State",
+      "osmTags": {
+        "historic": "fort"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/2901aa491e293ef269f8",
+      "name": "Frere Temple",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "monument",
+      "lat": 18.979434,
+      "lng": 72.8382815,
+      "distanceFromTerminalMeters": 3496,
+      "distanceFromDefaultTerminalMeters": 3496,
+      "minDistanceFromAnyTerminalMeters": 3496,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "monument"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/57ae3f3dbea1f408653a",
+      "name": "Dr. Bhau Daji Lad Museum",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 18.9791705,
+      "lng": 72.8348102,
+      "distanceFromTerminalMeters": 3838,
+      "distanceFromDefaultTerminalMeters": 3838,
+      "minDistanceFromAnyTerminalMeters": 3838,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Mumbai, 400027",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/6c4d6b87aec063cc5fec",
+      "name": "Veermata Jijabai Bhosale Zoo & Botanical Garden",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "zoo",
+      "lat": 18.9781478,
+      "lng": 72.8367841,
+      "distanceFromTerminalMeters": 3608,
+      "distanceFromDefaultTerminalMeters": 3608,
+      "minDistanceFromAnyTerminalMeters": 3608,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Mumbai, 400027",
+      "openingHours": "Th-Tu 09:30-18:00",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "zoo"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/711970f2c5878f6362d2",
+      "name": "Chhatrapati Shivaji Maharaj Terminus",
+      "nameEnglish": "Chhatrapati Shivaji Maharaj Terminus",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 18.9398632,
+      "lng": 72.8354028,
+      "distanceFromTerminalMeters": 4946,
+      "distanceFromDefaultTerminalMeters": 4946,
+      "minDistanceFromAnyTerminalMeters": 4946,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Mumbai",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "WHC-protected part of the station complex.",
+      "osmTags": {
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/98b0982ccc104a5dd8c6",
+      "name": "Rose Garden",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "garden",
+      "lat": 18.9779256,
+      "lng": 72.83781,
+      "distanceFromTerminalMeters": 3498,
+      "distanceFromDefaultTerminalMeters": 3498,
+      "minDistanceFromAnyTerminalMeters": 3498,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "garden"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/24c89ece98a13a1ed1b1",
+      "name": "Cafe Sagar",
+      "nameEnglish": "Cafe Sagar",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 18.9668801,
+      "lng": 72.8284709,
+      "distanceFromTerminalMeters": 4381,
+      "distanceFromDefaultTerminalMeters": 4381,
+      "minDistanceFromAnyTerminalMeters": 4381,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "nagpada Maulana Azad Road (Duncan Road), Mumbai, 400008",
+      "openingHours": "Mo-Su 09:00-21:00",
+      "website": "http//www.sagarresturant.com",
+      "phone": "01248657",
+      "cuisine": [
+        "pizza",
+        "chinese",
+        "sandwich"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/fb4a676eaecae6ab345b",
+      "name": "BGF - BakeGrillFry",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 18.9582004,
+      "lng": 72.8332812,
+      "distanceFromTerminalMeters": 4078,
+      "distanceFromDefaultTerminalMeters": 4078,
+      "minDistanceFromAnyTerminalMeters": 4078,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Imamwada Road behind shustry Imambara, Mumbai, 400009",
+      "openingHours": "Mo-Su 15:30-23:30",
+      "website": "www.bgfindia.in",
+      "phone": "+919137111676",
+      "cuisine": [
+        "chicken",
+        "american",
+        "burger",
+        "fast_food"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/277c649b8db2aefc1aea",
+      "name": "Sarvi Restaurant",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 18.9667686,
+      "lng": 72.8291706,
+      "distanceFromTerminalMeters": 4308,
+      "distanceFromDefaultTerminalMeters": 4308,
+      "minDistanceFromAnyTerminalMeters": 4308,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "184 Dimtimkar Road, Mumbai, 400008",
+      "openingHours": "Mo-Su 09:00-21:00",
+      "website": "http://www.justdail.com",
+      "phone": "7947140132",
+      "cuisine": [
+        "indian"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d4aded18eb096219c040",
+      "name": "B Bhagat Tarachand - Pydhonie",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 18.953586,
+      "lng": 72.8315292,
+      "distanceFromTerminalMeters": 4438,
+      "distanceFromDefaultTerminalMeters": 4438,
+      "minDistanceFromAnyTerminalMeters": 4438,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Mumbai, 400002",
+      "openingHours": "Mo-Su 11:00-23:30",
+      "website": "https://bhagattarachand.com/",
+      "phone": "+91-22-23416655, +91-22-23416600, +91-8291103994",
+      "cuisine": [
+        "indian"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/681ba8e7b739d97e3e60",
+      "name": "Sewri Fish Market",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "marketplace",
+      "lat": 18.9991591,
+      "lng": 72.8494932,
+      "distanceFromTerminalMeters": 3894,
+      "distanceFromDefaultTerminalMeters": 3894,
+      "minDistanceFromAnyTerminalMeters": 3894,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "marketplace"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/292a7ec4c48507da2cb8",
+      "name": "Mirza Ghalib Municipal Market",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "marketplace",
+      "lat": 18.9578066,
+      "lng": 72.8296753,
+      "distanceFromTerminalMeters": 4452,
+      "distanceFromDefaultTerminalMeters": 4452,
+      "minDistanceFromAnyTerminalMeters": 4452,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Mumbai",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "marketplace"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/00774d2a77e9fe8838a0",
+      "name": "Moolji Jaitha Market",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "marketplace",
+      "lat": 18.9493759,
+      "lng": 72.8308478,
+      "distanceFromTerminalMeters": 4713,
+      "distanceFromDefaultTerminalMeters": 4713,
+      "minDistanceFromAnyTerminalMeters": 4713,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Kalbadevi, 400002",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "marketplace"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/4cdb42d7d1c13982f488",
+      "name": "Dongri Bazaar",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "marketplace",
+      "lat": 18.9593702,
+      "lng": 72.8374994,
+      "distanceFromTerminalMeters": 3616,
+      "distanceFromDefaultTerminalMeters": 3616,
+      "minDistanceFromAnyTerminalMeters": 3616,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "marketplace"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/0e59d7e70716625e428c",
+      "name": "al saadha",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "marketplace",
+      "lat": 18.959709,
+      "lng": 72.8306376,
+      "distanceFromTerminalMeters": 4295,
+      "distanceFromDefaultTerminalMeters": 4295,
+      "minDistanceFromAnyTerminalMeters": 4295,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Raudat Tahera Steet, Mumbai, 400003",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "marketplace"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ec0da03c160d6bbd805f",
+      "name": "Mazagaon Fort",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "ruins",
+      "lat": 18.9670372,
+      "lng": 72.8429,
+      "distanceFromTerminalMeters": 2869,
+      "distanceFromDefaultTerminalMeters": 2869,
+      "minDistanceFromAnyTerminalMeters": 2869,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "ruins"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/3dc4f439ae071027ebef",
+      "name": "Sewri Fort",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 19.0005078,
+      "lng": 72.8601265,
+      "distanceFromTerminalMeters": 3548,
+      "distanceFromDefaultTerminalMeters": 3548,
+      "minDistanceFromAnyTerminalMeters": 3548,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "fort",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ed5cb43ee1bf72e11af0",
+      "name": "Flamingo Point",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 18.9956242,
+      "lng": 72.8615436,
+      "distanceFromTerminalMeters": 2985,
+      "distanceFromDefaultTerminalMeters": 2985,
+      "minDistanceFromAnyTerminalMeters": 2985,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "man_made": "pier",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/1fceebc5ab2bf7915292",
+      "name": "public park",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 18.9613657,
+      "lng": 72.8367569,
+      "distanceFromTerminalMeters": 3625,
+      "distanceFromDefaultTerminalMeters": 3625,
+      "minDistanceFromAnyTerminalMeters": 3625,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "A N Surve Marg (Umerkhadi Road), mumbai, 400009",
+      "openingHours": "Mo-Su 06:00-22:00",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d1325a8938eca0878f80",
+      "name": "YMCA Ground",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 18.9721466,
+      "lng": 72.8246266,
+      "distanceFromTerminalMeters": 4777,
+      "distanceFromDefaultTerminalMeters": 4777,
+      "minDistanceFromAnyTerminalMeters": 4777,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "YMCA Road, Mumbai, 400011",
+      "openingHours": "Mo-Su 09:00-21:00",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/5c7008ac498b9f9e0de8",
+      "name": "Baby Garden",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 18.9732738,
+      "lng": 72.8240105,
+      "distanceFromTerminalMeters": 4850,
+      "distanceFromDefaultTerminalMeters": 4850,
+      "minDistanceFromAnyTerminalMeters": 4850,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1 YMCA Road, Mumbai, 400011",
+      "openingHours": "Mo-Fr 08:00-17:00",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "park"
+      }
+    }
+  ],
+  "portAnchor": {
+    "id": "ports-json-anchor",
+    "name": "MUMBAI (BOMBAY) Port",
+    "lat": 18.97,
+    "lng": 72.87,
+    "address": "Mumbai, Maharashtra, India",
+    "source": "ports.json",
+    "sourceId": "",
+    "score": 0,
+    "slug": "mumbai-bombay-port"
+  },
+  "terminalResolution": {
+    "status": "unresolved",
+    "method": "ports_json_fallback",
+    "verified": false,
+    "notes": "All supplied candidates are ferry-only stops, local docks, unnamed maritime features, or unrelated places rather than passenger cruise terminals."
+  }
+}

@@ -1,0 +1,1184 @@
+{
+  "schemaVersion": 5,
+  "catalogType": "curation-candidates",
+  "generatedAt": "2026-07-30T08:52:06.478Z",
+  "source": "openstreetmap",
+  "sourceExtract": "scotland-latest.osm.pbf",
+  "radiusMeters": 10000,
+  "port": {
+    "id": "glasgow-united-kingdom",
+    "city": "Glasgow",
+    "country": "United Kingdom"
+  },
+  "defaultTerminalId": "manual/glasgow-united-kingdom/greenock-ocean-terminal",
+  "terminal": {
+    "id": "manual/glasgow-united-kingdom/greenock-ocean-terminal",
+    "name": "Greenock Ocean Terminal",
+    "nameEnglish": "",
+    "lat": 55.95751,
+    "lng": -4.76526,
+    "address": "",
+    "source": "manual_web_research",
+    "sourceId": "manual/glasgow-united-kingdom/greenock-ocean-terminal",
+    "terminalType": "gateway_cruise_terminal",
+    "verified": true,
+    "notes": "Actual cruise gateway for Glasgow. Coordinate marks the passenger terminal and landside exit in Greenock.",
+    "sourceUrls": [
+      "https://www.greenockcruiseport.com/",
+      "https://www.openstreetmap.org/?mlat=55.95751&mlon=-4.76526#map=17/55.95751/-4.76526"
+    ],
+    "sources": [
+      "manual_web_research"
+    ],
+    "sourceIds": [
+      "manual/glasgow-united-kingdom/greenock-ocean-terminal"
+    ],
+    "osmTags": {},
+    "matchedBy": [
+      "web_researched_terminal"
+    ],
+    "distanceFromPortMeters": null
+  },
+  "terminals": [
+    {
+      "id": "manual/glasgow-united-kingdom/greenock-ocean-terminal",
+      "name": "Greenock Ocean Terminal",
+      "nameEnglish": "",
+      "lat": 55.95751,
+      "lng": -4.76526,
+      "address": "",
+      "source": "manual_web_research",
+      "sourceId": "manual/glasgow-united-kingdom/greenock-ocean-terminal",
+      "terminalType": "gateway_cruise_terminal",
+      "verified": true,
+      "notes": "Actual cruise gateway for Glasgow. Coordinate marks the passenger terminal and landside exit in Greenock.",
+      "sourceUrls": [
+        "https://www.greenockcruiseport.com/",
+        "https://www.openstreetmap.org/?mlat=55.95751&mlon=-4.76526#map=17/55.95751/-4.76526"
+      ],
+      "sources": [
+        "manual_web_research"
+      ],
+      "sourceIds": [
+        "manual/glasgow-united-kingdom/greenock-ocean-terminal"
+      ],
+      "osmTags": {},
+      "matchedBy": [
+        "web_researched_terminal"
+      ],
+      "distanceFromPortMeters": null
+    }
+  ],
+  "terminalCandidateRadiusMeters": 5000,
+  "terminalCandidates": [
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ff35847250315082c680",
+      "name": "Plantation Quay",
+      "nameEnglish": "",
+      "lat": 55.8586524,
+      "lng": -4.291629,
+      "distanceFromPortMeters": 1456,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/ff35847250315082c680"
+      ]
+    },
+    {
+      "source": "nominatim",
+      "sourceId": "osm/node/6648141794",
+      "osmType": "node",
+      "osmId": "6648141794",
+      "name": "Millennium Milepost Glasgow",
+      "nameEnglish": "",
+      "lat": 55.8658466,
+      "lng": -4.2535302,
+      "distanceFromPortMeters": 1715,
+      "address": "Millennium Milepost Glasgow, Port Dundas Road, Cowcaddens, Glasgow, Glasgow City, Alba / Scotland, G1 2RL, United Kingdom",
+      "displayName": "Millennium Milepost Glasgow, Port Dundas Road, Cowcaddens, Glasgow, Glasgow City, Alba / Scotland, G1 2RL, United Kingdom",
+      "query": "GLASGOW Port, Glasgow, United Kingdom",
+      "matchedBy": [
+        "Nominatim query: GLASGOW Port, Glasgow, United Kingdom"
+      ],
+      "osmTags": {
+        "description": "1) National Cycle Network 1km\n2) Colleges Cycle Route\n\nThis milepost also has some additional text:\n\nThe National Cycle Network is located adjacent to the river Clyde.\n\n\"Be fit for life\" be fit and healthy around Glasgow."
+      },
+      "sources": [
+        "nominatim"
+      ],
+      "sourceIds": [
+        "osm/node/6648141794"
+      ]
+    },
+    {
+      "source": "nominatim",
+      "sourceId": "osm/way/58705089",
+      "osmType": "way",
+      "osmId": "58705089",
+      "name": "Glasgow Royal Concert Hall",
+      "nameEnglish": "Glasgow Royal Concert Hall",
+      "lat": 55.864539,
+      "lng": -4.2531304,
+      "distanceFromPortMeters": 1783,
+      "address": "Glasgow Royal Concert Hall, Sauchiehall Street, Cowcaddens, Glasgow, Glasgow City, Alba / Scotland, G2 3NY, United Kingdom",
+      "displayName": "Glasgow Royal Concert Hall, Sauchiehall Street, Cowcaddens, Glasgow, Glasgow City, Alba / Scotland, G2 3NY, United Kingdom",
+      "query": "GLASGOW Port, Glasgow, United Kingdom",
+      "matchedBy": [
+        "Nominatim query: GLASGOW Port, Glasgow, United Kingdom"
+      ],
+      "osmTags": {
+        "building": "civic"
+      },
+      "sources": [
+        "nominatim"
+      ],
+      "sourceIds": [
+        "osm/way/58705089"
+      ]
+    },
+    {
+      "source": "nominatim",
+      "sourceId": "osm/way/4570717",
+      "osmType": "way",
+      "osmId": "4570717",
+      "name": "Glasgow Caledonian University",
+      "nameEnglish": "Glasgow Caledonian University",
+      "lat": 55.8674664,
+      "lng": -4.2502454,
+      "distanceFromPortMeters": 1878,
+      "address": "Glasgow Caledonian University, Cowcaddens Road, Cowcaddens, Glasgow, Glasgow City, Alba / Scotland, G4 0BA, United Kingdom",
+      "displayName": "Glasgow Caledonian University, Cowcaddens Road, Cowcaddens, Glasgow, Glasgow City, Alba / Scotland, G4 0BA, United Kingdom",
+      "query": "GLASGOW Port, Glasgow, United Kingdom",
+      "matchedBy": [
+        "Nominatim query: GLASGOW Port, Glasgow, United Kingdom"
+      ],
+      "osmTags": {
+        "operator": "Glasgow Caledonian University"
+      },
+      "sources": [
+        "nominatim"
+      ],
+      "sourceIds": [
+        "osm/way/4570717"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/24c02cfb611a1257e253",
+      "name": "Broomielaw Quay Pontoon",
+      "nameEnglish": "",
+      "lat": 55.8563099,
+      "lng": -4.2622809,
+      "distanceFromPortMeters": 1881,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/24c02cfb611a1257e253"
+      ]
+    },
+    {
+      "source": "nominatim",
+      "sourceId": "osm/way/307241188",
+      "osmType": "way",
+      "osmId": "307241188",
+      "name": "VisitScotland Glasgow iCentre",
+      "nameEnglish": "",
+      "lat": 55.8621256,
+      "lng": -4.2532626,
+      "distanceFromPortMeters": 1884,
+      "address": "VisitScotland Glasgow iCentre, 156a/158, Buchanan Street, Cowcaddens, Glasgow, Glasgow City, Alba / Scotland, G1 2LL, United Kingdom",
+      "displayName": "VisitScotland Glasgow iCentre, 156a/158, Buchanan Street, Cowcaddens, Glasgow, Glasgow City, Alba / Scotland, G1 2LL, United Kingdom",
+      "query": "GLASGOW Port, Glasgow, United Kingdom",
+      "matchedBy": [
+        "Nominatim query: GLASGOW Port, Glasgow, United Kingdom"
+      ],
+      "osmTags": {
+        "building": "commercial",
+        "operator": "VisitScotland"
+      },
+      "sources": [
+        "nominatim"
+      ],
+      "sourceIds": [
+        "osm/way/307241188"
+      ]
+    },
+    {
+      "source": "nominatim",
+      "sourceId": "osm/way/1436843169",
+      "osmType": "way",
+      "osmId": "1436843169",
+      "name": "Glasgow Subway",
+      "nameEnglish": "Glasgow Subway",
+      "lat": 55.860009,
+      "lng": -4.2542675,
+      "distanceFromPortMeters": 1952,
+      "address": "Glasgow Subway, Buchanan Street, Cowcaddens, Glasgow, Glasgow City, Alba / Scotland, G1 2LW, United Kingdom",
+      "displayName": "Glasgow Subway, Buchanan Street, Cowcaddens, Glasgow, Glasgow City, Alba / Scotland, G1 2LW, United Kingdom",
+      "query": "GLASGOW Port, Glasgow, United Kingdom",
+      "matchedBy": [
+        "Nominatim query: GLASGOW Port, Glasgow, United Kingdom"
+      ],
+      "osmTags": {
+        "operator": "SPT"
+      },
+      "sources": [
+        "nominatim"
+      ],
+      "sourceIds": [
+        "osm/way/1436843169"
+      ]
+    },
+    {
+      "source": "nominatim",
+      "sourceId": "osm/way/595563135",
+      "osmType": "way",
+      "osmId": "595563135",
+      "name": "McGowans of Glasgow",
+      "nameEnglish": "",
+      "lat": 55.858337,
+      "lng": -4.2533438,
+      "distanceFromPortMeters": 2109,
+      "address": "McGowans of Glasgow, 4, Argyll Arcade, Laurieston, Merchant City, Glasgow, Glasgow City, Alba / Scotland, G2 8BA, United Kingdom",
+      "displayName": "McGowans of Glasgow, 4, Argyll Arcade, Laurieston, Merchant City, Glasgow, Glasgow City, Alba / Scotland, G2 8BA, United Kingdom",
+      "query": "GLASGOW Port, Glasgow, United Kingdom",
+      "matchedBy": [
+        "Nominatim query: GLASGOW Port, Glasgow, United Kingdom"
+      ],
+      "osmTags": {
+        "building": "commercial"
+      },
+      "sources": [
+        "nominatim"
+      ],
+      "sourceIds": [
+        "osm/way/595563135"
+      ]
+    },
+    {
+      "source": "nominatim",
+      "sourceId": "osm/way/152201135",
+      "osmType": "way",
+      "osmId": "152201135",
+      "name": "Glasgow Central Signal Box",
+      "nameEnglish": "",
+      "lat": 55.8506974,
+      "lng": -4.2608153,
+      "distanceFromPortMeters": 2458,
+      "address": "Glasgow Central Signal Box, Cook Street, Port Eglinton, Laurieston, Tradeston, Glasgow, Glasgow City, Alba / Scotland, G5 8DL, United Kingdom",
+      "displayName": "Glasgow Central Signal Box, Cook Street, Port Eglinton, Laurieston, Tradeston, Glasgow, Glasgow City, Alba / Scotland, G5 8DL, United Kingdom",
+      "query": "GLASGOW Port, Glasgow, United Kingdom",
+      "matchedBy": [
+        "Nominatim query: GLASGOW Port, Glasgow, United Kingdom"
+      ],
+      "osmTags": {},
+      "sources": [
+        "nominatim"
+      ],
+      "sourceIds": [
+        "osm/way/152201135"
+      ]
+    },
+    {
+      "source": "nominatim",
+      "sourceId": "osm/way/169761245",
+      "osmType": "way",
+      "osmId": "169761245",
+      "name": "Bestway Glasgow Sher",
+      "nameEnglish": "Bestway Glasgow Sher",
+      "lat": 55.8458352,
+      "lng": -4.2631403,
+      "distanceFromPortMeters": 2886,
+      "address": "Bestway Glasgow Sher, 29, Kilbirnie Street, Port Eglinton, Laurieston, Tradeston, Glasgow, Glasgow City, Alba / Scotland, G5 8JD, United Kingdom",
+      "displayName": "Bestway Glasgow Sher, 29, Kilbirnie Street, Port Eglinton, Laurieston, Tradeston, Glasgow, Glasgow City, Alba / Scotland, G5 8JD, United Kingdom",
+      "query": "GLASGOW Port, Glasgow, United Kingdom",
+      "matchedBy": [
+        "Nominatim query: GLASGOW Port, Glasgow, United Kingdom"
+      ],
+      "osmTags": {
+        "building": "yes"
+      },
+      "sources": [
+        "nominatim"
+      ],
+      "sourceIds": [
+        "osm/way/169761245"
+      ]
+    }
+  ],
+  "counts": {
+    "attraction": 12,
+    "outdoors": 4,
+    "food_drink": 12,
+    "shopping": 3,
+    "essentials": 1
+  },
+  "pois": [
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/52e9304ec90368737821",
+      "name": "Kelvingrove Art Gallery and Museum",
+      "nameEnglish": "Kelvingrove Art Gallery and Museum",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 55.8685831,
+      "lng": -4.2906288,
+      "distanceFromTerminalMeters": 682,
+      "distanceFromDefaultTerminalMeters": 682,
+      "minDistanceFromAnyTerminalMeters": 682,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Argyle Street, Glasgow, G3 8AG",
+      "openingHours": "Mo-Th 10:00-17:00; Fr 11:00-17:00; Sa 10:00-17:00; Su 11:00-17:00",
+      "website": "https://www.glasgowlife.org.uk/museums/venues/kelvingrove-art-gallery-and-museum",
+      "phone": "+44 141 276 9599",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/5af95d25b3f61f126d7e",
+      "name": "Hunterian Museum",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 55.8717786,
+      "lng": -4.2883349,
+      "distanceFromTerminalMeters": 556,
+      "distanceFromDefaultTerminalMeters": 556,
+      "minDistanceFromAnyTerminalMeters": 556,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo off; Tu-Su 10:00-17:00",
+      "website": "https://www.gla.ac.uk/hunterian/",
+      "phone": "+44 141 330 4221",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/1ae1c219e087a15c5c06",
+      "name": "The Mackintosh House",
+      "nameEnglish": "The Mackintosh House",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 55.8729269,
+      "lng": -4.2888692,
+      "distanceFromTerminalMeters": 642,
+      "distanceFromDefaultTerminalMeters": 642,
+      "minDistanceFromAnyTerminalMeters": 642,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Hillhead Street, Glasgow, G12 8QQ",
+      "openingHours": "",
+      "website": "https://www.gla.ac.uk/hunterian/visit/ourvenues/themackintoshhouse/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/379fb8b282d09fb280c0",
+      "name": "Royal Highland Fusiliers",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 55.866275,
+      "lng": -4.2696677,
+      "distanceFromTerminalMeters": 766,
+      "distanceFromDefaultTerminalMeters": 766,
+      "minDistanceFromAnyTerminalMeters": 766,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "https://rhf.org.uk/rhf/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/4e376f92e683c81da2a8",
+      "name": "University of Glasgow Hunterian at Kelvin Hall",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 55.8687883,
+      "lng": -4.2943329,
+      "distanceFromTerminalMeters": 904,
+      "distanceFromDefaultTerminalMeters": 904,
+      "minDistanceFromAnyTerminalMeters": 904,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "https://kelvinhall.org.uk/university-of-glasgow/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/351c86c938b02e2d9aaf",
+      "name": "Hunterian Art Gallery",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "gallery",
+      "lat": 55.8730964,
+      "lng": -4.2887702,
+      "distanceFromTerminalMeters": 646,
+      "distanceFromDefaultTerminalMeters": 646,
+      "minDistanceFromAnyTerminalMeters": 646,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo off; Tu-Sa 10:00-17:00; Su 11:00-16:00",
+      "website": "https://www.gla.ac.uk/hunterian/collections/permanentdisplays/hunterianartgallery/",
+      "phone": "+44 141 330 4221",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "gallery"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ac358db6b96b1ce74436",
+      "name": "The Barras Market",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 55.8548943,
+      "lng": -4.2377434,
+      "distanceFromTerminalMeters": 3126,
+      "distanceFromDefaultTerminalMeters": 3126,
+      "minDistanceFromAnyTerminalMeters": 3126,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Sa-Su 10:00-16:00",
+      "website": "https://market.barrowland.co.uk/blogs/the-barras/visit-us",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/379748afccca550bd8e4",
+      "name": "Mackintosh Building",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 55.8660524,
+      "lng": -4.2637457,
+      "distanceFromTerminalMeters": 1105,
+      "distanceFromDefaultTerminalMeters": 1105,
+      "minDistanceFromAnyTerminalMeters": 1105,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "167 Renfrew Street, G3 6RQ",
+      "openingHours": "",
+      "website": "https://www.gsa.ac.uk/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Severly damaged by fire in 2014 and 2018",
+      "osmTags": {
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/3913e73294dd57dd8a2e",
+      "name": "Carlyle",
+      "nameEnglish": "Carlyle",
+      "category": "attraction",
+      "subcategory": "monument",
+      "lat": 55.8704352,
+      "lng": -4.2850925,
+      "distanceFromTerminalMeters": 321,
+      "distanceFromDefaultTerminalMeters": 321,
+      "minDistanceFromAnyTerminalMeters": 321,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "monument"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/600cf7926880c6a893e9",
+      "name": "Centre for Contemporary Arts",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 55.8658707,
+      "lng": -4.2650284,
+      "distanceFromTerminalMeters": 1041,
+      "distanceFromDefaultTerminalMeters": 1041,
+      "minDistanceFromAnyTerminalMeters": 1041,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Sauchiehall Street, Glasgow, G2 3JD",
+      "openingHours": "Tu-Sa 11:00-18:00",
+      "website": "https://www.cca-glasgow.com/",
+      "phone": "+44 141 352 4900",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "arts_centre",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/59f2cd5a6f2282bb435d",
+      "name": "St George and the Dragon",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "monument",
+      "lat": 55.8708313,
+      "lng": -4.2683463,
+      "distanceFromTerminalMeters": 733,
+      "distanceFromDefaultTerminalMeters": 733,
+      "minDistanceFromAnyTerminalMeters": 733,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "monument"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/623a3da5c0adca909d42",
+      "name": "Sir Walter Scott column",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "monument",
+      "lat": 55.8611555,
+      "lng": -4.2501683,
+      "distanceFromTerminalMeters": 2105,
+      "distanceFromDefaultTerminalMeters": 2105,
+      "minDistanceFromAnyTerminalMeters": 2105,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "1771 - 1832 Designed by Greenshields, the statue was completed in 1837",
+      "osmTags": {
+        "historic": "monument"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d7cb0601b7f557646921",
+      "name": "Glasgow Botanic Gardens",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "garden",
+      "lat": 55.8798783,
+      "lng": -4.2907873,
+      "distanceFromTerminalMeters": 1288,
+      "distanceFromDefaultTerminalMeters": 1288,
+      "minDistanceFromAnyTerminalMeters": 1288,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "730 Great Western Road, Glasgow, G12 0UE",
+      "openingHours": "07:00-dusk",
+      "website": "http://www.glasgowbotanicgardens.com/",
+      "phone": "+44 141 276 1614",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "garden"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/fcf81aa7fd0b4bf29b9b",
+      "name": "Queen's Crescent Gardens",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "garden",
+      "lat": 55.8707899,
+      "lng": -4.2708454,
+      "distanceFromTerminalMeters": 578,
+      "distanceFromDefaultTerminalMeters": 578,
+      "minDistanceFromAnyTerminalMeters": 578,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "garden"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/04ea7bcce6d372110d91",
+      "name": "Hill Street Viewpoint Garnethill",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "viewpoint",
+      "lat": 55.8675998,
+      "lng": -4.2690681,
+      "distanceFromTerminalMeters": 732,
+      "distanceFromDefaultTerminalMeters": 732,
+      "minDistanceFromAnyTerminalMeters": 732,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "viewpoint"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/99ab37adb69012f6c6df",
+      "name": "Willowbank Community Garden",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "garden",
+      "lat": 55.8709913,
+      "lng": -4.2757915,
+      "distanceFromTerminalMeters": 285,
+      "distanceFromDefaultTerminalMeters": 285,
+      "minDistanceFromAnyTerminalMeters": 285,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "http://guwillowbankgarden.blogspot.co.uk/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "garden"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/62143b65e09e4ce1c6e7",
+      "name": "Stravaigin",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 55.8725499,
+      "lng": -4.2823297,
+      "distanceFromTerminalMeters": 319,
+      "distanceFromDefaultTerminalMeters": 319,
+      "minDistanceFromAnyTerminalMeters": 319,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "28 Gibson Street, Glasgow, G12 8NX",
+      "openingHours": "Mo-Fr 10:00-01:00; Sa-Su 11:00-01:00",
+      "website": "https://www.stravaigin.co.uk/",
+      "phone": "+44 141 334 2665",
+      "cuisine": [
+        "regional"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Scottish produce given local twists.",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/7f16c62c5d3183f2c124",
+      "name": "The Hidden Lane Tearoom",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 55.8641207,
+      "lng": -4.2833613,
+      "distanceFromTerminalMeters": 687,
+      "distanceFromDefaultTerminalMeters": 687,
+      "minDistanceFromAnyTerminalMeters": 687,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1103 Argyle Street, Glasgow, G3 8ND",
+      "openingHours": "Mo-Fr 10:00-16:30, Su 10:00-17:00, Fr 10:00-17:30",
+      "website": "https://www.hiddenlanetearoom.com/",
+      "phone": "+44 141 237 4391",
+      "cuisine": [
+        "coffee_shop",
+        "sandwich",
+        "cake",
+        "tea"
+      ],
+      "wheelchair": "limited",
+      "brand": "",
+      "description": "Vintage tearoom serving afternoon tea, sandwiches, soups, a selection of home-made cakes and over 30 loose-leaf teas and freshly ground coffee.",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/caab8bf0043d060dfed4",
+      "name": "The Loveable Rogue",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "pub",
+      "lat": 55.8734859,
+      "lng": -4.2763015,
+      "distanceFromTerminalMeters": 451,
+      "distanceFromDefaultTerminalMeters": 451,
+      "minDistanceFromAnyTerminalMeters": 451,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "333 Great Western Road, Glasgow, G4 9HS",
+      "openingHours": "Tu 17:00-22:00; We-Sa 12:00-22:00; Su 12:00-21:00",
+      "website": "https://www.theloveablerogue.co.uk",
+      "phone": "+44 141 339 3701",
+      "cuisine": [
+        "local"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "pub"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/e61873c99c9c8c5c5e59",
+      "name": "Machair",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "pub",
+      "lat": 55.8737708,
+      "lng": -4.2762712,
+      "distanceFromTerminalMeters": 480,
+      "distanceFromDefaultTerminalMeters": 480,
+      "minDistanceFromAnyTerminalMeters": 480,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "372 Great Western Road, Glasgow, G4 9HT",
+      "openingHours": "Mo-Fr 12:00-24:00; Sa-Su 11:00-24:00",
+      "website": "https://www.machairbar.co.uk/",
+      "phone": "+44 141 337 3111",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Café bar serving food and a wide range of craft beers.",
+      "osmTags": {
+        "amenity": "pub"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/fcf362de8e5ffae28418",
+      "name": "Ubiquitous Chip",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 55.8748031,
+      "lng": -4.2930435,
+      "distanceFromTerminalMeters": 973,
+      "distanceFromDefaultTerminalMeters": 973,
+      "minDistanceFromAnyTerminalMeters": 973,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "12 Ashton Lane, Glasgow, G12 8SJ",
+      "openingHours": "Mo-Su 11:00-01:00",
+      "website": "https://www.ubiquitouschip.co.uk/",
+      "phone": "+44 141 334 5007",
+      "cuisine": [
+        "regional"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Artistic brasserie dishes that display their provenance, served in a leafy space with fairy lights.",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d5fbfaea34fd2c27902a",
+      "name": "Cafe Andaluz",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 55.8762087,
+      "lng": -4.2918142,
+      "distanceFromTerminalMeters": 1010,
+      "distanceFromDefaultTerminalMeters": 1010,
+      "minDistanceFromAnyTerminalMeters": 1010,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "2 Cresswell Lane, Glasgow, G12 8AA",
+      "openingHours": "Mo-Sa 12:00-22:00; Su 12:30-22:00",
+      "website": "https://www.cafeandaluz.com/restaurants/glasgow-west-end",
+      "phone": "+44 141 339 1111",
+      "cuisine": [
+        "spanish",
+        "tapas"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Andalusian-style basement tapas bar.",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f63e878347d8e9db3cde",
+      "name": "Chillies",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 55.8701976,
+      "lng": -4.275632,
+      "distanceFromTerminalMeters": 273,
+      "distanceFromDefaultTerminalMeters": 273,
+      "minDistanceFromAnyTerminalMeters": 273,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "176-182 Woodlands Road, Glasgow, G3 6LL",
+      "openingHours": "Th-Su 16:00-22:00, Fr,Sa 16:00-22:30",
+      "website": "https://www.chillieswestend.com/",
+      "phone": "+44 141 331 0494",
+      "cuisine": [
+        "indian"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/2d6992a305f36cecd8d6",
+      "name": "Serenity Now",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 55.8738272,
+      "lng": -4.2764336,
+      "distanceFromTerminalMeters": 480,
+      "distanceFromDefaultTerminalMeters": 480,
+      "minDistanceFromAnyTerminalMeters": 480,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "380 Great Western Road, Glasgow, G4 9HT",
+      "openingHours": "Mo,Tu,Fr 11:00-16:00; Sa,Su 10:00-17:00",
+      "website": "https://www.serenitynowcafe.com/",
+      "phone": "+44 141 258 1780",
+      "cuisine": [
+        "sandwich",
+        "coffee_shop",
+        "american"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/6dae90e7194b76a3471d",
+      "name": "La Laterna West End",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 55.8749396,
+      "lng": -4.2807989,
+      "distanceFromTerminalMeters": 552,
+      "distanceFromDefaultTerminalMeters": 552,
+      "minDistanceFromAnyTerminalMeters": 552,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "447 Great Western Road, Glasgow, G12 8HH",
+      "openingHours": "Mo-Su 12:00-22:30",
+      "website": "https://lalanternawestend.co.uk/",
+      "phone": "+44 141 334 0686",
+      "cuisine": [
+        "italian"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/2a8c1af47fb3ddf0b0c9",
+      "name": "Ox and Finch",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 55.8657948,
+      "lng": -4.2847546,
+      "distanceFromTerminalMeters": 554,
+      "distanceFromDefaultTerminalMeters": 554,
+      "minDistanceFromAnyTerminalMeters": 554,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "920 Sauchiehall Street, Glasgow, G3 7TF",
+      "openingHours": "Mo-Su 12:00-22:00",
+      "website": "https://www.oxandfinch.com/",
+      "phone": "+44 141 339 8627",
+      "cuisine": [
+        "tapas"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/fe246cf749c26fc7582e",
+      "name": "Paesano Pizza West End",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 55.8751809,
+      "lng": -4.2816049,
+      "distanceFromTerminalMeters": 585,
+      "distanceFromDefaultTerminalMeters": 585,
+      "minDistanceFromAnyTerminalMeters": 585,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "471 Great Western Road, Glasgow, G12 8HL",
+      "openingHours": "Mo-Th 12:00-23:00; Fr-Sa 12:00-00:00; Su 12:00-22:00",
+      "website": "https://www.paesanopizza.co.uk/glasgow-west-end",
+      "phone": "+44 141 370 0534",
+      "cuisine": [
+        "pizza"
+      ],
+      "wheelchair": "limited",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/657c95db24a62342a7c8",
+      "name": "Massawa",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 55.8714263,
+      "lng": -4.2984983,
+      "distanceFromTerminalMeters": 1165,
+      "distanceFromDefaultTerminalMeters": 1165,
+      "minDistanceFromAnyTerminalMeters": 1165,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "53 Byres Road, Glasgow, G11 5RG",
+      "openingHours": "Mo-Th 12:00-22:30; Fr-Su 12:00-24:00",
+      "website": "https://www.massawa-glasgow.com",
+      "phone": "+44 141 213 1768",
+      "cuisine": [
+        "ethiopian",
+        "eritrean"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Vibrant flavours and warm hospitality of Eritrean and Ethiopian cuisine.",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/edfea8874d37a4087f30",
+      "name": "Mellis",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "cheese",
+      "lat": 55.8756038,
+      "lng": -4.2819687,
+      "distanceFromTerminalMeters": 635,
+      "distanceFromDefaultTerminalMeters": 635,
+      "minDistanceFromAnyTerminalMeters": 635,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "492 Great Western Road, Glasgow, G12 8EW",
+      "openingHours": "Mo-Fr 09:30-19:00; Sa 09:00-18:00; Su 11:00-18:00",
+      "website": "https://www.mellischeese.net/",
+      "phone": "+44 141 339 8998",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Cheesemonger selling a range of fine farmhouse and artisan cheeses.",
+      "osmTags": {
+        "shop": "cheese"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c37f9e40a8a0b6d30f4f",
+      "name": "JoJo Maman Bébé",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "clothes",
+      "lat": 55.8756831,
+      "lng": -4.2925456,
+      "distanceFromTerminalMeters": 1006,
+      "distanceFromDefaultTerminalMeters": 1006,
+      "minDistanceFromAnyTerminalMeters": 1006,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "174 Great George Street, Glasgow, G12 8AJ",
+      "openingHours": "Mo-Sa 09:30-17:30; Su 11:00-17:00",
+      "website": "https://www.jojomamanbebe.co.uk/",
+      "phone": "+44 141 357 7386",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "JoJo Maman Bébé",
+      "description": "Upmarket retail chain selling stylish, French-influenced clothes for mothers, babies and children.",
+      "osmTags": {
+        "shop": "clothes"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d06d7492cf817e091d53",
+      "name": "Roots, Fruits & Flowers: Fruit & Veg Merchant",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "greengrocer",
+      "lat": 55.8749932,
+      "lng": -4.2809871,
+      "distanceFromTerminalMeters": 559,
+      "distanceFromDefaultTerminalMeters": 559,
+      "minDistanceFromAnyTerminalMeters": 559,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "451 Great Western Road, Glasgow, G12 8HH",
+      "openingHours": "Mo-Sa 08:00-18:30; Su 09:00-18:00",
+      "website": "https://www.rootsfruitsandflowers.com/pages/fruit-veg",
+      "phone": "+44 141 334 3530",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Fruit and vegetable merchant stocked daily from local markets with seasonal produce.",
+      "osmTags": {
+        "shop": "greengrocer"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d2fb60bb8a47af477cd6",
+      "name": "VisitScotland Glasgow iCentre",
+      "nameEnglish": "",
+      "category": "essentials",
+      "subcategory": "visitor_information",
+      "lat": 55.8621251,
+      "lng": -4.2532623,
+      "distanceFromTerminalMeters": 1884,
+      "distanceFromDefaultTerminalMeters": 1884,
+      "minDistanceFromAnyTerminalMeters": 1884,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "156a/158 Buchanan Street, Glasgow, G1 2LL",
+      "openingHours": "Mo-Sa 09:30-17:00, Su closed",
+      "website": "https://www.visitscotland.com/info/services/glasgow-icentre-p332751",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "information"
+      }
+    }
+  ],
+  "portAnchor": {
+    "id": "ports-json-anchor",
+    "name": "GLASGOW Port",
+    "lat": 55.87,
+    "lng": -4.28,
+    "address": "Glasgow, Scotland, United Kingdom",
+    "source": "ports.json",
+    "sourceId": "",
+    "score": 0,
+    "slug": "glasgow-port"
+  },
+  "terminalResolution": {
+    "status": "resolved",
+    "method": "manual_web_research",
+    "verified": true,
+    "notes": "Terminal records were added from researched cruise-port sources because no supplied candidate accurately represented the passenger arrival point."
+  }
+}

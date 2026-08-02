@@ -1,0 +1,366 @@
+{
+  "schemaVersion": 5,
+  "catalogType": "curation-candidates",
+  "generatedAt": "2026-07-30T08:07:35.940Z",
+  "source": "openstreetmap",
+  "sourceExtract": "ireland-and-northern-ireland-latest.osm.pbf",
+  "radiusMeters": 10000,
+  "port": {
+    "id": "foynes-ireland",
+    "city": "Foynes",
+    "country": "Ireland"
+  },
+  "defaultTerminalId": "ports-json-anchor",
+  "terminal": {
+    "id": "ports-json-anchor",
+    "name": "FOYNES Port",
+    "lat": 52.62,
+    "lng": -9.12,
+    "address": "Foynes, Ireland, Ireland",
+    "source": "ports.json",
+    "sourceId": "",
+    "score": 0,
+    "slug": "foynes-port"
+  },
+  "terminals": [
+    {
+      "id": "ports-json-anchor",
+      "name": "FOYNES Port",
+      "lat": 52.62,
+      "lng": -9.12,
+      "address": "Foynes, Ireland, Ireland",
+      "source": "ports.json",
+      "sourceId": "",
+      "score": 0,
+      "slug": "foynes-port"
+    }
+  ],
+  "terminalCandidateRadiusMeters": 5000,
+  "terminalCandidates": [
+    {
+      "source": "nominatim",
+      "sourceId": "osm/way/821234456",
+      "osmType": "way",
+      "osmId": "821234456",
+      "name": "Foynes port company offices",
+      "nameEnglish": "",
+      "lat": 52.6124252,
+      "lng": -9.1121664,
+      "distanceFromPortMeters": 995,
+      "address": "Foynes port company offices, N69, Foynes, Shanagolden, The Municipal District of Adare  -  Rathkeale, County Limerick, Munster, Éire / Ireland",
+      "displayName": "Foynes port company offices, N69, Foynes, Shanagolden, The Municipal District of Adare  -  Rathkeale, County Limerick, Munster, Éire / Ireland",
+      "query": "FOYNES Port, Foynes, Ireland",
+      "matchedBy": [
+        "Nominatim query: FOYNES Port, Foynes, Ireland"
+      ],
+      "osmTags": {},
+      "sources": [
+        "nominatim"
+      ],
+      "sourceIds": [
+        "osm/way/821234456"
+      ]
+    },
+    {
+      "source": "nominatim",
+      "sourceId": "osm/way/821234386",
+      "osmType": "way",
+      "osmId": "821234386",
+      "name": "Foynes port company",
+      "nameEnglish": "",
+      "lat": 52.6124083,
+      "lng": -9.1119145,
+      "distanceFromPortMeters": 1005,
+      "address": "Foynes port company, N69, Foynes, Shanagolden, The Municipal District of Adare  -  Rathkeale, County Limerick, Munster, Éire / Ireland",
+      "displayName": "Foynes port company, N69, Foynes, Shanagolden, The Municipal District of Adare  -  Rathkeale, County Limerick, Munster, Éire / Ireland",
+      "query": "FOYNES Port, Foynes, Ireland",
+      "matchedBy": [
+        "Nominatim query: FOYNES Port, Foynes, Ireland"
+      ],
+      "osmTags": {},
+      "sources": [
+        "nominatim"
+      ],
+      "sourceIds": [
+        "osm/way/821234386"
+      ]
+    }
+  ],
+  "counts": {
+    "attraction": 5,
+    "outdoors": 2,
+    "food_drink": 2,
+    "essentials": 1,
+    "shopping": 0
+  },
+  "pois": [
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/fc6d08ba4aa42a0d227b",
+      "name": "Foynes Flying Boat & Maritime Museum",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 52.6113853,
+      "lng": -9.1099045,
+      "distanceFromTerminalMeters": 1176,
+      "distanceFromDefaultTerminalMeters": 1176,
+      "minDistanceFromAnyTerminalMeters": 1176,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Tu-Su 10:00-17:00",
+      "website": "https://www.flyingboatmuseum.com/",
+      "phone": "+353 69 65416",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c97e113da4f7d019ddba",
+      "name": "Dysert Castle",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "castle",
+      "lat": 52.6017966,
+      "lng": -9.0545774,
+      "distanceFromTerminalMeters": 4859,
+      "distanceFromDefaultTerminalMeters": 4859,
+      "minDistanceFromAnyTerminalMeters": 4859,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "castle"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/8590110d6b85c08fb4d5",
+      "name": "Spring Rice Monument",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "monument",
+      "lat": 52.6133885,
+      "lng": -9.1143268,
+      "distanceFromTerminalMeters": 829,
+      "distanceFromDefaultTerminalMeters": 829,
+      "minDistanceFromAnyTerminalMeters": 829,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "monument"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/5e28808bb55e51dd65d3",
+      "name": "Saint Patrick's Church (in ruins)",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "church",
+      "lat": 52.5945387,
+      "lng": -9.1141649,
+      "distanceFromTerminalMeters": 2858,
+      "distanceFromDefaultTerminalMeters": 2858,
+      "minDistanceFromAnyTerminalMeters": 2858,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "church"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c80d186a50c63f5b8d2e",
+      "name": "Robertstown Church",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "church",
+      "lat": 52.5963802,
+      "lng": -9.0772623,
+      "distanceFromTerminalMeters": 3902,
+      "distanceFromDefaultTerminalMeters": 3902,
+      "minDistanceFromAnyTerminalMeters": 3902,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "church"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f7a0df400c11ae775375",
+      "name": "Foynes Island Viewpoint",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "viewpoint",
+      "lat": 52.6137459,
+      "lng": -9.1128832,
+      "distanceFromTerminalMeters": 845,
+      "distanceFromDefaultTerminalMeters": 845,
+      "minDistanceFromAnyTerminalMeters": 845,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "viewpoint"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/3a2de764657cb6f78917",
+      "name": "Saint Patrick's Well",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "spring",
+      "lat": 52.594804,
+      "lng": -9.1124404,
+      "distanceFromTerminalMeters": 2848,
+      "distanceFromDefaultTerminalMeters": 2848,
+      "minDistanceFromAnyTerminalMeters": 2848,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "place_of_worship",
+        "natural": "spring"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b7a1dcefa1291a407a82",
+      "name": "The Yankee Clipper",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "pub",
+      "lat": 52.6110636,
+      "lng": -9.1058498,
+      "distanceFromTerminalMeters": 1378,
+      "distanceFromDefaultTerminalMeters": 1378,
+      "minDistanceFromAnyTerminalMeters": 1378,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "+353 69 65770",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "public house",
+      "osmTags": {
+        "amenity": "pub"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/7f2a92f4788d4415327d",
+      "name": "Foynes Inn",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "pub",
+      "lat": 52.6112201,
+      "lng": -9.1061949,
+      "distanceFromTerminalMeters": 1350,
+      "distanceFromDefaultTerminalMeters": 1350,
+      "minDistanceFromAnyTerminalMeters": 1350,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "pub"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/4a84bdb7e7431702f804",
+      "name": "Foynes Pharmacy",
+      "nameEnglish": "",
+      "category": "essentials",
+      "subcategory": "pharmacy",
+      "lat": 52.610295,
+      "lng": -9.1050936,
+      "distanceFromTerminalMeters": 1476,
+      "distanceFromDefaultTerminalMeters": 1476,
+      "minDistanceFromAnyTerminalMeters": 1476,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "pharmacy"
+      }
+    }
+  ],
+  "portAnchor": {
+    "id": "ports-json-anchor",
+    "name": "FOYNES Port",
+    "lat": 52.62,
+    "lng": -9.12,
+    "address": "Foynes, Ireland, Ireland",
+    "source": "ports.json",
+    "sourceId": "",
+    "score": 0,
+    "slug": "foynes-port"
+  },
+  "terminalResolution": {
+    "status": "unresolved",
+    "method": "ports_json_fallback",
+    "verified": false,
+    "notes": "All supplied candidates are ferry-only stops, local docks, unnamed maritime features, or unrelated places rather than passenger cruise terminals."
+  }
+}

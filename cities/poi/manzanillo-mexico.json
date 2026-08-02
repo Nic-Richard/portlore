@@ -1,0 +1,1108 @@
+{
+  "schemaVersion": 5,
+  "catalogType": "curation-candidates",
+  "generatedAt": "2026-07-30T08:22:30.301Z",
+  "source": "openstreetmap",
+  "sourceExtract": "mexico-latest.osm.pbf",
+  "radiusMeters": 10000,
+  "port": {
+    "id": "manzanillo-mexico",
+    "city": "Manzanillo",
+    "country": "Mexico"
+  },
+  "defaultTerminalId": "osm/generated/77343455e3e871f48eef",
+  "terminal": {
+    "id": "osm/generated/77343455e3e871f48eef",
+    "name": "Terminal de Cruceros",
+    "nameEnglish": "",
+    "lat": 19.0550862,
+    "lng": -104.3144,
+    "address": "",
+    "source": "verified_terminal_candidate",
+    "sourceId": "osm/generated/77343455e3e871f48eef",
+    "terminalType": "passenger_cruise_terminal",
+    "verified": true,
+    "notes": "External port and cruise-schedule checks support passenger cruise use, and the accepted candidate ID(s) correspond to the actual cruise terminal, cruise pier, or passenger terminal used by cruise ships.",
+    "sourceUrls": [],
+    "sources": [
+      "openstreetmap"
+    ],
+    "sourceIds": [
+      "osm/generated/77343455e3e871f48eef"
+    ],
+    "osmTags": {
+      "amenity": "ferry_terminal",
+      "ferry": "yes",
+      "man_made": "pier",
+      "public_transport": "station"
+    },
+    "matchedBy": [
+      "amenity=ferry_terminal",
+      "terminal-like name"
+    ],
+    "distanceFromPortMeters": 816
+  },
+  "terminals": [
+    {
+      "id": "osm/generated/77343455e3e871f48eef",
+      "name": "Terminal de Cruceros",
+      "nameEnglish": "",
+      "lat": 19.0550862,
+      "lng": -104.3144,
+      "address": "",
+      "source": "verified_terminal_candidate",
+      "sourceId": "osm/generated/77343455e3e871f48eef",
+      "terminalType": "passenger_cruise_terminal",
+      "verified": true,
+      "notes": "External port and cruise-schedule checks support passenger cruise use, and the accepted candidate ID(s) correspond to the actual cruise terminal, cruise pier, or passenger terminal used by cruise ships.",
+      "sourceUrls": [],
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/77343455e3e871f48eef"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "man_made": "pier",
+        "public_transport": "station"
+      },
+      "matchedBy": [
+        "amenity=ferry_terminal",
+        "terminal-like name"
+      ],
+      "distanceFromPortMeters": 816
+    },
+    {
+      "id": "osm/generated/2e08031f8bc1b64ff895",
+      "name": "Muelle para cruceros",
+      "nameEnglish": "",
+      "lat": 19.057294,
+      "lng": -104.3129801,
+      "address": "",
+      "source": "verified_terminal_candidate",
+      "sourceId": "osm/generated/2e08031f8bc1b64ff895",
+      "terminalType": "passenger_cruise_terminal",
+      "verified": true,
+      "notes": "External port and cruise-schedule checks support passenger cruise use, and the accepted candidate ID(s) correspond to the actual cruise terminal, cruise pier, or passenger terminal used by cruise ships.",
+      "sourceUrls": [],
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/2e08031f8bc1b64ff895"
+      ],
+      "osmTags": {
+        "man_made": "pier"
+      },
+      "matchedBy": [
+        "terminal-like name"
+      ],
+      "distanceFromPortMeters": 1096
+    }
+  ],
+  "terminalCandidateRadiusMeters": 5000,
+  "terminalCandidates": [
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/77343455e3e871f48eef",
+      "name": "Terminal de Cruceros",
+      "nameEnglish": "",
+      "lat": 19.0550862,
+      "lng": -104.3144,
+      "distanceFromPortMeters": 816,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal",
+        "terminal-like name"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "man_made": "pier",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/77343455e3e871f48eef"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/2e08031f8bc1b64ff895",
+      "name": "Muelle para cruceros",
+      "nameEnglish": "",
+      "lat": 19.057294,
+      "lng": -104.3129801,
+      "distanceFromPortMeters": 1096,
+      "address": "",
+      "matchedBy": [
+        "terminal-like name"
+      ],
+      "osmTags": {
+        "man_made": "pier"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/2e08031f8bc1b64ff895"
+      ]
+    },
+    {
+      "source": "nominatim",
+      "sourceId": "osm/node/8071503782",
+      "osmType": "node",
+      "osmId": "8071503782",
+      "name": "Administracion Portuaria",
+      "nameEnglish": "Manzanillo Port Offices",
+      "lat": 19.059418,
+      "lng": -104.302614,
+      "distanceFromPortMeters": 2106,
+      "address": "Administracion Portuaria, Avenida Teniente Azueta, Tapo Ventanas, Manzanillo, Colima, 28200, México",
+      "displayName": "Administracion Portuaria, Avenida Teniente Azueta, Tapo Ventanas, Manzanillo, Colima, 28200, México",
+      "query": "MANZANILLO Port, Manzanillo, Mexico",
+      "matchedBy": [
+        "Nominatim query: MANZANILLO Port, Manzanillo, Mexico"
+      ],
+      "osmTags": {},
+      "sources": [
+        "nominatim"
+      ],
+      "sourceIds": [
+        "osm/node/8071503782"
+      ]
+    }
+  ],
+  "counts": {
+    "attraction": 12,
+    "outdoors": 8,
+    "food_drink": 11,
+    "shopping": 4,
+    "essentials": 0
+  },
+  "pois": [
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d12437e4b9fa8a4b03d4",
+      "name": "Museo de la Perversidad",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 19.0530847,
+      "lng": -104.3155208,
+      "distanceFromTerminalMeters": 582,
+      "distanceFromDefaultTerminalMeters": 582,
+      "minDistanceFromAnyTerminalMeters": 582,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/05db3c52039823865d73",
+      "name": "Iguanario",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "zoo",
+      "lat": 19.0469596,
+      "lng": -104.3183371,
+      "distanceFromTerminalMeters": 381,
+      "distanceFromDefaultTerminalMeters": 381,
+      "minDistanceFromAnyTerminalMeters": 381,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "zoo"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/0e94120b0715390f142d",
+      "name": "Museo Universitario de Arqueología",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 19.0549227,
+      "lng": -104.3034806,
+      "distanceFromTerminalMeters": 1820,
+      "distanceFromDefaultTerminalMeters": 1820,
+      "minDistanceFromAnyTerminalMeters": 1820,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/842b9671da4c28023e01",
+      "name": "Barco Piloto",
+      "nameEnglish": "Piloto Boat",
+      "category": "attraction",
+      "subcategory": "monument",
+      "lat": 19.0538265,
+      "lng": -104.3127,
+      "distanceFromTerminalMeters": 877,
+      "distanceFromDefaultTerminalMeters": 877,
+      "minDistanceFromAnyTerminalMeters": 877,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "monument"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/cee75ef2f83b68243d0b",
+      "name": "Manzanillo Sign",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 19.0541726,
+      "lng": -104.3154538,
+      "distanceFromTerminalMeters": 666,
+      "distanceFromDefaultTerminalMeters": 666,
+      "minDistanceFromAnyTerminalMeters": 666,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/2bb703d619742d44f002",
+      "name": "Cruz de Manzanillo",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "wayside_cross",
+      "lat": 19.0520615,
+      "lng": -104.323216,
+      "distanceFromTerminalMeters": 408,
+      "distanceFromDefaultTerminalMeters": 408,
+      "minDistanceFromAnyTerminalMeters": 408,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "wayside_cross"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/1e87f34d0cf010131044",
+      "name": "Explanada del Pez Vela",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "square",
+      "lat": 19.0539344,
+      "lng": -104.3169189,
+      "distanceFromTerminalMeters": 544,
+      "distanceFromDefaultTerminalMeters": 544,
+      "minDistanceFromAnyTerminalMeters": 544,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "place": "square"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/88fab5c6b3376702b895",
+      "name": "Plaza Benito Juárez",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "square",
+      "lat": 19.0540095,
+      "lng": -104.3155398,
+      "distanceFromTerminalMeters": 647,
+      "distanceFromDefaultTerminalMeters": 647,
+      "minDistanceFromAnyTerminalMeters": 647,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "place": "square"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/1a99bd7bdda4562a119f",
+      "name": "Centro Cultural Salagua",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 19.1136211,
+      "lng": -104.327407,
+      "distanceFromTerminalMeters": 7117,
+      "distanceFromDefaultTerminalMeters": 7117,
+      "minDistanceFromAnyTerminalMeters": 7117,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/360daf789feb6f87f6f5",
+      "name": "Faro de campos",
+      "nameEnglish": "Campos Lighthouse",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 19.0218741,
+      "lng": -104.3343316,
+      "distanceFromTerminalMeters": 3471,
+      "distanceFromDefaultTerminalMeters": 3471,
+      "minDistanceFromAnyTerminalMeters": 3471,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "24/7",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/473116b14f6fb3f513d9",
+      "name": "Letras Puerto Manzanillo",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 19.077528,
+      "lng": -104.2870095,
+      "distanceFromTerminalMeters": 4625,
+      "distanceFromDefaultTerminalMeters": 4625,
+      "minDistanceFromAnyTerminalMeters": 4625,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/6aed2740c31035228e4c",
+      "name": "Feria de Manzanillo",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "theme_park",
+      "lat": 19.11199,
+      "lng": -104.3228099,
+      "distanceFromTerminalMeters": 6899,
+      "distanceFromDefaultTerminalMeters": 6899,
+      "minDistanceFromAnyTerminalMeters": 6899,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "theme_park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/233d433647b3634bcad6",
+      "name": "Playa El Majo",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "beach",
+      "lat": 19.0548095,
+      "lng": -104.3232711,
+      "distanceFromTerminalMeters": 636,
+      "distanceFromDefaultTerminalMeters": 636,
+      "minDistanceFromAnyTerminalMeters": 636,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "natural": "beach"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/1d88a7253903093a801b",
+      "name": "Playa San Pedrito",
+      "nameEnglish": "San Pedrito Beach",
+      "category": "outdoors",
+      "subcategory": "beach",
+      "lat": 19.0579992,
+      "lng": -104.304756,
+      "distanceFromTerminalMeters": 1833,
+      "distanceFromDefaultTerminalMeters": 1833,
+      "minDistanceFromAnyTerminalMeters": 1833,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "natural": "beach"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/84d5d2fe52d476ad5f4f",
+      "name": "Valle Dorado Beach",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "beach",
+      "lat": 19.0430675,
+      "lng": -104.3308688,
+      "distanceFromTerminalMeters": 1378,
+      "distanceFromDefaultTerminalMeters": 1378,
+      "minDistanceFromAnyTerminalMeters": 1378,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "natural": "beach"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/37ffe51d765895fde338",
+      "name": "Playa Las Brisas",
+      "nameEnglish": "Las Brisas Beach",
+      "category": "outdoors",
+      "subcategory": "beach",
+      "lat": 19.0674847,
+      "lng": -104.303045,
+      "distanceFromTerminalMeters": 2637,
+      "distanceFromDefaultTerminalMeters": 2637,
+      "minDistanceFromAnyTerminalMeters": 2637,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "natural": "beach"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b3985f77e81399639bec",
+      "name": "Jardín Álvaro Obregón",
+      "nameEnglish": "Alvaro Obregon Garden",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 19.0539865,
+      "lng": -104.3168903,
+      "distanceFromTerminalMeters": 551,
+      "distanceFromDefaultTerminalMeters": 551,
+      "minDistanceFromAnyTerminalMeters": 551,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/85afae0b9915b48e843c",
+      "name": "Mirador del Cerro de la Cruz",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "viewpoint",
+      "lat": 19.0521108,
+      "lng": -104.3231953,
+      "distanceFromTerminalMeters": 410,
+      "distanceFromDefaultTerminalMeters": 410,
+      "minDistanceFromAnyTerminalMeters": 410,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "viewpoint"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f3aca287e5af052a0727",
+      "name": "Mirador de Vigía",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "viewpoint",
+      "lat": 19.0565919,
+      "lng": -104.3205004,
+      "distanceFromTerminalMeters": 735,
+      "distanceFromDefaultTerminalMeters": 735,
+      "minDistanceFromAnyTerminalMeters": 735,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "viewpoint"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/471bafbd92ae7490d9a5",
+      "name": "Antojitos Mexicanos Colima",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 19.0535788,
+      "lng": -104.3172919,
+      "distanceFromTerminalMeters": 489,
+      "distanceFromDefaultTerminalMeters": 489,
+      "minDistanceFromAnyTerminalMeters": 489,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "13 Calle Balbino Dávalos, 28200",
+      "openingHours": "We-Mo 12:00-21:00",
+      "website": "",
+      "phone": "+523143322236",
+      "cuisine": [
+        "fish",
+        "mexican",
+        "seafood"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/cba5a832ee7c6197aa7d",
+      "name": "Fonda Doña Chelo",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 19.0510904,
+      "lng": -104.3177725,
+      "distanceFromTerminalMeters": 264,
+      "distanceFromDefaultTerminalMeters": 264,
+      "minDistanceFromAnyTerminalMeters": 264,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [
+        "fish",
+        "mexican",
+        "seafood"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/512db38b714b783859f2",
+      "name": "Menudería Jiménez",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 19.0510634,
+      "lng": -104.3176571,
+      "distanceFromTerminalMeters": 273,
+      "distanceFromDefaultTerminalMeters": 273,
+      "minDistanceFromAnyTerminalMeters": 273,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [
+        "mexican"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/1984772c0e57571e9bb5",
+      "name": "Menudería Tere",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 19.0512039,
+      "lng": -104.3176276,
+      "distanceFromTerminalMeters": 283,
+      "distanceFromDefaultTerminalMeters": 283,
+      "minDistanceFromAnyTerminalMeters": 283,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [
+        "mexican"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/7e47eba4f8885f9a79e4",
+      "name": "Mariscos Doña Ceci",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 19.0538662,
+      "lng": -104.3125349,
+      "distanceFromTerminalMeters": 895,
+      "distanceFromDefaultTerminalMeters": 895,
+      "minDistanceFromAnyTerminalMeters": 895,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/42438deae0264e46014f",
+      "name": "Cerveceria Chapultepec",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 19.0861599,
+      "lng": -104.3102523,
+      "distanceFromTerminalMeters": 4149,
+      "distanceFromDefaultTerminalMeters": 4149,
+      "minDistanceFromAnyTerminalMeters": 4149,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "http://cerverceriachapultepec.com",
+      "phone": "",
+      "cuisine": [
+        "mexican"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/5354f5802aee04eb869f",
+      "name": "Puerto Cafe",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 19.0882299,
+      "lng": -104.3122985,
+      "distanceFromTerminalMeters": 4327,
+      "distanceFromDefaultTerminalMeters": 4327,
+      "minDistanceFromAnyTerminalMeters": 4327,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [
+        "breakfast",
+        "mexican"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/6d1fbafd5cf56c1d3d9e",
+      "name": "restaurante las torres",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 19.0498782,
+      "lng": -104.2758915,
+      "distanceFromTerminalMeters": 4636,
+      "distanceFromDefaultTerminalMeters": 4636,
+      "minDistanceFromAnyTerminalMeters": 4636,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "50 jose leon, manzanillo, 28800",
+      "openingHours": "Mo-Su 09:00-21:00",
+      "website": "",
+      "phone": "+52 314 110 8544",
+      "cuisine": [
+        "sandwich",
+        "burger"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/9a9bd4a37daaca17999c",
+      "name": "Inazuma Sushi Manzanillo",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 19.0775334,
+      "lng": -104.3046332,
+      "distanceFromTerminalMeters": 3461,
+      "distanceFromDefaultTerminalMeters": 3461,
+      "minDistanceFromAnyTerminalMeters": 3461,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1504 B Avenida General Lázaro Cárdenas, Manzanillo, Colima, 28217",
+      "openingHours": "",
+      "website": "",
+      "phone": "+52 314 688 1446",
+      "cuisine": [
+        "japanese"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/53268262177e9b66eb31",
+      "name": "Monkey's",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 19.1076308,
+      "lng": -104.335602,
+      "distanceFromTerminalMeters": 6615,
+      "distanceFromDefaultTerminalMeters": 6615,
+      "minDistanceFromAnyTerminalMeters": 6615,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Boulevard Licenciado Miguel de la Madrid Hurtado",
+      "openingHours": "Mo-Su 11:00-21:00",
+      "website": "",
+      "phone": "",
+      "cuisine": [
+        "burger",
+        "chicken"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/bb5b663fbe668839d07c",
+      "name": "Señor Sushi",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 19.1007262,
+      "lng": -104.3251797,
+      "distanceFromTerminalMeters": 5667,
+      "distanceFromDefaultTerminalMeters": 5667,
+      "minDistanceFromAnyTerminalMeters": 5667,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Boulevard Licenciado Miguel de la Madrid Hurtado",
+      "openingHours": "",
+      "website": "",
+      "phone": "+523143330982",
+      "cuisine": [
+        "sushi"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/85c66b26d5a0af1e12b3",
+      "name": "Mercado del Valle de las Garzas",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "marketplace",
+      "lat": 19.0958625,
+      "lng": -104.3025581,
+      "distanceFromTerminalMeters": 5419,
+      "distanceFromDefaultTerminalMeters": 5419,
+      "minDistanceFromAnyTerminalMeters": 5419,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Av. Elías Zamora, Manzanillo, 28219",
+      "openingHours": "Mo-Su 07:00-15:00",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "marketplace"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/db948b2609837fb059c4",
+      "name": "Mercado de Artesanias",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "marketplace",
+      "lat": 19.1023372,
+      "lng": -104.3261379,
+      "distanceFromTerminalMeters": 5855,
+      "distanceFromDefaultTerminalMeters": 5855,
+      "minDistanceFromAnyTerminalMeters": 5855,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "marketplace"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/856bc56e25a3194fa1a7",
+      "name": "Plaza Mercado de Santiago El Colimense",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "marketplace",
+      "lat": 19.1203545,
+      "lng": -104.3524847,
+      "distanceFromTerminalMeters": 8535,
+      "distanceFromDefaultTerminalMeters": 8535,
+      "minDistanceFromAnyTerminalMeters": 8535,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "marketplace"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b170c5d0c2e4a1db5f4d",
+      "name": "Ley",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "supermarket",
+      "lat": 19.0495454,
+      "lng": -104.3053735,
+      "distanceFromTerminalMeters": 1538,
+      "distanceFromDefaultTerminalMeters": 1538,
+      "minDistanceFromAnyTerminalMeters": 1538,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "shop": "supermarket"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/6ecefaa289184c1548f2",
+      "name": "Jardín de la Miguel Hidalgo",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 19.0485093,
+      "lng": -104.3189114,
+      "distanceFromTerminalMeters": 201,
+      "distanceFromDefaultTerminalMeters": 201,
+      "minDistanceFromAnyTerminalMeters": 201,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "park"
+      }
+    }
+  ],
+  "portAnchor": {
+    "id": "ports-json-anchor",
+    "name": "MANZANILLO Port",
+    "lat": 19.05,
+    "lng": -104.32,
+    "address": "Manzanillo, Colima, Mexico",
+    "source": "ports.json",
+    "sourceId": "",
+    "score": 0,
+    "slug": "manzanillo-port"
+  },
+  "terminalResolution": {
+    "status": "resolved",
+    "method": "accepted_terminal_candidate",
+    "verified": true,
+    "notes": "External port and cruise-schedule checks support passenger cruise use, and the accepted candidate ID(s) correspond to the actual cruise terminal, cruise pier, or passenger terminal used by cruise ships."
+  }
+}

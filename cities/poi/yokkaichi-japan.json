@@ -1,0 +1,624 @@
+{
+  "schemaVersion": 5,
+  "catalogType": "curation-candidates",
+  "generatedAt": "2026-07-30T08:13:20.018Z",
+  "source": "openstreetmap",
+  "sourceExtract": "kansai-latest.osm.pbf",
+  "radiusMeters": 10000,
+  "port": {
+    "id": "yokkaichi-japan",
+    "city": "Yokkaichi",
+    "country": "Japan"
+  },
+  "defaultTerminalId": "osm/node/5780984855",
+  "terminal": {
+    "id": "osm/node/5780984855",
+    "name": "四日市ポートビル",
+    "nameEnglish": "Yokkaichi port building",
+    "lat": 34.9933011,
+    "lng": 136.6575937,
+    "address": "四日市ポートビル, 1, 四日市市, 三重県, 510-8006, 日本",
+    "source": "verified_terminal_candidate",
+    "sourceId": "osm/node/5780984855",
+    "terminalType": "passenger_cruise_terminal",
+    "verified": true,
+    "notes": "Accepted Yokkaichi Port Building as the best supplied passenger arrival landmark for cruise calls at the Kasumi Wharf area.",
+    "sourceUrls": [],
+    "sources": [
+      "nominatim"
+    ],
+    "sourceIds": [
+      "osm/node/5780984855"
+    ],
+    "osmTags": {},
+    "matchedBy": [
+      "Nominatim query: YOKKAICHI Port, Yokkaichi, Japan"
+    ],
+    "distanceFromPortMeters": 3610
+  },
+  "terminals": [
+    {
+      "id": "osm/node/5780984855",
+      "name": "四日市ポートビル",
+      "nameEnglish": "Yokkaichi port building",
+      "lat": 34.9933011,
+      "lng": 136.6575937,
+      "address": "四日市ポートビル, 1, 四日市市, 三重県, 510-8006, 日本",
+      "source": "verified_terminal_candidate",
+      "sourceId": "osm/node/5780984855",
+      "terminalType": "passenger_cruise_terminal",
+      "verified": true,
+      "notes": "Accepted Yokkaichi Port Building as the best supplied passenger arrival landmark for cruise calls at the Kasumi Wharf area.",
+      "sourceUrls": [],
+      "sources": [
+        "nominatim"
+      ],
+      "sourceIds": [
+        "osm/node/5780984855"
+      ],
+      "osmTags": {},
+      "matchedBy": [
+        "Nominatim query: YOKKAICHI Port, Yokkaichi, Japan"
+      ],
+      "distanceFromPortMeters": 3610
+    }
+  ],
+  "terminalCandidateRadiusMeters": 5000,
+  "terminalCandidates": [
+    {
+      "source": "nominatim",
+      "sourceId": "osm/node/4684547790",
+      "osmType": "node",
+      "osmId": "4684547790",
+      "name": "yokkaichi port station",
+      "nameEnglish": "yokkaichi port station",
+      "lat": 34.953146,
+      "lng": 136.6380249,
+      "distanceFromPortMeters": 2012,
+      "address": "yokkaichi port station, 国道164号, 末広町, 千歳町, 四日市市, 三重県, 510-0059, 日本",
+      "displayName": "yokkaichi port station, 国道164号, 末広町, 千歳町, 四日市市, 三重県, 510-0059, 日本",
+      "query": "YOKKAICHI Port, Yokkaichi, Japan",
+      "matchedBy": [
+        "Nominatim query: YOKKAICHI Port, Yokkaichi, Japan"
+      ],
+      "osmTags": {},
+      "sources": [
+        "nominatim"
+      ],
+      "sourceIds": [
+        "osm/node/4684547790"
+      ]
+    },
+    {
+      "source": "nominatim",
+      "sourceId": "osm/node/5780984855",
+      "osmType": "node",
+      "osmId": "5780984855",
+      "name": "四日市ポートビル",
+      "nameEnglish": "Yokkaichi port building",
+      "lat": 34.9933011,
+      "lng": 136.6575937,
+      "distanceFromPortMeters": 3610,
+      "address": "四日市ポートビル, 1, 四日市市, 三重県, 510-8006, 日本",
+      "displayName": "四日市ポートビル, 1, 四日市市, 三重県, 510-8006, 日本",
+      "query": "YOKKAICHI Port, Yokkaichi, Japan",
+      "matchedBy": [
+        "Nominatim query: YOKKAICHI Port, Yokkaichi, Japan"
+      ],
+      "osmTags": {},
+      "sources": [
+        "nominatim"
+      ],
+      "sourceIds": [
+        "osm/node/5780984855"
+      ]
+    }
+  ],
+  "counts": {
+    "attraction": 6,
+    "outdoors": 3,
+    "food_drink": 10,
+    "shopping": 0,
+    "essentials": 0
+  },
+  "pois": [
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/071aa3eaf2279d0cb064",
+      "name": "澄懐堂美術館",
+      "nameEnglish": "Chokaidō Museum",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 34.9652568,
+      "lng": 136.6180274,
+      "distanceFromTerminalMeters": 1212,
+      "distanceFromDefaultTerminalMeters": 1212,
+      "minDistanceFromAnyTerminalMeters": 1212,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/80ca316caaf0d04b7c3d",
+      "name": "羽津城",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "castle",
+      "lat": 34.988173,
+      "lng": 136.6320005,
+      "distanceFromTerminalMeters": 2029,
+      "distanceFromDefaultTerminalMeters": 2029,
+      "minDistanceFromAnyTerminalMeters": 2029,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "castle"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/7fa4723cf7b73692d7c1",
+      "name": "くるべ古代歴史館",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 35.0139461,
+      "lng": 136.6344374,
+      "distanceFromTerminalMeters": 4903,
+      "distanceFromDefaultTerminalMeters": 4903,
+      "minDistanceFromAnyTerminalMeters": 4903,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c27422c63b0f01ecd280",
+      "name": "川越電力館テラ46",
+      "nameEnglish": "Kawagoe Electric Power. Museum Tera 46",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 35.0116883,
+      "lng": 136.6898895,
+      "distanceFromTerminalMeters": 7159,
+      "distanceFromDefaultTerminalMeters": 7159,
+      "minDistanceFromAnyTerminalMeters": 7159,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/04f3d95ce578ce9cc581",
+      "name": "小山田美術館",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 34.9448813,
+      "lng": 136.5347346,
+      "distanceFromTerminalMeters": 9120,
+      "distanceFromDefaultTerminalMeters": 9120,
+      "minDistanceFromAnyTerminalMeters": 9120,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "四日市市",
+      "openingHours": "Tu-Su 10:00-16:00; Aug off",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/273d8602ba21ac897565",
+      "name": "朝日町歴史博物館",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 35.036654,
+      "lng": 136.659463,
+      "distanceFromTerminalMeters": 7882,
+      "distanceFromDefaultTerminalMeters": 7882,
+      "minDistanceFromAnyTerminalMeters": 7882,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/63f9b45bcdfe47d56b7c",
+      "name": "北条公園",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 34.9698812,
+      "lng": 136.6337088,
+      "distanceFromTerminalMeters": 338,
+      "distanceFromDefaultTerminalMeters": 338,
+      "minDistanceFromAnyTerminalMeters": 338,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/3057eda5ea0d9cd66038",
+      "name": "yokkaichi port station",
+      "nameEnglish": "yokkaichi port station",
+      "category": "outdoors",
+      "subcategory": "viewpoint",
+      "lat": 34.953146,
+      "lng": 136.6380249,
+      "distanceFromTerminalMeters": 2012,
+      "distanceFromDefaultTerminalMeters": 2012,
+      "minDistanceFromAnyTerminalMeters": 2012,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "viewpoint"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/edb44ea8b63bc849fd81",
+      "name": "四日市ポートビル",
+      "nameEnglish": "Yokkaichi port building",
+      "category": "outdoors",
+      "subcategory": "viewpoint",
+      "lat": 34.9933011,
+      "lng": 136.6575937,
+      "distanceFromTerminalMeters": 3610,
+      "distanceFromDefaultTerminalMeters": 3610,
+      "minDistanceFromAnyTerminalMeters": 3610,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "viewpoint"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/1dd45776d8e79e517e72",
+      "name": "JAZZ-TAKE 0",
+      "nameEnglish": "JAZZ-TAKE 0",
+      "category": "food_drink",
+      "subcategory": "bar",
+      "lat": 34.9644553,
+      "lng": 136.6231373,
+      "distanceFromTerminalMeters": 878,
+      "distanceFromDefaultTerminalMeters": 878,
+      "minDistanceFromAnyTerminalMeters": 878,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "https://takezero-jazz.amebaownd.com/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "bar"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/55ec04eb39339482cfd6",
+      "name": "MEIGETSU",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 34.9664479,
+      "lng": 136.6223429,
+      "distanceFromTerminalMeters": 802,
+      "distanceFromDefaultTerminalMeters": 802,
+      "minDistanceFromAnyTerminalMeters": 802,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [
+        "barbecue"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/bf17daa51086bfcf312a",
+      "name": "ドトールコーヒーショップ",
+      "nameEnglish": "Doutor Coffee Shop",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 34.936136,
+      "lng": 136.6012862,
+      "distanceFromTerminalMeters": 4586,
+      "distanceFromDefaultTerminalMeters": 4586,
+      "minDistanceFromAnyTerminalMeters": 4586,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "四日市市",
+      "openingHours": "",
+      "website": "http://sasp.mapion.co.jp/b/doutor/info/02012198/",
+      "phone": "",
+      "cuisine": [
+        "coffee_shop"
+      ],
+      "wheelchair": "",
+      "brand": "ドトールコーヒーショップ",
+      "description": "",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ab20223d23c67dad2a03",
+      "name": "三重人",
+      "nameEnglish": "Mie jin",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 34.9674323,
+      "lng": 136.6203184,
+      "distanceFromTerminalMeters": 927,
+      "distanceFromDefaultTerminalMeters": 927,
+      "minDistanceFromAnyTerminalMeters": 927,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "国道164号",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/9b3581b07e3529264377",
+      "name": "焼き鳥酒場 団",
+      "nameEnglish": "Yakitori Sakaba Dan",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 34.965346,
+      "lng": 136.6153792,
+      "distanceFromTerminalMeters": 1429,
+      "distanceFromDefaultTerminalMeters": 1429,
+      "minDistanceFromAnyTerminalMeters": 1429,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [
+        "japanese"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/e092fa371c1ecdff7405",
+      "name": "レッズバーガーストア",
+      "nameEnglish": "Red's Burger Store",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 34.9660243,
+      "lng": 136.6160339,
+      "distanceFromTerminalMeters": 1347,
+      "distanceFromDefaultTerminalMeters": 1347,
+      "minDistanceFromAnyTerminalMeters": 1347,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "鵜の森1-4-5泗水ビル1F",
+      "openingHours": "We-Mo 11:00-21:30",
+      "website": "",
+      "phone": "0593511686",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/9622cc022eff50682b96",
+      "name": "Bulan",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "pub",
+      "lat": 34.9677688,
+      "lng": 136.6205551,
+      "distanceFromTerminalMeters": 896,
+      "distanceFromDefaultTerminalMeters": 896,
+      "minDistanceFromAnyTerminalMeters": 896,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "pub"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/4e6feeb0ffa264a83203",
+      "name": "COCINA",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 34.9677894,
+      "lng": 136.6229019,
+      "distanceFromTerminalMeters": 692,
+      "distanceFromDefaultTerminalMeters": 692,
+      "minDistanceFromAnyTerminalMeters": 692,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/24e0bd35fc75abdea4de",
+      "name": "昼呑み焼酎BAR 晃",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "bar",
+      "lat": 34.9690006,
+      "lng": 136.6225008,
+      "distanceFromTerminalMeters": 692,
+      "distanceFromDefaultTerminalMeters": 692,
+      "minDistanceFromAnyTerminalMeters": 692,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "bar"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/bdf405130ca7d844860f",
+      "name": "&CHION",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "bar",
+      "lat": 34.9693568,
+      "lng": 136.621815,
+      "distanceFromTerminalMeters": 749,
+      "distanceFromDefaultTerminalMeters": 749,
+      "minDistanceFromAnyTerminalMeters": 749,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "bar"
+      }
+    }
+  ],
+  "portAnchor": {
+    "id": "ports-json-anchor",
+    "name": "YOKKAICHI Port",
+    "lat": 34.97,
+    "lng": 136.63,
+    "address": "Yokkaichi, Mie, Japan",
+    "source": "ports.json",
+    "sourceId": "",
+    "score": 0,
+    "slug": "yokkaichi-port"
+  },
+  "terminalResolution": {
+    "status": "resolved",
+    "method": "accepted_terminal_candidate",
+    "verified": true,
+    "notes": "Accepted Yokkaichi Port Building as the best supplied passenger arrival landmark for cruise calls at the Kasumi Wharf area."
+  }
+}

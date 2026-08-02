@@ -1,0 +1,1167 @@
+{
+  "schemaVersion": 5,
+  "catalogType": "curation-candidates",
+  "generatedAt": "2026-07-30T07:39:55.465Z",
+  "source": "openstreetmap",
+  "sourceExtract": "bulgaria-latest.osm.pbf",
+  "radiusMeters": 10000,
+  "port": {
+    "id": "varna-bulgaria",
+    "city": "Varna",
+    "country": "Bulgaria"
+  },
+  "defaultTerminalId": "manual/varna-bulgaria/varna-maritime-station",
+  "terminal": {
+    "id": "manual/varna-bulgaria/varna-maritime-station",
+    "name": "Varna Maritime Station",
+    "nameEnglish": "",
+    "lat": 43.19949,
+    "lng": 27.92189,
+    "address": "",
+    "source": "manual_web_research",
+    "sourceId": "manual/varna-bulgaria/varna-maritime-station",
+    "terminalType": "passenger_cruise_terminal",
+    "verified": true,
+    "notes": "Passenger and cruise terminal on the central Varna waterfront.",
+    "sourceUrls": [
+      "https://port-varna.bg/en/Passenger-terminal",
+      "https://www.openstreetmap.org/?mlat=43.19949&mlon=27.92189#map=17/43.19949/27.92189"
+    ],
+    "sources": [
+      "manual_web_research"
+    ],
+    "sourceIds": [
+      "manual/varna-bulgaria/varna-maritime-station"
+    ],
+    "osmTags": {},
+    "matchedBy": [
+      "web_researched_terminal"
+    ],
+    "distanceFromPortMeters": null
+  },
+  "terminals": [
+    {
+      "id": "manual/varna-bulgaria/varna-maritime-station",
+      "name": "Varna Maritime Station",
+      "nameEnglish": "",
+      "lat": 43.19949,
+      "lng": 27.92189,
+      "address": "",
+      "source": "manual_web_research",
+      "sourceId": "manual/varna-bulgaria/varna-maritime-station",
+      "terminalType": "passenger_cruise_terminal",
+      "verified": true,
+      "notes": "Passenger and cruise terminal on the central Varna waterfront.",
+      "sourceUrls": [
+        "https://port-varna.bg/en/Passenger-terminal",
+        "https://www.openstreetmap.org/?mlat=43.19949&mlon=27.92189#map=17/43.19949/27.92189"
+      ],
+      "sources": [
+        "manual_web_research"
+      ],
+      "sourceIds": [
+        "manual/varna-bulgaria/varna-maritime-station"
+      ],
+      "osmTags": {},
+      "matchedBy": [
+        "web_researched_terminal"
+      ],
+      "distanceFromPortMeters": null
+    }
+  ],
+  "terminalCandidateRadiusMeters": 5000,
+  "terminalCandidates": [
+    {
+      "source": "nominatim",
+      "sourceId": "osm/node/1087990971",
+      "osmType": "node",
+      "osmId": "1087990971",
+      "name": "Кап. Г. Георгиев - Порт Варна",
+      "nameEnglish": "",
+      "lat": 43.190635,
+      "lng": 27.9213099,
+      "distanceFromPortMeters": 4121,
+      "address": "Кап. Г. Георгиев - Порт Варна, Вълноломна, Гръцката махала, Център, Варна, Одесос, Варна, 9001, България",
+      "displayName": "Кап. Г. Георгиев - Порт Варна, Вълноломна, Гръцката махала, Център, Варна, Одесос, Варна, 9001, България",
+      "query": "VARNA Port, Varna, Bulgaria",
+      "matchedBy": [
+        "Nominatim query: VARNA Port, Varna, Bulgaria"
+      ],
+      "osmTags": {},
+      "sources": [
+        "nominatim"
+      ],
+      "sourceIds": [
+        "osm/node/1087990971"
+      ]
+    },
+    {
+      "source": "nominatim",
+      "sourceId": "osm/node/13680274424",
+      "osmType": "node",
+      "osmId": "13680274424",
+      "name": "Electrip - Port Varna",
+      "nameEnglish": "Electrip - Port Varna",
+      "lat": 43.1967224,
+      "lng": 27.9199988,
+      "distanceFromPortMeters": 4460,
+      "address": "Electrip - Port Varna, Вълноломна, Гръцката махала, Център, Варна, Одесос, Варна, 9001, България",
+      "displayName": "Electrip - Port Varna, Вълноломна, Гръцката махала, Център, Варна, Одесос, Варна, 9001, България",
+      "query": "VARNA Port, Varna, Bulgaria",
+      "matchedBy": [
+        "Nominatim query: VARNA Port, Varna, Bulgaria"
+      ],
+      "osmTags": {
+        "description": "8× 60kW DC CCS2"
+      },
+      "sources": [
+        "nominatim"
+      ],
+      "sourceIds": [
+        "osm/node/13680274424"
+      ]
+    }
+  ],
+  "counts": {
+    "attraction": 17,
+    "outdoors": 9,
+    "food_drink": 12,
+    "shopping": 1,
+    "essentials": 0
+  },
+  "pois": [
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b5daaf3069425f74896c",
+      "name": "Музей Стара Варна",
+      "nameEnglish": "Old Varna Museum",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 43.2008471,
+      "lng": 27.9177437,
+      "distanceFromTerminalMeters": 4829,
+      "distanceFromDefaultTerminalMeters": 4829,
+      "minDistanceFromAnyTerminalMeters": 4829,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "5 Цар Калоян, Варна, 9000",
+      "openingHours": "Mo-Fr 10:00-17:00",
+      "website": "https://staravarna.com/",
+      "phone": "+359 52 654 065",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c17788501a350909903d",
+      "name": "Природонаучен музей",
+      "nameEnglish": "Museum of Natural History",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 43.2066725,
+      "lng": 27.9319947,
+      "distanceFromTerminalMeters": 4277,
+      "distanceFromDefaultTerminalMeters": 4277,
+      "minDistanceFromAnyTerminalMeters": 4277,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Варна",
+      "openingHours": "",
+      "website": "http://nature.museumvarna.com",
+      "phone": "+359 52 618 011",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/8e0792ca312a234a2ea4",
+      "name": "Дворец Евксиноград",
+      "nameEnglish": "Euxinograd Palace",
+      "category": "attraction",
+      "subcategory": "manor",
+      "lat": 43.2191448,
+      "lng": 27.9946225,
+      "distanceFromTerminalMeters": 4788,
+      "distanceFromDefaultTerminalMeters": 4788,
+      "minDistanceFromAnyTerminalMeters": 4788,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Община Варна",
+      "openingHours": "",
+      "website": "http://euxinograde.bg/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "manor"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/af0f5a404126442c2d92",
+      "name": "Военноморски музей",
+      "nameEnglish": "Maritime Museum",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 43.2005237,
+      "lng": 27.9215559,
+      "distanceFromTerminalMeters": 4542,
+      "distanceFromDefaultTerminalMeters": 4542,
+      "minDistanceFromAnyTerminalMeters": 4542,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Su 10:00-18:00; Mo, Tu closed",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/57f89b56ee5ce2c51e60",
+      "name": "Музей за история на медицината",
+      "nameEnglish": "Museum of Medicine History",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 43.1998308,
+      "lng": 27.9206772,
+      "distanceFromTerminalMeters": 4566,
+      "distanceFromDefaultTerminalMeters": 4566,
+      "minDistanceFromAnyTerminalMeters": 4566,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Fr 08:30-16:30",
+      "website": "",
+      "phone": "+359 52 639 729",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/9d0f00619d402c5d7476",
+      "name": "Художествена галерия \"Борис Георгиев\"",
+      "nameEnglish": "Art Gallery Boris Georgiev",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 43.206976,
+      "lng": 27.9193035,
+      "distanceFromTerminalMeters": 5088,
+      "distanceFromDefaultTerminalMeters": 5088,
+      "minDistanceFromAnyTerminalMeters": 5088,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1 Любен Каравелов, Варна",
+      "openingHours": "Tu-Su 10:00-17:00",
+      "website": "https://www.varnacityartgallery.com/",
+      "phone": "+359 52 612 363",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/dda1f156d4ed1ec37090",
+      "name": "Делфинариум",
+      "nameEnglish": "Delfinarium",
+      "category": "attraction",
+      "subcategory": "aquarium",
+      "lat": 43.2126246,
+      "lng": 27.9434312,
+      "distanceFromTerminalMeters": 4219,
+      "distanceFromDefaultTerminalMeters": 4219,
+      "minDistanceFromAnyTerminalMeters": 4219,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "no",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "aquarium"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/5e50493473723dc18429",
+      "name": "Свето Успение Богородично",
+      "nameEnglish": "Dormition of the Mother of God Cathedral",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 43.2052527,
+      "lng": 27.909971,
+      "distanceFromTerminalMeters": 5618,
+      "distanceFromDefaultTerminalMeters": 5618,
+      "minDistanceFromAnyTerminalMeters": 5618,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Варна",
+      "openingHours": "Mo-Su 07:30-17:30",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "place_of_worship",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/4f1d7159321c7acb33b3",
+      "name": "Фар",
+      "nameEnglish": "Lighthouse tower",
+      "category": "attraction",
+      "subcategory": "lighthouse",
+      "lat": 43.2259919,
+      "lng": 28.0108318,
+      "distanceFromTerminalMeters": 6092,
+      "distanceFromDefaultTerminalMeters": 6092,
+      "minDistanceFromAnyTerminalMeters": 6092,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "man_made": "lighthouse"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ac5685b0957bd113b687",
+      "name": "Фар Свети Никола",
+      "nameEnglish": "Lighthouse Sv. Nikola",
+      "category": "attraction",
+      "subcategory": "lighthouse",
+      "lat": 43.1872671,
+      "lng": 27.9218042,
+      "distanceFromTerminalMeters": 3990,
+      "distanceFromDefaultTerminalMeters": 3990,
+      "minDistanceFromAnyTerminalMeters": 3990,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "https://youtu.be/cPASgAXiXoc?si=7_m9UM6TFeiVWmfT",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "man_made": "lighthouse"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/29912cb72ec783ba24bd",
+      "name": "Николай Коперник",
+      "nameEnglish": "Nicolaus Copernicus",
+      "category": "attraction",
+      "subcategory": "monument",
+      "lat": 43.2026893,
+      "lng": 27.9229321,
+      "distanceFromTerminalMeters": 4574,
+      "distanceFromDefaultTerminalMeters": 4574,
+      "minDistanceFromAnyTerminalMeters": 4574,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "monument"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/9263db7a894a4d1ad76f",
+      "name": "Римски терми",
+      "nameEnglish": "Roman Thermal Bath",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 43.2001764,
+      "lng": 27.918196,
+      "distanceFromTerminalMeters": 4761,
+      "distanceFromDefaultTerminalMeters": 4761,
+      "minDistanceFromAnyTerminalMeters": 4761,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "archaeological_site",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/93b27ca55ac4a0c0e790",
+      "name": "Северна антична градска крепостна стена",
+      "nameEnglish": "Northern antique city wall",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 43.2032564,
+      "lng": 27.9160074,
+      "distanceFromTerminalMeters": 5084,
+      "distanceFromDefaultTerminalMeters": 5084,
+      "minDistanceFromAnyTerminalMeters": 5084,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "http://www.gradvarna.com/castles_past.htm",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "citywalls",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/7f35a1fe5783d44fdd3a",
+      "name": "Паметник на украинските воини загинали за свободата на България",
+      "nameEnglish": "Memorial in honour of the fallen ukrainian soldiers, who fought for Bulgarian independence",
+      "category": "attraction",
+      "subcategory": "memorial",
+      "lat": 43.2051871,
+      "lng": 27.9247504,
+      "distanceFromTerminalMeters": 4615,
+      "distanceFromDefaultTerminalMeters": 4615,
+      "minDistanceFromAnyTerminalMeters": 4615,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "https://nauka.bg/pametnik-na-ukrainskite-voini-zagina/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "memorial"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/8fa71b2d7599121b474b",
+      "name": "Фар Евксиноград",
+      "nameEnglish": "Lighthouse Euxinograde",
+      "category": "attraction",
+      "subcategory": "lighthouse",
+      "lat": 43.2166908,
+      "lng": 27.9868563,
+      "distanceFromTerminalMeters": 4303,
+      "distanceFromDefaultTerminalMeters": 4303,
+      "minDistanceFromAnyTerminalMeters": 4303,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "man_made": "lighthouse"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c6eb3d961ecbb74fe0f2",
+      "name": "BEACH BAR SELFIE",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "viewpoint",
+      "lat": 43.2054769,
+      "lng": 27.9267744,
+      "distanceFromTerminalMeters": 4506,
+      "distanceFromDefaultTerminalMeters": 4506,
+      "minDistanceFromAnyTerminalMeters": 4506,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "https://youtu.be/aeeFaUEy4F0?si=fr5GC8PfBXPQ2_cc&t=160",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "viewpoint"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/786a98a96e7e354b98f9",
+      "name": "плаж Буните-2",
+      "nameEnglish": "Bunite-2",
+      "category": "outdoors",
+      "subcategory": "beach",
+      "lat": 43.2106152,
+      "lng": 27.9501079,
+      "distanceFromTerminalMeters": 3767,
+      "distanceFromDefaultTerminalMeters": 3767,
+      "minDistanceFromAnyTerminalMeters": 3767,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "24/7",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "natural": "beach"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/951557452134ca0c6da4",
+      "name": "плаж Буните",
+      "nameEnglish": "Bunite",
+      "category": "outdoors",
+      "subcategory": "beach",
+      "lat": 43.2097579,
+      "lng": 27.9413036,
+      "distanceFromTerminalMeters": 4045,
+      "distanceFromDefaultTerminalMeters": 4045,
+      "minDistanceFromAnyTerminalMeters": 4045,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "natural": "beach"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/cfe010bced61fde9d6af",
+      "name": "плаж Офицерски-запад",
+      "nameEnglish": "Oficerski-zapad beach",
+      "category": "outdoors",
+      "subcategory": "beach",
+      "lat": 43.2063048,
+      "lng": 27.9337813,
+      "distanceFromTerminalMeters": 4144,
+      "distanceFromDefaultTerminalMeters": 4144,
+      "minDistanceFromAnyTerminalMeters": 4144,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "natural": "beach"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/9e762d152d9e8a073c6e",
+      "name": "Южен плаж",
+      "nameEnglish": "South beach",
+      "category": "outdoors",
+      "subcategory": "beach",
+      "lat": 43.1986232,
+      "lng": 27.9222609,
+      "distanceFromTerminalMeters": 4389,
+      "distanceFromDefaultTerminalMeters": 4389,
+      "minDistanceFromAnyTerminalMeters": 4389,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "natural": "beach"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ba14e3b55ee3d89b8184",
+      "name": "Нудистки плаж",
+      "nameEnglish": "Nude beach",
+      "category": "outdoors",
+      "subcategory": "beach",
+      "lat": 43.1464809,
+      "lng": 27.9404963,
+      "distanceFromTerminalMeters": 4429,
+      "distanceFromDefaultTerminalMeters": 4429,
+      "minDistanceFromAnyTerminalMeters": 4429,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "natural": "beach"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/0444657f9b634a2c37ab",
+      "name": "Централен плаж",
+      "nameEnglish": "Central beach",
+      "category": "outdoors",
+      "subcategory": "beach",
+      "lat": 43.2033892,
+      "lng": 27.9254378,
+      "distanceFromTerminalMeters": 4451,
+      "distanceFromDefaultTerminalMeters": 4451,
+      "minDistanceFromAnyTerminalMeters": 4451,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "natural": "beach"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/39d6aa555519dacae092",
+      "name": "Ribarski beach",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "beach",
+      "lat": 43.2058787,
+      "lng": 27.9320319,
+      "distanceFromTerminalMeters": 4214,
+      "distanceFromDefaultTerminalMeters": 4214,
+      "minDistanceFromAnyTerminalMeters": 4214,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "natural": "beach"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/862f3aa9aec3b127cdf7",
+      "name": "Souvlaki Traditional Greek Grill",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 43.2103927,
+      "lng": 27.9248198,
+      "distanceFromTerminalMeters": 4983,
+      "distanceFromDefaultTerminalMeters": 4983,
+      "minDistanceFromAnyTerminalMeters": 4983,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "32 Любен Каравелов, Варна, 9002",
+      "openingHours": "Mo-Su 17:00-00:00",
+      "website": "https://souvlakivarna.com/",
+      "phone": "+359 87 989 4634",
+      "cuisine": [
+        "greek"
+      ],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/e4497361ab189d824e25",
+      "name": "Чифлика BBQ&Pizza",
+      "nameEnglish": "Chiflika BBQ&Pizza",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 43.2066056,
+      "lng": 27.9331108,
+      "distanceFromTerminalMeters": 4207,
+      "distanceFromDefaultTerminalMeters": 4207,
+      "minDistanceFromAnyTerminalMeters": 4207,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Крайбрежна алея, Варна",
+      "openingHours": "Mo-Su 10:00-02:00",
+      "website": "https://www.facebook.com/chiflikabbq",
+      "phone": "+359898560379",
+      "cuisine": [
+        "fish",
+        "bulgarian",
+        "barbecue"
+      ],
+      "wheelchair": "no",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/fa7a0f44bb296b562b36",
+      "name": "Немо Евксиноград",
+      "nameEnglish": "Nemo Evksinovgrad",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 43.218868,
+      "lng": 27.9802478,
+      "distanceFromTerminalMeters": 4401,
+      "distanceFromDefaultTerminalMeters": 4401,
+      "minDistanceFromAnyTerminalMeters": 4401,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Местност Траката,, Варна, 9000",
+      "openingHours": "Mo-Su 10:00-23:00",
+      "website": "https://nemo.bg/",
+      "phone": "+359 87 6 670 002",
+      "cuisine": [
+        "seafood",
+        "pizza"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/8c965611f2f76f2fb3f2",
+      "name": "Happy Bar & Grill",
+      "nameEnglish": "Happy Bar & Grill",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 43.1961014,
+      "lng": 27.9195678,
+      "distanceFromTerminalMeters": 4464,
+      "distanceFromDefaultTerminalMeters": 4464,
+      "minDistanceFromAnyTerminalMeters": 4464,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Fr-Sa 11:30-23:00; Mo-Th,Su 11:30-22:30",
+      "website": "https://happy.bg/",
+      "phone": "+359 700 20888",
+      "cuisine": [
+        "international"
+      ],
+      "wheelchair": "yes",
+      "brand": "Happy Bar & Grill",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c977ff739aaeaeec2aa5",
+      "name": "Мартини Бар",
+      "nameEnglish": "Martini Bar",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 43.2113509,
+      "lng": 27.9262233,
+      "distanceFromTerminalMeters": 4975,
+      "distanceFromDefaultTerminalMeters": 4975,
+      "minDistanceFromAnyTerminalMeters": 4975,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "24 Никола Михайловски, Варна",
+      "openingHours": "Mo-Su 08:00-24:00",
+      "website": "https://martini.bg/",
+      "phone": "+359 89 337 4437",
+      "cuisine": [
+        "italian",
+        "sandwich",
+        "japanese"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/985fb32ae78fe3a3992d",
+      "name": "Captain Cook",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 43.1928836,
+      "lng": 27.9212199,
+      "distanceFromTerminalMeters": 4206,
+      "distanceFromDefaultTerminalMeters": 4206,
+      "minDistanceFromAnyTerminalMeters": 4206,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Варна, BG",
+      "openingHours": "Mo-Su 12:00-24:00",
+      "website": "http://www.captaincook.bg/",
+      "phone": "+359 88 299 9002",
+      "cuisine": [
+        "fish"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ebdc8edc66d57c8e2529",
+      "name": "Port Riva",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 43.1962365,
+      "lng": 27.918738,
+      "distanceFromTerminalMeters": 4531,
+      "distanceFromDefaultTerminalMeters": 4531,
+      "minDistanceFromAnyTerminalMeters": 4531,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "11:00-23:30",
+      "website": "https://portriva.bg/",
+      "phone": "+359 88 212 1211",
+      "cuisine": [
+        "pizza",
+        "italian",
+        "regional",
+        "fish"
+      ],
+      "wheelchair": "limited",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/537d5bd044662e5ca1b1",
+      "name": "Burrata Italiana",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 43.196267,
+      "lng": 27.9179882,
+      "distanceFromTerminalMeters": 4588,
+      "distanceFromDefaultTerminalMeters": 4588,
+      "minDistanceFromAnyTerminalMeters": 4588,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Su 11:00-22:30",
+      "website": "https://burrata.bg",
+      "phone": "+359 700 20888",
+      "cuisine": [
+        "italian"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/eead343786f06b40708b",
+      "name": "Omelette Varna",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 43.2105692,
+      "lng": 27.9306155,
+      "distanceFromTerminalMeters": 4663,
+      "distanceFromDefaultTerminalMeters": 4663,
+      "minDistanceFromAnyTerminalMeters": 4663,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "115 бул. Княз Борис I, Варна, 9002",
+      "openingHours": "Mo-Su 08:00-20:00",
+      "website": "https://www.instagram.com/omeletteandfitdesserts",
+      "phone": "+359 887 897 889",
+      "cuisine": [
+        "breakfast",
+        "coffee_shop",
+        "cake",
+        "dessert",
+        "brunch",
+        "sandwich",
+        "european"
+      ],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/703565a598f9f80f6024",
+      "name": "Surf & Turf",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 43.1802078,
+      "lng": 27.910453,
+      "distanceFromTerminalMeters": 4828,
+      "distanceFromDefaultTerminalMeters": 4828,
+      "minDistanceFromAnyTerminalMeters": 4828,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "9003",
+      "openingHours": "Mo-Su 10:00-02:00",
+      "website": "https://surfandturf.bg/",
+      "phone": "+359 89 8888 132",
+      "cuisine": [
+        "barbecue",
+        "fine_dining",
+        "seafood"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/592a6a2e2c6b9e905b71",
+      "name": "Социалната чайна",
+      "nameEnglish": "The Social Teahouse",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 43.2019785,
+      "lng": 27.9151382,
+      "distanceFromTerminalMeters": 5075,
+      "distanceFromDefaultTerminalMeters": 5075,
+      "minDistanceFromAnyTerminalMeters": 5075,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "53 Преслав, 9000",
+      "openingHours": "Tu-Su 10:00-22:00",
+      "website": "https://thesocialteahouse.bg/",
+      "phone": "",
+      "cuisine": [
+        "tea"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/9db935a5558fbe420de0",
+      "name": "SEA GARDEN RESTAURANT",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 43.2098564,
+      "lng": 27.9288965,
+      "distanceFromTerminalMeters": 4704,
+      "distanceFromDefaultTerminalMeters": 4704,
+      "minDistanceFromAnyTerminalMeters": 4704,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Su 07:00-23:00",
+      "website": "https://dimyat.rosslyn-hotels.com/zavedeniya/",
+      "phone": "+359 88 296 9742",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/76279b72364b23e647c7",
+      "name": "Гранд Мол",
+      "nameEnglish": "Grand Mall",
+      "category": "shopping",
+      "subcategory": "mall",
+      "lat": 43.2174377,
+      "lng": 27.8985146,
+      "distanceFromTerminalMeters": 7135,
+      "distanceFromDefaultTerminalMeters": 7135,
+      "minDistanceFromAnyTerminalMeters": 7135,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "2 Акад. Андрей Сахаров, 9000",
+      "openingHours": "Mo-Su 09:00-22:00",
+      "website": "https://grandmall-varna.com/",
+      "phone": "+359 700 33939",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "shop": "mall"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/42bf69cf2c0799674332",
+      "name": "Аквариум",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "aquarium",
+      "lat": 43.2013084,
+      "lng": 27.9223316,
+      "distanceFromTerminalMeters": 4533,
+      "distanceFromDefaultTerminalMeters": 4533,
+      "minDistanceFromAnyTerminalMeters": 4533,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "4 бул. Приморски, Варна",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Черноморска биологична станция с аквариум във Варна в Историческото ядро на Морската градина – категория „национално значение“",
+      "osmTags": {
+        "tourism": "aquarium"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ca2f5099162cf0218108",
+      "name": "Arhis Gallery",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "gallery",
+      "lat": 43.2077834,
+      "lng": 27.9221877,
+      "distanceFromTerminalMeters": 4957,
+      "distanceFromDefaultTerminalMeters": 4957,
+      "minDistanceFromAnyTerminalMeters": 4957,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "67 бул. Княз Борис I, Варна, BG",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "gallery"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/a651af415fdd7b814584",
+      "name": "Морска градина",
+      "nameEnglish": "Sea Garden",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 43.2073785,
+      "lng": 27.9404851,
+      "distanceFromTerminalMeters": 3872,
+      "distanceFromDefaultTerminalMeters": 3872,
+      "minDistanceFromAnyTerminalMeters": 3872,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "park"
+      }
+    }
+  ],
+  "portAnchor": {
+    "id": "ports-json-anchor",
+    "name": "VARNA Port",
+    "lat": 43.18,
+    "lng": 27.97,
+    "address": "Varna, Varna Province, Bulgaria",
+    "source": "ports.json",
+    "sourceId": "",
+    "score": 0,
+    "slug": "varna-port"
+  },
+  "terminalResolution": {
+    "status": "resolved",
+    "method": "manual_web_research",
+    "verified": true,
+    "notes": "Terminal records were added from researched cruise-port sources because no supplied candidate accurately represented the passenger arrival point."
+  }
+}

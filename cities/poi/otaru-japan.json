@@ -1,0 +1,116 @@
+{
+  "schemaVersion": 5,
+  "catalogType": "curation-candidates",
+  "generatedAt": "2026-07-30T08:05:25.203Z",
+  "source": "openstreetmap",
+  "sourceExtract": "hokkaido-latest.osm.pbf",
+  "radiusMeters": 10000,
+  "port": {
+    "id": "otaru-japan",
+    "city": "Otaru",
+    "country": "Japan"
+  },
+  "defaultTerminalId": "ports-json-anchor",
+  "terminal": {
+    "id": "ports-json-anchor",
+    "name": "ISHIKARI BAY NEW PORT Port",
+    "lat": 43.22,
+    "lng": 141.28,
+    "address": "Otaru, Hokkaido, Japan",
+    "source": "ports.json",
+    "sourceId": "",
+    "score": 0,
+    "slug": "ishikari-bay-new-port-port"
+  },
+  "terminals": [
+    {
+      "id": "ports-json-anchor",
+      "name": "ISHIKARI BAY NEW PORT Port",
+      "lat": 43.22,
+      "lng": 141.28,
+      "address": "Otaru, Hokkaido, Japan",
+      "source": "ports.json",
+      "sourceId": "",
+      "score": 0,
+      "slug": "ishikari-bay-new-port-port"
+    }
+  ],
+  "terminalCandidateRadiusMeters": 5000,
+  "terminalCandidates": [],
+  "counts": {
+    "attraction": 1,
+    "outdoors": 1,
+    "food_drink": 0,
+    "shopping": 0,
+    "essentials": 0
+  },
+  "pois": [
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b763f265ef6096eabd05",
+      "name": "川の博物館",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 43.202037,
+      "lng": 141.3315462,
+      "distanceFromTerminalMeters": 4630,
+      "distanceFromDefaultTerminalMeters": 4630,
+      "minDistanceFromAnyTerminalMeters": 4630,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/bc62749790547524531a",
+      "name": "青葉公園",
+      "nameEnglish": "Aoba Park",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 43.1972016,
+      "lng": 141.3169388,
+      "distanceFromTerminalMeters": 3923,
+      "distanceFromDefaultTerminalMeters": 3923,
+      "minDistanceFromAnyTerminalMeters": 3923,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "park"
+      }
+    }
+  ],
+  "portAnchor": {
+    "id": "ports-json-anchor",
+    "name": "ISHIKARI BAY NEW PORT Port",
+    "lat": 43.22,
+    "lng": 141.28,
+    "address": "Otaru, Hokkaido, Japan",
+    "source": "ports.json",
+    "sourceId": "",
+    "score": 0,
+    "slug": "ishikari-bay-new-port-port"
+  },
+  "terminalResolution": {
+    "status": "unresolved",
+    "method": "ports_json_fallback",
+    "verified": false,
+    "notes": "The catalog contains no terminal candidates, so there is no candidate ID to accept."
+  }
+}

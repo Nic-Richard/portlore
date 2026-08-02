@@ -1,0 +1,781 @@
+{
+  "schemaVersion": 5,
+  "catalogType": "curation-candidates",
+  "generatedAt": "2026-07-30T07:47:06.294Z",
+  "source": "openstreetmap",
+  "sourceExtract": "chubu-latest.osm.pbf",
+  "radiusMeters": 10000,
+  "port": {
+    "id": "nagoya-japan",
+    "city": "Nagoya",
+    "country": "Japan"
+  },
+  "defaultTerminalId": "ports-json-anchor",
+  "terminal": {
+    "id": "ports-json-anchor",
+    "name": "NAGOYA KO Port",
+    "lat": 35.07,
+    "lng": 136.87,
+    "address": "Nagoya, Aichi, Japan",
+    "source": "ports.json",
+    "sourceId": "",
+    "score": 0,
+    "slug": "nagoya-ko-port"
+  },
+  "terminals": [
+    {
+      "id": "ports-json-anchor",
+      "name": "NAGOYA KO Port",
+      "lat": 35.07,
+      "lng": 136.87,
+      "address": "Nagoya, Aichi, Japan",
+      "source": "ports.json",
+      "sourceId": "",
+      "score": 0,
+      "slug": "nagoya-ko-port"
+    }
+  ],
+  "terminalCandidateRadiusMeters": 5000,
+  "terminalCandidates": [
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/6160f84b9ee7e3da1777",
+      "name": "ブルーボネット",
+      "nameEnglish": "",
+      "lat": 35.071927,
+      "lng": 136.8804675,
+      "distanceFromPortMeters": 976,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/6160f84b9ee7e3da1777"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d9068cbef868493dc8a5",
+      "name": "ガーデンふ頭",
+      "nameEnglish": "",
+      "lat": 35.0897908,
+      "lng": 136.8803745,
+      "distanceFromPortMeters": 2395,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/d9068cbef868493dc8a5"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/a66dfca8e09d0d6f8b6f",
+      "name": "名古屋フェリー埠頭",
+      "nameEnglish": "",
+      "lat": 35.0601424,
+      "lng": 136.8450383,
+      "distanceFromPortMeters": 2522,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/a66dfca8e09d0d6f8b6f"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d21f637311815fbdbd48",
+      "name": "金城ふ頭",
+      "nameEnglish": "",
+      "lat": 35.0463664,
+      "lng": 136.8481837,
+      "distanceFromPortMeters": 3294,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/d21f637311815fbdbd48"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/6ba9effa6e1a7abe5a24",
+      "name": "みなとアクルス",
+      "nameEnglish": "",
+      "lat": 35.1077457,
+      "lng": 136.882112,
+      "distanceFromPortMeters": 4339,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/6ba9effa6e1a7abe5a24"
+      ]
+    }
+  ],
+  "counts": {
+    "attraction": 9,
+    "outdoors": 3,
+    "food_drink": 9,
+    "shopping": 1,
+    "essentials": 1
+  },
+  "pois": [
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f33bf80e216cda5acf81",
+      "name": "名古屋港水族館",
+      "nameEnglish": "Port of Nagoya Public Aquarium",
+      "category": "attraction",
+      "subcategory": "aquarium",
+      "lat": 35.0909701,
+      "lng": 136.8780335,
+      "distanceFromTerminalMeters": 2444,
+      "distanceFromDefaultTerminalMeters": 2444,
+      "minDistanceFromAnyTerminalMeters": 2444,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Tu-Su 09:30-17:30",
+      "website": "https://nagoyaaqua.jp/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "aquarium"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d64fb2adf4ca35598d63",
+      "name": "名古屋海洋博物館・南極観測船ふじ",
+      "nameEnglish": "Fuji Antarctic Museum",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 35.0906642,
+      "lng": 136.8805282,
+      "distanceFromTerminalMeters": 2489,
+      "distanceFromDefaultTerminalMeters": 2489,
+      "minDistanceFromAnyTerminalMeters": 2489,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Tu-Su 09:30-17:00",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/1f6a163689564955b68e",
+      "name": "リニア・鉄道館",
+      "nameEnglish": "SCMAGLEV and Railway Park",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 35.0489831,
+      "lng": 136.8510637,
+      "distanceFromTerminalMeters": 2904,
+      "distanceFromDefaultTerminalMeters": 2904,
+      "minDistanceFromAnyTerminalMeters": 2904,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Su 10:00-17:30; Tu off",
+      "website": "https://museum.jr-central.co.jp/",
+      "phone": "+81 50 3772-3910",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/88b06a0033d7a0d12d24",
+      "name": "オブザベーション・タワー",
+      "nameEnglish": "Observation Tower",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 35.0503982,
+      "lng": 136.8445917,
+      "distanceFromTerminalMeters": 3178,
+      "distanceFromDefaultTerminalMeters": 3178,
+      "minDistanceFromAnyTerminalMeters": 3178,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/642bfa98c696f89f245b",
+      "name": "熱田神宮宝物館",
+      "nameEnglish": "Atsuta Shrine Treasure Hall",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 35.1249138,
+      "lng": 136.909453,
+      "distanceFromTerminalMeters": 7083,
+      "distanceFromDefaultTerminalMeters": 7083,
+      "minDistanceFromAnyTerminalMeters": 7083,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/5ece557c10ded55054fa",
+      "name": "レゴランド・ジャパン",
+      "nameEnglish": "Legoland Japan",
+      "category": "attraction",
+      "subcategory": "theme_park",
+      "lat": 35.0502987,
+      "lng": 136.8435523,
+      "distanceFromTerminalMeters": 3255,
+      "distanceFromDefaultTerminalMeters": 3255,
+      "minDistanceFromAnyTerminalMeters": 3255,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "https://www.legoland.jp/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "LEGOLAND",
+      "description": "",
+      "osmTags": {
+        "tourism": "theme_park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/6fdf14083f434cf20850",
+      "name": "ビルド・アンド・テスト",
+      "nameEnglish": "Build+Test",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 35.0508664,
+      "lng": 136.8451153,
+      "distanceFromTerminalMeters": 3108,
+      "distanceFromDefaultTerminalMeters": 3108,
+      "minDistanceFromAnyTerminalMeters": 3108,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/0a2b4b318ccf2bd93549",
+      "name": "ザ・ドラゴン",
+      "nameEnglish": "The Dragon",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 35.0500492,
+      "lng": 136.842842,
+      "distanceFromTerminalMeters": 3321,
+      "distanceFromDefaultTerminalMeters": 3321,
+      "minDistanceFromAnyTerminalMeters": 3321,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d2771b99a653efcf8da6",
+      "name": "Snow Tractor",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "monument",
+      "lat": 35.0906925,
+      "lng": 136.881005,
+      "distanceFromTerminalMeters": 2509,
+      "distanceFromDefaultTerminalMeters": 2509,
+      "minDistanceFromAnyTerminalMeters": 2509,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "monument"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b3457059df7c948c61b0",
+      "name": "名古屋港ワイルドフラワーガーデン ブルーボネット",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 35.0711211,
+      "lng": 136.8803499,
+      "distanceFromTerminalMeters": 950,
+      "distanceFromDefaultTerminalMeters": 950,
+      "minDistanceFromAnyTerminalMeters": 950,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/8448237dbd5cf6d0dede",
+      "name": "メイカーズ・ピア",
+      "nameEnglish": "Maker’s Pier",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 35.0505447,
+      "lng": 136.8471808,
+      "distanceFromTerminalMeters": 2999,
+      "distanceFromDefaultTerminalMeters": 2999,
+      "minDistanceFromAnyTerminalMeters": 2999,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "limited",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/07243eb3e49782d72a7f",
+      "name": "荒子川公園",
+      "nameEnglish": "Arakogawa Park",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 35.0991803,
+      "lng": 136.8619137,
+      "distanceFromTerminalMeters": 3327,
+      "distanceFromDefaultTerminalMeters": 3327,
+      "minDistanceFromAnyTerminalMeters": 3327,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f1e75e8bbbbb7a9c8d88",
+      "name": "くら寿司",
+      "nameEnglish": "Kurazushi",
+      "category": "food_drink",
+      "subcategory": "fast_food",
+      "lat": 35.0914577,
+      "lng": 136.8639124,
+      "distanceFromTerminalMeters": 2449,
+      "distanceFromDefaultTerminalMeters": 2449,
+      "minDistanceFromAnyTerminalMeters": 2449,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "愛知県名古屋市港区一州町1-3",
+      "openingHours": "Mo-Fr 11:00-23:00; Sa,Su,PH 10:20-23:00",
+      "website": "http://www.kura-corpo.co.jp/",
+      "phone": "+81-52-3896366",
+      "cuisine": [
+        "sushi"
+      ],
+      "wheelchair": "",
+      "brand": "くら寿司",
+      "description": "",
+      "osmTags": {
+        "amenity": "fast_food"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/7ff41f1658b594a750ff",
+      "name": "星乃珈琲店",
+      "nameEnglish": "Hoshino Coffee",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 35.1133855,
+      "lng": 136.86978,
+      "distanceFromTerminalMeters": 4824,
+      "distanceFromDefaultTerminalMeters": 4824,
+      "minDistanceFromAnyTerminalMeters": 4824,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "愛知県名古屋市港区川西通3-33",
+      "openingHours": "Mo-Su 07:00-21:30",
+      "website": "https://www.hoshinocoffee.com/",
+      "phone": "+81 52-651-7256",
+      "cuisine": [
+        "coffee_shop"
+      ],
+      "wheelchair": "",
+      "brand": "星乃珈琲店",
+      "description": "",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d408456b3f880e49da07",
+      "name": "金夢",
+      "nameEnglish": "Kinmu",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 35.0909193,
+      "lng": 136.8618058,
+      "distanceFromTerminalMeters": 2443,
+      "distanceFromDefaultTerminalMeters": 2443,
+      "minDistanceFromAnyTerminalMeters": 2443,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [
+        "chinese"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/9c12e7c432c5ac73baa6",
+      "name": "スシロー",
+      "nameEnglish": "Sushiro",
+      "category": "food_drink",
+      "subcategory": "fast_food",
+      "lat": 35.0823973,
+      "lng": 136.9117842,
+      "distanceFromTerminalMeters": 4045,
+      "distanceFromDefaultTerminalMeters": 4045,
+      "minDistanceFromAnyTerminalMeters": 4045,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "愛知県名古屋市南区大同町1-16-2",
+      "openingHours": "Mo-Fr 11:00-23:00; Sa,Su,PH 10:30-23:00",
+      "website": "http://www.akindo-sushiro.co.jp/",
+      "phone": "+81-52-6182701",
+      "cuisine": [
+        "sushi"
+      ],
+      "wheelchair": "",
+      "brand": "スシロー",
+      "description": "",
+      "osmTags": {
+        "amenity": "fast_food"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/41ce9822d640fa8e9f2e",
+      "name": "釜半",
+      "nameEnglish": "Soba Noodle Shop",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 35.0932709,
+      "lng": 136.8802071,
+      "distanceFromTerminalMeters": 2749,
+      "distanceFromDefaultTerminalMeters": 2749,
+      "minDistanceFromAnyTerminalMeters": 2749,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Su 11:00-14:00, 17:00-20:00",
+      "website": "",
+      "phone": "+81 52-661-1057",
+      "cuisine": [
+        "ramen"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/a770eadb61ffc698f4fb",
+      "name": "千琇",
+      "nameEnglish": "Chishu",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 35.112666,
+      "lng": 136.869834,
+      "distanceFromTerminalMeters": 4744,
+      "distanceFromDefaultTerminalMeters": 4744,
+      "minDistanceFromAnyTerminalMeters": 4744,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "愛知県名古屋市港区東土古町1－19",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [
+        "chinese"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/77c3f86388de1db37ab9",
+      "name": "長浜ラーメン 一番軒",
+      "nameEnglish": "Nagayama ramen",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 35.1339377,
+      "lng": 136.893028,
+      "distanceFromTerminalMeters": 7412,
+      "distanceFromDefaultTerminalMeters": 7412,
+      "minDistanceFromAnyTerminalMeters": 7412,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Fr 11:15-15:00, 17:30-00:30; Sa-Su 11:15-15:30, 17:30-00:30",
+      "website": "https://tabelog.com/aichi/A2301/A230105/23049959/",
+      "phone": "+81 52-684-5770",
+      "cuisine": [
+        "japanese",
+        "ramen"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/83422d03b0e8634b72e3",
+      "name": "Thai kitchen Chaba",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 35.1317688,
+      "lng": 136.8808567,
+      "distanceFromTerminalMeters": 6939,
+      "distanceFromDefaultTerminalMeters": 6939,
+      "minDistanceFromAnyTerminalMeters": 6939,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Su 11:30-14:00, 17:00-23:00",
+      "website": "https://thaikitchen-chaba.com/",
+      "phone": "+81 52-363-0533",
+      "cuisine": [
+        "thai"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/46ba4b91404ca97a107d",
+      "name": "MEGAドン・キホーテUNY",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "mall",
+      "lat": 35.1105648,
+      "lng": 136.8865463,
+      "distanceFromTerminalMeters": 4755,
+      "distanceFromDefaultTerminalMeters": 4755,
+      "minDistanceFromAnyTerminalMeters": 4755,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "shop": "mall"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/a15ba4039b693b8796cb",
+      "name": "暇回散歩道せせらぎ水路",
+      "nameEnglish": "",
+      "category": "essentials",
+      "subcategory": "visitor_information",
+      "lat": 35.0765036,
+      "lng": 136.9203671,
+      "distanceFromTerminalMeters": 4640,
+      "distanceFromDefaultTerminalMeters": 4640,
+      "minDistanceFromAnyTerminalMeters": 4640,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "「暇回（ひまわり）」と読む",
+      "osmTags": {
+        "tourism": "information"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f18af9814945914718c8",
+      "name": "Sweet Road",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 35.1083604,
+      "lng": 136.8469551,
+      "distanceFromTerminalMeters": 4753,
+      "distanceFromDefaultTerminalMeters": 4753,
+      "minDistanceFromAnyTerminalMeters": 4753,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [
+        "coffee_shop"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    }
+  ],
+  "portAnchor": {
+    "id": "ports-json-anchor",
+    "name": "NAGOYA KO Port",
+    "lat": 35.07,
+    "lng": 136.87,
+    "address": "Nagoya, Aichi, Japan",
+    "source": "ports.json",
+    "sourceId": "",
+    "score": 0,
+    "slug": "nagoya-ko-port"
+  },
+  "terminalResolution": {
+    "status": "unresolved",
+    "method": "ports_json_fallback",
+    "verified": false,
+    "notes": "All supplied candidates are ferry-only stops, local docks, unnamed maritime features, or unrelated places rather than passenger cruise terminals."
+  }
+}

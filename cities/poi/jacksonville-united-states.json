@@ -1,0 +1,886 @@
+{
+  "schemaVersion": 5,
+  "catalogType": "curation-candidates",
+  "generatedAt": "2026-07-30T09:19:18.660Z",
+  "source": "openstreetmap",
+  "sourceExtract": "florida-latest.osm.pbf",
+  "radiusMeters": 10000,
+  "port": {
+    "id": "jacksonville-united-states",
+    "city": "Jacksonville",
+    "country": "United States"
+  },
+  "defaultTerminalId": "ports-json-anchor",
+  "terminal": {
+    "id": "ports-json-anchor",
+    "name": "JACKSONVILLE Port",
+    "lat": 30.32,
+    "lng": -81.65,
+    "address": "Jacksonville, Florida, United States",
+    "source": "ports.json",
+    "sourceId": "",
+    "score": 0,
+    "slug": "jacksonville-port"
+  },
+  "terminals": [
+    {
+      "id": "ports-json-anchor",
+      "name": "JACKSONVILLE Port",
+      "lat": 30.32,
+      "lng": -81.65,
+      "address": "Jacksonville, Florida, United States",
+      "source": "ports.json",
+      "sourceId": "",
+      "score": 0,
+      "slug": "jacksonville-port"
+    }
+  ],
+  "terminalCandidateRadiusMeters": 5000,
+  "terminalCandidates": [
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/9bfc6f56ca871bec4495",
+      "name": "(unnamed maritime feature)",
+      "nameEnglish": "",
+      "lat": 30.3180875,
+      "lng": -81.6529482,
+      "distanceFromPortMeters": 354,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/9bfc6f56ca871bec4495"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/58b98d2fb9830c475f73",
+      "name": "(unnamed maritime feature)",
+      "nameEnglish": "",
+      "lat": 30.3201438,
+      "lng": -81.6563132,
+      "distanceFromPortMeters": 606,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/58b98d2fb9830c475f73"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/2baf3522d9ff340d3aab",
+      "name": "(unnamed maritime feature)",
+      "nameEnglish": "",
+      "lat": 30.319636,
+      "lng": -81.6418897,
+      "distanceFromPortMeters": 780,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/2baf3522d9ff340d3aab"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/fa42001df705a964838d",
+      "name": "(unnamed maritime feature)",
+      "nameEnglish": "",
+      "lat": 30.3204321,
+      "lng": -81.6601009,
+      "distanceFromPortMeters": 971,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/fa42001df705a964838d"
+      ]
+    }
+  ],
+  "counts": {
+    "attraction": 10,
+    "outdoors": 4,
+    "food_drink": 10,
+    "shopping": 3,
+    "essentials": 1
+  },
+  "pois": [
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/5dfcf2c4ba4f938fe070",
+      "name": "Museum of Science & History",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 30.318884,
+      "lng": -81.6598078,
+      "distanceFromTerminalMeters": 950,
+      "distanceFromDefaultTerminalMeters": 950,
+      "minDistanceFromAnyTerminalMeters": 950,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "https://themosh.org/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c9af1e9b8080a470abb3",
+      "name": "Museum of Contemporary Art Jacksonville",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 30.3292797,
+      "lng": -81.6583909,
+      "distanceFromTerminalMeters": 1309,
+      "distanceFromDefaultTerminalMeters": 1309,
+      "minDistanceFromAnyTerminalMeters": 1309,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "333 Laura Street North, Jacksonville, FL, 32202",
+      "openingHours": "Tu,We 11:00-17:00; Mo off; Th 11:00-21:00; Fr,Sa 11:00-17:00; Su 12:00-17:00",
+      "website": "https://mocajacksonville.unf.edu/",
+      "phone": "+1-904-366-6911",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c07fbabf5816bb8f03d2",
+      "name": "USS Orleck",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 30.3229265,
+      "lng": -81.6506646,
+      "distanceFromTerminalMeters": 332,
+      "distanceFromDefaultTerminalMeters": 332,
+      "minDistanceFromAnyTerminalMeters": 332,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/0e7b594d13601fa59266",
+      "name": "Jacksonville Fire Museum",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 30.324267,
+      "lng": -81.6503473,
+      "distanceFromTerminalMeters": 476,
+      "distanceFromDefaultTerminalMeters": 476,
+      "minDistanceFromAnyTerminalMeters": 476,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/e07079fe9dc70ab8ccbe",
+      "name": "Market Street Horror",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "monument",
+      "lat": 30.3233584,
+      "lng": -81.6549652,
+      "distanceFromTerminalMeters": 605,
+      "distanceFromDefaultTerminalMeters": 605,
+      "minDistanceFromAnyTerminalMeters": 605,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "monument"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/e078fca92807eb0eed25",
+      "name": "Old Saint Andrew's Church",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 30.3257278,
+      "lng": -81.6433844,
+      "distanceFromTerminalMeters": 899,
+      "distanceFromDefaultTerminalMeters": 899,
+      "minDistanceFromAnyTerminalMeters": 899,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/841bbb15fe8a109ae017",
+      "name": "The Corner Gallery",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "gallery",
+      "lat": 30.3273753,
+      "lng": -81.6565369,
+      "distanceFromTerminalMeters": 1033,
+      "distanceFromDefaultTerminalMeters": 1033,
+      "minDistanceFromAnyTerminalMeters": 1033,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Fr 09:30-17:00",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "gallery"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/cd19b0cce487690d0d43",
+      "name": "Lee & Cates Glass Co",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "building",
+      "lat": 30.3290619,
+      "lng": -81.6691891,
+      "distanceFromTerminalMeters": 2099,
+      "distanceFromDefaultTerminalMeters": 2099,
+      "minDistanceFromAnyTerminalMeters": 2099,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "905 West Forsyth Street, Jacksonville, FL, 32204",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "building"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b5d77c2f7bd11dd0aaeb",
+      "name": "Jacksonville Zoo and Gardens",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "zoo",
+      "lat": 30.4023953,
+      "lng": -81.6432415,
+      "distanceFromTerminalMeters": 9185,
+      "distanceFromDefaultTerminalMeters": 9185,
+      "minDistanceFromAnyTerminalMeters": 9185,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "370 Zoo Parkway, Jacksonville, FL, 32218, US",
+      "openingHours": "",
+      "website": "https://www.jacksonvillezoo.org/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "zoo"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/af862f3412be7d6823ea",
+      "name": "J. A. Yates Residence",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "building",
+      "lat": 30.3098906,
+      "lng": -81.6854144,
+      "distanceFromTerminalMeters": 3580,
+      "distanceFromDefaultTerminalMeters": 3580,
+      "minDistanceFromAnyTerminalMeters": 3580,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "2254 Riverside Avenue, Jacksonville, FL, 32204, US",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "building"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ccf3d7d1f0c6e3c913a6",
+      "name": "Brown L. Whatley Memorial Park",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 30.3026314,
+      "lng": -81.6504077,
+      "distanceFromTerminalMeters": 1932,
+      "distanceFromDefaultTerminalMeters": 1932,
+      "minDistanceFromAnyTerminalMeters": 1932,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "North Alexandria Place, Jacksonville, FL, 32207",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "No paved footpaths, just a few benches and a bridge over a narrow, long, body of water that runs the length of the park.",
+      "osmTags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/cff1048a969774594ae1",
+      "name": "Historic Kings Road Park",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 30.3081041,
+      "lng": -81.6475526,
+      "distanceFromTerminalMeters": 1343,
+      "distanceFromDefaultTerminalMeters": 1343,
+      "minDistanceFromAnyTerminalMeters": 1343,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/0dd3f2b4fd43177dcd35",
+      "name": "Central Park",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 30.3166266,
+      "lng": -81.6470344,
+      "distanceFromTerminalMeters": 471,
+      "distanceFromDefaultTerminalMeters": 471,
+      "minDistanceFromAnyTerminalMeters": 471,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/5d50bd17b14741aeb17f",
+      "name": "A. Philip Randolph Heritage Park",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 30.3353363,
+      "lng": -81.6434081,
+      "distanceFromTerminalMeters": 1819,
+      "distanceFromDefaultTerminalMeters": 1819,
+      "minDistanceFromAnyTerminalMeters": 1819,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1096 A Philip Randolph Boulevard, Jacksonville, FL, 32206",
+      "openingHours": "",
+      "website": "https://www.coj.net/departments/parks-and-recreation/recreation-and-community-programming/parks/a-philip-randolph-heritage-park",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/afc34c68ca7f48d7323a",
+      "name": "Burrito Gallery",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 30.3277729,
+      "lng": -81.6567708,
+      "distanceFromTerminalMeters": 1081,
+      "distanceFromDefaultTerminalMeters": 1081,
+      "minDistanceFromAnyTerminalMeters": 1081,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "21 East Adams Street, 32202",
+      "openingHours": "Mo-Th 11:00-24:00,Fr-Sa 11:00-01:30,Su 11:00-20:00",
+      "website": "https://www.burritogallery.com/",
+      "phone": "+1-904-598-2922",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/7ed5ee9b3f9ac2b70c48",
+      "name": "Casa Dora Italian Cafe",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 30.3265194,
+      "lng": -81.6563007,
+      "distanceFromTerminalMeters": 944,
+      "distanceFromDefaultTerminalMeters": 944,
+      "minDistanceFromAnyTerminalMeters": 944,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "108 East Forsyth Street, Jacksonville, FL, 32202, US",
+      "openingHours": "Mo-Fr 10:30-21:30; Sa 16:00-22:00",
+      "website": "http://casadoraitalian.co/",
+      "phone": "+1-904-356-8282",
+      "cuisine": [
+        "italian",
+        "pizza"
+      ],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/3b9065b57df29a7bb44c",
+      "name": "Kava and Company",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 30.3130861,
+      "lng": -81.6540059,
+      "distanceFromTerminalMeters": 860,
+      "distanceFromDefaultTerminalMeters": 860,
+      "minDistanceFromAnyTerminalMeters": 860,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1224 Kings Avenue, 32207",
+      "openingHours": "",
+      "website": "https://www.kavaandcompany.com",
+      "phone": "+1 904-551-3809",
+      "cuisine": [
+        "smoothie",
+        "coffee_shop"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/43689cd1e8fc6dd506f5",
+      "name": "Olio Restaurant",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 30.3255659,
+      "lng": -81.6541022,
+      "distanceFromTerminalMeters": 734,
+      "distanceFromDefaultTerminalMeters": 734,
+      "minDistanceFromAnyTerminalMeters": 734,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "301 East Bay Street, Jacksonville, FL",
+      "openingHours": "Mo-Th 08:00-15:00; Fr 08:00-15:00,17:00-22:00; Sa 17:00-22:00",
+      "website": "http://www.oliomarket.com/#fooddifferent",
+      "phone": "+1 904-356-7100",
+      "cuisine": [
+        "american"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/2a3a6ab56b45dfd969f1",
+      "name": "The Bearded Pig",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 30.3131627,
+      "lng": -81.6540495,
+      "distanceFromTerminalMeters": 854,
+      "distanceFromDefaultTerminalMeters": 854,
+      "minDistanceFromAnyTerminalMeters": 854,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1224 Kings Avenue, Jacksonville, FL, US",
+      "openingHours": "Mo-Sa 11:00-22:00; Su 11:00-21:00",
+      "website": "https://thebeardedpigbbq.com/",
+      "phone": "+1-904-619-2247",
+      "cuisine": [
+        "barbecue"
+      ],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/88a011a4f81d060fbc90",
+      "name": "Southern Grounds",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 30.3212558,
+      "lng": -81.6747042,
+      "distanceFromTerminalMeters": 2375,
+      "distanceFromDefaultTerminalMeters": 2375,
+      "minDistanceFromAnyTerminalMeters": 2375,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "400, Unit 101 Riverside Avenue, 32202",
+      "openingHours": "Mo-Su 06:30-21:00",
+      "website": "https://southerngrounds.com/",
+      "phone": "+1-904-661-1669",
+      "cuisine": [
+        "american",
+        "coffee_shop"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/9b4d1600958aca1e4e58",
+      "name": "Alder & Oak Aegean Meze",
+      "nameEnglish": "Alder and Oak",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 30.3213432,
+      "lng": -81.6748437,
+      "distanceFromTerminalMeters": 2389,
+      "distanceFromDefaultTerminalMeters": 2389,
+      "minDistanceFromAnyTerminalMeters": 2389,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "400 Riverside Avenue, 32202",
+      "openingHours": "Mo-Su 11:00-22:00",
+      "website": "https://eatalderoak.com/",
+      "phone": "+1-904-559-2831",
+      "cuisine": [
+        "mediterranean"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/369a967af1179156794f",
+      "name": "Jenkin's Quality Barbecue",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 30.3337213,
+      "lng": -81.6613514,
+      "distanceFromTerminalMeters": 1875,
+      "distanceFromDefaultTerminalMeters": 1875,
+      "minDistanceFromAnyTerminalMeters": 1875,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Th 11:00-00:00;Fr-Sa 11:00-01:00;Su 00:00-01:00",
+      "website": "https://jenkinsqualitybarbecue.com/locations/downtown-location",
+      "phone": "+1 904-353-6388",
+      "cuisine": [
+        "barbecue"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/aa2dd882e84c5026bc72",
+      "name": "Taverna",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 30.3038227,
+      "lng": -81.654716,
+      "distanceFromTerminalMeters": 1855,
+      "distanceFromDefaultTerminalMeters": 1855,
+      "minDistanceFromAnyTerminalMeters": 1855,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1986 San Marco Boulevard, 32207",
+      "openingHours": "",
+      "website": "https://taverna.restaurant/",
+      "phone": "+1-904-398-3009",
+      "cuisine": [
+        "italian"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/86b39b79f392ea33f350",
+      "name": "Starving Like Marvin",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 30.3317902,
+      "lng": -81.6608959,
+      "distanceFromTerminalMeters": 1677,
+      "distanceFromDefaultTerminalMeters": 1677,
+      "minDistanceFromAnyTerminalMeters": 1677,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "311 #1 West Ashley Street, 32202",
+      "openingHours": "Su-Fr 07:00-18:00; Sa 11:00-16:00",
+      "website": "",
+      "phone": "+1 9045872842",
+      "cuisine": [
+        "fish",
+        "regional",
+        "seafood"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/0240b9f2e8964ee354f5",
+      "name": "Riverside Arts Market",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "marketplace",
+      "lat": 30.3162294,
+      "lng": -81.6750606,
+      "distanceFromTerminalMeters": 2442,
+      "distanceFromDefaultTerminalMeters": 2442,
+      "minDistanceFromAnyTerminalMeters": 2442,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Sa 10:00-15:00",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "marketplace"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/a723dc88a184cbc5a516",
+      "name": "Front Porch Pickings",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "marketplace",
+      "lat": 30.3062368,
+      "lng": -81.7019171,
+      "distanceFromTerminalMeters": 5213,
+      "distanceFromDefaultTerminalMeters": 5213,
+      "minDistanceFromAnyTerminalMeters": 5213,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1272 South McDuff Avenue, Jacksonville, FL, 32205",
+      "openingHours": "",
+      "website": "http://www.frontporchpickings.com/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "marketplace"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/021bee04b36b7d251d7a",
+      "name": "Reception Desk",
+      "nameEnglish": "",
+      "category": "essentials",
+      "subcategory": "visitor_information",
+      "lat": 30.319795,
+      "lng": -81.657832,
+      "distanceFromTerminalMeters": 752,
+      "distanceFromDefaultTerminalMeters": 752,
+      "minDistanceFromAnyTerminalMeters": 752,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "information"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/e273d92050dcebca543b",
+      "name": "Rusted Vintage Market",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "antiques",
+      "lat": 30.3099584,
+      "lng": -81.66034,
+      "distanceFromTerminalMeters": 1494,
+      "distanceFromDefaultTerminalMeters": 1494,
+      "minDistanceFromAnyTerminalMeters": 1494,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "shop": "antiques"
+      }
+    }
+  ],
+  "portAnchor": {
+    "id": "ports-json-anchor",
+    "name": "JACKSONVILLE Port",
+    "lat": 30.32,
+    "lng": -81.65,
+    "address": "Jacksonville, Florida, United States",
+    "source": "ports.json",
+    "sourceId": "",
+    "score": 0,
+    "slug": "jacksonville-port"
+  },
+  "terminalResolution": {
+    "status": "unresolved",
+    "method": "ports_json_fallback",
+    "verified": false,
+    "notes": "All supplied candidates are ferry-only stops, local docks, unnamed maritime features, or unrelated places rather than passenger cruise terminals."
+  }
+}

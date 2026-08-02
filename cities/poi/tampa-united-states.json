@@ -1,0 +1,1456 @@
+{
+  "schemaVersion": 5,
+  "catalogType": "curation-candidates",
+  "generatedAt": "2026-07-30T09:21:21.714Z",
+  "source": "openstreetmap",
+  "sourceExtract": "florida-latest.osm.pbf",
+  "radiusMeters": 10000,
+  "port": {
+    "id": "tampa-united-states",
+    "city": "Tampa",
+    "country": "United States"
+  },
+  "defaultTerminalId": "osm/way/154250076",
+  "terminal": {
+    "id": "osm/way/154250076",
+    "name": "Port Tampa Bay Cruise Terminal 3",
+    "nameEnglish": "",
+    "lat": 27.9455003,
+    "lng": -82.4442069,
+    "address": "Port Tampa Bay Cruise Terminal 3, 815, Channelside Drive, Harbour Island, Tampa, Hillsborough County, Florida, 33602, United States",
+    "source": "verified_terminal_candidate",
+    "sourceId": "osm/way/154250076",
+    "terminalType": "passenger_cruise_terminal",
+    "verified": true,
+    "notes": "Accepted 3 candidates explicitly identified as an ocean-cruise or cruise-passenger terminal; ferry and unrelated results were excluded.",
+    "sourceUrls": [],
+    "sources": [
+      "nominatim"
+    ],
+    "sourceIds": [
+      "osm/way/154250076"
+    ],
+    "osmTags": {
+      "public_transport": "station"
+    },
+    "matchedBy": [
+      "Nominatim query: Tampa cruise terminal, United States"
+    ],
+    "distanceFromPortMeters": 420
+  },
+  "terminals": [
+    {
+      "id": "osm/way/154250076",
+      "name": "Port Tampa Bay Cruise Terminal 3",
+      "nameEnglish": "",
+      "lat": 27.9455003,
+      "lng": -82.4442069,
+      "address": "Port Tampa Bay Cruise Terminal 3, 815, Channelside Drive, Harbour Island, Tampa, Hillsborough County, Florida, 33602, United States",
+      "source": "verified_terminal_candidate",
+      "sourceId": "osm/way/154250076",
+      "terminalType": "passenger_cruise_terminal",
+      "verified": true,
+      "notes": "Accepted 3 candidates explicitly identified as an ocean-cruise or cruise-passenger terminal; ferry and unrelated results were excluded.",
+      "sourceUrls": [],
+      "sources": [
+        "nominatim"
+      ],
+      "sourceIds": [
+        "osm/way/154250076"
+      ],
+      "osmTags": {
+        "public_transport": "station"
+      },
+      "matchedBy": [
+        "Nominatim query: Tampa cruise terminal, United States"
+      ],
+      "distanceFromPortMeters": 420
+    },
+    {
+      "id": "osm/way/1123482900",
+      "name": "Port Tampa Bay Cruise Terminal 6",
+      "nameEnglish": "",
+      "lat": 27.9497701,
+      "lng": -82.4438215,
+      "address": "Port Tampa Bay Cruise Terminal 6, McKay Street, Estuary, Ybor City, Tampa, Hillsborough County, Florida, 33602, United States",
+      "source": "verified_terminal_candidate",
+      "sourceId": "osm/way/1123482900",
+      "terminalType": "passenger_cruise_terminal",
+      "verified": true,
+      "notes": "Accepted 3 candidates explicitly identified as an ocean-cruise or cruise-passenger terminal; ferry and unrelated results were excluded.",
+      "sourceUrls": [],
+      "sources": [
+        "nominatim"
+      ],
+      "sourceIds": [
+        "osm/way/1123482900"
+      ],
+      "osmTags": {
+        "public_transport": "station"
+      },
+      "matchedBy": [
+        "Nominatim query: Tampa cruise terminal, United States"
+      ],
+      "distanceFromPortMeters": 843
+    },
+    {
+      "id": "osm/generated/3736395356b332b0f700",
+      "name": "Port Tampa Bay Cruise Terminal 2",
+      "nameEnglish": "",
+      "lat": 27.9433542,
+      "lng": -82.4458064,
+      "address": "651 Channelside Drive, Tampa, FL, 33602, US",
+      "source": "verified_terminal_candidate",
+      "sourceId": "osm/generated/3736395356b332b0f700",
+      "terminalType": "passenger_cruise_terminal",
+      "verified": true,
+      "notes": "Accepted 3 candidates explicitly identified as an ocean-cruise or cruise-passenger terminal; ferry and unrelated results were excluded.",
+      "sourceUrls": [],
+      "sources": [
+        "openstreetmap",
+        "nominatim"
+      ],
+      "sourceIds": [
+        "osm/generated/3736395356b332b0f700",
+        "osm/way/773624650"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "building": "yes",
+        "ferry": "yes",
+        "public_transport": "station"
+      },
+      "matchedBy": [
+        "amenity=ferry_terminal",
+        "terminal-like name",
+        "Nominatim query: Tampa cruise terminal, United States"
+      ],
+      "distanceFromPortMeters": 150
+    }
+  ],
+  "terminalCandidateRadiusMeters": 5000,
+  "terminalCandidates": [
+    {
+      "source": "openstreetmap+nominatim",
+      "sourceId": "osm/generated/3736395356b332b0f700",
+      "name": "Port Tampa Bay Cruise Terminal 2",
+      "nameEnglish": "",
+      "lat": 27.9433542,
+      "lng": -82.4458064,
+      "distanceFromPortMeters": 150,
+      "address": "651 Channelside Drive, Tampa, FL, 33602, US",
+      "matchedBy": [
+        "amenity=ferry_terminal",
+        "terminal-like name",
+        "Nominatim query: Tampa cruise terminal, United States"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "building": "yes",
+        "ferry": "yes",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap",
+        "nominatim"
+      ],
+      "sourceIds": [
+        "osm/generated/3736395356b332b0f700",
+        "osm/way/773624650"
+      ],
+      "displayName": "Port Tampa Bay Cruise Terminal 2, 651, Channelside Drive, Chamberlins, Harbour Island, Tampa, Hillsborough County, Florida, 33602, United States",
+      "query": "Tampa cruise terminal, United States"
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/01eaa112ad26d006ebe0",
+      "name": "Tampa Ferry Terminal",
+      "nameEnglish": "",
+      "lat": 27.9431568,
+      "lng": -82.4447241,
+      "distanceFromPortMeters": 246,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "building": "yes",
+        "ferry": "yes",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/01eaa112ad26d006ebe0"
+      ]
+    },
+    {
+      "source": "nominatim",
+      "sourceId": "osm/way/154250076",
+      "osmType": "way",
+      "osmId": "154250076",
+      "name": "Port Tampa Bay Cruise Terminal 3",
+      "nameEnglish": "",
+      "lat": 27.9455003,
+      "lng": -82.4442069,
+      "distanceFromPortMeters": 420,
+      "address": "Port Tampa Bay Cruise Terminal 3, 815, Channelside Drive, Harbour Island, Tampa, Hillsborough County, Florida, 33602, United States",
+      "displayName": "Port Tampa Bay Cruise Terminal 3, 815, Channelside Drive, Harbour Island, Tampa, Hillsborough County, Florida, 33602, United States",
+      "query": "Tampa cruise terminal, United States",
+      "matchedBy": [
+        "Nominatim query: Tampa cruise terminal, United States"
+      ],
+      "osmTags": {
+        "public_transport": "station"
+      },
+      "sources": [
+        "nominatim"
+      ],
+      "sourceIds": [
+        "osm/way/154250076"
+      ]
+    },
+    {
+      "source": "nominatim",
+      "sourceId": "osm/way/25900644",
+      "osmType": "way",
+      "osmId": "25900644",
+      "name": "Port Tampa Bay",
+      "nameEnglish": "",
+      "lat": 27.9498789,
+      "lng": -82.4452957,
+      "distanceFromPortMeters": 809,
+      "address": "Port Tampa Bay, 1101, Channelside Drive, Estuary, Ybor City, Tampa, Hillsborough County, Florida, 33602, United States",
+      "displayName": "Port Tampa Bay, 1101, Channelside Drive, Estuary, Ybor City, Tampa, Hillsborough County, Florida, 33602, United States",
+      "query": "Port Tampa Bay, Tampa, United States",
+      "matchedBy": [
+        "Nominatim query: Port Tampa Bay, Tampa, United States"
+      ],
+      "osmTags": {
+        "building": "yes"
+      },
+      "sources": [
+        "nominatim"
+      ],
+      "sourceIds": [
+        "osm/way/25900644"
+      ]
+    },
+    {
+      "source": "nominatim",
+      "sourceId": "osm/way/1123482900",
+      "osmType": "way",
+      "osmId": "1123482900",
+      "name": "Port Tampa Bay Cruise Terminal 6",
+      "nameEnglish": "",
+      "lat": 27.9497701,
+      "lng": -82.4438215,
+      "distanceFromPortMeters": 843,
+      "address": "Port Tampa Bay Cruise Terminal 6, McKay Street, Estuary, Ybor City, Tampa, Hillsborough County, Florida, 33602, United States",
+      "displayName": "Port Tampa Bay Cruise Terminal 6, McKay Street, Estuary, Ybor City, Tampa, Hillsborough County, Florida, 33602, United States",
+      "query": "Tampa cruise terminal, United States",
+      "matchedBy": [
+        "Nominatim query: Tampa cruise terminal, United States"
+      ],
+      "osmTags": {
+        "public_transport": "station"
+      },
+      "sources": [
+        "nominatim"
+      ],
+      "sourceIds": [
+        "osm/way/1123482900"
+      ]
+    }
+  ],
+  "counts": {
+    "attraction": 16,
+    "outdoors": 8,
+    "food_drink": 14,
+    "shopping": 4,
+    "essentials": 3
+  },
+  "pois": [
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/1327b5587da986d77623",
+      "name": "Tampa Bay History Center",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 27.9422446,
+      "lng": -82.4499013,
+      "distanceFromTerminalMeters": 272,
+      "distanceFromDefaultTerminalMeters": 272,
+      "minDistanceFromAnyTerminalMeters": 272,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "801 Water Street, Tampa, FL, 33602, US",
+      "openingHours": "Mo-Su 10:00-17:00; Nov Th[4] off; Dec 25 off; Dec 24, Dec 31 10:00-15:00",
+      "website": "https://tampabayhistorycenter.org/",
+      "phone": "+1-813 228 0097",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/5feaaace1e5c67779c82",
+      "name": "Tampa Fire Fighters Museum",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 27.9514908,
+      "lng": -82.4550605,
+      "distanceFromTerminalMeters": 1237,
+      "distanceFromDefaultTerminalMeters": 1237,
+      "minDistanceFromAnyTerminalMeters": 1237,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Fr 10:00-14:00",
+      "website": "https://tampafirefightersmuseum.org/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/9a5818cc2a44a92268e2",
+      "name": "Glazer Children's Museum",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 27.9495806,
+      "lng": -82.4615063,
+      "distanceFromTerminalMeters": 1595,
+      "distanceFromDefaultTerminalMeters": 1595,
+      "minDistanceFromAnyTerminalMeters": 1595,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "110 West Gasparilla Plaza, Tampa, FL, 33602",
+      "openingHours": "Mo-Fr 10:00-17:00; Sa 10:00-18:00; Su 13:00-18:00; easter off; Nov Th[4] off; Dec 24 off; Dec 25 off",
+      "website": "https://glazermuseum.org/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f86a7f1a07bde1ff55ac",
+      "name": "Tampa Museum of Art",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 27.94947,
+      "lng": -82.4626004,
+      "distanceFromTerminalMeters": 1685,
+      "distanceFromDefaultTerminalMeters": 1685,
+      "minDistanceFromAnyTerminalMeters": 1685,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "120 West Gasparilla Plaza, Tampa, FL, 33602",
+      "openingHours": "Mo-Fr 10:00-17:00; Th 10:00-20:00; Sa-Su 10:00-17:00; Nov Th[4] off; Dec 25 off",
+      "website": "https://tampamuseum.org/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/78be9ad29c5ad932b490",
+      "name": "Henry B. Plant Museum",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 27.9462133,
+      "lng": -82.4641818,
+      "distanceFromTerminalMeters": 1711,
+      "distanceFromDefaultTerminalMeters": 1711,
+      "minDistanceFromAnyTerminalMeters": 1711,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "401 West Kennedy Boulevard, Tampa, FL, 33606, US",
+      "openingHours": "Mo off; Tu-Sa 10:00-17:00; Su 12:00-17:00; Dec off; Jul 04 off",
+      "website": "https://www.plantmuseum.com/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/774d2fba8f3aae654476",
+      "name": "SS American Victory;American Victory Museum",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 27.9436838,
+      "lng": -82.4441252,
+      "distanceFromTerminalMeters": 318,
+      "distanceFromDefaultTerminalMeters": 318,
+      "minDistanceFromAnyTerminalMeters": 318,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "705 Channelside Drive, Tampa, FL, 33602, US",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "ship",
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d659a687ee350c01a471",
+      "name": "Dean Street Fine Art Gallery",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "gallery",
+      "lat": 27.9447129,
+      "lng": -82.4643197,
+      "distanceFromTerminalMeters": 1695,
+      "distanceFromDefaultTerminalMeters": 1695,
+      "minDistanceFromAnyTerminalMeters": 1695,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "403 West Grand Central Avenue, Tampa, FL, 33606",
+      "openingHours": "Mo-Sa 10:00-16:00; Su 10:00-14:00",
+      "website": "https://deanstreetgallery.com/",
+      "phone": "+1-813-696-1066",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "gallery"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/5338f0577afd2c2ab7f1",
+      "name": "Florida Museum of Photographic Arts",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "gallery",
+      "lat": 27.9604018,
+      "lng": -82.4407246,
+      "distanceFromTerminalMeters": 2058,
+      "distanceFromDefaultTerminalMeters": 2058,
+      "minDistanceFromAnyTerminalMeters": 2058,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1630 E. 7th Ave Ybor",
+      "openingHours": "Tu-Sa 10:00-17:00; Su 12:00-17:00",
+      "website": "https://www.fmopa.org/",
+      "phone": "+1-813-221-2222",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "gallery"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f317fc3be9d752d357d8",
+      "name": "Florida Aquarium",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "aquarium",
+      "lat": 27.9440394,
+      "lng": -82.444863,
+      "distanceFromTerminalMeters": 268,
+      "distanceFromDefaultTerminalMeters": 268,
+      "minDistanceFromAnyTerminalMeters": 268,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "aquarium"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/82358e147fe57001db30",
+      "name": "Ybor City Museum",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 27.9619193,
+      "lng": -82.4383459,
+      "distanceFromTerminalMeters": 2297,
+      "distanceFromDefaultTerminalMeters": 2297,
+      "minDistanceFromAnyTerminalMeters": 2297,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1818 East 9th Avenue, Tampa, FL, 33605",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "no",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/696f182f0f438fbee367",
+      "name": "Royal Caribbean cruise port",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 27.9431258,
+      "lng": -82.4458949,
+      "distanceFromTerminalMeters": 133,
+      "distanceFromDefaultTerminalMeters": 133,
+      "minDistanceFromAnyTerminalMeters": 133,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "651 Channelside Drive",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/8b2006aa1344406fc975",
+      "name": "Ceremonial Space",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "monument",
+      "lat": 27.9417512,
+      "lng": -82.4502564,
+      "distanceFromTerminalMeters": 322,
+      "distanceFromDefaultTerminalMeters": 322,
+      "minDistanceFromAnyTerminalMeters": 322,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "monument"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d4f6699167c257226396",
+      "name": "Vicente Martinez-Ybor",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "memorial",
+      "lat": 27.9430037,
+      "lng": -82.4491547,
+      "distanceFromTerminalMeters": 193,
+      "distanceFromDefaultTerminalMeters": 193,
+      "minDistanceFromAnyTerminalMeters": 193,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "https://thetampariverwalk.com/visit/historical-monument-trail.html/title/vicente-martinez-ybor",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "memorial"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/23d1e19e9431f75ae0ad",
+      "name": "Gavino Gutierrez",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "memorial",
+      "lat": 27.9428204,
+      "lng": -82.449235,
+      "distanceFromTerminalMeters": 200,
+      "distanceFromDefaultTerminalMeters": 200,
+      "minDistanceFromAnyTerminalMeters": 200,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "https://thetampariverwalk.com/visit/historical-monument-trail.html/title/gavino-gutierrez",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "memorial"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/2ed28a649214c648a313",
+      "name": "Victoriano Mantiega",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "memorial",
+      "lat": 27.9424667,
+      "lng": -82.4495004,
+      "distanceFromTerminalMeters": 229,
+      "distanceFromDefaultTerminalMeters": 229,
+      "minDistanceFromAnyTerminalMeters": 229,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "https://thetampariverwalk.com/visit/historical-monument-trail.html/title/victoriano-manteiga",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "memorial"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f273478fbb79aacd00f5",
+      "name": "Paulina Pedroso",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "memorial",
+      "lat": 27.9421568,
+      "lng": -82.4495953,
+      "distanceFromTerminalMeters": 246,
+      "distanceFromDefaultTerminalMeters": 246,
+      "minDistanceFromAnyTerminalMeters": 246,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "https://thetampariverwalk.com/visit/historical-monument-trail.html#collection-item-lightbox-12990006",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "memorial"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/baf99699220e3bd81479",
+      "name": "Curtis Hixon Waterfront Park",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 27.9489569,
+      "lng": -82.4622385,
+      "distanceFromTerminalMeters": 1628,
+      "distanceFromDefaultTerminalMeters": 1628,
+      "minDistanceFromAnyTerminalMeters": 1628,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "600 North Ashley Drive, Tampa, FL, 33602",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f55bb487845d72c25b58",
+      "name": "Julian B. Lane Riverfront Park",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 27.9537252,
+      "lng": -82.4668752,
+      "distanceFromTerminalMeters": 2283,
+      "distanceFromDefaultTerminalMeters": 2283,
+      "minDistanceFromAnyTerminalMeters": 2283,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1001 North Boulevard, Tampa, FL, 33607, US",
+      "openingHours": "07:00-22:00",
+      "website": "https://www.tampa.gov/parks-and-recreation/featured-parks/riverfrontpark",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/a99794591877437a63d4",
+      "name": "Tampa Waterworks Park",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 27.9588283,
+      "lng": -82.4630706,
+      "distanceFromTerminalMeters": 2368,
+      "distanceFromDefaultTerminalMeters": 2368,
+      "minDistanceFromAnyTerminalMeters": 2368,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1710 North Highland Avenue, Tampa, FL",
+      "openingHours": "",
+      "website": "https://apps.tampagov.net/park_finder_webapp/parkdetail.aspx?parkid=148",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/9ecd06dc8e32c87caf88",
+      "name": "USF Park on the Riverwalk",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 27.9422635,
+      "lng": -82.4579216,
+      "distanceFromTerminalMeters": 1055,
+      "distanceFromDefaultTerminalMeters": 1055,
+      "minDistanceFromAnyTerminalMeters": 1055,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/141c9288ecad53001d2d",
+      "name": "AIDS Memorial Park",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 27.9409184,
+      "lng": -82.4601276,
+      "distanceFromTerminalMeters": 1287,
+      "distanceFromDefaultTerminalMeters": 1287,
+      "minDistanceFromAnyTerminalMeters": 1287,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/3b73889fd302afcef25d",
+      "name": "Kiley Gardens",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 27.947909,
+      "lng": -82.4610345,
+      "distanceFromTerminalMeters": 1473,
+      "distanceFromDefaultTerminalMeters": 1473,
+      "minDistanceFromAnyTerminalMeters": 1473,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/997f7062249a70b3e6bc",
+      "name": "Vila Brothers Park",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 27.9499188,
+      "lng": -82.4861181,
+      "distanceFromTerminalMeters": 3904,
+      "distanceFromDefaultTerminalMeters": 3904,
+      "minDistanceFromAnyTerminalMeters": 3904,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "700 North Armenia Avenue, Tampa, FL, 33606, US",
+      "openingHours": "",
+      "website": "https://armorygardens.org/vila-brothers-park",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/597558a806a27497a9e5",
+      "name": "Market at EDITION",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 27.9437987,
+      "lng": -82.4505752,
+      "distanceFromTerminalMeters": 350,
+      "distanceFromDefaultTerminalMeters": 350,
+      "minDistanceFromAnyTerminalMeters": 350,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1000 Water Street, Tampa, FL, 33602",
+      "openingHours": "Mo-Su 06:30-22:00",
+      "website": "https://www.editionhotels.com/tampa/restaurants-and-bars/market-at-edition/",
+      "phone": "+1-813-771-8022",
+      "cuisine": [
+        "italian",
+        "coffee_shop",
+        "pizza",
+        "pasta",
+        "pastry",
+        "mediterranean"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/4b1a0e5e4a15a2304fe5",
+      "name": "3 Corners",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 27.942722,
+      "lng": -82.4501835,
+      "distanceFromTerminalMeters": 293,
+      "distanceFromDefaultTerminalMeters": 293,
+      "minDistanceFromAnyTerminalMeters": 293,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "813 Water Street, Tampa, FL, 33602",
+      "openingHours": "Su-We 11:00-23:00; Th-Sa 11:00-01:00",
+      "website": "https://3cornerspizza.com/",
+      "phone": "+1-813-402-8442",
+      "cuisine": [
+        "pizza"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/a496c0faa66a0d3ca644",
+      "name": "The Pearl",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 27.9432599,
+      "lng": -82.4501767,
+      "distanceFromTerminalMeters": 297,
+      "distanceFromDefaultTerminalMeters": 297,
+      "minDistanceFromAnyTerminalMeters": 297,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "823 Water Street, Tampa, FL, 33602",
+      "openingHours": "Mo-Th 11:30-22:00; Fr 11:30-23:00; Sa 10:00-23:00; Su 10:00-21:00",
+      "website": "https://thepearlrestaurant.com/locations-menus/tampa/",
+      "phone": "+1-813-709-7776",
+      "cuisine": [
+        "seafood"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/208a4713b9e095205adf",
+      "name": "Predalina",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 27.9448951,
+      "lng": -82.4500946,
+      "distanceFromTerminalMeters": 368,
+      "distanceFromDefaultTerminalMeters": 368,
+      "minDistanceFromAnyTerminalMeters": 368,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1001 East Cumberland Avenue, Tampa, FL, 33602",
+      "openingHours": "Mo-We 15:00-23:00; Th 15:00-24:00; Fr 15:00-01:00; Sa 10:30-01:00; Su 10:30-22:00",
+      "website": "https://predalina.com/",
+      "phone": "+1-813-344-3442",
+      "cuisine": [
+        "portuguese",
+        "mediterranean",
+        "seafood"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/9f2d8101e0fa30809caa",
+      "name": "Lilac",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 27.9436712,
+      "lng": -82.4511938,
+      "distanceFromTerminalMeters": 404,
+      "distanceFromDefaultTerminalMeters": 404,
+      "minDistanceFromAnyTerminalMeters": 404,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "500 Channelside Drive, Tampa, FL, 33602",
+      "openingHours": "Tu-Th 05:00-21:00; Fr-Sa 05:00-22:00",
+      "website": "https://www.lilacrestauranttampa.com/",
+      "phone": "+1-813-771-8022",
+      "cuisine": [
+        "mediterranean",
+        "fine_dining"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/1a547033a7bc46223d43",
+      "name": "Ash",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 27.9441223,
+      "lng": -82.4511557,
+      "distanceFromTerminalMeters": 415,
+      "distanceFromDefaultTerminalMeters": 415,
+      "minDistanceFromAnyTerminalMeters": 415,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "420 South Nebraska Avenue, Tampa, FL, 33602",
+      "openingHours": "Tu-Th 17:00-22:00; Fr-Sa 17:00-23:00; Su 17:00-21:00",
+      "website": "https://www.ashtampa.com/",
+      "phone": "+1-813-221-9191",
+      "cuisine": [
+        "italian"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/19f5ea44354e37695f88",
+      "name": "Watervue Grille",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 27.9399629,
+      "lng": -82.4514682,
+      "distanceFromTerminalMeters": 525,
+      "distanceFromDefaultTerminalMeters": 525,
+      "minDistanceFromAnyTerminalMeters": 525,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "700 Harbour Post Dr, Tampa, FL, 33602, US",
+      "openingHours": "08:00-16:00,05:00-22:00",
+      "website": "https://watervuegrille.com/",
+      "phone": "+1 813-642-7980",
+      "cuisine": [
+        "american"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/09fdac5b85952526ac88",
+      "name": "Harpoon Harry's Crab House",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 27.9426665,
+      "lng": -82.4561156,
+      "distanceFromTerminalMeters": 876,
+      "distanceFromDefaultTerminalMeters": 876,
+      "minDistanceFromAnyTerminalMeters": 876,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "225 South Franklin Street, Tampa, FL, 33602",
+      "openingHours": "Su-Th 11:00-22:00; Fr-Sa 11:00-23:00",
+      "website": "https://harpoonharryscrabhousetampa.com",
+      "phone": "",
+      "cuisine": [
+        "seafood"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/2acbbc31fa406e2d05a5",
+      "name": "Hattrick's Sports Bar",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 27.9448482,
+      "lng": -82.4569848,
+      "distanceFromTerminalMeters": 988,
+      "distanceFromDefaultTerminalMeters": 988,
+      "minDistanceFromAnyTerminalMeters": 988,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "107 South Franklin Street, Tampa, FL, 33602, US",
+      "openingHours": "11:00-03:00",
+      "website": "https://hattrickstavern.com/",
+      "phone": "+1-813-225-4288",
+      "cuisine": [
+        "american"
+      ],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/52abce97eaa298b15203",
+      "name": "Moxie's Cafe",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 27.9478986,
+      "lng": -82.4578187,
+      "distanceFromTerminalMeters": 1187,
+      "distanceFromDefaultTerminalMeters": 1187,
+      "minDistanceFromAnyTerminalMeters": 1187,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "302 East Kennedy Blvd., Tampa, FL, 33602",
+      "openingHours": "Mo-Fr 07:30-14:30",
+      "website": "https://www.moxiesdowntown.com",
+      "phone": "+1 813 221 4510",
+      "cuisine": [
+        "sandwich"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/e27d4823ed1a80a7e80f",
+      "name": "Boulon Brasserie",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 27.9436924,
+      "lng": -82.4501953,
+      "distanceFromTerminalMeters": 311,
+      "distanceFromDefaultTerminalMeters": 311,
+      "minDistanceFromAnyTerminalMeters": 311,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1001 Water Street, Tampa, FL, 33602, US",
+      "openingHours": "",
+      "website": "https://www.boulontampa.com/",
+      "phone": "+1-813-768-9988",
+      "cuisine": [
+        "french",
+        "seafood",
+        "steak_house"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/52d30c10ae6ff0cd84ea",
+      "name": "Bamboozle Tea Lounge",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 27.9485752,
+      "lng": -82.4465391,
+      "distanceFromTerminalMeters": 645,
+      "distanceFromDefaultTerminalMeters": 645,
+      "minDistanceFromAnyTerminalMeters": 645,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "109 North 12th Street",
+      "openingHours": "",
+      "website": "http://bamboozletealounge.menufy.com/",
+      "phone": "+1-813-228-7500",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "BTC payment via Menufy.",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/66372a9e7d75929d6f73",
+      "name": "New York New York",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 27.9603989,
+      "lng": -82.4425033,
+      "distanceFromTerminalMeters": 2011,
+      "distanceFromDefaultTerminalMeters": 2011,
+      "minDistanceFromAnyTerminalMeters": 2011,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1512 East 7th Avenue, Tampa, FL, 33605, US",
+      "openingHours": "24/7",
+      "website": "https://www.nynypizzeria.com/Ybor_City.html",
+      "phone": "+1 813-248-1845",
+      "cuisine": [
+        "pizza"
+      ],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "Best pizza in town",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/02601205d243871ca685",
+      "name": "Jimmy's Tacos",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 27.959086,
+      "lng": -82.4405977,
+      "distanceFromTerminalMeters": 1924,
+      "distanceFromDefaultTerminalMeters": 1924,
+      "minDistanceFromAnyTerminalMeters": 1924,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1604 North 17th Street, Tampa, FL, 33605, US",
+      "openingHours": "Tu-Sa 11:00-22:00;Su 12:00-18:00",
+      "website": "https://jimmystacosfl.com/",
+      "phone": "",
+      "cuisine": [
+        "tex-mex"
+      ],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/59b1798ab60c2d0ecbb5",
+      "name": "Sparkman Wharf",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "mall",
+      "lat": 27.9433104,
+      "lng": -82.4469057,
+      "distanceFromTerminalMeters": 64,
+      "distanceFromDefaultTerminalMeters": 64,
+      "minDistanceFromAnyTerminalMeters": 64,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "615 Channelside Drive, Tampa, FL, 33602",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "shop": "mall"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/e52ab1eb2dcea3149f8f",
+      "name": "Centro Ybor",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "mall",
+      "lat": 27.961354,
+      "lng": -82.4414239,
+      "distanceFromTerminalMeters": 2140,
+      "distanceFromDefaultTerminalMeters": 2140,
+      "minDistanceFromAnyTerminalMeters": 2140,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "https://centroybor.com/",
+      "phone": "+1 813-242-4660",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "shop": "mall"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/bc52ab85d96a6bdb4067",
+      "name": "Armature Works",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "marketplace",
+      "lat": 27.9611555,
+      "lng": -82.4640258,
+      "distanceFromTerminalMeters": 2626,
+      "distanceFromDefaultTerminalMeters": 2626,
+      "minDistanceFromAnyTerminalMeters": 2626,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1910 North Ola Avenue, Tampa, FL, 33602",
+      "openingHours": "",
+      "website": "https://armatureworks.com/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "marketplace"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d95a8c541c20875aae1e",
+      "name": "Tampa Bay – Birthplace of Commercial Aviation",
+      "nameEnglish": "",
+      "category": "essentials",
+      "subcategory": "visitor_information",
+      "lat": 27.9432244,
+      "lng": -82.4584161,
+      "distanceFromTerminalMeters": 1103,
+      "distanceFromDefaultTerminalMeters": 1103,
+      "minDistanceFromAnyTerminalMeters": 1103,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "information"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f34ed613c42261f6e507",
+      "name": "The United States Military",
+      "nameEnglish": "",
+      "category": "essentials",
+      "subcategory": "visitor_information",
+      "lat": 27.9450612,
+      "lng": -82.4588353,
+      "distanceFromTerminalMeters": 1170,
+      "distanceFromDefaultTerminalMeters": 1170,
+      "minDistanceFromAnyTerminalMeters": 1170,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "information"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/403c6d6dc1b9a0d1f2ad",
+      "name": "Tampa Bay and MacDill",
+      "nameEnglish": "",
+      "category": "essentials",
+      "subcategory": "visitor_information",
+      "lat": 27.9451211,
+      "lng": -82.458866,
+      "distanceFromTerminalMeters": 1175,
+      "distanceFromDefaultTerminalMeters": 1175,
+      "minDistanceFromAnyTerminalMeters": 1175,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "information"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/01d60aaf47acd5c06cc9",
+      "name": "MacDill Park on the Riverwalk",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 27.9452585,
+      "lng": -82.4588327,
+      "distanceFromTerminalMeters": 1175,
+      "distanceFromDefaultTerminalMeters": 1175,
+      "minDistanceFromAnyTerminalMeters": 1175,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ef97b1a3e13d397a3a22",
+      "name": "Pawtology Grooming & Pet Market",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "pet_grooming",
+      "lat": 27.939647,
+      "lng": -82.451778,
+      "distanceFromTerminalMeters": 570,
+      "distanceFromDefaultTerminalMeters": 570,
+      "minDistanceFromAnyTerminalMeters": 570,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "711 Harbour Post Dr, Tampa, 33602",
+      "openingHours": "08:30-16:00",
+      "website": "",
+      "phone": "+1-813-363-7806",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "shop": "pet_grooming"
+      }
+    }
+  ],
+  "portAnchor": {
+    "id": "ports-json-anchor",
+    "name": "Port Tampa Bay",
+    "lat": 27.9428,
+    "lng": -82.4472,
+    "address": "815 Channelside Drive, Tampa, FL 33602",
+    "source": "ports.json",
+    "sourceId": "",
+    "score": 0,
+    "slug": "port-tampa-bay"
+  },
+  "terminalResolution": {
+    "status": "resolved",
+    "method": "accepted_terminal_candidate",
+    "verified": true,
+    "notes": "Accepted 3 candidates explicitly identified as an ocean-cruise or cruise-passenger terminal; ferry and unrelated results were excluded."
+  }
+}

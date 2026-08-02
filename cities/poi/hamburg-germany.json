@@ -1,0 +1,1832 @@
+{
+  "schemaVersion": 5,
+  "catalogType": "curation-candidates",
+  "generatedAt": "2026-07-30T08:04:04.312Z",
+  "source": "openstreetmap",
+  "sourceExtract": "hamburg-latest.osm.pbf",
+  "radiusMeters": 10000,
+  "port": {
+    "id": "hamburg-germany",
+    "city": "Hamburg",
+    "country": "Germany"
+  },
+  "defaultTerminalId": "osm/generated/49699a0947f9bc384d3e",
+  "terminal": {
+    "id": "osm/generated/49699a0947f9bc384d3e",
+    "name": "Cruise Center Steinwerder",
+    "nameEnglish": "",
+    "lat": 53.5295812,
+    "lng": 9.9613666,
+    "address": "",
+    "source": "verified_terminal_candidate",
+    "sourceId": "osm/generated/49699a0947f9bc384d3e",
+    "terminalType": "passenger_cruise_terminal",
+    "verified": true,
+    "notes": "Accepted 2 candidates explicitly identified as an ocean-cruise or cruise-passenger terminal; ferry and unrelated results were excluded.",
+    "sourceUrls": [],
+    "sources": [
+      "openstreetmap"
+    ],
+    "sourceIds": [
+      "osm/generated/49699a0947f9bc384d3e"
+    ],
+    "osmTags": {
+      "alt_name": "Hamburg Cruise Center 3",
+      "harbour": "yes",
+      "operator": "Cruise Gate Hamburg GmbH",
+      "seamark:type": "harbour"
+    },
+    "matchedBy": [
+      "terminal-like name"
+    ],
+    "distanceFromPortMeters": 3074
+  },
+  "terminals": [
+    {
+      "id": "osm/generated/49699a0947f9bc384d3e",
+      "name": "Cruise Center Steinwerder",
+      "nameEnglish": "",
+      "lat": 53.5295812,
+      "lng": 9.9613666,
+      "address": "",
+      "source": "verified_terminal_candidate",
+      "sourceId": "osm/generated/49699a0947f9bc384d3e",
+      "terminalType": "passenger_cruise_terminal",
+      "verified": true,
+      "notes": "Accepted 2 candidates explicitly identified as an ocean-cruise or cruise-passenger terminal; ferry and unrelated results were excluded.",
+      "sourceUrls": [],
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/49699a0947f9bc384d3e"
+      ],
+      "osmTags": {
+        "alt_name": "Hamburg Cruise Center 3",
+        "harbour": "yes",
+        "operator": "Cruise Gate Hamburg GmbH",
+        "seamark:type": "harbour"
+      },
+      "matchedBy": [
+        "terminal-like name"
+      ],
+      "distanceFromPortMeters": 3074
+    },
+    {
+      "id": "osm/generated/d2fd64539d4ebf5dd192",
+      "name": "Cruise Center HafenCity",
+      "nameEnglish": "",
+      "lat": 53.5389489,
+      "lng": 9.9974359,
+      "address": "",
+      "source": "verified_terminal_candidate",
+      "sourceId": "osm/generated/d2fd64539d4ebf5dd192",
+      "terminalType": "passenger_cruise_terminal",
+      "verified": true,
+      "notes": "Accepted 2 candidates explicitly identified as an ocean-cruise or cruise-passenger terminal; ferry and unrelated results were excluded.",
+      "sourceUrls": [],
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/d2fd64539d4ebf5dd192"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "operator": "CGH Cruise Gate Hamburg GmbH",
+        "public_transport": "station",
+        "harbour": "yes"
+      },
+      "matchedBy": [
+        "amenity=ferry_terminal",
+        "terminal-like name"
+      ],
+      "distanceFromPortMeters": 4622
+    }
+  ],
+  "terminalCandidateRadiusMeters": 5000,
+  "terminalCandidates": [
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/6a73456542c88582cc02",
+      "name": "Dockland (Fischereihafen)",
+      "nameEnglish": "",
+      "lat": 53.5430021,
+      "lng": 9.9354993,
+      "distanceFromPortMeters": 859,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "stop_position"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/6a73456542c88582cc02"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/8e55887b56a874d4421e",
+      "name": "Köhlbrandhöft (nur für Betriebsangehörige)",
+      "nameEnglish": "",
+      "lat": 53.539872,
+      "lng": 9.9381353,
+      "distanceFromPortMeters": 1248,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "cargo": "passengers",
+        "ferry": "yes",
+        "operator": "HADAG Seetouristik und Fährdienst",
+        "public_transport": "stop_position"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/8e55887b56a874d4421e"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c9d07b3ea12db6cf60f0",
+      "name": "Neumühlen",
+      "nameEnglish": "",
+      "lat": 53.5435028,
+      "lng": 9.9142334,
+      "distanceFromPortMeters": 1268,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "cargo": "passengers",
+        "ferry": "yes",
+        "operator": "HADAG Seetouristik und Fährdienst",
+        "public_transport": "stop_position"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/c9d07b3ea12db6cf60f0"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ac4f84b48b626a2df1fe",
+      "name": "Altona (Fischmarkt)",
+      "nameEnglish": "",
+      "lat": 53.5439852,
+      "lng": 9.9521859,
+      "distanceFromPortMeters": 1611,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "operator": "HADAG Seetouristik und Fährdienst",
+        "public_transport": "stop_position"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/ac4f84b48b626a2df1fe"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/9bade42eeeec6522c21d",
+      "name": "(unnamed maritime feature)",
+      "nameEnglish": "",
+      "lat": 53.5455218,
+      "lng": 9.9631414,
+      "distanceFromPortMeters": 2245,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/9bade42eeeec6522c21d"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/7875a137707f78ba7801",
+      "name": "(unnamed maritime feature)",
+      "nameEnglish": "",
+      "lat": 53.5451037,
+      "lng": 9.9693139,
+      "distanceFromPortMeters": 2654,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "cargo": "passengers",
+        "ferry": "yes",
+        "operator": "helgoline",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/7875a137707f78ba7801"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/bdbea33a13ec268df6f8",
+      "name": "Waltershof",
+      "nameEnglish": "",
+      "lat": 53.5256259,
+      "lng": 9.9372376,
+      "distanceFromPortMeters": 2752,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "cargo": "foot;bicycle",
+        "ferry": "yes",
+        "operator": "HADAG Seetouristik und Fährdienst",
+        "public_transport": "stop_position"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/bdbea33a13ec268df6f8"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/53e333d689528061393c",
+      "name": "Neuhof",
+      "nameEnglish": "",
+      "lat": 53.5241552,
+      "lng": 9.9407111,
+      "distanceFromPortMeters": 2960,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "cargo": "passengers",
+        "ferry": "yes",
+        "operator": "HADAG Seetouristik und Fährdienst",
+        "public_transport": "stop_position"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/53e333d689528061393c"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/49699a0947f9bc384d3e",
+      "name": "Cruise Center Steinwerder",
+      "nameEnglish": "",
+      "lat": 53.5295812,
+      "lng": 9.9613666,
+      "distanceFromPortMeters": 3074,
+      "address": "",
+      "matchedBy": [
+        "terminal-like name"
+      ],
+      "osmTags": {
+        "alt_name": "Hamburg Cruise Center 3",
+        "harbour": "yes",
+        "operator": "Cruise Gate Hamburg GmbH",
+        "seamark:type": "harbour"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/49699a0947f9bc384d3e"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b5bbaf69eb340c8baf64",
+      "name": "Bubendey-Ufer",
+      "nameEnglish": "",
+      "lat": 53.5401245,
+      "lng": 9.8853335,
+      "distanceFromPortMeters": 3149,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "cargo": "foot;bicycle",
+        "ferry": "yes",
+        "operator": "HADAG Seetouristik und Fährdienst",
+        "public_transport": "stop_position"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/b5bbaf69eb340c8baf64"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/bfa08b6fd907f8111b47",
+      "name": "Abfahrtsstelle Barkassen Ehlers",
+      "nameEnglish": "",
+      "lat": 53.543818,
+      "lng": 9.9792272,
+      "distanceFromPortMeters": 3324,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/bfa08b6fd907f8111b47"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/e73f8f3ccac351a1cbaf",
+      "name": "Finkenwerder",
+      "nameEnglish": "",
+      "lat": 53.536193,
+      "lng": 9.8792428,
+      "distanceFromPortMeters": 3688,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "cargo": "passengers",
+        "ferry": "yes",
+        "operator": "HADAG Seetouristik und Fährdienst",
+        "public_transport": "stop_position"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/e73f8f3ccac351a1cbaf"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/4b52f15f41a77642dff4",
+      "name": "Argentinienbrücke",
+      "nameEnglish": "",
+      "lat": 53.5281645,
+      "lng": 9.9760032,
+      "distanceFromPortMeters": 3891,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "operator": "HADAG Seetouristik und Fährdienst",
+        "public_transport": "stop_position"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/4b52f15f41a77642dff4"
+      ]
+    },
+    {
+      "source": "openstreetmap+nominatim",
+      "sourceId": "osm/generated/99da11be3fb45a542469",
+      "name": "Anleger Hamburg Port Authority Große Pötte & Kleine Züge",
+      "nameEnglish": "",
+      "lat": 53.5442057,
+      "lng": 9.9925995,
+      "distanceFromPortMeters": 4186,
+      "address": "Anleger Hamburg Port Authority Große Pötte & Kleine Züge, Brook, Quartier Am Sandtorpark/Grasbrook, HafenCity, Hamburg-Mitte, Hamburg, 20457, Deutschland",
+      "matchedBy": [
+        "amenity=ferry_terminal",
+        "Nominatim query: HAMBURG Port, Hamburg, Germany"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap",
+        "nominatim"
+      ],
+      "sourceIds": [
+        "osm/generated/99da11be3fb45a542469",
+        "osm/node/13004771461"
+      ],
+      "displayName": "Anleger Hamburg Port Authority Große Pötte & Kleine Züge, Brook, Quartier Am Sandtorpark/Grasbrook, HafenCity, Hamburg-Mitte, Hamburg, 20457, Deutschland",
+      "query": "HAMBURG Port, Hamburg, Germany"
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/cc75a75dbe0c80708e71",
+      "name": "Jungfernstieg",
+      "nameEnglish": "",
+      "lat": 53.5533789,
+      "lng": 9.9934905,
+      "distanceFromPortMeters": 4211,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "stop_position"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/cc75a75dbe0c80708e71"
+      ]
+    },
+    {
+      "source": "nominatim",
+      "sourceId": "osm/node/615149412",
+      "osmType": "node",
+      "osmId": "615149412",
+      "name": "Hamburg Port Authority Bibliothek",
+      "nameEnglish": "",
+      "lat": 53.5449315,
+      "lng": 9.9954396,
+      "distanceFromPortMeters": 4360,
+      "address": "Hamburg Port Authority Bibliothek, 4, Neuer Wandrahm, Quartier Am Sandtorpark/Grasbrook, HafenCity, Hamburg-Mitte, Hamburg, 20457, Deutschland",
+      "displayName": "Hamburg Port Authority Bibliothek, 4, Neuer Wandrahm, Quartier Am Sandtorpark/Grasbrook, HafenCity, Hamburg-Mitte, Hamburg, 20457, Deutschland",
+      "query": "HAMBURG Port, Hamburg, Germany",
+      "matchedBy": [
+        "Nominatim query: HAMBURG Port, Hamburg, Germany"
+      ],
+      "osmTags": {},
+      "sources": [
+        "nominatim"
+      ],
+      "sourceIds": [
+        "osm/node/615149412"
+      ]
+    },
+    {
+      "source": "nominatim",
+      "sourceId": "osm/node/6463208432",
+      "osmType": "node",
+      "osmId": "6463208432",
+      "name": "Hamburg Port Authority",
+      "nameEnglish": "",
+      "lat": 53.5449693,
+      "lng": 9.9955278,
+      "distanceFromPortMeters": 4365,
+      "address": "Hamburg Port Authority, 4, Neuer Wandrahm, Quartier Am Sandtorpark/Grasbrook, HafenCity, Hamburg-Mitte, Hamburg, 20457, Deutschland",
+      "displayName": "Hamburg Port Authority, 4, Neuer Wandrahm, Quartier Am Sandtorpark/Grasbrook, HafenCity, Hamburg-Mitte, Hamburg, 20457, Deutschland",
+      "query": "HAMBURG Port, Hamburg, Germany",
+      "matchedBy": [
+        "Nominatim query: HAMBURG Port, Hamburg, Germany"
+      ],
+      "osmTags": {},
+      "sources": [
+        "nominatim"
+      ],
+      "sourceIds": [
+        "osm/node/6463208432"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c6c9edd2f3f41f197817",
+      "name": "Teufelsbrück",
+      "nameEnglish": "",
+      "lat": 53.5464706,
+      "lng": 9.8626533,
+      "distanceFromPortMeters": 4467,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "stop_position"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/c6c9edd2f3f41f197817"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/942677550268098015a1",
+      "name": "Ernst-August-Schleuse",
+      "nameEnglish": "",
+      "lat": 53.5241209,
+      "lng": 9.9819294,
+      "distanceFromPortMeters": 4479,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "cargo": "passengers;bicycle",
+        "ferry": "yes",
+        "operator": "HADAG Seetouristik und Fährdienst",
+        "public_transport": "stop_position"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/942677550268098015a1"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/53e0872bd263f559ea14",
+      "name": "Rüschpark",
+      "nameEnglish": "",
+      "lat": 53.5416025,
+      "lng": 9.8633617,
+      "distanceFromPortMeters": 4501,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "cargo": "passengers;bicycle",
+        "ferry": "yes",
+        "public_transport": "stop_position"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/53e0872bd263f559ea14"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d2fd64539d4ebf5dd192",
+      "name": "Cruise Center HafenCity",
+      "nameEnglish": "",
+      "lat": 53.5389489,
+      "lng": 9.9974359,
+      "distanceFromPortMeters": 4622,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal",
+        "terminal-like name"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "operator": "CGH Cruise Gate Hamburg GmbH",
+        "public_transport": "station",
+        "harbour": "yes"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/d2fd64539d4ebf5dd192"
+      ]
+    },
+    {
+      "source": "nominatim",
+      "sourceId": "osm/way/328804676",
+      "osmType": "way",
+      "osmId": "328804676",
+      "name": "Hamburg Port Authority (HPA)",
+      "nameEnglish": "",
+      "lat": 53.5226802,
+      "lng": 9.9835528,
+      "distanceFromPortMeters": 4664,
+      "address": "Hamburg Port Authority (HPA), 17, Klütjenfelder Straße, Wilhelmsburg, Hamburg-Mitte, Hamburg, 21107, Deutschland",
+      "displayName": "Hamburg Port Authority (HPA), 17, Klütjenfelder Straße, Wilhelmsburg, Hamburg-Mitte, Hamburg, 21107, Deutschland",
+      "query": "HAMBURG Port, Hamburg, Germany",
+      "matchedBy": [
+        "Nominatim query: HAMBURG Port, Hamburg, Germany"
+      ],
+      "osmTags": {},
+      "sources": [
+        "nominatim"
+      ],
+      "sourceIds": [
+        "osm/way/328804676"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/510cae332cd8f1c4bd18",
+      "name": "Atlantic",
+      "nameEnglish": "",
+      "lat": 53.5580998,
+      "lng": 10.003782,
+      "distanceFromPortMeters": 4956,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "stop_position"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/510cae332cd8f1c4bd18"
+      ]
+    }
+  ],
+  "counts": {
+    "attraction": 17,
+    "outdoors": 6,
+    "food_drink": 15,
+    "shopping": 3,
+    "essentials": 2
+  },
+  "pois": [
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/0cc7bd3b5c9cf106ed9e",
+      "name": "Hauptkirche St. Michaelis",
+      "nameEnglish": "Church of St. Michael",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 53.5484046,
+      "lng": 9.9789008,
+      "distanceFromTerminalMeters": 3235,
+      "distanceFromDefaultTerminalMeters": 3235,
+      "minDistanceFromAnyTerminalMeters": 3235,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1 A Englische Planke, Hamburg, 20459",
+      "openingHours": "",
+      "website": "https://www.st-michaelis.de/",
+      "phone": "+49 40 376780",
+      "cuisine": [],
+      "wheelchair": "limited",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "place_of_worship",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/4bc1ae189988de0776af",
+      "name": "Elbphilharmonie",
+      "nameEnglish": "Elbe Philharmonic Hall",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 53.5412491,
+      "lng": 9.9841054,
+      "distanceFromTerminalMeters": 3705,
+      "distanceFromDefaultTerminalMeters": 3705,
+      "minDistanceFromAnyTerminalMeters": 3705,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1 Platz der Deutschen Einheit, Hamburg, 20457, DE",
+      "openingHours": "",
+      "website": "https://www.elbphilharmonie.de/de/",
+      "phone": "+49 40 3576660",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "theatre",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/499981ca27e085b23596",
+      "name": "Stadtteilarchiv Ottensen e.V.",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 53.5551413,
+      "lng": 9.9297315,
+      "distanceFromTerminalMeters": 572,
+      "distanceFromDefaultTerminalMeters": 572,
+      "minDistanceFromAnyTerminalMeters": 572,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "28 Zeißstraße, Hamburg, 22765, DE",
+      "openingHours": "Mo,Tu,Th 14:00-18:00; We 09:00-13:00",
+      "website": "https://stadtteilarchiv-ottensen.de",
+      "phone": "+49 40 3903666",
+      "cuisine": [],
+      "wheelchair": "limited",
+      "brand": "",
+      "description": "Ständige Ausstellung in der ehemaligen Ottensener Drahtstifte-Fabrik",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d2c28c317c12a2ee677a",
+      "name": "Döns",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 53.543567,
+      "lng": 9.9136166,
+      "distanceFromTerminalMeters": 1297,
+      "distanceFromDefaultTerminalMeters": 1297,
+      "minDistanceFromAnyTerminalMeters": 1297,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "22763",
+      "openingHours": "",
+      "website": "http://www.museumshafen-oevelgoenne.de",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "limited",
+      "brand": "",
+      "description": "Historisches Wartehäuschen",
+      "osmTags": {
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/361ff483e878d130c102",
+      "name": "Altonaer Museum",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 53.5491217,
+      "lng": 9.9341947,
+      "distanceFromTerminalMeters": 294,
+      "distanceFromDefaultTerminalMeters": 294,
+      "minDistanceFromAnyTerminalMeters": 294,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "23 Museumstraße, Hamburg, 22765, DE",
+      "openingHours": "Mo,We-Fr 10:00-17:00; Sa,Su 10:00-18:00; Tu off",
+      "website": "https://www.altonaermuseum.de/",
+      "phone": "+49 40 4281350",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "heritage",
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/28ba49cce828dc0b04a1",
+      "name": "Kinderbuchhaus",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 53.5490465,
+      "lng": 9.9345561,
+      "distanceFromTerminalMeters": 319,
+      "distanceFromDefaultTerminalMeters": 319,
+      "minDistanceFromAnyTerminalMeters": 319,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "23 Museumstraße",
+      "openingHours": "Mo,We-Fr 10:00-17:00; Sa-Su 10:00-18:00",
+      "website": "https://www.kinderbuchhaus.de/",
+      "phone": "+49 40 428135 1543",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/80f40ed12ed7e7311d84",
+      "name": "Altonaer Theater",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "heritage",
+      "lat": 53.5484626,
+      "lng": 9.9342611,
+      "distanceFromTerminalMeters": 329,
+      "distanceFromDefaultTerminalMeters": 329,
+      "minDistanceFromAnyTerminalMeters": 329,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "17 Museumstraße, Hamburg, 22765, DE",
+      "openingHours": "",
+      "website": "http://www.altonaer-theater.de",
+      "phone": "+49 40 39905870",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "theatre",
+        "historic": "heritage"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/46546b9688700b7c0c52",
+      "name": "Heine Haus, Gartenhaus",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 53.546246,
+      "lng": 9.9285296,
+      "distanceFromTerminalMeters": 429,
+      "distanceFromDefaultTerminalMeters": 429,
+      "minDistanceFromAnyTerminalMeters": 429,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "\"Zu den Veranstaltungen und nach Vereinbarung\"",
+      "website": "https://www.heine-haus-hamburg.de/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "no",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/34d29230cacc8561ddbd",
+      "name": "Alma-Wartenberg-Platz",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "square",
+      "lat": 53.5540191,
+      "lng": 9.9285956,
+      "distanceFromTerminalMeters": 456,
+      "distanceFromDefaultTerminalMeters": 456,
+      "minDistanceFromAnyTerminalMeters": 456,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Alma-Wartenberg-Platz",
+      "openingHours": "",
+      "website": "https://de.wikipedia.org/wiki/Alma_Wartenberg",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "place": "square"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/2f6cdc8a33b806620cad",
+      "name": "St. Pauli-Elbtunnel",
+      "nameEnglish": "St. Pauli Elbe Tunnel",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 53.5458706,
+      "lng": 9.9666036,
+      "distanceFromTerminalMeters": 2461,
+      "distanceFromDefaultTerminalMeters": 2461,
+      "minDistanceFromAnyTerminalMeters": 2461,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Bei den St. Pauli-Landungsbrücken, Hamburg, 20359, DE",
+      "openingHours": "24/7",
+      "website": "https://www.hamburg.de/alter-elbtunnel/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "Nordeingang, St. Pauli-Landungsbrücken",
+      "osmTags": {
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/9a36e6b8460439f9b0ee",
+      "name": "U-434",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 53.5449963,
+      "lng": 9.9552107,
+      "distanceFromTerminalMeters": 1756,
+      "distanceFromDefaultTerminalMeters": 1756,
+      "minDistanceFromAnyTerminalMeters": 1756,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "10 St. Pauli Fischmarkt, Hamburg, 20359",
+      "openingHours": "Mo-Sa 09:00-20:00; Su 11:00-20:00",
+      "website": "https://www.u-434.de/",
+      "phone": "+49 40 32004934",
+      "cuisine": [],
+      "wheelchair": "no",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "ship",
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/cef963e561a2c609491c",
+      "name": "Davidwache",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 53.5488877,
+      "lng": 9.9627761,
+      "distanceFromTerminalMeters": 2169,
+      "distanceFromDefaultTerminalMeters": 2169,
+      "minDistanceFromAnyTerminalMeters": 2169,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "31 Spielbudenplatz, Hamburg, 20359, DE",
+      "openingHours": "24/7",
+      "website": "https://polizei.hamburg",
+      "phone": "+49 40 428651510",
+      "cuisine": [],
+      "wheelchair": "no",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "police",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/acead9542a444496d82a",
+      "name": "Kaffeemuseum Burg",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 53.5446938,
+      "lng": 9.9967434,
+      "distanceFromTerminalMeters": 4449,
+      "distanceFromDefaultTerminalMeters": 4449,
+      "minDistanceFromAnyTerminalMeters": 4449,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Su 10:00-18:00",
+      "website": "https://kaffeemuseum-burg.de/",
+      "phone": "+49 40 55204258",
+      "cuisine": [],
+      "wheelchair": "no",
+      "brand": "",
+      "description": "Café und Rösterei im Erdgeschoss. Kaffeemuseum im Kellergeschoss.",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/623c7720cc382d507f68",
+      "name": "Zoologisches Museum",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 53.5671317,
+      "lng": 9.978222,
+      "distanceFromTerminalMeters": 3711,
+      "distanceFromDefaultTerminalMeters": 3711,
+      "minDistanceFromAnyTerminalMeters": 3711,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "52 Bundesstraße, Hamburg, 20146",
+      "openingHours": "Tu-Su 10:00-17:00",
+      "website": "https://www.cenak.uni-hamburg.de/ausstellungen/museum-zoologie.html",
+      "phone": "+49 40 238317555",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/dbffeb722d088df55928",
+      "name": "Speicherstadtmuseum",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 53.543075,
+      "lng": 9.9875264,
+      "distanceFromTerminalMeters": 3878,
+      "distanceFromDefaultTerminalMeters": 3878,
+      "minDistanceFromAnyTerminalMeters": 3878,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "36 Am Sandtorkai, Hamburg, 20457, DE",
+      "openingHours": "Mar-Nov Mo-Fr 10:00-17:00, Mar-Nov Sa,Su 10:00-18:00; Dec-Feb Th-Su 10:00-17:00",
+      "website": "https://www.shmh.de/speicherstadtmuseum/",
+      "phone": "+49 40 321191",
+      "cuisine": [],
+      "wheelchair": "no",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/341b21553abf03245651",
+      "name": "Miniatur Wunderland",
+      "nameEnglish": "Miniature Wonderland",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 53.5438229,
+      "lng": 9.9889448,
+      "distanceFromTerminalMeters": 3954,
+      "distanceFromDefaultTerminalMeters": 3954,
+      "minDistanceFromAnyTerminalMeters": 3954,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "2-4 Kehrwieder, Hamburg, 20457",
+      "openingHours": "Mo-Su 07:00-01:00",
+      "website": "https://www.miniatur-wunderland.de",
+      "phone": "+49 40 3006800",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/44fbd4ae28847ad706aa",
+      "name": "Internationales Maritimes Museum Hamburg",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 53.5433529,
+      "lng": 9.9998236,
+      "distanceFromTerminalMeters": 4672,
+      "distanceFromDefaultTerminalMeters": 4672,
+      "minDistanceFromAnyTerminalMeters": 4672,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1 Koreastraße, Hamburg, 20457, DE",
+      "openingHours": "Mo-Su,PH 10:00-18:00",
+      "website": "https://www.imm-hamburg.de/",
+      "phone": "+49 40 3009230-0",
+      "cuisine": [],
+      "wheelchair": "limited",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "heritage",
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ba4b0dc6e768abed3302",
+      "name": "Geschichts- und Kulturpfad Othmarschen - St. 10",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "viewpoint",
+      "lat": 53.5447923,
+      "lng": 9.9120938,
+      "distanceFromTerminalMeters": 1317,
+      "distanceFromDefaultTerminalMeters": 1317,
+      "minDistanceFromAnyTerminalMeters": 1317,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "https://geschichtspfad-othmarschen.stadtteilarchiv-ottensen.de/lotsenhaus-oevelgoenne.html",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "viewpoint"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/39ee2fa9f1182befdf26",
+      "name": "Parkhaus",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "viewpoint",
+      "lat": 53.5529131,
+      "lng": 9.934241,
+      "distanceFromTerminalMeters": 428,
+      "distanceFromDefaultTerminalMeters": 428,
+      "minDistanceFromAnyTerminalMeters": 428,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "viewpoint"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/baae67a3f8aed142d646",
+      "name": "Buchenbaum",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "viewpoint",
+      "lat": 53.545741,
+      "lng": 9.932255,
+      "distanceFromTerminalMeters": 496,
+      "distanceFromDefaultTerminalMeters": 496,
+      "minDistanceFromAnyTerminalMeters": 496,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "viewpoint"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/e4d65bb1092dbed55897",
+      "name": "Altonaer Balkon",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "viewpoint",
+      "lat": 53.545274,
+      "lng": 9.935832,
+      "distanceFromTerminalMeters": 652,
+      "distanceFromDefaultTerminalMeters": 652,
+      "minDistanceFromAnyTerminalMeters": 652,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "24/7",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "viewpoint"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/88b149e3dbe4c63d2ee7",
+      "name": "Dockland",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "viewpoint",
+      "lat": 53.5433444,
+      "lng": 9.9340878,
+      "distanceFromTerminalMeters": 788,
+      "distanceFromDefaultTerminalMeters": 788,
+      "minDistanceFromAnyTerminalMeters": 788,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "no",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "viewpoint"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/8a859a11f7f71be3d56f",
+      "name": "HCCA",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "viewpoint",
+      "lat": 53.5434787,
+      "lng": 9.9367959,
+      "distanceFromTerminalMeters": 853,
+      "distanceFromDefaultTerminalMeters": 853,
+      "minDistanceFromAnyTerminalMeters": 853,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "no",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "viewpoint"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/167bf0bed5fa7884b4d5",
+      "name": "Eclair au Café",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 53.5538568,
+      "lng": 9.9291351,
+      "distanceFromTerminalMeters": 433,
+      "distanceFromDefaultTerminalMeters": 433,
+      "minDistanceFromAnyTerminalMeters": 433,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1 Kleine Rainstraße, Hamburg, 22765",
+      "openingHours": "Mo-Su 07:00-19:00",
+      "website": "https://www.eclairaucafe-hh.de/",
+      "phone": "+49 40 369 13 488",
+      "cuisine": [
+        "coffee_shop",
+        "french"
+      ],
+      "wheelchair": "no",
+      "brand": "",
+      "description": "Cafe, Patisserie",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/9fd1507ce7aa4a2f7c71",
+      "name": "Köz Urfa",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 53.5526195,
+      "lng": 9.9362809,
+      "distanceFromTerminalMeters": 507,
+      "distanceFromDefaultTerminalMeters": 507,
+      "minDistanceFromAnyTerminalMeters": 507,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "2-4 Paul-Nevermann-Platz, Hamburg, 22765, DE",
+      "openingHours": "Mo-Th 08:00-01:00; Fr,Sa,Su 08:00-02:00",
+      "website": "https://www.kozurfa.de/",
+      "phone": "+49 40 30035826",
+      "cuisine": [
+        "turkish"
+      ],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "Restaurant 2",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/89efc535dda196aa29c5",
+      "name": "Café Altamira",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 53.5598319,
+      "lng": 9.9271149,
+      "distanceFromTerminalMeters": 1110,
+      "distanceFromDefaultTerminalMeters": 1110,
+      "minDistanceFromAnyTerminalMeters": 1110,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "4 Thomasstraße, Hamburg, 22761, DE",
+      "openingHours": "Mo-Th 18:00+, Fr-Su 17:00+",
+      "website": "https://www.cafealtamira.de/",
+      "phone": "+49 85371600",
+      "cuisine": [
+        "spanish"
+      ],
+      "wheelchair": "no",
+      "brand": "",
+      "description": "Tapas Bar",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/4410da3b796aaf04fd02",
+      "name": "La Maison d´Avignon",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 53.549683,
+      "lng": 9.9303866,
+      "distanceFromTerminalMeters": 44,
+      "distanceFromDefaultTerminalMeters": 44,
+      "minDistanceFromAnyTerminalMeters": 44,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "2 Arnoldstraße, Hamburg, 22765, DE",
+      "openingHours": "Tu-Sa 18:30-21:30",
+      "website": "https://www.lamaisonavignon.de/",
+      "phone": "+49 40 28806512",
+      "cuisine": [
+        "french"
+      ],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/7ee12f2f825ba25912cc",
+      "name": "Luna Sel",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 53.5507932,
+      "lng": 9.9302802,
+      "distanceFromTerminalMeters": 90,
+      "distanceFromDefaultTerminalMeters": 90,
+      "minDistanceFromAnyTerminalMeters": 90,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "86 Bahrenfelder Straße, Hamburg, 22765",
+      "openingHours": "Mo-We 18:00+; Th-Sa 13:00-18:00+; Su off",
+      "website": "https://lunasel.eatbu.com/?lang=de",
+      "phone": "+49 40 38634061",
+      "cuisine": [
+        "mediterranean",
+        "cafe"
+      ],
+      "wheelchair": "limited",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/8435bb48151592921456",
+      "name": "Pizzeria König",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 53.551167,
+      "lng": 9.9302849,
+      "distanceFromTerminalMeters": 131,
+      "distanceFromDefaultTerminalMeters": 131,
+      "minDistanceFromAnyTerminalMeters": 131,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "98 Bahrenfelder Straße, Hamburg, 22765",
+      "openingHours": "17:00+",
+      "website": "https://diepizzeriakoenig.de/",
+      "phone": "+49 40 41358877",
+      "cuisine": [
+        "italian_pizza"
+      ],
+      "wheelchair": "no",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/27b6baa2cb0c3eaa5259",
+      "name": "La Casita Azul",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 53.5512302,
+      "lng": 9.9307274,
+      "distanceFromTerminalMeters": 145,
+      "distanceFromDefaultTerminalMeters": 145,
+      "minDistanceFromAnyTerminalMeters": 145,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "4 Spritzenplatz, Hamburg, 22765, DE",
+      "openingHours": "Tu-Th 12:00-22:00; Fr-Sa 12:00-23:00",
+      "website": "https://lacasita-azul.de/",
+      "phone": "+49 40 89067216",
+      "cuisine": [
+        "mexican"
+      ],
+      "wheelchair": "no",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c8135ec07f2d376635ff",
+      "name": "Petit Amour",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 53.5514099,
+      "lng": 9.9310617,
+      "distanceFromTerminalMeters": 172,
+      "distanceFromDefaultTerminalMeters": 172,
+      "minDistanceFromAnyTerminalMeters": 172,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "11 Spritzenplatz, Hamburg, 22765, DE",
+      "openingHours": "We-Sa 18:30-23:00",
+      "website": "https://petitamour-hh.com/",
+      "phone": "+49 40 30746556",
+      "cuisine": [
+        "french"
+      ],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/442674f7aabc7c38abba",
+      "name": "Flying Market",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 53.5504244,
+      "lng": 9.9272788,
+      "distanceFromTerminalMeters": 186,
+      "distanceFromDefaultTerminalMeters": 186,
+      "minDistanceFromAnyTerminalMeters": 186,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "38 Eulenstraße, Hamburg, 22765, DE",
+      "openingHours": "Mo-Su 12:00-22:30",
+      "website": "https://flyingmarket.metro.bar/?lang=de",
+      "phone": "+49 40 84600904",
+      "cuisine": [
+        "vietnamese"
+      ],
+      "wheelchair": "no",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d7def25135a408f2456f",
+      "name": "Kypros",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 53.551714,
+      "lng": 9.9306085,
+      "distanceFromTerminalMeters": 195,
+      "distanceFromDefaultTerminalMeters": 195,
+      "minDistanceFromAnyTerminalMeters": 195,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "18 Spritzenplatz, Hamburg, 22765, DE",
+      "openingHours": "Mo-Fr 16:00-24:00; PH,Sa,Su 12:00-24:00",
+      "website": "https://restaurant-kypros-altona.de/",
+      "phone": "+49 40 3903 350",
+      "cuisine": [
+        "greek"
+      ],
+      "wheelchair": "limited",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/6a5999c1e6a207128909",
+      "name": "Yoko Sushi Altona",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 53.5504024,
+      "lng": 9.9270068,
+      "distanceFromTerminalMeters": 203,
+      "distanceFromDefaultTerminalMeters": 203,
+      "minDistanceFromAnyTerminalMeters": 203,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "42 Eulenstraße, Hamburg, 22765, DE",
+      "openingHours": "Mo-Th 11:00-22:00; Fr 11:00-22:30; Sa 12:00-22:30; Su 12:00-22:00",
+      "website": "https://www.yoko.de/",
+      "phone": "+49 40 84890505",
+      "cuisine": [
+        "sushi"
+      ],
+      "wheelchair": "no",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/528147fe3d4af8c92080",
+      "name": "Nostalgia bei Sotiris",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 53.550202,
+      "lng": 9.926919,
+      "distanceFromTerminalMeters": 205,
+      "distanceFromDefaultTerminalMeters": 205,
+      "minDistanceFromAnyTerminalMeters": 205,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "49 Eulenstraße, Hamburg, 22765, DE",
+      "openingHours": "PH,Tu-Su 16:00-24:00+",
+      "website": "http://www.nostalgia-beisotiris.de",
+      "phone": "+49 40 39907467",
+      "cuisine": [
+        "greek"
+      ],
+      "wheelchair": "limited",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/221d152d231993d63dbd",
+      "name": "OT Restaurant",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 53.5520934,
+      "lng": 9.9293785,
+      "distanceFromTerminalMeters": 236,
+      "distanceFromDefaultTerminalMeters": 236,
+      "minDistanceFromAnyTerminalMeters": 236,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "32 Ottenser Hauptstraße, Hamburg, 22765, DE",
+      "openingHours": "Mo-Th 11:00-23:00; Fr-Sa 11:00-24:00; Su 13:00-23:00",
+      "website": "https://ot-restaurant.com",
+      "phone": "+49 176 64042200",
+      "cuisine": [
+        "thai"
+      ],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/453768aac61b8fdc35fc",
+      "name": "Mr. Dumpling",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 53.5520828,
+      "lng": 9.9292482,
+      "distanceFromTerminalMeters": 237,
+      "distanceFromDefaultTerminalMeters": 237,
+      "minDistanceFromAnyTerminalMeters": 237,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "34 Ottenser Hauptstraße",
+      "openingHours": "Tu-Su 12:00-22:00",
+      "website": "https://mrdumpling.de",
+      "phone": "+494052158317",
+      "cuisine": [
+        "turkish"
+      ],
+      "wheelchair": "no",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/9a80b1e50fddea7674a8",
+      "name": "Farina di Nonna",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 53.5520897,
+      "lng": 9.9319939,
+      "distanceFromTerminalMeters": 267,
+      "distanceFromDefaultTerminalMeters": 267,
+      "minDistanceFromAnyTerminalMeters": 267,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "9 Ottenser Hauptstraße, Hamburg, 22765, DE",
+      "openingHours": "Mo-Sa 12:00-22:00; Su 12:00-21:00",
+      "website": "https://farinadinonna.pizza/hamburg-altona/",
+      "phone": "+49 40 71004988",
+      "cuisine": [
+        "pizza",
+        "italian"
+      ],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/979bc5b4e8b66ffbc934",
+      "name": "Wochenmarkt Ottensen",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "marketplace",
+      "lat": 53.5515395,
+      "lng": 9.9304108,
+      "distanceFromTerminalMeters": 173,
+      "distanceFromDefaultTerminalMeters": 173,
+      "minDistanceFromAnyTerminalMeters": 173,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Tu 08:00-14:00; We 12:00-18:30; Fr 08:00-18:30; Sa 09:30-15:00",
+      "website": "https://www.hamburg.de/wochenmarkt-altona/3875642/wochenmarkt-ottensen/",
+      "phone": "+49 40 428116068; +49 172 4328995; +49 40 428116070; +49 40 428116074",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "marketplace"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d30c59490bcb12956c16",
+      "name": "Mercado",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "mall",
+      "lat": 53.5528778,
+      "lng": 9.9321268,
+      "distanceFromTerminalMeters": 349,
+      "distanceFromDefaultTerminalMeters": 349,
+      "minDistanceFromAnyTerminalMeters": 349,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "8-14 Ottenser Hauptstraße, Hamburg, 22765, DE",
+      "openingHours": "Mo-Sa 10:00-20:00; Su closed",
+      "website": "https://www.mercado.hamburg",
+      "phone": "+49 40 3986840",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "shop": "mall"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/8ac655491eb5b3980bec",
+      "name": "Kaiser-Apotheke",
+      "nameEnglish": "",
+      "category": "essentials",
+      "subcategory": "pharmacy",
+      "lat": 53.5525099,
+      "lng": 9.9299338,
+      "distanceFromTerminalMeters": 279,
+      "distanceFromDefaultTerminalMeters": 279,
+      "minDistanceFromAnyTerminalMeters": 279,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "103 Bahrenfelder Straße, Hamburg, 22765, DE",
+      "openingHours": "Mo-Fr 08:30-19:00; Sa 09:00-16:00",
+      "website": "https://www.kaiser-apotheke-ottensen.de/",
+      "phone": "+49 40 391313",
+      "cuisine": [],
+      "wheelchair": "no",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "pharmacy"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/6523aa400b474580699b",
+      "name": "Bahnhof Apotheke",
+      "nameEnglish": "",
+      "category": "essentials",
+      "subcategory": "pharmacy",
+      "lat": 53.5521058,
+      "lng": 9.9324538,
+      "distanceFromTerminalMeters": 285,
+      "distanceFromDefaultTerminalMeters": 285,
+      "minDistanceFromAnyTerminalMeters": 285,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "5 Ottenser Hauptstraße, Hamburg, 22765, DE",
+      "openingHours": "Mo-Fr 08:30-19:00; Sa 09:30-16:00; PH off",
+      "website": "http://www.bahnhof-apotheke-altona.de",
+      "phone": "+49 40 3988930",
+      "cuisine": [],
+      "wheelchair": "no",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "pharmacy"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f2faf8d14d5ad20b8fd5",
+      "name": "glore Hamburg",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "clothes",
+      "lat": 53.5582287,
+      "lng": 9.9711808,
+      "distanceFromTerminalMeters": 2870,
+      "distanceFromDefaultTerminalMeters": 2870,
+      "minDistanceFromAnyTerminalMeters": 2870,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "31 Marktstraße, Hamburg, 20357, DE",
+      "openingHours": "Mo-Fr 11:30-18:30; PH off; Sa 11:00-18:00",
+      "website": "https://www.glore.de/Concept-Stores/Hamburg/",
+      "phone": "+49 40 35777650",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "globally responsible fashion für Männer und Frauen",
+      "osmTags": {
+        "shop": "clothes"
+      }
+    }
+  ],
+  "portAnchor": {
+    "id": "ports-json-anchor",
+    "name": "HAMBURG Port",
+    "lat": 53.55,
+    "lng": 9.93,
+    "address": "Hamburg, Hamburg, Germany",
+    "source": "ports.json",
+    "sourceId": "",
+    "score": 0,
+    "slug": "hamburg-port"
+  },
+  "terminalResolution": {
+    "status": "resolved",
+    "method": "accepted_terminal_candidate",
+    "verified": true,
+    "notes": "Accepted 2 candidates explicitly identified as an ocean-cruise or cruise-passenger terminal; ferry and unrelated results were excluded."
+  }
+}

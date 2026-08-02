@@ -1,0 +1,913 @@
+{
+  "schemaVersion": 5,
+  "catalogType": "curation-candidates",
+  "generatedAt": "2026-07-30T08:17:28.243Z",
+  "source": "openstreetmap",
+  "sourceExtract": "libya-latest.osm.pbf",
+  "radiusMeters": 10000,
+  "port": {
+    "id": "benghazi-libya",
+    "city": "Benghazi",
+    "country": "Libya"
+  },
+  "defaultTerminalId": "ports-json-anchor",
+  "terminal": {
+    "id": "ports-json-anchor",
+    "name": "BANGHAZI Port",
+    "lat": 32.12,
+    "lng": 20.05,
+    "address": "Benghazi, Cyrenaica, Libya",
+    "source": "ports.json",
+    "sourceId": "",
+    "score": 0,
+    "slug": "banghazi-port"
+  },
+  "terminals": [
+    {
+      "id": "ports-json-anchor",
+      "name": "BANGHAZI Port",
+      "lat": 32.12,
+      "lng": 20.05,
+      "address": "Benghazi, Cyrenaica, Libya",
+      "source": "ports.json",
+      "sourceId": "",
+      "score": 0,
+      "slug": "banghazi-port"
+    }
+  ],
+  "terminalCandidateRadiusMeters": 5000,
+  "terminalCandidates": [
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/df080bc52073667331bd",
+      "name": "(unnamed maritime feature)",
+      "nameEnglish": "",
+      "lat": 32.1192737,
+      "lng": 20.0483642,
+      "distanceFromPortMeters": 174,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/df080bc52073667331bd"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/e68205d3205c4243557a",
+      "name": "(unnamed maritime feature)",
+      "nameEnglish": "",
+      "lat": 32.1140941,
+      "lng": 20.0481926,
+      "distanceFromPortMeters": 678,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/e68205d3205c4243557a"
+      ]
+    }
+  ],
+  "counts": {
+    "attraction": 12,
+    "outdoors": 4,
+    "food_drink": 10,
+    "shopping": 5,
+    "essentials": 0
+  },
+  "pois": [
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/13f07215561920e5763e",
+      "name": "قصر المنار",
+      "nameEnglish": "Al Manar Palace",
+      "category": "attraction",
+      "subcategory": "castle",
+      "lat": 32.1166937,
+      "lng": 20.0580336,
+      "distanceFromTerminalMeters": 841,
+      "distanceFromDefaultTerminalMeters": 841,
+      "minDistanceFromAnyTerminalMeters": 841,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "castle"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/eecf7f5df3aa5127c498",
+      "name": "Early Christian Church in Sidi Khiribech",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "ruins",
+      "lat": 32.1244157,
+      "lng": 20.0643808,
+      "distanceFromTerminalMeters": 1441,
+      "distanceFromDefaultTerminalMeters": 1441,
+      "minDistanceFromAnyTerminalMeters": 1441,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Ruins of a byzantine church in Sidi Khiribech, identified as \"Area G\" in archaeological reports and tourist guides",
+      "osmTags": {
+        "historic": "ruins"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/77f47d287badfa1f6ffb",
+      "name": "قصر البركة",
+      "nameEnglish": "Al Birka Palace",
+      "category": "attraction",
+      "subcategory": "castle",
+      "lat": 32.0952829,
+      "lng": 20.0778249,
+      "distanceFromTerminalMeters": 3798,
+      "distanceFromDefaultTerminalMeters": 3798,
+      "minDistanceFromAnyTerminalMeters": 3798,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "benghazi, 00218",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "castle"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ad3aba5a3b94b313f371",
+      "name": "قصر عبدو إسماعيل",
+      "nameEnglish": "Abdo Ismail Place",
+      "category": "attraction",
+      "subcategory": "castle",
+      "lat": 32.0805096,
+      "lng": 20.0700028,
+      "distanceFromTerminalMeters": 4778,
+      "distanceFromDefaultTerminalMeters": 4778,
+      "minDistanceFromAnyTerminalMeters": 4778,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "castle"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/78708416d4f0738a495a",
+      "name": "بيت المدينة الثقافي",
+      "nameEnglish": "City culture center",
+      "category": "attraction",
+      "subcategory": "monument",
+      "lat": 32.1190807,
+      "lng": 20.0597645,
+      "distanceFromTerminalMeters": 925,
+      "distanceFromDefaultTerminalMeters": 925,
+      "minDistanceFromAnyTerminalMeters": 925,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "arts_centre",
+        "historic": "monument"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/8a59ceed9def40148f21",
+      "name": "Area L in Sidi Khiribech",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "archaeological_site",
+      "lat": 32.1243738,
+      "lng": 20.0623867,
+      "distanceFromTerminalMeters": 1264,
+      "distanceFromDefaultTerminalMeters": 1264,
+      "minDistanceFromAnyTerminalMeters": 1264,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Ruins of a Roman House in Sidi Khiribech identified as \"House L\" in archaeological reports and tourist guides",
+      "osmTags": {
+        "historic": "archaeological_site"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/81a72553cf5c10acd582",
+      "name": "Area H in Sidi Khiribech",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "archaeological_site",
+      "lat": 32.1249619,
+      "lng": 20.0628753,
+      "distanceFromTerminalMeters": 1332,
+      "distanceFromDefaultTerminalMeters": 1332,
+      "minDistanceFromAnyTerminalMeters": 1332,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Ruins of a Roman House identified as \"House H\" in archaeological reports and tourist guides.",
+      "osmTags": {
+        "historic": "archaeological_site"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b9f24414b28111a62c21",
+      "name": "Area X in Sidi Khiribesh",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "ruins",
+      "lat": 32.1244808,
+      "lng": 20.0631557,
+      "distanceFromTerminalMeters": 1335,
+      "distanceFromDefaultTerminalMeters": 1335,
+      "minDistanceFromAnyTerminalMeters": 1335,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Ruins of an ancient building (classic to byzantine) known as \"house X\" in the archaeological area of Sidi Khiribesh",
+      "osmTags": {
+        "historic": "ruins"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/fd80ca9218d05111f7c2",
+      "name": "Area B in Sidi Khiribech",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "ruins",
+      "lat": 32.1246395,
+      "lng": 20.0631516,
+      "distanceFromTerminalMeters": 1342,
+      "distanceFromDefaultTerminalMeters": 1342,
+      "minDistanceFromAnyTerminalMeters": 1342,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Ruins of an ancient building in Sidi Khiribech identified as \"House B\" in archaeological reports and tourist guides",
+      "osmTags": {
+        "historic": "ruins"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/6b9fe155642d0ce12233",
+      "name": "Area A in Sidi Kiribech",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "ruins",
+      "lat": 32.1245596,
+      "lng": 20.0633492,
+      "distanceFromTerminalMeters": 1356,
+      "distanceFromDefaultTerminalMeters": 1356,
+      "minDistanceFromAnyTerminalMeters": 1356,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Ruins of an ancient building in Sidi Khiribech identified as \"House A\" in archaeological reports and tourist guides",
+      "osmTags": {
+        "historic": "ruins"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/6246a818a5198e807c1a",
+      "name": "ⵜⴰⵙⴰⵃⵜ ⵏ ⵜⵉⴱⵙⵜⵉ ساحة تيبستي",
+      "nameEnglish": "Tibesti Square",
+      "category": "attraction",
+      "subcategory": "square",
+      "lat": 32.1094518,
+      "lng": 20.0673412,
+      "distanceFromTerminalMeters": 2011,
+      "distanceFromDefaultTerminalMeters": 2011,
+      "minDistanceFromAnyTerminalMeters": 2011,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "place": "square"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/4b699a9cb7a85a1151e3",
+      "name": "حديقة الحيوان بنغازي",
+      "nameEnglish": "Benghazi Zoo",
+      "category": "attraction",
+      "subcategory": "zoo",
+      "lat": 32.0832576,
+      "lng": 20.0966213,
+      "distanceFromTerminalMeters": 5998,
+      "distanceFromDefaultTerminalMeters": 5998,
+      "minDistanceFromAnyTerminalMeters": 5998,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "zoo"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/4b41c9bb3f9149372af8",
+      "name": "ميدان الشجرة",
+      "nameEnglish": "Tree Square",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 32.115277,
+      "lng": 20.0621887,
+      "distanceFromTerminalMeters": 1262,
+      "distanceFromDefaultTerminalMeters": 1262,
+      "minDistanceFromAnyTerminalMeters": 1262,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/a7e8de762a1e1f5c1823",
+      "name": "ميدان المعلم",
+      "nameEnglish": "Teacher's Square",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 32.1159379,
+      "lng": 20.0654821,
+      "distanceFromTerminalMeters": 1526,
+      "distanceFromDefaultTerminalMeters": 1526,
+      "minDistanceFromAnyTerminalMeters": 1526,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/2c2a8730bc61a45f387d",
+      "name": "حديقة 23 يوليو",
+      "nameEnglish": "23 July Park",
+      "category": "outdoors",
+      "subcategory": "garden",
+      "lat": 32.1086079,
+      "lng": 20.0683731,
+      "distanceFromTerminalMeters": 2144,
+      "distanceFromDefaultTerminalMeters": 2144,
+      "minDistanceFromAnyTerminalMeters": 2144,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "garden"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/77e99dbdb0d84c00223b",
+      "name": "كفي فيتوريا",
+      "nameEnglish": "Vittoria Cafe",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 32.0802867,
+      "lng": 20.0679737,
+      "distanceFromTerminalMeters": 4729,
+      "distanceFromDefaultTerminalMeters": 4729,
+      "minDistanceFromAnyTerminalMeters": 4729,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "الطريق الدائري الثالث, بنغازي, 00218",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [
+        "كفي_وافطار_صباحي"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/8baa2224a25d32974b6b",
+      "name": "مطعم السفينة",
+      "nameEnglish": "Al Safeena Restaurant",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 32.1056192,
+      "lng": 20.0510631,
+      "distanceFromTerminalMeters": 1602,
+      "distanceFromDefaultTerminalMeters": 1602,
+      "minDistanceFromAnyTerminalMeters": 1602,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/083534886321c31e1979",
+      "name": "بيتزا كوين",
+      "nameEnglish": "Pizza Queen",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 32.1095474,
+      "lng": 20.0876863,
+      "distanceFromTerminalMeters": 3735,
+      "distanceFromDefaultTerminalMeters": 3735,
+      "minDistanceFromAnyTerminalMeters": 3735,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "928470531 شارع أحمد المقريف",
+      "openingHours": "Sa-Th 12:30-23:00; Fr 16:00-23:00",
+      "website": "",
+      "phone": "0928470531",
+      "cuisine": [
+        "italian_pizza"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ea037eb3d43c6eef8717",
+      "name": "مقهي علاء للبن",
+      "nameEnglish": "Alaa's Coffee Brewery",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 32.1228933,
+      "lng": 20.092477,
+      "distanceFromTerminalMeters": 4013,
+      "distanceFromDefaultTerminalMeters": 4013,
+      "minDistanceFromAnyTerminalMeters": 4013,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/4dffc03a6e8fa152b759",
+      "name": "مطعم تريبيانكوا للعائلات",
+      "nameEnglish": "Trebianco Grill House",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 32.078298,
+      "lng": 20.0626048,
+      "distanceFromTerminalMeters": 4787,
+      "distanceFromDefaultTerminalMeters": 4787,
+      "minDistanceFromAnyTerminalMeters": 4787,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Su 13:30-22:30",
+      "website": "",
+      "phone": "00218925117007",
+      "cuisine": [
+        "steak_house",
+        "kebab",
+        "local",
+        "fine_dining",
+        "grill",
+        "diner",
+        "beef_bowl"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/85f3ff26cf978d7eb283",
+      "name": "مطعم بيتزا",
+      "nameEnglish": "Pizza",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 32.0815682,
+      "lng": 20.0638497,
+      "distanceFromTerminalMeters": 4468,
+      "distanceFromDefaultTerminalMeters": 4468,
+      "minDistanceFromAnyTerminalMeters": 4468,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "الطريق الدائري الثاني, بنغازي, 00218",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [
+        "all"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/1f9a4d98fd692392b3d6",
+      "name": "كانتري كافي",
+      "nameEnglish": "Country Café",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 32.0566959,
+      "lng": 20.0770616,
+      "distanceFromTerminalMeters": 7487,
+      "distanceFromDefaultTerminalMeters": 7487,
+      "minDistanceFromAnyTerminalMeters": 7487,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "شارع فينيسيا",
+      "openingHours": "Mo-Su 08:00-00:00",
+      "website": "",
+      "phone": "",
+      "cuisine": [
+        "arab"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/57d6475645980429e7e4",
+      "name": "عصائر والكريب",
+      "nameEnglish": "BlueBerry",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 32.0887228,
+      "lng": 20.0903844,
+      "distanceFromTerminalMeters": 5154,
+      "distanceFromDefaultTerminalMeters": 5154,
+      "minDistanceFromAnyTerminalMeters": 5154,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "بنغازي",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [
+        "juice"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/851e3738b443971745b9",
+      "name": "كافتيريا العلوم",
+      "nameEnglish": "Science Cafeteria",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 32.0545353,
+      "lng": 20.0523535,
+      "distanceFromTerminalMeters": 7283,
+      "distanceFromDefaultTerminalMeters": 7283,
+      "minDistanceFromAnyTerminalMeters": 7283,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [
+        "burger"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/bdfa8da8065cb6855ced",
+      "name": "Wow! Burgers and Sodas",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 32.0748357,
+      "lng": 20.0738768,
+      "distanceFromTerminalMeters": 5503,
+      "distanceFromDefaultTerminalMeters": 5503,
+      "minDistanceFromAnyTerminalMeters": 5503,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "بنغازي",
+      "openingHours": "",
+      "website": "facebook.com/wowburger.ly",
+      "phone": "+218910952700",
+      "cuisine": [
+        "burger"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/73363f63ceef74a73906",
+      "name": "الفندق البلدي (سوق الخضار)",
+      "nameEnglish": "Vegetable Market",
+      "category": "shopping",
+      "subcategory": "marketplace",
+      "lat": 32.1237717,
+      "lng": 20.0710461,
+      "distanceFromTerminalMeters": 2026,
+      "distanceFromDefaultTerminalMeters": 2026,
+      "minDistanceFromAnyTerminalMeters": 2026,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "marketplace"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/51808bfef0a9c3a4b2d2",
+      "name": "سوق افريقيا",
+      "nameEnglish": "Africa Market",
+      "category": "shopping",
+      "subcategory": "marketplace",
+      "lat": 32.1263239,
+      "lng": 20.0740046,
+      "distanceFromTerminalMeters": 2367,
+      "distanceFromDefaultTerminalMeters": 2367,
+      "minDistanceFromAnyTerminalMeters": 2367,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "marketplace"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/1e767e6c6a9654c7f78a",
+      "name": "سوق السلماني العام",
+      "nameEnglish": "Assalmani General Food Market",
+      "category": "shopping",
+      "subcategory": "marketplace",
+      "lat": 32.1124143,
+      "lng": 20.0857309,
+      "distanceFromTerminalMeters": 3469,
+      "distanceFromDefaultTerminalMeters": 3469,
+      "minDistanceFromAnyTerminalMeters": 3469,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "marketplace"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/65a559fd1cef25833f8a",
+      "name": "Sabri General Market",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "marketplace",
+      "lat": 32.136994,
+      "lng": 20.0798364,
+      "distanceFromTerminalMeters": 3386,
+      "distanceFromDefaultTerminalMeters": 3386,
+      "minDistanceFromAnyTerminalMeters": 3386,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "marketplace"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/8326957b19dcdb6513e2",
+      "name": "سوق 24 ساعة التجاري العام (Benghazi)",
+      "nameEnglish": "hours public shopping Market",
+      "category": "shopping",
+      "subcategory": "mall",
+      "lat": 32.1120683,
+      "lng": 20.0727125,
+      "distanceFromTerminalMeters": 2314,
+      "distanceFromDefaultTerminalMeters": 2314,
+      "minDistanceFromAnyTerminalMeters": 2314,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "shop": "mall"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/6c76f361d6aeeea3a35b",
+      "name": "ميدان الكاتدرائية",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "garden",
+      "lat": 32.1147526,
+      "lng": 20.0597525,
+      "distanceFromTerminalMeters": 1088,
+      "distanceFromDefaultTerminalMeters": 1088,
+      "minDistanceFromAnyTerminalMeters": 1088,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "garden"
+      }
+    }
+  ],
+  "portAnchor": {
+    "id": "ports-json-anchor",
+    "name": "BANGHAZI Port",
+    "lat": 32.12,
+    "lng": 20.05,
+    "address": "Benghazi, Cyrenaica, Libya",
+    "source": "ports.json",
+    "sourceId": "",
+    "score": 0,
+    "slug": "banghazi-port"
+  },
+  "terminalResolution": {
+    "status": "unresolved",
+    "method": "ports_json_fallback",
+    "verified": false,
+    "notes": "All supplied candidates are ferry-only stops, local docks, unnamed maritime features, or unrelated places rather than passenger cruise terminals."
+  }
+}

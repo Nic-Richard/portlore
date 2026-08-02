@@ -1,0 +1,1063 @@
+{
+  "schemaVersion": 5,
+  "catalogType": "curation-candidates",
+  "generatedAt": "2026-07-30T08:36:45.088Z",
+  "source": "openstreetmap",
+  "sourceExtract": "nordeste-latest.osm.pbf",
+  "radiusMeters": 10000,
+  "port": {
+    "id": "salvador-brazil",
+    "city": "Salvador",
+    "country": "Brazil"
+  },
+  "defaultTerminalId": "ports-json-anchor",
+  "terminal": {
+    "id": "ports-json-anchor",
+    "name": "PORT DE SALVADOR Port",
+    "lat": -12.97,
+    "lng": -38.52,
+    "address": "Salvador, Bahia, Brazil",
+    "source": "ports.json",
+    "sourceId": "",
+    "score": 0,
+    "slug": "port-de-salvador-port"
+  },
+  "terminals": [
+    {
+      "id": "ports-json-anchor",
+      "name": "PORT DE SALVADOR Port",
+      "lat": -12.97,
+      "lng": -38.52,
+      "address": "Salvador, Bahia, Brazil",
+      "source": "ports.json",
+      "sourceId": "",
+      "score": 0,
+      "slug": "port-de-salvador-port"
+    }
+  ],
+  "terminalCandidateRadiusMeters": 5000,
+  "terminalCandidates": [
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/eba890fbef353ef10c46",
+      "name": "(unnamed maritime feature)",
+      "nameEnglish": "",
+      "lat": -12.9716896,
+      "lng": -38.5152529,
+      "distanceFromPortMeters": 548,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/eba890fbef353ef10c46"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/2da0906deec64fab6c80",
+      "name": "Terminal Turístico Náutico da Bahia",
+      "nameEnglish": "",
+      "lat": -12.9717656,
+      "lng": -38.5151222,
+      "distanceFromPortMeters": 564,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "alt_name": "Terminal Náutico da Bahia",
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "operator": "Socicam Náutica e Turismo",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/2da0906deec64fab6c80"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/20e5f91bcf6e68c35c9d",
+      "name": "(unnamed maritime feature)",
+      "nameEnglish": "",
+      "lat": -12.9534253,
+      "lng": -38.5034031,
+      "distanceFromPortMeters": 2575,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "building": "yes",
+        "ferry": "yes",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/20e5f91bcf6e68c35c9d"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/1544b6999e3e856338a0",
+      "name": "São Joaquim",
+      "nameEnglish": "",
+      "lat": -12.9528448,
+      "lng": -38.5035964,
+      "distanceFromPortMeters": 2607,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "harbour": "yes",
+        "public_transport": "station",
+        "seamark:type": "harbour"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/1544b6999e3e856338a0"
+      ]
+    }
+  ],
+  "counts": {
+    "attraction": 16,
+    "outdoors": 5,
+    "food_drink": 10,
+    "shopping": 3,
+    "essentials": 1
+  },
+  "pois": [
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/461455897f3395cca08e",
+      "name": "Centro Histórico de Salvador de Bahia",
+      "nameEnglish": "Historic Centre of Salvador de Bahia",
+      "category": "attraction",
+      "subcategory": "district",
+      "lat": -12.9737416,
+      "lng": -38.5125547,
+      "distanceFromTerminalMeters": 908,
+      "distanceFromDefaultTerminalMeters": 908,
+      "minDistanceFromAnyTerminalMeters": 908,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "https://whc.unesco.org/en/list/309/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Excluding buffer zone",
+      "osmTags": {
+        "historic": "district"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/cf4f08d619f03444cb7a",
+      "name": "Galeria Mercado",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": -12.97296,
+      "lng": -38.513851,
+      "distanceFromTerminalMeters": 743,
+      "distanceFromDefaultTerminalMeters": 743,
+      "minDistanceFromAnyTerminalMeters": 743,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Praça Maria Felipa, antigo subsolo do Mercado Modelo, Salvador",
+      "openingHours": "Terça a sábado, das 9h às 17h (última entrada até às 16h) Domingo e feriado: 9 às 14h (última entrada até às 13:30h)",
+      "website": "https://linktr.ee/galeriamercado",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b06ef7e207db42cd83a0",
+      "name": "Casa das Histórias de Salvador",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": -12.9727834,
+      "lng": -38.5135676,
+      "distanceFromTerminalMeters": 763,
+      "distanceFromDefaultTerminalMeters": 763,
+      "minDistanceFromAnyTerminalMeters": 763,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Tu-Su 10:00-18:00",
+      "website": "https://casadashistoriasdesalvador.com.br/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/7e311737381943c83a20",
+      "name": "Cidade da Música da Bahia",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": -12.9731397,
+      "lng": -38.5132262,
+      "distanceFromTerminalMeters": 813,
+      "distanceFromDefaultTerminalMeters": 813,
+      "minDistanceFromAnyTerminalMeters": 813,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "19 Praça Visconde de Cayru, Salvador, 40015-170",
+      "openingHours": "Tu-Su 10:00-18:00",
+      "website": "https://cidadedamusicadabahia.com.br",
+      "phone": "+55 71 31064659",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/70c7e1836d142b3202e2",
+      "name": "Museu da Misericórdia",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": -12.9737046,
+      "lng": -38.5119056,
+      "distanceFromTerminalMeters": 969,
+      "distanceFromDefaultTerminalMeters": 969,
+      "minDistanceFromAnyTerminalMeters": 969,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "6 Rua da Misericórdia",
+      "openingHours": "Tu-Fr 08:30-17:30; Sa 09:00-17:00; PH Su 12:00-17:00",
+      "website": "http://www.museudamisericordia.org.br/",
+      "phone": "+55 71 22039835",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/5567ecf9ffd646945bad",
+      "name": "Museu do Mar Aleixo Belov",
+      "nameEnglish": "Sea Museum Aleixo Belov",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": -12.9637051,
+      "lng": -38.5038332,
+      "distanceFromTerminalMeters": 1886,
+      "distanceFromDefaultTerminalMeters": 1886,
+      "minDistanceFromAnyTerminalMeters": 1886,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Largo de Santo Antônio",
+      "openingHours": "Tu-Su 10:00-18:00",
+      "website": "https://museudomaraleixobelov.org.br/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "Aleixo Belov's collection",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/9717bbc401f7c133dee9",
+      "name": "Forte de São Marcelo",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "castle",
+      "lat": -12.9699874,
+      "lng": -38.5178365,
+      "distanceFromTerminalMeters": 234,
+      "distanceFromDefaultTerminalMeters": 234,
+      "minDistanceFromAnyTerminalMeters": 234,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "castle"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d52d37a4c937078c9150",
+      "name": "Forte São Pedro",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "castle",
+      "lat": -12.9874975,
+      "lng": -38.520614,
+      "distanceFromTerminalMeters": 1947,
+      "distanceFromDefaultTerminalMeters": 1947,
+      "minDistanceFromAnyTerminalMeters": 1947,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "castle"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/6541e51efe04b97a9056",
+      "name": "Museu Náutico da Bahia",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": -13.0103244,
+      "lng": -38.5329502,
+      "distanceFromTerminalMeters": 4698,
+      "distanceFromDefaultTerminalMeters": 4698,
+      "minDistanceFromAnyTerminalMeters": 4698,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Forte de Santo Antônio da Barra - Largo do Farol da Barra, s/n - Barra, Salvador, Salvador, 40140-650",
+      "openingHours": "Mo-Su 09:00-18:00",
+      "website": "https://www.museunauticodabahia.org.br",
+      "phone": "+55 71 32643296",
+      "cuisine": [],
+      "wheelchair": "no",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "fort",
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/8d319b81e792dce38ed5",
+      "name": "Forte do Barbalho",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "fort",
+      "lat": -12.9649455,
+      "lng": -38.5001385,
+      "distanceFromTerminalMeters": 2224,
+      "distanceFromDefaultTerminalMeters": 2224,
+      "minDistanceFromAnyTerminalMeters": 2224,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "fort"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/1d2b4eb3c4ccf628a38a",
+      "name": "Parque Zoobotânico Getúlio Vargas",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "zoo",
+      "lat": -13.0061923,
+      "lng": -38.5055866,
+      "distanceFromTerminalMeters": 4317,
+      "distanceFromDefaultTerminalMeters": 4317,
+      "minDistanceFromAnyTerminalMeters": 4317,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Tu-Su 08:30-17:00",
+      "website": "http://www.zoo.ba.gov.br/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "zoo"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/1b4cc33604a5c4946937",
+      "name": "Elevador Lacerda",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": -12.9740882,
+      "lng": -38.5133596,
+      "distanceFromTerminalMeters": 851,
+      "distanceFromDefaultTerminalMeters": 851,
+      "minDistanceFromAnyTerminalMeters": 851,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Praça Visconde de Cayru",
+      "openingHours": "Mo-Su 07:00-19:30",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "building",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/43d6830d608b8e1fab5a",
+      "name": "Forte de Santo Alberto",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "castle",
+      "lat": -12.9551416,
+      "lng": -38.5019583,
+      "distanceFromTerminalMeters": 2560,
+      "distanceFromDefaultTerminalMeters": 2560,
+      "minDistanceFromAnyTerminalMeters": 2560,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "castle"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/64747f4635e0736a3757",
+      "name": "Monumento ao Visconde de Cairu",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "monument",
+      "lat": -12.9734472,
+      "lng": -38.5134941,
+      "distanceFromTerminalMeters": 802,
+      "distanceFromDefaultTerminalMeters": 802,
+      "minDistanceFromAnyTerminalMeters": 802,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "monument"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/32fa9e38ac0cdd7f7d61",
+      "name": "Monumento a Castro Alves",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "monument",
+      "lat": -12.976871,
+      "lng": -38.5147682,
+      "distanceFromTerminalMeters": 951,
+      "distanceFromDefaultTerminalMeters": 951,
+      "minDistanceFromAnyTerminalMeters": 951,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "monument"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/20ec331d0adaa3c68a3f",
+      "name": "Monumento à Constituição de Cádiz",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "monument",
+      "lat": -12.9747036,
+      "lng": -38.5126025,
+      "distanceFromTerminalMeters": 957,
+      "distanceFromDefaultTerminalMeters": 957,
+      "minDistanceFromAnyTerminalMeters": 957,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "monument"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/726923a079cab5cd2f43",
+      "name": "Praia da Gamboa",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "beach",
+      "lat": -12.983366,
+      "lng": -38.520973,
+      "distanceFromTerminalMeters": 1490,
+      "distanceFromDefaultTerminalMeters": 1490,
+      "minDistanceFromAnyTerminalMeters": 1490,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "https://www.bahiaterra.com/posts/praia-da-gamboa-salvador",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "natural": "beach"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/e401bbdea79a7f96e6c2",
+      "name": "Praia da Preguiça",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "beach",
+      "lat": -12.9788749,
+      "lng": -38.5178126,
+      "distanceFromTerminalMeters": 1015,
+      "distanceFromDefaultTerminalMeters": 1015,
+      "minDistanceFromAnyTerminalMeters": 1015,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "natural": "beach"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/7fecd5353c6ea20a4900",
+      "name": "Prainha do Solar do União",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "beach",
+      "lat": -12.981325,
+      "lng": -38.5197836,
+      "distanceFromTerminalMeters": 1260,
+      "distanceFromDefaultTerminalMeters": 1260,
+      "minDistanceFromAnyTerminalMeters": 1260,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "natural": "beach"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/6c35845a43ba8fb09b35",
+      "name": "Praça Castro Alves",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": -12.9770075,
+      "lng": -38.5146886,
+      "distanceFromTerminalMeters": 969,
+      "distanceFromDefaultTerminalMeters": 969,
+      "minDistanceFromAnyTerminalMeters": 969,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "A Praça Castro Alves é um logradouro situado na cidade de Salvador, capital do estado brasileiro da Bahia, localizada na parte central do antigo centro urbano, na Cidade Alta.",
+      "osmTags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/caaefedb80b9aad08b96",
+      "name": "Bahia Marina",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "marina",
+      "lat": -12.9786683,
+      "lng": -38.5206321,
+      "distanceFromTerminalMeters": 966,
+      "distanceFromDefaultTerminalMeters": 966,
+      "minDistanceFromAnyTerminalMeters": 966,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1010 Avenida Lafayete Coutinho, 40015-160",
+      "openingHours": "",
+      "website": "https://www.bahiamarina.com.br",
+      "phone": "+55 71 33208888",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "marina"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/378520b01f47673d26ba",
+      "name": "Cafélier",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": -12.9680483,
+      "lng": -38.5073997,
+      "distanceFromTerminalMeters": 1382,
+      "distanceFromDefaultTerminalMeters": 1382,
+      "minDistanceFromAnyTerminalMeters": 1382,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "50 Rua do Carmo",
+      "openingHours": "Mo-Sa 14:00-21:30; Su 14:30-20:00",
+      "website": "http://www.cafelier.com.br",
+      "phone": "+55 71 32415095",
+      "cuisine": [
+        "brazilian",
+        "coffee_shop",
+        "sandwich"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f497fc74071e0dc634ff",
+      "name": "Bar Cruz do Pascoal",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "pub",
+      "lat": -12.9674202,
+      "lng": -38.5070707,
+      "distanceFromTerminalMeters": 1430,
+      "distanceFromDefaultTerminalMeters": 1430,
+      "minDistanceFromAnyTerminalMeters": 1430,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "02 Rua do Carmo, Salvador",
+      "openingHours": "Segunda a Domingo: 12h–0h (Sex/Sáb até 3h)",
+      "website": "https://www.instagram.com/bar_rcantodopascoal/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Cerveja gelada, pratos baianos, ambiente tradicional",
+      "osmTags": {
+        "amenity": "pub"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/631dce309542411adae8",
+      "name": "Café e Cana",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "pub",
+      "lat": -12.9675749,
+      "lng": -38.5069666,
+      "distanceFromTerminalMeters": 1438,
+      "distanceFromDefaultTerminalMeters": 1438,
+      "minDistanceFromAnyTerminalMeters": 1438,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "25 Rua do Carmo, Salvador",
+      "openingHours": "Tu-Su 10:00-23:00",
+      "website": "https://www.instagram.com/cafeecana/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Baião de dois, refrigerantes artesanais, ambiente de rua.",
+      "osmTags": {
+        "amenity": "pub"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/90fed8ba9b45ab8864b2",
+      "name": "Boteco de pelourinho",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": -12.9739889,
+      "lng": -38.509677,
+      "distanceFromTerminalMeters": 1203,
+      "distanceFromDefaultTerminalMeters": 1203,
+      "minDistanceFromAnyTerminalMeters": 1203,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "5 Largo do Cruzeiro do São Francisco, Salvador, 40026-010",
+      "openingHours": "Quinta a Sábado: 18h–0h",
+      "website": "https://www.instagram.com/botecodopelourinho_/",
+      "phone": "",
+      "cuisine": [
+        "regional"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Clima histórico, comida baiana acessível.",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/2a81d8f53d7aa5860eb1",
+      "name": "Armazém Saúde",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": -12.9729078,
+      "lng": -38.5058369,
+      "distanceFromTerminalMeters": 1568,
+      "distanceFromDefaultTerminalMeters": 1568,
+      "minDistanceFromAnyTerminalMeters": 1568,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "437 Rua Jogo do Carneiro, Salvador",
+      "openingHours": "Terça: 19h–23h; Sexta a Domingo: ~17h–1h",
+      "website": "https://www.instagram.com/novoarmazem.437/",
+      "phone": "+55 71 98893-2717",
+      "cuisine": [
+        "regional"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Happy hour, cervejas geladas, clima informal.",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/469b162d787bcb797630",
+      "name": "Di Janela Boteco",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": -12.9717291,
+      "lng": -38.5055437,
+      "distanceFromTerminalMeters": 1578,
+      "distanceFromDefaultTerminalMeters": 1578,
+      "minDistanceFromAnyTerminalMeters": 1578,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "09 R. da Glória, Salvador, 40045-140",
+      "openingHours": "Diariamente: 11h–Último cliente",
+      "website": "https://www.instagram.com/dijanela_gastronomia/",
+      "phone": "+55 71 99296-8700",
+      "cuisine": [
+        "regional"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Ambiente rústico com um pequeno bar e mesas ao ar livre, pratos típicos da culinária brasileira e cervejas.",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/effc05016adc421f4d2c",
+      "name": "Pala 7",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": -12.9753229,
+      "lng": -38.5126881,
+      "distanceFromTerminalMeters": 989,
+      "distanceFromDefaultTerminalMeters": 989,
+      "minDistanceFromAnyTerminalMeters": 989,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "12:00-23:00",
+      "website": "",
+      "phone": "",
+      "cuisine": [
+        "italian"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/e633585b8ba5a8dddde9",
+      "name": "Restaurante Dona Suzana",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": -12.9842937,
+      "lng": -38.5218057,
+      "distanceFromTerminalMeters": 1601,
+      "distanceFromDefaultTerminalMeters": 1601,
+      "minDistanceFromAnyTerminalMeters": 1601,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Su 11:00-17:00",
+      "website": "https://www.instagram.com/donasuzanarerestaurante/",
+      "phone": "+55 71 98795-7666",
+      "cuisine": [
+        "seafood"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/5a0bc16ad1ecce45695e",
+      "name": "Chez Bernard",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": -12.9846003,
+      "lng": -38.520922,
+      "distanceFromTerminalMeters": 1627,
+      "distanceFromDefaultTerminalMeters": 1627,
+      "minDistanceFromAnyTerminalMeters": 1627,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "11 Rua da Gamboa de Cima",
+      "openingHours": "Mo 19:00-22:00; Tu-Fr 12:00-15:00,19:00-22:00; Sa 12:00-23:00; Su 12:00-16:30",
+      "website": "https://www.chezbernard.com.br",
+      "phone": "+55 71 3328-1566",
+      "cuisine": [
+        "french"
+      ],
+      "wheelchair": "no",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/24bdb657509edc4d745b",
+      "name": "Beco da Sereia",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": -12.9737277,
+      "lng": -38.5047236,
+      "distanceFromTerminalMeters": 1706,
+      "distanceFromDefaultTerminalMeters": 1706,
+      "minDistanceFromAnyTerminalMeters": 1706,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "7 Rua Beco da Sereia, Salvador, 40045-060",
+      "openingHours": "Qui a Sab, de 11h às 23h Dom, das 11h às 20h30",
+      "website": "https://www.instagram.com/botecodasereia/",
+      "phone": "",
+      "cuisine": [
+        "petiscos",
+        "cervejaria"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/a32096f98c3fbad097f2",
+      "name": "Shopping Center Lapa",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "mall",
+      "lat": -12.9830991,
+      "lng": -38.5136718,
+      "distanceFromTerminalMeters": 1610,
+      "distanceFromDefaultTerminalMeters": 1610,
+      "minDistanceFromAnyTerminalMeters": 1610,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "155 Rua Portão da Piedade, Salvador, 40070-045",
+      "openingHours": "Mo-Fr 09:00-20:00; Sa 09:00-19:30; Su 11:00-19:00",
+      "website": "http://www.shoppinglapa.com.br",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "shop": "mall"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/55431c4dbcd14fcbbb4a",
+      "name": "Shopping Piedade",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "mall",
+      "lat": -12.983457,
+      "lng": -38.5130319,
+      "distanceFromTerminalMeters": 1676,
+      "distanceFromDefaultTerminalMeters": 1676,
+      "minDistanceFromAnyTerminalMeters": 1676,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "165 Rua Conselheiro Junqueira Ayres, Salvador, 40070-901",
+      "openingHours": "Mo-Sa 09:00-20:00",
+      "website": "https://www.shoppingpiedade.com.br/",
+      "phone": "+55 71 3444-1555",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "shop": "mall"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/3b4a2e29eeb7ffb04855",
+      "name": "Mercado Modelo",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "marketplace",
+      "lat": -12.972966,
+      "lng": -38.5139885,
+      "distanceFromTerminalMeters": 730,
+      "distanceFromDefaultTerminalMeters": 730,
+      "minDistanceFromAnyTerminalMeters": 730,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Rua da Bélgica, Salvador, 40015-170",
+      "openingHours": "Mo-Fr 09:00-18:00; Sa 09:00-13:00",
+      "website": "",
+      "phone": "+55 71 3241-0242",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "marketplace"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/76e858ce3155bf0d5e98",
+      "name": "Saltur",
+      "nameEnglish": "Tourist Information",
+      "category": "essentials",
+      "subcategory": "visitor_information",
+      "lat": -12.9731502,
+      "lng": -38.5136269,
+      "distanceFromTerminalMeters": 774,
+      "distanceFromDefaultTerminalMeters": 774,
+      "minDistanceFromAnyTerminalMeters": 774,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Praça Cairu, Salvador",
+      "openingHours": "",
+      "website": "http://www.turismo.salvador.ba.gov.br",
+      "phone": "+55 71 3241 0242",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "information"
+      }
+    }
+  ],
+  "portAnchor": {
+    "id": "ports-json-anchor",
+    "name": "PORT DE SALVADOR Port",
+    "lat": -12.97,
+    "lng": -38.52,
+    "address": "Salvador, Bahia, Brazil",
+    "source": "ports.json",
+    "sourceId": "",
+    "score": 0,
+    "slug": "port-de-salvador-port"
+  },
+  "terminalResolution": {
+    "status": "unresolved",
+    "method": "ports_json_fallback",
+    "verified": false,
+    "notes": "All supplied candidates are ferry-only stops, local docks, unnamed maritime features, or unrelated places rather than passenger cruise terminals."
+  }
+}

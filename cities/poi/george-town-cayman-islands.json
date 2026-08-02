@@ -1,0 +1,1201 @@
+{
+  "schemaVersion": 5,
+  "catalogType": "curation-candidates",
+  "generatedAt": "2026-07-30T07:42:08.065Z",
+  "source": "openstreetmap",
+  "sourceExtract": "central-america-latest.osm.pbf",
+  "radiusMeters": 10000,
+  "port": {
+    "id": "george-town-cayman-islands",
+    "city": "George Town",
+    "country": "Cayman Islands"
+  },
+  "defaultTerminalId": "osm/generated/b06d3645435da745ce22",
+  "terminal": {
+    "id": "osm/generated/b06d3645435da745ce22",
+    "name": "Royal Watler Cruise Terminal",
+    "nameEnglish": "",
+    "lat": 19.2953425,
+    "lng": -81.384151,
+    "address": "",
+    "source": "verified_terminal_candidate",
+    "sourceId": "osm/generated/b06d3645435da745ce22",
+    "terminalType": "passenger_cruise_terminal",
+    "verified": true,
+    "notes": "Accepted 1 candidate explicitly identified as an ocean-cruise or cruise-passenger terminal; ferry and unrelated results were excluded.",
+    "sourceUrls": [],
+    "sources": [
+      "openstreetmap"
+    ],
+    "sourceIds": [
+      "osm/generated/b06d3645435da745ce22"
+    ],
+    "osmTags": {
+      "amenity": "ferry_terminal",
+      "ferry": "yes",
+      "public_transport": "station"
+    },
+    "matchedBy": [
+      "amenity=ferry_terminal",
+      "terminal-like name"
+    ],
+    "distanceFromPortMeters": 1068
+  },
+  "terminals": [
+    {
+      "id": "osm/generated/b06d3645435da745ce22",
+      "name": "Royal Watler Cruise Terminal",
+      "nameEnglish": "",
+      "lat": 19.2953425,
+      "lng": -81.384151,
+      "address": "",
+      "source": "verified_terminal_candidate",
+      "sourceId": "osm/generated/b06d3645435da745ce22",
+      "terminalType": "passenger_cruise_terminal",
+      "verified": true,
+      "notes": "Accepted 1 candidate explicitly identified as an ocean-cruise or cruise-passenger terminal; ferry and unrelated results were excluded.",
+      "sourceUrls": [],
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/b06d3645435da745ce22"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "station"
+      },
+      "matchedBy": [
+        "amenity=ferry_terminal",
+        "terminal-like name"
+      ],
+      "distanceFromPortMeters": 1068
+    }
+  ],
+  "terminalCandidateRadiusMeters": 5000,
+  "terminalCandidates": [
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b06d3645435da745ce22",
+      "name": "Royal Watler Cruise Terminal",
+      "nameEnglish": "",
+      "lat": 19.2953425,
+      "lng": -81.384151,
+      "distanceFromPortMeters": 1068,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal",
+        "terminal-like name"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/b06d3645435da745ce22"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/3397083308ba000a2f62",
+      "name": "Port of George Town",
+      "nameEnglish": "",
+      "lat": 19.2964085,
+      "lng": -81.3832462,
+      "distanceFromPortMeters": 1136,
+      "address": "Harbour Drive, George Town, KY",
+      "matchedBy": [
+        "terminal-like name"
+      ],
+      "osmTags": {
+        "description": "This is the point of entry for cruise ship passengers.",
+        "harbour": "yes"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/3397083308ba000a2f62"
+      ]
+    }
+  ],
+  "counts": {
+    "attraction": 20,
+    "outdoors": 7,
+    "food_drink": 12,
+    "shopping": 2,
+    "essentials": 0
+  },
+  "pois": [
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/9a293bfd597395eee9ea",
+      "name": "National Museum",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 19.294081,
+      "lng": -81.3827462,
+      "distanceFromTerminalMeters": 877,
+      "distanceFromDefaultTerminalMeters": 877,
+      "minDistanceFromAnyTerminalMeters": 877,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Harbour Drive, George Town, KY1-1105, KY",
+      "openingHours": "",
+      "website": "https://www.museum.ky/",
+      "phone": "+1-345-949-8368",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "This museum is housed in a dignified clapboard building that is one of the oldest and one of the few to survive the disastrous hurricane of 1932.",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/5e80b59b14d85fe8d7d5",
+      "name": "Fort George",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "fort",
+      "lat": 19.2966353,
+      "lng": -81.3830268,
+      "distanceFromTerminalMeters": 1151,
+      "distanceFromDefaultTerminalMeters": 1151,
+      "minDistanceFromAnyTerminalMeters": 1151,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "fort"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/72b5616be9f849caf87b",
+      "name": "Snorkelling",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 19.2925176,
+      "lng": -81.386094,
+      "distanceFromTerminalMeters": 948,
+      "distanceFromDefaultTerminalMeters": 948,
+      "minDistanceFromAnyTerminalMeters": 948,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/319b4807628b387bf741",
+      "name": "Don Fosters Diving",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 19.2899558,
+      "lng": -81.3877616,
+      "distanceFromTerminalMeters": 951,
+      "distanceFromDefaultTerminalMeters": 951,
+      "minDistanceFromAnyTerminalMeters": 951,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "South Church Street",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/28caee76702562d1db0d",
+      "name": "The National Gallery",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "gallery",
+      "lat": 19.3159412,
+      "lng": -81.3787766,
+      "distanceFromTerminalMeters": 3230,
+      "distanceFromDefaultTerminalMeters": 3230,
+      "minDistanceFromAnyTerminalMeters": 3230,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Esterley Tibbetts Highway",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "gallery"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/7a5475f65bab67709980",
+      "name": "Captain Marvin's Stingray City, Fishing and Island Tours",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 19.2973456,
+      "lng": -81.3824105,
+      "distanceFromTerminalMeters": 1207,
+      "distanceFromDefaultTerminalMeters": 1207,
+      "minDistanceFromAnyTerminalMeters": 1207,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Harbour Drive, George Town",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/4d0fd58e58447e4db9da",
+      "name": "Smith Cove Snorkel Area",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 19.2758124,
+      "lng": -81.3909086,
+      "distanceFromTerminalMeters": 1733,
+      "distanceFromDefaultTerminalMeters": 1733,
+      "minDistanceFromAnyTerminalMeters": 1733,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/0cadf9989df349a725c3",
+      "name": "Helicopter Tours",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 19.3028762,
+      "lng": -81.3829296,
+      "distanceFromTerminalMeters": 1817,
+      "distanceFromDefaultTerminalMeters": 1817,
+      "minDistanceFromAnyTerminalMeters": 1817,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "North Church Street, George Town",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/5bc076c0fd7745dfc3b6",
+      "name": "Jonathan and Enna Bodden",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "building",
+      "lat": 19.296565,
+      "lng": -81.3785426,
+      "distanceFromTerminalMeters": 1078,
+      "distanceFromDefaultTerminalMeters": 1078,
+      "minDistanceFromAnyTerminalMeters": 1078,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "building"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c8590f48c27745905f7e",
+      "name": "Kingsley Thompson House",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "building",
+      "lat": 19.2969422,
+      "lng": -81.3794861,
+      "distanceFromTerminalMeters": 1117,
+      "distanceFromDefaultTerminalMeters": 1117,
+      "minDistanceFromAnyTerminalMeters": 1117,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "building"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/81656e2354de63123cc6",
+      "name": "Grand Cayman Memorial Light",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "lighthouse",
+      "lat": 19.2964536,
+      "lng": -81.3831125,
+      "distanceFromTerminalMeters": 1135,
+      "distanceFromDefaultTerminalMeters": 1135,
+      "minDistanceFromAnyTerminalMeters": 1135,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "memorial",
+        "man_made": "lighthouse"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/21f414f3367c4e25cd47",
+      "name": "William Nixon Sr. Home",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "building",
+      "lat": 19.298041,
+      "lng": -81.3812655,
+      "distanceFromTerminalMeters": 1256,
+      "distanceFromDefaultTerminalMeters": 1256,
+      "minDistanceFromAnyTerminalMeters": 1256,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "building"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/328651d6d9dc48c6e9ff",
+      "name": "Capt... Thomas Diaz Shop",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "building",
+      "lat": 19.2991936,
+      "lng": -81.3804143,
+      "distanceFromTerminalMeters": 1372,
+      "distanceFromDefaultTerminalMeters": 1372,
+      "minDistanceFromAnyTerminalMeters": 1372,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "building"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/dde0f25882507ac85bfe",
+      "name": "Cruise Ship Anchor Point",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "anchor",
+      "lat": 19.2971918,
+      "lng": -81.3870306,
+      "distanceFromTerminalMeters": 1403,
+      "distanceFromDefaultTerminalMeters": 1403,
+      "minDistanceFromAnyTerminalMeters": 1403,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "anchor"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/5aa6654b33e146f74be3",
+      "name": "\"Roddy\" Watler House",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "building",
+      "lat": 19.3004101,
+      "lng": -81.3809001,
+      "distanceFromTerminalMeters": 1512,
+      "distanceFromDefaultTerminalMeters": 1512,
+      "minDistanceFromAnyTerminalMeters": 1512,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "building"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/66432b3fe49962d9c5e3",
+      "name": "Eden Rock",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "wreck",
+      "lat": 19.292606,
+      "lng": -81.3994251,
+      "distanceFromTerminalMeters": 2205,
+      "distanceFromDefaultTerminalMeters": 2205,
+      "minDistanceFromAnyTerminalMeters": 2205,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "KY",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "wreck"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/dca832b0ad47d5f9027f",
+      "name": "Gardenia Court",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "square",
+      "lat": 19.3215788,
+      "lng": -81.3785567,
+      "distanceFromTerminalMeters": 3857,
+      "distanceFromDefaultTerminalMeters": 3857,
+      "minDistanceFromAnyTerminalMeters": 3857,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "place": "square"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/4b9aa6fc7936f96ad511",
+      "name": "Stingray City Grand Cayman",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 19.3564903,
+      "lng": -81.3778316,
+      "distanceFromTerminalMeters": 7740,
+      "distanceFromDefaultTerminalMeters": 7740,
+      "minDistanceFromAnyTerminalMeters": 7740,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "https://islandsplashwatersports.com",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/0ba86839435279bf4213",
+      "name": "Smith Barcadere",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "beach",
+      "lat": 19.2766381,
+      "lng": -81.3911098,
+      "distanceFromTerminalMeters": 1685,
+      "distanceFromDefaultTerminalMeters": 1685,
+      "minDistanceFromAnyTerminalMeters": 1685,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "natural": "beach"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/4be3743bfd6da2c735a6",
+      "name": "Smiths Cove",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "beach",
+      "lat": 19.2766884,
+      "lng": -81.3912067,
+      "distanceFromTerminalMeters": 1689,
+      "distanceFromDefaultTerminalMeters": 1689,
+      "minDistanceFromAnyTerminalMeters": 1689,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "natural": "beach"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/a6a044ee371d546ffec9",
+      "name": "Pageant Beach",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "beach",
+      "lat": 19.3075625,
+      "lng": -81.3852219,
+      "distanceFromTerminalMeters": 2380,
+      "distanceFromDefaultTerminalMeters": 2380,
+      "minDistanceFromAnyTerminalMeters": 2380,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "natural": "beach"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/16feee9bc05c1e05b779",
+      "name": "Governor's Beach",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "beach",
+      "lat": 19.3413522,
+      "lng": -81.381282,
+      "distanceFromTerminalMeters": 6058,
+      "distanceFromDefaultTerminalMeters": 6058,
+      "minDistanceFromAnyTerminalMeters": 6058,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "https://www.visitcaymanislands.com/en-us/experiences/beaches/governors-beach-grand-cayman",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "natural": "beach"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/46190658e4929882af5c",
+      "name": "Seven Mile Beach",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "beach",
+      "lat": 19.3410863,
+      "lng": -81.3924617,
+      "distanceFromTerminalMeters": 6182,
+      "distanceFromDefaultTerminalMeters": 6182,
+      "minDistanceFromAnyTerminalMeters": 6182,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "From Harbour Heights, a 15 minute barefoot stroll heading south on Seven Mile Beach provides a glimpse of some of the finest hotels, The Westin, and the new Ritz.  Sadly most of the south half of the beach is gone, washing right up to homes/walls (2023)",
+      "osmTags": {
+        "natural": "beach"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/738534d44dcf04c1ee61",
+      "name": "Heroes Square",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 19.2963789,
+      "lng": -81.3817188,
+      "distanceFromTerminalMeters": 1084,
+      "distanceFromDefaultTerminalMeters": 1084,
+      "minDistanceFromAnyTerminalMeters": 1084,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/9095f77da8c3fafe77e4",
+      "name": "Dart Family Park",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 19.2810991,
+      "lng": -81.3921091,
+      "distanceFromTerminalMeters": 1491,
+      "distanceFromDefaultTerminalMeters": 1491,
+      "minDistanceFromAnyTerminalMeters": 1491,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/9fbb55c12061483feaad",
+      "name": "Cafe Del sol",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 19.2938483,
+      "lng": -81.3828366,
+      "distanceFromTerminalMeters": 857,
+      "distanceFromDefaultTerminalMeters": 857,
+      "minDistanceFromAnyTerminalMeters": 857,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Harbour Drive",
+      "openingHours": "07:00-20:00",
+      "website": "",
+      "phone": "",
+      "cuisine": [
+        "sandwich",
+        "salad",
+        "pastry"
+      ],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "Great coffee, WiFi Hotspot.",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c7bd0dd3ab94b64055fc",
+      "name": "Sweet & Savory Cafe",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 19.2903217,
+      "lng": -81.3812481,
+      "distanceFromTerminalMeters": 432,
+      "distanceFromDefaultTerminalMeters": 432,
+      "minDistanceFromAnyTerminalMeters": 432,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "131 Maple Road, George Town",
+      "openingHours": "mo-fr 07:30-16:30",
+      "website": "",
+      "phone": "+13453237901",
+      "cuisine": [
+        "coffee_shop",
+        "sandwich"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/e516a4db1ba6ee16b8f5",
+      "name": "Rackam's Waterfront Bar & Grill",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 19.2991765,
+      "lng": -81.3824573,
+      "distanceFromTerminalMeters": 1405,
+      "distanceFromDefaultTerminalMeters": 1405,
+      "minDistanceFromAnyTerminalMeters": 1405,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "North Church Street, George Town",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/a2c81ba0aab25c10b681",
+      "name": "Margaritaville",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 19.295264,
+      "lng": -81.3828027,
+      "distanceFromTerminalMeters": 1000,
+      "distanceFromDefaultTerminalMeters": 1000,
+      "minDistanceFromAnyTerminalMeters": 1000,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "32 Harbour Drive, George Town",
+      "openingHours": "",
+      "website": "https://www.margaritavillecaribbean.com/locations/grand-cayman/",
+      "phone": "",
+      "cuisine": [
+        "burger"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c63d15699f53803e7059",
+      "name": "The Brasserie, Cricket Square",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 19.292617,
+      "lng": -81.3773874,
+      "distanceFromTerminalMeters": 667,
+      "distanceFromDefaultTerminalMeters": 667,
+      "minDistanceFromAnyTerminalMeters": 667,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "171 Elgin Avenue, Cricket Square, George Town, KY",
+      "openingHours": "Mo-Fr 11:30-22:00",
+      "website": "https://brasseriecayman.com/",
+      "phone": "+1 345-945-1815",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/202a75fd05f55f1daacd",
+      "name": "Pinoy Lechon JJR",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 19.2921258,
+      "lng": -81.3821578,
+      "distanceFromTerminalMeters": 654,
+      "distanceFromDefaultTerminalMeters": 654,
+      "minDistanceFromAnyTerminalMeters": 654,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Goring Avenue",
+      "openingHours": "Mo-Sa 09:00-18:00",
+      "website": "",
+      "phone": "",
+      "cuisine": [
+        "asian",
+        "filipino"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/195afb02ca9c4025ad5f",
+      "name": "Mango Tree",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 19.2916728,
+      "lng": -81.369069,
+      "distanceFromTerminalMeters": 1198,
+      "distanceFromDefaultTerminalMeters": 1198,
+      "minDistanceFromAnyTerminalMeters": 1198,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "518 Shedden Road, George Town, KY",
+      "openingHours": "Mo-Th 09:00-24:00, Fr 09:00-02:00",
+      "website": "http://www.caymangoodtaste.com",
+      "phone": "+1-345-949-0732",
+      "cuisine": [
+        "regional"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/7d19b5ca270bd4c4af82",
+      "name": "Casanova By the Sea Ristorante",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 19.2984495,
+      "lng": -81.3822606,
+      "distanceFromTerminalMeters": 1321,
+      "distanceFromDefaultTerminalMeters": 1321,
+      "minDistanceFromAnyTerminalMeters": 1321,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "65 North Church Street, George Town, KY",
+      "openingHours": "Mo-Sa 11:00-22:30; Su 17:00-22:30",
+      "website": "https://www.casanova.ky/",
+      "phone": "+1 345-949-7633",
+      "cuisine": [
+        "italian"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/6cb867ad72afbaa63cd2",
+      "name": "GT Outpost",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "bar",
+      "lat": 19.2992246,
+      "lng": -81.3822567,
+      "distanceFromTerminalMeters": 1405,
+      "distanceFromDefaultTerminalMeters": 1405,
+      "minDistanceFromAnyTerminalMeters": 1405,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "93 N Church St, George Town, George Town",
+      "openingHours": "Tu-Su 14:00-23:58",
+      "website": "https://citypluggedcayman.com/venue/bar-or-pub/the-gt-outpost/",
+      "phone": "+1 345-916-3066",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "The GT Outpost is Cayman’ s FIRST GAME BAR!! They serve a huge list of delicious hoppy craft imported beers, house-made craft spirits and a wide range of games- from board games, to childhood video games to oculus VR experiences!",
+      "osmTags": {
+        "amenity": "bar"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/e89e76aecdc26a5840fa",
+      "name": "Pizza! at Breezes",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 19.2946937,
+      "lng": -81.3827083,
+      "distanceFromTerminalMeters": 938,
+      "distanceFromDefaultTerminalMeters": 938,
+      "minDistanceFromAnyTerminalMeters": 938,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Harbour Drive, George Town",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [
+        "pizza"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/53a60487b3cac486fee5",
+      "name": "Kazoku Japanese Bistro",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 19.2940011,
+      "lng": -81.3708147,
+      "distanceFromTerminalMeters": 1190,
+      "distanceFromDefaultTerminalMeters": 1190,
+      "minDistanceFromAnyTerminalMeters": 1190,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "6 Plaza Venezia North Sound Road",
+      "openingHours": "",
+      "website": "https://www.kazoku.ky/",
+      "phone": "+1-345-9438744",
+      "cuisine": [
+        "japanese"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/1f0bc1f0e2166d4f16ac",
+      "name": "Le Vele",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 19.3006729,
+      "lng": -81.3826421,
+      "distanceFromTerminalMeters": 1571,
+      "distanceFromDefaultTerminalMeters": 1571,
+      "minDistanceFromAnyTerminalMeters": 1571,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "147 North Church Street, George Town",
+      "openingHours": "",
+      "website": "https://www.levele.ky/",
+      "phone": "+1-345-233-8353",
+      "cuisine": [
+        "italian"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/094cef1e134817076893",
+      "name": "The Market at the Cricket Grounds",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "marketplace",
+      "lat": 19.2899783,
+      "lng": -81.3732701,
+      "distanceFromTerminalMeters": 719,
+      "distanceFromDefaultTerminalMeters": 719,
+      "minDistanceFromAnyTerminalMeters": 719,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "marketplace"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/2fe72812e12961cd0301",
+      "name": "Dolphin Mall",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "mall",
+      "lat": 19.293245,
+      "lng": -81.384098,
+      "distanceFromTerminalMeters": 867,
+      "distanceFromDefaultTerminalMeters": 867,
+      "minDistanceFromAnyTerminalMeters": 867,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "shop": "mall"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/8576774aa7503f608ccd",
+      "name": "Heliconia Court",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "square",
+      "lat": 19.3206744,
+      "lng": -81.3784244,
+      "distanceFromTerminalMeters": 3757,
+      "distanceFromDefaultTerminalMeters": 3757,
+      "minDistanceFromAnyTerminalMeters": 3757,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "place": "square"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/4df9976be29a7fafac40",
+      "name": "Canella Court",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "square",
+      "lat": 19.321563,
+      "lng": -81.3776636,
+      "distanceFromTerminalMeters": 3858,
+      "distanceFromDefaultTerminalMeters": 3858,
+      "minDistanceFromAnyTerminalMeters": 3858,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "place": "square"
+      }
+    }
+  ],
+  "portAnchor": {
+    "id": "ports-json-anchor",
+    "name": "George Town Cruise Terminal",
+    "lat": 19.2869,
+    "lng": -81.3793,
+    "address": "Harbour Drive, George Town, Grand Cayman",
+    "source": "ports.json",
+    "sourceId": "",
+    "score": 0,
+    "slug": "george-town-cruise-terminal"
+  },
+  "terminalResolution": {
+    "status": "resolved",
+    "method": "accepted_terminal_candidate",
+    "verified": true,
+    "notes": "Accepted 1 candidate explicitly identified as an ocean-cruise or cruise-passenger terminal; ferry and unrelated results were excluded."
+  }
+}

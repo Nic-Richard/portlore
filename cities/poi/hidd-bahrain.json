@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 5,
+  "catalogType": "curation-candidates",
+  "generatedAt": "2026-07-30T08:00:41.282Z",
+  "source": "openstreetmap",
+  "sourceExtract": "gcc-states-latest.osm.pbf",
+  "radiusMeters": 10000,
+  "port": {
+    "id": "hidd-bahrain",
+    "city": "Hidd",
+    "country": "Bahrain"
+  },
+  "defaultTerminalId": "ports-json-anchor",
+  "terminal": {
+    "id": "ports-json-anchor",
+    "name": "KHALIFA BIN SALMAN Port",
+    "lat": 26.25,
+    "lng": 50.75,
+    "address": "Hidd, Bahrain, Bahrain",
+    "source": "ports.json",
+    "sourceId": "",
+    "score": 0,
+    "slug": "khalifa-bin-salman-port"
+  },
+  "terminals": [
+    {
+      "id": "ports-json-anchor",
+      "name": "KHALIFA BIN SALMAN Port",
+      "lat": 26.25,
+      "lng": 50.75,
+      "address": "Hidd, Bahrain, Bahrain",
+      "source": "ports.json",
+      "sourceId": "",
+      "score": 0,
+      "slug": "khalifa-bin-salman-port"
+    }
+  ],
+  "terminalCandidateRadiusMeters": 5000,
+  "terminalCandidates": [],
+  "counts": {
+    "attraction": 0,
+    "food_drink": 0,
+    "shopping": 0,
+    "outdoors": 0,
+    "essentials": 0
+  },
+  "pois": [],
+  "portAnchor": {
+    "id": "ports-json-anchor",
+    "name": "KHALIFA BIN SALMAN Port",
+    "lat": 26.25,
+    "lng": 50.75,
+    "address": "Hidd, Bahrain, Bahrain",
+    "source": "ports.json",
+    "sourceId": "",
+    "score": 0,
+    "slug": "khalifa-bin-salman-port"
+  },
+  "terminalResolution": {
+    "status": "unresolved",
+    "method": "ports_json_fallback",
+    "verified": false,
+    "notes": "The catalog contains no terminal candidates, so there is no candidate ID to accept."
+  }
+}

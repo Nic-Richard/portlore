@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 5,
+  "catalogType": "curation-candidates",
+  "generatedAt": "2026-07-30T07:52:02.297Z",
+  "source": "openstreetmap",
+  "sourceExtract": "cuba-latest.osm.pbf",
+  "radiusMeters": 10000,
+  "port": {
+    "id": "bahia-de-sagua-de-tanamo-cuba",
+    "city": "BAHIA DE SAGUA DE TANAMO",
+    "country": "Cuba"
+  },
+  "defaultTerminalId": "ports-json-anchor",
+  "terminal": {
+    "id": "ports-json-anchor",
+    "name": "BAHIA DE SAGUA DE TANAMO Port",
+    "lat": 20.68,
+    "lng": -75.33,
+    "address": "BAHIA DE SAGUA DE TANAMO, Cuba",
+    "source": "ports.json",
+    "sourceId": "",
+    "score": 0,
+    "slug": "bahia-de-sagua-de-tanamo-port"
+  },
+  "terminals": [
+    {
+      "id": "ports-json-anchor",
+      "name": "BAHIA DE SAGUA DE TANAMO Port",
+      "lat": 20.68,
+      "lng": -75.33,
+      "address": "BAHIA DE SAGUA DE TANAMO, Cuba",
+      "source": "ports.json",
+      "sourceId": "",
+      "score": 0,
+      "slug": "bahia-de-sagua-de-tanamo-port"
+    }
+  ],
+  "terminalCandidateRadiusMeters": 5000,
+  "terminalCandidates": [],
+  "counts": {
+    "attraction": 0,
+    "food_drink": 0,
+    "shopping": 0,
+    "outdoors": 0,
+    "essentials": 0
+  },
+  "pois": [],
+  "portAnchor": {
+    "id": "ports-json-anchor",
+    "name": "BAHIA DE SAGUA DE TANAMO Port",
+    "lat": 20.68,
+    "lng": -75.33,
+    "address": "BAHIA DE SAGUA DE TANAMO, Cuba",
+    "source": "ports.json",
+    "sourceId": "",
+    "score": 0,
+    "slug": "bahia-de-sagua-de-tanamo-port"
+  },
+  "terminalResolution": {
+    "status": "unresolved",
+    "method": "ports_json_fallback",
+    "verified": false,
+    "notes": "The catalog contains no terminal candidates, so there is no candidate ID to accept."
+  }
+}

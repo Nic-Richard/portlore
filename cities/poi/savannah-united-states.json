@@ -1,0 +1,1066 @@
+{
+  "schemaVersion": 5,
+  "catalogType": "curation-candidates",
+  "generatedAt": "2026-07-30T09:21:42.067Z",
+  "source": "openstreetmap",
+  "sourceExtract": "georgia-latest.osm.pbf",
+  "radiusMeters": 10000,
+  "port": {
+    "id": "savannah-united-states",
+    "city": "Savannah",
+    "country": "United States"
+  },
+  "defaultTerminalId": "ports-json-anchor",
+  "terminal": {
+    "id": "ports-json-anchor",
+    "name": "SAVANNAH Port",
+    "lat": 32.08,
+    "lng": -81.08,
+    "address": "Savannah, Georgia, United States",
+    "source": "ports.json",
+    "sourceId": "",
+    "score": 0,
+    "slug": "savannah-port"
+  },
+  "terminals": [
+    {
+      "id": "ports-json-anchor",
+      "name": "SAVANNAH Port",
+      "lat": 32.08,
+      "lng": -81.08,
+      "address": "Savannah, Georgia, United States",
+      "source": "ports.json",
+      "sourceId": "",
+      "score": 0,
+      "slug": "savannah-port"
+    }
+  ],
+  "terminalCandidateRadiusMeters": 5000,
+  "terminalCandidates": [
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/559394f7b9e45e1defac",
+      "name": "Waving Girl Landing",
+      "nameEnglish": "",
+      "lat": 32.0793837,
+      "lng": -81.0818185,
+      "distanceFromPortMeters": 185,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/559394f7b9e45e1defac"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/e879362866a9d2f99f80",
+      "name": "Trade Center Landing - Chatham County personal property",
+      "nameEnglish": "",
+      "lat": 32.0833213,
+      "lng": -81.0861765,
+      "distanceFromPortMeters": 689,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/e879362866a9d2f99f80"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ee608c4cd2aebdf2e0fe",
+      "name": "City Hall Landing - City of Savannah",
+      "nameEnglish": "",
+      "lat": 32.0818027,
+      "lng": -81.0907034,
+      "distanceFromPortMeters": 1028,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/ee608c4cd2aebdf2e0fe"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/4feb96963a33ea13947d",
+      "name": "Chatham Area Transit owned Ferry Terminal",
+      "nameEnglish": "",
+      "lat": 32.0867417,
+      "lng": -81.0884688,
+      "distanceFromPortMeters": 1095,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/4feb96963a33ea13947d"
+      ]
+    }
+  ],
+  "counts": {
+    "attraction": 15,
+    "outdoors": 4,
+    "food_drink": 12,
+    "shopping": 1,
+    "essentials": 3
+  },
+  "pois": [
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/982e447794bb7c36e36b",
+      "name": "Graveface Museum",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 32.0803519,
+      "lng": -81.0864221,
+      "distanceFromTerminalMeters": 606,
+      "distanceFromDefaultTerminalMeters": 606,
+      "minDistanceFromAnyTerminalMeters": 606,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "410 East Lower Factors Walk",
+      "openingHours": "Th-Su 12:00-19:00",
+      "website": "https://gravefacemuseum.com",
+      "phone": "+1-912-335-8018",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b3be8e767510296f74c4",
+      "name": "Davenport House Museum",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 32.0772974,
+      "lng": -81.0880154,
+      "distanceFromTerminalMeters": 813,
+      "distanceFromDefaultTerminalMeters": 813,
+      "minDistanceFromAnyTerminalMeters": 813,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "324 East State Street, Savannah, GA, 31401",
+      "openingHours": "Mo-Sa 10:00-16:00; Jan 01,Mar 17,Dec 25 off; Jan Mo[3] off; Nov Th[4] off",
+      "website": "https://davenporthousemuseum.org/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/0863febc5430489b01c5",
+      "name": "Owens-Thomas Museum",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 32.0773425,
+      "lng": -81.0892193,
+      "distanceFromTerminalMeters": 918,
+      "distanceFromDefaultTerminalMeters": 918,
+      "minDistanceFromAnyTerminalMeters": 918,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "124 Abercorn Street, Savannah, GA, 31401, US",
+      "openingHours": "",
+      "website": "https://www.telfair.org/visit/owens-thomas/",
+      "phone": "+1-912-790-8889",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/415b4d136ec7c3b8a5f1",
+      "name": "Andrew Low House Museum",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 32.0729977,
+      "lng": -81.0924876,
+      "distanceFromTerminalMeters": 1411,
+      "distanceFromDefaultTerminalMeters": 1411,
+      "minDistanceFromAnyTerminalMeters": 1411,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "329 Abercorn Street, Savannah, GA, 31401",
+      "openingHours": "Mo-Sa 10:00-16:00; Su 12:00-16:00; PH off",
+      "website": "https://www.andrewlowhouse.com/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "no",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/33ed6cb2750c84009745",
+      "name": "Jepson Center for the Arts",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 32.0780051,
+      "lng": -81.0950827,
+      "distanceFromTerminalMeters": 1438,
+      "distanceFromDefaultTerminalMeters": 1438,
+      "minDistanceFromAnyTerminalMeters": 1438,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "207 West York Street, Savannah, GA, 31401, US",
+      "openingHours": "Th-Tu 10:00-17:00; We off",
+      "website": "https://www.telfair.org/visit/jepson/",
+      "phone": "+1-912-790-8827",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "arts_centre",
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/2a7d0fca192e40f9bd1f",
+      "name": "Telfair Academy of Arts and Sciences",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 32.0789351,
+      "lng": -81.0952825,
+      "distanceFromTerminalMeters": 1445,
+      "distanceFromDefaultTerminalMeters": 1445,
+      "minDistanceFromAnyTerminalMeters": 1445,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "121 Barnard Street, GA",
+      "openingHours": "Th-Tu 10:00-17:00; We off",
+      "website": "https://www.telfair.org/visit/telfair-academy/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/2b3fb1c140a0d10e3d3e",
+      "name": "Old Harbor Light",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "monument",
+      "lat": 32.079311,
+      "lng": -81.0842623,
+      "distanceFromTerminalMeters": 409,
+      "distanceFromDefaultTerminalMeters": 409,
+      "minDistanceFromAnyTerminalMeters": 409,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "monument"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/0edba2b21dd3f43bd32c",
+      "name": "Kehoe House, Historic Inns of Savannah",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "yes",
+      "lat": 32.0771355,
+      "lng": -81.0883603,
+      "distanceFromTerminalMeters": 850,
+      "distanceFromDefaultTerminalMeters": 850,
+      "minDistanceFromAnyTerminalMeters": 850,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "123 Habersham Street, Savannah, GA, 31401",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "yes"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/1e53f560bdba73910bd7",
+      "name": "Fort Jackson",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "fort",
+      "lat": 32.082069,
+      "lng": -81.036108,
+      "distanceFromTerminalMeters": 4142,
+      "distanceFromDefaultTerminalMeters": 4142,
+      "minDistanceFromAnyTerminalMeters": 4142,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1 Fort Jackson Road, Savannah, GA, US",
+      "openingHours": "Mo-Su 09:00-17:00; Jan 1 off; Dec 25 off",
+      "website": "https://www.chsgeorgia.org/Old-Fort-Jackson.html",
+      "phone": "+1-912-232-3945",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "fort"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/0498b4de6b49bd8a1168",
+      "name": "River Street Riverboat Company",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 32.0814347,
+      "lng": -81.0906231,
+      "distanceFromTerminalMeters": 1013,
+      "distanceFromDefaultTerminalMeters": 1013,
+      "minDistanceFromAnyTerminalMeters": 1013,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "9 East River Street, Savannah, 31412",
+      "openingHours": "Mo-We 09:00-21:00; Th-Sa 09:00-23:00; Su 09:00-21:00",
+      "website": "https://savannahriverboat.com/",
+      "phone": "+1 912-232-6404",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/51a74aa81a1db5c6266e",
+      "name": "U.S. Customs and Border Protection",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "maritime",
+      "lat": 32.0806229,
+      "lng": -81.0910067,
+      "distanceFromTerminalMeters": 1039,
+      "distanceFromDefaultTerminalMeters": 1039,
+      "minDistanceFromAnyTerminalMeters": 1039,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1, 3 East Bay Street, Savannah, GA, 31401",
+      "openingHours": "",
+      "website": "https://www.cbp.gov/contact/ports/savannah",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "In 1860 y the case of the yacht \"Wanderer\" was tried before the court as the last violation of the law against the importation of slaves.",
+      "osmTags": {
+        "amenity": "police",
+        "historic": "maritime"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/661255ec11263d5477a4",
+      "name": "The Georgia Hussars",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "monument",
+      "lat": 32.0802148,
+      "lng": -81.0879899,
+      "distanceFromTerminalMeters": 753,
+      "distanceFromDefaultTerminalMeters": 753,
+      "minDistanceFromAnyTerminalMeters": 753,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "monument"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/5f85baa8923075643df7",
+      "name": "Old City Exchange Bell",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "monument",
+      "lat": 32.0806914,
+      "lng": -81.0896928,
+      "distanceFromTerminalMeters": 916,
+      "distanceFromDefaultTerminalMeters": 916,
+      "minDistanceFromAnyTerminalMeters": 916,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "monument"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/6688b2efebbf8651ac18",
+      "name": "A World Apart / Cracked Earth",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "monument",
+      "lat": 32.0820943,
+      "lng": -81.0921504,
+      "distanceFromTerminalMeters": 1168,
+      "distanceFromDefaultTerminalMeters": 1168,
+      "minDistanceFromAnyTerminalMeters": 1168,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "https://gosouthsavannah.com/historic-district-and-city/monuments/world-war-II-monument.html",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "monument"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ff63fcf4adb3c5426a9d",
+      "name": "Civil War Memorial",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "monument",
+      "lat": 32.0672495,
+      "lng": -81.0963478,
+      "distanceFromTerminalMeters": 2094,
+      "distanceFromDefaultTerminalMeters": 2094,
+      "minDistanceFromAnyTerminalMeters": 2094,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "monument"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/aea242d4805f2e171d05",
+      "name": "Morrell Park",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 32.0797435,
+      "lng": -81.0831592,
+      "distanceFromTerminalMeters": 299,
+      "distanceFromDefaultTerminalMeters": 299,
+      "minDistanceFromAnyTerminalMeters": 299,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b9724e134a56abdf6aba",
+      "name": "Washington Square",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 32.0782775,
+      "lng": -81.0853796,
+      "distanceFromTerminalMeters": 542,
+      "distanceFromDefaultTerminalMeters": 542,
+      "minDistanceFromAnyTerminalMeters": 542,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/337d8b77bb0e8ac8df02",
+      "name": "Emmet Park",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 32.0797981,
+      "lng": -81.0862278,
+      "distanceFromTerminalMeters": 587,
+      "distanceFromDefaultTerminalMeters": 587,
+      "minDistanceFromAnyTerminalMeters": 587,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/13e5ed6967d2b8e3b254",
+      "name": "Warren Square",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 32.0787859,
+      "lng": -81.0872519,
+      "distanceFromTerminalMeters": 696,
+      "distanceFromDefaultTerminalMeters": 696,
+      "minDistanceFromAnyTerminalMeters": 696,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ab3018d736a519cdc886",
+      "name": "Cha Bella",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 32.0768618,
+      "lng": -81.0845733,
+      "distanceFromTerminalMeters": 554,
+      "distanceFromDefaultTerminalMeters": 554,
+      "minDistanceFromAnyTerminalMeters": 554,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "102 East Broad Street, Savannah",
+      "openingHours": "Mo-Su 17:00-21:00; Fr,Sa 17:00-22:00",
+      "website": "https://www.cha-bella.com/",
+      "phone": "",
+      "cuisine": [
+        "regional"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/98ed5a1daf1abfab0fde",
+      "name": "One Eyed Lizzy's",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 32.0803381,
+      "lng": -81.0859444,
+      "distanceFromTerminalMeters": 561,
+      "distanceFromDefaultTerminalMeters": 561,
+      "minDistanceFromAnyTerminalMeters": 561,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "417 East River Street, Savannah, GA",
+      "openingHours": "Mo-Th 11:00-22:00;Fr-Sa 11:00-22:30;Su 11:00-22:00",
+      "website": "https://www.facebook.com/pages/One-Eyed-Lizzys/108118835895847",
+      "phone": "+1 912-341-8897",
+      "cuisine": [
+        "mexican"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/6fe11c4823900cd1875f",
+      "name": "Screaming Mimi's",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 32.0748499,
+      "lng": -81.0875055,
+      "distanceFromTerminalMeters": 910,
+      "distanceFromDefaultTerminalMeters": 910,
+      "minDistanceFromAnyTerminalMeters": 910,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "513 East Oglethorpe Lane, Savannah, GA, 31401",
+      "openingHours": "Su-Th 11:00-22:00; Fr,Sa 11:00-23:00",
+      "website": "https://www.screaminmimispizza.com/",
+      "phone": "",
+      "cuisine": [
+        "pizza"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/05f1707667838c0c9b80",
+      "name": "Vics on the River",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 32.0812897,
+      "lng": -81.0903892,
+      "distanceFromTerminalMeters": 989,
+      "distanceFromDefaultTerminalMeters": 989,
+      "minDistanceFromAnyTerminalMeters": 989,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "26 East Bay Street, Savannah, GA, 31401",
+      "openingHours": "Mo-Su 10:00-22:00",
+      "website": "https://vicsontheriver.com/",
+      "phone": "+1-912-721-1000",
+      "cuisine": [
+        "southern"
+      ],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/67c54be2d842c9738a0b",
+      "name": "Clary's Cafe",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 32.0716242,
+      "lng": -81.0920003,
+      "distanceFromTerminalMeters": 1465,
+      "distanceFromDefaultTerminalMeters": 1465,
+      "minDistanceFromAnyTerminalMeters": 1465,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "404 Abercorn Street, Savannah, GA, 31401",
+      "openingHours": "Mo-Su 08:00-14:00",
+      "website": "https://www.claryscafe.com/",
+      "phone": "+1 912 233 0402",
+      "cuisine": [
+        "diner"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/1d7b620eb65061342cf3",
+      "name": "Wright Square Bistro",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 32.0777598,
+      "lng": -81.093095,
+      "distanceFromTerminalMeters": 1259,
+      "distanceFromDefaultTerminalMeters": 1259,
+      "minDistanceFromAnyTerminalMeters": 1259,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "21 West York Street, 31401",
+      "openingHours": "Mo,We,Th 11:00-17:00; Fr,Sa 11:00-19:00; Su 11:00-16:00",
+      "website": "https://www.wrightsquarecafe.com/",
+      "phone": "+1 912-238-1150",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/89dd03579acfcebc1d5c",
+      "name": "The Collins Quarter",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 32.0771632,
+      "lng": -81.0927836,
+      "distanceFromTerminalMeters": 1245,
+      "distanceFromDefaultTerminalMeters": 1245,
+      "minDistanceFromAnyTerminalMeters": 1245,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "151 Bull Street, Savannah, GA",
+      "openingHours": "Mo-Su 06:30-21:00",
+      "website": "https://www.thecollinsquarter.com/",
+      "phone": "+1 912-777-4147",
+      "cuisine": [
+        "american"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f60995bd2c296ea8b690",
+      "name": "Belford's Savannah",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 32.0808432,
+      "lng": -81.0956066,
+      "distanceFromTerminalMeters": 1473,
+      "distanceFromDefaultTerminalMeters": 1473,
+      "minDistanceFromAnyTerminalMeters": 1473,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "315 West Saint Julian Street, Savannah, GA",
+      "openingHours": "Mo-Su 11:00-16:00,17:00-22:00",
+      "website": "https://belfordssavannah.com/",
+      "phone": "+1 912-233-2626",
+      "cuisine": [
+        "seafood"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/025ee16743a46f4cca84",
+      "name": "Tondees Tavern",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 32.0806269,
+      "lng": -81.0907205,
+      "distanceFromTerminalMeters": 1012,
+      "distanceFromDefaultTerminalMeters": 1012,
+      "minDistanceFromAnyTerminalMeters": 1012,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "7 East Bay Street, Savannah, 31401",
+      "openingHours": "",
+      "website": "https://tondees.com/",
+      "phone": "+1-912-341-7427",
+      "cuisine": [
+        "regional"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/22bbaba814e20148d568",
+      "name": "Sushi Hana",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 32.0789991,
+      "lng": -81.0912422,
+      "distanceFromTerminalMeters": 1065,
+      "distanceFromDefaultTerminalMeters": 1065,
+      "minDistanceFromAnyTerminalMeters": 1065,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "18 East Broughton Street, Savannah, GA, 31401",
+      "openingHours": "",
+      "website": "https://sushihanasavannah.com/",
+      "phone": "+1-912-777-5009",
+      "cuisine": [
+        "japanese",
+        "sushi"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/0727651cd822440606e0",
+      "name": "Jalapeno's Restaurant",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 32.0785805,
+      "lng": -81.0914327,
+      "distanceFromTerminalMeters": 1089,
+      "distanceFromDefaultTerminalMeters": 1089,
+      "minDistanceFromAnyTerminalMeters": 1089,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "7 East Broughton Street, Savannah, GA, 31401",
+      "openingHours": "",
+      "website": "jalapenosinc.com",
+      "phone": "+1-912-712-5125",
+      "cuisine": [
+        "mexican"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/e6ef05d8540931af28ef",
+      "name": "Kayak Kafe",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 32.0787082,
+      "lng": -81.0916277,
+      "distanceFromTerminalMeters": 1105,
+      "distanceFromDefaultTerminalMeters": 1105,
+      "minDistanceFromAnyTerminalMeters": 1105,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1 East Broughton Street, Savannah, GA, 31401",
+      "openingHours": "",
+      "website": "https://www.eatkayak.com/",
+      "phone": "+1 912 233 6044",
+      "cuisine": [
+        "salad",
+        "mexican",
+        "sandwich",
+        "burger"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/74e50a3374e1b9fa805b",
+      "name": "Wright Square Vintage & Retro Mall",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "antiques",
+      "lat": 32.0786265,
+      "lng": -81.0928731,
+      "distanceFromTerminalMeters": 1222,
+      "distanceFromDefaultTerminalMeters": 1222,
+      "minDistanceFromAnyTerminalMeters": 1222,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "31401",
+      "openingHours": "",
+      "website": "https://www.wrightsquarevintage.com/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "shop": "antiques"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ef46339c75347fd8e153",
+      "name": "Savannah Area Chamber of Commerce",
+      "nameEnglish": "",
+      "category": "essentials",
+      "subcategory": "visitor_information",
+      "lat": 32.0803674,
+      "lng": -81.0900051,
+      "distanceFromTerminalMeters": 944,
+      "distanceFromDefaultTerminalMeters": 944,
+      "minDistanceFromAnyTerminalMeters": 944,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "101 East Bay Street, Savannah, GA",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "information"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d5ee8bead8e5159ab9c4",
+      "name": "Savannah Visitors Center",
+      "nameEnglish": "",
+      "category": "essentials",
+      "subcategory": "visitor_information",
+      "lat": 32.0760488,
+      "lng": -81.0991493,
+      "distanceFromTerminalMeters": 1857,
+      "distanceFromDefaultTerminalMeters": 1857,
+      "minDistanceFromAnyTerminalMeters": 1857,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "301 Martin Luther King Junior Boulevard, Savannah, GA",
+      "openingHours": "Mo-Su 09:00-16:00",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "information"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/34f0375267319419a8e3",
+      "name": "The River Street Visitor Information Center",
+      "nameEnglish": "",
+      "category": "essentials",
+      "subcategory": "visitor_information",
+      "lat": 32.081481,
+      "lng": -81.0911739,
+      "distanceFromTerminalMeters": 1066,
+      "distanceFromDefaultTerminalMeters": 1066,
+      "minDistanceFromAnyTerminalMeters": 1066,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "3 West River Street, Savannah, GA, 31401",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "information"
+      }
+    }
+  ],
+  "portAnchor": {
+    "id": "ports-json-anchor",
+    "name": "SAVANNAH Port",
+    "lat": 32.08,
+    "lng": -81.08,
+    "address": "Savannah, Georgia, United States",
+    "source": "ports.json",
+    "sourceId": "",
+    "score": 0,
+    "slug": "savannah-port"
+  },
+  "terminalResolution": {
+    "status": "unresolved",
+    "method": "ports_json_fallback",
+    "verified": false,
+    "notes": "All supplied candidates are ferry-only stops, local docks, unnamed maritime features, or unrelated places rather than passenger cruise terminals."
+  }
+}

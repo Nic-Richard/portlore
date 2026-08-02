@@ -1,0 +1,1011 @@
+{
+  "schemaVersion": 5,
+  "catalogType": "curation-candidates",
+  "generatedAt": "2026-07-30T08:55:27.296Z",
+  "source": "openstreetmap",
+  "sourceExtract": "socal-latest.osm.pbf",
+  "radiusMeters": 10000,
+  "port": {
+    "id": "san-diego-united-states",
+    "city": "San Diego",
+    "country": "United States"
+  },
+  "defaultTerminalId": "osm/generated/b874fae69fa1f346b606",
+  "terminal": {
+    "id": "osm/generated/b874fae69fa1f346b606",
+    "name": "Broadway Pier",
+    "nameEnglish": "",
+    "lat": 32.7152509,
+    "lng": -117.1736031,
+    "address": "1000 The Embarcadero, San Diego, CA, 92101",
+    "source": "verified_terminal_candidate",
+    "sourceId": "osm/generated/b874fae69fa1f346b606",
+    "terminalType": "passenger_cruise_terminal",
+    "verified": true,
+    "notes": "External port and cruise-schedule checks support passenger cruise use, and the accepted candidate ID(s) correspond to the actual cruise terminal, cruise pier, or passenger terminal used by cruise ships.",
+    "sourceUrls": [],
+    "sources": [
+      "openstreetmap"
+    ],
+    "sourceIds": [
+      "osm/generated/b874fae69fa1f346b606"
+    ],
+    "osmTags": {
+      "amenity": "ferry_terminal",
+      "ferry": "yes",
+      "operator": "Flagship Cruises & Events",
+      "public_transport": "station"
+    },
+    "matchedBy": [
+      "amenity=ferry_terminal",
+      "terminal-like name"
+    ],
+    "distanceFromPortMeters": 798
+  },
+  "terminals": [
+    {
+      "id": "osm/generated/b874fae69fa1f346b606",
+      "name": "Broadway Pier",
+      "nameEnglish": "",
+      "lat": 32.7152509,
+      "lng": -117.1736031,
+      "address": "1000 The Embarcadero, San Diego, CA, 92101",
+      "source": "verified_terminal_candidate",
+      "sourceId": "osm/generated/b874fae69fa1f346b606",
+      "terminalType": "passenger_cruise_terminal",
+      "verified": true,
+      "notes": "External port and cruise-schedule checks support passenger cruise use, and the accepted candidate ID(s) correspond to the actual cruise terminal, cruise pier, or passenger terminal used by cruise ships.",
+      "sourceUrls": [],
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/b874fae69fa1f346b606"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "operator": "Flagship Cruises & Events",
+        "public_transport": "station"
+      },
+      "matchedBy": [
+        "amenity=ferry_terminal",
+        "terminal-like name"
+      ],
+      "distanceFromPortMeters": 798
+    }
+  ],
+  "terminalCandidateRadiusMeters": 5000,
+  "terminalCandidates": [
+    {
+      "source": "nominatim",
+      "sourceId": "osm/way/467146005",
+      "osmType": "way",
+      "osmId": "467146005",
+      "name": "Captain of the Port",
+      "nameEnglish": "Captain of the Port",
+      "lat": 32.7265722,
+      "lng": -117.18306,
+      "distanceFromPortMeters": 785,
+      "address": "Captain of the Port, 2710, North Harbor Drive, Banker's Hill, San Diego, San Diego County, California, 92101, United States",
+      "displayName": "Captain of the Port, 2710, North Harbor Drive, Banker's Hill, San Diego, San Diego County, California, 92101, United States",
+      "query": "SAN DIEGO Port, San Diego, United States",
+      "matchedBy": [
+        "Nominatim query: SAN DIEGO Port, San Diego, United States"
+      ],
+      "osmTags": {
+        "building": "yes"
+      },
+      "sources": [
+        "nominatim"
+      ],
+      "sourceIds": [
+        "osm/way/467146005"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b874fae69fa1f346b606",
+      "name": "Broadway Pier",
+      "nameEnglish": "",
+      "lat": 32.7152509,
+      "lng": -117.1736031,
+      "distanceFromPortMeters": 798,
+      "address": "1000 The Embarcadero, San Diego, CA, 92101",
+      "matchedBy": [
+        "amenity=ferry_terminal",
+        "terminal-like name"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "operator": "Flagship Cruises & Events",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/b874fae69fa1f346b606"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b222ae525dab32d2d05a",
+      "name": "(unnamed maritime feature)",
+      "nameEnglish": "",
+      "lat": 32.7150901,
+      "lng": -117.1732279,
+      "distanceFromPortMeters": 836,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/b222ae525dab32d2d05a"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/e0ee667f0e65399b803e",
+      "name": "Convention Center / 5th Avenue Ferry Landing",
+      "nameEnglish": "",
+      "lat": 32.7047188,
+      "lng": -117.162892,
+      "distanceFromPortMeters": 2334,
+      "address": "600 Convention Way, San Diego, CA, 92101",
+      "matchedBy": [
+        "amenity=ferry_terminal",
+        "terminal-like name"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "operator": "Flagship Cruises and Events",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/e0ee667f0e65399b803e"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/0497a8b7d3cfca612560",
+      "name": "Coronado Ferry Landing",
+      "nameEnglish": "",
+      "lat": 32.699939,
+      "lng": -117.1697879,
+      "distanceFromPortMeters": 2427,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "operator": "San Diego Harbor Excursion",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/0497a8b7d3cfca612560"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ade9b5641ab2af405735",
+      "name": "(unnamed maritime feature)",
+      "nameEnglish": "",
+      "lat": 32.6998806,
+      "lng": -117.1698008,
+      "distanceFromPortMeters": 2432,
+      "address": "",
+      "matchedBy": [
+        "terminal-like name"
+      ],
+      "osmTags": {
+        "man_made": "pier",
+        "operator": "Flagship Cruises and Events"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/ade9b5641ab2af405735"
+      ]
+    }
+  ],
+  "counts": {
+    "attraction": 11,
+    "outdoors": 4,
+    "food_drink": 12,
+    "shopping": 2,
+    "essentials": 0
+  },
+  "pois": [
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/5c5c30c044a02987b7d7",
+      "name": "USS Midway Museum",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 32.7137403,
+      "lng": -117.1752259,
+      "distanceFromTerminalMeters": 827,
+      "distanceFromDefaultTerminalMeters": 827,
+      "minDistanceFromAnyTerminalMeters": 827,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "910 North Harbor Drive, San Diego, CA, 92101",
+      "openingHours": "Mo-Su 10:00-17:00",
+      "website": "https://www.midway.org",
+      "phone": "+1-619-544-9600",
+      "cuisine": [],
+      "wheelchair": "limited",
+      "brand": "",
+      "description": "The USS Midway was the longest-serving aircraft carrier in the 20th century. Named after the climactic Battle of Midway of June 1942, Midway was built in only 17 months, but missed World War II by one week when commissioned on September 10, 1945. Midway w",
+      "osmTags": {
+        "historic": "ship",
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/362f7e8f4de7924851a1",
+      "name": "Maritime Museum of San Diego",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 32.7205052,
+      "lng": -117.1744437,
+      "distanceFromTerminalMeters": 523,
+      "distanceFromDefaultTerminalMeters": 523,
+      "minDistanceFromAnyTerminalMeters": 523,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1492 The Embarcadero, San Diego, CA, 92101",
+      "openingHours": "Mo-Su 10:00-17:00",
+      "website": "https://sdmaritime.org/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/5fba6c4cce1c01cdee4a",
+      "name": "Museum of Contemporary Art",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 32.7172469,
+      "lng": -117.1694057,
+      "distanceFromTerminalMeters": 1037,
+      "distanceFromDefaultTerminalMeters": 1037,
+      "minDistanceFromAnyTerminalMeters": 1037,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1100 Kettner Boulevard, San Diego, CA, 92101",
+      "openingHours": "Th-Tu 11:00-17:00",
+      "website": "https://www.mcasd.org/",
+      "phone": "+1-858-454-3541",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/a26ce04c0b8dead8698d",
+      "name": "Firehouse Museum",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 32.7217091,
+      "lng": -117.1676679,
+      "distanceFromTerminalMeters": 1169,
+      "distanceFromDefaultTerminalMeters": 1169,
+      "minDistanceFromAnyTerminalMeters": 1169,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1572 Columbia Street, 92101",
+      "openingHours": "Th,Fr 10:00-14:00; Sa,Su 10:00-16:00",
+      "website": "https://sandiegofirehousemuseum.com/",
+      "phone": "+1 619 232 3473",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/69e6267c926584e13c3e",
+      "name": "San Diego Police Department Exhibit & Jail Cells",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 32.7105895,
+      "lng": -117.170109,
+      "distanceFromTerminalMeters": 1397,
+      "distanceFromDefaultTerminalMeters": 1397,
+      "minDistanceFromAnyTerminalMeters": 1397,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "789 West Harbor Drive, San Diego, CA, 92101",
+      "openingHours": "Mo-Sa 10:00-21:00, Su 10:00-20:00",
+      "website": "https://theheadquarters.com/police-jail-cells",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f5746e038242aa94e9e8",
+      "name": "The New Children's Museum",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 32.710666,
+      "lng": -117.165156,
+      "distanceFromTerminalMeters": 1734,
+      "distanceFromDefaultTerminalMeters": 1734,
+      "minDistanceFromAnyTerminalMeters": 1734,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "205 West Island Avenue, San Diego, 92101, US",
+      "openingHours": "Mo-Sa 09:30-16:00",
+      "website": "https://thinkplaycreate.org/",
+      "phone": "+1 619 233 8792",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/7ccb33bff059db1ea09b",
+      "name": "Star of India",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 32.7202715,
+      "lng": -117.1735604,
+      "distanceFromTerminalMeters": 603,
+      "distanceFromDefaultTerminalMeters": 603,
+      "minDistanceFromAnyTerminalMeters": 603,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1492 North Harbor Drive, San Diego, CA, 92101",
+      "openingHours": "Mo-Su 10:00-16:00",
+      "website": "https://sdmaritime.org/visit/the-ships/star-of-india/",
+      "phone": "+1-619-234-9153",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "ship",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/7dcd02c87c6cd23b19e7",
+      "name": "San Diego Zoo",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "zoo",
+      "lat": 32.7359728,
+      "lng": -117.1507094,
+      "distanceFromTerminalMeters": 3265,
+      "distanceFromDefaultTerminalMeters": 3265,
+      "minDistanceFromAnyTerminalMeters": 3265,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "2920 Zoo Drive, San Diego, CA, 92101",
+      "openingHours": "Mo-Su 09:00-21:00",
+      "website": "https://www.sandiegozoo.org/",
+      "phone": "+1 619 231 1515",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "zoo"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d6c3a6c05c902e38654b",
+      "name": "Benito Juarez",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "monument",
+      "lat": 32.7127484,
+      "lng": -117.167842,
+      "distanceFromTerminalMeters": 1394,
+      "distanceFromDefaultTerminalMeters": 1394,
+      "minDistanceFromAnyTerminalMeters": 1394,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "1806-1872 ESTE MONUMENTO FUE OBSEQUIADO EN AMISTAD POR EL PUEBLO DE MEXICO AL PUEBLO DE SAN DIEGO 18 DE JUNIO DE 1981",
+      "osmTags": {
+        "historic": "monument"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b37ab849aea4617255ab",
+      "name": "Centre City Building",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "building",
+      "lat": 32.718592,
+      "lng": -117.1623152,
+      "distanceFromTerminalMeters": 1662,
+      "distanceFromDefaultTerminalMeters": 1662,
+      "minDistanceFromAnyTerminalMeters": 1662,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "233 A Street, San Diego, 92101, US",
+      "openingHours": "",
+      "website": "https://www.lamden.com/properties/centrecity.htm",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "building"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/5c5c61b1ecc644f87d37",
+      "name": "Memorial to Merchant Seamen",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "monument",
+      "lat": 32.708095,
+      "lng": -117.170106,
+      "distanceFromTerminalMeters": 1615,
+      "distanceFromDefaultTerminalMeters": 1615,
+      "minDistanceFromAnyTerminalMeters": 1615,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Seaport Way",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "monument"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/79d687cf1ce7ac8d670f",
+      "name": "Waterfront Park",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 32.7222226,
+      "lng": -117.1720414,
+      "distanceFromTerminalMeters": 784,
+      "distanceFromDefaultTerminalMeters": 784,
+      "minDistanceFromAnyTerminalMeters": 784,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/de5357548edb0cebe4a0",
+      "name": "Bayview Park",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 32.7017971,
+      "lng": -117.1789319,
+      "distanceFromTerminalMeters": 2027,
+      "distanceFromDefaultTerminalMeters": 2027,
+      "minDistanceFromAnyTerminalMeters": 2027,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "413 1st Street, Coronado, CA, 92118",
+      "openingHours": "",
+      "website": "https://www.coronado.ca.us/government/departments_divisions/recreationandgolfservices/Events/parksandbeaches/bayviewpark",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Bayview Park is a hidden gem on Coronado Island. It has one of the best views of the San Diego Skyline. The view looks out across San Diego Bay from a gap between mansions on the north side of the island.",
+      "osmTags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/cccb0969e1ac287aeb42",
+      "name": "Kate O. Sessions Cactus Garden",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "garden",
+      "lat": 32.7289363,
+      "lng": -117.1542563,
+      "distanceFromTerminalMeters": 2605,
+      "distanceFromDefaultTerminalMeters": 2605,
+      "minDistanceFromAnyTerminalMeters": 2605,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "https://balboapark.org/parks-trails-gardens/kate-o-sessions-cactus-garden-balboa-park/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "garden"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/98a906deda9af18b2e48",
+      "name": "Trees for Health Garden",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "garden",
+      "lat": 32.7371932,
+      "lng": -117.1583764,
+      "distanceFromTerminalMeters": 2783,
+      "distanceFromDefaultTerminalMeters": 2783,
+      "minDistanceFromAnyTerminalMeters": 2783,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "https://treesforhealthgarden.org",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "garden"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/bc55daf80e0a2f092704",
+      "name": "Marion's Fish Market",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 32.7094429,
+      "lng": -117.171836,
+      "distanceFromTerminalMeters": 1401,
+      "distanceFromDefaultTerminalMeters": 1401,
+      "minDistanceFromAnyTerminalMeters": 1401,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "879 West Harbor Drive, San Diego, CA, 92101",
+      "openingHours": "10:00-21:00",
+      "website": "https://www.marionsfishmarket.com/",
+      "phone": "",
+      "cuisine": [
+        "seafood"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/09ea384f47f05720edcd",
+      "name": "Brigantine Seafood and Oyster Bar",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 32.7196469,
+      "lng": -117.173616,
+      "distanceFromTerminalMeters": 599,
+      "distanceFromDefaultTerminalMeters": 599,
+      "minDistanceFromAnyTerminalMeters": 599,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "CA",
+      "openingHours": "Su 10:30-22:00; Mo-Sa 11:00-22:00",
+      "website": "https://www.brigantine.com/locations/portside-pier/",
+      "phone": "+1-619-719-4960",
+      "cuisine": [
+        "seafood"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/bac3799fa0af34cb7b22",
+      "name": "Seneca Trattoria",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 32.7161644,
+      "lng": -117.1719155,
+      "distanceFromTerminalMeters": 868,
+      "distanceFromDefaultTerminalMeters": 868,
+      "minDistanceFromAnyTerminalMeters": 868,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "901 Bayfront Court, San Diego, CA, 92101",
+      "openingHours": "Su-Th 11:00-22:00; Fr-Sa 11:00-23:00",
+      "website": "https://www.senecatrattoria.com/",
+      "phone": "+1-619-877-8642",
+      "cuisine": [
+        "italian"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/680d8a5dae98e55182a7",
+      "name": "Coasterra",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 32.7243314,
+      "lng": -117.188073,
+      "distanceFromTerminalMeters": 896,
+      "distanceFromDefaultTerminalMeters": 896,
+      "minDistanceFromAnyTerminalMeters": 896,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "880B Harbor Island Drive",
+      "openingHours": "Mo-Su 11:30-21:00",
+      "website": "https://www.coasterra.com/",
+      "phone": "+1-619-814-1300",
+      "cuisine": [
+        "mexican"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/e368df642968b2af04e6",
+      "name": "Karl Strauss Brewery & Grill",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 32.7174531,
+      "lng": -117.1671908,
+      "distanceFromTerminalMeters": 1231,
+      "distanceFromDefaultTerminalMeters": 1231,
+      "minDistanceFromAnyTerminalMeters": 1231,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1155 Columbia Street, San Diego, CA, 92101",
+      "openingHours": "Fr-Sa 11:00-21:00; Su-Th 11:00-20:00",
+      "website": "http://karlstrauss.com",
+      "phone": "+1-619-234-2739",
+      "cuisine": [
+        "american"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/98b2a4fac933b4a811c8",
+      "name": "Cafe De L'Opera",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 32.719639,
+      "lng": -117.1603276,
+      "distanceFromTerminalMeters": 1841,
+      "distanceFromDefaultTerminalMeters": 1841,
+      "minDistanceFromAnyTerminalMeters": 1841,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1354 5th Avenue, San Diego, 92101, US",
+      "openingHours": "",
+      "website": "https://cafedelopera.com/",
+      "phone": "+1 619 234 0425",
+      "cuisine": [
+        "french",
+        "sandwich"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/549f335ecd91eb51fe28",
+      "name": "Crab Hut",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 32.715855,
+      "lng": -117.1597911,
+      "distanceFromTerminalMeters": 1946,
+      "distanceFromDefaultTerminalMeters": 1946,
+      "minDistanceFromAnyTerminalMeters": 1946,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1007 5th Avenue, San Diego, 92101, US",
+      "openingHours": "Mo-Th 11:30-22:00;Fr 11:30-23:00;Sa 12:00-23:00;Su 12:00-22:00",
+      "website": "https://www.crabhutrestaurant.com/",
+      "phone": "+1-619-234-0628",
+      "cuisine": [
+        "regional"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Louisiana Seafood Kitchen",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/8fa5e5ff4b497727709c",
+      "name": "The Mission",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 32.709591,
+      "lng": -117.1530801,
+      "distanceFromTerminalMeters": 2772,
+      "distanceFromDefaultTerminalMeters": 2772,
+      "minDistanceFromAnyTerminalMeters": 2772,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1350 J Street, 92101",
+      "openingHours": "Mo-Th 07:30-13:30; Fr-Su 07:00-14:00",
+      "website": "https://themissionsd.com/",
+      "phone": "+1-619-232-7662",
+      "cuisine": [
+        "american",
+        "breakfast"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "cafe\nrestaurant\nno wifi\nbreakfast\nporch seating\nkombucha\ncoffee\ntea",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/172faca110fcc350207f",
+      "name": "Morning Glory",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 32.7231657,
+      "lng": -117.1680994,
+      "distanceFromTerminalMeters": 1168,
+      "distanceFromDefaultTerminalMeters": 1168,
+      "minDistanceFromAnyTerminalMeters": 1168,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "550 West Date Street, 92101",
+      "openingHours": "Sa-Su 08:00-16:00; Mo-Fr 08:00-15:00",
+      "website": "https://morningglorybreakfast.com/",
+      "phone": "",
+      "cuisine": [
+        "breakfast"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/26e77d5dcd5fafcf472f",
+      "name": "Filippi's Pizza Grotto Little Italy",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 32.7237614,
+      "lng": -117.1682565,
+      "distanceFromTerminalMeters": 1176,
+      "distanceFromDefaultTerminalMeters": 1176,
+      "minDistanceFromAnyTerminalMeters": 1176,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1747 India Street, San Diego, CA, 92101",
+      "openingHours": "Mo-Su 11:00-21:30",
+      "website": "https://realcheesepizza.com/little-italy",
+      "phone": "+1-619-232-5094",
+      "cuisine": [
+        "italian",
+        "pizza"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/af4234fab4cf27d89b73",
+      "name": "Topside Terrace Kitchen & Bar",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 32.7175912,
+      "lng": -117.1667565,
+      "distanceFromTerminalMeters": 1268,
+      "distanceFromDefaultTerminalMeters": 1268,
+      "minDistanceFromAnyTerminalMeters": 1268,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "421 West B Street, San Diego, CA, 92101",
+      "openingHours": "Mon Closed, Tue-Thu 16:00-22:00; Fri 16:00-23:00, Sa 07:00-23:00, Su 07:00-16:00",
+      "website": "https://www.hotelrepublicsd.com/dining/topside-terrace-kitchen-bar",
+      "phone": "+1 619 398 3100",
+      "cuisine": [
+        "californian"
+      ],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/da134cb440a8ceec2ba3",
+      "name": "San Diego Burger Co.",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 32.7094677,
+      "lng": -117.1717429,
+      "distanceFromTerminalMeters": 1403,
+      "distanceFromDefaultTerminalMeters": 1403,
+      "minDistanceFromAnyTerminalMeters": 1403,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "879 West Harbor Drive, San Diego, CA, 92101",
+      "openingHours": "10:00-21:00",
+      "website": "https://www.sandiegoburgercompany.com/",
+      "phone": "+1-619-239-7901",
+      "cuisine": [
+        "burger"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/4e75ec2ce624eeae39a8",
+      "name": "Liberty Public Market",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "marketplace",
+      "lat": 32.7401964,
+      "lng": -117.2112403,
+      "distanceFromTerminalMeters": 3685,
+      "distanceFromDefaultTerminalMeters": 3685,
+      "minDistanceFromAnyTerminalMeters": 3685,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "2820 Historic Decatur Road, San Diego, CA",
+      "openingHours": "Mo-Su 10:30-21:00; Dec 25 off; Dec 31 11:00-17:00; Jan 1 11:00-19:00; Nov Th[4] off; Jul 4 off",
+      "website": "https://www.libertypublicmarketsd.com",
+      "phone": "+1 619-330-8228",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "marketplace"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b4d2cb271f4112308ba9",
+      "name": "Rosewood San Diego",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "shoes",
+      "lat": 32.711675,
+      "lng": -117.1578305,
+      "distanceFromTerminalMeters": 2271,
+      "distanceFromDefaultTerminalMeters": 2271,
+      "minDistanceFromAnyTerminalMeters": 2271,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "726 Market Street, San Diego, CA, 92101, US",
+      "openingHours": "",
+      "website": "https://www.rosewoodsandiego.com/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "shop": "shoes"
+      }
+    }
+  ],
+  "portAnchor": {
+    "id": "ports-json-anchor",
+    "name": "SAN DIEGO Port",
+    "lat": 32.72,
+    "lng": -117.18,
+    "address": "San Diego, California, United States",
+    "source": "ports.json",
+    "sourceId": "",
+    "score": 0,
+    "slug": "san-diego-port"
+  },
+  "terminalResolution": {
+    "status": "resolved",
+    "method": "accepted_terminal_candidate",
+    "verified": true,
+    "notes": "External port and cruise-schedule checks support passenger cruise use, and the accepted candidate ID(s) correspond to the actual cruise terminal, cruise pier, or passenger terminal used by cruise ships."
+  }
+}

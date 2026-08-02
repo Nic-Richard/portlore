@@ -1,0 +1,1328 @@
+{
+  "schemaVersion": 5,
+  "catalogType": "curation-candidates",
+  "generatedAt": "2026-07-30T08:51:22.404Z",
+  "source": "openstreetmap",
+  "sourceExtract": "scotland-latest.osm.pbf",
+  "radiusMeters": 10000,
+  "port": {
+    "id": "aberdeen-united-kingdom",
+    "city": "Aberdeen",
+    "country": "United Kingdom"
+  },
+  "defaultTerminalId": "osm/node/12043452285",
+  "terminal": {
+    "id": "osm/node/12043452285",
+    "name": "Aberdeen Cruise Ship Terminal",
+    "nameEnglish": "",
+    "lat": 57.1354842,
+    "lng": -2.0610203,
+    "address": "Aberdeen Cruise Ship Terminal, Coast Road, Balnagask, Torry, Aberdeen City, Alba / Scotland, AB11 8TN, United Kingdom",
+    "source": "verified_terminal_candidate",
+    "sourceId": "osm/node/12043452285",
+    "terminalType": "passenger_cruise_terminal",
+    "verified": true,
+    "notes": "Accepted 1 candidate explicitly identified as an ocean-cruise or cruise-passenger terminal; ferry and unrelated results were excluded.",
+    "sourceUrls": [],
+    "sources": [
+      "nominatim"
+    ],
+    "sourceIds": [
+      "osm/node/12043452285"
+    ],
+    "osmTags": {
+      "operator": "Aberdeen City Council",
+      "public_transport": "platform"
+    },
+    "matchedBy": [
+      "Nominatim query: Aberdeen cruise terminal, United Kingdom"
+    ],
+    "distanceFromPortMeters": 1979
+  },
+  "terminals": [
+    {
+      "id": "osm/node/12043452285",
+      "name": "Aberdeen Cruise Ship Terminal",
+      "nameEnglish": "",
+      "lat": 57.1354842,
+      "lng": -2.0610203,
+      "address": "Aberdeen Cruise Ship Terminal, Coast Road, Balnagask, Torry, Aberdeen City, Alba / Scotland, AB11 8TN, United Kingdom",
+      "source": "verified_terminal_candidate",
+      "sourceId": "osm/node/12043452285",
+      "terminalType": "passenger_cruise_terminal",
+      "verified": true,
+      "notes": "Accepted 1 candidate explicitly identified as an ocean-cruise or cruise-passenger terminal; ferry and unrelated results were excluded.",
+      "sourceUrls": [],
+      "sources": [
+        "nominatim"
+      ],
+      "sourceIds": [
+        "osm/node/12043452285"
+      ],
+      "osmTags": {
+        "operator": "Aberdeen City Council",
+        "public_transport": "platform"
+      },
+      "matchedBy": [
+        "Nominatim query: Aberdeen cruise terminal, United Kingdom"
+      ],
+      "distanceFromPortMeters": 1979
+    }
+  ],
+  "terminalCandidateRadiusMeters": 5000,
+  "terminalCandidates": [
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/9069ef1e92455fee4504",
+      "name": "Ro-Ro Ramp",
+      "nameEnglish": "",
+      "lat": 57.1436009,
+      "lng": -2.0815975,
+      "distanceFromPortMeters": 718,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "stop_position",
+        "seamark:type": "berth"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/9069ef1e92455fee4504"
+      ]
+    },
+    {
+      "source": "nominatim",
+      "sourceId": "osm/way/1383857273",
+      "osmType": "way",
+      "osmId": "1383857273",
+      "name": "Port of Aberdeen Maintenance Department",
+      "nameEnglish": "",
+      "lat": 57.1444468,
+      "lng": -2.0887646,
+      "distanceFromPortMeters": 813,
+      "address": "Port of Aberdeen Maintenance Department, Hanover, Castlehill and Pittodrie, Aberdeen City, Alba / Scotland, AB11 5PB, United Kingdom",
+      "displayName": "Port of Aberdeen Maintenance Department, Hanover, Castlehill and Pittodrie, Aberdeen City, Alba / Scotland, AB11 5PB, United Kingdom",
+      "query": "ABERDEEN Port, Aberdeen, United Kingdom",
+      "matchedBy": [
+        "Nominatim query: ABERDEEN Port, Aberdeen, United Kingdom"
+      ],
+      "osmTags": {},
+      "sources": [
+        "nominatim"
+      ],
+      "sourceIds": [
+        "osm/way/1383857273"
+      ]
+    },
+    {
+      "source": "nominatim",
+      "sourceId": "osm/way/1102964950",
+      "osmType": "way",
+      "osmId": "1102964950",
+      "name": "Port of Aberdeen (North Harbour)",
+      "nameEnglish": "",
+      "lat": 57.1424876,
+      "lng": -2.0821382,
+      "distanceFromPortMeters": 845,
+      "address": "Port of Aberdeen (North Harbour), Footdee, Castlehill and Pittodrie, Aberdeen City, Alba / Scotland, AB11 5SS, United Kingdom",
+      "displayName": "Port of Aberdeen (North Harbour), Footdee, Castlehill and Pittodrie, Aberdeen City, Alba / Scotland, AB11 5SS, United Kingdom",
+      "query": "ABERDEEN Port, Aberdeen, United Kingdom",
+      "matchedBy": [
+        "Nominatim query: ABERDEEN Port, Aberdeen, United Kingdom"
+      ],
+      "osmTags": {
+        "operator": "Aberdeen Harbour Board",
+        "industrial": "port",
+        "seamark:type": "harbour"
+      },
+      "sources": [
+        "nominatim"
+      ],
+      "sourceIds": [
+        "osm/way/1102964950"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/a0a173a5b67b88b417fb",
+      "name": "Northern Isles Ferry Berth",
+      "nameEnglish": "",
+      "lat": 57.1452868,
+      "lng": -2.0917498,
+      "distanceFromPortMeters": 881,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "operator": "NorthLink Ferries",
+        "public_transport": "stop_position",
+        "seamark:type": "berth"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/a0a173a5b67b88b417fb"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/2ad51f0fd0789e60e86a",
+      "name": "Eurolink Berth",
+      "nameEnglish": "",
+      "lat": 57.143266,
+      "lng": -2.087978,
+      "distanceFromPortMeters": 890,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "operator": "North Link",
+        "public_transport": "stop_position",
+        "seamark:type": "berth"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/2ad51f0fd0789e60e86a"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/46d1b926537e21dcdbc1",
+      "name": "Aberdeen Ferry Terminal",
+      "nameEnglish": "",
+      "lat": 57.1445262,
+      "lng": -2.0920773,
+      "distanceFromPortMeters": 949,
+      "address": "Aberdeen",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "cargo": "passengers;vehicle",
+        "ferry": "yes",
+        "operator": "NorthLink Ferries",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/46d1b926537e21dcdbc1"
+      ]
+    },
+    {
+      "source": "nominatim",
+      "sourceId": "osm/node/12043452285",
+      "osmType": "node",
+      "osmId": "12043452285",
+      "name": "Aberdeen Cruise Ship Terminal",
+      "nameEnglish": "",
+      "lat": 57.1354842,
+      "lng": -2.0610203,
+      "distanceFromPortMeters": 1979,
+      "address": "Aberdeen Cruise Ship Terminal, Coast Road, Balnagask, Torry, Aberdeen City, Alba / Scotland, AB11 8TN, United Kingdom",
+      "displayName": "Aberdeen Cruise Ship Terminal, Coast Road, Balnagask, Torry, Aberdeen City, Alba / Scotland, AB11 8TN, United Kingdom",
+      "query": "Aberdeen cruise terminal, United Kingdom",
+      "matchedBy": [
+        "Nominatim query: Aberdeen cruise terminal, United Kingdom"
+      ],
+      "osmTags": {
+        "operator": "Aberdeen City Council",
+        "public_transport": "platform"
+      },
+      "sources": [
+        "nominatim"
+      ],
+      "sourceIds": [
+        "osm/node/12043452285"
+      ]
+    },
+    {
+      "source": "nominatim",
+      "sourceId": "osm/way/1374507780",
+      "osmType": "way",
+      "osmId": "1374507780",
+      "name": "Port of Aberdeen (South Harbour)",
+      "nameEnglish": "",
+      "lat": 57.1333914,
+      "lng": -2.0541566,
+      "distanceFromPortMeters": 2417,
+      "address": "Port of Aberdeen (South Harbour), Footdee, Aberdeen City, Alba / Scotland, AB11 8TN, United Kingdom",
+      "displayName": "Port of Aberdeen (South Harbour), Footdee, Aberdeen City, Alba / Scotland, AB11 8TN, United Kingdom",
+      "query": "ABERDEEN Port, Aberdeen, United Kingdom",
+      "matchedBy": [
+        "Nominatim query: ABERDEEN Port, Aberdeen, United Kingdom"
+      ],
+      "osmTags": {
+        "operator": "Aberdeen Harbour Board",
+        "industrial": "port",
+        "seamark:type": "harbour"
+      },
+      "sources": [
+        "nominatim"
+      ],
+      "sourceIds": [
+        "osm/way/1374507780"
+      ]
+    }
+  ],
+  "counts": {
+    "attraction": 16,
+    "outdoors": 6,
+    "food_drink": 12,
+    "shopping": 4,
+    "essentials": 1
+  },
+  "pois": [
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/66c3edabaac6871ec467",
+      "name": "Aberdeen Science Centre",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 57.153245,
+      "lng": -2.0850021,
+      "distanceFromTerminalMeters": 470,
+      "distanceFromDefaultTerminalMeters": 470,
+      "minDistanceFromAnyTerminalMeters": 470,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "179 Constitution Street, Aberdeen, AB24 5TU",
+      "openingHours": "Mo-Su 10:00-17:00",
+      "website": "https://aberdeensciencecentre.org/",
+      "phone": "+44 1224 640340",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/a13bb718dd9f8ecbcda3",
+      "name": "Aberdeen Maritime Museum",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 57.1465458,
+      "lng": -2.0949749,
+      "distanceFromTerminalMeters": 982,
+      "distanceFromDefaultTerminalMeters": 982,
+      "minDistanceFromAnyTerminalMeters": 982,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "52-56 Shiprow, Aberdeen, AB11 5BY",
+      "openingHours": "Mo-Sa 10:00-17:00; Su 11:00-16:00",
+      "website": "https://www.aberdeencity.gov.uk/AAGM/plan-your-visit/aberdeen-maritime-museum",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f81319a7316464f66da1",
+      "name": "Tolbooth Museum",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 57.1480465,
+      "lng": -2.0941111,
+      "distanceFromTerminalMeters": 878,
+      "distanceFromDefaultTerminalMeters": 878,
+      "minDistanceFromAnyTerminalMeters": 878,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Castle Street, Aberdeen, AB11 5BB",
+      "openingHours": "",
+      "website": "https://www.aberdeencity.gov.uk/AAGM/plan-your-visit/tolbooth-museum",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "no",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/5ae9dd9fb2eba60074a0",
+      "name": "Provost Skene's House",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 57.1482757,
+      "lng": -2.0975305,
+      "distanceFromTerminalMeters": 1075,
+      "distanceFromDefaultTerminalMeters": 1075,
+      "minDistanceFromAnyTerminalMeters": 1075,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Guestrow, Aberdeen, AB10 1AS",
+      "openingHours": "Mo-Sa 10:00-17:00; Su 11:00-16:00",
+      "website": "http://www.aagm.co.uk/Venues/ProvostSkenesHouse/psh-overview.aspx",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "no",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "house",
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f221f37aa59172497dfb",
+      "name": "Aberdeen Art Gallery",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 57.1481292,
+      "lng": -2.1027275,
+      "distanceFromTerminalMeters": 1387,
+      "distanceFromDefaultTerminalMeters": 1387,
+      "minDistanceFromAnyTerminalMeters": 1387,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Schoolhill, Aberdeen, AB10 1FQ",
+      "openingHours": "Mo-Sa 10:00-17:00; Su 11:00-16:00",
+      "website": "https://www.aberdeencity.gov.uk/AAGM/plan-your-visit/aberdeen-art-gallery",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/58d16663b3650507831f",
+      "name": "King's Museum",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 57.167124,
+      "lng": -2.1022573,
+      "distanceFromTerminalMeters": 2330,
+      "distanceFromDefaultTerminalMeters": 2330,
+      "minDistanceFromAnyTerminalMeters": 2330,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "High Street, Aberdeen, AB24 3EE",
+      "openingHours": "Mo 10:00-16:00; Tu 10:00-19:30; We-Fr 10:00-16:00; Sa 11:00-16:00",
+      "website": "https://www.abdn.ac.uk/kingsmuseum/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/da64b4903f105d443f76",
+      "name": "Dome of St. Mark's",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 57.1479046,
+      "lng": -2.1053222,
+      "distanceFromTerminalMeters": 1545,
+      "distanceFromDefaultTerminalMeters": 1545,
+      "minDistanceFromAnyTerminalMeters": 1545,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "The church is surmounted by a drum and high dome that was modelled on St. Paul's Cathedral in London. A unique design not found on other ecclesiastical buildings in Aberdeen.",
+      "osmTags": {
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/e08745b4ea3847aac33b",
+      "name": "Cathedral Church of St Machar",
+      "nameEnglish": "Cathedral Church of St Machar",
+      "category": "attraction",
+      "subcategory": "cathedral",
+      "lat": 57.1697827,
+      "lng": -2.1023661,
+      "distanceFromTerminalMeters": 2580,
+      "distanceFromDefaultTerminalMeters": 2580,
+      "minDistanceFromAnyTerminalMeters": 2580,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "The Chanonry, Aberdeen, AB24 1RQ",
+      "openingHours": "",
+      "website": "http://www.stmachar.com/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "place_of_worship",
+        "historic": "cathedral"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/fba8350cb114cd4123e5",
+      "name": "Mercat Cross",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "monument",
+      "lat": 57.1482521,
+      "lng": -2.0926027,
+      "distanceFromTerminalMeters": 785,
+      "distanceFromDefaultTerminalMeters": 785,
+      "minDistanceFromAnyTerminalMeters": 785,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Aberdeen City Historical Landmark",
+      "osmTags": {
+        "historic": "monument"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/37462119cf160ef164ca",
+      "name": "His Majesty's Theatre",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 57.1480555,
+      "lng": -2.1046489,
+      "distanceFromTerminalMeters": 1502,
+      "distanceFromDefaultTerminalMeters": 1502,
+      "minDistanceFromAnyTerminalMeters": 1502,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Rosemount Viaduct, Aberdeen, AB25 1GL",
+      "openingHours": "",
+      "website": "https://www.aberdeenperformingarts.com/his-majestys-theatre/",
+      "phone": "+44 1224 641122",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "Opened in 1906, this is the largest theatre in the Grampian region. Constructed of Kemnay and Tillyfourie granite, the building is renowned for its Neo-Renaissance exterior and well-preserved mixed Baroque/Jacobean interior.",
+      "osmTags": {
+        "amenity": "theatre",
+        "historic": "yes",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/1c1f5cb929fcf30b81fb",
+      "name": "Codona's Amusement Park",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "theme_park",
+      "lat": 57.1511041,
+      "lng": -2.0800266,
+      "distanceFromTerminalMeters": 123,
+      "distanceFromDefaultTerminalMeters": 123,
+      "minDistanceFromAnyTerminalMeters": 123,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Beach Boulevard, Aberdeen, AB24 5ED",
+      "openingHours": "",
+      "website": "https://www.codonas.com/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "theme_park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b5f02eef0f1fe28af25b",
+      "name": "63 ABD CR",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "archaeological_site",
+      "lat": 57.159191,
+      "lng": -2.0861471,
+      "distanceFromTerminalMeters": 1087,
+      "distanceFromDefaultTerminalMeters": 1087,
+      "minDistanceFromAnyTerminalMeters": 1087,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "archaeological_site"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/2fa6461d32f3cc7b790c",
+      "name": "61 ABD CR",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "archaeological_site",
+      "lat": 57.1566825,
+      "lng": -2.0994964,
+      "distanceFromTerminalMeters": 1391,
+      "distanceFromDefaultTerminalMeters": 1391,
+      "minDistanceFromAnyTerminalMeters": 1391,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "archaeological_site"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/3cdd16e86277b7a1b683",
+      "name": "62 ABD CR",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "archaeological_site",
+      "lat": 57.1572437,
+      "lng": -2.0991225,
+      "distanceFromTerminalMeters": 1407,
+      "distanceFromDefaultTerminalMeters": 1407,
+      "minDistanceFromAnyTerminalMeters": 1407,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "archaeological_site"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/8985c952bd350d85d72d",
+      "name": "A ABD CR",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "archaeological_site",
+      "lat": 57.1385321,
+      "lng": -2.0948468,
+      "distanceFromTerminalMeters": 1558,
+      "distanceFromDefaultTerminalMeters": 1558,
+      "minDistanceFromAnyTerminalMeters": 1558,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "archaeological_site"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/36ae78b75c02bc9922b0",
+      "name": "Girdle Ness Lighthouse",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "lighthouse",
+      "lat": 57.1390177,
+      "lng": -2.0485669,
+      "distanceFromTerminalMeters": 2255,
+      "distanceFromDefaultTerminalMeters": 2255,
+      "minDistanceFromAnyTerminalMeters": 2255,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "man_made": "lighthouse"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/4250e7df686e587034d1",
+      "name": "Beach Ballroom Bathing Area",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "beach",
+      "lat": 57.1528357,
+      "lng": -2.0771151,
+      "distanceFromTerminalMeters": 360,
+      "distanceFromDefaultTerminalMeters": 360,
+      "minDistanceFromAnyTerminalMeters": 360,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "natural": "beach"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/bae8d6b7e4b1c65b872a",
+      "name": "Castle Hill Viewpont",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "viewpoint",
+      "lat": 57.1483863,
+      "lng": -2.0894632,
+      "distanceFromTerminalMeters": 598,
+      "distanceFromDefaultTerminalMeters": 598,
+      "minDistanceFromAnyTerminalMeters": 598,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "viewpoint"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c2dddef94dacd4067db6",
+      "name": "Education, Salvation and Damnation",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "viewpoint",
+      "lat": 57.147803,
+      "lng": -2.1053168,
+      "distanceFromTerminalMeters": 1546,
+      "distanceFromDefaultTerminalMeters": 1546,
+      "minDistanceFromAnyTerminalMeters": 1546,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "The whimsical name given by locals to a line-up of three imposing and listed civic buildings on Rosemount Viaduct. In the order of the Central Library, St. Mark's Church of Scotland and His Majesty's Theatre.",
+      "osmTags": {
+        "historic": "yes",
+        "tourism": "viewpoint"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/e123e0bced60261cb611",
+      "name": "Aberdeen Beach",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "beach",
+      "lat": 57.1587947,
+      "lng": -2.072272,
+      "distanceFromTerminalMeters": 1083,
+      "distanceFromDefaultTerminalMeters": 1083,
+      "minDistanceFromAnyTerminalMeters": 1083,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "natural": "beach"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d23c142b58e477ac5bfd",
+      "name": "Gardens Overhang",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "viewpoint",
+      "lat": 57.1470244,
+      "lng": -2.1041025,
+      "distanceFromTerminalMeters": 1491,
+      "distanceFromDefaultTerminalMeters": 1491,
+      "minDistanceFromAnyTerminalMeters": 1491,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "A large steel structure protruding from the west embankment over the paths below with views of the Denburn Valley.",
+      "osmTags": {
+        "tourism": "viewpoint"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/3f69bdf26c39beb04d6d",
+      "name": "MacRobert Memorial Garden",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "garden",
+      "lat": 57.1661577,
+      "lng": -2.1015462,
+      "distanceFromTerminalMeters": 2217,
+      "distanceFromDefaultTerminalMeters": 2217,
+      "minDistanceFromAnyTerminalMeters": 2217,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "In memory of Lady MacRobert, whose sons Alasdair, Roderic and Iain fell in the Second World War.",
+      "osmTags": {
+        "historic": "memorial",
+        "leisure": "garden"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/35c18918bf0a0ad5d3ef",
+      "name": "Grub",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 57.1532622,
+      "lng": -2.084377,
+      "distanceFromTerminalMeters": 449,
+      "distanceFromDefaultTerminalMeters": 449,
+      "minDistanceFromAnyTerminalMeters": 449,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "179 Constitution Street, Aberdeen, AB24 5TU",
+      "openingHours": "Mo-Fr 08:00-16:30; Sa,Su 09:00-16:30",
+      "website": "https://aberdeensciencecentre.org/food-drink/",
+      "phone": "",
+      "cuisine": [
+        "sandwich",
+        "soup",
+        "breakfast"
+      ],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/685ade6603f47e36ccb6",
+      "name": "Muzo's Turkish Kitchen",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 57.1507472,
+      "lng": -2.0781677,
+      "distanceFromTerminalMeters": 138,
+      "distanceFromDefaultTerminalMeters": 138,
+      "minDistanceFromAnyTerminalMeters": 138,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "9 Esplanade, Aberdeen, AB24 5NS",
+      "openingHours": "Mo-Su 12:00-21:00",
+      "website": "https://muzosturkishkitchen.co.uk/",
+      "phone": "+44 1224 595333",
+      "cuisine": [
+        "turkish"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f8cd954df9df560479c6",
+      "name": "Mount",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 57.1490794,
+      "lng": -2.0980271,
+      "distanceFromTerminalMeters": 1092,
+      "distanceFromDefaultTerminalMeters": 1092,
+      "minDistanceFromAnyTerminalMeters": 1092,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "6 Upperkirkgate, Aberdeen, AB10 1BA",
+      "openingHours": "We-Fr 08:30-16:00; Sa-Su 10:00-16:00",
+      "website": "https://www.mountaberdeen.com",
+      "phone": "",
+      "cuisine": [
+        "coffee_shop"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/3746cf4d7288517e7f71",
+      "name": "Gio's by La Lombarda",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 57.148367,
+      "lng": -2.0931781,
+      "distanceFromTerminalMeters": 815,
+      "distanceFromDefaultTerminalMeters": 815,
+      "minDistanceFromAnyTerminalMeters": 815,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "2-8 King Street, Aberdeen, AB24 5AX",
+      "openingHours": "",
+      "website": "https://www.facebook.com/giosbylalombarda",
+      "phone": "",
+      "cuisine": [
+        "italian"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/2b5587f67a34cb70b0e4",
+      "name": "La Fiamma",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 57.1519489,
+      "lng": -2.0940535,
+      "distanceFromTerminalMeters": 875,
+      "distanceFromDefaultTerminalMeters": 875,
+      "minDistanceFromAnyTerminalMeters": 875,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "188 King Street, Aberdeen, AB24 5BH",
+      "openingHours": "",
+      "website": "https://lafiammaonline.com/",
+      "phone": "",
+      "cuisine": [
+        "pizza"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/bf1628c4037780434080",
+      "name": "The Terrace",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 57.1479052,
+      "lng": -2.1043319,
+      "distanceFromTerminalMeters": 1486,
+      "distanceFromDefaultTerminalMeters": 1486,
+      "minDistanceFromAnyTerminalMeters": 1486,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Rosemount Viaduct, Aberdeen, AB25 1GL",
+      "openingHours": "",
+      "website": "https://www.aberdeenperformingarts.com/the-terrace/",
+      "phone": "",
+      "cuisine": [
+        "regional",
+        "burger",
+        "fish",
+        "sandwich",
+        "dessert"
+      ],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "A restaurant and bar within the 2005 extension of His Majesty's Theatre.",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f3158e31b2f2db4c9f80",
+      "name": "Cartoos Grill House & Desserts",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 57.1509622,
+      "lng": -2.0782612,
+      "distanceFromTerminalMeters": 150,
+      "distanceFromDefaultTerminalMeters": 150,
+      "minDistanceFromAnyTerminalMeters": 150,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "3-9 Esplanade, Aberdeen, AB24 5NS",
+      "openingHours": "Mo-Su 09:00-21:00",
+      "website": "",
+      "phone": "+44 1224589132",
+      "cuisine": [
+        "burger",
+        "italian",
+        "steak"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/16e73b0fc08cf83cf862",
+      "name": "Maggie's Grill",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 57.1484203,
+      "lng": -2.0969695,
+      "distanceFromTerminalMeters": 1039,
+      "distanceFromDefaultTerminalMeters": 1039,
+      "minDistanceFromAnyTerminalMeters": 1039,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Unit 2 Broad Street, Aberdeen, AB10 1BL",
+      "openingHours": "Mo 16:00-23:00; Tu-Sa 12:00-23:00; Su 12:00-22:00",
+      "website": "https://maggiesgrill.co.uk/",
+      "phone": "+44 1224 635330",
+      "cuisine": [
+        "soul",
+        "cajun",
+        "barbecue"
+      ],
+      "wheelchair": "limited",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f335369836aca804f00a",
+      "name": "Seoul",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 57.1445796,
+      "lng": -2.1033336,
+      "distanceFromTerminalMeters": 1531,
+      "distanceFromDefaultTerminalMeters": 1531,
+      "minDistanceFromAnyTerminalMeters": 1531,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "13 Crown Street, Aberdeen, AB11 6HA",
+      "openingHours": "Mo-Su 12:00-22:00",
+      "website": "https://www.seoul-aberdeen.co.uk",
+      "phone": "+44 1224 596537",
+      "cuisine": [
+        "japanese",
+        "korean"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/0eceb2e3b48e28120ac9",
+      "name": "Amarone",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 57.1444072,
+      "lng": -2.1058233,
+      "distanceFromTerminalMeters": 1677,
+      "distanceFromDefaultTerminalMeters": 1677,
+      "minDistanceFromAnyTerminalMeters": 1677,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "257 Union Street, Aberdeen, AB11 6BR, GB",
+      "openingHours": "Mo-Sa 10:00-22:00; Su 10:30-22:00",
+      "website": "https://www.amaronerestaurant.co.uk/",
+      "phone": "+44 1224 590300",
+      "cuisine": [
+        "italian"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/3cad165da177dcfc6776",
+      "name": "Gidi Grill",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 57.1443379,
+      "lng": -2.1060696,
+      "distanceFromTerminalMeters": 1694,
+      "distanceFromDefaultTerminalMeters": 1694,
+      "minDistanceFromAnyTerminalMeters": 1694,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "263 Union Street, Aberdeen, AB11 6BR",
+      "openingHours": "Tu-Th 12:00-22:00; Fr,Sa 12:00-22:30; Su 13:00-22:00",
+      "website": "https://gidigrill.com/",
+      "phone": "+44 1224 002187",
+      "cuisine": [
+        "african",
+        "caribbean"
+      ],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/95ead405b0ce5351f1a3",
+      "name": "Royal Thai",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 57.1439213,
+      "lng": -2.1010486,
+      "distanceFromTerminalMeters": 1438,
+      "distanceFromDefaultTerminalMeters": 1438,
+      "minDistanceFromAnyTerminalMeters": 1438,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "29 Crown Terrace, Aberdeen, AB11 6HD",
+      "openingHours": "",
+      "website": "https://www.royalthaiaberdeen.com/",
+      "phone": "+44 1224 212922",
+      "cuisine": [
+        "thai"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/be6e8b28854cbbc16051",
+      "name": "Bon Accord Centre",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "mall",
+      "lat": 57.1490572,
+      "lng": -2.0994967,
+      "distanceFromTerminalMeters": 1181,
+      "distanceFromDefaultTerminalMeters": 1181,
+      "minDistanceFromAnyTerminalMeters": 1181,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Sa 09:00-18:00; Su 11:00-17:00",
+      "website": "https://www.bonaccordaberdeen.com/",
+      "phone": "+44 1224 647 470",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "shop": "mall"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/509c3a759c0ce5c417de",
+      "name": "Union Square",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "mall",
+      "lat": 57.1431702,
+      "lng": -2.096171,
+      "distanceFromTerminalMeters": 1236,
+      "distanceFromDefaultTerminalMeters": 1236,
+      "minDistanceFromAnyTerminalMeters": 1236,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Guild Street, Aberdeen, AB11 5RG",
+      "openingHours": "Mo-Fr 09:00-20:00; Sa 09:00-19:00; Su 11:00-18:00",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "shop": "mall"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/2203a37e1f463bd34ab3",
+      "name": "Vintage Market",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "clothes",
+      "lat": 57.1456715,
+      "lng": -2.0962262,
+      "distanceFromTerminalMeters": 1091,
+      "distanceFromDefaultTerminalMeters": 1091,
+      "minDistanceFromAnyTerminalMeters": 1091,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "46 Market Street, Aberdeen, AB11 5QE, GB",
+      "openingHours": "Tu-Fr 10:00-20:00; Sa-Mo 10:00-18:00",
+      "website": "",
+      "phone": "+44 1224 531 105",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "shop": "clothes"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/96ea8b82c39b4685959d",
+      "name": "Union Square Customer Service Desk",
+      "nameEnglish": "",
+      "category": "essentials",
+      "subcategory": "visitor_information",
+      "lat": 57.1438707,
+      "lng": -2.0980358,
+      "distanceFromTerminalMeters": 1284,
+      "distanceFromDefaultTerminalMeters": 1284,
+      "minDistanceFromAnyTerminalMeters": 1284,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Guild Street, Aberdeen, AB11 5PS",
+      "openingHours": "",
+      "website": "https://unionsquareaberdeen.com/stores/customer-service-desk/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "information"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/4da1b44ac67c715bdfe7",
+      "name": "Gamola Golf",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "sports",
+      "lat": 57.1457508,
+      "lng": -2.0956192,
+      "distanceFromTerminalMeters": 1054,
+      "distanceFromDefaultTerminalMeters": 1054,
+      "minDistanceFromAnyTerminalMeters": 1054,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "47-53 Market Street, Aberdeen, AB11 5PZ",
+      "openingHours": "Mo-Sa 09:00-17:00; Su 11:00-17:00",
+      "website": "https://www.gamolagolf.co.uk/",
+      "phone": "+44 1224 592900",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "shop": "sports"
+      }
+    }
+  ],
+  "portAnchor": {
+    "id": "ports-json-anchor",
+    "name": "ABERDEEN Port",
+    "lat": 57.15,
+    "lng": -2.08,
+    "address": "Aberdeen, Scotland, United Kingdom",
+    "source": "ports.json",
+    "sourceId": "",
+    "score": 0,
+    "slug": "aberdeen-port"
+  },
+  "terminalResolution": {
+    "status": "resolved",
+    "method": "accepted_terminal_candidate",
+    "verified": true,
+    "notes": "Accepted 1 candidate explicitly identified as an ocean-cruise or cruise-passenger terminal; ferry and unrelated results were excluded."
+  }
+}

@@ -1,0 +1,619 @@
+{
+  "schemaVersion": 5,
+  "catalogType": "curation-candidates",
+  "generatedAt": "2026-07-30T08:12:09.070Z",
+  "source": "openstreetmap",
+  "sourceExtract": "kansai-latest.osm.pbf",
+  "radiusMeters": 10000,
+  "port": {
+    "id": "miyazu-japan",
+    "city": "MIYAZU",
+    "country": "Japan"
+  },
+  "defaultTerminalId": "ports-json-anchor",
+  "terminal": {
+    "id": "ports-json-anchor",
+    "name": "MIYAZU Port",
+    "lat": 35.53,
+    "lng": 135.2,
+    "address": "MIYAZU, Japan",
+    "source": "ports.json",
+    "sourceId": "",
+    "score": 0,
+    "slug": "miyazu-port"
+  },
+  "terminals": [
+    {
+      "id": "ports-json-anchor",
+      "name": "MIYAZU Port",
+      "lat": 35.53,
+      "lng": 135.2,
+      "address": "MIYAZU, Japan",
+      "source": "ports.json",
+      "sourceId": "",
+      "score": 0,
+      "slug": "miyazu-port"
+    }
+  ],
+  "terminalCandidateRadiusMeters": 5000,
+  "terminalCandidates": [
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/fadfbdd9fcb6591957db",
+      "name": "宮津桟橋",
+      "nameEnglish": "",
+      "lat": 35.539829,
+      "lng": 135.1938824,
+      "distanceFromPortMeters": 1225,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "building": "yes",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/fadfbdd9fcb6591957db"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/914b2ea69d531f0269b9",
+      "name": "観光船のりば 天橋立桟橋",
+      "nameEnglish": "",
+      "lat": 35.5585434,
+      "lng": 135.1847388,
+      "distanceFromPortMeters": 3461,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "building": "yes",
+        "ferry": "yes",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/914b2ea69d531f0269b9"
+      ]
+    }
+  ],
+  "counts": {
+    "attraction": 6,
+    "outdoors": 4,
+    "food_drink": 7,
+    "shopping": 2,
+    "essentials": 1
+  },
+  "pois": [
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/e73a08f0664c74014ca5",
+      "name": "宮津市みやづ歴史の館",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 35.5388819,
+      "lng": 135.1971679,
+      "distanceFromTerminalMeters": 1020,
+      "distanceFromDefaultTerminalMeters": 1020,
+      "minDistanceFromAnyTerminalMeters": 1020,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/a891f229a8ea1b5c01eb",
+      "name": "関西電力宮津エネルギー研究所・丹後魚っ知館",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "aquarium",
+      "lat": 35.5564407,
+      "lng": 135.2549984,
+      "distanceFromTerminalMeters": 5780,
+      "distanceFromDefaultTerminalMeters": 5780,
+      "minDistanceFromAnyTerminalMeters": 5780,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Fr-Tu 09:00-16:00",
+      "website": "https://www.kepco.co.jp/corporate/profile/community/pr/miyazu/index.html",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "aquarium"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/48ea34d443dc0f8edbf6",
+      "name": "文殊堂 智恩寺",
+      "nameEnglish": "Monjudo Chionji",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 35.5585923,
+      "lng": 135.1840826,
+      "distanceFromTerminalMeters": 3490,
+      "distanceFromDefaultTerminalMeters": 3490,
+      "minDistanceFromAnyTerminalMeters": 3490,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "http://www.monjudo-chionji.jp/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "place_of_worship",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/89fdfb091d13381be5ae",
+      "name": "日本の鬼の交流博物館",
+      "nameEnglish": "Japan Oni Cultural Museum",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 35.459005,
+      "lng": 135.1445486,
+      "distanceFromTerminalMeters": 9355,
+      "distanceFromDefaultTerminalMeters": 9355,
+      "minDistanceFromAnyTerminalMeters": 9355,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "https://www.city.fukuchiyama.lg.jp/onihaku/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/83dedf36310117fe7163",
+      "name": "天橋立ビューランド",
+      "nameEnglish": "Amanohashidate View Land",
+      "category": "attraction",
+      "subcategory": "theme_park",
+      "lat": 35.5523765,
+      "lng": 135.1818085,
+      "distanceFromTerminalMeters": 2983,
+      "distanceFromDefaultTerminalMeters": 2983,
+      "minDistanceFromAnyTerminalMeters": 2983,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "437 文珠, 宮津市, 626-0001",
+      "openingHours": "",
+      "website": "https://www.viewland.jp/",
+      "phone": "+81 772 22 1000",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "theme_park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/6046d87eeddb5b7a2284",
+      "name": "カラオケSKY",
+      "nameEnglish": "Karaoke SKY",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 35.5394896,
+      "lng": 135.1306763,
+      "distanceFromTerminalMeters": 6361,
+      "distanceFromDefaultTerminalMeters": 6361,
+      "minDistanceFromAnyTerminalMeters": 6361,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1323-1 国道176号, 629-2303",
+      "openingHours": "Su-Th 10:00-01:00; Fr-Sa 10:00-02:00",
+      "website": "https://karaokesky.jp/shop/nodagawa/",
+      "phone": "0772-42-3100",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/297a1c1dd3f0d6fef62a",
+      "name": "天橋立",
+      "nameEnglish": "Amanohashidate",
+      "category": "outdoors",
+      "subcategory": "beach",
+      "lat": 35.5679903,
+      "lng": 135.1928833,
+      "distanceFromTerminalMeters": 4273,
+      "distanceFromDefaultTerminalMeters": 4273,
+      "minDistanceFromAnyTerminalMeters": 4273,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "https://www.amanohashidate.jp/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "natural": "beach"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/670efacb55ebbf95cf92",
+      "name": "滝上山",
+      "nameEnglish": "Mt. Takigami",
+      "category": "outdoors",
+      "subcategory": "peak",
+      "lat": 35.5416726,
+      "lng": 135.1861882,
+      "distanceFromTerminalMeters": 1802,
+      "distanceFromDefaultTerminalMeters": 1802,
+      "minDistanceFromAnyTerminalMeters": 1802,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "natural": "peak"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/7ffc1acef45ca9fd544f",
+      "name": "題目山",
+      "nameEnglish": "Mt. Daimoku",
+      "category": "outdoors",
+      "subcategory": "peak",
+      "lat": 35.5346883,
+      "lng": 135.1796222,
+      "distanceFromTerminalMeters": 1916,
+      "distanceFromDefaultTerminalMeters": 1916,
+      "minDistanceFromAnyTerminalMeters": 1916,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "natural": "peak"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f44b43b44e9e03944b49",
+      "name": "sakurayama",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "viewpoint",
+      "lat": 35.5533555,
+      "lng": 135.1754724,
+      "distanceFromTerminalMeters": 3416,
+      "distanceFromDefaultTerminalMeters": 3416,
+      "minDistanceFromAnyTerminalMeters": 3416,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "viewpoint"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/dee93e9ae2bcca53c10a",
+      "name": "114km Cafe",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 35.5344095,
+      "lng": 135.1996929,
+      "distanceFromTerminalMeters": 491,
+      "distanceFromDefaultTerminalMeters": 491,
+      "minDistanceFromAnyTerminalMeters": 491,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/0c45c0e4c2a237e09d04",
+      "name": "JIN",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 35.5349613,
+      "lng": 135.1984981,
+      "distanceFromTerminalMeters": 568,
+      "distanceFromDefaultTerminalMeters": 568,
+      "minDistanceFromAnyTerminalMeters": 568,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/6062af713ac17696168b",
+      "name": "somewhere",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 35.535787,
+      "lng": 135.1974117,
+      "distanceFromTerminalMeters": 685,
+      "distanceFromDefaultTerminalMeters": 685,
+      "minDistanceFromAnyTerminalMeters": 685,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/80a38b4baf4f9888d639",
+      "name": "Tango no Shiki \"Shun no Restaurant\"",
+      "nameEnglish": "Tango no Shiki \"Shun no Restaurant\"",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 35.557364,
+      "lng": 135.1847164,
+      "distanceFromTerminalMeters": 3342,
+      "distanceFromDefaultTerminalMeters": 3342,
+      "minDistanceFromAnyTerminalMeters": 3342,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/728c4197ee3202a0065e",
+      "name": "はしだて茶屋",
+      "nameEnglish": "Hashidate Chaya",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 35.5595082,
+      "lng": 135.186743,
+      "distanceFromTerminalMeters": 3494,
+      "distanceFromDefaultTerminalMeters": 3494,
+      "minDistanceFromAnyTerminalMeters": 3494,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/2038c1bcd388842431ba",
+      "name": "レストラン Pur",
+      "nameEnglish": "Pur",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 35.5589474,
+      "lng": 135.1813093,
+      "distanceFromTerminalMeters": 3636,
+      "distanceFromDefaultTerminalMeters": 3636,
+      "minDistanceFromAnyTerminalMeters": 3636,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "+81 772 22 0650",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ae3cbb91eabb410cfe41",
+      "name": "ItalianRestaurant & Wedding OZ",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 35.4467092,
+      "lng": 135.164854,
+      "distanceFromTerminalMeters": 9793,
+      "distanceFromDefaultTerminalMeters": 9793,
+      "minDistanceFromAnyTerminalMeters": 9793,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "https://restaurant-wedding-oz.com/",
+      "phone": "0773-56-5001",
+      "cuisine": [
+        "italian"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/5a3bcb5c8f3a8602211e",
+      "name": "はっこうSHOP",
+      "nameEnglish": "Hakko Shop",
+      "category": "shopping",
+      "subcategory": "marketplace",
+      "lat": 35.5376332,
+      "lng": 135.1946162,
+      "distanceFromTerminalMeters": 979,
+      "distanceFromDefaultTerminalMeters": 979,
+      "minDistanceFromAnyTerminalMeters": 979,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "marketplace"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/954ac6945e24282b4810",
+      "name": "Giving Thanks -- いただきます",
+      "nameEnglish": "",
+      "category": "essentials",
+      "subcategory": "visitor_information",
+      "lat": 35.5393385,
+      "lng": 135.1949018,
+      "distanceFromTerminalMeters": 1136,
+      "distanceFromDefaultTerminalMeters": 1136,
+      "minDistanceFromAnyTerminalMeters": 1136,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "information"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c2df2e30cf9f91e3e52b",
+      "name": "さとう宮津店",
+      "nameEnglish": "Satou Miyazu",
+      "category": "shopping",
+      "subcategory": "supermarket",
+      "lat": 35.5392983,
+      "lng": 135.1933865,
+      "distanceFromTerminalMeters": 1195,
+      "distanceFromDefaultTerminalMeters": 1195,
+      "minDistanceFromAnyTerminalMeters": 1195,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "宮津市, 626-0012",
+      "openingHours": "Mo-Sa 09:00-21:30",
+      "website": "https://www.sato-kyoto.com/",
+      "phone": "+81 0772 25 3100",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "shop": "supermarket"
+      }
+    }
+  ],
+  "portAnchor": {
+    "id": "ports-json-anchor",
+    "name": "MIYAZU Port",
+    "lat": 35.53,
+    "lng": 135.2,
+    "address": "MIYAZU, Japan",
+    "source": "ports.json",
+    "sourceId": "",
+    "score": 0,
+    "slug": "miyazu-port"
+  },
+  "terminalResolution": {
+    "status": "unresolved",
+    "method": "ports_json_fallback",
+    "verified": false,
+    "notes": "All supplied candidates are ferry-only stops, local docks, unnamed maritime features, or unrelated places rather than passenger cruise terminals."
+  }
+}

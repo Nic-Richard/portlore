@@ -1,0 +1,968 @@
+{
+  "schemaVersion": 5,
+  "catalogType": "curation-candidates",
+  "generatedAt": "2026-07-30T09:00:43.686Z",
+  "source": "openstreetmap",
+  "sourceExtract": "sud-latest.osm.pbf",
+  "radiusMeters": 10000,
+  "port": {
+    "id": "amalfi-italy",
+    "city": "Amalfi",
+    "country": "Italy"
+  },
+  "defaultTerminalId": "ports-json-anchor",
+  "terminal": {
+    "id": "ports-json-anchor",
+    "name": "Amalfi Cruise Dock",
+    "lat": 40.634,
+    "lng": 14.6027,
+    "address": "Lungomare dei Cavalieri, Amalfi",
+    "source": "ports.json",
+    "sourceId": "",
+    "score": 0,
+    "slug": "amalfi-cruise-dock"
+  },
+  "terminals": [
+    {
+      "id": "ports-json-anchor",
+      "name": "Amalfi Cruise Dock",
+      "lat": 40.634,
+      "lng": 14.6027,
+      "address": "Lungomare dei Cavalieri, Amalfi",
+      "source": "ports.json",
+      "sourceId": "",
+      "score": 0,
+      "slug": "amalfi-cruise-dock"
+    }
+  ],
+  "terminalCandidateRadiusMeters": 5000,
+  "terminalCandidates": [
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/cb7192df12df232aef4a",
+      "name": "Molo Pennello",
+      "nameEnglish": "",
+      "lat": 40.6328639,
+      "lng": 14.6014619,
+      "distanceFromPortMeters": 164,
+      "address": "Amalfi",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "stop_position",
+        "cargo": "passengers"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/cb7192df12df232aef4a"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/25d9ffba6c8c2f6fe6e2",
+      "name": "Minori",
+      "nameEnglish": "",
+      "lat": 40.6483497,
+      "lng": 14.6271386,
+      "distanceFromPortMeters": 2607,
+      "address": "Minori, 84010",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/25d9ffba6c8c2f6fe6e2"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d3b78ef4e1d5bdc8b37c",
+      "name": "Maiori",
+      "nameEnglish": "",
+      "lat": 40.6478302,
+      "lng": 14.6350476,
+      "distanceFromPortMeters": 3133,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/d3b78ef4e1d5bdc8b37c"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f2a2828ffefcbebdd4f8",
+      "name": "(unnamed maritime feature)",
+      "nameEnglish": "",
+      "lat": 40.6147639,
+      "lng": 14.5674826,
+      "distanceFromPortMeters": 3662,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "cargo": "passengers",
+        "ferry": "yes",
+        "public_transport": "stop_position"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/f2a2828ffefcbebdd4f8"
+      ]
+    }
+  ],
+  "counts": {
+    "attraction": 16,
+    "outdoors": 5,
+    "food_drink": 10,
+    "shopping": 0,
+    "essentials": 0
+  },
+  "pois": [
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/15e59284be0ec842348d",
+      "name": "Museo della Bussola e del Ducato Marinaro",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 40.6337881,
+      "lng": 14.6021199,
+      "distanceFromTerminalMeters": 54,
+      "distanceFromDefaultTerminalMeters": 54,
+      "minDistanceFromAnyTerminalMeters": 54,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "3 Largo Cesareo Console, Amalfi, 84011",
+      "openingHours": "",
+      "website": "https://arsenalediamalfi.it/il-museo-della-bussola-e-del-ducato-marinaro/",
+      "phone": "+39 089 871170",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "È stato appena realizzato un nuovo allestimento del museo.",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/959eedf8a67b6169aeb1",
+      "name": "Villa Cimbrone",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 40.6432649,
+      "lng": 14.6104799,
+      "distanceFromTerminalMeters": 1222,
+      "distanceFromDefaultTerminalMeters": 1222,
+      "minDistanceFromAnyTerminalMeters": 1222,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "https://www.hotelvillacimbrone.com/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Historic villa with famous formal Italian garden. The gardens are open to the public, the villa is a hotel.",
+      "osmTags": {
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/05625117f436bfb850c5",
+      "name": "Basilica del Crocifisso - Museo Diocesiano",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 40.6346081,
+      "lng": 14.6030905,
+      "distanceFromTerminalMeters": 75,
+      "distanceFromDefaultTerminalMeters": 75,
+      "minDistanceFromAnyTerminalMeters": 75,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Su,PH 07:30-10:00,17:00-19:30",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/6367793de077f5b52d64",
+      "name": "Museo Diocesano",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 40.6347547,
+      "lng": 14.6030677,
+      "distanceFromTerminalMeters": 89,
+      "distanceFromDefaultTerminalMeters": 89,
+      "minDistanceFromAnyTerminalMeters": 89,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Su,PH 07:30-10:00,17:00-19:30",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b00cddeb65e44302048a",
+      "name": "Arsenale di Amalfi",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 40.6338094,
+      "lng": 14.6020506,
+      "distanceFromTerminalMeters": 59,
+      "distanceFromDefaultTerminalMeters": 59,
+      "minDistanceFromAnyTerminalMeters": 59,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/83f6ee3facf81001b07e",
+      "name": "Torre Saracena",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "castle",
+      "lat": 40.6329329,
+      "lng": 14.606956,
+      "distanceFromTerminalMeters": 378,
+      "distanceFromDefaultTerminalMeters": 378,
+      "minDistanceFromAnyTerminalMeters": 378,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "castle"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/4d39d4bbcea9b7a77720",
+      "name": "Escher in Atrani",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 40.6366022,
+      "lng": 14.6084316,
+      "distanceFromTerminalMeters": 564,
+      "distanceFromDefaultTerminalMeters": 564,
+      "minDistanceFromAnyTerminalMeters": 564,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/78d1e99c48e31d416aa5",
+      "name": "Castello Lauritano",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "castle",
+      "lat": 40.6273985,
+      "lng": 14.5760233,
+      "distanceFromTerminalMeters": 2368,
+      "distanceFromDefaultTerminalMeters": 2368,
+      "minDistanceFromAnyTerminalMeters": 2368,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "castle"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/330aa9103a3146a52a7e",
+      "name": "Colonia Montana",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "castle",
+      "lat": 40.6236891,
+      "lng": 14.5656769,
+      "distanceFromTerminalMeters": 3328,
+      "distanceFromDefaultTerminalMeters": 3328,
+      "minDistanceFromAnyTerminalMeters": 3328,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Ruderi Fascisti",
+      "osmTags": {
+        "historic": "castle"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/fe2f93ce956335c08eb8",
+      "name": "Duomo di Amalfi",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 40.6344614,
+      "lng": 14.6034327,
+      "distanceFromTerminalMeters": 80,
+      "distanceFromDefaultTerminalMeters": 80,
+      "minDistanceFromAnyTerminalMeters": 80,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1 Piazza Duomo, Amalfi, 84011",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "place_of_worship",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/374a6f3663479d3358d5",
+      "name": "Il Ninfeo - Villa Romana",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "archaeological_site",
+      "lat": 40.634848,
+      "lng": 14.602137,
+      "distanceFromTerminalMeters": 106,
+      "distanceFromDefaultTerminalMeters": 106,
+      "minDistanceFromAnyTerminalMeters": 106,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "archaeological_site"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/a7af1a09a1429a6fdc4d",
+      "name": "Sala dei Cavalieri",
+      "nameEnglish": "Knights' Hall",
+      "category": "attraction",
+      "subcategory": "ruins",
+      "lat": 40.6489059,
+      "lng": 14.6125245,
+      "distanceFromTerminalMeters": 1853,
+      "distanceFromDefaultTerminalMeters": 1853,
+      "minDistanceFromAnyTerminalMeters": 1853,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "ruins"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/7475d961fa2bb31484d8",
+      "name": "Balnea",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "archaeological_site",
+      "lat": 40.6488932,
+      "lng": 14.6131407,
+      "distanceFromTerminalMeters": 1876,
+      "distanceFromDefaultTerminalMeters": 1876,
+      "minDistanceFromAnyTerminalMeters": 1876,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "archaeological_site"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/6343839d3f6c0f784d44",
+      "name": "Villa Rufolo",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 40.6486491,
+      "lng": 14.6126361,
+      "distanceFromTerminalMeters": 1832,
+      "distanceFromDefaultTerminalMeters": 1832,
+      "minDistanceFromAnyTerminalMeters": 1832,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Piazza Duomo, Ravello, 84010",
+      "openingHours": "Mo-Su 09:00-19:00",
+      "website": "https://villarufolo.com/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Former seat of powerful Rufolo family, historic villa and gardens. Restred by Nevile Reid in C19th.",
+      "osmTags": {
+        "leisure": "park",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/5e20ee884b99b573b866",
+      "name": "Spiaggia libera Amalfi",
+      "nameEnglish": "Amalfi free beach",
+      "category": "outdoors",
+      "subcategory": "beach",
+      "lat": 40.6334025,
+      "lng": 14.6030401,
+      "distanceFromTerminalMeters": 72,
+      "distanceFromDefaultTerminalMeters": 72,
+      "minDistanceFromAnyTerminalMeters": 72,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "natural": "beach"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/0d5d711c9ffae90cdc37",
+      "name": "Torre dello Ziro",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "viewpoint",
+      "lat": 40.6359016,
+      "lng": 14.6057239,
+      "distanceFromTerminalMeters": 331,
+      "distanceFromDefaultTerminalMeters": 331,
+      "minDistanceFromAnyTerminalMeters": 331,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "viewpoint"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/9fba2315727ec726ec96",
+      "name": "Bastione",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "viewpoint",
+      "lat": 40.6357976,
+      "lng": 14.6062318,
+      "distanceFromTerminalMeters": 359,
+      "distanceFromDefaultTerminalMeters": 359,
+      "minDistanceFromAnyTerminalMeters": 359,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "viewpoint"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/db7254f0b0a21f3771a6",
+      "name": "I giardini del Belvedere",
+      "nameEnglish": "Belvedere Gardens",
+      "category": "outdoors",
+      "subcategory": "garden",
+      "lat": 40.6485943,
+      "lng": 14.613366,
+      "distanceFromTerminalMeters": 1856,
+      "distanceFromDefaultTerminalMeters": 1856,
+      "minDistanceFromAnyTerminalMeters": 1856,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "garden"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/6d5366828c903a50f70a",
+      "name": "Ristorante L'Abside",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 40.6344762,
+      "lng": 14.601811,
+      "distanceFromTerminalMeters": 92,
+      "distanceFromDefaultTerminalMeters": 92,
+      "minDistanceFromAnyTerminalMeters": 92,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "31 Piazza dei Dogi, Amalfi, 84011",
+      "openingHours": "Mo-Su 12:00-22:30",
+      "website": "https://www.ristorantelabside.it/;https://www.ristorantelabside.it",
+      "phone": "+39 089 873586;+39 089 873856",
+      "cuisine": [
+        "italian",
+        "pesce",
+        "regional",
+        "pasta",
+        "dessert",
+        "wine",
+        "fish"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/8ed2ad530542bba05a30",
+      "name": "Sensi Restaurant Amalfi",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 40.6342323,
+      "lng": 14.6028979,
+      "distanceFromTerminalMeters": 31,
+      "distanceFromDefaultTerminalMeters": 31,
+      "minDistanceFromAnyTerminalMeters": 31,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "4 via Pietro Comite, Amalfi, 84011",
+      "openingHours": "",
+      "website": "https://sensiamalfi.it/",
+      "phone": "+39 089 871183",
+      "cuisine": [
+        "italian"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/319dcff17f648e7e4da0",
+      "name": "La Piazzetta",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 40.634255,
+      "lng": 14.6018714,
+      "distanceFromTerminalMeters": 75,
+      "distanceFromDefaultTerminalMeters": 75,
+      "minDistanceFromAnyTerminalMeters": 75,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "5 Piazza dei Dogi, Amalfi, 84011",
+      "openingHours": "",
+      "website": "",
+      "phone": "+39089871372",
+      "cuisine": [
+        "italian_pizza",
+        "seafood",
+        "italian"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/bddcb5d5fcb154aaa6e9",
+      "name": "Taverna Buonvicino",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 40.6352769,
+      "lng": 14.6025692,
+      "distanceFromTerminalMeters": 142,
+      "distanceFromDefaultTerminalMeters": 142,
+      "minDistanceFromAnyTerminalMeters": 142,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1-3 Largo S. Maria Maggiore, 84011",
+      "openingHours": "",
+      "website": "www.tavernabuonvicino.com",
+      "phone": "+39 0898 736385",
+      "cuisine": [
+        "regional"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/06ce969562a6eb0f7fef",
+      "name": "La Taverna del Duca",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 40.6365248,
+      "lng": 14.6022452,
+      "distanceFromTerminalMeters": 283,
+      "distanceFromDefaultTerminalMeters": 283,
+      "minDistanceFromAnyTerminalMeters": 283,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "26 Piazza Spirito Santo, 84011",
+      "openingHours": "",
+      "website": "https://www.amalfilatavernadelduca.it/",
+      "phone": "+39 089 872755",
+      "cuisine": [
+        "italian"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/54ad22c5aba7e8bb92eb",
+      "name": "Mar di Cobalto",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 40.6337613,
+      "lng": 14.6040443,
+      "distanceFromTerminalMeters": 117,
+      "distanceFromDefaultTerminalMeters": 117,
+      "minDistanceFromAnyTerminalMeters": 117,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "8 Viale delle Regioni",
+      "openingHours": "",
+      "website": "https://www.mardicobalto.it",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "no",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/0706608ce45e54051774",
+      "name": "Il Birecto",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 40.6358969,
+      "lng": 14.6090305,
+      "distanceFromTerminalMeters": 574,
+      "distanceFromDefaultTerminalMeters": 574,
+      "minDistanceFromAnyTerminalMeters": 574,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "16 Piazza Umberto Primo",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [
+        "regional",
+        "pizza",
+        "italian"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c2043b2a482611bbbe7f",
+      "name": "La Terrazza Di Giuliana pizzeria",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 40.6470617,
+      "lng": 14.6140512,
+      "distanceFromTerminalMeters": 1740,
+      "distanceFromDefaultTerminalMeters": 1740,
+      "minDistanceFromAnyTerminalMeters": 1740,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "13 Via della Repubblica, Ravello, 84010",
+      "openingHours": "",
+      "website": "https://www.lagiuliana.com/",
+      "phone": "+39 089 857530",
+      "cuisine": [
+        "pizza"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/6cda79ad95af3559c90f",
+      "name": "A...Gradillo pizzeria take away",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 40.6512801,
+      "lng": 14.6116502,
+      "distanceFromTerminalMeters": 2065,
+      "distanceFromDefaultTerminalMeters": 2065,
+      "minDistanceFromAnyTerminalMeters": 2065,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "39 Via Parco della Rimembranza, Ravello, 84010",
+      "openingHours": "",
+      "website": "https://www.pizzeriagradillo.it/",
+      "phone": "+39 320 6313316",
+      "cuisine": [
+        "pizza"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/8487e3b69d21f999226f",
+      "name": "Azienda Agricola Fore Porta",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 40.6434191,
+      "lng": 14.5917351,
+      "distanceFromTerminalMeters": 1397,
+      "distanceFromDefaultTerminalMeters": 1397,
+      "minDistanceFromAnyTerminalMeters": 1397,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Via Paradiso, Amalfi, 84011",
+      "openingHours": "",
+      "website": "http://www.amalfiforeporta.com",
+      "phone": "+39 3392436450",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/87571e6c8a9f5193b145",
+      "name": "Largo Duchi Piccolomini",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "square",
+      "lat": 40.6340893,
+      "lng": 14.6021505,
+      "distanceFromTerminalMeters": 47,
+      "distanceFromDefaultTerminalMeters": 47,
+      "minDistanceFromAnyTerminalMeters": 47,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Largo Duchi Piccolomini",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "place": "square"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/4eae8f742be8fbcf9133",
+      "name": "Museo della Carta",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 40.6397119,
+      "lng": 14.5996984,
+      "distanceFromTerminalMeters": 684,
+      "distanceFromDefaultTerminalMeters": 684,
+      "minDistanceFromAnyTerminalMeters": 684,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/996e69258033e9bb2691",
+      "name": "Piazza Duomo",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "square",
+      "lat": 40.6342735,
+      "lng": 14.6025475,
+      "distanceFromTerminalMeters": 33,
+      "distanceFromDefaultTerminalMeters": 33,
+      "minDistanceFromAnyTerminalMeters": 33,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "place": "square"
+      }
+    }
+  ],
+  "portAnchor": {
+    "id": "ports-json-anchor",
+    "name": "Amalfi Cruise Dock",
+    "lat": 40.634,
+    "lng": 14.6027,
+    "address": "Lungomare dei Cavalieri, Amalfi",
+    "source": "ports.json",
+    "sourceId": "",
+    "score": 0,
+    "slug": "amalfi-cruise-dock"
+  },
+  "terminalResolution": {
+    "status": "unresolved",
+    "method": "ports_json_fallback",
+    "verified": false,
+    "notes": "All supplied candidates are ferry-only stops, local docks, unnamed maritime features, or unrelated places rather than passenger cruise terminals."
+  }
+}

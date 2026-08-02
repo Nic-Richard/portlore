@@ -1,0 +1,682 @@
+{
+  "schemaVersion": 5,
+  "catalogType": "curation-candidates",
+  "generatedAt": "2026-07-30T08:38:56.289Z",
+  "source": "openstreetmap",
+  "sourceExtract": "northwestern-fed-district-latest.osm.pbf",
+  "radiusMeters": 10000,
+  "port": {
+    "id": "murmansk-russia",
+    "city": "Murmansk",
+    "country": "Russia"
+  },
+  "defaultTerminalId": "ports-json-anchor",
+  "terminal": {
+    "id": "ports-json-anchor",
+    "name": "MURMANSK Port",
+    "lat": 68.98,
+    "lng": 33.05,
+    "address": "Murmansk, Murmansk Oblast, Russia",
+    "source": "ports.json",
+    "sourceId": "",
+    "score": 0,
+    "slug": "murmansk-port"
+  },
+  "terminals": [
+    {
+      "id": "ports-json-anchor",
+      "name": "MURMANSK Port",
+      "lat": 68.98,
+      "lng": 33.05,
+      "address": "Murmansk, Murmansk Oblast, Russia",
+      "source": "ports.json",
+      "sourceId": "",
+      "score": 0,
+      "slug": "murmansk-port"
+    }
+  ],
+  "terminalCandidateRadiusMeters": 5000,
+  "terminalCandidates": [
+    {
+      "source": "nominatim",
+      "sourceId": "osm/way/182488352",
+      "osmType": "way",
+      "osmId": "182488352",
+      "name": "Первая \"Центральная\" проходная ММТП",
+      "nameEnglish": "Murmansk Sea Commercial Port entrance",
+      "lat": 68.9782938,
+      "lng": 33.0668738,
+      "distanceFromPortMeters": 699,
+      "address": "Первая \"Центральная\" проходная ММТП, Портовый проезд, Мурманский морской торговый порт, Зелёный Мыс, Ленинский округ, Мурманск, городской округ Мурманск, Мурманская область, Северо-Западный федеральный округ, 183960, Россия",
+      "displayName": "Первая \"Центральная\" проходная ММТП, Портовый проезд, Мурманский морской торговый порт, Зелёный Мыс, Ленинский округ, Мурманск, городской округ Мурманск, Мурманская область, Северо-Западный федеральный округ, 183960, Россия",
+      "query": "MURMANSK Port, Murmansk, Russia",
+      "matchedBy": [
+        "Nominatim query: MURMANSK Port, Murmansk, Russia"
+      ],
+      "osmTags": {},
+      "sources": [
+        "nominatim"
+      ],
+      "sourceIds": [
+        "osm/way/182488352"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/5effc86cda09c6177662",
+      "name": "(unnamed maritime feature)",
+      "nameEnglish": "",
+      "lat": 69.0078339,
+      "lng": 33.0191892,
+      "distanceFromPortMeters": 3330,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/5effc86cda09c6177662"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/beac3856b951c1039f7d",
+      "name": "(unnamed maritime feature)",
+      "nameEnglish": "",
+      "lat": 69.0084917,
+      "lng": 33.0173443,
+      "distanceFromPortMeters": 3425,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/beac3856b951c1039f7d"
+      ]
+    }
+  ],
+  "counts": {
+    "attraction": 7,
+    "outdoors": 2,
+    "food_drink": 12,
+    "shopping": 0,
+    "essentials": 0
+  },
+  "pois": [
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ab06a741048894128bb1",
+      "name": "Атомный ледокол «Ленин»",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 68.974672,
+      "lng": 33.0603105,
+      "distanceFromTerminalMeters": 721,
+      "distanceFromDefaultTerminalMeters": 721,
+      "minDistanceFromAnyTerminalMeters": 721,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "25 Портовый проезд, 183038",
+      "openingHours": "Th-Su 10:30-16:30",
+      "website": "http://rosatomflot.ru/atomnyy-ledokol-lenin/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/1f192847566487fc8b33",
+      "name": "Мурманский областной художественный музей",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 68.9728095,
+      "lng": 33.075897,
+      "distanceFromTerminalMeters": 1306,
+      "distanceFromDefaultTerminalMeters": 1306,
+      "minDistanceFromAnyTerminalMeters": 1306,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "13 улица Коминтерна, Мурманск",
+      "openingHours": "We-Su 11:00-18:00",
+      "website": "http://artmmuseum.ru/",
+      "phone": "+7 8152 450385",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/7f129ede4a46893f5d31",
+      "name": "Мурманский областной краеведческий музей",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 68.9739385,
+      "lng": 33.0862622,
+      "distanceFromTerminalMeters": 1596,
+      "distanceFromDefaultTerminalMeters": 1596,
+      "minDistanceFromAnyTerminalMeters": 1596,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "90 проспект Ленина, Мурманск",
+      "openingHours": "Tu-Su 11:00-20:00",
+      "website": "http://www.mokm51.ru/",
+      "phone": "+7 8152 422697",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/10b62a6212349fe345c4",
+      "name": "Панорама с моста",
+      "nameEnglish": "Panoramic view from the bridge",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 68.9674477,
+      "lng": 33.0644234,
+      "distanceFromTerminalMeters": 1510,
+      "distanceFromDefaultTerminalMeters": 1510,
+      "minDistanceFromAnyTerminalMeters": 1510,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/62c63801f41b948af060",
+      "name": "Контейнер-холл",
+      "nameEnglish": "Container Hall",
+      "category": "attraction",
+      "subcategory": "gallery",
+      "lat": 68.9527607,
+      "lng": 33.0687648,
+      "distanceFromTerminalMeters": 3120,
+      "distanceFromDefaultTerminalMeters": 3120,
+      "minDistanceFromAnyTerminalMeters": 3120,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "22 улица Генералова",
+      "openingHours": "Tu-Fr 16:00-20:00; Sa-Su 14:00-21:00",
+      "website": "",
+      "phone": "+79212813668",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "gallery"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c71ec1c295c7345232ec",
+      "name": "Л-4386",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 68.9732936,
+      "lng": 33.0704387,
+      "distanceFromTerminalMeters": 1105,
+      "distanceFromDefaultTerminalMeters": 1105,
+      "minDistanceFromAnyTerminalMeters": 1105,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Паровоз Л-4386. К столетию Мурманска и мурманской железной дороги",
+      "osmTags": {
+        "historic": "locomotive",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/98e391cf4d90d137820b",
+      "name": "Вид на город",
+      "nameEnglish": "Panorama of the city",
+      "category": "outdoors",
+      "subcategory": "viewpoint",
+      "lat": 68.989484,
+      "lng": 33.0778178,
+      "distanceFromTerminalMeters": 1531,
+      "distanceFromDefaultTerminalMeters": 1531,
+      "minDistanceFromAnyTerminalMeters": 1531,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "viewpoint"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/404a31aa45312307fcd5",
+      "name": "Сквер Солнечный",
+      "nameEnglish": "Solnechniy Square",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 68.9501011,
+      "lng": 33.0760175,
+      "distanceFromTerminalMeters": 3483,
+      "distanceFromDefaultTerminalMeters": 3483,
+      "minDistanceFromAnyTerminalMeters": 3483,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c89d17f3f971d57b0502",
+      "name": "Штолле",
+      "nameEnglish": "Stolle",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 68.9760073,
+      "lng": 33.0949495,
+      "distanceFromTerminalMeters": 1847,
+      "distanceFromDefaultTerminalMeters": 1847,
+      "minDistanceFromAnyTerminalMeters": 1847,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "97 проспект Ленина",
+      "openingHours": "Mo-Su 08:00-20:00",
+      "website": "https://stolle51.ru/",
+      "phone": "",
+      "cuisine": [
+        "pie"
+      ],
+      "wheelchair": "",
+      "brand": "Штолле",
+      "description": "",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/cf28dd237db48eec1ced",
+      "name": "Морошка",
+      "nameEnglish": "Moroshka",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 68.965193,
+      "lng": 33.0763043,
+      "distanceFromTerminalMeters": 1953,
+      "distanceFromDefaultTerminalMeters": 1953,
+      "minDistanceFromAnyTerminalMeters": 1953,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "13 улица Егорова, 183038",
+      "openingHours": "Mo-Fr 10:00-22:00; Sa-Su 11:00-22:00",
+      "website": "https://vk.com/cafemoroshka51",
+      "phone": "+78152454677",
+      "cuisine": [
+        "ramen",
+        "international",
+        "cake",
+        "tea",
+        "coffee_shop",
+        "noodles",
+        "russian",
+        "chicken"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/db08b0d53a50f5c9fc41",
+      "name": "Harat's Irish Pub",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "pub",
+      "lat": 68.9726298,
+      "lng": 33.0729444,
+      "distanceFromTerminalMeters": 1229,
+      "distanceFromDefaultTerminalMeters": 1229,
+      "minDistanceFromAnyTerminalMeters": 1229,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Su 12:00-02:00",
+      "website": "https://www.harats.com/",
+      "phone": "+7 8152 560550",
+      "cuisine": [
+        "irish"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "pub"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/3d4aa71f7f2cd4b47a04",
+      "name": "Coffee Like",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 68.968824,
+      "lng": 33.075106,
+      "distanceFromTerminalMeters": 1596,
+      "distanceFromDefaultTerminalMeters": 1596,
+      "minDistanceFromAnyTerminalMeters": 1596,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Fr 08:00-21:00;Sa-Su 10:00-22:00",
+      "website": "https://coffee-like.com/",
+      "phone": "+7 341 2908292;+7 800 3334130",
+      "cuisine": [
+        "coffee_shop"
+      ],
+      "wheelchair": "",
+      "brand": "Coffee Like",
+      "description": "",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/23cf465c9bb84afeed49",
+      "name": "Vaffel",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 68.9674743,
+      "lng": 33.0747136,
+      "distanceFromTerminalMeters": 1706,
+      "distanceFromDefaultTerminalMeters": 1706,
+      "minDistanceFromAnyTerminalMeters": 1706,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Su 10:00-22:00",
+      "website": "https://vaffel.ru",
+      "phone": "+7 921 0367107;+7 921 9602641",
+      "cuisine": [
+        "waffle"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/9d34fcb564f0a1488dc0",
+      "name": "Surf Coffee",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 68.9656993,
+      "lng": 33.0740327,
+      "distanceFromTerminalMeters": 1857,
+      "distanceFromDefaultTerminalMeters": 1857,
+      "minDistanceFromAnyTerminalMeters": 1857,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "61 проспект Ленина, Мурманск, 183038",
+      "openingHours": "Mo-Su 10:00-22:00",
+      "website": "https://www.surfcoffee.ru",
+      "phone": "+7 921 1581181",
+      "cuisine": [
+        "coffee_shop"
+      ],
+      "wheelchair": "",
+      "brand": "Surf Coffee",
+      "description": "",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c190493ae7355d0b2717",
+      "name": "Grey Goose",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 68.9608456,
+      "lng": 33.0711093,
+      "distanceFromTerminalMeters": 2290,
+      "distanceFromDefaultTerminalMeters": 2290,
+      "minDistanceFromAnyTerminalMeters": 2290,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Мурманск",
+      "openingHours": "Mo-Th,Su 12:00-00:00; Fr-Sa 12:00-02:00",
+      "website": "https://krugka.ru/gray_goose/",
+      "phone": "+7-8252-999777",
+      "cuisine": [
+        "international"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/e9c331595c4054d1bee1",
+      "name": "Стартап Кафе",
+      "nameEnglish": "Startup Coffee",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 68.9693544,
+      "lng": 33.0752058,
+      "distanceFromTerminalMeters": 1553,
+      "distanceFromDefaultTerminalMeters": 1553,
+      "minDistanceFromAnyTerminalMeters": 1553,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "67 проспект Ленина, Мурманск, 183038",
+      "openingHours": "Mo-Th 10:00-23:00; Fr 10:00-00:00; Sa 11:00-00:00; Su 11:00-23:00",
+      "website": "https://vk.com/startupcoffee",
+      "phone": "+78152560201",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/61d5d54bcf7229bce099",
+      "name": "Сопки 21А",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "gallery",
+      "lat": 68.9698273,
+      "lng": 33.0875108,
+      "distanceFromTerminalMeters": 1876,
+      "distanceFromDefaultTerminalMeters": 1876,
+      "minDistanceFromAnyTerminalMeters": 1876,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "21А улица Софьи Перовской",
+      "openingHours": "Tu-Su 12:00-22:00",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "gallery"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/76b1cde641bad09f61d5",
+      "name": "Gaston",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 68.9709174,
+      "lng": 33.0769884,
+      "distanceFromTerminalMeters": 1476,
+      "distanceFromDefaultTerminalMeters": 1476,
+      "minDistanceFromAnyTerminalMeters": 1476,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Su 12:00-00:00",
+      "website": "https://gastonrest.ru/",
+      "phone": "+7 (911) 803-35-33",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/638f8126716efac86e8b",
+      "name": "Arctic Coffee",
+      "nameEnglish": "Arctic Coffee",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 68.9737073,
+      "lng": 33.0749431,
+      "distanceFromTerminalMeters": 1216,
+      "distanceFromDefaultTerminalMeters": 1216,
+      "minDistanceFromAnyTerminalMeters": 1216,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "+79512964813",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b41fd077c0f82eef48ac",
+      "name": "Pelmen House",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 68.9711251,
+      "lng": 33.070894,
+      "distanceFromTerminalMeters": 1292,
+      "distanceFromDefaultTerminalMeters": 1292,
+      "minDistanceFromAnyTerminalMeters": 1292,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Su 10:00-20:00",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/484e4fa30f8795008470",
+      "name": "Justo",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 68.9694055,
+      "lng": 33.072532,
+      "distanceFromTerminalMeters": 1482,
+      "distanceFromDefaultTerminalMeters": 1482,
+      "minDistanceFromAnyTerminalMeters": 1482,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "5/23 улица Воровского",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    }
+  ],
+  "portAnchor": {
+    "id": "ports-json-anchor",
+    "name": "MURMANSK Port",
+    "lat": 68.98,
+    "lng": 33.05,
+    "address": "Murmansk, Murmansk Oblast, Russia",
+    "source": "ports.json",
+    "sourceId": "",
+    "score": 0,
+    "slug": "murmansk-port"
+  },
+  "terminalResolution": {
+    "status": "unresolved",
+    "method": "ports_json_fallback",
+    "verified": false,
+    "notes": "External port and cruise-schedule checks support passenger cruise calls, but none of the supplied candidates matches the actual cruise terminal or cruise berth closely enough to accept. Ferry-only and generic commercial-port candidates were rejected."
+  }
+}

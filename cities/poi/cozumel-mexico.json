@@ -1,0 +1,1383 @@
+{
+  "schemaVersion": 5,
+  "catalogType": "curation-candidates",
+  "generatedAt": "2026-07-30T08:21:19.701Z",
+  "source": "openstreetmap",
+  "sourceExtract": "mexico-latest.osm.pbf",
+  "radiusMeters": 10000,
+  "port": {
+    "id": "cozumel-mexico",
+    "city": "Cozumel",
+    "country": "Mexico"
+  },
+  "defaultTerminalId": "osm/way/208112915",
+  "terminal": {
+    "id": "osm/way/208112915",
+    "name": "Punta Langosta Pier",
+    "nameEnglish": "",
+    "lat": 20.5105822,
+    "lng": -86.9566421,
+    "address": "Punta Langosta Pier, Avenida Rafael E. Melgar, Centro, San Miguel de Cozumel, Cozumel, Quintana Roo, 77668, México",
+    "source": "verified_terminal_candidate",
+    "sourceId": "osm/way/208112915",
+    "terminalType": "passenger_cruise_terminal",
+    "verified": true,
+    "notes": "External port and cruise-schedule checks support passenger cruise use, and the accepted candidate ID(s) correspond to the actual cruise terminal, cruise pier, or passenger terminal used by cruise ships.",
+    "sourceUrls": [],
+    "sources": [
+      "nominatim"
+    ],
+    "sourceIds": [
+      "osm/way/208112915"
+    ],
+    "osmTags": {},
+    "matchedBy": [
+      "Nominatim query: Punta Langosta Pier, Cozumel, Mexico"
+    ],
+    "distanceFromPortMeters": 1044
+  },
+  "terminals": [
+    {
+      "id": "osm/way/208112915",
+      "name": "Punta Langosta Pier",
+      "nameEnglish": "",
+      "lat": 20.5105822,
+      "lng": -86.9566421,
+      "address": "Punta Langosta Pier, Avenida Rafael E. Melgar, Centro, San Miguel de Cozumel, Cozumel, Quintana Roo, 77668, México",
+      "source": "verified_terminal_candidate",
+      "sourceId": "osm/way/208112915",
+      "terminalType": "passenger_cruise_terminal",
+      "verified": true,
+      "notes": "External port and cruise-schedule checks support passenger cruise use, and the accepted candidate ID(s) correspond to the actual cruise terminal, cruise pier, or passenger terminal used by cruise ships.",
+      "sourceUrls": [],
+      "sources": [
+        "nominatim"
+      ],
+      "sourceIds": [
+        "osm/way/208112915"
+      ],
+      "osmTags": {},
+      "matchedBy": [
+        "Nominatim query: Punta Langosta Pier, Cozumel, Mexico"
+      ],
+      "distanceFromPortMeters": 1044
+    }
+  ],
+  "terminalCandidateRadiusMeters": 5000,
+  "terminalCandidates": [
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/22f01dabf3d86b6a5749",
+      "name": "Ferry Cozumel",
+      "nameEnglish": "",
+      "lat": 20.5125464,
+      "lng": -86.9514152,
+      "distanceFromPortMeters": 636,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/22f01dabf3d86b6a5749"
+      ]
+    },
+    {
+      "source": "nominatim",
+      "sourceId": "osm/way/208112915",
+      "osmType": "way",
+      "osmId": "208112915",
+      "name": "Punta Langosta Pier",
+      "nameEnglish": "",
+      "lat": 20.5105822,
+      "lng": -86.9566421,
+      "distanceFromPortMeters": 1044,
+      "address": "Punta Langosta Pier, Avenida Rafael E. Melgar, Centro, San Miguel de Cozumel, Cozumel, Quintana Roo, 77668, México",
+      "displayName": "Punta Langosta Pier, Avenida Rafael E. Melgar, Centro, San Miguel de Cozumel, Cozumel, Quintana Roo, 77668, México",
+      "query": "Punta Langosta Pier, Cozumel, Mexico",
+      "matchedBy": [
+        "Nominatim query: Punta Langosta Pier, Cozumel, Mexico"
+      ],
+      "osmTags": {},
+      "sources": [
+        "nominatim"
+      ],
+      "sourceIds": [
+        "osm/way/208112915"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/43a63877bccc4771cb85",
+      "name": "(unnamed maritime feature)",
+      "nameEnglish": "",
+      "lat": 20.4962981,
+      "lng": -86.9649866,
+      "distanceFromPortMeters": 2350,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/43a63877bccc4771cb85"
+      ]
+    }
+  ],
+  "counts": {
+    "attraction": 19,
+    "outdoors": 9,
+    "food_drink": 15,
+    "shopping": 3,
+    "essentials": 1
+  },
+  "pois": [
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/8d30a0b2900e3187366c",
+      "name": "Museo de la Isla de Cozumel",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 20.5131459,
+      "lng": -86.9478283,
+      "distanceFromTerminalMeters": 495,
+      "distanceFromDefaultTerminalMeters": 495,
+      "minDistanceFromAnyTerminalMeters": 495,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/4c9aaf7f191f924c3214",
+      "name": "Deep Blue Dive Shop",
+      "nameEnglish": "Deep Blue Dive Shop",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 20.5081268,
+      "lng": -86.9495694,
+      "distanceFromTerminalMeters": 298,
+      "distanceFromDefaultTerminalMeters": 298,
+      "minDistanceFromAnyTerminalMeters": 298,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "200 Calle Salas",
+      "openingHours": "Mo-Su 07:00-21:00",
+      "website": "https://deepbluecozumel.com/",
+      "phone": "+52 987 872 5653",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/2c46d7066e0d7ceedd1e",
+      "name": "STUDIO BLUE COZUMEL",
+      "nameEnglish": "STUDIO BLUE COZUMEL",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 20.5087906,
+      "lng": -86.9500714,
+      "distanceFromTerminalMeters": 341,
+      "distanceFromDefaultTerminalMeters": 341,
+      "minDistanceFromAnyTerminalMeters": 341,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "121 Calle Dr. Adolfo Rosado Salas, 77600",
+      "openingHours": "Mo-Su 08:00-21:00",
+      "website": "http://www.studioblue.com.mx",
+      "phone": "+52 987 872 4414",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/2a34d0ebb406fd455b63",
+      "name": "Clocktower",
+      "nameEnglish": "Clocktower",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 20.5101358,
+      "lng": -86.9491386,
+      "distanceFromTerminalMeters": 285,
+      "distanceFromDefaultTerminalMeters": 285,
+      "minDistanceFromAnyTerminalMeters": 285,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/7d37da4c633d5ef0ac01",
+      "name": "Cozumel art sign",
+      "nameEnglish": "Cozumel art sign",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 20.5102953,
+      "lng": -86.9499899,
+      "distanceFromTerminalMeters": 372,
+      "distanceFromDefaultTerminalMeters": 372,
+      "minDistanceFromAnyTerminalMeters": 372,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d09de4b643e3e40411f3",
+      "name": "Barefoot dive center",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 20.5083249,
+      "lng": -86.9495263,
+      "distanceFromTerminalMeters": 289,
+      "distanceFromDefaultTerminalMeters": 289,
+      "minDistanceFromAnyTerminalMeters": 289,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/e68b2e2d408c974e67f9",
+      "name": "Blue Magic Scuba",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 20.5123968,
+      "lng": -86.9477937,
+      "distanceFromTerminalMeters": 413,
+      "distanceFromDefaultTerminalMeters": 413,
+      "minDistanceFromAnyTerminalMeters": 413,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Calle 4 Norte",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f86a1df0ae2628cbdce1",
+      "name": "Monunento a Las Águilas",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "monument",
+      "lat": 20.5106133,
+      "lng": -86.950721,
+      "distanceFromTerminalMeters": 455,
+      "distanceFromDefaultTerminalMeters": 455,
+      "minDistanceFromAnyTerminalMeters": 455,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "monument"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/31417080d5a31cb1386a",
+      "name": "Galeria Azul",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 20.5123073,
+      "lng": -86.9441445,
+      "distanceFromTerminalMeters": 478,
+      "distanceFromDefaultTerminalMeters": 478,
+      "minDistanceFromAnyTerminalMeters": 478,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/0caedbacd4a77edd0ada",
+      "name": "Cozumel Bar Hop Tour",
+      "nameEnglish": "Cozumel Bar Hop Tour",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 20.4988173,
+      "lng": -86.9590351,
+      "distanceFromTerminalMeters": 1690,
+      "distanceFromDefaultTerminalMeters": 1690,
+      "minDistanceFromAnyTerminalMeters": 1690,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "23 Calle 23 Sur, San Miguel de Cozumel, 77600",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Cozumel Bar Hop is a 4.5-5 hour adults only tour around Cozumel Island. On the virgin and less explored side!",
+      "osmTags": {
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/18257b7b3b7bdf841965",
+      "name": "Monument",
+      "nameEnglish": "Monument",
+      "category": "attraction",
+      "subcategory": "monument",
+      "lat": 20.5199658,
+      "lng": -86.9439909,
+      "distanceFromTerminalMeters": 1276,
+      "distanceFromDefaultTerminalMeters": 1276,
+      "minDistanceFromAnyTerminalMeters": 1276,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "monument"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/8b0b24cc4ad55532afab",
+      "name": "Snorkel and Swimming - Free Entrance",
+      "nameEnglish": "Snorkel and Swimming - Free Entrance",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 20.4983444,
+      "lng": -86.9622349,
+      "distanceFromTerminalMeters": 1984,
+      "distanceFromDefaultTerminalMeters": 1984,
+      "minDistanceFromAnyTerminalMeters": 1984,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/4310740a4c7352ab0fca",
+      "name": "Planetario De Cozumel Cha'an Ka'an",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 20.4774973,
+      "lng": -86.9710658,
+      "distanceFromTerminalMeters": 4302,
+      "distanceFromDefaultTerminalMeters": 4302,
+      "minDistanceFromAnyTerminalMeters": 4302,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Av Claudio Canto S/N, 77600 San Miguel de Cozumel, Q.R.",
+      "openingHours": "Tu-We,Fr 10:00-18:00; Th,Sa 10:00-20:30",
+      "website": "https://planetariodecozumel.org/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/0eb8645abb703af7b837",
+      "name": "Playa Casitas",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 20.5206003,
+      "lng": -86.9442195,
+      "distanceFromTerminalMeters": 1339,
+      "distanceFromDefaultTerminalMeters": 1339,
+      "minDistanceFromAnyTerminalMeters": 1339,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/8ffbb7cc709162879a5c",
+      "name": "Hunab Ku",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "monument",
+      "lat": 20.5205484,
+      "lng": -86.9436214,
+      "distanceFromTerminalMeters": 1348,
+      "distanceFromDefaultTerminalMeters": 1348,
+      "minDistanceFromAnyTerminalMeters": 1348,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "monument"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/7745842398330775bf06",
+      "name": "small underwater pyramid",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 20.4991013,
+      "lng": -86.9620616,
+      "distanceFromTerminalMeters": 1921,
+      "distanceFromDefaultTerminalMeters": 1921,
+      "minDistanceFromAnyTerminalMeters": 1921,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d2f9abcb7a8c7ff8331f",
+      "name": "Cozumel lighthouse",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "lighthouse",
+      "lat": 20.4954502,
+      "lng": -86.9639986,
+      "distanceFromTerminalMeters": 2326,
+      "distanceFromDefaultTerminalMeters": 2326,
+      "minDistanceFromAnyTerminalMeters": 2326,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "man_made": "lighthouse"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/2d06c941e880ed5daca1",
+      "name": "Planetarium",
+      "nameEnglish": "Planetarium",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 20.4768575,
+      "lng": -86.9689072,
+      "distanceFromTerminalMeters": 4233,
+      "distanceFromDefaultTerminalMeters": 4233,
+      "minDistanceFromAnyTerminalMeters": 4233,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/6ccfa583ebfbb728f4a5",
+      "name": "Ecoparque Cuzam",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "theme_park",
+      "lat": 20.4888889,
+      "lng": -86.9222222,
+      "distanceFromTerminalMeters": 3384,
+      "distanceFromDefaultTerminalMeters": 3384,
+      "minDistanceFromAnyTerminalMeters": 3384,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "theme_park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/985a643483008d213389",
+      "name": "Playa La Caletita",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "beach",
+      "lat": 20.4949248,
+      "lng": -86.9642697,
+      "distanceFromTerminalMeters": 2386,
+      "distanceFromDefaultTerminalMeters": 2386,
+      "minDistanceFromAnyTerminalMeters": 2386,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "natural": "beach"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d8879d10e593b5e32d49",
+      "name": "Snorkeling Tour Harbour",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "marina",
+      "lat": 20.5085647,
+      "lng": -86.953375,
+      "distanceFromTerminalMeters": 685,
+      "distanceFromDefaultTerminalMeters": 685,
+      "minDistanceFromAnyTerminalMeters": 685,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "marina"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/8d7ecf9c939dd5d39eff",
+      "name": "Parque Boulevard Aeropuerto",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 20.5147012,
+      "lng": -86.9423794,
+      "distanceFromTerminalMeters": 802,
+      "distanceFromDefaultTerminalMeters": 802,
+      "minDistanceFromAnyTerminalMeters": 802,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Calle 14 Norte, San Miguel de Cozumel, 77600",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Kiosko y Juegos infantiles",
+      "osmTags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/bd20ec5b00144c433dad",
+      "name": "Parque La Paz",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 20.4935048,
+      "lng": -86.9534594,
+      "distanceFromTerminalMeters": 1837,
+      "distanceFromDefaultTerminalMeters": 1837,
+      "minDistanceFromAnyTerminalMeters": 1837,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "3 Calle 12 Sur, San Miguel de Cozumel, 77666",
+      "openingHours": "24/7",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "An open space for the community to play.",
+      "osmTags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/52c867b903d2002c5d5e",
+      "name": "Parque Andador Colonos Cozumil",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 20.494889,
+      "lng": -86.956367,
+      "distanceFromTerminalMeters": 1840,
+      "distanceFromDefaultTerminalMeters": 1840,
+      "minDistanceFromAnyTerminalMeters": 1840,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "25 Avenida Pedro Joaquín Coldwell, San Miguel de Cozumel, 77666",
+      "openingHours": "24/7",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Park in the neighborhood",
+      "osmTags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/7317c3173032cea3b038",
+      "name": "Parque Hundido",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 20.4962588,
+      "lng": -86.9585504,
+      "distanceFromTerminalMeters": 1855,
+      "distanceFromDefaultTerminalMeters": 1855,
+      "minDistanceFromAnyTerminalMeters": 1855,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Calle Tulum, San Miguel de Cozumel, 77666",
+      "openingHours": "24/7",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "A Small park in a safety neighborhood.",
+      "osmTags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/146798b6324f0caa6a21",
+      "name": "Parque Alamo",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 20.4925978,
+      "lng": -86.9523158,
+      "distanceFromTerminalMeters": 1891,
+      "distanceFromDefaultTerminalMeters": 1891,
+      "minDistanceFromAnyTerminalMeters": 1891,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "3 Calle 8 Sur, San Miguel de Cozumel, 77666",
+      "openingHours": "24/7",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "A small park.",
+      "osmTags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/7d858bf8e80744e9ab7c",
+      "name": "Mirador Puerto de Abrigo",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "viewpoint",
+      "lat": 20.5271807,
+      "lng": -86.9408832,
+      "distanceFromTerminalMeters": 2135,
+      "distanceFromDefaultTerminalMeters": 2135,
+      "minDistanceFromAnyTerminalMeters": 2135,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "viewpoint"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/9fecdc77517ec34648f5",
+      "name": "Cervecería Punta Sur",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "pub",
+      "lat": 20.5078342,
+      "lng": -86.9500713,
+      "distanceFromTerminalMeters": 357,
+      "distanceFromDefaultTerminalMeters": 357,
+      "minDistanceFromAnyTerminalMeters": 357,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "220 10a Avenida Sur 229, Centro, 77668",
+      "openingHours": "Mo-Su 12:00-23:00",
+      "website": "https://cerveceriapuntasur.com/",
+      "phone": "+52 987 140 6744",
+      "cuisine": [
+        "mexican"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Pizza",
+      "osmTags": {
+        "amenity": "pub"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/5ad1bf30a93a6d3939b6",
+      "name": "Chocolatte",
+      "nameEnglish": "Chocolatte",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 20.5130928,
+      "lng": -86.9419032,
+      "distanceFromTerminalMeters": 699,
+      "distanceFromDefaultTerminalMeters": 699,
+      "minDistanceFromAnyTerminalMeters": 699,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "5a Av. Sur",
+      "openingHours": "Su-Fr 07:30-21:30",
+      "website": "",
+      "phone": "",
+      "cuisine": [
+        "sandwich",
+        "bagel",
+        "breakfast",
+        "coffee_shop"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ecc730ffe11d6b8b7eef",
+      "name": "El Sazon del Camaron",
+      "nameEnglish": "El Sazon del Camaron",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 20.5037416,
+      "lng": -86.9407547,
+      "distanceFromTerminalMeters": 844,
+      "distanceFromDefaultTerminalMeters": 844,
+      "minDistanceFromAnyTerminalMeters": 844,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "55 Ave. Sur Avenida Benito Juarez",
+      "openingHours": "Mo-Su 08:00-15:30",
+      "website": "",
+      "phone": "",
+      "cuisine": [
+        "seafood",
+        "sandwich",
+        "mexican"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d3158b27caf4752a4b8c",
+      "name": "The Pub",
+      "nameEnglish": "The Pub",
+      "category": "food_drink",
+      "subcategory": "bar",
+      "lat": 20.5117421,
+      "lng": -86.9470792,
+      "distanceFromTerminalMeters": 328,
+      "distanceFromDefaultTerminalMeters": 328,
+      "minDistanceFromAnyTerminalMeters": 328,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Calle 4 Norte",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [
+        "fish_and_chips"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "bar"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/56b18173a32da499ead8",
+      "name": "Ohana Cafe",
+      "nameEnglish": "Ohana Cafe",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 20.5130881,
+      "lng": -86.9462988,
+      "distanceFromTerminalMeters": 480,
+      "distanceFromDefaultTerminalMeters": 480,
+      "minDistanceFromAnyTerminalMeters": 480,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "5 Av. Norte",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [
+        "pizza"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f46e406b1bcda9253ba5",
+      "name": "Jeanie’s",
+      "nameEnglish": "Jeanie’s",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 20.5052297,
+      "lng": -86.9573858,
+      "distanceFromTerminalMeters": 1172,
+      "distanceFromDefaultTerminalMeters": 1172,
+      "minDistanceFromAnyTerminalMeters": 1172,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "790 Avenida Rafael E. Melgar",
+      "openingHours": "Mo-Su 07:00-22:00",
+      "website": "https://jeaniescozumel.com/",
+      "phone": "+52 987 878 4647",
+      "cuisine": [
+        "mexican"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/28dde19340fbb8f38921",
+      "name": "Corazón Contento",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 20.5106141,
+      "lng": -86.9474446,
+      "distanceFromTerminalMeters": 213,
+      "distanceFromDefaultTerminalMeters": 213,
+      "minDistanceFromAnyTerminalMeters": 213,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Sa 07:00-14:00",
+      "website": "",
+      "phone": "",
+      "cuisine": [
+        "breakfast",
+        "coffee_shop"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ee9e8a698db7fd981771",
+      "name": "New Especias",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 20.5079732,
+      "lng": -86.9511559,
+      "distanceFromTerminalMeters": 463,
+      "distanceFromDefaultTerminalMeters": 463,
+      "minDistanceFromAnyTerminalMeters": 463,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Calle 3 Sur",
+      "openingHours": "Th-Tu",
+      "website": "",
+      "phone": "",
+      "cuisine": [
+        "italian_pizza"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/eaf7bbc16d8d388c36e7",
+      "name": "Hemingways Lounge & Nightclub",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 20.5201687,
+      "lng": -86.9443118,
+      "distanceFromTerminalMeters": 1290,
+      "distanceFromDefaultTerminalMeters": 1290,
+      "minDistanceFromAnyTerminalMeters": 1290,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Avenida Rafael E. Melgar",
+      "openingHours": "Tu-Fr 08:30-03:00; Sa-Mo 08:30-01:00",
+      "website": "https://hemingwayloungecozumel.negocio.site/",
+      "phone": "",
+      "cuisine": [
+        "coffee_shop",
+        "mexican",
+        "sandwich",
+        "seafood"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/4b2db863d23095f304c3",
+      "name": "Frida's Restaurante & Bar",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 20.5096804,
+      "lng": -86.9495498,
+      "distanceFromTerminalMeters": 303,
+      "distanceFromDefaultTerminalMeters": 303,
+      "minDistanceFromAnyTerminalMeters": 303,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "5a Av. Sur con Calle 1a sur, Col. Centro Plaza del Sol, San Miguel de Cozumel",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [
+        "regional"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/56d5515937c788c6be4c",
+      "name": "Taqueria El",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 20.5056743,
+      "lng": -86.9462498,
+      "distanceFromTerminalMeters": 352,
+      "distanceFromDefaultTerminalMeters": 352,
+      "minDistanceFromAnyTerminalMeters": 352,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [
+        "local"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/691e51ebbd69be623004",
+      "name": "Plaza Leza",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 20.5099394,
+      "lng": -86.9499872,
+      "distanceFromTerminalMeters": 355,
+      "distanceFromDefaultTerminalMeters": 355,
+      "minDistanceFromAnyTerminalMeters": 355,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "San Miguel de Cozumel",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [
+        "mexican"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/cd17f72a5728ce094830",
+      "name": "Casa del Habano",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 20.5110967,
+      "lng": -86.9496087,
+      "distanceFromTerminalMeters": 388,
+      "distanceFromDefaultTerminalMeters": 388,
+      "minDistanceFromAnyTerminalMeters": 388,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Avenida Benito Juarez y Av. Rafael E. Melgar, San Miguel de Cozumel",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [
+        "italian",
+        "_seafood",
+        "_cuban"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/7d1ddfd076ec9fe4e1bc",
+      "name": "La Casa del Mojito",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 20.5086779,
+      "lng": -86.9506021,
+      "distanceFromTerminalMeters": 396,
+      "distanceFromDefaultTerminalMeters": 396,
+      "minDistanceFromAnyTerminalMeters": 396,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "5 Av. Sur, entre Calle Dr. Adolfo Rosado Salas y Calle 3 Sur, San Miguel de Cozumel",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [
+        "cuban"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/dbbbb252db5d1d734e2b",
+      "name": "Del Sur",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 20.50809,
+      "lng": -86.9511092,
+      "distanceFromTerminalMeters": 456,
+      "distanceFromDefaultTerminalMeters": 456,
+      "minDistanceFromAnyTerminalMeters": 456,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [
+        "argentinian"
+      ],
+      "wheelchair": "no",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ba2d383420a7638594ec",
+      "name": "Plaza México",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "mall",
+      "lat": 20.477196,
+      "lng": -86.9717081,
+      "distanceFromTerminalMeters": 4368,
+      "distanceFromDefaultTerminalMeters": 4368,
+      "minDistanceFromAnyTerminalMeters": 4368,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Avenida Claudio Canto, San Miguel de Cozumel, 77675",
+      "openingHours": "Mo-Su 09:00-19:00",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "Plaza con tiendas de souvenirs, spa, joyeria, ropa, farmacia, alimentos, baños, estacionamiento y mucho más.",
+      "osmTags": {
+        "shop": "mall"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/6578db970564a016c6d6",
+      "name": "Bodega Aurrera Cozumel",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "marketplace",
+      "lat": 20.4928188,
+      "lng": -86.9450586,
+      "distanceFromTerminalMeters": 1786,
+      "distanceFromDefaultTerminalMeters": 1786,
+      "minDistanceFromAnyTerminalMeters": 1786,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "marketplace"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/db09b26a044b2b1c4646",
+      "name": "Sams Club Cozumel",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "marketplace",
+      "lat": 20.4925404,
+      "lng": -86.9444975,
+      "distanceFromTerminalMeters": 1824,
+      "distanceFromDefaultTerminalMeters": 1824,
+      "minDistanceFromAnyTerminalMeters": 1824,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "marketplace"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/09fbfdeb530b547161ac",
+      "name": "Flip Cozumel Tours and Excursions",
+      "nameEnglish": "Flip Cozumel Tours and Excursions",
+      "category": "essentials",
+      "subcategory": "visitor_information",
+      "lat": 20.5001501,
+      "lng": -86.9533407,
+      "distanceFromTerminalMeters": 1179,
+      "distanceFromDefaultTerminalMeters": 1179,
+      "minDistanceFromAnyTerminalMeters": 1179,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "20 Avenida Sur Bis",
+      "openingHours": "24/7",
+      "website": "https://www.fliptourscozumel.com/",
+      "phone": "+52 987 105 4708",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "information"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/a1ba2c04759999041e93",
+      "name": "Parque Natural Laguna de Chankanaab",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "nature_reserve",
+      "lat": 20.4427701,
+      "lng": -86.9944766,
+      "distanceFromTerminalMeters": 8864,
+      "distanceFromDefaultTerminalMeters": 8864,
+      "minDistanceFromAnyTerminalMeters": 8864,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Cozumel, Quintana Roo",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "nature_reserve"
+      }
+    }
+  ],
+  "portAnchor": {
+    "id": "ports-json-anchor",
+    "name": "Punta Langosta Pier",
+    "lat": 20.5088,
+    "lng": -86.9468,
+    "address": "Av Rafael Melgar, Cozumel, QR",
+    "source": "ports.json",
+    "sourceId": "",
+    "score": 0,
+    "slug": "punta-langosta-pier"
+  },
+  "terminalResolution": {
+    "status": "resolved",
+    "method": "accepted_terminal_candidate",
+    "verified": true,
+    "notes": "External port and cruise-schedule checks support passenger cruise use, and the accepted candidate ID(s) correspond to the actual cruise terminal, cruise pier, or passenger terminal used by cruise ships."
+  }
+}

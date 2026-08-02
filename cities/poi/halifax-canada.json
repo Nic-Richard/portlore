@@ -1,0 +1,1662 @@
+{
+  "schemaVersion": 5,
+  "catalogType": "curation-candidates",
+  "generatedAt": "2026-07-30T08:39:59.302Z",
+  "source": "openstreetmap",
+  "sourceExtract": "nova-scotia-latest.osm.pbf",
+  "radiusMeters": 10000,
+  "port": {
+    "id": "halifax-canada",
+    "city": "Halifax",
+    "country": "Canada"
+  },
+  "defaultTerminalId": "osm/relation/9435337",
+  "terminal": {
+    "id": "osm/relation/9435337",
+    "name": "Port of Halifax - South End Terminal",
+    "nameEnglish": "",
+    "lat": 44.6339005,
+    "lng": -63.5699803,
+    "address": "Port of Halifax - South End Terminal, South End, Halifax, Halifax Regional Municipality, Halifax County, Nova Scotia, Canada",
+    "source": "verified_terminal_candidate",
+    "sourceId": "osm/relation/9435337",
+    "terminalType": "passenger_cruise_terminal",
+    "verified": true,
+    "notes": "Accepted the Port of Halifax South End Terminal area, which contains the main cruise berths and passenger facilities at Piers 20 and 22.",
+    "sourceUrls": [],
+    "sources": [
+      "nominatim"
+    ],
+    "sourceIds": [
+      "osm/relation/9435337"
+    ],
+    "osmTags": {},
+    "matchedBy": [
+      "Nominatim query: HALIFAX Port, Halifax, Canada"
+    ],
+    "distanceFromPortMeters": 1958
+  },
+  "terminals": [
+    {
+      "id": "osm/relation/9435337",
+      "name": "Port of Halifax - South End Terminal",
+      "nameEnglish": "",
+      "lat": 44.6339005,
+      "lng": -63.5699803,
+      "address": "Port of Halifax - South End Terminal, South End, Halifax, Halifax Regional Municipality, Halifax County, Nova Scotia, Canada",
+      "source": "verified_terminal_candidate",
+      "sourceId": "osm/relation/9435337",
+      "terminalType": "passenger_cruise_terminal",
+      "verified": true,
+      "notes": "Accepted the Port of Halifax South End Terminal area, which contains the main cruise berths and passenger facilities at Piers 20 and 22.",
+      "sourceUrls": [],
+      "sources": [
+        "nominatim"
+      ],
+      "sourceIds": [
+        "osm/relation/9435337"
+      ],
+      "osmTags": {},
+      "matchedBy": [
+        "Nominatim query: HALIFAX Port, Halifax, Canada"
+      ],
+      "distanceFromPortMeters": 1958
+    }
+  ],
+  "terminalCandidateRadiusMeters": 5000,
+  "terminalCandidates": [
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c7f7998d827ead099f98",
+      "name": "Metro Transit Ferry Terminal",
+      "nameEnglish": "",
+      "lat": 44.6497865,
+      "lng": -63.5715596,
+      "distanceFromPortMeters": 668,
+      "address": "5077 George Street, Halifax",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "building": "yes",
+        "ferry": "yes",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/c7f7998d827ead099f98"
+      ]
+    },
+    {
+      "source": "nominatim",
+      "sourceId": "osm/way/1448112647",
+      "osmType": "way",
+      "osmId": "1448112647",
+      "name": "Halifax Port Authority",
+      "nameEnglish": "",
+      "lat": 44.6414637,
+      "lng": -63.5664449,
+      "distanceFromPortMeters": 1432,
+      "address": "Halifax Port Authority, Tall Ships Quay, Halifax Seaport, South End, Halifax, Halifax Regional Municipality, Halifax County, Nova Scotia, B3J 3S8, Canada",
+      "displayName": "Halifax Port Authority, Tall Ships Quay, Halifax Seaport, South End, Halifax, Halifax Regional Municipality, Halifax County, Nova Scotia, B3J 3S8, Canada",
+      "query": "HALIFAX Port, Halifax, Canada",
+      "matchedBy": [
+        "Nominatim query: HALIFAX Port, Halifax, Canada"
+      ],
+      "osmTags": {
+        "building": "yes"
+      },
+      "sources": [
+        "nominatim"
+      ],
+      "sourceIds": [
+        "osm/way/1448112647"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b20fbfcdfad33e0ca694",
+      "name": "Dartmouth Ferry Terminal",
+      "nameEnglish": "",
+      "lat": 44.6640474,
+      "lng": -63.5692617,
+      "distanceFromPortMeters": 1778,
+      "address": "88 Alderney Drive, Dartmouth",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "building": "yes",
+        "ferry": "yes",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/b20fbfcdfad33e0ca694"
+      ]
+    },
+    {
+      "source": "nominatim",
+      "sourceId": "osm/relation/9435337",
+      "osmType": "relation",
+      "osmId": "9435337",
+      "name": "Port of Halifax - South End Terminal",
+      "nameEnglish": "",
+      "lat": 44.6339005,
+      "lng": -63.5699803,
+      "distanceFromPortMeters": 1958,
+      "address": "Port of Halifax - South End Terminal, South End, Halifax, Halifax Regional Municipality, Halifax County, Nova Scotia, Canada",
+      "displayName": "Port of Halifax - South End Terminal, South End, Halifax, Halifax Regional Municipality, Halifax County, Nova Scotia, Canada",
+      "query": "HALIFAX Port, Halifax, Canada",
+      "matchedBy": [
+        "Nominatim query: HALIFAX Port, Halifax, Canada"
+      ],
+      "osmTags": {},
+      "sources": [
+        "nominatim"
+      ],
+      "sourceIds": [
+        "osm/relation/9435337"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/a8358af2d011d1a4464d",
+      "name": "Berth 25",
+      "nameEnglish": "",
+      "lat": 44.6349452,
+      "lng": -63.5666624,
+      "distanceFromPortMeters": 1979,
+      "address": "",
+      "matchedBy": [
+        "terminal-like name"
+      ],
+      "osmTags": {
+        "man_made": "quay",
+        "operator": "Ocean Terminals"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/a8358af2d011d1a4464d"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/60e053bb6fbe01c7ce40",
+      "name": "Berth 26",
+      "nameEnglish": "",
+      "lat": 44.6354356,
+      "lng": -63.5643644,
+      "distanceFromPortMeters": 2038,
+      "address": "",
+      "matchedBy": [
+        "terminal-like name"
+      ],
+      "osmTags": {
+        "man_made": "quay",
+        "operator": "Ocean Terminals"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/60e053bb6fbe01c7ce40"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/0ff83be231ccb252c653",
+      "name": "Berth 28",
+      "nameEnglish": "",
+      "lat": 44.6340326,
+      "lng": -63.5662551,
+      "distanceFromPortMeters": 2082,
+      "address": "",
+      "matchedBy": [
+        "terminal-like name"
+      ],
+      "osmTags": {
+        "man_made": "quay",
+        "operator": "Ocean Terminals"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/0ff83be231ccb252c653"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/04b8f26763fea5b43531",
+      "name": "(unnamed maritime feature)",
+      "nameEnglish": "",
+      "lat": 44.6352627,
+      "lng": -63.5630321,
+      "distanceFromPortMeters": 2118,
+      "address": "",
+      "matchedBy": [
+        "terminal-like name"
+      ],
+      "osmTags": {
+        "man_made": "quay",
+        "operator": "Ocean Terminals"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/04b8f26763fea5b43531"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/fca2f830405624625455",
+      "name": "Berth 27",
+      "nameEnglish": "",
+      "lat": 44.6345738,
+      "lng": -63.5639842,
+      "distanceFromPortMeters": 2133,
+      "address": "",
+      "matchedBy": [
+        "terminal-like name"
+      ],
+      "osmTags": {
+        "man_made": "quay",
+        "operator": "Ocean Terminals"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/fca2f830405624625455"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/a42856b18a309fe3cf24",
+      "name": "Berth 30",
+      "nameEnglish": "",
+      "lat": 44.6330512,
+      "lng": -63.5658145,
+      "distanceFromPortMeters": 2193,
+      "address": "",
+      "matchedBy": [
+        "terminal-like name"
+      ],
+      "osmTags": {
+        "man_made": "quay",
+        "operator": "Ocean Terminals"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/a42856b18a309fe3cf24"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/87729f46ef34d7d2a38d",
+      "name": "Berth 31",
+      "nameEnglish": "",
+      "lat": 44.6335706,
+      "lng": -63.5635175,
+      "distanceFromPortMeters": 2245,
+      "address": "",
+      "matchedBy": [
+        "terminal-like name"
+      ],
+      "osmTags": {
+        "man_made": "quay",
+        "operator": "Ocean Terminals"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/87729f46ef34d7d2a38d"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f71202f73dc223bfafea",
+      "name": "Berth 34",
+      "nameEnglish": "",
+      "lat": 44.6322895,
+      "lng": -63.5654831,
+      "distanceFromPortMeters": 2280,
+      "address": "",
+      "matchedBy": [
+        "terminal-like name"
+      ],
+      "osmTags": {
+        "man_made": "quay",
+        "operator": "Ocean Terminals"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/f71202f73dc223bfafea"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/2bb16573a4d8c07818aa",
+      "name": "(unnamed maritime feature)",
+      "nameEnglish": "",
+      "lat": 44.6315897,
+      "lng": -63.5664323,
+      "distanceFromPortMeters": 2312,
+      "address": "",
+      "matchedBy": [
+        "terminal-like name"
+      ],
+      "osmTags": {
+        "man_made": "quay",
+        "operator": "Ocean Terminals"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/2bb16573a4d8c07818aa"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c50c6266cd58131bf2d5",
+      "name": "(unnamed maritime feature)",
+      "nameEnglish": "",
+      "lat": 44.6334461,
+      "lng": -63.5622034,
+      "distanceFromPortMeters": 2317,
+      "address": "",
+      "matchedBy": [
+        "terminal-like name"
+      ],
+      "osmTags": {
+        "man_made": "quay",
+        "operator": "Ocean Terminals"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/c50c6266cd58131bf2d5"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/5a0d6da403d61fcba26a",
+      "name": "Berth 33",
+      "nameEnglish": "",
+      "lat": 44.6328046,
+      "lng": -63.5631863,
+      "distanceFromPortMeters": 2329,
+      "address": "",
+      "matchedBy": [
+        "terminal-like name"
+      ],
+      "osmTags": {
+        "man_made": "quay",
+        "operator": "Ocean Terminals"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/5a0d6da403d61fcba26a"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/6ecffb1eb08b9623a128",
+      "name": "Woodside Ferry Terminal",
+      "nameEnglish": "",
+      "lat": 44.6489809,
+      "lng": -63.549396,
+      "distanceFromPortMeters": 2424,
+      "address": "9 Atlantic Street, Dartmouth",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "building": "yes",
+        "ferry": "yes",
+        "operator": "Halifax Regional Municipality",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/6ecffb1eb08b9623a128"
+      ]
+    },
+    {
+      "source": "nominatim",
+      "sourceId": "osm/relation/17376514",
+      "osmType": "relation",
+      "osmId": "17376514",
+      "name": "Port of Halifax",
+      "nameEnglish": "",
+      "lat": 44.6448639,
+      "lng": -63.5303455,
+      "distanceFromPortMeters": 3969,
+      "address": "Port of Halifax, Downtown Dartmouth, Autoport, Dartmouth, Halifax Regional Municipality, Halifax County, Nova Scotia, Canada",
+      "displayName": "Port of Halifax, Downtown Dartmouth, Autoport, Dartmouth, Halifax Regional Municipality, Halifax County, Nova Scotia, Canada",
+      "query": "HALIFAX Port, Halifax, Canada",
+      "matchedBy": [
+        "Nominatim query: HALIFAX Port, Halifax, Canada"
+      ],
+      "osmTags": {},
+      "sources": [
+        "nominatim"
+      ],
+      "sourceIds": [
+        "osm/relation/17376514"
+      ]
+    }
+  ],
+  "counts": {
+    "attraction": 23,
+    "outdoors": 6,
+    "food_drink": 14,
+    "shopping": 2,
+    "essentials": 0
+  },
+  "pois": [
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/aefb8831468d0f8796fb",
+      "name": "Halifax Citadel",
+      "nameEnglish": "Halifax Citadel",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 44.6473105,
+      "lng": -63.5802776,
+      "distanceFromTerminalMeters": 300,
+      "distanceFromDefaultTerminalMeters": 300,
+      "minDistanceFromAnyTerminalMeters": 300,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "May 7-Oct 31 Mo-Su 09:00-17:00",
+      "website": "https://parks.canada.ca/lhn-nhs/ns/halifax",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "castle",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/97e631964374162cc11e",
+      "name": "Maritime Museum of the Atlantic",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 44.6475947,
+      "lng": -63.5709739,
+      "distanceFromTerminalMeters": 762,
+      "distanceFromDefaultTerminalMeters": 762,
+      "minDistanceFromAnyTerminalMeters": 762,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1675 Lower Water Street, Halifax, B3J 1S3",
+      "openingHours": "Tu 09:30-20:00; We-Su 09:30-17:30",
+      "website": "https://maritimemuseum.novascotia.ca/",
+      "phone": "+1-902-424-7490",
+      "cuisine": [],
+      "wheelchair": "limited",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/3f7e07d8fc0b99214732",
+      "name": "Halifax Citadel National Historic Site",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 44.6484334,
+      "lng": -63.5800115,
+      "distanceFromTerminalMeters": 174,
+      "distanceFromDefaultTerminalMeters": 174,
+      "minDistanceFromAnyTerminalMeters": 174,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "https://www.pc.gc.ca/lhn-nhs/ns/halifax/index.aspx",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/de051450563e9a538663",
+      "name": "Army Museum",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 44.6473097,
+      "lng": -63.5803408,
+      "distanceFromTerminalMeters": 300,
+      "distanceFromDefaultTerminalMeters": 300,
+      "minDistanceFromAnyTerminalMeters": 300,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "https://armymuseumhalifax.ca/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/5f2c32f4795e1e663f52",
+      "name": "Nova Scotia Sport Hall of Fame",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 44.6481088,
+      "lng": -63.5760865,
+      "distanceFromTerminalMeters": 374,
+      "distanceFromDefaultTerminalMeters": 374,
+      "minDistanceFromAnyTerminalMeters": 374,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "https://nsshf.com/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/5bfd59152ab16491fc11",
+      "name": "Nova Scotia Museum of Natural History",
+      "nameEnglish": "Nova Scotia Museum of Natural History",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 44.6456181,
+      "lng": -63.5848539,
+      "distanceFromTerminalMeters": 620,
+      "distanceFromDefaultTerminalMeters": 620,
+      "minDistanceFromAnyTerminalMeters": 620,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1747 Summer Street, B3H 3A6",
+      "openingHours": "Mo-Su 09:30-16:30",
+      "website": "",
+      "phone": "+1-902-424-7353",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ab2c4219d5706ec61e8a",
+      "name": "The Puffin Gallery",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "gallery",
+      "lat": 44.6501275,
+      "lng": -63.5732828,
+      "distanceFromTerminalMeters": 532,
+      "distanceFromDefaultTerminalMeters": 532,
+      "minDistanceFromAnyTerminalMeters": 532,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1869 Upper Water Street, Halifax, B3J 1S9",
+      "openingHours": "",
+      "website": "https://carrefouratlantic.com/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "limited",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "gallery"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ef845379e6df7704a807",
+      "name": "Halifax Brewery Farmers Market",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 44.6443674,
+      "lng": -63.5702739,
+      "distanceFromTerminalMeters": 992,
+      "distanceFromDefaultTerminalMeters": 992,
+      "minDistanceFromAnyTerminalMeters": 992,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/47762f92cea238a90b9e",
+      "name": "Pier 21",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 44.6386089,
+      "lng": -63.5651817,
+      "distanceFromTerminalMeters": 1726,
+      "distanceFromDefaultTerminalMeters": 1726,
+      "minDistanceFromAnyTerminalMeters": 1726,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1055 Marginal Road, Halifax, B3H 4P7",
+      "openingHours": "",
+      "website": "https://pier21.ca/",
+      "phone": "+1-902-425-7770",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/9ac402e9fb5534a10480",
+      "name": "Peace Park Pavillion",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 44.6628739,
+      "lng": -63.5677556,
+      "distanceFromTerminalMeters": 1728,
+      "distanceFromDefaultTerminalMeters": 1728,
+      "minDistanceFromAnyTerminalMeters": 1728,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "94 Alderney Drive, Dartmouth",
+      "openingHours": "",
+      "website": "http://robertparkerassociates.com/projects/world-peace-pavilion/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d01428db6db34c67555e",
+      "name": "The Prow Gallery",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "gallery",
+      "lat": 44.6443495,
+      "lng": -63.5696733,
+      "distanceFromTerminalMeters": 1031,
+      "distanceFromDefaultTerminalMeters": 1031,
+      "minDistanceFromAnyTerminalMeters": 1031,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1479 Lower Water Street, Halifax",
+      "openingHours": "Tu-Sa 10:00-17:00; Su 11:00-17:00",
+      "website": "https://theprowgallery.com/",
+      "phone": "+1-902-407-2211",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "gallery"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/696e179f2a1cb6b489db",
+      "name": "Fort Charlotte",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "fort",
+      "lat": 44.640806,
+      "lng": -63.559223,
+      "distanceFromTerminalMeters": 1936,
+      "distanceFromDefaultTerminalMeters": 1936,
+      "minDistanceFromAnyTerminalMeters": 1936,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Georges Island Road, Halifax",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "fort"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/6ee340f25b2c24c1fec9",
+      "name": "Halifax Public Gardens",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 44.6425858,
+      "lng": -63.582012,
+      "distanceFromTerminalMeters": 840,
+      "distanceFromDefaultTerminalMeters": 840,
+      "minDistanceFromAnyTerminalMeters": 840,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Spring Garden Road, Halifax",
+      "openingHours": "",
+      "website": "https://www.halifaxpublicgardens.ca/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "limited",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/7e9d1abbd314878804dc",
+      "name": "HMCS Sackville",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 44.6474756,
+      "lng": -63.569301,
+      "distanceFromTerminalMeters": 892,
+      "distanceFromDefaultTerminalMeters": 892,
+      "minDistanceFromAnyTerminalMeters": 892,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "https://www.cnmt.ca/hmcs-sackville",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "no",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "ship",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/8935bf46a9f88d3814ae",
+      "name": "Cenotaph",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "monument",
+      "lat": 44.6479562,
+      "lng": -63.5748413,
+      "distanceFromTerminalMeters": 467,
+      "distanceFromDefaultTerminalMeters": 467,
+      "minDistanceFromAnyTerminalMeters": 467,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "War memorial",
+      "osmTags": {
+        "historic": "monument"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f175d24abc82efc6f003",
+      "name": "Portuguese",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "monument",
+      "lat": 44.6517737,
+      "lng": -63.5733066,
+      "distanceFromTerminalMeters": 565,
+      "distanceFromDefaultTerminalMeters": 565,
+      "minDistanceFromAnyTerminalMeters": 565,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "monument"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/24e973ec62a8cd5edae7",
+      "name": "Royal Regiment of Canadian Artillery",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "monument",
+      "lat": 44.6452808,
+      "lng": -63.5772214,
+      "distanceFromTerminalMeters": 569,
+      "distanceFromDefaultTerminalMeters": 569,
+      "minDistanceFromAnyTerminalMeters": 569,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "monument"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/67fa26f66f7b4c8f68f6",
+      "name": "Canadian Sailors Serving in War and Peace",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "monument",
+      "lat": 44.6469276,
+      "lng": -63.5706561,
+      "distanceFromTerminalMeters": 814,
+      "distanceFromDefaultTerminalMeters": 814,
+      "minDistanceFromAnyTerminalMeters": 814,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "monument"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/a6b6b59569178b7fed84",
+      "name": "Robbie Burns Monument",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "monument",
+      "lat": 44.6418853,
+      "lng": -63.5799597,
+      "distanceFromTerminalMeters": 902,
+      "distanceFromDefaultTerminalMeters": 902,
+      "minDistanceFromAnyTerminalMeters": 902,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "monument"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/63d141bae51dc4ff8f37",
+      "name": "Cole Harbour Heritage Farm Museum",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 44.6725916,
+      "lng": -63.4999753,
+      "distanceFromTerminalMeters": 6809,
+      "distanceFromDefaultTerminalMeters": 6809,
+      "minDistanceFromAnyTerminalMeters": 6809,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "471E Poplar Drive, Cole Harbour, B2W 4L2",
+      "openingHours": "",
+      "website": "https://coleharbourfarmmuseum.ca/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/8bcc380ec60c578a29d9",
+      "name": "The Emigrant",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "monument",
+      "lat": 44.6414346,
+      "lng": -63.5668457,
+      "distanceFromTerminalMeters": 1411,
+      "distanceFromDefaultTerminalMeters": 1411,
+      "minDistanceFromAnyTerminalMeters": 1411,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "monument"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/44c4e99006f9493cda0c",
+      "name": "Historic Properties",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 44.6504188,
+      "lng": -63.5728365,
+      "distanceFromTerminalMeters": 569,
+      "distanceFromDefaultTerminalMeters": 569,
+      "minDistanceFromAnyTerminalMeters": 569,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "06:00-22:00",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/916d01081fa3b6d6c633",
+      "name": "Granville Mall",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 44.6499207,
+      "lng": -63.5746961,
+      "distanceFromTerminalMeters": 420,
+      "distanceFromDefaultTerminalMeters": 420,
+      "minDistanceFromAnyTerminalMeters": 420,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "06:00-22:00",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b61c9cddf4ce09be74f1",
+      "name": "Grand Parade",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 44.6482003,
+      "lng": -63.5749643,
+      "distanceFromTerminalMeters": 446,
+      "distanceFromDefaultTerminalMeters": 446,
+      "minDistanceFromAnyTerminalMeters": 446,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "06:00-22:00",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "park",
+        "place": "square"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/66242a7bd3f5ebb105e7",
+      "name": "Wanderers Grounds",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 44.6451108,
+      "lng": -63.5834712,
+      "distanceFromTerminalMeters": 609,
+      "distanceFromDefaultTerminalMeters": 609,
+      "minDistanceFromAnyTerminalMeters": 609,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "06:00-22:00",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/01284c0c43729234f1c4",
+      "name": "Halifax Central Common",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 44.6481015,
+      "lng": -63.5875721,
+      "distanceFromTerminalMeters": 635,
+      "distanceFromDefaultTerminalMeters": 635,
+      "minDistanceFromAnyTerminalMeters": 635,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "06:00-22:00",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/e36607bbfb5a487949ec",
+      "name": "Seymour Green",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "garden",
+      "lat": 44.6372012,
+      "lng": -63.5873261,
+      "distanceFromTerminalMeters": 1537,
+      "distanceFromDefaultTerminalMeters": 1537,
+      "minDistanceFromAnyTerminalMeters": 1537,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1267 Henry Street, Halifax, B3H 3J6",
+      "openingHours": "",
+      "website": "https://www.dsu.ca/ratified-societies/2023/8/11/26cf32egav08ts5zg79mc1rhu6plzu-msn8l-2ysck-gt4xr-adys2",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "garden"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/3bccdacb788b6d0fbd13",
+      "name": "Springhouse Market",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 44.6538212,
+      "lng": -63.5862609,
+      "distanceFromTerminalMeters": 653,
+      "distanceFromDefaultTerminalMeters": 653,
+      "minDistanceFromAnyTerminalMeters": 653,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "2290 Gottingen Street, Halifax, B3K 0H4",
+      "openingHours": "Tu-Sa 11:00-20:00; Su 11:00-18:00",
+      "website": "https://eatspringhouse.com",
+      "phone": "+1 902-404-8080",
+      "cuisine": [
+        "sandwich",
+        "salad",
+        "brunch"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/084824bf5bc6d051b578",
+      "name": "Primal Kitchen",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 44.6419358,
+      "lng": -63.5783056,
+      "distanceFromTerminalMeters": 907,
+      "distanceFromDefaultTerminalMeters": 907,
+      "minDistanceFromAnyTerminalMeters": 907,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1463 Brenton Street, Halifax, B3J 3S7",
+      "openingHours": "Mo-Sa 11:30+",
+      "website": "https://www.primalhfx.ca/",
+      "phone": "",
+      "cuisine": [
+        "meat",
+        "beer"
+      ],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "Restaurant for meat and craft beer lovers.",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/0778660c73bc6cb5a9ee",
+      "name": "Henry House",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 44.6403598,
+      "lng": -63.5707921,
+      "distanceFromTerminalMeters": 1296,
+      "distanceFromDefaultTerminalMeters": 1296,
+      "minDistanceFromAnyTerminalMeters": 1296,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1222 Barrington Street, Halifax, B3J 1Y6",
+      "openingHours": "We-Su 00:00-23:00",
+      "website": "http://henryhouse.ca/",
+      "phone": "+1-902-423-5660",
+      "cuisine": [
+        "pub"
+      ],
+      "wheelchair": "no",
+      "brand": "",
+      "description": "Local craft beers and fresh pub dishes in an early 19-th century stone house.",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/e7c8f50dd6d1d54b5b35",
+      "name": "Sketti and Ball",
+      "nameEnglish": "Sketti & Ball Co.",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 44.6456085,
+      "lng": -63.5742008,
+      "distanceFromTerminalMeters": 670,
+      "distanceFromDefaultTerminalMeters": 670,
+      "minDistanceFromAnyTerminalMeters": 670,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1584 Argyle Street, Halifax",
+      "openingHours": "Tu-Fr 16:30-23:00; Sa 11:30-23:00",
+      "website": "https://skettiandballco.ca/",
+      "phone": "+1 902-444-0277",
+      "cuisine": [
+        "italian"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/472415d3bcc2f4c3a3d5",
+      "name": "Great Wall Restaurant",
+      "nameEnglish": "The Great Wall Chinese Restaurant",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 44.6470783,
+      "lng": -63.5716528,
+      "distanceFromTerminalMeters": 736,
+      "distanceFromDefaultTerminalMeters": 736,
+      "minDistanceFromAnyTerminalMeters": 736,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1649 Bedford Row, Halifax, B3J 3J4",
+      "openingHours": "Mo-Fr 11:30-22:00; Sa-Su 16:00-22:00",
+      "website": "http://www.thegreatwall.ca/",
+      "phone": "+1 902-422-6153",
+      "cuisine": [
+        "chinese"
+      ],
+      "wheelchair": "limited",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/34805a47d45c0853256d",
+      "name": "EDNA",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 44.6514366,
+      "lng": -63.5822809,
+      "distanceFromTerminalMeters": 241,
+      "distanceFromDefaultTerminalMeters": 241,
+      "minDistanceFromAnyTerminalMeters": 241,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "2053 Gottingen Street, Halifax",
+      "openingHours": "Tu-Fr 11:30-14:30, Tu-Su 17:00-22:00",
+      "website": "https://www.ednarestaurant.com/",
+      "phone": "",
+      "cuisine": [
+        "contemporary"
+      ],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/66941a8325610b23f430",
+      "name": "Highwayman",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 44.646948,
+      "lng": -63.5737653,
+      "distanceFromTerminalMeters": 599,
+      "distanceFromDefaultTerminalMeters": 599,
+      "minDistanceFromAnyTerminalMeters": 599,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1673 Barrington Street, Halifax, B3J 1Z9",
+      "openingHours": "Mo-Sa 16:00-00:00",
+      "website": "https://www.highwaymanhfx.com/",
+      "phone": "+1-902-407-5260",
+      "cuisine": [
+        "spanish",
+        "tapas",
+        "seafood",
+        "steak_house"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/08c69bc2b6c770e003b3",
+      "name": "Gahan House",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 44.6461775,
+      "lng": -63.5746163,
+      "distanceFromTerminalMeters": 602,
+      "distanceFromDefaultTerminalMeters": 602,
+      "minDistanceFromAnyTerminalMeters": 602,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "5239 Sackville Street, Halifax, B3J 3Y3",
+      "openingHours": "Mo-Th 11:30-23:00, Fr 11:30-24:00, Sa 10:00-24:00, Su 10:00-23:00",
+      "website": "https://gahan.ca",
+      "phone": "+1-902-444-3060",
+      "cuisine": [
+        "pub"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/3418edc0e93945b8a76e",
+      "name": "Marigold Kitchen",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 44.6469163,
+      "lng": -63.5737494,
+      "distanceFromTerminalMeters": 602,
+      "distanceFromDefaultTerminalMeters": 602,
+      "minDistanceFromAnyTerminalMeters": 602,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1671 Barrington Street, Halifax, B3J 1Z9",
+      "openingHours": "Mo-Su 11:00-19:00",
+      "website": "https://marigoldkitchen.ca",
+      "phone": "+19024564918",
+      "cuisine": [
+        "mediterranean"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/a54821a49431e33f43cd",
+      "name": "Lou Pécou",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 44.6525176,
+      "lng": -63.5868271,
+      "distanceFromTerminalMeters": 608,
+      "distanceFromDefaultTerminalMeters": 608,
+      "minDistanceFromAnyTerminalMeters": 608,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "5568 Cunard Street, Halifax, B3K 1C3",
+      "openingHours": "Mo-Th 12:00-21:00; Fr 12:00-22:00; Sa 10:00-22:00; Su 10:00-21:00",
+      "website": "https://www.lou-pecou.ca",
+      "phone": "+1-902-423-0300",
+      "cuisine": [
+        "pizza"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/3ee7302c4e3a11a35f4c",
+      "name": "Sushi Nami Royale",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 44.642454,
+      "lng": -63.575743,
+      "distanceFromTerminalMeters": 904,
+      "distanceFromDefaultTerminalMeters": 904,
+      "minDistanceFromAnyTerminalMeters": 904,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1458 Queen Street, Halifax",
+      "openingHours": "Mo-Th 11:30-22:00; Fr-Sa 11:30-23:00; Su 12:00-22:00",
+      "website": "https://sushinami.ca",
+      "phone": "",
+      "cuisine": [
+        "sushi"
+      ],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/74946b5b7258f6b4c210",
+      "name": "Gingerbread Haus Bakery",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 44.6378921,
+      "lng": -63.5734219,
+      "distanceFromTerminalMeters": 1443,
+      "distanceFromDefaultTerminalMeters": 1443,
+      "minDistanceFromAnyTerminalMeters": 1443,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1138 Queen Street, Halifax, B3H 2R9",
+      "openingHours": "Mo-Fr 09:00-18:00; Sa 08:00-17:00",
+      "website": "https://www.gingerbreadhausbakery.com/",
+      "phone": "+1-902-425-4333",
+      "cuisine": [
+        "cake",
+        "bread",
+        "pastry"
+      ],
+      "wheelchair": "no",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/367a20c32e6f90e23504",
+      "name": "Bicycle Thief",
+      "nameEnglish": "The Bicycle Thief",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 44.6435997,
+      "lng": -63.5683874,
+      "distanceFromTerminalMeters": 1162,
+      "distanceFromDefaultTerminalMeters": 1162,
+      "minDistanceFromAnyTerminalMeters": 1162,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1475 Lower Water Street, Halifax",
+      "openingHours": "Mo-Su 11:30-23:00",
+      "website": "https://bicyclethief.ca/",
+      "phone": "+1 902-425-7993",
+      "cuisine": [
+        "italian"
+      ],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/8f34655f74fb6c6509f2",
+      "name": "Masala Delight",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 44.6360604,
+      "lng": -63.5701117,
+      "distanceFromTerminalMeters": 1736,
+      "distanceFromDefaultTerminalMeters": 1736,
+      "minDistanceFromAnyTerminalMeters": 1736,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "5361 Inglis Street, Halifax, B3H 1J4",
+      "openingHours": "Mo,Th 16:00-00:00, Tu,Fr-Sa 11:00-12:00, We,Su 12:00-12:00",
+      "website": "https://masaladelight.com",
+      "phone": "+19024053320",
+      "cuisine": [
+        "indian"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/48af19237da96ee1d17d",
+      "name": "Made In The Maritimes Artisan Boutique",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "gift",
+      "lat": 44.662156,
+      "lng": -63.5993043,
+      "distanceFromTerminalMeters": 2039,
+      "distanceFromDefaultTerminalMeters": 2039,
+      "minDistanceFromAnyTerminalMeters": 2039,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "5527 Young Street, Halifax, B3K 1Z7",
+      "openingHours": "Mo-Sa 10:00-17:00; Su 11:00-16:00",
+      "website": "https://madeinthemaritimes",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "no",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "shop": "gift"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/6cf3551da0727006940f",
+      "name": "Canadian Museum of Immigration at Pier 21",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 44.6377478,
+      "lng": -63.5660527,
+      "distanceFromTerminalMeters": 1753,
+      "distanceFromDefaultTerminalMeters": 1753,
+      "minDistanceFromAnyTerminalMeters": 1753,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1055 Marginal Road, Halifax, B3H 4P7",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/5d4f4439702607a7ee1d",
+      "name": "Market Price",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "clothes",
+      "lat": 44.6441385,
+      "lng": -63.5695548,
+      "distanceFromTerminalMeters": 1052,
+      "distanceFromDefaultTerminalMeters": 1052,
+      "minDistanceFromAnyTerminalMeters": 1052,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1477 Lower Water Street, Halifax, B3J 3Z4",
+      "openingHours": "",
+      "website": "https://www.market-price.ca/",
+      "phone": "+1-902-422-1395",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "shop": "clothes"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/e22eb7c41264d6347ece",
+      "name": "Public Archives of Nova Scotia",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 44.6376262,
+      "lng": -63.5859381,
+      "distanceFromTerminalMeters": 1454,
+      "distanceFromDefaultTerminalMeters": 1454,
+      "minDistanceFromAnyTerminalMeters": 1454,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "6016 University Avenue, Halifax, B3H 1W4",
+      "openingHours": "",
+      "website": "https://archives.novascotia.ca/",
+      "phone": "+1-902-424-6060",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    }
+  ],
+  "portAnchor": {
+    "id": "ports-json-anchor",
+    "name": "HALIFAX Port",
+    "lat": 44.65,
+    "lng": -63.58,
+    "address": "Halifax, Nova Scotia, Canada",
+    "source": "ports.json",
+    "sourceId": "",
+    "score": 0,
+    "slug": "halifax-port"
+  },
+  "terminalResolution": {
+    "status": "resolved",
+    "method": "accepted_terminal_candidate",
+    "verified": true,
+    "notes": "Accepted the Port of Halifax South End Terminal area, which contains the main cruise berths and passenger facilities at Piers 20 and 22."
+  }
+}

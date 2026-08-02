@@ -1,0 +1,1400 @@
+{
+  "schemaVersion": 5,
+  "catalogType": "curation-candidates",
+  "generatedAt": "2026-07-30T08:11:47.383Z",
+  "source": "openstreetmap",
+  "sourceExtract": "kansai-latest.osm.pbf",
+  "radiusMeters": 10000,
+  "port": {
+    "id": "kobe-japan",
+    "city": "Kobe",
+    "country": "Japan"
+  },
+  "defaultTerminalId": "osm/generated/a09718250193790d9c1b",
+  "terminal": {
+    "id": "osm/generated/a09718250193790d9c1b",
+    "name": "中突堤旅客ターミナル",
+    "nameEnglish": "Naka Pier Passenser Terminal",
+    "lat": 34.6800855,
+    "lng": 135.1885378,
+    "address": "",
+    "source": "verified_terminal_candidate",
+    "sourceId": "osm/generated/a09718250193790d9c1b",
+    "terminalType": "passenger_cruise_terminal",
+    "verified": true,
+    "notes": "External port and cruise-schedule checks support passenger cruise use, and the accepted candidate ID(s) correspond to the actual cruise terminal, cruise pier, or passenger terminal used by cruise ships.",
+    "sourceUrls": [],
+    "sources": [
+      "openstreetmap"
+    ],
+    "sourceIds": [
+      "osm/generated/a09718250193790d9c1b"
+    ],
+    "osmTags": {
+      "amenity": "ferry_terminal",
+      "ferry": "yes",
+      "name:en": "Naka Pier Passenser Terminal",
+      "public_transport": "station"
+    },
+    "matchedBy": [
+      "amenity=ferry_terminal"
+    ],
+    "distanceFromPortMeters": 3435
+  },
+  "terminals": [
+    {
+      "id": "osm/generated/a09718250193790d9c1b",
+      "name": "中突堤旅客ターミナル",
+      "nameEnglish": "Naka Pier Passenser Terminal",
+      "lat": 34.6800855,
+      "lng": 135.1885378,
+      "address": "",
+      "source": "verified_terminal_candidate",
+      "sourceId": "osm/generated/a09718250193790d9c1b",
+      "terminalType": "passenger_cruise_terminal",
+      "verified": true,
+      "notes": "External port and cruise-schedule checks support passenger cruise use, and the accepted candidate ID(s) correspond to the actual cruise terminal, cruise pier, or passenger terminal used by cruise ships.",
+      "sourceUrls": [],
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/a09718250193790d9c1b"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "name:en": "Naka Pier Passenser Terminal",
+        "public_transport": "station"
+      },
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "distanceFromPortMeters": 3435
+    },
+    {
+      "id": "osm/generated/f0858ef16bfb293f95e1",
+      "name": "神戸ポートターミナル",
+      "nameEnglish": "Kobe Port Terminal",
+      "lat": 34.6804578,
+      "lng": 135.2028947,
+      "address": "",
+      "source": "verified_terminal_candidate",
+      "sourceId": "osm/generated/f0858ef16bfb293f95e1",
+      "terminalType": "passenger_cruise_terminal",
+      "verified": true,
+      "notes": "External port and cruise-schedule checks support passenger cruise use, and the accepted candidate ID(s) correspond to the actual cruise terminal, cruise pier, or passenger terminal used by cruise ships.",
+      "sourceUrls": [],
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/f0858ef16bfb293f95e1"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "building": "public",
+        "ferry": "yes",
+        "name:en": "Kobe Port Terminal",
+        "public_transport": "station"
+      },
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "distanceFromPortMeters": 3982
+    }
+  ],
+  "terminalCandidateRadiusMeters": 5000,
+  "terminalCandidates": [
+    {
+      "source": "nominatim",
+      "sourceId": "osm/node/6937212371",
+      "osmType": "node",
+      "osmId": "6937212371",
+      "name": "わが国唯一 将軍平清盛公墓処",
+      "nameEnglish": "The only burial site of Shogun Taira no Kiyomori in Japan",
+      "lat": 34.6676692,
+      "lng": 135.1715556,
+      "distanceFromPortMeters": 2111,
+      "address": "わが国唯一 将軍平清盛公墓処, 古湊線, 神明町, 兵庫区, 神戸市, 兵庫県, 652-0809, 日本",
+      "displayName": "わが国唯一 将軍平清盛公墓処, 古湊線, 神明町, 兵庫区, 神戸市, 兵庫県, 652-0809, 日本",
+      "query": "KOBE Port, Kobe, Japan",
+      "matchedBy": [
+        "Nominatim query: KOBE Port, Kobe, Japan"
+      ],
+      "osmTags": {},
+      "sources": [
+        "nominatim"
+      ],
+      "sourceIds": [
+        "osm/node/6937212371"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/a09718250193790d9c1b",
+      "name": "中突堤旅客ターミナル",
+      "nameEnglish": "Naka Pier Passenser Terminal",
+      "lat": 34.6800855,
+      "lng": 135.1885378,
+      "distanceFromPortMeters": 3435,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "name:en": "Naka Pier Passenser Terminal",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/a09718250193790d9c1b"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/a9ea4d32718f7f10606d",
+      "name": "中突堤中央ターミナル",
+      "nameEnglish": "Kamomeria",
+      "lat": 34.6825256,
+      "lng": 135.1850056,
+      "distanceFromPortMeters": 3646,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "alt_name": "かもめりあ",
+        "amenity": "ferry_terminal",
+        "building": "yes",
+        "ferry": "yes",
+        "name:en": "Kamomeria",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/a9ea4d32718f7f10606d"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f0858ef16bfb293f95e1",
+      "name": "神戸ポートターミナル",
+      "nameEnglish": "Kobe Port Terminal",
+      "lat": 34.6804578,
+      "lng": 135.2028947,
+      "distanceFromPortMeters": 3982,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "building": "public",
+        "ferry": "yes",
+        "name:en": "Kobe Port Terminal",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/f0858ef16bfb293f95e1"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/06c174f2f694192d4f41",
+      "name": "神戸三宮フェリーターミナル",
+      "nameEnglish": "Kobe Sannomiya Ferry Terminal",
+      "lat": 34.6824778,
+      "lng": 135.198921,
+      "distanceFromPortMeters": 4005,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "building": "yes",
+        "name:en": "Kobe Sannomiya Ferry Terminal",
+        "operator": "神戸フェリーセンター"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/06c174f2f694192d4f41"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/6d61601d3914f8019615",
+      "name": "神戸空港海上アクセスターミナル",
+      "nameEnglish": "Kobe Airport Kaijo Access Terminal",
+      "lat": 34.639753,
+      "lng": 135.2287923,
+      "distanceFromPortMeters": 4607,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "building": "yes",
+        "ferry": "yes",
+        "name:en": "Kobe Airport Kaijo Access Terminal",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/6d61601d3914f8019615"
+      ]
+    }
+  ],
+  "counts": {
+    "attraction": 19,
+    "outdoors": 6,
+    "food_drink": 11,
+    "shopping": 5,
+    "essentials": 2
+  },
+  "pois": [
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ead2eef6a15687f98eb3",
+      "name": "神戸ドールミュージアム",
+      "nameEnglish": "Kobe Doll Museum",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 34.6894002,
+      "lng": 135.1905765,
+      "distanceFromTerminalMeters": 4487,
+      "distanceFromDefaultTerminalMeters": 4487,
+      "minDistanceFromAnyTerminalMeters": 4487,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "17",
+      "openingHours": "10:00-18:00",
+      "website": "https://timeroman.com/kobedollmuseum/",
+      "phone": "+81 78 327 4680",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/3daa2bb7a49deaa460d6",
+      "name": "神戸在日コリアンくらしとことばのミュージアム",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 34.6572161,
+      "lng": 135.1470982,
+      "distanceFromTerminalMeters": 3115,
+      "distanceFromDefaultTerminalMeters": 3115,
+      "minDistanceFromAnyTerminalMeters": 3115,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "〒653-0038 兵庫県神戸市長田区若松町3丁目1-1-103",
+      "openingHours": "We 10:00-18:00; Fr-Mo 10:00-18:00",
+      "website": "https://www.korea-uriecc.org/",
+      "phone": "+81 078 777 2232",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d2f27feb43d2d0373ebe",
+      "name": "UCCコーヒー博物館",
+      "nameEnglish": "UCC Coffee Museum",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 34.6651615,
+      "lng": 135.2169087,
+      "distanceFromTerminalMeters": 3773,
+      "distanceFromDefaultTerminalMeters": 3773,
+      "minDistanceFromAnyTerminalMeters": 3773,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "2, 神戸市",
+      "openingHours": "",
+      "website": "https://www.ucc.co.jp/museum/",
+      "phone": "+81 78 302 8880",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b6ac14ab184c18824c90",
+      "name": "ASICS Museum",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 34.6686256,
+      "lng": 135.2158921,
+      "distanceFromTerminalMeters": 3882,
+      "distanceFromDefaultTerminalMeters": 3882,
+      "minDistanceFromAnyTerminalMeters": 3882,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1, Kobe",
+      "openingHours": "Tu-Sa 10:00-17:00",
+      "website": "https://corp.asics.com/en/about_asics/museum",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ad557db625b91db96fbd",
+      "name": "KOBEとんぼ玉ミュージアム",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 34.6885803,
+      "lng": 135.1937695,
+      "distanceFromTerminalMeters": 4471,
+      "distanceFromDefaultTerminalMeters": 4471,
+      "minDistanceFromAnyTerminalMeters": 4471,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "https://www.lampwork-museum.com",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/5f79b549a0483dce1897",
+      "name": "神戸市電1103号",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "tram",
+      "lat": 34.6578911,
+      "lng": 135.1695619,
+      "distanceFromTerminalMeters": 1297,
+      "distanceFromDefaultTerminalMeters": 1297,
+      "minDistanceFromAnyTerminalMeters": 1297,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "tram"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/0fee7ac07ee08493c703",
+      "name": "神戸須磨シーワールド",
+      "nameEnglish": "Kobe Suma Sea World",
+      "category": "attraction",
+      "subcategory": "aquarium",
+      "lat": 34.6439288,
+      "lng": 135.1278689,
+      "distanceFromTerminalMeters": 4816,
+      "distanceFromDefaultTerminalMeters": 4816,
+      "minDistanceFromAnyTerminalMeters": 4816,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "https://www.kobesuma-seaworld.jp/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "aquarium"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/6a3e270a31094a7d816b",
+      "name": "KOBE鉄人三国志ギャラリー",
+      "nameEnglish": "Kobe Iron Man Three Kingdoms Gallery",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 34.6521395,
+      "lng": 135.1477951,
+      "distanceFromTerminalMeters": 2955,
+      "distanceFromDefaultTerminalMeters": 2955,
+      "minDistanceFromAnyTerminalMeters": 2955,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/6e821e884289f4dc51dc",
+      "name": "神戸海洋博物館",
+      "nameEnglish": "Kobe Maritime Museum",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 34.6829503,
+      "lng": 135.1884501,
+      "distanceFromTerminalMeters": 3745,
+      "distanceFromDefaultTerminalMeters": 3745,
+      "minDistanceFromAnyTerminalMeters": 3745,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "2, 神戸市, 650-0042",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/5ac58ddb832f6917d89f",
+      "name": "神戸市立博物館",
+      "nameEnglish": "Kobe City Museum",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 34.6872817,
+      "lng": 135.1929257,
+      "distanceFromTerminalMeters": 4311,
+      "distanceFromDefaultTerminalMeters": 4311,
+      "minDistanceFromAnyTerminalMeters": 4311,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/a917061f7e746ee4900f",
+      "name": "神戸どうぶつ王国",
+      "nameEnglish": "KOBE Animal Kingdom",
+      "category": "attraction",
+      "subcategory": "zoo",
+      "lat": 34.6541246,
+      "lng": 135.2231705,
+      "distanceFromTerminalMeters": 3975,
+      "distanceFromDefaultTerminalMeters": 3975,
+      "minDistanceFromAnyTerminalMeters": 3975,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "zoo"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/755857e01f8338f9fd1d",
+      "name": "神戸市立王子動物園",
+      "nameEnglish": "Kobe Oji Zoo",
+      "category": "attraction",
+      "subcategory": "zoo",
+      "lat": 34.7107695,
+      "lng": 135.2141218,
+      "distanceFromTerminalMeters": 7443,
+      "distanceFromDefaultTerminalMeters": 7443,
+      "minDistanceFromAnyTerminalMeters": 7443,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "神戸市, 657-0838",
+      "openingHours": "",
+      "website": "https://www.kobe-ojizoo.jp/",
+      "phone": "+81 78 861 5624",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "zoo"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/63383b63a201a746ff32",
+      "name": "鉄人28号モニュメント",
+      "nameEnglish": "\"Tetsujin 28-go\" Monument",
+      "category": "attraction",
+      "subcategory": "monument",
+      "lat": 34.6560131,
+      "lng": 135.1441792,
+      "distanceFromTerminalMeters": 3344,
+      "distanceFromDefaultTerminalMeters": 3344,
+      "minDistanceFromAnyTerminalMeters": 3344,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "monument"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/9703f486dc0f443441bd",
+      "name": "D51 1072",
+      "nameEnglish": "D51 1072 Locomotive",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 34.6812331,
+      "lng": 135.1788135,
+      "distanceFromTerminalMeters": 3475,
+      "distanceFromDefaultTerminalMeters": 3475,
+      "minDistanceFromAnyTerminalMeters": 3475,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "locomotive",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/986437e5549a3d6276f5",
+      "name": "神戸港移民船乗船記念碑",
+      "nameEnglish": "Kobe Port Emigrants",
+      "category": "attraction",
+      "subcategory": "monument",
+      "lat": 34.68149,
+      "lng": 135.18947,
+      "distanceFromTerminalMeters": 3607,
+      "distanceFromDefaultTerminalMeters": 3607,
+      "minDistanceFromAnyTerminalMeters": 3607,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "monument"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/2fd45e891acf82167a68",
+      "name": "風見鶏の館",
+      "nameEnglish": "Weathercock House",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 34.7013806,
+      "lng": 135.189503,
+      "distanceFromTerminalMeters": 5779,
+      "distanceFromDefaultTerminalMeters": 5779,
+      "minDistanceFromAnyTerminalMeters": 5779,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "3, 神戸市, 650-0002, JP",
+      "openingHours": "",
+      "website": "http://www.kobe-kazamidori.com/kazamidori/",
+      "phone": "+81 78 242 3223",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "manor",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/bc5262fa788be1a98eb1",
+      "name": "NATURE STUDIO",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "theme_park",
+      "lat": 34.6896335,
+      "lng": 135.1651161,
+      "distanceFromTerminalMeters": 4612,
+      "distanceFromDefaultTerminalMeters": 4612,
+      "minDistanceFromAnyTerminalMeters": 4612,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "theme_park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f93271b3677ecbfbc0fa",
+      "name": "北野外国人倶楽部",
+      "nameEnglish": "Kitano Foreigners Association",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 34.7030983,
+      "lng": 135.1913586,
+      "distanceFromTerminalMeters": 5995,
+      "distanceFromDefaultTerminalMeters": 5995,
+      "minDistanceFromAnyTerminalMeters": 5995,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "manor",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/8f7ef881748d036489b0",
+      "name": "しあわせの村",
+      "nameEnglish": "Village of Happiness KOBE",
+      "category": "attraction",
+      "subcategory": "theme_park",
+      "lat": 34.7108932,
+      "lng": 135.1133515,
+      "distanceFromTerminalMeters": 9110,
+      "distanceFromDefaultTerminalMeters": 9110,
+      "minDistanceFromAnyTerminalMeters": 9110,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "https://shiawasenomura.org/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "theme_park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/17a2f07e16f5a7fe92d5",
+      "name": "神戸ポートタワー",
+      "nameEnglish": "Kobe Port Tower",
+      "category": "outdoors",
+      "subcategory": "viewpoint",
+      "lat": 34.6826279,
+      "lng": 135.1867242,
+      "distanceFromTerminalMeters": 3680,
+      "distanceFromDefaultTerminalMeters": 3680,
+      "minDistanceFromAnyTerminalMeters": 3680,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "5, 神戸市, 650-0042, JP",
+      "openingHours": "",
+      "website": "https://www.kobe-port-tower.com/",
+      "phone": "+81 78 391 6751",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "man_made": "tower",
+        "tourism": "viewpoint"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f0ef9e355044d5d1b61f",
+      "name": "東遊園地",
+      "nameEnglish": "Kobe East Park",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 34.6876645,
+      "lng": 135.1966874,
+      "distanceFromTerminalMeters": 4457,
+      "distanceFromDefaultTerminalMeters": 4457,
+      "minDistanceFromAnyTerminalMeters": 4457,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "24/7",
+      "website": "http://eastpark.jp/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/df05273830b00d81053e",
+      "name": "会下山公園",
+      "nameEnglish": "Egeyama Park",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 34.6783287,
+      "lng": 135.1576508,
+      "distanceFromTerminalMeters": 3755,
+      "distanceFromDefaultTerminalMeters": 3755,
+      "minDistanceFromAnyTerminalMeters": 3755,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "https://kobe-machiguide.com/park/egeyama-park/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/1e7665756a15eca11702",
+      "name": "TOTTEI PARK",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 34.6799969,
+      "lng": 135.1963316,
+      "distanceFromTerminalMeters": 3655,
+      "distanceFromDefaultTerminalMeters": 3655,
+      "minDistanceFromAnyTerminalMeters": 3655,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "https://www.totteikobe.jp/about_totteipark",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/e63ed0de0c94e7cdcfe4",
+      "name": "神戸港震災メモリアルパーク",
+      "nameEnglish": "Earthquake Memorial Park",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 34.6838271,
+      "lng": 135.1901314,
+      "distanceFromTerminalMeters": 3874,
+      "distanceFromDefaultTerminalMeters": 3874,
+      "minDistanceFromAnyTerminalMeters": 3874,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "兵庫県神戸市中央区波止場町2",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "memorial",
+        "leisure": "park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/79b05e0816c3c1ff76de",
+      "name": "須磨離宮公園 本園",
+      "nameEnglish": "Suma Rikyu Park",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 34.6537751,
+      "lng": 135.1167813,
+      "distanceFromTerminalMeters": 5798,
+      "distanceFromDefaultTerminalMeters": 5798,
+      "minDistanceFromAnyTerminalMeters": 5798,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "神戸市, 654-0018",
+      "openingHours": "Fr-We 09:00-17:00",
+      "website": "https://www.kobe-park.or.jp/rikyu/",
+      "phone": "+81 78 732 6688",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/4b434e781d27ec478743",
+      "name": "燕楽",
+      "nameEnglish": "Enraku Shinkaichi",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 34.6777327,
+      "lng": 135.1695163,
+      "distanceFromTerminalMeters": 3229,
+      "distanceFromDefaultTerminalMeters": 3229,
+      "minDistanceFromAnyTerminalMeters": 3229,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "7-17 新開地2丁目商店街, 652-0811",
+      "openingHours": "We-Mo 11:00-00:00",
+      "website": "http://collagekids.nl/exoticootugomoricomchugoku/",
+      "phone": "",
+      "cuisine": [
+        "chinese"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/1b15b54bbb36f479e085",
+      "name": "モーリヤ",
+      "nameEnglish": "Mouriya",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 34.6926751,
+      "lng": 135.1915328,
+      "distanceFromTerminalMeters": 4861,
+      "distanceFromDefaultTerminalMeters": 4861,
+      "minDistanceFromAnyTerminalMeters": 4861,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "8 いくたロード, 神戸市, 650-0011",
+      "openingHours": "Mo-Su 11:00-21:00",
+      "website": "https://www.mouriya.co.jp/",
+      "phone": "+81-78-321-1990",
+      "cuisine": [
+        "steak_house"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/23821f8e319887131b03",
+      "name": "KOBE BEEF DINING モーリヤ",
+      "nameEnglish": "KOBE BEEF DINING Mouriya",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 34.6928692,
+      "lng": 135.1914858,
+      "distanceFromTerminalMeters": 4881,
+      "distanceFromDefaultTerminalMeters": 4881,
+      "minDistanceFromAnyTerminalMeters": 4881,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "10 いくたロード, 神戸市, 650-0011",
+      "openingHours": "Mo-Fr 11:00-15:00,17:00-21:00; Sa-Su 11:00-21:00",
+      "website": "https://www.mouriya.co.jp/",
+      "phone": "+81-78-335-2421",
+      "cuisine": [
+        "steak_house"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/2ed632955ec004da913c",
+      "name": "ル・コテ",
+      "nameEnglish": "Le cote",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 34.6759225,
+      "lng": 135.1702016,
+      "distanceFromTerminalMeters": 3019,
+      "distanceFromDefaultTerminalMeters": 3019,
+      "minDistanceFromAnyTerminalMeters": 3019,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "https://www.instagram.com/lecote2025/",
+      "phone": "",
+      "cuisine": [
+        "french"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/17eb12c66d305838a241",
+      "name": "新開地焼き肉fromブヒー",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 34.6770173,
+      "lng": 135.1716258,
+      "distanceFromTerminalMeters": 3100,
+      "distanceFromDefaultTerminalMeters": 3100,
+      "minDistanceFromAnyTerminalMeters": 3100,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1階, 神戸市, 652-0811",
+      "openingHours": "17:00-26:00",
+      "website": "https://www.instagram.com/shinkaichi_yakiniku_frombuhi?igsh=ZzllMnRmanQwM2o4&utm_source=qr",
+      "phone": "07052652929",
+      "cuisine": [
+        "焼肉"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/fe8da61c30a5503989e5",
+      "name": "ルーマニア料理 Conte",
+      "nameEnglish": "Conte Romanian cuisine",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 34.6797913,
+      "lng": 135.1840884,
+      "distanceFromTerminalMeters": 3334,
+      "distanceFromDefaultTerminalMeters": 3334,
+      "minDistanceFromAnyTerminalMeters": 3334,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "神戸市, 650-0044",
+      "openingHours": "Mo-Su 11:00-21:00",
+      "website": "",
+      "phone": "+81783511269",
+      "cuisine": [
+        "european"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/3c55c489c7d549a9b4ba",
+      "name": "洋食の朝日",
+      "nameEnglish": "Western Food Asahi",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 34.6850654,
+      "lng": 135.1788745,
+      "distanceFromTerminalMeters": 3900,
+      "distanceFromDefaultTerminalMeters": 3900,
+      "minDistanceFromAnyTerminalMeters": 3900,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "7",
+      "openingHours": "Mo-Fr 11:00-15:00",
+      "website": "",
+      "phone": "0783415117",
+      "cuisine": [
+        "curry",
+        "friture",
+        "japanese"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/3252e02584804c2e37c4",
+      "name": "ソース",
+      "nameEnglish": "SOURCE",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 34.68505,
+      "lng": 135.1835371,
+      "distanceFromTerminalMeters": 3911,
+      "distanceFromDefaultTerminalMeters": 3911,
+      "minDistanceFromAnyTerminalMeters": 3911,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1",
+      "openingHours": "Mo-Fr 11:00-15:00, 18:00-22:00; Sa-Su 11:00-16:00, 18:00-22:00",
+      "website": "",
+      "phone": "0783712003",
+      "cuisine": [
+        "italian_pizza",
+        "italian"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f123a60a019415c5896b",
+      "name": "エストエスト",
+      "nameEnglish": "EST.EST.",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 34.6859753,
+      "lng": 135.1854346,
+      "distanceFromTerminalMeters": 4031,
+      "distanceFromDefaultTerminalMeters": 4031,
+      "minDistanceFromAnyTerminalMeters": 4031,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "8",
+      "openingHours": "Tu-Su 11:30-14:30, 17:30-21:30",
+      "website": "",
+      "phone": "0783211156",
+      "cuisine": [
+        "italian",
+        "italian_pizza",
+        "french",
+        "pasta",
+        "fish",
+        "seafood"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/42a586357685e7f20a85",
+      "name": "南インド家庭料理 インダスレイ",
+      "nameEnglish": "INDUS RAY",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 34.6874421,
+      "lng": 135.1842144,
+      "distanceFromTerminalMeters": 4181,
+      "distanceFromDefaultTerminalMeters": 4181,
+      "minDistanceFromAnyTerminalMeters": 4181,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "10",
+      "openingHours": "Mo-Tu, Th-Sa 11:00-15:00, 17:00-21:00; Su 11:00-17:00",
+      "website": "",
+      "phone": "0783321660",
+      "cuisine": [
+        "indian",
+        "curry"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/5468941e5f4e5d1f26cc",
+      "name": "餃子の店 瓢箪 元町店",
+      "nameEnglish": "Gyoza Restaurant Hyoutan Motomachi",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 34.6897933,
+      "lng": 135.1889099,
+      "distanceFromTerminalMeters": 4499,
+      "distanceFromDefaultTerminalMeters": 4499,
+      "minDistanceFromAnyTerminalMeters": 4499,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "650-0022",
+      "openingHours": "Mo-Su 11:00-20:30",
+      "website": "",
+      "phone": "0783910364",
+      "cuisine": [
+        "chinese"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d3b4d19e1953f844dd06",
+      "name": "デュオこうべ山の手",
+      "nameEnglish": "Duo Kobe Yamanote",
+      "category": "shopping",
+      "subcategory": "mall",
+      "lat": 34.6795628,
+      "lng": 135.1771304,
+      "distanceFromTerminalMeters": 3298,
+      "distanceFromDefaultTerminalMeters": 3298,
+      "minDistanceFromAnyTerminalMeters": 3298,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "https://www.duokobe.com/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "shop": "mall"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/801b624ac0bdf4c460c0",
+      "name": "カルメニ",
+      "nameEnglish": "CULMENI",
+      "category": "shopping",
+      "subcategory": "mall",
+      "lat": 34.6784423,
+      "lng": 135.1822762,
+      "distanceFromTerminalMeters": 3169,
+      "distanceFromDefaultTerminalMeters": 3169,
+      "minDistanceFromAnyTerminalMeters": 3169,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "toilets:diaper=yes",
+      "osmTags": {
+        "shop": "mall"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/4fa768938d7b3143559d",
+      "name": "Umie South Mall",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "mall",
+      "lat": 34.679542,
+      "lng": 135.1826722,
+      "distanceFromTerminalMeters": 3294,
+      "distanceFromDefaultTerminalMeters": 3294,
+      "minDistanceFromAnyTerminalMeters": 3294,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "2, 神戸市, 650-0044",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "ostomate=yes",
+      "osmTags": {
+        "shop": "mall"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f350911b4e06a9179d4a",
+      "name": "Umie North Mall",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "mall",
+      "lat": 34.6798215,
+      "lng": 135.1822003,
+      "distanceFromTerminalMeters": 3322,
+      "distanceFromDefaultTerminalMeters": 3322,
+      "minDistanceFromAnyTerminalMeters": 3322,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "2, 神戸市, 650-0044, JP",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "ostomate=yes",
+      "osmTags": {
+        "shop": "mall"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b798841383b187ba049e",
+      "name": "ブルメールHAT神戸",
+      "nameEnglish": "Blumer HAT KOBE",
+      "category": "shopping",
+      "subcategory": "mall",
+      "lat": 34.6994887,
+      "lng": 135.2142336,
+      "distanceFromTerminalMeters": 6331,
+      "distanceFromDefaultTerminalMeters": 6331,
+      "minDistanceFromAnyTerminalMeters": 6331,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "2-2-2 灘浜脇浜線, 651-0073",
+      "openingHours": "Mo-Su 10:00-21:00",
+      "website": "https://bulmer.jp",
+      "phone": "078-200-3299",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "shop": "mall"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/883d274de67422f65d51",
+      "name": "和田岬砲台",
+      "nameEnglish": "",
+      "category": "essentials",
+      "subcategory": "visitor_information",
+      "lat": 34.6521205,
+      "lng": 135.1847878,
+      "distanceFromTerminalMeters": 497,
+      "distanceFromDefaultTerminalMeters": 497,
+      "minDistanceFromAnyTerminalMeters": 497,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "information"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b494b271290f72329224",
+      "name": "ハーバーランド第2",
+      "nameEnglish": "Harborland 2",
+      "category": "essentials",
+      "subcategory": "bicycle_rental",
+      "lat": 34.679342,
+      "lng": 135.180275,
+      "distanceFromTerminalMeters": 3263,
+      "distanceFromDefaultTerminalMeters": 3263,
+      "minDistanceFromAnyTerminalMeters": 3263,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "Docomo Bike Share",
+      "description": "",
+      "osmTags": {
+        "amenity": "bicycle_rental"
+      }
+    }
+  ],
+  "portAnchor": {
+    "id": "ports-json-anchor",
+    "name": "KOBE Port",
+    "lat": 34.65,
+    "lng": 135.18,
+    "address": "Kobe, Hyogo, Japan",
+    "source": "ports.json",
+    "sourceId": "",
+    "score": 0,
+    "slug": "kobe-port"
+  },
+  "terminalResolution": {
+    "status": "resolved",
+    "method": "accepted_terminal_candidate",
+    "verified": true,
+    "notes": "External port and cruise-schedule checks support passenger cruise use, and the accepted candidate ID(s) correspond to the actual cruise terminal, cruise pier, or passenger terminal used by cruise ships."
+  }
+}

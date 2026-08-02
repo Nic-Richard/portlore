@@ -1,0 +1,1019 @@
+{
+  "schemaVersion": 5,
+  "catalogType": "curation-candidates",
+  "generatedAt": "2026-07-30T08:00:01.290Z",
+  "source": "openstreetmap",
+  "sourceExtract": "finland-latest.osm.pbf",
+  "radiusMeters": 10000,
+  "port": {
+    "id": "vaasa-finland",
+    "city": "Vaasa",
+    "country": "Finland"
+  },
+  "defaultTerminalId": "ports-json-anchor",
+  "terminal": {
+    "id": "ports-json-anchor",
+    "name": "VAASA Port",
+    "lat": 63.1,
+    "lng": 21.58,
+    "address": "Vaasa, Ostrobothnia, Finland",
+    "source": "ports.json",
+    "sourceId": "",
+    "score": 0,
+    "slug": "vaasa-port"
+  },
+  "terminals": [
+    {
+      "id": "ports-json-anchor",
+      "name": "VAASA Port",
+      "lat": 63.1,
+      "lng": 21.58,
+      "address": "Vaasa, Ostrobothnia, Finland",
+      "source": "ports.json",
+      "sourceId": "",
+      "score": 0,
+      "slug": "vaasa-port"
+    }
+  ],
+  "terminalCandidateRadiusMeters": 5000,
+  "terminalCandidates": [
+    {
+      "source": "nominatim",
+      "sourceId": "osm/way/22901175",
+      "osmType": "way",
+      "osmId": "22901175",
+      "name": "Vaasan satama",
+      "nameEnglish": "Port of Vaasa",
+      "lat": 63.085282,
+      "lng": 21.5648166,
+      "distanceFromPortMeters": 1806,
+      "address": "Vaasan satama, Satama, Vaskiluoto, Vaasa, Vaasan seutukunta, Österbotten, Manner-Suomi, Suomi / Finland",
+      "displayName": "Vaasan satama, Satama, Vaskiluoto, Vaasa, Vaasan seutukunta, Österbotten, Manner-Suomi, Suomi / Finland",
+      "query": "VAASA Port, Vaasa, Finland",
+      "matchedBy": [
+        "Nominatim query: VAASA Port, Vaasa, Finland"
+      ],
+      "osmTags": {
+        "operator": "Kvarken Ports",
+        "industrial": "port",
+        "seamark:type": "harbour"
+      },
+      "sources": [
+        "nominatim"
+      ],
+      "sourceIds": [
+        "osm/way/22901175"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/5c5c93602f3577f10f97",
+      "name": "Vaasan satamaterminaali",
+      "nameEnglish": "Vaasa terminal",
+      "lat": 63.0874868,
+      "lng": 21.5562136,
+      "distanceFromPortMeters": 1835,
+      "address": "14 Vaskiluodon satamakatu, Vaasa, 65170",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "building": "yes",
+        "ferry": "yes",
+        "name:en": "Vaasa terminal",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/5c5c93602f3577f10f97"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/e2907cec17a240879d70",
+      "name": "(unnamed maritime feature)",
+      "nameEnglish": "",
+      "lat": 63.0876998,
+      "lng": 21.5542548,
+      "distanceFromPortMeters": 1884,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "stop_position"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/e2907cec17a240879d70"
+      ]
+    }
+  ],
+  "counts": {
+    "attraction": 15,
+    "outdoors": 5,
+    "food_drink": 10,
+    "shopping": 2,
+    "essentials": 2
+  },
+  "pois": [
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/881633687fd6e1ee8428",
+      "name": "Vaasan merimuseo",
+      "nameEnglish": "Vaasa Maritime Museum",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 63.107207,
+      "lng": 21.5848487,
+      "distanceFromTerminalMeters": 838,
+      "distanceFromDefaultTerminalMeters": 838,
+      "minDistanceFromAnyTerminalMeters": 838,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Jun-Aug: Mo-Fr 13:00-18:00",
+      "website": "http://www.vaasanmerimuseo.fi/",
+      "phone": "+358 50 382 8771",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/8efc3d64203bae204078",
+      "name": "Kuntsin modernin taiteen museo",
+      "nameEnglish": "Kuntsi Museum of Modern Art",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 63.0964101,
+      "lng": 21.6003365,
+      "distanceFromTerminalMeters": 1098,
+      "distanceFromDefaultTerminalMeters": 1098,
+      "minDistanceFromAnyTerminalMeters": 1098,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Sisäsatama, Vaasa, 65170",
+      "openingHours": "We-Su 10:00-17:00",
+      "website": "https://www.vaasa.fi/en/see-and-experience/culture-in-vaasa-and-vaasa-region/museums-of-vaasa/kuntsi-museum-of-modern-art/",
+      "phone": "+358 40 183 0440",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/5b65871f87065eaf091e",
+      "name": "Tikanojan taidekoti",
+      "nameEnglish": "Tikanoja Art Museum",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 63.0945756,
+      "lng": 21.6064756,
+      "distanceFromTerminalMeters": 1462,
+      "distanceFromDefaultTerminalMeters": 1462,
+      "minDistanceFromAnyTerminalMeters": 1462,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "4 Hovioikeudenpuistikko, 65100",
+      "openingHours": "Tu-Su 10:00-17:00",
+      "website": "https://www.vaasa.fi/en/see-and-experience/culture-in-vaasa-and-vaasa-region/museums-of-vaasa/tikanoja-art-museum/",
+      "phone": "+358 40 182 8702",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/4cc7eb50e5e32d053920",
+      "name": "Vaasan taidehalli",
+      "nameEnglish": "Vaasa Art Hall",
+      "category": "attraction",
+      "subcategory": "gallery",
+      "lat": 63.095231,
+      "lng": 21.6121517,
+      "distanceFromTerminalMeters": 1702,
+      "distanceFromDefaultTerminalMeters": 1702,
+      "minDistanceFromAnyTerminalMeters": 1702,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Tu-Sa 11:00-17:00; Su 12:00-17:00",
+      "website": "https://vaasankaupunginmuseot.fi/vaasan-taidehalli/",
+      "phone": "+358 40 182 3839",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "gallery"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/6e9a4aedda31ad4d045f",
+      "name": "Vaasan auto- ja moottorimuseo",
+      "nameEnglish": "Vaasa Car and Motor Museum",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 63.0974456,
+      "lng": 21.6312968,
+      "distanceFromTerminalMeters": 2596,
+      "distanceFromDefaultTerminalMeters": 2596,
+      "minDistanceFromAnyTerminalMeters": 2596,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "18 Myllykatu, Vaasa, 65100",
+      "openingHours": "May-Aug 10:00-17:00",
+      "website": "https://vaasanautomuseo.fi",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/0f79d1d491cbae94d4b2",
+      "name": "Wasa Graffitilandia",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "gallery",
+      "lat": 63.0960412,
+      "lng": 21.6290465,
+      "distanceFromTerminalMeters": 2507,
+      "distanceFromDefaultTerminalMeters": 2507,
+      "minDistanceFromAnyTerminalMeters": 2507,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "8 Opistokatu, Vaasa, 65100",
+      "openingHours": "Tu-Su 12:00-16:00",
+      "website": "https://wasagraffitilandia.fi",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "gallery"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/829e77fb2fe23e51da09",
+      "name": "Suomen ilmailun muistomerkki",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "monument",
+      "lat": 63.0919925,
+      "lng": 21.6003105,
+      "distanceFromTerminalMeters": 1355,
+      "distanceFromDefaultTerminalMeters": 1355,
+      "minDistanceFromAnyTerminalMeters": 1355,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "monument"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/aaf8ce07c91e97316fa9",
+      "name": "Jääkäripatsas",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "monument",
+      "lat": 63.0931264,
+      "lng": 21.6037915,
+      "distanceFromTerminalMeters": 1420,
+      "distanceFromDefaultTerminalMeters": 1420,
+      "minDistanceFromAnyTerminalMeters": 1420,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "monument"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/8f7131e3c33c65321b98",
+      "name": "Jatulintarha",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "monument",
+      "lat": 63.1069527,
+      "lng": 21.6040644,
+      "distanceFromTerminalMeters": 1436,
+      "distanceFromDefaultTerminalMeters": 1436,
+      "minDistanceFromAnyTerminalMeters": 1436,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "monument"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/fd26b3148ca082115b82",
+      "name": "Zacharias Topelius",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "monument",
+      "lat": 63.0955805,
+      "lng": 21.6093765,
+      "distanceFromTerminalMeters": 1558,
+      "distanceFromDefaultTerminalMeters": 1558,
+      "minDistanceFromAnyTerminalMeters": 1558,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "monument"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/0a1c8115e08a37e10a8e",
+      "name": "Myrskyn jälkeen",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "monument",
+      "lat": 63.1077184,
+      "lng": 21.6076612,
+      "distanceFromTerminalMeters": 1635,
+      "distanceFromDefaultTerminalMeters": 1635,
+      "minDistanceFromAnyTerminalMeters": 1635,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "monument"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/dcacb9da3ea07e457a92",
+      "name": "Vaasan vesitorni",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 63.0934218,
+      "lng": 21.6127693,
+      "distanceFromTerminalMeters": 1804,
+      "distanceFromDefaultTerminalMeters": 1804,
+      "minDistanceFromAnyTerminalMeters": 1804,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "man_made": "water_tower",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ed04687853a70129b535",
+      "name": "Vaasan Jaakkoo",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "monument",
+      "lat": 63.0985949,
+      "lng": 21.6170443,
+      "distanceFromTerminalMeters": 1870,
+      "distanceFromDefaultTerminalMeters": 1870,
+      "minDistanceFromAnyTerminalMeters": 1870,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "monument"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/dd750f0dd039165bd4a1",
+      "name": "Edvininpolku",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 63.1046227,
+      "lng": 21.6603248,
+      "distanceFromTerminalMeters": 4073,
+      "distanceFromDefaultTerminalMeters": 4073,
+      "minDistanceFromAnyTerminalMeters": 4073,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "https://www.vaasa.fi/asu-ja-ela/vapaa-aika/puistot-ja-viheralueet/puistot/edvininpolun-puisto/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/5e4b64c2290980fa8c9b",
+      "name": "Town Hall",
+      "nameEnglish": "Town Hall",
+      "category": "attraction",
+      "subcategory": "ruins",
+      "lat": 63.0746739,
+      "lng": 21.7224146,
+      "distanceFromTerminalMeters": 7701,
+      "distanceFromDefaultTerminalMeters": 7701,
+      "minDistanceFromAnyTerminalMeters": 7701,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "24/7",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "limited",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "ruins"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/54a263ebe88fc9826902",
+      "name": "Hietasaaren uimaranta",
+      "nameEnglish": "Hietasaari beach",
+      "category": "outdoors",
+      "subcategory": "beach",
+      "lat": 63.0941677,
+      "lng": 21.5941823,
+      "distanceFromTerminalMeters": 964,
+      "distanceFromDefaultTerminalMeters": 964,
+      "minDistanceFromAnyTerminalMeters": 964,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "natural": "beach"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/cbacae473ca3e4b96303",
+      "name": "Mansikkasaaren uimaranta",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "beach",
+      "lat": 63.1046179,
+      "lng": 21.5840641,
+      "distanceFromTerminalMeters": 553,
+      "distanceFromDefaultTerminalMeters": 553,
+      "minDistanceFromAnyTerminalMeters": 553,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "natural": "beach"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/9bdbbf610ff7156bc4a2",
+      "name": "Viikingan uimaranta",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "beach",
+      "lat": 63.1162555,
+      "lng": 21.5954317,
+      "distanceFromTerminalMeters": 1967,
+      "distanceFromDefaultTerminalMeters": 1967,
+      "minDistanceFromAnyTerminalMeters": 1967,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "natural": "beach"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/4512a0adfb9c94463a29",
+      "name": "Vaasan Merenkyntäjät ry",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "marina",
+      "lat": 63.0996696,
+      "lng": 21.5818083,
+      "distanceFromTerminalMeters": 98,
+      "distanceFromDefaultTerminalMeters": 98,
+      "minDistanceFromAnyTerminalMeters": 98,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Niemeläntie, Vaasa, 65170",
+      "openingHours": "",
+      "website": "https://vaasanmerenkyntajat.fi/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "marina"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/2d51a1416715db54380c",
+      "name": "Vaasan moottorivenekerho - Vasa motorbåtsklubb",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "marina",
+      "lat": 63.0970489,
+      "lng": 21.5833456,
+      "distanceFromTerminalMeters": 369,
+      "distanceFromDefaultTerminalMeters": 369,
+      "minDistanceFromAnyTerminalMeters": 369,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "6 Duvaldintie, Vaasa, 65170",
+      "openingHours": "",
+      "website": "https://www.vmk.fi/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "marina"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c46d5ddb470e30313183",
+      "name": "Mathilda",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 63.1049302,
+      "lng": 21.5912189,
+      "distanceFromTerminalMeters": 787,
+      "distanceFromDefaultTerminalMeters": 787,
+      "minDistanceFromAnyTerminalMeters": 787,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Fr 08:00-21:00",
+      "website": "https://www.compass-group.fi/ravintolat-ja-ruokalistat/foodco/kaupungit/vaasa/vaasan-yliopisto/",
+      "phone": "+358 50 352 4870",
+      "cuisine": [
+        "local"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/332e546608a4e3c6f806",
+      "name": "Ravintola Seglis",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 63.0946956,
+      "lng": 21.583933,
+      "distanceFromTerminalMeters": 622,
+      "distanceFromDefaultTerminalMeters": 622,
+      "minDistanceFromAnyTerminalMeters": 622,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "14 Niemeläntie, Vaasa, 65170",
+      "openingHours": "",
+      "website": "https://www.seglis.fi/",
+      "phone": "+358 50 362 4292",
+      "cuisine": [
+        "seafood"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/fe541bedb588e4ca6c1c",
+      "name": "Kalatiski",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 63.0918041,
+      "lng": 21.6047537,
+      "distanceFromTerminalMeters": 1543,
+      "distanceFromDefaultTerminalMeters": 1543,
+      "minDistanceFromAnyTerminalMeters": 1543,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1 Sininen tie, 65100",
+      "openingHours": "Tu-Fr 09:00-18:00; Sa 10:00-16:00",
+      "website": "https://kottdisken.fi/fiskdisken/",
+      "phone": "+358 50 409 8150",
+      "cuisine": [
+        "fish"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant",
+        "shop": "seafood"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/57da47d9b7ec7d43f576",
+      "name": "Urban Pasta",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 63.0958533,
+      "lng": 21.6112347,
+      "distanceFromTerminalMeters": 1638,
+      "distanceFromDefaultTerminalMeters": 1638,
+      "minDistanceFromAnyTerminalMeters": 1638,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "11 Hovioikeudenpuistikko",
+      "openingHours": "Mo-Th 16:00-20:30; Fr,Sa 12:00-21:00; Su 13:00-18:00",
+      "website": "https://urbanpasta.fi/",
+      "phone": "+358 50 3229933",
+      "cuisine": [
+        "pasta"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/bac1c98754bc026943ce",
+      "name": "Bank Food & Wine",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 63.0960184,
+      "lng": 21.6120981,
+      "distanceFromTerminalMeters": 1675,
+      "distanceFromDefaultTerminalMeters": 1675,
+      "minDistanceFromAnyTerminalMeters": 1675,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "11 Hovioikeudenpuistikko",
+      "openingHours": "Mo 11:00-14:00; Tu-Th 11:00-14:00,15:00-23:00; Fr 11:00-23:00; Sa 15:00-23:00",
+      "website": "https://bankandpocket.fi",
+      "phone": "+358 50 5930202",
+      "cuisine": [
+        "italian"
+      ],
+      "wheelchair": "no",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f604f15114e1f6311494",
+      "name": "Tom Yum Thai",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 63.0956946,
+      "lng": 21.6133838,
+      "distanceFromTerminalMeters": 1747,
+      "distanceFromDefaultTerminalMeters": 1747,
+      "minDistanceFromAnyTerminalMeters": 1747,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "2 Ylätori",
+      "openingHours": "Mo-Fr 10:30-21:00; Sa 11:00-21:00; Su 12:00-21:00",
+      "website": "https://tomyumthai.fi/",
+      "phone": "+358 50 449 9366",
+      "cuisine": [
+        "asian"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b82f135bf7355a044264",
+      "name": "Memos",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 63.0978748,
+      "lng": 21.6146103,
+      "distanceFromTerminalMeters": 1757,
+      "distanceFromDefaultTerminalMeters": 1757,
+      "minDistanceFromAnyTerminalMeters": 1757,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "18 Hietasaarenkatu, Vaasa, 65100",
+      "openingHours": "Mo-Th 11:00-21:00; Fr 11:00-22:00; Sa 12:00-22:00",
+      "website": "https://memos.fi/",
+      "phone": "+358 44 972 2607",
+      "cuisine": [
+        "mediterranean"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d7b0cb842b9e2fc7916a",
+      "name": "Sunsari",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 63.0979373,
+      "lng": 21.6149208,
+      "distanceFromTerminalMeters": 1772,
+      "distanceFromDefaultTerminalMeters": 1772,
+      "minDistanceFromAnyTerminalMeters": 1772,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "65100",
+      "openingHours": "Mo 11:00-15:00; Tu-Th 11:00-21:00; Sa 12:00-22:00; Su 12:00-20:00; Fr 11:00-22:00",
+      "website": "https://ravintolasunsari.com/",
+      "phone": "+358 40 851 4605",
+      "cuisine": [
+        "indian"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/490bd23bf9f03cc626c5",
+      "name": "Daiwo Sushi",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 63.0967247,
+      "lng": 21.6146551,
+      "distanceFromTerminalMeters": 1781,
+      "distanceFromDefaultTerminalMeters": 1781,
+      "minDistanceFromAnyTerminalMeters": 1781,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "12 Kauppapuistikko",
+      "openingHours": "Mo-Fr 10:30-20:00; Sa 11:30-20:00; Su 12:00-19:00",
+      "website": "https://daiwosushi.fi/vaasa/",
+      "phone": "+358 41 7057999",
+      "cuisine": [
+        "asian"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/705a5fd99fda8d71821c",
+      "name": "K.achi Sushi & Noodle bar",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 63.0980094,
+      "lng": 21.6154183,
+      "distanceFromTerminalMeters": 1796,
+      "distanceFromDefaultTerminalMeters": 1796,
+      "minDistanceFromAnyTerminalMeters": 1796,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "18 Hietasaarenkatu",
+      "openingHours": "Mo-Fr 11:00-19:00; Sa 11:30-18:00; Su 13:00-18:00",
+      "website": "https://kachi.fi",
+      "phone": "+358 44 2360238",
+      "cuisine": [
+        "japanese",
+        "noodles",
+        "sushi"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/52d0c2cbf5e4f3a1870c",
+      "name": "Espen",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "mall",
+      "lat": 63.0960879,
+      "lng": 21.6177859,
+      "distanceFromTerminalMeters": 1950,
+      "distanceFromDefaultTerminalMeters": 1950,
+      "minDistanceFromAnyTerminalMeters": 1950,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "16 Hovioikeudenpuistikko",
+      "openingHours": "Mo-Fr 08:00-21:00; Sa 08:00-18:00; Su 10:00-18:00",
+      "website": "https://espenshopping.fi",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "shop": "mall"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/73b71aca1644faac45ae",
+      "name": "Kauppahalli",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "mall",
+      "lat": 63.0949466,
+      "lng": 21.6178005,
+      "distanceFromTerminalMeters": 1983,
+      "distanceFromDefaultTerminalMeters": 1983,
+      "minDistanceFromAnyTerminalMeters": 1983,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "18 Vaasanpuistikko, 65100",
+      "openingHours": "Mo-Fr 09:00-17:00; Sa 10:00-15:00",
+      "website": "https://vaasankauppahalli.fi",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "shop": "mall"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/2a2972880dfd9e06ccdc",
+      "name": "Visit Vaasa",
+      "nameEnglish": "Visit Vaasa",
+      "category": "essentials",
+      "subcategory": "visitor_information",
+      "lat": 63.0943012,
+      "lng": 21.6128824,
+      "distanceFromTerminalMeters": 1772,
+      "distanceFromDefaultTerminalMeters": 1772,
+      "minDistanceFromAnyTerminalMeters": 1772,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "12 Vaasanpuistikko",
+      "openingHours": "Mo-Fr 10:00-15:00",
+      "website": "https://www.vaasa.fi/koe-ja-nae/hyva-tietaa/matkailuneuvonta/",
+      "phone": "+358 40 123 8977",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "information"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/9d66622a13a4b081cfd8",
+      "name": "Visit Vaasa Kesäinfo",
+      "nameEnglish": "",
+      "category": "essentials",
+      "subcategory": "visitor_information",
+      "lat": 63.0961603,
+      "lng": 21.6152353,
+      "distanceFromTerminalMeters": 1823,
+      "distanceFromDefaultTerminalMeters": 1823,
+      "minDistanceFromAnyTerminalMeters": 1823,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Su 09:00-18:00; Aug 16-29: Mo-Fr 09:00-17:00, Sa-Su 09:00-12:00, 13:00-17:00; Aug 30-31: off; Sep-May off",
+      "website": "http://www.visitvaasa.fi",
+      "phone": "+358 40 159 8012",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "information"
+      }
+    }
+  ],
+  "portAnchor": {
+    "id": "ports-json-anchor",
+    "name": "VAASA Port",
+    "lat": 63.1,
+    "lng": 21.58,
+    "address": "Vaasa, Ostrobothnia, Finland",
+    "source": "ports.json",
+    "sourceId": "",
+    "score": 0,
+    "slug": "vaasa-port"
+  },
+  "terminalResolution": {
+    "status": "unresolved",
+    "method": "ports_json_fallback",
+    "verified": false,
+    "notes": "External port and cruise-schedule checks found no established ocean passenger cruise terminal or meaningful cruise-call pattern here. The supplied candidates are cargo, ferry, marina, local-dock, road, or unrelated results."
+  }
+}

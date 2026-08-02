@@ -1,0 +1,1261 @@
+{
+  "schemaVersion": 5,
+  "catalogType": "curation-candidates",
+  "generatedAt": "2026-07-30T07:39:19.874Z",
+  "source": "openstreetmap",
+  "sourceExtract": "bremen-latest.osm.pbf",
+  "radiusMeters": 10000,
+  "port": {
+    "id": "bremerhaven-germany",
+    "city": "Bremerhaven",
+    "country": "Germany"
+  },
+  "defaultTerminalId": "osm/way/41339649",
+  "terminal": {
+    "id": "osm/way/41339649",
+    "name": "Columbus Cruise Center Bremerhaven",
+    "nameEnglish": "",
+    "lat": 53.5607299,
+    "lng": 8.5528959,
+    "address": "Columbus Cruise Center Bremerhaven, 1, Columbuskaje, Stadtbremisches Überseehafengebiet, Häfen, Bremen-Mitte, Bremerhaven, Bremen, 27568, Deutschland",
+    "source": "verified_terminal_candidate",
+    "sourceId": "osm/way/41339649",
+    "terminalType": "passenger_cruise_terminal",
+    "verified": true,
+    "notes": "Accepted 1 candidate explicitly identified as an ocean-cruise or cruise-passenger terminal; ferry and unrelated results were excluded.",
+    "sourceUrls": [],
+    "sources": [
+      "nominatim"
+    ],
+    "sourceIds": [
+      "osm/way/41339649"
+    ],
+    "osmTags": {
+      "building": "yes"
+    },
+    "matchedBy": [
+      "Nominatim query: Bremerhaven cruise terminal, Germany"
+    ],
+    "distanceFromPortMeters": 3858
+  },
+  "terminals": [
+    {
+      "id": "osm/way/41339649",
+      "name": "Columbus Cruise Center Bremerhaven",
+      "nameEnglish": "",
+      "lat": 53.5607299,
+      "lng": 8.5528959,
+      "address": "Columbus Cruise Center Bremerhaven, 1, Columbuskaje, Stadtbremisches Überseehafengebiet, Häfen, Bremen-Mitte, Bremerhaven, Bremen, 27568, Deutschland",
+      "source": "verified_terminal_candidate",
+      "sourceId": "osm/way/41339649",
+      "terminalType": "passenger_cruise_terminal",
+      "verified": true,
+      "notes": "Accepted 1 candidate explicitly identified as an ocean-cruise or cruise-passenger terminal; ferry and unrelated results were excluded.",
+      "sourceUrls": [],
+      "sources": [
+        "nominatim"
+      ],
+      "sourceIds": [
+        "osm/way/41339649"
+      ],
+      "osmTags": {
+        "building": "yes"
+      },
+      "matchedBy": [
+        "Nominatim query: Bremerhaven cruise terminal, Germany"
+      ],
+      "distanceFromPortMeters": 3858
+    }
+  ],
+  "terminalCandidateRadiusMeters": 5000,
+  "terminalCandidates": [
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b466b6fcbae510dd2271",
+      "name": "Weserfähre",
+      "nameEnglish": "",
+      "lat": 53.5365673,
+      "lng": 8.5806343,
+      "distanceFromPortMeters": 731,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/b466b6fcbae510dd2271"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/dc0f8cd79279834acf9f",
+      "name": "Seebäderkaje",
+      "nameEnglish": "",
+      "lat": 53.5430663,
+      "lng": 8.570303,
+      "distanceFromPortMeters": 1588,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "cargo": "passengers",
+        "ferry": "yes",
+        "operator": "Reederei Cassen Eils",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/dc0f8cd79279834acf9f"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f288aebc872c63249167",
+      "name": "Hafenrundfahrt",
+      "nameEnglish": "Harbour Tours",
+      "lat": 53.5444474,
+      "lng": 8.5735582,
+      "distanceFromPortMeters": 1662,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "name:en": "Harbour Tours",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/f288aebc872c63249167"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f8060247acdd2a071589",
+      "name": "Weserfähre",
+      "nameEnglish": "",
+      "lat": 53.5205654,
+      "lng": 8.5458183,
+      "distanceFromPortMeters": 2491,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "operator": "Weserfähre GmbH",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/f8060247acdd2a071589"
+      ]
+    },
+    {
+      "source": "nominatim",
+      "sourceId": "osm/way/41339649",
+      "osmType": "way",
+      "osmId": "41339649",
+      "name": "Columbus Cruise Center Bremerhaven",
+      "nameEnglish": "",
+      "lat": 53.5607299,
+      "lng": 8.5528959,
+      "distanceFromPortMeters": 3858,
+      "address": "Columbus Cruise Center Bremerhaven, 1, Columbuskaje, Stadtbremisches Überseehafengebiet, Häfen, Bremen-Mitte, Bremerhaven, Bremen, 27568, Deutschland",
+      "displayName": "Columbus Cruise Center Bremerhaven, 1, Columbuskaje, Stadtbremisches Überseehafengebiet, Häfen, Bremen-Mitte, Bremerhaven, Bremen, 27568, Deutschland",
+      "query": "Bremerhaven cruise terminal, Germany",
+      "matchedBy": [
+        "Nominatim query: Bremerhaven cruise terminal, Germany"
+      ],
+      "osmTags": {
+        "building": "yes"
+      },
+      "sources": [
+        "nominatim"
+      ],
+      "sourceIds": [
+        "osm/way/41339649"
+      ]
+    },
+    {
+      "source": "nominatim",
+      "sourceId": "osm/way/329725243",
+      "osmType": "way",
+      "osmId": "329725243",
+      "name": "Greenyard Fresh Germany GmbH",
+      "nameEnglish": "",
+      "lat": 53.5637663,
+      "lng": 8.5527081,
+      "distanceFromPortMeters": 4165,
+      "address": "Greenyard Fresh Germany GmbH, 16, Steubenstraße, Stadtbremisches Überseehafengebiet, Häfen, Bremen-Mitte, Bremerhaven, Bremen, 27568, Deutschland",
+      "displayName": "Greenyard Fresh Germany GmbH, 16, Steubenstraße, Stadtbremisches Überseehafengebiet, Häfen, Bremen-Mitte, Bremerhaven, Bremen, 27568, Deutschland",
+      "query": "BREMERHAVEN Port, Bremerhaven, Germany",
+      "matchedBy": [
+        "Nominatim query: BREMERHAVEN Port, Bremerhaven, Germany"
+      ],
+      "osmTags": {},
+      "sources": [
+        "nominatim"
+      ],
+      "sourceIds": [
+        "osm/way/329725243"
+      ]
+    }
+  ],
+  "counts": {
+    "attraction": 17,
+    "outdoors": 6,
+    "food_drink": 12,
+    "shopping": 2,
+    "essentials": 2
+  },
+  "pois": [
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c448c6409a9c12787860",
+      "name": "Phänomenta Bremerhaven e.V.",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 53.5222474,
+      "lng": 8.5807426,
+      "distanceFromTerminalMeters": 863,
+      "distanceFromDefaultTerminalMeters": 863,
+      "minDistanceFromAnyTerminalMeters": 863,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "24 Hoebelstraße, Bremerhaven, 27572",
+      "openingHours": "Mo-Su,PH 10:00-18:00 \"letzter Einlass 17:00\"",
+      "website": "https://www.phaenomenta-bremerhaven.de/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/8a423c31d7e68ca9ec88",
+      "name": "FMS Gera",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 53.5219138,
+      "lng": 8.5851058,
+      "distanceFromTerminalMeters": 960,
+      "distanceFromDefaultTerminalMeters": 960,
+      "minDistanceFromAnyTerminalMeters": 960,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Apr-Oct: 11:00-18:00",
+      "website": "https://www.museumsschiff-gera.de/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "no",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "ship",
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d4bcea79140e9ffc548b",
+      "name": "Fischbahnhof 360°",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 53.5218939,
+      "lng": 8.5871794,
+      "distanceFromTerminalMeters": 1019,
+      "distanceFromDefaultTerminalMeters": 1019,
+      "minDistanceFromAnyTerminalMeters": 1019,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "6 Am Schaufenster, Bremerhaven, 27572",
+      "openingHours": "Mo-Su 10:00-18:00",
+      "website": "https://fischbahnhof360.de/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/2a617e951b10e717fe82",
+      "name": "Historisches Museum Bremerhaven",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 53.5387903,
+      "lng": 8.5855819,
+      "distanceFromTerminalMeters": 1045,
+      "distanceFromDefaultTerminalMeters": 1045,
+      "minDistanceFromAnyTerminalMeters": 1045,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "An der Geeste, Bremerhaven, 27570, DE",
+      "openingHours": "Tu-Su 10:00-17:00; Dec 24 off; Dec 31 off",
+      "website": "https://www.historisches-museum-bremerhaven.de/",
+      "phone": "+49 471 308160",
+      "cuisine": [],
+      "wheelchair": "limited",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/5db8cb896e776da4e12f",
+      "name": "Deutsches Schifffahrtsmuseum",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 53.5402436,
+      "lng": 8.57705,
+      "distanceFromTerminalMeters": 1156,
+      "distanceFromDefaultTerminalMeters": 1156,
+      "minDistanceFromAnyTerminalMeters": 1156,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1 Hans-Scharoun-Platz, Bremerhaven, 27568",
+      "openingHours": "Mo-Su 10:00-18:00",
+      "website": "https://www.dsm.museum",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/0fa4644b262f343cdde4",
+      "name": "U-Boot Wilhelm Bauer",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 53.5414309,
+      "lng": 8.5777823,
+      "distanceFromTerminalMeters": 1279,
+      "distanceFromDefaultTerminalMeters": 1279,
+      "minDistanceFromAnyTerminalMeters": 1279,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Apr 01-Nov 11: 08:00-18:00",
+      "website": "https://www.u-boot-wilhelm-bauer.de/",
+      "phone": "+49 471 482070",
+      "cuisine": [],
+      "wheelchair": "no",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "ship",
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/9d2b4f7706e25626edfe",
+      "name": "Zoo am Meer",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "zoo",
+      "lat": 53.5447866,
+      "lng": 8.5703428,
+      "distanceFromTerminalMeters": 1764,
+      "distanceFromDefaultTerminalMeters": 1764,
+      "minDistanceFromAnyTerminalMeters": 1764,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "7 H.-H.-Meier-Straße, Bremerhaven, 27568, DE",
+      "openingHours": "Apr-Sep PH,Mo-Su 09:00-19:00; Mar-Oct PH,Mo-Su 09:00-18:00; Nov-Feb PH,Mo-Su 09:00-16:30; Dec 24 09:00-12:00; Dec 31 09:00-12:00",
+      "website": "https://zoo-am-meer-bremerhaven.de/",
+      "phone": "+49 471 308410",
+      "cuisine": [],
+      "wheelchair": "limited",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "zoo"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/a71877aff2b49ba7618f",
+      "name": "Wencke-Dock",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 53.5396889,
+      "lng": 8.5845186,
+      "distanceFromTerminalMeters": 1118,
+      "distanceFromDefaultTerminalMeters": 1118,
+      "minDistanceFromAnyTerminalMeters": 1118,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "24/7",
+      "website": "https://www.denkmalpflege.bremen.de/sixcms/detail.php?template=20_denkmal_wrapper_d&obj=00001533",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "Kulturdenkmal, siehe http://wiki.openstreetmap.org/wiki/Bremen/Kulturdenkm%C3%A4ler",
+      "osmTags": {
+        "historic": "dock",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/7e003b0cc9cc72ecee59",
+      "name": "DIVA",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 53.5394936,
+      "lng": 8.5776283,
+      "distanceFromTerminalMeters": 1067,
+      "distanceFromDefaultTerminalMeters": 1067,
+      "minDistanceFromAnyTerminalMeters": 1067,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "https://www.denkmalpflege.bremen.de/sixcms/detail.php?template=20_denkmal_wrapper_d&obj=00001737,T009",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "no",
+      "brand": "",
+      "description": "Kulturdenkmal, siehe http://wiki.openstreetmap.org/wiki/Bremen/Kulturdenkm%C3%A4ler",
+      "osmTags": {
+        "historic": "ship",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/7c83c07eb5bcfb608496",
+      "name": "Seefalke",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 53.5405299,
+      "lng": 8.5782868,
+      "distanceFromTerminalMeters": 1176,
+      "distanceFromDefaultTerminalMeters": 1176,
+      "minDistanceFromAnyTerminalMeters": 1176,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "https://www.denkmalpflege.bremen.de/sixcms/detail.php?template=20_denkmal_wrapper_d&obj=00001737,T005",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "no",
+      "brand": "",
+      "description": "Kulturdenkmal, siehe http://wiki.openstreetmap.org/wiki/Bremen/Kulturdenkm%C3%A4ler",
+      "osmTags": {
+        "historic": "ship",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/31f95962d58799529378",
+      "name": "Elbe 3",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 53.5408,
+      "lng": 8.5776028,
+      "distanceFromTerminalMeters": 1211,
+      "distanceFromDefaultTerminalMeters": 1211,
+      "minDistanceFromAnyTerminalMeters": 1211,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "https://www.denkmalpflege.bremen.de/sixcms/detail.php?template=20_denkmal_wrapper_d&obj=00001737,T006",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "no",
+      "brand": "",
+      "description": "Kulturdenkmal, siehe http://wiki.openstreetmap.org/wiki/Bremen/Kulturdenkm%C3%A4ler",
+      "osmTags": {
+        "historic": "ship",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/756118994a0e39de5a60",
+      "name": "Emma",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 53.5413726,
+      "lng": 8.5772033,
+      "distanceFromTerminalMeters": 1278,
+      "distanceFromDefaultTerminalMeters": 1278,
+      "minDistanceFromAnyTerminalMeters": 1278,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "https://www.denkmalpflege.bremen.de/sixcms/detail.php?template=20_denkmal_wrapper_d&obj=00001737,T007",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "no",
+      "brand": "",
+      "description": "Kulturdenkmal, siehe http://wiki.openstreetmap.org/wiki/Bremen/Kulturdenkm%C3%A4ler",
+      "osmTags": {
+        "historic": "ship",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/5e59eab0277514018a5b",
+      "name": "Helmut",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 53.5413529,
+      "lng": 8.5767888,
+      "distanceFromTerminalMeters": 1280,
+      "distanceFromDefaultTerminalMeters": 1280,
+      "minDistanceFromAnyTerminalMeters": 1280,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "https://www.denkmalpflege.bremen.de/sixcms/detail.php?template=20_denkmal_wrapper_d&obj=00001737,T008",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Kulturdenkmal, siehe http://wiki.openstreetmap.org/wiki/Bremen/Kulturdenkm%C3%A4ler",
+      "osmTags": {
+        "historic": "ship",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/0a283e7236f82e3ee23b",
+      "name": "Dampfeisbrecher Wal",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 53.5488586,
+      "lng": 8.5700765,
+      "distanceFromTerminalMeters": 2197,
+      "distanceFromDefaultTerminalMeters": 2197,
+      "minDistanceFromAnyTerminalMeters": 2197,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "https://www.denkmalpflege.bremen.de/sixcms/detail.php?template=20_denkmal_wrapper_d&obj=00005273",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Kulturdenkmal, siehe http://wiki.openstreetmap.org/wiki/Bremen/Kulturdenkm%C3%A4ler",
+      "osmTags": {
+        "historic": "ship",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/1a377e1d4a36f668766d",
+      "name": "Unterfeuer Fischereihafen/Geestemünde",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "lighthouse",
+      "lat": 53.531362,
+      "lng": 8.5754016,
+      "distanceFromTerminalMeters": 340,
+      "distanceFromDefaultTerminalMeters": 340,
+      "minDistanceFromAnyTerminalMeters": 340,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "man_made": "lighthouse"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/56c1cc45104258656114",
+      "name": "Geestemünde Oberfeuer",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "lighthouse",
+      "lat": 53.5331728,
+      "lng": 8.5795749,
+      "distanceFromTerminalMeters": 354,
+      "distanceFromDefaultTerminalMeters": 354,
+      "minDistanceFromAnyTerminalMeters": 354,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "man_made": "lighthouse"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/fa16175493e35d8c9e4d",
+      "name": "Geeste Südmolenfeuer",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "lighthouse",
+      "lat": 53.5349771,
+      "lng": 8.5750715,
+      "distanceFromTerminalMeters": 642,
+      "distanceFromDefaultTerminalMeters": 642,
+      "minDistanceFromAnyTerminalMeters": 642,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "man_made": "lighthouse"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/0d8bdcd6b227536f28b2",
+      "name": "Weser-Strandbad",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "beach",
+      "lat": 53.5376473,
+      "lng": 8.5770963,
+      "distanceFromTerminalMeters": 872,
+      "distanceFromDefaultTerminalMeters": 872,
+      "minDistanceFromAnyTerminalMeters": 872,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "PH,Mo-Su 10:00-20:00",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "natural": "beach"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/df52e30596f11152e4ae",
+      "name": "Radarturm",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "viewpoint",
+      "lat": 53.5384283,
+      "lng": 8.5802869,
+      "distanceFromTerminalMeters": 937,
+      "distanceFromDefaultTerminalMeters": 937,
+      "minDistanceFromAnyTerminalMeters": 937,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Am Radarturm, Bremerhaven, 27568, DE",
+      "openingHours": "",
+      "website": "https://www.wsa-weser-jade-nordsee.wsv.de/Webs/WSA/Weser-Jade-Nordsee/DE/Service/Sehenswertes/Richtfunkturm_Bremerhaven/Richtfunkturm_Bremerhaven_text.html",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "man_made": "tower",
+        "tourism": "viewpoint"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/18f475a14e0c73cd31a7",
+      "name": "Bürgerpark",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 53.5393311,
+      "lng": 8.6073955,
+      "distanceFromTerminalMeters": 2087,
+      "distanceFromDefaultTerminalMeters": 2087,
+      "minDistanceFromAnyTerminalMeters": 2087,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "https://www.denkmalpflege.bremen.de/sixcms/detail.php?template=20_denkmal_wrapper_d&obj=00003356",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Kulturdenkmal, siehe http://wiki.openstreetmap.org/wiki/Bremen/Kulturdenkm%C3%A4ler",
+      "osmTags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/420238d86b8c82f5d801",
+      "name": "Südmole",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "viewpoint",
+      "lat": 53.5349666,
+      "lng": 8.5751742,
+      "distanceFromTerminalMeters": 638,
+      "distanceFromDefaultTerminalMeters": 638,
+      "minDistanceFromAnyTerminalMeters": 638,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "viewpoint"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f576c3b468f05fdd1dd6",
+      "name": "Akad. Segelclub Bremerhaven e.V. Bremerhavener Fahrtenschipper e.V. Marine-Jugend e.V.",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "marina",
+      "lat": 53.5263958,
+      "lng": 8.579219,
+      "distanceFromTerminalMeters": 404,
+      "distanceFromDefaultTerminalMeters": 404,
+      "minDistanceFromAnyTerminalMeters": 404,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "http://www.aksc-bremerhaven.de",
+      "phone": "+49 471 9269506",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "marina"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/bcde05887562d5eacf30",
+      "name": "Aussichtsplatform SAIL City",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "viewpoint",
+      "lat": 53.5428269,
+      "lng": 8.5738591,
+      "distanceFromTerminalMeters": 1483,
+      "distanceFromDefaultTerminalMeters": 1483,
+      "minDistanceFromAnyTerminalMeters": 1483,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Apr-Sep PH,Mo-Su 09:00-20:30; Oct-Mar PH,Mo-Su 10:00-16:30",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "viewpoint"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/de56278478b78076de1d",
+      "name": "Grete's - Café am Kai",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 53.5261071,
+      "lng": 8.577174,
+      "distanceFromTerminalMeters": 471,
+      "distanceFromDefaultTerminalMeters": 471,
+      "minDistanceFromAnyTerminalMeters": 471,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "57 Fischkai, Bremerhaven, 27572",
+      "openingHours": "Fr-Su 12:00-18:00",
+      "website": "https://fischkai57.chayns.net/gretes",
+      "phone": "+49 471 62113",
+      "cuisine": [
+        "regional"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/567f5534911e462aad32",
+      "name": "Cook This Way",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 53.5293883,
+      "lng": 8.5894249,
+      "distanceFromTerminalMeters": 627,
+      "distanceFromDefaultTerminalMeters": 627,
+      "minDistanceFromAnyTerminalMeters": 627,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Tu-Fr 11:00-14:30, 17:00-22:00; Sa, Su 12:00-22:00",
+      "website": "https://cookthisway.de/",
+      "phone": "",
+      "cuisine": [
+        "vietnamese",
+        "japanese"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/09b908d43741ace73838",
+      "name": "Liegeplatz Events im Weser Yacht Club Bremerhaven",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 53.5346907,
+      "lng": 8.5861663,
+      "distanceFromTerminalMeters": 662,
+      "distanceFromDefaultTerminalMeters": 662,
+      "minDistanceFromAnyTerminalMeters": 662,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "52a Borriesstraße, Bremerhaven, 27570",
+      "openingHours": "Th-Su 09:00-17:00",
+      "website": "https://www.liegeplatz-wyc.de",
+      "phone": "+494713910285",
+      "cuisine": [
+        "regional",
+        "seafood"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/0b989ccd3c377c950be5",
+      "name": "Dafni",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 53.5334371,
+      "lng": 8.5893936,
+      "distanceFromTerminalMeters": 729,
+      "distanceFromDefaultTerminalMeters": 729,
+      "minDistanceFromAnyTerminalMeters": 729,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "19-21 Georgstraße, Bremerhaven, 27570, DE",
+      "openingHours": "Tu-Su 12:00-14:30, 18:00-23:00; Mo off",
+      "website": "http://www.dafni-bremerhaven.com/",
+      "phone": "",
+      "cuisine": [
+        "greek"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/0fc710e188343ad7a562",
+      "name": "La Piazza",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 53.53151,
+      "lng": 8.5912546,
+      "distanceFromTerminalMeters": 763,
+      "distanceFromDefaultTerminalMeters": 763,
+      "minDistanceFromAnyTerminalMeters": 763,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "7 Grashoffstraße, Bremerhaven, 27570",
+      "openingHours": "Tu-Su 12:00-14:30,18:00-22:00",
+      "website": "https://www.lapiazza-bremerhaven.de/",
+      "phone": "",
+      "cuisine": [
+        "italian"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/754b5db8d293ab9c8649",
+      "name": "Sushi Grill & Bar",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 53.5316496,
+      "lng": 8.591446,
+      "distanceFromTerminalMeters": 778,
+      "distanceFromDefaultTerminalMeters": 778,
+      "minDistanceFromAnyTerminalMeters": 778,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "We-Su 17:00-21:30",
+      "website": "http://www.sushigrillbar.de",
+      "phone": "+49 471 41887702",
+      "cuisine": [
+        "sushi"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/bdb3eb077ebe7d91eb94",
+      "name": "Pizzahaven",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 53.536954,
+      "lng": 8.5825392,
+      "distanceFromTerminalMeters": 791,
+      "distanceFromDefaultTerminalMeters": 791,
+      "minDistanceFromAnyTerminalMeters": 791,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Fr 11:00-13:45, Mo-Th 17:00-21:45, Fr,Sa 17:00-22:45, Su 14:00-21:45",
+      "website": "https://pizzahaven.de/",
+      "phone": "",
+      "cuisine": [
+        "pizza"
+      ],
+      "wheelchair": "limited",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/10e3cfe32e7014afbb33",
+      "name": "B`HAVEN",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 53.5213647,
+      "lng": 8.5859117,
+      "distanceFromTerminalMeters": 1037,
+      "distanceFromDefaultTerminalMeters": 1037,
+      "minDistanceFromAnyTerminalMeters": 1037,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Sa 12:00-15:00,17:00-21:00; Su 12:00-20:00",
+      "website": "https://b-haven.de/",
+      "phone": "",
+      "cuisine": [
+        "seafood",
+        "bar"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/4c0a0db8204eb8c13f3c",
+      "name": "Der Kutterfischer",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 53.5212129,
+      "lng": 8.5866317,
+      "distanceFromTerminalMeters": 1071,
+      "distanceFromDefaultTerminalMeters": 1071,
+      "minDistanceFromAnyTerminalMeters": 1071,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "6 An der Packhalle IV, Bremerhaven, 27572",
+      "openingHours": "Mo-Su 11:30-21:00",
+      "website": "http://www.kutterfischer.de",
+      "phone": "+494719322352",
+      "cuisine": [
+        "fish"
+      ],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/abbb98f04712a5364456",
+      "name": "Restaurant Fiedler",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 53.521162,
+      "lng": 8.5869425,
+      "distanceFromTerminalMeters": 1085,
+      "distanceFromDefaultTerminalMeters": 1085,
+      "minDistanceFromAnyTerminalMeters": 1085,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "7 An der Packhalle IV, 27572",
+      "openingHours": "We-Mo 11:30-21:00",
+      "website": "https://www.restaurant-fiedler.de/",
+      "phone": "+49 471 93223-50",
+      "cuisine": [
+        "fish"
+      ],
+      "wheelchair": "no",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ed5e50e841424d99358f",
+      "name": "Westfälischer Hof",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 53.5365928,
+      "lng": 8.5935164,
+      "distanceFromTerminalMeters": 1156,
+      "distanceFromDefaultTerminalMeters": 1156,
+      "minDistanceFromAnyTerminalMeters": 1156,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "16 Rheinstraße, Bremerhaven, 27570, DE",
+      "openingHours": "Tu-Sa 17:00-23:00; Su 11:00-16:00",
+      "website": "https://www.westfaelischer-hof-bremerhaven.de/",
+      "phone": "+49 471 28778",
+      "cuisine": [
+        "german"
+      ],
+      "wheelchair": "limited",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/20548b0069f19388d63f",
+      "name": "Burgermeister Schmitzz",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 53.553182,
+      "lng": 8.5706629,
+      "distanceFromTerminalMeters": 2651,
+      "distanceFromDefaultTerminalMeters": 2651,
+      "minDistanceFromAnyTerminalMeters": 2651,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "https://burgermeister-schmitzz.de/",
+      "phone": "+49 471 97166420",
+      "cuisine": [
+        "burger"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Bar & Grill",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d3b4ae63f42b665c8009",
+      "name": "Mein Outlet & Shopping-Center",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "mall",
+      "lat": 53.5420596,
+      "lng": 8.5751289,
+      "distanceFromTerminalMeters": 1379,
+      "distanceFromDefaultTerminalMeters": 1379,
+      "minDistanceFromAnyTerminalMeters": 1379,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "12 Am Längengrad, Bremerhaven, 27568, DE",
+      "openingHours": "Mo-Su 10:00-21:00 \"Gastronomie\"; Mo-Sa 10:00-19:00 \"Gastronomie und Shopping\"",
+      "website": "https://www.mein-outlet-shopping.de",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "shop": "mall"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/a219e32a329e42381bfc",
+      "name": "Wochenmarkt Geestemünde",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "marketplace",
+      "lat": 53.530833,
+      "lng": 8.5916681,
+      "distanceFromTerminalMeters": 777,
+      "distanceFromDefaultTerminalMeters": 777,
+      "minDistanceFromAnyTerminalMeters": 777,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "We,Sa 07:00-13:00",
+      "website": "https://meine-wochenmaerkte.de/geestemuende/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "marketplace"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b24e705de3af177dfb4d",
+      "name": "Tourist-Info Schaufenster Fischereihafen",
+      "nameEnglish": "",
+      "category": "essentials",
+      "subcategory": "visitor_information",
+      "lat": 53.5222957,
+      "lng": 8.5863445,
+      "distanceFromTerminalMeters": 954,
+      "distanceFromDefaultTerminalMeters": 954,
+      "minDistanceFromAnyTerminalMeters": 954,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "5 Am Schaufenster, Bremerhaven, 27572",
+      "openingHours": "Mo-Su 09:30-17:00",
+      "website": "",
+      "phone": "+49 471 80936127",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "information"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/00c4c40c5fccdcade71f",
+      "name": "Tourist-Info & RadStation Havenwelten",
+      "nameEnglish": "",
+      "category": "essentials",
+      "subcategory": "visitor_information",
+      "lat": 53.5438341,
+      "lng": 8.5736508,
+      "distanceFromTerminalMeters": 1594,
+      "distanceFromDefaultTerminalMeters": 1594,
+      "minDistanceFromAnyTerminalMeters": 1594,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "6 H.-H.-Meier-Straße, Bremerhaven, 27568, DE",
+      "openingHours": "",
+      "website": "http://www.bremerhaven.de/tourismus/",
+      "phone": "+49 471 414141",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "information"
+      }
+    }
+  ],
+  "portAnchor": {
+    "id": "ports-json-anchor",
+    "name": "BREMERHAVEN Port",
+    "lat": 53.53,
+    "lng": 8.58,
+    "address": "Bremerhaven, Bremen, Germany",
+    "source": "ports.json",
+    "sourceId": "",
+    "score": 0,
+    "slug": "bremerhaven-port"
+  },
+  "terminalResolution": {
+    "status": "resolved",
+    "method": "accepted_terminal_candidate",
+    "verified": true,
+    "notes": "Accepted 1 candidate explicitly identified as an ocean-cruise or cruise-passenger terminal; ferry and unrelated results were excluded."
+  }
+}

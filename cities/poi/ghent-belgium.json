@@ -1,0 +1,850 @@
+{
+  "schemaVersion": 5,
+  "catalogType": "curation-candidates",
+  "generatedAt": "2026-07-30T07:38:24.677Z",
+  "source": "openstreetmap",
+  "sourceExtract": "belgium-latest.osm.pbf",
+  "radiusMeters": 10000,
+  "port": {
+    "id": "ghent-belgium",
+    "city": "Ghent",
+    "country": "Belgium"
+  },
+  "defaultTerminalId": "ports-json-anchor",
+  "terminal": {
+    "id": "ports-json-anchor",
+    "name": "GHENT Port",
+    "lat": 51.07,
+    "lng": 3.73,
+    "address": "Ghent, East Flanders, Belgium",
+    "source": "ports.json",
+    "sourceId": "",
+    "score": 0,
+    "slug": "ghent-port"
+  },
+  "terminals": [
+    {
+      "id": "ports-json-anchor",
+      "name": "GHENT Port",
+      "lat": 51.07,
+      "lng": 3.73,
+      "address": "Ghent, East Flanders, Belgium",
+      "source": "ports.json",
+      "sourceId": "",
+      "score": 0,
+      "slug": "ghent-port"
+    }
+  ],
+  "terminalCandidateRadiusMeters": 5000,
+  "terminalCandidates": [
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/9c70d715114dfc3121aa",
+      "name": "De Bootjes van Gent",
+      "nameEnglish": "",
+      "lat": 51.0554355,
+      "lng": 3.7205777,
+      "distanceFromPortMeters": 1748,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "alt_name": "Boat in Gent",
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "operator": "Reederij Dewaele",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/9c70d715114dfc3121aa"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b2ac9206fb99ed3f7a4f",
+      "name": "(unnamed maritime feature)",
+      "nameEnglish": "",
+      "lat": 51.1102235,
+      "lng": 3.7407422,
+      "distanceFromPortMeters": 4535,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "cargo": "passengers;vehicle",
+        "ferry": "yes",
+        "public_transport": "stop_position"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/b2ac9206fb99ed3f7a4f"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/1bc9df901a03c717ea1d",
+      "name": "(unnamed maritime feature)",
+      "nameEnglish": "",
+      "lat": 51.1102462,
+      "lng": 3.7454791,
+      "distanceFromPortMeters": 4604,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "cargo": "passengers;vehicle",
+        "ferry": "yes",
+        "operator": "VLOOT",
+        "public_transport": "stop_position"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/1bc9df901a03c717ea1d"
+      ]
+    }
+  ],
+  "counts": {
+    "attraction": 11,
+    "outdoors": 5,
+    "food_drink": 10,
+    "shopping": 1,
+    "essentials": 0
+  },
+  "pois": [
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/828e4f8c0d5d0fffc801",
+      "name": "Beroepenhuis",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 51.0642505,
+      "lng": 3.7332569,
+      "distanceFromTerminalMeters": 679,
+      "distanceFromDefaultTerminalMeters": 679,
+      "minDistanceFromAnyTerminalMeters": 679,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "https://www.beroepenhuis.be",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "interactieve tentoonstelling; STEM-activiteiten; techniek- en talentenfestivals",
+      "osmTags": {
+        "amenity": "community_centre",
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/bbb543f97f5f874e62da",
+      "name": "Tuin van Kina",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 51.0644231,
+      "lng": 3.7248602,
+      "distanceFromTerminalMeters": 717,
+      "distanceFromDefaultTerminalMeters": 717,
+      "minDistanceFromAnyTerminalMeters": 717,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "55 Berouw",
+      "openingHours": "Mo-Fr 09:00-17:00, Sa-Su 14:00-17:30, PH 14:00-17:30",
+      "website": "https://kina.stad.gent/",
+      "phone": "+32 9 225 05 42",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c95f1d790bad89a1cae8",
+      "name": "Sint-Baafsabdij",
+      "nameEnglish": "St Bavo’s Abbey",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 51.0538532,
+      "lng": 3.7362591,
+      "distanceFromTerminalMeters": 1848,
+      "distanceFromDefaultTerminalMeters": 1848,
+      "minDistanceFromAnyTerminalMeters": 1848,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Gandastraat",
+      "openingHours": "Apr-Oct Fr-Su 14:00-18:00",
+      "website": "https://historischehuizen.stad.gent/nl/sint-baafsabdij",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Ruïnes van de Sint-Baafsabdij",
+      "osmTags": {
+        "historic": "ruins",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/eccc58ef36df01a020a0",
+      "name": "De wereld van Kina: de Tuin",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 51.0640621,
+      "lng": 3.7234651,
+      "distanceFromTerminalMeters": 803,
+      "distanceFromDefaultTerminalMeters": 803,
+      "minDistanceFromAnyTerminalMeters": 803,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "9 Fratersplein",
+      "openingHours": "",
+      "website": "https://kina.stad.gent/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/0496d421d8d5227946be",
+      "name": "Klooster Zusters van Liefde",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 51.0608578,
+      "lng": 3.718902,
+      "distanceFromTerminalMeters": 1279,
+      "distanceFromDefaultTerminalMeters": 1279,
+      "minDistanceFromAnyTerminalMeters": 1279,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "by_appointment",
+      "website": "https://erfgoedhuis-zljm.org/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Vroegere dovenschool, nu museum",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/09d3a31abb6e04dea8f5",
+      "name": "Industriemuseum",
+      "nameEnglish": "Museum of Industry",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 51.0593709,
+      "lng": 3.7291276,
+      "distanceFromTerminalMeters": 1183,
+      "distanceFromDefaultTerminalMeters": 1183,
+      "minDistanceFromAnyTerminalMeters": 1183,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "10 Minnemeers, Gent, 9000, BE",
+      "openingHours": "Mo-Fr 09:00-17:00; We off; Sa,Su,PH,SH 10:00-18:00",
+      "website": "https://www.industriemuseum.be/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/dbb45a666b8d025317c2",
+      "name": "Gravensteen",
+      "nameEnglish": "Castle of the Counts",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 51.0571759,
+      "lng": 3.7206512,
+      "distanceFromTerminalMeters": 1569,
+      "distanceFromDefaultTerminalMeters": 1569,
+      "minDistanceFromAnyTerminalMeters": 1569,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "11 Sint-Veerleplein",
+      "openingHours": "Mo-Su 10:00-18:00",
+      "website": "https://historischehuizen.stad.gent/nl/gravensteen",
+      "phone": "+32 9 225 93 06",
+      "cuisine": [],
+      "wheelchair": "no",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "castle",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/4f3506d7fafc56f93d41",
+      "name": "Huis van Alijn",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 51.0575499,
+      "lng": 3.7232208,
+      "distanceFromTerminalMeters": 1463,
+      "distanceFromDefaultTerminalMeters": 1463,
+      "minDistanceFromAnyTerminalMeters": 1463,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "65 Kraanlei",
+      "openingHours": "Mo, Tu, Th, Fr 09:00-17:00; Sa-Su, PH 10:00-18:00; We off",
+      "website": "https://huisvanalijn.be/",
+      "phone": "+32 9 235 38 00",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "building",
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/9869fb38637391c03f76",
+      "name": "Bisschoppelijk Paleis",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "castle",
+      "lat": 51.0528328,
+      "lng": 3.72833,
+      "distanceFromTerminalMeters": 1912,
+      "distanceFromDefaultTerminalMeters": 1912,
+      "minDistanceFromAnyTerminalMeters": 1912,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1 Bisdomplein",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Bisschoppelijk Paleis",
+      "osmTags": {
+        "historic": "castle"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/73c32584fec4d20a04a2",
+      "name": "Groendienst Gent",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "castle",
+      "lat": 51.0506838,
+      "lng": 3.7375956,
+      "distanceFromTerminalMeters": 2212,
+      "distanceFromDefaultTerminalMeters": 2212,
+      "minDistanceFromAnyTerminalMeters": 2212,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "32 Ferdinand Lousbergskaai, Gent, 9000",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Herenhuis in empirestijl",
+      "osmTags": {
+        "historic": "castle"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/5ee04955b360ee0d5067",
+      "name": "Rihera",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "monument",
+      "lat": 51.063908,
+      "lng": 3.7292849,
+      "distanceFromTerminalMeters": 679,
+      "distanceFromDefaultTerminalMeters": 679,
+      "minDistanceFromAnyTerminalMeters": 679,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Voorboeg van een schip dat in 1952 gebouwd werd. Het staat symbool voor het schippersverleden van deze wijk.",
+      "osmTags": {
+        "historic": "monument"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/29f085ce4a499133d6bf",
+      "name": "Daktuin Tribeca",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 51.0663924,
+      "lng": 3.7097483,
+      "distanceFromTerminalMeters": 1471,
+      "distanceFromDefaultTerminalMeters": 1471,
+      "minDistanceFromAnyTerminalMeters": 1471,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "https://www.canopy-greenroofs.be/blogPost/daktuin-tribeca-gent",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/4edb56f70bfa239865b8",
+      "name": "Zondernaampark",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 51.0593055,
+      "lng": 3.7351725,
+      "distanceFromTerminalMeters": 1243,
+      "distanceFromDefaultTerminalMeters": 1243,
+      "minDistanceFromAnyTerminalMeters": 1243,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Naam bevestigd door wegspotter",
+      "osmTags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ccb2f682043979406e43",
+      "name": "Baudelohof",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 51.0584657,
+      "lng": 3.7301494,
+      "distanceFromTerminalMeters": 1283,
+      "distanceFromDefaultTerminalMeters": 1283,
+      "minDistanceFromAnyTerminalMeters": 1283,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "wijkpark",
+      "osmTags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f3d6bb203da33be7d011",
+      "name": "Portus Ganda",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "marina",
+      "lat": 51.055753,
+      "lng": 3.7335833,
+      "distanceFromTerminalMeters": 1604,
+      "distanceFromDefaultTerminalMeters": 1604,
+      "minDistanceFromAnyTerminalMeters": 1604,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "http://www.portusganda.be/",
+      "phone": "+32 9 266 56 60",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "marina"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/7101473969e6facc989a",
+      "name": "Zwembad Van Eyck",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "sports_centre",
+      "lat": 51.0535869,
+      "lng": 3.7339186,
+      "distanceFromTerminalMeters": 1845,
+      "distanceFromDefaultTerminalMeters": 1845,
+      "minDistanceFromAnyTerminalMeters": 1845,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "5 Julius de Vigneplein",
+      "openingHours": "",
+      "website": "",
+      "phone": "+32 9 235 27 40",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "building",
+        "leisure": "sports_centre"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ab4c74ab09feb072ad98",
+      "name": "Sushi Palace",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 51.0586658,
+      "lng": 3.7243057,
+      "distanceFromTerminalMeters": 1322,
+      "distanceFromDefaultTerminalMeters": 1322,
+      "minDistanceFromAnyTerminalMeters": 1322,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "37 Oudburg, Gent, 9000",
+      "openingHours": "Tu-Su 12:00-14:00, 17:00-22:00",
+      "website": "https://www.sushipalacegent.be",
+      "phone": "+32 9 336 01 02",
+      "cuisine": [
+        "sushi"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/4af3c59aef7c2e64c1f7",
+      "name": "India Palace",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 51.058158,
+      "lng": 3.7239163,
+      "distanceFromTerminalMeters": 1384,
+      "distanceFromDefaultTerminalMeters": 1384,
+      "minDistanceFromAnyTerminalMeters": 1384,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "11 Oudburg, Gent, 9000",
+      "openingHours": "Mo-Su 11:30-14:30,17:30-22:30; Tu off",
+      "website": "https://www.indiapalace.be/",
+      "phone": "+32 9 330 32 83",
+      "cuisine": [
+        "indian"
+      ],
+      "wheelchair": "no",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/5e52ba7d7747060c8abd",
+      "name": "Amour",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 51.0657845,
+      "lng": 3.7294001,
+      "distanceFromTerminalMeters": 471,
+      "distanceFromDefaultTerminalMeters": 471,
+      "minDistanceFromAnyTerminalMeters": 471,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "18 Sint-Salvatorstraat, Gent, 9000",
+      "openingHours": "Mo-Fr 12:00-14:00,Fr 18:00-21:00; PH off",
+      "website": "https://www.amourgent.be/",
+      "phone": "+32 9 352 05 70",
+      "cuisine": [
+        "buffet",
+        "fresh"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/5e0c0b74498499d20415",
+      "name": "Officina Raffaelli",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 51.0659023,
+      "lng": 3.7318058,
+      "distanceFromTerminalMeters": 473,
+      "distanceFromDefaultTerminalMeters": 473,
+      "minDistanceFromAnyTerminalMeters": 473,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Dok-Noord",
+      "openingHours": "Tu-Fr 12:00-14:00,18:00-22:00; Sa 18:00-22:00",
+      "website": "https://www.officinaraffaelli.be/",
+      "phone": "+32 483 10 83 88",
+      "cuisine": [
+        "italian",
+        "pizza"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/072b50f16656943e89b6",
+      "name": "WAY",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 51.0657433,
+      "lng": 3.7303563,
+      "distanceFromTerminalMeters": 474,
+      "distanceFromDefaultTerminalMeters": 474,
+      "minDistanceFromAnyTerminalMeters": 474,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Fr 08:00-16:00",
+      "website": "https://www.way.gent/",
+      "phone": "+32 494 07 33 22",
+      "cuisine": [
+        "organic",
+        "coffee",
+        "regional"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/e80def018932b150f11d",
+      "name": "RØK Barbecue",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 51.0656704,
+      "lng": 3.7318347,
+      "distanceFromTerminalMeters": 498,
+      "distanceFromDefaultTerminalMeters": 498,
+      "minDistanceFromAnyTerminalMeters": 498,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "4 Dok-Noord",
+      "openingHours": "Mo-Su 12:00-14:00,18:00-21:00",
+      "website": "https://www.dokbrewingcompany.be/food",
+      "phone": "",
+      "cuisine": [
+        "barbecue"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b995ae389627d583393e",
+      "name": "Noah",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 51.0631578,
+      "lng": 3.7357416,
+      "distanceFromTerminalMeters": 860,
+      "distanceFromDefaultTerminalMeters": 860,
+      "minDistanceFromAnyTerminalMeters": 860,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "3 Handelsdokkaai, 9000",
+      "openingHours": "Mo-Fr 11:30-22:00",
+      "website": "https://noah.gent/",
+      "phone": "+32 9 223 66 89",
+      "cuisine": [
+        "local",
+        "pasta",
+        "mediterranean"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/80457144dbcb4c66db2b",
+      "name": "Özgem",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 51.06159,
+      "lng": 3.7266008,
+      "distanceFromTerminalMeters": 965,
+      "distanceFromDefaultTerminalMeters": 965,
+      "minDistanceFromAnyTerminalMeters": 965,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "95 Sleepstraat",
+      "openingHours": "Tu-Su 12:00-00:00",
+      "website": "https://restaurantozgem.be/",
+      "phone": "+32 9 225 84 34",
+      "cuisine": [
+        "turkish"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b20c04b96e73286ef184",
+      "name": "Amadeus",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 51.0579325,
+      "lng": 3.722468,
+      "distanceFromTerminalMeters": 1441,
+      "distanceFromDefaultTerminalMeters": 1441,
+      "minDistanceFromAnyTerminalMeters": 1441,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "10 Plotersgracht, Gent, 9000",
+      "openingHours": "Mo-Th 18:30-22:00; Fr-Sa 18:00-00:00; Su 18:00-23:00",
+      "website": "https://amadeus-resto.be/en/amadeus-gent-1/",
+      "phone": "+32 497 43 85 71",
+      "cuisine": [
+        "american"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Breedhuis",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/db31cf08232a95476c6b",
+      "name": "Agenvino",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 51.054817,
+      "lng": 3.7228929,
+      "distanceFromTerminalMeters": 1760,
+      "distanceFromDefaultTerminalMeters": 1760,
+      "minDistanceFromAnyTerminalMeters": 1760,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "26 Donkersteeg, Gent, 9000",
+      "openingHours": "Mo-Th,Su 18:00-22:00; Fr-Sa 18:00-23:00",
+      "website": "https://www.argenvino.be/",
+      "phone": "+32 9 279 17 92",
+      "cuisine": [
+        "steak_house"
+      ],
+      "wheelchair": "no",
+      "brand": "",
+      "description": "charcoal grill restaurant",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c91716181fcbaf4b9984",
+      "name": "Lost in Pablos",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "clothes",
+      "lat": 51.0563011,
+      "lng": 3.7258986,
+      "distanceFromTerminalMeters": 1550,
+      "distanceFromDefaultTerminalMeters": 1550,
+      "minDistanceFromAnyTerminalMeters": 1550,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "38 Vrijdagmarkt",
+      "openingHours": "Mo 11:00-18:00; Tu-Sa 10:00-18:00",
+      "website": "https://www.lostinpablos.be/",
+      "phone": "+32 9 279 89 90",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "shop": "clothes"
+      }
+    }
+  ],
+  "portAnchor": {
+    "id": "ports-json-anchor",
+    "name": "GHENT Port",
+    "lat": 51.07,
+    "lng": 3.73,
+    "address": "Ghent, East Flanders, Belgium",
+    "source": "ports.json",
+    "sourceId": "",
+    "score": 0,
+    "slug": "ghent-port"
+  },
+  "terminalResolution": {
+    "status": "unresolved",
+    "method": "ports_json_fallback",
+    "verified": false,
+    "notes": "All supplied candidates are ferry-only stops, local docks, unnamed maritime features, or unrelated places rather than passenger cruise terminals."
+  }
+}

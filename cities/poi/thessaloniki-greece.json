@@ -1,0 +1,918 @@
+{
+  "schemaVersion": 5,
+  "catalogType": "curation-candidates",
+  "generatedAt": "2026-07-30T08:03:25.804Z",
+  "source": "openstreetmap",
+  "sourceExtract": "greece-latest.osm.pbf",
+  "radiusMeters": 10000,
+  "port": {
+    "id": "thessaloniki-greece",
+    "city": "Thessaloniki",
+    "country": "Greece"
+  },
+  "defaultTerminalId": "osm/relation/8368117",
+  "terminal": {
+    "id": "osm/relation/8368117",
+    "name": "Λιμάνι Θεσσαλονίκης",
+    "nameEnglish": "Thessaloniki Port",
+    "lat": 40.6377484,
+    "lng": 22.9254157,
+    "address": "Λιμάνι Θεσσαλονίκης, 2η Κοινότητα Θεσσαλονίκης, Δημοτική Ενότητα Θεσαλονίκης, Δήμος Θεσσαλονίκης, Μητροπολιτική Ενότητα Θεσσαλονίκης, Περιφέρεια Κεντρικής Μακεδονίας, Αποκεντρωμένη Διοίκηση Μακεδονίας - Θράκης, Ελλάς",
+    "source": "verified_terminal_candidate",
+    "sourceId": "osm/relation/8368117",
+    "terminalType": "passenger_cruise_terminal",
+    "verified": true,
+    "notes": "Accepted the Port of Thessaloniki candidate because the cruise terminal and passenger exit are inside the central port directly beside the city centre.",
+    "sourceUrls": [],
+    "sources": [
+      "nominatim"
+    ],
+    "sourceIds": [
+      "osm/relation/8368117"
+    ],
+    "osmTags": {
+      "industrial": "port"
+    },
+    "matchedBy": [
+      "Nominatim query: THESSALONIKI Port, Thessaloniki, Greece"
+    ],
+    "distanceFromPortMeters": 944
+  },
+  "terminals": [
+    {
+      "id": "osm/relation/8368117",
+      "name": "Λιμάνι Θεσσαλονίκης",
+      "nameEnglish": "Thessaloniki Port",
+      "lat": 40.6377484,
+      "lng": 22.9254157,
+      "address": "Λιμάνι Θεσσαλονίκης, 2η Κοινότητα Θεσσαλονίκης, Δημοτική Ενότητα Θεσαλονίκης, Δήμος Θεσσαλονίκης, Μητροπολιτική Ενότητα Θεσσαλονίκης, Περιφέρεια Κεντρικής Μακεδονίας, Αποκεντρωμένη Διοίκηση Μακεδονίας - Θράκης, Ελλάς",
+      "source": "verified_terminal_candidate",
+      "sourceId": "osm/relation/8368117",
+      "terminalType": "passenger_cruise_terminal",
+      "verified": true,
+      "notes": "Accepted the Port of Thessaloniki candidate because the cruise terminal and passenger exit are inside the central port directly beside the city centre.",
+      "sourceUrls": [],
+      "sources": [
+        "nominatim"
+      ],
+      "sourceIds": [
+        "osm/relation/8368117"
+      ],
+      "osmTags": {
+        "industrial": "port"
+      },
+      "matchedBy": [
+        "Nominatim query: THESSALONIKI Port, Thessaloniki, Greece"
+      ],
+      "distanceFromPortMeters": 944
+    }
+  ],
+  "terminalCandidateRadiusMeters": 5000,
+  "terminalCandidates": [
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/db1a55fb37c88b2f278f",
+      "name": "Καραβάκια Θεσσαλονίκη",
+      "nameEnglish": "Karavakia - Thessaloniki Waterbus. Thessaloniki Port Stop",
+      "lat": 40.6316272,
+      "lng": 22.9344557,
+      "distanceFromPortMeters": 417,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "cargo": "passengers;bicycle",
+        "ferry": "yes",
+        "name:en": "Karavakia - Thessaloniki Waterbus. Thessaloniki Port Stop",
+        "public_transport": "station",
+        "seamark:type": "berth"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/db1a55fb37c88b2f278f"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/21856452666bb536fadb",
+      "name": "Θεσσαλονίκη",
+      "nameEnglish": "Thessaloniki",
+      "lat": 40.6352332,
+      "lng": 22.9328142,
+      "distanceFromPortMeters": 628,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "name:en": "Thessaloniki",
+        "public_transport": "station",
+        "seamark:type": "berth"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/21856452666bb536fadb"
+      ]
+    },
+    {
+      "source": "nominatim",
+      "sourceId": "osm/relation/8368117",
+      "osmType": "relation",
+      "osmId": "8368117",
+      "name": "Λιμάνι Θεσσαλονίκης",
+      "nameEnglish": "Thessaloniki Port",
+      "lat": 40.6377484,
+      "lng": 22.9254157,
+      "distanceFromPortMeters": 944,
+      "address": "Λιμάνι Θεσσαλονίκης, 2η Κοινότητα Θεσσαλονίκης, Δημοτική Ενότητα Θεσαλονίκης, Δήμος Θεσσαλονίκης, Μητροπολιτική Ενότητα Θεσσαλονίκης, Περιφέρεια Κεντρικής Μακεδονίας, Αποκεντρωμένη Διοίκηση Μακεδονίας - Θράκης, Ελλάς",
+      "displayName": "Λιμάνι Θεσσαλονίκης, 2η Κοινότητα Θεσσαλονίκης, Δημοτική Ενότητα Θεσαλονίκης, Δήμος Θεσσαλονίκης, Μητροπολιτική Ενότητα Θεσσαλονίκης, Περιφέρεια Κεντρικής Μακεδονίας, Αποκεντρωμένη Διοίκηση Μακεδονίας - Θράκης, Ελλάς",
+      "query": "THESSALONIKI Port, Thessaloniki, Greece",
+      "matchedBy": [
+        "Nominatim query: THESSALONIKI Port, Thessaloniki, Greece"
+      ],
+      "osmTags": {
+        "industrial": "port"
+      },
+      "sources": [
+        "nominatim"
+      ],
+      "sourceIds": [
+        "osm/relation/8368117"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/6cc2bef0060c3f1def2a",
+      "name": "Θεσσαλονίκη",
+      "nameEnglish": "Thessaloniki",
+      "lat": 40.6370551,
+      "lng": 22.9235355,
+      "distanceFromPortMeters": 956,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "name:en": "Thessaloniki",
+        "public_transport": "station",
+        "seamark:type": "berth"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/6cc2bef0060c3f1def2a"
+      ]
+    }
+  ],
+  "counts": {
+    "attraction": 11,
+    "outdoors": 4,
+    "food_drink": 12,
+    "shopping": 0,
+    "essentials": 0
+  },
+  "pois": [
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d95725a7994b9b2631ae",
+      "name": "Πλωτό Ναυτικό Μουσείο Α/Τ Βέλους",
+      "nameEnglish": "Floating Navy Museum A/T Velos",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 40.6316477,
+      "lng": 22.9344402,
+      "distanceFromTerminalMeters": 417,
+      "distanceFromDefaultTerminalMeters": 417,
+      "minDistanceFromAnyTerminalMeters": 417,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Tu-Su 10:00-14:00,16:00-19:00",
+      "website": "https://velos.hellenicnavy.gr/",
+      "phone": "+30 694 715 9468",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/09fc12e392ca8c134df8",
+      "name": "Μουσείο Φωτογραφίας Θεσσαλονίκης",
+      "nameEnglish": "Thessaloniki Museum of Photography",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 40.6328134,
+      "lng": 22.9353932,
+      "distanceFromTerminalMeters": 552,
+      "distanceFromDefaultTerminalMeters": 552,
+      "minDistanceFromAnyTerminalMeters": 552,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Θεσσαλονίκη",
+      "openingHours": "",
+      "website": "https://www.thmphoto.gr/",
+      "phone": "+30 2310 566 716",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/12f46921cedb7bbebd1d",
+      "name": "Εβραϊκό Μουσείο Θεσσαλονικής",
+      "nameEnglish": "Jewish Museum of Thessaloniki",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 40.6352375,
+      "lng": 22.9396683,
+      "distanceFromTerminalMeters": 1002,
+      "distanceFromDefaultTerminalMeters": 1002,
+      "minDistanceFromAnyTerminalMeters": 1002,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "11 Αγίου Μηνά, Θεσσαλονίκη, 54624",
+      "openingHours": "Mo-Tu 09:00-14:00; We 09:00-14:00, 17:00-20:00; Th-Fr 09:00-14:00; Su 10:00-14:00; Sa off",
+      "website": "http://www.jmth.gr/",
+      "phone": "2310 250406",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/0d974d220af5ad8cadb3",
+      "name": "Μουσείο Μακεδονικού Αγώνα",
+      "nameEnglish": "Museum of the Macedonian Struggle",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 40.630849,
+      "lng": 22.943632,
+      "distanceFromTerminalMeters": 1154,
+      "distanceFromDefaultTerminalMeters": 1154,
+      "minDistanceFromAnyTerminalMeters": 1154,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "23 Προξένου Κορομηλά, Θεσσαλονίκη, 54622",
+      "openingHours": "Mo-Fr 09:00-14:00; We 09:00-20:00; Sa 10:00-14:00",
+      "website": "https://www.imma.edu.gr",
+      "phone": "+302310229778",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/0c6e980dcd568a3a3362",
+      "name": "Φρούριο του Βαρδαρίου",
+      "nameEnglish": "Vardari Fortress",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 40.638581,
+      "lng": 22.9331643,
+      "distanceFromTerminalMeters": 991,
+      "distanceFromDefaultTerminalMeters": 991,
+      "minDistanceFromAnyTerminalMeters": 991,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "arsenal",
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/1344dcc1383d2f7a0c0c",
+      "name": "Παλαιοχριστιανική Βασιλική Ξηροκρήνης",
+      "nameEnglish": "Paleochristian Basilica of Xirokrini",
+      "category": "attraction",
+      "subcategory": "archaeological_site",
+      "lat": 40.6460368,
+      "lng": 22.9294827,
+      "distanceFromTerminalMeters": 1784,
+      "distanceFromDefaultTerminalMeters": 1784,
+      "minDistanceFromAnyTerminalMeters": 1784,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "archaeological_site"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/22fed7e0e9b0c710c24d",
+      "name": "Βυζαντινή κρήνη",
+      "nameEnglish": "Xirokrini Fountain",
+      "category": "attraction",
+      "subcategory": "monument",
+      "lat": 40.6464513,
+      "lng": 22.9313328,
+      "distanceFromTerminalMeters": 1833,
+      "distanceFromDefaultTerminalMeters": 1833,
+      "minDistanceFromAnyTerminalMeters": 1833,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "monument"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ace0ef697ac4f21d7e52",
+      "name": "Ρωμαϊκό Ανάκτορο Γαλερίου",
+      "nameEnglish": "Roman Villa of Galerius",
+      "category": "attraction",
+      "subcategory": "archaeological_site",
+      "lat": 40.6302685,
+      "lng": 22.9492429,
+      "distanceFromTerminalMeters": 1624,
+      "distanceFromDefaultTerminalMeters": 1624,
+      "minDistanceFromAnyTerminalMeters": 1624,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Tu-Fr 08:30-15:00",
+      "website": "",
+      "phone": "+30-2310-269622",
+      "cuisine": [],
+      "wheelchair": "no",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "archaeological_site"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/67e875b34ca1074a0066",
+      "name": "Στήλη των Όφεων",
+      "nameEnglish": "Stele of the Snakes",
+      "category": "attraction",
+      "subcategory": "archaeological_site",
+      "lat": 40.6418333,
+      "lng": 22.9410207,
+      "distanceFromTerminalMeters": 1611,
+      "distanceFromDefaultTerminalMeters": 1611,
+      "minDistanceFromAnyTerminalMeters": 1611,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "archaeological_site"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/cdab8e3106f98dfd51bc",
+      "name": "Πλατεία Λευκού Πύργου",
+      "nameEnglish": "White Tower Square",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 40.6261832,
+      "lng": 22.9482357,
+      "distanceFromTerminalMeters": 1596,
+      "distanceFromDefaultTerminalMeters": 1596,
+      "minDistanceFromAnyTerminalMeters": 1596,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/0746b0998fdfe8aea773",
+      "name": "Ο κήπος του Αλεξάνδρου",
+      "nameEnglish": "The garden of Alexander",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 40.6247378,
+      "lng": 22.9498837,
+      "distanceFromTerminalMeters": 1777,
+      "distanceFromDefaultTerminalMeters": 1777,
+      "minDistanceFromAnyTerminalMeters": 1777,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/796b9a9565cdb7d45429",
+      "name": "Ο Κήπος της Άμμου",
+      "nameEnglish": "The garden of sand",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 40.6164626,
+      "lng": 22.9520812,
+      "distanceFromTerminalMeters": 2396,
+      "distanceFromDefaultTerminalMeters": 2396,
+      "minDistanceFromAnyTerminalMeters": 2396,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/aa71e03c25d3b46274e2",
+      "name": "Ο Κήπος του Ίσκιου",
+      "nameEnglish": "The garden of shadow",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 40.6157142,
+      "lng": 22.9519769,
+      "distanceFromTerminalMeters": 2442,
+      "distanceFromDefaultTerminalMeters": 2442,
+      "minDistanceFromAnyTerminalMeters": 2442,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/17c0baae0dadc84a6e16",
+      "name": "Modigliani",
+      "nameEnglish": "Modigliani Traditional Coffeehouse & Meze",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 40.6359116,
+      "lng": 22.9421897,
+      "distanceFromTerminalMeters": 1221,
+      "distanceFromDefaultTerminalMeters": 1221,
+      "minDistanceFromAnyTerminalMeters": 1221,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "12 Κυδωνιάτου, Θεσσαλονίκη, 54624, GR",
+      "openingHours": "Mo-Fr 08:00-00:00; Su 08:00-20:00",
+      "website": "https://modiglianikapani.business.site",
+      "phone": "+302310225925",
+      "cuisine": [
+        "greek"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Modigliani is a Traditional Coffeehouse & Meze (small plates) restaurant in the Center of Thessaloniki,in historical Kapani Market.",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f6c698454be70ec01359",
+      "name": "The pub",
+      "nameEnglish": "The pub",
+      "category": "food_drink",
+      "subcategory": "pub",
+      "lat": 40.6352833,
+      "lng": 22.9373169,
+      "distanceFromTerminalMeters": 852,
+      "distanceFromDefaultTerminalMeters": 852,
+      "minDistanceFromAnyTerminalMeters": 852,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "5 Αιγύπτου",
+      "openingHours": "Mo-Su 13:00-03:00",
+      "website": "https://www.thepub.gr/",
+      "phone": "+30 231 127 0154",
+      "cuisine": [
+        "burger",
+        "chicken",
+        "grill",
+        "hotdog",
+        "sandwich"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "pub"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/569831e83412467db98f",
+      "name": "Harry's Spot",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 40.6283341,
+      "lng": 22.953485,
+      "distanceFromTerminalMeters": 1991,
+      "distanceFromDefaultTerminalMeters": 1991,
+      "minDistanceFromAnyTerminalMeters": 1991,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "8 Αγγελάκη, Θεσσαλονίκη, 54621",
+      "openingHours": "Mo-Su 09:00-01:00; Aug 4-17 off",
+      "website": "https://harrysspot.gr/",
+      "phone": "+30 2310 224547",
+      "cuisine": [
+        "juice",
+        "tea",
+        "waffle",
+        "donut",
+        "ice_cream",
+        "sandwich"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Cafe with board games.",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/97dad5b9142608fd3bc1",
+      "name": "Λούπινο",
+      "nameEnglish": "Loupino",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 40.6344556,
+      "lng": 22.9370705,
+      "distanceFromTerminalMeters": 776,
+      "distanceFromDefaultTerminalMeters": 776,
+      "minDistanceFromAnyTerminalMeters": 776,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "4 Κατούνη, 54625",
+      "openingHours": "Mo-Su 12:00-02:00",
+      "website": "https://loupino.business.site/",
+      "phone": "+302310535707",
+      "cuisine": [
+        "greek",
+        "mediterranean"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/5639f6c9a454b63e7434",
+      "name": "7 Θάλασσες",
+      "nameEnglish": "7 Thalasses",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 40.633355,
+      "lng": 22.9392122,
+      "distanceFromTerminalMeters": 862,
+      "distanceFromDefaultTerminalMeters": 862,
+      "minDistanceFromAnyTerminalMeters": 862,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "8-10 Καλαποθάκη, Θεσσαλονίκη, 546 24",
+      "openingHours": "Mo-Su 13:00-00:00",
+      "website": "https://7thalasses.eu/",
+      "phone": "+30 2310 233173",
+      "cuisine": [
+        "seafood"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/a9411b6054e0f45c7a85",
+      "name": "Mazu",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 40.6329054,
+      "lng": 22.9390651,
+      "distanceFromTerminalMeters": 830,
+      "distanceFromDefaultTerminalMeters": 830,
+      "minDistanceFromAnyTerminalMeters": 830,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "7 Νίκης, Θεσσαλονίκη, 54624",
+      "openingHours": "Mo-Su 09:00-02:00",
+      "website": "https://instagram.com/mazu_thessaloniki?igshid=OGQ5ZDc2ODk2ZA==",
+      "phone": "+2311218046",
+      "cuisine": [
+        "mediterranean",
+        "sushi",
+        "greek",
+        "brunch"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/2c97b93a12220e1318f6",
+      "name": "The Dubliner",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 40.635181,
+      "lng": 22.9377898,
+      "distanceFromTerminalMeters": 874,
+      "distanceFromDefaultTerminalMeters": 874,
+      "minDistanceFromAnyTerminalMeters": 874,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "16 Κατούνη, Θεσσαλονίκη, 54625",
+      "openingHours": "Mo-Th 10:00-01:00; Fr-Sa 10:00-02:00; Su 10:00-01:00",
+      "website": "https://www.thedubliner.gr/",
+      "phone": "+302310517865",
+      "cuisine": [
+        "irish"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/8892dd59b9af491573f3",
+      "name": "Spoke",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 40.6410867,
+      "lng": 22.9369335,
+      "distanceFromTerminalMeters": 1365,
+      "distanceFromDefaultTerminalMeters": 1365,
+      "minDistanceFromAnyTerminalMeters": 1365,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "10 Μαβίλη, Θεσσαλονίκη, 54630",
+      "openingHours": "Mo-We 07:30-01:00; Th 07:30-00:00; Sa 09:00-02:00, Su 09:00-01:00",
+      "website": "https://topfood.app/el/restaurants/43-spoke-coffee-bar/public",
+      "phone": "2317008187",
+      "cuisine": [
+        "coffee_shop"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/8c49a11f4605e27b8cba",
+      "name": "Ναυτιλιακή",
+      "nameEnglish": "Nautiliaki",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 40.6333515,
+      "lng": 22.9535974,
+      "distanceFromTerminalMeters": 2026,
+      "distanceFromDefaultTerminalMeters": 2026,
+      "minDistanceFromAnyTerminalMeters": 2026,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "8 Πλατεία Αγίου Γεωργίου, Θεσσαλονίκη, 54635",
+      "openingHours": "Mo-Su 12:00-02:00",
+      "website": "https://nautiliaki.gr/",
+      "phone": "+30 2310 247583",
+      "cuisine": [
+        "regional"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/250463d7b0b4cbd19f01",
+      "name": "Signora",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 40.6315642,
+      "lng": 22.9475918,
+      "distanceFromTerminalMeters": 1495,
+      "distanceFromDefaultTerminalMeters": 1495,
+      "minDistanceFromAnyTerminalMeters": 1495,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "19 Παλαιών Πατρών Γερμανού, Θεσσαλονίκη",
+      "openingHours": "Mo-Sa 13:30-23:30; Su 13:30-22:30",
+      "website": "https://signoratrattoria.gr",
+      "phone": "+30 2310 238 233",
+      "cuisine": [
+        "italian"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/4c15261c5083c5efe855",
+      "name": "Arabica",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 40.6302758,
+      "lng": 22.948393,
+      "distanceFromTerminalMeters": 1552,
+      "distanceFromDefaultTerminalMeters": 1552,
+      "minDistanceFromAnyTerminalMeters": 1552,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "7 Λόρδου Βύρωνος, Θεσσαλονίκη, 54622",
+      "openingHours": "12:00-02:00",
+      "website": "https://arabicabar.wixsite.com/arabica",
+      "phone": "+30 2315 552 100",
+      "cuisine": [
+        "middle_eastern"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/a4588d8a60e4fce85aec",
+      "name": "Streetz Pizza",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 40.6288728,
+      "lng": 22.9484919,
+      "distanceFromTerminalMeters": 1566,
+      "distanceFromDefaultTerminalMeters": 1566,
+      "minDistanceFromAnyTerminalMeters": 1566,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "11 Δημητρίου Γούναρη, 54622",
+      "openingHours": "Mo- Su 13:00-01:00",
+      "website": "https://www.instagram.com/streetz_thessaloniki?igsh=NzYwMXRibDVyNHpj&utm_source=qr",
+      "phone": "+302311218923",
+      "cuisine": [
+        "pizza",
+        "pizza_takeaway"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/2a9882f513461603f0cd",
+      "name": "Πλατεία Εμπορίου",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "square",
+      "lat": 40.6359997,
+      "lng": 22.9383599,
+      "distanceFromTerminalMeters": 971,
+      "distanceFromDefaultTerminalMeters": 971,
+      "minDistanceFromAnyTerminalMeters": 971,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Αγίου Μηνά, Θεσσαλονίκη",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "place": "square"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/7e060edfa0ac517b45c4",
+      "name": "Beetroot",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "gallery",
+      "lat": 40.6375195,
+      "lng": 22.9397511,
+      "distanceFromTerminalMeters": 1173,
+      "distanceFromDefaultTerminalMeters": 1173,
+      "minDistanceFromAnyTerminalMeters": 1173,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "gallery"
+      }
+    }
+  ],
+  "portAnchor": {
+    "id": "ports-json-anchor",
+    "name": "THESSALONIKI Port",
+    "lat": 40.63,
+    "lng": 22.93,
+    "address": "Thessaloniki, Central Macedonia, Greece",
+    "source": "ports.json",
+    "sourceId": "",
+    "score": 0,
+    "slug": "thessaloniki-port"
+  },
+  "terminalResolution": {
+    "status": "resolved",
+    "method": "accepted_terminal_candidate",
+    "verified": true,
+    "notes": "Accepted the Port of Thessaloniki candidate because the cruise terminal and passenger exit are inside the central port directly beside the city centre."
+  }
+}

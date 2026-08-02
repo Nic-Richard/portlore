@@ -1,0 +1,1224 @@
+{
+  "schemaVersion": 5,
+  "catalogType": "curation-candidates",
+  "generatedAt": "2026-07-30T09:01:06.374Z",
+  "source": "openstreetmap",
+  "sourceExtract": "sud-latest.osm.pbf",
+  "radiusMeters": 10000,
+  "port": {
+    "id": "brindisi-italy",
+    "city": "Brindisi",
+    "country": "Italy"
+  },
+  "defaultTerminalId": "ports-json-anchor",
+  "terminal": {
+    "id": "ports-json-anchor",
+    "name": "BRINDISI Port",
+    "lat": 40.65,
+    "lng": 17.98,
+    "address": "Brindisi, Apulia, Italy",
+    "source": "ports.json",
+    "sourceId": "",
+    "score": 0,
+    "slug": "brindisi-port"
+  },
+  "terminals": [
+    {
+      "id": "ports-json-anchor",
+      "name": "BRINDISI Port",
+      "lat": 40.65,
+      "lng": 17.98,
+      "address": "Brindisi, Apulia, Italy",
+      "source": "ports.json",
+      "sourceId": "",
+      "score": 0,
+      "slug": "brindisi-port"
+    }
+  ],
+  "terminalCandidateRadiusMeters": 5000,
+  "terminalCandidates": [
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f4729f3691d31f4c7591",
+      "name": "(unnamed maritime feature)",
+      "nameEnglish": "",
+      "lat": 40.6472855,
+      "lng": 17.9628549,
+      "distanceFromPortMeters": 1478,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "stop_position"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/f4729f3691d31f4c7591"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/364dfb6d9b39bfbcd579",
+      "name": "(unnamed maritime feature)",
+      "nameEnglish": "",
+      "lat": 40.6470188,
+      "lng": 17.9615605,
+      "distanceFromPortMeters": 1591,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "stop_position"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/364dfb6d9b39bfbcd579"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/7d02c85d2aea0ec00549",
+      "name": "Terminal Terrare",
+      "nameEnglish": "",
+      "lat": 40.6453367,
+      "lng": 17.9605558,
+      "distanceFromPortMeters": 1720,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "alt_name": "Terminal Ferry",
+        "amenity": "ferry_terminal",
+        "building": "yes",
+        "ferry": "yes",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/7d02c85d2aea0ec00549"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/11bcee5acea900ad83d3",
+      "name": "(unnamed maritime feature)",
+      "nameEnglish": "",
+      "lat": 40.645634,
+      "lng": 17.9593394,
+      "distanceFromPortMeters": 1809,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "stop_position"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/11bcee5acea900ad83d3"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/cacbd7ba567d2f39e3cb",
+      "name": "Banchina Stazione Marittima",
+      "nameEnglish": "",
+      "lat": 40.640328,
+      "lng": 17.9484275,
+      "distanceFromPortMeters": 2873,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "operator": "STP",
+        "public_transport": "stop_position"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/cacbd7ba567d2f39e3cb"
+      ]
+    },
+    {
+      "source": "nominatim",
+      "sourceId": "osm/relation/12857931",
+      "osmType": "relation",
+      "osmId": "12857931",
+      "name": "Aeroporto di Brindisi-Casale",
+      "nameEnglish": "Brindisi Casale Airport",
+      "lat": 40.661605,
+      "lng": 17.9485776,
+      "distanceFromPortMeters": 2948,
+      "address": "Aeroporto di Brindisi-Casale, Via Ruggero De Simone, Paradiso, Brindisi, Puglia, 72100, Italia",
+      "displayName": "Aeroporto di Brindisi-Casale, Via Ruggero De Simone, Paradiso, Brindisi, Puglia, 72100, Italia",
+      "query": "BRINDISI Port, Brindisi, Italy",
+      "matchedBy": [
+        "Nominatim query: BRINDISI Port, Brindisi, Italy"
+      ],
+      "osmTags": {
+        "operator": "Aeroporti di Puglia S.p.A."
+      },
+      "sources": [
+        "nominatim"
+      ],
+      "sourceIds": [
+        "osm/relation/12857931"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/746a153e8b6c2b12d216",
+      "name": "Banchina Ammiraglio Millo",
+      "nameEnglish": "",
+      "lat": 40.6446511,
+      "lng": 17.9440448,
+      "distanceFromPortMeters": 3091,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "operator": "STP",
+        "public_transport": "stop_position"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/746a153e8b6c2b12d216"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f89cc3d30834b102b41e",
+      "name": "Banchina Montenegro",
+      "nameEnglish": "",
+      "lat": 40.6424698,
+      "lng": 17.9445032,
+      "distanceFromPortMeters": 3110,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "operator": "STP",
+        "public_transport": "stop_position"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/f89cc3d30834b102b41e"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/240d4713d777f85c3ad7",
+      "name": "Banchina Villaggio Pescatori",
+      "nameEnglish": "",
+      "lat": 40.643685,
+      "lng": 17.9417242,
+      "distanceFromPortMeters": 3305,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "operator": "STP",
+        "public_transport": "stop_position"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/240d4713d777f85c3ad7"
+      ]
+    }
+  ],
+  "counts": {
+    "attraction": 18,
+    "outdoors": 5,
+    "food_drink": 12,
+    "essentials": 1,
+    "shopping": 0
+  },
+  "pois": [
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/9c1e50fb36ba1b53f2e0",
+      "name": "Castello Alfonsino",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "castle",
+      "lat": 40.6555346,
+      "lng": 17.9675731,
+      "distanceFromTerminalMeters": 1216,
+      "distanceFromDefaultTerminalMeters": 1216,
+      "minDistanceFromAnyTerminalMeters": 1216,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Su 10:00-12:00, 15:00-16:00; \"by appointment\"",
+      "website": "",
+      "phone": "+39 379 2653244",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "il castello è stato riaperto al pubblico.",
+      "osmTags": {
+        "historic": "castle"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/0d66d384bd3fcc5334ae",
+      "name": "Museo Archeologico Provinciale F. Ribezzo",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 40.6406574,
+      "lng": 17.9454811,
+      "distanceFromTerminalMeters": 3092,
+      "distanceFromDefaultTerminalMeters": 3092,
+      "minDistanceFromAnyTerminalMeters": 3092,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "7 Piazza Duomo, Brindisi, 72100",
+      "openingHours": "Mo-Su 09:00-20:00",
+      "website": "https://cartapulia.it/dettaglio?id=129434",
+      "phone": "+39 0831 544257",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/68d895d2ab0064aa2dfc",
+      "name": "Forte a Mare",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "fort",
+      "lat": 40.6569168,
+      "lng": 17.9685856,
+      "distanceFromTerminalMeters": 1232,
+      "distanceFromDefaultTerminalMeters": 1232,
+      "minDistanceFromAnyTerminalMeters": 1232,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "fort"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d4cf5b3013afb095a24d",
+      "name": "Loggia del Palazzo Balsamo",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "castle",
+      "lat": 40.6402012,
+      "lng": 17.9448588,
+      "distanceFromTerminalMeters": 3159,
+      "distanceFromDefaultTerminalMeters": 3159,
+      "minDistanceFromAnyTerminalMeters": 3159,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "4 Via Giovanni Tarantini, Brindisi, 72100",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Loggia del Palazzo Balsamo visibile all'incrocio di Piazza Duomo ed è caratterizzata principalmente da un \"sistema a gradoni\" nella balconata.",
+      "osmTags": {
+        "historic": "castle"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/98350587a638e00bec12",
+      "name": "Torrione dell'Inferno",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 40.6382189,
+      "lng": 17.9380342,
+      "distanceFromTerminalMeters": 3775,
+      "distanceFromDefaultTerminalMeters": 3775,
+      "minDistanceFromAnyTerminalMeters": 3775,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Medieval defence tower",
+      "osmTags": {
+        "historic": "tower",
+        "man_made": "tower",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/2bbf9bfa382c4efabee6",
+      "name": "Collezione Archeologica S. Faldetta",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 40.6413641,
+      "lng": 17.9468528,
+      "distanceFromTerminalMeters": 2957,
+      "distanceFromDefaultTerminalMeters": 2957,
+      "minDistanceFromAnyTerminalMeters": 2957,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "11 Viale Regina Margherita, 72100",
+      "openingHours": "Tu-Su 10:00-13:00",
+      "website": "",
+      "phone": "+390831562800",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/9bdf3e8bb4e74b0dbaa7",
+      "name": "Palazzo del Seminario",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "castle",
+      "lat": 40.6399739,
+      "lng": 17.945052,
+      "distanceFromTerminalMeters": 3152,
+      "distanceFromDefaultTerminalMeters": 3152,
+      "minDistanceFromAnyTerminalMeters": 3152,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "12 Piazza Duomo, Brindisi, 72100",
+      "openingHours": "Mo-We 09:00-13:00",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "limited",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "castle"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/1dcd769201d4a4c299a7",
+      "name": "Castello Svevo di Brindisi",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "castle",
+      "lat": 40.6402869,
+      "lng": 17.9371959,
+      "distanceFromTerminalMeters": 3769,
+      "distanceFromDefaultTerminalMeters": 3769,
+      "minDistanceFromAnyTerminalMeters": 3769,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "no",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "castle"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d4f33c29d228d796dcde",
+      "name": "Monumento al Marinaio d'Italia",
+      "nameEnglish": "Italian Sailor Monument",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 40.6445937,
+      "lng": 17.9470127,
+      "distanceFromTerminalMeters": 2847,
+      "distanceFromDefaultTerminalMeters": 2847,
+      "minDistanceFromAnyTerminalMeters": 2847,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo, Tu, Th-Su 08:00-16:00",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "monument",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/a875a8febdf446ce6b62",
+      "name": "Area archeologica San Pietro degli Schiavoni",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "archaeological_site",
+      "lat": 40.6388343,
+      "lng": 17.944564,
+      "distanceFromTerminalMeters": 3237,
+      "distanceFromDefaultTerminalMeters": 3237,
+      "minDistanceFromAnyTerminalMeters": 3237,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "https://musei.beniculturali.it/musei?mid=878&nome=878",
+      "phone": "+39 099 4532112",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "archaeological_site"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/4010c649053f5e46a831",
+      "name": "Colonne Romane Terminali Via Appia",
+      "nameEnglish": "Roman Columns - Terminal part of Appian way",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 40.6411029,
+      "lng": 17.9467413,
+      "distanceFromTerminalMeters": 2975,
+      "distanceFromDefaultTerminalMeters": 2975,
+      "minDistanceFromAnyTerminalMeters": 2975,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "archaeological_site",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/7d54af9a7a381c33178f",
+      "name": "Monumento a Virgilio",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 40.6397554,
+      "lng": 17.9480072,
+      "distanceFromTerminalMeters": 2930,
+      "distanceFromDefaultTerminalMeters": 2930,
+      "minDistanceFromAnyTerminalMeters": 2930,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "memorial",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/a9d3b170f984bfc38633",
+      "name": "piazza a. sottile a. de falco",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 40.6390073,
+      "lng": 17.9447962,
+      "distanceFromTerminalMeters": 3212,
+      "distanceFromDefaultTerminalMeters": 3212,
+      "minDistanceFromAnyTerminalMeters": 3212,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "ruins",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/1ddaa0478ffa8913ddbd",
+      "name": "Fontana Tancredi",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 40.6377775,
+      "lng": 17.9282108,
+      "distanceFromTerminalMeters": 4576,
+      "distanceFromDefaultTerminalMeters": 4576,
+      "minDistanceFromAnyTerminalMeters": 4576,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "yes",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/82b12d5576001bbe73f6",
+      "name": "Domus Romana",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "archaeological_site",
+      "lat": 40.6392082,
+      "lng": 17.9453609,
+      "distanceFromTerminalMeters": 3159,
+      "distanceFromDefaultTerminalMeters": 3159,
+      "minDistanceFromAnyTerminalMeters": 3159,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "archaeological_site"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/cfc427e3b860df3c96b2",
+      "name": "Vasche Limarie",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "archaeological_site",
+      "lat": 40.6361433,
+      "lng": 17.9394577,
+      "distanceFromTerminalMeters": 3752,
+      "distanceFromDefaultTerminalMeters": 3752,
+      "minDistanceFromAnyTerminalMeters": 3752,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "archaeological_site"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/0b83b5625599ddbbe0d9",
+      "name": "Spiaggia di Cala Materdomini",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "beach",
+      "lat": 40.6605292,
+      "lng": 17.9581091,
+      "distanceFromTerminalMeters": 2187,
+      "distanceFromDefaultTerminalMeters": 2187,
+      "minDistanceFromAnyTerminalMeters": 2187,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "natural": "beach"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/5193509320e41a080afd",
+      "name": "Marina di Brindisi",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "marina",
+      "lat": 40.6611967,
+      "lng": 17.9629221,
+      "distanceFromTerminalMeters": 1904,
+      "distanceFromDefaultTerminalMeters": 1904,
+      "minDistanceFromAnyTerminalMeters": 1904,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "https://www.marinadibrindisi.it/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "marina"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/4c92cc9a5ed020329365",
+      "name": "Giardino V.A. Cappelli",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "garden",
+      "lat": 40.6318115,
+      "lng": 17.9424395,
+      "distanceFromTerminalMeters": 3760,
+      "distanceFromDefaultTerminalMeters": 3760,
+      "minDistanceFromAnyTerminalMeters": 3760,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "garden"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/07f052dc510b3ba5f859",
+      "name": "Via Amerigo Vespucci",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "viewpoint",
+      "lat": 40.6428803,
+      "lng": 17.9337945,
+      "distanceFromTerminalMeters": 3978,
+      "distanceFromDefaultTerminalMeters": 3978,
+      "minDistanceFromAnyTerminalMeters": 3978,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "viewpoint"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/75281b62e07eba24178f",
+      "name": "Parco Costiero Punta del Serrone",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "nature_reserve",
+      "lat": 40.6767049,
+      "lng": 17.9434514,
+      "distanceFromTerminalMeters": 4280,
+      "distanceFromDefaultTerminalMeters": 4280,
+      "minDistanceFromAnyTerminalMeters": 4280,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "nature_reserve"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/0853246524bd5b9d0478",
+      "name": "Ristorante Il Porticciolo",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 40.6605236,
+      "lng": 17.9617249,
+      "distanceFromTerminalMeters": 1935,
+      "distanceFromDefaultTerminalMeters": 1935,
+      "minDistanceFromAnyTerminalMeters": 1935,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "2 Via Dardanelli",
+      "openingHours": "Apr-Sep Mo-Su 07:30-00:30; Oct-Mar Mo-Su 07:30-21:00",
+      "website": "https://ilporticciolobrindisi.it/",
+      "phone": "",
+      "cuisine": [
+        "fish",
+        "pizza"
+      ],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/cb3645dcbd65f19ed789",
+      "name": "Betty Cafe",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 40.6410132,
+      "lng": 17.9473306,
+      "distanceFromTerminalMeters": 2932,
+      "distanceFromDefaultTerminalMeters": 2932,
+      "minDistanceFromAnyTerminalMeters": 2932,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "6 Viale Regina Margherita, Brindisi, 72100",
+      "openingHours": "Mo-Su 06:00-02:00",
+      "website": "https://www.barbetty.it",
+      "phone": "+39 0831 563465",
+      "cuisine": [
+        "regional"
+      ],
+      "wheelchair": "limited",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f01e02c54108a6db34ff",
+      "name": "La Sciaia a mare",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 40.65871,
+      "lng": 17.9581229,
+      "distanceFromTerminalMeters": 2084,
+      "distanceFromDefaultTerminalMeters": 2084,
+      "minDistanceFromAnyTerminalMeters": 2084,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Via Materdomini, Brindisi",
+      "openingHours": "We-Mo 12:30-14:30,19:00-24:00",
+      "website": "",
+      "phone": "",
+      "cuisine": [
+        "pizza"
+      ],
+      "wheelchair": "limited",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/6632c6245e4e66a60354",
+      "name": "Estoril",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 40.6612221,
+      "lng": 17.9601111,
+      "distanceFromTerminalMeters": 2091,
+      "distanceFromDefaultTerminalMeters": 2091,
+      "minDistanceFromAnyTerminalMeters": 2091,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "2 Via Torpedineria Climene",
+      "openingHours": "Apr-Oct Tu-Su 09:00-00:30",
+      "website": "",
+      "phone": "",
+      "cuisine": [
+        "seafood",
+        "regional",
+        "sandwich"
+      ],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/0ec9d3bdff6143c99c4e",
+      "name": "Pizzeria Rosticceria Lo Sfizio",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 40.6465878,
+      "lng": 17.9436501,
+      "distanceFromTerminalMeters": 3090,
+      "distanceFromDefaultTerminalMeters": 3090,
+      "minDistanceFromAnyTerminalMeters": 3090,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Via ammiraglio Cagni, Brindisi",
+      "openingHours": "Mo-Su 17:30-24:00",
+      "website": "https://www.pizzerialosfiziobrindisi.it/",
+      "phone": "",
+      "cuisine": [
+        "pizza"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/06f9220fefaaabc8b7a4",
+      "name": "Diecimiglia Hosteria 2.0",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 40.6405362,
+      "lng": 17.94158,
+      "distanceFromTerminalMeters": 3408,
+      "distanceFromDefaultTerminalMeters": 3408,
+      "minDistanceFromAnyTerminalMeters": 3408,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "5 Via Thaon De Revel Paolo, Brindisi, 72100",
+      "openingHours": "",
+      "website": "https://www.facebook.com/diecimigliaHosteria2.0/",
+      "phone": "+39 344 131 6411",
+      "cuisine": [
+        "fish"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/03241621ddbdde5395e0",
+      "name": "Piadineria",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 40.6379118,
+      "lng": 17.9472806,
+      "distanceFromTerminalMeters": 3070,
+      "distanceFromDefaultTerminalMeters": 3070,
+      "minDistanceFromAnyTerminalMeters": 3070,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "13 Via Pergola, Brindisi, 72100",
+      "openingHours": "Tu-Fr 19:30-22:00; Sa-Su 19:00-22:00",
+      "website": "",
+      "phone": "+39 320 2788321",
+      "cuisine": [
+        "sandwich",
+        "piadina"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/8f1db89f1cdcdc745b6c",
+      "name": "Da Piero",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 40.646354,
+      "lng": 17.9438876,
+      "distanceFromTerminalMeters": 3074,
+      "distanceFromDefaultTerminalMeters": 3074,
+      "minDistanceFromAnyTerminalMeters": 3074,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "27 Via Ruggero Flores, Brindisi",
+      "openingHours": "Tu-Fr,Su 17:00-01:00, Sa 17:00-02:00",
+      "website": "",
+      "phone": "+39 0831 413601",
+      "cuisine": [
+        "italian_pizza"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/609580bf84d4cc4e58dd",
+      "name": "Mova",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 40.6371949,
+      "lng": 17.9455776,
+      "distanceFromTerminalMeters": 3235,
+      "distanceFromDefaultTerminalMeters": 3235,
+      "minDistanceFromAnyTerminalMeters": 3235,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "6 Piazza della Vittoria",
+      "openingHours": "Mo-Su 12:30-15:00, 20:00-00:00",
+      "website": "",
+      "phone": "",
+      "cuisine": [
+        "chinese",
+        "japanese"
+      ],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/8e75a18fb777271a3067",
+      "name": "Antica osteria la sciabica",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 40.6402651,
+      "lng": 17.9408134,
+      "distanceFromTerminalMeters": 3479,
+      "distanceFromDefaultTerminalMeters": 3479,
+      "minDistanceFromAnyTerminalMeters": 3479,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "29 Via Paolo Thaon di Revel, Brindisi, 72100",
+      "openingHours": "12:00-15:00,19:00-23:00",
+      "website": "",
+      "phone": "+39 0831 562870",
+      "cuisine": [
+        "regional"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/5a262d8f51afbf4201a5",
+      "name": "Accademia degli Erranti - Statio Peregrinorum",
+      "nameEnglish": "",
+      "category": "essentials",
+      "subcategory": "visitor_information",
+      "lat": 40.6396962,
+      "lng": 17.9437779,
+      "distanceFromTerminalMeters": 3264,
+      "distanceFromDefaultTerminalMeters": 3264,
+      "minDistanceFromAnyTerminalMeters": 3264,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "http://www.brindisieleantichestrade.com/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Punto di riferimento per la Via Francigena, la Via Materana ecc.",
+      "osmTags": {
+        "tourism": "information"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/71ff9a629ed9b91aa413",
+      "name": "Pinacoteca Comunale “Armando Scivales”",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 40.6398913,
+      "lng": 17.9439053,
+      "distanceFromTerminalMeters": 3246,
+      "distanceFromDefaultTerminalMeters": 3246,
+      "minDistanceFromAnyTerminalMeters": 3246,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "33 Via Giovanni Tarantini",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/3fa77dffb2eb9c989ed7",
+      "name": "Piazza Duomo",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "square",
+      "lat": 40.6403676,
+      "lng": 17.9451838,
+      "distanceFromTerminalMeters": 3127,
+      "distanceFromDefaultTerminalMeters": 3127,
+      "minDistanceFromAnyTerminalMeters": 3127,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "place": "square"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/63644b09c27b98a28fa9",
+      "name": "Caffè Ausonia",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 40.6392181,
+      "lng": 17.9477337,
+      "distanceFromTerminalMeters": 2975,
+      "distanceFromDefaultTerminalMeters": 2975,
+      "minDistanceFromAnyTerminalMeters": 2975,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "91 Corso Giuseppe Garibaldi, Brindisi, 72100",
+      "openingHours": "5:00-22:00",
+      "website": "",
+      "phone": "+39 0831 529719",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Pasticceria, gelateria, rosticceria e piccola cucina",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/bde53572792af4aa56f7",
+      "name": "Dolci Creazioni",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 40.6458125,
+      "lng": 17.9450211,
+      "distanceFromTerminalMeters": 2988,
+      "distanceFromDefaultTerminalMeters": 2988,
+      "minDistanceFromAnyTerminalMeters": 2988,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "39 Via XV Novembre, 72100",
+      "openingHours": "Tu-Su 06:00-23:00",
+      "website": "http://www.pasticceriadolcicreazioni.it",
+      "phone": "+39 0831 260004",
+      "cuisine": [],
+      "wheelchair": "limited",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "cafe",
+        "shop": "pastry"
+      }
+    }
+  ],
+  "portAnchor": {
+    "id": "ports-json-anchor",
+    "name": "BRINDISI Port",
+    "lat": 40.65,
+    "lng": 17.98,
+    "address": "Brindisi, Apulia, Italy",
+    "source": "ports.json",
+    "sourceId": "",
+    "score": 0,
+    "slug": "brindisi-port"
+  },
+  "terminalResolution": {
+    "status": "unresolved",
+    "method": "ports_json_fallback",
+    "verified": false,
+    "notes": "All supplied candidates are ferry-only stops, local docks, unnamed maritime features, or unrelated places rather than passenger cruise terminals."
+  }
+}

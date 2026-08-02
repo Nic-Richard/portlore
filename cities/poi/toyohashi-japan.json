@@ -1,0 +1,193 @@
+{
+  "schemaVersion": 5,
+  "catalogType": "curation-candidates",
+  "generatedAt": "2026-07-30T07:48:29.535Z",
+  "source": "openstreetmap",
+  "sourceExtract": "chubu-latest.osm.pbf",
+  "radiusMeters": 10000,
+  "port": {
+    "id": "toyohashi-japan",
+    "city": "Toyohashi",
+    "country": "Japan"
+  },
+  "defaultTerminalId": "ports-json-anchor",
+  "terminal": {
+    "id": "ports-json-anchor",
+    "name": "MIKAWA Port",
+    "lat": 34.72,
+    "lng": 137.3,
+    "address": "Toyohashi, Aichi, Japan",
+    "source": "ports.json",
+    "sourceId": "",
+    "score": 0,
+    "slug": "mikawa-port"
+  },
+  "terminals": [
+    {
+      "id": "ports-json-anchor",
+      "name": "MIKAWA Port",
+      "lat": 34.72,
+      "lng": 137.3,
+      "address": "Toyohashi, Aichi, Japan",
+      "source": "ports.json",
+      "sourceId": "",
+      "score": 0,
+      "slug": "mikawa-port"
+    }
+  ],
+  "terminalCandidateRadiusMeters": 5000,
+  "terminalCandidates": [],
+  "counts": {
+    "attraction": 1,
+    "outdoors": 3,
+    "essentials": 1,
+    "food_drink": 0,
+    "shopping": 0
+  },
+  "pois": [
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/e869d0fde23efba74090",
+      "name": "姫島",
+      "nameEnglish": "Himishima Island",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 34.7121878,
+      "lng": 137.2488361,
+      "distanceFromTerminalMeters": 4756,
+      "distanceFromDefaultTerminalMeters": 4756,
+      "minDistanceFromAnyTerminalMeters": 4756,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/fc3291d7edcef74513a3",
+      "name": "笠山",
+      "nameEnglish": "Mt. Kasayama",
+      "category": "outdoors",
+      "subcategory": "peak",
+      "lat": 34.7065959,
+      "lng": 137.2790408,
+      "distanceFromTerminalMeters": 2427,
+      "distanceFromDefaultTerminalMeters": 2427,
+      "minDistanceFromAnyTerminalMeters": 2427,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "man_made": "survey_point",
+        "natural": "peak"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/a67eca95a8d9cf1a210f",
+      "name": "ポートインフォメーションセンター カモメリア",
+      "nameEnglish": "",
+      "category": "essentials",
+      "subcategory": "visitor_information",
+      "lat": 34.7321934,
+      "lng": 137.3298345,
+      "distanceFromTerminalMeters": 3045,
+      "distanceFromDefaultTerminalMeters": 3045,
+      "minDistanceFromAnyTerminalMeters": 3045,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "man_made": "tower",
+        "tourism": "information"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ebeb4befce5c2134c9cf",
+      "name": "エコパーク（緑が浜２号緑地）",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 34.7201229,
+      "lng": 137.2688548,
+      "distanceFromTerminalMeters": 2847,
+      "distanceFromDefaultTerminalMeters": 2847,
+      "minDistanceFromAnyTerminalMeters": 2847,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b91a063f89f4dcf64440",
+      "name": "片西1号公園",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 34.6945389,
+      "lng": 137.2607578,
+      "distanceFromTerminalMeters": 4570,
+      "distanceFromDefaultTerminalMeters": 4570,
+      "minDistanceFromAnyTerminalMeters": 4570,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "田原市",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "park"
+      }
+    }
+  ],
+  "portAnchor": {
+    "id": "ports-json-anchor",
+    "name": "MIKAWA Port",
+    "lat": 34.72,
+    "lng": 137.3,
+    "address": "Toyohashi, Aichi, Japan",
+    "source": "ports.json",
+    "sourceId": "",
+    "score": 0,
+    "slug": "mikawa-port"
+  },
+  "terminalResolution": {
+    "status": "unresolved",
+    "method": "ports_json_fallback",
+    "verified": false,
+    "notes": "The catalog contains no terminal candidates, so there is no candidate ID to accept."
+  }
+}

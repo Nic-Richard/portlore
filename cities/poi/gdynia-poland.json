@@ -1,0 +1,1238 @@
+{
+  "schemaVersion": 5,
+  "catalogType": "curation-candidates",
+  "generatedAt": "2026-07-30T08:46:04.218Z",
+  "source": "openstreetmap",
+  "sourceExtract": "pomorskie-latest.osm.pbf",
+  "radiusMeters": 10000,
+  "port": {
+    "id": "gdynia-poland",
+    "city": "Gdynia",
+    "country": "Poland"
+  },
+  "defaultTerminalId": "manual/gdynia-poland/french-quay-cruise-berth",
+  "terminal": {
+    "id": "manual/gdynia-poland/french-quay-cruise-berth",
+    "name": "French Quay Cruise Berth",
+    "nameEnglish": "",
+    "lat": 54.53322,
+    "lng": 18.54618,
+    "address": "",
+    "source": "manual_web_research",
+    "sourceId": "manual/gdynia-poland/french-quay-cruise-berth",
+    "terminalType": "cruise_quay",
+    "verified": true,
+    "notes": "Major Gdynia cruise berth beside the passenger handling area.",
+    "sourceUrls": [
+      "https://www.port.gdynia.pl/en/cruise-ships/",
+      "https://www.openstreetmap.org/?mlat=54.53322&mlon=18.54618#map=17/54.53322/18.54618"
+    ],
+    "sources": [
+      "manual_web_research"
+    ],
+    "sourceIds": [
+      "manual/gdynia-poland/french-quay-cruise-berth"
+    ],
+    "osmTags": {},
+    "matchedBy": [
+      "web_researched_terminal"
+    ],
+    "distanceFromPortMeters": null
+  },
+  "terminals": [
+    {
+      "id": "manual/gdynia-poland/french-quay-cruise-berth",
+      "name": "French Quay Cruise Berth",
+      "nameEnglish": "",
+      "lat": 54.53322,
+      "lng": 18.54618,
+      "address": "",
+      "source": "manual_web_research",
+      "sourceId": "manual/gdynia-poland/french-quay-cruise-berth",
+      "terminalType": "cruise_quay",
+      "verified": true,
+      "notes": "Major Gdynia cruise berth beside the passenger handling area.",
+      "sourceUrls": [
+        "https://www.port.gdynia.pl/en/cruise-ships/",
+        "https://www.openstreetmap.org/?mlat=54.53322&mlon=18.54618#map=17/54.53322/18.54618"
+      ],
+      "sources": [
+        "manual_web_research"
+      ],
+      "sourceIds": [
+        "manual/gdynia-poland/french-quay-cruise-berth"
+      ],
+      "osmTags": {},
+      "matchedBy": [
+        "web_researched_terminal"
+      ],
+      "distanceFromPortMeters": null
+    },
+    {
+      "id": "manual/gdynia-poland/polish-quay-cruise-berth",
+      "name": "Polish Quay Cruise Berth",
+      "nameEnglish": "",
+      "lat": 54.5272,
+      "lng": 18.54444,
+      "address": "",
+      "source": "manual_web_research",
+      "sourceId": "manual/gdynia-poland/polish-quay-cruise-berth",
+      "terminalType": "cruise_quay",
+      "verified": true,
+      "notes": "Separate Gdynia cruise berth used for passenger calls.",
+      "sourceUrls": [
+        "https://www.port.gdynia.pl/en/cruise-ships/",
+        "https://www.openstreetmap.org/?mlat=54.5272&mlon=18.54444#map=17/54.5272/18.54444"
+      ],
+      "sources": [
+        "manual_web_research"
+      ],
+      "sourceIds": [
+        "manual/gdynia-poland/polish-quay-cruise-berth"
+      ],
+      "osmTags": {},
+      "matchedBy": [
+        "web_researched_terminal"
+      ],
+      "distanceFromPortMeters": null
+    }
+  ],
+  "terminalCandidateRadiusMeters": 5000,
+  "terminalCandidates": [
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/5b38d438f1c2bcc8fc47",
+      "name": "Publiczny Terminal Promowy w Gdyni",
+      "nameEnglish": "",
+      "lat": 54.5335445,
+      "lng": 18.5460196,
+      "distanceFromPortMeters": 470,
+      "address": "4 Polska, Gdynia, 81-339",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "building": "yes",
+        "ferry": "yes",
+        "operator": "Zarząd Morskiego Portu Gdynia S.A.",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/5b38d438f1c2bcc8fc47"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c56feae0a92f168c5685",
+      "name": "Publiczny Terminal Promowy w Gdyni",
+      "nameEnglish": "",
+      "lat": 54.5325544,
+      "lng": 18.5407912,
+      "distanceFromPortMeters": 659,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "station",
+        "seamark:type": "harbour"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/c56feae0a92f168c5685"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/58fa7b77f43176f2839a",
+      "name": "Przystań Tramwaju Wodnego",
+      "nameEnglish": "",
+      "lat": 54.5193318,
+      "lng": 18.5545151,
+      "distanceFromPortMeters": 1222,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "cargo": "passengers",
+        "ferry": "yes",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/58fa7b77f43176f2839a"
+      ]
+    },
+    {
+      "source": "nominatim",
+      "sourceId": "osm/node/9588851935",
+      "osmType": "node",
+      "osmId": "9588851935",
+      "name": "Gdynia Port",
+      "nameEnglish": "",
+      "lat": 54.5448319,
+      "lng": 18.4859121,
+      "distanceFromPortMeters": 4451,
+      "address": "Gdynia Port, Hutnicza, Stara Chylonia, Chylonia, Gdynia, województwo pomorskie, 81-062, Polska",
+      "displayName": "Gdynia Port, Hutnicza, Stara Chylonia, Chylonia, Gdynia, województwo pomorskie, 81-062, Polska",
+      "query": "GDYNIA Port, Gdynia, Poland",
+      "matchedBy": [
+        "Nominatim query: GDYNIA Port, Gdynia, Poland"
+      ],
+      "osmTags": {
+        "operator": "PKP Polskie Linie Kolejowe"
+      },
+      "sources": [
+        "nominatim"
+      ],
+      "sourceIds": [
+        "osm/node/9588851935"
+      ]
+    }
+  ],
+  "counts": {
+    "attraction": 18,
+    "outdoors": 7,
+    "food_drink": 12,
+    "shopping": 1,
+    "essentials": 1
+  },
+  "pois": [
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/bb348cfa8cbad3901ebe",
+      "name": "Muzeum Emigracji",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 54.5330528,
+      "lng": 18.5483911,
+      "distanceFromTerminalMeters": 355,
+      "distanceFromDefaultTerminalMeters": 355,
+      "minDistanceFromAnyTerminalMeters": 355,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Tu 12:00-20:00; We 10:00-18:00; Th-Su 10:00-18:00",
+      "website": "http://www.polska1.pl",
+      "phone": "+48 58 670 41 61",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/59c9fcd2e60fa4f3c341",
+      "name": "Dar Pomorza",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 54.519475,
+      "lng": 18.5528593,
+      "distanceFromTerminalMeters": 1185,
+      "distanceFromDefaultTerminalMeters": 1185,
+      "minDistanceFromAnyTerminalMeters": 1185,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Tu-Su 09:00-17:00",
+      "website": "https://polska-org.pl/7252807,Gdynia,SV_Dar_Pomorza.html",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "ship",
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/bad1b48567efcf2a101b",
+      "name": "Muzeum Miasta Gdyni",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 54.5159599,
+      "lng": 18.5472832,
+      "distanceFromTerminalMeters": 1571,
+      "distanceFromDefaultTerminalMeters": 1571,
+      "minDistanceFromAnyTerminalMeters": 1571,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1A Zawiszy Czarnego, Gdynia, 81-374",
+      "openingHours": "Tu-Su 10:00-17:00",
+      "website": "https://www.muzeumgdynia.pl/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f1f02b2beb0da923aae1",
+      "name": "Akwarium Gdyńskie",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "aquarium",
+      "lat": 54.5183244,
+      "lng": 18.5571648,
+      "distanceFromTerminalMeters": 1378,
+      "distanceFromDefaultTerminalMeters": 1378,
+      "minDistanceFromAnyTerminalMeters": 1378,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1 Aleja Jana Pawła II, Gdynia, 81-345",
+      "openingHours": "Mo-Su 9:00-21:00",
+      "website": "https://www.akwarium.gdynia.pl/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "aquarium"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b6657ad89d978c90a9d2",
+      "name": "Galeria Przypływ",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "gallery",
+      "lat": 54.5194666,
+      "lng": 18.5361616,
+      "distanceFromTerminalMeters": 1473,
+      "distanceFromDefaultTerminalMeters": 1473,
+      "minDistanceFromAnyTerminalMeters": 1473,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "https://przyplyw.com/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "gallery"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/e7126a6fd23e670bb6ed",
+      "name": "Kościół pw. Świętego Michała Archanioła",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "church",
+      "lat": 54.5471729,
+      "lng": 18.5524019,
+      "distanceFromTerminalMeters": 1916,
+      "distanceFromDefaultTerminalMeters": 1916,
+      "minDistanceFromAnyTerminalMeters": 1916,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "2 Arciszewskich, Gdynia, 81-103",
+      "openingHours": "",
+      "website": "http://www.parafia.oksy.net.pl",
+      "phone": "+48 58 665 00 63",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "place_of_worship",
+        "historic": "church"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/9f1b44e62f2e41f66dea",
+      "name": "ORP Błyskawica",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 54.5195587,
+      "lng": 18.5511304,
+      "distanceFromTerminalMeters": 1163,
+      "distanceFromDefaultTerminalMeters": 1163,
+      "minDistanceFromAnyTerminalMeters": 1163,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "no",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "ship",
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/2d508821d579ce448d0f",
+      "name": "Pomnik Ludziom Morza",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "monument",
+      "lat": 54.5329779,
+      "lng": 18.5471139,
+      "distanceFromTerminalMeters": 380,
+      "distanceFromDefaultTerminalMeters": 380,
+      "minDistanceFromAnyTerminalMeters": 380,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "monument"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/75ee341a7203071ec1d1",
+      "name": "Pomnik Polski Morskiej",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "monument",
+      "lat": 54.5192055,
+      "lng": 18.5456707,
+      "distanceFromTerminalMeters": 1232,
+      "distanceFromDefaultTerminalMeters": 1232,
+      "minDistanceFromAnyTerminalMeters": 1232,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "https://polska-org.pl/8207462,Gdynia,Pomnik_Polski_Morskiej.html",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "monument"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/8ec9579abc28030d02e1",
+      "name": "Dom Jana Radtkego",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 54.5195601,
+      "lng": 18.5421909,
+      "distanceFromTerminalMeters": 1266,
+      "distanceFromDefaultTerminalMeters": 1266,
+      "minDistanceFromAnyTerminalMeters": 1266,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "2 10 Lutego, Gdynia, PL",
+      "openingHours": "",
+      "website": "https://fotopolska.eu/65560,obiekt.html?map_z=18",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/9e75686bb1c0c60615e3",
+      "name": "Pomnik Josepha Conrada",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "monument",
+      "lat": 54.5185379,
+      "lng": 18.5586337,
+      "distanceFromTerminalMeters": 1391,
+      "distanceFromDefaultTerminalMeters": 1391,
+      "minDistanceFromAnyTerminalMeters": 1391,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "https://polska-org.pl/7254540,Gdynia,Pomnik_Josepha_Conrada.html",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "monument"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/204d28b56f002c8507bf",
+      "name": "Bazylika Kolegiacka (Morska) Najświętszej Maryi Panny Królowej Polski",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 54.5177755,
+      "lng": 18.5424395,
+      "distanceFromTerminalMeters": 1444,
+      "distanceFromDefaultTerminalMeters": 1444,
+      "minDistanceFromAnyTerminalMeters": 1444,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "29 Świętojańska, Gdynia, 81-372, PL",
+      "openingHours": "",
+      "website": "https://www.nmp-gdynia.pl/",
+      "phone": "+48 58 620 05 52",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "place_of_worship",
+        "historic": "church",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/cb876a3a6f875acde235",
+      "name": "Pomnik Tajnego Hufca Harcerzy",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 54.5161007,
+      "lng": 18.5420615,
+      "distanceFromTerminalMeters": 1628,
+      "distanceFromDefaultTerminalMeters": 1628,
+      "minDistanceFromAnyTerminalMeters": 1628,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "https://polska-org.pl/9509364,Gdynia,Pomnik_Poleglych_Harcerzy.html",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "memorial",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/4653df1129a570783649",
+      "name": "Krzyż na Kamiennej Górze",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "monument",
+      "lat": 54.5154654,
+      "lng": 18.5440159,
+      "distanceFromTerminalMeters": 1662,
+      "distanceFromDefaultTerminalMeters": 1662,
+      "minDistanceFromAnyTerminalMeters": 1662,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "https://polska-org.pl/10720404,Gdynia,Krzyz_na_Kamiennej_Gorze.html",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "monument"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/bf22f655099182d5c3bd",
+      "name": "ORP Sokół",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 54.5154543,
+      "lng": 18.5485854,
+      "distanceFromTerminalMeters": 1620,
+      "distanceFromDefaultTerminalMeters": 1620,
+      "minDistanceFromAnyTerminalMeters": 1620,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "ship",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/69d920ba14e1ffb126b1",
+      "name": "Park Linowy Góra Harców",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "theme_park",
+      "lat": 54.5064464,
+      "lng": 18.554338,
+      "distanceFromTerminalMeters": 2634,
+      "distanceFromDefaultTerminalMeters": 2634,
+      "minDistanceFromAnyTerminalMeters": 2634,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "theme_park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/fbf2f3ae3f52b84f4dd2",
+      "name": "Plaża Śródmieście",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "beach",
+      "lat": 54.5145887,
+      "lng": 18.5504675,
+      "distanceFromTerminalMeters": 1714,
+      "distanceFromDefaultTerminalMeters": 1714,
+      "minDistanceFromAnyTerminalMeters": 1714,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "natural": "beach"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/1249b8471e625eca52a1",
+      "name": "Marina Yacht Park",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "marina",
+      "lat": 54.5212619,
+      "lng": 18.5516408,
+      "distanceFromTerminalMeters": 977,
+      "distanceFromDefaultTerminalMeters": 977,
+      "minDistanceFromAnyTerminalMeters": 977,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "https://www.marinayachtpark.pl/",
+      "phone": "+48 78 555 7777",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "marina"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/7ca183a6e7118f1f14e7",
+      "name": "Park Marii i Lecha Kaczyńskich",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 54.514537,
+      "lng": 18.543632,
+      "distanceFromTerminalMeters": 1768,
+      "distanceFromDefaultTerminalMeters": 1768,
+      "minDistanceFromAnyTerminalMeters": 1768,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "http://www.gdynia.pl/g2/2010_05/35804_fileot.pdf",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/20983cac0e46bcb5e2db",
+      "name": "Gdynia Marina",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "marina",
+      "lat": 54.5171797,
+      "lng": 18.5529404,
+      "distanceFromTerminalMeters": 1438,
+      "distanceFromDefaultTerminalMeters": 1438,
+      "minDistanceFromAnyTerminalMeters": 1438,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "http://www.marinagdynia.pl/",
+      "phone": "+48 58 661 93 66",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "marina"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/8476d2e660b95d16a5cb",
+      "name": "Kładka nad Estakadą",
+      "nameEnglish": "Footbridge over the flyover",
+      "category": "outdoors",
+      "subcategory": "viewpoint",
+      "lat": 54.5230434,
+      "lng": 18.4760157,
+      "distanceFromTerminalMeters": 4836,
+      "distanceFromDefaultTerminalMeters": 4836,
+      "minDistanceFromAnyTerminalMeters": 4836,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "viewpoint"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/0fa7cca402bb21e72d74",
+      "name": "Widok na Wzgórze Św. Maksymilana",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "viewpoint",
+      "lat": 54.5034505,
+      "lng": 18.5301123,
+      "distanceFromTerminalMeters": 3219,
+      "distanceFromDefaultTerminalMeters": 3219,
+      "minDistanceFromAnyTerminalMeters": 3219,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "viewpoint"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/bee7855b35742673c198",
+      "name": "Góra Mamuta",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "viewpoint",
+      "lat": 54.5550141,
+      "lng": 18.5160931,
+      "distanceFromTerminalMeters": 3538,
+      "distanceFromDefaultTerminalMeters": 3538,
+      "minDistanceFromAnyTerminalMeters": 3538,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "viewpoint"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/4a82a9cd134dcaddc66a",
+      "name": "Blues Club",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "pub",
+      "lat": 54.5243,
+      "lng": 18.5432412,
+      "distanceFromTerminalMeters": 769,
+      "distanceFromDefaultTerminalMeters": 769,
+      "minDistanceFromAnyTerminalMeters": 769,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "9 Portowa, Gdynia, 81-350",
+      "openingHours": "Mo-Su 11:00+",
+      "website": "https://www.bluesclub.pl/pl",
+      "phone": "+48586210943",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "pub"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/92b3554a932691187d5f",
+      "name": "Mandu",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 54.5213894,
+      "lng": 18.5423792,
+      "distanceFromTerminalMeters": 1076,
+      "distanceFromDefaultTerminalMeters": 1076,
+      "minDistanceFromAnyTerminalMeters": 1076,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "81-356",
+      "openingHours": "Su-Fr 12:00-21:00; Sa 12:00-22:00",
+      "website": "https://pierogarnia-mandu.pl/",
+      "phone": "+48 58 380 11 33",
+      "cuisine": [
+        "dumplings"
+      ],
+      "wheelchair": "no",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b765ead462457636cef4",
+      "name": "Ram Ram Ji Indian Street Food",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 54.5215112,
+      "lng": 18.5413553,
+      "distanceFromTerminalMeters": 1096,
+      "distanceFromDefaultTerminalMeters": 1096,
+      "minDistanceFromAnyTerminalMeters": 1096,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "81-356",
+      "openingHours": "Mo-Su 12:00-21:00",
+      "website": "https://ramramjigdynia.pl/",
+      "phone": "+48 608 225 999;+48 570 676 786",
+      "cuisine": [
+        "indian"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/dfd10b6332c32b94eb22",
+      "name": "Kociołek Konesera",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 54.5206829,
+      "lng": 18.5435012,
+      "distanceFromTerminalMeters": 1118,
+      "distanceFromDefaultTerminalMeters": 1118,
+      "minDistanceFromAnyTerminalMeters": 1118,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Th 11:00-17:00; Fr 11:00-18:00",
+      "website": "https://kociolekkonesera.eatbu.com",
+      "phone": "+48 575 388 594",
+      "cuisine": [
+        "soup"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ec3875c09ad6e074d1f7",
+      "name": "Haos Asian Restaurant",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 54.521404,
+      "lng": 18.5401087,
+      "distanceFromTerminalMeters": 1149,
+      "distanceFromDefaultTerminalMeters": 1149,
+      "minDistanceFromAnyTerminalMeters": 1149,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo 14:00-22:00; Tu-Th 12:00-22:00; Fr-Sa 12:00-23:00; Su 13:00-22:00",
+      "website": "https://haos.menu/",
+      "phone": "+48536277977",
+      "cuisine": [
+        "asian"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/25bad407228ac03ddc71",
+      "name": "Andiamo a Roma",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 54.5211932,
+      "lng": 18.5397697,
+      "distanceFromTerminalMeters": 1181,
+      "distanceFromDefaultTerminalMeters": 1181,
+      "minDistanceFromAnyTerminalMeters": 1181,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "15, 81-356",
+      "openingHours": "Mo-Sa 10:00-20:00; Su 10:00-19:00",
+      "website": "https://www.facebook.com/AndiamoGdynia/",
+      "phone": "+48 666 586 445",
+      "cuisine": [
+        "italian",
+        "pizza"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/acb779b9bce36d98ffc1",
+      "name": "Zana Restaurant & Lounge Bar",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 54.5197017,
+      "lng": 18.5441377,
+      "distanceFromTerminalMeters": 1206,
+      "distanceFromDefaultTerminalMeters": 1206,
+      "minDistanceFromAnyTerminalMeters": 1206,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "81-370",
+      "openingHours": "Mo-Su 09:00-00:00",
+      "website": "https://zanafood.com.pl/",
+      "phone": "+48 690 345 354",
+      "cuisine": [
+        "turkish"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/4fa95a7f4b7dbd9649b7",
+      "name": "Pierogi. Pierogi",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 54.5199257,
+      "lng": 18.5429857,
+      "distanceFromTerminalMeters": 1208,
+      "distanceFromDefaultTerminalMeters": 1208,
+      "minDistanceFromAnyTerminalMeters": 1208,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Sa 11:00-19:00; Su 12:00-19:00",
+      "website": "https://pierogarnia-pierogi-pierogi.business.site/",
+      "phone": "+48585823760",
+      "cuisine": [
+        "pierogi"
+      ],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/891e4d2e696ee7a71ace",
+      "name": "Bistro Kwadrans",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 54.5197212,
+      "lng": 18.5437735,
+      "distanceFromTerminalMeters": 1212,
+      "distanceFromDefaultTerminalMeters": 1212,
+      "minDistanceFromAnyTerminalMeters": 1212,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Fr 09:00-22:00; Sa 10:00-22:00; Su 12:00-22:00",
+      "website": "http://bistrokwadrans.com/",
+      "phone": "+48 58 620 15 92",
+      "cuisine": [
+        "italian"
+      ],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/46634c702a1aedbb67b5",
+      "name": "Kapitan Cook",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 54.5190943,
+      "lng": 18.554518,
+      "distanceFromTerminalMeters": 1247,
+      "distanceFromDefaultTerminalMeters": 1247,
+      "minDistanceFromAnyTerminalMeters": 1247,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Aleja Jana Pawła II, Gdynia, 81-345",
+      "openingHours": "Mo-Th 12:00-21:00; Fr-Sa 12:00-23:00; Su 12:00-21:00",
+      "website": "https://www.kapitancook.pl/",
+      "phone": "+48 586677000",
+      "cuisine": [
+        "seafood",
+        "fish",
+        "polish"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/924b232f3d6d8227a832",
+      "name": "Oberża 86",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 54.5214175,
+      "lng": 18.5374715,
+      "distanceFromTerminalMeters": 1251,
+      "distanceFromDefaultTerminalMeters": 1251,
+      "minDistanceFromAnyTerminalMeters": 1251,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Su 12:00-22:00",
+      "website": "https://oberza86.pl/",
+      "phone": "+48505972849",
+      "cuisine": [
+        "polish"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/5c7f98987f86282739f2",
+      "name": "Pierożek",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 54.5189008,
+      "lng": 18.5436779,
+      "distanceFromTerminalMeters": 1300,
+      "distanceFromDefaultTerminalMeters": 1300,
+      "minDistanceFromAnyTerminalMeters": 1300,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "15 Skwer Tadeusza Kościuszki, Gdynia, 81-370",
+      "openingHours": "Mo-Su 11:00-20:00",
+      "website": "https://www.facebook.com/PierogarniaPierozekGdynia",
+      "phone": "+48586209567",
+      "cuisine": [
+        "polish"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/cddf5ef242ce7d7864cc",
+      "name": "Centrum Handlowe Batory",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "mall",
+      "lat": 54.518996,
+      "lng": 18.5395966,
+      "distanceFromTerminalMeters": 1396,
+      "distanceFromDefaultTerminalMeters": 1396,
+      "minDistanceFromAnyTerminalMeters": 1396,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "11 10 Lutego, Gdynia, 81-366",
+      "openingHours": "",
+      "website": "https://batorygdynia.com.pl/",
+      "phone": "+48 58 661 75 58",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "shop": "mall"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d7413971508dcf6ba5a5",
+      "name": "Miejska Informacja Turystyczna",
+      "nameEnglish": "",
+      "category": "essentials",
+      "subcategory": "visitor_information",
+      "lat": 54.5198693,
+      "lng": 18.535252,
+      "distanceFromTerminalMeters": 1475,
+      "distanceFromDefaultTerminalMeters": 1475,
+      "minDistanceFromAnyTerminalMeters": 1475,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "24 10 Lutego, Gdynia",
+      "openingHours": "May-Sep: Mo-Fr 09:00-18:00; May-Sep: Sa,Su,PH 09:00-16:00; Oct-Apr: Mo-Fr 09:00-17:00; Oct-Apr: Sa 09:00-15:00; Oct-Apr: Su,PH off",
+      "website": "https://gdyniasport.pl/pl/obiekty/miejska-informacja-turystyczna",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "information"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/be7fa6049df506d0dcbe",
+      "name": "Okna i drzwi: od•nowa",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "gallery",
+      "lat": 54.5216638,
+      "lng": 18.5436822,
+      "distanceFromTerminalMeters": 1013,
+      "distanceFromDefaultTerminalMeters": 1013,
+      "minDistanceFromAnyTerminalMeters": 1013,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "gallery"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f2c9ca2200a0208cf317",
+      "name": "Skwer Tadeusza Kościuszki",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "square",
+      "lat": 54.5191965,
+      "lng": 18.5462574,
+      "distanceFromTerminalMeters": 1225,
+      "distanceFromDefaultTerminalMeters": 1225,
+      "minDistanceFromAnyTerminalMeters": 1225,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "place": "square"
+      }
+    }
+  ],
+  "portAnchor": {
+    "id": "ports-json-anchor",
+    "name": "GDYNIA Port",
+    "lat": 54.53,
+    "lng": 18.55,
+    "address": "Gdynia, Pomeranian Voivodeship, Poland",
+    "source": "ports.json",
+    "sourceId": "",
+    "score": 0,
+    "slug": "gdynia-port"
+  },
+  "terminalResolution": {
+    "status": "resolved",
+    "method": "manual_web_research",
+    "verified": true,
+    "notes": "Terminal records were added from researched cruise-port sources because no supplied candidate accurately represented the passenger arrival point."
+  }
+}

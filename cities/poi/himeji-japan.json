@@ -1,0 +1,226 @@
+{
+  "schemaVersion": 5,
+  "catalogType": "curation-candidates",
+  "generatedAt": "2026-07-30T08:11:23.598Z",
+  "source": "openstreetmap",
+  "sourceExtract": "kansai-latest.osm.pbf",
+  "radiusMeters": 10000,
+  "port": {
+    "id": "himeji-japan",
+    "city": "Himeji",
+    "country": "Japan"
+  },
+  "defaultTerminalId": "manual/himeji-japan/himeji-port-cruise-berth",
+  "terminal": {
+    "id": "manual/himeji-japan/himeji-port-cruise-berth",
+    "name": "Himeji Port Cruise Berth",
+    "nameEnglish": "",
+    "lat": 34.77996,
+    "lng": 134.65963,
+    "address": "",
+    "source": "manual_web_research",
+    "sourceId": "manual/himeji-japan/himeji-port-cruise-berth",
+    "terminalType": "cruise_quay",
+    "verified": true,
+    "notes": "Passenger disembarkation area in the Shikama waterfront section of Himeji Port.",
+    "sourceUrls": [
+      "https://www.mlit.go.jp/kankocho/cruise/detail/019/index.html",
+      "https://www.openstreetmap.org/?mlat=34.77996&mlon=134.65963#map=17/34.77996/134.65963"
+    ],
+    "sources": [
+      "manual_web_research"
+    ],
+    "sourceIds": [
+      "manual/himeji-japan/himeji-port-cruise-berth"
+    ],
+    "osmTags": {},
+    "matchedBy": [
+      "web_researched_terminal"
+    ],
+    "distanceFromPortMeters": null
+  },
+  "terminals": [
+    {
+      "id": "manual/himeji-japan/himeji-port-cruise-berth",
+      "name": "Himeji Port Cruise Berth",
+      "nameEnglish": "",
+      "lat": 34.77996,
+      "lng": 134.65963,
+      "address": "",
+      "source": "manual_web_research",
+      "sourceId": "manual/himeji-japan/himeji-port-cruise-berth",
+      "terminalType": "cruise_quay",
+      "verified": true,
+      "notes": "Passenger disembarkation area in the Shikama waterfront section of Himeji Port.",
+      "sourceUrls": [
+        "https://www.mlit.go.jp/kankocho/cruise/detail/019/index.html",
+        "https://www.openstreetmap.org/?mlat=34.77996&mlon=134.65963#map=17/34.77996/134.65963"
+      ],
+      "sources": [
+        "manual_web_research"
+      ],
+      "sourceIds": [
+        "manual/himeji-japan/himeji-port-cruise-berth"
+      ],
+      "osmTags": {},
+      "matchedBy": [
+        "web_researched_terminal"
+      ],
+      "distanceFromPortMeters": null
+    }
+  ],
+  "terminalCandidateRadiusMeters": 5000,
+  "terminalCandidates": [
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/9d421c4fd739be680406",
+      "name": "(unnamed maritime feature)",
+      "nameEnglish": "",
+      "lat": 34.7839734,
+      "lng": 134.6627739,
+      "distanceFromPortMeters": 4820,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/9d421c4fd739be680406"
+      ]
+    },
+    {
+      "source": "nominatim",
+      "sourceId": "osm/node/11826479574",
+      "osmType": "node",
+      "osmId": "11826479574",
+      "name": "姫路港前",
+      "nameEnglish": "Himeji Port",
+      "lat": 34.784525,
+      "lng": 134.662131,
+      "distanceFromPortMeters": 4832,
+      "address": "姫路港前, 国道436号, 飾磨区細江, 姫路市, 兵庫県, 672-8064, 日本",
+      "displayName": "姫路港前, 国道436号, 飾磨区細江, 姫路市, 兵庫県, 672-8064, 日本",
+      "query": "HIMEJI Port, Himeji, Japan",
+      "matchedBy": [
+        "Nominatim query: HIMEJI Port, Himeji, Japan"
+      ],
+      "osmTags": {},
+      "sources": [
+        "nominatim"
+      ],
+      "sourceIds": [
+        "osm/node/11826479574"
+      ]
+    }
+  ],
+  "counts": {
+    "attraction": 1,
+    "food_drink": 1,
+    "essentials": 1,
+    "shopping": 0,
+    "outdoors": 0
+  },
+  "pois": [
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/69a805b1058c672c473f",
+      "name": "MAC-C 建設室",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "building",
+      "lat": 34.7802267,
+      "lng": 134.5949283,
+      "distanceFromTerminalMeters": 4643,
+      "distanceFromDefaultTerminalMeters": 4643,
+      "minDistanceFromAnyTerminalMeters": 4643,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "building"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/81c937f271f388981d48",
+      "name": "居酒屋 鳥金",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "pub",
+      "lat": 34.790142,
+      "lng": 134.6053627,
+      "distanceFromTerminalMeters": 4999,
+      "distanceFromDefaultTerminalMeters": 4999,
+      "minDistanceFromAnyTerminalMeters": 4999,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [
+        "chicken"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "pub"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d2ccac0c574b9ec46d8d",
+      "name": "保存樹",
+      "nameEnglish": "",
+      "category": "essentials",
+      "subcategory": "visitor_information",
+      "lat": 34.7801529,
+      "lng": 134.595146,
+      "distanceFromTerminalMeters": 4624,
+      "distanceFromDefaultTerminalMeters": 4624,
+      "minDistanceFromAnyTerminalMeters": 4624,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "ユーカリ",
+      "osmTags": {
+        "tourism": "information"
+      }
+    }
+  ],
+  "portAnchor": {
+    "id": "ports-json-anchor",
+    "name": "HIMEJI Port",
+    "lat": 34.75,
+    "lng": 134.63,
+    "address": "Himeji, Hyogo, Japan",
+    "source": "ports.json",
+    "sourceId": "",
+    "score": 0,
+    "slug": "himeji-port"
+  },
+  "terminalResolution": {
+    "status": "resolved",
+    "method": "manual_web_research",
+    "verified": true,
+    "notes": "Terminal records were added from researched cruise-port sources because no supplied candidate accurately represented the passenger arrival point."
+  }
+}

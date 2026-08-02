@@ -1,0 +1,1312 @@
+{
+  "schemaVersion": 5,
+  "catalogType": "curation-candidates",
+  "generatedAt": "2026-07-30T07:34:37.502Z",
+  "source": "openstreetmap",
+  "sourceExtract": "andalucia-latest.osm.pbf",
+  "radiusMeters": 10000,
+  "port": {
+    "id": "malaga-spain",
+    "city": "Malaga",
+    "country": "Spain"
+  },
+  "defaultTerminalId": "osm/way/808763390",
+  "terminal": {
+    "id": "osm/way/808763390",
+    "name": "Terminal de Cruceros de Málaga",
+    "nameEnglish": "Malaga Cruise Terminal",
+    "lat": 36.7068183,
+    "lng": -4.414994,
+    "address": "Terminal de Cruceros de Málaga, Centro, Málaga, Málaga-Costa del Sol, Málaga, Andalucía, España",
+    "source": "verified_terminal_candidate",
+    "sourceId": "osm/way/808763390",
+    "terminalType": "passenger_cruise_terminal",
+    "verified": true,
+    "notes": "Accepted 1 candidate explicitly identified as an ocean-cruise or cruise-passenger terminal; ferry and unrelated results were excluded.",
+    "sourceUrls": [],
+    "sources": [
+      "nominatim"
+    ],
+    "sourceIds": [
+      "osm/way/808763390"
+    ],
+    "osmTags": {
+      "cargo": "passengers",
+      "industrial": "port"
+    },
+    "matchedBy": [
+      "Nominatim query: Malaga cruise terminal, Spain"
+    ],
+    "distanceFromPortMeters": 1532
+  },
+  "terminals": [
+    {
+      "id": "osm/way/808763390",
+      "name": "Terminal de Cruceros de Málaga",
+      "nameEnglish": "Malaga Cruise Terminal",
+      "lat": 36.7068183,
+      "lng": -4.414994,
+      "address": "Terminal de Cruceros de Málaga, Centro, Málaga, Málaga-Costa del Sol, Málaga, Andalucía, España",
+      "source": "verified_terminal_candidate",
+      "sourceId": "osm/way/808763390",
+      "terminalType": "passenger_cruise_terminal",
+      "verified": true,
+      "notes": "Accepted 1 candidate explicitly identified as an ocean-cruise or cruise-passenger terminal; ferry and unrelated results were excluded.",
+      "sourceUrls": [],
+      "sources": [
+        "nominatim"
+      ],
+      "sourceIds": [
+        "osm/way/808763390"
+      ],
+      "osmTags": {
+        "cargo": "passengers",
+        "industrial": "port"
+      },
+      "matchedBy": [
+        "Nominatim query: Malaga cruise terminal, Spain"
+      ],
+      "distanceFromPortMeters": 1532
+    }
+  ],
+  "terminalCandidateRadiusMeters": 5000,
+  "terminalCandidates": [
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/fc99732405dda7d2004f",
+      "name": "Estación Marítima de Málaga",
+      "nameEnglish": "",
+      "lat": 36.715867,
+      "lng": -4.4187236,
+      "distanceFromPortMeters": 473,
+      "address": "Avenida Manuel Agustín Heredia, 26001",
+      "matchedBy": [
+        "amenity=ferry_terminal",
+        "terminal-like name"
+      ],
+      "osmTags": {
+        "alt_name": "Estación Marítima Puerto de Málaga",
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/fc99732405dda7d2004f"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f36cf452693c0aeab948",
+      "name": "Catamarán Mundo Marino",
+      "nameEnglish": "",
+      "lat": 36.7178495,
+      "lng": -4.4133082,
+      "distanceFromPortMeters": 643,
+      "address": "1 Paseo del Muelle Uno, Málaga, 29016",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "description": "Excursiones en catamarán por la bahía de Málaga.",
+        "ferry": "yes",
+        "operator": "Mundo Marino",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/f36cf452693c0aeab948"
+      ]
+    },
+    {
+      "source": "nominatim",
+      "sourceId": "osm/relation/10592604",
+      "osmType": "relation",
+      "osmId": "10592604",
+      "name": "Puerto de Málaga",
+      "nameEnglish": "Port of Málaga",
+      "lat": 36.708943,
+      "lng": -4.4226328,
+      "distanceFromPortMeters": 1252,
+      "address": "Puerto de Málaga, Centro, Málaga, Málaga-Costa del Sol, Málaga, Andalucía, España",
+      "displayName": "Puerto de Málaga, Centro, Málaga, Málaga-Costa del Sol, Málaga, Andalucía, España",
+      "query": "MALAGA Port, Malaga, Spain",
+      "matchedBy": [
+        "Nominatim query: MALAGA Port, Malaga, Spain"
+      ],
+      "osmTags": {},
+      "sources": [
+        "nominatim"
+      ],
+      "sourceIds": [
+        "osm/relation/10592604"
+      ]
+    },
+    {
+      "source": "nominatim",
+      "sourceId": "osm/relation/3881070",
+      "osmType": "relation",
+      "osmId": "3881070",
+      "name": "Puerto de Málaga",
+      "nameEnglish": "Port of Málaga",
+      "lat": 36.7091307,
+      "lng": -4.4238909,
+      "distanceFromPortMeters": 1257,
+      "address": "Puerto de Málaga, Centro, Málaga, Málaga-Costa del Sol, Málaga, Andalucía, España",
+      "displayName": "Puerto de Málaga, Centro, Málaga, Málaga-Costa del Sol, Málaga, Andalucía, España",
+      "query": "MALAGA Port, Malaga, Spain",
+      "matchedBy": [
+        "Nominatim query: MALAGA Port, Malaga, Spain"
+      ],
+      "osmTags": {
+        "industrial": "port"
+      },
+      "sources": [
+        "nominatim"
+      ],
+      "sourceIds": [
+        "osm/relation/3881070"
+      ]
+    },
+    {
+      "source": "nominatim",
+      "sourceId": "osm/way/808763390",
+      "osmType": "way",
+      "osmId": "808763390",
+      "name": "Terminal de Cruceros de Málaga",
+      "nameEnglish": "Malaga Cruise Terminal",
+      "lat": 36.7068183,
+      "lng": -4.414994,
+      "distanceFromPortMeters": 1532,
+      "address": "Terminal de Cruceros de Málaga, Centro, Málaga, Málaga-Costa del Sol, Málaga, Andalucía, España",
+      "displayName": "Terminal de Cruceros de Málaga, Centro, Málaga, Málaga-Costa del Sol, Málaga, Andalucía, España",
+      "query": "Malaga cruise terminal, Spain",
+      "matchedBy": [
+        "Nominatim query: Malaga cruise terminal, Spain"
+      ],
+      "osmTags": {
+        "cargo": "passengers",
+        "industrial": "port"
+      },
+      "sources": [
+        "nominatim"
+      ],
+      "sourceIds": [
+        "osm/way/808763390"
+      ]
+    }
+  ],
+  "counts": {
+    "attraction": 13,
+    "outdoors": 7,
+    "food_drink": 15,
+    "shopping": 3,
+    "essentials": 3
+  },
+  "pois": [
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/1ea25bc162d62e116f5d",
+      "name": "OXO Museo del Videojuego",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 36.7214312,
+      "lng": -4.4200704,
+      "distanceFromTerminalMeters": 159,
+      "distanceFromDefaultTerminalMeters": 159,
+      "minDistanceFromAnyTerminalMeters": 159,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "2, 29002",
+      "openingHours": "Mo-Su 10:00-22:00",
+      "website": "https://oxomuseo.com",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Museo dedicado a la historia de los videojuegos, donde el público puede jugar a juegos clásicos o conocer las últimas tendencias del sector.",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b7ef4f0dcfcc23ae6d94",
+      "name": "Centro Pompidou Málaga",
+      "nameEnglish": "Centre Pompidou Málaga",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 36.719043,
+      "lng": -4.4132463,
+      "distanceFromTerminalMeters": 611,
+      "distanceFromDefaultTerminalMeters": 611,
+      "minDistanceFromAnyTerminalMeters": 611,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Pasaje Doctor Carrillo Casaux",
+      "openingHours": "Mo-Su 09:30-20:00; Tu off",
+      "website": "https://centrepompidou-malaga.eu",
+      "phone": "+34 951926200",
+      "cuisine": [],
+      "wheelchair": "no",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ddf52187609467ce25e8",
+      "name": "Museum de la Imaginación",
+      "nameEnglish": "Imagination Museum",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 36.7152695,
+      "lng": -4.4235689,
+      "distanceFromTerminalMeters": 615,
+      "distanceFromDefaultTerminalMeters": 615,
+      "minDistanceFromAnyTerminalMeters": 615,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "13 Calle Martínez Campos, 29001",
+      "openingHours": "Mo, Tu, Th 11:00-20:00; Fr-Su 11:00-21:00",
+      "website": "https://www.museoimaginacion.com/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/3529006e73358ab5080f",
+      "name": "Museo Jorge Rando",
+      "nameEnglish": "Museum Jorge Rando",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 36.7266665,
+      "lng": -4.4237116,
+      "distanceFromTerminalMeters": 812,
+      "distanceFromDefaultTerminalMeters": 812,
+      "minDistanceFromAnyTerminalMeters": 812,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "12 Calle Cruz del Molinillo, 29013",
+      "openingHours": "Mo-Sa 10:00-20:00",
+      "website": "https://www.museojorgerando.org",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "no",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/a36a4305d104ad756548",
+      "name": "Centro de Arte Contemporáneo",
+      "nameEnglish": "Contemporary Art Museum of Malaga",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 36.7140483,
+      "lng": -4.4254111,
+      "distanceFromTerminalMeters": 819,
+      "distanceFromDefaultTerminalMeters": 819,
+      "minDistanceFromAnyTerminalMeters": 819,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "2 Calle Alemania, Málaga, 29001",
+      "openingHours": "Tu-Su 10:00-20:00",
+      "website": "https://cacmalaga.eu",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/9f60f035494ef06e6f40",
+      "name": "Centro Cultural La Malagueta",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "gallery",
+      "lat": 36.720644,
+      "lng": -4.4104552,
+      "distanceFromTerminalMeters": 854,
+      "distanceFromDefaultTerminalMeters": 854,
+      "minDistanceFromAnyTerminalMeters": 854,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "8 Paseo de Reding, 29016",
+      "openingHours": "",
+      "website": "https://cclamalagueta.com",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "El Centro Cultural La Malagueta es un centro de exposiciones y conferencias ubicado en la Plaza de Toros de La Malagueta.",
+      "osmTags": {
+        "amenity": "conference_centre",
+        "tourism": "gallery"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/2020638c3da36067710b",
+      "name": "Aula Museo de Geología Minerales y Tesoros de la Tierra",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 36.7248201,
+      "lng": -4.4343179,
+      "distanceFromTerminalMeters": 1384,
+      "distanceFromDefaultTerminalMeters": 1384,
+      "minDistanceFromAnyTerminalMeters": 1384,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "40 Calle Bailén, 29009",
+      "openingHours": "Tu 10:00-14:00;Th 10:00- 14:00;Sa 10:00-14:30",
+      "website": "https://aulamuseodegeologiamalaga.com",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Colección de 1500 minerales, fósiles, rocas y gemas.",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/a8de0f421ec0be603088",
+      "name": "Teatro Romano",
+      "nameEnglish": "Roman Theatre",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 36.7212854,
+      "lng": -4.4168967,
+      "distanceFromTerminalMeters": 311,
+      "distanceFromDefaultTerminalMeters": 311,
+      "minDistanceFromAnyTerminalMeters": 311,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "https://www.juntadeandalucia.es/cultura/enclaves/enclave-arqueologico-teatro-romano-de-malaga",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "archaeological_site",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/198794aa97b4ef4d2250",
+      "name": "Alcazaba de Málaga",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 36.7210199,
+      "lng": -4.4159336,
+      "distanceFromTerminalMeters": 380,
+      "distanceFromDefaultTerminalMeters": 380,
+      "minDistanceFromAnyTerminalMeters": 380,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Apr-Oct: 09:00-20:00; Nov-Mar: 09:00-18:00",
+      "website": "https://www.youtube.com/watch?v=YRQf7hqZALQ",
+      "phone": "+34952227230",
+      "cuisine": [],
+      "wheelchair": "no",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "castle",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/2a43ac165a3fa36fdad3",
+      "name": "Catedral de Málaga",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 36.720179,
+      "lng": -4.41941,
+      "distanceFromTerminalMeters": 56,
+      "distanceFromDefaultTerminalMeters": 56,
+      "minDistanceFromAnyTerminalMeters": 56,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "9 Calle Molina Lario, Malaga, 29015",
+      "openingHours": "",
+      "website": "https://malagacatedral.com/",
+      "phone": "+34 952 22 03 45",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "place_of_worship",
+        "historic": "yes",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/8a4dbcc3e4991706ccd0",
+      "name": "Iglesia del Santo Cristo de la Salud",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 36.7214318,
+      "lng": -4.4225673,
+      "distanceFromTerminalMeters": 279,
+      "distanceFromDefaultTerminalMeters": 279,
+      "minDistanceFromAnyTerminalMeters": 279,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Calle Compañía, 29008",
+      "openingHours": "",
+      "website": "https://www.andalucia.org/es/malaga-turismo-cultural-iglesia-del-santo-cristo-de-la-salud",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "no",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "place_of_worship",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/742e97f68e845e680f68",
+      "name": "Baños Arabes Hammam Al Andalus",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 36.7223737,
+      "lng": -4.4228264,
+      "distanceFromTerminalMeters": 365,
+      "distanceFromDefaultTerminalMeters": 365,
+      "minDistanceFromAnyTerminalMeters": 365,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "5",
+      "openingHours": "",
+      "website": "https://hammamalandalus.com",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "no",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "public_bath",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d1e18c7fb756fa2713c0",
+      "name": "IGY Málaga Marina",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "marina",
+      "lat": 36.7161337,
+      "lng": -4.4146627,
+      "distanceFromTerminalMeters": 641,
+      "distanceFromDefaultTerminalMeters": 641,
+      "minDistanceFromAnyTerminalMeters": 641,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Muelle Cánovas",
+      "openingHours": "Mo-Su 09:00-18:00",
+      "website": "https://www.igymarinas.com/es/marinas/igy-malaga-marina",
+      "phone": "+34 699989631",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Marina de megayates.",
+      "osmTags": {
+        "leisure": "marina"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c0e4942b3838916caceb",
+      "name": "Patio de Armas",
+      "nameEnglish": "Weaponry Square",
+      "category": "outdoors",
+      "subcategory": "garden",
+      "lat": 36.7207151,
+      "lng": -4.4164356,
+      "distanceFromTerminalMeters": 327,
+      "distanceFromDefaultTerminalMeters": 327,
+      "minDistanceFromAnyTerminalMeters": 327,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "garden"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/38a2cc9c50b1050baae3",
+      "name": "Mirador de la Alcazaba",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "viewpoint",
+      "lat": 36.7214825,
+      "lng": -4.4162183,
+      "distanceFromTerminalMeters": 375,
+      "distanceFromDefaultTerminalMeters": 375,
+      "minDistanceFromAnyTerminalMeters": 375,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Jun-Sep: 10:00-20:00; Oct-May: 10:00-17:00",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "viewpoint"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ebf763b000c2f7bb97ca",
+      "name": "Jardines de la Catedral",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "garden",
+      "lat": 36.7205031,
+      "lng": -4.4197897,
+      "distanceFromTerminalMeters": 59,
+      "distanceFromDefaultTerminalMeters": 59,
+      "minDistanceFromAnyTerminalMeters": 59,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "garden"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/e2902e6d999d021c79ee",
+      "name": "Jardines de la Iglesia de San Agustín",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "garden",
+      "lat": 36.7213608,
+      "lng": -4.4186455,
+      "distanceFromTerminalMeters": 194,
+      "distanceFromDefaultTerminalMeters": 194,
+      "minDistanceFromAnyTerminalMeters": 194,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "garden"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/7c0f6e79c430e8c4908b",
+      "name": "Jardines Manuel Atienza García",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "garden",
+      "lat": 36.7213847,
+      "lng": -4.4174337,
+      "distanceFromTerminalMeters": 276,
+      "distanceFromDefaultTerminalMeters": 276,
+      "minDistanceFromAnyTerminalMeters": 276,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "garden"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/7bee98ac225d908e9807",
+      "name": "Parque Forestal de Gibralfaro",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 36.7243921,
+      "lng": -4.410196,
+      "distanceFromTerminalMeters": 1001,
+      "distanceFromDefaultTerminalMeters": 1001,
+      "minDistanceFromAnyTerminalMeters": 1001,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "https://medioambiente.malaga.eu/parques-y-jardines/parques-y-jardines-de-malaga/zonas-forestales/detalle-del-parque/Parque-Forestal-de-Gibralfaro/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/95616c19731a32f54fc4",
+      "name": "Salsa Menta Café",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 36.7161392,
+      "lng": -4.422811,
+      "distanceFromTerminalMeters": 497,
+      "distanceFromDefaultTerminalMeters": 497,
+      "minDistanceFromAnyTerminalMeters": 497,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "11 Calle Casas de Campos, Málaga, 29001",
+      "openingHours": "",
+      "website": "https://www.iconmalabar.com/es/restaurantes/",
+      "phone": "+34 659284029",
+      "cuisine": [
+        "mediterranean",
+        "salad",
+        "sandwich"
+      ],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "Ubicado en el lobby del ICON Malabar, Salsa Menta Café ofrece una propuesta de cocina saludable con tostas, cremas, ensaladas, postres y algunos platos de carne y de pescado. Servicio de bar disponible.",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/63a989b15c8cdef941e8",
+      "name": "FOMO Bar",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 36.72289,
+      "lng": -4.4240035,
+      "distanceFromTerminalMeters": 480,
+      "distanceFromDefaultTerminalMeters": 480,
+      "minDistanceFromAnyTerminalMeters": 480,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "44 Calle Carretería, Málaga, 29008",
+      "openingHours": "Su-Th 13:00-00:00; Fr-Sa 13:00-01:00",
+      "website": "https://www.fomobar.es/",
+      "phone": "+34 654 11 22 87",
+      "cuisine": [
+        "regional",
+        "spanish"
+      ],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "Una taberna de malagueños para los malagueños.",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/372eb22577e8515600cb",
+      "name": "Arigato",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 36.7225123,
+      "lng": -4.4200119,
+      "distanceFromTerminalMeters": 279,
+      "distanceFromDefaultTerminalMeters": 279,
+      "minDistanceFromAnyTerminalMeters": 279,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "9, Málaga, 29008",
+      "openingHours": "",
+      "website": "https://arigatomalaga.com/",
+      "phone": "+34 952 213 320",
+      "cuisine": [
+        "japanese"
+      ],
+      "wheelchair": "no",
+      "brand": "",
+      "description": "Buffet Libre",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/2c9b9649ae3f82131a12",
+      "name": "Byoko",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 36.7197965,
+      "lng": -4.421094,
+      "distanceFromTerminalMeters": 100,
+      "distanceFromDefaultTerminalMeters": 100,
+      "minDistanceFromAnyTerminalMeters": 100,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "5 Calle Strachan, Málaga, 29015",
+      "openingHours": "Mo-Th,Sa 09:00-22:00; Fr,Su 09:00-22:30",
+      "website": "https://www.byoko.es/",
+      "phone": "+34 951 46 70 63",
+      "cuisine": [
+        "seafood",
+        "salad",
+        "dessert",
+        "soup"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/7fe38dcc2f9149254eaf",
+      "name": "Tetería Palacio Nazarí",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 36.7213444,
+      "lng": -4.4189508,
+      "distanceFromTerminalMeters": 176,
+      "distanceFromDefaultTerminalMeters": 176,
+      "minDistanceFromAnyTerminalMeters": 176,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "7 Calle San Agustín, Málaga",
+      "openingHours": "Mo-Su 10:00-02:00",
+      "website": "http://www.teteriapalacionazari.com",
+      "phone": "+34 952602076",
+      "cuisine": [
+        "coffee_shop",
+        "moroccan",
+        "turkish",
+        "arab",
+        "crepe",
+        "breakfast",
+        "pizza",
+        "cake",
+        "tea"
+      ],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/4287f8afcf5bba40c687",
+      "name": "Restaurante Estambul Grill",
+      "nameEnglish": "Restaurant Estambul Grill",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 36.7181093,
+      "lng": -4.42217,
+      "distanceFromTerminalMeters": 286,
+      "distanceFromDefaultTerminalMeters": 286,
+      "minDistanceFromAnyTerminalMeters": 286,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "8 Alameda Principal, Málaga, 29005",
+      "openingHours": "Mo-Su 11:30-00:30",
+      "website": "",
+      "phone": "+34 620 633 236",
+      "cuisine": [
+        "kebab",
+        "grill",
+        "pizza",
+        "burger"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Cocina turca original",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b319aa28b5216f37abcf",
+      "name": "Los Marangos",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 36.7229322,
+      "lng": -4.4193628,
+      "distanceFromTerminalMeters": 331,
+      "distanceFromDefaultTerminalMeters": 331,
+      "minDistanceFromAnyTerminalMeters": 331,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "23 Calle Beatas, 29008",
+      "openingHours": "Su-Th 12:30-23:30; Fr-Sa 12:30-12:30, 23:30-23:30",
+      "website": "https://losmarangos.com/beatas/",
+      "phone": "+34 951 63 49 04",
+      "cuisine": [
+        "spanish"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/cb7e7242db6b9051714b",
+      "name": "La Tía Juana",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 36.7199662,
+      "lng": -4.4240039,
+      "distanceFromTerminalMeters": 357,
+      "distanceFromDefaultTerminalMeters": 357,
+      "minDistanceFromAnyTerminalMeters": 357,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "8 Plaza Enrique García-Herrera, 29005",
+      "openingHours": "Su-Th 13:00-16:30,20:00-23:30; Fr-Sa 13:00-16:30,20:00-00:00",
+      "website": "https://latiajuanamx.com",
+      "phone": "+34 951 12 06 89",
+      "cuisine": [
+        "mexican"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/077559f01fb06765f409",
+      "name": "Alcasabar",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 36.7220687,
+      "lng": -4.416774,
+      "distanceFromTerminalMeters": 368,
+      "distanceFromDefaultTerminalMeters": 368,
+      "minDistanceFromAnyTerminalMeters": 368,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "7 Calle Pozo del Rey, Málaga, 29015",
+      "openingHours": "Mo-Th 11:00-01:00; Fr-Sa 11:00-01:30; Su 11:00-01:00",
+      "website": "https://alcasabar.eatbu.com/?lang=es",
+      "phone": "+34 951 13 85 97",
+      "cuisine": [
+        "crepe"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c0fcab2c75ce54c9c1c4",
+      "name": "El Farolito",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 36.7233926,
+      "lng": -4.4201865,
+      "distanceFromTerminalMeters": 378,
+      "distanceFromDefaultTerminalMeters": 378,
+      "minDistanceFromAnyTerminalMeters": 378,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "14 Calle Beatas, 29008",
+      "openingHours": "Mo-Fr 09:00-20:00; Sa-Su 11:00-22:00",
+      "website": "https://elfarolitorestaurante.com/",
+      "phone": "+34693296248",
+      "cuisine": [
+        "argentinian",
+        "steak_house"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/46d7c3b30de842180e44",
+      "name": "Pizzamore",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 36.7233022,
+      "lng": -4.4185318,
+      "distanceFromTerminalMeters": 390,
+      "distanceFromDefaultTerminalMeters": 390,
+      "minDistanceFromAnyTerminalMeters": 390,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "45 Calle Álamos, 29012",
+      "openingHours": "Mo-Su 13:00-24:00",
+      "website": "https://pizzamoremalaga.com/",
+      "phone": "+34 666 990 217",
+      "cuisine": [
+        "italian_pizza"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/1f1bb7c6bfcba2660218",
+      "name": "El Marisquero",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 36.7187728,
+      "lng": -4.4242086,
+      "distanceFromTerminalMeters": 399,
+      "distanceFromDefaultTerminalMeters": 399,
+      "minDistanceFromAnyTerminalMeters": 399,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "7 Calle Olózaga",
+      "openingHours": "Su-Th 12:00-17:00; Fr-Sa 12:00-17:00, 20:00-23:30",
+      "website": "https://elmarisqueromalaga.com/",
+      "phone": "+34 670 064 804",
+      "cuisine": [
+        "seafood",
+        "spanish"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d7b740a6e40b3dc26434",
+      "name": "Império Grill",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 36.716342,
+      "lng": -4.4212105,
+      "distanceFromTerminalMeters": 421,
+      "distanceFromDefaultTerminalMeters": 421,
+      "minDistanceFromAnyTerminalMeters": 421,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "4 Avenida Manuel Agustín Heredia, 29001",
+      "openingHours": "Mo-Su 13:00-16:00, 20:00-23:30",
+      "website": "https://imperiogrill.es/",
+      "phone": "+34952633096;+34661357967",
+      "cuisine": [
+        "brazilian",
+        "steak_house"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/da2adf0fe1bb23ffa09d",
+      "name": "Tapeo de Cervantes",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 36.7239539,
+      "lng": -4.4193094,
+      "distanceFromTerminalMeters": 444,
+      "distanceFromDefaultTerminalMeters": 444,
+      "minDistanceFromAnyTerminalMeters": 444,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "8 Calle Cárcer, 29012",
+      "openingHours": "Tu-Sa 13:00-15:30, 19:30-23:30; Su 19:30-23:30",
+      "website": "https://eltapeodecervantes.com",
+      "phone": "+34 952 609 458",
+      "cuisine": [
+        "tapas"
+      ],
+      "wheelchair": "limited",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/1062f23296da13bb50cf",
+      "name": "El Mesón de Cervantes",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 36.7240319,
+      "lng": -4.4198565,
+      "distanceFromTerminalMeters": 449,
+      "distanceFromDefaultTerminalMeters": 449,
+      "minDistanceFromAnyTerminalMeters": 449,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "11 Calle Álamos, 29012",
+      "openingHours": "We-Mo 19:00-00:00",
+      "website": "https://elmesondecervantes.com/",
+      "phone": "+34952216274",
+      "cuisine": [
+        "tapas"
+      ],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/3eb66d999219a796a38c",
+      "name": "Vialia",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "mall",
+      "lat": 36.7118558,
+      "lng": -4.4328559,
+      "distanceFromTerminalMeters": 1461,
+      "distanceFromDefaultTerminalMeters": 1461,
+      "minDistanceFromAnyTerminalMeters": 1461,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1 Calle Explanada de la Estación, 29002",
+      "openingHours": "Mo-Su,PH 05:00-01:15",
+      "website": "https://www.vialiamalaga.es/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "shop": "mall"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/afa06d48aca017c35fdc",
+      "name": "Larios Centro",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "mall",
+      "lat": 36.7152593,
+      "lng": -4.4327212,
+      "distanceFromTerminalMeters": 1250,
+      "distanceFromDefaultTerminalMeters": 1250,
+      "minDistanceFromAnyTerminalMeters": 1250,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "5, 29002",
+      "openingHours": "",
+      "website": "https://www.larioscentro.com/",
+      "phone": "+34 952 369 393",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "shop": "mall"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/53b3e3d49f374e512e18",
+      "name": "La Mallorquina",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "deli",
+      "lat": 36.7190129,
+      "lng": -4.4233711,
+      "distanceFromTerminalMeters": 320,
+      "distanceFromDefaultTerminalMeters": 320,
+      "minDistanceFromAnyTerminalMeters": 320,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1 Calle Sagasta, 29005",
+      "openingHours": "Mo-Fr 09:15-14:15, 17:15-20:45; Sa,Su 09:15-14:30",
+      "website": "https://la-mallorquina.es/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "shop": "deli"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/e14caf8419fb16c1d4ac",
+      "name": "Centro de Información de Turismo de Interior",
+      "nameEnglish": "",
+      "category": "essentials",
+      "subcategory": "visitor_information",
+      "lat": 36.7187047,
+      "lng": -4.4203633,
+      "distanceFromTerminalMeters": 148,
+      "distanceFromDefaultTerminalMeters": 148,
+      "minDistanceFromAnyTerminalMeters": 148,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1 Calle Ancla, Málaga, 29015, ES",
+      "openingHours": "Mo-Su 09:00-14:00",
+      "website": "https://www.malaga.es/",
+      "phone": "+34 952069252",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "information"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/7c03dba80fe28801e03b",
+      "name": "Oficina de Turismo – Málaga Store",
+      "nameEnglish": "",
+      "category": "essentials",
+      "subcategory": "visitor_information",
+      "lat": 36.7174478,
+      "lng": -4.4205861,
+      "distanceFromTerminalMeters": 289,
+      "distanceFromDefaultTerminalMeters": 289,
+      "minDistanceFromAnyTerminalMeters": 289,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Su 09:00-20:00",
+      "website": "http://www.malagaturismo.com",
+      "phone": "+34 951926020",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "information"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/3b3417d36fa9af622730",
+      "name": "Centro de Interpretación del Teatro Romano de Málaga",
+      "nameEnglish": "",
+      "category": "essentials",
+      "subcategory": "visitor_information",
+      "lat": 36.7216289,
+      "lng": -4.416955,
+      "distanceFromTerminalMeters": 326,
+      "distanceFromDefaultTerminalMeters": 326,
+      "minDistanceFromAnyTerminalMeters": 326,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Calle Alcazabilla, Málaga, 29015, ES",
+      "openingHours": "",
+      "website": "https://www.juntadeandalucia.es/cultura/enclaves/enclave-arqueologico-teatro-romano-de-malaga",
+      "phone": "+34 951501115",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "information"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/52bc1f92f0b9b92b0357",
+      "name": "Grupo Fotográfico Aula 7",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "gallery",
+      "lat": 36.7284686,
+      "lng": -4.4150758,
+      "distanceFromTerminalMeters": 1039,
+      "distanceFromDefaultTerminalMeters": 1039,
+      "minDistanceFromAnyTerminalMeters": 1039,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "3 Calle Manrique, 29013",
+      "openingHours": "",
+      "website": "https://www.aula7.com/wp/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Sala de exposiciones \"Charo Rodríguez\"",
+      "osmTags": {
+        "tourism": "gallery"
+      }
+    }
+  ],
+  "portAnchor": {
+    "id": "ports-json-anchor",
+    "name": "MALAGA Port",
+    "lat": 36.72,
+    "lng": -4.42,
+    "address": "Malaga, Andalusia, Spain",
+    "source": "ports.json",
+    "sourceId": "",
+    "score": 0,
+    "slug": "malaga-port"
+  },
+  "terminalResolution": {
+    "status": "resolved",
+    "method": "accepted_terminal_candidate",
+    "verified": true,
+    "notes": "Accepted 1 candidate explicitly identified as an ocean-cruise or cruise-passenger terminal; ferry and unrelated results were excluded."
+  }
+}

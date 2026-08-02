@@ -1,0 +1,920 @@
+{
+  "schemaVersion": 5,
+  "catalogType": "curation-candidates",
+  "generatedAt": "2026-07-30T08:17:34.282Z",
+  "source": "openstreetmap",
+  "sourceExtract": "lincolnshire-latest.osm.pbf",
+  "radiusMeters": 10000,
+  "port": {
+    "id": "immingham-united-kingdom",
+    "city": "Immingham",
+    "country": "United Kingdom"
+  },
+  "defaultTerminalId": "ports-json-anchor",
+  "terminal": {
+    "id": "ports-json-anchor",
+    "name": "IMMINGHAM Port",
+    "lat": 53.63,
+    "lng": -0.2,
+    "address": "Immingham, Lincolnshire, United Kingdom",
+    "source": "ports.json",
+    "sourceId": "",
+    "score": 0,
+    "slug": "immingham-port"
+  },
+  "terminals": [
+    {
+      "id": "ports-json-anchor",
+      "name": "IMMINGHAM Port",
+      "lat": 53.63,
+      "lng": -0.2,
+      "address": "Immingham, Lincolnshire, United Kingdom",
+      "source": "ports.json",
+      "sourceId": "",
+      "score": 0,
+      "slug": "immingham-port"
+    }
+  ],
+  "terminalCandidateRadiusMeters": 5000,
+  "terminalCandidates": [
+    {
+      "source": "nominatim",
+      "sourceId": "osm/node/5329921880",
+      "osmType": "node",
+      "osmId": "5329921880",
+      "name": "Immingham Port",
+      "nameEnglish": "",
+      "lat": 53.6277325,
+      "lng": -0.1922155,
+      "distanceFromPortMeters": 572,
+      "address": "Immingham Port, Immingham, North East Lincolnshire, Greater Lincolnshire, England, DN40 2NN, United Kingdom",
+      "displayName": "Immingham Port, Immingham, North East Lincolnshire, Greater Lincolnshire, England, DN40 2NN, United Kingdom",
+      "query": "IMMINGHAM Port, Immingham, United Kingdom",
+      "matchedBy": [
+        "Nominatim query: IMMINGHAM Port, Immingham, United Kingdom"
+      ],
+      "osmTags": {
+        "amenity": "port"
+      },
+      "sources": [
+        "nominatim"
+      ],
+      "sourceIds": [
+        "osm/node/5329921880"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/dce1c93569c3d90ada12",
+      "name": "DFDS Seaways Ferry Terminal",
+      "nameEnglish": "",
+      "lat": 53.6384161,
+      "lng": -0.2009296,
+      "distanceFromPortMeters": 938,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "man_made": "pier"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/dce1c93569c3d90ada12"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/109e74fd7c4ea140843d",
+      "name": "Berth 6",
+      "nameEnglish": "",
+      "lat": 53.6669169,
+      "lng": -0.2336767,
+      "distanceFromPortMeters": 4667,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/109e74fd7c4ea140843d"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/eff44ec2b39b57caca7d",
+      "name": "Berth 5",
+      "nameEnglish": "",
+      "lat": 53.6671877,
+      "lng": -0.2331725,
+      "distanceFromPortMeters": 4678,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/eff44ec2b39b57caca7d"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/51c851cd6571dcc6ca1f",
+      "name": "Berth 2",
+      "nameEnglish": "",
+      "lat": 53.6677012,
+      "lng": -0.2325024,
+      "distanceFromPortMeters": 4708,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/51c851cd6571dcc6ca1f"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/be7daf6ceecf093e96d7",
+      "name": "Berth 1",
+      "nameEnglish": "",
+      "lat": 53.6679229,
+      "lng": -0.2319904,
+      "distanceFromPortMeters": 4715,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/be7daf6ceecf093e96d7"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f8bbfa5ed2b1b52839ba",
+      "name": "Berth 3",
+      "nameEnglish": "",
+      "lat": 53.6680361,
+      "lng": -0.2326666,
+      "distanceFromPortMeters": 4746,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/f8bbfa5ed2b1b52839ba"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/2aabd45743af91b76f60",
+      "name": "Berth 4",
+      "nameEnglish": "",
+      "lat": 53.668199,
+      "lng": -0.2338517,
+      "distanceFromPortMeters": 4798,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/2aabd45743af91b76f60"
+      ]
+    }
+  ],
+  "counts": {
+    "attraction": 8,
+    "outdoors": 5,
+    "food_drink": 10,
+    "shopping": 3,
+    "essentials": 0
+  },
+  "pois": [
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/4333f7a11d0722071858",
+      "name": "Immingham Museum",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 53.615846,
+      "lng": -0.2122687,
+      "distanceFromTerminalMeters": 1770,
+      "distanceFromDefaultTerminalMeters": 1770,
+      "minDistanceFromAnyTerminalMeters": 1770,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "https://imminghammuseum.wordpress.com/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/52d2898d01e5855d9b33",
+      "name": "Newsham Abbey",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "monastery",
+      "lat": 53.6041963,
+      "lng": -0.2976419,
+      "distanceFromTerminalMeters": 7051,
+      "distanceFromDefaultTerminalMeters": 7051,
+      "minDistanceFromAnyTerminalMeters": 7051,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "monastery"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/a77f5549c1ddeb6ba425",
+      "name": "Killingholme South Low Lighthouse",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "lighthouse",
+      "lat": 53.6465483,
+      "lng": -0.2161734,
+      "distanceFromTerminalMeters": 2127,
+      "distanceFromDefaultTerminalMeters": 2127,
+      "minDistanceFromAnyTerminalMeters": 2127,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "man_made": "lighthouse"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/64972315d5b826da2902",
+      "name": "Killingholme High Lighthouse",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "lighthouse",
+      "lat": 53.6471956,
+      "lng": -0.218813,
+      "distanceFromTerminalMeters": 2279,
+      "distanceFromDefaultTerminalMeters": 2279,
+      "minDistanceFromAnyTerminalMeters": 2279,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "man_made": "lighthouse"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f81c002f7c9c6ab5ae09",
+      "name": "Elite Koi",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "aquarium",
+      "lat": 53.5727674,
+      "lng": -0.0929158,
+      "distanceFromTerminalMeters": 9509,
+      "distanceFromDefaultTerminalMeters": 9509,
+      "minDistanceFromAnyTerminalMeters": 9509,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Armstrong Street, Grimsby, DN31 1FQ",
+      "openingHours": "",
+      "website": "https://www.elitekoi.co.uk/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "aquarium"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/87b8f3b75b80d01c743b",
+      "name": "Killingholme North Low Lighthouse",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "yes",
+      "lat": 53.6492708,
+      "lng": -0.2196295,
+      "distanceFromTerminalMeters": 2503,
+      "distanceFromDefaultTerminalMeters": 2503,
+      "minDistanceFromAnyTerminalMeters": 2503,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "yes"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c66f822c58dfb617c6f1",
+      "name": "The Mary Carter Temple",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "folly",
+      "lat": 53.5817403,
+      "lng": -0.2825287,
+      "distanceFromTerminalMeters": 7645,
+      "distanceFromDefaultTerminalMeters": 7645,
+      "minDistanceFromAnyTerminalMeters": 7645,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "folly"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/cc1fe79b6c95bb9e9067",
+      "name": "Cotham Priory",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "archaeological_site",
+      "lat": 53.5853102,
+      "lng": -0.2548114,
+      "distanceFromTerminalMeters": 6146,
+      "distanceFromDefaultTerminalMeters": 6146,
+      "minDistanceFromAnyTerminalMeters": 6146,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "archaeological_site"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/69cd65007097eace8551",
+      "name": "Homestead Park",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 53.6225383,
+      "lng": -0.2156639,
+      "distanceFromTerminalMeters": 1325,
+      "distanceFromDefaultTerminalMeters": 1325,
+      "minDistanceFromAnyTerminalMeters": 1325,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/72bf8804416723cf583c",
+      "name": "Pilgrim Park",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 53.6181466,
+      "lng": -0.2243178,
+      "distanceFromTerminalMeters": 2076,
+      "distanceFromDefaultTerminalMeters": 2076,
+      "minDistanceFromAnyTerminalMeters": 2076,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b0a2b82af6efe34f834d",
+      "name": "Ford's Avenue Open Space",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 53.5767586,
+      "lng": -0.1589214,
+      "distanceFromTerminalMeters": 6511,
+      "distanceFromDefaultTerminalMeters": 6511,
+      "minDistanceFromAnyTerminalMeters": 6511,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Ford's Avenue, Grimsby, DN41 7RP",
+      "openingHours": "24/7",
+      "website": "https://www.nelincs.gov.uk/sports-and-leisure/parks-and-green-spaces/#1456244497016-b1201bfc-1f03",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/27437f453a5e6d0dc702",
+      "name": "Brocklesby Station Bridge",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "viewpoint",
+      "lat": 53.6065579,
+      "lng": -0.3108527,
+      "distanceFromTerminalMeters": 7762,
+      "distanceFromDefaultTerminalMeters": 7762,
+      "minDistanceFromAnyTerminalMeters": 7762,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "viewpoint"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/2c254a068e566dad4860",
+      "name": "Grimsby & Cleethorpes Yacht Club",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "marina",
+      "lat": 53.575556,
+      "lng": -0.0797843,
+      "distanceFromTerminalMeters": 9978,
+      "distanceFromDefaultTerminalMeters": 9978,
+      "minDistanceFromAnyTerminalMeters": 9978,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Lockhill Road, Grimsby, DN31 3PG",
+      "openingHours": "",
+      "website": "https://www.gcyc.co.uk/",
+      "phone": "+44 1472 356 678",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "marina"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/3a6a6ce97fdeffb2130a",
+      "name": "County Hotel",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "pub",
+      "lat": 53.6194068,
+      "lng": -0.203021,
+      "distanceFromTerminalMeters": 1195,
+      "distanceFromDefaultTerminalMeters": 1195,
+      "minDistanceFromAnyTerminalMeters": 1195,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Pelham Road, Immingham, DN40 1AD, GB",
+      "openingHours": "",
+      "website": "https://www.the-county-hotel.co.uk/",
+      "phone": "+44 1469 575 805",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "pub"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/08606d4c1c09efe59969",
+      "name": "Millards Fish & Chips",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "fast_food",
+      "lat": 53.6190638,
+      "lng": -0.2049369,
+      "distanceFromTerminalMeters": 1259,
+      "distanceFromDefaultTerminalMeters": 1259,
+      "minDistanceFromAnyTerminalMeters": 1259,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "117-119 Pelham Road, Immingham, DN40 1JW, GB",
+      "openingHours": "Mo-Sa 11:30-20:45; Su Closed",
+      "website": "https://millardfishandchipsonline.com/order-now",
+      "phone": "+44 1469 572 304",
+      "cuisine": [
+        "fish_and_chips"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "fast_food"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/416988a2a2c0d80f2f25",
+      "name": "Golden Garden",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "fast_food",
+      "lat": 53.6191251,
+      "lng": -0.204729,
+      "distanceFromTerminalMeters": 1249,
+      "distanceFromDefaultTerminalMeters": 1249,
+      "minDistanceFromAnyTerminalMeters": 1249,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "115 Pelham Road, Immingham, DN40 1JW, GB",
+      "openingHours": "Su-Mo 17:00-22:00; We-Th 17:00-22:00; Fr-Sa 17:00-22:30; Su Closed",
+      "website": "",
+      "phone": "+44 1469 578 055",
+      "cuisine": [
+        "chinese"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "fast_food"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/252b4895bea230cada40",
+      "name": "Winners Fish & Chips Restaurant",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 53.6137568,
+      "lng": -0.215685,
+      "distanceFromTerminalMeters": 2081,
+      "distanceFromDefaultTerminalMeters": 2081,
+      "minDistanceFromAnyTerminalMeters": 2081,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "8-10 Margaret Street, Immingham, DN40 1JY, GB",
+      "openingHours": "Mo-Sa 11:15-21:00; Su Closed",
+      "website": "",
+      "phone": "+44 1469 572 879",
+      "cuisine": [
+        "fish_and_chips"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/9bcae22c3f7d5608644a",
+      "name": "Blossom Way Sports & Social Club",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "pub",
+      "lat": 53.6117266,
+      "lng": -0.2183632,
+      "distanceFromTerminalMeters": 2365,
+      "distanceFromDefaultTerminalMeters": 2365,
+      "minDistanceFromAnyTerminalMeters": 2365,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Blossom Way, Immingham, DN40 1PH",
+      "openingHours": "",
+      "website": "",
+      "phone": "+44 1469 572 612",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "pub"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/05e0674aae5ddeec6d5f",
+      "name": "Ulceby Truckstop",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 53.6234618,
+      "lng": -0.2820866,
+      "distanceFromTerminalMeters": 5462,
+      "distanceFromDefaultTerminalMeters": 5462,
+      "minDistanceFromAnyTerminalMeters": 5462,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Ulceby Road, Immingham, DN40 3JB, GB",
+      "openingHours": "24/7",
+      "website": "https://www.onroutetruckstops.co.uk/locations/ulceby",
+      "phone": "+44 1469 540 606",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Cafe, Shop, Toilets, Showers, Fuel, close to the A180",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/4de9781388343ba405cb",
+      "name": "Moo Bakes",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 53.5651431,
+      "lng": -0.0994497,
+      "distanceFromTerminalMeters": 9800,
+      "distanceFromDefaultTerminalMeters": 9800,
+      "minDistanceFromAnyTerminalMeters": 9800,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "98 Haycroft Avenue, Grimsby, DN31 2DP",
+      "openingHours": "Mo-Fr 08:30-13:30; Sa-Su closed",
+      "website": "https://www.thepitstoppantry.co.uk/",
+      "phone": "",
+      "cuisine": [
+        "coffee_shop",
+        "sandwich",
+        "burger"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/8e12e8761a00183a568f",
+      "name": "Beechwood Farm",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 53.5852028,
+      "lng": -0.1378055,
+      "distanceFromTerminalMeters": 6454,
+      "distanceFromDefaultTerminalMeters": 6454,
+      "minDistanceFromAnyTerminalMeters": 6454,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Village Way, Grimsby, DN37 9UA, GB",
+      "openingHours": "",
+      "website": "https://www.farmhouseinns.co.uk/pubs/north-east-lincolnshire/beechwood-farm",
+      "phone": "+44 1472 356 136",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/9d55780cc934ce50dae9",
+      "name": "Aldi",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "supermarket",
+      "lat": 53.6173458,
+      "lng": -0.2107689,
+      "distanceFromTerminalMeters": 1576,
+      "distanceFromDefaultTerminalMeters": 1576,
+      "minDistanceFromAnyTerminalMeters": 1576,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Washdyke Lane, Immingham, DN40 2AA",
+      "openingHours": "Mo-Sa 08:00-22:00; Su 10:00-16:00",
+      "website": "https://www.aldi.co.uk/store-finder/l/immingham/washdyke-lane/c869",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "Aldi",
+      "description": "",
+      "osmTags": {
+        "shop": "supermarket"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/70e1bd0f0fd37b762b40",
+      "name": "Tesco",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "supermarket",
+      "lat": 53.6167387,
+      "lng": -0.2144811,
+      "distanceFromTerminalMeters": 1757,
+      "distanceFromDefaultTerminalMeters": 1757,
+      "minDistanceFromAnyTerminalMeters": 1757,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "35 Kennedy Way, Immingham, DN40 2AB, GB",
+      "openingHours": "Mo-Sa 07:00-23:00; Su 10:00-16:00",
+      "website": "https://www.tesco.com/store-locator/immingham/kennedy-way",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "Tesco",
+      "description": "",
+      "osmTags": {
+        "shop": "supermarket"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/a549cfd6f3a92230c486",
+      "name": "Heron Foods",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "supermarket",
+      "lat": 53.6163313,
+      "lng": -0.2144166,
+      "distanceFromTerminalMeters": 1793,
+      "distanceFromDefaultTerminalMeters": 1793,
+      "minDistanceFromAnyTerminalMeters": 1793,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "33 Kennedy Way, Immingham, DN40 2AB",
+      "openingHours": "Mo-Sa 08:00-18:00; Su 09:00-17:00",
+      "website": "",
+      "phone": "+44 345 603 7300",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "Heron Foods",
+      "description": "",
+      "osmTags": {
+        "shop": "supermarket"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ddf185fd958376146675",
+      "name": "The Mayflower",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "pub",
+      "lat": 53.6083316,
+      "lng": -0.2124184,
+      "distanceFromTerminalMeters": 2545,
+      "distanceFromDefaultTerminalMeters": 2545,
+      "minDistanceFromAnyTerminalMeters": 2545,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Margaret Street, Immingham, DN40 1JY, GB",
+      "openingHours": "",
+      "website": "",
+      "phone": "+44 1469 574 513",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "pub"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/8303ae6d45cb93621a41",
+      "name": "Bluestone Inn",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "pub",
+      "lat": 53.6126164,
+      "lng": -0.2244648,
+      "distanceFromTerminalMeters": 2518,
+      "distanceFromDefaultTerminalMeters": 2518,
+      "minDistanceFromAnyTerminalMeters": 2518,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Bluestone Lane, Immingham, DN40 2DU",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "pub"
+      }
+    }
+  ],
+  "portAnchor": {
+    "id": "ports-json-anchor",
+    "name": "IMMINGHAM Port",
+    "lat": 53.63,
+    "lng": -0.2,
+    "address": "Immingham, Lincolnshire, United Kingdom",
+    "source": "ports.json",
+    "sourceId": "",
+    "score": 0,
+    "slug": "immingham-port"
+  },
+  "terminalResolution": {
+    "status": "unresolved",
+    "method": "ports_json_fallback",
+    "verified": false,
+    "notes": "External port and cruise-schedule checks found no established ocean passenger cruise terminal or meaningful cruise-call pattern here. The supplied candidates are cargo, ferry, marina, local-dock, road, or unrelated results."
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 5,
+  "catalogType": "curation-candidates",
+  "generatedAt": "2026-07-30T08:05:43.605Z",
+  "source": "openstreetmap",
+  "sourceExtract": "iceland-latest.osm.pbf",
+  "radiusMeters": 10000,
+  "port": {
+    "id": "grundartangi-iceland",
+    "city": "Grundartangi",
+    "country": "Iceland"
+  },
+  "defaultTerminalId": "ports-json-anchor",
+  "terminal": {
+    "id": "ports-json-anchor",
+    "name": "GRUNDARTANGI Port",
+    "lat": 64.27,
+    "lng": -22,
+    "address": "Grundartangi, Iceland, Iceland",
+    "source": "ports.json",
+    "sourceId": "",
+    "score": 0,
+    "slug": "grundartangi-port"
+  },
+  "terminals": [
+    {
+      "id": "ports-json-anchor",
+      "name": "GRUNDARTANGI Port",
+      "lat": 64.27,
+      "lng": -22,
+      "address": "Grundartangi, Iceland, Iceland",
+      "source": "ports.json",
+      "sourceId": "",
+      "score": 0,
+      "slug": "grundartangi-port"
+    }
+  ],
+  "terminalCandidateRadiusMeters": 5000,
+  "terminalCandidates": [],
+  "counts": {
+    "attraction": 0,
+    "food_drink": 0,
+    "shopping": 0,
+    "outdoors": 0,
+    "essentials": 0
+  },
+  "pois": [],
+  "portAnchor": {
+    "id": "ports-json-anchor",
+    "name": "GRUNDARTANGI Port",
+    "lat": 64.27,
+    "lng": -22,
+    "address": "Grundartangi, Iceland, Iceland",
+    "source": "ports.json",
+    "sourceId": "",
+    "score": 0,
+    "slug": "grundartangi-port"
+  },
+  "terminalResolution": {
+    "status": "unresolved",
+    "method": "ports_json_fallback",
+    "verified": false,
+    "notes": "The catalog contains no terminal candidates, so there is no candidate ID to accept."
+  }
+}

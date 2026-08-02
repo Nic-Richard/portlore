@@ -1,0 +1,301 @@
+{
+  "schemaVersion": 5,
+  "catalogType": "curation-candidates",
+  "generatedAt": "2026-07-30T09:06:25.866Z",
+  "source": "openstreetmap",
+  "sourceExtract": "sumatra-latest.osm.pbf",
+  "radiusMeters": 10000,
+  "port": {
+    "id": "belawan-indonesia",
+    "city": "Belawan",
+    "country": "Indonesia"
+  },
+  "defaultTerminalId": "ports-json-anchor",
+  "terminal": {
+    "id": "ports-json-anchor",
+    "name": "BELAWAN Port",
+    "lat": 3.78,
+    "lng": 98.68,
+    "address": "Belawan, North Sumatra, Indonesia",
+    "source": "ports.json",
+    "sourceId": "",
+    "score": 0,
+    "slug": "belawan-port"
+  },
+  "terminals": [
+    {
+      "id": "ports-json-anchor",
+      "name": "BELAWAN Port",
+      "lat": 3.78,
+      "lng": 98.68,
+      "address": "Belawan, North Sumatra, Indonesia",
+      "source": "ports.json",
+      "sourceId": "",
+      "score": 0,
+      "slug": "belawan-port"
+    }
+  ],
+  "terminalCandidateRadiusMeters": 5000,
+  "terminalCandidates": [
+    {
+      "source": "openstreetmap+nominatim",
+      "sourceId": "osm/generated/8b0e8bbddff21f3ffe57",
+      "name": "Pelabuhan Belawan",
+      "nameEnglish": "Belawan Port",
+      "lat": 3.7780783,
+      "lng": 98.6806199,
+      "distanceFromPortMeters": 224,
+      "address": "Pelabuhan Belawan, Jalan Sumatra, Belawan I, Medan Belawan, Kota Medan, Sumatera Utara, Sumatera, 20411, Indonesia",
+      "matchedBy": [
+        "amenity=ferry_terminal",
+        "Nominatim query: BELAWAN Port, Belawan, Indonesia"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "name:en": "Belawan Port",
+        "operator": "Pelindo",
+        "public_transport": "stop_position"
+      },
+      "sources": [
+        "openstreetmap",
+        "nominatim"
+      ],
+      "sourceIds": [
+        "osm/generated/8b0e8bbddff21f3ffe57",
+        "osm/node/7731823284"
+      ],
+      "displayName": "Pelabuhan Belawan, Jalan Sumatra, Belawan I, Medan Belawan, Kota Medan, Sumatera Utara, Sumatera, 20411, Indonesia",
+      "query": "BELAWAN Port, Belawan, Indonesia"
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/78dccac858271fed60c7",
+      "name": "Bandar Deli",
+      "nameEnglish": "",
+      "lat": 3.7780052,
+      "lng": 98.6810503,
+      "distanceFromPortMeters": 251,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "building": "yes",
+        "cargo": "passengers",
+        "ferry": "yes",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/78dccac858271fed60c7"
+      ]
+    }
+  ],
+  "counts": {
+    "attraction": 2,
+    "food_drink": 3,
+    "shopping": 1,
+    "essentials": 1,
+    "outdoors": 0
+  },
+  "pois": [
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/522ec0751384b318e614",
+      "name": "Ekowisata Mangrove Sicanang",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 3.7585824,
+      "lng": 98.6506764,
+      "distanceFromTerminalMeters": 4032,
+      "distanceFromDefaultTerminalMeters": 4032,
+      "minDistanceFromAnyTerminalMeters": 4032,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d47bab2f03b181c67855",
+      "name": "Tugu Sei Nunang",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "monument",
+      "lat": 3.7392895,
+      "lng": 98.6753801,
+      "distanceFromTerminalMeters": 4556,
+      "distanceFromDefaultTerminalMeters": 4556,
+      "minDistanceFromAnyTerminalMeters": 4556,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "monument"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ff2cb9c82bd23115f6ec",
+      "name": "Kopi Kenangan",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 3.7814776,
+      "lng": 98.6877227,
+      "distanceFromTerminalMeters": 872,
+      "distanceFromDefaultTerminalMeters": 872,
+      "minDistanceFromAnyTerminalMeters": 872,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/e1fb09c7d68355779b73",
+      "name": "Warung Kopi Station",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 3.7816,
+      "lng": 98.687714,
+      "distanceFromTerminalMeters": 874,
+      "distanceFromDefaultTerminalMeters": 874,
+      "minDistanceFromAnyTerminalMeters": 874,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/368ceabb3c66ba1fe715",
+      "name": "Restoran Marina Belawan Seafood",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 3.7826245,
+      "lng": 98.6810708,
+      "distanceFromTerminalMeters": 315,
+      "distanceFromDefaultTerminalMeters": 315,
+      "minDistanceFromAnyTerminalMeters": 315,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [
+        "seafood"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f66ee781a32ffc924904",
+      "name": "Pasar Kapuas",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "marketplace",
+      "lat": 3.7818224,
+      "lng": 98.6841218,
+      "distanceFromTerminalMeters": 500,
+      "distanceFromDefaultTerminalMeters": 500,
+      "minDistanceFromAnyTerminalMeters": 500,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "marketplace"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/5f1bc2a07cd6c8cf5760",
+      "name": "Apotek Kimia Farma",
+      "nameEnglish": "",
+      "category": "essentials",
+      "subcategory": "pharmacy",
+      "lat": 3.7827593,
+      "lng": 98.6837998,
+      "distanceFromTerminalMeters": 521,
+      "distanceFromDefaultTerminalMeters": 521,
+      "minDistanceFromAnyTerminalMeters": 521,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "28 Jalan Sumatra, 20411",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "pharmacy"
+      }
+    }
+  ],
+  "portAnchor": {
+    "id": "ports-json-anchor",
+    "name": "BELAWAN Port",
+    "lat": 3.78,
+    "lng": 98.68,
+    "address": "Belawan, North Sumatra, Indonesia",
+    "source": "ports.json",
+    "sourceId": "",
+    "score": 0,
+    "slug": "belawan-port"
+  },
+  "terminalResolution": {
+    "status": "unresolved",
+    "method": "ports_json_fallback",
+    "verified": false,
+    "notes": "All supplied candidates are ferry-only stops, local docks, unnamed maritime features, or unrelated places rather than passenger cruise terminals."
+  }
+}

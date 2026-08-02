@@ -1,0 +1,987 @@
+{
+  "schemaVersion": 5,
+  "catalogType": "curation-candidates",
+  "generatedAt": "2026-07-30T08:52:49.526Z",
+  "source": "openstreetmap",
+  "sourceExtract": "scotland-latest.osm.pbf",
+  "radiusMeters": 10000,
+  "port": {
+    "id": "lerwick-united-kingdom",
+    "city": "Lerwick",
+    "country": "United Kingdom"
+  },
+  "defaultTerminalId": "ports-json-anchor",
+  "terminal": {
+    "id": "ports-json-anchor",
+    "name": "LERWICK Port",
+    "lat": 60.15,
+    "lng": -1.15,
+    "address": "Lerwick, Shetland, United Kingdom",
+    "source": "ports.json",
+    "sourceId": "",
+    "score": 0,
+    "slug": "lerwick-port"
+  },
+  "terminals": [
+    {
+      "id": "ports-json-anchor",
+      "name": "LERWICK Port",
+      "lat": 60.15,
+      "lng": -1.15,
+      "address": "Lerwick, Shetland, United Kingdom",
+      "source": "ports.json",
+      "sourceId": "",
+      "score": 0,
+      "slug": "lerwick-port"
+    }
+  ],
+  "terminalCandidateRadiusMeters": 5000,
+  "terminalCandidates": [
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/5022766c519a42875c15",
+      "name": "(unnamed maritime feature)",
+      "nameEnglish": "",
+      "lat": 60.155649,
+      "lng": -1.1428621,
+      "distanceFromPortMeters": 742,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/5022766c519a42875c15"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/3d6ca894e93d880abcd2",
+      "name": "(unnamed maritime feature)",
+      "nameEnglish": "",
+      "lat": 60.1630325,
+      "lng": -1.1567119,
+      "distanceFromPortMeters": 1496,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/3d6ca894e93d880abcd2"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/fe22823d02ee560aaf24",
+      "name": "Bressay Ferry Terminal",
+      "nameEnglish": "",
+      "lat": 60.157078,
+      "lng": -1.1232128,
+      "distanceFromPortMeters": 1678,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "operator": "Shetland Island Council",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/fe22823d02ee560aaf24"
+      ]
+    }
+  ],
+  "counts": {
+    "attraction": 14,
+    "outdoors": 5,
+    "food_drink": 10,
+    "shopping": 3,
+    "essentials": 1
+  },
+  "pois": [
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/620e9268338b7b592040",
+      "name": "Shetland Museum and Archives",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 60.1578253,
+      "lng": -1.1499151,
+      "distanceFromTerminalMeters": 870,
+      "distanceFromDefaultTerminalMeters": 870,
+      "minDistanceFromAnyTerminalMeters": 870,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Shetland, ZE1 0WP",
+      "openingHours": "Mo-Sa 10:00-16:00; Su 12:00-17:00",
+      "website": "https://www.shetlandmuseumandarchives.org.uk",
+      "phone": "+44 1595695057",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/a8e6f7b1dfa18d09455a",
+      "name": "Market Cross",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "monument",
+      "lat": 60.15313,
+      "lng": -1.1427207,
+      "distanceFromTerminalMeters": 532,
+      "distanceFromDefaultTerminalMeters": 532,
+      "minDistanceFromAnyTerminalMeters": 532,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "monument"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c03666cc16b0072d0c97",
+      "name": "Fort Charlotte",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 60.1553776,
+      "lng": -1.145114,
+      "distanceFromTerminalMeters": 656,
+      "distanceFromDefaultTerminalMeters": 656,
+      "minDistanceFromAnyTerminalMeters": 656,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "fort",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/e6cfb1b825a77109570a",
+      "name": "Shetland Textile Museum",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 60.1699596,
+      "lng": -1.1647972,
+      "distanceFromTerminalMeters": 2366,
+      "distanceFromDefaultTerminalMeters": 2366,
+      "minDistanceFromAnyTerminalMeters": 2366,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Gremista Road, Shetland, ZE1 0PX",
+      "openingHours": "",
+      "website": "https://www.shetlandtextilemuseum.com/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/41c2e0d93670dca73137",
+      "name": "Bressay Heritage Centre",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 60.1562467,
+      "lng": -1.1208991,
+      "distanceFromTerminalMeters": 1754,
+      "distanceFromDefaultTerminalMeters": 1754,
+      "minDistanceFromAnyTerminalMeters": 1754,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Shetland, ZE2 9EL",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/39dd50cef8a04f50d20e",
+      "name": "Clickimin Broch",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "archaeological_site",
+      "lat": 60.1492316,
+      "lng": -1.1656064,
+      "distanceFromTerminalMeters": 868,
+      "distanceFromDefaultTerminalMeters": 868,
+      "minDistanceFromAnyTerminalMeters": 868,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "https://www.historicenvironment.scot/visit-a-place/places/clickimin-broch/#",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "On the shore of Clickimin Loch is an outstanding example of a broch, a sophisticated type of stone-built round house found only in Scotland. Clickimin Broch has evidence of settlement spanning over a thousand years.",
+      "osmTags": {
+        "historic": "archaeological_site"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/e50df73026424a1c3d22",
+      "name": "Bressay Lighthouse",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "lighthouse",
+      "lat": 60.1199848,
+      "lng": -1.1214739,
+      "distanceFromTerminalMeters": 3692,
+      "distanceFromDefaultTerminalMeters": 3692,
+      "minDistanceFromAnyTerminalMeters": 3692,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Shetland, ZE2 9ER",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "White tower",
+      "osmTags": {
+        "man_made": "lighthouse"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f16f192e481312a3eb20",
+      "name": "Clickimin",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "archaeological_site",
+      "lat": 60.149197,
+      "lng": -1.1656576,
+      "distanceFromTerminalMeters": 871,
+      "distanceFromDefaultTerminalMeters": 871,
+      "minDistanceFromAnyTerminalMeters": 871,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "archaeological_site"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/abb76ac3ac9b0f5b0d40",
+      "name": "Scalloway Museum",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 60.1360339,
+      "lng": -1.2735997,
+      "distanceFromTerminalMeters": 7016,
+      "distanceFromDefaultTerminalMeters": 7016,
+      "minDistanceFromAnyTerminalMeters": 7016,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Shetland, ZE1 0TP",
+      "openingHours": "May-Sep; Mo-Fr 11:00-16:00; Su 14:00-16:00",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/eb6065cfd9981f0101a5",
+      "name": "burial aisle 20m SSE of Tingwall Parish Church",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "burial_aisle",
+      "lat": 60.175862,
+      "lng": -1.2463395,
+      "distanceFromTerminalMeters": 6056,
+      "distanceFromDefaultTerminalMeters": 6056,
+      "minDistanceFromAnyTerminalMeters": 6056,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "burial aisle at Tingwall Parish Church, Shetland Islands, Scotland, UK, protected as Scheduled Monument SM10810",
+      "osmTags": {
+        "historic": "burial_aisle"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b76df9cb8894da5768ec",
+      "name": "Anderson Homes",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "memorial",
+      "lat": 60.1516955,
+      "lng": -1.1354164,
+      "distanceFromTerminalMeters": 829,
+      "distanceFromDefaultTerminalMeters": 829,
+      "minDistanceFromAnyTerminalMeters": 829,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1-12 Twageos Road, Shetland, ZE1 0BG",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "memorial"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/810a3c5dabf0ad73697b",
+      "name": "Cruester burnt mound reconstruction",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "archaeological_site",
+      "lat": 60.1560569,
+      "lng": -1.1207714,
+      "distanceFromTerminalMeters": 1752,
+      "distanceFromDefaultTerminalMeters": 1752,
+      "minDistanceFromAnyTerminalMeters": 1752,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "archaeological_site"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/88bc7da27a62f0b569a6",
+      "name": "Stane o' Cruester",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "archaeological_site",
+      "lat": 60.1670907,
+      "lng": -1.1189062,
+      "distanceFromTerminalMeters": 2563,
+      "distanceFromDefaultTerminalMeters": 2563,
+      "minDistanceFromAnyTerminalMeters": 2563,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "archaeological_site"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/da2d9d6a8f931bf9bdd3",
+      "name": "Broch of Cullingsburgh",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "archaeological_site",
+      "lat": 60.1619624,
+      "lng": -1.062975,
+      "distanceFromTerminalMeters": 4996,
+      "distanceFromDefaultTerminalMeters": 4996,
+      "minDistanceFromAnyTerminalMeters": 4996,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "archaeological_site"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/2f78cc4007f042f72a34",
+      "name": "Bain's Beach",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "beach",
+      "lat": 60.1528803,
+      "lng": -1.1395596,
+      "distanceFromTerminalMeters": 661,
+      "distanceFromDefaultTerminalMeters": 661,
+      "minDistanceFromAnyTerminalMeters": 661,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "natural": "beach"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/13e6849d1f93a8cea80b",
+      "name": "King Harald Street Playpark",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 60.1548873,
+      "lng": -1.1489838,
+      "distanceFromTerminalMeters": 546,
+      "distanceFromDefaultTerminalMeters": 546,
+      "minDistanceFromAnyTerminalMeters": 546,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/a246d497465e80668561",
+      "name": "Lerwick Boating Club",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "marina",
+      "lat": 60.1526768,
+      "lng": -1.1381015,
+      "distanceFromTerminalMeters": 723,
+      "distanceFromDefaultTerminalMeters": 723,
+      "minDistanceFromAnyTerminalMeters": 723,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "https://www.lerwickboatingclub.co.uk/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "marina"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/a4ad1160148e17753762",
+      "name": "Ward of Lerwick",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "peak",
+      "lat": 60.1599071,
+      "lng": -1.1660707,
+      "distanceFromTerminalMeters": 1416,
+      "distanceFromDefaultTerminalMeters": 1416,
+      "minDistanceFromAnyTerminalMeters": 1416,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "natural": "peak"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/edbecb81397a461fac3c",
+      "name": "South Staney Hill",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "peak",
+      "lat": 60.151973,
+      "lng": -1.1784546,
+      "distanceFromTerminalMeters": 1590,
+      "distanceFromDefaultTerminalMeters": 1590,
+      "minDistanceFromAnyTerminalMeters": 1590,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "natural": "peak"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/51acbb0e33196cc8a70c",
+      "name": "Fort Cafe and Take Away",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 60.1551069,
+      "lng": -1.1436816,
+      "distanceFromTerminalMeters": 667,
+      "distanceFromDefaultTerminalMeters": 667,
+      "minDistanceFromAnyTerminalMeters": 667,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "2 Commercial Road, Shetland, ZE1 0HY",
+      "openingHours": "Mo-Fr 12:00-21:00; Sa 12:00-19:00; Su 16:00-21:00",
+      "website": "",
+      "phone": "",
+      "cuisine": [
+        "fish_and_chips"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/92f7b31758a789ff32f6",
+      "name": "The new harbour cafe",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 60.1545378,
+      "lng": -1.1435126,
+      "distanceFromTerminalMeters": 619,
+      "distanceFromDefaultTerminalMeters": 619,
+      "minDistanceFromAnyTerminalMeters": 619,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Shetland, ZE1 0LL",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [
+        "local"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/0383aef52897e543f992",
+      "name": "The Dowry",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 60.1542069,
+      "lng": -1.1434227,
+      "distanceFromTerminalMeters": 593,
+      "distanceFromDefaultTerminalMeters": 593,
+      "minDistanceFromAnyTerminalMeters": 593,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "98 Commercial Street, Shetland, ZE1 0EX",
+      "openingHours": "Mo-Th 11:30-22:00; Fr,Sa 11:30-23:00",
+      "website": "https://www.thedowry.co.uk/",
+      "phone": "+44 1595 692373",
+      "cuisine": [
+        "burger"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/4a1bedd06d291ccd8aee",
+      "name": "Fjarå Coffee",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 60.1470468,
+      "lng": -1.1597648,
+      "distanceFromTerminalMeters": 632,
+      "distanceFromDefaultTerminalMeters": 632,
+      "minDistanceFromAnyTerminalMeters": 632,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Sea Road, Shetland, ZE1 0ZJ",
+      "openingHours": "Tu-Sa 08:00-22:00; Su 09:00-17:00",
+      "website": "https://www.fjaracoffee.com/",
+      "phone": "+441595 697 388",
+      "cuisine": [
+        "regional"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f506c5bce57e2d71bd8d",
+      "name": "No 88 Kitchen and Bar",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 60.153951,
+      "lng": -1.1436521,
+      "distanceFromTerminalMeters": 563,
+      "distanceFromDefaultTerminalMeters": 563,
+      "minDistanceFromAnyTerminalMeters": 563,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "88 Commercial Street, Shetland, ZE1 0EX",
+      "openingHours": "We-Sa 11:00-22:00",
+      "website": "https://www.no88shetland.com/",
+      "phone": "+441595692139",
+      "cuisine": [
+        "local"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/37511fe920d9995e86f1",
+      "name": "Golden Coach",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 60.1563482,
+      "lng": -1.1448606,
+      "distanceFromTerminalMeters": 761,
+      "distanceFromDefaultTerminalMeters": 761,
+      "minDistanceFromAnyTerminalMeters": 761,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1-3 Commercial Street, Shetland, ZE1 0LX",
+      "openingHours": "Su-Th 12:00-22:00; Fr-Sa 12:00-22:30",
+      "website": "https://www.newgoldencoach.com/",
+      "phone": "",
+      "cuisine": [
+        "asian"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/676f0e94698e5ae09384",
+      "name": "Gurkha Kitchen",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 60.1573884,
+      "lng": -1.1560432,
+      "distanceFromTerminalMeters": 887,
+      "distanceFromDefaultTerminalMeters": 887,
+      "minDistanceFromAnyTerminalMeters": 887,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "33 North Road, Shetland, ZE1 0NT",
+      "openingHours": "Mo, We-Sa 15:00-22:00; Su 14:00-22:00",
+      "website": "https://www.gurkhakitchenshetland.co.uk/",
+      "phone": "+44 1595 690400",
+      "cuisine": [
+        "nepalese",
+        "indian"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/fced3b7dd0a2f3904b8a",
+      "name": "C'est là vie",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 60.1549618,
+      "lng": -1.1440339,
+      "distanceFromTerminalMeters": 643,
+      "distanceFromDefaultTerminalMeters": 643,
+      "minDistanceFromAnyTerminalMeters": 643,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "181 Commercial Street, Shetland, ZE1 0HX",
+      "openingHours": "Mo-Sa 10:00+",
+      "website": "",
+      "phone": "",
+      "cuisine": [
+        "french"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/abe65b93dfc8e5d494cb",
+      "name": "Da Steak Hoose",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 60.15285,
+      "lng": -1.1429201,
+      "distanceFromTerminalMeters": 504,
+      "distanceFromDefaultTerminalMeters": 504,
+      "minDistanceFromAnyTerminalMeters": 504,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "5 Mounthooly Street, Shetland, ZE1 0BJ",
+      "openingHours": "Tu-Sa 17:00-21:00",
+      "website": "",
+      "phone": "+44 1595 696566",
+      "cuisine": [
+        "steak_house"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/3243c2812f4015602c01",
+      "name": "Saffron",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 60.1571161,
+      "lng": -1.1521348,
+      "distanceFromTerminalMeters": 800,
+      "distanceFromDefaultTerminalMeters": 800,
+      "minDistanceFromAnyTerminalMeters": 800,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "4 North Road, Shetland, ZE1 0NP",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [
+        "indian"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/3f935c786a70d2d58ae3",
+      "name": "Toll Clock Shopping Center",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "mall",
+      "lat": 60.1577398,
+      "lng": -1.1548683,
+      "distanceFromTerminalMeters": 902,
+      "distanceFromDefaultTerminalMeters": 902,
+      "minDistanceFromAnyTerminalMeters": 902,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "North Road, Shetland, ZE1 0PE",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "shop": "mall"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/64d09b98b73c7d191a47",
+      "name": "Esplanade Public Toilets",
+      "nameEnglish": "",
+      "category": "essentials",
+      "subcategory": "toilets",
+      "lat": 60.153663,
+      "lng": -1.1429073,
+      "distanceFromTerminalMeters": 566,
+      "distanceFromDefaultTerminalMeters": 566,
+      "minDistanceFromAnyTerminalMeters": 566,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "07:30-22:00",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "toilets"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/e9d43cc4e856a59e0726",
+      "name": "Scoop Wholefoods",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "supermarket",
+      "lat": 60.1583454,
+      "lng": -1.1556612,
+      "distanceFromTerminalMeters": 979,
+      "distanceFromDefaultTerminalMeters": 979,
+      "minDistanceFromAnyTerminalMeters": 979,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "26 North Road, Shetland, ZE1 0PE",
+      "openingHours": "Mo-Sa 09:00-17:30",
+      "website": "https://www.scoopwholefoods.co.uk/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "shop": "supermarket"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/61215f5d6ac65eb4484b",
+      "name": "Tesco",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "supermarket",
+      "lat": 60.1471612,
+      "lng": -1.161407,
+      "distanceFromTerminalMeters": 706,
+      "distanceFromDefaultTerminalMeters": 706,
+      "minDistanceFromAnyTerminalMeters": 706,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "South Road, Shetland, ZE1 0RD",
+      "openingHours": "Mo-Su 06:00-23:00",
+      "website": "https://www.tesco.com/store-locator/lerwick/south-rd",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "Tesco",
+      "description": "",
+      "osmTags": {
+        "shop": "supermarket"
+      }
+    }
+  ],
+  "portAnchor": {
+    "id": "ports-json-anchor",
+    "name": "LERWICK Port",
+    "lat": 60.15,
+    "lng": -1.15,
+    "address": "Lerwick, Shetland, United Kingdom",
+    "source": "ports.json",
+    "sourceId": "",
+    "score": 0,
+    "slug": "lerwick-port"
+  },
+  "terminalResolution": {
+    "status": "unresolved",
+    "method": "ports_json_fallback",
+    "verified": false,
+    "notes": "All supplied candidates are ferry-only stops, local docks, unnamed maritime features, or unrelated places rather than passenger cruise terminals."
+  }
+}

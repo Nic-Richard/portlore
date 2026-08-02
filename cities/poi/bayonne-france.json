@@ -1,0 +1,975 @@
+{
+  "schemaVersion": 5,
+  "catalogType": "curation-candidates",
+  "generatedAt": "2026-07-30T07:34:56.973Z",
+  "source": "openstreetmap",
+  "sourceExtract": "aquitaine-latest.osm.pbf",
+  "radiusMeters": 10000,
+  "port": {
+    "id": "bayonne-france",
+    "city": "Bayonne",
+    "country": "France"
+  },
+  "defaultTerminalId": "ports-json-anchor",
+  "terminal": {
+    "id": "ports-json-anchor",
+    "name": "BAYONNE Port",
+    "lat": 43.5,
+    "lng": -1.47,
+    "address": "Bayonne, Nouvelle-Aquitaine, France",
+    "source": "ports.json",
+    "sourceId": "",
+    "score": 0,
+    "slug": "bayonne-port"
+  },
+  "terminals": [
+    {
+      "id": "ports-json-anchor",
+      "name": "BAYONNE Port",
+      "lat": 43.5,
+      "lng": -1.47,
+      "address": "Bayonne, Nouvelle-Aquitaine, France",
+      "source": "ports.json",
+      "sourceId": "",
+      "score": 0,
+      "slug": "bayonne-port"
+    }
+  ],
+  "terminalCandidateRadiusMeters": 5000,
+  "terminalCandidates": [
+    {
+      "source": "nominatim",
+      "sourceId": "osm/way/157124277",
+      "osmType": "way",
+      "osmId": "157124277",
+      "name": "Port de Bayonne",
+      "nameEnglish": "",
+      "lat": 43.5080725,
+      "lng": -1.4971607,
+      "distanceFromPortMeters": 2367,
+      "address": "Port de Bayonne, Avenue de l'Adour, Lapurdi, Blancpignon, Anglet, Bayonne, Pyrénées-Atlantiques, Nouvelle-Aquitaine, France métropolitaine, 64600, France",
+      "displayName": "Port de Bayonne, Avenue de l'Adour, Lapurdi, Blancpignon, Anglet, Bayonne, Pyrénées-Atlantiques, Nouvelle-Aquitaine, France métropolitaine, 64600, France",
+      "query": "BAYONNE Port, Bayonne, France",
+      "matchedBy": [
+        "Nominatim query: BAYONNE Port, Bayonne, France"
+      ],
+      "osmTags": {
+        "operator": "Région Nouvelle-Aquitaine"
+      },
+      "sources": [
+        "nominatim"
+      ],
+      "sourceIds": [
+        "osm/way/157124277"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b1fe66f5eae77df7ec57",
+      "name": "Cale de Boucau",
+      "nameEnglish": "",
+      "lat": 43.5226628,
+      "lng": -1.4913118,
+      "distanceFromPortMeters": 3050,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/b1fe66f5eae77df7ec57"
+      ]
+    },
+    {
+      "source": "nominatim",
+      "sourceId": "osm/way/414499744",
+      "osmType": "way",
+      "osmId": "414499744",
+      "name": "Port Bayonne Anglet",
+      "nameEnglish": "",
+      "lat": 43.5223239,
+      "lng": -1.4969653,
+      "distanceFromPortMeters": 3300,
+      "address": "Port Bayonne Anglet, Rue du Lazaret, Lapurdi, Le Lazaret, Anglet, Bayonne, Pyrénées-Atlantiques, Nouvelle-Aquitaine, France métropolitaine, 64600, France",
+      "displayName": "Port Bayonne Anglet, Rue du Lazaret, Lapurdi, Le Lazaret, Anglet, Bayonne, Pyrénées-Atlantiques, Nouvelle-Aquitaine, France métropolitaine, 64600, France",
+      "query": "BAYONNE Port, Bayonne, France",
+      "matchedBy": [
+        "Nominatim query: BAYONNE Port, Bayonne, France"
+      ],
+      "osmTags": {
+        "operator": "Port Adhoc",
+        "seamark:type": "harbour"
+      },
+      "sources": [
+        "nominatim"
+      ],
+      "sourceIds": [
+        "osm/way/414499744"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/0cfc7816ed422fd68c64",
+      "name": "Anglet Brise Lames",
+      "nameEnglish": "",
+      "lat": 43.5268429,
+      "lng": -1.5122821,
+      "distanceFromPortMeters": 4532,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/0cfc7816ed422fd68c64"
+      ]
+    },
+    {
+      "source": "nominatim",
+      "sourceId": "osm/way/157132187",
+      "osmType": "way",
+      "osmId": "157132187",
+      "name": "Capitainerie du Port de Bayonne",
+      "nameEnglish": "",
+      "lat": 43.5266903,
+      "lng": -1.5137415,
+      "distanceFromPortMeters": 4610,
+      "address": "Capitainerie du Port de Bayonne, Avenue de l'Adour, Lapurdi, Brise Lames, Anglet, Bayonne, Pyrénées-Atlantiques, Nouvelle-Aquitaine, France métropolitaine, 64600, France",
+      "displayName": "Capitainerie du Port de Bayonne, Avenue de l'Adour, Lapurdi, Brise Lames, Anglet, Bayonne, Pyrénées-Atlantiques, Nouvelle-Aquitaine, France métropolitaine, 64600, France",
+      "query": "BAYONNE Port, Bayonne, France",
+      "matchedBy": [
+        "Nominatim query: BAYONNE Port, Bayonne, France"
+      ],
+      "osmTags": {
+        "harbour": "harbour_master",
+        "seamark:type": "building"
+      },
+      "sources": [
+        "nominatim"
+      ],
+      "sourceIds": [
+        "osm/way/157132187"
+      ]
+    }
+  ],
+  "counts": {
+    "attraction": 13,
+    "outdoors": 5,
+    "food_drink": 10,
+    "shopping": 2,
+    "essentials": 0
+  },
+  "pois": [
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ee955a56e2d1e62e9b55",
+      "name": "DIDAM",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 43.4959278,
+      "lng": -1.4718951,
+      "distanceFromTerminalMeters": 478,
+      "distanceFromDefaultTerminalMeters": 478,
+      "minDistanceFromAnyTerminalMeters": 478,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Oct-Jun Tu-Su 13:00-18:30; Jul-Sep 14:00-19:30",
+      "website": "https://didam.bayonne.fr/",
+      "phone": "+33 5 59 46 63 43",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Espace d’art contemporain de la Ville de Bayonne, installé dans les locaux de l’ancienne Direction Interdépartementale des Affaires Maritimes (D.I.D.A.M).",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f43846f79cf759a5e912",
+      "name": "Musée Bonnat-Helleu",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 43.4918696,
+      "lng": -1.4721955,
+      "distanceFromTerminalMeters": 921,
+      "distanceFromDefaultTerminalMeters": 921,
+      "minDistanceFromAnyTerminalMeters": 921,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Nov-Apr We-Mo 10:00-18:00; Nov-Apr Fr 12:00-20:00; May-Oct We-Mo 10:00-19:00; May-Oct Fr 12:00-21:00; Jan 01,May 01,Dec 25 off \"Fermé pendant les Fêtes de Bayonne du jeudi au dimanche\"",
+      "website": "https://mbh.bayonne.fr/",
+      "phone": "+33 5 59 46 63 60",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/297ffbc4b60d228291ee",
+      "name": "Musée du judaïsme bayonnais Suzanne et Marcel Suarès",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 43.4969935,
+      "lng": -1.4691505,
+      "distanceFromTerminalMeters": 341,
+      "distanceFromDefaultTerminalMeters": 341,
+      "minDistanceFromAnyTerminalMeters": 341,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "35 Rue Maubec, Bayonne, 64100",
+      "openingHours": "",
+      "website": "https://acibb.fr/musee/",
+      "phone": "+33 5 59 45 07 24",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/56632bbed0b68bc66832",
+      "name": "Musée Basque et de l'histoire de Bayonne",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 43.4910854,
+      "lng": -1.473799,
+      "distanceFromTerminalMeters": 1038,
+      "distanceFromDefaultTerminalMeters": 1038,
+      "minDistanceFromAnyTerminalMeters": 1038,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Th 13:00-20:00; Tu,We,Fr-Su 10:00-18:00",
+      "website": "https://www.musee-basque.com",
+      "phone": "+33 5 59 59 08 98",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "Situé dans une demeure portuaire de la ville, le musée propose une collection exceptionnelle de plus de 2 000 objets retraçant l'histoire du Pays Basque.",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/8eab0f96e3eee9fdd89c",
+      "name": "Kaxu Galerie",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "gallery",
+      "lat": 43.4951025,
+      "lng": -1.4680225,
+      "distanceFromTerminalMeters": 567,
+      "distanceFromDefaultTerminalMeters": 567,
+      "minDistanceFromAnyTerminalMeters": 567,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "35 Rue Sainte-Catherine",
+      "openingHours": "We-Sa 13:00-18:00",
+      "website": "https://www.kaxu.fr/",
+      "phone": "+33 5 59 03 75 32",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "gallery"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/8fb1081fb93d1e02be95",
+      "name": "CIAP Lapurdum",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 43.4912964,
+      "lng": -1.4771781,
+      "distanceFromTerminalMeters": 1128,
+      "distanceFromDefaultTerminalMeters": 1128,
+      "minDistanceFromAnyTerminalMeters": 1128,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Tu-Fr 14:00-18:00; Sa 10:00-12:30,14:00-18:00",
+      "website": "https://www.bayonne.fr/cest-a-bayonne/culture/histoire-et-patrimoines/les-etablissements-culturels-et-patrimoniaux/le-ciap-centre-dinterpretation-de-larchitecture-et-du-patrimoine",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c6fd45b3d06afc702a1b",
+      "name": "La Citadelle",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "castle",
+      "lat": 43.4987356,
+      "lng": -1.47325,
+      "distanceFromTerminalMeters": 297,
+      "distanceFromDefaultTerminalMeters": 297,
+      "minDistanceFromAnyTerminalMeters": 297,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "castle"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/56aa73aca8e45eae57f9",
+      "name": "Château du Vigneau",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "castle",
+      "lat": 43.5056116,
+      "lng": -1.4696477,
+      "distanceFromTerminalMeters": 625,
+      "distanceFromDefaultTerminalMeters": 625,
+      "minDistanceFromAnyTerminalMeters": 625,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "castle"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/a3c98ab0d00e6ba6d763",
+      "name": "Château de Caradoc",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "castle",
+      "lat": 43.5014331,
+      "lng": -1.4616812,
+      "distanceFromTerminalMeters": 690,
+      "distanceFromDefaultTerminalMeters": 690,
+      "minDistanceFromAnyTerminalMeters": 690,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "castle"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/8dd713142a19ba02c473",
+      "name": "Château-Neuf",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "castle",
+      "lat": 43.4898624,
+      "lng": -1.4701678,
+      "distanceFromTerminalMeters": 1127,
+      "distanceFromDefaultTerminalMeters": 1127,
+      "minDistanceFromAnyTerminalMeters": 1127,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "castle"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c7b46fa8d9be3c2a4ecc",
+      "name": "Château-Vieux",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "fort",
+      "lat": 43.4918502,
+      "lng": -1.4778179,
+      "distanceFromTerminalMeters": 1104,
+      "distanceFromDefaultTerminalMeters": 1104,
+      "minDistanceFromAnyTerminalMeters": 1104,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "fort"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/79861477e5b3d17f2176",
+      "name": "AirFly64",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "theme_park",
+      "lat": 43.4830841,
+      "lng": -1.4457777,
+      "distanceFromTerminalMeters": 2712,
+      "distanceFromDefaultTerminalMeters": 2712,
+      "minDistanceFromAnyTerminalMeters": 2712,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "3 Avenue du Portou, Saint-Pierre-d'Irube, 64990",
+      "openingHours": "Sa-Su 09:30-16:30",
+      "website": "https://www.airfly64.fr/",
+      "phone": "+33782253607",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "theme_park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c06472f17b98755621c3",
+      "name": "Schtroumpfland",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "theme_park",
+      "lat": 43.4806442,
+      "lng": -1.4439446,
+      "distanceFromTerminalMeters": 3008,
+      "distanceFromDefaultTerminalMeters": 3008,
+      "minDistanceFromAnyTerminalMeters": 3008,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "4 Avenue du Portou, Saint-Pierre-d'Irube, 64990",
+      "openingHours": "Mo-Su 09:30-19:30",
+      "website": "https://schtroumpfland.com/",
+      "phone": "+33 5 59 56 52 11",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "theme_park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/9a4fa511b417943583bf",
+      "name": "Jardin du Marquisat",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "garden",
+      "lat": 43.4955371,
+      "lng": -1.4676186,
+      "distanceFromTerminalMeters": 532,
+      "distanceFromDefaultTerminalMeters": 532,
+      "minDistanceFromAnyTerminalMeters": 532,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "https://www.biodiverscite.fr/lieu-biodiverscite/jardin-du-marquisat/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "garden"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ed5f586ae63adfe0f4b9",
+      "name": "Échauguette",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "viewpoint",
+      "lat": 43.4938012,
+      "lng": -1.4735335,
+      "distanceFromTerminalMeters": 746,
+      "distanceFromDefaultTerminalMeters": 746,
+      "minDistanceFromAnyTerminalMeters": 746,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "monument",
+        "tourism": "viewpoint"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ea644c7ff30b0086c0dc",
+      "name": "Parc Ecologique Izadia",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "nature_reserve",
+      "lat": 43.5239105,
+      "lng": -1.5205245,
+      "distanceFromTerminalMeters": 4865,
+      "distanceFromDefaultTerminalMeters": 4865,
+      "minDistanceFromAnyTerminalMeters": 4865,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "297",
+      "openingHours": "Mar 27-Nov 03: We-Su 10:00-12:30, 14:00-18:00; Jul-Sep:Mo-Su 10:00-12:30, 14:00-18:00,Th 10:00-12:30, 14:00-20:00",
+      "website": "https://www.izadia.fr",
+      "phone": "+33 5 59 57 17 48",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "Le Parc Écologique Izadia a été conçu dans un souci de protection et de réhabilitation écologique du site, et comme un lieu de découverte et de sensibilisation pédagogique pour le public. Il fait également l’objet de nombreux travaux scientifiques.",
+      "osmTags": {
+        "leisure": "nature_reserve",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/71813321dcecf58ebdca",
+      "name": "Point de vue Port de la Cale.",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "viewpoint",
+      "lat": 43.521876,
+      "lng": -1.4902227,
+      "distanceFromTerminalMeters": 2929,
+      "distanceFromDefaultTerminalMeters": 2929,
+      "minDistanceFromAnyTerminalMeters": 2929,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Point de vue sur l'Océan, le port de Tarnos et l'entrée dans l'Adour vers Bayonne.",
+      "osmTags": {
+        "tourism": "viewpoint"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f5b8e60da482be7b2ee6",
+      "name": "Lac de Castillon",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "viewpoint",
+      "lat": 43.5293203,
+      "lng": -1.4565328,
+      "distanceFromTerminalMeters": 3436,
+      "distanceFromDefaultTerminalMeters": 3436,
+      "minDistanceFromAnyTerminalMeters": 3436,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "no",
+      "brand": "",
+      "description": "A partir du chemin, au bord de l'eau, vue sur la profondeur du lac enfoui sous le couvert végétal",
+      "osmTags": {
+        "tourism": "viewpoint"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ba5ed26a90733306d433",
+      "name": "Coffee Muxu",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 43.4916619,
+      "lng": -1.4771348,
+      "distanceFromTerminalMeters": 1091,
+      "distanceFromDefaultTerminalMeters": 1091,
+      "minDistanceFromAnyTerminalMeters": 1091,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "3 Rue des Gouverneurs, 64100",
+      "openingHours": "Mo-Sa 09:00-18:00; Su 09:00-17:00",
+      "website": "https://www.coffeemuxu.com/",
+      "phone": "",
+      "cuisine": [
+        "regional",
+        "brunch"
+      ],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "Restaurant labellisé Tokikoa en 2026",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/a4d4bd2c8ba7e75c22f0",
+      "name": "You Sushi",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 43.4918665,
+      "lng": -1.4746798,
+      "distanceFromTerminalMeters": 980,
+      "distanceFromDefaultTerminalMeters": 980,
+      "minDistanceFromAnyTerminalMeters": 980,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Su,PH 11:00-14:30,18:00-22:30",
+      "website": "http://www.yousushi.fr/",
+      "phone": "",
+      "cuisine": [
+        "sushi"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ed0b1b1f16d04e20fe9a",
+      "name": "Quai 34",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 43.4920696,
+      "lng": -1.476075,
+      "distanceFromTerminalMeters": 1009,
+      "distanceFromDefaultTerminalMeters": 1009,
+      "minDistanceFromAnyTerminalMeters": 1009,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Tu-Sa 09:30-18:30",
+      "website": "",
+      "phone": "+33 9 81 27 80 66",
+      "cuisine": [
+        "crepe",
+        "teahouse"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Crêperie - Salon de thé",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/4e5a75e8018cb4ab6664",
+      "name": "Basa",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 43.4901652,
+      "lng": -1.4763036,
+      "distanceFromTerminalMeters": 1206,
+      "distanceFromDefaultTerminalMeters": 1206,
+      "minDistanceFromAnyTerminalMeters": 1206,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "74 Rue d'Espagne, Bayonne, 64100",
+      "openingHours": "Mo-Su 12:00-22:00",
+      "website": "https://www.brasserie-basa.com/",
+      "phone": "+33 5 59 70 38 06",
+      "cuisine": [
+        "regional",
+        "seafood",
+        "french",
+        "fish",
+        "barbecue"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "La Brasserie BASA rend accessible une cuisine équitable de qualité, faite maison avec des produits locaux. Restaurant labellisé Tokikoa et Travellers' Choice 2025 MICHELIN",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/7fb391d67102c1591ff4",
+      "name": "KMC",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 43.4910302,
+      "lng": -1.4724909,
+      "distanceFromTerminalMeters": 1017,
+      "distanceFromDefaultTerminalMeters": 1017,
+      "minDistanceFromAnyTerminalMeters": 1017,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "52 Rue Bourgneuf, Bayonne, 64100",
+      "openingHours": "Tu-Sa 11:30-14:30,18:30-20:30",
+      "website": "https://kmc-fusion-ramen.eatbu.com/",
+      "phone": "",
+      "cuisine": [
+        "japanese",
+        "ramen"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/a19b1a5950c806810a15",
+      "name": "Le Bayonnais",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 43.4912519,
+      "lng": -1.4737848,
+      "distanceFromTerminalMeters": 1020,
+      "distanceFromDefaultTerminalMeters": 1020,
+      "minDistanceFromAnyTerminalMeters": 1020,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Tu-Sa 12:00-13:30,19:00-21:30",
+      "website": "http://www.bayonnais.com/",
+      "phone": "",
+      "cuisine": [
+        "french"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/67837eded180142be74d",
+      "name": "Fufu Ramen",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 43.4899747,
+      "lng": -1.476728,
+      "distanceFromTerminalMeters": 1240,
+      "distanceFromDefaultTerminalMeters": 1240,
+      "minDistanceFromAnyTerminalMeters": 1240,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "66 Rue d'Espagne, 64100",
+      "openingHours": "Sa-Th 12:00-15:00,18:00-22:00; Fr 12:00-15:00",
+      "website": "https://restaurantfufu.com/",
+      "phone": "+33 5 59 25 77 57",
+      "cuisine": [
+        "japanese"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c2c2971898aae779574b",
+      "name": "Memphis Coffee",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 43.4914653,
+      "lng": -1.4514676,
+      "distanceFromTerminalMeters": 1771,
+      "distanceFromDefaultTerminalMeters": 1771,
+      "minDistanceFromAnyTerminalMeters": 1771,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "8 bis Chemin de Hayet, Bayonne, 64100",
+      "openingHours": "Mo-Su 12:00-00:00",
+      "website": "http://www.memphis-coffee.com",
+      "phone": "+33 5 59 55 76 20",
+      "cuisine": [
+        "burger"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/12fd57b38fadbb226e7f",
+      "name": "Fratelli Ristorante",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 43.5340707,
+      "lng": -1.4604091,
+      "distanceFromTerminalMeters": 3867,
+      "distanceFromDefaultTerminalMeters": 3867,
+      "minDistanceFromAnyTerminalMeters": 3867,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "40 Boulevard Jacques Duclos, Tarnos, 40220",
+      "openingHours": "Tu-Sa 12:00-13:30,19:00-21:30",
+      "website": "https://www.facebook.com/restaurantfratelli",
+      "phone": "+33 5 59 03 19 33",
+      "cuisine": [
+        "pizza",
+        "italian"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Restaurant de spécialités italiennes (Sicile) : pizzas et pâtes maison.",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/603f271ae1e30fe9a1dc",
+      "name": "Sushis & Bowls",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 43.5368622,
+      "lng": -1.4606535,
+      "distanceFromTerminalMeters": 4168,
+      "distanceFromDefaultTerminalMeters": 4168,
+      "minDistanceFromAnyTerminalMeters": 4168,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1 Rue Lise et Artur London, Tarnos, 40220",
+      "openingHours": "Mo-Sa 18:30-21:45; We,Fr 11:45-14:00,18:30-21:45; Th off",
+      "website": "https://sushi-san-landes.fr/",
+      "phone": "+33 9 83 98 16 30",
+      "cuisine": [
+        "sushi"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Plateaux de sushis, makis, nigiris... à emporter.",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b6c4c66e81e97be69efe",
+      "name": "Centre commercial Ametzondo Shopping",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "mall",
+      "lat": 43.4809987,
+      "lng": -1.444839,
+      "distanceFromTerminalMeters": 2930,
+      "distanceFromDefaultTerminalMeters": 2930,
+      "minDistanceFromAnyTerminalMeters": 2930,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "3 Avenue du Portou, Saint-Pierre-d'Irube, 64496",
+      "openingHours": "Mo-Sa 09:30-19:30",
+      "website": "https://www.ametzondoshopping.com/fr",
+      "phone": "+33 5 59 08 07 77",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "shop": "mall"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ee0afccfb47a7f985bd8",
+      "name": "Kafe Beltza",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "coffee",
+      "lat": 43.4896479,
+      "lng": -1.4757548,
+      "distanceFromTerminalMeters": 1241,
+      "distanceFromDefaultTerminalMeters": 1241,
+      "minDistanceFromAnyTerminalMeters": 1241,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Tu-Sa 09:00-12:00,14:00-19:00",
+      "website": "http://www.cafenegro.fr",
+      "phone": "+33 5 59 59 09 98",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Torréfacteur artisanal depuis 1930. La boutique se situe dans le quartier populaire de Bayonne proche des Halles. Le Kafe Beltza (anciennement Café Négro) a été élu le meilleurs torréfacteur de France 2012.",
+      "osmTags": {
+        "shop": "coffee"
+      }
+    }
+  ],
+  "portAnchor": {
+    "id": "ports-json-anchor",
+    "name": "BAYONNE Port",
+    "lat": 43.5,
+    "lng": -1.47,
+    "address": "Bayonne, Nouvelle-Aquitaine, France",
+    "source": "ports.json",
+    "sourceId": "",
+    "score": 0,
+    "slug": "bayonne-port"
+  },
+  "terminalResolution": {
+    "status": "unresolved",
+    "method": "ports_json_fallback",
+    "verified": false,
+    "notes": "External port and cruise-schedule checks found no established ocean passenger cruise terminal or meaningful cruise-call pattern here. The supplied candidates are cargo, ferry, marina, local-dock, road, or unrelated results."
+  }
+}

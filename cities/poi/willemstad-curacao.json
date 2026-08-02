@@ -1,0 +1,1411 @@
+{
+  "schemaVersion": 5,
+  "catalogType": "curation-candidates",
+  "generatedAt": "2026-07-30T07:45:14.535Z",
+  "source": "openstreetmap",
+  "sourceExtract": "central-america-latest.osm.pbf",
+  "radiusMeters": 10000,
+  "port": {
+    "id": "willemstad-curacao",
+    "city": "Willemstad",
+    "country": "Curaçao"
+  },
+  "defaultTerminalId": "manual/willemstad-curacao/mega-pier-cruise-terminal",
+  "terminal": {
+    "id": "manual/willemstad-curacao/mega-pier-cruise-terminal",
+    "name": "Mega Pier Cruise Terminal",
+    "nameEnglish": "",
+    "lat": 12.1044,
+    "lng": -68.94181,
+    "address": "",
+    "source": "manual_web_research",
+    "sourceId": "manual/willemstad-curacao/mega-pier-cruise-terminal",
+    "terminalType": "dedicated_cruise_pier",
+    "verified": true,
+    "notes": "Main large-ship passenger pier west of the city center.",
+    "sourceUrls": [
+      "https://www.curacaoports.com/cruise/",
+      "https://www.openstreetmap.org/?mlat=12.1044&mlon=-68.94181#map=17/12.1044/-68.94181"
+    ],
+    "sources": [
+      "manual_web_research"
+    ],
+    "sourceIds": [
+      "manual/willemstad-curacao/mega-pier-cruise-terminal"
+    ],
+    "osmTags": {},
+    "matchedBy": [
+      "web_researched_terminal"
+    ],
+    "distanceFromPortMeters": null
+  },
+  "terminals": [
+    {
+      "id": "manual/willemstad-curacao/mega-pier-cruise-terminal",
+      "name": "Mega Pier Cruise Terminal",
+      "nameEnglish": "",
+      "lat": 12.1044,
+      "lng": -68.94181,
+      "address": "",
+      "source": "manual_web_research",
+      "sourceId": "manual/willemstad-curacao/mega-pier-cruise-terminal",
+      "terminalType": "dedicated_cruise_pier",
+      "verified": true,
+      "notes": "Main large-ship passenger pier west of the city center.",
+      "sourceUrls": [
+        "https://www.curacaoports.com/cruise/",
+        "https://www.openstreetmap.org/?mlat=12.1044&mlon=-68.94181#map=17/12.1044/-68.94181"
+      ],
+      "sources": [
+        "manual_web_research"
+      ],
+      "sourceIds": [
+        "manual/willemstad-curacao/mega-pier-cruise-terminal"
+      ],
+      "osmTags": {},
+      "matchedBy": [
+        "web_researched_terminal"
+      ],
+      "distanceFromPortMeters": null
+    },
+    {
+      "id": "manual/willemstad-curacao/mathey-wharf-cruise-terminal",
+      "name": "Mathey Wharf Cruise Terminal",
+      "nameEnglish": "",
+      "lat": 12.10622,
+      "lng": -68.93715,
+      "address": "",
+      "source": "manual_web_research",
+      "sourceId": "manual/willemstad-curacao/mathey-wharf-cruise-terminal",
+      "terminalType": "city_center_cruise_wharf",
+      "verified": true,
+      "notes": "Inner-harbour cruise wharf immediately beside Otrobanda.",
+      "sourceUrls": [
+        "https://www.curacaoports.com/cruise/",
+        "https://www.openstreetmap.org/?mlat=12.10622&mlon=-68.93715#map=17/12.10622/-68.93715"
+      ],
+      "sources": [
+        "manual_web_research"
+      ],
+      "sourceIds": [
+        "manual/willemstad-curacao/mathey-wharf-cruise-terminal"
+      ],
+      "osmTags": {},
+      "matchedBy": [
+        "web_researched_terminal"
+      ],
+      "distanceFromPortMeters": null
+    }
+  ],
+  "terminalCandidateRadiusMeters": 5000,
+  "terminalCandidates": [
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/256967397010dfee86f0",
+      "name": "Otrobanda Ferry Dock",
+      "nameEnglish": "",
+      "lat": 12.1075986,
+      "lng": -68.9348166,
+      "distanceFromPortMeters": 1475,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/256967397010dfee86f0"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/2b8a662e9330dd661c2e",
+      "name": "Punda Ferry Dock",
+      "nameEnglish": "",
+      "lat": 12.1064014,
+      "lng": -68.9340419,
+      "distanceFromPortMeters": 1575,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/2b8a662e9330dd661c2e"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/354069dbf857bed26c63",
+      "name": "Mega Pier",
+      "nameEnglish": "",
+      "lat": 12.1043951,
+      "lng": -68.9418107,
+      "distanceFromPortMeters": 2159,
+      "address": "CW",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "alt_name": "Megapier",
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/354069dbf857bed26c63"
+      ]
+    }
+  ],
+  "counts": {
+    "attraction": 18,
+    "outdoors": 9,
+    "food_drink": 15,
+    "shopping": 4,
+    "essentials": 1
+  },
+  "pois": [
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/7bb4da0347f386c663a7",
+      "name": "Post museum",
+      "nameEnglish": "Postal Museum",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 12.105991,
+      "lng": -68.933453,
+      "distanceFromTerminalMeters": 1602,
+      "distanceFromDefaultTerminalMeters": 1602,
+      "minDistanceFromAnyTerminalMeters": 1602,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "22 Keukenstraat, Punda",
+      "openingHours": "",
+      "website": "https://www.cpostinternational.com/postmuseum/",
+      "phone": "+5999 465 8010",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/72a6bb42b1bd7a08d28e",
+      "name": "Fort Kerk museum",
+      "nameEnglish": "Fort Church museum",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 12.1046489,
+      "lng": -68.9344152,
+      "distanceFromTerminalMeters": 1773,
+      "distanceFromDefaultTerminalMeters": 1773,
+      "minDistanceFromAnyTerminalMeters": 1773,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "24 Fort Amsterdam, Punda",
+      "openingHours": "",
+      "website": "http://www.fortchurchcuracao.com/index5.php",
+      "phone": "+5999 461 1139",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d558f9e66a3d3d659aea",
+      "name": "Maritime Museum Curacao",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 12.10719,
+      "lng": -68.9326841,
+      "distanceFromTerminalMeters": 1454,
+      "distanceFromDefaultTerminalMeters": 1454,
+      "minDistanceFromAnyTerminalMeters": 1454,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1 Van den Brandhofstraat, Scharloo",
+      "openingHours": "",
+      "website": "https://www.curacaomaritime.com/",
+      "phone": "+5999 465 2327",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/dab0a0b64b112eefe391",
+      "name": "Jewish Cultural Historical Museum",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 12.1051011,
+      "lng": -68.9328083,
+      "distanceFromTerminalMeters": 1685,
+      "distanceFromDefaultTerminalMeters": 1685,
+      "minDistanceFromAnyTerminalMeters": 1685,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "29 Hanchi Snoa, Punda",
+      "openingHours": "",
+      "website": "https://snoa.com/museum/",
+      "phone": "+5999 461 1633",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c0148e65d5c2caa98d5b",
+      "name": "Curaçao Museum",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 12.1120593,
+      "lng": -68.9471685,
+      "distanceFromTerminalMeters": 2065,
+      "distanceFromDefaultTerminalMeters": 2065,
+      "minDistanceFromAnyTerminalMeters": 2065,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Van Leeuwenhoekstraat, Willemstad, CW",
+      "openingHours": "",
+      "website": "https://hetcuracaosch.museum/",
+      "phone": "+5999 462 3873",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/cad3e44e2c0e4d36a9e4",
+      "name": "Gallery Alma Blou",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "gallery",
+      "lat": 12.122828,
+      "lng": -68.9502225,
+      "distanceFromTerminalMeters": 2221,
+      "distanceFromDefaultTerminalMeters": 2221,
+      "minDistanceFromAnyTerminalMeters": 2221,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "4 Frater Radulphusweg",
+      "openingHours": "Tu-Fr 09:30-17:30; Sa 10:00-14:00; Mo off",
+      "website": "https://galleryalmablou.com/",
+      "phone": "+5999 462 8896",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "gallery"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/500d698590da42d18800",
+      "name": "Children's Museum Curaçao",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 12.1237802,
+      "lng": -68.9024129,
+      "distanceFromTerminalMeters": 3028,
+      "distanceFromDefaultTerminalMeters": 3028,
+      "minDistanceFromAnyTerminalMeters": 3028,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1 Rooi Catootje, Willemstad",
+      "openingHours": "Tu-Sa 09:00-17:00, Su 12:00-17:00, Mo closed",
+      "website": "https://www.childrensmuseumcuracao.org/",
+      "phone": "+59997375261",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "Children's Museum Curacao offers 11 different interactive exhibitions for children and families. Come play in the indoor and outdoor areas of the museum and discover, learn and experiment.",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/56db61855a536bcc6c4c",
+      "name": "Curaçao Plein Air Gallery",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "gallery",
+      "lat": 12.1052869,
+      "lng": -68.9330359,
+      "distanceFromTerminalMeters": 1669,
+      "distanceFromDefaultTerminalMeters": 1669,
+      "minDistanceFromAnyTerminalMeters": 1669,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "27 Hanchi Snoa, Punda",
+      "openingHours": "",
+      "website": "https://pleinaircuracao.com/",
+      "phone": "+5999 461 4520",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "gallery"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/9700236222a1323c9159",
+      "name": "Fort Amsterdam",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 12.1047682,
+      "lng": -68.9346635,
+      "distanceFromTerminalMeters": 1768,
+      "distanceFromDefaultTerminalMeters": 1768,
+      "minDistanceFromAnyTerminalMeters": 1768,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Handelskade, Punda",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/7e5a7a4f95584b4683e4",
+      "name": "Waterfort",
+      "nameEnglish": "Water Fort",
+      "category": "attraction",
+      "subcategory": "fort",
+      "lat": 12.1040699,
+      "lng": -68.9342911,
+      "distanceFromTerminalMeters": 1832,
+      "distanceFromDefaultTerminalMeters": 1832,
+      "minDistanceFromAnyTerminalMeters": 1832,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Waterfortstraat, Punda",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "fort"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/dd04461b4bb953d3a649",
+      "name": "Dushi Walks Scharloo",
+      "nameEnglish": "Dushi Walks Scharloo",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 12.1062603,
+      "lng": -68.9299348,
+      "distanceFromTerminalMeters": 1528,
+      "distanceFromDefaultTerminalMeters": 1528,
+      "minDistanceFromAnyTerminalMeters": 1528,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "http://dushi-walks.com",
+      "phone": "+59995239272",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f75a4e8bf6885d465083",
+      "name": "Dushi Walks Punda",
+      "nameEnglish": "Dushi Walks Punda",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 12.1056718,
+      "lng": -68.9347338,
+      "distanceFromTerminalMeters": 1674,
+      "distanceFromDefaultTerminalMeters": 1674,
+      "minDistanceFromAnyTerminalMeters": 1674,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "http://dushi-walks.com",
+      "phone": "+59995239272",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/154db411cc80124052f2",
+      "name": "Curaçao sign",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 12.1044352,
+      "lng": -68.9334501,
+      "distanceFromTerminalMeters": 1771,
+      "distanceFromDefaultTerminalMeters": 1771,
+      "minDistanceFromAnyTerminalMeters": 1771,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "https://www.startpage.com/do/asearch?cat=pics&cmd=process_search&language=english&query=%2Bsign+curacao&ff=&nj=0https%3A%2F%2Fmedia-cdn.tripadvisor.com%2Fmedia%2Fphoto-s%2F0d%2Fbb%2F9d%2F87%2Ffamous-curacao-sign.jpg&sp=387accb2b2fbf583dc536869eb832cd6",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/da442181bb1beaf44c0d",
+      "name": "Parke Tropikal Zoo",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "zoo",
+      "lat": 12.1301716,
+      "lng": -68.8953427,
+      "distanceFromTerminalMeters": 3934,
+      "distanceFromDefaultTerminalMeters": 3934,
+      "minDistanceFromAnyTerminalMeters": 3934,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "CW",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "zoo"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/e1bd24d324104d846de7",
+      "name": "Landhuis Chobolobo",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 12.110062,
+      "lng": -68.904119,
+      "distanceFromTerminalMeters": 3023,
+      "distanceFromDefaultTerminalMeters": 3023,
+      "minDistanceFromAnyTerminalMeters": 3023,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Moreno Boulevard, Willemstad, CW",
+      "openingHours": "Mo-Fr 08:00-12:00,13:00-17:00",
+      "website": "http://www.chobolobo.com",
+      "phone": "+5999 461 3526",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "At Landhuis Chobolobo you can visit the Curacao Liqueur Distillery, the place where the world-famous Blue Curacao is produced. You can experience and learn all about the production process and enjoy the taste such as it has been produced since 1896. ",
+      "osmTags": {
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/61772fcc771116e9a8ef",
+      "name": "Koningin Emmabrug",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 12.1061043,
+      "lng": -68.9353841,
+      "distanceFromTerminalMeters": 1652,
+      "distanceFromDefaultTerminalMeters": 1652,
+      "minDistanceFromAnyTerminalMeters": 1652,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "man_made": "bridge",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b7226f372b2edc26371e",
+      "name": "Riffort Lighthouse",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "lighthouse",
+      "lat": 12.1033402,
+      "lng": -68.9335089,
+      "distanceFromTerminalMeters": 1891,
+      "distanceFromDefaultTerminalMeters": 1891,
+      "minDistanceFromAnyTerminalMeters": 1891,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "man_made": "lighthouse"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/73ac6f5378087309f04a",
+      "name": "Yubi Kirindongo museum, gallery, sculpture garden",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "gallery",
+      "lat": 12.1770772,
+      "lng": -68.968366,
+      "distanceFromTerminalMeters": 7594,
+      "distanceFromDefaultTerminalMeters": 7594,
+      "minDistanceFromAnyTerminalMeters": 7594,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "360 Kaya Reis",
+      "openingHours": "",
+      "website": "https://yubikirindongo.org/",
+      "phone": "+599 9 869 3268;+599 9 513 0623;+599 9 514 6849",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "gallery"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/025fce276dceb067ec3b",
+      "name": "Punda Beach",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "beach",
+      "lat": 12.1029366,
+      "lng": -68.9322987,
+      "distanceFromTerminalMeters": 1914,
+      "distanceFromDefaultTerminalMeters": 1914,
+      "minDistanceFromAnyTerminalMeters": 1914,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "natural": "beach"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/2b4b7fb0b101db8e26b2",
+      "name": "Zakitó Beach",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "beach",
+      "lat": 12.1103756,
+      "lng": -68.9554556,
+      "distanceFromTerminalMeters": 2967,
+      "distanceFromDefaultTerminalMeters": 2967,
+      "minDistanceFromAnyTerminalMeters": 2967,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "natural": "beach"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/7db931991996aaefd272",
+      "name": "Baoase Beach",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "beach",
+      "lat": 12.0943305,
+      "lng": -68.9113829,
+      "distanceFromTerminalMeters": 3499,
+      "distanceFromDefaultTerminalMeters": 3499,
+      "minDistanceFromAnyTerminalMeters": 3499,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "natural": "beach"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/fd3c70a51c34268e3ec9",
+      "name": "Beach, formerly Sonesta Beach",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "beach",
+      "lat": 12.1170887,
+      "lng": -68.9658003,
+      "distanceFromTerminalMeters": 3906,
+      "distanceFromDefaultTerminalMeters": 3906,
+      "minDistanceFromAnyTerminalMeters": 3906,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "CW",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "natural": "beach"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/4415f0896aa96fad3929",
+      "name": "Pirate Bay Beach",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "beach",
+      "lat": 12.1224471,
+      "lng": -68.9689962,
+      "distanceFromTerminalMeters": 4248,
+      "distanceFromDefaultTerminalMeters": 4248,
+      "minDistanceFromAnyTerminalMeters": 4248,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "natural": "beach"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/98061ca1a7c57e6c54ed",
+      "name": "Public Beach",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "beach",
+      "lat": 12.1230797,
+      "lng": -68.9693865,
+      "distanceFromTerminalMeters": 4296,
+      "distanceFromDefaultTerminalMeters": 4296,
+      "minDistanceFromAnyTerminalMeters": 4296,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "CW",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "natural": "beach"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/05e278896155cb6a62be",
+      "name": "View on Schottegat",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "viewpoint",
+      "lat": 12.1150454,
+      "lng": -68.9269738,
+      "distanceFromTerminalMeters": 642,
+      "distanceFromDefaultTerminalMeters": 642,
+      "minDistanceFromAnyTerminalMeters": 642,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "CW",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "viewpoint"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/8e59cdf8d321c7201131",
+      "name": "Berg Altena",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "viewpoint",
+      "lat": 12.1037906,
+      "lng": -68.9217989,
+      "distanceFromTerminalMeters": 2011,
+      "distanceFromDefaultTerminalMeters": 2011,
+      "minDistanceFromAnyTerminalMeters": 2011,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "CW",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "small houses",
+      "osmTags": {
+        "tourism": "viewpoint"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/5e03c27df3cd9ddfec2e",
+      "name": "Hanchi Pasa Kontra Mi",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "viewpoint",
+      "lat": 12.1089,
+      "lng": -68.9376619,
+      "distanceFromTerminalMeters": 1489,
+      "distanceFromDefaultTerminalMeters": 1489,
+      "minDistanceFromAnyTerminalMeters": 1489,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "viewpoint"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/8c4fd8599099807c4f39",
+      "name": "Fort Nassau Restaurant",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 12.1153686,
+      "lng": -68.9273406,
+      "distanceFromTerminalMeters": 591,
+      "distanceFromDefaultTerminalMeters": 591,
+      "minDistanceFromAnyTerminalMeters": 591,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Fr 12:00-14:00; Mo-Su 18:00-23:00",
+      "website": "https://www.fortnassau.com/",
+      "phone": "+59994613450",
+      "cuisine": [
+        "caribbean",
+        "fine_dining"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/7865af178bd2cb7c4a0b",
+      "name": "La Guaricana Cafe & Restaurant",
+      "nameEnglish": "La Guaricana Cafe & Restaurant",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 12.1084266,
+      "lng": -68.9370118,
+      "distanceFromTerminalMeters": 1496,
+      "distanceFromDefaultTerminalMeters": 1496,
+      "minDistanceFromAnyTerminalMeters": 1496,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "5 Sebastopolstraat",
+      "openingHours": "Mo-Th 10:00-20:00; Fr-Sa 10:00-22:00",
+      "website": "https://m.facebook.com/laguaricana/",
+      "phone": "+59996925150",
+      "cuisine": [
+        "caribbean"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/2ab0b460dad3d395af74",
+      "name": "Grand Cafe Mahaai",
+      "nameEnglish": "Grand Cafe Mahaai",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 12.1268751,
+      "lng": -68.8974744,
+      "distanceFromTerminalMeters": 3618,
+      "distanceFromDefaultTerminalMeters": 3618,
+      "minDistanceFromAnyTerminalMeters": 3618,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "32 Mahaaiweg, Willemstad, Curacao, CW",
+      "openingHours": "Mo-Sa 11:00-23:00",
+      "website": "http://www.grandcafemahaai.com",
+      "phone": "+5999 7880038",
+      "cuisine": [
+        "international"
+      ],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "Grand Cafe Mahaai offers a great tasting menu, come and have a bite or drink in the heart of Mahaai.",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/3c47702529953e7f9a1f",
+      "name": "Brasserie Chapter",
+      "nameEnglish": "Blessing",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 12.1035975,
+      "lng": -68.9255848,
+      "distanceFromTerminalMeters": 1886,
+      "distanceFromDefaultTerminalMeters": 1886,
+      "minDistanceFromAnyTerminalMeters": 1886,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "12 Abraham de Veerstraat",
+      "openingHours": "Mo-Sa 18:00-22:00",
+      "website": "https://www.blessingcuracao.com/",
+      "phone": "+59994612805",
+      "cuisine": [
+        "international"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/82b9d5aa5d69d49f85d4",
+      "name": "Ginger",
+      "nameEnglish": "Ginger",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 12.1030489,
+      "lng": -68.9286335,
+      "distanceFromTerminalMeters": 1891,
+      "distanceFromDefaultTerminalMeters": 1891,
+      "minDistanceFromAnyTerminalMeters": 1891,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Schoonesteeg 1 Nieuwestraat",
+      "openingHours": "Mo-Su 19:00-02:00",
+      "website": "https://gingercuracao.com/",
+      "phone": "+599 9 5125777",
+      "cuisine": [
+        "asian",
+        "caribbean"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/e3fba7faf0f5130fa02d",
+      "name": "Maira's Kitchen",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 12.1109067,
+      "lng": -68.9352714,
+      "distanceFromTerminalMeters": 1162,
+      "distanceFromDefaultTerminalMeters": 1162,
+      "minDistanceFromAnyTerminalMeters": 1162,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "24 Hoogstraat, Willemstad",
+      "openingHours": "Mo-Sa 07:30-14:00; Fr-Sa 17:00-21:00",
+      "website": "https://www.facebook.com/mairasgrandcafe/",
+      "phone": "+599 9 524 3652",
+      "cuisine": [
+        "local"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ad98bb4c4be1c670346f",
+      "name": "The Captain",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "bar",
+      "lat": 12.107889,
+      "lng": -68.9349677,
+      "distanceFromTerminalMeters": 1451,
+      "distanceFromDefaultTerminalMeters": 1451,
+      "minDistanceFromAnyTerminalMeters": 1451,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "9e De Rouvilleweg",
+      "openingHours": "Mo-Su 15:00-02:00",
+      "website": "https://www.thecaptainbar.com/",
+      "phone": "",
+      "cuisine": [
+        "local"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "bar"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ccc5424ecd33069ef5c9",
+      "name": "Lionfish Caribbean",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 12.1079165,
+      "lng": -68.9350757,
+      "distanceFromTerminalMeters": 1453,
+      "distanceFromDefaultTerminalMeters": 1453,
+      "minDistanceFromAnyTerminalMeters": 1453,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "23 IJzerstraat, Otrobanda",
+      "openingHours": "Tu-Sa 09:00-17:00",
+      "website": "https://www.lionfishcaribbean.com/",
+      "phone": "+599 9 6730609",
+      "cuisine": [
+        "seafood",
+        "lionfish_only"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/2f0cd515f2ff6ccc641f",
+      "name": "BKLYN",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 12.1017712,
+      "lng": -68.9228412,
+      "distanceFromTerminalMeters": 2171,
+      "distanceFromDefaultTerminalMeters": 2171,
+      "minDistanceFromAnyTerminalMeters": 2171,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1 Loostraat",
+      "openingHours": "Tu-Sa 17:00-24:00",
+      "website": "https://www.bklyn.cw/",
+      "phone": "+599 9 461 8845",
+      "cuisine": [
+        "gastro-bar"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/e01a5e9dbd84830844c6",
+      "name": "Sal the kitchen",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 12.1013216,
+      "lng": -68.9224769,
+      "distanceFromTerminalMeters": 2232,
+      "distanceFromDefaultTerminalMeters": 2232,
+      "minDistanceFromAnyTerminalMeters": 2232,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "47 Penstraat, Willemstad, CW",
+      "openingHours": "Mo-Sa 18:00-00:00",
+      "website": "https://www.sal.kitchen/",
+      "phone": "+59995213211",
+      "cuisine": [
+        "internationaal",
+        "shared_dining",
+        "mediterrenean",
+        "regional"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/9325eec364deebf65a4a",
+      "name": "De Buren",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 12.1045715,
+      "lng": -68.9330685,
+      "distanceFromTerminalMeters": 1748,
+      "distanceFromDefaultTerminalMeters": 1748,
+      "minDistanceFromAnyTerminalMeters": 1748,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Wilhelminaplein, Willemstad, CW",
+      "openingHours": "",
+      "website": "https://www.deburencuracao.com/",
+      "phone": "",
+      "cuisine": [
+        "italian"
+      ],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/595c9daa805f6446431c",
+      "name": "Park Otrobanda",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 12.110589,
+      "lng": -68.9366103,
+      "distanceFromTerminalMeters": 1269,
+      "distanceFromDefaultTerminalMeters": 1269,
+      "minDistanceFromAnyTerminalMeters": 1269,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Frederikstraat, Otrobanda",
+      "openingHours": "Fr-Sa 17:00-24:00",
+      "website": "https://www.facebook.com/Parkotrobanda",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/2efa8477aaae457d8776",
+      "name": "Il Barile da Mario",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 12.1052228,
+      "lng": -68.9330821,
+      "distanceFromTerminalMeters": 1677,
+      "distanceFromDefaultTerminalMeters": 1677,
+      "minDistanceFromAnyTerminalMeters": 1677,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Hanchi Snoa, Punda, CW",
+      "openingHours": "Mo-Su 09:00-22:00",
+      "website": "",
+      "phone": "+599 9 4613025",
+      "cuisine": [
+        "italian"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/4d0ab18463b9ec686202",
+      "name": "Craft Market",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "marketplace",
+      "lat": 12.1060653,
+      "lng": -68.9324063,
+      "distanceFromTerminalMeters": 1571,
+      "distanceFromDefaultTerminalMeters": 1571,
+      "minDistanceFromAnyTerminalMeters": 1571,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Caprileskade, Willemstad, CW",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "To replace de Venezuelan Floating Market there are local crafters selling their wares if there are sufficient cruise ships at port.",
+      "osmTags": {
+        "amenity": "marketplace",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/93de6f13bb4a08a7db85",
+      "name": "Winkelcentrum Colon",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "mall",
+      "lat": 12.1113893,
+      "lng": -68.9422095,
+      "distanceFromTerminalMeters": 1637,
+      "distanceFromDefaultTerminalMeters": 1637,
+      "minDistanceFromAnyTerminalMeters": 1637,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Roodeweg",
+      "openingHours": "08:00-18:00",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "shop": "mall"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/0e314217cbe3dde8ad48",
+      "name": "Promenade Shopping Center",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "mall",
+      "lat": 12.1180944,
+      "lng": -68.9020938,
+      "distanceFromTerminalMeters": 3041,
+      "distanceFromDefaultTerminalMeters": 3041,
+      "minDistanceFromAnyTerminalMeters": 3041,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "82 Schottegatweg Oost, Willemstad, 00000",
+      "openingHours": "Mo-Sa 08:00-18:00",
+      "website": "",
+      "phone": "+599 9 736 5542",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "shop": "mall"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/aa7b50e6b60aad4d5d9d",
+      "name": "Jamin",
+      "nameEnglish": "Jamin",
+      "category": "shopping",
+      "subcategory": "confectionery",
+      "lat": 12.1216152,
+      "lng": -68.9025629,
+      "distanceFromTerminalMeters": 2988,
+      "distanceFromDefaultTerminalMeters": 2988,
+      "minDistanceFromAnyTerminalMeters": 2988,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Zuikertuin Mall",
+      "openingHours": "Mo-Sa 09:00-19:00",
+      "website": "https://www.super-retail.com/",
+      "phone": "+59997388393",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "shop": "confectionery"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/a1ffe96f40e809911fb9",
+      "name": "Scubacao Diving Adventures",
+      "nameEnglish": "Scubacao Diving Adventures",
+      "category": "essentials",
+      "subcategory": "visitor_information",
+      "lat": 12.0957502,
+      "lng": -68.9084397,
+      "distanceFromTerminalMeters": 3573,
+      "distanceFromDefaultTerminalMeters": 3573,
+      "minDistanceFromAnyTerminalMeters": 3573,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "41 A-B Nijmegenstraat",
+      "openingHours": "Mo-Su 09:00-17:00",
+      "website": "https://scubacao.com/",
+      "phone": "+59995156476",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "information"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b84e6c072ea5b4f36bbf",
+      "name": "Café Bonchi",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 12.1051665,
+      "lng": -68.9330411,
+      "distanceFromTerminalMeters": 1682,
+      "distanceFromDefaultTerminalMeters": 1682,
+      "minDistanceFromAnyTerminalMeters": 1682,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "16 Hanchi Snoa, Punda",
+      "openingHours": "",
+      "website": "https://www.facebook.com/bonchicafeandmore",
+      "phone": "+599 9 675 3330",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/121c28e519082f58fbf5",
+      "name": "Vienna Biergarten",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "pub",
+      "lat": 12.1061253,
+      "lng": -68.9341243,
+      "distanceFromTerminalMeters": 1607,
+      "distanceFromDefaultTerminalMeters": 1607,
+      "minDistanceFromAnyTerminalMeters": 1607,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "6 Handelskade, Willemstad, CW",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [
+        "regional"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "pub"
+      }
+    }
+  ],
+  "portAnchor": {
+    "id": "ports-json-anchor",
+    "name": "WILLEMSTAD Port",
+    "lat": 12.12,
+    "lng": -68.93,
+    "address": "Willemstad, Curaçao, Curaçao",
+    "source": "ports.json",
+    "sourceId": "",
+    "score": 0,
+    "slug": "willemstad-port"
+  },
+  "terminalResolution": {
+    "status": "resolved",
+    "method": "manual_web_research",
+    "verified": true,
+    "notes": "Terminal records were added from researched cruise-port sources because no supplied candidate accurately represented the passenger arrival point."
+  }
+}

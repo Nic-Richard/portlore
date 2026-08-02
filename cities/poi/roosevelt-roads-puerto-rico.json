@@ -1,0 +1,443 @@
+{
+  "schemaVersion": 5,
+  "catalogType": "curation-candidates",
+  "generatedAt": "2026-07-30T09:23:44.485Z",
+  "source": "openstreetmap",
+  "sourceExtract": "puerto-rico-latest.osm.pbf",
+  "radiusMeters": 10000,
+  "port": {
+    "id": "roosevelt-roads-puerto-rico",
+    "city": "Roosevelt Roads",
+    "country": "Puerto Rico"
+  },
+  "defaultTerminalId": "ports-json-anchor",
+  "terminal": {
+    "id": "ports-json-anchor",
+    "name": "ENSENADA HONDA Port",
+    "lat": 18.23,
+    "lng": -65.63,
+    "address": "Roosevelt Roads, Puerto Rico, Puerto Rico",
+    "source": "ports.json",
+    "sourceId": "",
+    "score": 0,
+    "slug": "ensenada-honda-port"
+  },
+  "terminals": [
+    {
+      "id": "ports-json-anchor",
+      "name": "ENSENADA HONDA Port",
+      "lat": 18.23,
+      "lng": -65.63,
+      "address": "Roosevelt Roads, Puerto Rico, Puerto Rico",
+      "source": "ports.json",
+      "sourceId": "",
+      "score": 0,
+      "slug": "ensenada-honda-port"
+    }
+  ],
+  "terminalCandidateRadiusMeters": 5000,
+  "terminalCandidates": [
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/cee518e49b83322de1e4",
+      "name": "Vieques / Culebra Ferry Service",
+      "nameEnglish": "",
+      "lat": 18.2278768,
+      "lng": -65.6197992,
+      "distanceFromPortMeters": 1103,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/cee518e49b83322de1e4"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/0876824020850fcd75c3",
+      "name": "Servicios de Lanchas",
+      "nameEnglish": "",
+      "lat": 18.227661,
+      "lng": -65.613566,
+      "distanceFromPortMeters": 1755,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "building": "yes",
+        "ferry": "yes",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/0876824020850fcd75c3"
+      ]
+    }
+  ],
+  "counts": {
+    "attraction": 2,
+    "outdoors": 8,
+    "food_drink": 3,
+    "shopping": 0,
+    "essentials": 0
+  },
+  "pois": [
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/8fc9bc211ada7104d033",
+      "name": "Ferry Vieques/ Culebra",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 18.2290484,
+      "lng": -65.6185456,
+      "distanceFromTerminalMeters": 1214,
+      "distanceFromDefaultTerminalMeters": 1214,
+      "minDistanceFromAnyTerminalMeters": 1214,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Marina Drive",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d3ef5edb1f45bcfa8c68",
+      "name": "Monumento al Veterano",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "monument",
+      "lat": 18.2648285,
+      "lng": -65.6484771,
+      "distanceFromTerminalMeters": 4337,
+      "distanceFromDefaultTerminalMeters": 4337,
+      "minDistanceFromAnyTerminalMeters": 4337,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "monument"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/a737235a4665e935dbea",
+      "name": "Playa Medio Mundo",
+      "nameEnglish": "Medio Mundo Beach",
+      "category": "outdoors",
+      "subcategory": "beach",
+      "lat": 18.2580775,
+      "lng": -65.6248883,
+      "distanceFromTerminalMeters": 3168,
+      "distanceFromDefaultTerminalMeters": 3168,
+      "minDistanceFromAnyTerminalMeters": 3168,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "natural": "beach"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b3bf5b54a233ddf1b898",
+      "name": "Playa Blanca",
+      "nameEnglish": "White Beach",
+      "category": "outdoors",
+      "subcategory": "beach",
+      "lat": 18.2008333,
+      "lng": -65.6502892,
+      "distanceFromTerminalMeters": 3887,
+      "distanceFromDefaultTerminalMeters": 3887,
+      "minDistanceFromAnyTerminalMeters": 3887,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "natural": "beach"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c7862077db53c097f31a",
+      "name": "Playa Los Machos",
+      "nameEnglish": "Los Machos Beach",
+      "category": "outdoors",
+      "subcategory": "beach",
+      "lat": 18.2655744,
+      "lng": -65.6305013,
+      "distanceFromTerminalMeters": 3956,
+      "distanceFromDefaultTerminalMeters": 3956,
+      "minDistanceFromAnyTerminalMeters": 3956,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "natural": "beach"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/bd6b6264eaf8e07c9a42",
+      "name": "Área Natural Protegida Medio Mundo y Daguao",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "nature_reserve",
+      "lat": 18.242461,
+      "lng": -65.6316248,
+      "distanceFromTerminalMeters": 1396,
+      "distanceFromDefaultTerminalMeters": 1396,
+      "minDistanceFromAnyTerminalMeters": 1396,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "nature_reserve"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/4f773935b8c384a16237",
+      "name": "Parque Roosevelt Gardens",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 18.2273764,
+      "lng": -65.6706934,
+      "distanceFromTerminalMeters": 4308,
+      "distanceFromDefaultTerminalMeters": 4308,
+      "minDistanceFromAnyTerminalMeters": 4308,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Ceiba, PR, 00735",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/24ce96473c8fe8ec262e",
+      "name": "El Mirador",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 18.2173242,
+      "lng": -65.6563176,
+      "distanceFromTerminalMeters": 3117,
+      "distanceFromDefaultTerminalMeters": 3117,
+      "minDistanceFromAnyTerminalMeters": 3117,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/655960d57b73d4a4f3bf",
+      "name": "Paella and Music",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 18.2705568,
+      "lng": -65.630511,
+      "distanceFromTerminalMeters": 4510,
+      "distanceFromDefaultTerminalMeters": 4510,
+      "minDistanceFromAnyTerminalMeters": 4510,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [
+        "spanish"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c52d7a1b43aab794f3cb",
+      "name": "LA FINCA",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 18.2234939,
+      "lng": -65.6755089,
+      "distanceFromTerminalMeters": 4861,
+      "distanceFromDefaultTerminalMeters": 4861,
+      "minDistanceFromAnyTerminalMeters": 4861,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/0ba56dc4b79fdbb57d6c",
+      "name": "Parque Aguas Claras",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 18.2532566,
+      "lng": -65.6534824,
+      "distanceFromTerminalMeters": 3583,
+      "distanceFromDefaultTerminalMeters": 3583,
+      "minDistanceFromAnyTerminalMeters": 3583,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Carretera Ceiba - Humacao, Ceiba, PR, 00735",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/cbe3d6e1391a2e60df1e",
+      "name": "Parque Playa Los Machos",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 18.265669,
+      "lng": -65.6325839,
+      "distanceFromTerminalMeters": 3976,
+      "distanceFromDefaultTerminalMeters": 3976,
+      "minDistanceFromAnyTerminalMeters": 3976,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Calle Pedro Colón Osorio, Ceiba, PR, 00735",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/4867f30118b45b7ac579",
+      "name": "Plaza Felisa Rincón de Gautier",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 18.2646801,
+      "lng": -65.648354,
+      "distanceFromTerminalMeters": 4316,
+      "distanceFromDefaultTerminalMeters": 4316,
+      "minDistanceFromAnyTerminalMeters": 4316,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Ceiba, PR, 00735",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "park"
+      }
+    }
+  ],
+  "portAnchor": {
+    "id": "ports-json-anchor",
+    "name": "ENSENADA HONDA Port",
+    "lat": 18.23,
+    "lng": -65.63,
+    "address": "Roosevelt Roads, Puerto Rico, Puerto Rico",
+    "source": "ports.json",
+    "sourceId": "",
+    "score": 0,
+    "slug": "ensenada-honda-port"
+  },
+  "terminalResolution": {
+    "status": "unresolved",
+    "method": "ports_json_fallback",
+    "verified": false,
+    "notes": "All supplied candidates are ferry-only stops, local docks, unnamed maritime features, or unrelated places rather than passenger cruise terminals."
+  }
+}

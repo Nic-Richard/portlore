@@ -1,0 +1,1051 @@
+{
+  "schemaVersion": 5,
+  "catalogType": "curation-candidates",
+  "generatedAt": "2026-07-30T07:40:28.894Z",
+  "source": "openstreetmap",
+  "sourceExtract": "canary-islands-latest.osm.pbf",
+  "radiusMeters": 10000,
+  "port": {
+    "id": "santa-cruz-de-tenerife-spain",
+    "city": "Santa Cruz de Tenerife",
+    "country": "Spain"
+  },
+  "defaultTerminalId": "ports-json-anchor",
+  "terminal": {
+    "id": "ports-json-anchor",
+    "name": "SANTA CRUZ DE TENERIFE Port",
+    "lat": 28.47,
+    "lng": -16.23,
+    "address": "Santa Cruz de Tenerife, Canary Islands, Spain",
+    "source": "ports.json",
+    "sourceId": "",
+    "score": 0,
+    "slug": "santa-cruz-de-tenerife-port"
+  },
+  "terminals": [
+    {
+      "id": "ports-json-anchor",
+      "name": "SANTA CRUZ DE TENERIFE Port",
+      "lat": 28.47,
+      "lng": -16.23,
+      "address": "Santa Cruz de Tenerife, Canary Islands, Spain",
+      "source": "ports.json",
+      "sourceId": "",
+      "score": 0,
+      "slug": "santa-cruz-de-tenerife-port"
+    }
+  ],
+  "terminalCandidateRadiusMeters": 5000,
+  "terminalCandidates": [
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/68b08c02f98bc2906f20",
+      "name": "Naviera Armas",
+      "nameEnglish": "",
+      "lat": 28.4693244,
+      "lng": -16.2444533,
+      "distanceFromPortMeters": 1415,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "cargo": "passengers;vehicle",
+        "ferry": "yes",
+        "operator": "Naviera Armas",
+        "public_transport": "stop_position"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/68b08c02f98bc2906f20"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b0ab08617ebd54755887",
+      "name": "Fred. Olsen Terminal Santa Cruz de Tenerife",
+      "nameEnglish": "",
+      "lat": 28.4747815,
+      "lng": -16.2444692,
+      "distanceFromPortMeters": 1511,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "operator": "Fred. Olsen",
+        "public_transport": "stop_position"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/b0ab08617ebd54755887"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/81855f4795ff3de8f22d",
+      "name": "Fred Olsen",
+      "nameEnglish": "",
+      "lat": 28.4694914,
+      "lng": -16.2461174,
+      "distanceFromPortMeters": 1576,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "cargo": "vehicle",
+        "ferry": "yes",
+        "operator": "Fred Olsen",
+        "public_transport": "stop_position"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/81855f4795ff3de8f22d"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/6852bafad657f0a01065",
+      "name": "Fred. Olsen Express Terminal Santa Cruz de Tenerife",
+      "nameEnglish": "",
+      "lat": 28.4694946,
+      "lng": -16.2461803,
+      "distanceFromPortMeters": 1583,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "cargo": "vehicle",
+        "ferry": "yes",
+        "operator": "Fred. Olsen Express",
+        "public_transport": "stop_position"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/6852bafad657f0a01065"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/50d054f64458f367282c",
+      "name": "(unnamed maritime feature)",
+      "nameEnglish": "",
+      "lat": 28.4700029,
+      "lng": -16.246304,
+      "distanceFromPortMeters": 1594,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "cargo": "passengers",
+        "ferry": "yes",
+        "operator": "Fred. Olsen Express",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/50d054f64458f367282c"
+      ]
+    }
+  ],
+  "counts": {
+    "attraction": 16,
+    "outdoors": 5,
+    "food_drink": 10,
+    "shopping": 1,
+    "essentials": 1
+  },
+  "pois": [
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/2906bc84b93ad0a5d17c",
+      "name": "Museo Histórico Militar de Canarias",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 28.4754407,
+      "lng": -16.2477138,
+      "distanceFromTerminalMeters": 1834,
+      "distanceFromDefaultTerminalMeters": 1834,
+      "minDistanceFromAnyTerminalMeters": 1834,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Tu-Fr 09:00-15:00; Sa,Su 10:00-14:00",
+      "website": "http://www.ejercito.mde.es/unidades/Madrid/ihycm/Museos/canarias.html",
+      "phone": "+34922298557;+34922298539",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/5c5763f719e40d35cc34",
+      "name": "Museo de la Naturaleza y el Hombre",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 28.4638654,
+      "lng": -16.2494781,
+      "distanceFromTerminalMeters": 2023,
+      "distanceFromDefaultTerminalMeters": 2023,
+      "minDistanceFromAnyTerminalMeters": 2023,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Tu-Sa 09:00-20:00; Mo,Su 10:00-17:00",
+      "website": "https://www.museosdetenerife.org/mnh-museo-de-la-naturaleza-y-el-hombre",
+      "phone": "+34 922535816",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/127671d3cdeb10975d0d",
+      "name": "Museo Municipal de Bellas Artes",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 28.4683108,
+      "lng": -16.249689,
+      "distanceFromTerminalMeters": 1934,
+      "distanceFromDefaultTerminalMeters": 1934,
+      "minDistanceFromAnyTerminalMeters": 1934,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "PH 10:00-15:00",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "building",
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/6b62254430d4178a655d",
+      "name": "Castillo de Paso Alto",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "castle",
+      "lat": 28.4808098,
+      "lng": -16.2410828,
+      "distanceFromTerminalMeters": 1618,
+      "distanceFromDefaultTerminalMeters": 1618,
+      "minDistanceFromAnyTerminalMeters": 1618,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "castle"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d9b122be5dda90e99114",
+      "name": "Castillo de San Cristobal",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 28.4669771,
+      "lng": -16.246836,
+      "distanceFromTerminalMeters": 1680,
+      "distanceFromDefaultTerminalMeters": 1680,
+      "minDistanceFromAnyTerminalMeters": 1680,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/cf2c0808ebbf6a01dc54",
+      "name": "Batería del Bufadero",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "castle",
+      "lat": 28.4902948,
+      "lng": -16.2294838,
+      "distanceFromTerminalMeters": 2257,
+      "distanceFromDefaultTerminalMeters": 2257,
+      "minDistanceFromAnyTerminalMeters": 2257,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "castle"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/e018212f8053450f2b5d",
+      "name": "Batería de San Francisco",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "castle",
+      "lat": 28.457788,
+      "lng": -16.2505821,
+      "distanceFromTerminalMeters": 2427,
+      "distanceFromDefaultTerminalMeters": 2427,
+      "minDistanceFromAnyTerminalMeters": 2427,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "castle"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/fe0e143907f6ec4a558c",
+      "name": "Castillo de San Juan Bautista",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "castle",
+      "lat": 28.4554284,
+      "lng": -16.2524187,
+      "distanceFromTerminalMeters": 2725,
+      "distanceFromDefaultTerminalMeters": 2725,
+      "minDistanceFromAnyTerminalMeters": 2725,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "https://www.youtube.com/watch?v=eF2mHijO1aE",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "castle"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/70d96593d85abaec953a",
+      "name": "Casino de Tenerife",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "monument",
+      "lat": 28.4670923,
+      "lng": -16.2484163,
+      "distanceFromTerminalMeters": 1829,
+      "distanceFromDefaultTerminalMeters": 1829,
+      "minDistanceFromAnyTerminalMeters": 1829,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "https://www.rctfe.com",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "monument"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c87a7949c837b7efe46d",
+      "name": "Monumento a los Caídos",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "monument",
+      "lat": 28.4667017,
+      "lng": -16.247113,
+      "distanceFromTerminalMeters": 1713,
+      "distanceFromDefaultTerminalMeters": 1713,
+      "minDistanceFromAnyTerminalMeters": 1713,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "monument"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/7ce8ec61214236c06764",
+      "name": "Iglesia de Nuestra Señora de la Concepción",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "monument",
+      "lat": 28.4644242,
+      "lng": -16.2489506,
+      "distanceFromTerminalMeters": 1953,
+      "distanceFromDefaultTerminalMeters": 1953,
+      "minDistanceFromAnyTerminalMeters": 1953,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "place_of_worship",
+        "historic": "monument"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/2deef6d78d44de5944a0",
+      "name": "Ayuntamiento de Santa Cruz de Tenerife",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "monument",
+      "lat": 28.4699283,
+      "lng": -16.254556,
+      "distanceFromTerminalMeters": 2400,
+      "distanceFromDefaultTerminalMeters": 2400,
+      "minDistanceFromAnyTerminalMeters": 2400,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "46 Calle Viera y Clavijo, Santa Cruz de Tenerife, 38004",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "townhall",
+        "historic": "monument"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d6de6873b4f3f771f934",
+      "name": "La Farola del Mar",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "lighthouse",
+      "lat": 28.4693521,
+      "lng": -16.245808,
+      "distanceFromTerminalMeters": 1547,
+      "distanceFromDefaultTerminalMeters": 1547,
+      "minDistanceFromAnyTerminalMeters": 1547,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "lighthouse",
+        "man_made": "lighthouse"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/a3e7a65c118f7d2358df",
+      "name": "Plaza de España",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "square",
+      "lat": 28.4670657,
+      "lng": -16.2471887,
+      "distanceFromTerminalMeters": 1712,
+      "distanceFromDefaultTerminalMeters": 1712,
+      "minDistanceFromAnyTerminalMeters": 1712,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "place": "square"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/4ca9d0aefca61cb66482",
+      "name": "Playa de Tahodio",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "beach",
+      "lat": 28.4778916,
+      "lng": -16.2418004,
+      "distanceFromTerminalMeters": 1449,
+      "distanceFromDefaultTerminalMeters": 1449,
+      "minDistanceFromAnyTerminalMeters": 1449,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "natural": "beach"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/94f16083c2f4e81ffd2e",
+      "name": "Playa de Valleseco",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "beach",
+      "lat": 28.4854724,
+      "lng": -16.2371128,
+      "distanceFromTerminalMeters": 1856,
+      "distanceFromDefaultTerminalMeters": 1856,
+      "minDistanceFromAnyTerminalMeters": 1856,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "natural": "beach"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/0c5392a797df2bd06a78",
+      "name": "Playa de Acapulco",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "beach",
+      "lat": 28.4862764,
+      "lng": -16.2357962,
+      "distanceFromTerminalMeters": 1896,
+      "distanceFromDefaultTerminalMeters": 1896,
+      "minDistanceFromAnyTerminalMeters": 1896,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "natural": "beach"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/51f4643c011f7e7b9e68",
+      "name": "Palmetum de Santa Cruz de Tenerife",
+      "nameEnglish": "Palmetum of Santa Cruz de Tenerife",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 28.4520672,
+      "lng": -16.2566415,
+      "distanceFromTerminalMeters": 3280,
+      "distanceFromDefaultTerminalMeters": 3280,
+      "minDistanceFromAnyTerminalMeters": 3280,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Su 10:00-18:00",
+      "website": "https://palmetumtenerife.es/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Last admission at 17",
+      "osmTags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ac5230d90a7c14a44ae0",
+      "name": "Plaza de Santo Domingo",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "garden",
+      "lat": 28.4662947,
+      "lng": -16.2509377,
+      "distanceFromTerminalMeters": 2088,
+      "distanceFromDefaultTerminalMeters": 2088,
+      "minDistanceFromAnyTerminalMeters": 2088,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "garden"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/4f160974c2eee380728d",
+      "name": "Strasse Park",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 28.473079,
+      "lng": -16.2543084,
+      "distanceFromTerminalMeters": 2401,
+      "distanceFromDefaultTerminalMeters": 2401,
+      "minDistanceFromAnyTerminalMeters": 2401,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "110 Parque Garcia Sanabria, Santa Cruz de Tenerife, 38004",
+      "openingHours": "Mo-Su 09:00-23:59",
+      "website": "https://strassepark.es/?lang=en",
+      "phone": "+34922106582",
+      "cuisine": [
+        "spanish",
+        "pizza",
+        "coffee_shop",
+        "international"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/239d00d482ac1c22bca9",
+      "name": "El Tortillazo",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "bar",
+      "lat": 28.4714211,
+      "lng": -16.2474042,
+      "distanceFromTerminalMeters": 1709,
+      "distanceFromDefaultTerminalMeters": 1709,
+      "minDistanceFromAnyTerminalMeters": 1709,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Santa Cruz de Tenerife, 38002",
+      "openingHours": "Mo-Fr 08:00-00:00; Sa 09:00-02:00; Su 09:00-12:00",
+      "website": "https://www.siganbailando.com/#/tortillazo",
+      "phone": "",
+      "cuisine": [
+        "tortilla",
+        "regional"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Birras & Croquetas",
+      "osmTags": {
+        "amenity": "bar"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/74f71d63fb8ac5ea7071",
+      "name": "La Cocina del Mencey",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 28.4748896,
+      "lng": -16.2527431,
+      "distanceFromTerminalMeters": 2289,
+      "distanceFromDefaultTerminalMeters": 2289,
+      "minDistanceFromAnyTerminalMeters": 2289,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "38 Calle Doctor José Naveiras, Santa Cruz de Tenerife, 38004",
+      "openingHours": "",
+      "website": "http://www.lacocinadelmencey.com/",
+      "phone": "+34 922609900",
+      "cuisine": [
+        "international"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "En un emblemático rincón de la ciudad de Santa Cruz de Tenerife se encuentra El Aula de Cocina del Mencey, un espacio para profundizar en los conocimientos culinarios y poder disfrutar de nuevas experiencias.",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ec2cb055e2871f04076e",
+      "name": "La Bodeguita Canaria",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 28.465955,
+      "lng": -16.2495158,
+      "distanceFromTerminalMeters": 1960,
+      "distanceFromDefaultTerminalMeters": 1960,
+      "minDistanceFromAnyTerminalMeters": 1960,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "18 Calle de Imeldo Serís, 38003",
+      "openingHours": "Mo-Sa 12:00-16:30, 20:00-23:30; Su 12:00-16:30",
+      "website": "https://bodeguitacanaria.com/",
+      "phone": "",
+      "cuisine": [
+        "regional"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/334739fcd411fa027ead",
+      "name": "Bulan",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 28.4648752,
+      "lng": -16.25085,
+      "distanceFromTerminalMeters": 2116,
+      "distanceFromDefaultTerminalMeters": 2116,
+      "minDistanceFromAnyTerminalMeters": 2116,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "35 Calle Antonio Domínguez Alfonso, 38003",
+      "openingHours": "Su-We 13:00-00:30; Th 13:00-02:00; Fr-Sa 13:00-03:00",
+      "website": "https://www.bulantenerife.com/",
+      "phone": "+34 922274116",
+      "cuisine": [
+        "oriental",
+        "mediterranean"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/19c9961434cff2ee7878",
+      "name": "El Chapulin",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 28.4684114,
+      "lng": -16.251884,
+      "distanceFromTerminalMeters": 2146,
+      "distanceFromDefaultTerminalMeters": 2146,
+      "minDistanceFromAnyTerminalMeters": 2146,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Su 13:30-16:30, 19:30-23:00",
+      "website": "https://www.elchapulin.es/",
+      "phone": "",
+      "cuisine": [
+        "mexican"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/9a6fcb0c6d34cea16245",
+      "name": "Restaurante Picatostes",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 28.4726286,
+      "lng": -16.2521648,
+      "distanceFromTerminalMeters": 2186,
+      "distanceFromDefaultTerminalMeters": 2186,
+      "minDistanceFromAnyTerminalMeters": 2186,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "59 Calle San Francisco Javier, Santa Cruz de Tenerife, 38001",
+      "openingHours": "We-Sa 13:00-16:00, 20:00-23:00; Su 13:00-18:00",
+      "website": "https://www.picatostestenerife.com/",
+      "phone": "+34 616 403 222",
+      "cuisine": [
+        "regional",
+        "spanish",
+        "canaria",
+        "de_mercado"
+      ],
+      "wheelchair": "limited",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b2485a8c87e7acc0cbaf",
+      "name": "Restaurante Libanés Baalbek",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 28.4717481,
+      "lng": -16.2524394,
+      "distanceFromTerminalMeters": 2202,
+      "distanceFromDefaultTerminalMeters": 2202,
+      "minDistanceFromAnyTerminalMeters": 2202,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "13:00-16:00; 20:00-23:30",
+      "website": "https://www.restaurantelibanesbaalbek.com/",
+      "phone": "+34 922 24 99 54",
+      "cuisine": [
+        "lebanese"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/a9336ebe993987017395",
+      "name": "Umami Good Food",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 28.468196,
+      "lng": -16.2545524,
+      "distanceFromTerminalMeters": 2408,
+      "distanceFromDefaultTerminalMeters": 2408,
+      "minDistanceFromAnyTerminalMeters": 2408,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "10 Calle Sabino Berthelot, Santa Cruz de Tenerife, 38003",
+      "openingHours": "Mo-Tu 12:30-16:30;We-Fr 12:30-16:30, 19:30-22:30",
+      "website": "https://umamigoodfood.com/",
+      "phone": "+34 922 98 40 50",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "restaurante vegano",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/6e51fa89a45ec6126fa9",
+      "name": "La Boheme",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 28.4688687,
+      "lng": -16.2483582,
+      "distanceFromTerminalMeters": 1799,
+      "distanceFromDefaultTerminalMeters": 1799,
+      "minDistanceFromAnyTerminalMeters": 1799,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "8 Calle Emilio Calzadilla",
+      "openingHours": "We-Mo 13:00-23:30",
+      "website": "",
+      "phone": "+34 922296296",
+      "cuisine": [
+        "crepe"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f0c4de0c71d12b666371",
+      "name": "La Rambla Azul",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "marketplace",
+      "lat": 28.4628377,
+      "lng": -16.2512143,
+      "distanceFromTerminalMeters": 2221,
+      "distanceFromDefaultTerminalMeters": 2221,
+      "minDistanceFromAnyTerminalMeters": 2221,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Sa 09:00-21:30",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "marketplace"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/eb3537661218865e2ca1",
+      "name": "Oficina de turismo",
+      "nameEnglish": "",
+      "category": "essentials",
+      "subcategory": "visitor_information",
+      "lat": 28.4671373,
+      "lng": -16.2487702,
+      "distanceFromTerminalMeters": 1862,
+      "distanceFromDefaultTerminalMeters": 1862,
+      "minDistanceFromAnyTerminalMeters": 1862,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Fr 10:00-15:00; Sa,Su 10:00-13:00",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "information"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c51ad8a39e3cb33f73ca",
+      "name": "Casa del Carnaval",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 28.4646231,
+      "lng": -16.256046,
+      "distanceFromTerminalMeters": 2615,
+      "distanceFromDefaultTerminalMeters": 2615,
+      "minDistanceFromAnyTerminalMeters": 2615,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "https://carnavaldetenerife.com/inicio-2/casa-del-carnaval/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/9e4e5ad94f46696de367",
+      "name": "Plaza de Toros",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "square",
+      "lat": 28.4699819,
+      "lng": -16.2599332,
+      "distanceFromTerminalMeters": 2926,
+      "distanceFromDefaultTerminalMeters": 2926,
+      "minDistanceFromAnyTerminalMeters": 2926,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "38006",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "place": "square"
+      }
+    }
+  ],
+  "portAnchor": {
+    "id": "ports-json-anchor",
+    "name": "SANTA CRUZ DE TENERIFE Port",
+    "lat": 28.47,
+    "lng": -16.23,
+    "address": "Santa Cruz de Tenerife, Canary Islands, Spain",
+    "source": "ports.json",
+    "sourceId": "",
+    "score": 0,
+    "slug": "santa-cruz-de-tenerife-port"
+  },
+  "terminalResolution": {
+    "status": "unresolved",
+    "method": "ports_json_fallback",
+    "verified": false,
+    "notes": "All supplied candidates are ferry-only stops, local docks, unnamed maritime features, or unrelated places rather than passenger cruise terminals."
+  }
+}

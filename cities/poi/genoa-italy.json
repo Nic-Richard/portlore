@@ -1,0 +1,1443 @@
+{
+  "schemaVersion": 5,
+  "catalogType": "curation-candidates",
+  "generatedAt": "2026-07-30T08:34:58.745Z",
+  "source": "openstreetmap",
+  "sourceExtract": "nord-ovest-latest.osm.pbf",
+  "radiusMeters": 10000,
+  "port": {
+    "id": "genoa-italy",
+    "city": "Genoa",
+    "country": "Italy"
+  },
+  "defaultTerminalId": "manual/genoa-italy/ponte-dei-mille-cruise-terminal",
+  "terminal": {
+    "id": "manual/genoa-italy/ponte-dei-mille-cruise-terminal",
+    "name": "Ponte dei Mille Cruise Terminal",
+    "nameEnglish": "",
+    "lat": 44.41145,
+    "lng": 8.9202,
+    "address": "",
+    "source": "manual_web_research",
+    "sourceId": "manual/genoa-italy/ponte-dei-mille-cruise-terminal",
+    "terminalType": "dedicated_cruise_terminal",
+    "verified": true,
+    "notes": "Main Genoa cruise terminal at Stazione Marittima.",
+    "sourceUrls": [
+      "https://www.stazionimarittimegenova.com/en/terminals/",
+      "https://www.openstreetmap.org/?mlat=44.41145&mlon=8.9202#map=17/44.41145/8.9202"
+    ],
+    "sources": [
+      "manual_web_research"
+    ],
+    "sourceIds": [
+      "manual/genoa-italy/ponte-dei-mille-cruise-terminal"
+    ],
+    "osmTags": {},
+    "matchedBy": [
+      "web_researched_terminal"
+    ],
+    "distanceFromPortMeters": null
+  },
+  "terminals": [
+    {
+      "id": "manual/genoa-italy/ponte-dei-mille-cruise-terminal",
+      "name": "Ponte dei Mille Cruise Terminal",
+      "nameEnglish": "",
+      "lat": 44.41145,
+      "lng": 8.9202,
+      "address": "",
+      "source": "manual_web_research",
+      "sourceId": "manual/genoa-italy/ponte-dei-mille-cruise-terminal",
+      "terminalType": "dedicated_cruise_terminal",
+      "verified": true,
+      "notes": "Main Genoa cruise terminal at Stazione Marittima.",
+      "sourceUrls": [
+        "https://www.stazionimarittimegenova.com/en/terminals/",
+        "https://www.openstreetmap.org/?mlat=44.41145&mlon=8.9202#map=17/44.41145/8.9202"
+      ],
+      "sources": [
+        "manual_web_research"
+      ],
+      "sourceIds": [
+        "manual/genoa-italy/ponte-dei-mille-cruise-terminal"
+      ],
+      "osmTags": {},
+      "matchedBy": [
+        "web_researched_terminal"
+      ],
+      "distanceFromPortMeters": null
+    },
+    {
+      "id": "manual/genoa-italy/ponte-andrea-doria-cruise-terminal",
+      "name": "Ponte Andrea Doria Cruise Terminal",
+      "nameEnglish": "",
+      "lat": 44.4099,
+      "lng": 8.91708,
+      "address": "",
+      "source": "manual_web_research",
+      "sourceId": "manual/genoa-italy/ponte-andrea-doria-cruise-terminal",
+      "terminalType": "dedicated_cruise_terminal",
+      "verified": true,
+      "notes": "Separate cruise terminal immediately west of Ponte dei Mille.",
+      "sourceUrls": [
+        "https://www.stazionimarittimegenova.com/en/terminals/",
+        "https://www.openstreetmap.org/?mlat=44.4099&mlon=8.91708#map=17/44.4099/8.91708"
+      ],
+      "sources": [
+        "manual_web_research"
+      ],
+      "sourceIds": [
+        "manual/genoa-italy/ponte-andrea-doria-cruise-terminal"
+      ],
+      "osmTags": {},
+      "matchedBy": [
+        "web_researched_terminal"
+      ],
+      "distanceFromPortMeters": null
+    }
+  ],
+  "terminalCandidateRadiusMeters": 5000,
+  "terminalCandidates": [
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/55e68b9c1e58a90cb1cd",
+      "name": "Porto Antico",
+      "nameEnglish": "",
+      "lat": 44.4093699,
+      "lng": 8.9274026,
+      "distanceFromPortMeters": 1062,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "operator": "AMT",
+        "public_transport": "platform"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/55e68b9c1e58a90cb1cd"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d7165c7cf03ba68ee89b",
+      "name": "GNV Genova",
+      "nameEnglish": "",
+      "lat": 44.4078541,
+      "lng": 8.9131543,
+      "distanceFromPortMeters": 1598,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "operator": "GNV",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/d7165c7cf03ba68ee89b"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b1a78ccca54f93848e54",
+      "name": "MSC Terminal",
+      "nameEnglish": "",
+      "lat": 44.4123135,
+      "lng": 8.9183971,
+      "distanceFromPortMeters": 1651,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal",
+        "terminal-like name"
+      ],
+      "osmTags": {
+        "alt_name": "Genova Cruise Terminal",
+        "amenity": "ferry_terminal"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/b1a78ccca54f93848e54"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/189919cd75aa914183f9",
+      "name": "GNV Genova",
+      "nameEnglish": "",
+      "lat": 44.4089363,
+      "lng": 8.9123181,
+      "distanceFromPortMeters": 1721,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "operator": "GNV",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/189919cd75aa914183f9"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/55beb24cdb222cb310bf",
+      "name": "GNV Genova",
+      "nameEnglish": "",
+      "lat": 44.4071531,
+      "lng": 8.9100904,
+      "distanceFromPortMeters": 1770,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "operator": "GNV",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/55beb24cdb222cb310bf"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d1a2490924b59edc5e4e",
+      "name": "Porto Passeggeri",
+      "nameEnglish": "",
+      "lat": 44.4106716,
+      "lng": 8.9133322,
+      "distanceFromPortMeters": 1778,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/d1a2490924b59edc5e4e"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/7d175aebadbd8020f18a",
+      "name": "(unnamed maritime feature)",
+      "nameEnglish": "",
+      "lat": 44.4078031,
+      "lng": 8.9103352,
+      "distanceFromPortMeters": 1787,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/7d175aebadbd8020f18a"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/2c6a0cb6aba3de0a4606",
+      "name": "(unnamed maritime feature)",
+      "nameEnglish": "",
+      "lat": 44.4136642,
+      "lng": 8.9159829,
+      "distanceFromPortMeters": 1884,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/2c6a0cb6aba3de0a4606"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/49a74dce087f06ed08d4",
+      "name": "Tirrenia Genova",
+      "nameEnglish": "",
+      "lat": 44.4105078,
+      "lng": 8.9103076,
+      "distanceFromPortMeters": 1953,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "alt_name": "Terminal 7, Ponte 7",
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "operator": "Tirrenia",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/49a74dce087f06ed08d4"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/26d5542636ca92a41922",
+      "name": "(unnamed maritime feature)",
+      "nameEnglish": "",
+      "lat": 44.412893,
+      "lng": 8.9132577,
+      "distanceFromPortMeters": 1956,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/26d5542636ca92a41922"
+      ]
+    }
+  ],
+  "counts": {
+    "attraction": 19,
+    "outdoors": 7,
+    "food_drink": 15,
+    "shopping": 0,
+    "essentials": 0
+  },
+  "pois": [
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/fbf870a47c72e636634b",
+      "name": "Museo di Sant'Agostino",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 44.4043725,
+      "lng": 8.9319129,
+      "distanceFromTerminalMeters": 509,
+      "distanceFromDefaultTerminalMeters": 509,
+      "minDistanceFromAnyTerminalMeters": 509,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "35 rosso Piazza Sarzano",
+      "openingHours": "",
+      "website": "http://www.museidigenova.it/spip.php?rubrique27",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/7ca5dc597e829501e20b",
+      "name": "Museo di Santa Maria di Castello",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 44.4053983,
+      "lng": 8.929126,
+      "distanceFromTerminalMeters": 604,
+      "distanceFromDefaultTerminalMeters": 604,
+      "minDistanceFromAnyTerminalMeters": 604,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "https://www.santamariadicastello.it/contesto.html",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/77f75884c8fa986cb707",
+      "name": "Palazzo Agostino e Giacomo Salvago",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "castle",
+      "lat": 44.4064087,
+      "lng": 8.9307358,
+      "distanceFromTerminalMeters": 715,
+      "distanceFromDefaultTerminalMeters": 715,
+      "minDistanceFromAnyTerminalMeters": 715,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "http://www.irolli.it/genova_unesco/palazzo/piazza_san_bernardo_26.html",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "castle"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/9b0a43ead597f269d495",
+      "name": "Louisiana Jazz Club",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 44.407406,
+      "lng": 8.9322588,
+      "distanceFromTerminalMeters": 843,
+      "distanceFromDefaultTerminalMeters": 843,
+      "minDistanceFromAnyTerminalMeters": 843,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "34 rosso Via Tommaso Reggio",
+      "openingHours": "",
+      "website": "https://www.italianjazzinstitute.com/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "nightclub",
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/fbf2ce2f273e65e80943",
+      "name": "Palazzo Ducale",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 44.4075058,
+      "lng": 8.9329099,
+      "distanceFromTerminalMeters": 866,
+      "distanceFromDefaultTerminalMeters": 866,
+      "minDistanceFromAnyTerminalMeters": 866,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "https://www.palazzoducale.genova.it/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "monument",
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ea5bf85c99fec8bd686c",
+      "name": "Museo Diocesano",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 44.4080599,
+      "lng": 8.9317734,
+      "distanceFromTerminalMeters": 907,
+      "distanceFromDefaultTerminalMeters": 907,
+      "minDistanceFromAnyTerminalMeters": 907,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "https://www.museodiocesanogenova.it/",
+      "phone": "+39 010 2541250",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/6350aab45dfdf73ad724",
+      "name": "Museo d'arte orientale Edoardo Chiossone",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 44.4112717,
+      "lng": 8.9361694,
+      "distanceFromTerminalMeters": 1346,
+      "distanceFromDefaultTerminalMeters": 1346,
+      "minDistanceFromAnyTerminalMeters": 1346,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "4 Piazzale Giuseppe Mazzini, Genova, 16122",
+      "openingHours": "Tu-Fr 09:00-19:00; Sa,Su 10:00-19:30; Mo off",
+      "website": "https://www.museidigenova.it/it/content/museo-darte-orientale",
+      "phone": "+39 010 542285",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Il museo ospita opere giapponesi di varie epoche: pittura (dal XI al XIX sec.), armi e armature, smalti, ceramiche, lacche, porcellane, stampe policrome, strumenti musicali, maschere teatrali, costumi e tessuti, bronzistica, grandi sculture.",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c6d016c8147be5e97fcc",
+      "name": "Palazzo Rosso",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 44.4111383,
+      "lng": 8.9320719,
+      "distanceFromTerminalMeters": 1249,
+      "distanceFromDefaultTerminalMeters": 1249,
+      "minDistanceFromAnyTerminalMeters": 1249,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "https://www.museidigenova.it/it/palazzo-rosso-0",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "sistema dei Rolli n°19",
+      "osmTags": {
+        "historic": "heritage",
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/0a36a268ec464a4ae6dc",
+      "name": "Museo Risorgimento - Casa Mazzini",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 44.412561,
+      "lng": 8.9294189,
+      "distanceFromTerminalMeters": 1397,
+      "distanceFromDefaultTerminalMeters": 1397,
+      "minDistanceFromAnyTerminalMeters": 1397,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "11 Via Lomellini, Genova, 16124",
+      "openingHours": "Mar 26-Oct 06: Tu, Fr 09:00-14:00; We 09:00-19:00; Sa 10:00-19:30; Su[1] 10:00-19:30; Mo,Th off; Oct 08-Mar 25: Tu,Fr 09:00-14:00; We 09:00-18:30; Sa 09:30-18:30; Su[1] 09:30-18:30; Mo,Th off; Dec 25 off",
+      "website": "http://www.musei.it/liguria/genova/museo-del-risorgimento---casa-mazzini.asp",
+      "phone": "+39 010 557 6430",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/0fe7da5da7cb972400f7",
+      "name": "Acquario di Genova",
+      "nameEnglish": "Aquarium of Genoa",
+      "category": "attraction",
+      "subcategory": "aquarium",
+      "lat": 44.4101493,
+      "lng": 8.9262906,
+      "distanceFromTerminalMeters": 1166,
+      "distanceFromDefaultTerminalMeters": 1166,
+      "minDistanceFromAnyTerminalMeters": 1166,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Genova, 16128",
+      "openingHours": "Mo-Fr 10:00-18:00, Sa-Su 09:00-20:00",
+      "website": "https://www.acquariodigenova.it/",
+      "phone": "+39 010 23451",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "aquarium"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c22fa4e7bd657244a151",
+      "name": "Palazzo Embriaci",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "castle",
+      "lat": 44.4059558,
+      "lng": 8.929442,
+      "distanceFromTerminalMeters": 664,
+      "distanceFromDefaultTerminalMeters": 664,
+      "minDistanceFromAnyTerminalMeters": 664,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "5 Piazza Embriaci, 16123",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "castle"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/acd5e50502b873dcf864",
+      "name": "Palazzo di Marcantonio Sauli",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "castle",
+      "lat": 44.406269,
+      "lng": 8.9299792,
+      "distanceFromTerminalMeters": 697,
+      "distanceFromDefaultTerminalMeters": 697,
+      "minDistanceFromAnyTerminalMeters": 697,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "castle"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/00e44b8014c2f9b434bd",
+      "name": "Castello D'Albertis",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "castle",
+      "lat": 44.4182627,
+      "lng": 8.9245869,
+      "distanceFromTerminalMeters": 2076,
+      "distanceFromDefaultTerminalMeters": 2076,
+      "minDistanceFromAnyTerminalMeters": 2076,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "https://www.museidigenova.it/it/castello-dalbertis-museo-delle-culture-del-mondo",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "castle"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/23d2c5381abe6fbccba2",
+      "name": "Basilica della Santissima Annunziata del Vastato",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "yes",
+      "lat": 44.4143219,
+      "lng": 8.928199,
+      "distanceFromTerminalMeters": 1599,
+      "distanceFromDefaultTerminalMeters": 1599,
+      "minDistanceFromAnyTerminalMeters": 1599,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "4 Piazza della Nunziata, Genova, 16124, IT",
+      "openingHours": "",
+      "website": "https://www.basilicaannunziatadelvastato.it",
+      "phone": "+39 010 2465525",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "place_of_worship",
+        "historic": "yes"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b0b93b01552aa76f01a9",
+      "name": "Cattedrale di San Lorenzo",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "monument",
+      "lat": 44.4076293,
+      "lng": 8.931449,
+      "distanceFromTerminalMeters": 856,
+      "distanceFromDefaultTerminalMeters": 856,
+      "minDistanceFromAnyTerminalMeters": 856,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Piazza San Lorenzo, Genova, 16123, IT",
+      "openingHours": "Mo-Su 08:00-12:00,15:00-19:00",
+      "website": "https://www.chiesadigenova.it/cattedrale/",
+      "phone": "+39010 2700",
+      "cuisine": [],
+      "wheelchair": "limited",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "place_of_worship",
+        "historic": "monument"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/dfaf1ff141a1cfe4d3ad",
+      "name": "Bigo Ascensore panoramico",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 44.4085872,
+      "lng": 8.9270854,
+      "distanceFromTerminalMeters": 983,
+      "distanceFromDefaultTerminalMeters": 983,
+      "minDistanceFromAnyTerminalMeters": 983,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "https://www.acquariodigenova.it/bigo-panoramic/",
+      "phone": "+39 010 23451",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f8e31270b7dd86344eb7",
+      "name": "Porta Soprana",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 44.4055599,
+      "lng": 8.9344827,
+      "distanceFromTerminalMeters": 713,
+      "distanceFromDefaultTerminalMeters": 713,
+      "minDistanceFromAnyTerminalMeters": 713,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Una delle due porte principale delle mura costruite fra il 1155 e il 1160 e dette \"del Barbarossa\".",
+      "osmTags": {
+        "historic": "yes",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/bc96649459b0c2971b78",
+      "name": "Lanterna di Genova",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "lighthouse",
+      "lat": 44.4045519,
+      "lng": 8.9046428,
+      "distanceFromTerminalMeters": 2077,
+      "distanceFromDefaultTerminalMeters": 2077,
+      "minDistanceFromAnyTerminalMeters": 2077,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Fr-Su 10:00-18:00",
+      "website": "https://www.museidigenova.it/en/museum-lighthouse-la-lanterna",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Elenco Fari n.1569",
+      "osmTags": {
+        "historic": "monument",
+        "man_made": "lighthouse"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f53028d2ac0184b3c6fd",
+      "name": "Faro Laterale",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "lighthouse",
+      "lat": 44.3965014,
+      "lng": 8.9268132,
+      "distanceFromTerminalMeters": 464,
+      "distanceFromDefaultTerminalMeters": 464,
+      "minDistanceFromAnyTerminalMeters": 464,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Genova",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "G BN FL G 3S 8M",
+      "osmTags": {
+        "man_made": "lighthouse"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/7d4272ed8f71c3273be3",
+      "name": "Piazzetta Giovannino Guareschi",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "garden",
+      "lat": 44.4031737,
+      "lng": 8.9320309,
+      "distanceFromTerminalMeters": 388,
+      "distanceFromDefaultTerminalMeters": 388,
+      "minDistanceFromAnyTerminalMeters": 388,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "garden"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/08f9d5548250a2ae2a33",
+      "name": "Giardini pensili del DIpartimento Architettura Design dell'Università di Genova",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "garden",
+      "lat": 44.404372,
+      "lng": 8.9308684,
+      "distanceFromTerminalMeters": 491,
+      "distanceFromDefaultTerminalMeters": 491,
+      "minDistanceFromAnyTerminalMeters": 491,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "university",
+        "leisure": "garden"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/cdb57183d2d02eee3b5c",
+      "name": "Piazza dei Ragazzi",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "garden",
+      "lat": 44.4085451,
+      "lng": 8.9311433,
+      "distanceFromTerminalMeters": 955,
+      "distanceFromDefaultTerminalMeters": 955,
+      "minDistanceFromAnyTerminalMeters": 955,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "garden"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f2a2fd20318b82a4dc6b",
+      "name": "Giardini Gianni di Benedetto",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "garden",
+      "lat": 44.40775,
+      "lng": 8.9374601,
+      "distanceFromTerminalMeters": 1046,
+      "distanceFromDefaultTerminalMeters": 1046,
+      "minDistanceFromAnyTerminalMeters": 1046,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "garden"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/bd20c7144a908e787586",
+      "name": "Rimorchiatori Riuniti",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "viewpoint",
+      "lat": 44.410094,
+      "lng": 8.9219009,
+      "distanceFromTerminalMeters": 1294,
+      "distanceFromDefaultTerminalMeters": 1294,
+      "minDistanceFromAnyTerminalMeters": 1294,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "viewpoint"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/41950e885984a1103b26",
+      "name": "Belvedere Luigi Montaldo",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "viewpoint",
+      "lat": 44.412643,
+      "lng": 8.9329796,
+      "distanceFromTerminalMeters": 1426,
+      "distanceFromDefaultTerminalMeters": 1426,
+      "minDistanceFromAnyTerminalMeters": 1426,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "viewpoint"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b28974b22392e7e7d7b5",
+      "name": "Marina Porto Antico",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "marina",
+      "lat": 44.4116065,
+      "lng": 8.9247928,
+      "distanceFromTerminalMeters": 1355,
+      "distanceFromDefaultTerminalMeters": 1355,
+      "minDistanceFromAnyTerminalMeters": 1355,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "https://marinaportoantico.it/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "marina"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/3dd32afd774374af7c4a",
+      "name": "La Teiera Magica",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 44.4047936,
+      "lng": 8.9332352,
+      "distanceFromTerminalMeters": 592,
+      "distanceFromDefaultTerminalMeters": 592,
+      "minDistanceFromAnyTerminalMeters": 592,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "65 rosso Via di Ravecca, Genova, 16128",
+      "openingHours": "Tu-Fr 12:00-19:00; Sa-Su 11:00-19:00",
+      "website": "",
+      "phone": "+39 349 8104033",
+      "cuisine": [
+        "tea"
+      ],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "They mainly serve tea and cakes, but also coffee and soft drinks",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/6da223344bb667d103e4",
+      "name": "Pub Ristorante Kowalski",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 44.4071688,
+      "lng": 8.9295275,
+      "distanceFromTerminalMeters": 798,
+      "distanceFromDefaultTerminalMeters": 798,
+      "minDistanceFromAnyTerminalMeters": 798,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "3 rosso Via dei Giustiniani, 16123",
+      "openingHours": "",
+      "website": "https://ristorantekowalski.it/",
+      "phone": "+39 345 0424398",
+      "cuisine": [
+        "polish"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/4fbcf399e0cda770e669",
+      "name": "Locanda Tortuga",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 44.4053688,
+      "lng": 8.934268,
+      "distanceFromTerminalMeters": 687,
+      "distanceFromDefaultTerminalMeters": 687,
+      "minDistanceFromAnyTerminalMeters": 687,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "13r Via di Ravecca, Genova, 16128",
+      "openingHours": "12:00-15:00; PH off",
+      "website": "https://www.locandatortuga.it/",
+      "phone": "+39 010 2462961",
+      "cuisine": [
+        "regional"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/bde805a0e2f2ad94290d",
+      "name": "Yi Wei",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 44.406267,
+      "lng": 8.9331942,
+      "distanceFromTerminalMeters": 742,
+      "distanceFromDefaultTerminalMeters": 742,
+      "minDistanceFromAnyTerminalMeters": 742,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "We-Mo 12:00-15:00,19:00-23:00",
+      "website": "http://www.yiweiartrestaurant.com/",
+      "phone": "",
+      "cuisine": [
+        "chinese"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/786fba9d51bc2c9ed930",
+      "name": "PestoBene",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 44.4087746,
+      "lng": 8.9300414,
+      "distanceFromTerminalMeters": 976,
+      "distanceFromDefaultTerminalMeters": 976,
+      "minDistanceFromAnyTerminalMeters": 976,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1 rosso Via di San Pietro della Porta, 16123",
+      "openingHours": "Mo-Su 10:00-18:00; Tu 10:00-14:30",
+      "website": "https://www.instagram.com/pestobene/",
+      "phone": "+39 339 645 7168",
+      "cuisine": [
+        "ligurian"
+      ],
+      "wheelchair": "no",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/005fa292520fa08c40fb",
+      "name": "Eataly Genova",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 44.4086899,
+      "lng": 8.9275928,
+      "distanceFromTerminalMeters": 985,
+      "distanceFromDefaultTerminalMeters": 985,
+      "minDistanceFromAnyTerminalMeters": 985,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "15 Calata Cattaneo, Genova, 16128",
+      "openingHours": "Mo-Su 10:00-22:30",
+      "website": "https://www.eataly.net/eu_it/negozi/genova",
+      "phone": "+39 010 8698721",
+      "cuisine": [
+        "italian"
+      ],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c8692a096a07ebc73a74",
+      "name": "Trattoria Gianna",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 44.4064267,
+      "lng": 8.928257,
+      "distanceFromTerminalMeters": 728,
+      "distanceFromDefaultTerminalMeters": 728,
+      "minDistanceFromAnyTerminalMeters": 728,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "26 rosso Vico delle Camelie",
+      "openingHours": "",
+      "website": "https://www.dagiannatrattoria.com/",
+      "phone": "+39 010 2468659",
+      "cuisine": [
+        "pasta",
+        "italian",
+        "noodles",
+        "fish",
+        "seafood"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/25449da3ee08b0ca7fb7",
+      "name": "Locanda Pesciolino",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 44.4092715,
+      "lng": 8.9352785,
+      "distanceFromTerminalMeters": 1113,
+      "distanceFromDefaultTerminalMeters": 1113,
+      "minDistanceFromAnyTerminalMeters": 1113,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "14 rosso Vico Domoculta",
+      "openingHours": "Mo-Fr 12:00-15:00,18:30-22:00; Sa 18:30-22:00",
+      "website": "https://www.locandapesciolino.it/",
+      "phone": "+39 010 5532131",
+      "cuisine": [
+        "fish"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/59840462707f41d4a939",
+      "name": "Yutaka",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 44.4028224,
+      "lng": 8.9438549,
+      "distanceFromTerminalMeters": 1145,
+      "distanceFromDefaultTerminalMeters": 1145,
+      "minDistanceFromAnyTerminalMeters": 1145,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "93 Piazza della Vittoria, Genova, 16121",
+      "openingHours": "Mo-Su 11:30-15:00,18:30-23:30",
+      "website": "http://www.yutakasushi.it/",
+      "phone": "+39 010 3001888",
+      "cuisine": [
+        "sushi"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/cef936883563e9d75db0",
+      "name": "Speedy Pizza",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 44.4065702,
+      "lng": 8.9412553,
+      "distanceFromTerminalMeters": 1155,
+      "distanceFromDefaultTerminalMeters": 1155,
+      "minDistanceFromAnyTerminalMeters": 1155,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Via Colombo, Genova, 16121, IT",
+      "openingHours": "Mo-Sa 10:30-15:00,17:30-20:30",
+      "website": "https://speedypizzagenova.business.site/",
+      "phone": "+39 010 529 2164",
+      "cuisine": [
+        "pizza"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant",
+        "shop": "bakery"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b70e38294614db01abd9",
+      "name": "La Cricca Ristorante",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 44.4133934,
+      "lng": 8.923746,
+      "distanceFromTerminalMeters": 1570,
+      "distanceFromDefaultTerminalMeters": 1570,
+      "minDistanceFromAnyTerminalMeters": 1570,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "6 Calata Andalò di Negro, 16126",
+      "openingHours": "Mo-Th 10:30-16:00; Fr 10:30-16:00, 19:00-23:00; Sa 19:00-23:00",
+      "website": "https://lacriccaristorante.it",
+      "phone": "+39 010 9419390",
+      "cuisine": [
+        "italian"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/354afd707a8a46bfbeac",
+      "name": "Ristorante Salgari",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 44.4168864,
+      "lng": 8.9230924,
+      "distanceFromTerminalMeters": 1956,
+      "distanceFromDefaultTerminalMeters": 1956,
+      "minDistanceFromAnyTerminalMeters": 1956,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "5 Via Arsenale di Terra, Genova, 16126",
+      "openingHours": "19:30-22:30; PH off",
+      "website": "https://www.grandhotelsavoiagenova.it/it/dining/ristorante-salgari.html",
+      "phone": "+39 010 277 2831",
+      "cuisine": [
+        "regional"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/37842cc1b3a355a85426",
+      "name": "Royal Sushi",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 44.4018299,
+      "lng": 8.9550637,
+      "distanceFromTerminalMeters": 2002,
+      "distanceFromDefaultTerminalMeters": 2002,
+      "minDistanceFromAnyTerminalMeters": 2002,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1 Scalinata Giorgio Borghese, Genova, 16145",
+      "openingHours": "Mo-Su 12:00-15:00, Mo-Su 19:00-23:00",
+      "website": "https://www.royalsushi.it/",
+      "phone": "",
+      "cuisine": [
+        "oriental"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/25365b8f263525f7e4d3",
+      "name": "Pizzeria Mennella",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 44.4204529,
+      "lng": 8.9186487,
+      "distanceFromTerminalMeters": 2446,
+      "distanceFromDefaultTerminalMeters": 2446,
+      "minDistanceFromAnyTerminalMeters": 2446,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "97 rosso Via del Lagaccio, Genova, 16134",
+      "openingHours": "We-Mo 18:00-22:30",
+      "website": "https://www.pizzeriamennella.it/",
+      "phone": "+39 010 242 5918;+39 346 362 3982",
+      "cuisine": [
+        "pizza"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f9e1012751774b110fc0",
+      "name": "Jin's Chinese Fast Food",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 44.4147405,
+      "lng": 8.9242832,
+      "distanceFromTerminalMeters": 1701,
+      "distanceFromDefaultTerminalMeters": 1701,
+      "minDistanceFromAnyTerminalMeters": 1701,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "159 rosso Via Antonio Gramsci, Genova, 16126, IT",
+      "openingHours": "Mo-Su,PH 11:30-16:00,18:00-22:30",
+      "website": "",
+      "phone": "+39 010 2465630",
+      "cuisine": [
+        "chinese"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    }
+  ],
+  "portAnchor": {
+    "id": "ports-json-anchor",
+    "name": "GENOVA Port",
+    "lat": 44.4,
+    "lng": 8.93,
+    "address": "Genoa, Liguria, Italy",
+    "source": "ports.json",
+    "sourceId": "",
+    "score": 0,
+    "slug": "genova-port"
+  },
+  "terminalResolution": {
+    "status": "resolved",
+    "method": "manual_web_research",
+    "verified": true,
+    "notes": "Terminal records were added from researched cruise-port sources because no supplied candidate accurately represented the passenger arrival point."
+  }
+}

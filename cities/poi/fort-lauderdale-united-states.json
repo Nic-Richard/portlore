@@ -1,0 +1,1404 @@
+{
+  "schemaVersion": 5,
+  "catalogType": "curation-candidates",
+  "generatedAt": "2026-07-30T09:18:37.570Z",
+  "source": "openstreetmap",
+  "sourceExtract": "florida-latest.osm.pbf",
+  "radiusMeters": 10000,
+  "port": {
+    "id": "fort-lauderdale-united-states",
+    "city": "Fort Lauderdale",
+    "country": "United States"
+  },
+  "defaultTerminalId": "osm/generated/5d08028b6355ca4f3230",
+  "terminal": {
+    "id": "osm/generated/5d08028b6355ca4f3230",
+    "name": "Fort Lauderdale, Port Everglades Terminal 21",
+    "nameEnglish": "",
+    "lat": 26.0880153,
+    "lng": -80.1160657,
+    "address": "",
+    "source": "verified_terminal_candidate",
+    "sourceId": "osm/generated/5d08028b6355ca4f3230",
+    "terminalType": "passenger_cruise_terminal",
+    "verified": true,
+    "notes": "External port and cruise-schedule checks support passenger cruise use, and the accepted candidate ID(s) correspond to the actual cruise terminal, cruise pier, or passenger terminal used by cruise ships.",
+    "sourceUrls": [],
+    "sources": [
+      "openstreetmap"
+    ],
+    "sourceIds": [
+      "osm/generated/5d08028b6355ca4f3230"
+    ],
+    "osmTags": {
+      "amenity": "ferry_terminal",
+      "ferry": "yes",
+      "public_transport": "station"
+    },
+    "matchedBy": [
+      "amenity=ferry_terminal"
+    ],
+    "distanceFromPortMeters": 688
+  },
+  "terminals": [
+    {
+      "id": "osm/generated/5d08028b6355ca4f3230",
+      "name": "Fort Lauderdale, Port Everglades Terminal 21",
+      "nameEnglish": "",
+      "lat": 26.0880153,
+      "lng": -80.1160657,
+      "address": "",
+      "source": "verified_terminal_candidate",
+      "sourceId": "osm/generated/5d08028b6355ca4f3230",
+      "terminalType": "passenger_cruise_terminal",
+      "verified": true,
+      "notes": "External port and cruise-schedule checks support passenger cruise use, and the accepted candidate ID(s) correspond to the actual cruise terminal, cruise pier, or passenger terminal used by cruise ships.",
+      "sourceUrls": [],
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/5d08028b6355ca4f3230"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "station"
+      },
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "distanceFromPortMeters": 688
+    }
+  ],
+  "terminalCandidateRadiusMeters": 5000,
+  "terminalCandidates": [
+    {
+      "source": "openstreetmap+nominatim",
+      "sourceId": "osm/generated/2dab5a1fc3a5942300ba",
+      "name": "Port Everglades",
+      "nameEnglish": "",
+      "lat": 26.095975,
+      "lng": -80.121872,
+      "distanceFromPortMeters": 600,
+      "address": "Port Everglades, Southeast 20th Street, Port Everglades, Fort Lauderdale, Broward County, Florida, 33316, United States",
+      "matchedBy": [
+        "amenity=ferry_terminal",
+        "Nominatim query: Port Everglades, Fort Lauderdale, United States"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap",
+        "nominatim"
+      ],
+      "sourceIds": [
+        "osm/generated/2dab5a1fc3a5942300ba",
+        "osm/node/2296568360"
+      ],
+      "displayName": "Port Everglades, Southeast 20th Street, Port Everglades, Fort Lauderdale, Broward County, Florida, 33316, United States",
+      "query": "Port Everglades, Fort Lauderdale, United States"
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/5d08028b6355ca4f3230",
+      "name": "Fort Lauderdale, Port Everglades Terminal 21",
+      "nameEnglish": "",
+      "lat": 26.0880153,
+      "lng": -80.1160657,
+      "distanceFromPortMeters": 688,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/5d08028b6355ca4f3230"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b7587415927e7bd9c543",
+      "name": "Water Taxi Stop - Hilton Marina/ Convention Center",
+      "nameEnglish": "",
+      "lat": 26.1007785,
+      "lng": -80.1192959,
+      "distanceFromPortMeters": 794,
+      "address": "1881 Southeast 17th Street, Fort Lauderdale, FL",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/b7587415927e7bd9c543"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/6721478e051b5c04c872",
+      "name": "Water Taxi Stop - 15th Street Fisheries",
+      "nameEnglish": "",
+      "lat": 26.103001,
+      "lng": -80.1198154,
+      "distanceFromPortMeters": 1043,
+      "address": "1900 Southeast 15th Street, Fort Lauderdale, FL",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "operator": "Broward County Commission",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/6721478e051b5c04c872"
+      ]
+    },
+    {
+      "source": "nominatim",
+      "sourceId": "osm/node/153946522",
+      "osmType": "node",
+      "osmId": "153946522",
+      "name": "Port Everglades",
+      "nameEnglish": "",
+      "lat": 26.0968524,
+      "lng": -80.1272606,
+      "distanceFromPortMeters": 1143,
+      "address": "Port Everglades, Fort Lauderdale, Broward County, Florida, 33316, United States",
+      "displayName": "Port Everglades, Fort Lauderdale, Broward County, Florida, 33316, United States",
+      "query": "Port Everglades, Fort Lauderdale, United States",
+      "matchedBy": [
+        "Nominatim query: Port Everglades, Fort Lauderdale, United States"
+      ],
+      "osmTags": {},
+      "sources": [
+        "nominatim"
+      ],
+      "sourceIds": [
+        "osm/node/153946522"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/559d8e6817a402de6f4a",
+      "name": "Water Taxi Stop - Beach Place (Beach)",
+      "nameEnglish": "",
+      "lat": 26.1217104,
+      "lng": -80.1078089,
+      "distanceFromPortMeters": 3172,
+      "address": "Cortez Street, Fort Lauderdale, FL",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "operator": "Broward County Commission",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/559d8e6817a402de6f4a"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b3f0a26dc230450a41be",
+      "name": "Water Taxi Stop - The Shops at Las Olas",
+      "nameEnglish": "",
+      "lat": 26.1178748,
+      "lng": -80.1340256,
+      "distanceFromPortMeters": 3178,
+      "address": "2414 Southeast 9th Avenue, Fort Lauderdale, FL, 33304",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/b3f0a26dc230450a41be"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/fd9e2029aebb34c340a1",
+      "name": "Riverside Hotel/Stranahan House",
+      "nameEnglish": "",
+      "lat": 26.1182593,
+      "lng": -80.1373107,
+      "distanceFromPortMeters": 3406,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "operator": "Broward County Commission",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/fd9e2029aebb34c340a1"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d5552bd1d5fdbbbd1ace",
+      "name": "The Historic Downtowner Saloon",
+      "nameEnglish": "",
+      "lat": 26.1176851,
+      "lng": -80.1428287,
+      "distanceFromPortMeters": 3727,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/d5552bd1d5fdbbbd1ace"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/6d58ecff6d7afb6229d4",
+      "name": "Briny Irish Pub/Brightline Train Station",
+      "nameEnglish": "",
+      "lat": 26.1187723,
+      "lng": -80.1449801,
+      "distanceFromPortMeters": 3965,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/6d58ecff6d7afb6229d4"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/5312a0e4ad90d4c933b8",
+      "name": "Pirate Republic Bar",
+      "nameEnglish": "",
+      "lat": 26.1183395,
+      "lng": -80.1462145,
+      "distanceFromPortMeters": 4023,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/5312a0e4ad90d4c933b8"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/8532451edd24b5000578",
+      "name": "Esplanade Park",
+      "nameEnglish": "",
+      "lat": 26.1192646,
+      "lng": -80.1484238,
+      "distanceFromPortMeters": 4257,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/8532451edd24b5000578"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c1a7b41c1a203db2bf10",
+      "name": "Water Taxi Stop - Gallery ONE Guest Suites",
+      "nameEnglish": "",
+      "lat": 26.1372615,
+      "lng": -80.1088781,
+      "distanceFromPortMeters": 4844,
+      "address": "2670 East Sunrise Boulevard, Fort Lauderdale, FL, 33304",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/c1a7b41c1a203db2bf10"
+      ]
+    }
+  ],
+  "counts": {
+    "attraction": 15,
+    "outdoors": 9,
+    "food_drink": 12,
+    "shopping": 2,
+    "essentials": 0
+  },
+  "pois": [
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/5bbb1b443c4aaae4ec99",
+      "name": "17th Street Causeway Bridge",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 26.1007813,
+      "lng": -80.1187162,
+      "distanceFromTerminalMeters": 774,
+      "distanceFromDefaultTerminalMeters": 774,
+      "minDistanceFromAnyTerminalMeters": 774,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/32dda44db356bfc46c95",
+      "name": "NSU Art Museum Fort Lauderdale",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 26.1195906,
+      "lng": -80.1428427,
+      "distanceFromTerminalMeters": 3879,
+      "distanceFromDefaultTerminalMeters": 3879,
+      "minDistanceFromAnyTerminalMeters": 3879,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1 East Las Olas Boulevard, Fort Lauderdale, FL, 33301",
+      "openingHours": "Tu-Sa 11:00-17:00; Su 12:00-17:00",
+      "website": "https://nsuartmuseum.org/",
+      "phone": "+1 954 525 5500",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/fafcf1737a70503faf26",
+      "name": "Museum of Discovery and Science",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 26.1210751,
+      "lng": -80.147932,
+      "distanceFromTerminalMeters": 4355,
+      "distanceFromDefaultTerminalMeters": 4355,
+      "minDistanceFromAnyTerminalMeters": 4355,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "401 Himmarshee Street, Fort Lauderdale, FL, 33312",
+      "openingHours": "Mo-Sa 10:00-17:00; Su 12:00-17:00",
+      "website": "https://mods.org/",
+      "phone": "+19544676637",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/61c5db7c96bdb58ceb8f",
+      "name": "Bonnet House",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 26.1350063,
+      "lng": -80.1047655,
+      "distanceFromTerminalMeters": 4679,
+      "distanceFromDefaultTerminalMeters": 4679,
+      "minDistanceFromAnyTerminalMeters": 4679,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "900 North Birch Road, Fort Lauderdale, FL, 33304",
+      "openingHours": "Tu-Su 11:00-16:00",
+      "website": "https://www.bonnethouse.org/",
+      "phone": "+1-954-563-5393",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/19580a89ac00bd1cbcf0",
+      "name": "International Swimming Hall of Fame",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 26.1162674,
+      "lng": -80.1076781,
+      "distanceFromTerminalMeters": 2597,
+      "distanceFromDefaultTerminalMeters": 2597,
+      "minDistanceFromAnyTerminalMeters": 2597,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "https://ishof.org/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/a4b65dced74345e1efc9",
+      "name": "Historic Stranahan House Museum",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 26.1184358,
+      "lng": -80.1374468,
+      "distanceFromTerminalMeters": 3430,
+      "distanceFromDefaultTerminalMeters": 3430,
+      "minDistanceFromAnyTerminalMeters": 3430,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "335 Southeast 6th Avenue, Fort Lauderdale, FL, 33301",
+      "openingHours": "",
+      "website": "https://www.stranahanhouse.org/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/7236aad5278c1c23a30b",
+      "name": "Las Olas Beach",
+      "nameEnglish": "Las Olas Beach",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 26.1196846,
+      "lng": -80.1043555,
+      "distanceFromTerminalMeters": 3071,
+      "distanceFromDefaultTerminalMeters": 3071,
+      "minDistanceFromAnyTerminalMeters": 3071,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/650c4c6604425b8b3737",
+      "name": "Flyboard Fort Lauderdale",
+      "nameEnglish": "Flyboard Fort Lauderdale",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 26.1382804,
+      "lng": -80.1173829,
+      "distanceFromTerminalMeters": 4903,
+      "distanceFromDefaultTerminalMeters": 4903,
+      "minDistanceFromAnyTerminalMeters": 4903,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/a1c167b79b62c4608098",
+      "name": "The Fort Lauderdale Antique Car Museum",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 26.1022649,
+      "lng": -80.1435178,
+      "distanceFromTerminalMeters": 2872,
+      "distanceFromDefaultTerminalMeters": 2872,
+      "minDistanceFromAnyTerminalMeters": 2872,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ca689d05b645166c1705",
+      "name": "Princess Cruises",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 26.0962657,
+      "lng": -80.1219437,
+      "distanceFromTerminalMeters": 618,
+      "distanceFromDefaultTerminalMeters": 618,
+      "minDistanceFromAnyTerminalMeters": 618,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/6e3215e55c071d083177",
+      "name": "Royal Caribbean Cruise Terminal",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 26.0878893,
+      "lng": -80.1208163,
+      "distanceFromTerminalMeters": 840,
+      "distanceFromDefaultTerminalMeters": 840,
+      "minDistanceFromAnyTerminalMeters": 840,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/320458e020451557986e",
+      "name": "Tacos Hooked Up Sportfishing",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 26.1117034,
+      "lng": -80.1059234,
+      "distanceFromTerminalMeters": 2200,
+      "distanceFromDefaultTerminalMeters": 2200,
+      "minDistanceFromAnyTerminalMeters": 2200,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "http://www.tacohookedup.com/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/2a983650f8649f70da1c",
+      "name": "Fort Lauderdale Airboat Rides",
+      "nameEnglish": "Fort Lauderdale Airboat Rides",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 26.0625059,
+      "lng": -80.1688957,
+      "distanceFromTerminalMeters": 6334,
+      "distanceFromDefaultTerminalMeters": 6334,
+      "minDistanceFromAnyTerminalMeters": 6334,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "21942 Griffin Road, 33332",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/4c8cbafc996bbf75f256",
+      "name": "Bateau",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 26.1182504,
+      "lng": -80.1380008,
+      "distanceFromTerminalMeters": 3448,
+      "distanceFromDefaultTerminalMeters": 3448,
+      "minDistanceFromAnyTerminalMeters": 3448,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f7348e29fed7ec472502",
+      "name": "Las Olas Boulevard",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 26.1194668,
+      "lng": -80.1432639,
+      "distanceFromTerminalMeters": 3898,
+      "distanceFromDefaultTerminalMeters": 3898,
+      "minDistanceFromAnyTerminalMeters": 3898,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/082f6a51ba1025e8df9f",
+      "name": "South Beach Park",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 26.113142,
+      "lng": -80.1044885,
+      "distanceFromTerminalMeters": 2409,
+      "distanceFromDefaultTerminalMeters": 2409,
+      "minDistanceFromAnyTerminalMeters": 2409,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/15fae3b4fb5435d6cfa0",
+      "name": "Bonnet House Museum and Gardens",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 26.135143,
+      "lng": -80.1056157,
+      "distanceFromTerminalMeters": 4674,
+      "distanceFromDefaultTerminalMeters": 4674,
+      "minDistanceFromAnyTerminalMeters": 4674,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "900 North Birch Road, Fort Lauderdale, FL, 33304",
+      "openingHours": "Tu-Su 11:00-16:00",
+      "website": "https://www.bonnethouse.org/",
+      "phone": "+1-954-563-5393",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c9c5ea0f0579af96f659",
+      "name": "Jungle Queen Riverboat",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "viewpoint",
+      "lat": 26.1112615,
+      "lng": -80.1061195,
+      "distanceFromTerminalMeters": 2148,
+      "distanceFromDefaultTerminalMeters": 2148,
+      "minDistanceFromAnyTerminalMeters": 2148,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "801 Seabreeze Blvd.",
+      "openingHours": "",
+      "website": "https://www.junglequeen.com/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "viewpoint"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/7ac6b9e5351824cbebd1",
+      "name": "Pier 66 Marina",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "marina",
+      "lat": 26.1018397,
+      "lng": -80.1171495,
+      "distanceFromTerminalMeters": 855,
+      "distanceFromDefaultTerminalMeters": 855,
+      "minDistanceFromAnyTerminalMeters": 855,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "https://www.piersixtysixmarina.com/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "marina"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d7c02a3d169eabb60c72",
+      "name": "NSU Vessel Basin",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "marina",
+      "lat": 26.0910176,
+      "lng": -80.1118729,
+      "distanceFromTerminalMeters": 559,
+      "distanceFromDefaultTerminalMeters": 559,
+      "minDistanceFromAnyTerminalMeters": 559,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "NSU Research Vessel Basin",
+      "osmTags": {
+        "leisure": "marina"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/95a7bf56a4c3a560b5d9",
+      "name": "Coast Guard Basin",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "marina",
+      "lat": 26.0893154,
+      "lng": -80.1129775,
+      "distanceFromTerminalMeters": 631,
+      "distanceFromDefaultTerminalMeters": 631,
+      "minDistanceFromAnyTerminalMeters": 631,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Private basin for USCG Vessels only.",
+      "osmTags": {
+        "leisure": "marina"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f22758e17814038d15d6",
+      "name": "Lauderdale Marina",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "marina",
+      "lat": 26.103464,
+      "lng": -80.120126,
+      "distanceFromTerminalMeters": 1102,
+      "distanceFromDefaultTerminalMeters": 1102,
+      "minDistanceFromAnyTerminalMeters": 1102,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "https://www.lauderdalemarina.com/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "marina"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/137958fcfe45dc225a69",
+      "name": "Bahia Mar Resort and Yachting Center",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "marina",
+      "lat": 26.1132194,
+      "lng": -80.1072276,
+      "distanceFromTerminalMeters": 2297,
+      "distanceFromDefaultTerminalMeters": 2297,
+      "minDistanceFromAnyTerminalMeters": 2297,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "801 Seabreeze Boulevard, Fort Lauderdale, FL, 33316",
+      "openingHours": "",
+      "website": "https://bahiamaryachtingcenter.com/",
+      "phone": "+1-954-627-6309",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "marina"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f6090fb9275951eed09c",
+      "name": "Café Bastille Fort Lauderdale",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 26.1214111,
+      "lng": -80.1360713,
+      "distanceFromTerminalMeters": 3618,
+      "distanceFromDefaultTerminalMeters": 3618,
+      "minDistanceFromAnyTerminalMeters": 3618,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "704 Southeast 1st Street, 33301",
+      "openingHours": "Mo-Fr 08:00-16:00; Sa-Su 08:00-17:00",
+      "website": "https://cafebastilledowntown.com/",
+      "phone": "+1-786-425-3575",
+      "cuisine": [
+        "french"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ae3421c55f7692700b53",
+      "name": "Bo's Beach",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 26.1150002,
+      "lng": -80.1050539,
+      "distanceFromTerminalMeters": 2567,
+      "distanceFromDefaultTerminalMeters": 2567,
+      "minDistanceFromAnyTerminalMeters": 2567,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "600 Seabreeze Boulevard, Fort Lauderdale, FL, 33316",
+      "openingHours": "Su-Th 11:00-22:00, Fr-Sa 11:00-23:00",
+      "website": "https://bosbeach.com/",
+      "phone": "+19546168315",
+      "cuisine": [
+        "seafood",
+        "pizza",
+        "sandwich"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/af0772ef9e52b352b04b",
+      "name": "Fat Boyz BBQ Downtown Fort Lauderdale",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 26.1127545,
+      "lng": -80.1366996,
+      "distanceFromTerminalMeters": 2906,
+      "distanceFromDefaultTerminalMeters": 2906,
+      "minDistanceFromAnyTerminalMeters": 2906,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "706 South Federal Highway, Fort Lauderdale, FL, 33316",
+      "openingHours": "Mo-Sa 11:00-21:00; Su 12:00-21:00",
+      "website": "https://www.fatboyzbarbecue.com/",
+      "phone": "+19547691486",
+      "cuisine": [
+        "american",
+        "barbecue"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/87164e3cc376f161415c",
+      "name": "Darios Fort Lauderdale",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 26.1145808,
+      "lng": -80.1418371,
+      "distanceFromTerminalMeters": 3419,
+      "distanceFromDefaultTerminalMeters": 3419,
+      "minDistanceFromAnyTerminalMeters": 3419,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "110 Southeast 6th Street, Fort Lauderdale, FL, 33301-5014",
+      "openingHours": "Mo-Fr 07:30-17:30",
+      "website": "https://dariosfortlauderdale.com",
+      "phone": "+1-954-530-9833",
+      "cuisine": [
+        "pizza",
+        "italian"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/43fa1bdb0596629c319c",
+      "name": "Mamajuana Cafe",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 26.101251,
+      "lng": -80.126645,
+      "distanceFromTerminalMeters": 1305,
+      "distanceFromDefaultTerminalMeters": 1305,
+      "minDistanceFromAnyTerminalMeters": 1305,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1515 Southeast 15th Street, Fort Lauderdale, FL, 33316",
+      "openingHours": "11:30-22:00",
+      "website": "https://www.bravoitaliano.com/",
+      "phone": "+1-941-523-9441",
+      "cuisine": [
+        "italian"
+      ],
+      "wheelchair": "limited",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b5a833c36d9d3423c48b",
+      "name": "Mancora Ceviche Bar Fort Lauderdale",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 26.1197237,
+      "lng": -80.1046875,
+      "distanceFromTerminalMeters": 3062,
+      "distanceFromDefaultTerminalMeters": 3062,
+      "minDistanceFromAnyTerminalMeters": 3062,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "https://www.mancoracevichebar.com/",
+      "phone": "+19547691638",
+      "cuisine": [
+        "peruvian",
+        "seafood"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b0cc0bc7700ae1804ff5",
+      "name": "15th Street Fisheries",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 26.103113,
+      "lng": -80.120362,
+      "distanceFromTerminalMeters": 1075,
+      "distanceFromDefaultTerminalMeters": 1075,
+      "minDistanceFromAnyTerminalMeters": 1075,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1900 Southeast 15th Street, Fort Lauderdale, 33316",
+      "openingHours": "17:00-22:00",
+      "website": "https://www.15streetfisheries.com/",
+      "phone": "+1-954-763-2777",
+      "cuisine": [
+        "seafood"
+      ],
+      "wheelchair": "limited",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ab75eb9bdb7ff149f550",
+      "name": "Boatyard",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 26.1021788,
+      "lng": -80.1260186,
+      "distanceFromTerminalMeters": 1322,
+      "distanceFromDefaultTerminalMeters": 1322,
+      "minDistanceFromAnyTerminalMeters": 1322,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1555 Southeast 17th Street, Fort Lauderdale, FL, 33316",
+      "openingHours": "Mo-We 11:30-23:00; Th-Fr 11:30-00:00; Sa 10:00-00:00; Su 10:00-23:00",
+      "website": "https://boatyard.restaurant/?utm_source=google&utm_medium=organic&utm_campaign=gbp",
+      "phone": "+1-954-525-7400",
+      "cuisine": [
+        "seafood",
+        "steak_house"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/8785da2cbe98bb9bd227",
+      "name": "I Heart Mac And Cheese",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 26.1011229,
+      "lng": -80.128368,
+      "distanceFromTerminalMeters": 1438,
+      "distanceFromDefaultTerminalMeters": 1438,
+      "minDistanceFromAnyTerminalMeters": 1438,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1489 Southeast 17th Street, FL, 33316",
+      "openingHours": "11:00-21:00",
+      "website": "https://www.iheartmacandcheese.com/",
+      "phone": "+1-954-533-4195",
+      "cuisine": [
+        "comfort_food"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/43422af8e7921283af2e",
+      "name": "Kubo",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 26.1008597,
+      "lng": -80.1353487,
+      "distanceFromTerminalMeters": 2051,
+      "distanceFromDefaultTerminalMeters": 2051,
+      "minDistanceFromAnyTerminalMeters": 2051,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "745 Southeast 17th Street, Fort Lauderdale, FL, 33316",
+      "openingHours": "Mo-Fr 12:00-23:30; Sa-Su 13:00-21:30",
+      "website": "https://www.kuboasianstreetfood.com",
+      "phone": "+1-954-533-9017",
+      "cuisine": [
+        "chinese"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f4fd2e5695b9b95333a3",
+      "name": "Tom Jenkins BBQ",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 26.1064879,
+      "lng": -80.1367063,
+      "distanceFromTerminalMeters": 2462,
+      "distanceFromDefaultTerminalMeters": 2462,
+      "minDistanceFromAnyTerminalMeters": 2462,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1236 South Federal Highway, Fort Lauderdale, FL, 33316",
+      "openingHours": "Su-Mo 00:00-00:00; Fr-Sa 10:00-22:00; Tu-Th 11:00-20:30",
+      "website": "https://tomjenkinsbbq.net/",
+      "phone": "+1-954-522-5046",
+      "cuisine": [
+        "barbecue",
+        "steak_house"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/88d303ffebe1854bdd8e",
+      "name": "New Hong Kong Restaurant",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 26.1010755,
+      "lng": -80.1303803,
+      "distanceFromTerminalMeters": 1609,
+      "distanceFromDefaultTerminalMeters": 1609,
+      "minDistanceFromAnyTerminalMeters": 1609,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1303 Southeast 17th Street, Fort Lauderdale, FL, 33316",
+      "openingHours": "",
+      "website": "https://www.newhongkong-fl.com/",
+      "phone": "+19547288897",
+      "cuisine": [
+        "chinese"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/74981129824bb9dc080b",
+      "name": "The Galleria at Fort Lauderdale",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "mall",
+      "lat": 26.1368879,
+      "lng": -80.113584,
+      "distanceFromTerminalMeters": 4754,
+      "distanceFromDefaultTerminalMeters": 4754,
+      "minDistanceFromAnyTerminalMeters": 4754,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "2414 East Sunrise Boulevard, Fort Lauderdale, FL, 33304",
+      "openingHours": "Mo-Sa 10:00-21:00; Su 12:00-18:00",
+      "website": "https://www.galleriamall-fl.com/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "shop": "mall"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d24c1590e3c00c9f61a4",
+      "name": "Coral Ridge Mall",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "mall",
+      "lat": 26.1689126,
+      "lng": -80.1158174,
+      "distanceFromTerminalMeters": 8308,
+      "distanceFromDefaultTerminalMeters": 8308,
+      "minDistanceFromAnyTerminalMeters": 8308,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Northeast 34th Street, Fort Lauderdale, FL, 33304",
+      "openingHours": "",
+      "website": "https://www.mycoralridgemall.com/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "shop": "mall"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/1daaea0cfd3f56af5d95",
+      "name": "Marinelli Park",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 26.0825599,
+      "lng": -80.1210006,
+      "distanceFromTerminalMeters": 1380,
+      "distanceFromDefaultTerminalMeters": 1380,
+      "minDistanceFromAnyTerminalMeters": 1380,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "park"
+      }
+    }
+  ],
+  "portAnchor": {
+    "id": "ports-json-anchor",
+    "name": "Port Everglades",
+    "lat": 26.0942,
+    "lng": -80.1162,
+    "address": "1850 Eller Drive, Fort Lauderdale, FL 33316",
+    "source": "ports.json",
+    "sourceId": "",
+    "score": 0,
+    "slug": "port-everglades"
+  },
+  "terminalResolution": {
+    "status": "resolved",
+    "method": "accepted_terminal_candidate",
+    "verified": true,
+    "notes": "External port and cruise-schedule checks support passenger cruise use, and the accepted candidate ID(s) correspond to the actual cruise terminal, cruise pier, or passenger terminal used by cruise ships."
+  }
+}

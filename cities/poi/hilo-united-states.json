@@ -1,0 +1,1057 @@
+{
+  "schemaVersion": 5,
+  "catalogType": "curation-candidates",
+  "generatedAt": "2026-07-30T09:21:46.088Z",
+  "source": "openstreetmap",
+  "sourceExtract": "hawaii-latest.osm.pbf",
+  "radiusMeters": 10000,
+  "port": {
+    "id": "hilo-united-states",
+    "city": "Hilo",
+    "country": "United States"
+  },
+  "defaultTerminalId": "osm/way/146525599",
+  "terminal": {
+    "id": "osm/way/146525599",
+    "name": "Port of Hilo",
+    "nameEnglish": "",
+    "lat": 19.7303704,
+    "lng": -155.0518713,
+    "address": "Port of Hilo, Mokaoku, Hilo, Hawaiʻi County, Hawaii, United States",
+    "source": "verified_terminal_candidate",
+    "sourceId": "osm/way/146525599",
+    "terminalType": "passenger_cruise_terminal",
+    "verified": true,
+    "notes": "Accepted Port of Hilo. Cruise passengers berth in Hilo Harbor and exit through the port area; no more specific cruise-terminal candidate is supplied.",
+    "sourceUrls": [],
+    "sources": [
+      "nominatim"
+    ],
+    "sourceIds": [
+      "osm/way/146525599"
+    ],
+    "osmTags": {
+      "cargo": "container",
+      "industrial": "port"
+    },
+    "matchedBy": [
+      "Nominatim query: HILO Port, Hilo, United States"
+    ],
+    "distanceFromPortMeters": 1898
+  },
+  "terminals": [
+    {
+      "id": "osm/way/146525599",
+      "name": "Port of Hilo",
+      "nameEnglish": "",
+      "lat": 19.7303704,
+      "lng": -155.0518713,
+      "address": "Port of Hilo, Mokaoku, Hilo, Hawaiʻi County, Hawaii, United States",
+      "source": "verified_terminal_candidate",
+      "sourceId": "osm/way/146525599",
+      "terminalType": "passenger_cruise_terminal",
+      "verified": true,
+      "notes": "Accepted Port of Hilo. Cruise passengers berth in Hilo Harbor and exit through the port area; no more specific cruise-terminal candidate is supplied.",
+      "sourceUrls": [],
+      "sources": [
+        "nominatim"
+      ],
+      "sourceIds": [
+        "osm/way/146525599"
+      ],
+      "osmTags": {
+        "cargo": "container",
+        "industrial": "port"
+      },
+      "matchedBy": [
+        "Nominatim query: HILO Port, Hilo, United States"
+      ],
+      "distanceFromPortMeters": 1898
+    }
+  ],
+  "terminalCandidateRadiusMeters": 5000,
+  "terminalCandidates": [
+    {
+      "source": "nominatim",
+      "sourceId": "osm/way/146525599",
+      "osmType": "way",
+      "osmId": "146525599",
+      "name": "Port of Hilo",
+      "nameEnglish": "",
+      "lat": 19.7303704,
+      "lng": -155.0518713,
+      "distanceFromPortMeters": 1898,
+      "address": "Port of Hilo, Mokaoku, Hilo, Hawaiʻi County, Hawaii, United States",
+      "displayName": "Port of Hilo, Mokaoku, Hilo, Hawaiʻi County, Hawaii, United States",
+      "query": "HILO Port, Hilo, United States",
+      "matchedBy": [
+        "Nominatim query: HILO Port, Hilo, United States"
+      ],
+      "osmTags": {
+        "cargo": "container",
+        "industrial": "port"
+      },
+      "sources": [
+        "nominatim"
+      ],
+      "sourceIds": [
+        "osm/way/146525599"
+      ]
+    }
+  ],
+  "counts": {
+    "attraction": 12,
+    "outdoors": 6,
+    "food_drink": 12,
+    "shopping": 5,
+    "essentials": 1
+  },
+  "pois": [
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/792bafbd6de40ac0118e",
+      "name": "Wailoa Center",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 19.7193543,
+      "lng": -155.075948,
+      "distanceFromTerminalMeters": 1337,
+      "distanceFromDefaultTerminalMeters": 1337,
+      "minDistanceFromAnyTerminalMeters": 1337,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Fr 09:00-16:00; PH off",
+      "website": "https://www.wailoacenter.com/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/4678a9919a3e36e88e9f",
+      "name": "Pacific Tsunami Museum",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 19.7259284,
+      "lng": -155.0867338,
+      "distanceFromTerminalMeters": 1809,
+      "distanceFromDefaultTerminalMeters": 1809,
+      "minDistanceFromAnyTerminalMeters": 1809,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "130 Kamehameha Avenue, Hilo, HI, 96720",
+      "openingHours": "Mo-Su 10:00-16:00; Tu 09:00-16:00",
+      "website": "https://tsunami.org/",
+      "phone": "+1-808-935-0926",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/6a17811d0dfafa8436f5",
+      "name": "Kenyan K. Beale Community Robotics Center",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 19.7267156,
+      "lng": -155.0870049,
+      "distanceFromTerminalMeters": 1817,
+      "distanceFromDefaultTerminalMeters": 1817,
+      "minDistanceFromAnyTerminalMeters": 1817,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Sa 10:00-14:00",
+      "website": "https://hawaiisciencemuseum.org/kenyan-k-beals-community-robotics-center/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/092ff9ce282f722d76c9",
+      "name": "East Hawaiʻi Cultural Center",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 19.724764,
+      "lng": -155.0882109,
+      "distanceFromTerminalMeters": 1993,
+      "distanceFromDefaultTerminalMeters": 1993,
+      "minDistanceFromAnyTerminalMeters": 1993,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "141 Kalakaua Street, Hilo, HI, 96720, US",
+      "openingHours": "Tu-Fr 10:00-16:00; Sa 10:00-14:00",
+      "website": "https://www.ehcc.org/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/8294f20e9fecd6508882",
+      "name": "Lyman Museum",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 19.7221835,
+      "lng": -155.0907024,
+      "distanceFromTerminalMeters": 2335,
+      "distanceFromDefaultTerminalMeters": 2335,
+      "minDistanceFromAnyTerminalMeters": 2335,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "276 Haili Street, Hilo, HI, 96720, US",
+      "openingHours": "Mo-Fr 10:00-16:30; PH off",
+      "website": "https://lymanmuseum.com",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/7554d329b08e5805b202",
+      "name": "Mokupāpapa Discovery Center",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "aquarium",
+      "lat": 19.7266736,
+      "lng": -155.0869789,
+      "distanceFromTerminalMeters": 1815,
+      "distanceFromDefaultTerminalMeters": 1815,
+      "minDistanceFromAnyTerminalMeters": 1815,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "76 Kamehameha Avenue, Hilo, HI, 96720",
+      "openingHours": "Tu-Sa 09:00-16:00",
+      "website": "https://www.papahanaumokuakea.gov/education/center.html",
+      "phone": "+1 808 498 4709",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "aquarium"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b11546b800f8ec0f414e",
+      "name": "Extreme Exposure",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "gallery",
+      "lat": 19.7246254,
+      "lng": -155.0859996,
+      "distanceFromTerminalMeters": 1778,
+      "distanceFromDefaultTerminalMeters": 1778,
+      "minDistanceFromAnyTerminalMeters": 1778,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "224 Kamehameha Avenue, Hilo, HI, 96720",
+      "openingHours": "",
+      "website": "https://www.extremeexposure.com/",
+      "phone": "+1-808-933-8008",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "gallery"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/69a48ea16d60042975a9",
+      "name": "Waiākea Light",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "lighthouse",
+      "lat": 19.7245063,
+      "lng": -155.0708424,
+      "distanceFromTerminalMeters": 617,
+      "distanceFromDefaultTerminalMeters": 617,
+      "minDistanceFromAnyTerminalMeters": 617,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "man_made": "lighthouse"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/80b40b70000e0d749c86",
+      "name": "King Kamehameha Statue",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "monument",
+      "lat": 19.7176747,
+      "lng": -155.0774934,
+      "distanceFromTerminalMeters": 1579,
+      "distanceFromDefaultTerminalMeters": 1579,
+      "minDistanceFromAnyTerminalMeters": 1579,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "monument"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/8e0b770782180884f0f5",
+      "name": "Panaewa Rainforest Zoo",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "zoo",
+      "lat": 19.6544829,
+      "lng": -155.0742263,
+      "distanceFromTerminalMeters": 8409,
+      "distanceFromDefaultTerminalMeters": 8409,
+      "minDistanceFromAnyTerminalMeters": 8409,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "zoo"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/68abb5faa693567dad74",
+      "name": "Boiling Pots",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 19.7153925,
+      "lng": -155.1305636,
+      "distanceFromTerminalMeters": 6544,
+      "distanceFromDefaultTerminalMeters": 6544,
+      "minDistanceFromAnyTerminalMeters": 6544,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ac61c3eae0a9b4a3978c",
+      "name": "Kaumana Caves",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 19.6867967,
+      "lng": -155.1306747,
+      "distanceFromTerminalMeters": 7964,
+      "distanceFromDefaultTerminalMeters": 7964,
+      "minDistanceFromAnyTerminalMeters": 7964,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/51d62c7a0aff1fe337df",
+      "name": "Wailoa River Small Boat Harbor",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "marina",
+      "lat": 19.7222894,
+      "lng": -155.0708237,
+      "distanceFromTerminalMeters": 862,
+      "distanceFromDefaultTerminalMeters": 862,
+      "minDistanceFromAnyTerminalMeters": 862,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "marina"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/dcef9c318cc57e424484",
+      "name": "Liliʻuokalani Gardens",
+      "nameEnglish": "Liliuokalani Gardens",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 19.7260758,
+      "lng": -155.0685954,
+      "distanceFromTerminalMeters": 460,
+      "distanceFromDefaultTerminalMeters": 460,
+      "minDistanceFromAnyTerminalMeters": 460,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b62591f63d3e64902409",
+      "name": "Keaukaha Beach Park",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 19.7327152,
+      "lng": -155.0447312,
+      "distanceFromTerminalMeters": 2662,
+      "distanceFromDefaultTerminalMeters": 2662,
+      "minDistanceFromAnyTerminalMeters": 2662,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/2a2f9a91e82d8ef692cb",
+      "name": "Honoli‘i Beach",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "beach",
+      "lat": 19.7551711,
+      "lng": -155.0911094,
+      "distanceFromTerminalMeters": 3566,
+      "distanceFromDefaultTerminalMeters": 3566,
+      "minDistanceFromAnyTerminalMeters": 3566,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "natural": "beach"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/75ce3d1a4d542a24cd1e",
+      "name": "Site of Shinmachi",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "viewpoint",
+      "lat": 19.7217916,
+      "lng": -155.075657,
+      "distanceFromTerminalMeters": 1088,
+      "distanceFromDefaultTerminalMeters": 1088,
+      "minDistanceFromAnyTerminalMeters": 1088,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "viewpoint"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/a93bc22f21f7e20c860e",
+      "name": "Keikiland Park",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 19.7155017,
+      "lng": -155.0832441,
+      "distanceFromTerminalMeters": 2126,
+      "distanceFromDefaultTerminalMeters": 2126,
+      "minDistanceFromAnyTerminalMeters": 2126,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Hilo, HI, 96720",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b294480ed30871a2b762",
+      "name": "Hilo Bay Cafe",
+      "nameEnglish": "Hilo Bay Cafe",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 19.7251261,
+      "lng": -155.0705102,
+      "distanceFromTerminalMeters": 545,
+      "distanceFromDefaultTerminalMeters": 545,
+      "minDistanceFromAnyTerminalMeters": 545,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "123 Lihiwai Street, Hilo, HI, 96720",
+      "openingHours": "Tu-Sa 11:00-14:30;17:00-20:30",
+      "website": "https://hilobaycafe.com/",
+      "phone": "+1-808-935-4939",
+      "cuisine": [
+        "american",
+        "regional",
+        "sushi"
+      ],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/8fd348997240b15b32d5",
+      "name": "Nector Cafe",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 19.7247568,
+      "lng": -155.0862054,
+      "distanceFromTerminalMeters": 1794,
+      "distanceFromDefaultTerminalMeters": 1794,
+      "minDistanceFromAnyTerminalMeters": 1794,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "216 Kamehameha Avenue, Hilo, HI, 96720",
+      "openingHours": "09:00-17:30",
+      "website": "https://nectorcafe.com/",
+      "phone": "+1 808-933-4278",
+      "cuisine": [
+        "coffee_shop"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Located in back of Wild Heartist1",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b0df34a9bed59b9fbe8d",
+      "name": "Ka Lihikai",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 19.7299161,
+      "lng": -155.0648669,
+      "distanceFromTerminalMeters": 537,
+      "distanceFromDefaultTerminalMeters": 537,
+      "minDistanceFromAnyTerminalMeters": 537,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "93 Banyan Drive, Hilo, HI, 96720",
+      "openingHours": "6:30-10:30 \"breakfast\" || 11:00-15:00 \"lunch\" || 17:00-21:00 \"dinner\"",
+      "website": "https://www.grandnaniloahilo.com/dining-bar.htm",
+      "phone": "",
+      "cuisine": [
+        "american"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/2273fc0bbcab43fd7596",
+      "name": "The Coffee Cove",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 19.72726,
+      "lng": -155.0540312,
+      "distanceFromTerminalMeters": 1699,
+      "distanceFromDefaultTerminalMeters": 1699,
+      "minDistanceFromAnyTerminalMeters": 1699,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "11 Silva Street, Hilo, HI, 96720",
+      "openingHours": "06:30-17:00",
+      "website": "https://keaukahageneralstore.com/coffee-cove",
+      "phone": "+1-808-969-1169",
+      "cuisine": [
+        "coffee_shop"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/e9cd9896e432c6a25528",
+      "name": "Cafe Pesto",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 19.723717,
+      "lng": -155.0850108,
+      "distanceFromTerminalMeters": 1719,
+      "distanceFromDefaultTerminalMeters": 1719,
+      "minDistanceFromAnyTerminalMeters": 1719,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "308 Kamehameha Avenue, Hilo, HI, 96720",
+      "openingHours": "11:00-20:30",
+      "website": "https://www.cafepesto.com/",
+      "phone": "+1 808-969-6640",
+      "cuisine": [
+        "pizza",
+        "regional"
+      ],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f4b0a7e79bcd1bc30402",
+      "name": "Tina's Garden Gourmet Cafe",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 19.7254899,
+      "lng": -155.086414,
+      "distanceFromTerminalMeters": 1790,
+      "distanceFromDefaultTerminalMeters": 1790,
+      "minDistanceFromAnyTerminalMeters": 1790,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "166 Kamehameha Avenue, Hilo, HI, 96720",
+      "openingHours": "Tu-Sa 12:00-20:00",
+      "website": "http://www.tinasgardengourmetcafe.com",
+      "phone": "+1-808-935-1166",
+      "cuisine": [
+        "thai"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/3c991d27e9a5dab74686",
+      "name": "Ken's House of Pancakes",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 19.7223397,
+      "lng": -155.0647508,
+      "distanceFromTerminalMeters": 1014,
+      "distanceFromDefaultTerminalMeters": 1014,
+      "minDistanceFromAnyTerminalMeters": 1014,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "24/7",
+      "website": "http://kenshouseofpancakes.com/",
+      "phone": "",
+      "cuisine": [
+        "breakfast",
+        "regional"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/a19bcf72d331fb06dd31",
+      "name": "Coconut Grill",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 19.7235375,
+      "lng": -155.0624885,
+      "distanceFromTerminalMeters": 1065,
+      "distanceFromDefaultTerminalMeters": 1065,
+      "minDistanceFromAnyTerminalMeters": 1065,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "136 Banyan Way, Hilo, HI, 96720",
+      "openingHours": "Su-Th 08:00-21:00; Fr-Sa 08:00-22:00",
+      "website": "https://coconutgrill.shop/",
+      "phone": "+1-808-961-3330",
+      "cuisine": [
+        "american"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/10c1177efab46e1dde7f",
+      "name": "Sakura Restaurant & Grill",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 19.7208184,
+      "lng": -155.0646591,
+      "distanceFromTerminalMeters": 1164,
+      "distanceFromDefaultTerminalMeters": 1164,
+      "minDistanceFromAnyTerminalMeters": 1164,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "200 Kanoelehua Avenue, Hilo, HI, 96720",
+      "openingHours": "Mo-Th 11:00-14:00, 16:30-21:00; Fr, Sa 11:00-14:30, 16:30-21:30; Su 12:00-14:30, 16:00-20:30",
+      "website": "https://www.sakurahilo.com/",
+      "phone": "+1-808-933-8788",
+      "cuisine": [
+        "japanese"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b9e5ca9beeb6b71e48db",
+      "name": "Kuhio Grille",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 19.7202697,
+      "lng": -155.079562,
+      "distanceFromTerminalMeters": 1474,
+      "distanceFromDefaultTerminalMeters": 1474,
+      "minDistanceFromAnyTerminalMeters": 1474,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "80 Pauahi Street, Hilo, HI, 96720",
+      "openingHours": "Mo,We-Fr 09:00-19:30; Sa,Su 08:00-19:30",
+      "website": "https://www.kuhiogrille.com/",
+      "phone": "+1-808-959-2336",
+      "cuisine": [
+        "hawaiian"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ef749b27b906019bde63",
+      "name": "Poke N Sides",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 19.7229772,
+      "lng": -155.0850359,
+      "distanceFromTerminalMeters": 1757,
+      "distanceFromDefaultTerminalMeters": 1757,
+      "minDistanceFromAnyTerminalMeters": 1757,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "57 Mamo Street, Hilo, HI, 96720",
+      "openingHours": "Mo,Tu,Th,Fr 10:00-15:00; We 08:00-15:00; Sa 08:00-16:00; Su 10:00-16:00",
+      "website": "https://pokensides.com/",
+      "phone": "+1-808-238-0336",
+      "cuisine": [
+        "seafood",
+        "american"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/aed12fd991ea4f4c66f9",
+      "name": "Nim's Chiang Mai Cuisine",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 19.7217437,
+      "lng": -155.0645261,
+      "distanceFromTerminalMeters": 1082,
+      "distanceFromDefaultTerminalMeters": 1082,
+      "minDistanceFromAnyTerminalMeters": 1082,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "88 Kamehameha Avenue, Hilo, HI, 96720",
+      "openingHours": "",
+      "website": "https://www.nimsthaifoods.com/",
+      "phone": "+1-808-333-5189",
+      "cuisine": [
+        "thai"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ffc2dfabf4700036849b",
+      "name": "Hilo Town Market",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "marketplace",
+      "lat": 19.7260334,
+      "lng": -155.0874627,
+      "distanceFromTerminalMeters": 1880,
+      "distanceFromDefaultTerminalMeters": 1880,
+      "minDistanceFromAnyTerminalMeters": 1880,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "69 Waianuenue Avenue, Hilo, HI, 96720",
+      "openingHours": "Fr 17:00-21:00",
+      "website": "https://www.hilotownmarket.co",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "marketplace"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/03a0ea8091eb73eeeeba",
+      "name": "Hilo Farmers Market - Crafts",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "marketplace",
+      "lat": 19.7231904,
+      "lng": -155.0846504,
+      "distanceFromTerminalMeters": 1710,
+      "distanceFromDefaultTerminalMeters": 1710,
+      "minDistanceFromAnyTerminalMeters": 1710,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "20 Mamo Street, Hilo, HI, 96720",
+      "openingHours": "07:00-15:00",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "marketplace"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/fcc74868a6dc9044ef97",
+      "name": "Hilo Farmer's Market - Food",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "marketplace",
+      "lat": 19.7234883,
+      "lng": -155.0848757,
+      "distanceFromTerminalMeters": 1717,
+      "distanceFromDefaultTerminalMeters": 1717,
+      "minDistanceFromAnyTerminalMeters": 1717,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "20 Mamo Street, Hilo, HI, 96720",
+      "openingHours": "07:00-15:00",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "marketplace"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/a338c6399722cbe742d1",
+      "name": "Hilo Farmer's Market - Crafts",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "marketplace",
+      "lat": 19.7229124,
+      "lng": -155.0847711,
+      "distanceFromTerminalMeters": 1735,
+      "distanceFromDefaultTerminalMeters": 1735,
+      "minDistanceFromAnyTerminalMeters": 1735,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "20 Mamo Street, Hilo, HI, 96720",
+      "openingHours": "07:00-15:00",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "marketplace"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b8685367cbf69375da05",
+      "name": "Manono Street Marketplace",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "mall",
+      "lat": 19.712943,
+      "lng": -155.0693763,
+      "distanceFromTerminalMeters": 1898,
+      "distanceFromDefaultTerminalMeters": 1898,
+      "minDistanceFromAnyTerminalMeters": 1898,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "578 Hinano Street, Hilo, HI, 96720",
+      "openingHours": "",
+      "website": "https://manonostmarketplace.wordpress.com/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "shop": "mall"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/e6f841897edd85056ca0",
+      "name": "Reeds Bay Beach Park",
+      "nameEnglish": "",
+      "category": "essentials",
+      "subcategory": "visitor_information",
+      "lat": 19.7261823,
+      "lng": -155.063186,
+      "distanceFromTerminalMeters": 830,
+      "distanceFromDefaultTerminalMeters": 830,
+      "minDistanceFromAnyTerminalMeters": 830,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "information"
+      }
+    }
+  ],
+  "portAnchor": {
+    "id": "ports-json-anchor",
+    "name": "HILO Port",
+    "lat": 19.73,
+    "lng": -155.07,
+    "address": "Hilo, Hawaii, United States",
+    "source": "ports.json",
+    "sourceId": "",
+    "score": 0,
+    "slug": "hilo-port"
+  },
+  "terminalResolution": {
+    "status": "resolved",
+    "method": "accepted_terminal_candidate",
+    "verified": true,
+    "notes": "Accepted Port of Hilo. Cruise passengers berth in Hilo Harbor and exit through the port area; no more specific cruise-terminal candidate is supplied."
+  }
+}

@@ -1,0 +1,1028 @@
+{
+  "schemaVersion": 5,
+  "catalogType": "curation-candidates",
+  "generatedAt": "2026-07-30T08:46:33.969Z",
+  "source": "openstreetmap",
+  "sourceExtract": "portugal-latest.osm.pbf",
+  "radiusMeters": 10000,
+  "port": {
+    "id": "funchal-portugal",
+    "city": "Funchal",
+    "country": "Portugal"
+  },
+  "defaultTerminalId": "manual/funchal-portugal/gare-mar-tima-da-madeira",
+  "terminal": {
+    "id": "manual/funchal-portugal/gare-mar-tima-da-madeira",
+    "name": "Gare Marítima da Madeira",
+    "nameEnglish": "",
+    "lat": 32.64166,
+    "lng": -16.91316,
+    "address": "",
+    "source": "manual_web_research",
+    "sourceId": "manual/funchal-portugal/gare-mar-tima-da-madeira",
+    "terminalType": "passenger_cruise_terminal",
+    "verified": true,
+    "notes": "Main passenger terminal at the Port of Funchal. Coordinate marks the landside terminal entrance.",
+    "sourceUrls": [
+      "https://apram.pt/site/index.php/en/ports/cruise-terminal",
+      "https://www.openstreetmap.org/?mlat=32.64166&mlon=-16.91316#map=17/32.64166/-16.91316"
+    ],
+    "sources": [
+      "manual_web_research"
+    ],
+    "sourceIds": [
+      "manual/funchal-portugal/gare-mar-tima-da-madeira"
+    ],
+    "osmTags": {},
+    "matchedBy": [
+      "web_researched_terminal"
+    ],
+    "distanceFromPortMeters": null
+  },
+  "terminals": [
+    {
+      "id": "manual/funchal-portugal/gare-mar-tima-da-madeira",
+      "name": "Gare Marítima da Madeira",
+      "nameEnglish": "",
+      "lat": 32.64166,
+      "lng": -16.91316,
+      "address": "",
+      "source": "manual_web_research",
+      "sourceId": "manual/funchal-portugal/gare-mar-tima-da-madeira",
+      "terminalType": "passenger_cruise_terminal",
+      "verified": true,
+      "notes": "Main passenger terminal at the Port of Funchal. Coordinate marks the landside terminal entrance.",
+      "sourceUrls": [
+        "https://apram.pt/site/index.php/en/ports/cruise-terminal",
+        "https://www.openstreetmap.org/?mlat=32.64166&mlon=-16.91316#map=17/32.64166/-16.91316"
+      ],
+      "sources": [
+        "manual_web_research"
+      ],
+      "sourceIds": [
+        "manual/funchal-portugal/gare-mar-tima-da-madeira"
+      ],
+      "osmTags": {},
+      "matchedBy": [
+        "web_researched_terminal"
+      ],
+      "distanceFromPortMeters": null
+    }
+  ],
+  "terminalCandidateRadiusMeters": 5000,
+  "terminalCandidates": [
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f7a8ba40f97844b7713b",
+      "name": "Funchal",
+      "nameEnglish": "",
+      "lat": 32.6413878,
+      "lng": -16.9166631,
+      "distanceFromPortMeters": 1304,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "cargo": "RoRo",
+        "ferry": "yes",
+        "operator": "Porto Santo Line",
+        "public_transport": "stop_position"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/f7a8ba40f97844b7713b"
+      ]
+    }
+  ],
+  "counts": {
+    "attraction": 14,
+    "outdoors": 4,
+    "food_drink": 12,
+    "shopping": 4,
+    "essentials": 1
+  },
+  "pois": [
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d018ca776a6fa3b8be7d",
+      "name": "Museu Imersivo da Madeira",
+      "nameEnglish": "Immersive Museum of Madeira",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 32.6483738,
+      "lng": -16.9132452,
+      "distanceFromTerminalMeters": 2139,
+      "distanceFromDefaultTerminalMeters": 2139,
+      "minDistanceFromAnyTerminalMeters": 2139,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "98 Rua dos Aranhas, Funchal",
+      "openingHours": "Mo-Sa 10:00-20:00; Su 10:00-18:00",
+      "website": "https://imom.pt/",
+      "phone": "+351 961 369 745",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d9ed189f0472049bc0d1",
+      "name": "Museu da Fotografia \"Vicentes\"",
+      "nameEnglish": "Vicentes Photography Museum",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 32.6488929,
+      "lng": -16.9102919,
+      "distanceFromTerminalMeters": 2289,
+      "distanceFromDefaultTerminalMeters": 2289,
+      "minDistanceFromAnyTerminalMeters": 2289,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "43 Rua da Carreira",
+      "openingHours": "Tu-Sa 10:00-17:00; PH closed",
+      "website": "http://museufotografia.madeira.gov.pt/",
+      "phone": "+351291145325",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/0cae198d021651b6df4d",
+      "name": "Museu da Electricidade",
+      "nameEnglish": "Electricity Museum",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 32.6475249,
+      "lng": -16.9040789,
+      "distanceFromTerminalMeters": 2454,
+      "distanceFromDefaultTerminalMeters": 2454,
+      "minDistanceFromAnyTerminalMeters": 2454,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "2 Rua da Casa da Luz, Funchal, 9050-029",
+      "openingHours": "Tu-Sa 10:00-12:30,14:00-18:00; Su-Mo,PH off",
+      "website": "https://museucasadaluz.pt",
+      "phone": "+351 291 211 480",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ad649ae391b5ffca7e08",
+      "name": "Museu CR7",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 32.6441177,
+      "lng": -16.9138473,
+      "distanceFromTerminalMeters": 1672,
+      "distanceFromDefaultTerminalMeters": 1672,
+      "minDistanceFromAnyTerminalMeters": 1672,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "27 Avenida Sá Carneiro, Funchal, 9000-017",
+      "openingHours": "Mo-Sa 10:00-17:00",
+      "website": "https://www.museucr7.com/",
+      "phone": "+351 291 639 880",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/5f61b57935796069a0a0",
+      "name": "Museu Militar da Madeira",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 32.6470381,
+      "lng": -16.9101906,
+      "distanceFromTerminalMeters": 2105,
+      "distanceFromDefaultTerminalMeters": 2105,
+      "minDistanceFromAnyTerminalMeters": 2105,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "5 Avenida Zarco, Funchal, 9004-903",
+      "openingHours": "Mo-Fr 10:00-16:30",
+      "website": "https://cultura.madeira.gov.pt/museu-militar-da-madeira.html",
+      "phone": "+351 291 204 902",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/25e3037c52c0f585cfaf",
+      "name": "Museu Henrique e Francisco Franco",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 32.6515167,
+      "lng": -16.9039364,
+      "distanceFromTerminalMeters": 2826,
+      "distanceFromDefaultTerminalMeters": 2826,
+      "minDistanceFromAnyTerminalMeters": 2826,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "13 Rua de João de Deus, Funchal, 9000-028",
+      "openingHours": "Mo-Fr 09:00-17:30; Sa-Su,PH off",
+      "website": "https://visit.funchal.pt/item/museu-henrique-e-francisco-franco/",
+      "phone": "+351 291 211 090",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Este museu possui uma ampla coleção de pinturas a óleo, desenhos, gravuras e pequenos frescos da autoria dos irmãos Henrique e Francisco Franco. Última entrada às 17:00.",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/e6eb5fb7ff7986826272",
+      "name": "Teleférico do Funchal",
+      "nameEnglish": "Funchal Cable Car",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 32.661339,
+      "lng": -16.9011933,
+      "distanceFromTerminalMeters": 3904,
+      "distanceFromDefaultTerminalMeters": 3904,
+      "minDistanceFromAnyTerminalMeters": 3904,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "08:45-17:45",
+      "website": "https://madeiracablecar.com/",
+      "phone": "+351 291 780 280",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/202da885745fb7d42129",
+      "name": "Fortaleza do Pico",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "fort",
+      "lat": 32.6508768,
+      "lng": -16.9163852,
+      "distanceFromTerminalMeters": 2346,
+      "distanceFromDefaultTerminalMeters": 2346,
+      "minDistanceFromAnyTerminalMeters": 2346,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Fr 10:00-12:30,14:00-17:00",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "fort"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/bd61ce9e44b55a2272b3",
+      "name": "Forte São José",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "fort",
+      "lat": 32.641262,
+      "lng": -16.917713,
+      "distanceFromTerminalMeters": 1270,
+      "distanceFromDefaultTerminalMeters": 1270,
+      "minDistanceFromAnyTerminalMeters": 1270,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "fort"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/3e69e6212edfef6b18d0",
+      "name": "Forte de São Lourenço",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "fort",
+      "lat": 32.647259,
+      "lng": -16.9102644,
+      "distanceFromTerminalMeters": 2125,
+      "distanceFromDefaultTerminalMeters": 2125,
+      "minDistanceFromAnyTerminalMeters": 2125,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "fort"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/db9db0c53a095ceba7ce",
+      "name": "Teatro Municipal Baltazar Dias",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 32.6469444,
+      "lng": -16.9114181,
+      "distanceFromTerminalMeters": 2048,
+      "distanceFromDefaultTerminalMeters": 2048,
+      "minDistanceFromAnyTerminalMeters": 2048,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "45 Avenida Arriaga",
+      "openingHours": "",
+      "website": "https://teatrobaltazardias.funchal.pt/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "theatre",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d90cdd063e8830920917",
+      "name": "Bateria de Costa",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "monument",
+      "lat": 32.6412391,
+      "lng": -16.9374553,
+      "distanceFromTerminalMeters": 2058,
+      "distanceFromDefaultTerminalMeters": 2058,
+      "minDistanceFromAnyTerminalMeters": 2058,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "http://www.exercito.pt/sites/RG3/Actividades/Paginas/Actividades_2.aspx",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "monument"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/77e66bda85a4dee25c48",
+      "name": "30 Anos de Autonomia",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "monument",
+      "lat": 32.648464,
+      "lng": -16.9172209,
+      "distanceFromTerminalMeters": 2070,
+      "distanceFromDefaultTerminalMeters": 2070,
+      "minDistanceFromAnyTerminalMeters": 2070,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "monument"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/6568621ef104f8e986a6",
+      "name": "Marina Molhe E Head",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "lighthouse",
+      "lat": 32.6447534,
+      "lng": -16.9107481,
+      "distanceFromTerminalMeters": 1855,
+      "distanceFromDefaultTerminalMeters": 1855,
+      "minDistanceFromAnyTerminalMeters": 1855,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "man_made": "lighthouse"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/367ed831ba089afd8975",
+      "name": "Torre da Igreja do Colégio",
+      "nameEnglish": "Church Tower",
+      "category": "outdoors",
+      "subcategory": "viewpoint",
+      "lat": 32.6498768,
+      "lng": -16.9088871,
+      "distanceFromTerminalMeters": 2443,
+      "distanceFromDefaultTerminalMeters": 2443,
+      "minDistanceFromAnyTerminalMeters": 2443,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Fr 10:00-16:00",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "limited",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "viewpoint"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/56a48f3446c0057d5e41",
+      "name": "Jardim da Fortalezza do Pico",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "garden",
+      "lat": 32.6509764,
+      "lng": -16.9166817,
+      "distanceFromTerminalMeters": 2353,
+      "distanceFromDefaultTerminalMeters": 2353,
+      "minDistanceFromAnyTerminalMeters": 2353,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Su 09:00-20:00",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "garden"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/a6c0cfa4d0ee0ad2d584",
+      "name": "Lido Nascente",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "viewpoint",
+      "lat": 32.6359444,
+      "lng": -16.9317872,
+      "distanceFromTerminalMeters": 1287,
+      "distanceFromDefaultTerminalMeters": 1287,
+      "minDistanceFromAnyTerminalMeters": 1287,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "viewpoint"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/9149b5485b30cb6354d5",
+      "name": "Lido Poente",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "viewpoint",
+      "lat": 32.6360814,
+      "lng": -16.9343251,
+      "distanceFromTerminalMeters": 1502,
+      "distanceFromDefaultTerminalMeters": 1502,
+      "minDistanceFromAnyTerminalMeters": 1502,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "no",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "viewpoint"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c3ac6e20d6dbf929a54f",
+      "name": "Atlantic Restaurant",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 32.6372777,
+      "lng": -16.9289719,
+      "distanceFromTerminalMeters": 1166,
+      "distanceFromDefaultTerminalMeters": 1166,
+      "minDistanceFromAnyTerminalMeters": 1166,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "179 Estrada Monumental, Funchal, 9000-100",
+      "openingHours": "Mo-Su 10:00-22:00",
+      "website": "https://www.instagram.com/atlantic.restaurante",
+      "phone": "+351 291 761 703",
+      "cuisine": [
+        "mediterranean"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Mediterranean cuisine with a strong portuguese flavour. Relaxed atmosphere with a unique view over the ocean.",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/db55ec0e949fd6fd1c5d",
+      "name": "Hoyo Hoyo Flavours of Mozambique",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 32.6371979,
+      "lng": -16.9432886,
+      "distanceFromTerminalMeters": 2323,
+      "distanceFromDefaultTerminalMeters": 2323,
+      "minDistanceFromAnyTerminalMeters": 2323,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "35 Rua do Vale D'Ajuda, São Martinho, 9000-116",
+      "openingHours": "Mo-Fr 12:30-15:00,18:00-22:30; Sa 12:00-15:30,18:00-22:30",
+      "website": "https://instagram.com/hoyohoyomadeira",
+      "phone": "+351 291 644 688",
+      "cuisine": [
+        "african"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Mozambique Food",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/3d5453971771b5c67854",
+      "name": "Ciao Pizzeria",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 32.6488089,
+      "lng": -16.9059473,
+      "distanceFromTerminalMeters": 2471,
+      "distanceFromDefaultTerminalMeters": 2471,
+      "minDistanceFromAnyTerminalMeters": 2471,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "35 Rua Direita, Funchal, 9050-450",
+      "openingHours": "Mo-Sa 11:30-22:00",
+      "website": "https://www.instagram.com/ciaopizzeriafunchal",
+      "phone": "+351 291 619 007",
+      "cuisine": [
+        "pizza"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Small but mighty",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/3b80eaf7867f6fd543ae",
+      "name": "Casal da Penha",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 32.6429158,
+      "lng": -16.9193626,
+      "distanceFromTerminalMeters": 1437,
+      "distanceFromDefaultTerminalMeters": 1437,
+      "minDistanceFromAnyTerminalMeters": 1437,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1 Beco do Ataide, Funchal, 9000-014",
+      "openingHours": "Mo-Su 11:00-00:00",
+      "website": "https://www.casaldapenha.com/",
+      "phone": "+351 291 227 674",
+      "cuisine": [
+        "portuguese"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/de8cb1bfd8a46c491309",
+      "name": "The Vanscape Gastrobar",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 32.6431443,
+      "lng": -16.9201137,
+      "distanceFromTerminalMeters": 1462,
+      "distanceFromDefaultTerminalMeters": 1462,
+      "minDistanceFromAnyTerminalMeters": 1462,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "110 Rua Imperatriz Dona Amélia, Funchal, 9000-018",
+      "openingHours": "Mo-Sa 11:00-24:00, Fr-Sa 11:00-02:00",
+      "website": "https://www.instagram.com/vanscapegastrobar/",
+      "phone": "+351 925 185 245",
+      "cuisine": [
+        "snackbar",
+        "snack"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/1f41b84200d57a88c988",
+      "name": "Casa Velha",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 32.6440049,
+      "lng": -16.9178224,
+      "distanceFromTerminalMeters": 1571,
+      "distanceFromDefaultTerminalMeters": 1571,
+      "minDistanceFromAnyTerminalMeters": 1571,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "69 Rua Imperatriz Dona Amélia, Funchal",
+      "openingHours": "12:00-15:00,18:00-23:00",
+      "website": "https://www.casavelharestaurant.com",
+      "phone": "+351 291205600",
+      "cuisine": [
+        "regional"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/a41ac0bbfe699b90e2ea",
+      "name": "Jin Garden",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 32.6441612,
+      "lng": -16.9146081,
+      "distanceFromTerminalMeters": 1654,
+      "distanceFromDefaultTerminalMeters": 1654,
+      "minDistanceFromAnyTerminalMeters": 1654,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "3 Avenida Sá Carneiro, Funchal",
+      "openingHours": "Mo-Su 16:00-02:00",
+      "website": "https://www.jingarden.pt/",
+      "phone": "",
+      "cuisine": [
+        "japanese",
+        "asian"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/93df362161e0d388da3b",
+      "name": "Le Bistrot Jacarandá",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 32.6451247,
+      "lng": -16.9173787,
+      "distanceFromTerminalMeters": 1700,
+      "distanceFromDefaultTerminalMeters": 1700,
+      "minDistanceFromAnyTerminalMeters": 1700,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "28F Avenida do Infante, Funchal, 9000-015",
+      "openingHours": "Mo-Su 12:00-23:00, Sa Closed",
+      "website": "https://www.facebook.com/bistrotmadeira",
+      "phone": "+351 291 644 270",
+      "cuisine": [
+        "international"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/56cfa3aa80b64512022d",
+      "name": "Why Not?",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 32.6452494,
+      "lng": -16.9171342,
+      "distanceFromTerminalMeters": 1717,
+      "distanceFromDefaultTerminalMeters": 1717,
+      "minDistanceFromAnyTerminalMeters": 1717,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "28 Avenida do Infante, Funchal, 9000-015",
+      "openingHours": "Mo-Fr 12:00-22:30",
+      "website": "https://whynotgrill.com",
+      "phone": "+351 291 627 590",
+      "cuisine": [
+        "grill"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/23a94151429e581f8976",
+      "name": "Konsai",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 32.6473196,
+      "lng": -16.9094741,
+      "distanceFromTerminalMeters": 2163,
+      "distanceFromDefaultTerminalMeters": 2163,
+      "minDistanceFromAnyTerminalMeters": 2163,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "2 Avenida Zarco, Funchal, 9000-069",
+      "openingHours": "Mo-Sa 12:00-16:00,18:00-22:00, Su off",
+      "website": "https://konsaisushi.pt",
+      "phone": "+351 291 649 497",
+      "cuisine": [
+        "sushi"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/469526968ddaeb0dca9a",
+      "name": "Trigal",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 32.6487227,
+      "lng": -16.9134832,
+      "distanceFromTerminalMeters": 2169,
+      "distanceFromDefaultTerminalMeters": 2169,
+      "minDistanceFromAnyTerminalMeters": 2169,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "65 Rua dos Aranhas, Funchal, 9000-042",
+      "openingHours": "Mo-Fr 11:00-23:00",
+      "website": "www.alojamentolocaltrigal.pt",
+      "phone": "+351 291 225 736",
+      "cuisine": [
+        "italian"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ce21a5598531e8474052",
+      "name": "The Garden Grill",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 32.6428145,
+      "lng": -16.9211054,
+      "distanceFromTerminalMeters": 1429,
+      "distanceFromDefaultTerminalMeters": 1429,
+      "minDistanceFromAnyTerminalMeters": 1429,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "119 Rua Imperatriz Dona Amélia, São Martinho, 9000-018",
+      "openingHours": "Mo-Sa 12:30-20:30",
+      "website": "https://gardengrillfunchal.com/",
+      "phone": "+351 934 253 092",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/33b4f3beabb88ccb0c11",
+      "name": "Plaza Madeira",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "mall",
+      "lat": 32.64772,
+      "lng": -16.9140308,
+      "distanceFromTerminalMeters": 2048,
+      "distanceFromDefaultTerminalMeters": 2048,
+      "minDistanceFromAnyTerminalMeters": 2048,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "9 Rua Doutor João Brito Câmara, Funchal, 9000-039, PT",
+      "openingHours": "Mo-Su,PH 08:00-22:00; Dec 24,Dec 31 09:00-19:00; Dec 25,Jan 01 off",
+      "website": "https://plazamadeira.pt/",
+      "phone": "+351 291 215 420",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "shop": "mall"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/e86805d0492aaffd79d6",
+      "name": "Galerias São Lourenço",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "mall",
+      "lat": 32.647064,
+      "lng": -16.9109728,
+      "distanceFromTerminalMeters": 2077,
+      "distanceFromDefaultTerminalMeters": 2077,
+      "minDistanceFromAnyTerminalMeters": 2077,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "45A Avenida Arriaga, Funchal, 9000-045",
+      "openingHours": "Mo-Fr 08:30-20:30; Sa-Su 08:30-19:30",
+      "website": "https://galeriassaolourenco.pt/",
+      "phone": "+351 291 200 600;+351 291 200 601",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "shop": "mall"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/04f1dbb66a70151a7df3",
+      "name": "Centro Comercial Europa",
+      "nameEnglish": "Europa Shopping Center",
+      "category": "shopping",
+      "subcategory": "mall",
+      "lat": 32.6506878,
+      "lng": -16.907538,
+      "distanceFromTerminalMeters": 2579,
+      "distanceFromDefaultTerminalMeters": 2579,
+      "minDistanceFromAnyTerminalMeters": 2579,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "8-10 Rua do Bom Jesus, Funchal, 9050-028",
+      "openingHours": "Mo-Fr 07:00-22:45; Sa 07:00-21:00; Su 08:30-15:00",
+      "website": "",
+      "phone": "+351 291 221 142",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "shop": "mall"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/afa88a0d37d5efa91166",
+      "name": "Mercado dos Lavradores",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "marketplace",
+      "lat": 32.6486988,
+      "lng": -16.9037873,
+      "distanceFromTerminalMeters": 2574,
+      "distanceFromDefaultTerminalMeters": 2574,
+      "minDistanceFromAnyTerminalMeters": 2574,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Rua Brigadeiro Oudinot, Funchal",
+      "openingHours": "Mo-Fr 07:00-19:00; Sa 07:00-14:00",
+      "website": "https://mercados.cm-funchal.pt/",
+      "phone": "+351 291 214 080",
+      "cuisine": [],
+      "wheelchair": "limited",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "marketplace",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/cfa96e24fec50bfd892a",
+      "name": "Direção Regional de Turismo",
+      "nameEnglish": "Regional Directorate of Tourism",
+      "category": "essentials",
+      "subcategory": "visitor_information",
+      "lat": 32.6479506,
+      "lng": -16.9104328,
+      "distanceFromTerminalMeters": 2188,
+      "distanceFromDefaultTerminalMeters": 2188,
+      "minDistanceFromAnyTerminalMeters": 2188,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "18 Avenida Arriaga, Funchal, 9004-519",
+      "openingHours": "Mo-Fr 09:00-20:00; Sa-Su 09:00-15:30",
+      "website": "https://www.madeira.gov.pt/drt",
+      "phone": "+351 291 145 300",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "information"
+      }
+    }
+  ],
+  "portAnchor": {
+    "id": "ports-json-anchor",
+    "name": "FUNCHAL Port",
+    "lat": 32.63,
+    "lng": -16.92,
+    "address": "Funchal, Madeira, Portugal",
+    "source": "ports.json",
+    "sourceId": "",
+    "score": 0,
+    "slug": "funchal-port"
+  },
+  "terminalResolution": {
+    "status": "resolved",
+    "method": "manual_web_research",
+    "verified": true,
+    "notes": "Terminal records were added from researched cruise-port sources because no supplied candidate accurately represented the passenger arrival point."
+  }
+}

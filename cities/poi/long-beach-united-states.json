@@ -1,0 +1,1261 @@
+{
+  "schemaVersion": 5,
+  "catalogType": "curation-candidates",
+  "generatedAt": "2026-07-30T08:54:02.848Z",
+  "source": "openstreetmap",
+  "sourceExtract": "socal-latest.osm.pbf",
+  "radiusMeters": 10000,
+  "port": {
+    "id": "long-beach-united-states",
+    "city": "Long Beach",
+    "country": "United States"
+  },
+  "defaultTerminalId": "osm/relation/6573072",
+  "terminal": {
+    "id": "osm/relation/6573072",
+    "name": "Long Beach Cruise Terminal",
+    "nameEnglish": "Long Beach Cruise Terminal",
+    "lat": 33.7512511,
+    "lng": -118.1888636,
+    "address": "Long Beach Cruise Terminal, 231, Windsor Way, Long Beach, Los Angeles County, California, 90802, United States",
+    "source": "verified_terminal_candidate",
+    "sourceId": "osm/relation/6573072",
+    "terminalType": "passenger_cruise_terminal",
+    "verified": true,
+    "notes": "Accepted 1 candidate explicitly identified as an ocean-cruise or cruise-passenger terminal; ferry and unrelated results were excluded.",
+    "sourceUrls": [],
+    "sources": [
+      "nominatim"
+    ],
+    "sourceIds": [
+      "osm/relation/6573072"
+    ],
+    "osmTags": {},
+    "matchedBy": [
+      "Nominatim query: Long Beach cruise terminal, United States"
+    ],
+    "distanceFromPortMeters": 2240
+  },
+  "terminals": [
+    {
+      "id": "osm/relation/6573072",
+      "name": "Long Beach Cruise Terminal",
+      "nameEnglish": "Long Beach Cruise Terminal",
+      "lat": 33.7512511,
+      "lng": -118.1888636,
+      "address": "Long Beach Cruise Terminal, 231, Windsor Way, Long Beach, Los Angeles County, California, 90802, United States",
+      "source": "verified_terminal_candidate",
+      "sourceId": "osm/relation/6573072",
+      "terminalType": "passenger_cruise_terminal",
+      "verified": true,
+      "notes": "Accepted 1 candidate explicitly identified as an ocean-cruise or cruise-passenger terminal; ferry and unrelated results were excluded.",
+      "sourceUrls": [],
+      "sources": [
+        "nominatim"
+      ],
+      "sourceIds": [
+        "osm/relation/6573072"
+      ],
+      "osmTags": {},
+      "matchedBy": [
+        "Nominatim query: Long Beach cruise terminal, United States"
+      ],
+      "distanceFromPortMeters": 2240
+    }
+  ],
+  "terminalCandidateRadiusMeters": 5000,
+  "terminalCandidates": [
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/03757e98d1950b57320e",
+      "name": "Shoreline Village Dock 9",
+      "nameEnglish": "",
+      "lat": 33.7602595,
+      "lng": -118.1921789,
+      "distanceFromPortMeters": 1562,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/03757e98d1950b57320e"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/26b89b16d1a25e5be37d",
+      "name": "Aquarium Dock 4",
+      "nameEnglish": "",
+      "lat": 33.762092,
+      "lng": -118.1942752,
+      "distanceFromPortMeters": 1586,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/26b89b16d1a25e5be37d"
+      ]
+    },
+    {
+      "source": "nominatim",
+      "sourceId": "osm/way/1030508593",
+      "osmType": "way",
+      "osmId": "1030508593",
+      "name": "Port of Long Beach",
+      "nameEnglish": "",
+      "lat": 33.7676708,
+      "lng": -118.196978,
+      "distanceFromPortMeters": 1591,
+      "address": "Port of Long Beach, 415, West Ocean Boulevard, Long Beach, Los Angeles County, California, 90802, United States",
+      "displayName": "Port of Long Beach, 415, West Ocean Boulevard, Long Beach, Los Angeles County, California, 90802, United States",
+      "query": "LONG BEACH Port, Long Beach, United States",
+      "matchedBy": [
+        "Nominatim query: LONG BEACH Port, Long Beach, United States"
+      ],
+      "osmTags": {
+        "building": "yes"
+      },
+      "sources": [
+        "nominatim"
+      ],
+      "sourceIds": [
+        "osm/way/1030508593"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ebc64f5861cc383c131a",
+      "name": "Catalina Express",
+      "nameEnglish": "",
+      "lat": 33.7635049,
+      "lng": -118.1992743,
+      "distanceFromPortMeters": 1922,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/ebc64f5861cc383c131a"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/0b91334be1beb58458c1",
+      "name": "Catalina Express Long Beach Downtown Landing",
+      "nameEnglish": "",
+      "lat": 33.7633617,
+      "lng": -118.1993614,
+      "distanceFromPortMeters": 1936,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/0b91334be1beb58458c1"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f5c67d3148be91332584",
+      "name": "Queen Mary",
+      "nameEnglish": "",
+      "lat": 33.7537134,
+      "lng": -118.1921887,
+      "distanceFromPortMeters": 2133,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/f5c67d3148be91332584"
+      ]
+    },
+    {
+      "source": "nominatim",
+      "sourceId": "osm/relation/6573072",
+      "osmType": "relation",
+      "osmId": "6573072",
+      "name": "Long Beach Cruise Terminal",
+      "nameEnglish": "Long Beach Cruise Terminal",
+      "lat": 33.7512511,
+      "lng": -118.1888636,
+      "distanceFromPortMeters": 2240,
+      "address": "Long Beach Cruise Terminal, 231, Windsor Way, Long Beach, Los Angeles County, California, 90802, United States",
+      "displayName": "Long Beach Cruise Terminal, 231, Windsor Way, Long Beach, Los Angeles County, California, 90802, United States",
+      "query": "Long Beach cruise terminal, United States",
+      "matchedBy": [
+        "Nominatim query: Long Beach cruise terminal, United States"
+      ],
+      "osmTags": {},
+      "sources": [
+        "nominatim"
+      ],
+      "sourceIds": [
+        "osm/relation/6573072"
+      ]
+    },
+    {
+      "source": "nominatim",
+      "sourceId": "osm/way/724234154",
+      "osmType": "way",
+      "osmId": "724234154",
+      "name": "Port of Long Beach Fire Station 20",
+      "nameEnglish": "",
+      "lat": 33.7613589,
+      "lng": -118.2180741,
+      "distanceFromPortMeters": 3648,
+      "address": "Port of Long Beach Fire Station 20, Pier D West Avenue, Long Beach, Los Angeles County, California, 90831, United States",
+      "displayName": "Port of Long Beach Fire Station 20, Pier D West Avenue, Long Beach, Los Angeles County, California, 90831, United States",
+      "query": "LONG BEACH Port, Long Beach, United States",
+      "matchedBy": [
+        "Nominatim query: LONG BEACH Port, Long Beach, United States"
+      ],
+      "osmTags": {
+        "building": "yes"
+      },
+      "sources": [
+        "nominatim"
+      ],
+      "sourceIds": [
+        "osm/way/724234154"
+      ]
+    },
+    {
+      "source": "nominatim",
+      "sourceId": "osm/node/358822176",
+      "osmType": "node",
+      "osmId": "358822176",
+      "name": "Port of Long Beach",
+      "nameEnglish": "",
+      "lat": 33.7536997,
+      "lng": -118.216561,
+      "distanceFromPortMeters": 3835,
+      "address": "Port of Long Beach, Long Beach, Los Angeles County, California, 90831, United States",
+      "displayName": "Port of Long Beach, Long Beach, Los Angeles County, California, 90831, United States",
+      "query": "LONG BEACH Port, Long Beach, United States",
+      "matchedBy": [
+        "Nominatim query: LONG BEACH Port, Long Beach, United States"
+      ],
+      "osmTags": {},
+      "sources": [
+        "nominatim"
+      ],
+      "sourceIds": [
+        "osm/node/358822176"
+      ]
+    }
+  ],
+  "counts": {
+    "attraction": 18,
+    "outdoors": 5,
+    "food_drink": 12,
+    "shopping": 2,
+    "essentials": 0
+  },
+  "pois": [
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d4a6eae92380bcf4e75d",
+      "name": "Museum of Latin American Art",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 33.7745764,
+      "lng": -118.179678,
+      "distanceFromTerminalMeters": 510,
+      "distanceFromDefaultTerminalMeters": 510,
+      "minDistanceFromAnyTerminalMeters": 510,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "CA",
+      "openingHours": "",
+      "website": "https://molaa.org/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/a3d1a353896f119c0aff",
+      "name": "Long Beach Museum of Art",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 33.7634748,
+      "lng": -118.1647817,
+      "distanceFromTerminalMeters": 1583,
+      "distanceFromDefaultTerminalMeters": 1583,
+      "minDistanceFromAnyTerminalMeters": 1583,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "2300 East Ocean Boulevard, Long Beach, CA, 90803",
+      "openingHours": "Th-Su 11:00-17:00",
+      "website": "https://www.lbma.org/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/89137450e462ec75ea35",
+      "name": "Pacific Island Ethnic Art Museum",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 33.7751642,
+      "lng": -118.1804467,
+      "distanceFromTerminalMeters": 576,
+      "distanceFromDefaultTerminalMeters": 576,
+      "minDistanceFromAnyTerminalMeters": 576,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "695 Alamitos Avenue, Long Beach, 90802",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d75085076889d9b55836",
+      "name": "Grand Prix of Long Beach Podium",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 33.7638034,
+      "lng": -118.185422,
+      "distanceFromTerminalMeters": 852,
+      "distanceFromDefaultTerminalMeters": 852,
+      "minDistanceFromAnyTerminalMeters": 852,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/bf79a0402b32fe9628aa",
+      "name": "Aquarium of the Pacific",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "aquarium",
+      "lat": 33.7619955,
+      "lng": -118.1971331,
+      "distanceFromTerminalMeters": 1817,
+      "distanceFromDefaultTerminalMeters": 1817,
+      "minDistanceFromAnyTerminalMeters": 1817,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Su 11:00-17:00+",
+      "website": "https://www.aquariumofpacific.org/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "designated",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "aquarium"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/7cc55130710b41b66374",
+      "name": "Dark Arts Emporium",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "gallery",
+      "lat": 33.7682803,
+      "lng": -118.1867658,
+      "distanceFromTerminalMeters": 654,
+      "distanceFromDefaultTerminalMeters": 654,
+      "minDistanceFromAnyTerminalMeters": 654,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "gallery"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/1ea47058f46facf45863",
+      "name": "Carroll Park Historic Landmark District",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "district",
+      "lat": 33.7699038,
+      "lng": -118.1635451,
+      "distanceFromTerminalMeters": 1521,
+      "distanceFromDefaultTerminalMeters": 1521,
+      "minDistanceFromAnyTerminalMeters": 1521,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "https://www.carrollpark.org/history",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "district"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f2cdd93743b231cb758e",
+      "name": "B-427 Scorpion",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 33.7533053,
+      "lng": -118.1914297,
+      "distanceFromTerminalMeters": 2136,
+      "distanceFromDefaultTerminalMeters": 2136,
+      "minDistanceFromAnyTerminalMeters": 2136,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "closed",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "ship",
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d7a1ac276c7c0c36e41c",
+      "name": "Long Beach Professional Building",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "building",
+      "lat": 33.7767359,
+      "lng": -118.1920193,
+      "distanceFromTerminalMeters": 1340,
+      "distanceFromDefaultTerminalMeters": 1340,
+      "minDistanceFromAnyTerminalMeters": 1340,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "800 Pine Avenue, Long Beach, CA, 90813",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "building"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/46fb861b1912d208bab4",
+      "name": "After the Storm",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "artwork",
+      "lat": 33.8061702,
+      "lng": -118.1519236,
+      "distanceFromTerminalMeters": 4786,
+      "distanceFromDefaultTerminalMeters": 4786,
+      "minDistanceFromAnyTerminalMeters": 4786,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "www://www.lacountyarts.org/experiences/civic-art",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "The Long Beach Mental Health Center features  artworks that provide warmth, contribute to the healing process and reduce stress. The 18 works in the collection are by local artists, with an emphasis on abstract work evoking the California landscape.",
+      "osmTags": {
+        "tourism": "artwork"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/4d845ce4667c51a8a97b",
+      "name": "Una Flecha de la Bruja II",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "artwork",
+      "lat": 33.8061704,
+      "lng": -118.1519287,
+      "distanceFromTerminalMeters": 4786,
+      "distanceFromDefaultTerminalMeters": 4786,
+      "minDistanceFromAnyTerminalMeters": 4786,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "https://www.lacountyarts.org/experiences/civic-art",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "The Long Beach Mental Health Center features artworks that provide warmth, contribute to the healing process and reduce stress. The 18 works in the collection are by local artists, with an emphasis on abstract work evoking the California landscape.",
+      "osmTags": {
+        "tourism": "artwork"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b8606e45699c6fc27d21",
+      "name": "Long Beach Lifeguard Museum",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 33.7649916,
+      "lng": -118.1273391,
+      "distanceFromTerminalMeters": 4900,
+      "distanceFromDefaultTerminalMeters": 4900,
+      "minDistanceFromAnyTerminalMeters": 4900,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "5260 East Paoli Way",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/36a841ea14213bbf4272",
+      "name": "The Queen Mary Ship",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 33.7527617,
+      "lng": -118.1896891,
+      "distanceFromTerminalMeters": 2116,
+      "distanceFromDefaultTerminalMeters": 2116,
+      "minDistanceFromAnyTerminalMeters": 2116,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c8075170112b027db36a",
+      "name": "Lone Sailor commemorative",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "monument",
+      "lat": 33.7615812,
+      "lng": -118.1562433,
+      "distanceFromTerminalMeters": 2387,
+      "distanceFromDefaultTerminalMeters": 2387,
+      "minDistanceFromAnyTerminalMeters": 2387,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "monument"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/fc2e235ee7789044c532",
+      "name": "JAAN-2 Gun Battery",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "memorial",
+      "lat": 33.7638566,
+      "lng": -118.1678115,
+      "distanceFromTerminalMeters": 1318,
+      "distanceFromDefaultTerminalMeters": 1318,
+      "minDistanceFromAnyTerminalMeters": 1318,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "https://www.nationalwarmemorialregistry.org/joomla/california/jaan-2-gun-battery-war-memorial-plaque",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "memorial"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/65f515ffa9d875461dfa",
+      "name": "Lions Lighthouse",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "lighthouse",
+      "lat": 33.7602383,
+      "lng": -118.1941072,
+      "distanceFromTerminalMeters": 1697,
+      "distanceFromDefaultTerminalMeters": 1697,
+      "minDistanceFromAnyTerminalMeters": 1697,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "man_made": "lighthouse"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/4bf151a32ead1272ab01",
+      "name": "Veterans Memorial",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "monument",
+      "lat": 33.8320257,
+      "lng": -118.1421168,
+      "distanceFromTerminalMeters": 7734,
+      "distanceFromDefaultTerminalMeters": 7734,
+      "minDistanceFromAnyTerminalMeters": 7734,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "monument"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/8818a7f104652e7de54e",
+      "name": "Long Beach City Beach",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "beach",
+      "lat": 33.7616314,
+      "lng": -118.1656791,
+      "distanceFromTerminalMeters": 1618,
+      "distanceFromDefaultTerminalMeters": 1618,
+      "minDistanceFromAnyTerminalMeters": 1618,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "natural": "beach"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/e63df050041479e398f1",
+      "name": "Peace Park",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 33.7840458,
+      "lng": -118.1853914,
+      "distanceFromTerminalMeters": 1639,
+      "distanceFromDefaultTerminalMeters": 1639,
+      "minDistanceFromAnyTerminalMeters": 1639,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "https://www.longbeach.gov/park/park-and-facilities/directory/peace-park/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "0.4 acres",
+      "osmTags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/1e4afaaaea0c76689934",
+      "name": "Valparaiso Plaza",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 33.7637002,
+      "lng": -118.1664865,
+      "distanceFromTerminalMeters": 1432,
+      "distanceFromDefaultTerminalMeters": 1432,
+      "minDistanceFromAnyTerminalMeters": 1432,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Junipero Avenue, Long Beach, CA, 90803",
+      "openingHours": "",
+      "website": "https://www.longbeach.gov/park/park-and-facilities/directory/valparaiso-plaza/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/aaa4fdf1ec61f1af53d2",
+      "name": "Promenade Square",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 33.7684165,
+      "lng": -118.190801,
+      "distanceFromTerminalMeters": 1014,
+      "distanceFromDefaultTerminalMeters": 1014,
+      "minDistanceFromAnyTerminalMeters": 1014,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/fd92252bf5f6acf043db",
+      "name": "Willmore Heritage Garden",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 33.7754795,
+      "lng": -118.2010604,
+      "distanceFromTerminalMeters": 2040,
+      "distanceFromDefaultTerminalMeters": 2040,
+      "minDistanceFromAnyTerminalMeters": 2040,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/073c75408981f9ff97a2",
+      "name": "Kin Long Beach",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 33.7690831,
+      "lng": -118.1826691,
+      "distanceFromTerminalMeters": 267,
+      "distanceFromDefaultTerminalMeters": 267,
+      "minDistanceFromAnyTerminalMeters": 267,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "740 East Broadway, Long Beach, 90802",
+      "openingHours": "",
+      "website": "https://kinlongbeachkitchen.com/",
+      "phone": "+1-562-317-5142",
+      "cuisine": [
+        "thai"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c11b981de0fc87ac2bb4",
+      "name": "Gaucho Beach",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 33.7644433,
+      "lng": -118.1828085,
+      "distanceFromTerminalMeters": 670,
+      "distanceFromDefaultTerminalMeters": 670,
+      "minDistanceFromAnyTerminalMeters": 670,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "780 E Shoreline Drive, Long Beach, CA, 90802, US",
+      "openingHours": "",
+      "website": "https://www.gauchobeach.com/",
+      "phone": "+1 562-580-1007",
+      "cuisine": [
+        "argentinian"
+      ],
+      "wheelchair": "designated",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/108b2dd48188a5079544",
+      "name": "Long Beach Creamery",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "ice_cream",
+      "lat": 33.7691962,
+      "lng": -118.1905528,
+      "distanceFromTerminalMeters": 980,
+      "distanceFromDefaultTerminalMeters": 980,
+      "minDistanceFromAnyTerminalMeters": 980,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "222 East Broadway, Long Beach, CA, 90802",
+      "openingHours": "Tu 17:00-21:00, We-Th 12:00-21:00, Fr-Sa 12:00-22:00, Su 12:00-21:00",
+      "website": "https://www.longbeachcreamery.com",
+      "phone": "+1-562-435-0515",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "ice_cream"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/2541560f23562202bfd7",
+      "name": "Tokyo Wako Long Beach",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 33.7620753,
+      "lng": -118.1928439,
+      "distanceFromTerminalMeters": 1479,
+      "distanceFromDefaultTerminalMeters": 1479,
+      "minDistanceFromAnyTerminalMeters": 1479,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "310 South Pine Avenue, Long Beach, CA",
+      "openingHours": "Mo-Su 12:00-14:30,17:00-21:00",
+      "website": "https://www.tokyo-wako.com/",
+      "phone": "+1-562-435-7600",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/6b58381211646bb0f258",
+      "name": "Rose Park Coffee Roasters",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 33.7667491,
+      "lng": -118.1866612,
+      "distanceFromTerminalMeters": 714,
+      "distanceFromDefaultTerminalMeters": 714,
+      "minDistanceFromAnyTerminalMeters": 714,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "455 East Ocean Boulevard, Long Beach, CA, 90802",
+      "openingHours": "6:00-17:00",
+      "website": "https://roseparkroasters.com",
+      "phone": "",
+      "cuisine": [
+        "coffee_shop"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/0f2c22273863ea3b0c01",
+      "name": "Rise Juice & Coffee",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 33.7703737,
+      "lng": -118.1898498,
+      "distanceFromTerminalMeters": 911,
+      "distanceFromDefaultTerminalMeters": 911,
+      "minDistanceFromAnyTerminalMeters": 911,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "246 East 3rd Street, Long Beach, CA, 90802",
+      "openingHours": "Mo-Su 07:00-21:00",
+      "website": "https://www.instagram.com/risejuicecoffee/",
+      "phone": "+1-562-912-4281",
+      "cuisine": [
+        "coffee_shop"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/56a10a95c17504cd5c6e",
+      "name": "Doly‘s Delectables",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 33.7694257,
+      "lng": -118.1898979,
+      "distanceFromTerminalMeters": 917,
+      "distanceFromDefaultTerminalMeters": 917,
+      "minDistanceFromAnyTerminalMeters": 917,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "245 East Broadway, Long Beach, CA, 90802",
+      "openingHours": "Mo-Fr 06:00-13:00, Sa 07:00-13:00",
+      "website": "https://www.dolysdelectables.com/",
+      "phone": "+1-562-435-9400",
+      "cuisine": [
+        "breakfast"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/aa77f34281113ba38d77",
+      "name": "Kimu Sushi",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 33.7694725,
+      "lng": -118.1826021,
+      "distanceFromTerminalMeters": 248,
+      "distanceFromDefaultTerminalMeters": 248,
+      "minDistanceFromAnyTerminalMeters": 248,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "745 East Broadway, Long Beach, CA, 90802",
+      "openingHours": "Mo-Th 12:00-16:30,17:30-21:30; Fr-Sa 12:00-22:30; Su 12:00-21:30",
+      "website": "https://kimusushilongbeach.com/",
+      "phone": "+1-562-612-1108",
+      "cuisine": [
+        "japanese"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ce6347294a402df4fee3",
+      "name": "Blue Bird Haus",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 33.7677663,
+      "lng": -118.1724448,
+      "distanceFromTerminalMeters": 741,
+      "distanceFromDefaultTerminalMeters": 741,
+      "minDistanceFromAnyTerminalMeters": 741,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1532 East Broadway, Long Beach, CA, 90802",
+      "openingHours": "Sa,Fr 16:00-23:30; Su,Mo,We,Th 16:00-21:30",
+      "website": "https://www.bluebirdhaussushi.com/",
+      "phone": "+1-562-533-2460",
+      "cuisine": [
+        "sushi",
+        "japanese",
+        "ramen"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f07c71524289377c2992",
+      "name": "Sonoratown",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 33.7703698,
+      "lng": -118.1899644,
+      "distanceFromTerminalMeters": 922,
+      "distanceFromDefaultTerminalMeters": 922,
+      "minDistanceFromAnyTerminalMeters": 922,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "244 East 3rd Street, Long Beach, CA, 90802",
+      "openingHours": "Mo-Su 11:00-22:00",
+      "website": "https://www.sonoratown.com",
+      "phone": "+1-213-222-5071",
+      "cuisine": [
+        "mexican"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f61f797f6f54734cc628",
+      "name": "AZN",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 33.7709862,
+      "lng": -118.1907275,
+      "distanceFromTerminalMeters": 998,
+      "distanceFromDefaultTerminalMeters": 998,
+      "minDistanceFromAnyTerminalMeters": 998,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "325 The Promenade North, Long Beach, CA, 90802",
+      "openingHours": "Mo-Sa 10:00-20:00, Su 11:00-20:00",
+      "website": "https://eatazn.com/locations/azn-long-beach/",
+      "phone": "+1-590-980-0058",
+      "cuisine": [
+        "asian"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/fb340fe96504b765045a",
+      "name": "Tequila Jack's",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 33.7610739,
+      "lng": -118.1901673,
+      "distanceFromTerminalMeters": 1367,
+      "distanceFromDefaultTerminalMeters": 1367,
+      "minDistanceFromAnyTerminalMeters": 1367,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "407 Shoreline Village Drive, Long Beach, CA, 90802",
+      "openingHours": "",
+      "website": "https://tequilajacks.com/",
+      "phone": "+1 562-628-0454",
+      "cuisine": [
+        "mexican"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Mexican restaurant and cantina",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/44e8781124a4903aa038",
+      "name": "Bixby Park Local Harvest Farmers Market",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "marketplace",
+      "lat": 33.7658285,
+      "lng": -118.166943,
+      "distanceFromTerminalMeters": 1293,
+      "distanceFromDefaultTerminalMeters": 1293,
+      "minDistanceFromAnyTerminalMeters": 1293,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "130 Cherry Avenue, Long Beach, CA, 90802",
+      "openingHours": "Tu 15:00-19:00, Sa 10:00-15:00",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "marketplace"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/459f1dc5cbebff1cd108",
+      "name": "Go Go Grocery Markets",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "farm",
+      "lat": 33.7727074,
+      "lng": -118.1876024,
+      "distanceFromTerminalMeters": 764,
+      "distanceFromDefaultTerminalMeters": 764,
+      "minDistanceFromAnyTerminalMeters": 764,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "456 Elm Avenue, Long Beach, CA, 90802",
+      "openingHours": "We-Sa 10:00-16:00",
+      "website": "https://www.g3markets.com/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "shop": "farm"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/bbf210e03b7c9ed35203",
+      "name": "Insurance Exchange Building",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "building",
+      "lat": 33.769479,
+      "lng": -118.1908414,
+      "distanceFromTerminalMeters": 1004,
+      "distanceFromDefaultTerminalMeters": 1004,
+      "minDistanceFromAnyTerminalMeters": 1004,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "205 East Broadway, Long Beach, CA, 90802, US",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "National Register of Historic Places #03000002",
+      "osmTags": {
+        "historic": "building"
+      }
+    }
+  ],
+  "portAnchor": {
+    "id": "ports-json-anchor",
+    "name": "LONG BEACH Port",
+    "lat": 33.77,
+    "lng": -118.18,
+    "address": "Long Beach, California, United States",
+    "source": "ports.json",
+    "sourceId": "",
+    "score": 0,
+    "slug": "long-beach-port"
+  },
+  "terminalResolution": {
+    "status": "resolved",
+    "method": "accepted_terminal_candidate",
+    "verified": true,
+    "notes": "Accepted 1 candidate explicitly identified as an ocean-cruise or cruise-passenger terminal; ferry and unrelated results were excluded."
+  }
+}

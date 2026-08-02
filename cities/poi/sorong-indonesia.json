@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 5,
+  "catalogType": "curation-candidates",
+  "generatedAt": "2026-07-30T08:41:44.133Z",
+  "source": "openstreetmap",
+  "sourceExtract": "papua-latest.osm.pbf",
+  "radiusMeters": 10000,
+  "port": {
+    "id": "sorong-indonesia",
+    "city": "Sorong",
+    "country": "Indonesia"
+  },
+  "defaultTerminalId": "ports-json-anchor",
+  "terminal": {
+    "id": "ports-json-anchor",
+    "name": "KASIM TERMINAL Port",
+    "lat": -1.3,
+    "lng": 131.02,
+    "address": "Sorong, West Papua, Indonesia",
+    "source": "ports.json",
+    "sourceId": "",
+    "score": 0,
+    "slug": "kasim-terminal-port"
+  },
+  "terminals": [
+    {
+      "id": "ports-json-anchor",
+      "name": "KASIM TERMINAL Port",
+      "lat": -1.3,
+      "lng": 131.02,
+      "address": "Sorong, West Papua, Indonesia",
+      "source": "ports.json",
+      "sourceId": "",
+      "score": 0,
+      "slug": "kasim-terminal-port"
+    }
+  ],
+  "terminalCandidateRadiusMeters": 5000,
+  "terminalCandidates": [],
+  "counts": {
+    "attraction": 0,
+    "food_drink": 0,
+    "shopping": 0,
+    "outdoors": 0,
+    "essentials": 0
+  },
+  "pois": [],
+  "portAnchor": {
+    "id": "ports-json-anchor",
+    "name": "KASIM TERMINAL Port",
+    "lat": -1.3,
+    "lng": 131.02,
+    "address": "Sorong, West Papua, Indonesia",
+    "source": "ports.json",
+    "sourceId": "",
+    "score": 0,
+    "slug": "kasim-terminal-port"
+  },
+  "terminalResolution": {
+    "status": "unresolved",
+    "method": "ports_json_fallback",
+    "verified": false,
+    "notes": "The catalog contains no terminal candidates, so there is no candidate ID to accept."
+  }
+}

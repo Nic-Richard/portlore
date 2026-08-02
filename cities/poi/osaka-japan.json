@@ -1,0 +1,1774 @@
+{
+  "schemaVersion": 5,
+  "catalogType": "curation-candidates",
+  "generatedAt": "2026-07-30T08:12:38.130Z",
+  "source": "openstreetmap",
+  "sourceExtract": "kansai-latest.osm.pbf",
+  "radiusMeters": 10000,
+  "port": {
+    "id": "osaka-japan",
+    "city": "Osaka",
+    "country": "Japan"
+  },
+  "defaultTerminalId": "osm/generated/f7043161b7f398905012",
+  "terminal": {
+    "id": "osm/generated/f7043161b7f398905012",
+    "name": "天保山客船ターミナル",
+    "nameEnglish": "Cruise Ship Terminal",
+    "lat": 34.656892,
+    "lng": 135.4312471,
+    "address": "",
+    "source": "verified_terminal_candidate",
+    "sourceId": "osm/generated/f7043161b7f398905012",
+    "terminalType": "passenger_cruise_terminal",
+    "verified": true,
+    "notes": "Accepted 1 candidate explicitly identified as an ocean-cruise or cruise-passenger terminal; ferry and unrelated results were excluded.",
+    "sourceUrls": [],
+    "sources": [
+      "openstreetmap"
+    ],
+    "sourceIds": [
+      "osm/generated/f7043161b7f398905012"
+    ],
+    "osmTags": {
+      "amenity": "ferry_terminal",
+      "building": "yes",
+      "name:en": "Cruise Ship Terminal",
+      "public_transport": "station"
+    },
+    "matchedBy": [
+      "amenity=ferry_terminal",
+      "terminal-like name"
+    ],
+    "distanceFromPortMeters": 775
+  },
+  "terminals": [
+    {
+      "id": "osm/generated/f7043161b7f398905012",
+      "name": "天保山客船ターミナル",
+      "nameEnglish": "Cruise Ship Terminal",
+      "lat": 34.656892,
+      "lng": 135.4312471,
+      "address": "",
+      "source": "verified_terminal_candidate",
+      "sourceId": "osm/generated/f7043161b7f398905012",
+      "terminalType": "passenger_cruise_terminal",
+      "verified": true,
+      "notes": "Accepted 1 candidate explicitly identified as an ocean-cruise or cruise-passenger terminal; ferry and unrelated results were excluded.",
+      "sourceUrls": [],
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/f7043161b7f398905012"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "building": "yes",
+        "name:en": "Cruise Ship Terminal",
+        "public_transport": "station"
+      },
+      "matchedBy": [
+        "amenity=ferry_terminal",
+        "terminal-like name"
+      ],
+      "distanceFromPortMeters": 775
+    }
+  ],
+  "terminalCandidateRadiusMeters": 5000,
+  "terminalCandidates": [
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/57af4a5d9594eafd676a",
+      "name": "海遊館西はとば",
+      "nameEnglish": "",
+      "lat": 34.653816,
+      "lng": 135.4284153,
+      "distanceFromPortMeters": 448,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "building": "yes",
+        "ferry": "yes",
+        "operator": "株式会社キャプテンライン",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/57af4a5d9594eafd676a"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/a1da64e3117d569b2c75",
+      "name": "サンタマリア海遊館西はとば乗り場",
+      "nameEnglish": "Santa Maria Port",
+      "lat": 34.6550483,
+      "lng": 135.4282969,
+      "distanceFromPortMeters": 583,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "building": "roof",
+        "ferry": "yes",
+        "name:en": "Santa Maria Port",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/a1da64e3117d569b2c75"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f7043161b7f398905012",
+      "name": "天保山客船ターミナル",
+      "nameEnglish": "Cruise Ship Terminal",
+      "lat": 34.656892,
+      "lng": 135.4312471,
+      "distanceFromPortMeters": 775,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal",
+        "terminal-like name"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "building": "yes",
+        "name:en": "Cruise Ship Terminal",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/f7043161b7f398905012"
+      ]
+    },
+    {
+      "source": "nominatim",
+      "sourceId": "osm/way/570094061",
+      "osmType": "way",
+      "osmId": "570094061",
+      "name": "大阪港八尾線",
+      "nameEnglish": "Osaka Port Yao Line",
+      "lat": 34.6520287,
+      "lng": 135.4381762,
+      "distanceFromPortMeters": 781,
+      "address": "大阪港八尾線, 築港一丁目, 港区, 大阪市, 大阪府, 552-0021, 日本",
+      "displayName": "大阪港八尾線, 築港一丁目, 港区, 大阪市, 大阪府, 552-0021, 日本",
+      "query": "OSAKA Port, Osaka, Japan",
+      "matchedBy": [
+        "Nominatim query: OSAKA Port, Osaka, Japan"
+      ],
+      "osmTags": {},
+      "sources": [
+        "nominatim"
+      ],
+      "sourceIds": [
+        "osm/way/570094061"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/cc00ca2daa85ff4009d4",
+      "name": "天保山渡船場（築港側）",
+      "nameEnglish": "",
+      "lat": 34.6583958,
+      "lng": 135.4332139,
+      "distanceFromPortMeters": 979,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "operator": "大阪市建設局",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/cc00ca2daa85ff4009d4"
+      ]
+    },
+    {
+      "source": "nominatim",
+      "sourceId": "osm/way/125549886",
+      "osmType": "way",
+      "osmId": "125549886",
+      "name": "大阪港八尾線",
+      "nameEnglish": "Osaka Port Yao Line",
+      "lat": 34.6509182,
+      "lng": 135.4406727,
+      "distanceFromPortMeters": 982,
+      "address": "大阪港八尾線, 海岸通三丁目, 港区, 大阪市, 大阪府, 552-0023, 日本",
+      "displayName": "大阪港八尾線, 海岸通三丁目, 港区, 大阪市, 大阪府, 552-0023, 日本",
+      "query": "OSAKA Port, Osaka, Japan",
+      "matchedBy": [
+        "Nominatim query: OSAKA Port, Osaka, Japan"
+      ],
+      "osmTags": {},
+      "sources": [
+        "nominatim"
+      ],
+      "sourceIds": [
+        "osm/way/125549886"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/2f09786986aee05a6488",
+      "name": "天保山渡船場（桜島側）",
+      "nameEnglish": "The Ferry of Tenpozan",
+      "lat": 34.6594653,
+      "lng": 135.4291091,
+      "distanceFromPortMeters": 1056,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "name:en": "The Ferry of Tenpozan",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/2f09786986aee05a6488"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/fdbf2532542aa9e9dd34",
+      "name": "大阪港国際フェリーターミナル",
+      "nameEnglish": "Osaka Port International Ferry Terminal",
+      "lat": 34.6430392,
+      "lng": 135.4212003,
+      "distanceFromPortMeters": 1117,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "harbour": "yes",
+        "name:en": "Osaka Port International Ferry Terminal",
+        "public_transport": "station",
+        "seamark:type": "harbour"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/fdbf2532542aa9e9dd34"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/8127c7cd71b17b196885",
+      "name": "(unnamed maritime feature)",
+      "nameEnglish": "",
+      "lat": 34.6642184,
+      "lng": 135.4302463,
+      "distanceFromPortMeters": 1581,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/8127c7cd71b17b196885"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/604d36d10da5975fa5be",
+      "name": "(unnamed maritime feature)",
+      "nameEnglish": "",
+      "lat": 34.6661234,
+      "lng": 135.4313904,
+      "distanceFromPortMeters": 1797,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/604d36d10da5975fa5be"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b94b6e520403b4419fbf",
+      "name": "ユニバーサルシティポート",
+      "nameEnglish": "Universal City Port",
+      "lat": 34.6651277,
+      "lng": 135.4384316,
+      "distanceFromPortMeters": 1850,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "building": "yes",
+        "ferry": "yes",
+        "name:en": "Universal City Port",
+        "operator": "大阪港湾局",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/b94b6e520403b4419fbf"
+      ]
+    },
+    {
+      "source": "nominatim",
+      "sourceId": "osm/way/125541779",
+      "osmType": "way",
+      "osmId": "125541779",
+      "name": "大阪港八尾線",
+      "nameEnglish": "Osaka Port Yao Line",
+      "lat": 34.646161,
+      "lng": 135.4499236,
+      "distanceFromPortMeters": 1872,
+      "address": "大阪港八尾線, 海岸通四丁目, 港区, 大阪市, 大阪府, 551-0023, 日本",
+      "displayName": "大阪港八尾線, 海岸通四丁目, 港区, 大阪市, 大阪府, 551-0023, 日本",
+      "query": "OSAKA Port, Osaka, Japan",
+      "matchedBy": [
+        "Nominatim query: OSAKA Port, Osaka, Japan"
+      ],
+      "osmTags": {},
+      "sources": [
+        "nominatim"
+      ],
+      "sourceIds": [
+        "osm/way/125541779"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c780b0494cb3ef128171",
+      "name": "さんふらわあターミナル(大阪)第1ターミナル",
+      "nameEnglish": "Sunflower Terminal (Osaka) Terminal 1",
+      "lat": 34.6375786,
+      "lng": 135.4111733,
+      "distanceFromPortMeters": 2208,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "name:en": "Sunflower Terminal (Osaka) Terminal 1",
+        "operator": "商船三井さんふらわあ"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/c780b0494cb3ef128171"
+      ]
+    },
+    {
+      "source": "nominatim",
+      "sourceId": "osm/way/415667247",
+      "osmType": "way",
+      "osmId": "415667247",
+      "name": "大阪港八尾線",
+      "nameEnglish": "Osaka Port Yao Line",
+      "lat": 34.6360267,
+      "lng": 135.4520989,
+      "distanceFromPortMeters": 2550,
+      "address": "大阪港八尾線, 鶴町二丁目, 大正区, 大阪市, 大阪府, 551-0023, 日本",
+      "displayName": "大阪港八尾線, 鶴町二丁目, 大正区, 大阪市, 大阪府, 551-0023, 日本",
+      "query": "OSAKA Port, Osaka, Japan",
+      "matchedBy": [
+        "Nominatim query: OSAKA Port, Osaka, Japan"
+      ],
+      "osmTags": {},
+      "sources": [
+        "nominatim"
+      ],
+      "sourceIds": [
+        "osm/way/415667247"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/67b11fb461da877aecd7",
+      "name": "千歳渡船場（鶴町側）",
+      "nameEnglish": "",
+      "lat": 34.6448415,
+      "lng": 135.457944,
+      "distanceFromPortMeters": 2620,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/67b11fb461da877aecd7"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/5d9c3d12a12bd5573a3a",
+      "name": "さんふらわあターミナル(大阪)第2ターミナル",
+      "nameEnglish": "Sunflower Terminal (Osaka) Terminal 2",
+      "lat": 34.6343567,
+      "lng": 135.4078121,
+      "distanceFromPortMeters": 2673,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "building": "yes",
+        "name:en": "Sunflower Terminal (Osaka) Terminal 2",
+        "operator": "商船三井さんふらわあ"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/5d9c3d12a12bd5573a3a"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/9f9a7ffb7192338abcaa",
+      "name": "千歳渡船場（北恩加島側）",
+      "nameEnglish": "",
+      "lat": 34.6477763,
+      "lng": 135.4592596,
+      "distanceFromPortMeters": 2688,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/9f9a7ffb7192338abcaa"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/06ff47ee8113fc6b46c3",
+      "name": "甚兵衛渡船場（福崎側）",
+      "nameEnglish": "",
+      "lat": 34.6569015,
+      "lng": 135.4620945,
+      "distanceFromPortMeters": 3034,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/06ff47ee8113fc6b46c3"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c0027f25ed2f1e662478",
+      "name": "船町渡船場（鶴町側）",
+      "nameEnglish": "Funamachi Ferry Landing (Tsurumachi Side)",
+      "lat": 34.6332001,
+      "lng": 135.4580388,
+      "distanceFromPortMeters": 3173,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "name:en": "Funamachi Ferry Landing (Funamachi Side)",
+        "operator": "大阪市"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/c0027f25ed2f1e662478"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/70fd46f2efe622468de5",
+      "name": "夢洲浮桟橋（東）",
+      "nameEnglish": "Yumeshima Floating Pier (East)",
+      "lat": 34.6576993,
+      "lng": 135.3964812,
+      "distanceFromPortMeters": 3183,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "man_made": "pier",
+        "name:en": "Yumeshima Floating Pier (East)",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/70fd46f2efe622468de5"
+      ]
+    },
+    {
+      "source": "nominatim",
+      "sourceId": "osm/way/444782025",
+      "osmType": "way",
+      "osmId": "444782025",
+      "name": "大阪港八尾線",
+      "nameEnglish": "Osaka Port Yao Line",
+      "lat": 34.6355512,
+      "lng": 135.4611676,
+      "distanceFromPortMeters": 3273,
+      "address": "大阪港八尾線, 鶴町一丁目, 大正区, 大阪市, 大阪府, 551-0023, 日本",
+      "displayName": "大阪港八尾線, 鶴町一丁目, 大正区, 大阪市, 大阪府, 551-0023, 日本",
+      "query": "OSAKA Port, Osaka, Japan",
+      "matchedBy": [
+        "Nominatim query: OSAKA Port, Osaka, Japan"
+      ],
+      "osmTags": {},
+      "sources": [
+        "nominatim"
+      ],
+      "sourceIds": [
+        "osm/way/444782025"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c4766b381303df860d1e",
+      "name": "南港フェリーターミナル",
+      "nameEnglish": "Osaka Nanko Ferry Terminal",
+      "lat": 34.6195965,
+      "lng": 135.4323516,
+      "distanceFromPortMeters": 3388,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "building": "yes",
+        "name:en": "Osaka Nanko Ferry Terminal"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/c4766b381303df860d1e"
+      ]
+    },
+    {
+      "source": "nominatim",
+      "sourceId": "osm/way/444782027",
+      "osmType": "way",
+      "osmId": "444782027",
+      "name": "大阪港八尾線",
+      "nameEnglish": "Osaka Port Yao Line",
+      "lat": 34.6350783,
+      "lng": 135.4652829,
+      "distanceFromPortMeters": 3629,
+      "address": "大阪港八尾線, 南恩加島六丁目, 大正区, 大阪市, 大阪府, 551-0021, 日本",
+      "displayName": "大阪港八尾線, 南恩加島六丁目, 大正区, 大阪市, 大阪府, 551-0021, 日本",
+      "query": "OSAKA Port, Osaka, Japan",
+      "matchedBy": [
+        "Nominatim query: OSAKA Port, Osaka, Japan"
+      ],
+      "osmTags": {},
+      "sources": [
+        "nominatim"
+      ],
+      "sourceIds": [
+        "osm/way/444782027"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/451a90ba4a4b628ebd2e",
+      "name": "木津川渡船場（船町側）",
+      "nameEnglish": "Kizugawa Tosenjyou Right",
+      "lat": 34.626681,
+      "lng": 135.4622047,
+      "distanceFromPortMeters": 3925,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "name:en": "Kizugawa Tosenjyou Right"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/451a90ba4a4b628ebd2e"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/a26ff13f54cb1c9e37d6",
+      "name": "木津川渡船場（平林北側）",
+      "nameEnglish": "Kizugawa Tosenjyou Left",
+      "lat": 34.6245018,
+      "lng": 135.461606,
+      "distanceFromPortMeters": 4050,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "name:en": "Kizugawa Tosenjyou Left"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/a26ff13f54cb1c9e37d6"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ee61675cda5fb93b00c7",
+      "name": "夢洲浮桟橋（西）",
+      "nameEnglish": "Yumeshima Floating Pier (West)",
+      "lat": 34.6594789,
+      "lng": 135.3843433,
+      "distanceFromPortMeters": 4307,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "man_made": "pier",
+        "name:en": "Yumeshima Floating Pier (West)",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/ee61675cda5fb93b00c7"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/3012f845974a1574d10d",
+      "name": "落合下渡船場",
+      "nameEnglish": "",
+      "lat": 34.6433988,
+      "lng": 135.4783983,
+      "distanceFromPortMeters": 4488,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/3012f845974a1574d10d"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/4ae2b76574cf7024abea",
+      "name": "千本松渡船場（南恩加島側）",
+      "nameEnglish": "Senbonmatu Tosen Right",
+      "lat": 34.6331165,
+      "lng": 135.4752029,
+      "distanceFromPortMeters": 4541,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "name:en": "Senbonmatu Tosen Right"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/4ae2b76574cf7024abea"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/6a2b0502a32f2da6226c",
+      "name": "落合下渡船場",
+      "nameEnglish": "",
+      "lat": 34.6431487,
+      "lng": 135.4798842,
+      "distanceFromPortMeters": 4626,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/6a2b0502a32f2da6226c"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/a3f70fbca1b8ff026a98",
+      "name": "千本松渡船場（南津守側）",
+      "nameEnglish": "Senbonmatu Tosen Left",
+      "lat": 34.6316449,
+      "lng": 135.4766411,
+      "distanceFromPortMeters": 4730,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "name:en": "Senbonmatu Tosen Left"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/a3f70fbca1b8ff026a98"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/4857d142e09eb7fe958a",
+      "name": "大阪ドーム岩崎港",
+      "nameEnglish": "",
+      "lat": 34.6676629,
+      "lng": 135.477958,
+      "distanceFromPortMeters": 4806,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/4857d142e09eb7fe958a"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/115878d57bb4bc8db683",
+      "name": "TUGBOAT TAISHO RIVER STATION",
+      "nameEnglish": "TUGBOAT TAISHO RIVER STATION",
+      "lat": 34.6673757,
+      "lng": 135.4782531,
+      "distanceFromPortMeters": 4818,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "name:en": "TUGBOAT TAISHO RIVER STATION"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/115878d57bb4bc8db683"
+      ]
+    }
+  ],
+  "counts": {
+    "attraction": 18,
+    "outdoors": 5,
+    "food_drink": 10,
+    "shopping": 2,
+    "essentials": 0
+  },
+  "pois": [
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/aae2cac0828e450d628f",
+      "name": "Dotonbori",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "city_gate",
+      "lat": 34.668706,
+      "lng": 135.4999875,
+      "distanceFromTerminalMeters": 6731,
+      "distanceFromDefaultTerminalMeters": 6731,
+      "minDistanceFromAnyTerminalMeters": 6731,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "city_gate"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/6afbe508e857a20db145",
+      "name": "海遊館",
+      "nameEnglish": "Osaka Aquarium Kaiyukan",
+      "category": "attraction",
+      "subcategory": "aquarium",
+      "lat": 34.6548812,
+      "lng": 135.4289135,
+      "distanceFromTerminalMeters": 552,
+      "distanceFromDefaultTerminalMeters": 552,
+      "minDistanceFromAnyTerminalMeters": 552,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Su 10:00-20:00",
+      "website": "",
+      "phone": "0665765501",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "Adult: 2,300 yen Child: 1,200 yen Young Child: 600 yen",
+      "osmTags": {
+        "tourism": "aquarium"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/4f428a82ae029d60b7d6",
+      "name": "大阪文化館・天保山",
+      "nameEnglish": "Osaka Culturarium at Tempozan",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 34.6537494,
+      "lng": 135.4293876,
+      "distanceFromTerminalMeters": 421,
+      "distanceFromDefaultTerminalMeters": 421,
+      "minDistanceFromAnyTerminalMeters": 421,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/8d973adbcc5214d336d4",
+      "name": "天保山ハーバービレッジ",
+      "nameEnglish": "Tempozan Harbor Village",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 34.6551472,
+      "lng": 135.4299216,
+      "distanceFromTerminalMeters": 572,
+      "distanceFromDefaultTerminalMeters": 572,
+      "minDistanceFromAnyTerminalMeters": 572,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/e4fbf6b1e1292ab5466f",
+      "name": "天保山大観覧車",
+      "nameEnglish": "Tempozan Ferris Wheel",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 34.6562657,
+      "lng": 135.4309588,
+      "distanceFromTerminalMeters": 702,
+      "distanceFromDefaultTerminalMeters": 702,
+      "minDistanceFromAnyTerminalMeters": 702,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/5fe46e2f75da98d8717a",
+      "name": "ミニオン・ハチャメチャ・ライド",
+      "nameEnglish": "Despicable Me: Minion Mayhem",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 34.6629178,
+      "lng": 135.4323485,
+      "distanceFromTerminalMeters": 1452,
+      "distanceFromDefaultTerminalMeters": 1452,
+      "minDistanceFromAnyTerminalMeters": 1452,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c3c9d2c9ef0dde44b1af",
+      "name": "ユニバーサル・スタジオ・ジャパン",
+      "nameEnglish": "Universal Studios Japan",
+      "category": "attraction",
+      "subcategory": "theme_park",
+      "lat": 34.6657375,
+      "lng": 135.432598,
+      "distanceFromTerminalMeters": 1766,
+      "distanceFromDefaultTerminalMeters": 1766,
+      "minDistanceFromAnyTerminalMeters": 1766,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "2-1-33 Sakurajima, Konohana Ward, 55-0031",
+      "openingHours": "",
+      "website": "https://www.usj.co.jp/",
+      "phone": "+81 570-200-606",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "theme_park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/adeda02c92d3087aa131",
+      "name": "ジュラシック・パーク・ザ・ライド",
+      "nameEnglish": "Jurassic Park - The Ride",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 34.6643967,
+      "lng": 135.4306258,
+      "distanceFromTerminalMeters": 1602,
+      "distanceFromDefaultTerminalMeters": 1602,
+      "minDistanceFromAnyTerminalMeters": 1602,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/4b77583aefb46cacb264",
+      "name": "フォーティセカンド・ストリート・スタジオ ～グリーティング・ギャラリー～",
+      "nameEnglish": "42nd Street Studio: Greeting Gallery",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 34.664133,
+      "lng": 135.43339,
+      "distanceFromTerminalMeters": 1602,
+      "distanceFromDefaultTerminalMeters": 1602,
+      "minDistanceFromAnyTerminalMeters": 1602,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/138048039d93ea83d019",
+      "name": "ウォーターワールド",
+      "nameEnglish": "Water World",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 34.6667677,
+      "lng": 135.4297516,
+      "distanceFromTerminalMeters": 1865,
+      "distanceFromDefaultTerminalMeters": 1865,
+      "minDistanceFromAnyTerminalMeters": 1865,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/86ad68bb280f1e7a04e4",
+      "name": "Ford Anglia",
+      "nameEnglish": "Ford Anglia",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 34.6672416,
+      "lng": 135.4314937,
+      "distanceFromTerminalMeters": 1922,
+      "distanceFromDefaultTerminalMeters": 1922,
+      "minDistanceFromAnyTerminalMeters": 1922,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/eb1b37bfa808d3dfe41c",
+      "name": "ハローキティのリボン・コレクション",
+      "nameEnglish": "Hello Kitty's Cupcake Dream",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 34.6672683,
+      "lng": 135.4326731,
+      "distanceFromTerminalMeters": 1936,
+      "distanceFromDefaultTerminalMeters": 1936,
+      "minDistanceFromAnyTerminalMeters": 1936,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d67db7b77046d12fd633",
+      "name": "ホグワーツ城",
+      "nameEnglish": "Hogwarts Castle",
+      "category": "attraction",
+      "subcategory": "castle",
+      "lat": 34.6691912,
+      "lng": 135.4318551,
+      "distanceFromTerminalMeters": 2141,
+      "distanceFromDefaultTerminalMeters": 2141,
+      "minDistanceFromAnyTerminalMeters": 2141,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "castle"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/0898e9d290d0be4a4183",
+      "name": "大阪人権博物館",
+      "nameEnglish": "Osaka Human Rights Museum",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 34.6737875,
+      "lng": 135.4637888,
+      "distanceFromTerminalMeters": 4068,
+      "distanceFromDefaultTerminalMeters": 4068,
+      "minDistanceFromAnyTerminalMeters": 4068,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Fr 10:00-16:00",
+      "website": "https://www.liberty.or.jp/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f94cb36856f626103910",
+      "name": "梅香堂",
+      "nameEnglish": "Baikado",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 34.6838637,
+      "lng": 135.4622542,
+      "distanceFromTerminalMeters": 4783,
+      "distanceFromDefaultTerminalMeters": 4783,
+      "minDistanceFromAnyTerminalMeters": 4783,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Th-Mo 13:00-19:00",
+      "website": "http://baikado.org",
+      "phone": "+81 6 6460 7620",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/a96a8036cadb2b9ddedf",
+      "name": "大阪城",
+      "nameEnglish": "Osaka Castle",
+      "category": "attraction",
+      "subcategory": "castle",
+      "lat": 34.6873727,
+      "lng": 135.5258547,
+      "distanceFromTerminalMeters": 9701,
+      "distanceFromDefaultTerminalMeters": 9701,
+      "minDistanceFromAnyTerminalMeters": 9701,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1, 大阪市, 540-0002, JP",
+      "openingHours": "Mo-Su 09:00-17:00",
+      "website": "https://www.museum.or.jp/osakajo/;https://osakacastle.net/",
+      "phone": "+81 6 6941 3044",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "建設者： 豊臣秀吉 建設： 1597年",
+      "osmTags": {
+        "historic": "castle"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/279f519a146fa507dcee",
+      "name": "天王寺動物園",
+      "nameEnglish": "Tennoji Zoo",
+      "category": "attraction",
+      "subcategory": "zoo",
+      "lat": 34.6512145,
+      "lng": 135.5082553,
+      "distanceFromTerminalMeters": 7160,
+      "distanceFromDefaultTerminalMeters": 7160,
+      "minDistanceFromAnyTerminalMeters": 7160,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "543-0063",
+      "openingHours": "",
+      "website": "https://www.tennojizoo.jp/",
+      "phone": "+81 6-6771-8401",
+      "cuisine": [],
+      "wheelchair": "limited",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "zoo"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/4544d7b0a23fd448d419",
+      "name": "キッズプラザ大阪",
+      "nameEnglish": "Kids Plaza Osaka",
+      "category": "attraction",
+      "subcategory": "theme_park",
+      "lat": 34.7045253,
+      "lng": 135.5102709,
+      "distanceFromTerminalMeters": 9520,
+      "distanceFromDefaultTerminalMeters": 9520,
+      "minDistanceFromAnyTerminalMeters": 9520,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "7, 大阪市, 530-0025",
+      "openingHours": "Tu-Fr 09:30-17:00; Sa,Su,PH 09:30-19:00; Mo off; Dec 28-Jan 02 off",
+      "website": "https://www.kidsplaza.or.jp/",
+      "phone": "+81-6-6311-6601",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "theme_park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/0e439eb518aa66209034",
+      "name": "桜島臨港緑地",
+      "nameEnglish": "Sakurajima Rinkai Park",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 34.657596,
+      "lng": 135.4231246,
+      "distanceFromTerminalMeters": 1053,
+      "distanceFromDefaultTerminalMeters": 1053,
+      "minDistanceFromAnyTerminalMeters": 1053,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/80063dc8f17d098f1aa9",
+      "name": "Central Park",
+      "nameEnglish": "Central Park",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 34.6656234,
+      "lng": 135.4325311,
+      "distanceFromTerminalMeters": 1753,
+      "distanceFromDefaultTerminalMeters": 1753,
+      "minDistanceFromAnyTerminalMeters": 1753,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/de30128499b3a1f9ff78",
+      "name": "大阪府咲洲庁舎展望台",
+      "nameEnglish": "Observation Deck Cosmo Tower",
+      "category": "outdoors",
+      "subcategory": "viewpoint",
+      "lat": 34.6383133,
+      "lng": 135.4148695,
+      "distanceFromTerminalMeters": 1899,
+      "distanceFromDefaultTerminalMeters": 1899,
+      "minDistanceFromAnyTerminalMeters": 1899,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "viewpoint"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/bc39414419836c8c6fb5",
+      "name": "南港中央公園",
+      "nameEnglish": "Nanko Central Park",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 34.6310755,
+      "lng": 135.43246,
+      "distanceFromTerminalMeters": 2116,
+      "distanceFromDefaultTerminalMeters": 2116,
+      "minDistanceFromAnyTerminalMeters": 2116,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/704805b6adab493cba56",
+      "name": "大阪南港野鳥園",
+      "nameEnglish": "Osaka Nankou Bird Sanctuary",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 34.6353076,
+      "lng": 135.400803,
+      "distanceFromTerminalMeters": 3131,
+      "distanceFromDefaultTerminalMeters": 3131,
+      "minDistanceFromAnyTerminalMeters": 3131,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Su 09:00-17:00",
+      "website": "http://www.osaka-nankou-bird-sanctuary.com",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/182fa3e74d82ce4a9b43",
+      "name": "LA VIE Osaka",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 34.6518633,
+      "lng": 135.4370807,
+      "distanceFromTerminalMeters": 680,
+      "distanceFromDefaultTerminalMeters": 680,
+      "minDistanceFromAnyTerminalMeters": 680,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [
+        "french"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/9dd500333b1af6636c7f",
+      "name": "AKARENGA STEAK HOUSE",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 34.6516371,
+      "lng": 135.4372296,
+      "distanceFromTerminalMeters": 686,
+      "distanceFromDefaultTerminalMeters": 686,
+      "minDistanceFromAnyTerminalMeters": 686,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [
+        "steak_house"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/602d19792dacfa1c7fdd",
+      "name": "TAKOPA",
+      "nameEnglish": "TAKOPA",
+      "category": "food_drink",
+      "subcategory": "food_court",
+      "lat": 34.6685417,
+      "lng": 135.437544,
+      "distanceFromTerminalMeters": 2174,
+      "distanceFromDefaultTerminalMeters": 2174,
+      "minDistanceFromAnyTerminalMeters": 2174,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Su 11:00-22:00",
+      "website": "https://ucw.jp/otm/",
+      "phone": "",
+      "cuisine": [
+        "takoyaki"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "food_court"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/056bef53a86436d5c5fd",
+      "name": "551 蓬莱",
+      "nameEnglish": "551 Horai",
+      "category": "food_drink",
+      "subcategory": "fast_food",
+      "lat": 34.668392,
+      "lng": 135.4374146,
+      "distanceFromTerminalMeters": 2155,
+      "distanceFromDefaultTerminalMeters": 2155,
+      "minDistanceFromAnyTerminalMeters": 2155,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "10:00-22:00",
+      "website": "https://www.551horai.co.jp/",
+      "phone": "",
+      "cuisine": [
+        "chinese"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "fast_food"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/0b0f6828b1ce66bd9dfc",
+      "name": "Pargolo",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 34.6857417,
+      "lng": 135.4585103,
+      "distanceFromTerminalMeters": 4753,
+      "distanceFromDefaultTerminalMeters": 4753,
+      "minDistanceFromAnyTerminalMeters": 4753,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "四貫島１丁目１−３９, 大阪市此花区, 554-0014",
+      "openingHours": "Mo-Su,PH 12:00-13:30,18:00-20:30",
+      "website": "https://www.facebook.com/Pargolo-561873907166485",
+      "phone": "+81 6 6464 0651",
+      "cuisine": [
+        "italian"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/a22f0a8712009caceb62",
+      "name": "もりもり寿し",
+      "nameEnglish": "Morimori Sushi Ionmoru Oosaka Domu Ten",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 34.6699382,
+      "lng": 135.4779563,
+      "distanceFromTerminalMeters": 4915,
+      "distanceFromDefaultTerminalMeters": 4915,
+      "minDistanceFromAnyTerminalMeters": 4915,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "3-13-1 大阪ドーム前歩道橋 (Osaka Dome Mae Pedestrian Bridge)",
+      "openingHours": "Mo-Su 11:00-22:00",
+      "website": "http://www.morimorisushi.com/index.html",
+      "phone": "",
+      "cuisine": [
+        "sushi"
+      ],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/108ba0a25ab7c0d58d79",
+      "name": "Dotonbori Riverside Wonder Pub",
+      "nameEnglish": "Dotonbori Riverside Wonder Pub",
+      "category": "food_drink",
+      "subcategory": "pub",
+      "lat": 34.6689084,
+      "lng": 135.5054929,
+      "distanceFromTerminalMeters": 7218,
+      "distanceFromDefaultTerminalMeters": 7218,
+      "minDistanceFromAnyTerminalMeters": 7218,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "pub"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/0d4c51128bd17fd049cc",
+      "name": "Shitennoji Chaya",
+      "nameEnglish": "Shitennoji Chaya",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 34.6536414,
+      "lng": 135.514389,
+      "distanceFromTerminalMeters": 7730,
+      "distanceFromDefaultTerminalMeters": 7730,
+      "minDistanceFromAnyTerminalMeters": 7730,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/73bf5b3c34059b31d9cd",
+      "name": "Kiji Umeda Sky Bldg",
+      "nameEnglish": "Kiji Umeda Sky Bldg",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 34.7046534,
+      "lng": 135.4907581,
+      "distanceFromTerminalMeters": 8234,
+      "distanceFromDefaultTerminalMeters": 8234,
+      "minDistanceFromAnyTerminalMeters": 8234,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/97cf4a03d633b1a0c0d8",
+      "name": "天保山マーケットプレース",
+      "nameEnglish": "Tempozan Market Place",
+      "category": "shopping",
+      "subcategory": "mall",
+      "lat": 34.6559643,
+      "lng": 135.4301525,
+      "distanceFromTerminalMeters": 663,
+      "distanceFromDefaultTerminalMeters": 663,
+      "minDistanceFromAnyTerminalMeters": 663,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1-1-10 Kaigandori, 港区 (Minato Ward), 552-0022",
+      "openingHours": "Mo-Su 11:00-20:00",
+      "website": "https://www.kaiyukan.com/thv/marketplace/",
+      "phone": "+81 6-6576-5501",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "shop": "mall"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/992cf48a63e69893a54f",
+      "name": "黒門市場",
+      "nameEnglish": "Kuromon Ichiba Market",
+      "category": "shopping",
+      "subcategory": "marketplace",
+      "lat": 34.6653277,
+      "lng": 135.5069795,
+      "distanceFromTerminalMeters": 7244,
+      "distanceFromDefaultTerminalMeters": 7244,
+      "minDistanceFromAnyTerminalMeters": 7244,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Su off",
+      "website": "https://kuromon.com/",
+      "phone": "+81-6-6631-0007",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "marketplace"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f721f0f34755793ade79",
+      "name": "Casablanca Namba Riverside",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 34.6692556,
+      "lng": 135.4983831,
+      "distanceFromTerminalMeters": 6611,
+      "distanceFromDefaultTerminalMeters": 6611,
+      "minDistanceFromAnyTerminalMeters": 6611,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "7 S-Front Dotonbori, Osaka-shi, 542-0086",
+      "openingHours": "11:00-24:00",
+      "website": "https://www.instagram.com/casablanca_namba_riverside/",
+      "phone": "07066809716",
+      "cuisine": [
+        "mediterranean"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    }
+  ],
+  "portAnchor": {
+    "id": "ports-json-anchor",
+    "name": "OSAKA Port",
+    "lat": 34.65,
+    "lng": 135.43,
+    "address": "Osaka, Osaka Prefecture, Japan",
+    "source": "ports.json",
+    "sourceId": "",
+    "score": 0,
+    "slug": "osaka-port"
+  },
+  "terminalResolution": {
+    "status": "resolved",
+    "method": "accepted_terminal_candidate",
+    "verified": true,
+    "notes": "Accepted 1 candidate explicitly identified as an ocean-cruise or cruise-passenger terminal; ferry and unrelated results were excluded."
+  }
+}

@@ -1,0 +1,248 @@
+{
+  "schemaVersion": 5,
+  "catalogType": "curation-candidates",
+  "generatedAt": "2026-07-30T08:00:59.057Z",
+  "source": "openstreetmap",
+  "sourceExtract": "gcc-states-latest.osm.pbf",
+  "radiusMeters": 10000,
+  "port": {
+    "id": "jebel-ali-united-arab-emirates",
+    "city": "Jebel Ali",
+    "country": "United Arab Emirates"
+  },
+  "defaultTerminalId": "ports-json-anchor",
+  "terminal": {
+    "id": "ports-json-anchor",
+    "name": "MINA JABAL ALI Port",
+    "lat": 25.02,
+    "lng": 55.05,
+    "address": "Jebel Ali, Dubai, United Arab Emirates",
+    "source": "ports.json",
+    "sourceId": "",
+    "score": 0,
+    "slug": "mina-jabal-ali-port"
+  },
+  "terminals": [
+    {
+      "id": "ports-json-anchor",
+      "name": "MINA JABAL ALI Port",
+      "lat": 25.02,
+      "lng": 55.05,
+      "address": "Jebel Ali, Dubai, United Arab Emirates",
+      "source": "ports.json",
+      "sourceId": "",
+      "score": 0,
+      "slug": "mina-jabal-ali-port"
+    }
+  ],
+  "terminalCandidateRadiusMeters": 5000,
+  "terminalCandidates": [
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/4ee7ea157a02227a6fc2",
+      "name": "ميناء جبل علي للحاويات 2",
+      "nameEnglish": "Jebel Ali Container Terminal 2",
+      "lat": 25.022251,
+      "lng": 55.0618279,
+      "distanceFromPortMeters": 1218,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "name:en": "Jebel Ali Container Terminal 2",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/4ee7ea157a02227a6fc2"
+      ]
+    }
+  ],
+  "counts": {
+    "attraction": 2,
+    "food_drink": 4,
+    "shopping": 0,
+    "outdoors": 0,
+    "essentials": 0
+  },
+  "pois": [
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/bc98d96ab50925bbd85a",
+      "name": "Watercooled",
+      "nameEnglish": "Watercooled",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 24.988654,
+      "lng": 55.0223607,
+      "distanceFromTerminalMeters": 4462,
+      "distanceFromDefaultTerminalMeters": 4462,
+      "minDistanceFromAnyTerminalMeters": 4462,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "JA Jebel Ali Golf Resort",
+      "openingHours": "Mo-Su 08:00-18:00",
+      "website": "https://www.watercooleduae.com/",
+      "phone": "+971 04 887 6771",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/0ae93465ab0d6939b9fc",
+      "name": "Seawings",
+      "nameEnglish": "Seawings",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 24.9889891,
+      "lng": 55.023543,
+      "distanceFromTerminalMeters": 4359,
+      "distanceFromDefaultTerminalMeters": 4359,
+      "minDistanceFromAnyTerminalMeters": 4359,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "https://www.seawings.ae/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/20b6203a422f49dff6f5",
+      "name": "La Fontana",
+      "nameEnglish": "La Fontana",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 24.9875521,
+      "lng": 55.0219254,
+      "distanceFromTerminalMeters": 4585,
+      "distanceFromDefaultTerminalMeters": 4585,
+      "minDistanceFromAnyTerminalMeters": 4585,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "06:30-11:00,12:30-23:00",
+      "website": "https://www.jaresortshotels.com/Properties/JAGR/Dining/Restaurants/lafontana.aspx",
+      "phone": "+971 4 814 5604",
+      "cuisine": [
+        "international"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/cb76c3c2a89114228573",
+      "name": "Sunset Lounge",
+      "nameEnglish": "Sunset Lounge",
+      "category": "food_drink",
+      "subcategory": "bar",
+      "lat": 24.987766,
+      "lng": 55.0229841,
+      "distanceFromTerminalMeters": 4501,
+      "distanceFromDefaultTerminalMeters": 4501,
+      "minDistanceFromAnyTerminalMeters": 4501,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "08:00-23:00",
+      "website": "",
+      "phone": "+34 971 637 886",
+      "cuisine": [
+        "sushi"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "bar"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/69218435577ef0b9e6a1",
+      "name": "La Traviata",
+      "nameEnglish": "La Traviata",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 24.9875382,
+      "lng": 55.0231587,
+      "distanceFromTerminalMeters": 4511,
+      "distanceFromDefaultTerminalMeters": 4511,
+      "minDistanceFromAnyTerminalMeters": 4511,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Sa 18:30-23:00",
+      "website": "",
+      "phone": "",
+      "cuisine": [
+        "italian"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/cc69abee9b23026936f5",
+      "name": "Club Joumana Sports Cafe",
+      "nameEnglish": "Club Joumana Sports Cafe",
+      "category": "food_drink",
+      "subcategory": "bar",
+      "lat": 24.9870851,
+      "lng": 55.0255652,
+      "distanceFromTerminalMeters": 4411,
+      "distanceFromDefaultTerminalMeters": 4411,
+      "minDistanceFromAnyTerminalMeters": 4411,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "bar"
+      }
+    }
+  ],
+  "portAnchor": {
+    "id": "ports-json-anchor",
+    "name": "MINA JABAL ALI Port",
+    "lat": 25.02,
+    "lng": 55.05,
+    "address": "Jebel Ali, Dubai, United Arab Emirates",
+    "source": "ports.json",
+    "sourceId": "",
+    "score": 0,
+    "slug": "mina-jabal-ali-port"
+  },
+  "terminalResolution": {
+    "status": "unresolved",
+    "method": "ports_json_fallback",
+    "verified": false,
+    "notes": "All supplied candidates are ferry-only stops, local docks, unnamed maritime features, or unrelated places rather than passenger cruise terminals."
+  }
+}

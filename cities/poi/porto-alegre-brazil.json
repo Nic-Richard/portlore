@@ -1,0 +1,1047 @@
+{
+  "schemaVersion": 5,
+  "catalogType": "curation-candidates",
+  "generatedAt": "2026-07-30T09:05:38.536Z",
+  "source": "openstreetmap",
+  "sourceExtract": "sul-latest.osm.pbf",
+  "radiusMeters": 10000,
+  "port": {
+    "id": "porto-alegre-brazil",
+    "city": "Porto Alegre",
+    "country": "Brazil"
+  },
+  "defaultTerminalId": "ports-json-anchor",
+  "terminal": {
+    "id": "ports-json-anchor",
+    "name": "PORTO ALEGRE Port",
+    "lat": -30.03,
+    "lng": -51.23,
+    "address": "Porto Alegre, Rio Grande do Sul, Brazil",
+    "source": "ports.json",
+    "sourceId": "",
+    "score": 0,
+    "slug": "porto-alegre-port"
+  },
+  "terminals": [
+    {
+      "id": "ports-json-anchor",
+      "name": "PORTO ALEGRE Port",
+      "lat": -30.03,
+      "lng": -51.23,
+      "address": "Porto Alegre, Rio Grande do Sul, Brazil",
+      "source": "ports.json",
+      "sourceId": "",
+      "score": 0,
+      "slug": "porto-alegre-port"
+    }
+  ],
+  "terminalCandidateRadiusMeters": 5000,
+  "terminalCandidates": [
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/8ab20d973efef1b43b98",
+      "name": "Barco Cisne Branco",
+      "nameEnglish": "",
+      "lat": -30.0255947,
+      "lng": -51.2288181,
+      "distanceFromPortMeters": 503,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "cargo": "passengers",
+        "ferry": "yes",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/8ab20d973efef1b43b98"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/3a09b3150c439c72bc40",
+      "name": "Terminal Hidroviário de Porto Alegre",
+      "nameEnglish": "",
+      "lat": -30.0253869,
+      "lng": -51.2279913,
+      "distanceFromPortMeters": 548,
+      "address": "1050 Avenida Mauá, 90010-110",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "cargo": "passengers",
+        "ferry": "yes",
+        "operator": "CatSul",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/3a09b3150c439c72bc40"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/2e43c5c2d9fb3c49270d",
+      "name": "(unnamed maritime feature)",
+      "nameEnglish": "",
+      "lat": -30.0252713,
+      "lng": -51.2277835,
+      "distanceFromPortMeters": 567,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "operator": "CatSul",
+        "public_transport": "stop_position"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/2e43c5c2d9fb3c49270d"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f303cb47327b20da8958",
+      "name": "Estação de Embarque Newton Silveira Netto",
+      "nameEnglish": "",
+      "lat": -30.0245762,
+      "lng": -51.2263784,
+      "distanceFromPortMeters": 697,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "building": "roof",
+        "cargo": "passengers",
+        "ferry": "yes",
+        "operator": "GNU",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/f303cb47327b20da8958"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/bacf5da3294a73f29399",
+      "name": "Atracadouro do GNU",
+      "nameEnglish": "",
+      "lat": -30.0149655,
+      "lng": -51.2204965,
+      "distanceFromPortMeters": 1906,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "cargo": "passengers",
+        "ferry": "yes",
+        "official_name": "Atracadouro do Grêmio Náutico União",
+        "public_transport": "stop_position"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/bacf5da3294a73f29399"
+      ]
+    }
+  ],
+  "counts": {
+    "attraction": 15,
+    "outdoors": 5,
+    "food_drink": 10,
+    "shopping": 3,
+    "essentials": 0
+  },
+  "pois": [
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/16cd8b3dc310a374e5cc",
+      "name": "Farol Santander Porto Alegre (antigo Santander Cultural)",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": -30.0287487,
+      "lng": -51.2303968,
+      "distanceFromTerminalMeters": 144,
+      "distanceFromDefaultTerminalMeters": 144,
+      "minDistanceFromAnyTerminalMeters": 144,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1028 Rua 7 de Setembro, Porto Alegre, 90010-191",
+      "openingHours": "Tu-Sa 10:00-19:00; Su 13:00-19:00",
+      "website": "https://www.farolsantander.com.br/",
+      "phone": "+55 51 3287-5500",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "O antigo edifício, que já serviu de sede dos bancos da Província, Nacional do Comércio, Sul Brasileiro e Meridional, e hoje é administrado pelo Santander, foi restaurado e adaptado para ser um moderno centro de arte e cultura.",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/755959ce01c25c0dfb0d",
+      "name": "Museu de Arte do Rio Grande do Sul",
+      "nameEnglish": "Rio Grande do Sul Museum of Art",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": -30.0290326,
+      "lng": -51.2317164,
+      "distanceFromTerminalMeters": 197,
+      "distanceFromDefaultTerminalMeters": 197,
+      "minDistanceFromAnyTerminalMeters": 197,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Praça da Alfândega, Porto Alegre, 90010-150",
+      "openingHours": "Tu-Su 10:00-19:00",
+      "website": "https://www.margs.rs.gov.br/",
+      "phone": "+55 51 3227-2311",
+      "cuisine": [],
+      "wheelchair": "limited",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/003b3236dcff56822c2e",
+      "name": "Memorial do Rio Grande do Sul",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": -30.0287704,
+      "lng": -51.2309997,
+      "distanceFromTerminalMeters": 167,
+      "distanceFromDefaultTerminalMeters": 167,
+      "minDistanceFromAnyTerminalMeters": 167,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1020 Rua 7 de Setembro, Porto Alegre, 90010-191",
+      "openingHours": "Tu-Sa 10:00-18:00",
+      "website": "http://www.memorial.rs.gov.br",
+      "phone": "+55 51 3224-7210",
+      "cuisine": [],
+      "wheelchair": "limited",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/dd04f290c4e678cda01c",
+      "name": "Museu Júlio de Castilhos",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": -30.033777,
+      "lng": -51.2291819,
+      "distanceFromTerminalMeters": 427,
+      "distanceFromDefaultTerminalMeters": 427,
+      "minDistanceFromAnyTerminalMeters": 427,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1231 Rua Duque de Caxias, Porto Alegre",
+      "openingHours": "Tu-Sa 10:00-17:00",
+      "website": "http://museujuliodecastilhos.blogspot.com.br/",
+      "phone": "+55 51 3221-3959",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b6b77712aa05018367ee",
+      "name": "Pinacoteca Ruben Berta",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": -30.0335924,
+      "lng": -51.2318475,
+      "distanceFromTerminalMeters": 437,
+      "distanceFromDefaultTerminalMeters": 437,
+      "minDistanceFromAnyTerminalMeters": 437,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "973 Rua Duque de Caxias",
+      "openingHours": "Mo-Fr 08:00-12:00,13:30-18:00",
+      "website": "http://pinacotecasaldolocatellierubenberta.blogspot.com.br/",
+      "phone": "+55 51 3289-3735",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/2b03df568c6b6fb1c484",
+      "name": "MERGS",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": -30.030082,
+      "lng": -51.2294122,
+      "distanceFromTerminalMeters": 57,
+      "distanceFromDefaultTerminalMeters": 57,
+      "minDistanceFromAnyTerminalMeters": 57,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1223 Rua dos Andradas, 90020-008",
+      "openingHours": "Tu-Fr 10:00-19:00; Sa 11:00-18:00",
+      "website": "",
+      "phone": "+55 51 3221-6872",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/17caba89a0c391481bbb",
+      "name": "Palácio Piratini",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": -30.0337813,
+      "lng": -51.2306839,
+      "distanceFromTerminalMeters": 426,
+      "distanceFromDefaultTerminalMeters": 426,
+      "minDistanceFromAnyTerminalMeters": 426,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Praça Marechal Deodoro, Porto Alegre",
+      "openingHours": "Mo-Fr 09:00-11:30,14:00-17:30",
+      "website": "https://www.estado.rs.gov.br/",
+      "phone": "+55 51 3210-4100",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/9f0aeb58724775acac97",
+      "name": "Casa de Cultura Mario Quintana",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": -30.0311065,
+      "lng": -51.2344723,
+      "distanceFromTerminalMeters": 448,
+      "distanceFromDefaultTerminalMeters": 448,
+      "minDistanceFromAnyTerminalMeters": 448,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "736 Rua dos Andradas, 90020-003",
+      "openingHours": "Mo 14:00-21:00; Tu-Fr 09:00-21:00; Sa-Su 12:00-21:00",
+      "website": "https://www.ccmq.com.br/",
+      "phone": "+55 51 3221-7147",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "arts_centre",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/271f8ba6cbc7809d2f22",
+      "name": "Barco Cisne Branco",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": -30.0256011,
+      "lng": -51.2284628,
+      "distanceFromTerminalMeters": 511,
+      "distanceFromDefaultTerminalMeters": 511,
+      "minDistanceFromAnyTerminalMeters": 511,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Su-Sa 09:00-18:30",
+      "website": "https://www.barcocisnebranco.com.br/",
+      "phone": "+55 51 3224-5222",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/42906fd0b9a1fbfdbdd1",
+      "name": "Monumento ao Barão do Rio Branco",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "monument",
+      "lat": -30.0292102,
+      "lng": -51.2307686,
+      "distanceFromTerminalMeters": 115,
+      "distanceFromDefaultTerminalMeters": 115,
+      "minDistanceFromAnyTerminalMeters": 115,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "monument"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/bf84fee036d253917a77",
+      "name": "Monumento a Júlio de Castilhos",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "monument",
+      "lat": -30.032606,
+      "lng": -51.2300951,
+      "distanceFromTerminalMeters": 290,
+      "distanceFromDefaultTerminalMeters": 290,
+      "minDistanceFromAnyTerminalMeters": 290,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "monument"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/a6780d964c7b673c494d",
+      "name": "Monumento a Tiradentes",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "monument",
+      "lat": -30.0330834,
+      "lng": -51.2303287,
+      "distanceFromTerminalMeters": 344,
+      "distanceFromDefaultTerminalMeters": 344,
+      "minDistanceFromAnyTerminalMeters": 344,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "monument"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/969f6c33a2488d5536e3",
+      "name": "Monumento ao Conde de Porto Alegre",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "monument",
+      "lat": -30.0318254,
+      "lng": -51.2246249,
+      "distanceFromTerminalMeters": 556,
+      "distanceFromDefaultTerminalMeters": 556,
+      "minDistanceFromAnyTerminalMeters": 556,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "monument"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/a246f3c257153b29e5b0",
+      "name": "Monumento a Antônio de Sampaio",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "monument",
+      "lat": -30.032013,
+      "lng": -51.2383967,
+      "distanceFromTerminalMeters": 839,
+      "distanceFromDefaultTerminalMeters": 839,
+      "minDistanceFromAnyTerminalMeters": 839,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "monument"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/cc9661fc9287b5f6b6a2",
+      "name": "Monumento a Zumbi dos Palmares",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "monument",
+      "lat": -30.0379097,
+      "lng": -51.2269822,
+      "distanceFromTerminalMeters": 926,
+      "distanceFromDefaultTerminalMeters": 926,
+      "minDistanceFromAnyTerminalMeters": 926,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "monument"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/96c078a5168fa46ae990",
+      "name": "Largo dos Açorianos",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": -30.0387309,
+      "lng": -51.2283571,
+      "distanceFromTerminalMeters": 984,
+      "distanceFromDefaultTerminalMeters": 984,
+      "minDistanceFromAnyTerminalMeters": 984,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "https://www2.portoalegre.rs.gov.br/vivaocentro/default.php?reg=12&p_secao=118",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/3a9529539b3b43de49ee",
+      "name": "Jardim Lutzenberger",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "garden",
+      "lat": -30.0313129,
+      "lng": -51.2344958,
+      "distanceFromTerminalMeters": 457,
+      "distanceFromDefaultTerminalMeters": 457,
+      "minDistanceFromAnyTerminalMeters": 457,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo 14:00-18:30; Tu-Fr 09:00-18:30; Sa-Su 12:00-18:30",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "garden"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/67094f9ddcf0b5019cf0",
+      "name": "Parque Farroupilha",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": -30.036445,
+      "lng": -51.2157699,
+      "distanceFromTerminalMeters": 1546,
+      "distanceFromDefaultTerminalMeters": 1546,
+      "minDistanceFromAnyTerminalMeters": 1546,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "http://www.parqueredencao.com.br",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "park",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/00a97ff58b96f0054579",
+      "name": "Morro da Praia",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "peak",
+      "lat": -30.0333097,
+      "lng": -51.2315862,
+      "distanceFromTerminalMeters": 398,
+      "distanceFromDefaultTerminalMeters": 398,
+      "minDistanceFromAnyTerminalMeters": 398,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "https://s3-sa-east-1.amazonaws.com/rrcm/Monografias/P1065.html",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "natural": "peak"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/740b37e6cab9bee45c21",
+      "name": "Jardim Botânico",
+      "nameEnglish": "Botanical Garden",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": -30.0517188,
+      "lng": -51.1763901,
+      "distanceFromTerminalMeters": 5698,
+      "distanceFromDefaultTerminalMeters": 5698,
+      "minDistanceFromAnyTerminalMeters": 5698,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1427 Rua Doutor Salvador França, 90690-000",
+      "openingHours": "Tu-Su 08:00-17:00",
+      "website": "http://www.fzb.rs.gov.br/jardimbotanico/",
+      "phone": "+55 51 3320-2027",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "park",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ed001a6cfd565bbe2ad1",
+      "name": "Cafè da Praça da Alffândega",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": -30.0302544,
+      "lng": -51.2315979,
+      "distanceFromTerminalMeters": 156,
+      "distanceFromDefaultTerminalMeters": 156,
+      "minDistanceFromAnyTerminalMeters": 156,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Praça da Alfândega, 90010-150",
+      "openingHours": "Mo-Fr 11:00-20:00",
+      "website": "https://www.facebook.com/CafeDaPracaAlfandega/",
+      "phone": "+55 51 3221-2792",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "No Coração do Centro Histórico de Porto Alegre, na agradável Praça da Alfândega, esse charmoso Café conta com um conceito moderno na gama de produtos e atendimento. Em nossa loja você encontra os melhores selos e variações de café em grão.",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/35d0a550c86997a6fa2d",
+      "name": "Atelier de Massas",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": -30.031415,
+      "lng": -51.2265408,
+      "distanceFromTerminalMeters": 368,
+      "distanceFromDefaultTerminalMeters": 368,
+      "minDistanceFromAnyTerminalMeters": 368,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1482 Rua Riachuelo",
+      "openingHours": "11:00-16:30, 19:00-21:30",
+      "website": "http://atelierdemassas.com.br/",
+      "phone": "+55 51 3325-8888",
+      "cuisine": [
+        "italian"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "O Fetuccine à Forestier, com filé em cubos, ervilha e vinho tinto é imbatível. E não há quem não saia encantado com a mesa de antepastos.",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/2b73b4e7d240271db1a4",
+      "name": "House Café Bistro",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": -30.0298106,
+      "lng": -51.2054606,
+      "distanceFromTerminalMeters": 2362,
+      "distanceFromDefaultTerminalMeters": 2362,
+      "minDistanceFromAnyTerminalMeters": 2362,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "19 Rua Dona Laura, 19 - Rio Branco, Porto Alegre - RS, 90430-090",
+      "openingHours": "Mo-We 12:00-14:00; Th-Sa 20:00-24:00",
+      "website": "https://www.housecafebistro.com.br/",
+      "phone": "+55 51 3086-3087",
+      "cuisine": [
+        "french"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Bistrô requintado e aconchegante, com música ambiente e um extenso cardápio da culinária sofisticada francesa.",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/667ff24bc368bf821092",
+      "name": "Du'Attos",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": -30.0319333,
+      "lng": -51.2309292,
+      "distanceFromTerminalMeters": 233,
+      "distanceFromDefaultTerminalMeters": 233,
+      "minDistanceFromAnyTerminalMeters": 233,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1 Praça Marechal Deodoro, Porto Alegre, 90010-300",
+      "openingHours": "Mo-Sa 11:30-15:00",
+      "website": "http://www.teatrosaopedro.com.br/multipalco/servicos/restaurante/",
+      "phone": "",
+      "cuisine": [
+        "regional"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/567799fee9d04ca51055",
+      "name": "Gambrinus",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": -30.0277422,
+      "lng": -51.2280072,
+      "distanceFromTerminalMeters": 316,
+      "distanceFromDefaultTerminalMeters": 316,
+      "minDistanceFromAnyTerminalMeters": 316,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "85 Galeria Mercado Público, 90020-070",
+      "openingHours": "Mo-Fr 11:00-20:30; Sa 11:00-16:00",
+      "website": "https://www.gambrinus.com.br/",
+      "phone": "+55 51 3226-6914",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Fica dentro do Mercado Público e leva o título de restaurante mais antigo da cidade. Chope é gelado, atendimento boa praça, mas o forte do lugar está na cozinha portuguesa. A prata da casa é o bolinho de bacalhau e o bacalhau à Gomes de Sá.",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/dcaec011e1d8e4abc4bc",
+      "name": "Chalé da Praça XV",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": -30.0283125,
+      "lng": -51.2272976,
+      "distanceFromTerminalMeters": 321,
+      "distanceFromDefaultTerminalMeters": 321,
+      "minDistanceFromAnyTerminalMeters": 321,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Praça XV de Novembro, 90020-080",
+      "openingHours": "Su-Sa 11:00-23:30",
+      "website": "https://chaledapracaxv.com.br/",
+      "phone": "+55 51 3225-2667",
+      "cuisine": [
+        "regional"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/a0e547eb3791af6b47c9",
+      "name": "Espaço Herbalife Porto Alegre",
+      "nameEnglish": "Herbalife",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": -30.0269332,
+      "lng": -51.2292485,
+      "distanceFromTerminalMeters": 349,
+      "distanceFromDefaultTerminalMeters": 349,
+      "minDistanceFromAnyTerminalMeters": 349,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "240, Sala 904 Rua Uruguai, Porto Alegre, 90010-140",
+      "openingHours": "",
+      "website": "https://www.instagram.com/herbalifeportoalegre/",
+      "phone": "+55 51 99664-3992",
+      "cuisine": [
+        "alimentação_saudável",
+        "fit",
+        "shake",
+        "tea",
+        "nutrição_herbalife",
+        "bebidas_funcionais",
+        "waffle",
+        "almoço_saudável",
+        "lanches_saudáveis"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/5d6a312d5f97ac738ff0",
+      "name": "Bistrô da Travessa",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": -30.0421963,
+      "lng": -51.2226219,
+      "distanceFromTerminalMeters": 1531,
+      "distanceFromDefaultTerminalMeters": 1531,
+      "minDistanceFromAnyTerminalMeters": 1531,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Travessa dos Venezianos, 25 - Cidade Baixa, Porto Alegre - RS, 90050-370",
+      "openingHours": "Mo-We 18:30-23:30; Fr-Su 18:30-00:00",
+      "website": "https://www.bistrodatravessa.com.br",
+      "phone": "+55 51 3516-1716",
+      "cuisine": [
+        "pizza"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Diversas opções de pizzas gourmets, mais drinques e vinhos, em casa rústica com jardinzinho, velas e pinturas. ",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/231eb16aa650cd44bd28",
+      "name": "Tablado Andaluz",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": -30.0401363,
+      "lng": -51.2148549,
+      "distanceFromTerminalMeters": 1843,
+      "distanceFromDefaultTerminalMeters": 1843,
+      "minDistanceFromAnyTerminalMeters": 1843,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "556a Avenida Venâncio Aires, Porto Alegre, 90040-193",
+      "openingHours": "Mo-Th 10:00-22:00; Fr, Sa 19:00-00:00; Su 11:00-15:00",
+      "website": "http://www.tabladoandaluz.com.br/bar-flamenco/",
+      "phone": "+55 51 3311-0336",
+      "cuisine": [
+        "international"
+      ],
+      "wheelchair": "no",
+      "brand": "",
+      "description": "Cozinha espanhola, bar temático e também escola de dança flamenca.",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/af989b5bf840495aba46",
+      "name": "Spina",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": -30.0428493,
+      "lng": -51.2169679,
+      "distanceFromTerminalMeters": 1901,
+      "distanceFromDefaultTerminalMeters": 1901,
+      "minDistanceFromAnyTerminalMeters": 1901,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1244 Rua General Lima e Silva, Porto Alegre, 90040-310",
+      "openingHours": "Mo-Th 11:30-14:00; Fr 11:30-14:00, 18:30-23:30; Sa 12:00-15:00, 18:30-23:30; Su 12:00-15:00",
+      "website": "https://www.cantinaspina.com/",
+      "phone": "+55 51 3221-4824",
+      "cuisine": [
+        "italian"
+      ],
+      "wheelchair": "no",
+      "brand": "",
+      "description": "Uma cantina familiar com mesas grandes o bastante para acomodar famílias de quaisquer tamanhos. Serve massas, filés e pizzas desde 1995.",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/cdd9b8646a2e1f42cb28",
+      "name": "Rua da Praia Shopping",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "mall",
+      "lat": -30.0309266,
+      "lng": -51.2313717,
+      "distanceFromTerminalMeters": 167,
+      "distanceFromDefaultTerminalMeters": 167,
+      "minDistanceFromAnyTerminalMeters": 167,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1001 Rua dos Andradas, 90020-015",
+      "openingHours": "Mo-Fr 09:00-21:00; Sa 08:00-20:00",
+      "website": "https://www.ruadapraiashopping.com.br/",
+      "phone": "+55 51 3211-6600",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "shop": "mall"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/69ac8266fadcd64d83e6",
+      "name": "Praia de Belas Shopping",
+      "nameEnglish": "Praia de Belas",
+      "category": "shopping",
+      "subcategory": "mall",
+      "lat": -30.0495681,
+      "lng": -51.2287579,
+      "distanceFromTerminalMeters": 2179,
+      "distanceFromDefaultTerminalMeters": 2179,
+      "minDistanceFromAnyTerminalMeters": 2179,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1181 Avenida Praia de Belas, 90110-001",
+      "openingHours": "Mo-Sa 10:00-22:00; Su 14:00-20:00",
+      "website": "https://iguatemi.com.br/praiadebelas/",
+      "phone": "+55 51 3131 1700",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "shop": "mall"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/84bba40b171bc70a5f9e",
+      "name": "Mercado Público de Porto Alegre",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "marketplace",
+      "lat": -30.0274713,
+      "lng": -51.2278366,
+      "distanceFromTerminalMeters": 350,
+      "distanceFromDefaultTerminalMeters": 350,
+      "minDistanceFromAnyTerminalMeters": 350,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Largo Glênio Peres, 90020-070",
+      "openingHours": "Mo-Fr 07:30-19:30; Sa 07:30-18:30",
+      "website": "https://mercadopublico.com.br/",
+      "phone": "+55 51 3289-4801",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "marketplace"
+      }
+    }
+  ],
+  "portAnchor": {
+    "id": "ports-json-anchor",
+    "name": "PORTO ALEGRE Port",
+    "lat": -30.03,
+    "lng": -51.23,
+    "address": "Porto Alegre, Rio Grande do Sul, Brazil",
+    "source": "ports.json",
+    "sourceId": "",
+    "score": 0,
+    "slug": "porto-alegre-port"
+  },
+  "terminalResolution": {
+    "status": "unresolved",
+    "method": "ports_json_fallback",
+    "verified": false,
+    "notes": "All supplied candidates are ferry-only stops, local docks, unnamed maritime features, or unrelated places rather than passenger cruise terminals."
+  }
+}

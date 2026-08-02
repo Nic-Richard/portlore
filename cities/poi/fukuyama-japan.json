@@ -1,0 +1,168 @@
+{
+  "schemaVersion": 5,
+  "catalogType": "curation-candidates",
+  "generatedAt": "2026-07-30T07:48:46.421Z",
+  "source": "openstreetmap",
+  "sourceExtract": "chugoku-latest.osm.pbf",
+  "radiusMeters": 10000,
+  "port": {
+    "id": "fukuyama-japan",
+    "city": "Fukuyama",
+    "country": "Japan"
+  },
+  "defaultTerminalId": "ports-json-anchor",
+  "terminal": {
+    "id": "ports-json-anchor",
+    "name": "FUKUYAMA Port",
+    "lat": 34.43,
+    "lng": 133.43,
+    "address": "Fukuyama, Hiroshima, Japan",
+    "source": "ports.json",
+    "sourceId": "",
+    "score": 0,
+    "slug": "fukuyama-port"
+  },
+  "terminals": [
+    {
+      "id": "ports-json-anchor",
+      "name": "FUKUYAMA Port",
+      "lat": 34.43,
+      "lng": 133.43,
+      "address": "Fukuyama, Hiroshima, Japan",
+      "source": "ports.json",
+      "sourceId": "",
+      "score": 0,
+      "slug": "fukuyama-port"
+    }
+  ],
+  "terminalCandidateRadiusMeters": 5000,
+  "terminalCandidates": [],
+  "counts": {
+    "outdoors": 1,
+    "food_drink": 2,
+    "shopping": 1,
+    "attraction": 0,
+    "essentials": 0
+  },
+  "pois": [
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/2b031231794b151ad730",
+      "name": "福山テクノ公園",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 34.4505015,
+      "lng": 133.4083786,
+      "distanceFromTerminalMeters": 3021,
+      "distanceFromDefaultTerminalMeters": 3021,
+      "minDistanceFromAnyTerminalMeters": 3021,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/31e7773b9d81a70a5ad1",
+      "name": "コメダ珈琲",
+      "nameEnglish": "Komeda Coffee Shop",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 34.4546703,
+      "lng": 133.3876461,
+      "distanceFromTerminalMeters": 4755,
+      "distanceFromDefaultTerminalMeters": 4755,
+      "minDistanceFromAnyTerminalMeters": 4755,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/47fd6e37f5f6bc44c16d",
+      "name": "しゃぶ葉",
+      "nameEnglish": "Syabuyo",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 34.4612111,
+      "lng": 133.3962026,
+      "distanceFromTerminalMeters": 4653,
+      "distanceFromDefaultTerminalMeters": 4653,
+      "minDistanceFromAnyTerminalMeters": 4653,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [
+        "buffet"
+      ],
+      "wheelchair": "",
+      "brand": "しゃぶ葉",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/9402c82fe92c9f2f6d77",
+      "name": "ハローズ水呑店halows",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "supermarket",
+      "lat": 34.4472692,
+      "lng": 133.3869467,
+      "distanceFromTerminalMeters": 4390,
+      "distanceFromDefaultTerminalMeters": 4390,
+      "minDistanceFromAnyTerminalMeters": 4390,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "24/7",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "shop": "supermarket"
+      }
+    }
+  ],
+  "portAnchor": {
+    "id": "ports-json-anchor",
+    "name": "FUKUYAMA Port",
+    "lat": 34.43,
+    "lng": 133.43,
+    "address": "Fukuyama, Hiroshima, Japan",
+    "source": "ports.json",
+    "sourceId": "",
+    "score": 0,
+    "slug": "fukuyama-port"
+  },
+  "terminalResolution": {
+    "status": "unresolved",
+    "method": "ports_json_fallback",
+    "verified": false,
+    "notes": "The catalog contains no terminal candidates, so there is no candidate ID to accept."
+  }
+}

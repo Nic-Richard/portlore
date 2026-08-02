@@ -1,0 +1,141 @@
+{
+  "schemaVersion": 5,
+  "catalogType": "curation-candidates",
+  "generatedAt": "2026-07-30T08:57:47.148Z",
+  "source": "openstreetmap",
+  "sourceExtract": "south-korea-latest.osm.pbf",
+  "radiusMeters": 10000,
+  "port": {
+    "id": "gwangyang-south-korea",
+    "city": "Gwangyang",
+    "country": "South Korea"
+  },
+  "defaultTerminalId": "ports-json-anchor",
+  "terminal": {
+    "id": "ports-json-anchor",
+    "name": "GWANGYANG HANG Port",
+    "lat": 34.85,
+    "lng": 127.8,
+    "address": "Gwangyang, Jeollanam-do, South Korea",
+    "source": "ports.json",
+    "sourceId": "",
+    "score": 0,
+    "slug": "gwangyang-hang-port"
+  },
+  "terminals": [
+    {
+      "id": "ports-json-anchor",
+      "name": "GWANGYANG HANG Port",
+      "lat": 34.85,
+      "lng": 127.8,
+      "address": "Gwangyang, Jeollanam-do, South Korea",
+      "source": "ports.json",
+      "sourceId": "",
+      "score": 0,
+      "slug": "gwangyang-hang-port"
+    }
+  ],
+  "terminalCandidateRadiusMeters": 5000,
+  "terminalCandidates": [],
+  "counts": {
+    "outdoors": 1,
+    "food_drink": 1,
+    "shopping": 1,
+    "attraction": 0,
+    "essentials": 0
+  },
+  "pois": [
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f7962a43935c6eee4e7d",
+      "name": "제석산",
+      "nameEnglish": "Jeseoksan Mountain",
+      "category": "outdoors",
+      "subcategory": "peak",
+      "lat": 34.8477281,
+      "lng": 127.7619985,
+      "distanceFromTerminalMeters": 3477,
+      "distanceFromDefaultTerminalMeters": 3477,
+      "minDistanceFromAnyTerminalMeters": 3477,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "natural": "peak"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/5583a2e99e61681e4786",
+      "name": "앳등사이로425CAFE",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 34.8209531,
+      "lng": 127.7676421,
+      "distanceFromTerminalMeters": 4376,
+      "distanceFromDefaultTerminalMeters": 4376,
+      "minDistanceFromAnyTerminalMeters": 4376,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Sa 10:00-21:00",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d5d2b0a709252a838b50",
+      "name": "하나로마트",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "supermarket",
+      "lat": 34.8725893,
+      "lng": 127.8295333,
+      "distanceFromTerminalMeters": 3684,
+      "distanceFromDefaultTerminalMeters": 3684,
+      "minDistanceFromAnyTerminalMeters": 3684,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "하나로마트",
+      "description": "",
+      "osmTags": {
+        "shop": "supermarket"
+      }
+    }
+  ],
+  "portAnchor": {
+    "id": "ports-json-anchor",
+    "name": "GWANGYANG HANG Port",
+    "lat": 34.85,
+    "lng": 127.8,
+    "address": "Gwangyang, Jeollanam-do, South Korea",
+    "source": "ports.json",
+    "sourceId": "",
+    "score": 0,
+    "slug": "gwangyang-hang-port"
+  },
+  "terminalResolution": {
+    "status": "unresolved",
+    "method": "ports_json_fallback",
+    "verified": false,
+    "notes": "The catalog contains no terminal candidates, so there is no candidate ID to accept."
+  }
+}

@@ -1,0 +1,1234 @@
+{
+  "schemaVersion": 5,
+  "catalogType": "curation-candidates",
+  "generatedAt": "2026-07-30T09:22:09.750Z",
+  "source": "openstreetmap",
+  "sourceExtract": "maine-latest.osm.pbf",
+  "radiusMeters": 10000,
+  "port": {
+    "id": "portland-united-states",
+    "city": "Portland",
+    "country": "United States"
+  },
+  "defaultTerminalId": "manual/portland-united-states/ocean-gateway-marine-passenger-terminal",
+  "terminal": {
+    "id": "manual/portland-united-states/ocean-gateway-marine-passenger-terminal",
+    "name": "Ocean Gateway Marine Passenger Terminal",
+    "nameEnglish": "",
+    "lat": 43.65826,
+    "lng": -70.24705,
+    "address": "",
+    "source": "manual_web_research",
+    "sourceId": "manual/portland-united-states/ocean-gateway-marine-passenger-terminal",
+    "terminalType": "dedicated_cruise_terminal",
+    "verified": true,
+    "notes": "Primary Portland, Maine passenger terminal and city-side exit.",
+    "sourceUrls": [
+      "https://www.portlandmaine.gov/1451/Ocean-Gateway",
+      "https://www.openstreetmap.org/?mlat=43.65826&mlon=-70.24705#map=17/43.65826/-70.24705"
+    ],
+    "sources": [
+      "manual_web_research"
+    ],
+    "sourceIds": [
+      "manual/portland-united-states/ocean-gateway-marine-passenger-terminal"
+    ],
+    "osmTags": {},
+    "matchedBy": [
+      "web_researched_terminal"
+    ],
+    "distanceFromPortMeters": null
+  },
+  "terminals": [
+    {
+      "id": "manual/portland-united-states/ocean-gateway-marine-passenger-terminal",
+      "name": "Ocean Gateway Marine Passenger Terminal",
+      "nameEnglish": "",
+      "lat": 43.65826,
+      "lng": -70.24705,
+      "address": "",
+      "source": "manual_web_research",
+      "sourceId": "manual/portland-united-states/ocean-gateway-marine-passenger-terminal",
+      "terminalType": "dedicated_cruise_terminal",
+      "verified": true,
+      "notes": "Primary Portland, Maine passenger terminal and city-side exit.",
+      "sourceUrls": [
+        "https://www.portlandmaine.gov/1451/Ocean-Gateway",
+        "https://www.openstreetmap.org/?mlat=43.65826&mlon=-70.24705#map=17/43.65826/-70.24705"
+      ],
+      "sources": [
+        "manual_web_research"
+      ],
+      "sourceIds": [
+        "manual/portland-united-states/ocean-gateway-marine-passenger-terminal"
+      ],
+      "osmTags": {},
+      "matchedBy": [
+        "web_researched_terminal"
+      ],
+      "distanceFromPortMeters": null
+    }
+  ],
+  "terminalCandidateRadiusMeters": 5000,
+  "terminalCandidates": [
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/7e78ef2b38935e78f901",
+      "name": "Casco Bay Lines",
+      "nameEnglish": "",
+      "lat": 43.6570096,
+      "lng": -70.2486215,
+      "distanceFromPortMeters": 1449,
+      "address": "56 Commercial Street, Portland, ME, 04101",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "alt_name": "Casco Bay Lines Ferry Terminal",
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "operator": "Casco Bay Lines",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/7e78ef2b38935e78f901"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/a64f807145e36fe94d06",
+      "name": "Casco Bay Lines Ferry Terminal",
+      "nameEnglish": "",
+      "lat": 43.6563708,
+      "lng": -70.2477805,
+      "distanceFromPortMeters": 1526,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "operator": "Casco Bay Lines",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/a64f807145e36fe94d06"
+      ]
+    },
+    {
+      "source": "nominatim",
+      "sourceId": "osm/way/339941815",
+      "osmType": "way",
+      "osmId": "339941815",
+      "name": "Hyatt Place Portland - Old Port",
+      "nameEnglish": "Hyatt Place Portland - Old Port",
+      "lat": 43.6559977,
+      "lng": -70.2548035,
+      "distanceFromPortMeters": 1604,
+      "address": "Hyatt Place Portland - Old Port, 433, Fore Street, Old Port, Portland, Cumberland County, Maine, 04101, United States",
+      "displayName": "Hyatt Place Portland - Old Port, 433, Fore Street, Old Port, Portland, Cumberland County, Maine, 04101, United States",
+      "query": "PORTLAND Port, Portland, United States",
+      "matchedBy": [
+        "Nominatim query: PORTLAND Port, Portland, United States"
+      ],
+      "osmTags": {
+        "building": "yes"
+      },
+      "sources": [
+        "nominatim"
+      ],
+      "sourceIds": [
+        "osm/way/339941815"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/396c8882582c827ba122",
+      "name": "Little Diamond Island Landing",
+      "nameEnglish": "",
+      "lat": 43.6628086,
+      "lng": -70.2095883,
+      "distanceFromPortMeters": 3347,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "operator": "Casco Bay Lines",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/396c8882582c827ba122"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/8e29fb1b0837a64ea533",
+      "name": "Great Diamond Island Landing",
+      "nameEnglish": "",
+      "lat": 43.6704795,
+      "lng": -70.1993611,
+      "distanceFromPortMeters": 4073,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "operator": "Casco Bay Lines",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/8e29fb1b0837a64ea533"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/0d820b86a282a48fa211",
+      "name": "Jones Wharf",
+      "nameEnglish": "",
+      "lat": 43.655823,
+      "lng": -70.1998669,
+      "distanceFromPortMeters": 4330,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "operator": "Casco Bay Lines",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/0d820b86a282a48fa211"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/30cb4a75ff03fb328f32",
+      "name": "Peaks Island Wharf",
+      "nameEnglish": "",
+      "lat": 43.6554368,
+      "lng": -70.2000547,
+      "distanceFromPortMeters": 4332,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "operator": "Casco Bay Lines",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/30cb4a75ff03fb328f32"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/348d19a77ff98c24653f",
+      "name": "Diamond Cove Landing",
+      "nameEnglish": "",
+      "lat": 43.6847125,
+      "lng": -70.1913027,
+      "distanceFromPortMeters": 4996,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "operator": "Casco Bay Lines",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/348d19a77ff98c24653f"
+      ]
+    }
+  ],
+  "counts": {
+    "attraction": 15,
+    "outdoors": 5,
+    "food_drink": 12,
+    "shopping": 2,
+    "essentials": 2
+  },
+  "pois": [
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/47c594af42eccacb2522",
+      "name": "Maine Jewish Museum",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 43.6625359,
+      "lng": -70.2530303,
+      "distanceFromTerminalMeters": 865,
+      "distanceFromDefaultTerminalMeters": 865,
+      "minDistanceFromAnyTerminalMeters": 865,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "267 Congress Street, Portland, ME, 04101",
+      "openingHours": "",
+      "website": "https://mainejewishmuseum.org/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/63d49f8da54f9e4baa9b",
+      "name": "Wadsworth-Longfellow House",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 43.6569712,
+      "lng": -70.2602119,
+      "distanceFromTerminalMeters": 1665,
+      "distanceFromDefaultTerminalMeters": 1665,
+      "minDistanceFromAnyTerminalMeters": 1665,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "483 Congress Street, Portland, ME, 04101",
+      "openingHours": "Jun-Oct Tu-Sa 10:00-17:00",
+      "website": "https://www.mainehistory.org/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/8653ba26b7e77bf54b62",
+      "name": "Maine Historical Society",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 43.6568504,
+      "lng": -70.2603547,
+      "distanceFromTerminalMeters": 1683,
+      "distanceFromDefaultTerminalMeters": 1683,
+      "minDistanceFromAnyTerminalMeters": 1683,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "489 Congress Street, Portland, ME, 04101",
+      "openingHours": "We-Sa 10:00-17:00",
+      "website": "https://www.mainehistory.org/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/94133b3deeb8a7a66c23",
+      "name": "Portland Museum of Art",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 43.6537381,
+      "lng": -70.2622698,
+      "distanceFromTerminalMeters": 2060,
+      "distanceFromDefaultTerminalMeters": 2060,
+      "minDistanceFromAnyTerminalMeters": 2060,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "7 Congress Square, Portland, ME, 04101",
+      "openingHours": "Tu-Th 10:00-18:00, Fr 10:00-20:00, Sa-Su 10:00-18:00, Th[3] 10:00-20:00",
+      "website": "https://www.portlandmuseum.org/",
+      "phone": "+1-207-775-6148",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/e000ba62101175b6dd27",
+      "name": "Victoria Mansion",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 43.6515341,
+      "lng": -70.2607474,
+      "distanceFromTerminalMeters": 2228,
+      "distanceFromDefaultTerminalMeters": 2228,
+      "minDistanceFromAnyTerminalMeters": 2228,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "109 Danforth Street, Portland, ME, 04101",
+      "openingHours": "",
+      "website": "https://www.victoriamansion.org/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/de7f6b9a6f575229811e",
+      "name": "Cushing's Point Museum",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 43.6523792,
+      "lng": -70.2343163,
+      "distanceFromTerminalMeters": 2330,
+      "distanceFromDefaultTerminalMeters": 2330,
+      "minDistanceFromAnyTerminalMeters": 2330,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "55, South Portland, ME, 04106",
+      "openingHours": "",
+      "website": "https://www.sphistory.org/",
+      "phone": "+1 207-676-7299",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/974ab4e6ed30056ac139",
+      "name": "Fort Gorges",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 43.6631193,
+      "lng": -70.2216353,
+      "distanceFromTerminalMeters": 2406,
+      "distanceFromDefaultTerminalMeters": 2406,
+      "minDistanceFromAnyTerminalMeters": 2406,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "fort",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/4e71a2297778a277497c",
+      "name": "Back Cove Historic District",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "district",
+      "lat": 43.6742458,
+      "lng": -70.2769522,
+      "distanceFromTerminalMeters": 2219,
+      "distanceFromDefaultTerminalMeters": 2219,
+      "minDistanceFromAnyTerminalMeters": 2219,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "district"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/8c623473b792386cc1b5",
+      "name": "Portland Observatory",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 43.6653773,
+      "lng": -70.2482523,
+      "distanceFromTerminalMeters": 533,
+      "distanceFromDefaultTerminalMeters": 533,
+      "minDistanceFromAnyTerminalMeters": 533,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "138 Congress Street, Portland, ME, 04101",
+      "openingHours": "",
+      "website": "https://www.portlandlandmarks.org/observatory/",
+      "phone": "+1-207-774-5561",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "maritime",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f3125b5c667e2c217af1",
+      "name": "Mast of the USS Portland",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "monument",
+      "lat": 43.665781,
+      "lng": -70.2400432,
+      "distanceFromTerminalMeters": 928,
+      "distanceFromDefaultTerminalMeters": 928,
+      "minDistanceFromAnyTerminalMeters": 928,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "https://en.wikipedia.org/wiki/USS_Portland_(CA-33)",
+      "osmTags": {
+        "historic": "monument"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/dc4cca39bdc3aa0c0ce4",
+      "name": "First Civic Monument",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "monument",
+      "lat": 43.6689726,
+      "lng": -70.2441314,
+      "distanceFromTerminalMeters": 486,
+      "distanceFromDefaultTerminalMeters": 486,
+      "minDistanceFromAnyTerminalMeters": 486,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "monument"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/de129d1ce2db9d8ff281",
+      "name": "Congress Square",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "square",
+      "lat": 43.6544005,
+      "lng": -70.2632915,
+      "distanceFromTerminalMeters": 2038,
+      "distanceFromDefaultTerminalMeters": 2038,
+      "minDistanceFromAnyTerminalMeters": 2038,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "https://congresssquarepark.org/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "place": "square"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b9c659b6640a80fd0ff9",
+      "name": "Caldwell Square Memorial",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "monument",
+      "lat": 43.6697871,
+      "lng": -70.2946427,
+      "distanceFromTerminalMeters": 3591,
+      "distanceFromDefaultTerminalMeters": 3591,
+      "minDistanceFromAnyTerminalMeters": 3591,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "https://digitalcommons.usm.maine.edu/cumberland/1/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "IN MEMORY OF THE WORLD WAR VETERANS 1914 - 1918 PRESENTED TO THE CITY OF PORTLAND BY THE RALPH D. CALDWELL POST NO. 129 AMERICAN LEGION NOVEMBER 11TH, 1923.",
+      "osmTags": {
+        "historic": "monument"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/86851a4fb8b6fa6ac88f",
+      "name": "Jack D. Finley Memorial Plaza",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "monument",
+      "lat": 43.6822163,
+      "lng": -70.2946345,
+      "distanceFromTerminalMeters": 3838,
+      "distanceFromDefaultTerminalMeters": 3838,
+      "minDistanceFromAnyTerminalMeters": 3838,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "monument"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/4327126b6c8cbe1591b5",
+      "name": "Spring Point Ledge Lighthouse",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "lighthouse",
+      "lat": 43.6521191,
+      "lng": -70.2238976,
+      "distanceFromTerminalMeters": 2892,
+      "distanceFromDefaultTerminalMeters": 2892,
+      "minDistanceFromAnyTerminalMeters": 2892,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "man_made": "lighthouse"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/a38becdf4905a0159a48",
+      "name": "Fort Sumner Park",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 43.6672561,
+      "lng": -70.2509281,
+      "distanceFromTerminalMeters": 314,
+      "distanceFromDefaultTerminalMeters": 314,
+      "minDistanceFromAnyTerminalMeters": 314,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "limited",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "park",
+        "tourism": "viewpoint"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/98f756a01b2a45cb79ef",
+      "name": "East End Beach",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "beach",
+      "lat": 43.6682549,
+      "lng": -70.2402481,
+      "distanceFromTerminalMeters": 808,
+      "distanceFromDefaultTerminalMeters": 808,
+      "minDistanceFromAnyTerminalMeters": 808,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "natural": "beach",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ef1921b49e54d47da493",
+      "name": "Casco Bay Community Garden",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "garden",
+      "lat": 43.6709252,
+      "lng": -70.2475955,
+      "distanceFromTerminalMeters": 219,
+      "distanceFromDefaultTerminalMeters": 219,
+      "minDistanceFromAnyTerminalMeters": 219,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "https://www.cultivatingcommunity.org/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Casco Bay Community Garden was built in 2015 through a series of volunteer workdays. Gardeners tend their plots overlooking Casco Bay, and named this garden in honor of the beautiful view. The garden was constructed using a permaculture technique called “",
+      "osmTags": {
+        "leisure": "garden"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/7c5499076acb4bb4e6ae",
+      "name": "Boyd Street Community Garden",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "garden",
+      "lat": 43.6626435,
+      "lng": -70.2556596,
+      "distanceFromTerminalMeters": 936,
+      "distanceFromDefaultTerminalMeters": 936,
+      "minDistanceFromAnyTerminalMeters": 936,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "garden"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ef87c31fe07de704d625",
+      "name": "Bayside Community Garden",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "garden",
+      "lat": 43.6606597,
+      "lng": -70.2603582,
+      "distanceFromTerminalMeters": 1331,
+      "distanceFromDefaultTerminalMeters": 1331,
+      "minDistanceFromAnyTerminalMeters": 1331,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "garden"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/76d0af2baa936317e6b7",
+      "name": "India Palace Maine",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 43.655102,
+      "lng": -70.2622807,
+      "distanceFromTerminalMeters": 1929,
+      "distanceFromDefaultTerminalMeters": 1929,
+      "minDistanceFromAnyTerminalMeters": 1929,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "565 Congress Street, Portland, ME, 04101",
+      "openingHours": "",
+      "website": "https://www.indiapalacemaine.com/",
+      "phone": "+1-207-773-1444",
+      "cuisine": [
+        "indian"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/519bc2febac988aa5ccb",
+      "name": "Rí Ra Irish Pub & Restaurant - Portland",
+      "nameEnglish": "Rí Rá Irish Pub & Restaurant - Portland",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 43.6573254,
+      "lng": -70.2500321,
+      "distanceFromTerminalMeters": 1409,
+      "distanceFromDefaultTerminalMeters": 1409,
+      "minDistanceFromAnyTerminalMeters": 1409,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "72 Commercial Street, Portland, ME, 04101",
+      "openingHours": "Mo-Fr 10:00-25:00; Sa-Su 09:00-25:00",
+      "website": "https://rira.com/",
+      "phone": "+1-207-761-4446",
+      "cuisine": [
+        "irish"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/52985bacbf03eba96bd3",
+      "name": "Ramona's",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 43.6665586,
+      "lng": -70.2529451,
+      "distanceFromTerminalMeters": 450,
+      "distanceFromDefaultTerminalMeters": 450,
+      "minDistanceFromAnyTerminalMeters": 450,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "98 Washington Avenue, Portland, ME, 04101",
+      "openingHours": "Mo-Su 07:00-14:00",
+      "website": "https://www.ramonas.me/",
+      "phone": "+1 207-956-7194",
+      "cuisine": [
+        "sandwich",
+        "breakfast"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/daac07afd58c04cb7ba1",
+      "name": "The Porthole Restaurant and Pub",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 43.6563166,
+      "lng": -70.2500596,
+      "distanceFromTerminalMeters": 1522,
+      "distanceFromDefaultTerminalMeters": 1522,
+      "minDistanceFromAnyTerminalMeters": 1522,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "20 Custom House Wharf, Portland, ME, 04101",
+      "openingHours": "07:00-22:00;Dec-Jan: Mo-Th 07:00-14:00;Dec-Jan: Fr-Sa 07:00-20:00;Dec-Jan Su 07:00-15:00",
+      "website": "https://portholemaine.com/",
+      "phone": "+1-207-773-4653",
+      "cuisine": [
+        "seafood"
+      ],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/3e99c352159f61cfe1fe",
+      "name": "East Ender",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 43.6602019,
+      "lng": -70.2504953,
+      "distanceFromTerminalMeters": 1090,
+      "distanceFromDefaultTerminalMeters": 1090,
+      "minDistanceFromAnyTerminalMeters": 1090,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "47 Middle Street, Portland, ME, 04101",
+      "openingHours": "Mo-Su 11:00-21:00",
+      "website": "https://www.eastenderportland.com/",
+      "phone": "+1 207-879-7669",
+      "cuisine": [
+        "american"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/7e48e22fc44980a615d2",
+      "name": "Mr. Tuna",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 43.6595864,
+      "lng": -70.2515201,
+      "distanceFromTerminalMeters": 1164,
+      "distanceFromDefaultTerminalMeters": 1164,
+      "minDistanceFromAnyTerminalMeters": 1164,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "83 Middle Street, Portland, ME, 04101",
+      "openingHours": "Mo-Su 11:00-21:00",
+      "website": "https://www.mrtunamaine.com/locations",
+      "phone": "+1-207-536-0509",
+      "cuisine": [
+        "sushi",
+        "seafood"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/393c4ab57c772e58b7c9",
+      "name": "The Honey Paw",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 43.6595509,
+      "lng": -70.2510316,
+      "distanceFromTerminalMeters": 1165,
+      "distanceFromDefaultTerminalMeters": 1165,
+      "minDistanceFromAnyTerminalMeters": 1165,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "78 Middle Street, Portland, ME, 04101",
+      "openingHours": "We-Mo 11:00-22:00",
+      "website": "https://www.thehoneypaw.com/",
+      "phone": "+1-207-774-8538",
+      "cuisine": [
+        "asian",
+        "tea"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c439319507b30cb5d6b7",
+      "name": "Eventide Oyster Co",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 43.65944,
+      "lng": -70.251223,
+      "distanceFromTerminalMeters": 1178,
+      "distanceFromDefaultTerminalMeters": 1178,
+      "minDistanceFromAnyTerminalMeters": 1178,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "86 Middle Street, Portland, ME, 04101",
+      "openingHours": "Mo-Su 11:00-22:00",
+      "website": "https://www.eventideoysterco.com/",
+      "phone": "+1-207-774-8538",
+      "cuisine": [
+        "seafood"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/90099b1b4ca27c5f6d26",
+      "name": "Hugo’s",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 43.6593722,
+      "lng": -70.2513414,
+      "distanceFromTerminalMeters": 1187,
+      "distanceFromDefaultTerminalMeters": 1187,
+      "minDistanceFromAnyTerminalMeters": 1187,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "88 Middle Street, Portland, ME, 04101",
+      "openingHours": "Tu-Sa 05:30-21:00",
+      "website": "http://hugos.net",
+      "phone": "+1-207-774-8538",
+      "cuisine": [
+        "fine_dining"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/0dc40698cd124576a593",
+      "name": "Fore Street Restaurant",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 43.658073,
+      "lng": -70.2509628,
+      "distanceFromTerminalMeters": 1328,
+      "distanceFromDefaultTerminalMeters": 1328,
+      "minDistanceFromAnyTerminalMeters": 1328,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "288 Fore Street, Portland, ME, 04101",
+      "openingHours": "Su-Th 17:30-22:00; Fr-Sa 17:30-22:30",
+      "website": "http://forestreet.biz",
+      "phone": "+1-207-775-2717",
+      "cuisine": [
+        "american"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/20006d82027dde1e4e16",
+      "name": "Flatbread Pizza",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 43.6572015,
+      "lng": -70.2498328,
+      "distanceFromTerminalMeters": 1423,
+      "distanceFromDefaultTerminalMeters": 1423,
+      "minDistanceFromAnyTerminalMeters": 1423,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "72 Commercial Street, Portland, ME, 04101",
+      "openingHours": "Su-Th 11:00-21:00, Fr-Sa 11:00-22:00",
+      "website": "https://flatbreadcompany.com/",
+      "phone": "+1-207-772-8777",
+      "cuisine": [
+        "pizza"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/63c7b1b922b491772e84",
+      "name": "Cheese Louise",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 43.656714,
+      "lng": -70.2528333,
+      "distanceFromTerminalMeters": 1495,
+      "distanceFromDefaultTerminalMeters": 1495,
+      "minDistanceFromAnyTerminalMeters": 1495,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "363 Fore Street, Portland, ME, 04101",
+      "openingHours": "Su-Th 11:00-21:00; Fr,Sa 11:00-13:00",
+      "website": "https://www.eatcheeselouise.com/",
+      "phone": "+1-207-536-0257",
+      "cuisine": [
+        "grilled_cheese"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b58d939e0b561b3b4e59",
+      "name": "Congress Plaza Shopping Center",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "mall",
+      "lat": 43.6610381,
+      "lng": -70.2524714,
+      "distanceFromTerminalMeters": 1016,
+      "distanceFromDefaultTerminalMeters": 1016,
+      "minDistanceFromAnyTerminalMeters": 1016,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "290 Congress Street, Portland, ME, 04101",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "shop": "mall"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/8bd645883e19459b54cf",
+      "name": "Vaughan Street Market",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "deli",
+      "lat": 43.6523505,
+      "lng": -70.2730289,
+      "distanceFromTerminalMeters": 2699,
+      "distanceFromDefaultTerminalMeters": 2699,
+      "minDistanceFromAnyTerminalMeters": 2699,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "235 Vaughan Street, Portland, ME, 04102",
+      "openingHours": "",
+      "website": "http://www.vaughanst.com/",
+      "phone": "+1-207-772-8993",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "shop": "deli"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/2dc43195e41bc0fb7d24",
+      "name": "Creative Portland ME",
+      "nameEnglish": "",
+      "category": "essentials",
+      "subcategory": "visitor_information",
+      "lat": 43.6553582,
+      "lng": -70.2601886,
+      "distanceFromTerminalMeters": 1823,
+      "distanceFromDefaultTerminalMeters": 1823,
+      "minDistanceFromAnyTerminalMeters": 1823,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "84 Free Street, 04101",
+      "openingHours": "Mo-Th 10:00-16:00",
+      "website": "https://creativeportland.com/",
+      "phone": "+1-207-370-4784",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "information"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/dfbee13a448046ee082c",
+      "name": "Portland Convention and Visitors Bureau and Information Center",
+      "nameEnglish": "",
+      "category": "essentials",
+      "subcategory": "visitor_information",
+      "lat": 43.6536933,
+      "lng": -70.2564369,
+      "distanceFromTerminalMeters": 1886,
+      "distanceFromDefaultTerminalMeters": 1886,
+      "minDistanceFromAnyTerminalMeters": 1886,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "ME",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "information"
+      }
+    }
+  ],
+  "portAnchor": {
+    "id": "ports-json-anchor",
+    "name": "PORTLAND Port",
+    "lat": 43.67,
+    "lng": -70.25,
+    "address": "Portland, Maine, United States",
+    "source": "ports.json",
+    "sourceId": "",
+    "score": 0,
+    "slug": "portland-port"
+  },
+  "terminalResolution": {
+    "status": "resolved",
+    "method": "manual_web_research",
+    "verified": true,
+    "notes": "Terminal records were added from researched cruise-port sources because no supplied candidate accurately represented the passenger arrival point."
+  }
+}

@@ -1,0 +1,578 @@
+{
+  "schemaVersion": 5,
+  "catalogType": "curation-candidates",
+  "generatedAt": "2026-07-30T07:36:18.017Z",
+  "source": "openstreetmap",
+  "sourceExtract": "argentina-latest.osm.pbf",
+  "radiusMeters": 10000,
+  "port": {
+    "id": "la-plata-argentina",
+    "city": "La Plata",
+    "country": "Argentina"
+  },
+  "defaultTerminalId": "ports-json-anchor",
+  "terminal": {
+    "id": "ports-json-anchor",
+    "name": "LA PLATA Port",
+    "lat": -34.83,
+    "lng": -57.88,
+    "address": "La Plata, Buenos Aires, Argentina",
+    "source": "ports.json",
+    "sourceId": "",
+    "score": 0,
+    "slug": "la-plata-port"
+  },
+  "terminals": [
+    {
+      "id": "ports-json-anchor",
+      "name": "LA PLATA Port",
+      "lat": -34.83,
+      "lng": -57.88,
+      "address": "La Plata, Buenos Aires, Argentina",
+      "source": "ports.json",
+      "sourceId": "",
+      "score": 0,
+      "slug": "la-plata-port"
+    }
+  ],
+  "terminalCandidateRadiusMeters": 5000,
+  "terminalCandidates": [
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/8056ba209d8eaddf00b0",
+      "name": "(unnamed maritime feature)",
+      "nameEnglish": "",
+      "lat": -34.8345426,
+      "lng": -57.8789651,
+      "distanceFromPortMeters": 514,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/8056ba209d8eaddf00b0"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/0c43412218f13b18e3f0",
+      "name": "Embarcadero hacia la Isla Paulino",
+      "nameEnglish": "",
+      "lat": -34.8627479,
+      "lng": -57.8833713,
+      "distanceFromPortMeters": 3654,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/0c43412218f13b18e3f0"
+      ]
+    }
+  ],
+  "counts": {
+    "attraction": 2,
+    "outdoors": 7,
+    "food_drink": 6,
+    "shopping": 3,
+    "essentials": 0
+  },
+  "pois": [
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/4247493873c37a3adc6d",
+      "name": "FC Roca",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": -34.8582823,
+      "lng": -57.8975358,
+      "distanceFromTerminalMeters": 3529,
+      "distanceFromDefaultTerminalMeters": 3529,
+      "minDistanceFromAnyTerminalMeters": 3529,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Puente ferroviario giratorio",
+      "osmTags": {
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/276272f209554c0c7847",
+      "name": "Museo de la Facultad de Astronomía y Geofísica",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": -34.908339,
+      "lng": -57.9331099,
+      "distanceFromTerminalMeters": 9968,
+      "distanceFromDefaultTerminalMeters": 9968,
+      "minDistanceFromAnyTerminalMeters": 9968,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "La Plata",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/99a14765430e4568e95e",
+      "name": "Zona de Camping",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": -34.8279477,
+      "lng": -57.8741486,
+      "distanceFromTerminalMeters": 581,
+      "distanceFromDefaultTerminalMeters": 581,
+      "minDistanceFromAnyTerminalMeters": 581,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/31945d09174a96aee4d4",
+      "name": "Parque ETARS",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": -34.850041,
+      "lng": -57.8991739,
+      "distanceFromTerminalMeters": 2833,
+      "distanceFromDefaultTerminalMeters": 2833,
+      "minDistanceFromAnyTerminalMeters": 2833,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/2e3237aead91eef2fac1",
+      "name": "Guarderia Nautica Marinas del Sur(Vela)",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "marina",
+      "lat": -34.8620066,
+      "lng": -57.8835304,
+      "distanceFromTerminalMeters": 3574,
+      "distanceFromDefaultTerminalMeters": 3574,
+      "minDistanceFromAnyTerminalMeters": 3574,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "marina"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c5b97068b0b622ecac5d",
+      "name": "Club Nautico Ciudad de Berisso(CNCB)",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "marina",
+      "lat": -34.8626361,
+      "lng": -57.8826775,
+      "distanceFromTerminalMeters": 3637,
+      "distanceFromDefaultTerminalMeters": 3637,
+      "minDistanceFromAnyTerminalMeters": 3637,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "marina"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/990a2d41cf51179eb8e7",
+      "name": "Bahia del Este",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "marina",
+      "lat": -34.8413258,
+      "lng": -57.9179169,
+      "distanceFromTerminalMeters": 3683,
+      "distanceFromDefaultTerminalMeters": 3683,
+      "minDistanceFromAnyTerminalMeters": 3683,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "marina"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/17191b663745e859b1d7",
+      "name": "Marina 1",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "marina",
+      "lat": -34.8398042,
+      "lng": -57.9196271,
+      "distanceFromTerminalMeters": 3777,
+      "distanceFromDefaultTerminalMeters": 3777,
+      "minDistanceFromAnyTerminalMeters": 3777,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "marina"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ecb0cbb3beaf48bf2f10",
+      "name": "Club Regatas La Plata",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "marina",
+      "lat": -34.8413206,
+      "lng": -57.9191448,
+      "distanceFromTerminalMeters": 3788,
+      "distanceFromDefaultTerminalMeters": 3788,
+      "minDistanceFromAnyTerminalMeters": 3788,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "marina"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c4a6009f6a73e45a68d3",
+      "name": "Mis Amigos(Bar,Parrilla,Eventos)",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": -34.8349963,
+      "lng": -57.8838589,
+      "distanceFromTerminalMeters": 658,
+      "distanceFromDefaultTerminalMeters": 658,
+      "minDistanceFromAnyTerminalMeters": 658,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "+54 9 221 419 6621",
+      "cuisine": [
+        "regional"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/5372d04a97c497dcc558",
+      "name": "kiosco Las Morochas",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": -34.8595618,
+      "lng": -57.9044785,
+      "distanceFromTerminalMeters": 3974,
+      "distanceFromDefaultTerminalMeters": 3974,
+      "minDistanceFromAnyTerminalMeters": 3974,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "290 La Merced, 1925",
+      "openingHours": "Mo-Fr 08:00-14:00, 16:00-22:00; Sa 09:00-14:00, 17:00-20:30",
+      "website": "",
+      "phone": "",
+      "cuisine": [
+        "breakfast",
+        "ice_cream",
+        "sandwich",
+        "cake",
+        "coffee_shop",
+        "donut"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d1f8d48a887bc1a223ed",
+      "name": "El viejo candil",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": -34.8600686,
+      "lng": -57.9036606,
+      "distanceFromTerminalMeters": 3980,
+      "distanceFromDefaultTerminalMeters": 3980,
+      "minDistanceFromAnyTerminalMeters": 3980,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/7e19bf5062b5bfba5d5c",
+      "name": "Grido",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "ice_cream",
+      "lat": -34.8646039,
+      "lng": -57.9046923,
+      "distanceFromTerminalMeters": 4459,
+      "distanceFromDefaultTerminalMeters": 4459,
+      "minDistanceFromAnyTerminalMeters": 4459,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [
+        "ice_cream"
+      ],
+      "wheelchair": "",
+      "brand": "Grido",
+      "description": "",
+      "osmTags": {
+        "amenity": "ice_cream"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/e310ca580432645ccb36",
+      "name": "Espacio Chiringo",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": -34.8402088,
+      "lng": -57.9203779,
+      "distanceFromTerminalMeters": 3856,
+      "distanceFromDefaultTerminalMeters": 3856,
+      "minDistanceFromAnyTerminalMeters": 3856,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ada60b1cfa95a6b8ddd3",
+      "name": "el pampa",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": -34.8815104,
+      "lng": -57.8641725,
+      "distanceFromTerminalMeters": 5907,
+      "distanceFromDefaultTerminalMeters": 5907,
+      "minDistanceFromAnyTerminalMeters": 5907,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [
+        "regional"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/fe3c149cfc2fde411600",
+      "name": "Paseo gastronómico",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "marketplace",
+      "lat": -34.8620088,
+      "lng": -57.9021288,
+      "distanceFromTerminalMeters": 4092,
+      "distanceFromDefaultTerminalMeters": 4092,
+      "minDistanceFromAnyTerminalMeters": 4092,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "marketplace"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/1db8b24e8a2895797ea4",
+      "name": "Feria Municipal",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "marketplace",
+      "lat": -34.8633136,
+      "lng": -57.9036911,
+      "distanceFromTerminalMeters": 4289,
+      "distanceFromDefaultTerminalMeters": 4289,
+      "minDistanceFromAnyTerminalMeters": 4289,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "marketplace"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/e9ea5fe30e9e1b5f3e4f",
+      "name": "Wangs",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "supermarket",
+      "lat": -34.8605989,
+      "lng": -57.902979,
+      "distanceFromTerminalMeters": 3997,
+      "distanceFromDefaultTerminalMeters": 3997,
+      "minDistanceFromAnyTerminalMeters": 3997,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "shop": "supermarket"
+      }
+    }
+  ],
+  "portAnchor": {
+    "id": "ports-json-anchor",
+    "name": "LA PLATA Port",
+    "lat": -34.83,
+    "lng": -57.88,
+    "address": "La Plata, Buenos Aires, Argentina",
+    "source": "ports.json",
+    "sourceId": "",
+    "score": 0,
+    "slug": "la-plata-port"
+  },
+  "terminalResolution": {
+    "status": "unresolved",
+    "method": "ports_json_fallback",
+    "verified": false,
+    "notes": "All supplied candidates are ferry-only stops, local docks, unnamed maritime features, or unrelated places rather than passenger cruise terminals."
+  }
+}

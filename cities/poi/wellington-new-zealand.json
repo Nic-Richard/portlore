@@ -1,0 +1,1130 @@
+{
+  "schemaVersion": 5,
+  "catalogType": "curation-candidates",
+  "generatedAt": "2026-07-30T08:30:06.002Z",
+  "source": "openstreetmap",
+  "sourceExtract": "new-zealand-latest.osm.pbf",
+  "radiusMeters": 10000,
+  "port": {
+    "id": "wellington-new-zealand",
+    "city": "Wellington",
+    "country": "New Zealand"
+  },
+  "defaultTerminalId": "manual/wellington-new-zealand/aotea-quay-cruise-terminal",
+  "terminal": {
+    "id": "manual/wellington-new-zealand/aotea-quay-cruise-terminal",
+    "name": "Aotea Quay Cruise Terminal",
+    "nameEnglish": "",
+    "lat": -41.26791,
+    "lng": 174.78624,
+    "address": "",
+    "source": "manual_web_research",
+    "sourceId": "manual/wellington-new-zealand/aotea-quay-cruise-terminal",
+    "terminalType": "cruise_terminal",
+    "verified": true,
+    "notes": "Primary large-ship passenger facility. Passengers normally leave the secure port by shuttle.",
+    "sourceUrls": [
+      "https://www.centreport.co.nz/what-we-do/cruise",
+      "https://www.openstreetmap.org/?mlat=-41.26791&mlon=174.78624#map=17/-41.26791/174.78624"
+    ],
+    "sources": [
+      "manual_web_research"
+    ],
+    "sourceIds": [
+      "manual/wellington-new-zealand/aotea-quay-cruise-terminal"
+    ],
+    "osmTags": {},
+    "matchedBy": [
+      "web_researched_terminal"
+    ],
+    "distanceFromPortMeters": null
+  },
+  "terminals": [
+    {
+      "id": "manual/wellington-new-zealand/aotea-quay-cruise-terminal",
+      "name": "Aotea Quay Cruise Terminal",
+      "nameEnglish": "",
+      "lat": -41.26791,
+      "lng": 174.78624,
+      "address": "",
+      "source": "manual_web_research",
+      "sourceId": "manual/wellington-new-zealand/aotea-quay-cruise-terminal",
+      "terminalType": "cruise_terminal",
+      "verified": true,
+      "notes": "Primary large-ship passenger facility. Passengers normally leave the secure port by shuttle.",
+      "sourceUrls": [
+        "https://www.centreport.co.nz/what-we-do/cruise",
+        "https://www.openstreetmap.org/?mlat=-41.26791&mlon=174.78624#map=17/-41.26791/174.78624"
+      ],
+      "sources": [
+        "manual_web_research"
+      ],
+      "sourceIds": [
+        "manual/wellington-new-zealand/aotea-quay-cruise-terminal"
+      ],
+      "osmTags": {},
+      "matchedBy": [
+        "web_researched_terminal"
+      ],
+      "distanceFromPortMeters": null
+    }
+  ],
+  "terminalCandidateRadiusMeters": 5000,
+  "terminalCandidates": [
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/cbf89b2a654eeb7166b7",
+      "name": "Bluebridge Ferry Terminal",
+      "nameEnglish": "",
+      "lat": -41.2801003,
+      "lng": 174.7814664,
+      "distanceFromPortMeters": 123,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "building": "yes",
+        "ferry": "yes",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/cbf89b2a654eeb7166b7"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/2e64939d77300f4aa055",
+      "name": "(unnamed maritime feature)",
+      "nameEnglish": "",
+      "lat": -41.2801672,
+      "lng": 174.7818218,
+      "distanceFromPortMeters": 153,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "stop_position"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/2e64939d77300f4aa055"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d2ab02ac4a6bb588cfb5",
+      "name": "(unnamed maritime feature)",
+      "nameEnglish": "",
+      "lat": -41.279301,
+      "lng": 174.7832216,
+      "distanceFromPortMeters": 280,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "stop_position"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/d2ab02ac4a6bb588cfb5"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b5b6ff27485caef483f3",
+      "name": "Wellington Harbour Ferry",
+      "nameEnglish": "",
+      "lat": -41.2835373,
+      "lng": 174.7793212,
+      "distanceFromPortMeters": 397,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "operator": "East By West Ferries",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/b5b6ff27485caef483f3"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/2a729f3f2708a9d08d13",
+      "name": "Wellington Interislander Terminal",
+      "nameEnglish": "",
+      "lat": -41.2642422,
+      "lng": 174.7869495,
+      "distanceFromPortMeters": 1846,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "building": "yes",
+        "ferry": "yes",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/2a729f3f2708a9d08d13"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/66b82e2665f2e5abb382",
+      "name": "interislander",
+      "nameEnglish": "",
+      "lat": -41.2644466,
+      "lng": 174.787756,
+      "distanceFromPortMeters": 1847,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "stop_position"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/66b82e2665f2e5abb382"
+      ]
+    }
+  ],
+  "counts": {
+    "attraction": 14,
+    "outdoors": 5,
+    "food_drink": 12,
+    "shopping": 3,
+    "essentials": 0
+  },
+  "pois": [
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/a449fe8753cee3a01b9a",
+      "name": "Reserve Bank Museum",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": -41.2789538,
+      "lng": 174.7753305,
+      "distanceFromTerminalMeters": 407,
+      "distanceFromDefaultTerminalMeters": 407,
+      "minDistanceFromAnyTerminalMeters": 407,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Fr 09:30-16:00",
+      "website": "http://rbnzmuseum.govt.nz",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/598db71625f66c5afebf",
+      "name": "Wellington Museum",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": -41.2853109,
+      "lng": 174.7781313,
+      "distanceFromTerminalMeters": 611,
+      "distanceFromDefaultTerminalMeters": 611,
+      "minDistanceFromAnyTerminalMeters": 611,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Su 10:00-17:00",
+      "website": "http://wellingtoncityheritage.org.nz/buildings/151-300/160-wellington-harbour-board-head-office-and-bond-store;https://www.museumswellington.org.nz/wellington-museum/",
+      "phone": "+64 4 472 8904",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/7fdc74ded3b564cf7255",
+      "name": "New Zealand Portrait Gallery",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": -41.2835817,
+      "lng": 174.7782021,
+      "distanceFromTerminalMeters": 426,
+      "distanceFromDefaultTerminalMeters": 426,
+      "minDistanceFromAnyTerminalMeters": 426,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "https://nzportraitgallery.org.nz/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ab6e2313327c909adbd1",
+      "name": "Page",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "gallery",
+      "lat": -41.2873284,
+      "lng": 174.7765131,
+      "distanceFromTerminalMeters": 865,
+      "distanceFromDefaultTerminalMeters": 865,
+      "minDistanceFromAnyTerminalMeters": 865,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Th 10:00-17:00; Fr 10:00-16:00",
+      "website": "https://www.pagegalleries.co.nz/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "gallery"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/57fb088470cb209f1568",
+      "name": "Museum of New Zealand Te Papa Tongarewa",
+      "nameEnglish": "Museum of New Zealand",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": -41.2903297,
+      "lng": 174.7819889,
+      "distanceFromTerminalMeters": 1161,
+      "distanceFromDefaultTerminalMeters": 1161,
+      "minDistanceFromAnyTerminalMeters": 1161,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "55 Cable Street, Wellington, 6011",
+      "openingHours": "10:00-18:00; Dec 24 off",
+      "website": "https://tepapa.govt.nz",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/aa95e75a890ca39d5eb2",
+      "name": "Kumutoto Stream",
+      "nameEnglish": "Kumutoto Stream",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": -41.2879901,
+      "lng": 174.7707439,
+      "distanceFromTerminalMeters": 1178,
+      "distanceFromDefaultTerminalMeters": 1178,
+      "minDistanceFromAnyTerminalMeters": 1178,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "24/7",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "no",
+      "brand": "",
+      "description": "Historic Māori birthing stream and place of cultural significance (Wāhi Tūpuna).",
+      "osmTags": {
+        "historic": "yes",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b74f6d49266a106cbf75",
+      "name": "Cable Car Museum",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": -41.2852451,
+      "lng": 174.7674482,
+      "distanceFromTerminalMeters": 1200,
+      "distanceFromDefaultTerminalMeters": 1200,
+      "minDistanceFromAnyTerminalMeters": 1200,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1A Upland Road, Wellington, 6012",
+      "openingHours": "Mo-Su 10:00-17:00",
+      "website": "https://www.museumswellington.org.nz/cable-car-museum/",
+      "phone": "+64 4 475 3578",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ce23a63f237a4b17fc44",
+      "name": "Harbour Buoy",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "monument",
+      "lat": -41.2805074,
+      "lng": 174.7807931,
+      "distanceFromTerminalMeters": 87,
+      "distanceFromDefaultTerminalMeters": 87,
+      "minDistanceFromAnyTerminalMeters": 87,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "monument"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/e2de42a4d91678806563",
+      "name": "Gardens Battery",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "fort",
+      "lat": -41.2842988,
+      "lng": 174.7681795,
+      "distanceFromTerminalMeters": 1097,
+      "distanceFromDefaultTerminalMeters": 1097,
+      "minDistanceFromAnyTerminalMeters": 1097,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "fort"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d3713be82d554b618a42",
+      "name": "Fort Buckley Ruins",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "fort",
+      "lat": -41.260732,
+      "lng": 174.7879927,
+      "distanceFromTerminalMeters": 2244,
+      "distanceFromDefaultTerminalMeters": 2244,
+      "minDistanceFromAnyTerminalMeters": 2244,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "fort"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/71dbe2708afe0e784d51",
+      "name": "Tupua-horo-rangi",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "monument",
+      "lat": -41.2780665,
+      "lng": 174.7769474,
+      "distanceFromTerminalMeters": 334,
+      "distanceFromDefaultTerminalMeters": 334,
+      "minDistanceFromAnyTerminalMeters": 334,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "monument"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/214f7207009fbdde4729",
+      "name": "Tupua-horo-nuku",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "monument",
+      "lat": -41.2779282,
+      "lng": 174.7769553,
+      "distanceFromTerminalMeters": 343,
+      "distanceFromDefaultTerminalMeters": 343,
+      "minDistanceFromAnyTerminalMeters": 343,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "monument"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/4dbd37e44d65146bfa2a",
+      "name": "Richard Byrd memorial",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": -41.2970156,
+      "lng": 174.7936589,
+      "distanceFromTerminalMeters": 2210,
+      "distanceFromDefaultTerminalMeters": 2210,
+      "minDistanceFromAnyTerminalMeters": 2210,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "https://www.nzhistory.net.nz/media/photo/byrd-memorial",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "memorial",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/2186b4a6a16da7c3b2c9",
+      "name": "Plimmer's Ark",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "archaeological_site",
+      "lat": -41.2858783,
+      "lng": 174.7762378,
+      "distanceFromTerminalMeters": 725,
+      "distanceFromDefaultTerminalMeters": 725,
+      "minDistanceFromAnyTerminalMeters": 725,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "archaeological_site"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/91f42caf65f386e0370b",
+      "name": "Wellington Botanic Garden",
+      "nameEnglish": "Wellington Botanic Garden",
+      "category": "outdoors",
+      "subcategory": "garden",
+      "lat": -41.2825335,
+      "lng": 174.7661336,
+      "distanceFromTerminalMeters": 1192,
+      "distanceFromDefaultTerminalMeters": 1192,
+      "minDistanceFromAnyTerminalMeters": 1192,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "https://wellingtongardens.nz/our-gahttps://wellingtongardens.nz/our-gardens/wellington-botanic-garden-ki-paekaka/rdens/wellington-botanic-garden-ki-paekaka/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "garden",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/7dd03ba36848693a49fc",
+      "name": "Former Bowen Hospital Garden",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "garden",
+      "lat": -41.279026,
+      "lng": 174.7759578,
+      "distanceFromTerminalMeters": 355,
+      "distanceFromDefaultTerminalMeters": 355,
+      "minDistanceFromAnyTerminalMeters": 355,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "garden"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f3767c2949ac2767614b",
+      "name": "Ron Jarden Memorial Garden",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "garden",
+      "lat": -41.2768057,
+      "lng": 174.7775882,
+      "distanceFromTerminalMeters": 408,
+      "distanceFromDefaultTerminalMeters": 408,
+      "minDistanceFromAnyTerminalMeters": 408,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "garden"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/a7fa2d4c5a233b3e1873",
+      "name": "Lady Norwood Rose Garden",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "garden",
+      "lat": -41.2805613,
+      "lng": 174.7694436,
+      "distanceFromTerminalMeters": 884,
+      "distanceFromDefaultTerminalMeters": 884,
+      "minDistanceFromAnyTerminalMeters": 884,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "garden",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/a568c247ac5960dadbb1",
+      "name": "Wāhi Tūpuna",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "nature_reserve",
+      "lat": -41.2880663,
+      "lng": 174.7706001,
+      "distanceFromTerminalMeters": 1192,
+      "distanceFromDefaultTerminalMeters": 1192,
+      "minDistanceFromAnyTerminalMeters": 1192,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "New Zealand Cultural Sight of Significance",
+      "osmTags": {
+        "historic": "yes",
+        "leisure": "nature_reserve"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/6915201129499b6c0e71",
+      "name": "Wellington Sea Market;Wellington Seamarket",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "fast_food",
+      "lat": -41.2955625,
+      "lng": 174.7742434,
+      "distanceFromTerminalMeters": 1796,
+      "distanceFromDefaultTerminalMeters": 1796,
+      "minDistanceFromAnyTerminalMeters": 1796,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "220 Cuba Street, 6011",
+      "openingHours": "Su-Th 08:00-20:30; Fr-Sa 08:00-21:00; Mo-Th 07:00-20:30",
+      "website": "https://www.wellingtonseamarket.com/cuba-st/#Cuba-St-location",
+      "phone": "+64 4 384 8461",
+      "cuisine": [
+        "burger",
+        "fish_and_chips"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "fast_food",
+        "shop": "seafood"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/7457088f6c4fc3a4181e",
+      "name": "Belén Plant Bakery",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": -41.2799581,
+      "lng": 174.775907,
+      "distanceFromTerminalMeters": 342,
+      "distanceFromDefaultTerminalMeters": 342,
+      "minDistanceFromAnyTerminalMeters": 342,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "104 Lambton Quay, Wellington, 6011",
+      "openingHours": "Mo-Fr 07:30-15:00",
+      "website": "https://belenplantbakery.com/",
+      "phone": "+64 4 280 0365",
+      "cuisine": [
+        "bakery",
+        "pastry",
+        "donut"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/eb41f63313f2083ffe11",
+      "name": "Cuckoo",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": -41.2837196,
+      "lng": 174.778559,
+      "distanceFromTerminalMeters": 431,
+      "distanceFromDefaultTerminalMeters": 431,
+      "minDistanceFromAnyTerminalMeters": 431,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "57 Customhouse Quay, Wellington",
+      "openingHours": "Tu-We 09:30-20:00, Th-Fr 09:30-22:00, Sa 14:00-20:00",
+      "website": "https://cuckooemporium.co.nz",
+      "phone": "",
+      "cuisine": [
+        "coffee_shop"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f8a7ac3da7cca627208f",
+      "name": "Extra Extra (Vivace)",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": -41.2841552,
+      "lng": 174.7770798,
+      "distanceFromTerminalMeters": 523,
+      "distanceFromDefaultTerminalMeters": 523,
+      "minDistanceFromAnyTerminalMeters": 523,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "4 Panama St",
+      "openingHours": "Mo-Fr 06:00-15:00",
+      "website": "https://www.facebook.com/ExtraExtraCafe/",
+      "phone": "+64 4 473 1607",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Espresso Bar",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/091240ba6e8a8c662002",
+      "name": "Noah's Ark",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": -41.2907369,
+      "lng": 174.7763804,
+      "distanceFromTerminalMeters": 1232,
+      "distanceFromDefaultTerminalMeters": 1232,
+      "minDistanceFromAnyTerminalMeters": 1232,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "67A Manners Street, 6011",
+      "openingHours": "11:00-19:00",
+      "website": "https://noahsarkteahouse.com/locations/manners-st",
+      "phone": "+64 4 499 5008",
+      "cuisine": [
+        "bubble_tea"
+      ],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "Kiwi Bubble Tea Specialists",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/1efd4cecb9633eafa168",
+      "name": "Higher Taste Hare Krishna",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": -41.280834,
+      "lng": 174.7756787,
+      "distanceFromTerminalMeters": 373,
+      "distanceFromDefaultTerminalMeters": 373,
+      "minDistanceFromAnyTerminalMeters": 373,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "138a Lambton Quay",
+      "openingHours": "Mo 10:00-15:00; Tu-Sa 10:00-19:00; Su,PH off",
+      "website": "https://www.highertasteharekrishna.com/",
+      "phone": "+64 4 472 2234",
+      "cuisine": [
+        "indian"
+      ],
+      "wheelchair": "no",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b10e0acc8ff0e856781a",
+      "name": "Le Saigon",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": -41.2832192,
+      "lng": 174.7769204,
+      "distanceFromTerminalMeters": 441,
+      "distanceFromDefaultTerminalMeters": 441,
+      "minDistanceFromAnyTerminalMeters": 441,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "146-150 Featherston Street",
+      "openingHours": "Mo-Su 11:30-14:30, 17:00-21:00",
+      "website": "https://www.lesaigon.co.nz/",
+      "phone": "+64 4 974 8883",
+      "cuisine": [
+        "vietnamese"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/fdb86ad80fcd59ef2530",
+      "name": "Dockside",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": -41.2845889,
+      "lng": 174.7795254,
+      "distanceFromTerminalMeters": 512,
+      "distanceFromDefaultTerminalMeters": 512,
+      "minDistanceFromAnyTerminalMeters": 512,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "7 Queens Wharf",
+      "openingHours": "Mo-Fr 12:00-21:00; Sa 11:00-21:00; Su 11:00-21:00",
+      "website": "https://dockside.co.nz/",
+      "phone": "+64 4 499 9900",
+      "cuisine": [
+        "seafood"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ae78d174505b8f08ee68",
+      "name": "Bin 44",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": -41.2846549,
+      "lng": 174.7788346,
+      "distanceFromTerminalMeters": 527,
+      "distanceFromDefaultTerminalMeters": 527,
+      "minDistanceFromAnyTerminalMeters": 527,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "3 Queens Wharf Queens Wharf, Wellington, 6011",
+      "openingHours": "Mo-Su 10:00-23:00",
+      "website": "https://bin44.co.nz",
+      "phone": "",
+      "cuisine": [
+        "Craft_Beer"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/0c3bf85c37b06f85cdc2",
+      "name": "Verve",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": -41.2837818,
+      "lng": 174.7752067,
+      "distanceFromTerminalMeters": 581,
+      "distanceFromDefaultTerminalMeters": 581,
+      "minDistanceFromAnyTerminalMeters": 581,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "250 Lambton Quay",
+      "openingHours": "Mo-Fr 07:00-04:30; Sa 09:00-04:30; Su 10:00-04:00",
+      "website": "http://www.vervecafe.co.nz",
+      "phone": "",
+      "cuisine": [
+        "cake",
+        "coffee_shop"
+      ],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ccc2ad39c888500b5bdc",
+      "name": "Fisherman's Plate",
+      "nameEnglish": "Fisherman's Plate",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": -41.2891121,
+      "lng": 174.775421,
+      "distanceFromTerminalMeters": 1083,
+      "distanceFromDefaultTerminalMeters": 1083,
+      "minDistanceFromAnyTerminalMeters": 1083,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "12 Bond Street, 6011",
+      "openingHours": "Mo-Sa 11:00-15:00,17:00-21:00; Su,PH off",
+      "website": "https://m.facebook.com/pages/Fishermans-Plate/172072822839933",
+      "phone": "+64 4 473 8375",
+      "cuisine": [
+        "vietnamese"
+      ],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "Vietnamese Restaurant and Takeaway",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/bf8c1452f753d8129150",
+      "name": "Boat Café",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": -41.2901399,
+      "lng": 174.7894226,
+      "distanceFromTerminalMeters": 1375,
+      "distanceFromDefaultTerminalMeters": 1375,
+      "minDistanceFromAnyTerminalMeters": 1375,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "139A Oriental Parade",
+      "openingHours": "Mo-Tu 08:00-16:00; We-Su 08:00+",
+      "website": "https://www.boatcafe.co.nz/",
+      "phone": "+64 4 939 8517",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "ex- auckland tugboat",
+      "osmTags": {
+        "amenity": "restaurant",
+        "historic": "ship"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/5cc507aa92443ceddb6f",
+      "name": "Harbourside Market",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "marketplace",
+      "lat": -41.2912507,
+      "lng": 174.7832711,
+      "distanceFromTerminalMeters": 1281,
+      "distanceFromDefaultTerminalMeters": 1281,
+      "minDistanceFromAnyTerminalMeters": 1281,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "75 Cable Street, Wellington, 6011",
+      "openingHours": "Su 07:30-13:00",
+      "website": "www.harboursidemarket.co.nz",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "marketplace"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/354df35aec35bf51ed7e",
+      "name": "Old Bank Arcade",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "mall",
+      "lat": -41.2858558,
+      "lng": 174.7762325,
+      "distanceFromTerminalMeters": 723,
+      "distanceFromDefaultTerminalMeters": 723,
+      "minDistanceFromAnyTerminalMeters": 723,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "233 – 237 Lambton Quay, Wellington Central, Wellington, 6011",
+      "openingHours": "",
+      "website": "https://www.oldbank.co.nz/",
+      "phone": "+64 4 922 0600",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "building",
+        "shop": "mall"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/890875a6b019ecd75208",
+      "name": "Wellington Seamarket",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "seafood",
+      "lat": -41.2810067,
+      "lng": 174.7757004,
+      "distanceFromTerminalMeters": 376,
+      "distanceFromDefaultTerminalMeters": 376,
+      "minDistanceFromAnyTerminalMeters": 376,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "146 Lambton Quay, Wellington, 6011",
+      "openingHours": "Mo-Th 09:30-18:30, Fr 09:30-19:00",
+      "website": "https://www.wellingtonseamarket.com/contactlambtonquay",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "shop": "seafood"
+      }
+    }
+  ],
+  "portAnchor": {
+    "id": "ports-json-anchor",
+    "name": "WELLINGTON Port",
+    "lat": -41.28,
+    "lng": 174.78,
+    "address": "Wellington, Wellington, New Zealand",
+    "source": "ports.json",
+    "sourceId": "",
+    "score": 0,
+    "slug": "wellington-port"
+  },
+  "terminalResolution": {
+    "status": "resolved",
+    "method": "manual_web_research",
+    "verified": true,
+    "notes": "Terminal records were added from researched cruise-port sources because no supplied candidate accurately represented the passenger arrival point."
+  }
+}

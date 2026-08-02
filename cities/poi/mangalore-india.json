@@ -1,0 +1,785 @@
+{
+  "schemaVersion": 5,
+  "catalogType": "curation-candidates",
+  "generatedAt": "2026-07-30T09:00:16.030Z",
+  "source": "openstreetmap",
+  "sourceExtract": "southern-zone-latest.osm.pbf",
+  "radiusMeters": 10000,
+  "port": {
+    "id": "mangalore-india",
+    "city": "Mangalore",
+    "country": "India"
+  },
+  "defaultTerminalId": "osm/relation/18821078",
+  "terminal": {
+    "id": "osm/relation/18821078",
+    "name": "New Mangalore Port",
+    "nameEnglish": "",
+    "lat": 12.9298239,
+    "lng": 74.8224536,
+    "address": "New Mangalore Port, Kulur, Mangaluru, Mangaluru taluk, Dakshina Kannada, Karnataka, 575001, India",
+    "source": "verified_terminal_candidate",
+    "sourceId": "osm/relation/18821078",
+    "terminalType": "passenger_cruise_terminal",
+    "verified": true,
+    "notes": "Accepted New Mangalore Port as the practical arrival area. Cruise calls use berths inside the port and passengers are transferred out through the port rather than a separately mapped public terminal.",
+    "sourceUrls": [],
+    "sources": [
+      "nominatim"
+    ],
+    "sourceIds": [
+      "osm/relation/18821078"
+    ],
+    "osmTags": {
+      "industrial": "port"
+    },
+    "matchedBy": [
+      "Nominatim query: NEW MANGALORE Port, Mangalore, India"
+    ],
+    "distanceFromPortMeters": 1124
+  },
+  "terminals": [
+    {
+      "id": "osm/relation/18821078",
+      "name": "New Mangalore Port",
+      "nameEnglish": "",
+      "lat": 12.9298239,
+      "lng": 74.8224536,
+      "address": "New Mangalore Port, Kulur, Mangaluru, Mangaluru taluk, Dakshina Kannada, Karnataka, 575001, India",
+      "source": "verified_terminal_candidate",
+      "sourceId": "osm/relation/18821078",
+      "terminalType": "passenger_cruise_terminal",
+      "verified": true,
+      "notes": "Accepted New Mangalore Port as the practical arrival area. Cruise calls use berths inside the port and passengers are transferred out through the port rather than a separately mapped public terminal.",
+      "sourceUrls": [],
+      "sources": [
+        "nominatim"
+      ],
+      "sourceIds": [
+        "osm/relation/18821078"
+      ],
+      "osmTags": {
+        "industrial": "port"
+      },
+      "matchedBy": [
+        "Nominatim query: NEW MANGALORE Port, Mangalore, India"
+      ],
+      "distanceFromPortMeters": 1124
+    }
+  ],
+  "terminalCandidateRadiusMeters": 5000,
+  "terminalCandidates": [
+    {
+      "source": "nominatim",
+      "sourceId": "osm/relation/18821078",
+      "osmType": "relation",
+      "osmId": "18821078",
+      "name": "New Mangalore Port",
+      "nameEnglish": "",
+      "lat": 12.9298239,
+      "lng": 74.8224536,
+      "distanceFromPortMeters": 1124,
+      "address": "New Mangalore Port, Kulur, Mangaluru, Mangaluru taluk, Dakshina Kannada, Karnataka, 575001, India",
+      "displayName": "New Mangalore Port, Kulur, Mangaluru, Mangaluru taluk, Dakshina Kannada, Karnataka, 575001, India",
+      "query": "NEW MANGALORE Port, Mangalore, India",
+      "matchedBy": [
+        "Nominatim query: NEW MANGALORE Port, Mangalore, India"
+      ],
+      "osmTags": {
+        "industrial": "port"
+      },
+      "sources": [
+        "nominatim"
+      ],
+      "sourceIds": [
+        "osm/relation/18821078"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/2b0f15817b8203507f14",
+      "name": "Sultan Batthery",
+      "nameEnglish": "",
+      "lat": 12.8891785,
+      "lng": 74.8203055,
+      "distanceFromPortMeters": 3427,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/2b0f15817b8203507f14"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/05b40f30c4635c7dd32f",
+      "name": "(unnamed maritime feature)",
+      "nameEnglish": "",
+      "lat": 12.8888925,
+      "lng": 74.8181174,
+      "distanceFromPortMeters": 3465,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/05b40f30c4635c7dd32f"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/fefc26debf01926f648c",
+      "name": "BMS Ferry Service",
+      "nameEnglish": "",
+      "lat": 12.8869219,
+      "lng": 74.8179151,
+      "distanceFromPortMeters": 3685,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/fefc26debf01926f648c"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/2d55fb5a2651c9d4c0e0",
+      "name": "Bengare",
+      "nameEnglish": "",
+      "lat": 12.8833187,
+      "lng": 74.8182025,
+      "distanceFromPortMeters": 4083,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/2d55fb5a2651c9d4c0e0"
+      ]
+    }
+  ],
+  "counts": {
+    "attraction": 6,
+    "outdoors": 4,
+    "food_drink": 7,
+    "shopping": 5,
+    "essentials": 0
+  },
+  "pois": [
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/8c69a2eb05171a14686a",
+      "name": "Kudroli Temple Entrance arch",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 12.876607,
+      "lng": 74.8332695,
+      "distanceFromTerminalMeters": 5035,
+      "distanceFromDefaultTerminalMeters": 5035,
+      "minDistanceFromAnyTerminalMeters": 5035,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/2b522006c86b801e2dbb",
+      "name": "Kudroli Temple Complex",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 12.8758761,
+      "lng": 74.8313985,
+      "distanceFromTerminalMeters": 5060,
+      "distanceFromDefaultTerminalMeters": 5060,
+      "minDistanceFromAnyTerminalMeters": 5060,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/2298587c8e59e4666846",
+      "name": "Central Market",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 12.8665522,
+      "lng": 74.8389076,
+      "distanceFromTerminalMeters": 6287,
+      "distanceFromDefaultTerminalMeters": 6287,
+      "minDistanceFromAnyTerminalMeters": 6287,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "market",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/e1ee23ed2e233749ea03",
+      "name": "Pererira Aquarium",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "aquarium",
+      "lat": 12.984736,
+      "lng": 74.801574,
+      "distanceFromTerminalMeters": 7470,
+      "distanceFromDefaultTerminalMeters": 7470,
+      "minDistanceFromAnyTerminalMeters": 7470,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "aquarium"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/0223501ab0b7075a095b",
+      "name": "Pilikula Biological Park",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "zoo",
+      "lat": 12.9275412,
+      "lng": 74.902134,
+      "distanceFromTerminalMeters": 8941,
+      "distanceFromDefaultTerminalMeters": 8941,
+      "minDistanceFromAnyTerminalMeters": 8941,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "zoo"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/acc05c70a3db55d250f5",
+      "name": "Gudde Guthu house",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "monument",
+      "lat": 12.8522989,
+      "lng": 74.8633385,
+      "distanceFromTerminalMeters": 8873,
+      "distanceFromDefaultTerminalMeters": 8873,
+      "minDistanceFromAnyTerminalMeters": 8873,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "monument"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/8d9dd130235867aa760e",
+      "name": "Tannirbhavi Beach",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "beach",
+      "lat": 12.9047496,
+      "lng": 74.8096719,
+      "distanceFromTerminalMeters": 2032,
+      "distanceFromDefaultTerminalMeters": 2032,
+      "minDistanceFromAnyTerminalMeters": 2032,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "natural": "beach"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d604ebeada29becf6ac0",
+      "name": "Panambur Beach",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "beach",
+      "lat": 12.9366152,
+      "lng": 74.8040505,
+      "distanceFromTerminalMeters": 2530,
+      "distanceFromDefaultTerminalMeters": 2530,
+      "minDistanceFromAnyTerminalMeters": 2530,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "natural": "beach"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/29dfe5e65083880344c3",
+      "name": "Air India Memorial Park",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 12.9259776,
+      "lng": 74.8255627,
+      "distanceFromTerminalMeters": 897,
+      "distanceFromDefaultTerminalMeters": 897,
+      "minDistanceFromAnyTerminalMeters": 897,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Near Kuloor Bridge, mangaluru, 575010",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/8f858ac69f25bb882396",
+      "name": "Sultan Battery",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "viewpoint",
+      "lat": 12.8895708,
+      "lng": 74.8212527,
+      "distanceFromTerminalMeters": 3386,
+      "distanceFromDefaultTerminalMeters": 3386,
+      "minDistanceFromAnyTerminalMeters": 3386,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "archaeological_site",
+        "tourism": "viewpoint"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/3da8cf21e9b7a254527b",
+      "name": "Toddy Palace",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 12.9247776,
+      "lng": 74.8282796,
+      "distanceFromTerminalMeters": 1043,
+      "distanceFromDefaultTerminalMeters": 1043,
+      "minDistanceFromAnyTerminalMeters": 1043,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/5866c9ed1658fca6d49e",
+      "name": "Cafe Coffee Day",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 12.9047712,
+      "lng": 74.8367962,
+      "distanceFromTerminalMeters": 2486,
+      "distanceFromDefaultTerminalMeters": 2486,
+      "minDistanceFromAnyTerminalMeters": 2486,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Inside Infosys Technologies, Kuloor Ferry Road, Kottara, Kottara, Mangalore, Karnataka",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [
+        "coffee_shop"
+      ],
+      "wheelchair": "",
+      "brand": "Cafe Coffee Day",
+      "description": "",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/37117e6e025b26a04820",
+      "name": "Ramen House 1974",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 12.8986931,
+      "lng": 74.8407905,
+      "distanceFromTerminalMeters": 3270,
+      "distanceFromDefaultTerminalMeters": 3270,
+      "minDistanceFromAnyTerminalMeters": 3270,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Tu-Su 18:30-22:30",
+      "website": "",
+      "phone": "+91 90198 91974",
+      "cuisine": [
+        "ramen"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/61ead50d2aee961060d7",
+      "name": "Hotel Sri Devi",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 12.9258529,
+      "lng": 74.8582536,
+      "distanceFromTerminalMeters": 4197,
+      "distanceFromDefaultTerminalMeters": 4197,
+      "minDistanceFromAnyTerminalMeters": 4197,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Saptagiri Complex Kavoor, Mangalore, 575015",
+      "openingHours": "Mo-Su 06:00-22:00",
+      "website": "",
+      "phone": "0824 248 5997",
+      "cuisine": [
+        "indian",
+        "regional"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/fcf814cf28717026659d",
+      "name": "Icy and Spicy Bites",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 12.9242285,
+      "lng": 74.8509637,
+      "distanceFromTerminalMeters": 3389,
+      "distanceFromDefaultTerminalMeters": 3389,
+      "minDistanceFromAnyTerminalMeters": 3389,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "gandhinagar, Mangaluru, 575015",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [
+        "indian",
+        "ice_cream",
+        "juice",
+        "burger",
+        "sandwich"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c0a78cc7ec60e2cfc60b",
+      "name": "Sizzler Ranch",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 12.8843372,
+      "lng": 74.8371159,
+      "distanceFromTerminalMeters": 4378,
+      "distanceFromDefaultTerminalMeters": 4378,
+      "minDistanceFromAnyTerminalMeters": 4378,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [
+        "italian",
+        "chinese",
+        "indian",
+        "thai"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b23b9eae421d1d8ede27",
+      "name": "Port Town Market",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "marketplace",
+      "lat": 12.9438586,
+      "lng": 74.8161404,
+      "distanceFromTerminalMeters": 2686,
+      "distanceFromDefaultTerminalMeters": 2686,
+      "minDistanceFromAnyTerminalMeters": 2686,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "marketplace"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/1aa09746292de2616e10",
+      "name": "Urva Store Market",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "marketplace",
+      "lat": 12.9004889,
+      "lng": 74.8360453,
+      "distanceFromTerminalMeters": 2781,
+      "distanceFromDefaultTerminalMeters": 2781,
+      "minDistanceFromAnyTerminalMeters": 2781,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "marketplace"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/82babf8e7622afa04da6",
+      "name": "Urwa Market",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "marketplace",
+      "lat": 12.889046,
+      "lng": 74.8298446,
+      "distanceFromTerminalMeters": 3604,
+      "distanceFromDefaultTerminalMeters": 3604,
+      "minDistanceFromAnyTerminalMeters": 3604,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "marketplace"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/0eca154a6d04dd31dfe4",
+      "name": "Bharath Mall",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "mall",
+      "lat": 12.8865256,
+      "lng": 74.8409958,
+      "distanceFromTerminalMeters": 4363,
+      "distanceFromDefaultTerminalMeters": 4363,
+      "minDistanceFromAnyTerminalMeters": 4363,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Su 10:15-20:00",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "shop": "mall"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/343102c864639decb40a",
+      "name": "Sanil Complex",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "mall",
+      "lat": 12.9554882,
+      "lng": 74.8073959,
+      "distanceFromTerminalMeters": 4176,
+      "distanceFromDefaultTerminalMeters": 4176,
+      "minDistanceFromAnyTerminalMeters": 4176,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "shop": "mall"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/6034151d0fadd9486489",
+      "name": "Malabar Kitchen",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 12.9248378,
+      "lng": 74.8281763,
+      "distanceFromTerminalMeters": 1037,
+      "distanceFromDefaultTerminalMeters": 1037,
+      "minDistanceFromAnyTerminalMeters": 1037,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    }
+  ],
+  "portAnchor": {
+    "id": "ports-json-anchor",
+    "name": "NEW MANGALORE Port",
+    "lat": 12.92,
+    "lng": 74.82,
+    "address": "Mangalore, Karnataka, India",
+    "source": "ports.json",
+    "sourceId": "",
+    "score": 0,
+    "slug": "new-mangalore-port"
+  },
+  "terminalResolution": {
+    "status": "resolved",
+    "method": "accepted_terminal_candidate",
+    "verified": true,
+    "notes": "Accepted New Mangalore Port as the practical arrival area. Cruise calls use berths inside the port and passengers are transferred out through the port rather than a separately mapped public terminal."
+  }
+}

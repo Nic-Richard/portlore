@@ -1,0 +1,19 @@
+{
+  "name": "portlore-scripts",
+  "version": "1.0.0",
+  "description": "Portlore offline POI extraction and city curation scripts",
+  "type": "module",
+  "scripts": {
+    "poi": "node build-poi-catalog.js",
+    "generate": "node generate-city.js",
+    "sync": "node sync-generated-state.js ../cities",
+    "poi:all": "node build-all-poi-catalogs.js",
+    "places": "node resolve-google-places.js",
+    "validate": "node validate-data.js",
+    "audit": "node audit-ports.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.30.0",
+    "dotenv": "^16.0.0"
+  }
+}

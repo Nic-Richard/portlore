@@ -1,0 +1,863 @@
+{
+  "schemaVersion": 5,
+  "catalogType": "curation-candidates",
+  "generatedAt": "2026-07-30T07:49:17.424Z",
+  "source": "openstreetmap",
+  "sourceExtract": "chugoku-latest.osm.pbf",
+  "radiusMeters": 10000,
+  "port": {
+    "id": "kure-japan",
+    "city": "Kure",
+    "country": "Japan"
+  },
+  "defaultTerminalId": "osm/generated/a03bb787b087e4e7fd15",
+  "terminal": {
+    "id": "osm/generated/a03bb787b087e4e7fd15",
+    "name": "呉中央桟橋ターミナル",
+    "nameEnglish": "Kure Central Pier Terminal",
+    "lat": 34.2406703,
+    "lng": 132.5564127,
+    "address": "",
+    "source": "verified_terminal_candidate",
+    "sourceId": "osm/generated/a03bb787b087e4e7fd15",
+    "terminalType": "passenger_cruise_terminal",
+    "verified": true,
+    "notes": "Accepted Kure Central Pier Terminal, the central passenger waterfront terminal and most plausible supplied disembarkation point for cruise visitors.",
+    "sourceUrls": [],
+    "sources": [
+      "openstreetmap"
+    ],
+    "sourceIds": [
+      "osm/generated/a03bb787b087e4e7fd15"
+    ],
+    "osmTags": {
+      "amenity": "ferry_terminal",
+      "building": "yes",
+      "ferry": "yes",
+      "name:en": "Kure Central Pier Terminal",
+      "public_transport": "station"
+    },
+    "matchedBy": [
+      "amenity=ferry_terminal"
+    ],
+    "distanceFromPortMeters": 1325
+  },
+  "terminals": [
+    {
+      "id": "osm/generated/a03bb787b087e4e7fd15",
+      "name": "呉中央桟橋ターミナル",
+      "nameEnglish": "Kure Central Pier Terminal",
+      "lat": 34.2406703,
+      "lng": 132.5564127,
+      "address": "",
+      "source": "verified_terminal_candidate",
+      "sourceId": "osm/generated/a03bb787b087e4e7fd15",
+      "terminalType": "passenger_cruise_terminal",
+      "verified": true,
+      "notes": "Accepted Kure Central Pier Terminal, the central passenger waterfront terminal and most plausible supplied disembarkation point for cruise visitors.",
+      "sourceUrls": [],
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/a03bb787b087e4e7fd15"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "building": "yes",
+        "ferry": "yes",
+        "name:en": "Kure Central Pier Terminal",
+        "public_transport": "station"
+      },
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "distanceFromPortMeters": 1325
+    }
+  ],
+  "terminalCandidateRadiusMeters": 5000,
+  "terminalCandidates": [
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/a03bb787b087e4e7fd15",
+      "name": "呉中央桟橋ターミナル",
+      "nameEnglish": "Kure Central Pier Terminal",
+      "lat": 34.2406703,
+      "lng": 132.5564127,
+      "distanceFromPortMeters": 1325,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "building": "yes",
+        "ferry": "yes",
+        "name:en": "Kure Central Pier Terminal",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/a03bb787b087e4e7fd15"
+      ]
+    },
+    {
+      "source": "nominatim",
+      "sourceId": "osm/way/150737288",
+      "osmType": "way",
+      "osmId": "150737288",
+      "name": "呉港線",
+      "nameEnglish": "Kure Port Line",
+      "lat": 34.2419242,
+      "lng": 132.5582019,
+      "distanceFromPortMeters": 1525,
+      "address": "呉港線, 宝町, 呉市, 広島県, 737-0029, 日本",
+      "displayName": "呉港線, 宝町, 呉市, 広島県, 737-0029, 日本",
+      "query": "KURE Port, Kure, Japan",
+      "matchedBy": [
+        "Nominatim query: KURE Port, Kure, Japan"
+      ],
+      "osmTags": {},
+      "sources": [
+        "nominatim"
+      ],
+      "sourceIds": [
+        "osm/way/150737288"
+      ]
+    },
+    {
+      "source": "nominatim",
+      "sourceId": "osm/way/302749932",
+      "osmType": "way",
+      "osmId": "302749932",
+      "name": "呉港線",
+      "nameEnglish": "Kure Port Line",
+      "lat": 34.2432105,
+      "lng": 132.5595674,
+      "distanceFromPortMeters": 1712,
+      "address": "呉港線, 宝町, 中央, 呉市, 広島県, 737-0029, 日本",
+      "displayName": "呉港線, 宝町, 中央, 呉市, 広島県, 737-0029, 日本",
+      "query": "KURE Port, Kure, Japan",
+      "matchedBy": [
+        "Nominatim query: KURE Port, Kure, Japan"
+      ],
+      "osmTags": {},
+      "sources": [
+        "nominatim"
+      ],
+      "sourceIds": [
+        "osm/way/302749932",
+        "osm/way/302749933"
+      ]
+    },
+    {
+      "source": "nominatim",
+      "sourceId": "osm/way/150737234",
+      "osmType": "way",
+      "osmId": "150737234",
+      "name": "呉港線",
+      "nameEnglish": "Kure Port Line",
+      "lat": 34.2439838,
+      "lng": 132.5603972,
+      "distanceFromPortMeters": 1825,
+      "address": "呉港線, 中央1, 中央, 呉市, 広島県, 737-0051, 日本",
+      "displayName": "呉港線, 中央1, 中央, 呉市, 広島県, 737-0051, 日本",
+      "query": "KURE Port, Kure, Japan",
+      "matchedBy": [
+        "Nominatim query: KURE Port, Kure, Japan"
+      ],
+      "osmTags": {},
+      "sources": [
+        "nominatim"
+      ],
+      "sourceIds": [
+        "osm/way/150737234"
+      ]
+    }
+  ],
+  "counts": {
+    "attraction": 7,
+    "outdoors": 5,
+    "food_drink": 12,
+    "essentials": 1,
+    "shopping": 1
+  },
+  "pois": [
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/56c4b5b1411dcb928a76",
+      "name": "呉市海事歴史科学館",
+      "nameEnglish": "Yamato Museum",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 34.2411747,
+      "lng": 132.5558684,
+      "distanceFromTerminalMeters": 1355,
+      "distanceFromDefaultTerminalMeters": 1355,
+      "minDistanceFromAnyTerminalMeters": 1355,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Tu,Th-Su 09:00-18:00; We off",
+      "website": "https://yamato-museum.com/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/5e0680ae0f28b0b679cd",
+      "name": "海上自衛隊呉史料館",
+      "nameEnglish": "JMSDF Kure Museum",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 34.242219,
+      "lng": 132.5553635,
+      "distanceFromTerminalMeters": 1445,
+      "distanceFromDefaultTerminalMeters": 1445,
+      "minDistanceFromAnyTerminalMeters": 1445,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Tu,Th-Su 10:00-18:00 \"last admission is 17:30\"; We off",
+      "website": "https://www.jmsdf-kure-museum.go.jp/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/2fc66bed96044096037d",
+      "name": "呉市立美術館",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 34.239958,
+      "lng": 132.563863,
+      "distanceFromTerminalMeters": 1688,
+      "distanceFromDefaultTerminalMeters": 1688,
+      "minDistanceFromAnyTerminalMeters": 1688,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "https://www.kure-bi.jp/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d99dc22730794fe13f6b",
+      "name": "魚雷揚げ下ろしクレーン",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "yes",
+      "lat": 34.2253884,
+      "lng": 132.5485976,
+      "distanceFromTerminalMeters": 529,
+      "distanceFromDefaultTerminalMeters": 529,
+      "minDistanceFromAnyTerminalMeters": 529,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "yes",
+        "man_made": "crane"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/99385adc91fe1a7f47c5",
+      "name": "呉海軍工廠記念塔",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "monument",
+      "lat": 34.2328509,
+      "lng": 132.5610439,
+      "distanceFromTerminalMeters": 1064,
+      "distanceFromDefaultTerminalMeters": 1064,
+      "minDistanceFromAnyTerminalMeters": 1064,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "monument"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/a38031c25fd167df6aa1",
+      "name": "誓いの錨",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "monument",
+      "lat": 34.2402237,
+      "lng": 132.5540286,
+      "distanceFromTerminalMeters": 1196,
+      "distanceFromDefaultTerminalMeters": 1196,
+      "minDistanceFromAnyTerminalMeters": 1196,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "monument"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/974663e3372396f35c6e",
+      "name": "広青年教育センターの蘇鉄（呉市天然記念物）",
+      "nameEnglish": "Kure City Natural Monument",
+      "category": "attraction",
+      "subcategory": "monument",
+      "lat": 34.2325543,
+      "lng": 132.6153392,
+      "distanceFromTerminalMeters": 6014,
+      "distanceFromDefaultTerminalMeters": 6014,
+      "minDistanceFromAnyTerminalMeters": 6014,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "monument"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b001486a1b61e43770d1",
+      "name": "三津峰山",
+      "nameEnglish": "Mitsumine-yama",
+      "category": "outdoors",
+      "subcategory": "peak",
+      "lat": 34.2203149,
+      "lng": 132.5663539,
+      "distanceFromTerminalMeters": 1849,
+      "distanceFromDefaultTerminalMeters": 1849,
+      "minDistanceFromAnyTerminalMeters": 1849,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "natural": "peak"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/60ecd2758890fd825a7c",
+      "name": "休山",
+      "nameEnglish": "Yasumi-yama",
+      "category": "outdoors",
+      "subcategory": "peak",
+      "lat": 34.2273404,
+      "lng": 132.5763009,
+      "distanceFromTerminalMeters": 2436,
+      "distanceFromDefaultTerminalMeters": 2436,
+      "minDistanceFromAnyTerminalMeters": 2436,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "natural": "peak"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ef2b72428ec4ed7614e1",
+      "name": "二河公園",
+      "nameEnglish": "Niko Park",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 34.2548697,
+      "lng": 132.5623511,
+      "distanceFromTerminalMeters": 2989,
+      "distanceFromDefaultTerminalMeters": 2989,
+      "minDistanceFromAnyTerminalMeters": 2989,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/4fdfeebfe8ba5848277f",
+      "name": "昴珈琲店",
+      "nameEnglish": "Subaru Coffee",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 34.2447981,
+      "lng": 132.5646211,
+      "distanceFromTerminalMeters": 2125,
+      "distanceFromDefaultTerminalMeters": 2125,
+      "minDistanceFromAnyTerminalMeters": 2125,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "3, 呉市",
+      "openingHours": "09:00-17:00",
+      "website": "https://www.subarucoffee.co.jp/",
+      "phone": "",
+      "cuisine": [
+        "coffee_shop"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/add95489951768cc4415",
+      "name": "Cafe DoDo",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 34.2413875,
+      "lng": 132.5502935,
+      "distanceFromTerminalMeters": 1267,
+      "distanceFromDefaultTerminalMeters": 1267,
+      "minDistanceFromAnyTerminalMeters": 1267,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "11:00-14:00",
+      "website": "http://www.c-port-kousei.or.jp/newpage7.html",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/0fbd397888082c6961d7",
+      "name": "Beacon Seaside Cafe",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 34.2412774,
+      "lng": 132.5552458,
+      "distanceFromTerminalMeters": 1344,
+      "distanceFromDefaultTerminalMeters": 1344,
+      "minDistanceFromAnyTerminalMeters": 1344,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Tu,Th-Su 11:00-18:00; We off",
+      "website": "https://kure-kaijicurry.com/shop/shop02/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/3b834d8ad4031b73c2d2",
+      "name": "CAFE&LUNCHレスト",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 34.2444417,
+      "lng": 132.5586672,
+      "distanceFromTerminalMeters": 1793,
+      "distanceFromDefaultTerminalMeters": 1793,
+      "minDistanceFromAnyTerminalMeters": 1793,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "3, 呉市",
+      "openingHours": "07:30-22:00",
+      "website": "https://cafelunch-rest.jimdosite.com/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/4426aa80157ba16e2581",
+      "name": "Y's cafe",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 34.2454438,
+      "lng": 132.5602661,
+      "distanceFromTerminalMeters": 1959,
+      "distanceFromDefaultTerminalMeters": 1959,
+      "minDistanceFromAnyTerminalMeters": 1959,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "6, 呉市",
+      "openingHours": "07:00-10:00,14:00-17:00",
+      "website": "https://twitter.com/youcafekure",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "limited",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ab7c5983d61732b55713",
+      "name": "Bois Cafe",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 34.2454821,
+      "lng": 132.5605452,
+      "distanceFromTerminalMeters": 1976,
+      "distanceFromDefaultTerminalMeters": 1976,
+      "minDistanceFromAnyTerminalMeters": 1976,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "9, 呉市, 737-0051",
+      "openingHours": "",
+      "website": "https://tabelog.com/hiroshima/A3404/A340401/34012796/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "no",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ad2a19a37e6c1249d44a",
+      "name": "イタリコ",
+      "nameEnglish": "ITALICO",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 34.2465774,
+      "lng": 132.56212,
+      "distanceFromTerminalMeters": 2154,
+      "distanceFromDefaultTerminalMeters": 2154,
+      "minDistanceFromAnyTerminalMeters": 2154,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "呉市",
+      "openingHours": "",
+      "website": "https://tabelog.com/hiroshima/A3404/A340401/34004923/",
+      "phone": "",
+      "cuisine": [
+        "italian"
+      ],
+      "wheelchair": "no",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/06b7716494a966bd5e36",
+      "name": "瀬戸内バル五十六",
+      "nameEnglish": "Bar&Cafe ISOROQ",
+      "category": "food_drink",
+      "subcategory": "pub",
+      "lat": 34.2433931,
+      "lng": 132.5577218,
+      "distanceFromTerminalMeters": 1650,
+      "distanceFromDefaultTerminalMeters": 1650,
+      "minDistanceFromAnyTerminalMeters": 1650,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "77, 呉市",
+      "openingHours": "17:00-23:00",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "pub"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/41694750d3c45e22cbf4",
+      "name": "ザンパノカフェ",
+      "nameEnglish": "Dining Bar ZAMPANO CAFE",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 34.2470755,
+      "lng": 132.5658345,
+      "distanceFromTerminalMeters": 2392,
+      "distanceFromDefaultTerminalMeters": 2392,
+      "minDistanceFromAnyTerminalMeters": 2392,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "22, 呉市",
+      "openingHours": "17:30-25:30",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/659831d8a88782348eed",
+      "name": "カリーレストランMokuMoku",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 34.2462217,
+      "lng": 132.564691,
+      "distanceFromTerminalMeters": 2253,
+      "distanceFromDefaultTerminalMeters": 2253,
+      "minDistanceFromAnyTerminalMeters": 2253,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "27, 呉市",
+      "openingHours": "",
+      "website": "http://mokumoku-curry.com/",
+      "phone": "+81 823-23-1380",
+      "cuisine": [
+        "indian"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/5917ab15b640edcbbcee",
+      "name": "City plaza Sugiya",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 34.2485703,
+      "lng": 132.5640938,
+      "distanceFromTerminalMeters": 2438,
+      "distanceFromDefaultTerminalMeters": 2438,
+      "minDistanceFromAnyTerminalMeters": 2438,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "18, 呉市",
+      "openingHours": "11:00-17:00",
+      "website": "https://cp-sugiya.com/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/a476cc0cf16df3d06580",
+      "name": "戦艦「大和」46センチ主砲",
+      "nameEnglish": "",
+      "category": "essentials",
+      "subcategory": "visitor_information",
+      "lat": 34.2407612,
+      "lng": 132.5543961,
+      "distanceFromTerminalMeters": 1263,
+      "distanceFromDefaultTerminalMeters": 1263,
+      "minDistanceFromAnyTerminalMeters": 1263,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "information"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/9a82533a01ec418220b9",
+      "name": "Pure Cook",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "supermarket",
+      "lat": 34.2452158,
+      "lng": 132.5657297,
+      "distanceFromTerminalMeters": 2226,
+      "distanceFromDefaultTerminalMeters": 2226,
+      "minDistanceFromAnyTerminalMeters": 2226,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "09:00-23:00",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "shop": "supermarket"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f9ae12b2b03b77adc966",
+      "name": "cafeごはん Read",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 34.2461296,
+      "lng": 132.5659617,
+      "distanceFromTerminalMeters": 2317,
+      "distanceFromDefaultTerminalMeters": 2317,
+      "minDistanceFromAnyTerminalMeters": 2317,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "http://www.pepe.co.jp/read.html",
+      "phone": "+81 823-25-2292",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/19273fe49d99429e7a7e",
+      "name": "呉市海岸４丁目公園",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 34.2472928,
+      "lng": 132.5380855,
+      "distanceFromTerminalMeters": 2213,
+      "distanceFromDefaultTerminalMeters": 2213,
+      "minDistanceFromAnyTerminalMeters": 2213,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "呉市海岸４丁目, 737-0823",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/bf85b6b0d9f4803847b3",
+      "name": "本通第3公園",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 34.2429891,
+      "lng": 132.5662373,
+      "distanceFromTerminalMeters": 2077,
+      "distanceFromDefaultTerminalMeters": 2077,
+      "minDistanceFromAnyTerminalMeters": 2077,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "park"
+      }
+    }
+  ],
+  "portAnchor": {
+    "id": "ports-json-anchor",
+    "name": "KURE Port",
+    "lat": 34.23,
+    "lng": 132.55,
+    "address": "Kure, Hiroshima, Japan",
+    "source": "ports.json",
+    "sourceId": "",
+    "score": 0,
+    "slug": "kure-port"
+  },
+  "terminalResolution": {
+    "status": "resolved",
+    "method": "accepted_terminal_candidate",
+    "verified": true,
+    "notes": "Accepted Kure Central Pier Terminal, the central passenger waterfront terminal and most plausible supplied disembarkation point for cruise visitors."
+  }
+}

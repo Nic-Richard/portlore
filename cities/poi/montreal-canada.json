@@ -1,0 +1,1191 @@
+{
+  "schemaVersion": 5,
+  "catalogType": "curation-candidates",
+  "generatedAt": "2026-07-30T08:48:29.904Z",
+  "source": "openstreetmap",
+  "sourceExtract": "quebec-latest.osm.pbf",
+  "radiusMeters": 10000,
+  "port": {
+    "id": "montreal-canada",
+    "city": "Montreal",
+    "country": "Canada"
+  },
+  "defaultTerminalId": "osm/generated/87b2030fcb8423297dcd",
+  "terminal": {
+    "id": "osm/generated/87b2030fcb8423297dcd",
+    "name": "Gare Maritime Iberville",
+    "nameEnglish": "",
+    "lat": 45.5023566,
+    "lng": -73.549875,
+    "address": "",
+    "source": "verified_terminal_candidate",
+    "sourceId": "osm/generated/87b2030fcb8423297dcd",
+    "terminalType": "passenger_cruise_terminal",
+    "verified": true,
+    "notes": "External port and cruise-schedule checks support passenger cruise use, and the accepted candidate ID(s) correspond to the actual cruise terminal, cruise pier, or passenger terminal used by cruise ships.",
+    "sourceUrls": [],
+    "sources": [
+      "openstreetmap"
+    ],
+    "sourceIds": [
+      "osm/generated/87b2030fcb8423297dcd"
+    ],
+    "osmTags": {
+      "amenity": "ferry_terminal",
+      "building": "yes",
+      "ferry": "yes",
+      "public_transport": "station"
+    },
+    "matchedBy": [
+      "amenity=ferry_terminal",
+      "terminal-like name"
+    ],
+    "distanceFromPortMeters": 1962
+  },
+  "terminals": [
+    {
+      "id": "osm/generated/87b2030fcb8423297dcd",
+      "name": "Gare Maritime Iberville",
+      "nameEnglish": "",
+      "lat": 45.5023566,
+      "lng": -73.549875,
+      "address": "",
+      "source": "verified_terminal_candidate",
+      "sourceId": "osm/generated/87b2030fcb8423297dcd",
+      "terminalType": "passenger_cruise_terminal",
+      "verified": true,
+      "notes": "External port and cruise-schedule checks support passenger cruise use, and the accepted candidate ID(s) correspond to the actual cruise terminal, cruise pier, or passenger terminal used by cruise ships.",
+      "sourceUrls": [],
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/87b2030fcb8423297dcd"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "building": "yes",
+        "ferry": "yes",
+        "public_transport": "station"
+      },
+      "matchedBy": [
+        "amenity=ferry_terminal",
+        "terminal-like name"
+      ],
+      "distanceFromPortMeters": 1962
+    }
+  ],
+  "terminalCandidateRadiusMeters": 5000,
+  "terminalCandidates": [
+    {
+      "source": "nominatim",
+      "sourceId": "osm/way/965377048",
+      "osmType": "way",
+      "osmId": "965377048",
+      "name": "Rue Port-de-Montréal",
+      "nameEnglish": "",
+      "lat": 45.5126847,
+      "lng": -73.548578,
+      "distanceFromPortMeters": 821,
+      "address": "Rue Port-de-Montréal, Ville-Marie, Montréal, Agglomération de Montréal, Montréal (région administrative), Québec, H2L 0B9, Canada",
+      "displayName": "Rue Port-de-Montréal, Ville-Marie, Montréal, Agglomération de Montréal, Montréal (région administrative), Québec, H2L 0B9, Canada",
+      "query": "MONTREAL Port, Montreal, Canada",
+      "matchedBy": [
+        "Nominatim query: MONTREAL Port, Montreal, Canada"
+      ],
+      "osmTags": {},
+      "sources": [
+        "nominatim"
+      ],
+      "sourceIds": [
+        "osm/way/965377048"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/6c692229d1ec71984a52",
+      "name": "Île Sainte-Hélène",
+      "nameEnglish": "",
+      "lat": 45.5132392,
+      "lng": -73.5382936,
+      "distanceFromPortMeters": 1182,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "operator": "AML",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/6c692229d1ec71984a52"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/bf8dde56954d22dd6156",
+      "name": "Navettes maritimes",
+      "nameEnglish": "River Shuttle",
+      "lat": 45.5068229,
+      "lng": -73.5476389,
+      "distanceFromPortMeters": 1477,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "cargo": "passengers",
+        "description": "6$ one way",
+        "ferry": "yes",
+        "name:en": "River Shuttle",
+        "operator": "Navettes Maritimes",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/bf8dde56954d22dd6156"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/fa85d56dcf2616da4988",
+      "name": "Quai Jacques-Cartier",
+      "nameEnglish": "Jacques-Cartier Pier",
+      "lat": 45.5068357,
+      "lng": -73.547401,
+      "distanceFromPortMeters": 1478,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "cargo": "passengers",
+        "ferry": "yes",
+        "name:en": "Jacques-Cartier Pier",
+        "operator": "Navark",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/fa85d56dcf2616da4988"
+      ]
+    },
+    {
+      "source": "nominatim",
+      "sourceId": "osm/way/46699728",
+      "osmType": "way",
+      "osmId": "46699728",
+      "name": "Rue Port-de-Montréal",
+      "nameEnglish": "",
+      "lat": 45.5328418,
+      "lng": -73.5419485,
+      "distanceFromPortMeters": 1560,
+      "address": "Rue Port-de-Montréal, Hochelaga-Maisonneuve, Mercier–Hochelaga-Maisonneuve, Montréal, Agglomération de Montréal, Montréal (région administrative), Québec, H1W 2C2, Canada",
+      "displayName": "Rue Port-de-Montréal, Hochelaga-Maisonneuve, Mercier–Hochelaga-Maisonneuve, Montréal, Agglomération de Montréal, Montréal (région administrative), Québec, H1W 2C2, Canada",
+      "query": "MONTREAL Port, Montreal, Canada",
+      "matchedBy": [
+        "Nominatim query: MONTREAL Port, Montreal, Canada"
+      ],
+      "osmTags": {},
+      "sources": [
+        "nominatim"
+      ],
+      "sourceIds": [
+        "osm/way/46699728"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/87b2030fcb8423297dcd",
+      "name": "Gare Maritime Iberville",
+      "nameEnglish": "",
+      "lat": 45.5023566,
+      "lng": -73.549875,
+      "distanceFromPortMeters": 1962,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal",
+        "terminal-like name"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "building": "yes",
+        "ferry": "yes",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/87b2030fcb8423297dcd"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d9f6fbc17e0de7721cdf",
+      "name": "Longueuil - Port de plaisance",
+      "nameEnglish": "",
+      "lat": 45.540249,
+      "lng": -73.5178187,
+      "distanceFromPortMeters": 3370,
+      "address": "101;301 Chemin de la Rive, Longueuil",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "operator": "Les navettes maritimes du Saint-Laurent",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/d9f6fbc17e0de7721cdf"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/44e6da001ade050df7ee",
+      "name": "Longueuil - Port de plaisance",
+      "nameEnglish": "",
+      "lat": 45.5421661,
+      "lng": -73.5122389,
+      "distanceFromPortMeters": 3838,
+      "address": "81 Chemin de la Rive, Longueuil, J4H 4C9",
+      "matchedBy": [
+        "amenity=ferry_terminal",
+        "terminal-like name"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "operator": "Croisières Navark",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/44e6da001ade050df7ee"
+      ]
+    },
+    {
+      "source": "nominatim",
+      "sourceId": "osm/way/46699730",
+      "osmType": "way",
+      "osmId": "46699730",
+      "name": "Rue Port-de-Montréal",
+      "nameEnglish": "",
+      "lat": 45.5517972,
+      "lng": -73.527669,
+      "distanceFromPortMeters": 3940,
+      "address": "Rue Port-de-Montréal, Hochelaga-Maisonneuve, Mercier–Hochelaga-Maisonneuve, Montréal, Agglomération de Montréal, Montréal (région administrative), Québec, H1V 2L7, Canada",
+      "displayName": "Rue Port-de-Montréal, Hochelaga-Maisonneuve, Mercier–Hochelaga-Maisonneuve, Montréal, Agglomération de Montréal, Montréal (région administrative), Québec, H1V 2L7, Canada",
+      "query": "MONTREAL Port, Montreal, Canada",
+      "matchedBy": [
+        "Nominatim query: MONTREAL Port, Montreal, Canada"
+      ],
+      "osmTags": {},
+      "sources": [
+        "nominatim"
+      ],
+      "sourceIds": [
+        "osm/way/46699730",
+        "osm/way/471717127"
+      ]
+    },
+    {
+      "source": "nominatim",
+      "sourceId": "osm/way/471716054",
+      "osmType": "way",
+      "osmId": "471716054",
+      "name": "Rue Port-de-Montréal",
+      "nameEnglish": "",
+      "lat": 45.5534994,
+      "lng": -73.5252705,
+      "distanceFromPortMeters": 4193,
+      "address": "Rue Port-de-Montréal, Hochelaga-Maisonneuve, Mercier–Hochelaga-Maisonneuve, Montréal, Agglomération de Montréal, Montréal (région administrative), Québec, H1V 1Z4, Canada",
+      "displayName": "Rue Port-de-Montréal, Hochelaga-Maisonneuve, Mercier–Hochelaga-Maisonneuve, Montréal, Agglomération de Montréal, Montréal (région administrative), Québec, H1V 1Z4, Canada",
+      "query": "MONTREAL Port, Montreal, Canada",
+      "matchedBy": [
+        "Nominatim query: MONTREAL Port, Montreal, Canada"
+      ],
+      "osmTags": {},
+      "sources": [
+        "nominatim"
+      ],
+      "sourceIds": [
+        "osm/way/471716054"
+      ]
+    },
+    {
+      "source": "nominatim",
+      "sourceId": "osm/way/993690345",
+      "osmType": "way",
+      "osmId": "993690345",
+      "name": "Viaduc du Port de Montréal",
+      "nameEnglish": "",
+      "lat": 45.5598343,
+      "lng": -73.5259644,
+      "distanceFromPortMeters": 4809,
+      "address": "Viaduc du Port de Montréal, Mercier, Mercier–Hochelaga-Maisonneuve, Montréal, Agglomération de Montréal, Montréal (région administrative), Québec, H1N 2C4, Canada",
+      "displayName": "Viaduc du Port de Montréal, Mercier, Mercier–Hochelaga-Maisonneuve, Montréal, Agglomération de Montréal, Montréal (région administrative), Québec, H1N 2C4, Canada",
+      "query": "MONTREAL Port, Montreal, Canada",
+      "matchedBy": [
+        "Nominatim query: MONTREAL Port, Montreal, Canada"
+      ],
+      "osmTags": {},
+      "sources": [
+        "nominatim"
+      ],
+      "sourceIds": [
+        "osm/way/993690345"
+      ]
+    },
+    {
+      "source": "nominatim",
+      "sourceId": "osm/way/1359594675",
+      "osmType": "way",
+      "osmId": "1359594675",
+      "name": "Rue Port-de-Montréal",
+      "nameEnglish": "",
+      "lat": 45.5595893,
+      "lng": -73.5247361,
+      "distanceFromPortMeters": 4822,
+      "address": "Rue Port-de-Montréal, Mercier, Mercier–Hochelaga-Maisonneuve, Montréal, Agglomération de Montréal, Montréal (région administrative), Québec, H1N 2C4, Canada",
+      "displayName": "Rue Port-de-Montréal, Mercier, Mercier–Hochelaga-Maisonneuve, Montréal, Agglomération de Montréal, Montréal (région administrative), Québec, H1N 2C4, Canada",
+      "query": "MONTREAL Port, Montreal, Canada",
+      "matchedBy": [
+        "Nominatim query: MONTREAL Port, Montreal, Canada"
+      ],
+      "osmTags": {},
+      "sources": [
+        "nominatim"
+      ],
+      "sourceIds": [
+        "osm/way/1359594675"
+      ]
+    }
+  ],
+  "counts": {
+    "attraction": 13,
+    "outdoors": 4,
+    "food_drink": 12,
+    "shopping": 1,
+    "essentials": 0
+  },
+  "pois": [
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/3e557d4152752ba08e27",
+      "name": "Centre de design de l'UQAM",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 45.5129552,
+      "lng": -73.5620656,
+      "distanceFromTerminalMeters": 1224,
+      "distanceFromDefaultTerminalMeters": 1224,
+      "minDistanceFromAnyTerminalMeters": 1224,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1440 Rue Sanguinet, Montréal, H2X 3X9",
+      "openingHours": "We-Su 12:00-18:00",
+      "website": "https://centrededesign.com/",
+      "phone": "+1-514-987-3395",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "Le Centre de design de l’Université du Québec à Montréal est un des seuls lieux de diffusion au Canada à présenter des expositions qui illustrent les tendances historiques et actuelles dans les domaines du design graphique, industriel, urbain ainsi qu’en",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/066c1dd311408eaa0827",
+      "name": "Biosphère",
+      "nameEnglish": "Biosphere",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 45.5140928,
+      "lng": -73.5314263,
+      "distanceFromTerminalMeters": 1589,
+      "distanceFromDefaultTerminalMeters": 1589,
+      "minDistanceFromAnyTerminalMeters": 1589,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "May-Aug: Mo-Su,PH 09:00-18:00; Sep-Apr: Tu-Su 09:00-17:00",
+      "website": "https://espacepourlavie.ca/biosphere",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/074dd95f15d0f3a0eef9",
+      "name": "Musée d'Art Contemporain (MAC)",
+      "nameEnglish": "Museum of Contemporary Art",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 45.5078251,
+      "lng": -73.5670516,
+      "distanceFromTerminalMeters": 1897,
+      "distanceFromDefaultTerminalMeters": 1897,
+      "minDistanceFromAnyTerminalMeters": 1897,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "We-Fr 11:00-21:00; Tu,Sa-Su 11:00-18:00",
+      "website": "https://macm.org/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/55f1cc33df0762e00e9e",
+      "name": "OASIS immersion",
+      "nameEnglish": "OASIS immersion",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 45.5038986,
+      "lng": -73.5604655,
+      "distanceFromTerminalMeters": 1967,
+      "distanceFromDefaultTerminalMeters": 1967,
+      "minDistanceFromAnyTerminalMeters": 1967,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "301 Rue Saint-Antoine Est, H2Z2A7",
+      "openingHours": "Su 10:00-13:00, 15:00-20:40; Mo-Tu, Th-Sa 10:00-14:00, 16:00-20:40; We 10:00-20:20",
+      "website": "https://oasis.im",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d5bc5e27f3de1131715f",
+      "name": "Château Ramezay",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 45.5087548,
+      "lng": -73.5531496,
+      "distanceFromTerminalMeters": 1274,
+      "distanceFromDefaultTerminalMeters": 1274,
+      "minDistanceFromAnyTerminalMeters": 1274,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "280 Rue Notre-Dame Est, Montréal",
+      "openingHours": "Mo-Su 09:30-18:00",
+      "website": "https://chateauramezay.qc.ca/",
+      "phone": "+1-514-861-3708",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "castle",
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/01559018a8e123e26090",
+      "name": "Basilique Notre-Dame",
+      "nameEnglish": "Notre-Dame Basilica",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 45.5044405,
+      "lng": -73.5560052,
+      "distanceFromTerminalMeters": 1792,
+      "distanceFromDefaultTerminalMeters": 1792,
+      "minDistanceFromAnyTerminalMeters": 1792,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "110 Rue Notre-Dame Ouest, Montréal, H2Y 1T1",
+      "openingHours": "",
+      "website": "https://www.basiliquenotredame.ca/",
+      "phone": "+1 514-842-2925",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "place_of_worship",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/30c542681ef84adaa5da",
+      "name": "Marché Bonsecours",
+      "nameEnglish": "Bonsecours Market",
+      "category": "attraction",
+      "subcategory": "building",
+      "lat": 45.5089395,
+      "lng": -73.5515094,
+      "distanceFromTerminalMeters": 1235,
+      "distanceFromDefaultTerminalMeters": 1235,
+      "minDistanceFromAnyTerminalMeters": 1235,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "350 Saint Paul Street East",
+      "openingHours": "Mo-Su 10:00-18:00",
+      "website": "https://marchebonsecours.qc.ca/",
+      "phone": "+1 514-872-7730",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "building"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ffd476acdba3255fbdf5",
+      "name": "Fort de l'île Sainte-Hélène",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 45.5198144,
+      "lng": -73.5364857,
+      "distanceFromTerminalMeters": 1053,
+      "distanceFromDefaultTerminalMeters": 1053,
+      "minDistanceFromAnyTerminalMeters": 1053,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "fort",
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/55245b0e79bde5a15042",
+      "name": "Biodôme de Montréal",
+      "nameEnglish": "Montreal Biodome",
+      "category": "attraction",
+      "subcategory": "zoo",
+      "lat": 45.5596817,
+      "lng": -73.5495704,
+      "distanceFromTerminalMeters": 4413,
+      "distanceFromDefaultTerminalMeters": 4413,
+      "minDistanceFromAnyTerminalMeters": 4413,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Tu-Su 09:00-17:00",
+      "website": "https://espacepourlavie.ca/biodome",
+      "phone": "+1-514-868-3000",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "zoo"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/19387d5723e7e619f814",
+      "name": "Bouche de métro Guimard",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 45.5017312,
+      "lng": -73.5621006,
+      "distanceFromTerminalMeters": 2240,
+      "distanceFromDefaultTerminalMeters": 2240,
+      "minDistanceFromAnyTerminalMeters": 2240,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "http://www.hector-guimard.net/fr/hector-guimard-architecte/actualites/;http://emdx.org/rail/metro/guimard.php",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Édicule Art déco de style Hector Guimar, don de la RATP, Paris",
+      "osmTags": {
+        "historic": "yes",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/794f4f52a4185f7f1160",
+      "name": "Phare du Parc Jean-Drapeau",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "lighthouse",
+      "lat": 45.5185656,
+      "lng": -73.5382167,
+      "distanceFromTerminalMeters": 932,
+      "distanceFromDefaultTerminalMeters": 932,
+      "minDistanceFromAnyTerminalMeters": 932,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "man_made": "lighthouse"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/18a4914dbad19d88bcc0",
+      "name": "La Ronde",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "theme_park",
+      "lat": 45.5241405,
+      "lng": -73.535192,
+      "distanceFromTerminalMeters": 1242,
+      "distanceFromDefaultTerminalMeters": 1242,
+      "minDistanceFromAnyTerminalMeters": 1242,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "22 Chem. Macdonald, Montréal, H3C 6A3",
+      "openingHours": "",
+      "website": "https://www.sixflags.com/larondeen",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "limited",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "theme_park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/91152ec0f75d970beab6",
+      "name": "Monument à sir George-Étienne Cartier",
+      "nameEnglish": "Sir George-Étienne Cartier Monument",
+      "category": "attraction",
+      "subcategory": "monument",
+      "lat": 45.5142182,
+      "lng": -73.5852259,
+      "distanceFromTerminalMeters": 2819,
+      "distanceFromDefaultTerminalMeters": 2819,
+      "minDistanceFromAnyTerminalMeters": 2819,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "4056 Avenue du Parc",
+      "openingHours": "",
+      "website": "https://ville.montreal.qc.ca/siteofficieldumontroyal/patrimoine-artistique-commemoratif/monument-a-sir-george-etienne-cartier",
+      "phone": "+1-514-872-0311",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "monument"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/349d1711ef709f549c7b",
+      "name": "Espace Pierre-Bourgault",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 45.523375,
+      "lng": -73.559349,
+      "distanceFromTerminalMeters": 819,
+      "distanceFromDefaultTerminalMeters": 819,
+      "minDistanceFromAnyTerminalMeters": 819,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "https://montreal.ca/lieux/espace-pierre-bourgault",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Parc de quartier avec table de ping pong, bancs et une plate forme.",
+      "osmTags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/5bd30f8e4b1a2b6af0d9",
+      "name": "Parc de l'espoir",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 45.5197268,
+      "lng": -73.5546008,
+      "distanceFromTerminalMeters": 360,
+      "distanceFromDefaultTerminalMeters": 360,
+      "minDistanceFromAnyTerminalMeters": 360,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1336 Rue Sainte-Catherine Est, Montréal, H2L 2H5",
+      "openingHours": "Mo-Su 10:00-23:00",
+      "website": "https://montreal.ca/lieux/parc-de-lespoir",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/9f306e0d9097c519c793",
+      "name": "Village au Pied-du-Courant",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 45.5258853,
+      "lng": -73.5449219,
+      "distanceFromTerminalMeters": 765,
+      "distanceFromDefaultTerminalMeters": 765,
+      "minDistanceFromAnyTerminalMeters": 765,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "2100 Rue Notre-Dame Est, Montréal",
+      "openingHours": "Jun-Sep Th-Sa 17:00-23:00",
+      "website": "https://www.aupiedducourant.ca/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/7474f25061ffaef2ec80",
+      "name": "Belvédère du Chemin-Qui-Marche",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 45.5129008,
+      "lng": -73.5488634,
+      "distanceFromTerminalMeters": 794,
+      "distanceFromDefaultTerminalMeters": 794,
+      "minDistanceFromAnyTerminalMeters": 794,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1000 Rue de la Commune Est, Montréal, H2L 0B9",
+      "openingHours": "Mo-Su 06:00-20:00",
+      "website": "https://montreal.ca/en/places/belvedere-du-chemin-qui-marche",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/70a204cc0001d40e23cb",
+      "name": "Prato Cafe Pizza",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 45.5162542,
+      "lng": -73.5774915,
+      "distanceFromTerminalMeters": 2182,
+      "distanceFromDefaultTerminalMeters": 2182,
+      "minDistanceFromAnyTerminalMeters": 2182,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "3891 Boul. Saint-Laurent",
+      "openingHours": "Mo-We 11:30-22:00; Th, Fr 11:30-23:00; Sa 14:30-23:00",
+      "website": "https://m.facebook.com/pages/Prato-Pizzeria-Cafe/",
+      "phone": "+1-514-285-1616",
+      "cuisine": [
+        "pizza"
+      ],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "Authentic Italian pizza restaurant.",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/cee3627dec3e534573d6",
+      "name": "Sardine Rose",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 45.5239241,
+      "lng": -73.5605192,
+      "distanceFromTerminalMeters": 928,
+      "distanceFromDefaultTerminalMeters": 928,
+      "minDistanceFromAnyTerminalMeters": 928,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1480 Rue Ontario Est, Montréal",
+      "openingHours": "Mo off; Tu 11:00-22:30; We 11:00-21:00; Th 11:00-23:00; Fr 11:00-21:00; Sa 11:00-23:30; Su off",
+      "website": "https://sardinerose.ca/",
+      "phone": "+1 514 521 2221",
+      "cuisine": [
+        "portuguese"
+      ],
+      "wheelchair": "limited",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b14c7e0d7f155cb3ddb2",
+      "name": "Macbar & Fromage",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 45.5228486,
+      "lng": -73.5614936,
+      "distanceFromTerminalMeters": 950,
+      "distanceFromDefaultTerminalMeters": 950,
+      "minDistanceFromAnyTerminalMeters": 950,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1345 Rue Ontario Est",
+      "openingHours": "Mo off; Tu-Su 11:00-23:00",
+      "website": "http://www.macbar.ca/",
+      "phone": "+1 514 521 8989",
+      "cuisine": [
+        "american",
+        "burger"
+      ],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/afca9c21f6cbf659817c",
+      "name": "Souvlaki authentique",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 45.5229062,
+      "lng": -73.5614606,
+      "distanceFromTerminalMeters": 950,
+      "distanceFromDefaultTerminalMeters": 950,
+      "minDistanceFromAnyTerminalMeters": 950,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1345 Rue Ontario Est, Montréal, H2L 1R9",
+      "openingHours": "Mo off; Tu-Su 11:00-21:00",
+      "website": "https://souvlakiauthentique.com/",
+      "phone": "+1 514 419 2111",
+      "cuisine": [
+        "greek",
+        "mediterranean"
+      ],
+      "wheelchair": "limited",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/1727f8307781d0ca32f2",
+      "name": "El Delicioso",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 45.5251659,
+      "lng": -73.5597265,
+      "distanceFromTerminalMeters": 951,
+      "distanceFromDefaultTerminalMeters": 951,
+      "minDistanceFromAnyTerminalMeters": 951,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1654 Rue Ontario Est",
+      "openingHours": "Mo-Su 11:30-23:30",
+      "website": "https://eldeliciosomtl.com/",
+      "phone": "+1 514 523 2399",
+      "cuisine": [
+        "mexican"
+      ],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/34477aabd9af27b7a00a",
+      "name": "Au Petit Extra",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 45.5255242,
+      "lng": -73.5594741,
+      "distanceFromTerminalMeters": 960,
+      "distanceFromDefaultTerminalMeters": 960,
+      "minDistanceFromAnyTerminalMeters": 960,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1690 Rue Ontario Est",
+      "openingHours": "Tu-Fr 11:30-15:00,17:00-23:00; Sa 17:00-23:00; Su off",
+      "website": "http://aupetitextra.com/",
+      "phone": "+1 514 527 5552",
+      "cuisine": [
+        "french"
+      ],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/a2d97342227ec28ea167",
+      "name": "Grenade",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 45.5249946,
+      "lng": -73.5601234,
+      "distanceFromTerminalMeters": 965,
+      "distanceFromDefaultTerminalMeters": 965,
+      "minDistanceFromAnyTerminalMeters": 965,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1603 Rue Ontario Est",
+      "openingHours": "Mo-Su 16:00-03:00",
+      "website": "https://www.grenadebar.ca/",
+      "phone": "+1 514 525 4251",
+      "cuisine": [
+        "asian"
+      ],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/e946ea6c926d4ae40bb6",
+      "name": "Dame Tartine",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 45.5252079,
+      "lng": -73.5600104,
+      "distanceFromTerminalMeters": 971,
+      "distanceFromDefaultTerminalMeters": 971,
+      "minDistanceFromAnyTerminalMeters": 971,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1653 Rue Ontario Est",
+      "openingHours": "Mo-Fr 07:00-15:00; Sa-Su 08:00-15:00",
+      "website": "https://dametartine.ca/",
+      "phone": "+1 514 524 1134",
+      "cuisine": [
+        "breakfast"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/63b866b23619d400a32a",
+      "name": "La Chavela",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 45.5260709,
+      "lng": -73.5590957,
+      "distanceFromTerminalMeters": 979,
+      "distanceFromDefaultTerminalMeters": 979,
+      "minDistanceFromAnyTerminalMeters": 979,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1818 Rue Ontario Est",
+      "openingHours": "Mo-Su 07:00-23:00",
+      "website": "https://restaurantmexicainlachavela.ca/",
+      "phone": "+1 438 535 2967",
+      "cuisine": [
+        "mexican"
+      ],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/646064e297954605547e",
+      "name": "Jardin Nelson",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 45.5079483,
+      "lng": -73.5526579,
+      "distanceFromTerminalMeters": 1356,
+      "distanceFromDefaultTerminalMeters": 1356,
+      "minDistanceFromAnyTerminalMeters": 1356,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "407 Place Jacques-Cartier, Montréal, H2Y 3B1, CA",
+      "openingHours": "We,Th,Su 11:30-21:30; Fr 11:30-22:30; Sa 11:30-22:00",
+      "website": "https://jardinnelson.com/",
+      "phone": "+1 514 861-5731",
+      "cuisine": [
+        "pizza",
+        "burger",
+        "sandwich"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f4e3ee1e816a984be9d8",
+      "name": "Nabe",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 45.5079464,
+      "lng": -73.5593832,
+      "distanceFromTerminalMeters": 1527,
+      "distanceFromDefaultTerminalMeters": 1527,
+      "minDistanceFromAnyTerminalMeters": 1527,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1005 Boulevard Saint-Laurent, Montréal",
+      "openingHours": "11:00-21:00; Tu off",
+      "website": "https://www.facebook.com/YunnanNoodleCTown/",
+      "phone": "+1 438 375 9680",
+      "cuisine": [
+        "chinese"
+      ],
+      "wheelchair": "limited",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/9fba193b84588e66039e",
+      "name": "Phở Bănc New York",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 45.5079245,
+      "lng": -73.5593271,
+      "distanceFromTerminalMeters": 1527,
+      "distanceFromDefaultTerminalMeters": 1527,
+      "minDistanceFromAnyTerminalMeters": 1527,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1001 Boulevard Saint-Laurent, Montréal",
+      "openingHours": "Mo-Su 10:00-21:30",
+      "website": "https://phobangnewyork.has.restaurant/",
+      "phone": "+1 514 954 2032",
+      "cuisine": [
+        "vietnamese"
+      ],
+      "wheelchair": "no",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/5ad06bdbb5837d4d0767",
+      "name": "Divine Chocolatier",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "chocolate",
+      "lat": 45.4984813,
+      "lng": -73.5787457,
+      "distanceFromTerminalMeters": 3278,
+      "distanceFromDefaultTerminalMeters": 3278,
+      "minDistanceFromAnyTerminalMeters": 3278,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "2158 Rue Crescent",
+      "openingHours": "Mo-Fr 10:00-18:00; Sa 10:00-17:00; Su 12:00-17:00",
+      "website": "https://www.divinechocolatier.com/",
+      "phone": "+1-514-282-0829",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Chocolaterie artisanale.",
+      "osmTags": {
+        "shop": "chocolate"
+      }
+    }
+  ],
+  "portAnchor": {
+    "id": "ports-json-anchor",
+    "name": "MONTREAL Port",
+    "lat": 45.52,
+    "lng": -73.55,
+    "address": "Montreal, Quebec, Canada",
+    "source": "ports.json",
+    "sourceId": "",
+    "score": 0,
+    "slug": "montreal-port"
+  },
+  "terminalResolution": {
+    "status": "resolved",
+    "method": "accepted_terminal_candidate",
+    "verified": true,
+    "notes": "External port and cruise-schedule checks support passenger cruise use, and the accepted candidate ID(s) correspond to the actual cruise terminal, cruise pier, or passenger terminal used by cruise ships."
+  }
+}

@@ -1,0 +1,1007 @@
+{
+  "schemaVersion": 5,
+  "catalogType": "curation-candidates",
+  "generatedAt": "2026-07-30T08:45:40.730Z",
+  "source": "openstreetmap",
+  "sourceExtract": "poitou-charentes-latest.osm.pbf",
+  "radiusMeters": 10000,
+  "port": {
+    "id": "la-rochelle-france",
+    "city": "La Rochelle",
+    "country": "France"
+  },
+  "defaultTerminalId": "osm/generated/7b5caa972fb58b3d6bcf",
+  "terminal": {
+    "id": "osm/generated/7b5caa972fb58b3d6bcf",
+    "name": "Embarcadère Vieux-Port",
+    "nameEnglish": "",
+    "lat": 46.156216,
+    "lng": -1.1541239,
+    "address": "",
+    "source": "verified_terminal_candidate",
+    "sourceId": "osm/generated/7b5caa972fb58b3d6bcf",
+    "terminalType": "passenger_cruise_terminal",
+    "verified": true,
+    "notes": "Accepted Embarcadère Vieux-Port as the practical city-centre tender landing used when cruise passengers are brought ashore from vessels unable to berth directly in the old harbour.",
+    "sourceUrls": [],
+    "sources": [
+      "openstreetmap"
+    ],
+    "sourceIds": [
+      "osm/generated/7b5caa972fb58b3d6bcf"
+    ],
+    "osmTags": {
+      "amenity": "ferry_terminal",
+      "ferry": "yes",
+      "operator": "Yélo",
+      "public_transport": "station"
+    },
+    "matchedBy": [
+      "amenity=ferry_terminal"
+    ],
+    "distanceFromPortMeters": 761
+  },
+  "terminals": [
+    {
+      "id": "osm/generated/7b5caa972fb58b3d6bcf",
+      "name": "Embarcadère Vieux-Port",
+      "nameEnglish": "",
+      "lat": 46.156216,
+      "lng": -1.1541239,
+      "address": "",
+      "source": "verified_terminal_candidate",
+      "sourceId": "osm/generated/7b5caa972fb58b3d6bcf",
+      "terminalType": "passenger_cruise_terminal",
+      "verified": true,
+      "notes": "Accepted Embarcadère Vieux-Port as the practical city-centre tender landing used when cruise passengers are brought ashore from vessels unable to berth directly in the old harbour.",
+      "sourceUrls": [],
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/7b5caa972fb58b3d6bcf"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "operator": "Yélo",
+        "public_transport": "station"
+      },
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "distanceFromPortMeters": 761
+    }
+  ],
+  "terminalCandidateRadiusMeters": 5000,
+  "terminalCandidates": [
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/7b5caa972fb58b3d6bcf",
+      "name": "Embarcadère Vieux-Port",
+      "nameEnglish": "",
+      "lat": 46.156216,
+      "lng": -1.1541239,
+      "distanceFromPortMeters": 761,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "operator": "Yélo",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/7b5caa972fb58b3d6bcf"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/17bca67090d9ebe5df41",
+      "name": "Les Minimes",
+      "nameEnglish": "",
+      "lat": 46.141951,
+      "lng": -1.1702251,
+      "distanceFromPortMeters": 1797,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "operator": "yélo",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/17bca67090d9ebe5df41"
+      ]
+    },
+    {
+      "source": "nominatim",
+      "sourceId": "osm/way/1319594722",
+      "osmType": "way",
+      "osmId": "1319594722",
+      "name": "LAT Nitrogen France Services",
+      "nameEnglish": "",
+      "lat": 46.1574929,
+      "lng": -1.2044388,
+      "distanceFromPortMeters": 4275,
+      "address": "LAT Nitrogen France Services, La Pallice, Fief des Pinaudes, La Rochelle, Charente-Maritime, Nouvelle-Aquitaine, France métropolitaine, 17000, France",
+      "displayName": "LAT Nitrogen France Services, La Pallice, Fief des Pinaudes, La Rochelle, Charente-Maritime, Nouvelle-Aquitaine, France métropolitaine, 17000, France",
+      "query": "La Rochelle / La Pallice Port, La Rochelle, France",
+      "matchedBy": [
+        "Nominatim query: La Rochelle / La Pallice Port, La Rochelle, France"
+      ],
+      "osmTags": {},
+      "sources": [
+        "nominatim"
+      ],
+      "sourceIds": [
+        "osm/way/1319594722"
+      ]
+    }
+  ],
+  "counts": {
+    "attraction": 15,
+    "outdoors": 5,
+    "food_drink": 12,
+    "shopping": 0,
+    "essentials": 0
+  },
+  "pois": [
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b2f086de426cbfd8a740",
+      "name": "Musée Maritime",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 46.1506021,
+      "lng": -1.1506946,
+      "distanceFromTerminalMeters": 86,
+      "distanceFromDefaultTerminalMeters": 86,
+      "minDistanceFromAnyTerminalMeters": 86,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "85 Quai de l'Encan",
+      "openingHours": "Jun 15-Sep 15 Tu,We,Th,Fr,Su 10:00-18:00; Jun 15-Sep 15 Sa 14:00-18:00; Sep 16-Jun 14 Tu,We,Th,Fr,Su 10:00-17:30; Sep 16-Jun 14 Sa 13:30-17:30",
+      "website": "https://museemaritime.larochelle.fr/",
+      "phone": "+33 5 46 28 03 00",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/2ec7a4b8168456fc96d3",
+      "name": "Préfecture de la Charente-Maritime",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "castle",
+      "lat": 46.157251,
+      "lng": -1.1572315,
+      "distanceFromTerminalMeters": 980,
+      "distanceFromDefaultTerminalMeters": 980,
+      "minDistanceFromAnyTerminalMeters": 980,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Accueil Préfecture – Site Duperré 5 Place des Cordeliers 17000 La Rochelle",
+      "openingHours": "Fr 08:30-12:15,13:30-16:30; Mo-Th 08:30-12:15,13:30-17:00",
+      "website": "http://www.charente-maritime.gouv.fr",
+      "phone": "+33 5 46 27 43 00",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "castle"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/5599223cc3d1d06ffb34",
+      "name": "Aquarium de La Rochelle",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "aquarium",
+      "lat": 46.1532859,
+      "lng": -1.150608,
+      "distanceFromTerminalMeters": 368,
+      "distanceFromDefaultTerminalMeters": 368,
+      "minDistanceFromAnyTerminalMeters": 368,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Quai Louis Prunier, La Rochelle, 17000",
+      "openingHours": "Jan-Mar: Mo-Su,PH 10:00-20:00; Apr 01-Jul 08: Mo-Su,PH 09:00-20:00; Jul 09-Aug 31: Mo-Su,PH 09:00-23:00; Sep 01-Sep 30: Mo-Su,PH 09:00-20:00; Oct 01-Oct 21: Mo-Su,PH 10:00-20:00; Oct 22-Nov 06: Mo-Su,PH 09:00-20:00; Nov 07-Dec 31: Mo-Su,PH 10:00-20:00",
+      "website": "https://www.aquarium-larochelle.com/",
+      "phone": "+33 5 46 34 00 00",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "aquarium"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/6ec6c66bda8d72830833",
+      "name": "Le Bunker de La Rochelle",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 46.1610044,
+      "lng": -1.1490899,
+      "distanceFromTerminalMeters": 1226,
+      "distanceFromDefaultTerminalMeters": 1226,
+      "minDistanceFromAnyTerminalMeters": 1226,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "8 Rue des Dames",
+      "openingHours": "Apr-Sep Mo-Su 10:00-19:00; Feb-Mar,Oct-Dec Mo-Sa 10:00-18:00",
+      "website": "https://www.bunkerlarochelle.com/",
+      "phone": "+33 5 46 42 52 89",
+      "cuisine": [],
+      "wheelchair": "limited",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/7738b5dd40c5ea361622",
+      "name": "Musée du Nouveau Monde",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 46.1615845,
+      "lng": -1.151129,
+      "distanceFromTerminalMeters": 1291,
+      "distanceFromDefaultTerminalMeters": 1291,
+      "minDistanceFromAnyTerminalMeters": 1291,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "10 Rue Fleuriau, La Rochelle, 17000",
+      "openingHours": "Mo,We-Fr 10:00-18:00; Sa 14:00-18:00; PH,Su 10:00-18:00",
+      "website": "https://museedunouveaumonde.larochelle.fr",
+      "phone": "+33 5 46 41 46 50",
+      "cuisine": [],
+      "wheelchair": "no",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d863ada6097816eb861c",
+      "name": "Musée Rochelais d'Histoire Protestante",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 46.1594892,
+      "lng": -1.1499958,
+      "distanceFromTerminalMeters": 1055,
+      "distanceFromDefaultTerminalMeters": 1055,
+      "minDistanceFromAnyTerminalMeters": 1055,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "https://www.alienor.org/musees/index.php/fre/La-liste-des-villes/La-Rochelle/Le-Musee-Rochelais-d-Histoire-Protestante/Informations-pratiques",
+      "phone": "+33 5 46 50 88 03",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/1f57b6f3eef7758992a0",
+      "name": "Musée des Beaux-Arts",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 46.1621097,
+      "lng": -1.1515809,
+      "distanceFromTerminalMeters": 1352,
+      "distanceFromDefaultTerminalMeters": 1352,
+      "minDistanceFromAnyTerminalMeters": 1352,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "https://museedesbeauxarts.larochelle.fr/",
+      "phone": "+33 5 46 41 64 65",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/683adfaf7f98e4304c01",
+      "name": "Parc Animalier Charles-Édouard Beltremieux",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "zoo",
+      "lat": 46.1574938,
+      "lng": -1.1611873,
+      "distanceFromTerminalMeters": 1199,
+      "distanceFromDefaultTerminalMeters": 1199,
+      "minDistanceFromAnyTerminalMeters": 1199,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "La Rochelle, 17000",
+      "openingHours": "Apr-Sep: Mo-Su,PH 07:50-20:45; Oct-Mar: Mo-Su,PH 07:50-19:30",
+      "website": "https://www.larochelle.fr/annuaires/lieux/annuaire/parc-animalier-charles-edouard-beltremieux",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "zoo"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/147c12d378de20ab6fb8",
+      "name": "Porte Maubec",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "gallery",
+      "lat": 46.1591078,
+      "lng": -1.1462535,
+      "distanceFromTerminalMeters": 1053,
+      "distanceFromDefaultTerminalMeters": 1053,
+      "minDistanceFromAnyTerminalMeters": 1053,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "http://portemaubec.com",
+      "phone": "+33622051363",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "gallery"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/2a168fcd778f18ab1419",
+      "name": "Chapelle Fromentin",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "church",
+      "lat": 46.1634677,
+      "lng": -1.1502455,
+      "distanceFromTerminalMeters": 1498,
+      "distanceFromDefaultTerminalMeters": 1498,
+      "minDistanceFromAnyTerminalMeters": 1498,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "theatre",
+        "historic": "church"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/28d8ebce12e7f728749e",
+      "name": "La grande roue - La Rochelle",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 46.1554133,
+      "lng": -1.1491071,
+      "distanceFromTerminalMeters": 606,
+      "distanceFromDefaultTerminalMeters": 606,
+      "minDistanceFromAnyTerminalMeters": 606,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "https://lagranderoue-larochelle.fr",
+      "phone": "+33 6 09 55 57 36",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/4a29f58ed8878abcf894",
+      "name": "Tour Carrée",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "fort",
+      "lat": 46.150334,
+      "lng": -1.1934295,
+      "distanceFromTerminalMeters": 3346,
+      "distanceFromDefaultTerminalMeters": 3346,
+      "minDistanceFromAnyTerminalMeters": 3346,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Réduit Modéle 1703",
+      "osmTags": {
+        "historic": "fort"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/39d57b5a284f5c184aab",
+      "name": "Tour Saint-Nicolas",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 46.155772,
+      "lng": -1.1531686,
+      "distanceFromTerminalMeters": 687,
+      "distanceFromDefaultTerminalMeters": 687,
+      "minDistanceFromAnyTerminalMeters": 687,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "tower",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/3bc543c0492c5d02a020",
+      "name": "Monument à la mémoire de Jean Guiton",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 46.1597994,
+      "lng": -1.1517176,
+      "distanceFromTerminalMeters": 1098,
+      "distanceFromDefaultTerminalMeters": 1098,
+      "minDistanceFromAnyTerminalMeters": 1098,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "memorial",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d39d93b6f49ea18d35ba",
+      "name": "La vierge du Richelieu",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "monument",
+      "lat": 46.1529283,
+      "lng": -1.1744697,
+      "distanceFromTerminalMeters": 1913,
+      "distanceFromDefaultTerminalMeters": 1913,
+      "minDistanceFromAnyTerminalMeters": 1913,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "monument"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/3c153bc218c2fba5899e",
+      "name": "Plage de la Concurrence",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "beach",
+      "lat": 46.1549382,
+      "lng": -1.1606715,
+      "distanceFromTerminalMeters": 989,
+      "distanceFromDefaultTerminalMeters": 989,
+      "minDistanceFromAnyTerminalMeters": 989,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "natural": "beach"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ef672fc2c0ece8cb99dc",
+      "name": "Jardin partagé",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "garden",
+      "lat": 46.1415264,
+      "lng": -1.1516009,
+      "distanceFromTerminalMeters": 950,
+      "distanceFromDefaultTerminalMeters": 950,
+      "minDistanceFromAnyTerminalMeters": 950,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "https://www.larochelle.fr/annuaires/lieux/annuaire/cultive-ta-tete-et-ton-assiette",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "garden"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ab6d3031b607ba3f5ef4",
+      "name": "Tour de la Chaîne",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "viewpoint",
+      "lat": 46.155804,
+      "lng": -1.1541435,
+      "distanceFromTerminalMeters": 720,
+      "distanceFromDefaultTerminalMeters": 720,
+      "minDistanceFromAnyTerminalMeters": 720,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "viewpoint"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f9270ce1f68c3e32e3b5",
+      "name": "Tour de la Lanterne",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "viewpoint",
+      "lat": 46.1557168,
+      "lng": -1.1571169,
+      "distanceFromTerminalMeters": 839,
+      "distanceFromDefaultTerminalMeters": 839,
+      "minDistanceFromAnyTerminalMeters": 839,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "viewpoint"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/9e831e6c25932db9e082",
+      "name": "Jardins partagés Lippmann",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "garden",
+      "lat": 46.14025,
+      "lng": -1.158256,
+      "distanceFromTerminalMeters": 1257,
+      "distanceFromDefaultTerminalMeters": 1257,
+      "minDistanceFromAnyTerminalMeters": 1257,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "https://www.larochelle.fr/annuaires/lieux/annuaire/jardin-lippmann-jardins-partages",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "garden"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b809628dd03a94c42bf8",
+      "name": "Brasserie Là-Haut",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 46.1535109,
+      "lng": -1.1506489,
+      "distanceFromTerminalMeters": 394,
+      "distanceFromDefaultTerminalMeters": 394,
+      "minDistanceFromAnyTerminalMeters": 394,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Quai Louis Prunier, La Rochelle, 17000",
+      "openingHours": "Mo-Su 11:45-18:00",
+      "website": "https://brasserie-la-haut-la-rochelle.com",
+      "phone": "+33546501717",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "Restaurant de l'aquarium",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/391c4197f1f1bfeb58c1",
+      "name": "Le Bathyscaphe",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "pub",
+      "lat": 46.1513537,
+      "lng": -1.1539489,
+      "distanceFromTerminalMeters": 339,
+      "distanceFromDefaultTerminalMeters": 339,
+      "minDistanceFromAnyTerminalMeters": 339,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "13 Rue du Cerf-Volant",
+      "openingHours": "Tu-Fr 15:00-01:30; Sa 17:00-01:30",
+      "website": "https://lebathyscaphe.com/",
+      "phone": "+33 5 46 30 81 63",
+      "cuisine": [
+        "french"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "pub"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/27e0d29f6ab2f82f5da0",
+      "name": "Le Chougare",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 46.1531883,
+      "lng": -1.1465941,
+      "distanceFromTerminalMeters": 441,
+      "distanceFromDefaultTerminalMeters": 441,
+      "minDistanceFromAnyTerminalMeters": 441,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "24 Avenue du Général de Gaulle",
+      "openingHours": "Mo-Sa 08:00-20:00",
+      "website": "https://le-chougare-cafe.eatbu.com",
+      "phone": "+33 5 46 30 22 74",
+      "cuisine": [
+        "coffee_shop",
+        "sandwich"
+      ],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/a29a59197920e8c41c69",
+      "name": "Yemanja",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 46.1578004,
+      "lng": -1.1553842,
+      "distanceFromTerminalMeters": 961,
+      "distanceFromDefaultTerminalMeters": 961,
+      "minDistanceFromAnyTerminalMeters": 961,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "23 Rue Léonce Vieljeux, La Rochelle, 17000",
+      "openingHours": "We-Su 18:00-00:00",
+      "website": "https://www.instagram.com/yemanja.larochelle/",
+      "phone": "+33 5 16 07 42 28",
+      "cuisine": [
+        "international",
+        "regional"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "World cuisine.",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f242eb6d65ea80ce4641",
+      "name": "L'Épi de blé",
+      "nameEnglish": "L'Épi de blé",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 46.1587795,
+      "lng": -1.1514964,
+      "distanceFromTerminalMeters": 983,
+      "distanceFromDefaultTerminalMeters": 983,
+      "minDistanceFromAnyTerminalMeters": 983,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "2 Rue du Port",
+      "openingHours": "Su-Th 11:00-22:00+; PH,Fr,Sa 11:00-22:30+",
+      "website": "https://creperielarochelle.wixsite.com/epideble",
+      "phone": "+33546412685",
+      "cuisine": [
+        "crepe"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/bc9db7cd9dd0bc7e3d00",
+      "name": "Le Merluberlu",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 46.1567821,
+      "lng": -1.1495967,
+      "distanceFromTerminalMeters": 755,
+      "distanceFromDefaultTerminalMeters": 755,
+      "minDistanceFromAnyTerminalMeters": 755,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "37 Quai Valin",
+      "openingHours": "Tu-Th 12:00-14:00,17:30-00:00; Fr-Sa 12:00-02:00",
+      "website": "https://merluberlularochelle.fr",
+      "phone": "+33 5 46 27 97 07",
+      "cuisine": [
+        "fish"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/2b12bd33249c779fbc9e",
+      "name": "Pattaya",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 46.1559012,
+      "lng": -1.1549737,
+      "distanceFromTerminalMeters": 760,
+      "distanceFromDefaultTerminalMeters": 760,
+      "minDistanceFromAnyTerminalMeters": 760,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Rue de la Chaîne, La Rochelle, 17000",
+      "openingHours": "Mo-Su 12:00-14:00,19:00-23:00; PH off",
+      "website": "https://restaurantpattaya.eatbu.com",
+      "phone": "+33546417961",
+      "cuisine": [
+        "asian"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/7a196193004b1cb24391",
+      "name": "Ludoti",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 46.15605,
+      "lng": -1.1548999,
+      "distanceFromTerminalMeters": 771,
+      "distanceFromDefaultTerminalMeters": 771,
+      "minDistanceFromAnyTerminalMeters": 771,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "14 Rue de la Chaîne, La Rochelle, 17000",
+      "openingHours": "Mo-Su 12:00-14:30, 19:00-22:00",
+      "website": "http://www.ludoti.com/",
+      "phone": "+33 5 46 41 95 75",
+      "cuisine": [
+        "italian"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d86955d2df72663819f7",
+      "name": "Bao Zi bar",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 46.1560093,
+      "lng": -1.1550458,
+      "distanceFromTerminalMeters": 773,
+      "distanceFromDefaultTerminalMeters": 773,
+      "minDistanceFromAnyTerminalMeters": 773,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "18 Rue de la Chaîne, La Rochelle, 17000",
+      "openingHours": "Mo-Su 12:00-22:00",
+      "website": "https://baozibar.fr",
+      "phone": "+33 9 88 33 19 78",
+      "cuisine": [
+        "chinese"
+      ],
+      "wheelchair": "no",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c4b75b8b0755213b6056",
+      "name": "Garden Café",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 46.1591367,
+      "lng": -1.1527008,
+      "distanceFromTerminalMeters": 1037,
+      "distanceFromDefaultTerminalMeters": 1037,
+      "minDistanceFromAnyTerminalMeters": 1037,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Sa 11:30-15:00",
+      "website": "",
+      "phone": "+33 5 46 50 55 43",
+      "cuisine": [
+        "salad",
+        "coffee_shop"
+      ],
+      "wheelchair": "no",
+      "brand": "",
+      "description": "Bar à salade et desserts façon coffee shop",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/34d55e5f66c2c73952a0",
+      "name": "El Gauchito",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 46.1609548,
+      "lng": -1.149232,
+      "distanceFromTerminalMeters": 1220,
+      "distanceFromDefaultTerminalMeters": 1220,
+      "minDistanceFromAnyTerminalMeters": 1220,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "19 Rue des Dames",
+      "openingHours": "Su-We 11:00-14:30; Th-Sa 11:00-14:30,19:00-22:00",
+      "website": "https://www.elgauchito.fr/",
+      "phone": "+33 6 52 98 25 80",
+      "cuisine": [
+        "argentinian"
+      ],
+      "wheelchair": "limited",
+      "brand": "",
+      "description": "Restaurant d'empañadas",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/38f14739fbc35f2cb2e4",
+      "name": "Bun's garden",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 46.139955,
+      "lng": -1.1595807,
+      "distanceFromTerminalMeters": 1339,
+      "distanceFromDefaultTerminalMeters": 1339,
+      "minDistanceFromAnyTerminalMeters": 1339,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "17 Rue Alfred Kastler, La Rochelle, 17000",
+      "openingHours": "Mo-Fr 11:30-14:30",
+      "website": "https://buns-garden.fr/",
+      "phone": "",
+      "cuisine": [
+        "regional"
+      ],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "Restaurant proposant des plats et des bun's (pain composé d'une garniture) faits sur place.",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    }
+  ],
+  "portAnchor": {
+    "id": "ports-json-anchor",
+    "name": "La Rochelle / La Pallice Port",
+    "lat": 46.15,
+    "lng": -1.15,
+    "address": "La Rochelle, Nouvelle-Aquitaine, France",
+    "source": "ports.json",
+    "sourceId": "",
+    "score": 0,
+    "slug": "la-rochelle-la-pallice-port"
+  },
+  "terminalResolution": {
+    "status": "resolved",
+    "method": "accepted_terminal_candidate",
+    "verified": true,
+    "notes": "Accepted Embarcadère Vieux-Port as the practical city-centre tender landing used when cruise passengers are brought ashore from vessels unable to berth directly in the old harbour."
+  }
+}

@@ -1,0 +1,1177 @@
+{
+  "schemaVersion": 5,
+  "catalogType": "curation-candidates",
+  "generatedAt": "2026-07-30T08:59:08.935Z",
+  "source": "openstreetmap",
+  "sourceExtract": "southern-zone-latest.osm.pbf",
+  "radiusMeters": 10000,
+  "port": {
+    "id": "chennai-india",
+    "city": "Chennai",
+    "country": "India"
+  },
+  "defaultTerminalId": "manual/chennai-india/chennai-international-cruise-terminal",
+  "terminal": {
+    "id": "manual/chennai-india/chennai-international-cruise-terminal",
+    "name": "Chennai International Cruise Terminal",
+    "nameEnglish": "",
+    "lat": 13.09145,
+    "lng": 80.29391,
+    "address": "",
+    "source": "manual_web_research",
+    "sourceId": "manual/chennai-india/chennai-international-cruise-terminal",
+    "terminalType": "dedicated_cruise_terminal",
+    "verified": true,
+    "notes": "Passenger cruise terminal within Chennai Port. Coordinate marks the terminal building rather than the broader harbour.",
+    "sourceUrls": [
+      "https://www.chennaiport.gov.in/content/cruise-terminal",
+      "https://www.openstreetmap.org/?mlat=13.09145&mlon=80.29391#map=17/13.09145/80.29391"
+    ],
+    "sources": [
+      "manual_web_research"
+    ],
+    "sourceIds": [
+      "manual/chennai-india/chennai-international-cruise-terminal"
+    ],
+    "osmTags": {},
+    "matchedBy": [
+      "web_researched_terminal"
+    ],
+    "distanceFromPortMeters": null
+  },
+  "terminals": [
+    {
+      "id": "manual/chennai-india/chennai-international-cruise-terminal",
+      "name": "Chennai International Cruise Terminal",
+      "nameEnglish": "",
+      "lat": 13.09145,
+      "lng": 80.29391,
+      "address": "",
+      "source": "manual_web_research",
+      "sourceId": "manual/chennai-india/chennai-international-cruise-terminal",
+      "terminalType": "dedicated_cruise_terminal",
+      "verified": true,
+      "notes": "Passenger cruise terminal within Chennai Port. Coordinate marks the terminal building rather than the broader harbour.",
+      "sourceUrls": [
+        "https://www.chennaiport.gov.in/content/cruise-terminal",
+        "https://www.openstreetmap.org/?mlat=13.09145&mlon=80.29391#map=17/13.09145/80.29391"
+      ],
+      "sources": [
+        "manual_web_research"
+      ],
+      "sourceIds": [
+        "manual/chennai-india/chennai-international-cruise-terminal"
+      ],
+      "osmTags": {},
+      "matchedBy": [
+        "web_researched_terminal"
+      ],
+      "distanceFromPortMeters": null
+    }
+  ],
+  "terminalCandidateRadiusMeters": 5000,
+  "terminalCandidates": [
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/1958a021ff302bbf7b53",
+      "name": "Chokani Jetty",
+      "nameEnglish": "",
+      "lat": 13.0973052,
+      "lng": 80.2998905,
+      "distanceFromPortMeters": 300,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/1958a021ff302bbf7b53"
+      ]
+    },
+    {
+      "source": "nominatim",
+      "sourceId": "osm/way/26399042",
+      "osmType": "way",
+      "osmId": "26399042",
+      "name": "Chennai Port Entry Road",
+      "nameEnglish": "",
+      "lat": 13.111331,
+      "lng": 80.298404,
+      "distanceFromPortMeters": 1272,
+      "address": "Chennai Port Entry Road, Chennai Port, Ward 50, Zone 5 Royapuram, Chennai Corporation, Chennai, Tamil Nadu, 600021, India",
+      "displayName": "Chennai Port Entry Road, Chennai Port, Ward 50, Zone 5 Royapuram, Chennai Corporation, Chennai, Tamil Nadu, 600021, India",
+      "query": "CHENNAI (MADRAS) Port, Chennai, India",
+      "matchedBy": [
+        "Nominatim query: CHENNAI (MADRAS) Port, Chennai, India"
+      ],
+      "osmTags": {},
+      "sources": [
+        "nominatim"
+      ],
+      "sourceIds": [
+        "osm/way/26399042"
+      ]
+    },
+    {
+      "source": "nominatim",
+      "sourceId": "osm/way/240340249",
+      "osmType": "way",
+      "osmId": "240340249",
+      "name": "Chennai Port Exit Road",
+      "nameEnglish": "",
+      "lat": 13.111313,
+      "lng": 80.2974177,
+      "distanceFromPortMeters": 1289,
+      "address": "Chennai Port Exit Road, Chennai Port, Ward 50, Zone 5 Royapuram, Chennai Corporation, Chennai, Tamil Nadu, 600021, India",
+      "displayName": "Chennai Port Exit Road, Chennai Port, Ward 50, Zone 5 Royapuram, Chennai Corporation, Chennai, Tamil Nadu, 600021, India",
+      "query": "CHENNAI (MADRAS) Port, Chennai, India",
+      "matchedBy": [
+        "Nominatim query: CHENNAI (MADRAS) Port, Chennai, India"
+      ],
+      "osmTags": {},
+      "sources": [
+        "nominatim"
+      ],
+      "sourceIds": [
+        "osm/way/240340249"
+      ]
+    },
+    {
+      "source": "nominatim",
+      "sourceId": "osm/node/4582224184",
+      "osmType": "node",
+      "osmId": "4582224184",
+      "name": "E Kal Mandapam Rd",
+      "nameEnglish": "",
+      "lat": 13.1116462,
+      "lng": 80.3005235,
+      "distanceFromPortMeters": 1296,
+      "address": "E Kal Mandapam Rd, Chennai Port Trust, Chennai,, Chennai Port Entry Road, Chennai Port, Ward 50, Zone 5 Royapuram, Chennai Corporation, Chennai, Tamil Nadu, 600001, India",
+      "displayName": "E Kal Mandapam Rd, Chennai Port Trust, Chennai,, Chennai Port Entry Road, Chennai Port, Ward 50, Zone 5 Royapuram, Chennai Corporation, Chennai, Tamil Nadu, 600001, India",
+      "query": "CHENNAI (MADRAS) Port, Chennai, India",
+      "matchedBy": [
+        "Nominatim query: CHENNAI (MADRAS) Port, Chennai, India"
+      ],
+      "osmTags": {
+        "description": "Situated in the coromandel coast in South-East India, the port of Chennai has more than 100 years of tradition. Strategically located and well connected with major parts of the world, it is today the hub port on the Indian subcontinent."
+      },
+      "sources": [
+        "nominatim"
+      ],
+      "sourceIds": [
+        "osm/node/4582224184"
+      ]
+    },
+    {
+      "source": "nominatim",
+      "sourceId": "osm/way/1378830248",
+      "osmType": "way",
+      "osmId": "1378830248",
+      "name": "Chennai Port–Maduravoyal Expressway",
+      "nameEnglish": "",
+      "lat": 13.0704923,
+      "lng": 80.2868161,
+      "distanceFromPortMeters": 3578,
+      "address": "Chennai Port–Maduravoyal Expressway, Chennai Port, Ward 60, Zone 5 Royapuram, Chennai Corporation, Chennai, Tamil Nadu, 600009, India",
+      "displayName": "Chennai Port–Maduravoyal Expressway, Chennai Port, Ward 60, Zone 5 Royapuram, Chennai Corporation, Chennai, Tamil Nadu, 600009, India",
+      "query": "CHENNAI (MADRAS) Port, Chennai, India",
+      "matchedBy": [
+        "Nominatim query: CHENNAI (MADRAS) Port, Chennai, India"
+      ],
+      "osmTags": {},
+      "sources": [
+        "nominatim"
+      ],
+      "sourceIds": [
+        "osm/way/1378830248"
+      ]
+    }
+  ],
+  "counts": {
+    "attraction": 18,
+    "outdoors": 5,
+    "food_drink": 12,
+    "shopping": 1,
+    "essentials": 1
+  },
+  "pois": [
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b05f5ade6fd353807eca",
+      "name": "Madras High Court Museum",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 13.0861077,
+      "lng": 80.2865922,
+      "distanceFromTerminalMeters": 2120,
+      "distanceFromDefaultTerminalMeters": 2120,
+      "minDistanceFromAnyTerminalMeters": 2120,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/aee8c32a679ba44f3e48",
+      "name": "Anderson Church",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "building",
+      "lat": 13.0889733,
+      "lng": 80.2885005,
+      "distanceFromTerminalMeters": 1748,
+      "distanceFromDefaultTerminalMeters": 1748,
+      "minDistanceFromAnyTerminalMeters": 1748,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "place_of_worship",
+        "historic": "building"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/3c36d01c9f0584841615",
+      "name": "St. Mary's Co-Cathedral",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "building",
+      "lat": 13.0897225,
+      "lng": 80.2873571,
+      "distanceFromTerminalMeters": 1784,
+      "distanceFromDefaultTerminalMeters": 1784,
+      "minDistanceFromAnyTerminalMeters": 1784,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "place_of_worship",
+        "historic": "building"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/02629bb81307ff714170",
+      "name": "Armenian Church of the Virgin Mary",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "building",
+      "lat": 13.089201,
+      "lng": 80.2873201,
+      "distanceFromTerminalMeters": 1824,
+      "distanceFromDefaultTerminalMeters": 1824,
+      "minDistanceFromAnyTerminalMeters": 1824,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "place_of_worship",
+        "historic": "building"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/4a5990e8a2277a98455e",
+      "name": "Fort St. George",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 13.0796765,
+      "lng": 80.2849395,
+      "distanceFromTerminalMeters": 2787,
+      "distanceFromDefaultTerminalMeters": 2787,
+      "minDistanceFromAnyTerminalMeters": 2787,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Rajaji Salai, Chennai, 600009",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "The first British fortress built in India, established in 1644, with a museum & 17th-century church.",
+      "osmTags": {
+        "historic": "castle",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ce643fd5352247d2c73f",
+      "name": "Fort St. George Museum",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 13.0807265,
+      "lng": 80.287612,
+      "distanceFromTerminalMeters": 2528,
+      "distanceFromDefaultTerminalMeters": 2528,
+      "minDistanceFromAnyTerminalMeters": 2528,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Su 09:00 - 17:00; Fr off",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/971a88876835de040f06",
+      "name": "India Post Philatelic Bureau",
+      "nameEnglish": "India Post Philatelic Bureau",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 13.0672252,
+      "lng": 80.2696676,
+      "distanceFromTerminalMeters": 4907,
+      "distanceFromDefaultTerminalMeters": 4907,
+      "minDistanceFromAnyTerminalMeters": 4907,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/fa0aa5aca1c3bafb8d9c",
+      "name": "Dr. Maruthur Gopalan Ramachandran Museum",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 13.0649879,
+      "lng": 80.2850421,
+      "distanceFromTerminalMeters": 4217,
+      "distanceFromDefaultTerminalMeters": 4217,
+      "minDistanceFromAnyTerminalMeters": 4217,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/261f23bde81525d23b36",
+      "name": "Amma Museum",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 13.0645113,
+      "lng": 80.2858467,
+      "distanceFromTerminalMeters": 4233,
+      "distanceFromDefaultTerminalMeters": 4233,
+      "minDistanceFromAnyTerminalMeters": 4233,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b54da4a9b98c37edfb56",
+      "name": "Chepauk Palace",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "castle",
+      "lat": 13.0635723,
+      "lng": 80.2816298,
+      "distanceFromTerminalMeters": 4513,
+      "distanceFromDefaultTerminalMeters": 4513,
+      "minDistanceFromAnyTerminalMeters": 4513,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "castle"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/6874e1afca4a5f452c38",
+      "name": "Chennai Government Museum",
+      "nameEnglish": "Chennai Government Museum",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 13.0712834,
+      "lng": 80.2567535,
+      "distanceFromTerminalMeters": 5669,
+      "distanceFromDefaultTerminalMeters": 5669,
+      "minDistanceFromAnyTerminalMeters": 5669,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Sa-Th 09:30-17:00",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/fda1d8b6f8d6527765da",
+      "name": "Singaravelar Memorial House",
+      "nameEnglish": "Singaravelar Memorial House",
+      "category": "attraction",
+      "subcategory": "monument",
+      "lat": 13.1078316,
+      "lng": 80.2912521,
+      "distanceFromTerminalMeters": 1287,
+      "distanceFromDefaultTerminalMeters": 1287,
+      "minDistanceFromAnyTerminalMeters": 1287,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "monument"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/6900a5d8e81093d7d46e",
+      "name": "Esplanade Boundary Marker",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "monument",
+      "lat": 13.0889988,
+      "lng": 80.2899841,
+      "distanceFromTerminalMeters": 1635,
+      "distanceFromDefaultTerminalMeters": 1635,
+      "minDistanceFromAnyTerminalMeters": 1635,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "monument"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/9621127a6e1e87e01306",
+      "name": "Hynmers Obelisk",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "memorial",
+      "lat": 13.0872278,
+      "lng": 80.2857808,
+      "distanceFromTerminalMeters": 2095,
+      "distanceFromDefaultTerminalMeters": 2095,
+      "minDistanceFromAnyTerminalMeters": 2095,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Tomb of David Yale and Joseph Hynmers",
+      "osmTags": {
+        "historic": "memorial"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/7cbaa9971e6ef06d1675",
+      "name": "Cornwallis Cupola",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "monument",
+      "lat": 13.080352,
+      "lng": 80.2875169,
+      "distanceFromTerminalMeters": 2569,
+      "distanceFromDefaultTerminalMeters": 2569,
+      "minDistanceFromAnyTerminalMeters": 2569,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "monument"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/1a7de31e29e91670c9fc",
+      "name": "75th Anniversary of Independence Monument",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "monument",
+      "lat": 13.0678837,
+      "lng": 80.2841124,
+      "distanceFromTerminalMeters": 3964,
+      "distanceFromDefaultTerminalMeters": 3964,
+      "minDistanceFromAnyTerminalMeters": 3964,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "monument"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/e9d231d94ef8bb720a1c",
+      "name": "May Day Monument",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "monument",
+      "lat": 13.0734541,
+      "lng": 80.2732181,
+      "distanceFromTerminalMeters": 4138,
+      "distanceFromDefaultTerminalMeters": 4138,
+      "minDistanceFromAnyTerminalMeters": 4138,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "monument"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d35f9dc6c5d3ff65b035",
+      "name": "சென்னை மெரினா கலங்கரை விளக்கம்",
+      "nameEnglish": "Chennai Marina Lighthouse",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 13.039631,
+      "lng": 80.2794168,
+      "distanceFromTerminalMeters": 7073,
+      "distanceFromDefaultTerminalMeters": 7073,
+      "minDistanceFromAnyTerminalMeters": 7073,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Marina Beach Road",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/98ae8dfc43c43b053f24",
+      "name": "Fort Park",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 13.0771966,
+      "lng": 80.2877268,
+      "distanceFromTerminalMeters": 2863,
+      "distanceFromDefaultTerminalMeters": 2863,
+      "minDistanceFromAnyTerminalMeters": 2863,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/456e5c4b01044e0a4544",
+      "name": "Maadi Poonga",
+      "nameEnglish": "Hanging Gardens",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 13.1038024,
+      "lng": 80.2885775,
+      "distanceFromTerminalMeters": 1307,
+      "distanceFromDefaultTerminalMeters": 1307,
+      "minDistanceFromAnyTerminalMeters": 1307,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/6e50f094bec83a6d6b40",
+      "name": "Marina Beach,Chennai",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "beach",
+      "lat": 13.0533969,
+      "lng": 80.2833328,
+      "distanceFromTerminalMeters": 5487,
+      "distanceFromDefaultTerminalMeters": 5487,
+      "minDistanceFromAnyTerminalMeters": 5487,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "natural": "beach"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/084a4267b3ce0ecb2be9",
+      "name": "mvc",
+      "nameEnglish": "mvc",
+      "category": "outdoors",
+      "subcategory": "viewpoint",
+      "lat": 13.0846553,
+      "lng": 80.2649747,
+      "distanceFromTerminalMeters": 4159,
+      "distanceFromDefaultTerminalMeters": 4159,
+      "minDistanceFromAnyTerminalMeters": 4159,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "viewpoint"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/2c432eae28b0b51a60be",
+      "name": "A.K. Tea Stall",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 13.1012171,
+      "lng": 80.2942221,
+      "distanceFromTerminalMeters": 640,
+      "distanceFromDefaultTerminalMeters": 640,
+      "minDistanceFromAnyTerminalMeters": 640,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/9360913dba39507b7ee2",
+      "name": "Sea Lord",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 13.0994059,
+      "lng": 80.2938237,
+      "distanceFromTerminalMeters": 672,
+      "distanceFromDefaultTerminalMeters": 672,
+      "minDistanceFromAnyTerminalMeters": 672,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/71b5fa4f144efda124eb",
+      "name": "Thai Mess",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 13.0985064,
+      "lng": 80.2923742,
+      "distanceFromTerminalMeters": 842,
+      "distanceFromDefaultTerminalMeters": 842,
+      "minDistanceFromAnyTerminalMeters": 842,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [
+        "thai"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/9c6a6f9f2a9d4badb6dd",
+      "name": "Udangudi karupatti kapi",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 13.0961379,
+      "lng": 80.2893983,
+      "distanceFromTerminalMeters": 1226,
+      "distanceFromDefaultTerminalMeters": 1226,
+      "minDistanceFromAnyTerminalMeters": 1226,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [
+        "coffee_shop"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/01d3f41555c378334238",
+      "name": "Rani Dam Chai",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 13.0956243,
+      "lng": 80.2893557,
+      "distanceFromTerminalMeters": 1251,
+      "distanceFromDefaultTerminalMeters": 1251,
+      "minDistanceFromAnyTerminalMeters": 1251,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [
+        "coffee_shop"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/6d6f86a554f0c49301ca",
+      "name": "Adyar Ananda Bhavan",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 13.1081671,
+      "lng": 80.2916801,
+      "distanceFromTerminalMeters": 1279,
+      "distanceFromDefaultTerminalMeters": 1279,
+      "minDistanceFromAnyTerminalMeters": 1279,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Suryanarayana Street, Chennai, 600013",
+      "openingHours": "",
+      "website": "https://www.aabsweets.in",
+      "phone": "+91 44 4237 1199",
+      "cuisine": [
+        "regional"
+      ],
+      "wheelchair": "",
+      "brand": "Adyar Ananda Bhavan",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant",
+        "shop": "confectionery"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/4574e0eafd33be69501f",
+      "name": "Adyar Anand Bhavan",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 13.0886358,
+      "lng": 80.2849229,
+      "distanceFromTerminalMeters": 2065,
+      "distanceFromDefaultTerminalMeters": 2065,
+      "minDistanceFromAnyTerminalMeters": 2065,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Netaji Subhash Chandra Bose Road, Chennai, 600001",
+      "openingHours": "",
+      "website": "https://www.aabsweets.in",
+      "phone": "+91 44 2345 3044",
+      "cuisine": [
+        "regional"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/abdbc0ca924241ea0d7f",
+      "name": "Classic Barbeque Corner",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 13.0960127,
+      "lng": 80.2911867,
+      "distanceFromTerminalMeters": 1052,
+      "distanceFromDefaultTerminalMeters": 1052,
+      "minDistanceFromAnyTerminalMeters": 1052,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [
+        "barbecue"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/7e70927a42632088228b",
+      "name": "The Red Box",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 13.1026805,
+      "lng": 80.2905294,
+      "distanceFromTerminalMeters": 1068,
+      "distanceFromDefaultTerminalMeters": 1068,
+      "minDistanceFromAnyTerminalMeters": 1068,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [
+        "chinese"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/0ea4b08ff96986c47fab",
+      "name": "Murugan Idli Shop",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 13.0891115,
+      "lng": 80.2878586,
+      "distanceFromTerminalMeters": 1787,
+      "distanceFromDefaultTerminalMeters": 1787,
+      "minDistanceFromAnyTerminalMeters": 1787,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Armenian Street",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [
+        "indian"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/46c8d2aa6b16cb0b4490",
+      "name": "Sangeetha Vegetarian Restaurant",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 13.0889275,
+      "lng": 80.2875692,
+      "distanceFromTerminalMeters": 1824,
+      "distanceFromDefaultTerminalMeters": 1824,
+      "minDistanceFromAnyTerminalMeters": 1824,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [
+        "indian",
+        "regional"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/71c735fd7358f7e9854e",
+      "name": "The Lady Connemara",
+      "nameEnglish": "The Lady Connemara",
+      "category": "food_drink",
+      "subcategory": "bar",
+      "lat": 13.062703,
+      "lng": 80.2615972,
+      "distanceFromTerminalMeters": 5874,
+      "distanceFromDefaultTerminalMeters": 5874,
+      "minDistanceFromAnyTerminalMeters": 5874,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Su 18:00-00:00",
+      "website": "http://www.tajhitels.com",
+      "phone": "",
+      "cuisine": [
+        "international",
+        "regional",
+        "tea",
+        "coffee_shop"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "bar"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/2fb0f7f25ad26e01aad7",
+      "name": "எக்ஸ்பிரஸ் அவென்யூ மால்",
+      "nameEnglish": "Express Avenue Mall",
+      "category": "shopping",
+      "subcategory": "mall",
+      "lat": 13.0586501,
+      "lng": 80.2641949,
+      "distanceFromTerminalMeters": 6015,
+      "distanceFromDefaultTerminalMeters": 6015,
+      "minDistanceFromAnyTerminalMeters": 6015,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "2 Whites Road, Chennai, 600014",
+      "openingHours": "10:00-22:00",
+      "website": "https://www.expressavenue.in/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "shop": "mall"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/017e90d5df97495578b7",
+      "name": "Passenger care  center",
+      "nameEnglish": "",
+      "category": "essentials",
+      "subcategory": "visitor_information",
+      "lat": 13.0826063,
+      "lng": 80.2753173,
+      "distanceFromTerminalMeters": 3300,
+      "distanceFromDefaultTerminalMeters": 3300,
+      "minDistanceFromAnyTerminalMeters": 3300,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "pathway",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Information center",
+      "osmTags": {
+        "tourism": "information"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c17bc14f90859d765872",
+      "name": "Anna Park",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 13.1076255,
+      "lng": 80.2885883,
+      "distanceFromTerminalMeters": 1499,
+      "distanceFromDefaultTerminalMeters": 1499,
+      "minDistanceFromAnyTerminalMeters": 1499,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "park"
+      }
+    }
+  ],
+  "portAnchor": {
+    "id": "ports-json-anchor",
+    "name": "CHENNAI (MADRAS) Port",
+    "lat": 13.1,
+    "lng": 80.3,
+    "address": "Chennai, Tamil Nadu, India",
+    "source": "ports.json",
+    "sourceId": "",
+    "score": 0,
+    "slug": "chennai-madras-port"
+  },
+  "terminalResolution": {
+    "status": "resolved",
+    "method": "manual_web_research",
+    "verified": true,
+    "notes": "Terminal records were added from researched cruise-port sources because no supplied candidate accurately represented the passenger arrival point."
+  }
+}

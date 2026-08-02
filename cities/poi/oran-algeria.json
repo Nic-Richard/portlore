@@ -1,0 +1,1236 @@
+{
+  "schemaVersion": 5,
+  "catalogType": "curation-candidates",
+  "generatedAt": "2026-07-30T07:34:08.069Z",
+  "source": "openstreetmap",
+  "sourceExtract": "algeria-latest.osm.pbf",
+  "radiusMeters": 10000,
+  "port": {
+    "id": "oran-algeria",
+    "city": "Oran",
+    "country": "Algeria"
+  },
+  "defaultTerminalId": "osm/generated/c1445cc4e380432edb9e",
+  "terminal": {
+    "id": "osm/generated/c1445cc4e380432edb9e",
+    "name": "Gare Maritime d'Oran",
+    "nameEnglish": "",
+    "lat": 35.7101806,
+    "lng": -0.6461937,
+    "address": "Oran, 31000",
+    "source": "verified_terminal_candidate",
+    "sourceId": "osm/generated/c1445cc4e380432edb9e",
+    "terminalType": "passenger_cruise_terminal",
+    "verified": true,
+    "notes": "Accepted Gare Maritime d’Oran, the named maritime passenger terminal and strongest supplied match for cruise-passenger processing.",
+    "sourceUrls": [],
+    "sources": [
+      "openstreetmap"
+    ],
+    "sourceIds": [
+      "osm/generated/c1445cc4e380432edb9e"
+    ],
+    "osmTags": {
+      "amenity": "ferry_terminal",
+      "ferry": "yes",
+      "operator": "Algérie ferries",
+      "public_transport": "station"
+    },
+    "matchedBy": [
+      "amenity=ferry_terminal",
+      "terminal-like name"
+    ],
+    "distanceFromPortMeters": 1849
+  },
+  "terminals": [
+    {
+      "id": "osm/generated/c1445cc4e380432edb9e",
+      "name": "Gare Maritime d'Oran",
+      "nameEnglish": "",
+      "lat": 35.7101806,
+      "lng": -0.6461937,
+      "address": "Oran, 31000",
+      "source": "verified_terminal_candidate",
+      "sourceId": "osm/generated/c1445cc4e380432edb9e",
+      "terminalType": "passenger_cruise_terminal",
+      "verified": true,
+      "notes": "Accepted Gare Maritime d’Oran, the named maritime passenger terminal and strongest supplied match for cruise-passenger processing.",
+      "sourceUrls": [],
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/c1445cc4e380432edb9e"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "operator": "Algérie ferries",
+        "public_transport": "station"
+      },
+      "matchedBy": [
+        "amenity=ferry_terminal",
+        "terminal-like name"
+      ],
+      "distanceFromPortMeters": 1849
+    }
+  ],
+  "terminalCandidateRadiusMeters": 5000,
+  "terminalCandidates": [
+    {
+      "source": "nominatim",
+      "sourceId": "osm/way/326214679",
+      "osmType": "way",
+      "osmId": "326214679",
+      "name": "Port d'Oran",
+      "nameEnglish": "",
+      "lat": 35.7133314,
+      "lng": -0.6287146,
+      "distanceFromPortMeters": 1487,
+      "address": "Port d'Oran, Cité Omaria, Oran, Daïra Oran, وهران Oran ⵡⴻⵀⵔⴰⵏ, 31000, ⵍⵣⵣⴰⵢⴻⵔ الجزائر",
+      "displayName": "Port d'Oran, Cité Omaria, Oran, Daïra Oran, وهران Oran ⵡⴻⵀⵔⴰⵏ, 31000, ⵍⵣⵣⴰⵢⴻⵔ الجزائر",
+      "query": "ORAN Port, Oran, Algeria",
+      "matchedBy": [
+        "Nominatim query: ORAN Port, Oran, Algeria"
+      ],
+      "osmTags": {
+        "harbour": "yes",
+        "industrial": "port",
+        "seamark:type": "harbour"
+      },
+      "sources": [
+        "nominatim"
+      ],
+      "sourceIds": [
+        "osm/way/326214679"
+      ]
+    },
+    {
+      "source": "nominatim",
+      "sourceId": "osm/node/4564898397",
+      "osmType": "node",
+      "osmId": "4564898397",
+      "name": "Ascenseur public Port d'Oran",
+      "nameEnglish": "",
+      "lat": 35.708049,
+      "lng": -0.6444414,
+      "distanceFromPortMeters": 1582,
+      "address": "Ascenseur public Port d'Oran, Rampe Commandant Ferradj, Cité Émir, Oran, Daïra Oran, وهران Oran ⵡⴻⵀⵔⴰⵏ, 31000, ⵍⵣⵣⴰⵢⴻⵔ الجزائر",
+      "displayName": "Ascenseur public Port d'Oran, Rampe Commandant Ferradj, Cité Émir, Oran, Daïra Oran, وهران Oran ⵡⴻⵀⵔⴰⵏ, 31000, ⵍⵣⵣⴰⵢⴻⵔ الجزائر",
+      "query": "ORAN Port, Oran, Algeria",
+      "matchedBy": [
+        "Nominatim query: ORAN Port, Oran, Algeria"
+      ],
+      "osmTags": {},
+      "sources": [
+        "nominatim"
+      ],
+      "sourceIds": [
+        "osm/node/4564898397"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/772e317e43793d2e83fc",
+      "name": "Oran",
+      "nameEnglish": "",
+      "lat": 35.7094434,
+      "lng": -0.6452021,
+      "distanceFromPortMeters": 1728,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "stop_position"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/772e317e43793d2e83fc"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c1445cc4e380432edb9e",
+      "name": "Gare Maritime d'Oran",
+      "nameEnglish": "",
+      "lat": 35.7101806,
+      "lng": -0.6461937,
+      "distanceFromPortMeters": 1849,
+      "address": "Oran, 31000",
+      "matchedBy": [
+        "amenity=ferry_terminal",
+        "terminal-like name"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "operator": "Algérie ferries",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/c1445cc4e380432edb9e"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/7922aacef55212ff8f7c",
+      "name": "(unnamed maritime feature)",
+      "nameEnglish": "",
+      "lat": 35.7095195,
+      "lng": -0.653088,
+      "distanceFromPortMeters": 2338,
+      "address": "وهران",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "building": "yes",
+        "ferry": "yes",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/7922aacef55212ff8f7c"
+      ]
+    },
+    {
+      "source": "nominatim",
+      "sourceId": "osm/way/521579665",
+      "osmType": "way",
+      "osmId": "521579665",
+      "name": "ميناء الصيد وهران",
+      "nameEnglish": "",
+      "lat": 35.7105534,
+      "lng": -0.6538792,
+      "distanceFromPortMeters": 2455,
+      "address": "ميناء الصيد وهران, سيدي الهواري, Oran, Daïra Oran, وهران Oran ⵡⴻⵀⵔⴰⵏ, 31000, ⵍⵣⵣⴰⵢⴻⵔ الجزائر",
+      "displayName": "ميناء الصيد وهران, سيدي الهواري, Oran, Daïra Oran, وهران Oran ⵡⴻⵀⵔⴰⵏ, 31000, ⵍⵣⵣⴰⵢⴻⵔ الجزائر",
+      "query": "ORAN Port, Oran, Algeria",
+      "matchedBy": [
+        "Nominatim query: ORAN Port, Oran, Algeria"
+      ],
+      "osmTags": {
+        "harbour": "yes",
+        "seamark:type": "harbour"
+      },
+      "sources": [
+        "nominatim"
+      ],
+      "sourceIds": [
+        "osm/way/521579665"
+      ]
+    }
+  ],
+  "counts": {
+    "attraction": 16,
+    "outdoors": 4,
+    "food_drink": 12,
+    "shopping": 6,
+    "essentials": 0
+  },
+  "pois": [
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/5bb0411f18f519f7364a",
+      "name": "Musée National Ahmed Zabana",
+      "nameEnglish": "Ahmed Zabana National Museum",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 35.6958058,
+      "lng": -0.6450044,
+      "distanceFromTerminalMeters": 1433,
+      "distanceFromDefaultTerminalMeters": 1433,
+      "minDistanceFromAnyTerminalMeters": 1433,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Boulevard Zabana, Oran, 31000",
+      "openingHours": "",
+      "website": "https://www.oran-dz.com/culture/musee/musee-national-zabana-oran.html",
+      "phone": "+213 41 403 781",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/085e60d0d04f1d648a89",
+      "name": "Musée d'art moderne d'Oran",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 35.7016931,
+      "lng": -0.6458801,
+      "distanceFromTerminalMeters": 1446,
+      "distanceFromDefaultTerminalMeters": 1446,
+      "minDistanceFromAnyTerminalMeters": 1446,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Rue Larbi Ben M'hidi, Oran",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/92d1f31cd2fdd111397d",
+      "name": "Fort Saint André",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "castle",
+      "lat": 35.6983069,
+      "lng": -0.6528448,
+      "distanceFromTerminalMeters": 2071,
+      "distanceFromDefaultTerminalMeters": 2071,
+      "minDistanceFromAnyTerminalMeters": 2071,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "castle"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/38590b583fb5d80b4529",
+      "name": "Red & White coffee shop",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 35.6993721,
+      "lng": -0.6033842,
+      "distanceFromTerminalMeters": 2404,
+      "distanceFromDefaultTerminalMeters": 2404,
+      "minDistanceFromAnyTerminalMeters": 2404,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "31056 3ème Boulevard Périphérique, Oran, 31000",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c3a85d22a174025c752e",
+      "name": "Mosquée Abdallah Ibn Salam",
+      "nameEnglish": "Abdallah Ibn Salam Mosque",
+      "category": "attraction",
+      "subcategory": "heritage",
+      "lat": 35.7000197,
+      "lng": -0.6500277,
+      "distanceFromTerminalMeters": 1808,
+      "distanceFromDefaultTerminalMeters": 1808,
+      "minDistanceFromAnyTerminalMeters": 1808,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Oran",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "place_of_worship",
+        "historic": "heritage"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/7201e962645f256cb2d2",
+      "name": "Zoo d'Oran",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "zoo",
+      "lat": 35.6892921,
+      "lng": -0.6467164,
+      "distanceFromTerminalMeters": 1923,
+      "distanceFromDefaultTerminalMeters": 1923,
+      "minDistanceFromAnyTerminalMeters": 1923,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "zoo"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/95d04424154412cda43d",
+      "name": "Fort Santiago",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "castle",
+      "lat": 35.7054619,
+      "lng": -0.6601113,
+      "distanceFromTerminalMeters": 2786,
+      "distanceFromDefaultTerminalMeters": 2786,
+      "minDistanceFromAnyTerminalMeters": 2786,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "castle"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/99c1ab40d90ca0bad1a3",
+      "name": "Fort lamoune",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "castle",
+      "lat": 35.7136209,
+      "lng": -0.6565389,
+      "distanceFromTerminalMeters": 2835,
+      "distanceFromDefaultTerminalMeters": 2835,
+      "minDistanceFromAnyTerminalMeters": 2835,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "castle"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/9d1ef1eb0308152c4a2d",
+      "name": "Fort Santa Cruz",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "castle",
+      "lat": 35.7092243,
+      "lng": -0.6650461,
+      "distanceFromTerminalMeters": 3327,
+      "distanceFromDefaultTerminalMeters": 3327,
+      "minDistanceFromAnyTerminalMeters": 3327,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "castle"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d6f52c1e1b887b4c266f",
+      "name": "Musée de l'artisanat",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 35.6958135,
+      "lng": -0.577151,
+      "distanceFromTerminalMeters": 4795,
+      "distanceFromDefaultTerminalMeters": 4795,
+      "minDistanceFromAnyTerminalMeters": 4795,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Bir El Djir",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/5198799acfa7bb1f138e",
+      "name": "Placette Saint Hugene",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "square",
+      "lat": 35.6993969,
+      "lng": -0.6250227,
+      "distanceFromTerminalMeters": 454,
+      "distanceFromDefaultTerminalMeters": 454,
+      "minDistanceFromAnyTerminalMeters": 454,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "place": "square"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b9e22a5c6f95a60978fb",
+      "name": "Palais du Bey",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 35.7057262,
+      "lng": -0.6493408,
+      "distanceFromTerminalMeters": 1859,
+      "distanceFromDefaultTerminalMeters": 1859,
+      "minDistanceFromAnyTerminalMeters": 1859,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Rue Meftah Kouider, Oran",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "castle",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b633d88fa2e5a583bd41",
+      "name": "Place Mokrani",
+      "nameEnglish": "Al-Muqrani Square",
+      "category": "attraction",
+      "subcategory": "square",
+      "lat": 35.7012876,
+      "lng": -0.6499656,
+      "distanceFromTerminalMeters": 1809,
+      "distanceFromDefaultTerminalMeters": 1809,
+      "minDistanceFromAnyTerminalMeters": 1809,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "place": "square"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/9eb3524398885c363ba7",
+      "name": "Parc d'attraction Djanat El Ahlam",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "theme_park",
+      "lat": 35.6848,
+      "lng": -0.6343117,
+      "distanceFromTerminalMeters": 1734,
+      "distanceFromDefaultTerminalMeters": 1734,
+      "minDistanceFromAnyTerminalMeters": 1734,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Oran, 31000",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "theme_park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c51718f8279376ed84b9",
+      "name": "Jardin Miramar",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "garden",
+      "lat": 35.7053728,
+      "lng": -0.6344789,
+      "distanceFromTerminalMeters": 721,
+      "distanceFromDefaultTerminalMeters": 721,
+      "minDistanceFromAnyTerminalMeters": 721,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Oran",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "garden"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/e0c2468d25e0e2f56645",
+      "name": "Jardin",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "garden",
+      "lat": 35.7065764,
+      "lng": -0.6316084,
+      "distanceFromTerminalMeters": 746,
+      "distanceFromDefaultTerminalMeters": 746,
+      "minDistanceFromAnyTerminalMeters": 746,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "garden"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c315b6dcdede227d64dc",
+      "name": "Jardin de La Roseraie",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "garden",
+      "lat": 35.7037046,
+      "lng": -0.6387589,
+      "distanceFromTerminalMeters": 892,
+      "distanceFromDefaultTerminalMeters": 892,
+      "minDistanceFromAnyTerminalMeters": 892,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "شارع محمد خميستي, وهران",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "garden"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b02ab0b17d622137a395",
+      "name": "Place Bamako",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "garden",
+      "lat": 35.705635,
+      "lng": -0.6383139,
+      "distanceFromTerminalMeters": 978,
+      "distanceFromDefaultTerminalMeters": 978,
+      "minDistanceFromAnyTerminalMeters": 978,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "garden"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/fcae138125cf052caa46",
+      "name": "Nespresso",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 35.7046988,
+      "lng": -0.6378571,
+      "distanceFromTerminalMeters": 881,
+      "distanceFromDefaultTerminalMeters": 881,
+      "minDistanceFromAnyTerminalMeters": 881,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "18 Avenue Larbi Tebessi, Oran, 31000",
+      "openingHours": "Sa-Th 09:00-19:30",
+      "website": "",
+      "phone": "",
+      "cuisine": [
+        "coffee_shop"
+      ],
+      "wheelchair": "",
+      "brand": "Nespresso",
+      "description": "",
+      "osmTags": {
+        "amenity": "cafe",
+        "shop": "coffee"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/3a57c24b7886de9524ab",
+      "name": "Cafétéria Paris",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 35.6984383,
+      "lng": -0.6351667,
+      "distanceFromTerminalMeters": 498,
+      "distanceFromDefaultTerminalMeters": 498,
+      "minDistanceFromAnyTerminalMeters": 498,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Avenue Saïm Mohamed, DZ",
+      "openingHours": "Mo-Su 07:00-22:00",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/2cd931f6126ea1ef27b3",
+      "name": "Coffee ~01~ Les deux frères",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 35.6935438,
+      "lng": -0.6451798,
+      "distanceFromTerminalMeters": 1547,
+      "distanceFromDefaultTerminalMeters": 1547,
+      "minDistanceFromAnyTerminalMeters": 1547,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "PH,Mo-Su 07:00-21:00",
+      "website": "",
+      "phone": "",
+      "cuisine": [
+        "coffee_shop"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/2d9e244c14a004ef3128",
+      "name": "Le Royaume du Couscous",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 35.7030685,
+      "lng": -0.6387876,
+      "distanceFromTerminalMeters": 864,
+      "distanceFromDefaultTerminalMeters": 864,
+      "minDistanceFromAnyTerminalMeters": 864,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "15 Rue Ho Chi Minh, وهران, 31000",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [
+        "couscous"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/368d22e3304aac5bb31b",
+      "name": "Pêcherie Le Corsaire",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 35.7063259,
+      "lng": -0.6525139,
+      "distanceFromTerminalMeters": 2151,
+      "distanceFromDefaultTerminalMeters": 2151,
+      "minDistanceFromAnyTerminalMeters": 2151,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "09, place de la république Sidi El-Houari, Oran, DZ",
+      "openingHours": "",
+      "website": "https://www.lecorsaire.net/",
+      "phone": "0770999931",
+      "cuisine": [
+        "fish_and_chips"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/dfba9389b59f50ef4949",
+      "name": "مطعم الباي",
+      "nameEnglish": "El Bey Restaurant",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 35.697142,
+      "lng": -0.6313929,
+      "distanceFromTerminalMeters": 342,
+      "distanceFromDefaultTerminalMeters": 342,
+      "minDistanceFromAnyTerminalMeters": 342,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "DZ",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c3eced34ef338456098e",
+      "name": "Restaurant Les Voyageurs",
+      "nameEnglish": "The Travelers' Restaurant",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 35.7020952,
+      "lng": -0.6439004,
+      "distanceFromTerminalMeters": 1277,
+      "distanceFromDefaultTerminalMeters": 1277,
+      "minDistanceFromAnyTerminalMeters": 1277,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Sa-Th 11:00-10:00",
+      "website": "",
+      "phone": "+213 668 25 44 97",
+      "cuisine": [
+        "regional",
+        "soup",
+        "fast_food",
+        "couscous"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b78dfb865c60a06e6556",
+      "name": "Maharaja indien restaurant مطعم مهرا الهندي",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 35.7130754,
+      "lng": -0.6118172,
+      "distanceFromTerminalMeters": 2193,
+      "distanceFromDefaultTerminalMeters": 2193,
+      "minDistanceFromAnyTerminalMeters": 2193,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "2ème Boulevard Périphérique الطريق الحزامية رقم 2, Oran وهران",
+      "openingHours": "Sa-Th 12:00-23:00; Fr 18:30-23:30",
+      "website": "",
+      "phone": "0551131269",
+      "cuisine": [
+        "indian"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/552dac258d0ebd10e18b",
+      "name": "TRIP Restaurant",
+      "nameEnglish": "trip restaurant -airline meals-",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 35.7033726,
+      "lng": -0.644513,
+      "distanceFromTerminalMeters": 1363,
+      "distanceFromDefaultTerminalMeters": 1363,
+      "minDistanceFromAnyTerminalMeters": 1363,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "27 Rue des Soeurs Benslimane, 31000, DZ",
+      "openingHours": "Mo-Su 10:00-23:00",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/966797bb5f307b4ec230",
+      "name": "my chicken",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 35.7139003,
+      "lng": -0.5816816,
+      "distanceFromTerminalMeters": 4628,
+      "distanceFromDefaultTerminalMeters": 4628,
+      "minDistanceFromAnyTerminalMeters": 4628,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "31000 Rue 5 Juillet, ORAN, 31000",
+      "openingHours": "Mo-Su 12:00-00:00",
+      "website": "my chicken",
+      "phone": "0550165347",
+      "cuisine": [
+        "chicken",
+        "salad"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/9a51cf6c9589d4936dd2",
+      "name": "Pêcherie La Marina",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 35.7075042,
+      "lng": -0.6526918,
+      "distanceFromTerminalMeters": 2212,
+      "distanceFromDefaultTerminalMeters": 2212,
+      "minDistanceFromAnyTerminalMeters": 2212,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Rue John F Kennedy, Oran",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [
+        "fish_and_chips"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/3836bf12c92034bbbe90",
+      "name": "Pêcherie Cascades",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 35.70827,
+      "lng": -0.6551722,
+      "distanceFromTerminalMeters": 2452,
+      "distanceFromDefaultTerminalMeters": 2452,
+      "minDistanceFromAnyTerminalMeters": 2452,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Rue John F Kennedy, وهران",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [
+        "fish"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/94ad95b3068499fe4e0d",
+      "name": "Marché couvert",
+      "nameEnglish": "Covered market",
+      "category": "shopping",
+      "subcategory": "marketplace",
+      "lat": 35.7047568,
+      "lng": -0.6044034,
+      "distanceFromTerminalMeters": 2371,
+      "distanceFromDefaultTerminalMeters": 2371,
+      "minDistanceFromAnyTerminalMeters": 2371,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Rond Point HLM, Oran, 31000",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "marketplace"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/384d0f73f43775660db4",
+      "name": "Résidence Zabana (Cherif Athman)",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "mall",
+      "lat": 35.7069068,
+      "lng": -0.6276348,
+      "distanceFromTerminalMeters": 797,
+      "distanceFromDefaultTerminalMeters": 797,
+      "minDistanceFromAnyTerminalMeters": 797,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "shop": "mall"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/6e1f4f0e9d91bca914c7",
+      "name": "سوق شعبي لا سيي خضر وفواكه",
+      "nameEnglish": "Popular Market fruits and vegetables",
+      "category": "shopping",
+      "subcategory": "variety_store",
+      "lat": 35.7074687,
+      "lng": -0.6183739,
+      "distanceFromTerminalMeters": 1339,
+      "distanceFromDefaultTerminalMeters": 1339,
+      "minDistanceFromAnyTerminalMeters": 1339,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "وهران",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "shop": "variety_store"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/9d9123a358c16558ca30",
+      "name": "Marché Michelet",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "marketplace",
+      "lat": 35.7045482,
+      "lng": -0.6368607,
+      "distanceFromTerminalMeters": 800,
+      "distanceFromDefaultTerminalMeters": 800,
+      "minDistanceFromAnyTerminalMeters": 800,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Boulevard de Tripoli, Oran, 31000",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "marketplace"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/8ab25342966f82233d60",
+      "name": "Marché Sidi Okba",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "marketplace",
+      "lat": 35.6937705,
+      "lng": -0.6485162,
+      "distanceFromTerminalMeters": 1810,
+      "distanceFromDefaultTerminalMeters": 1810,
+      "minDistanceFromAnyTerminalMeters": 1810,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Oran",
+      "openingHours": "Mo-Su 06:30-20:00",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "marketplace"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/012e4dc93833585058ad",
+      "name": "Marché petit lacla",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "marketplace",
+      "lat": 35.6821803,
+      "lng": -0.6150056,
+      "distanceFromTerminalMeters": 2400,
+      "distanceFromDefaultTerminalMeters": 2400,
+      "minDistanceFromAnyTerminalMeters": 2400,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Rue 4",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "marketplace"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/37b3e9552b85dbd79925",
+      "name": "ساحة الجزائر",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "square",
+      "lat": 35.7035033,
+      "lng": -0.623558,
+      "distanceFromTerminalMeters": 700,
+      "distanceFromDefaultTerminalMeters": 700,
+      "minDistanceFromAnyTerminalMeters": 700,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "place": "square"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/6fc1adc297ef8ef4bbed",
+      "name": "Place Port-Saïd",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "square",
+      "lat": 35.7055967,
+      "lng": -0.6353103,
+      "distanceFromTerminalMeters": 786,
+      "distanceFromDefaultTerminalMeters": 786,
+      "minDistanceFromAnyTerminalMeters": 786,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "place": "square"
+      }
+    }
+  ],
+  "portAnchor": {
+    "id": "ports-json-anchor",
+    "name": "ORAN Port",
+    "lat": 35.7,
+    "lng": -0.63,
+    "address": "Oran, Oran, Algeria",
+    "source": "ports.json",
+    "sourceId": "",
+    "score": 0,
+    "slug": "oran-port"
+  },
+  "terminalResolution": {
+    "status": "resolved",
+    "method": "accepted_terminal_candidate",
+    "verified": true,
+    "notes": "Accepted Gare Maritime d’Oran, the named maritime passenger terminal and strongest supplied match for cruise-passenger processing."
+  }
+}

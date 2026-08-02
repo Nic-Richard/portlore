@@ -1,0 +1,1501 @@
+{
+  "schemaVersion": 5,
+  "catalogType": "curation-candidates",
+  "generatedAt": "2026-07-30T08:44:08.763Z",
+  "source": "openstreetmap",
+  "sourceExtract": "philippines-latest.osm.pbf",
+  "radiusMeters": 10000,
+  "port": {
+    "id": "cebu-city-philippines",
+    "city": "Cebu City",
+    "country": "Philippines"
+  },
+  "defaultTerminalId": "osm/generated/cfc0aad7c1a504895b33",
+  "terminal": {
+    "id": "osm/generated/cfc0aad7c1a504895b33",
+    "name": "Passenger Terminal 1",
+    "nameEnglish": "Passenger Terminal 1",
+    "lat": 10.292605,
+    "lng": 123.9084778,
+    "address": "Quezon Boulevard, 6000",
+    "source": "verified_terminal_candidate",
+    "sourceId": "osm/generated/cfc0aad7c1a504895b33",
+    "terminalType": "passenger_cruise_terminal",
+    "verified": true,
+    "notes": "Accepted Passenger Terminal 1 at Cebu Pier 1, the strongest supplied match for the passenger processing point used when cruise visitors disembark in central Cebu Port.",
+    "sourceUrls": [],
+    "sources": [
+      "openstreetmap"
+    ],
+    "sourceIds": [
+      "osm/generated/cfc0aad7c1a504895b33"
+    ],
+    "osmTags": {
+      "amenity": "ferry_terminal",
+      "building": "transportation",
+      "ferry": "yes",
+      "name:en": "Passenger Terminal 1",
+      "public_transport": "station"
+    },
+    "matchedBy": [
+      "amenity=ferry_terminal",
+      "terminal-like name"
+    ],
+    "distanceFromPortMeters": 1240
+  },
+  "terminals": [
+    {
+      "id": "osm/generated/cfc0aad7c1a504895b33",
+      "name": "Passenger Terminal 1",
+      "nameEnglish": "Passenger Terminal 1",
+      "lat": 10.292605,
+      "lng": 123.9084778,
+      "address": "Quezon Boulevard, 6000",
+      "source": "verified_terminal_candidate",
+      "sourceId": "osm/generated/cfc0aad7c1a504895b33",
+      "terminalType": "passenger_cruise_terminal",
+      "verified": true,
+      "notes": "Accepted Passenger Terminal 1 at Cebu Pier 1, the strongest supplied match for the passenger processing point used when cruise visitors disembark in central Cebu Port.",
+      "sourceUrls": [],
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/cfc0aad7c1a504895b33"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "building": "transportation",
+        "ferry": "yes",
+        "name:en": "Passenger Terminal 1",
+        "public_transport": "station"
+      },
+      "matchedBy": [
+        "amenity=ferry_terminal",
+        "terminal-like name"
+      ],
+      "distanceFromPortMeters": 1240
+    }
+  ],
+  "terminalCandidateRadiusMeters": 5000,
+  "terminalCandidates": [
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/6325fba4dd5c265f5b93",
+      "name": "(unnamed maritime feature)",
+      "nameEnglish": "",
+      "lat": 10.2940813,
+      "lng": 123.9087156,
+      "distanceFromPortMeters": 1159,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "stop_position"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/6325fba4dd5c265f5b93"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/76a4a90c8fec918f6626",
+      "name": "Cebu Pier 3",
+      "nameEnglish": "",
+      "lat": 10.2971296,
+      "lng": 123.9102783,
+      "distanceFromPortMeters": 1169,
+      "address": "Quezon Boulevard, Cebu City, 6000",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "operator": "Metro Ferry",
+        "public_transport": "stop_position"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/76a4a90c8fec918f6626"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/fe7cef453de096a2e2db",
+      "name": "Cebu Pier 1",
+      "nameEnglish": "",
+      "lat": 10.2925425,
+      "lng": 123.9081101,
+      "distanceFromPortMeters": 1214,
+      "address": "Quezon Boulevard, Cebu City, 6000",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "cargo": "passengers;vehicle",
+        "ferry": "yes",
+        "public_transport": "stop_position"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/fe7cef453de096a2e2db"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/cfc0aad7c1a504895b33",
+      "name": "Passenger Terminal 1",
+      "nameEnglish": "Passenger Terminal 1",
+      "lat": 10.292605,
+      "lng": 123.9084778,
+      "distanceFromPortMeters": 1240,
+      "address": "Quezon Boulevard, 6000",
+      "matchedBy": [
+        "amenity=ferry_terminal",
+        "terminal-like name"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "building": "transportation",
+        "ferry": "yes",
+        "name:en": "Passenger Terminal 1",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/cfc0aad7c1a504895b33"
+      ]
+    },
+    {
+      "source": "nominatim",
+      "sourceId": "osm/way/1424897881",
+      "osmType": "way",
+      "osmId": "1424897881",
+      "name": "Cebu Port Pier 1",
+      "nameEnglish": "",
+      "lat": 10.2925412,
+      "lng": 123.9085886,
+      "distanceFromPortMeters": 1253,
+      "address": "Cebu Port Pier 1, Quezon Boulevard, San Roque, Carreta, Cebu City, Central Visayas, 6000, Philippines",
+      "displayName": "Cebu Port Pier 1, Quezon Boulevard, San Roque, Carreta, Cebu City, Central Visayas, 6000, Philippines",
+      "query": "CEBU Port, Cebu City, Philippines",
+      "matchedBy": [
+        "Nominatim query: CEBU Port, Cebu City, Philippines"
+      ],
+      "osmTags": {
+        "ferry": "yes",
+        "public_transport": "platform"
+      },
+      "sources": [
+        "nominatim"
+      ],
+      "sourceIds": [
+        "osm/way/1424897881"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/82459e9a8dc367a57d49",
+      "name": "Cebu Pier 2",
+      "nameEnglish": "",
+      "lat": 10.2948526,
+      "lng": 123.9101958,
+      "distanceFromPortMeters": 1254,
+      "address": "6000",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "stop_position"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/82459e9a8dc367a57d49"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f97918511d69bf8ea6ed",
+      "name": "Cebu Pier 3",
+      "nameEnglish": "",
+      "lat": 10.2967262,
+      "lng": 123.9116747,
+      "distanceFromPortMeters": 1328,
+      "address": "6000",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "cargo": "passengers;vehicle",
+        "ferry": "yes",
+        "operator": "Cebu Port Authority",
+        "public_transport": "stop_position"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/f97918511d69bf8ea6ed"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/4f66c35d7e9b2bf670b2",
+      "name": "Cebu Pier 4",
+      "nameEnglish": "",
+      "lat": 10.3013877,
+      "lng": 123.9139164,
+      "distanceFromPortMeters": 1530,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "alt_name": "Supercat Terminal",
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "operator": "2Go Travel",
+        "public_transport": "stop_position"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/4f66c35d7e9b2bf670b2"
+      ]
+    },
+    {
+      "source": "openstreetmap+nominatim",
+      "sourceId": "osm/generated/ba6ffbe1a66a727f06e7",
+      "name": "Cebu Port Pier 4",
+      "nameEnglish": "",
+      "lat": 10.3027224,
+      "lng": 123.9158764,
+      "distanceFromPortMeters": 1763,
+      "address": "Cebu Port Pier 4, Quezon Boulevard, Cebu International Port, Tejero, Carreta, Cebu City, Central Visayas, 6666, Philippines",
+      "matchedBy": [
+        "amenity=ferry_terminal",
+        "Nominatim query: CEBU Port, Cebu City, Philippines"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "stop_position"
+      },
+      "sources": [
+        "openstreetmap",
+        "nominatim"
+      ],
+      "sourceIds": [
+        "osm/generated/ba6ffbe1a66a727f06e7",
+        "osm/node/5812965858"
+      ],
+      "displayName": "Cebu Port Pier 4, Quezon Boulevard, Cebu International Port, Tejero, Carreta, Cebu City, Central Visayas, 6666, Philippines",
+      "query": "CEBU Port, Cebu City, Philippines"
+    },
+    {
+      "source": "openstreetmap+nominatim",
+      "sourceId": "osm/generated/83f31705df9a5e247437",
+      "name": "Cebu Port Pier 5",
+      "nameEnglish": "",
+      "lat": 10.3035,
+      "lng": 123.9168354,
+      "distanceFromPortMeters": 1883,
+      "address": "Cebu Port Pier 5, Quezon Boulevard, Cebu International Port, Tejero, Carreta, Cebu City, Central Visayas, 6666, Philippines",
+      "matchedBy": [
+        "amenity=ferry_terminal",
+        "Nominatim query: CEBU Port, Cebu City, Philippines"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal"
+      },
+      "sources": [
+        "openstreetmap",
+        "nominatim"
+      ],
+      "sourceIds": [
+        "osm/generated/83f31705df9a5e247437",
+        "osm/node/5812964904"
+      ],
+      "displayName": "Cebu Port Pier 5, Quezon Boulevard, Cebu International Port, Tejero, Carreta, Cebu City, Central Visayas, 6666, Philippines",
+      "query": "CEBU Port, Cebu City, Philippines"
+    },
+    {
+      "source": "nominatim",
+      "sourceId": "osm/way/539905696",
+      "osmType": "way",
+      "osmId": "539905696",
+      "name": "Cebu International Port",
+      "nameEnglish": "",
+      "lat": 10.3054355,
+      "lng": 123.9174564,
+      "distanceFromPortMeters": 2003,
+      "address": "Cebu International Port, Carreta, Cebu City, Central Visayas, 6000, Philippines",
+      "displayName": "Cebu International Port, Carreta, Cebu City, Central Visayas, 6000, Philippines",
+      "query": "CEBU Port, Cebu City, Philippines",
+      "matchedBy": [
+        "Nominatim query: CEBU Port, Cebu City, Philippines"
+      ],
+      "osmTags": {
+        "industrial": "port"
+      },
+      "sources": [
+        "nominatim"
+      ],
+      "sourceIds": [
+        "osm/way/539905696"
+      ]
+    },
+    {
+      "source": "nominatim",
+      "sourceId": "osm/way/85131918",
+      "osmType": "way",
+      "osmId": "85131918",
+      "name": "Cebu Port Authority",
+      "nameEnglish": "",
+      "lat": 10.3116416,
+      "lng": 123.9230061,
+      "distanceFromPortMeters": 2830,
+      "address": "Cebu Port Authority, Sergio Osmeña Avenue, Mabolo, Cebu City, Central Visayas, 6000, Philippines",
+      "displayName": "Cebu Port Authority, Sergio Osmeña Avenue, Mabolo, Cebu City, Central Visayas, 6000, Philippines",
+      "query": "CEBU Port, Cebu City, Philippines",
+      "matchedBy": [
+        "Nominatim query: CEBU Port, Cebu City, Philippines"
+      ],
+      "osmTags": {
+        "building": "yes"
+      },
+      "sources": [
+        "nominatim"
+      ],
+      "sourceIds": [
+        "osm/way/85131918"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/488a30ab34a51ab1c570",
+      "name": "Cebu Port Pier 7",
+      "nameEnglish": "",
+      "lat": 10.3141616,
+      "lng": 123.9310975,
+      "distanceFromPortMeters": 3749,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/488a30ab34a51ab1c570"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f13a9ac65a5a505eda6e",
+      "name": "Cebu Port Pier 8",
+      "nameEnglish": "",
+      "lat": 10.3148539,
+      "lng": 123.9322381,
+      "distanceFromPortMeters": 3894,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/f13a9ac65a5a505eda6e"
+      ]
+    }
+  ],
+  "counts": {
+    "attraction": 17,
+    "outdoors": 4,
+    "food_drink": 12,
+    "shopping": 6,
+    "essentials": 0
+  },
+  "pois": [
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/3b58edd0010a333a19df",
+      "name": "University of San Carlos Museum",
+      "nameEnglish": "University of San Carlos Museum",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 10.3001387,
+      "lng": 123.8983121,
+      "distanceFromTerminalMeters": 185,
+      "distanceFromDefaultTerminalMeters": 185,
+      "minDistanceFromAnyTerminalMeters": 185,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Fr 09:00-12:00,13:00-17:00; Sa 09:00-12:00; Su off",
+      "website": "https://usc.edu.ph/academics/museums",
+      "phone": "+63 322300100",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c0d59453e64eeb847b12",
+      "name": "Casa Gorordo Museum",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 10.2999039,
+      "lng": 123.9048293,
+      "distanceFromTerminalMeters": 528,
+      "distanceFromDefaultTerminalMeters": 528,
+      "minDistanceFromAnyTerminalMeters": 528,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "35 Eduardo Aboitiz Street",
+      "openingHours": "Mo-Sa 09:00-17:00",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Built in the 1850s, this former residence of Juan Gorordo offers guided tours, a cafe & a gift shop.",
+      "osmTags": {
+        "historic": "house",
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/12309ed6e587d2af464d",
+      "name": "Museo Pari-an sa Sugbo",
+      "nameEnglish": "Pari-an Museum of Cebu",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 10.2984449,
+      "lng": 123.9040778,
+      "distanceFromTerminalMeters": 478,
+      "distanceFromDefaultTerminalMeters": 478,
+      "minDistanceFromAnyTerminalMeters": 478,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "26 Zulueta Street, 6000",
+      "openingHours": "Mo-Sa 08:00-16:00",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ea67bc7143c2edfe336c",
+      "name": "Basilica Minore del Santo Niño de Cebu Museum",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 10.2938869,
+      "lng": 123.9027359,
+      "distanceFromTerminalMeters": 743,
+      "distanceFromDefaultTerminalMeters": 743,
+      "minDistanceFromAnyTerminalMeters": 743,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "P. Burgos Street, Cebu City, 6000",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f36e0a9f20661595def9",
+      "name": "National Museum",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 10.303653,
+      "lng": 123.9068343,
+      "distanceFromTerminalMeters": 851,
+      "distanceFromDefaultTerminalMeters": 851,
+      "minDistanceFromAnyTerminalMeters": 851,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/42b41e321bf1401a10eb",
+      "name": "Sugbu-Chinese Heritage Museum",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 10.2923418,
+      "lng": 123.9019223,
+      "distanceFromTerminalMeters": 877,
+      "distanceFromDefaultTerminalMeters": 877,
+      "minDistanceFromAnyTerminalMeters": 877,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/72629d3cc3259c8ad153",
+      "name": "Fort San Pedro",
+      "nameEnglish": "Fort San Pedro",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 10.2926136,
+      "lng": 123.905789,
+      "distanceFromTerminalMeters": 1037,
+      "distanceFromDefaultTerminalMeters": 1037,
+      "minDistanceFromAnyTerminalMeters": 1037,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "A. Pigafetta Street, Cebu",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "fort",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/abad1cdbd552204d6f76",
+      "name": "Church and Convent of Santo Niño",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "memorial",
+      "lat": 10.2942292,
+      "lng": 123.9021685,
+      "distanceFromTerminalMeters": 684,
+      "distanceFromDefaultTerminalMeters": 684,
+      "minDistanceFromAnyTerminalMeters": 684,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Osmeña Boulevard, Cebu",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "memorial"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/0b17587afd613617656c",
+      "name": "Cebu Ocean Park",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "aquarium",
+      "lat": 10.2811188,
+      "lng": 123.8782302,
+      "distanceFromTerminalMeters": 3175,
+      "distanceFromDefaultTerminalMeters": 3175,
+      "minDistanceFromAnyTerminalMeters": 3175,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Church Avenue, 6000",
+      "openingHours": "",
+      "website": "https://cebuoceanpark.com",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "aquarium"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/462fabad5b00bba5b4c2",
+      "name": "Fort of San Pedro",
+      "nameEnglish": "Fort of San Pedro",
+      "category": "attraction",
+      "subcategory": "memorial",
+      "lat": 10.2926049,
+      "lng": 123.9056314,
+      "distanceFromTerminalMeters": 1027,
+      "distanceFromDefaultTerminalMeters": 1027,
+      "minDistanceFromAnyTerminalMeters": 1027,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "A. Pigafetta Street, Cebu",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "memorial"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/beb7747d8103a0255eb3",
+      "name": "Plaza Borromeo",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "square",
+      "lat": 10.2948239,
+      "lng": 123.8976472,
+      "distanceFromTerminalMeters": 630,
+      "distanceFromDefaultTerminalMeters": 630,
+      "minDistanceFromAnyTerminalMeters": 630,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "place": "square"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/0bf6fc89eff6e6a21814",
+      "name": "Rajah Humabon Monument",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "memorial",
+      "lat": 10.2959947,
+      "lng": 123.9037666,
+      "distanceFromTerminalMeters": 607,
+      "distanceFromDefaultTerminalMeters": 607,
+      "minDistanceFromAnyTerminalMeters": 607,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "P. Burgos Street, Cebu",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "memorial"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/47de8c1bcbef3398838f",
+      "name": "Cebu Veterans Memorial",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "memorial",
+      "lat": 10.2922815,
+      "lng": 123.9046118,
+      "distanceFromTerminalMeters": 996,
+      "distanceFromDefaultTerminalMeters": 996,
+      "minDistanceFromAnyTerminalMeters": 996,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "A. Pigafetta Street, Cebu",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "memorial"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/a7b63290347e7abbc50a",
+      "name": "Cebu Fun Park",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "theme_park",
+      "lat": 10.2793827,
+      "lng": 123.8805881,
+      "distanceFromTerminalMeters": 3125,
+      "distanceFromDefaultTerminalMeters": 3125,
+      "minDistanceFromAnyTerminalMeters": 3125,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Su 15:00-23:00",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "theme_park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d99d827247e6188a5c74",
+      "name": "Miguel Lopez de Legazpi",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "memorial",
+      "lat": 10.2932242,
+      "lng": 123.9060352,
+      "distanceFromTerminalMeters": 1002,
+      "distanceFromDefaultTerminalMeters": 1002,
+      "minDistanceFromAnyTerminalMeters": 1002,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "A. Pigafetta Street, Cebu",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "memorial"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/689308deacdd8884ee9c",
+      "name": "Andres Bonifacio",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "memorial",
+      "lat": 10.2923632,
+      "lng": 123.9049546,
+      "distanceFromTerminalMeters": 1007,
+      "distanceFromDefaultTerminalMeters": 1007,
+      "minDistanceFromAnyTerminalMeters": 1007,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "A. Pigafetta Street, Cebu City",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "memorial"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/959487f28c5a9107250f",
+      "name": "NUSTAR Lighthouse",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "lighthouse",
+      "lat": 10.2723505,
+      "lng": 123.882467,
+      "distanceFromTerminalMeters": 3624,
+      "distanceFromDefaultTerminalMeters": 3624,
+      "minDistanceFromAnyTerminalMeters": 3624,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "man_made": "lighthouse"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/35baa39681f8a19aab8f",
+      "name": "Plaza Sugbu",
+      "nameEnglish": "Plaza Sugbu",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 10.2934258,
+      "lng": 123.9019016,
+      "distanceFromTerminalMeters": 760,
+      "distanceFromDefaultTerminalMeters": 760,
+      "minDistanceFromAnyTerminalMeters": 760,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "P. Burgos Street, Cebu",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/8a18acf0b5b51b7e4d27",
+      "name": "Filipino-Japanese Memorial",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "garden",
+      "lat": 10.2939558,
+      "lng": 123.9051314,
+      "distanceFromTerminalMeters": 876,
+      "distanceFromDefaultTerminalMeters": 876,
+      "minDistanceFromAnyTerminalMeters": 876,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "garden"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/2a0049fa828a70eef8e2",
+      "name": "Eukarisyiya Garden",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "garden",
+      "lat": 10.3089201,
+      "lng": 123.8981283,
+      "distanceFromTerminalMeters": 1013,
+      "distanceFromDefaultTerminalMeters": 1013,
+      "minDistanceFromAnyTerminalMeters": 1013,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "garden"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/5e4a0cd7fedb43b18303",
+      "name": "Beverly View",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "viewpoint",
+      "lat": 10.3384813,
+      "lng": 123.8885473,
+      "distanceFromTerminalMeters": 4459,
+      "distanceFromDefaultTerminalMeters": 4459,
+      "minDistanceFromAnyTerminalMeters": 4459,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "viewpoint"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/47e9f3a1c9e9194b450d",
+      "name": "Illuminati Cafe + Art Gallery",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 10.3015122,
+      "lng": 123.878133,
+      "distanceFromTerminalMeters": 2398,
+      "distanceFromDefaultTerminalMeters": 2398,
+      "minDistanceFromAnyTerminalMeters": 2398,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "058 Salvador Extension, 6000",
+      "openingHours": "Mo-Su 12:00-22:00",
+      "website": "",
+      "phone": "(032) 255 6582",
+      "cuisine": [
+        "coffee_shop",
+        "filipino"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/49db97d9ef754c9a1e75",
+      "name": "Halovérs",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 10.2980228,
+      "lng": 123.903778,
+      "distanceFromTerminalMeters": 468,
+      "distanceFromDefaultTerminalMeters": 468,
+      "minDistanceFromAnyTerminalMeters": 468,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Mabini Street, Cebu, 6000",
+      "openingHours": "Mo-Su 10:00-23:00",
+      "website": "http://168dessertshop.com/",
+      "phone": "+63 917 707 0707",
+      "cuisine": [
+        "bubble_tea"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/3dde327a200ee07d921a",
+      "name": "de los Reyes Foods",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 10.2941894,
+      "lng": 123.8961208,
+      "distanceFromTerminalMeters": 773,
+      "distanceFromDefaultTerminalMeters": 773,
+      "minDistanceFromAnyTerminalMeters": 773,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "18 Dimasalang Street, Cebu City, 6000",
+      "openingHours": "Mo-Sa 08:00-19:00",
+      "website": "https://www.facebook.com/delosreyesfood",
+      "phone": "0322687467",
+      "cuisine": [
+        "filipino",
+        "asian",
+        "chinese"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/7e2932e5cb24177326df",
+      "name": "Casa Verde",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 10.3071127,
+      "lng": 123.895631,
+      "distanceFromTerminalMeters": 924,
+      "distanceFromDefaultTerminalMeters": 924,
+      "minDistanceFromAnyTerminalMeters": 924,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "69 Lim Tian Teng Street, Cebu, 6000",
+      "openingHours": "Mo-Su 10:00-22:00",
+      "website": "https://www.casaverdecebu.com/",
+      "phone": "+63 32 253 6472",
+      "cuisine": [
+        "regional",
+        "american"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant",
+        "historic": "house"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ba8b25be15e08c9cd7b6",
+      "name": "Cake Me Home Cassava Cakes and Pies",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 10.2974849,
+      "lng": 123.8831528,
+      "distanceFromTerminalMeters": 1864,
+      "distanceFromDefaultTerminalMeters": 1864,
+      "minDistanceFromAnyTerminalMeters": 1864,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "626 Tres de Abril Street, Cebu, 6000",
+      "openingHours": "Mo-Su 09:00-19:00",
+      "website": "https://www.facebook.com/cakemehomecebu",
+      "phone": "09985779442",
+      "cuisine": [
+        "coffee_shop",
+        "cake",
+        "dessert",
+        "asian"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/bc5e900f8e5f5f92d25c",
+      "name": "Café Des Amis",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 10.3096152,
+      "lng": 123.9013396,
+      "distanceFromTerminalMeters": 1079,
+      "distanceFromDefaultTerminalMeters": 1079,
+      "minDistanceFromAnyTerminalMeters": 1079,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "E Benedicto St",
+      "openingHours": "",
+      "website": "https://desamiscafe.com/",
+      "phone": "+63 32 256 4597",
+      "cuisine": [
+        "french"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/2dc32f789f263888898b",
+      "name": "Jom’s Vegan Haven",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 10.3056165,
+      "lng": 123.8973169,
+      "distanceFromTerminalMeters": 690,
+      "distanceFromDefaultTerminalMeters": 690,
+      "minDistanceFromAnyTerminalMeters": 690,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Junquera Extension",
+      "openingHours": "Mo-Su 06:30-22:00",
+      "website": "https://joms-vegan-haven.business.site",
+      "phone": "+63 917 555 1722",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/1d452a93450da490c779",
+      "name": "Full Moon Recreation Center",
+      "nameEnglish": "Full Moon Recreation Center",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 10.320213,
+      "lng": 123.902048,
+      "distanceFromTerminalMeters": 2259,
+      "distanceFromDefaultTerminalMeters": 2259,
+      "minDistanceFromAnyTerminalMeters": 2259,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Apitong Street, 6000",
+      "openingHours": "24/7",
+      "website": "https://www.facebook.com/fullmooncebu",
+      "phone": "+63 910 515 1658",
+      "cuisine": [
+        "burger",
+        "grill",
+        "fish",
+        "breakfast",
+        "french",
+        "filipino",
+        "tea",
+        "pancake",
+        "diner",
+        "asian",
+        "sausage",
+        "chicken",
+        "american",
+        "savory_pancakes",
+        "beef_bowl",
+        "noodles",
+        "italian_pizza",
+        "fish_and_chips",
+        "pasta",
+        "fine_dining",
+        "coffee_shop",
+        "curry",
+        "sandwich",
+        "seafood",
+        "pizza",
+        "hot_dog",
+        "local",
+        "barbecue"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b2cbc296f0f4994ac0a2",
+      "name": "Mae Krua Thai Cuisine",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 10.3057577,
+      "lng": 123.8971184,
+      "distanceFromTerminalMeters": 714,
+      "distanceFromDefaultTerminalMeters": 714,
+      "minDistanceFromAnyTerminalMeters": 714,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [
+        "thai"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Restuarant - Thai Cuisine",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/660bc1d9643dd62ce19d",
+      "name": "Muelle Uno Resto Cafe",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 10.2937795,
+      "lng": 123.9066868,
+      "distanceFromTerminalMeters": 1007,
+      "distanceFromDefaultTerminalMeters": 1007,
+      "minDistanceFromAnyTerminalMeters": 1007,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Stall 4 Madrigal Compound Legaspi Extension, Cebu, 6000",
+      "openingHours": "05:30 - 22:00",
+      "website": "",
+      "phone": "",
+      "cuisine": [
+        "regional"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/36d6c6e9b0e45c66d17a",
+      "name": "La Bella",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 10.3237807,
+      "lng": 123.9090576,
+      "distanceFromTerminalMeters": 2824,
+      "distanceFromDefaultTerminalMeters": 2824,
+      "minDistanceFromAnyTerminalMeters": 2824,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "11:30-21:00",
+      "website": "https://labellapizza.online",
+      "phone": "+63 916 389 8580",
+      "cuisine": [
+        "italian",
+        "pasta",
+        "pizza"
+      ],
+      "wheelchair": "limited",
+      "brand": "",
+      "description": "Pizzas are brick-oven baked. Daily operations are run by an all-female crew (matches their name, noh?).",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/96791182a4db9d1bcd26",
+      "name": "Burakku Bowl Ramen",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 10.3092694,
+      "lng": 123.8949813,
+      "distanceFromTerminalMeters": 1168,
+      "distanceFromDefaultTerminalMeters": 1168,
+      "minDistanceFromAnyTerminalMeters": 1168,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "F. Ramos Street, Cebu",
+      "openingHours": "13:00-01:00",
+      "website": "",
+      "phone": "+63 322682082",
+      "cuisine": [
+        "japanese"
+      ],
+      "wheelchair": "limited",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d127a35c84080df52eb9",
+      "name": "F. Ramos Public Market",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "marketplace",
+      "lat": 10.3045675,
+      "lng": 123.8992822,
+      "distanceFromTerminalMeters": 514,
+      "distanceFromDefaultTerminalMeters": 514,
+      "minDistanceFromAnyTerminalMeters": 514,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Marketplace",
+      "osmTags": {
+        "amenity": "marketplace"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/5e8fc79993f0b9326e47",
+      "name": "Carbon Interim Public Market",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "marketplace",
+      "lat": 10.2914802,
+      "lng": 123.8989673,
+      "distanceFromTerminalMeters": 954,
+      "distanceFromDefaultTerminalMeters": 954,
+      "minDistanceFromAnyTerminalMeters": 954,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "M.C. Briones Street, Cebu City, 6000",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "marketplace"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b88a03ed1ccdb3a9b56a",
+      "name": "Robinsons Fuente",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "mall",
+      "lat": 10.3093123,
+      "lng": 123.8940716,
+      "distanceFromTerminalMeters": 1222,
+      "distanceFromDefaultTerminalMeters": 1222,
+      "minDistanceFromAnyTerminalMeters": 1222,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Fuente Osmeña Circle, Cebu City, 6000",
+      "openingHours": "Mo-Su 09:00-21:00",
+      "website": "https://www.robinsonsmalls.com/malls_cebu.php",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "shop": "mall"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/4a6fb2596f696bdede87",
+      "name": "Iconique Mall",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "mall",
+      "lat": 10.2972477,
+      "lng": 123.8994678,
+      "distanceFromTerminalMeters": 312,
+      "distanceFromDefaultTerminalMeters": 312,
+      "minDistanceFromAnyTerminalMeters": 312,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Colon Street, Cebu City, 6000",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "shop": "mall"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/1fbf85c3aba5dc153534",
+      "name": "One Central Mall",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "mall",
+      "lat": 10.2974495,
+      "lng": 123.8956171,
+      "distanceFromTerminalMeters": 557,
+      "distanceFromDefaultTerminalMeters": 557,
+      "minDistanceFromAnyTerminalMeters": 557,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Sanciangko",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "shop": "mall"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/3cdb7e972d83f1b45211",
+      "name": "Robinsons Galleria Cebu",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "mall",
+      "lat": 10.304175,
+      "lng": 123.9109927,
+      "distanceFromTerminalMeters": 1289,
+      "distanceFromDefaultTerminalMeters": 1289,
+      "minDistanceFromAnyTerminalMeters": 1289,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "General Maxilom Avenue Extension, Cebu City, 6000",
+      "openingHours": "Mo-Su 10:00-21:00",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "shop": "mall"
+      }
+    }
+  ],
+  "portAnchor": {
+    "id": "ports-json-anchor",
+    "name": "CEBU Port",
+    "lat": 10.3,
+    "lng": 123.9,
+    "address": "Cebu City, Cebu, Philippines",
+    "source": "ports.json",
+    "sourceId": "",
+    "score": 0,
+    "slug": "cebu-port"
+  },
+  "terminalResolution": {
+    "status": "resolved",
+    "method": "accepted_terminal_candidate",
+    "verified": true,
+    "notes": "Accepted Passenger Terminal 1 at Cebu Pier 1, the strongest supplied match for the passenger processing point used when cruise visitors disembark in central Cebu Port."
+  }
+}

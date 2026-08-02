@@ -1,0 +1,1472 @@
+{
+  "schemaVersion": 5,
+  "catalogType": "curation-candidates",
+  "generatedAt": "2026-07-30T08:32:37.891Z",
+  "source": "openstreetmap",
+  "sourceExtract": "norcal-latest.osm.pbf",
+  "radiusMeters": 10000,
+  "port": {
+    "id": "san-francisco-united-states",
+    "city": "San Francisco",
+    "country": "United States"
+  },
+  "defaultTerminalId": "manual/san-francisco-united-states/james-r-herman-cruise-terminal-pier-27",
+  "terminal": {
+    "id": "manual/san-francisco-united-states/james-r-herman-cruise-terminal-pier-27",
+    "name": "James R. Herman Cruise Terminal, Pier 27",
+    "nameEnglish": "",
+    "lat": 37.80558,
+    "lng": -122.40147,
+    "address": "",
+    "source": "manual_web_research",
+    "sourceId": "manual/san-francisco-united-states/james-r-herman-cruise-terminal-pier-27",
+    "terminalType": "dedicated_cruise_terminal",
+    "verified": true,
+    "notes": "Primary San Francisco cruise terminal and passenger exit.",
+    "sourceUrls": [
+      "https://www.sfport.com/maritime/cruise",
+      "https://www.openstreetmap.org/?mlat=37.80558&mlon=-122.40147#map=17/37.80558/-122.40147"
+    ],
+    "sources": [
+      "manual_web_research"
+    ],
+    "sourceIds": [
+      "manual/san-francisco-united-states/james-r-herman-cruise-terminal-pier-27"
+    ],
+    "osmTags": {},
+    "matchedBy": [
+      "web_researched_terminal"
+    ],
+    "distanceFromPortMeters": null
+  },
+  "terminals": [
+    {
+      "id": "manual/san-francisco-united-states/james-r-herman-cruise-terminal-pier-27",
+      "name": "James R. Herman Cruise Terminal, Pier 27",
+      "nameEnglish": "",
+      "lat": 37.80558,
+      "lng": -122.40147,
+      "address": "",
+      "source": "manual_web_research",
+      "sourceId": "manual/san-francisco-united-states/james-r-herman-cruise-terminal-pier-27",
+      "terminalType": "dedicated_cruise_terminal",
+      "verified": true,
+      "notes": "Primary San Francisco cruise terminal and passenger exit.",
+      "sourceUrls": [
+        "https://www.sfport.com/maritime/cruise",
+        "https://www.openstreetmap.org/?mlat=37.80558&mlon=-122.40147#map=17/37.80558/-122.40147"
+      ],
+      "sources": [
+        "manual_web_research"
+      ],
+      "sourceIds": [
+        "manual/san-francisco-united-states/james-r-herman-cruise-terminal-pier-27"
+      ],
+      "osmTags": {},
+      "matchedBy": [
+        "web_researched_terminal"
+      ],
+      "distanceFromPortMeters": null
+    },
+    {
+      "id": "manual/san-francisco-united-states/pier-35-cruise-terminal",
+      "name": "Pier 35 Cruise Terminal",
+      "nameEnglish": "",
+      "lat": 37.80877,
+      "lng": -122.41025,
+      "address": "",
+      "source": "manual_web_research",
+      "sourceId": "manual/san-francisco-united-states/pier-35-cruise-terminal",
+      "terminalType": "secondary_cruise_terminal",
+      "verified": true,
+      "notes": "Secondary cruise terminal used when Pier 27 is unavailable or multiple ships are in port.",
+      "sourceUrls": [
+        "https://www.sfport.com/maritime/cruise",
+        "https://www.openstreetmap.org/?mlat=37.80877&mlon=-122.41025#map=17/37.80877/-122.41025"
+      ],
+      "sources": [
+        "manual_web_research"
+      ],
+      "sourceIds": [
+        "manual/san-francisco-united-states/pier-35-cruise-terminal"
+      ],
+      "osmTags": {},
+      "matchedBy": [
+        "web_researched_terminal"
+      ],
+      "distanceFromPortMeters": null
+    }
+  ],
+  "terminalCandidateRadiusMeters": 5000,
+  "terminalCandidates": [
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/1e7f4b2309fc4f510437",
+      "name": "Alcatraz Ferry Terminal",
+      "nameEnglish": "",
+      "lat": 37.8266612,
+      "lng": -122.420808,
+      "distanceFromPortMeters": 744,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal",
+        "terminal-like name"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "operator": "Alcatraz Cruises, LLC",
+        "public_transport": "stop_position"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/1e7f4b2309fc4f510437"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/e42c88f8fee2194e60ea",
+      "name": "Red & White Fleet",
+      "nameEnglish": "",
+      "lat": 37.809124,
+      "lng": -122.415159,
+      "distanceFromPortMeters": 1282,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/e42c88f8fee2194e60ea"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ee809e89bc4371dad420",
+      "name": "Pier 41 Gate 2",
+      "nameEnglish": "",
+      "lat": 37.809501,
+      "lng": -122.412185,
+      "distanceFromPortMeters": 1354,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "stop_position"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/ee809e89bc4371dad420"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/9e0a74104e4357e44335",
+      "name": "Pier 41 Gate 1",
+      "nameEnglish": "",
+      "lat": 37.8093332,
+      "lng": -122.4124985,
+      "distanceFromPortMeters": 1357,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "stop_position"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/9e0a74104e4357e44335"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/3c1bcf7ec8f4e656cc24",
+      "name": "Ferry Alcatraz",
+      "nameEnglish": "",
+      "lat": 37.8069704,
+      "lng": -122.404159,
+      "distanceFromPortMeters": 2009,
+      "address": "San Francisco, CA, 94111",
+      "matchedBy": [
+        "amenity=ferry_terminal",
+        "terminal-like name"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "operator": "Alcatraz Cruises, LLC",
+        "public_transport": "stop_position"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/3c1bcf7ec8f4e656cc24"
+      ]
+    },
+    {
+      "source": "nominatim",
+      "sourceId": "osm/node/10805597225",
+      "osmType": "node",
+      "osmId": "10805597225",
+      "name": "The Port of San Francisco",
+      "nameEnglish": "",
+      "lat": 37.7969141,
+      "lng": -122.3949472,
+      "distanceFromPortMeters": 3381,
+      "address": "The Port of San Francisco, Pier 1, The Embarcadero, Financial District, South of Market, San Francisco, California, 94111, United States",
+      "displayName": "The Port of San Francisco, Pier 1, The Embarcadero, Financial District, South of Market, San Francisco, California, 94111, United States",
+      "query": "SAN FRANCISCO Port, San Francisco, United States",
+      "matchedBy": [
+        "Nominatim query: SAN FRANCISCO Port, San Francisco, United States"
+      ],
+      "osmTags": {},
+      "sources": [
+        "nominatim"
+      ],
+      "sourceIds": [
+        "osm/node/10805597225"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/3b69038dbacb0b534ac3",
+      "name": "(unnamed maritime feature)",
+      "nameEnglish": "",
+      "lat": 37.7968177,
+      "lng": -122.3931487,
+      "distanceFromPortMeters": 3494,
+      "address": "Ferry Plaza",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "operator": "Golden Gate Bridge, Highway & Transportation District",
+        "public_transport": "stop_position"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/3b69038dbacb0b534ac3"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/a41bbcd5bb6772182fd7",
+      "name": "San Francisco Ferry Building",
+      "nameEnglish": "",
+      "lat": 37.795538,
+      "lng": -122.3934296,
+      "distanceFromPortMeters": 3584,
+      "address": "1, San Francisco, CA, 94111",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "building": "terminal",
+        "ferry": "yes",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/a41bbcd5bb6772182fd7"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/a4d489d8722aec1011f9",
+      "name": "(unnamed maritime feature)",
+      "nameEnglish": "",
+      "lat": 37.7962682,
+      "lng": -122.3919595,
+      "distanceFromPortMeters": 3610,
+      "address": "Ferry Plaza",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "operator": "Golden Gate Bridge, Highway & Transportation District",
+        "public_transport": "stop_position"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/a4d489d8722aec1011f9"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/a691e972256ea8959d61",
+      "name": "(unnamed maritime feature)",
+      "nameEnglish": "",
+      "lat": 37.7952241,
+      "lng": -122.391522,
+      "distanceFromPortMeters": 3721,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "operator": "Water Emergency Transportation Authority",
+        "public_transport": "stop_position"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/a691e972256ea8959d61"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/8d72462e231c76964684",
+      "name": "(unnamed maritime feature)",
+      "nameEnglish": "",
+      "lat": 37.7945037,
+      "lng": -122.390839,
+      "distanceFromPortMeters": 3821,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "operator": "Water Emergency Transportation Authority",
+        "public_transport": "stop_position"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/8d72462e231c76964684"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d3ce8b0515fc635a1f52",
+      "name": "Treasure Island Ferry Terminal",
+      "nameEnglish": "",
+      "lat": 37.8161599,
+      "lng": -122.3732006,
+      "distanceFromPortMeters": 4133,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "stop_position"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/d3ce8b0515fc635a1f52"
+      ]
+    }
+  ],
+  "counts": {
+    "attraction": 14,
+    "outdoors": 8,
+    "food_drink": 16,
+    "shopping": 1,
+    "essentials": 1
+  },
+  "pois": [
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/0d456b0c873acd51486c",
+      "name": "National Maritime Museum",
+      "nameEnglish": "National Maritime Museum",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 37.80641,
+      "lng": -122.4238997,
+      "distanceFromTerminalMeters": 1549,
+      "distanceFromDefaultTerminalMeters": 1549,
+      "minDistanceFromAnyTerminalMeters": 1549,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "We-Su 10:00-16:00",
+      "website": "https://www.nps.gov/safr/planyourvisit/maritime-museum.htm",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "building",
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/66097c5389ad1d0d2687",
+      "name": "Aquarium of the Bay",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "aquarium",
+      "lat": 37.8087919,
+      "lng": -122.4093331,
+      "distanceFromTerminalMeters": 1559,
+      "distanceFromDefaultTerminalMeters": 1559,
+      "minDistanceFromAnyTerminalMeters": 1559,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "94133",
+      "openingHours": "Mo-Su 09:00-20:00",
+      "website": "https://www.aquariumofthebay.org/",
+      "phone": "+1-415-623-5300",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Aquarium operated by non-profit bay.org",
+      "osmTags": {
+        "tourism": "aquarium"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/57f139101b416de3c9ab",
+      "name": "USS Pampanito",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 37.8099574,
+      "lng": -122.416401,
+      "distanceFromTerminalMeters": 1161,
+      "distanceFromDefaultTerminalMeters": 1161,
+      "minDistanceFromAnyTerminalMeters": 1161,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Su 10:00-18:00",
+      "website": "https://maritime.org/pamphome.htm",
+      "phone": "+1-415-775-1943",
+      "cuisine": [],
+      "wheelchair": "no",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "ship",
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c8896f53aaa6d58e3361",
+      "name": "San Francisco Maritime Visitor Center",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 37.8075021,
+      "lng": -122.420543,
+      "distanceFromTerminalMeters": 1391,
+      "distanceFromDefaultTerminalMeters": 1391,
+      "minDistanceFromAnyTerminalMeters": 1391,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "499 Jefferson Street, San Francisco, CA",
+      "openingHours": "Fr-Su 10:00-17:00",
+      "website": "https://www.nps.gov/safr/planyourvisit/the-visitor-center.htm",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/78e577c2fa2fef24e031",
+      "name": "Ripley's Believe it or Not",
+      "nameEnglish": "Ripley's Believe it or Not",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 37.8079817,
+      "lng": -122.4154203,
+      "distanceFromTerminalMeters": 1396,
+      "distanceFromDefaultTerminalMeters": 1396,
+      "minDistanceFromAnyTerminalMeters": 1396,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "175 Jefferson Street, San Francisco, CA, 94133, US",
+      "openingHours": "",
+      "website": "https://www.ripleys.com/attractions/ripleys-believe-it-or-not-san-francisco",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/db43d67322cf2214b399",
+      "name": "Truhlsen-Marmor Museum of the Eye",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 37.8065952,
+      "lng": -122.4202491,
+      "distanceFromTerminalMeters": 1491,
+      "distanceFromDefaultTerminalMeters": 1491,
+      "minDistanceFromAnyTerminalMeters": 1491,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "645 Beach Street, CA",
+      "openingHours": "We-Su 11:00-16:30",
+      "website": "https://www.aao.org/museum-of-the-eye",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/35484ef22b483745949e",
+      "name": "Cartoon Art Museum",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 37.8063768,
+      "lng": -122.4217874,
+      "distanceFromTerminalMeters": 1523,
+      "distanceFromDefaultTerminalMeters": 1523,
+      "minDistanceFromAnyTerminalMeters": 1523,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "781 Beach Street, CA, 94109, US",
+      "openingHours": "Mo-Tu, Th-Su 11:00-17:00; Jan 01 off; Jul 04 off; Nov Th[4] off; Dec 25 off",
+      "website": "https://www.cartoonart.org/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f41029b7a972ffb05f64",
+      "name": "Treasure Island Museum",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 37.8170914,
+      "lng": -122.3711527,
+      "distanceFromTerminalMeters": 4303,
+      "distanceFromDefaultTerminalMeters": 4303,
+      "minDistanceFromAnyTerminalMeters": 4303,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "CA",
+      "openingHours": "",
+      "website": "https://www.treasureislandmuseum.org/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Building 1 is one of the last three intact remnants of the 1939 Golden Gate International Exposition held to celebrate construction of the Golden Gate and Bay bridges, and to help bring the United States out of the Great Depression.",
+      "osmTags": {
+        "historic": "naval",
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/06403e47f210e1a811ee",
+      "name": "Chinese Historical Society of America",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 37.7938567,
+      "lng": -122.4088198,
+      "distanceFromTerminalMeters": 3068,
+      "distanceFromDefaultTerminalMeters": 3068,
+      "minDistanceFromAnyTerminalMeters": 3068,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "965 Clay Street, San Francisco, CA, 94108",
+      "openingHours": "We-Su 11:00-16:00; Jan 1 off, Jun 19 off, Jul 4 off, Nov Th[4] off, Dec 24-25 off",
+      "website": "https://www.chsa.org/",
+      "phone": "+1-415-391-1188",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/5d0536ab56325d15b194",
+      "name": "Smaart Gallery & Studio",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "gallery",
+      "lat": 37.7879651,
+      "lng": -122.4175972,
+      "distanceFromTerminalMeters": 3568,
+      "distanceFromDefaultTerminalMeters": 3568,
+      "minDistanceFromAnyTerminalMeters": 3568,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1045 Sutter Street",
+      "openingHours": "",
+      "website": "https://www.smaartstudio.com/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Art classes and gallery",
+      "osmTags": {
+        "tourism": "gallery"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/abfca1bc37ef5ffd26ff",
+      "name": "Pier 39",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 37.80995,
+      "lng": -122.4101656,
+      "distanceFromTerminalMeters": 1412,
+      "distanceFromDefaultTerminalMeters": 1412,
+      "minDistanceFromAnyTerminalMeters": 1412,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Su 10:00-22:00",
+      "website": "https://www.pier39.com/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "man_made": "pier",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c73ab99f135cb806b911",
+      "name": "Skystar Wheel - Fisherman’s Wharf",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "theme_park",
+      "lat": 37.8087297,
+      "lng": -122.413413,
+      "distanceFromTerminalMeters": 1380,
+      "distanceFromDefaultTerminalMeters": 1380,
+      "minDistanceFromAnyTerminalMeters": 1380,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "2860 Taylor Street, 94133",
+      "openingHours": "Mo-Su 10:00-22:00",
+      "website": "https://skystarwheel.com",
+      "phone": "+1-833-269-7827",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "theme_park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ca28473cd1c9b26afeed",
+      "name": "House of Air",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "theme_park",
+      "lat": 37.8049318,
+      "lng": -122.468617,
+      "distanceFromTerminalMeters": 4588,
+      "distanceFromDefaultTerminalMeters": 4588,
+      "minDistanceFromAnyTerminalMeters": 4588,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "926 Mason Street, San Francisco, CA, 94129",
+      "openingHours": "Su-Mo 10:00-20:00; Tu-Th 14:00-21:00; Fr-Sa 10:00-22:00",
+      "website": "https://www.houseofair.com/",
+      "phone": "+1-415-345-9675",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "theme_park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/a38c95a47b050c85ba7e",
+      "name": "Coit Tower",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "viewpoint",
+      "lat": 37.8023773,
+      "lng": -122.405834,
+      "distanceFromTerminalMeters": 2321,
+      "distanceFromDefaultTerminalMeters": 2321,
+      "minDistanceFromAnyTerminalMeters": 2321,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Apr-Oct Mo-Su 10:00-06:00; Nov-Mar Mo-Su 10:00-05:00; Dec Th[4] off; Dec 25 off; Jan 1 off",
+      "website": "https://coittower.org",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "limited",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "building",
+        "man_made": "tower",
+        "tourism": "viewpoint"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/7b905ec3b283388ce27d",
+      "name": "Fort Mason",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 37.8063306,
+      "lng": -122.4289965,
+      "distanceFromTerminalMeters": 1713,
+      "distanceFromDefaultTerminalMeters": 1713,
+      "minDistanceFromAnyTerminalMeters": 1713,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "https://www.nps.gov/goga/index.htm",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/8a1d39aa38b2f54eb480",
+      "name": "Alcatraz",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "viewpoint",
+      "lat": 37.8252625,
+      "lng": -122.421361,
+      "distanceFromTerminalMeters": 597,
+      "distanceFromDefaultTerminalMeters": 597,
+      "minDistanceFromAnyTerminalMeters": 597,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "limited",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "viewpoint"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/9081f133824e330939a1",
+      "name": "Joseph Conrad Square",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 37.8066119,
+      "lng": -122.4191372,
+      "distanceFromTerminalMeters": 1491,
+      "distanceFromDefaultTerminalMeters": 1491,
+      "minDistanceFromAnyTerminalMeters": 1491,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "https://sfrecpark.org/facilities/facility/details/josephconradsquare-178",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/14578c67802a914b9313",
+      "name": "Washington Square Park",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 37.8008455,
+      "lng": -122.4101227,
+      "distanceFromTerminalMeters": 2300,
+      "distanceFromDefaultTerminalMeters": 2300,
+      "minDistanceFromAnyTerminalMeters": 2300,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "https://sfrecpark.org/Facilities/Facility/Details/Washington-Square-388",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/5bec708ad672f0271e6f",
+      "name": "Grace Marchant Garden",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "garden",
+      "lat": 37.8020621,
+      "lng": -122.4039372,
+      "distanceFromTerminalMeters": 2443,
+      "distanceFromDefaultTerminalMeters": 2443,
+      "minDistanceFromAnyTerminalMeters": 2443,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "https://www.tpl.org/our-work/grace-marchant-garden",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "garden"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/1e94a38718c7086f1d9e",
+      "name": "Musée Mécanique",
+      "nameEnglish": "Musée Mécanique",
+      "category": "outdoors",
+      "subcategory": "amusement_arcade",
+      "lat": 37.8092456,
+      "lng": -122.415794,
+      "distanceFromTerminalMeters": 1252,
+      "distanceFromDefaultTerminalMeters": 1252,
+      "minDistanceFromAnyTerminalMeters": 1252,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Pier 45 Fishermans Wharf, San Francisco, CA, 94133, US",
+      "openingHours": "Mo-Su,PH 10:00-20:00",
+      "website": "https://museemecanique.com/",
+      "phone": "+1 415 346 2000",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "amusement_arcade",
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/6440dbea43c93ea35424",
+      "name": "Michelangelo Community Garden",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "garden",
+      "lat": 37.8011872,
+      "lng": -122.4170859,
+      "distanceFromTerminalMeters": 2107,
+      "distanceFromDefaultTerminalMeters": 2107,
+      "minDistanceFromAnyTerminalMeters": 2107,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "https://sfrecpark.org/destination/michelangelo-playground/michelangelo-community-garden/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "garden"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d76111d6c287361b3632",
+      "name": "Pizzelle di North Beach",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 37.7982209,
+      "lng": -122.4069498,
+      "distanceFromTerminalMeters": 2679,
+      "distanceFromDefaultTerminalMeters": 2679,
+      "minDistanceFromAnyTerminalMeters": 2679,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "314 Columbus Avenue, San Francisco, CA, 94133",
+      "openingHours": "Mo-We 10:00-22:00; Th-Fr 10:00-01:00; Sa 11:00-01:00; Su 11:00-23:00",
+      "website": "https://www.pizzelle314.com/",
+      "phone": "+1-415-398-3555",
+      "cuisine": [
+        "pizza",
+        "italian"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d2502b1e5c9db4928a64",
+      "name": "Hollywood Café",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 37.8064211,
+      "lng": -122.415816,
+      "distanceFromTerminalMeters": 1554,
+      "distanceFromDefaultTerminalMeters": 1554,
+      "minDistanceFromAnyTerminalMeters": 1554,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "530 North Point Street, 94133",
+      "openingHours": "Mo-Su 08:00-14:00",
+      "website": "https://www.hollywoodcafesf.com/",
+      "phone": "+1-415-563-3779",
+      "cuisine": [
+        "breakfast"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f06baf6f9bf6a3e3ee33",
+      "name": "Cafe Francisco",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 37.8047249,
+      "lng": -122.4119446,
+      "distanceFromTerminalMeters": 1840,
+      "distanceFromDefaultTerminalMeters": 1840,
+      "minDistanceFromAnyTerminalMeters": 1840,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "2161 Powell Street, San Francisco, CA, 94133",
+      "openingHours": "Mo off; Tu-Su 09:00-15:00",
+      "website": "http://www.cafefrancisco.com/",
+      "phone": "+1-415-397-2602",
+      "cuisine": [
+        "sandwich"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/47e8b9aebda3d746ac7c",
+      "name": "Queen's Louisiana Po-Boy Cafe",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 37.8069442,
+      "lng": -122.4056598,
+      "distanceFromTerminalMeters": 1922,
+      "distanceFromDefaultTerminalMeters": 1922,
+      "minDistanceFromAnyTerminalMeters": 1922,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Pier 33 The Embarcadero, San Francisco, CA, 94111",
+      "openingHours": "Tu-Sa 11:00-16:00",
+      "website": "https://queenslapoboyscafe.com/",
+      "phone": "+1-415-656-0711",
+      "cuisine": [
+        "cajun"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/7acecdf3728029d00269",
+      "name": "Sotto Mare",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 37.7997189,
+      "lng": -122.4083215,
+      "distanceFromTerminalMeters": 2478,
+      "distanceFromDefaultTerminalMeters": 2478,
+      "minDistanceFromAnyTerminalMeters": 2478,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "552 Green Street, San Francisco, CA",
+      "openingHours": "Mo-Th 11:30-21:00; Fr,Sa 11:30-22:00; Su 11:30-21:00",
+      "website": "https://www.sottomaresf.com/",
+      "phone": "+1 415 3983181",
+      "cuisine": [
+        "italian",
+        "seafood"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Oysteria and seafood",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ebb1d740888d339765d0",
+      "name": "Scoma's",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 37.8089475,
+      "lng": -122.4184506,
+      "distanceFromTerminalMeters": 1236,
+      "distanceFromDefaultTerminalMeters": 1236,
+      "minDistanceFromAnyTerminalMeters": 1236,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1965 Al Scoma Way, San Francisco, CA, 94133",
+      "openingHours": "Mo-Th,Su 11:30-21:00; Fr-Sa 11:30-21:30",
+      "website": "https://www.scomas.com",
+      "phone": "+1 415 7714383",
+      "cuisine": [
+        "seafood"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f56828ae2a286843dc7c",
+      "name": "Nick's Lighthouse",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 37.8085327,
+      "lng": -122.4160519,
+      "distanceFromTerminalMeters": 1321,
+      "distanceFromDefaultTerminalMeters": 1321,
+      "minDistanceFromAnyTerminalMeters": 1321,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "2815 Taylor Street, San Francisco, CA, 94133",
+      "openingHours": "Su-Th 10:30-22:30, Fr-Sa 10:30-23:00",
+      "website": "http://nickslighthouse.com/",
+      "phone": "+1-415-929-1300",
+      "cuisine": [
+        "seafood"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f50b786a208a29ff02d3",
+      "name": "Cioppino's",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 37.8080152,
+      "lng": -122.4193323,
+      "distanceFromTerminalMeters": 1334,
+      "distanceFromDefaultTerminalMeters": 1334,
+      "minDistanceFromAnyTerminalMeters": 1334,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "400 Jefferson Street, San Francisco, CA, 94109",
+      "openingHours": "Su-Th 11:00-21:30; Fr-Sa 11:00-22:00",
+      "website": "https://www.cioppinosf.com",
+      "phone": "+1 415 7759311",
+      "cuisine": [
+        "seafood"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/788e465aa04a20bdb7cf",
+      "name": "Flying Ninja",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 37.8074974,
+      "lng": -122.4197651,
+      "distanceFromTerminalMeters": 1390,
+      "distanceFromDefaultTerminalMeters": 1390,
+      "minDistanceFromAnyTerminalMeters": 1390,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "461 Jefferson Street, San Francisco, CA, 94109",
+      "openingHours": "Mo-Th,Su 11:00-21:00; Fr-Sa 11:00-22:00",
+      "website": "https://www.flyingninjasf.com/",
+      "phone": "+1 415 2926255",
+      "cuisine": [
+        "sushi"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/22efa98808e4dec2fd48",
+      "name": "Square Pie Guys",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 37.8062524,
+      "lng": -122.4227853,
+      "distanceFromTerminalMeters": 1548,
+      "distanceFromDefaultTerminalMeters": 1548,
+      "minDistanceFromAnyTerminalMeters": 1548,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "845 Beach Street, San Francisco, CA, 94109",
+      "openingHours": "Mo-Th,Su 11:30-21:30; Fr-Sa 11:30-22:30",
+      "website": "https://squarepieguys.com/",
+      "phone": "+1 415 8902335",
+      "cuisine": [
+        "pizza"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f277c364be54cb8ea897",
+      "name": "Cilantro SF Taqueria",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 37.8045664,
+      "lng": -122.413549,
+      "distanceFromTerminalMeters": 1807,
+      "distanceFromDefaultTerminalMeters": 1807,
+      "minDistanceFromAnyTerminalMeters": 1807,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "2257 Mason Street, San Francisco, CA, 94133",
+      "openingHours": "Mo-Su 10:00-20:45",
+      "website": "https://cilantrosftaqueria.com/",
+      "phone": "+1 415-655-9948",
+      "cuisine": [
+        "mexican"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/732f49bcc2cd8d3c6a06",
+      "name": "Ristorante Fior d'Italia",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 37.8043304,
+      "lng": -122.413506,
+      "distanceFromTerminalMeters": 1833,
+      "distanceFromDefaultTerminalMeters": 1833,
+      "minDistanceFromAnyTerminalMeters": 1833,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "2237 Mason Street, San Francisco, CA, 94133",
+      "openingHours": "11:30-21:30",
+      "website": "https://fior.com/",
+      "phone": "+1 415-986-1886",
+      "cuisine": [
+        "italian"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/a41ed912c7c562c7bf4b",
+      "name": "Freddie's Sandwiches",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 37.8052102,
+      "lng": -122.4103219,
+      "distanceFromTerminalMeters": 1851,
+      "distanceFromDefaultTerminalMeters": 1851,
+      "minDistanceFromAnyTerminalMeters": 1851,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "300 Francisco Street, 94133",
+      "openingHours": "Mo-Fr 07:30-16:00; Sa 08:30-16:00",
+      "website": "http://orderfreddiessandwiches.com",
+      "phone": "+1-415-433-2882",
+      "cuisine": [
+        "sandwich"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/da8c433a2f06901fc347",
+      "name": "Chubby Noodle",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 37.7996879,
+      "lng": -122.4085388,
+      "distanceFromTerminalMeters": 2473,
+      "distanceFromDefaultTerminalMeters": 2473,
+      "minDistanceFromAnyTerminalMeters": 2473,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "570 Green Street, San Francisco, 94133",
+      "openingHours": "Mo-Fr 17:00-22:00; Sa,Su 10:00-22:00",
+      "website": "https://www.chubbynoodle.com/north-beach",
+      "phone": "+1 415 2969600",
+      "cuisine": [
+        "noodle"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/1d31fe7e036440c389ac",
+      "name": "The Stinking Rose",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 37.7990536,
+      "lng": -122.4081693,
+      "distanceFromTerminalMeters": 2551,
+      "distanceFromDefaultTerminalMeters": 2551,
+      "minDistanceFromAnyTerminalMeters": 2551,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "430 Columbus Avenue, San Francisco, CA",
+      "openingHours": "",
+      "website": "https://thestinkingrose.com/",
+      "phone": "+1 415 7817673",
+      "cuisine": [
+        "italian",
+        "pasta",
+        "garlic"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "A garlic-centric Italian restaurant",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/21bd8610a27e73ba309c",
+      "name": "iCafe Chinatown",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 37.7946522,
+      "lng": -122.407,
+      "distanceFromTerminalMeters": 3041,
+      "distanceFromDefaultTerminalMeters": 3041,
+      "minDistanceFromAnyTerminalMeters": 3041,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "133 Waverly Place",
+      "openingHours": "",
+      "website": "",
+      "phone": "+1 415-391-8088",
+      "cuisine": [
+        "bubble_tea"
+      ],
+      "wheelchair": "partial",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/a41bbcd5bb6772182fd7",
+      "name": "San Francisco Ferry Building",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "mall",
+      "lat": 37.795538,
+      "lng": -122.3934296,
+      "distanceFromTerminalMeters": 3584,
+      "distanceFromDefaultTerminalMeters": 3584,
+      "minDistanceFromAnyTerminalMeters": 3584,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1, San Francisco, CA, 94111",
+      "openingHours": "Mo-Fr 07:00-22:00; Sa 07:00-22:00; Su 07:00-22:00",
+      "website": "https://www.ferrybuildingmarketplace.com/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "historic": "landmark",
+        "shop": "mall",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/4e71a7fbc5d9c4e54dd3",
+      "name": "Alcatraz Bikes & Tours",
+      "nameEnglish": "",
+      "category": "essentials",
+      "subcategory": "bicycle_rental",
+      "lat": 37.787787,
+      "lng": -122.4111691,
+      "distanceFromTerminalMeters": 3665,
+      "distanceFromDefaultTerminalMeters": 3665,
+      "minDistanceFromAnyTerminalMeters": 3665,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "569 Post Street",
+      "openingHours": "Su-Sa 08:00-18:00",
+      "website": "http://Alcatrazbikesandtours.com",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "bicycle_rental"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f6b3b62891e626830358",
+      "name": "Golden Gate Fortune Cookie Factory",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 37.795699,
+      "lng": -122.407349,
+      "distanceFromTerminalMeters": 2922,
+      "distanceFromDefaultTerminalMeters": 2922,
+      "minDistanceFromAnyTerminalMeters": 2922,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "56 Ross Alley",
+      "openingHours": "",
+      "website": "https://www.goldengatefortunecookies.com/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Includes gift shop of mainly fortune cookie themed ",
+      "osmTags": {
+        "tourism": "attraction"
+      }
+    }
+  ],
+  "portAnchor": {
+    "id": "ports-json-anchor",
+    "name": "SAN FRANCISCO Port",
+    "lat": 37.82,
+    "lng": -122.42,
+    "address": "San Francisco, California, United States",
+    "source": "ports.json",
+    "sourceId": "",
+    "score": 0,
+    "slug": "san-francisco-port"
+  },
+  "terminalResolution": {
+    "status": "resolved",
+    "method": "manual_web_research",
+    "verified": true,
+    "notes": "Terminal records were added from researched cruise-port sources because no supplied candidate accurately represented the passenger arrival point."
+  }
+}

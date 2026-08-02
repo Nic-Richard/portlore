@@ -1,0 +1,1217 @@
+{
+  "schemaVersion": 5,
+  "catalogType": "curation-candidates",
+  "generatedAt": "2026-07-30T08:41:36.253Z",
+  "source": "openstreetmap",
+  "sourceExtract": "panama-latest.osm.pbf",
+  "radiusMeters": 10000,
+  "port": {
+    "id": "balboa-panama",
+    "city": "Balboa",
+    "country": "Panama"
+  },
+  "defaultTerminalId": "manual/balboa-panama/fuerte-amador-cruise-terminal",
+  "terminal": {
+    "id": "manual/balboa-panama/fuerte-amador-cruise-terminal",
+    "name": "Fuerte Amador Cruise Terminal",
+    "nameEnglish": "",
+    "lat": 8.91432,
+    "lng": -79.52596,
+    "address": "",
+    "source": "manual_web_research",
+    "sourceId": "manual/balboa-panama/fuerte-amador-cruise-terminal",
+    "terminalType": "cruise_terminal",
+    "verified": true,
+    "notes": "Practical Pacific-side passenger arrival point on Perico Island at the end of the Amador Causeway.",
+    "sourceUrls": [
+      "https://www.cruisemapper.com/ports/fuerte-amador-panama-city-port-114",
+      "https://www.openstreetmap.org/?mlat=8.91432&mlon=-79.52596#map=17/8.91432/-79.52596"
+    ],
+    "sources": [
+      "manual_web_research"
+    ],
+    "sourceIds": [
+      "manual/balboa-panama/fuerte-amador-cruise-terminal"
+    ],
+    "osmTags": {},
+    "matchedBy": [
+      "web_researched_terminal"
+    ],
+    "distanceFromPortMeters": null
+  },
+  "terminals": [
+    {
+      "id": "manual/balboa-panama/fuerte-amador-cruise-terminal",
+      "name": "Fuerte Amador Cruise Terminal",
+      "nameEnglish": "",
+      "lat": 8.91432,
+      "lng": -79.52596,
+      "address": "",
+      "source": "manual_web_research",
+      "sourceId": "manual/balboa-panama/fuerte-amador-cruise-terminal",
+      "terminalType": "cruise_terminal",
+      "verified": true,
+      "notes": "Practical Pacific-side passenger arrival point on Perico Island at the end of the Amador Causeway.",
+      "sourceUrls": [
+        "https://www.cruisemapper.com/ports/fuerte-amador-panama-city-port-114",
+        "https://www.openstreetmap.org/?mlat=8.91432&mlon=-79.52596#map=17/8.91432/-79.52596"
+      ],
+      "sources": [
+        "manual_web_research"
+      ],
+      "sourceIds": [
+        "manual/balboa-panama/fuerte-amador-cruise-terminal"
+      ],
+      "osmTags": {},
+      "matchedBy": [
+        "web_researched_terminal"
+      ],
+      "distanceFromPortMeters": null
+    }
+  ],
+  "terminalCandidateRadiusMeters": 5000,
+  "terminalCandidates": [
+    {
+      "source": "nominatim",
+      "sourceId": "osm/way/1070056036",
+      "osmType": "way",
+      "osmId": "1070056036",
+      "name": "Cuarto Puente",
+      "nameEnglish": "Panama Canal Fourth Bridge",
+      "lat": 8.9476511,
+      "lng": -79.5660819,
+      "distanceFromPortMeters": 503,
+      "address": "Cuarto Puente, Puerto de Balboa, Ancón, Distrito de Panamá, Provincia de Panamá, 0843, Panamá",
+      "displayName": "Cuarto Puente, Puerto de Balboa, Ancón, Distrito de Panamá, Provincia de Panamá, 0843, Panamá",
+      "query": "BALBOA Port, Balboa, Panama",
+      "matchedBy": [
+        "Nominatim query: BALBOA Port, Balboa, Panama"
+      ],
+      "osmTags": {},
+      "sources": [
+        "nominatim"
+      ],
+      "sourceIds": [
+        "osm/way/1070056036"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/6091f80e1e41fd838c7f",
+      "name": "(unnamed maritime feature)",
+      "nameEnglish": "",
+      "lat": 8.9380329,
+      "lng": -79.5559861,
+      "distanceFromPortMeters": 2035,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/6091f80e1e41fd838c7f"
+      ]
+    }
+  ],
+  "counts": {
+    "attraction": 20,
+    "outdoors": 7,
+    "food_drink": 12,
+    "shopping": 2,
+    "essentials": 0
+  },
+  "pois": [
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/fb0ff2c9d4ac7e677792",
+      "name": "Biomuseo",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 8.93193,
+      "lng": -79.5447682,
+      "distanceFromTerminalMeters": 3423,
+      "distanceFromDefaultTerminalMeters": 3423,
+      "minDistanceFromAnyTerminalMeters": 3423,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo off; Tu-Fr 10:00-16:00; Sa,Su 10:00-17:00",
+      "website": "https://www.biomuseopanama.org",
+      "phone": "+507 830-6700",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/fde82dbd134ae87c9752",
+      "name": "Museo de Historia de Panamá",
+      "nameEnglish": "Panama History Museum",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 8.9520441,
+      "lng": -79.534914,
+      "distanceFromTerminalMeters": 3861,
+      "distanceFromDefaultTerminalMeters": 3861,
+      "minDistanceFromAnyTerminalMeters": 3861,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "http://www.inac.gob.pa/museos/99-museo-de-historia",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/951f086c21c0ab8ca80f",
+      "name": "Museo del Canal Interoceanico de Panama",
+      "nameEnglish": "Panama Canal Museum",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 8.9518098,
+      "lng": -79.5346682,
+      "distanceFromTerminalMeters": 3886,
+      "distanceFromDefaultTerminalMeters": 3886,
+      "minDistanceFromAnyTerminalMeters": 3886,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "https://museodelcanal.com/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/5480b2bcd52e26afe4c4",
+      "name": "Museo de Arte Contemporaneo",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 8.9609414,
+      "lng": -79.5430394,
+      "distanceFromTerminalMeters": 3202,
+      "distanceFromDefaultTerminalMeters": 3202,
+      "minDistanceFromAnyTerminalMeters": 3202,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Avenida de los Mártires, Ciudad de Panamá",
+      "openingHours": "",
+      "website": "https://macpanama.org/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d49639f499d282790944",
+      "name": "Palacio Bolívar",
+      "nameEnglish": "Bolivar Palace",
+      "category": "attraction",
+      "subcategory": "monument",
+      "lat": 8.9535404,
+      "lng": -79.5330395,
+      "distanceFromTerminalMeters": 4079,
+      "distanceFromDefaultTerminalMeters": 4079,
+      "minDistanceFromAnyTerminalMeters": 4079,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "monument"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/6cb4874c8c414bcf8fa6",
+      "name": "Casa de la Municipalidad",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 8.9527805,
+      "lng": -79.5370327,
+      "distanceFromTerminalMeters": 3634,
+      "distanceFromDefaultTerminalMeters": 3634,
+      "minDistanceFromAnyTerminalMeters": 3634,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "building",
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/08bbcb70e83bc04f38c5",
+      "name": "Railway Crane of Panama Canal",
+      "nameEnglish": "Railway Crane of Panama Canal",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 8.9604431,
+      "lng": -79.5563065,
+      "distanceFromTerminalMeters": 1900,
+      "distanceFromDefaultTerminalMeters": 1900,
+      "minDistanceFromAnyTerminalMeters": 1900,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d56fa6f3804c3c25d85d",
+      "name": "Mirador del Faro",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 8.9401859,
+      "lng": -79.56606,
+      "distanceFromTerminalMeters": 1174,
+      "distanceFromDefaultTerminalMeters": 1174,
+      "minDistanceFromAnyTerminalMeters": 1174,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/df2a08cb8fc310754916",
+      "name": "Goethals Memorial",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 8.9584961,
+      "lng": -79.5556902,
+      "distanceFromTerminalMeters": 1834,
+      "distanceFromDefaultTerminalMeters": 1834,
+      "minDistanceFromAnyTerminalMeters": 1834,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/389dda2660c9d64680f9",
+      "name": "Mirador del Cerro Ancón",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "monument",
+      "lat": 8.9567587,
+      "lng": -79.5494799,
+      "distanceFromTerminalMeters": 2376,
+      "distanceFromDefaultTerminalMeters": 2376,
+      "minDistanceFromAnyTerminalMeters": 2376,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "monument"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c9cd4dcee76ecf32d550",
+      "name": "Teatro Nacional",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "monument",
+      "lat": 8.9525929,
+      "lng": -79.5331319,
+      "distanceFromTerminalMeters": 4060,
+      "distanceFromDefaultTerminalMeters": 4060,
+      "minDistanceFromAnyTerminalMeters": 4060,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "https://teatronacional.org/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "theatre",
+        "historic": "monument"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/beac2c5ec009756fa185",
+      "name": "Antiguo Conjunto de San Juan de Dios",
+      "nameEnglish": "Former Saint John of God Complex",
+      "category": "attraction",
+      "subcategory": "monument",
+      "lat": 8.9533815,
+      "lng": -79.5361507,
+      "distanceFromTerminalMeters": 3737,
+      "distanceFromDefaultTerminalMeters": 3737,
+      "minDistanceFromAnyTerminalMeters": 3737,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "monument"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c0343752d823513b5130",
+      "name": "Monumento a Simón Bolívar",
+      "nameEnglish": "Monument to Simon Bolivar",
+      "category": "attraction",
+      "subcategory": "monument",
+      "lat": 8.9532893,
+      "lng": -79.5335322,
+      "distanceFromTerminalMeters": 4022,
+      "distanceFromDefaultTerminalMeters": 4022,
+      "minDistanceFromAnyTerminalMeters": 4022,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "monument"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/e904e14b1935754cd98c",
+      "name": "Mausoleo de Omar Torrijos Herrera",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "monument",
+      "lat": 8.9372687,
+      "lng": -79.5502152,
+      "distanceFromTerminalMeters": 2594,
+      "distanceFromDefaultTerminalMeters": 2594,
+      "minDistanceFromAnyTerminalMeters": 2594,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "monument"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/e56dc1f8af3850bc6b6f",
+      "name": "Monumento a los Martires",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "monument",
+      "lat": 8.9632166,
+      "lng": -79.5426639,
+      "distanceFromTerminalMeters": 3343,
+      "distanceFromDefaultTerminalMeters": 3343,
+      "minDistanceFromAnyTerminalMeters": 3343,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "monument"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/94b9dbb81b09279048c6",
+      "name": "Baluarte Mano De Tigre",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 8.9521545,
+      "lng": -79.5375944,
+      "distanceFromTerminalMeters": 3568,
+      "distanceFromDefaultTerminalMeters": 3568,
+      "minDistanceFromAnyTerminalMeters": 3568,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "monument",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/fd8b04578fab51aa2472",
+      "name": "Monumento al General Tomás Herrera",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "monument",
+      "lat": 8.9519424,
+      "lng": -79.5367688,
+      "distanceFromTerminalMeters": 3657,
+      "distanceFromDefaultTerminalMeters": 3657,
+      "minDistanceFromAnyTerminalMeters": 3657,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "monument"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/fb15dc30effe06bd8ef9",
+      "name": "Parque Amelia Denis de Icaza",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "theme_park",
+      "lat": 8.9510492,
+      "lng": -79.5467504,
+      "distanceFromTerminalMeters": 2556,
+      "distanceFromDefaultTerminalMeters": 2556,
+      "minDistanceFromAnyTerminalMeters": 2556,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "theme_park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/0523d6afb396db6459f4",
+      "name": "Divercity",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "theme_park",
+      "lat": 8.9772535,
+      "lng": -79.5519567,
+      "distanceFromTerminalMeters": 3621,
+      "distanceFromDefaultTerminalMeters": 3621,
+      "minDistanceFromAnyTerminalMeters": 3621,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "theme_park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/1514e2d682b824b3e199",
+      "name": "Puente de las Américas",
+      "nameEnglish": "Bridge of the Americas",
+      "category": "outdoors",
+      "subcategory": "viewpoint",
+      "lat": 8.9441779,
+      "lng": -79.5628611,
+      "distanceFromTerminalMeters": 1017,
+      "distanceFromDefaultTerminalMeters": 1017,
+      "minDistanceFromAnyTerminalMeters": 1017,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "viewpoint"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c20b227aff960b4ec20d",
+      "name": "Mirador Puente de las Américas",
+      "nameEnglish": "Bridge of the Americas Viewpoint",
+      "category": "outdoors",
+      "subcategory": "viewpoint",
+      "lat": 8.9406581,
+      "lng": -79.5723464,
+      "distanceFromTerminalMeters": 1070,
+      "distanceFromDefaultTerminalMeters": 1070,
+      "minDistanceFromAnyTerminalMeters": 1070,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "viewpoint"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d9c794d589798dc53375",
+      "name": "Cerro Sosa",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 8.9531628,
+      "lng": -79.561503,
+      "distanceFromTerminalMeters": 997,
+      "distanceFromDefaultTerminalMeters": 997,
+      "minDistanceFromAnyTerminalMeters": 997,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/a8144636e4c158abd36f",
+      "name": "Bosque Pionero de Rodman",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "nature_reserve",
+      "lat": 8.9468379,
+      "lng": -79.5752163,
+      "distanceFromTerminalMeters": 672,
+      "distanceFromDefaultTerminalMeters": 672,
+      "minDistanceFromAnyTerminalMeters": 672,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "nature_reserve"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/9d6dab592f051ec58651",
+      "name": "Cerro Sosa",
+      "nameEnglish": "Sosa Hill",
+      "category": "outdoors",
+      "subcategory": "peak",
+      "lat": 8.9546453,
+      "lng": -79.5609351,
+      "distanceFromTerminalMeters": 1122,
+      "distanceFromDefaultTerminalMeters": 1122,
+      "minDistanceFromAnyTerminalMeters": 1122,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "natural": "peak"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/a5b036b02cc0e723bb2c",
+      "name": "Cerro Ancón",
+      "nameEnglish": "Ancón Hill",
+      "category": "outdoors",
+      "subcategory": "peak",
+      "lat": 8.9576485,
+      "lng": -79.5492008,
+      "distanceFromTerminalMeters": 2438,
+      "distanceFromDefaultTerminalMeters": 2438,
+      "minDistanceFromAnyTerminalMeters": 2438,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "man_made": "mast",
+        "natural": "peak"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/cf7b0bba5bdd58164bbe",
+      "name": "San Juan Hill",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "peak",
+      "lat": 8.9546796,
+      "lng": -79.5826087,
+      "distanceFromTerminalMeters": 1479,
+      "distanceFromDefaultTerminalMeters": 1479,
+      "minDistanceFromAnyTerminalMeters": 1479,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "natural": "peak"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/e9494b414c940b2d7d95",
+      "name": "Kotowa Coffee House",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 8.9692727,
+      "lng": -79.5610125,
+      "distanceFromTerminalMeters": 2359,
+      "distanceFromDefaultTerminalMeters": 2359,
+      "minDistanceFromAnyTerminalMeters": 2359,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [
+        "coffee_shop"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b5f24207a2a22790a888",
+      "name": "Geisha Terroir Specialty Coffee Shop",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 8.9539321,
+      "lng": -79.5363234,
+      "distanceFromTerminalMeters": 3725,
+      "distanceFromDefaultTerminalMeters": 3725,
+      "minDistanceFromAnyTerminalMeters": 3725,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Avenida Eloy Alfaro, Panama City",
+      "openingHours": "Mo-Su 09:00-18:30",
+      "website": "https://www.instagram.com/geishaterroir/?hl=es",
+      "phone": "68569561",
+      "cuisine": [
+        "coffee_shop",
+        "french",
+        "cafe_geisha",
+        "venezuelan",
+        "panamenian"
+      ],
+      "wheelchair": "limited",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ae141fa7b7ea1c0b92e2",
+      "name": "Super Gourmet",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 8.9515971,
+      "lng": -79.5348798,
+      "distanceFromTerminalMeters": 3862,
+      "distanceFromDefaultTerminalMeters": 3862,
+      "minDistanceFromAnyTerminalMeters": 3862,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Avenida A",
+      "openingHours": "Mo-Sa 08:00-17:00; Su 10:00-16:00",
+      "website": "http://www.supergourmetcascoviejo.com/",
+      "phone": "+5072123487",
+      "cuisine": [
+        "breakfast"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c34b244734cad273aa22",
+      "name": "Trattoria Calicano Pizza & Pasta",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 8.9521963,
+      "lng": -79.535839,
+      "distanceFromTerminalMeters": 3760,
+      "distanceFromDefaultTerminalMeters": 3760,
+      "minDistanceFromAnyTerminalMeters": 3760,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Calle José D. de la Obaldía",
+      "openingHours": "Tu-Su 12:30-21:30",
+      "website": "http://calicantotrattoria.com",
+      "phone": "3903155",
+      "cuisine": [
+        "italian",
+        "pasta",
+        "pizza"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/5549975ecb44bc03201b",
+      "name": "Diablicos",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 8.952142,
+      "lng": -79.5332299,
+      "distanceFromTerminalMeters": 4046,
+      "distanceFromDefaultTerminalMeters": 4046,
+      "minDistanceFromAnyTerminalMeters": 4046,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Panama",
+      "openingHours": "11:30-22:00",
+      "website": "https://diablicospanama.com/",
+      "phone": "",
+      "cuisine": [
+        "local"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/2c45230c5f60ab175b59",
+      "name": "Entrepanes del Pacífico",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 8.9168712,
+      "lng": -79.5906521,
+      "distanceFromTerminalMeters": 4326,
+      "distanceFromDefaultTerminalMeters": 4326,
+      "minDistanceFromAnyTerminalMeters": 4326,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Avenida Pelfrey, panama pacifico",
+      "openingHours": "Mo-Su 07:00-20:00",
+      "website": "https://www.instagram.com/entrepanesdelpacifico/",
+      "phone": "65697090",
+      "cuisine": [
+        "coffee_shop",
+        "burger",
+        "pasta",
+        "wings",
+        "salad",
+        "breakfast",
+        "diner",
+        "juice"
+      ],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/110781aced18ed6cf023",
+      "name": "los Tacos De Villa",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 8.9762888,
+      "lng": -79.5288183,
+      "distanceFromTerminalMeters": 5386,
+      "distanceFromDefaultTerminalMeters": 5386,
+      "minDistanceFromAnyTerminalMeters": 5386,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Calle 45 Este",
+      "openingHours": "11:00-22:00",
+      "website": "https://losracosdevilla.godaddysites.com",
+      "phone": "+507 6315-9951",
+      "cuisine": [
+        "mexican"
+      ],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/32234e51e921d1aa5e06",
+      "name": "Tacos las Morras",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 8.9877518,
+      "lng": -79.5248548,
+      "distanceFromTerminalMeters": 6497,
+      "distanceFromDefaultTerminalMeters": 6497,
+      "minDistanceFromAnyTerminalMeters": 6497,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Calle Dr. Alberto Navarro",
+      "openingHours": "Su 08:00-22:00; Mo-Sa 08:00-22:00",
+      "website": "http://www.heytics.com",
+      "phone": "+50764907699",
+      "cuisine": [
+        "mexican"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/930fc567a57bbdc8288c",
+      "name": "El Trapiche",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 8.9889055,
+      "lng": -79.5250994,
+      "distanceFromTerminalMeters": 6560,
+      "distanceFromDefaultTerminalMeters": 6560,
+      "minDistanceFromAnyTerminalMeters": 6560,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Vía Argentina, Ciudad de Panamá",
+      "openingHours": "Su-We 07:00-21:00; Th-Sa 07:00-22:00",
+      "website": "https://eltrapicherestaurante.com/",
+      "phone": "+5072694353",
+      "cuisine": [
+        "regional"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/874928f54394ec582192",
+      "name": "Nacionsushi",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 8.9832448,
+      "lng": -79.5191611,
+      "distanceFromTerminalMeters": 6697,
+      "distanceFromDefaultTerminalMeters": 6697,
+      "minDistanceFromAnyTerminalMeters": 6697,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Calle 50",
+      "openingHours": "Mo-Su 11:30-23:00",
+      "website": "https://www.nacionsushi.com/",
+      "phone": "3700301",
+      "cuisine": [
+        "japanese",
+        "thai",
+        "sushi"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/2f7b08ea7f3f8819ef91",
+      "name": "La Rana Dorada Tap Room",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 8.98875,
+      "lng": -79.508862,
+      "distanceFromTerminalMeters": 7979,
+      "distanceFromDefaultTerminalMeters": 7979,
+      "minDistanceFromAnyTerminalMeters": 7979,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "SF69 Plaza Calle Mario Rognoni, San Francisco, 07099",
+      "openingHours": "Mo-Sa 12:00-02:00; Su 12:00-24:00",
+      "website": "https://www.laranadorada.com/",
+      "phone": "+507 391-8378",
+      "cuisine": [
+        "cervecería",
+        "pizza"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Cervecería artesanal panameña",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/5ec66d3a96a4e34ef35a",
+      "name": "La Rana Dorada San Francisco",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 8.988789,
+      "lng": -79.5088722,
+      "distanceFromTerminalMeters": 7980,
+      "distanceFromDefaultTerminalMeters": 7980,
+      "minDistanceFromAnyTerminalMeters": 7980,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "SF69 Plaza Calle Mario Rognoni, San Francisco, 07099",
+      "openingHours": "Fr-Sa 12:00-02:00; Su-We 12:00-24:00; Tu 12:00-01:30",
+      "website": "https://www.laranadorada.com/",
+      "phone": "+507 391-8151",
+      "cuisine": [
+        "cervecería",
+        "pizza"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Cervecería artesanal panameña",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/40be9aadad395fd85665",
+      "name": "Megapolis Outlets",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "mall",
+      "lat": 8.9764425,
+      "lng": -79.5179425,
+      "distanceFromTerminalMeters": 6430,
+      "distanceFromDefaultTerminalMeters": 6430,
+      "minDistanceFromAnyTerminalMeters": 6430,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Avenida Balboa",
+      "openingHours": "",
+      "website": "https://www.megapolisoutlets.com/",
+      "phone": "+507 201-8080",
+      "cuisine": [],
+      "wheelchair": "limited",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "shop": "mall"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/187455c204f72fd9779a",
+      "name": "Mercado de Artesanías de Balboa",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "marketplace",
+      "lat": 8.9514764,
+      "lng": -79.5515944,
+      "distanceFromTerminalMeters": 2028,
+      "distanceFromDefaultTerminalMeters": 2028,
+      "minDistanceFromAnyTerminalMeters": 2028,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "marketplace"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/91ed7097004cec1ac823",
+      "name": "Fundación Museo Arias Madrid",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 8.9517995,
+      "lng": -79.5569275,
+      "distanceFromTerminalMeters": 1450,
+      "distanceFromDefaultTerminalMeters": 1450,
+      "minDistanceFromAnyTerminalMeters": 1450,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    }
+  ],
+  "portAnchor": {
+    "id": "ports-json-anchor",
+    "name": "BALBOA Port",
+    "lat": 8.95,
+    "lng": -79.57,
+    "address": "Balboa, Panamá, Panama",
+    "source": "ports.json",
+    "sourceId": "",
+    "score": 0,
+    "slug": "balboa-port"
+  },
+  "terminalResolution": {
+    "status": "resolved",
+    "method": "manual_web_research",
+    "verified": true,
+    "notes": "Terminal records were added from researched cruise-port sources because no supplied candidate accurately represented the passenger arrival point."
+  }
+}

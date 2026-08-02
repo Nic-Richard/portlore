@@ -1,0 +1,1547 @@
+{
+  "schemaVersion": 5,
+  "catalogType": "curation-candidates",
+  "generatedAt": "2026-07-30T09:26:48.222Z",
+  "source": "openstreetmap",
+  "sourceExtract": "washington-latest.osm.pbf",
+  "radiusMeters": 10000,
+  "port": {
+    "id": "seattle-united-states",
+    "city": "Seattle",
+    "country": "United States"
+  },
+  "defaultTerminalId": "osm/way/119238635",
+  "terminal": {
+    "id": "osm/way/119238635",
+    "name": "Smith Cove Cruise Terminal",
+    "nameEnglish": "",
+    "lat": 47.6273922,
+    "lng": -122.3829223,
+    "address": "Smith Cove Cruise Terminal, 2001, West Garfield Street, Terminal 91, Queen Anne, Seattle, King County, Washington, 98119, United States",
+    "source": "verified_terminal_candidate",
+    "sourceId": "osm/way/119238635",
+    "terminalType": "passenger_cruise_terminal",
+    "verified": true,
+    "notes": "Accepted 1 candidate explicitly identified as an ocean-cruise or cruise-passenger terminal; ferry and unrelated results were excluded.",
+    "sourceUrls": [],
+    "sources": [
+      "nominatim"
+    ],
+    "sourceIds": [
+      "osm/way/119238635"
+    ],
+    "osmTags": {
+      "building": "yes"
+    },
+    "matchedBy": [
+      "Nominatim query: Smith Cove Cruise Terminal, Seattle, United States"
+    ],
+    "distanceFromPortMeters": 235
+  },
+  "terminals": [
+    {
+      "id": "osm/way/119238635",
+      "name": "Smith Cove Cruise Terminal",
+      "nameEnglish": "",
+      "lat": 47.6273922,
+      "lng": -122.3829223,
+      "address": "Smith Cove Cruise Terminal, 2001, West Garfield Street, Terminal 91, Queen Anne, Seattle, King County, Washington, 98119, United States",
+      "source": "verified_terminal_candidate",
+      "sourceId": "osm/way/119238635",
+      "terminalType": "passenger_cruise_terminal",
+      "verified": true,
+      "notes": "Accepted 1 candidate explicitly identified as an ocean-cruise or cruise-passenger terminal; ferry and unrelated results were excluded.",
+      "sourceUrls": [],
+      "sources": [
+        "nominatim"
+      ],
+      "sourceIds": [
+        "osm/way/119238635"
+      ],
+      "osmTags": {
+        "building": "yes"
+      },
+      "matchedBy": [
+        "Nominatim query: Smith Cove Cruise Terminal, Seattle, United States"
+      ],
+      "distanceFromPortMeters": 235
+    }
+  ],
+  "terminalCandidateRadiusMeters": 5000,
+  "terminalCandidates": [
+    {
+      "source": "nominatim",
+      "sourceId": "osm/way/119238635",
+      "osmType": "way",
+      "osmId": "119238635",
+      "name": "Smith Cove Cruise Terminal",
+      "nameEnglish": "",
+      "lat": 47.6273922,
+      "lng": -122.3829223,
+      "distanceFromPortMeters": 235,
+      "address": "Smith Cove Cruise Terminal, 2001, West Garfield Street, Terminal 91, Queen Anne, Seattle, King County, Washington, 98119, United States",
+      "displayName": "Smith Cove Cruise Terminal, 2001, West Garfield Street, Terminal 91, Queen Anne, Seattle, King County, Washington, 98119, United States",
+      "query": "Smith Cove Cruise Terminal, Seattle, United States",
+      "matchedBy": [
+        "Nominatim query: Smith Cove Cruise Terminal, Seattle, United States"
+      ],
+      "osmTags": {
+        "building": "yes"
+      },
+      "sources": [
+        "nominatim"
+      ],
+      "sourceIds": [
+        "osm/way/119238635"
+      ]
+    },
+    {
+      "source": "nominatim+openstreetmap",
+      "sourceId": "osm/relation/5582276",
+      "osmType": "relation",
+      "osmId": "5582276",
+      "name": "Pier 91",
+      "nameEnglish": "Pier 91",
+      "lat": 47.6289767,
+      "lng": -122.3829402,
+      "distanceFromPortMeters": 281,
+      "address": "Pier 91, 2001, West Garfield Street, Terminal 91, Queen Anne, Seattle, King County, Washington, 98119, United States",
+      "displayName": "Pier 91, 2001, West Garfield Street, Terminal 91, Queen Anne, Seattle, King County, Washington, 98119, United States",
+      "query": "Smith Cove Cruise Terminal, Seattle, United States",
+      "matchedBy": [
+        "Nominatim query: Smith Cove Cruise Terminal, Seattle, United States",
+        "terminal-like name"
+      ],
+      "osmTags": {
+        "alt_name": "Smith Cove Cruise Terminal",
+        "man_made": "pier"
+      },
+      "sources": [
+        "nominatim",
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/relation/5582276",
+        "osm/generated/5900063c8861428ba61d"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/268ca3b46cc8a85d08b4",
+      "name": "Seattle",
+      "nameEnglish": "",
+      "lat": 47.6134905,
+      "lng": -122.35349,
+      "distanceFromPortMeters": 2520,
+      "address": "2701 Alaskan Way, Seattle, WA, 98121",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "operator": "Clipper Vacations",
+        "public_transport": "stop_position"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/268ca3b46cc8a85d08b4"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/8d42d887269bb5d58ff6",
+      "name": "Seattle Waterfront",
+      "nameEnglish": "",
+      "lat": 47.6050808,
+      "lng": -122.3408405,
+      "distanceFromPortMeters": 3847,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal",
+        "terminal-like name"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "cargo": "passengers",
+        "ferry": "yes",
+        "operator": "Argosy Cruises",
+        "public_transport": "stop_position"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/8d42d887269bb5d58ff6"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/fc0c54e5d4b8677965c0",
+      "name": "Seattle",
+      "nameEnglish": "",
+      "lat": 47.6028952,
+      "lng": -122.3398411,
+      "distanceFromPortMeters": 4064,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "cargo": "passengers;vehicle;bicycle",
+        "ferry": "yes",
+        "operator": "Washington State Ferries",
+        "public_transport": "stop_position"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/fc0c54e5d4b8677965c0"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/be158c8ef5eb6991b443",
+      "name": "(unnamed maritime feature)",
+      "nameEnglish": "",
+      "lat": 47.6020818,
+      "lng": -122.3399758,
+      "distanceFromPortMeters": 4119,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/be158c8ef5eb6991b443"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/bdc950efda481c24926e",
+      "name": "Washington State Ferries Terminal",
+      "nameEnglish": "",
+      "lat": 47.6024811,
+      "lng": -122.3390769,
+      "distanceFromPortMeters": 4138,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "building": "transportation",
+        "ferry": "yes",
+        "operator": "Washington State Ferries",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/bdc950efda481c24926e"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/93131e424fbfd2747f06",
+      "name": "West Seattle, Vashon Island Water Taxi",
+      "nameEnglish": "",
+      "lat": 47.6011648,
+      "lng": -122.3392034,
+      "distanceFromPortMeters": 4231,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "cargo": "passengers;bicycle",
+        "ferry": "yes",
+        "operator": "King County Ferry District",
+        "public_transport": "stop_position"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/93131e424fbfd2747f06"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/1c97723f3d9a3aa8bc52",
+      "name": "Water Taxi Route & Harbor Ave SW",
+      "nameEnglish": "",
+      "lat": 47.5894966,
+      "lng": -122.379524,
+      "distanceFromPortMeters": 4237,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "operator": "King County Metro",
+        "public_transport": "platform"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/1c97723f3d9a3aa8bc52"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b68c6c29a7b7bd9c0615",
+      "name": "Vashon Island Water Taxi & Colman Dock",
+      "nameEnglish": "",
+      "lat": 47.601223,
+      "lng": -122.338928,
+      "distanceFromPortMeters": 4241,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "operator": "King County Metro",
+        "public_transport": "platform"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/b68c6c29a7b7bd9c0615"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/6fa1219db6f828e65823",
+      "name": "West Seattle Water Taxi & Colman Dock",
+      "nameEnglish": "",
+      "lat": 47.601249,
+      "lng": -122.3388483,
+      "distanceFromPortMeters": 4244,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "operator": "King County Metro",
+        "public_transport": "platform"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/6fa1219db6f828e65823"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/39e9220db485673600df",
+      "name": "King County Water Taxi Seacrest Dock",
+      "nameEnglish": "",
+      "lat": 47.5894252,
+      "lng": -122.379616,
+      "distanceFromPortMeters": 4245,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "cargo": "passengers;bicycle",
+        "ferry": "yes",
+        "operator": "King County Ferry District",
+        "public_transport": "stop_position"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/39e9220db485673600df"
+      ]
+    }
+  ],
+  "counts": {
+    "attraction": 20,
+    "outdoors": 6,
+    "food_drink": 15,
+    "shopping": 2,
+    "essentials": 1
+  },
+  "pois": [
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/398636651a552a0cc225",
+      "name": "Chihuly Garden and Glass",
+      "nameEnglish": "Chihuly Garden and Glass",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 47.6205353,
+      "lng": -122.3501816,
+      "distanceFromTerminalMeters": 2355,
+      "distanceFromDefaultTerminalMeters": 2355,
+      "minDistanceFromAnyTerminalMeters": 2355,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "305 Harrison Street, Seattle, WA, 98109",
+      "openingHours": "Mo-Su 11:00-18:00; Fr,Sa 11:00-19:00",
+      "website": "https://www.chihulygardenandglass.com/",
+      "phone": "+1-206-753-4940",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/80b4bc7add23f1524298",
+      "name": "MoPOP: Museum of Pop Culture",
+      "nameEnglish": "MoPOP: Museum of Pop Culture",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 47.6214966,
+      "lng": -122.3482383,
+      "distanceFromTerminalMeters": 2461,
+      "distanceFromDefaultTerminalMeters": 2461,
+      "minDistanceFromAnyTerminalMeters": 2461,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "5th Avenue North, Seattle, WA, 98109",
+      "openingHours": "10:00-17:00",
+      "website": "https://www.mopop.org/",
+      "phone": "+1-877-367-7361",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/5e763de2e2a471a5dc52",
+      "name": "Seattle Children's Museum",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 47.621462,
+      "lng": -122.3509886,
+      "distanceFromTerminalMeters": 2265,
+      "distanceFromDefaultTerminalMeters": 2265,
+      "minDistanceFromAnyTerminalMeters": 2265,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "305 Harrison Street, Seattle, WA, 98109",
+      "openingHours": "Mo-Fr 10:00-17:00; Sa-Su 10:00-18:00",
+      "website": "https://www.thechildrensmuseum.org/",
+      "phone": "+1-206-441-1768",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b2c72ae4da3510f0491e",
+      "name": "Pacific Science Center",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 47.6194208,
+      "lng": -122.3513857,
+      "distanceFromTerminalMeters": 2316,
+      "distanceFromDefaultTerminalMeters": 2316,
+      "minDistanceFromAnyTerminalMeters": 2316,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "200 Sue Bird Court North, Seattle, WA, 98109",
+      "openingHours": "We-Su 10:00-17:00",
+      "website": "https://www.pacificsciencecenter.org/",
+      "phone": "+1-206-443-2001",
+      "cuisine": [],
+      "wheelchair": "limited",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b64a25ed5b002348d30e",
+      "name": "Gates Foundation Visitor Center",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 47.6227967,
+      "lng": -122.3472514,
+      "distanceFromTerminalMeters": 2497,
+      "distanceFromDefaultTerminalMeters": 2497,
+      "minDistanceFromAnyTerminalMeters": 2497,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "440 5th Avenue North, Seattle, WA, 98109, US",
+      "openingHours": "We-Sa 10:00-17:00",
+      "website": "https://www.discovergates.org/",
+      "phone": "+1-206-709-3100x7100",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c5e0a7cc7d09f03d6844",
+      "name": "A/NT Gallery",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "gallery",
+      "lat": 47.6227643,
+      "lng": -122.352986,
+      "distanceFromTerminalMeters": 2080,
+      "distanceFromDefaultTerminalMeters": 2080,
+      "minDistanceFromAnyTerminalMeters": 2080,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "305 Harrison Street, Seattle, WA, 98109",
+      "openingHours": "12:00-20:00",
+      "website": "https://www.antgallery.org/",
+      "phone": "+1-206-233-0680",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "gallery"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/450fbc3a83b04cad6100",
+      "name": "Pike Place Market",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 47.6094862,
+      "lng": -122.3416735,
+      "distanceFromTerminalMeters": 3496,
+      "distanceFromDefaultTerminalMeters": 3496,
+      "minDistanceFromAnyTerminalMeters": 3496,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "85 Pike Street, Seattle, WA, 98101",
+      "openingHours": "Mo-Sa 09:00-18:00; Su 09:00-17:00; Nov Th[4] off; Dec 25 off",
+      "website": "https://www.pikeplacemarket.org/",
+      "phone": "+1-206-682-7453",
+      "cuisine": [],
+      "wheelchair": "limited",
+      "brand": "",
+      "description": "Pike Place Market is closed on Thanksgiving and Christmas.",
+      "osmTags": {
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/6e129f954ec6e5e5c30c",
+      "name": "Kobe Friendship Bell",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "monument",
+      "lat": 47.6234833,
+      "lng": -122.3522483,
+      "distanceFromTerminalMeters": 2115,
+      "distanceFromDefaultTerminalMeters": 2115,
+      "minDistanceFromAnyTerminalMeters": 2115,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "201 Mercer Street, Seattle, WA, 98109",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Cast bronze bell in wooden temple. Inscribed in Japanese and English: Presented by the people of Kobe to the people of Seattle as a symbol of friendship. May this bell ring forever signifying friendship between the nations of the United States and Japa",
+      "osmTags": {
+        "historic": "monument"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/54380a2df6dec2871898",
+      "name": "Seattle Municipal Tower Gallery",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 47.6050474,
+      "lng": -122.3295578,
+      "distanceFromTerminalMeters": 4524,
+      "distanceFromDefaultTerminalMeters": 4524,
+      "minDistanceFromAnyTerminalMeters": 4524,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "700 5th Avenue, Seattle, WA, 98104",
+      "openingHours": "Mo-Fr 07:00-19:00",
+      "website": "http://www.seattle.gov/arts/experience/galleries#x54366",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/bf1cd032cbe12bba605d",
+      "name": "National Nordic Museum",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 47.6682608,
+      "lng": -122.3917764,
+      "distanceFromTerminalMeters": 4609,
+      "distanceFromDefaultTerminalMeters": 4609,
+      "minDistanceFromAnyTerminalMeters": 4609,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "2655 Northwest Market Street, Seattle, WA, 98107",
+      "openingHours": "Tu-We,Fr-Su 10:00-17:00; Th 10:00-20:00",
+      "website": "https://www.nordicmuseum.org",
+      "phone": "+1-206-789-5707",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ad67bfc7d469333ced20",
+      "name": "Smith Tower Observatory",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 47.6020211,
+      "lng": -122.331868,
+      "distanceFromTerminalMeters": 4582,
+      "distanceFromDefaultTerminalMeters": 4582,
+      "minDistanceFromAnyTerminalMeters": 4582,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "506 2nd Avenue, Seattle, WA, 98104",
+      "openingHours": "",
+      "website": "https://www.smithtower.com/observatory.php",
+      "phone": "+1-206-624-0414",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b1c59bf04e00e47e2e1f",
+      "name": "Seattle Aquarium",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "aquarium",
+      "lat": 47.607867,
+      "lng": -122.3430313,
+      "distanceFromTerminalMeters": 3523,
+      "distanceFromDefaultTerminalMeters": 3523,
+      "minDistanceFromAnyTerminalMeters": 3523,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1483 Alaskan Way, Seattle, WA, 98101",
+      "openingHours": "Mo-Su 09:00-18:00",
+      "website": "https://www.seattleaquarium.org/",
+      "phone": "+1-206-386-4300",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "aquarium"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/26aa397beebf431eed6b",
+      "name": "Space Needle",
+      "nameEnglish": "Space Needle",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 47.6205062,
+      "lng": -122.3493037,
+      "distanceFromTerminalMeters": 2418,
+      "distanceFromDefaultTerminalMeters": 2418,
+      "minDistanceFromAnyTerminalMeters": 2418,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "400 Broad Street, WA, 98109",
+      "openingHours": "Mo-Th 09:00-22:00; Fr-Su 08:00-00:00",
+      "website": "https://www.spaceneedle.com/",
+      "phone": "+1-206-905-2100",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "man_made": "tower",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/5fffb81b8085859131d5",
+      "name": "Woodland Park Zoo",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "zoo",
+      "lat": 47.6684421,
+      "lng": -122.3509009,
+      "distanceFromTerminalMeters": 5031,
+      "distanceFromDefaultTerminalMeters": 5031,
+      "minDistanceFromAnyTerminalMeters": 5031,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "601 North 59th Street",
+      "openingHours": "Mo-Su 09:30-18:00",
+      "website": "https://zoo.org/",
+      "phone": "+1-206-548-2500",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "music_venue",
+        "tourism": "zoo"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/6dc6afde3cfac59233f2",
+      "name": "The Seattle Public Library - Central Library",
+      "nameEnglish": "Seattle Central Library",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 47.6066916,
+      "lng": -122.3326524,
+      "distanceFromTerminalMeters": 4230,
+      "distanceFromDefaultTerminalMeters": 4230,
+      "minDistanceFromAnyTerminalMeters": 4230,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1000 4th Avenue, Seattle, WA, 98104",
+      "openingHours": "Tu-Th 10:00-20:00; Fr-Mo 10:00-18:00",
+      "website": "https://www.spl.org/hours-and-locations/central-library",
+      "phone": "+1-206-386-4636",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "library",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c809cb3305e63fe3b4d9",
+      "name": "Seattle Glassblowing Studio",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 47.6156094,
+      "lng": -122.3429686,
+      "distanceFromTerminalMeters": 3066,
+      "distanceFromDefaultTerminalMeters": 3066,
+      "minDistanceFromAnyTerminalMeters": 3066,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "2227 5th Avenue, Seattle, WA, 98121",
+      "openingHours": "Mo-Sa 09:00-18:00; Su 10:00-18:00; PH \"Contact us\"",
+      "website": "https://seattleglassblowing.com/",
+      "phone": "+1-206-448-2181",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "studio",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/23dcd21cad36c40cb9de",
+      "name": "Seattle Great Wheel",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 47.6061669,
+      "lng": -122.3424999,
+      "distanceFromTerminalMeters": 3674,
+      "distanceFromDefaultTerminalMeters": 3674,
+      "minDistanceFromAnyTerminalMeters": 3674,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1301 Alaskan Way, Seattle, WA, 98101",
+      "openingHours": "Mo-Th 11:00-21:00; Fr,Sa 10:00-22:00; Su 10:00-21:00",
+      "website": "https://seattlegreatwheel.com/",
+      "phone": "+1-206-623-8607",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/5709c24adc0e325e05f1",
+      "name": "Sky View Observatory",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 47.6045392,
+      "lng": -122.3308714,
+      "distanceFromTerminalMeters": 4475,
+      "distanceFromDefaultTerminalMeters": 4475,
+      "minDistanceFromAnyTerminalMeters": 4475,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "701 5th Avenue, Seattle, WA, 98104",
+      "openingHours": "10:00-20:00",
+      "website": "https://www.skyviewobservatory.com/",
+      "phone": "+1-206-386-5564",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/e04788dc7c6340b872f5",
+      "name": "Open Water Park",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 47.6299101,
+      "lng": -122.3859584,
+      "distanceFromTerminalMeters": 528,
+      "distanceFromDefaultTerminalMeters": 528,
+      "minDistanceFromAnyTerminalMeters": 528,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "https://www.seattle.gov/parks/find/parks/open-water-park",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/8b5f4668f98a6287ffaf",
+      "name": "Ursula Judkins Viewpoint",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 47.6320772,
+      "lng": -122.390346,
+      "distanceFromTerminalMeters": 934,
+      "distanceFromDefaultTerminalMeters": 934,
+      "minDistanceFromAnyTerminalMeters": 934,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "2601 West Galer Street, Seattle, WA, 98199",
+      "openingHours": "",
+      "website": "https://www.seattle.gov/parks/allparks/ursula-judkins-viewpoint",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/eda17e2c4ab6bbcb3924",
+      "name": "Marshall Park",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 47.6294821,
+      "lng": -122.3668675,
+      "distanceFromTerminalMeters": 991,
+      "distanceFromDefaultTerminalMeters": 991,
+      "minDistanceFromAnyTerminalMeters": 991,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "https://www.seattle.gov/parks/allparks/marshall-park",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/1f095f823100db74848d",
+      "name": "Parsons Gardens",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 47.6298499,
+      "lng": -122.3660956,
+      "distanceFromTerminalMeters": 1057,
+      "distanceFromDefaultTerminalMeters": 1057,
+      "minDistanceFromAnyTerminalMeters": 1057,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1211 Willard Avenue West, Seattle, WA, 98119",
+      "openingHours": "",
+      "website": "https://www.seattle.gov/parks/allparks/parsons-gardens",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/dae7d27e31734be39053",
+      "name": "12th West and West Howe Park",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 47.6364796,
+      "lng": -122.3733176,
+      "distanceFromTerminalMeters": 1100,
+      "distanceFromDefaultTerminalMeters": 1100,
+      "minDistanceFromAnyTerminalMeters": 1100,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1200 West Howe Street, Seattle, WA, 98119",
+      "openingHours": "",
+      "website": "https://www.seattle.gov/parks/find/parks/12th-west-and-west-howe-park",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/41d50e88932832e21006",
+      "name": "Cafe Hagen Waterfront",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 47.62581,
+      "lng": -122.372107,
+      "distanceFromTerminalMeters": 610,
+      "distanceFromDefaultTerminalMeters": 610,
+      "minDistanceFromAnyTerminalMeters": 610,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "951 Alaskan Way West, 98119",
+      "openingHours": "Mo-Su 08:00-17:00",
+      "website": "https://cafehagen.com/waterfront",
+      "phone": "+1-206-755-5190",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/8466953c35015e1e3519",
+      "name": "Stone's Throw Coffee & Market",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 47.6615362,
+      "lng": -122.3424975,
+      "distanceFromTerminalMeters": 4696,
+      "distanceFromDefaultTerminalMeters": 4696,
+      "minDistanceFromAnyTerminalMeters": 4696,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1218 North 45th Street, Seattle, WA, 98103",
+      "openingHours": "Mo-Sa 07:00-20:00; Su 07:00-17:00",
+      "website": "https://www.stonesthrowcoffeemarket.com",
+      "phone": "+1-206-305-7549",
+      "cuisine": [
+        "tea",
+        "coffee_shop",
+        "pastry",
+        "sandwich"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Local coffee and pastries shop",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/584b5607dc22d508f71e",
+      "name": "Bangrak Market",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 47.6143274,
+      "lng": -122.3465048,
+      "distanceFromTerminalMeters": 2899,
+      "distanceFromDefaultTerminalMeters": 2899,
+      "minDistanceFromAnyTerminalMeters": 2899,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "2319 2nd Avenue, Seattle, WA, 98121, US",
+      "openingHours": "Mo-Th 11:00-15:00,16:00-24:00; Fr 11:00-15:00,16:00-26:00; Sa 12:00-26:00; Su 12:00-23:00",
+      "website": "https://www.bangrakmarket.com/",
+      "phone": "+1-206-735-7352",
+      "cuisine": [
+        "thai"
+      ],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/1943b938a1d03b5937da",
+      "name": "Nielsen's Pastries",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 47.6240792,
+      "lng": -122.359162,
+      "distanceFromTerminalMeters": 1595,
+      "distanceFromDefaultTerminalMeters": 1595,
+      "minDistanceFromAnyTerminalMeters": 1595,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "520 2nd Avenue West, Seattle, WA, 98119",
+      "openingHours": "Mo-Sa 08:00-14:00",
+      "website": "https://www.nielsenspastries.com/",
+      "phone": "+1-206-282-3004",
+      "cuisine": [
+        "coffee_shop"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Authentic Danish pastries since 1965",
+      "osmTags": {
+        "amenity": "cafe",
+        "shop": "bakery"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/0073192901bc525091c4",
+      "name": "Seattle Wood Fired Pizza",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 47.6303614,
+      "lng": -122.3727963,
+      "distanceFromTerminalMeters": 608,
+      "distanceFromDefaultTerminalMeters": 608,
+      "minDistanceFromAnyTerminalMeters": 608,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1300 Elliott Avenue West, Seattle, WA, 98119",
+      "openingHours": "11:00 - 20:00",
+      "website": "http://www.seattlewoodfiredpizza.com",
+      "phone": "",
+      "cuisine": [
+        "pizza"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/238cebbfeb6b04cb55dc",
+      "name": "5 Spot",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 47.6325551,
+      "lng": -122.356661,
+      "distanceFromTerminalMeters": 1819,
+      "distanceFromDefaultTerminalMeters": 1819,
+      "minDistanceFromAnyTerminalMeters": 1819,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1502 Queen Anne Avenue North, Seattle, WA, 98109",
+      "openingHours": "Mo-We 08:00-21:00; Th-Sa 07:00-21:00; Su 07:00-16:00",
+      "website": "https://5spotseattle.com",
+      "phone": "+1-206-708-6678",
+      "cuisine": [
+        "american"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Diner",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/8b73f93aa48c174906d8",
+      "name": "Sisters and Brothers",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 47.6244304,
+      "lng": -122.3650646,
+      "distanceFromTerminalMeters": 1159,
+      "distanceFromDefaultTerminalMeters": 1159,
+      "minDistanceFromAnyTerminalMeters": 1159,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "544 Elliott Avenue West, Seattle, WA, 98119, US",
+      "openingHours": "Mo-Th 11:00-20:30; Fr-Sa 11:00-21:30; Su 11:00-21:00",
+      "website": "https://sistersandbrothersbar.com",
+      "phone": "+1-206-283-2078",
+      "cuisine": [
+        "chicken"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/5a58544efa7ea3bc56e7",
+      "name": "Un Bien",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 47.6322037,
+      "lng": -122.3613827,
+      "distanceFromTerminalMeters": 1472,
+      "distanceFromDefaultTerminalMeters": 1472,
+      "minDistanceFromAnyTerminalMeters": 1472,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "319 West Galer Street, Seattle, WA, 98119",
+      "openingHours": "We-Fr 16:00-21:00; Sa 11:00-21:00; Su 11:00-20:00",
+      "website": "https://www.unbienseattle.com",
+      "phone": "+1-206-420-3178",
+      "cuisine": [
+        "caribbean",
+        "sandwich"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/8a3ffef7b4d6a5002e3e",
+      "name": "Via Tribunali - Queen Anne",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 47.6322046,
+      "lng": -122.361327,
+      "distanceFromTerminalMeters": 1476,
+      "distanceFromDefaultTerminalMeters": 1476,
+      "minDistanceFromAnyTerminalMeters": 1476,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "317 West Galer Street, Seattle, WA, 98119",
+      "openingHours": "Su-Th 17:00-23:00; Fr-Sa 17:00-00:00",
+      "website": "https://www.viatribunali.com/queen-anne/",
+      "phone": "+1-206-264-7768",
+      "cuisine": [
+        "pizza"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/88e546f40593c683d6b4",
+      "name": "Queen Anne Beerhall",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "bar",
+      "lat": 47.6207839,
+      "lng": -122.3597403,
+      "distanceFromTerminalMeters": 1684,
+      "distanceFromDefaultTerminalMeters": 1684,
+      "minDistanceFromAnyTerminalMeters": 1684,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "203 West Thomas Street, Seattle, WA, 98119",
+      "openingHours": "Sa-Su 11:00-02:00; Mo-Th 11:00-00:00; Fr 10:30-02:00",
+      "website": "https://www.queenannebeerhall.com/",
+      "phone": "+1-206-420-4326",
+      "cuisine": [
+        "german"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "bar"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/0710b1446a8bba955b92",
+      "name": "Betty",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 47.6326914,
+      "lng": -122.3572116,
+      "distanceFromTerminalMeters": 1785,
+      "distanceFromDefaultTerminalMeters": 1785,
+      "minDistanceFromAnyTerminalMeters": 1785,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1507 Queen Anne Avenue North, Seattle, WA, 98109",
+      "openingHours": "Su-We 16:30-21:00; Th-Sa 16:30-22:00",
+      "website": "https://bettyrestaurant.com/",
+      "phone": "+1-206-352-3773",
+      "cuisine": [
+        "american",
+        "fine_dining"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/6ccdd7be7aeb6b2c010a",
+      "name": "Sal Y Limón",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 47.624695,
+      "lng": -122.3562533,
+      "distanceFromTerminalMeters": 1794,
+      "distanceFromDefaultTerminalMeters": 1794,
+      "minDistanceFromAnyTerminalMeters": 1794,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "10 Mercer Street, Seattle, WA, 98109",
+      "openingHours": "Su-Mo 11:00-22:00; Tu-Th 11:00-23:00; Fr-Sa 11:00-01:00",
+      "website": "https://www.salylimonseattle.com/",
+      "phone": "+1-206-283-7878",
+      "cuisine": [
+        "mexican"
+      ],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/51717bc46b88e5e2c97b",
+      "name": "Côba",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 47.6241318,
+      "lng": -122.3552673,
+      "distanceFromTerminalMeters": 1879,
+      "distanceFromDefaultTerminalMeters": 1879,
+      "minDistanceFromAnyTerminalMeters": 1879,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "530 1st Avenue North, Seattle, WA, 98109",
+      "openingHours": "Su-Th 11:00-22:00, Fr,Sa 11:00-24:00",
+      "website": "https://www.cobaseattle.com",
+      "phone": "+1-206-283-6614",
+      "cuisine": [
+        "vietnamese"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/4580af1e3f64ea262105",
+      "name": "Moontree Sushi and Tapas",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 47.6238464,
+      "lng": -122.3552544,
+      "distanceFromTerminalMeters": 1886,
+      "distanceFromDefaultTerminalMeters": 1886,
+      "minDistanceFromAnyTerminalMeters": 1886,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "516 1st Avenue North, Seattle, WA, 98109",
+      "openingHours": "Mo 11:00-21:00; Tu-Th 11:30-21:00; Fr 11:30-22:00; Sa 12:00-22:00; Su 12:00-21:00",
+      "website": "https://moontreeseattle.com/",
+      "phone": "+12064329273",
+      "cuisine": [
+        "asian"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/e4c9eb5a954444c5a5cc",
+      "name": "Agave Cocina & Tequilas - Seattle",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 47.6233699,
+      "lng": -122.3552244,
+      "distanceFromTerminalMeters": 1901,
+      "distanceFromDefaultTerminalMeters": 1901,
+      "minDistanceFromAnyTerminalMeters": 1901,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "100 Republican Street, Seattle, WA, 98109",
+      "openingHours": "Mo-Th 11:00-23:00; Fr 11:00-01:00; Sa 10:00-01:00; Su 10:00-23:00",
+      "website": "https://agavecocina.com/contact/seattlelower-queen-anne/",
+      "phone": "+1-206-420-8195",
+      "cuisine": [
+        "mexican"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ffdb55dc1c1df0a716e4",
+      "name": "Pike Place Fish Market",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "seafood",
+      "lat": 47.608632,
+      "lng": -122.3407292,
+      "distanceFromTerminalMeters": 3609,
+      "distanceFromDefaultTerminalMeters": 3609,
+      "minDistanceFromAnyTerminalMeters": 3609,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "86 Pike Street, Seattle, WA, 98101",
+      "openingHours": "Mo-Sa 06:30-18:00; Su 07:00-17:00",
+      "website": "https://www.pikeplacefish.com",
+      "phone": "+1-206-682-7181",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "shop": "seafood"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/119e292622b601ccfbb1",
+      "name": "La Pasta Storefront",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "deli",
+      "lat": 47.6332272,
+      "lng": -122.357221,
+      "distanceFromTerminalMeters": 1804,
+      "distanceFromDefaultTerminalMeters": 1804,
+      "minDistanceFromAnyTerminalMeters": 1804,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1527 Queen Anne Avenue North, Seattle, WA, 98109",
+      "openingHours": "Mo-Fr 11:00-19:00; Sa,Su 11:00-18:00",
+      "website": "",
+      "phone": "+1-206-408-8578",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "Fresh pasta manufacturer and local farmers market sourced grocery.",
+      "osmTags": {
+        "shop": "deli"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/7f34bd6e1b7d2667d59f",
+      "name": "Seattle Visitor Center",
+      "nameEnglish": "",
+      "category": "essentials",
+      "subcategory": "visitor_information",
+      "lat": 47.6114981,
+      "lng": -122.332779,
+      "distanceFromTerminalMeters": 3953,
+      "distanceFromDefaultTerminalMeters": 3953,
+      "minDistanceFromAnyTerminalMeters": 3953,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "701 Pike Street, Seattle, WA, 98101",
+      "openingHours": "",
+      "website": "https://www.visitseattle.org/",
+      "phone": "+1-206-461-5800",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "information"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/baf524fe72ac9251fe4a",
+      "name": "Common Objects",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "gallery",
+      "lat": 47.6152339,
+      "lng": -122.3499757,
+      "distanceFromTerminalMeters": 2624,
+      "distanceFromDefaultTerminalMeters": 2624,
+      "minDistanceFromAnyTerminalMeters": 2624,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "2601 1st Avenue, Seattle, WA, 98121, US",
+      "openingHours": "24/7",
+      "website": "https://camseattle.org",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "arts_centre",
+        "tourism": "gallery"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/5c3995a48ff1da0cdd9a",
+      "name": "Crane Gallery",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "gallery",
+      "lat": 47.6258332,
+      "lng": -122.3583808,
+      "distanceFromTerminalMeters": 1617,
+      "distanceFromDefaultTerminalMeters": 1617,
+      "minDistanceFromAnyTerminalMeters": 1617,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "104 West Roy Street, Seattle, WA, 98119",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "gallery"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/71d4a9550db898eb2c64",
+      "name": "Magnolia Park",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 47.6337037,
+      "lng": -122.3970718,
+      "distanceFromTerminalMeters": 1461,
+      "distanceFromDefaultTerminalMeters": 1461,
+      "minDistanceFromAnyTerminalMeters": 1461,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1461 Magnolia Boulevard West, Seattle, WA, 98199",
+      "openingHours": "",
+      "website": "https://www.seattle.gov/parks/find/parks/magnolia-park",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "park"
+      }
+    }
+  ],
+  "portAnchor": {
+    "id": "ports-json-anchor",
+    "name": "Smith Cove Cruise Terminal",
+    "lat": 47.6276,
+    "lng": -122.3798,
+    "address": "2001 W Garfield St, Seattle, WA 98119",
+    "source": "ports.json",
+    "sourceId": "",
+    "score": 0,
+    "slug": "smith-cove-cruise-terminal"
+  },
+  "terminalResolution": {
+    "status": "resolved",
+    "method": "accepted_terminal_candidate",
+    "verified": true,
+    "notes": "Accepted 1 candidate explicitly identified as an ocean-cruise or cruise-passenger terminal; ferry and unrelated results were excluded."
+  }
+}

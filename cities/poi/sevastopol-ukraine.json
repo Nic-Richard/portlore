@@ -1,0 +1,947 @@
+{
+  "schemaVersion": 5,
+  "catalogType": "curation-candidates",
+  "generatedAt": "2026-07-30T07:51:13.596Z",
+  "source": "openstreetmap",
+  "sourceExtract": "crimean-fed-district-latest.osm.pbf",
+  "radiusMeters": 10000,
+  "port": {
+    "id": "sevastopol-ukraine",
+    "city": "Sevastopol",
+    "country": "Ukraine"
+  },
+  "defaultTerminalId": "ports-json-anchor",
+  "terminal": {
+    "id": "ports-json-anchor",
+    "name": "SEVASTOPOL Port",
+    "lat": 44.62,
+    "lng": 33.53,
+    "address": "Sevastopol, Sevastopol, Ukraine",
+    "source": "ports.json",
+    "sourceId": "",
+    "score": 0,
+    "slug": "sevastopol-port"
+  },
+  "terminals": [
+    {
+      "id": "ports-json-anchor",
+      "name": "SEVASTOPOL Port",
+      "lat": 44.62,
+      "lng": 33.53,
+      "address": "Sevastopol, Sevastopol, Ukraine",
+      "source": "ports.json",
+      "sourceId": "",
+      "score": 0,
+      "slug": "sevastopol-port"
+    }
+  ],
+  "terminalCandidateRadiusMeters": 5000,
+  "terminalCandidates": [
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b07a2476a01735ba6fe9",
+      "name": "Графская пристань",
+      "nameEnglish": "",
+      "lat": 44.6174488,
+      "lng": 33.5271427,
+      "distanceFromPortMeters": 363,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "cargo": "passengers"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/b07a2476a01735ba6fe9"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/53e4394005151fcd68ed",
+      "name": "(unnamed maritime feature)",
+      "nameEnglish": "",
+      "lat": 44.6173376,
+      "lng": 33.5273195,
+      "distanceFromPortMeters": 364,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/53e4394005151fcd68ed"
+      ]
+    },
+    {
+      "source": "nominatim+openstreetmap",
+      "sourceId": "osm/node/1238146062",
+      "osmType": "node",
+      "osmId": "1238146062",
+      "name": "Севастопольский Морской торговый порт",
+      "nameEnglish": "Sevastopol Commercial Port",
+      "lat": 44.616372,
+      "lng": 33.5264627,
+      "distanceFromPortMeters": 491,
+      "address": "Севастопольский Морской торговый порт, Графская пристань, Центральный холм, Ленинский округ, Ленинский район, Севастополь, 99011, Україна",
+      "displayName": "Севастопольский Морской торговый порт, Графская пристань, Центральный холм, Ленинский округ, Ленинский район, Севастополь, 99011, Україна",
+      "query": "SEVASTOPOL Port, Sevastopol, Ukraine",
+      "matchedBy": [
+        "Nominatim query: SEVASTOPOL Port, Sevastopol, Ukraine",
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "building": "yes"
+      },
+      "sources": [
+        "nominatim",
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/node/1238146062",
+        "osm/generated/892de1fdecad3b9049eb"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/297a3fc6076f702007c4",
+      "name": "(unnamed maritime feature)",
+      "nameEnglish": "",
+      "lat": 44.6258879,
+      "lng": 33.5355744,
+      "distanceFromPortMeters": 789,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "cargo": "passengers;vehicle",
+        "ferry": "yes",
+        "public_transport": "station",
+        "route": "ferry"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/297a3fc6076f702007c4"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/608f1015f2299f0b71c1",
+      "name": "Артбухта",
+      "nameEnglish": "",
+      "lat": 44.6141668,
+      "lng": 33.5190625,
+      "distanceFromPortMeters": 1082,
+      "address": "Севастополь",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "cargo": "passengers;vehicle",
+        "ferry": "yes",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/608f1015f2299f0b71c1"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/492aad975b7691698e14",
+      "name": "(unnamed maritime feature)",
+      "nameEnglish": "",
+      "lat": 44.6006552,
+      "lng": 33.5280781,
+      "distanceFromPortMeters": 2156,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/492aad975b7691698e14"
+      ]
+    }
+  ],
+  "counts": {
+    "attraction": 12,
+    "outdoors": 4,
+    "food_drink": 9,
+    "shopping": 3,
+    "essentials": 0
+  },
+  "pois": [
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/4b11325ca50d33929a44",
+      "name": "Храм Архистратига Михаила (Зал №7 музея ЧФ РФ)",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 44.613561,
+      "lng": 33.525815,
+      "distanceFromTerminalMeters": 789,
+      "distanceFromDefaultTerminalMeters": 789,
+      "minDistanceFromAnyTerminalMeters": 789,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "9 улица Ленина",
+      "openingHours": "Sa-Mo 06:30-17:30; We-Th 08:30-11:30; Fr 08:30-17:30; Tu 06:30-11:30",
+      "website": "http://arkhmihail.ru/",
+      "phone": "+79786632953",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/0c5f9e1f155430a4cc59",
+      "name": "Панорама \"Оборона Севастополя 1854-1855 гг.\"",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 44.5954869,
+      "lng": 33.5233089,
+      "distanceFromTerminalMeters": 2777,
+      "distanceFromDefaultTerminalMeters": 2777,
+      "minDistanceFromAnyTerminalMeters": 2777,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1 4-я Бастионная улица",
+      "openingHours": "",
+      "website": "https://www.sevmuseum.ru/",
+      "phone": "+7 8692 222 111",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/5100f62827dc6e502e9c",
+      "name": "Национальный музей героической обороны Севастополя",
+      "nameEnglish": "National Museum of Heroic Defense of Sevastopol",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 44.594575,
+      "lng": 33.5216502,
+      "distanceFromTerminalMeters": 2903,
+      "distanceFromDefaultTerminalMeters": 2903,
+      "minDistanceFromAnyTerminalMeters": 2903,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "14 Исторический бульвар",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/22c14648a79bf60279d3",
+      "name": "площадь Нахимова",
+      "nameEnglish": "Nakhimov Square",
+      "category": "attraction",
+      "subcategory": "square",
+      "lat": 44.6168717,
+      "lng": 33.5255799,
+      "distanceFromTerminalMeters": 493,
+      "distanceFromDefaultTerminalMeters": 493,
+      "minDistanceFromAnyTerminalMeters": 493,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "place": "square"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/4603e6076156b2692ba1",
+      "name": "Штаб Краснознамённого Черноморского флота ВМФ России",
+      "nameEnglish": "Headquarters of the Red Banner Black Sea Fleet of the Russian Navy",
+      "category": "attraction",
+      "subcategory": "ruins",
+      "lat": 44.6128569,
+      "lng": 33.5239201,
+      "distanceFromTerminalMeters": 929,
+      "distanceFromDefaultTerminalMeters": 929,
+      "minDistanceFromAnyTerminalMeters": 929,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "2 улица Воронина, Севастополь, 299040",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "ruins"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/95508e63e4d0f9ca792b",
+      "name": "Памятник Солдату и Матросу",
+      "nameEnglish": "Soldiers and Sailors Monument",
+      "category": "attraction",
+      "subcategory": "monument",
+      "lat": 44.615127,
+      "lng": 33.5143533,
+      "distanceFromTerminalMeters": 1352,
+      "distanceFromDefaultTerminalMeters": 1352,
+      "minDistanceFromAnyTerminalMeters": 1352,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "monument"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/93d0696d1ba20b4ea95f",
+      "name": "Вечный огонь",
+      "nameEnglish": "Eternal flame",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 44.6033722,
+      "lng": 33.5494282,
+      "distanceFromTerminalMeters": 2405,
+      "distanceFromDefaultTerminalMeters": 2405,
+      "minDistanceFromAnyTerminalMeters": 2405,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Севастополь",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "memorial",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/98db1701fd8b9a8fe4e1",
+      "name": "Ластовая площадь",
+      "nameEnglish": "Lastovaya square",
+      "category": "attraction",
+      "subcategory": "square",
+      "lat": 44.6133124,
+      "lng": 33.5401355,
+      "distanceFromTerminalMeters": 1094,
+      "distanceFromDefaultTerminalMeters": 1094,
+      "minDistanceFromAnyTerminalMeters": 1094,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "place": "square"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d7ec22d04de2ab439a4e",
+      "name": "Sevastopol, N. Range, front",
+      "nameEnglish": "Sevastopol, N. Range, front",
+      "category": "attraction",
+      "subcategory": "lighthouse",
+      "lat": 44.624513,
+      "lng": 33.5098156,
+      "distanceFromTerminalMeters": 1674,
+      "distanceFromDefaultTerminalMeters": 1674,
+      "minDistanceFromAnyTerminalMeters": 1674,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "man_made": "lighthouse"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/0ae4df20d4b8fb78b8cd",
+      "name": "Херсонес Таврический",
+      "nameEnglish": "Chersonesus Taurica",
+      "category": "attraction",
+      "subcategory": "archaeological_site",
+      "lat": 44.6107323,
+      "lng": 33.4911772,
+      "distanceFromTerminalMeters": 3241,
+      "distanceFromDefaultTerminalMeters": 3241,
+      "minDistanceFromAnyTerminalMeters": 3241,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "archaeological_site"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/aced5dfcb41c9b47463b",
+      "name": "Храм с аркосолиями X-XIV вв",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "archaeological_site",
+      "lat": 44.6099451,
+      "lng": 33.4940288,
+      "distanceFromTerminalMeters": 3059,
+      "distanceFromDefaultTerminalMeters": 3059,
+      "minDistanceFromAnyTerminalMeters": 3059,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "archaeological_site"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b5b504fc01cb8e867ed6",
+      "name": "Квартал LV (III в. до н.э. - XIII в.н.э.)",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "archaeological_site",
+      "lat": 44.6095885,
+      "lng": 33.4897721,
+      "distanceFromTerminalMeters": 3388,
+      "distanceFromDefaultTerminalMeters": 3388,
+      "minDistanceFromAnyTerminalMeters": 3388,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "archaeological_site"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/85748c2631ecb5a9662d",
+      "name": "Приморский бульвар",
+      "nameEnglish": "Seaside Boulevard",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 44.6169668,
+      "lng": 33.5235887,
+      "distanceFromTerminalMeters": 609,
+      "distanceFromDefaultTerminalMeters": 609,
+      "minDistanceFromAnyTerminalMeters": 609,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Севастополь",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/4e5b405b31b257430a7a",
+      "name": "Ушакова балка",
+      "nameEnglish": "Ushakova beam",
+      "category": "outdoors",
+      "subcategory": "viewpoint",
+      "lat": 44.6149333,
+      "lng": 33.5528846,
+      "distanceFromTerminalMeters": 1897,
+      "distanceFromDefaultTerminalMeters": 1897,
+      "minDistanceFromAnyTerminalMeters": 1897,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "viewpoint"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f22b3c3165c89865ae38",
+      "name": "Красивый вид на город и бухту",
+      "nameEnglish": "Beautiful view of the city and the bay",
+      "category": "outdoors",
+      "subcategory": "viewpoint",
+      "lat": 44.6060382,
+      "lng": 33.5468784,
+      "distanceFromTerminalMeters": 2048,
+      "distanceFromDefaultTerminalMeters": 2048,
+      "minDistanceFromAnyTerminalMeters": 2048,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "viewpoint"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f0fa4841e2a57cafb96b",
+      "name": "Парапланерный старт Радиогорка",
+      "nameEnglish": "Paragliding site Radiohorka",
+      "category": "outdoors",
+      "subcategory": "free_flying",
+      "lat": 44.6373402,
+      "lng": 33.5259226,
+      "distanceFromTerminalMeters": 1955,
+      "distanceFromDefaultTerminalMeters": 1955,
+      "minDistanceFromAnyTerminalMeters": 1955,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Парапланерный старт",
+      "osmTags": {
+        "leisure": "free_flying",
+        "tourism": "viewpoint"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/0179f68758709a5017e7",
+      "name": "Арома Кофе",
+      "nameEnglish": "Aroma Coffee",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 44.6168798,
+      "lng": 33.5247417,
+      "distanceFromTerminalMeters": 542,
+      "distanceFromDefaultTerminalMeters": 542,
+      "minDistanceFromAnyTerminalMeters": 542,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "2/1а площадь Нахимова, 299011",
+      "openingHours": "Mo-Su 07:30-23:00",
+      "website": "",
+      "phone": "+79875573703",
+      "cuisine": [
+        "coffee_shop"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f2237758d94dc49c4663",
+      "name": "Surf Coffee",
+      "nameEnglish": "Surf Coffee",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 44.605679,
+      "lng": 33.52273,
+      "distanceFromTerminalMeters": 1693,
+      "distanceFromDefaultTerminalMeters": 1693,
+      "minDistanceFromAnyTerminalMeters": 1693,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Fr 08:00-22:00; Sa-Su 09:00-22:00",
+      "website": "https://www.surfcoffee.ru",
+      "phone": "+7 978 6741488",
+      "cuisine": [
+        "coffee_shop"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c007bdd1116b9e5dde06",
+      "name": "Тиффани",
+      "nameEnglish": "Tiffany",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 44.6059263,
+      "lng": 33.5217892,
+      "distanceFromTerminalMeters": 1695,
+      "distanceFromDefaultTerminalMeters": 1695,
+      "minDistanceFromAnyTerminalMeters": 1695,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "299011",
+      "openingHours": "Mo-Su 10:00-22:00",
+      "website": "http://vk.com/tiffany92",
+      "phone": "+78692543591",
+      "cuisine": [
+        "breakfast",
+        "russian",
+        "international",
+        "tea",
+        "coffee_shop"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/4a7d03e8e2fe38af9700",
+      "name": "Турка Барсука",
+      "nameEnglish": "Badger's Turk",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 44.6044732,
+      "lng": 33.5201324,
+      "distanceFromTerminalMeters": 1895,
+      "distanceFromDefaultTerminalMeters": 1895,
+      "minDistanceFromAnyTerminalMeters": 1895,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Fr 07:30-20:00; Sa-Su 08:30-20:00",
+      "website": "https://turka-barsuka.clients.site/",
+      "phone": "+7-978-9550087",
+      "cuisine": [
+        "coffee_shop"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f58460d61b1e162e3424",
+      "name": "Кофейня Окна okna.coffee",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 44.6101225,
+      "lng": 33.5244127,
+      "distanceFromTerminalMeters": 1184,
+      "distanceFromDefaultTerminalMeters": 1184,
+      "minDistanceFromAnyTerminalMeters": 1184,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "12 Советская улица, Севастополь, 299011",
+      "openingHours": "Mo-Fr 07:30-21:00; Sa-Su 08:30-21:00",
+      "website": "https://www.instagram.com/okna.coffee/",
+      "phone": "+7 (978) 140-25-13",
+      "cuisine": [
+        "coffee_shop",
+        "coffee",
+        "tea",
+        "dessert",
+        "sandwich"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/dd17cbd214adb806bd4f",
+      "name": "Coffee mill",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 44.6038404,
+      "lng": 33.5225864,
+      "distanceFromTerminalMeters": 1890,
+      "distanceFromDefaultTerminalMeters": 1890,
+      "minDistanceFromAnyTerminalMeters": 1890,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Fr 08:00-20:00; Sa-Su 10:00-20:00",
+      "website": "https://instagram.com/coffeemill.brew",
+      "phone": "",
+      "cuisine": [
+        "cake",
+        "coffee_shop"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d3806ec3a32307c021c3",
+      "name": "Лепим Сами",
+      "nameEnglish": "Lepim Sami BM",
+      "category": "food_drink",
+      "subcategory": "fast_food",
+      "lat": 44.6035402,
+      "lng": 33.5225598,
+      "distanceFromTerminalMeters": 1923,
+      "distanceFromDefaultTerminalMeters": 1923,
+      "minDistanceFromAnyTerminalMeters": 1923,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "48 Большая Морская улица, 299000",
+      "openingHours": "Mo-Sa 09:00-21:00; Su 12:00-21:00",
+      "website": "https://vk.com/sami_lepim",
+      "phone": "+7 978 1145253",
+      "cuisine": [
+        "crepe",
+        "russian"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "fast_food"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/45ebe131e339e4a36c3d",
+      "name": "Пицца Челентано",
+      "nameEnglish": "Pizza Chelentano",
+      "category": "food_drink",
+      "subcategory": "fast_food",
+      "lat": 44.6019336,
+      "lng": 33.5234167,
+      "distanceFromTerminalMeters": 2075,
+      "distanceFromDefaultTerminalMeters": 2075,
+      "minDistanceFromAnyTerminalMeters": 2075,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Su-Th 09:00-22:00; Fr-Sa 09:00-23:00",
+      "website": "https://chelentano.rest/",
+      "phone": "+7 800 500 22 51;+7 978 008 24 87",
+      "cuisine": [
+        "pizza"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "fast_food"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c006e21bbb74eeaa58a2",
+      "name": "BURGER GOURMET",
+      "nameEnglish": "BURGER GOURMET",
+      "category": "food_drink",
+      "subcategory": "fast_food",
+      "lat": 44.5998315,
+      "lng": 33.5241786,
+      "distanceFromTerminalMeters": 2289,
+      "distanceFromDefaultTerminalMeters": 2289,
+      "minDistanceFromAnyTerminalMeters": 2289,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "3 Исторический бульвар",
+      "openingHours": "Mo-Su 10:00-22:00",
+      "website": "https://instagram.com/burgergourmet_sev?utm_medium=copy_link",
+      "phone": "+79787894989",
+      "cuisine": [
+        "burger"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "fast_food"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c0fc6b6a947b1e69d6c5",
+      "name": "ТЦ Lavanda Mall",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "mall",
+      "lat": 44.5898876,
+      "lng": 33.4849686,
+      "distanceFromTerminalMeters": 4891,
+      "distanceFromDefaultTerminalMeters": 4891,
+      "minDistanceFromAnyTerminalMeters": 4891,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "33А улица Вакуленчука, Севастополь, 299053",
+      "openingHours": "10:00-22:00",
+      "website": "lavanda-mall.ru",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "shop": "mall"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/e5baf1b35413c3069760",
+      "name": "Фелент",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "marketplace",
+      "lat": 44.6099935,
+      "lng": 33.524395,
+      "distanceFromTerminalMeters": 1198,
+      "distanceFromDefaultTerminalMeters": 1198,
+      "minDistanceFromAnyTerminalMeters": 1198,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Su 08:00-22:00",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "marketplace"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/1ddad0fcfce67a5862bd",
+      "name": "Ринок \"Пiвнiчний\"",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "marketplace",
+      "lat": 44.6281355,
+      "lng": 33.5366458,
+      "distanceFromTerminalMeters": 1046,
+      "distanceFromDefaultTerminalMeters": 1046,
+      "minDistanceFromAnyTerminalMeters": 1046,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "marketplace"
+      }
+    }
+  ],
+  "portAnchor": {
+    "id": "ports-json-anchor",
+    "name": "SEVASTOPOL Port",
+    "lat": 44.62,
+    "lng": 33.53,
+    "address": "Sevastopol, Sevastopol, Ukraine",
+    "source": "ports.json",
+    "sourceId": "",
+    "score": 0,
+    "slug": "sevastopol-port"
+  },
+  "terminalResolution": {
+    "status": "unresolved",
+    "method": "ports_json_fallback",
+    "verified": false,
+    "notes": "All supplied candidates are ferry-only stops, local docks, unnamed maritime features, or unrelated places rather than passenger cruise terminals."
+  }
+}

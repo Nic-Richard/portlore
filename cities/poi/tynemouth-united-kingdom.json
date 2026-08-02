@@ -1,0 +1,1020 @@
+{
+  "schemaVersion": 5,
+  "catalogType": "curation-candidates",
+  "generatedAt": "2026-07-30T09:15:22.313Z",
+  "source": "openstreetmap",
+  "sourceExtract": "tyne-and-wear-latest.osm.pbf",
+  "radiusMeters": 10000,
+  "port": {
+    "id": "tynemouth-united-kingdom",
+    "city": "Tynemouth",
+    "country": "United Kingdom"
+  },
+  "defaultTerminalId": "ports-json-anchor",
+  "terminal": {
+    "id": "ports-json-anchor",
+    "name": "TYNEMOUTH Port",
+    "lat": 55,
+    "lng": -1.4,
+    "address": "Tynemouth, England, United Kingdom",
+    "source": "ports.json",
+    "sourceId": "",
+    "score": 0,
+    "slug": "tynemouth-port"
+  },
+  "terminals": [
+    {
+      "id": "ports-json-anchor",
+      "name": "TYNEMOUTH Port",
+      "lat": 55,
+      "lng": -1.4,
+      "address": "Tynemouth, England, United Kingdom",
+      "source": "ports.json",
+      "sourceId": "",
+      "score": 0,
+      "slug": "tynemouth-port"
+    }
+  ],
+  "terminalCandidateRadiusMeters": 5000,
+  "terminalCandidates": [
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/73283c0f9945d125aa44",
+      "name": "South Shields Ferry Terminal",
+      "nameEnglish": "",
+      "lat": 54.9972343,
+      "lng": -1.4408014,
+      "distanceFromPortMeters": 2620,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "cargo": "passengers",
+        "ferry": "yes",
+        "man_made": "pier",
+        "operator": "Nexus",
+        "public_transport": "platform"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/73283c0f9945d125aa44"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/4b6bf9a11ae5096beb74",
+      "name": "North Shields Ferry Terminal",
+      "nameEnglish": "",
+      "lat": 55.0037863,
+      "lng": -1.4442454,
+      "distanceFromPortMeters": 2853,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "cargo": "passengers",
+        "ferry": "yes",
+        "man_made": "pier",
+        "operator": "Nexus",
+        "public_transport": "platform"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/4b6bf9a11ae5096beb74"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/fe026643fca1c713797e",
+      "name": "Newcastle",
+      "nameEnglish": "",
+      "lat": 54.9919513,
+      "lng": -1.4498941,
+      "distanceFromPortMeters": 3306,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "cargo": "passengers;vehicle",
+        "ferry": "yes",
+        "public_transport": "stop_position"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/fe026643fca1c713797e"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/968b05a49c2b24d4c4cc",
+      "name": "Port of Tyne International Passenger Terminal",
+      "nameEnglish": "",
+      "lat": 54.9925026,
+      "lng": -1.4522176,
+      "distanceFromPortMeters": 3433,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal",
+        "terminal-like name"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/968b05a49c2b24d4c4cc"
+      ]
+    }
+  ],
+  "counts": {
+    "attraction": 17,
+    "outdoors": 4,
+    "food_drink": 10,
+    "shopping": 1,
+    "essentials": 1
+  },
+  "pois": [
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b3a93fdd09a4611dcc7b",
+      "name": "Arbeia Roman Fort Museum",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 55.0041192,
+      "lng": -1.4319694,
+      "distanceFromTerminalMeters": 2090,
+      "distanceFromDefaultTerminalMeters": 2090,
+      "minDistanceFromAnyTerminalMeters": 2090,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mar 25-Sep 29 Mo-Fr 10:00-17:00; Mar 25-Sep 29 Sa 11:00-16:00; Mar 25-Sep 29 Su 13:00-16:00",
+      "website": "https://arbeiaromanfort.org.uk/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/5af2fd6f8db39007f4a3",
+      "name": "Tynemouth Priory and Castle",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 55.0178904,
+      "lng": -1.4178484,
+      "distanceFromTerminalMeters": 2292,
+      "distanceFromDefaultTerminalMeters": 2292,
+      "minDistanceFromAnyTerminalMeters": 2292,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Pier Road, North Shields, NE30 4BZ, GB",
+      "openingHours": "Mar 28-Sep 30 Mo-Su 10:00-18:00; Oct 01-Nov 01 Mo-Su 10:00-16:00; Nov 02-Feb 14 Mo-Fr off, Sa-Su 10:00-16:00",
+      "website": "https://www.english-heritage.org.uk/visit/places/tynemouth-priory-and-castle/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "castle",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/503b0869f24117e4ab1a",
+      "name": "South Shields Museum & Art Gallery",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 54.9987213,
+      "lng": -1.4316546,
+      "distanceFromTerminalMeters": 2024,
+      "distanceFromDefaultTerminalMeters": 2024,
+      "minDistanceFromAnyTerminalMeters": 2024,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Ocean Road, South Shields, NE33 2JA",
+      "openingHours": "",
+      "website": "https://southshieldsmuseum.org.uk/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "limited",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/02cdffc90e067d9bef3c",
+      "name": "Watch House Museum",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 55.0147131,
+      "lng": -1.4190187,
+      "distanceFromTerminalMeters": 2037,
+      "distanceFromDefaultTerminalMeters": 2037,
+      "minDistanceFromAnyTerminalMeters": 2037,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "https://tvlb.org/the-watch-house-museum/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c5cbf4d64d6855273110",
+      "name": "Old Lowlight Heritage Centre",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 55.0095989,
+      "lng": -1.4338154,
+      "distanceFromTerminalMeters": 2406,
+      "distanceFromDefaultTerminalMeters": 2406,
+      "minDistanceFromAnyTerminalMeters": 2406,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Fish Quay, North Shields, NE30 1JA",
+      "openingHours": "",
+      "website": "https://oldlowlight.co.uk/",
+      "phone": "+44 191 257 4506",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/896947645920f262dea9",
+      "name": "Ocean Beach Pleasure Park",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "theme_park",
+      "lat": 55.0015026,
+      "lng": -1.4174733,
+      "distanceFromTerminalMeters": 1127,
+      "distanceFromDefaultTerminalMeters": 1127,
+      "minDistanceFromAnyTerminalMeters": 1127,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "https://www.oceanbeach.co.uk/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "theme_park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/aa317d1972b4748d3947",
+      "name": "Arbeia Roman Fort and Museum",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "archaeological_site",
+      "lat": 55.0043049,
+      "lng": -1.4311127,
+      "distanceFromTerminalMeters": 2041,
+      "distanceFromDefaultTerminalMeters": 2041,
+      "minDistanceFromAnyTerminalMeters": 2041,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "South Shields",
+      "openingHours": "",
+      "website": "https://www.northeastmuseums.org.uk/arbeia",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "archaeological_site"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d016d0bee09d99c0a9c9",
+      "name": "Souter Lighthouse",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 54.970442,
+      "lng": -1.3644471,
+      "distanceFromTerminalMeters": 3993,
+      "distanceFromDefaultTerminalMeters": 3993,
+      "minDistanceFromAnyTerminalMeters": 3993,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "SR6 7NH",
+      "openingHours": "",
+      "website": "https://www.nationaltrust.org.uk/souter-lighthouse-and-the-leas",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/64a9b2bc9572e767a4c9",
+      "name": "Blue Reef Aquarium Tynemouth",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "aquarium",
+      "lat": 55.0277273,
+      "lng": -1.4304023,
+      "distanceFromTerminalMeters": 3642,
+      "distanceFromDefaultTerminalMeters": 3642,
+      "minDistanceFromAnyTerminalMeters": 3642,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Grand Parade, North Shields, NE30 4JF",
+      "openingHours": "Mo-Su 10:00-17:00",
+      "website": "https://www.bluereefaquarium.co.uk/tynemouth/",
+      "phone": "+44 191 258 1031",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "aquarium"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ec85cc519dd8b8279f88",
+      "name": "Monument of Queen Victoria",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "monument",
+      "lat": 54.9948388,
+      "lng": -1.429569,
+      "distanceFromTerminalMeters": 1971,
+      "distanceFromDefaultTerminalMeters": 1971,
+      "minDistanceFromAnyTerminalMeters": 1971,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "monument"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/2ac49f44ccd246032368",
+      "name": "Admiral Lord Collingwood Monument",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 55.0147587,
+      "lng": -1.4201236,
+      "distanceFromTerminalMeters": 2083,
+      "distanceFromDefaultTerminalMeters": 2083,
+      "minDistanceFromAnyTerminalMeters": 2083,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "monument",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/db7bc9a7b54e63f9a05d",
+      "name": "Inflata Nation",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "theme_park",
+      "lat": 54.9954946,
+      "lng": -1.4631509,
+      "distanceFromTerminalMeters": 4059,
+      "distanceFromDefaultTerminalMeters": 4059,
+      "minDistanceFromAnyTerminalMeters": 4059,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "https://www.inflatanation.com/locations/newcastle/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Tent-Like",
+      "osmTags": {
+        "tourism": "theme_park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/be03018d7f0505f6853d",
+      "name": "South Shields Lighthouse",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "lighthouse",
+      "lat": 55.0112087,
+      "lng": -1.4010801,
+      "distanceFromTerminalMeters": 1248,
+      "distanceFromDefaultTerminalMeters": 1248,
+      "minDistanceFromAnyTerminalMeters": 1248,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "man_made": "lighthouse"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/207ed89ba9b0e3f7b207",
+      "name": "Tynemouth Lighthouse",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "lighthouse",
+      "lat": 55.0145188,
+      "lng": -1.4029434,
+      "distanceFromTerminalMeters": 1625,
+      "distanceFromDefaultTerminalMeters": 1625,
+      "minDistanceFromAnyTerminalMeters": 1625,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "man_made": "lighthouse"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c485eb2f10233c1f53a7",
+      "name": "Herd Groyne Lighthouse",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "lighthouse",
+      "lat": 55.0079851,
+      "lng": -1.4240442,
+      "distanceFromTerminalMeters": 1772,
+      "distanceFromDefaultTerminalMeters": 1772,
+      "minDistanceFromAnyTerminalMeters": 1772,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "man_made": "lighthouse"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/1435696511315864c6b6",
+      "name": "Herd Sand",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "beach",
+      "lat": 54.9994447,
+      "lng": -1.4079077,
+      "distanceFromTerminalMeters": 508,
+      "distanceFromDefaultTerminalMeters": 508,
+      "minDistanceFromAnyTerminalMeters": 508,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "natural": "beach"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/37577598b99f80dd3b45",
+      "name": "Graham's Sand",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "beach",
+      "lat": 54.9928188,
+      "lng": -1.3997312,
+      "distanceFromTerminalMeters": 799,
+      "distanceFromDefaultTerminalMeters": 799,
+      "minDistanceFromAnyTerminalMeters": 799,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "natural": "beach"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/59f6c56abbf7861ce41a",
+      "name": "South Marine Park",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 54.999778,
+      "lng": -1.4203472,
+      "distanceFromTerminalMeters": 1298,
+      "distanceFromDefaultTerminalMeters": 1298,
+      "minDistanceFromAnyTerminalMeters": 1298,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Beach Road, South Shields",
+      "openingHours": "",
+      "website": "https://www.southtyneside.gov.uk/article/11254/South-Marine-Park",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/8b4cc3245d7531e58859",
+      "name": "St Stephen's Gardens",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 55.0038864,
+      "lng": -1.435532,
+      "distanceFromTerminalMeters": 2307,
+      "distanceFromDefaultTerminalMeters": 2307,
+      "minDistanceFromAnyTerminalMeters": 2307,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/7e1d8deb11e67f89044c",
+      "name": "Colmans Seafood Temple",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 54.9958606,
+      "lng": -1.4094056,
+      "distanceFromTerminalMeters": 756,
+      "distanceFromDefaultTerminalMeters": 756,
+      "minDistanceFromAnyTerminalMeters": 756,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "South Shields, NE33 2LD, GB",
+      "openingHours": "",
+      "website": "https://colmansseafoodtemple.co.uk/",
+      "phone": "",
+      "cuisine": [
+        "seafood"
+      ],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b2507ba38fd5254b67b6",
+      "name": "Waterfront",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 55.0098509,
+      "lng": -1.434918,
+      "distanceFromTerminalMeters": 2482,
+      "distanceFromDefaultTerminalMeters": 2482,
+      "minDistanceFromAnyTerminalMeters": 2482,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "22-26 Union Quay, North Shields, NE30 1HJ",
+      "openingHours": "",
+      "website": "",
+      "phone": "+44 191 296 1721",
+      "cuisine": [
+        "fish_and_chips"
+      ],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/461f7ff307b7e478db43",
+      "name": "Deep North",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 55.0177673,
+      "lng": -1.4229604,
+      "distanceFromTerminalMeters": 2459,
+      "distanceFromDefaultTerminalMeters": 2459,
+      "minDistanceFromAnyTerminalMeters": 2459,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "34 Front Street, Tynemouth",
+      "openingHours": "Mo-Fr 08:30-16:30; Sa-Su 08:30-17:00",
+      "website": "https://www.deepnorth.co.uk/",
+      "phone": "",
+      "cuisine": [
+        "coffee_shop",
+        "donut"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f1dbb234d0b79bcc6edd",
+      "name": "Cullercoats Coffee Co",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 55.0173203,
+      "lng": -1.4244345,
+      "distanceFromTerminalMeters": 2477,
+      "distanceFromDefaultTerminalMeters": 2477,
+      "minDistanceFromAnyTerminalMeters": 2477,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "69 Front Street, North Shields, NE30 4BP",
+      "openingHours": "Mo-Fr 07:00-14:00; Sa-Su 07:00-16:00",
+      "website": "https://www.cullercoatscoffee.com/tynemouth",
+      "phone": "",
+      "cuisine": [
+        "coffee_shop"
+      ],
+      "wheelchair": "no",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/06cf8e56302467d4f2bd",
+      "name": "Colmans",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 55.0000336,
+      "lng": -1.4254692,
+      "distanceFromTerminalMeters": 1624,
+      "distanceFromDefaultTerminalMeters": 1624,
+      "minDistanceFromAnyTerminalMeters": 1624,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "176-186 Ocean Road, South Shields, NE33 2JQ",
+      "openingHours": "",
+      "website": "http://www.colmansfishandchips.com/",
+      "phone": "+44 191 456 1202",
+      "cuisine": [
+        "regional"
+      ],
+      "wheelchair": "limited",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/df70b8f2cb653974574c",
+      "name": "Radhuni",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 54.9999616,
+      "lng": -1.4258032,
+      "distanceFromTerminalMeters": 1646,
+      "distanceFromDefaultTerminalMeters": 1646,
+      "minDistanceFromAnyTerminalMeters": 1646,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "166-168 Ocean Road, South Shields, NE33 2JQ",
+      "openingHours": "",
+      "website": "https://www.myradhuni.co.uk/",
+      "phone": "+44 191 455 1600",
+      "cuisine": [
+        "turkish"
+      ],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/0dcc2dd212bb858fa5ea",
+      "name": "Tandoori International",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 55.0003352,
+      "lng": -1.4259053,
+      "distanceFromTerminalMeters": 1653,
+      "distanceFromDefaultTerminalMeters": 1653,
+      "minDistanceFromAnyTerminalMeters": 1653,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "97 Ocean Road, South Shields, NE33 2JL",
+      "openingHours": "",
+      "website": "https://tandooriinternational.co.uk/",
+      "phone": "",
+      "cuisine": [
+        "indian"
+      ],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/dc76349827994229e9e5",
+      "name": "Ristorante Bravi",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 54.9985469,
+      "lng": -1.4357709,
+      "distanceFromTerminalMeters": 2287,
+      "distanceFromDefaultTerminalMeters": 2287,
+      "minDistanceFromAnyTerminalMeters": 2287,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "7 North Street, South Shields, NE33 1HD, GB",
+      "openingHours": "",
+      "website": "https://bravirestaurant-southshields.co.uk/",
+      "phone": "+44 191 427 5400",
+      "cuisine": [
+        "italian"
+      ],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/429980df37c8cb6d3d71",
+      "name": "Riley's Fish Shack",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 55.0186401,
+      "lng": -1.42052,
+      "distanceFromTerminalMeters": 2451,
+      "distanceFromDefaultTerminalMeters": 2451,
+      "minDistanceFromAnyTerminalMeters": 2451,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "North Shields, NE30 4EB, GB",
+      "openingHours": "",
+      "website": "https://rileysfishshack.com/",
+      "phone": "+44 191 257 1371",
+      "cuisine": [
+        "seafood",
+        "coffee_shop"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c2482b087f39b0468446",
+      "name": "Spice Garden",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 55.0001597,
+      "lng": -1.424884,
+      "distanceFromTerminalMeters": 1587,
+      "distanceFromDefaultTerminalMeters": 1587,
+      "minDistanceFromAnyTerminalMeters": 1587,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "202 Ocean Road, South Shields, NE33 2JQ",
+      "openingHours": "",
+      "website": "",
+      "phone": "+44 191 455 9867",
+      "cuisine": [
+        "indian"
+      ],
+      "wheelchair": "limited",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/bb944bab6c573fa037fa",
+      "name": "Razzberry Bazaar",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "gift",
+      "lat": 55.0179292,
+      "lng": -1.4251463,
+      "distanceFromTerminalMeters": 2558,
+      "distanceFromDefaultTerminalMeters": 2558,
+      "minDistanceFromAnyTerminalMeters": 2558,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "14 Front Street, North Shields, NE30 4DX",
+      "openingHours": "Su-We 11:00-16:00; Th,Fr 11:00-16:30; Sa 11:00-17:00",
+      "website": "https://razzberrybazaar.co.uk/",
+      "phone": "+44 191 296 3133",
+      "cuisine": [],
+      "wheelchair": "no",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "shop": "gift"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/009a03f974e2e418ca83",
+      "name": "Millennium Milepost South Shields",
+      "nameEnglish": "",
+      "category": "essentials",
+      "subcategory": "visitor_information",
+      "lat": 54.9941442,
+      "lng": -1.4261991,
+      "distanceFromTerminalMeters": 1793,
+      "distanceFromDefaultTerminalMeters": 1793,
+      "minDistanceFromAnyTerminalMeters": 1793,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "1) The Coast 1, Sunderland 9\n2) Town Centre 0.25, Shields Ferry 0.5",
+      "osmTags": {
+        "tourism": "information"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/da57d26d26f72b212292",
+      "name": "Cliffords Fort",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "ruins",
+      "lat": 55.009759,
+      "lng": -1.4336728,
+      "distanceFromTerminalMeters": 2406,
+      "distanceFromDefaultTerminalMeters": 2406,
+      "minDistanceFromAnyTerminalMeters": 2406,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "ruins"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/e7da06b0ac88dfcb2c62",
+      "name": "Holy Trinity Church",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "ruins",
+      "lat": 54.9908015,
+      "lng": -1.4410184,
+      "distanceFromTerminalMeters": 2809,
+      "distanceFromDefaultTerminalMeters": 2809,
+      "minDistanceFromAnyTerminalMeters": 2809,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "ruins"
+      }
+    }
+  ],
+  "portAnchor": {
+    "id": "ports-json-anchor",
+    "name": "TYNEMOUTH Port",
+    "lat": 55,
+    "lng": -1.4,
+    "address": "Tynemouth, England, United Kingdom",
+    "source": "ports.json",
+    "sourceId": "",
+    "score": 0,
+    "slug": "tynemouth-port"
+  },
+  "terminalResolution": {
+    "status": "unresolved",
+    "method": "ports_json_fallback",
+    "verified": false,
+    "notes": "All supplied candidates are ferry-only stops, local docks, unnamed maritime features, or unrelated places rather than passenger cruise terminals."
+  }
+}

@@ -1,0 +1,614 @@
+{
+  "schemaVersion": 5,
+  "catalogType": "curation-candidates",
+  "generatedAt": "2026-07-30T08:09:38.380Z",
+  "source": "openstreetmap",
+  "sourceExtract": "java-latest.osm.pbf",
+  "radiusMeters": 10000,
+  "port": {
+    "id": "cilacap-indonesia",
+    "city": "Cilacap",
+    "country": "Indonesia"
+  },
+  "defaultTerminalId": "ports-json-anchor",
+  "terminal": {
+    "id": "ports-json-anchor",
+    "name": "CILACAP Port",
+    "lat": -7.73,
+    "lng": 109,
+    "address": "Cilacap, Central Java, Indonesia",
+    "source": "ports.json",
+    "sourceId": "",
+    "score": 0,
+    "slug": "cilacap-port"
+  },
+  "terminals": [
+    {
+      "id": "ports-json-anchor",
+      "name": "CILACAP Port",
+      "lat": -7.73,
+      "lng": 109,
+      "address": "Cilacap, Central Java, Indonesia",
+      "source": "ports.json",
+      "sourceId": "",
+      "score": 0,
+      "slug": "cilacap-port"
+    }
+  ],
+  "terminalCandidateRadiusMeters": 5000,
+  "terminalCandidates": [
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/43b9cc5e806b9dca12a0",
+      "name": "(unnamed maritime feature)",
+      "nameEnglish": "",
+      "lat": -7.7414481,
+      "lng": 108.9965227,
+      "distanceFromPortMeters": 1329,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "cargo": "passengers"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/43b9cc5e806b9dca12a0"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ce4f4da4af5d157b8608",
+      "name": "(unnamed maritime feature)",
+      "nameEnglish": "",
+      "lat": -7.7419863,
+      "lng": 108.9901766,
+      "distanceFromPortMeters": 1717,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/ce4f4da4af5d157b8608"
+      ]
+    }
+  ],
+  "counts": {
+    "attraction": 4,
+    "outdoors": 6,
+    "food_drink": 6,
+    "shopping": 4,
+    "essentials": 0
+  },
+  "pois": [
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/bb0c0afcc1fd5d8f94c6",
+      "name": "Benteng Pendem",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": -7.7491122,
+      "lng": 109.0172992,
+      "distanceFromTerminalMeters": 2855,
+      "distanceFromDefaultTerminalMeters": 2855,
+      "minDistanceFromAnyTerminalMeters": 2855,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/6c55c0810160e8c56101",
+      "name": "Makam Mbah Singalodra dan Mbah Wijaya Kusuma",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "tomb",
+      "lat": -7.7438299,
+      "lng": 109.0137448,
+      "distanceFromTerminalMeters": 2158,
+      "distanceFromDefaultTerminalMeters": 2158,
+      "minDistanceFromAnyTerminalMeters": 2158,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "tomb"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/8c3b27d0b912a1c30211",
+      "name": "Sentul Water Park & Hall",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": -7.7077876,
+      "lng": 109.0199711,
+      "distanceFromTerminalMeters": 3308,
+      "distanceFromDefaultTerminalMeters": 3308,
+      "minDistanceFromAnyTerminalMeters": 3308,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Jalan Jenderal Gatot Subroto",
+      "openingHours": "Mo-Su 09:00-17:00",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/6eb3843baf7a25133905",
+      "name": "Old Barracks",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "building",
+      "lat": -7.7484575,
+      "lng": 109.0167787,
+      "distanceFromTerminalMeters": 2762,
+      "distanceFromDefaultTerminalMeters": 2762,
+      "minDistanceFromAnyTerminalMeters": 2762,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "building"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/6c3947774bf73229d227",
+      "name": "Pantai",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "beach",
+      "lat": -7.7200261,
+      "lng": 109.0290249,
+      "distanceFromTerminalMeters": 3385,
+      "distanceFromDefaultTerminalMeters": 3385,
+      "minDistanceFromAnyTerminalMeters": 3385,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "natural": "beach"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/29246fa37ef26175ffe8",
+      "name": "Karang Gaja",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "peak",
+      "lat": -7.747222,
+      "lng": 108.991667,
+      "distanceFromTerminalMeters": 2124,
+      "distanceFromDefaultTerminalMeters": 2124,
+      "minDistanceFromAnyTerminalMeters": 2124,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "natural": "peak"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/5a1f8671b60924513bf7",
+      "name": "Gunung Klewung",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "peak",
+      "lat": -7.745,
+      "lng": 108.986389,
+      "distanceFromTerminalMeters": 2243,
+      "distanceFromDefaultTerminalMeters": 2243,
+      "minDistanceFromAnyTerminalMeters": 2243,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "natural": "peak"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/a1b877b3c95b89922aba",
+      "name": "Gunung Bisikan",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "peak",
+      "lat": -7.734444,
+      "lng": 108.976111,
+      "distanceFromTerminalMeters": 2678,
+      "distanceFromDefaultTerminalMeters": 2678,
+      "minDistanceFromAnyTerminalMeters": 2678,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "natural": "peak"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/de6fea49e8e0545bab54",
+      "name": "Gunung Nahrumpit",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "peak",
+      "lat": -7.756667,
+      "lng": 109.002222,
+      "distanceFromTerminalMeters": 2975,
+      "distanceFromDefaultTerminalMeters": 2975,
+      "minDistanceFromAnyTerminalMeters": 2975,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "natural": "peak"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d24bd42cd998cc8c863a",
+      "name": "Gunung Cigobang",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "peak",
+      "lat": -7.746111,
+      "lng": 108.977778,
+      "distanceFromTerminalMeters": 3034,
+      "distanceFromDefaultTerminalMeters": 3034,
+      "minDistanceFromAnyTerminalMeters": 3034,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "natural": "peak"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/9d3d97c8ea9774f08e5d",
+      "name": "Warung",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": -7.7279861,
+      "lng": 109.0033516,
+      "distanceFromTerminalMeters": 432,
+      "distanceFromDefaultTerminalMeters": 432,
+      "minDistanceFromAnyTerminalMeters": 432,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/75cd11ca655cd52f0241",
+      "name": "Warung Makan Pelabuhan",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": -7.7336327,
+      "lng": 108.9954587,
+      "distanceFromTerminalMeters": 643,
+      "distanceFromDefaultTerminalMeters": 643,
+      "minDistanceFromAnyTerminalMeters": 643,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ef12388c5608a0152ff3",
+      "name": "WARUNG MAKAN BU BASUKI",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": -7.7281468,
+      "lng": 109.0191382,
+      "distanceFromTerminalMeters": 2119,
+      "distanceFromDefaultTerminalMeters": 2119,
+      "minDistanceFromAnyTerminalMeters": 2119,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/67ba30f1656aa3640bd0",
+      "name": "Sido Roso",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": -7.7101939,
+      "lng": 109.012818,
+      "distanceFromTerminalMeters": 2616,
+      "distanceFromDefaultTerminalMeters": 2616,
+      "minDistanceFromAnyTerminalMeters": 2616,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "47 Jalan Rinjani, 53223",
+      "openingHours": "Mo-Su 09:00-21:00",
+      "website": "",
+      "phone": "",
+      "cuisine": [
+        "indonesian"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/7e8145e89f4788d25465",
+      "name": "BAKSO DAN SOTO B.RAMIDI",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": -7.7191205,
+      "lng": 109.0272626,
+      "distanceFromTerminalMeters": 3238,
+      "distanceFromDefaultTerminalMeters": 3238,
+      "minDistanceFromAnyTerminalMeters": 3238,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/785b14eac0bdf014dc3e",
+      "name": "MIE AYAM SLIP WASIMAN",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": -7.7119127,
+      "lng": 109.032451,
+      "distanceFromTerminalMeters": 4102,
+      "distanceFromDefaultTerminalMeters": 4102,
+      "minDistanceFromAnyTerminalMeters": 4102,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/20986bce7cfb9d7dfde0",
+      "name": "Pasar Kapal",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "marketplace",
+      "lat": -7.7236819,
+      "lng": 109.0240776,
+      "distanceFromTerminalMeters": 2744,
+      "distanceFromDefaultTerminalMeters": 2744,
+      "minDistanceFromAnyTerminalMeters": 2744,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "marketplace"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/1645ebb5034219fb43f9",
+      "name": "Pasar Tanjungsari",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "marketplace",
+      "lat": -7.7033888,
+      "lng": 109.0263645,
+      "distanceFromTerminalMeters": 4147,
+      "distanceFromDefaultTerminalMeters": 4147,
+      "minDistanceFromAnyTerminalMeters": 4147,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Jalan Kalimantan RW 8",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "marketplace"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/08e8f092cfe2924f657d",
+      "name": "Pasar Gumilir",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "marketplace",
+      "lat": -7.6861661,
+      "lng": 109.0418985,
+      "distanceFromTerminalMeters": 6714,
+      "distanceFromDefaultTerminalMeters": 6714,
+      "minDistanceFromAnyTerminalMeters": 6714,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "marketplace"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/5fed2edbb7698b437cba",
+      "name": "RITA MALL",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "mall",
+      "lat": -7.7316591,
+      "lng": 109.0090915,
+      "distanceFromTerminalMeters": 1019,
+      "distanceFromDefaultTerminalMeters": 1019,
+      "minDistanceFromAnyTerminalMeters": 1019,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "JL AHMAD YANI RT05 RW14",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "shop": "mall"
+      }
+    }
+  ],
+  "portAnchor": {
+    "id": "ports-json-anchor",
+    "name": "CILACAP Port",
+    "lat": -7.73,
+    "lng": 109,
+    "address": "Cilacap, Central Java, Indonesia",
+    "source": "ports.json",
+    "sourceId": "",
+    "score": 0,
+    "slug": "cilacap-port"
+  },
+  "terminalResolution": {
+    "status": "unresolved",
+    "method": "ports_json_fallback",
+    "verified": false,
+    "notes": "All supplied candidates are ferry-only stops, local docks, unnamed maritime features, or unrelated places rather than passenger cruise terminals."
+  }
+}

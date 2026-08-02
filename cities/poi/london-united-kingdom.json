@@ -1,0 +1,1655 @@
+{
+  "schemaVersion": 5,
+  "catalogType": "curation-candidates",
+  "generatedAt": "2026-07-30T08:01:24.163Z",
+  "source": "openstreetmap",
+  "sourceExtract": "greater-london-latest.osm.pbf",
+  "radiusMeters": 10000,
+  "port": {
+    "id": "london-united-kingdom",
+    "city": "London",
+    "country": "United Kingdom"
+  },
+  "defaultTerminalId": "manual/london-united-kingdom/london-international-cruise-terminal-tilbury",
+  "terminal": {
+    "id": "manual/london-united-kingdom/london-international-cruise-terminal-tilbury",
+    "name": "London International Cruise Terminal, Tilbury",
+    "nameEnglish": "",
+    "lat": 51.46284,
+    "lng": 0.34757,
+    "address": "",
+    "source": "manual_web_research",
+    "sourceId": "manual/london-united-kingdom/london-international-cruise-terminal-tilbury",
+    "terminalType": "gateway_cruise_terminal",
+    "verified": true,
+    "notes": "Primary full-size cruise terminal marketed for London. Coordinate marks the historic passenger terminal at Tilbury.",
+    "sourceUrls": [
+      "https://pla.co.uk/berths-terminals",
+      "https://www.openstreetmap.org/?mlat=51.46284&mlon=0.34757#map=17/51.46284/0.34757"
+    ],
+    "sources": [
+      "manual_web_research"
+    ],
+    "sourceIds": [
+      "manual/london-united-kingdom/london-international-cruise-terminal-tilbury"
+    ],
+    "osmTags": {},
+    "matchedBy": [
+      "web_researched_terminal"
+    ],
+    "distanceFromPortMeters": null
+  },
+  "terminals": [
+    {
+      "id": "manual/london-united-kingdom/london-international-cruise-terminal-tilbury",
+      "name": "London International Cruise Terminal, Tilbury",
+      "nameEnglish": "",
+      "lat": 51.46284,
+      "lng": 0.34757,
+      "address": "",
+      "source": "manual_web_research",
+      "sourceId": "manual/london-united-kingdom/london-international-cruise-terminal-tilbury",
+      "terminalType": "gateway_cruise_terminal",
+      "verified": true,
+      "notes": "Primary full-size cruise terminal marketed for London. Coordinate marks the historic passenger terminal at Tilbury.",
+      "sourceUrls": [
+        "https://pla.co.uk/berths-terminals",
+        "https://www.openstreetmap.org/?mlat=51.46284&mlon=0.34757#map=17/51.46284/0.34757"
+      ],
+      "sources": [
+        "manual_web_research"
+      ],
+      "sourceIds": [
+        "manual/london-united-kingdom/london-international-cruise-terminal-tilbury"
+      ],
+      "osmTags": {},
+      "matchedBy": [
+        "web_researched_terminal"
+      ],
+      "distanceFromPortMeters": null
+    },
+    {
+      "id": "manual/london-united-kingdom/greenwich-ship-tier",
+      "name": "Greenwich Ship Tier",
+      "nameEnglish": "",
+      "lat": 51.48287,
+      "lng": -0.00994,
+      "address": "",
+      "source": "manual_web_research",
+      "sourceId": "manual/london-united-kingdom/greenwich-ship-tier",
+      "terminalType": "cruise_tender_landing",
+      "verified": true,
+      "notes": "Central-London mooring used by smaller cruise ships. Passengers tender ashore at Greenwich Pier.",
+      "sourceUrls": [
+        "https://pla.co.uk/berths-terminals",
+        "https://www.openstreetmap.org/?mlat=51.48287&mlon=-0.00994#map=17/51.48287/-0.00994"
+      ],
+      "sources": [
+        "manual_web_research"
+      ],
+      "sourceIds": [
+        "manual/london-united-kingdom/greenwich-ship-tier"
+      ],
+      "osmTags": {},
+      "matchedBy": [
+        "web_researched_terminal"
+      ],
+      "distanceFromPortMeters": null
+    }
+  ],
+  "terminalCandidateRadiusMeters": 5000,
+  "terminalCandidates": [
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/a99b8b75e5526928617b",
+      "name": "Saint Katharine's Pier",
+      "nameEnglish": "",
+      "lat": 51.5059721,
+      "lng": -0.0735163,
+      "distanceFromPortMeters": 801,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "stop_position"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/a99b8b75e5526928617b"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d5da30c0bd3980c20f18",
+      "name": "Tower Millennium Pier",
+      "nameEnglish": "",
+      "lat": 51.5072719,
+      "lng": -0.0788908,
+      "distanceFromPortMeters": 812,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "stop_position"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/d5da30c0bd3980c20f18"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/3aefd0010ca569784028",
+      "name": "London Bridge City Pier",
+      "nameEnglish": "",
+      "lat": 51.5069462,
+      "lng": -0.0846373,
+      "distanceFromPortMeters": 836,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "stop_position"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/3aefd0010ca569784028"
+      ]
+    },
+    {
+      "source": "nominatim",
+      "sourceId": "osm/relation/1020011",
+      "osmType": "relation",
+      "osmId": "1020011",
+      "name": "Four Seasons Hotel",
+      "nameEnglish": "Four Seasons Hotel",
+      "lat": 51.5103649,
+      "lng": -0.0783165,
+      "distanceFromPortMeters": 1158,
+      "address": "Four Seasons Hotel, 10, Trinity Square, Leadenhall Market, Aldgate, City of London, Greater London, England, EC3N 4AJ, United Kingdom",
+      "displayName": "Four Seasons Hotel, 10, Trinity Square, Leadenhall Market, Aldgate, City of London, Greater London, England, EC3N 4AJ, United Kingdom",
+      "query": "LONDON Port, London, United Kingdom",
+      "matchedBy": [
+        "Nominatim query: LONDON Port, London, United Kingdom"
+      ],
+      "osmTags": {
+        "building": "yes"
+      },
+      "sources": [
+        "nominatim"
+      ],
+      "sourceIds": [
+        "osm/relation/1020011"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/00db98cd5bb2f142943e",
+      "name": "Bankside Pier",
+      "nameEnglish": "",
+      "lat": 51.5087709,
+      "lng": -0.0967972,
+      "distanceFromPortMeters": 1517,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "stop_position"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/00db98cd5bb2f142943e"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/9f8ceaa849dc9f3e0f67",
+      "name": "Wapping Pier",
+      "nameEnglish": "",
+      "lat": 51.5032631,
+      "lng": -0.0565452,
+      "distanceFromPortMeters": 1664,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "man_made": "pier"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/9f8ceaa849dc9f3e0f67"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/3013655461970fe88a2c",
+      "name": "Blackfriars Pier",
+      "nameEnglish": "",
+      "lat": 51.5106366,
+      "lng": -0.100943,
+      "distanceFromPortMeters": 1871,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "cargo": "passengers",
+        "ferry": "yes",
+        "public_transport": "stop_position"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/3013655461970fe88a2c"
+      ]
+    },
+    {
+      "source": "nominatim",
+      "sourceId": "osm/way/41385453",
+      "osmType": "way",
+      "osmId": "41385453",
+      "name": "Port of London Authority",
+      "nameEnglish": "",
+      "lat": 51.5189747,
+      "lng": -0.1044252,
+      "distanceFromPortMeters": 2704,
+      "address": "Port of London Authority, 47-53, Charterhouse Street, West Smithfield, Blackfriars, City of London, Greater London, England, EC1M 6PB, United Kingdom",
+      "displayName": "Port of London Authority, 47-53, Charterhouse Street, West Smithfield, Blackfriars, City of London, Greater London, England, EC1M 6PB, United Kingdom",
+      "query": "LONDON Port, London, United Kingdom",
+      "matchedBy": [
+        "Nominatim query: LONDON Port, London, United Kingdom"
+      ],
+      "osmTags": {},
+      "sources": [
+        "nominatim"
+      ],
+      "sourceIds": [
+        "osm/way/41385453"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/fbe9b46aa703909fa772",
+      "name": "Festival Pier",
+      "nameEnglish": "",
+      "lat": 51.5070119,
+      "lng": -0.1177867,
+      "distanceFromPortMeters": 2729,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "cargo": "passengers",
+        "ferry": "yes",
+        "public_transport": "stop_position"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/fbe9b46aa703909fa772"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ab7c38bd389d1b2501db",
+      "name": "London Eye - Waterloo Pier",
+      "nameEnglish": "",
+      "lat": 51.5034484,
+      "lng": -0.1204713,
+      "distanceFromPortMeters": 2827,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "alt_name": "London Eye Millennium Pier",
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "stop_position"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/ab7c38bd389d1b2501db"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/6b4cef6bf4470ac7ea36",
+      "name": "Embankment",
+      "nameEnglish": "",
+      "lat": 51.5069899,
+      "lng": -0.1213336,
+      "distanceFromPortMeters": 2965,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "stop_position"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/6b4cef6bf4470ac7ea36"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b45f9a58699b3da5e0a8",
+      "name": "Westminster Pier",
+      "nameEnglish": "",
+      "lat": 51.5017374,
+      "lng": -0.1231427,
+      "distanceFromPortMeters": 2993,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "alt_name": "Westminster Millennium Pier",
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "stop_position"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/b45f9a58699b3da5e0a8"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/a232a7e83a3c92380c77",
+      "name": "Millbank Millennium Pier",
+      "nameEnglish": "",
+      "lat": 51.4917769,
+      "lng": -0.1246974,
+      "distanceFromPortMeters": 3227,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "stop_position"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/a232a7e83a3c92380c77"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/46366138f7201a59415e",
+      "name": "Greenland Pier",
+      "nameEnglish": "",
+      "lat": 51.4947389,
+      "lng": -0.0317396,
+      "distanceFromPortMeters": 3392,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "stop_position"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/46366138f7201a59415e"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/299cef7300648eeecd9f",
+      "name": "Rotherhithe Pier",
+      "nameEnglish": "",
+      "lat": 51.5046411,
+      "lng": -0.0313514,
+      "distanceFromPortMeters": 3407,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "stop_position"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/299cef7300648eeecd9f"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d98f1fa69db2d2f5b2e2",
+      "name": "Canary Wharf",
+      "nameEnglish": "",
+      "lat": 51.505199,
+      "lng": -0.0287643,
+      "distanceFromPortMeters": 3593,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "stop_position"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/d98f1fa69db2d2f5b2e2"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/41b279484fa7f8cf8e4f",
+      "name": "St. George Wharf",
+      "nameEnglish": "",
+      "lat": 51.4863147,
+      "lng": -0.1272602,
+      "distanceFromPortMeters": 3608,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "description": "This pier is wheelchair-accessible at high tide. At low tide, the pier floats lower, & because it is below ground level, the ramp is steeper.",
+        "ferry": "yes",
+        "operator": "Thames Clippers",
+        "public_transport": "stop_position"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/41b279484fa7f8cf8e4f"
+      ]
+    },
+    {
+      "source": "nominatim",
+      "sourceId": "osm/way/183090896",
+      "osmType": "way",
+      "osmId": "183090896",
+      "name": "Point A Hotel London Canary Wharf",
+      "nameEnglish": "Point A Hotel London Canary Wharf",
+      "lat": 51.5078799,
+      "lng": -0.0251555,
+      "distanceFromPortMeters": 3896,
+      "address": "Point A Hotel London Canary Wharf, 33, Hertsmere Road West, Canary Wharf, London Borough of Tower Hamlets, Greater London, England, E14 4BF, United Kingdom",
+      "displayName": "Point A Hotel London Canary Wharf, 33, Hertsmere Road West, Canary Wharf, London Borough of Tower Hamlets, Greater London, England, E14 4BF, United Kingdom",
+      "query": "LONDON Port, London, United Kingdom",
+      "matchedBy": [
+        "Nominatim query: LONDON Port, London, United Kingdom"
+      ],
+      "osmTags": {
+        "building": "yes"
+      },
+      "sources": [
+        "nominatim"
+      ],
+      "sourceIds": [
+        "osm/way/183090896"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/80489115b6d0e27c31e1",
+      "name": "Masthouse Terrace Pier",
+      "nameEnglish": "",
+      "lat": 51.4875091,
+      "lng": -0.0224716,
+      "distanceFromPortMeters": 4218,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "stop_position"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/80489115b6d0e27c31e1"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c6f5c7f12f45a9113926",
+      "name": "Battersea Power Station Pier",
+      "nameEnglish": "",
+      "lat": 51.4839196,
+      "lng": -0.1459452,
+      "distanceFromPortMeters": 4903,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "stop_position"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/c6f5c7f12f45a9113926"
+      ]
+    }
+  ],
+  "counts": {
+    "attraction": 15,
+    "outdoors": 6,
+    "food_drink": 15,
+    "shopping": 2,
+    "essentials": 2
+  },
+  "pois": [
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ae5d9593223839a1fcf6",
+      "name": "HMS Belfast",
+      "nameEnglish": "HMS Belfast",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 51.5065635,
+      "lng": -0.0813098,
+      "distanceFromTerminalMeters": 735,
+      "distanceFromDefaultTerminalMeters": 735,
+      "minDistanceFromAnyTerminalMeters": 735,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "The Queen's Walk, London, SE1 2JH",
+      "openingHours": "Mo-Su 10:00-17:00; Dec 24-26 off",
+      "website": "https://www.iwm.org.uk/visits/hms-belfast",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "limited",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "ship",
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/86c6800f4cfcd3222be1",
+      "name": "Fashion and Textile Museum",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 51.501187,
+      "lng": -0.0816655,
+      "distanceFromTerminalMeters": 175,
+      "distanceFromDefaultTerminalMeters": 175,
+      "minDistanceFromAnyTerminalMeters": 175,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "83 Bermondsey Street, London, SE1 3XF",
+      "openingHours": "Tu-Sa 11:00-18:00; Su-Mo off",
+      "website": "https://fashiontextilemuseum.org/",
+      "phone": "+44 20 7407 8664",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c048fc9a42d8d162b34d",
+      "name": "Tower Bridge Exhibition",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 51.5058983,
+      "lng": -0.0752994,
+      "distanceFromTerminalMeters": 732,
+      "distanceFromDefaultTerminalMeters": 732,
+      "minDistanceFromAnyTerminalMeters": 732,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Tower Bridge Road, London, GB",
+      "openingHours": "Mo-Su 09:30-18:00",
+      "website": "https://www.towerbridge.org.uk/",
+      "phone": "+44 20 7403 3761",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/63fe9f91325eb002e52d",
+      "name": "Old Operating Theatre Museum",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 51.5050466,
+      "lng": -0.0885153,
+      "distanceFromTerminalMeters": 814,
+      "distanceFromDefaultTerminalMeters": 814,
+      "minDistanceFromAnyTerminalMeters": 814,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "9a St. Thomas Street, London, SE1 9RY",
+      "openingHours": "Th-Su 10:30-17:00",
+      "website": "https://oldoperatingtheatre.com/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "no",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/2de63543e6134a893d45",
+      "name": "Tower of London",
+      "nameEnglish": "Tower of London",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 51.508133,
+      "lng": -0.0762864,
+      "distanceFromTerminalMeters": 940,
+      "distanceFromDefaultTerminalMeters": 940,
+      "minDistanceFromAnyTerminalMeters": 940,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Tower Hill, London, EC3N 4AB",
+      "openingHours": "",
+      "website": "https://www.hrp.org.uk/toweroflondon",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "castle",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/9368e6451e782b555c89",
+      "name": "Bank of England",
+      "nameEnglish": "Bank of England",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 51.5141974,
+      "lng": -0.0876796,
+      "distanceFromTerminalMeters": 1666,
+      "distanceFromDefaultTerminalMeters": 1666,
+      "minDistanceFromAnyTerminalMeters": 1666,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Fr 10:00-17:00",
+      "website": "https://www.bankofengland.co.uk/museum",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "The entrance is on Bartholomew Lane, on the eastern edge of the Bank of England. You can’t access the museum through the main Bank entrance.",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ba3d269aebe3152880d4",
+      "name": "Science Gallery London",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "gallery",
+      "lat": 51.5040989,
+      "lng": -0.0875863,
+      "distanceFromTerminalMeters": 695,
+      "distanceFromDefaultTerminalMeters": 695,
+      "minDistanceFromAnyTerminalMeters": 695,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Great Maze Pond, London, SE1 9GU",
+      "openingHours": "",
+      "website": "https://london.sciencegallery.com/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Free to enter Gallery with cafe and shop",
+      "osmTags": {
+        "tourism": "gallery"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/8150d95e78ea43d8d38f",
+      "name": "Imperial War Museum London",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 51.4958006,
+      "lng": -0.1085907,
+      "distanceFromTerminalMeters": 2033,
+      "distanceFromDefaultTerminalMeters": 2033,
+      "minDistanceFromAnyTerminalMeters": 2033,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Lambeth Road, London, SE1 6HZ",
+      "openingHours": "10:00-18:00; Dec 24-26 off",
+      "website": "https://www.iwm.org.uk/visits/iwm-london",
+      "phone": "+44 20 7416 5000",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "IWM London tells the story of those whose lives have been shaped by war from the First World War to the present day.",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/cc29ae2d473163d02180",
+      "name": "Clink Prison Museum",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 51.5069716,
+      "lng": -0.0918979,
+      "distanceFromTerminalMeters": 1131,
+      "distanceFromDefaultTerminalMeters": 1131,
+      "minDistanceFromAnyTerminalMeters": 1131,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1 Clink Street, London, SE1 9DG",
+      "openingHours": "10:00-18:00, Dec 25 off",
+      "website": "https://www.clink.co.uk/",
+      "phone": "+44 20 7403 5813",
+      "cuisine": [],
+      "wheelchair": "no",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/53a54b369f5e53654cb5",
+      "name": "Westminster Abbey",
+      "nameEnglish": "Westminster Abbey",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 51.4994013,
+      "lng": -0.1273907,
+      "distanceFromTerminalMeters": 3281,
+      "distanceFromDefaultTerminalMeters": 3281,
+      "minDistanceFromAnyTerminalMeters": 3281,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "20 Dean's Yard, London, SW1P 3PA",
+      "openingHours": "Mo-Sa 09:30-16:00",
+      "website": "https://www.westminster-abbey.org/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "place_of_worship",
+        "historic": "yes",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b8e3a2b02b0e88f0c3de",
+      "name": "British Museum",
+      "nameEnglish": "British Museum",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 51.5193123,
+      "lng": -0.1268767,
+      "distanceFromTerminalMeters": 3890,
+      "distanceFromDefaultTerminalMeters": 3890,
+      "minDistanceFromAnyTerminalMeters": 3890,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Great Russell Street, London, WC1B 3DG, GB",
+      "openingHours": "Sa-Th 10:00-17:00; Fr 10:00-20:30",
+      "website": "https://www.britishmuseum.org",
+      "phone": "+44 20 7323 8299",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "yes",
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c4fbb1ada41c9e7b20c5",
+      "name": "Buckingham Palace",
+      "nameEnglish": "Buckingham Palace",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 51.5008342,
+      "lng": -0.1426584,
+      "distanceFromTerminalMeters": 4338,
+      "distanceFromDefaultTerminalMeters": 4338,
+      "minDistanceFromAnyTerminalMeters": 4338,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "London, SW1A 1AA",
+      "openingHours": "Mo-Su 10:00-17:30",
+      "website": "https://www.royalcollection.org.uk/visit/the-state-rooms-buckingham-palace",
+      "phone": "+44 20 7766 7300",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "castle",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/337f2e14880a5f16e9f4",
+      "name": "St. Mary-Le-Bow",
+      "nameEnglish": "St. Mary-Le-Bow",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 51.5137475,
+      "lng": -0.093546,
+      "distanceFromTerminalMeters": 1793,
+      "distanceFromDefaultTerminalMeters": 1793,
+      "minDistanceFromAnyTerminalMeters": 1793,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Cheapside, London, EC2V 6AU",
+      "openingHours": "We 07:30-18:00; Th 07:30-18:30; Fr 07:30-16:00",
+      "website": "http://www.stmarylebow.co.uk",
+      "phone": "+44 20 7248 5139",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "place_of_worship",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d7f6748c90814461940f",
+      "name": "Elizabeth Tower",
+      "nameEnglish": "Elizabeth Tower",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 51.5007011,
+      "lng": -0.1245731,
+      "distanceFromTerminalMeters": 3086,
+      "distanceFromDefaultTerminalMeters": 3086,
+      "minDistanceFromAnyTerminalMeters": 3086,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "London, SW1A 2JR",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/92d358ae04cb4cf77db8",
+      "name": "St Dunstan in the East Church Garden",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "garden",
+      "lat": 51.5096804,
+      "lng": -0.0824624,
+      "distanceFromTerminalMeters": 1090,
+      "distanceFromDefaultTerminalMeters": 1090,
+      "minDistanceFromAnyTerminalMeters": 1090,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Su 08:00-19:00; Jan 01; Dec 25 off; Dec 26 off",
+      "website": "https://www.cityoflondon.gov.uk/things-to-do/city-gardens/find-a-garden/st-dunstan-in-the-east-church-garden",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "garden"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/e538c503a2df963ec918",
+      "name": "Carter Lane Gardens",
+      "nameEnglish": "Carter Lane Gardens",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 51.5130731,
+      "lng": -0.0982252,
+      "distanceFromTerminalMeters": 1925,
+      "distanceFromDefaultTerminalMeters": 1925,
+      "minDistanceFromAnyTerminalMeters": 1925,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "St. Paul's Churchyard, London, EC4M 8BX",
+      "openingHours": "24/7",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Carter Lane Garden was laid out post WWII on an area that had originally been intended for a traffic scheme south of St Paul's Cathedral. It follows the ground-plan of the pre-war buildings over whose bombed foundations it was formed. In 1955 a circular I",
+      "osmTags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f07c82189e9dbda3d556",
+      "name": "Sky Garden",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "viewpoint",
+      "lat": 51.511096,
+      "lng": -0.0836023,
+      "distanceFromTerminalMeters": 1259,
+      "distanceFromDefaultTerminalMeters": 1259,
+      "minDistanceFromAnyTerminalMeters": 1259,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "20 Fenchurch Street, London, EC3M 3BY",
+      "openingHours": "Mo-Fr 10:00-18:00; Sa-Su,PH 11:00-21:00",
+      "website": "https://skygarden.london/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "Sky Garden viewpoint is accessible to all, and entry is free of charge. Tickets are available to book online on a weekly basis, up to three weeks in advance of your visit.",
+      "osmTags": {
+        "tourism": "viewpoint"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/e238001783a85fb8d6aa",
+      "name": "The Lookout",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "viewpoint",
+      "lat": 51.5140131,
+      "lng": -0.0836015,
+      "distanceFromTerminalMeters": 1578,
+      "distanceFromDefaultTerminalMeters": 1578,
+      "minDistanceFromAnyTerminalMeters": 1578,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "https://www.8bishopsgate.com/lookout",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "The Lookout in 8 Bishopsgate - free, pre booking required",
+      "osmTags": {
+        "tourism": "viewpoint"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/0dbf8d6fccf85047df56",
+      "name": "Horizon 22",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "viewpoint",
+      "lat": 51.514367,
+      "lng": -0.083149,
+      "distanceFromTerminalMeters": 1612,
+      "distanceFromDefaultTerminalMeters": 1612,
+      "minDistanceFromAnyTerminalMeters": 1612,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "https://horizon22.co.uk/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "Horizon 22 in 22 Bishopsgate - free, pre-booking required",
+      "osmTags": {
+        "tourism": "viewpoint"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/0f8e5cf016aa10664603",
+      "name": "Copperfield Street Community Garden",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "garden",
+      "lat": 51.5031509,
+      "lng": -0.0977575,
+      "distanceFromTerminalMeters": 1278,
+      "distanceFromDefaultTerminalMeters": 1278,
+      "minDistanceFromAnyTerminalMeters": 1278,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Copperfield Street",
+      "openingHours": "sunrise-sunset",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "garden"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/668164b7ea45c3ed399e",
+      "name": "Chicome",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 51.5083816,
+      "lng": -0.073244,
+      "distanceFromTerminalMeters": 1043,
+      "distanceFromDefaultTerminalMeters": 1043,
+      "minDistanceFromAnyTerminalMeters": 1043,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "2 St. Katharine's Way, London, E1W 1AA",
+      "openingHours": "Tu-Sa 12:00-22:00",
+      "website": "https://chicome.co.uk/",
+      "phone": "+44 20 3031 7601",
+      "cuisine": [
+        "mexican",
+        "south_american",
+        "grill"
+      ],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "Chicome is situated at St Katharine Docks, adjacent to Tower Bridge. If you’re driving, the nearest car park is NCP London Thomas More Square, just a few minutes walk away.",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/2b4cd9a3be9b40098fef",
+      "name": "The Garrison",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "pub",
+      "lat": 51.5007212,
+      "lng": -0.0816285,
+      "distanceFromTerminalMeters": 138,
+      "distanceFromDefaultTerminalMeters": 138,
+      "minDistanceFromAnyTerminalMeters": 138,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "99-101 Bermondsey Street, London, SE1 3XB, GB",
+      "openingHours": "Mo-Sa 12:00-23:00; Su 12:00-22:00",
+      "website": "http://www.thegarrison.co.uk",
+      "phone": "+44 20 7089 9355",
+      "cuisine": [],
+      "wheelchair": "no",
+      "brand": "",
+      "description": "Gastropub",
+      "osmTags": {
+        "amenity": "pub"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/6ec27f5256bab7921441",
+      "name": "Hop Kingdom",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "pub",
+      "lat": 51.5019458,
+      "lng": -0.0797555,
+      "distanceFromTerminalMeters": 217,
+      "distanceFromDefaultTerminalMeters": 217,
+      "minDistanceFromAnyTerminalMeters": 217,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "16 Druid Street, London, SE1 2EY",
+      "openingHours": "Mo-Th 16:00-23:00; Fr-Sa 12:00-23:00; Su 12:00-22:00",
+      "website": "https://hopking.org",
+      "phone": "+44 20 3730 4129",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "Bar and skatepark",
+      "osmTags": {
+        "amenity": "pub"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/638fbeef3d834d5c714a",
+      "name": "The Horseshoe Inn",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "pub",
+      "lat": 51.502491,
+      "lng": -0.0840184,
+      "distanceFromTerminalMeters": 393,
+      "distanceFromDefaultTerminalMeters": 393,
+      "minDistanceFromAnyTerminalMeters": 393,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "26 Melior Street, London, SE1 3QP",
+      "openingHours": "Mo 12:00-22:00; Tu-Sa 12:00-23:30; Su 12:00-22:00",
+      "website": "https://www.thehorseshoeinnpub.co.uk",
+      "phone": "+44 20 7403 6364",
+      "cuisine": [
+        "english"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "pub"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d1ce065bc20515c7c120",
+      "name": "Constancia",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 51.5000273,
+      "lng": -0.0785159,
+      "distanceFromTerminalMeters": 103,
+      "distanceFromDefaultTerminalMeters": 103,
+      "minDistanceFromAnyTerminalMeters": 103,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "52 Tanner Street, London, SE1 3PH",
+      "openingHours": "Mo-We 17:00-22:30; Th-Fr 12:00-15:30, 17:00-22:30; Sa 12:00-22:30; Su 12:00-21:30",
+      "website": "http://www.constancia.co.uk",
+      "phone": "+44 20 7234 0676",
+      "cuisine": [
+        "argentinian"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f55470b299f460ed8818",
+      "name": "Jose",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 51.5006118,
+      "lng": -0.0819039,
+      "distanceFromTerminalMeters": 148,
+      "distanceFromDefaultTerminalMeters": 148,
+      "minDistanceFromAnyTerminalMeters": 148,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "104 Bermondsey Street, London, SE1 3UB",
+      "openingHours": "Mo-Sa 12:00-22:15; Su 12:00-21:30",
+      "website": "https://josepizarro.com/venues/jose-tapas-bar-bermondsey/",
+      "phone": "",
+      "cuisine": [
+        "spanish"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f7f6a56abf02aaf05db6",
+      "name": "Fleurie",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 51.5009077,
+      "lng": -0.0820371,
+      "distanceFromTerminalMeters": 173,
+      "distanceFromDefaultTerminalMeters": 173,
+      "minDistanceFromAnyTerminalMeters": 173,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "92 Bermondsey Street",
+      "openingHours": "Su 11:00-22:30; Sa 11:00-23:00; Tu-Fr 12:00-23:00",
+      "website": "https://fleurie.co.uk/",
+      "phone": "",
+      "cuisine": [
+        "french"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/99c3add38a4919e8dd33",
+      "name": "Kin + Deum",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 51.5022374,
+      "lng": -0.0820599,
+      "distanceFromTerminalMeters": 287,
+      "distanceFromDefaultTerminalMeters": 287,
+      "minDistanceFromAnyTerminalMeters": 287,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "2 Crucifix Lane, London, SE1 3JW",
+      "openingHours": "Mo-Su 12:00-22:30",
+      "website": "https://www.kindeum.com",
+      "phone": "+44 20 7357 7995",
+      "cuisine": [
+        "thai"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/61d8cb78834028bbdf0e",
+      "name": "Texas Joe's Slow Smoked Meats",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 51.5022037,
+      "lng": -0.0838347,
+      "distanceFromTerminalMeters": 361,
+      "distanceFromDefaultTerminalMeters": 361,
+      "minDistanceFromAnyTerminalMeters": 361,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "8-9 Snowsfields, London, SE1 3SU",
+      "openingHours": "Tu-We 17:00-21:30; Th-Fr 12:00-15:00,17:00-21:30; Sa 12:00-21:30",
+      "website": "https://texas-joes.com/",
+      "phone": "+44 20 3759 7355",
+      "cuisine": [
+        "grill"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c6a17feb83b96c123d76",
+      "name": "M. Manze",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 51.4963383,
+      "lng": -0.082749,
+      "distanceFromTerminalMeters": 449,
+      "distanceFromDefaultTerminalMeters": 449,
+      "minDistanceFromAnyTerminalMeters": 449,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "87 Tower Bridge Road, London, SE1 4TW",
+      "openingHours": "Mo-Th 10:30-17:45; Fr 10:00-18:45; Sa 10:00-19:45; Su 11:00-14:45",
+      "website": "https://www.manze.co.uk/",
+      "phone": "+44 20 7407 2985",
+      "cuisine": [
+        "pie_and_mash"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/953a8e3e6166a548eb87",
+      "name": "Hing Lee",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 51.502379,
+      "lng": -0.0742247,
+      "distanceFromTerminalMeters": 479,
+      "distanceFromDefaultTerminalMeters": 479,
+      "minDistanceFromAnyTerminalMeters": 479,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "32 Curlew Street, London, SE1 2ND",
+      "openingHours": "Su-Fr 12:00-15:00, 18:00-23:45; Sa 18:00-23:45",
+      "website": "https://www.hinglee.co.uk/",
+      "phone": "+44 20 7403 7919",
+      "cuisine": [
+        "chinese"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/996d2c6792c231d535c8",
+      "name": "Papi's Munchies",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 51.5099581,
+      "lng": -0.0858751,
+      "distanceFromTerminalMeters": 1180,
+      "distanceFromDefaultTerminalMeters": 1180,
+      "minDistanceFromAnyTerminalMeters": 1180,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "20 Monument Street, London, EC3R 8AJ",
+      "openingHours": "Mo-Su 12:00-21:00",
+      "website": "https://www.papismunchiespizza.co.uk/",
+      "phone": "+44 20 7623 8572",
+      "cuisine": [
+        "pizza"
+      ],
+      "wheelchair": "no",
+      "brand": "",
+      "description": "inside The Britannia",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/3553c51417060ae1e399",
+      "name": "Smith's Brasserie",
+      "nameEnglish": "Smith's Brasserie",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 51.5043483,
+      "lng": -0.0664943,
+      "distanceFromTerminalMeters": 1052,
+      "distanceFromDefaultTerminalMeters": 1052,
+      "minDistanceFromAnyTerminalMeters": 1052,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "22 Wapping High Street, London, E1W 1NJ",
+      "openingHours": "Mo-Fr 12:00-16:00, 18:00-22:00; Sa 12:00-16:00, 18:00-22:30; Su 12:00-17:30",
+      "website": "https://smithsrestaurants.com/",
+      "phone": "+44 20 7488 3456",
+      "cuisine": [
+        "seafood"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/3229d4ecf47e7af9aa04",
+      "name": "Wright Brothers",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 51.5056077,
+      "lng": -0.0915673,
+      "distanceFromTerminalMeters": 1015,
+      "distanceFromDefaultTerminalMeters": 1015,
+      "minDistanceFromAnyTerminalMeters": 1015,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "11 Stoney Street, London, SE1 9AD",
+      "openingHours": "",
+      "website": "https://thewrightbrothers.co.uk/restaurant/borough-market/",
+      "phone": "+44 20 7403 9554",
+      "cuisine": [
+        "fish"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "\"Oyster & Porter House\"",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/64be03cc9db072651378",
+      "name": "The Pear Tree",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 51.4908143,
+      "lng": -0.038709,
+      "distanceFromTerminalMeters": 3035,
+      "distanceFromDefaultTerminalMeters": 3035,
+      "minDistanceFromAnyTerminalMeters": 3035,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Yeoman Street, London, SE8 5ER",
+      "openingHours": "Mo-Su 07:00-23:00",
+      "website": "https://www.thepeartreekitchen.co.uk/",
+      "phone": "+44 20 7237 6171",
+      "cuisine": [
+        "australian"
+      ],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "Restaurant, cafe and delicatessen shop",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/6393c9f141eea6bd5615",
+      "name": "Borough Market",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "marketplace",
+      "lat": 51.5055883,
+      "lng": -0.0903102,
+      "distanceFromTerminalMeters": 946,
+      "distanceFromDefaultTerminalMeters": 946,
+      "minDistanceFromAnyTerminalMeters": 946,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "London, SE1 9AL",
+      "openingHours": "Mo-Th 10:00-17:00; Fr 10:00-18:00; Sa 08:00-17:00; Su 10:00-14:00",
+      "website": "https://boroughmarket.org.uk",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "marketplace"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/25c862566999564f8fe9",
+      "name": "Charles Artisan Bread Cafe",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "bakery",
+      "lat": 51.518656,
+      "lng": -0.0854826,
+      "distanceFromTerminalMeters": 2109,
+      "distanceFromDefaultTerminalMeters": 2109,
+      "minDistanceFromAnyTerminalMeters": 2109,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "8 Eldon Street, London, EC2M 7LS",
+      "openingHours": "Mo-Fr 06:30-17:30; Sa 08:00-17:00; Su 08:00-16:00",
+      "website": "https://charlesartisanbread.co.uk/locations",
+      "phone": "+44 7823 446552",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "shop": "bakery"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ab76301638aa8e41aa3e",
+      "name": "City Information Centre",
+      "nameEnglish": "",
+      "category": "essentials",
+      "subcategory": "visitor_information",
+      "lat": 51.5131193,
+      "lng": -0.09883,
+      "distanceFromTerminalMeters": 1956,
+      "distanceFromDefaultTerminalMeters": 1956,
+      "minDistanceFromAnyTerminalMeters": 1956,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "St Paul's Churchyard, London, EC4M 8BX",
+      "openingHours": "Mo-Sa 09:30-17:30, Su 10:00-16:00",
+      "website": "https://www.cityoflondon.gov.uk/things-to-do/visit-the-city/visitor-info/Pages/default.aspx",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "information"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/81a3ae16b48f3db5d764",
+      "name": "Lost Property",
+      "nameEnglish": "",
+      "category": "essentials",
+      "subcategory": "visitor_information",
+      "lat": 51.502546,
+      "lng": -0.1110636,
+      "distanceFromTerminalMeters": 2169,
+      "distanceFromDefaultTerminalMeters": 2169,
+      "minDistanceFromAnyTerminalMeters": 2169,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "12 Lower Road, London, SE1 8SE",
+      "openingHours": "Mo-Fr 07:30-19:00",
+      "website": "https://www.southwesternrailway.com/contact-and-help/lost-property",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "information"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c95b331a4adc442e4933",
+      "name": "Big Ben",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 51.5007042,
+      "lng": -0.1245721,
+      "distanceFromTerminalMeters": 3086,
+      "distanceFromDefaultTerminalMeters": 3086,
+      "minDistanceFromAnyTerminalMeters": 3086,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Bridge Street, London",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "no",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "clock",
+        "historic": "technical_monument",
+        "tourism": "attraction"
+      }
+    }
+  ],
+  "portAnchor": {
+    "id": "ports-json-anchor",
+    "name": "LONDON Port",
+    "lat": 51.5,
+    "lng": -0.08,
+    "address": "London, England, United Kingdom",
+    "source": "ports.json",
+    "sourceId": "",
+    "score": 0,
+    "slug": "london-port"
+  },
+  "terminalResolution": {
+    "status": "resolved",
+    "method": "manual_web_research",
+    "verified": true,
+    "notes": "Terminal records were added from researched cruise-port sources because no supplied candidate accurately represented the passenger arrival point."
+  }
+}

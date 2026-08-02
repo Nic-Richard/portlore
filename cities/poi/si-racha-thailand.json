@@ -1,0 +1,608 @@
+{
+  "schemaVersion": 5,
+  "catalogType": "curation-candidates",
+  "generatedAt": "2026-07-30T09:12:15.776Z",
+  "source": "openstreetmap",
+  "sourceExtract": "thailand-latest.osm.pbf",
+  "radiusMeters": 10000,
+  "port": {
+    "id": "si-racha-thailand",
+    "city": "Si Racha",
+    "country": "Thailand"
+  },
+  "defaultTerminalId": "ports-json-anchor",
+  "terminal": {
+    "id": "ports-json-anchor",
+    "name": "SI RACHA Port",
+    "lat": 13.17,
+    "lng": 100.92,
+    "address": "Si Racha, Chon Buri, Thailand",
+    "source": "ports.json",
+    "sourceId": "",
+    "score": 0,
+    "slug": "si-racha-port"
+  },
+  "terminals": [
+    {
+      "id": "ports-json-anchor",
+      "name": "SI RACHA Port",
+      "lat": 13.17,
+      "lng": 100.92,
+      "address": "Si Racha, Chon Buri, Thailand",
+      "source": "ports.json",
+      "sourceId": "",
+      "score": 0,
+      "slug": "si-racha-port"
+    }
+  ],
+  "terminalCandidateRadiusMeters": 5000,
+  "terminalCandidates": [
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f419d2d2b0568b5e6354",
+      "name": "ท่าเรือเกาะลอย",
+      "nameEnglish": "Ko Loy Pier",
+      "lat": 13.1751969,
+      "lng": 100.9192485,
+      "distanceFromPortMeters": 584,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "name:en": "Ko Loy Pier",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/f419d2d2b0568b5e6354"
+      ]
+    }
+  ],
+  "counts": {
+    "attraction": 2,
+    "outdoors": 6,
+    "food_drink": 7,
+    "shopping": 5,
+    "essentials": 0
+  },
+  "pois": [
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/1a96799ffa325ff17e94",
+      "name": "Koh Loy Turtles",
+      "nameEnglish": "Koh Loy Turtles",
+      "category": "attraction",
+      "subcategory": "aquarium",
+      "lat": 13.1739022,
+      "lng": 100.9198306,
+      "distanceFromTerminalMeters": 434,
+      "distanceFromDefaultTerminalMeters": 434,
+      "minDistanceFromAnyTerminalMeters": 434,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "aquarium"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/08ea288165a31fc500bb",
+      "name": "Space Inspirium",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 13.1026081,
+      "lng": 100.9303763,
+      "distanceFromTerminalMeters": 7577,
+      "distanceFromDefaultTerminalMeters": 7577,
+      "minDistanceFromAnyTerminalMeters": 7577,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b0f23e6f86eab72d9ae8",
+      "name": "หาดผาแดง",
+      "nameEnglish": "Hat Phadaeng",
+      "category": "outdoors",
+      "subcategory": "beach",
+      "lat": 13.1452913,
+      "lng": 100.9035062,
+      "distanceFromTerminalMeters": 3277,
+      "distanceFromDefaultTerminalMeters": 3277,
+      "minDistanceFromAnyTerminalMeters": 3277,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "natural": "beach"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ca6b54c002699e79e733",
+      "name": "Sriracha Harbor Port",
+      "nameEnglish": "Sriracha Harbor Port",
+      "category": "outdoors",
+      "subcategory": "viewpoint",
+      "lat": 13.1571197,
+      "lng": 100.8826855,
+      "distanceFromTerminalMeters": 4287,
+      "distanceFromDefaultTerminalMeters": 4287,
+      "minDistanceFromAnyTerminalMeters": 4287,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "viewpoint"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d2a0332fb2ba54736de9",
+      "name": "เขาพุทธโคดม",
+      "nameEnglish": "Khao Phutthakhodom",
+      "category": "outdoors",
+      "subcategory": "peak",
+      "lat": 13.1559499,
+      "lng": 100.9267667,
+      "distanceFromTerminalMeters": 1726,
+      "distanceFromDefaultTerminalMeters": 1726,
+      "minDistanceFromAnyTerminalMeters": 1726,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "natural": "peak"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/dd52f06fff5d82aa5407",
+      "name": "Kerry Siam Port",
+      "nameEnglish": "Kerry Siam Port",
+      "category": "outdoors",
+      "subcategory": "viewpoint",
+      "lat": 13.135498,
+      "lng": 100.8754978,
+      "distanceFromTerminalMeters": 6159,
+      "distanceFromDefaultTerminalMeters": 6159,
+      "minDistanceFromAnyTerminalMeters": 6159,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "viewpoint"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c7cc776564b27e8d4296",
+      "name": "Siam Commercial Seaport Terminal, Sriracha",
+      "nameEnglish": "Siam Commercial Seaport Terminal, Sriracha",
+      "category": "outdoors",
+      "subcategory": "viewpoint",
+      "lat": 13.1309372,
+      "lng": 100.8776645,
+      "distanceFromTerminalMeters": 6315,
+      "distanceFromDefaultTerminalMeters": 6315,
+      "minDistanceFromAnyTerminalMeters": 6315,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "viewpoint"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/48fe57587a9821f8fdbb",
+      "name": "การ์เด้น@ซี คอฟฟี่",
+      "nameEnglish": "Garden@Sea Coffee",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 13.1689739,
+      "lng": 100.9252241,
+      "distanceFromTerminalMeters": 577,
+      "distanceFromDefaultTerminalMeters": 577,
+      "minDistanceFromAnyTerminalMeters": 577,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Si Racha, 20110",
+      "openingHours": "07:00-18:00",
+      "website": "https://www.facebook.com/Gardensea-coffee-785170598198047/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/289a8112f91e34500561",
+      "name": "L' amu ลามู ラムゥ ศรีราชานคร",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 13.1669065,
+      "lng": 100.9286831,
+      "distanceFromTerminalMeters": 1001,
+      "distanceFromDefaultTerminalMeters": 1001,
+      "minDistanceFromAnyTerminalMeters": 1001,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "86 ศรีราชานคร 1 (ชิระชะนะคนอิจิโจเมะโดริ), ศรีราชา, 20110",
+      "openingHours": "",
+      "website": "https://web.facebook.com/profile.php?id=100090273374653",
+      "phone": "+66637422661",
+      "cuisine": [
+        "japanese",
+        "mediterranean"
+      ],
+      "wheelchair": "",
+      "brand": "YAMANE (barcelona)",
+      "description": "Homemade japanese, mediterranean food, drink, dessert.\nImported beer.",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/90f618e1b1cde81956c5",
+      "name": "คะโนะโจ",
+      "nameEnglish": "Kanojo",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 13.1684555,
+      "lng": 100.9281198,
+      "distanceFromTerminalMeters": 896,
+      "distanceFromDefaultTerminalMeters": 896,
+      "minDistanceFromAnyTerminalMeters": 896,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [
+        "japanese"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/5ff32c82dc7fe07ef3ac",
+      "name": "Toffee Cake Chonburi Si Racha",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 13.1601061,
+      "lng": 100.9235041,
+      "distanceFromTerminalMeters": 1164,
+      "distanceFromDefaultTerminalMeters": 1164,
+      "minDistanceFromAnyTerminalMeters": 1164,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "54 10-11 ถนนสุขุมวิท, Tambon Si Racha, 20110",
+      "openingHours": "Mo-Su 07:00-18:00",
+      "website": "",
+      "phone": "+66 96 929 5009",
+      "cuisine": [
+        "coffee_shop",
+        "cake",
+        "bakery"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c11b8d4a77656db1cb66",
+      "name": "Grand Seaside",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 13.166745,
+      "lng": 100.9203151,
+      "distanceFromTerminalMeters": 364,
+      "distanceFromDefaultTerminalMeters": 364,
+      "minDistanceFromAnyTerminalMeters": 364,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Si Racha, 20110",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [
+        "thai"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/28e85e0c0f682d632bc6",
+      "name": "โต๊ะครูว์",
+      "nameEnglish": "Toh Crew",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 13.1554884,
+      "lng": 100.9115356,
+      "distanceFromTerminalMeters": 1856,
+      "distanceFromDefaultTerminalMeters": 1856,
+      "minDistanceFromAnyTerminalMeters": 1856,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [
+        "thai"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/82dc1816f2944698da20",
+      "name": "Beachwalk Cafe",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 13.2407894,
+      "lng": 100.9307252,
+      "distanceFromTerminalMeters": 7957,
+      "distanceFromDefaultTerminalMeters": 7957,
+      "minDistanceFromAnyTerminalMeters": 7957,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "4/1 ถนนสุขุมวิท 22, Chonburi, 20130",
+      "openingHours": "Mo-Su 08:00-22:00",
+      "website": "http://beachwalk.lnwshop.com",
+      "phone": "0948935222",
+      "cuisine": [
+        "cafe",
+        "bakery"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b55005a1ba15755f26c9",
+      "name": "ศรีราชา ไนท์ มาร์เก็ต",
+      "nameEnglish": "Si Racha Night Market",
+      "category": "shopping",
+      "subcategory": "marketplace",
+      "lat": 13.1750319,
+      "lng": 100.9327019,
+      "distanceFromTerminalMeters": 1485,
+      "distanceFromDefaultTerminalMeters": 1485,
+      "minDistanceFromAnyTerminalMeters": 1485,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "marketplace"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/8b9ad4420840b7305ca2",
+      "name": "ตลาดวรกิจพลาซ่า 2",
+      "nameEnglish": "Worakit Plaza Market 2",
+      "category": "shopping",
+      "subcategory": "marketplace",
+      "lat": 13.1508126,
+      "lng": 100.9339446,
+      "distanceFromTerminalMeters": 2614,
+      "distanceFromDefaultTerminalMeters": 2614,
+      "minDistanceFromAnyTerminalMeters": 2614,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "marketplace"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/08925831a4ada20b2617",
+      "name": "ตลาดโต้รุ่งอ่าวอุดม",
+      "nameEnglish": "Ao Udom Night Market",
+      "category": "shopping",
+      "subcategory": "marketplace",
+      "lat": 13.1158769,
+      "lng": 100.917667,
+      "distanceFromTerminalMeters": 6024,
+      "distanceFromDefaultTerminalMeters": 6024,
+      "minDistanceFromAnyTerminalMeters": 6024,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "marketplace"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/907d8d054de723686b40",
+      "name": "เซ็นทรัลศรีราชา",
+      "nameEnglish": "Central Siracha",
+      "category": "shopping",
+      "subcategory": "mall",
+      "lat": 13.1790085,
+      "lng": 100.930756,
+      "distanceFromTerminalMeters": 1536,
+      "distanceFromDefaultTerminalMeters": 1536,
+      "minDistanceFromAnyTerminalMeters": 1536,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Su 10:00-21:00",
+      "website": "https://www.centralsiracha.com",
+      "phone": "+66 33 253 555",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "shop": "mall"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f5c01669fc6358b2e663",
+      "name": "ศูนย์การค้าแปซิฟิคพาร์ค",
+      "nameEnglish": "Pacific Park Shopping Center",
+      "category": "shopping",
+      "subcategory": "mall",
+      "lat": 13.1681146,
+      "lng": 100.9306497,
+      "distanceFromTerminalMeters": 1172,
+      "distanceFromDefaultTerminalMeters": 1172,
+      "minDistanceFromAnyTerminalMeters": 1172,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "ถนนสุขุมวิท",
+      "openingHours": "Mo-Su 11:00-21:00",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "shop": "mall"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/5a47eae7f06eddd11fa8",
+      "name": "สวนสุรศักดิ์มนตรี",
+      "nameEnglish": "Surasak Montri Public Park",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 13.1710687,
+      "lng": 100.9253079,
+      "distanceFromTerminalMeters": 587,
+      "distanceFromDefaultTerminalMeters": 587,
+      "minDistanceFromAnyTerminalMeters": 587,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "park"
+      }
+    }
+  ],
+  "portAnchor": {
+    "id": "ports-json-anchor",
+    "name": "SI RACHA Port",
+    "lat": 13.17,
+    "lng": 100.92,
+    "address": "Si Racha, Chon Buri, Thailand",
+    "source": "ports.json",
+    "sourceId": "",
+    "score": 0,
+    "slug": "si-racha-port"
+  },
+  "terminalResolution": {
+    "status": "unresolved",
+    "method": "ports_json_fallback",
+    "verified": false,
+    "notes": "All supplied candidates are ferry-only stops, local docks, unnamed maritime features, or unrelated places rather than passenger cruise terminals."
+  }
+}

@@ -1,0 +1,849 @@
+{
+  "schemaVersion": 5,
+  "catalogType": "curation-candidates",
+  "generatedAt": "2026-07-30T09:27:43.397Z",
+  "source": "openstreetmap",
+  "sourceExtract": "venezuela-latest.osm.pbf",
+  "radiusMeters": 10000,
+  "port": {
+    "id": "puerto-la-cruz-venezuela",
+    "city": "Puerto La Cruz",
+    "country": "Venezuela"
+  },
+  "defaultTerminalId": "ports-json-anchor",
+  "terminal": {
+    "id": "ports-json-anchor",
+    "name": "PUERTO LA CRUZ Port",
+    "lat": 10.25,
+    "lng": -64.63,
+    "address": "Puerto La Cruz, Anzoátegui, Venezuela",
+    "source": "ports.json",
+    "sourceId": "",
+    "score": 0,
+    "slug": "puerto-la-cruz-port"
+  },
+  "terminals": [
+    {
+      "id": "ports-json-anchor",
+      "name": "PUERTO LA CRUZ Port",
+      "lat": 10.25,
+      "lng": -64.63,
+      "address": "Puerto La Cruz, Anzoátegui, Venezuela",
+      "source": "ports.json",
+      "sourceId": "",
+      "score": 0,
+      "slug": "puerto-la-cruz-port"
+    }
+  ],
+  "terminalCandidateRadiusMeters": 5000,
+  "terminalCandidates": [
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f168b7621bbaed469835",
+      "name": "Puerto La Cruz",
+      "nameEnglish": "",
+      "lat": 10.2151069,
+      "lng": -64.6471898,
+      "distanceFromPortMeters": 4312,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "cargo": "passengers;vehicle",
+        "ferry": "yes",
+        "operator": "Gran Cacique Express",
+        "public_transport": "stop_position"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/f168b7621bbaed469835"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/6940b38cc11568bf2a7f",
+      "name": "Conferry Guanta",
+      "nameEnglish": "",
+      "lat": 10.2431056,
+      "lng": -64.5907751,
+      "distanceFromPortMeters": 4360,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "operator": "Transporte Maritimo"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/6940b38cc11568bf2a7f"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/3142b855d652f6b873d7",
+      "name": "Terminal del Gran Casique Express",
+      "nameEnglish": "",
+      "lat": 10.2143608,
+      "lng": -64.6476271,
+      "distanceFromPortMeters": 4407,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/3142b855d652f6b873d7"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f7d9fb4fa2aba1b050cb",
+      "name": "Puerto La Cruz",
+      "nameEnglish": "",
+      "lat": 10.2149004,
+      "lng": -64.6491603,
+      "distanceFromPortMeters": 4430,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "cargo": "passengers;vehicle",
+        "ferry": "yes",
+        "operator": "NaviBus;Conferry",
+        "public_transport": "stop_position"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/f7d9fb4fa2aba1b050cb"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/3ef17b674de882588d5e",
+      "name": "Terminal del Conferry",
+      "nameEnglish": "",
+      "lat": 10.2133796,
+      "lng": -64.6494887,
+      "distanceFromPortMeters": 4597,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/3ef17b674de882588d5e"
+      ]
+    }
+  ],
+  "counts": {
+    "attraction": 8,
+    "outdoors": 6,
+    "food_drink": 7,
+    "shopping": 5,
+    "essentials": 0
+  },
+  "pois": [
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/99e06691ac63f92555f1",
+      "name": "Plaza Guaraguao",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "square",
+      "lat": 10.2333495,
+      "lng": -64.6254091,
+      "distanceFromTerminalMeters": 1918,
+      "distanceFromDefaultTerminalMeters": 1918,
+      "minDistanceFromAnyTerminalMeters": 1918,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "puerto la cruz, 6023",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "place": "square"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b13d6c3ee23620b209fc",
+      "name": "Museo de Los Niños",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 10.2021611,
+      "lng": -64.6972826,
+      "distanceFromTerminalMeters": 9083,
+      "distanceFromDefaultTerminalMeters": 9083,
+      "minDistanceFromAnyTerminalMeters": 9083,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c7992e16c988ae0bd981",
+      "name": "Museo Dimitrius Demus",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 10.1842202,
+      "lng": -64.6895124,
+      "distanceFromTerminalMeters": 9794,
+      "distanceFromDefaultTerminalMeters": 9794,
+      "minDistanceFromAnyTerminalMeters": 9794,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/3f5461118150ce75fb94",
+      "name": "Parque La Montañita",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "square",
+      "lat": 10.2364379,
+      "lng": -64.5983206,
+      "distanceFromTerminalMeters": 3780,
+      "distanceFromDefaultTerminalMeters": 3780,
+      "minDistanceFromAnyTerminalMeters": 3780,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "place": "square"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/313242eb800b62a4aacc",
+      "name": "Plaza General Francisco de Miranda",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "square",
+      "lat": 10.236223,
+      "lng": -64.5979236,
+      "distanceFromTerminalMeters": 3830,
+      "distanceFromDefaultTerminalMeters": 3830,
+      "minDistanceFromAnyTerminalMeters": 3830,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "place": "square"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/2640f389b067514fbca1",
+      "name": "Plaza Bolívar",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "square",
+      "lat": 10.2347204,
+      "lng": -64.5961122,
+      "distanceFromTerminalMeters": 4079,
+      "distanceFromDefaultTerminalMeters": 4079,
+      "minDistanceFromAnyTerminalMeters": 4079,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "place": "square"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/67cb08c91923702961f6",
+      "name": "casa mara",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "building",
+      "lat": 10.2093283,
+      "lng": -64.6332125,
+      "distanceFromTerminalMeters": 4536,
+      "distanceFromDefaultTerminalMeters": 4536,
+      "minDistanceFromAnyTerminalMeters": 4536,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Av. Estadium, Puerto La Cruz, 6023",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "building"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/dfa7989852406c00548c",
+      "name": "Faro Isla Chimana Segunda",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "lighthouse",
+      "lat": 10.2913318,
+      "lng": -64.6067107,
+      "distanceFromTerminalMeters": 5255,
+      "distanceFromDefaultTerminalMeters": 5255,
+      "minDistanceFromAnyTerminalMeters": 5255,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "man_made": "lighthouse"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/718a9d5f3e29cdb1c943",
+      "name": "Venetur",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "beach",
+      "lat": 10.2278142,
+      "lng": -64.6340879,
+      "distanceFromTerminalMeters": 2507,
+      "distanceFromDefaultTerminalMeters": 2507,
+      "minDistanceFromAnyTerminalMeters": 2507,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "natural": "beach"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/60d6de1926085c131e27",
+      "name": "Paseo La Cruz y el Mar",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "beach",
+      "lat": 10.2237949,
+      "lng": -64.6379456,
+      "distanceFromTerminalMeters": 3041,
+      "distanceFromDefaultTerminalMeters": 3041,
+      "minDistanceFromAnyTerminalMeters": 3041,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "natural": "beach"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/e99562ffb51d1d256975",
+      "name": "Playa Doral Beach",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "beach",
+      "lat": 10.2038633,
+      "lng": -64.6725575,
+      "distanceFromTerminalMeters": 6929,
+      "distanceFromDefaultTerminalMeters": 6929,
+      "minDistanceFromAnyTerminalMeters": 6929,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "natural": "beach"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/745d51efda9f20c93b17",
+      "name": "Cerro Guaraguao",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "peak",
+      "lat": 10.2385594,
+      "lng": -64.6210353,
+      "distanceFromTerminalMeters": 1606,
+      "distanceFromDefaultTerminalMeters": 1606,
+      "minDistanceFromAnyTerminalMeters": 1606,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "natural": "peak"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/6ca0465b0d98d2617ab3",
+      "name": "Cerro Mene Grande",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "peak",
+      "lat": 10.2400223,
+      "lng": -64.6151191,
+      "distanceFromTerminalMeters": 1970,
+      "distanceFromDefaultTerminalMeters": 1970,
+      "minDistanceFromAnyTerminalMeters": 1970,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "natural": "peak"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/9ab927740cf2b19ca788",
+      "name": "Cerro El Chaure",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "peak",
+      "lat": 10.2509455,
+      "lng": -64.6054658,
+      "distanceFromTerminalMeters": 2687,
+      "distanceFromDefaultTerminalMeters": 2687,
+      "minDistanceFromAnyTerminalMeters": 2687,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "natural": "peak"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/fb290019399aae973ffb",
+      "name": "El amir palace",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 10.220538,
+      "lng": -64.6392373,
+      "distanceFromTerminalMeters": 3428,
+      "distanceFromDefaultTerminalMeters": 3428,
+      "minDistanceFromAnyTerminalMeters": 3428,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Paseo la cruz y el mar, Puerto La Cruz, 6023",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/cce35f4f45ddddb2aee4",
+      "name": "Más Pastelitos",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 10.2253098,
+      "lng": -64.632095,
+      "distanceFromTerminalMeters": 2755,
+      "distanceFromDefaultTerminalMeters": 2755,
+      "minDistanceFromAnyTerminalMeters": 2755,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Avenida Alberto Ravell, Puerto La Cruz, 6023",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [
+        "breakfast"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/82ec4af069486b1a5c7f",
+      "name": "El Potro Grill",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 10.2248726,
+      "lng": -64.6341951,
+      "distanceFromTerminalMeters": 2831,
+      "distanceFromDefaultTerminalMeters": 2831,
+      "minDistanceFromAnyTerminalMeters": 2831,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Calle Arismendi, Puerto La Cruz, 6023",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [
+        "grill"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/e6a5982504fbd517a4d9",
+      "name": "Bar Restaurante Paseo Azul",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 10.2217103,
+      "lng": -64.6378431,
+      "distanceFromTerminalMeters": 3261,
+      "distanceFromDefaultTerminalMeters": 3261,
+      "minDistanceFromAnyTerminalMeters": 3261,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [
+        "chinese"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/45ecfb94e02da35811c2",
+      "name": "Boulevard de las Empanadas",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "food_court",
+      "lat": 10.2120189,
+      "lng": -64.649186,
+      "distanceFromTerminalMeters": 4716,
+      "distanceFromDefaultTerminalMeters": 4716,
+      "minDistanceFromAnyTerminalMeters": 4716,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [
+        "regional"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "food_court"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/1516d1df99b28cae6a32",
+      "name": "Arepera las delicias",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 10.2042265,
+      "lng": -64.615555,
+      "distanceFromTerminalMeters": 5330,
+      "distanceFromDefaultTerminalMeters": 5330,
+      "minDistanceFromAnyTerminalMeters": 5330,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Calle Miraflores, Puerto La Cruz, 6023",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [
+        "arepa"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/93ac1a417a76bf692741",
+      "name": "Yitas Cake",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 10.197262,
+      "lng": -64.692347,
+      "distanceFromTerminalMeters": 8996,
+      "distanceFromDefaultTerminalMeters": 8996,
+      "minDistanceFromAnyTerminalMeters": 8996,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Av. Diego Bautista Urbaneja",
+      "openingHours": "We-Mo 14:01-21:00",
+      "website": "",
+      "phone": "+58 281 2017026",
+      "cuisine": [
+        "coffee_shop",
+        "ice_cream"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/0c572468fb7516598d89",
+      "name": "Centro comercial Colón plaza",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "mall",
+      "lat": 10.2262781,
+      "lng": -64.6324941,
+      "distanceFromTerminalMeters": 2652,
+      "distanceFromDefaultTerminalMeters": 2652,
+      "minDistanceFromAnyTerminalMeters": 2652,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Paseo Colón, Puerto La Cruz, 6023",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "shop": "mall"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/3690da9122345dc7a1d7",
+      "name": "Centro comercial coral caribe",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "mall",
+      "lat": 10.2253833,
+      "lng": -64.6328696,
+      "distanceFromTerminalMeters": 2755,
+      "distanceFromDefaultTerminalMeters": 2755,
+      "minDistanceFromAnyTerminalMeters": 2755,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Av. Alberto Ravell, Puerto La Cruz, 6023",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "shop": "mall"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/10d7083d64e550623d77",
+      "name": "Centro Comercial 5 de Julio",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "mall",
+      "lat": 10.22457,
+      "lng": -64.6303756,
+      "distanceFromTerminalMeters": 2828,
+      "distanceFromDefaultTerminalMeters": 2828,
+      "minDistanceFromAnyTerminalMeters": 2828,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Av. 5 de Julio, Puerto La Cruz, 6023",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "shop": "mall"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/cd184148f9b874e2c396",
+      "name": "Centro comercial el paseo",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "mall",
+      "lat": 10.2237182,
+      "lng": -64.6356107,
+      "distanceFromTerminalMeters": 2986,
+      "distanceFromDefaultTerminalMeters": 2986,
+      "minDistanceFromAnyTerminalMeters": 2986,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Calle Bolívar, Puerto La Cruz, 6023",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "shop": "mall"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/7c4d3e33fb612bcb1676",
+      "name": "Centro empresarial fm",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "mall",
+      "lat": 10.2229347,
+      "lng": -64.6334445,
+      "distanceFromTerminalMeters": 3033,
+      "distanceFromDefaultTerminalMeters": 3033,
+      "minDistanceFromAnyTerminalMeters": 3033,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Calle Miranda, Puerto La Cruz, 6023",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "shop": "mall"
+      }
+    }
+  ],
+  "portAnchor": {
+    "id": "ports-json-anchor",
+    "name": "PUERTO LA CRUZ Port",
+    "lat": 10.25,
+    "lng": -64.63,
+    "address": "Puerto La Cruz, Anzoátegui, Venezuela",
+    "source": "ports.json",
+    "sourceId": "",
+    "score": 0,
+    "slug": "puerto-la-cruz-port"
+  },
+  "terminalResolution": {
+    "status": "unresolved",
+    "method": "ports_json_fallback",
+    "verified": false,
+    "notes": "All supplied candidates are ferry-only stops, local docks, unnamed maritime features, or unrelated places rather than passenger cruise terminals."
+  }
+}

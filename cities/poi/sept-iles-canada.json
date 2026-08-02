@@ -1,0 +1,633 @@
+{
+  "schemaVersion": 5,
+  "catalogType": "curation-candidates",
+  "generatedAt": "2026-07-30T08:50:29.087Z",
+  "source": "openstreetmap",
+  "sourceExtract": "quebec-latest.osm.pbf",
+  "radiusMeters": 10000,
+  "port": {
+    "id": "sept-iles-canada",
+    "city": "Sept-Îles",
+    "country": "Canada"
+  },
+  "defaultTerminalId": "ports-json-anchor",
+  "terminal": {
+    "id": "ports-json-anchor",
+    "name": "SEPT ILES Port",
+    "lat": 50.2,
+    "lng": -66.38,
+    "address": "Sept-Îles, Quebec, Canada",
+    "source": "ports.json",
+    "sourceId": "",
+    "score": 0,
+    "slug": "sept-iles-port"
+  },
+  "terminals": [
+    {
+      "id": "ports-json-anchor",
+      "name": "SEPT ILES Port",
+      "lat": 50.2,
+      "lng": -66.38,
+      "address": "Sept-Îles, Quebec, Canada",
+      "source": "ports.json",
+      "sourceId": "",
+      "score": 0,
+      "slug": "sept-iles-port"
+    }
+  ],
+  "terminalCandidateRadiusMeters": 5000,
+  "terminalCandidates": [
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/02d9c0a9f80d5740af3e",
+      "name": "Traversier Rimouski/Sept-îles/Basse-Côte-Nord",
+      "nameEnglish": "",
+      "lat": 50.1972992,
+      "lng": -66.3828527,
+      "distanceFromPortMeters": 363,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "operator": "Groupe Desgagnés",
+        "public_transport": "stop_position"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/02d9c0a9f80d5740af3e"
+      ]
+    }
+  ],
+  "counts": {
+    "attraction": 3,
+    "outdoors": 6,
+    "food_drink": 9,
+    "shopping": 2,
+    "essentials": 1
+  },
+  "pois": [
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d75617e045b3b2560833",
+      "name": "Musée Régional de la Côte-Nord",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 50.2138511,
+      "lng": -66.375636,
+      "distanceFromTerminalMeters": 1571,
+      "distanceFromDefaultTerminalMeters": 1571,
+      "minDistanceFromAnyTerminalMeters": 1571,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "500 Boulevard Laure, Sept-Îles, G4R 1X7",
+      "openingHours": "Sep Mo[1] - Jun 23 Tu,Fr 10:00-12:00,13:00-17:00, Mo off; Sa,Su 13:00-17:00; Jun 25-Sep Mo[1] Tu-Su 09:00-17:00, Mo off",
+      "website": "https://museeregionalcotenord.ca/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/14b8affdc5defe508cdf",
+      "name": "Vieux-Poste de Traite",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 50.2256905,
+      "lng": -66.40315,
+      "distanceFromTerminalMeters": 3298,
+      "distanceFromDefaultTerminalMeters": 3298,
+      "minDistanceFromAnyTerminalMeters": 3298,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "https://vieuxposte.com/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/a6a0a55d030f257c7850",
+      "name": "Shaputuan",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 50.2278926,
+      "lng": -66.3924848,
+      "distanceFromTerminalMeters": 3226,
+      "distanceFromDefaultTerminalMeters": 3226,
+      "minDistanceFromAnyTerminalMeters": 3226,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "290 Boulevard des Montagnais",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ac3c446cab198b4ba97a",
+      "name": "Parc Franquelin",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 50.203125,
+      "lng": -66.3729101,
+      "distanceFromTerminalMeters": 613,
+      "distanceFromDefaultTerminalMeters": 613,
+      "minDistanceFromAnyTerminalMeters": 613,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ecbdfeaba825ee9eebc2",
+      "name": "Parc Steve-Duchesne",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 50.2054465,
+      "lng": -66.3723395,
+      "distanceFromTerminalMeters": 815,
+      "distanceFromDefaultTerminalMeters": 815,
+      "minDistanceFromAnyTerminalMeters": 815,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "286 Avenue Humphrey, Sept-Îles, G4R 5V7",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/8ceed1cf48a663e7419b",
+      "name": "Parc du Vieux-Quai",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 50.2054205,
+      "lng": -66.3888135,
+      "distanceFromTerminalMeters": 870,
+      "distanceFromDefaultTerminalMeters": 870,
+      "minDistanceFromAnyTerminalMeters": 870,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/880972042d9a6c91894c",
+      "name": "Plage Monaghan",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "beach",
+      "lat": 50.2050204,
+      "lng": -66.3026273,
+      "distanceFromTerminalMeters": 5535,
+      "distanceFromDefaultTerminalMeters": 5535,
+      "minDistanceFromAnyTerminalMeters": 5535,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "natural": "beach"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/a071284043fa3837af89",
+      "name": "Marina de Sept-Iles",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "marina",
+      "lat": 50.202568,
+      "lng": -66.3864141,
+      "distanceFromTerminalMeters": 538,
+      "distanceFromDefaultTerminalMeters": 538,
+      "minDistanceFromAnyTerminalMeters": 538,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "marina"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d8824759f35d21feb8b0",
+      "name": "Jardins de l'Anse",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "garden",
+      "lat": 50.2391953,
+      "lng": -66.3971757,
+      "distanceFromTerminalMeters": 4526,
+      "distanceFromDefaultTerminalMeters": 4526,
+      "minDistanceFromAnyTerminalMeters": 4526,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "garden"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/de1ef1cf30794893fe2a",
+      "name": "Microbrasserie La Compagnie",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "pub",
+      "lat": 50.2074088,
+      "lng": -66.3876904,
+      "distanceFromTerminalMeters": 989,
+      "distanceFromDefaultTerminalMeters": 989,
+      "minDistanceFromAnyTerminalMeters": 989,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "15 Rue du Père-Divet, Sept-Îles, G4R 5B6",
+      "openingHours": "Mo-We 15:00-23:00; Th-Sa 15:00-00:00",
+      "website": "https://www.microlacompagnie.com/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "pub"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/e0d64911834912a8f1c0",
+      "name": "Le Bavard et l'Ivrogne",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 50.2069638,
+      "lng": -66.3872212,
+      "distanceFromTerminalMeters": 929,
+      "distanceFromDefaultTerminalMeters": 929,
+      "minDistanceFromAnyTerminalMeters": 929,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "14 Rue du Père-Divet, Sept-Îles, G4R 5G4",
+      "openingHours": "Tu-Su 17:00-21:00",
+      "website": "https://lebavardetlivrogne.ca/",
+      "phone": "+1-418-962-4011",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b144941e343588f37f54",
+      "name": "Chez Omer",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 50.2045202,
+      "lng": -66.3826806,
+      "distanceFromTerminalMeters": 538,
+      "distanceFromDefaultTerminalMeters": 538,
+      "minDistanceFromAnyTerminalMeters": 538,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [
+        "seafood"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/0668b9c272a80549a288",
+      "name": "Le P'tit Snack",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 50.2042593,
+      "lng": -66.3856954,
+      "distanceFromTerminalMeters": 623,
+      "distanceFromDefaultTerminalMeters": 623,
+      "minDistanceFromAnyTerminalMeters": 623,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [
+        "burger"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/742b48f95a1dbef00dc5",
+      "name": "Tm Hortons",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 50.2078435,
+      "lng": -66.3785525,
+      "distanceFromTerminalMeters": 878,
+      "distanceFromDefaultTerminalMeters": 878,
+      "minDistanceFromAnyTerminalMeters": 878,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [
+        "sandwich"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/0233ebd04a8352ea9f05",
+      "name": "La Cage",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 50.2215075,
+      "lng": -66.384454,
+      "distanceFromTerminalMeters": 2412,
+      "distanceFromDefaultTerminalMeters": 2412,
+      "minDistanceFromAnyTerminalMeters": 2412,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "770 Boulevard Laure, Sept-Îles, G4R 1Y5",
+      "openingHours": "",
+      "website": "https://www.cage.ca/",
+      "phone": "+1-418-962-2243",
+      "cuisine": [
+        "burger",
+        "chicken",
+        "sandwich",
+        "fish",
+        "pasta"
+      ],
+      "wheelchair": "",
+      "brand": "La Cage",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ac90ff55089778d75598",
+      "name": "Les Terrasses du Capitaine",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 50.2013729,
+      "lng": -66.3835628,
+      "distanceFromTerminalMeters": 296,
+      "distanceFromDefaultTerminalMeters": 296,
+      "minDistanceFromAnyTerminalMeters": 296,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/88bb5e6ff9dee2c37a36",
+      "name": "Chez Sophie",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 50.2072388,
+      "lng": -66.3867972,
+      "distanceFromTerminalMeters": 939,
+      "distanceFromDefaultTerminalMeters": 939,
+      "minDistanceFromAnyTerminalMeters": 939,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/bdf1b6e95b6455c3d7f1",
+      "name": "Mikes",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 50.2248564,
+      "lng": -66.3898599,
+      "distanceFromTerminalMeters": 2852,
+      "distanceFromDefaultTerminalMeters": 2852,
+      "minDistanceFromAnyTerminalMeters": 2852,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "852 Boulevard Laure, Sept-Îles, G4R 1Y7",
+      "openingHours": "Tu-Su 08:00-20:00; Mo off",
+      "website": "https://toujoursmikes.ca/toujours-mikes-sept-iles",
+      "phone": "+1-418-962-1111",
+      "cuisine": [
+        "pizza",
+        "pasta",
+        "sandwich"
+      ],
+      "wheelchair": "",
+      "brand": "Mikes",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/e75464636549a1aea178",
+      "name": "Place de Ville",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "mall",
+      "lat": 50.221207,
+      "lng": -66.3837263,
+      "distanceFromTerminalMeters": 2373,
+      "distanceFromDefaultTerminalMeters": 2373,
+      "minDistanceFromAnyTerminalMeters": 2373,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "shop": "mall"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/3ee05f5ce4affb863fe0",
+      "name": "Marché Mellau",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "marketplace",
+      "lat": 50.2067521,
+      "lng": -66.3878826,
+      "distanceFromTerminalMeters": 937,
+      "distanceFromDefaultTerminalMeters": 937,
+      "minDistanceFromAnyTerminalMeters": 937,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "marketplace"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/fad3664119ecb9466e60",
+      "name": "Cabane à Pêche",
+      "nameEnglish": "",
+      "category": "essentials",
+      "subcategory": "visitor_information",
+      "lat": 50.2063321,
+      "lng": -66.3908367,
+      "distanceFromTerminalMeters": 1044,
+      "distanceFromDefaultTerminalMeters": 1044,
+      "minDistanceFromAnyTerminalMeters": 1044,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Su 09:30-20:00",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "information"
+      }
+    }
+  ],
+  "portAnchor": {
+    "id": "ports-json-anchor",
+    "name": "SEPT ILES Port",
+    "lat": 50.2,
+    "lng": -66.38,
+    "address": "Sept-Îles, Quebec, Canada",
+    "source": "ports.json",
+    "sourceId": "",
+    "score": 0,
+    "slug": "sept-iles-port"
+  },
+  "terminalResolution": {
+    "status": "unresolved",
+    "method": "ports_json_fallback",
+    "verified": false,
+    "notes": "All supplied candidates are ferry-only stops, local docks, unnamed maritime features, or unrelated places rather than passenger cruise terminals."
+  }
+}

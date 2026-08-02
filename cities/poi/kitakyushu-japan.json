@@ -1,0 +1,417 @@
+{
+  "schemaVersion": 5,
+  "catalogType": "curation-candidates",
+  "generatedAt": "2026-07-30T08:16:16.867Z",
+  "source": "openstreetmap",
+  "sourceExtract": "kyushu-latest.osm.pbf",
+  "radiusMeters": 10000,
+  "port": {
+    "id": "kitakyushu-japan",
+    "city": "Kitakyushu",
+    "country": "Japan"
+  },
+  "defaultTerminalId": "ports-json-anchor",
+  "terminal": {
+    "id": "ports-json-anchor",
+    "name": "WAKAMATSU KO Port",
+    "lat": 33.9,
+    "lng": 130.82,
+    "address": "Kitakyushu, Fukuoka, Japan",
+    "source": "ports.json",
+    "sourceId": "",
+    "score": 0,
+    "slug": "wakamatsu-ko-port"
+  },
+  "terminals": [
+    {
+      "id": "ports-json-anchor",
+      "name": "WAKAMATSU KO Port",
+      "lat": 33.9,
+      "lng": 130.82,
+      "address": "Kitakyushu, Fukuoka, Japan",
+      "source": "ports.json",
+      "sourceId": "",
+      "score": 0,
+      "slug": "wakamatsu-ko-port"
+    }
+  ],
+  "terminalCandidateRadiusMeters": 5000,
+  "terminalCandidates": [
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/8a562aea7e14c9cae0c4",
+      "name": "戸畑渡場",
+      "nameEnglish": "",
+      "lat": 33.9013577,
+      "lng": 130.8188218,
+      "distanceFromPortMeters": 186,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/8a562aea7e14c9cae0c4"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b84ee33198b6512c39a6",
+      "name": "若松渡場",
+      "nameEnglish": "",
+      "lat": 33.9021648,
+      "lng": 130.8146156,
+      "distanceFromPortMeters": 552,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/b84ee33198b6512c39a6"
+      ]
+    }
+  ],
+  "counts": {
+    "attraction": 6,
+    "outdoors": 2,
+    "food_drink": 1,
+    "shopping": 3,
+    "essentials": 0
+  },
+  "pois": [
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/2e737966fb0d939f03ad",
+      "name": "北九州イノベーションギャラリー",
+      "nameEnglish": "Kitakyushu Innovation Gallery and Studio",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 33.8689192,
+      "lng": 130.8058983,
+      "distanceFromTerminalMeters": 3693,
+      "distanceFromDefaultTerminalMeters": 3693,
+      "minDistanceFromAnyTerminalMeters": 3693,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "11, 北九州市, 805-0071",
+      "openingHours": "Mo-Fr 09:00-19:00; Sa-Su 09:00-17:00",
+      "website": "https://www.kigs.jp/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/a6677e8038eec01643cf",
+      "name": "Yanagi",
+      "nameEnglish": "Yanagi",
+      "category": "attraction",
+      "subcategory": "wreck",
+      "lat": 33.930172,
+      "lng": 130.8221846,
+      "distanceFromTerminalMeters": 3361,
+      "distanceFromDefaultTerminalMeters": 3361,
+      "minDistanceFromAnyTerminalMeters": 3361,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "wreck"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/e7725528f4d1762cb61e",
+      "name": "クハ481 256",
+      "nameEnglish": "KuHa 481 256",
+      "category": "attraction",
+      "subcategory": "railway_car",
+      "lat": 33.8788801,
+      "lng": 130.8614488,
+      "distanceFromTerminalMeters": 4489,
+      "distanceFromDefaultTerminalMeters": 4489,
+      "minDistanceFromAnyTerminalMeters": 4489,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "railway_car"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/01d53fb820b1aa3a636b",
+      "name": "C12 222",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "locomotive",
+      "lat": 33.87887,
+      "lng": 130.8613808,
+      "distanceFromTerminalMeters": 4484,
+      "distanceFromDefaultTerminalMeters": 4484,
+      "minDistanceFromAnyTerminalMeters": 4484,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "locomotive"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/db5bdeb0fe532f4b6361",
+      "name": "D51 542",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "locomotive",
+      "lat": 33.8793382,
+      "lng": 130.8622324,
+      "distanceFromTerminalMeters": 4525,
+      "distanceFromDefaultTerminalMeters": 4525,
+      "minDistanceFromAnyTerminalMeters": 4525,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "locomotive"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/99b3b8fc542e68653042",
+      "name": "汐井町公園",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 33.8979083,
+      "lng": 130.8227987,
+      "distanceFromTerminalMeters": 348,
+      "distanceFromDefaultTerminalMeters": 348,
+      "minDistanceFromAnyTerminalMeters": 348,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "北九州市",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/1e222b76940ade1cdf56",
+      "name": "times若松本町3丁目",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "viewpoint",
+      "lat": 33.9037639,
+      "lng": 130.807913,
+      "distanceFromTerminalMeters": 1191,
+      "distanceFromDefaultTerminalMeters": 1191,
+      "minDistanceFromAnyTerminalMeters": 1191,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "viewpoint"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/dac221008302c77e684f",
+      "name": "ラーメン山岡家",
+      "nameEnglish": "Ramen Yamaokaya",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 33.8983901,
+      "lng": 130.8575233,
+      "distanceFromTerminalMeters": 3468,
+      "distanceFromDefaultTerminalMeters": 3468,
+      "minDistanceFromAnyTerminalMeters": 3468,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "15-1",
+      "openingHours": "24/7",
+      "website": "",
+      "phone": "+81 93-8899-499",
+      "cuisine": [
+        "ramen"
+      ],
+      "wheelchair": "",
+      "brand": "ラーメン山岡家",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/527bb663f1b113b36949",
+      "name": "イオンモール",
+      "nameEnglish": "AEON Mall",
+      "category": "shopping",
+      "subcategory": "mall",
+      "lat": 33.8958597,
+      "lng": 130.8202133,
+      "distanceFromTerminalMeters": 461,
+      "distanceFromDefaultTerminalMeters": 461,
+      "minDistanceFromAnyTerminalMeters": 461,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "北九州市, 804-0067, JP",
+      "openingHours": "",
+      "website": "https://tobata.aeonkyushu.com/",
+      "phone": "093-871-1111",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "イオンモール",
+      "description": "",
+      "osmTags": {
+        "shop": "mall"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/41cf614dae25e7056820",
+      "name": "イオンモール八幡東",
+      "nameEnglish": "ÆON Mall Yahatahigashi",
+      "category": "shopping",
+      "subcategory": "mall",
+      "lat": 33.8699021,
+      "lng": 130.8113107,
+      "distanceFromTerminalMeters": 3442,
+      "distanceFromDefaultTerminalMeters": 3442,
+      "minDistanceFromAnyTerminalMeters": 3442,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "102, 北九州市, 805-0071",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "shop": "mall"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/27736eb53c4bfd465e84",
+      "name": "イオン",
+      "nameEnglish": "AEON",
+      "category": "shopping",
+      "subcategory": "supermarket",
+      "lat": 33.8960627,
+      "lng": 130.8195412,
+      "distanceFromTerminalMeters": 440,
+      "distanceFromDefaultTerminalMeters": 440,
+      "minDistanceFromAnyTerminalMeters": 440,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "北九州市, 804-0067, JP",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "shop": "supermarket"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/8d97199deed73c1e27ad",
+      "name": "SL",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 33.9004285,
+      "lng": 130.8069187,
+      "distanceFromTerminalMeters": 1208,
+      "distanceFromDefaultTerminalMeters": 1208,
+      "minDistanceFromAnyTerminalMeters": 1208,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "attraction"
+      }
+    }
+  ],
+  "portAnchor": {
+    "id": "ports-json-anchor",
+    "name": "WAKAMATSU KO Port",
+    "lat": 33.9,
+    "lng": 130.82,
+    "address": "Kitakyushu, Fukuoka, Japan",
+    "source": "ports.json",
+    "sourceId": "",
+    "score": 0,
+    "slug": "wakamatsu-ko-port"
+  },
+  "terminalResolution": {
+    "status": "unresolved",
+    "method": "ports_json_fallback",
+    "verified": false,
+    "notes": "All supplied candidates are ferry-only stops, local docks, unnamed maritime features, or unrelated places rather than passenger cruise terminals."
+  }
+}

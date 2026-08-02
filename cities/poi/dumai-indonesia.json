@@ -1,0 +1,602 @@
+{
+  "schemaVersion": 5,
+  "catalogType": "curation-candidates",
+  "generatedAt": "2026-07-30T09:06:46.691Z",
+  "source": "openstreetmap",
+  "sourceExtract": "sumatra-latest.osm.pbf",
+  "radiusMeters": 10000,
+  "port": {
+    "id": "dumai-indonesia",
+    "city": "Dumai",
+    "country": "Indonesia"
+  },
+  "defaultTerminalId": "ports-json-anchor",
+  "terminal": {
+    "id": "ports-json-anchor",
+    "name": "DUMAI Port",
+    "lat": 1.68,
+    "lng": 101.45,
+    "address": "Dumai, Riau, Indonesia",
+    "source": "ports.json",
+    "sourceId": "",
+    "score": 0,
+    "slug": "dumai-port"
+  },
+  "terminals": [
+    {
+      "id": "ports-json-anchor",
+      "name": "DUMAI Port",
+      "lat": 1.68,
+      "lng": 101.45,
+      "address": "Dumai, Riau, Indonesia",
+      "source": "ports.json",
+      "sourceId": "",
+      "score": 0,
+      "slug": "dumai-port"
+    }
+  ],
+  "terminalCandidateRadiusMeters": 5000,
+  "terminalCandidates": [
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/02e61ae764ddc9545eb7",
+      "name": "Indomal Express Ticket Office",
+      "nameEnglish": "Indomal Express Ticket Office",
+      "lat": 1.6803683,
+      "lng": 101.4481506,
+      "distanceFromPortMeters": 210,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "name:en": "Indomal Express Ticket Office",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/02e61ae764ddc9545eb7"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/0803481e93954c00a737",
+      "name": "Dumai Ferry Terminal",
+      "nameEnglish": "Dumai Ferry Terminal",
+      "lat": 1.6859987,
+      "lng": 101.4587098,
+      "distanceFromPortMeters": 1176,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "name:en": "Dumai Ferry Terminal",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/0803481e93954c00a737"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/1e3f2d4b6ffd769a4ac3",
+      "name": "Dumai",
+      "nameEnglish": "",
+      "lat": 1.6870258,
+      "lng": 101.4588608,
+      "distanceFromPortMeters": 1257,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/1e3f2d4b6ffd769a4ac3"
+      ]
+    },
+    {
+      "source": "openstreetmap+nominatim",
+      "sourceId": "osm/generated/50102b244a7f38f62900",
+      "name": "Pelabuhan ferry Dumai",
+      "nameEnglish": "Dumai ferry port",
+      "lat": 1.6968537,
+      "lng": 101.4181094,
+      "distanceFromPortMeters": 4009,
+      "address": "Pelabuhan ferry Dumai, Jalan ke Dermaga Tpi, Pelabuhan Perikanan Dumai, Dumai Barat, Dumai, Riau, Sumatera, 28823, Indonesia",
+      "matchedBy": [
+        "amenity=ferry_terminal",
+        "Nominatim query: DUMAI Port, Dumai, Indonesia"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "name:en": "Dumai ferry port",
+        "public_transport": "stop_position"
+      },
+      "sources": [
+        "openstreetmap",
+        "nominatim"
+      ],
+      "sourceIds": [
+        "osm/generated/50102b244a7f38f62900",
+        "osm/node/7622464414"
+      ],
+      "displayName": "Pelabuhan ferry Dumai, Jalan ke Dermaga Tpi, Pelabuhan Perikanan Dumai, Dumai Barat, Dumai, Riau, Sumatera, 28823, Indonesia",
+      "query": "DUMAI Port, Dumai, Indonesia"
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/293008fbce0a79a18ae9",
+      "name": "Pelabuhan ferry Tanjung Kapal (Rupat)",
+      "nameEnglish": "Tanjung Kapal (Rupat) ferry port",
+      "lat": 1.7237866,
+      "lng": 101.4581355,
+      "distanceFromPortMeters": 4952,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "name:en": "Tanjung Kapal (Rupat) ferry port",
+        "public_transport": "stop_position"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/293008fbce0a79a18ae9"
+      ]
+    }
+  ],
+  "counts": {
+    "attraction": 2,
+    "outdoors": 3,
+    "food_drink": 8,
+    "shopping": 2,
+    "essentials": 1
+  },
+  "pois": [
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b3d02009b08edc23942a",
+      "name": "tugu burung silindid",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 1.6780276,
+      "lng": 101.441204,
+      "distanceFromTerminalMeters": 1002,
+      "distanceFromDefaultTerminalMeters": 1002,
+      "minDistanceFromAnyTerminalMeters": 1002,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/2d430d54c19dc174aab9",
+      "name": "Bundaran Kota Dumai",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "monument",
+      "lat": 1.6585171,
+      "lng": 101.4490457,
+      "distanceFromTerminalMeters": 2391,
+      "distanceFromDefaultTerminalMeters": 2391,
+      "minDistanceFromAnyTerminalMeters": 2391,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "monument"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/baec59d601d89a3912af",
+      "name": "lembaga IKPS DUMAI",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 1.6736711,
+      "lng": 101.4451708,
+      "distanceFromTerminalMeters": 885,
+      "distanceFromDefaultTerminalMeters": 885,
+      "minDistanceFromAnyTerminalMeters": 885,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "dumai",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/01737c096f03858282d7",
+      "name": "Taman Bukit Gelanggang",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 1.6612566,
+      "lng": 101.4464896,
+      "distanceFromTerminalMeters": 2120,
+      "distanceFromDefaultTerminalMeters": 2120,
+      "minDistanceFromAnyTerminalMeters": 2120,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/1d479828565ab21fe9d5",
+      "name": "kebun warga",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 1.6589626,
+      "lng": 101.4539326,
+      "distanceFromTerminalMeters": 2380,
+      "distanceFromDefaultTerminalMeters": 2380,
+      "minDistanceFromAnyTerminalMeters": 2380,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/84082c43127e012c32f1",
+      "name": "RM PAK DATUK",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 1.6764558,
+      "lng": 101.4486879,
+      "distanceFromTerminalMeters": 420,
+      "distanceFromDefaultTerminalMeters": 420,
+      "minDistanceFromAnyTerminalMeters": 420,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [
+        "regional"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/265a61cbba985a3a6ced",
+      "name": "Pak Datuk",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 1.6805238,
+      "lng": 101.4484939,
+      "distanceFromTerminalMeters": 177,
+      "distanceFromDefaultTerminalMeters": 177,
+      "minDistanceFromAnyTerminalMeters": 177,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/a620f20824ef10eb9a2c",
+      "name": "Bungawan Resto",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 1.6791277,
+      "lng": 101.4543564,
+      "distanceFromTerminalMeters": 494,
+      "distanceFromDefaultTerminalMeters": 494,
+      "minDistanceFromAnyTerminalMeters": 494,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/a022c976731fe76ac3bc",
+      "name": "pondok makan baselo",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 1.6738012,
+      "lng": 101.445888,
+      "distanceFromTerminalMeters": 827,
+      "distanceFromDefaultTerminalMeters": 827,
+      "minDistanceFromAnyTerminalMeters": 827,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/0357016955be7a10f874",
+      "name": "Excellent vegetarian food!",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 1.6781754,
+      "lng": 101.4423213,
+      "distanceFromTerminalMeters": 877,
+      "distanceFromDefaultTerminalMeters": 877,
+      "minDistanceFromAnyTerminalMeters": 877,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c72c6397bf4847ea4b2f",
+      "name": "Papa Ibam Pizza",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 1.6647156,
+      "lng": 101.4469722,
+      "distanceFromTerminalMeters": 1733,
+      "distanceFromDefaultTerminalMeters": 1733,
+      "minDistanceFromAnyTerminalMeters": 1733,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [
+        "pizza"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/6bb00d192be466a87268",
+      "name": "Miroso",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 1.6691299,
+      "lng": 101.4615395,
+      "distanceFromTerminalMeters": 1762,
+      "distanceFromDefaultTerminalMeters": 1762,
+      "minDistanceFromAnyTerminalMeters": 1762,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [
+        "asian"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f0259ba9323f4e242fe6",
+      "name": "kedai lontong",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 1.6710703,
+      "lng": 101.445644,
+      "distanceFromTerminalMeters": 1105,
+      "distanceFromDefaultTerminalMeters": 1105,
+      "minDistanceFromAnyTerminalMeters": 1105,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ec33bc07bd4ee5c259fd",
+      "name": "Pasar Jaya Mukti",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "marketplace",
+      "lat": 1.6678194,
+      "lng": 101.4628846,
+      "distanceFromTerminalMeters": 1971,
+      "distanceFromDefaultTerminalMeters": 1971,
+      "minDistanceFromAnyTerminalMeters": 1971,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "marketplace"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/27113e16e2ebec638d0b",
+      "name": "pasar",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "marketplace",
+      "lat": 1.7117449,
+      "lng": 101.3830406,
+      "distanceFromTerminalMeters": 8237,
+      "distanceFromDefaultTerminalMeters": 8237,
+      "minDistanceFromAnyTerminalMeters": 8237,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "marketplace"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c9b2070f79a8d5112fa8",
+      "name": "kedai harian del",
+      "nameEnglish": "",
+      "category": "essentials",
+      "subcategory": "visitor_information",
+      "lat": 1.672636,
+      "lng": 101.4450154,
+      "distanceFromTerminalMeters": 989,
+      "distanceFromDefaultTerminalMeters": 989,
+      "minDistanceFromAnyTerminalMeters": 989,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "information"
+      }
+    }
+  ],
+  "portAnchor": {
+    "id": "ports-json-anchor",
+    "name": "DUMAI Port",
+    "lat": 1.68,
+    "lng": 101.45,
+    "address": "Dumai, Riau, Indonesia",
+    "source": "ports.json",
+    "sourceId": "",
+    "score": 0,
+    "slug": "dumai-port"
+  },
+  "terminalResolution": {
+    "status": "unresolved",
+    "method": "ports_json_fallback",
+    "verified": false,
+    "notes": "All supplied candidates are ferry-only stops, local docks, unnamed maritime features, or unrelated places rather than passenger cruise terminals."
+  }
+}

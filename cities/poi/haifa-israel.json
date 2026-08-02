@@ -1,0 +1,1199 @@
+{
+  "schemaVersion": 5,
+  "catalogType": "curation-candidates",
+  "generatedAt": "2026-07-30T08:08:20.694Z",
+  "source": "openstreetmap",
+  "sourceExtract": "israel-and-palestine-latest.osm.pbf",
+  "radiusMeters": 10000,
+  "port": {
+    "id": "haifa-israel",
+    "city": "Haifa",
+    "country": "Israel"
+  },
+  "defaultTerminalId": "manual/haifa-israel/haifa-port-passenger-terminal",
+  "terminal": {
+    "id": "manual/haifa-israel/haifa-port-passenger-terminal",
+    "name": "Haifa Port Passenger Terminal",
+    "nameEnglish": "",
+    "lat": 32.82316,
+    "lng": 34.99869,
+    "address": "",
+    "source": "manual_web_research",
+    "sourceId": "manual/haifa-israel/haifa-port-passenger-terminal",
+    "terminalType": "passenger_cruise_terminal",
+    "verified": true,
+    "notes": "Cruise passenger terminal beside central Haifa and the railway station.",
+    "sourceUrls": [
+      "https://www.haifaport.co.il/en/tourism/cruise-ships/",
+      "https://www.openstreetmap.org/?mlat=32.82316&mlon=34.99869#map=17/32.82316/34.99869"
+    ],
+    "sources": [
+      "manual_web_research"
+    ],
+    "sourceIds": [
+      "manual/haifa-israel/haifa-port-passenger-terminal"
+    ],
+    "osmTags": {},
+    "matchedBy": [
+      "web_researched_terminal"
+    ],
+    "distanceFromPortMeters": null
+  },
+  "terminals": [
+    {
+      "id": "manual/haifa-israel/haifa-port-passenger-terminal",
+      "name": "Haifa Port Passenger Terminal",
+      "nameEnglish": "",
+      "lat": 32.82316,
+      "lng": 34.99869,
+      "address": "",
+      "source": "manual_web_research",
+      "sourceId": "manual/haifa-israel/haifa-port-passenger-terminal",
+      "terminalType": "passenger_cruise_terminal",
+      "verified": true,
+      "notes": "Cruise passenger terminal beside central Haifa and the railway station.",
+      "sourceUrls": [
+        "https://www.haifaport.co.il/en/tourism/cruise-ships/",
+        "https://www.openstreetmap.org/?mlat=32.82316&mlon=34.99869#map=17/32.82316/34.99869"
+      ],
+      "sources": [
+        "manual_web_research"
+      ],
+      "sourceIds": [
+        "manual/haifa-israel/haifa-port-passenger-terminal"
+      ],
+      "osmTags": {},
+      "matchedBy": [
+        "web_researched_terminal"
+      ],
+      "distanceFromPortMeters": null
+    }
+  ],
+  "terminalCandidateRadiusMeters": 5000,
+  "terminalCandidates": [
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/afeeb7b6a268a472e966",
+      "name": "(unnamed maritime feature)",
+      "nameEnglish": "",
+      "lat": 32.8228074,
+      "lng": 35.0094278,
+      "distanceFromPortMeters": 935,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/afeeb7b6a268a472e966"
+      ]
+    },
+    {
+      "source": "nominatim",
+      "sourceId": "osm/relation/2690212",
+      "osmType": "relation",
+      "osmId": "2690212",
+      "name": "נמל חיפה",
+      "nameEnglish": "Haifa Port",
+      "lat": 32.8193237,
+      "lng": 35.0361763,
+      "distanceFromPortMeters": 3381,
+      "address": "נמל חיפה, רובע מפרץ חיפה, חיפה, נפת חיפה, מחוז חיפה, ישראל",
+      "displayName": "נמל חיפה, רובע מפרץ חיפה, חיפה, נפת חיפה, מחוז חיפה, ישראל",
+      "query": "HAIFA Port, Haifa, Israel",
+      "matchedBy": [
+        "Nominatim query: HAIFA Port, Haifa, Israel"
+      ],
+      "osmTags": {
+        "operator": "Israeli Ports and Railways Authority",
+        "industrial": "port",
+        "seamark:type": "harbour"
+      },
+      "sources": [
+        "nominatim"
+      ],
+      "sourceIds": [
+        "osm/relation/2690212"
+      ]
+    }
+  ],
+  "counts": {
+    "attraction": 18,
+    "outdoors": 6,
+    "food_drink": 12,
+    "shopping": 3,
+    "essentials": 2
+  },
+  "pois": [
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/850a6dd17a6742954467",
+      "name": "מוזיאון חיפה לאמנות",
+      "nameEnglish": "Haifa Museum of Art",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 32.8151043,
+      "lng": 34.9926973,
+      "distanceFromTerminalMeters": 873,
+      "distanceFromDefaultTerminalMeters": 873,
+      "minDistanceFromAnyTerminalMeters": 873,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "26 שבתאי לוי",
+      "openingHours": "",
+      "website": "https://www.hms.org.il/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/4fc132fd85c8cb721858",
+      "name": "מוזיאון דגון",
+      "nameEnglish": "Dagon Museum",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 32.8224435,
+      "lng": 34.9961516,
+      "distanceFromTerminalMeters": 451,
+      "distanceFromDefaultTerminalMeters": 451,
+      "minDistanceFromAnyTerminalMeters": 451,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/915196fc58ce708fbd46",
+      "name": "גן החיות הלימודי חיפה",
+      "nameEnglish": "Haifa educational zoo",
+      "category": "attraction",
+      "subcategory": "zoo",
+      "lat": 32.8065699,
+      "lng": 34.9852329,
+      "distanceFromTerminalMeters": 2033,
+      "distanceFromDefaultTerminalMeters": 2033,
+      "minDistanceFromAnyTerminalMeters": 2033,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "https://www.haifazoo.co.il/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "zoo"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/dc17c4b8ce3290e526e2",
+      "name": "מדעטק",
+      "nameEnglish": "Madatech",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 32.8101393,
+      "lng": 34.9963413,
+      "distanceFromTerminalMeters": 1149,
+      "distanceFromDefaultTerminalMeters": 1149,
+      "minDistanceFromAnyTerminalMeters": 1149,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/63bf7127f39ce74ba7f3",
+      "name": "מוזיאון הרכבת",
+      "nameEnglish": "Railway Museum",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 32.8111717,
+      "lng": 35.0066882,
+      "distanceFromTerminalMeters": 1164,
+      "distanceFromDefaultTerminalMeters": 1164,
+      "minDistanceFromAnyTerminalMeters": 1164,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/31f3ea99e6dd8acd34ab",
+      "name": "כיפת הבאב",
+      "nameEnglish": "Shrine of the Bab",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 32.8145946,
+      "lng": 34.9871419,
+      "distanceFromTerminalMeters": 1344,
+      "distanceFromDefaultTerminalMeters": 1344,
+      "minDistanceFromAnyTerminalMeters": 1344,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "حيفا",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "place_of_worship",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/5ce9a83d8b0f71027a60",
+      "name": "מוזיאון מאנה-כץ",
+      "nameEnglish": "Mane-Katz Museum",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 32.8079055,
+      "lng": 34.9871487,
+      "distanceFromTerminalMeters": 1803,
+      "distanceFromDefaultTerminalMeters": 1803,
+      "minDistanceFromAnyTerminalMeters": 1803,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/775093b1680fcdeae9c6",
+      "name": "מוזיאון טיקוטין לאמנות יפנית",
+      "nameEnglish": "Tikotin Museum of Japanese Art",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 32.8093487,
+      "lng": 34.985385,
+      "distanceFromTerminalMeters": 1808,
+      "distanceFromDefaultTerminalMeters": 1808,
+      "minDistanceFromAnyTerminalMeters": 1808,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/90a18c8f2ef8beecb26d",
+      "name": "כיכר פייצל",
+      "nameEnglish": "Kikar Faisel",
+      "category": "attraction",
+      "subcategory": "square",
+      "lat": 32.8120998,
+      "lng": 35.004175,
+      "distanceFromTerminalMeters": 961,
+      "distanceFromDefaultTerminalMeters": 961,
+      "minDistanceFromAnyTerminalMeters": 961,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "place": "square"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/9c34b4f07bf9f96591d0",
+      "name": "חי-בר כרמל",
+      "nameEnglish": "Chai-Bar Carmel",
+      "category": "attraction",
+      "subcategory": "zoo",
+      "lat": 32.7534699,
+      "lng": 35.0109111,
+      "distanceFromTerminalMeters": 7468,
+      "distanceFromDefaultTerminalMeters": 7468,
+      "minDistanceFromAnyTerminalMeters": 7468,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "https://www.parks.org.il/reserve-park/%D7%A9%D7%9E%D7%95%D7%A8%D7%AA-%D7%98%D7%91%D7%A2-%D7%97%D7%99-%D7%91%D7%A8-%D7%91%D7%9B%D7%A8%D7%9E%D7%9C/",
+      "phone": "+972-4-8320648",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "zoo"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/16f8411adc1563750538",
+      "name": "מרכז ההוראה הבינלאומי",
+      "nameEnglish": "International Teaching Center",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 32.8115167,
+      "lng": 34.9886813,
+      "distanceFromTerminalMeters": 1417,
+      "distanceFromDefaultTerminalMeters": 1417,
+      "minDistanceFromAnyTerminalMeters": 1417,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "حيفا",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c45dc907fce942ade41e",
+      "name": "הארכיון הבינלאומי",
+      "nameEnglish": "International Archives Building",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 32.8129918,
+      "lng": 34.9869993,
+      "distanceFromTerminalMeters": 1443,
+      "distanceFromDefaultTerminalMeters": 1443,
+      "minDistanceFromAnyTerminalMeters": 1443,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "حيفا",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d90406cc21ceb476098f",
+      "name": "בית הצדק העולמי",
+      "nameEnglish": "Universal House of Justice",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 32.8115601,
+      "lng": 34.987459,
+      "distanceFromTerminalMeters": 1501,
+      "distanceFromDefaultTerminalMeters": 1501,
+      "minDistanceFromAnyTerminalMeters": 1501,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "حيفا",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b1163544176f4323079e",
+      "name": "צלב ההקרבה",
+      "nameEnglish": "Cross of Sacrifice",
+      "category": "attraction",
+      "subcategory": "memorial",
+      "lat": 32.8278574,
+      "lng": 34.9860765,
+      "distanceFromTerminalMeters": 1567,
+      "distanceFromDefaultTerminalMeters": 1567,
+      "minDistanceFromAnyTerminalMeters": 1567,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "צלב ההקרבה (באנגלית: Cross of Sacrifice) הוא אחד מן המרכיבים העיצוביים העיקריים המוצבים בבתי קברות צבאיים של בריטניה. זהו צלב לטיני, כלומר בעל זרוע ארוכה אחת הפונה כלפי מטה.",
+      "osmTags": {
+        "historic": "memorial"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/9c5fb6e1698c321ec4b9",
+      "name": "תל אבו הואם",
+      "nameEnglish": "Tell Abu Hawam",
+      "category": "attraction",
+      "subcategory": "archaeological_site",
+      "lat": 32.8008333,
+      "lng": 35.0191667,
+      "distanceFromTerminalMeters": 2784,
+      "distanceFromDefaultTerminalMeters": 2784,
+      "minDistanceFromAnyTerminalMeters": 2784,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "תל אבו הַוַּאם (\"הואם\" הוא כינוי למין ציפור) הוא תל עתיק בדרום מפרץ חיפה.",
+      "osmTags": {
+        "historic": "archaeological_site"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/93096c557084fbc45a35",
+      "name": "אח\"י דקר",
+      "nameEnglish": "Ahi Dakar",
+      "category": "attraction",
+      "subcategory": "monument",
+      "lat": 32.8302799,
+      "lng": 34.970436,
+      "distanceFromTerminalMeters": 2990,
+      "distanceFromDefaultTerminalMeters": 2990,
+      "minDistanceFromAnyTerminalMeters": 2990,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "monument"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/692b7fbc4616ffcd5075",
+      "name": "מגדלור סטלה מאריס",
+      "nameEnglish": "Stella Maris lighthouse",
+      "category": "attraction",
+      "subcategory": "lighthouse",
+      "lat": 32.828338,
+      "lng": 34.9690933,
+      "distanceFromTerminalMeters": 3033,
+      "distanceFromDefaultTerminalMeters": 3033,
+      "minDistanceFromAnyTerminalMeters": 3033,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "man_made": "lighthouse"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/3ce5d5d1622e9d46d0f4",
+      "name": "תל שיקמונה",
+      "nameEnglish": "Tel Shikmona",
+      "category": "attraction",
+      "subcategory": "archaeological_site",
+      "lat": 32.8246398,
+      "lng": 34.9554726,
+      "distanceFromTerminalMeters": 4193,
+      "distanceFromDefaultTerminalMeters": 4193,
+      "minDistanceFromAnyTerminalMeters": 4193,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "archaeological_site"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d1ae54a1f30e8bc03dcb",
+      "name": "החוף השקט",
+      "nameEnglish": "The Quiet Beach",
+      "category": "outdoors",
+      "subcategory": "beach",
+      "lat": 32.8325717,
+      "lng": 34.9894569,
+      "distanceFromTerminalMeters": 1710,
+      "distanceFromDefaultTerminalMeters": 1710,
+      "minDistanceFromAnyTerminalMeters": 1710,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "natural": "beach"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/dec80b977aa18e4a92d5",
+      "name": "הגנים הבהאים",
+      "nameEnglish": "Baha'i Gardens",
+      "category": "outdoors",
+      "subcategory": "garden",
+      "lat": 32.8135237,
+      "lng": 34.9865946,
+      "distanceFromTerminalMeters": 1445,
+      "distanceFromDefaultTerminalMeters": 1445,
+      "minDistanceFromAnyTerminalMeters": 1445,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Su 09:00-17:00",
+      "website": "https://ganbahai.org.il/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "limited",
+      "brand": "",
+      "description": "גנים עם 19 טרסות של ערוגות פרחים גאומטריות, שמטפסות כל הדרך למקדש הבהאים עטוי הכיפה בהר הכרמל.",
+      "osmTags": {
+        "leisure": "garden"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/bdd1f125c3b254843629",
+      "name": "חוף בת גלים",
+      "nameEnglish": "Bat Galim Beach",
+      "category": "outdoors",
+      "subcategory": "beach",
+      "lat": 32.8352417,
+      "lng": 34.9788128,
+      "distanceFromTerminalMeters": 2606,
+      "distanceFromDefaultTerminalMeters": 2606,
+      "minDistanceFromAnyTerminalMeters": 2606,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "natural": "beach"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/9e7ffe863f8b5f4527bf",
+      "name": "حدائق النصب",
+      "nameEnglish": "Monument Gardens",
+      "category": "outdoors",
+      "subcategory": "garden",
+      "lat": 32.8125598,
+      "lng": 34.9881209,
+      "distanceFromTerminalMeters": 1384,
+      "distanceFromDefaultTerminalMeters": 1384,
+      "minDistanceFromAnyTerminalMeters": 1384,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "place_of_worship",
+        "leisure": "garden"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c939d271d2044e0e730d",
+      "name": "David Stössel Overlook Terrace",
+      "nameEnglish": "David Stössel Overlook Terrace",
+      "category": "outdoors",
+      "subcategory": "viewpoint",
+      "lat": 32.8151315,
+      "lng": 34.9843315,
+      "distanceFromTerminalMeters": 1561,
+      "distanceFromDefaultTerminalMeters": 1561,
+      "minDistanceFromAnyTerminalMeters": 1561,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "viewpoint"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c90d238fe6ccf947ca9d",
+      "name": "הגנים הבהאים",
+      "nameEnglish": "Baha'i Gardens viewpoint",
+      "category": "outdoors",
+      "subcategory": "viewpoint",
+      "lat": 32.8115076,
+      "lng": 34.9852286,
+      "distanceFromTerminalMeters": 1672,
+      "distanceFromDefaultTerminalMeters": 1672,
+      "minDistanceFromAnyTerminalMeters": 1672,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "viewpoint"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/e9b278e4207aaa2bb7ea",
+      "name": "Steak Bar - S&B",
+      "nameEnglish": "Steak Bar - S&B",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 32.8177924,
+      "lng": 34.9996079,
+      "distanceFromTerminalMeters": 248,
+      "distanceFromDefaultTerminalMeters": 248,
+      "minDistanceFromAnyTerminalMeters": 248,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "17",
+      "openingHours": "",
+      "website": "http://steakbar.co.il/?lang=ru",
+      "phone": "",
+      "cuisine": [
+        "steak_house",
+        "burger"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/760713a5592f869182ac",
+      "name": "שולה",
+      "nameEnglish": "Shula",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 32.8201571,
+      "lng": 35.0000081,
+      "distanceFromTerminalMeters": 17,
+      "distanceFromDefaultTerminalMeters": 17,
+      "minDistanceFromAnyTerminalMeters": 17,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "2 שער פלמר, חיפה",
+      "openingHours": "Mo-Fr 12:00-16:00,Su 09:00-17:00,Th 17:00-23:00",
+      "website": "https://www.foodstudio.co.il/shula",
+      "phone": "+972-4-634-0799",
+      "cuisine": [
+        "middle_eastern"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/24a18a908af688ce3f84",
+      "name": "מימינו",
+      "nameEnglish": "Mimino",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 32.8215341,
+      "lng": 34.9917771,
+      "distanceFromTerminalMeters": 787,
+      "distanceFromDefaultTerminalMeters": 787,
+      "minDistanceFromAnyTerminalMeters": 787,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "15 שדרות דוד בן גוריון",
+      "openingHours": "",
+      "website": "https://mimino.delivery",
+      "phone": "048113399",
+      "cuisine": [
+        "georgian"
+      ],
+      "wheelchair": "",
+      "brand": "רק בשר",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/9a9e6a63ce012b43e21c",
+      "name": "קפה אוה",
+      "nameEnglish": "Cremerie de l'eclair",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 32.8200814,
+      "lng": 34.9983783,
+      "distanceFromTerminalMeters": 152,
+      "distanceFromDefaultTerminalMeters": 152,
+      "minDistanceFromAnyTerminalMeters": 152,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [
+        "coffee_shop"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/2267e7fb7dfa946f3df0",
+      "name": "דוברין 7",
+      "nameEnglish": "Dovrin 7",
+      "category": "food_drink",
+      "subcategory": "bar",
+      "lat": 32.8178986,
+      "lng": 34.9997981,
+      "distanceFromTerminalMeters": 234,
+      "distanceFromDefaultTerminalMeters": 234,
+      "minDistanceFromAnyTerminalMeters": 234,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "7 נחום דוברין",
+      "openingHours": "Mo-Su 12:00+; PH open",
+      "website": "https://dovrin7.com",
+      "phone": "+972585586825",
+      "cuisine": [],
+      "wheelchair": "designated",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "bar"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/228def9c21f2bcf6c53f",
+      "name": "וספר",
+      "nameEnglish": "Vesper",
+      "category": "food_drink",
+      "subcategory": "bar",
+      "lat": 32.8178709,
+      "lng": 34.9997521,
+      "distanceFromTerminalMeters": 238,
+      "distanceFromDefaultTerminalMeters": 238,
+      "minDistanceFromAnyTerminalMeters": 238,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "9 נחום דוברין",
+      "openingHours": "Mo,Th-Su 19:00-02:00; Tu-We 18:00-02:00; PH open",
+      "website": "https://dovrin7.com",
+      "phone": "+972585586825",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "bar"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/65dcb85d763c30206ef5",
+      "name": "Nahum Wine Bar",
+      "nameEnglish": "Nahum Wine Bar",
+      "category": "food_drink",
+      "subcategory": "bar",
+      "lat": 32.8168151,
+      "lng": 34.9996061,
+      "distanceFromTerminalMeters": 356,
+      "distanceFromDefaultTerminalMeters": 356,
+      "minDistanceFromAnyTerminalMeters": 356,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "4 כטיב",
+      "openingHours": "Su-Th 18:00-23:45",
+      "website": "",
+      "phone": "0544717517",
+      "cuisine": [
+        "mediterranean"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "bar"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f133af0a0bec4f31eea6",
+      "name": "שוקולטה",
+      "nameEnglish": "Shokolata",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 32.8189521,
+      "lng": 34.9992636,
+      "distanceFromTerminalMeters": 135,
+      "distanceFromDefaultTerminalMeters": 135,
+      "minDistanceFromAnyTerminalMeters": 135,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [
+        "fish"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/a165e2b1c3ffac4bcd4d",
+      "name": "Sangria",
+      "nameEnglish": "Sangria",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 32.8185575,
+      "lng": 34.9995729,
+      "distanceFromTerminalMeters": 165,
+      "distanceFromDefaultTerminalMeters": 165,
+      "minDistanceFromAnyTerminalMeters": 165,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [
+        "tapas"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/0340771e4f2af4160473",
+      "name": "יאן יאן",
+      "nameEnglish": "Yan-Yan",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 32.8190029,
+      "lng": 34.9986156,
+      "distanceFromTerminalMeters": 170,
+      "distanceFromDefaultTerminalMeters": 170,
+      "minDistanceFromAnyTerminalMeters": 170,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [
+        "chinese"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/6530c79e1e07a9bb282b",
+      "name": "Kosher Moroccan Food Bar",
+      "nameEnglish": "Kosher Moroccan Food Bar",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 32.8181464,
+      "lng": 34.9989054,
+      "distanceFromTerminalMeters": 230,
+      "distanceFromDefaultTerminalMeters": 230,
+      "minDistanceFromAnyTerminalMeters": 230,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [
+        "moroccan"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/bf1f37e81436c0c95a66",
+      "name": "אחים יוסף",
+      "nameEnglish": "Joseph Brothers",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 32.8177682,
+      "lng": 34.9988229,
+      "distanceFromTerminalMeters": 271,
+      "distanceFromDefaultTerminalMeters": 271,
+      "minDistanceFromAnyTerminalMeters": 271,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "19 שדרות המגינים",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [
+        "regional"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/fb8a8b95602a541bf923",
+      "name": "שוק הפשפשים",
+      "nameEnglish": "Flea market",
+      "category": "shopping",
+      "subcategory": "marketplace",
+      "lat": 32.8119363,
+      "lng": 35.0029344,
+      "distanceFromTerminalMeters": 938,
+      "distanceFromDefaultTerminalMeters": 938,
+      "minDistanceFromAnyTerminalMeters": 938,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "marketplace"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/a22bafba40b8aff7b5b3",
+      "name": "שוק תלפיות - השוק המקורה",
+      "nameEnglish": "Talpiot (interior) Market - historic building",
+      "category": "shopping",
+      "subcategory": "marketplace",
+      "lat": 32.808757,
+      "lng": 35.0026822,
+      "distanceFromTerminalMeters": 1275,
+      "distanceFromDefaultTerminalMeters": 1275,
+      "minDistanceFromAnyTerminalMeters": 1275,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "marketplace"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/96035d1c01a2d1b10e83",
+      "name": "מרכז חורב",
+      "nameEnglish": "Horev Center",
+      "category": "shopping",
+      "subcategory": "mall",
+      "lat": 32.7846158,
+      "lng": 34.9872661,
+      "distanceFromTerminalMeters": 4111,
+      "distanceFromDefaultTerminalMeters": 4111,
+      "minDistanceFromAnyTerminalMeters": 4111,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "15 חורב, חיפה",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "shop": "mall"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ec5434066dec40a6afd5",
+      "name": "סיפור המושבה הגרמנית (7)",
+      "nameEnglish": "The German Colony Story (7)",
+      "category": "essentials",
+      "subcategory": "visitor_information",
+      "lat": 32.8218097,
+      "lng": 34.9918064,
+      "distanceFromTerminalMeters": 792,
+      "distanceFromDefaultTerminalMeters": 792,
+      "minDistanceFromAnyTerminalMeters": 792,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "information"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/398748efa0c241329610",
+      "name": "סיפור המושבה הגרמנית (1)",
+      "nameEnglish": "The German Colony Story (1)",
+      "category": "essentials",
+      "subcategory": "visitor_information",
+      "lat": 32.8181878,
+      "lng": 34.9891713,
+      "distanceFromTerminalMeters": 1032,
+      "distanceFromDefaultTerminalMeters": 1032,
+      "minDistanceFromAnyTerminalMeters": 1032,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "תקופת השגשוג (1898-1914)",
+      "osmTags": {
+        "tourism": "information"
+      }
+    }
+  ],
+  "portAnchor": {
+    "id": "ports-json-anchor",
+    "name": "HAIFA Port",
+    "lat": 32.82,
+    "lng": 35,
+    "address": "Haifa, Haifa District, Israel",
+    "source": "ports.json",
+    "sourceId": "",
+    "score": 0,
+    "slug": "haifa-port"
+  },
+  "terminalResolution": {
+    "status": "resolved",
+    "method": "manual_web_research",
+    "verified": true,
+    "notes": "Terminal records were added from researched cruise-port sources because no supplied candidate accurately represented the passenger arrival point."
+  }
+}

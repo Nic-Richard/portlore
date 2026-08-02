@@ -1,0 +1,1002 @@
+{
+  "schemaVersion": 5,
+  "catalogType": "curation-candidates",
+  "generatedAt": "2026-07-30T08:02:43.427Z",
+  "source": "openstreetmap",
+  "sourceExtract": "greece-latest.osm.pbf",
+  "radiusMeters": 10000,
+  "port": {
+    "id": "santorini-greece",
+    "city": "Santorini",
+    "country": "Greece"
+  },
+  "defaultTerminalId": "ports-json-anchor",
+  "terminal": {
+    "id": "ports-json-anchor",
+    "name": "Athinios Port",
+    "lat": 36.3932,
+    "lng": 25.4333,
+    "address": "Athinios, Santorini 847 00",
+    "source": "ports.json",
+    "sourceId": "",
+    "score": 0,
+    "slug": "athinios-port"
+  },
+  "terminals": [
+    {
+      "id": "ports-json-anchor",
+      "name": "Athinios Port",
+      "lat": 36.3932,
+      "lng": 25.4333,
+      "address": "Athinios, Santorini 847 00",
+      "source": "ports.json",
+      "sourceId": "",
+      "score": 0,
+      "slug": "athinios-port"
+    }
+  ],
+  "terminalCandidateRadiusMeters": 5000,
+  "terminalCandidates": [
+    {
+      "source": "openstreetmap+nominatim",
+      "sourceId": "osm/generated/d3de398cd9cc65d6785a",
+      "name": "Θήρα - Λιμάνι Αθηνιός",
+      "nameEnglish": "Thira (Santorini) - Athinios Port",
+      "lat": 36.3868118,
+      "lng": 25.4301424,
+      "distanceFromPortMeters": 765,
+      "address": "Λιμάνι Αθηνιός, Αθηνιός - Μεγαλοχώρι, Όρμος Αθηνιός, Μεγαλοχώρι, Δημοτική Ενότητα Θήρας, Δήμος Θήρας, Περιφερειακή Ενότητα Θήρας, Περιφέρεια Νοτίου Αιγαίου, Αποκεντρωμένη Διοίκηση Αιγαίου, 847 01, Ελλάς",
+      "matchedBy": [
+        "amenity=ferry_terminal",
+        "Nominatim query: Athinios Port, Santorini, Greece"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "name:en": "Thira (Santorini) - Athinios Port",
+        "public_transport": "platform",
+        "operator": "ΚΤΕΛ σαντορινης"
+      },
+      "sources": [
+        "openstreetmap",
+        "nominatim"
+      ],
+      "sourceIds": [
+        "osm/generated/d3de398cd9cc65d6785a",
+        "osm/node/295902832",
+        "osm/node/3074867346"
+      ],
+      "displayName": "Λιμάνι Αθηνιός, Αθηνιός - Μεγαλοχώρι, Όρμος Αθηνιός, Μεγαλοχώρι, Δημοτική Ενότητα Θήρας, Δήμος Θήρας, Περιφερειακή Ενότητα Θήρας, Περιφέρεια Νοτίου Αιγαίου, Αποκεντρωμένη Διοίκηση Αιγαίου, 847 01, Ελλάς",
+      "query": "Athinios Port, Santorini, Greece"
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/4c13035754d93c2bea6f",
+      "name": "Παλιό λιμάνι - Φηρά",
+      "nameEnglish": "Santorini Old Port - Fira",
+      "lat": 36.4183093,
+      "lng": 25.4276125,
+      "distanceFromPortMeters": 2838,
+      "address": "Φηρά Θήρας, 84700",
+      "matchedBy": [
+        "amenity=ferry_terminal",
+        "terminal-like name"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "description": "Santorini’s Cruise Port of call is located at the bottom of the Caldera Cliffs in Fira, the capital of Santorini. It doesn’t have a cruise terminal and vihttps://en.wikipedia.org/wiki/Firasitors are tendered ashore by small boats.",
+        "ferry": "yes",
+        "name:en": "Santorini Old Port - Fira",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/4c13035754d93c2bea6f"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/3e1e96289b457167b2c1",
+      "name": "Pier 2",
+      "nameEnglish": "",
+      "lat": 36.4104451,
+      "lng": 25.4012185,
+      "distanceFromPortMeters": 3453,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/3e1e96289b457167b2c1"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/403b7c336044c49cb3b4",
+      "name": "Pier 1",
+      "nameEnglish": "",
+      "lat": 36.4109714,
+      "lng": 25.4004402,
+      "distanceFromPortMeters": 3543,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/403b7c336044c49cb3b4"
+      ]
+    }
+  ],
+  "counts": {
+    "attraction": 14,
+    "outdoors": 6,
+    "food_drink": 10,
+    "shopping": 2,
+    "essentials": 0
+  },
+  "pois": [
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d37a14f5ff8222a1889f",
+      "name": "Xylo Wood Design Santorini",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "gallery",
+      "lat": 36.3750381,
+      "lng": 25.4313401,
+      "distanceFromTerminalMeters": 2027,
+      "distanceFromDefaultTerminalMeters": 2027,
+      "minDistanceFromAnyTerminalMeters": 2027,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Μεγαλοχώρι, Δημοτική Ενότητα Θήρας, 84700",
+      "openingHours": "Mo-Fr 09:00-20:00",
+      "website": "https://xylo-santorini.com/",
+      "phone": "+302286301420",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Welcome to Xylo, Wood Design Santorini. I am Michael Arvanitis and I am occupied with wood carving. I am pleased to present you my new space - gallery in Acrotiri, Santorini, where I exhibit my artwork.",
+      "osmTags": {
+        "tourism": "gallery"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b6aa29c7811dd42a1f2b",
+      "name": "ΣΥΜΠΟΣΙΟΝ",
+      "nameEnglish": "Symposion",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 36.3763661,
+      "lng": 25.431065,
+      "distanceFromTerminalMeters": 1883,
+      "distanceFromDefaultTerminalMeters": 1883,
+      "minDistanceFromAnyTerminalMeters": 1883,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "https://www.symposionsantorini.com",
+      "phone": "+30 22860 85374",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/80ab092861f36835d484",
+      "name": "Μουσείο Προϊστορικής Θήρας",
+      "nameEnglish": "Museum of Prehistoric Thera",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 36.4164968,
+      "lng": 25.4325973,
+      "distanceFromTerminalMeters": 2591,
+      "distanceFromDefaultTerminalMeters": 2591,
+      "minDistanceFromAnyTerminalMeters": 2591,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "We-Mo 08:30-15:00; Tu off",
+      "website": "https://www.santonet.gr/museums/prehistoric_museum.htm",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/3175539cc7ff701122aa",
+      "name": "Καστέλι Πύργου Καλλίστης",
+      "nameEnglish": "Kasteli of Pyrgos",
+      "category": "attraction",
+      "subcategory": "castle",
+      "lat": 36.3834395,
+      "lng": 25.4510497,
+      "distanceFromTerminalMeters": 1924,
+      "distanceFromDefaultTerminalMeters": 1924,
+      "minDistanceFromAnyTerminalMeters": 1924,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "castle"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/644d72aeae8952b3a1fa",
+      "name": "Pyrgos Venetian Castle",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 36.3834832,
+      "lng": 25.4509266,
+      "distanceFromTerminalMeters": 1912,
+      "distanceFromDefaultTerminalMeters": 1912,
+      "minDistanceFromAnyTerminalMeters": 1912,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "castle",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/71fe57ff08749569d000",
+      "name": "Lost Atlantis Experience Museum",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 36.3683926,
+      "lng": 25.4260292,
+      "distanceFromTerminalMeters": 2834,
+      "distanceFromDefaultTerminalMeters": 2834,
+      "minDistanceFromAnyTerminalMeters": 2834,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Megalochori 847 00",
+      "openingHours": "Apr-Oct 10:00-19:00",
+      "website": "https://www.lost-atlantis.com",
+      "phone": "+302286085076",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f193014a64d3b6ecde9c",
+      "name": "Κάστρο Σκάρου",
+      "nameEnglish": "Castle of Skaros",
+      "category": "attraction",
+      "subcategory": "castle",
+      "lat": 36.4327113,
+      "lng": 25.4198347,
+      "distanceFromTerminalMeters": 4556,
+      "distanceFromDefaultTerminalMeters": 4556,
+      "minDistanceFromAnyTerminalMeters": 4556,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "castle"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/9558b052fdfd86cdbe43",
+      "name": "Venetian Castle of Emporio",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "castle",
+      "lat": 36.3588836,
+      "lng": 25.4460574,
+      "distanceFromTerminalMeters": 3983,
+      "distanceFromDefaultTerminalMeters": 3983,
+      "minDistanceFromAnyTerminalMeters": 3983,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "castle"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ea7d16baae63f20852c6",
+      "name": "Κάστρο Ακρωτηρίου",
+      "nameEnglish": "Akrotiri Castle",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 36.3581982,
+      "lng": 25.3971877,
+      "distanceFromTerminalMeters": 5060,
+      "distanceFromDefaultTerminalMeters": 5060,
+      "minDistanceFromAnyTerminalMeters": 5060,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "castle",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/fc17ea668870940fe285",
+      "name": "Αρχαία Θήρα",
+      "nameEnglish": "Ancient Thera",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 36.3633222,
+      "lng": 25.4792978,
+      "distanceFromTerminalMeters": 5291,
+      "distanceFromDefaultTerminalMeters": 5291,
+      "minDistanceFromAnyTerminalMeters": 5291,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Tu-Su 08:00-15:00 \"seasonal\"",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Ruins from Hellenistic, Roman and Byzantine eras",
+      "osmTags": {
+        "historic": "archaeological_site",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/8c282062f70ef7316083",
+      "name": "Sanctuary of Aphrodite",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "archaeological_site",
+      "lat": 36.3665151,
+      "lng": 25.475336,
+      "distanceFromTerminalMeters": 4792,
+      "distanceFromDefaultTerminalMeters": 4792,
+      "minDistanceFromAnyTerminalMeters": 4792,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "archaeological_site"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/08b6963ee448d5bbf714",
+      "name": "ΑΓΙΑ ΕΙΡΗΝΗ",
+      "nameEnglish": "Basillica of Haghia Irene",
+      "category": "attraction",
+      "subcategory": "archaeological_site",
+      "lat": 36.3579013,
+      "lng": 25.4758758,
+      "distanceFromTerminalMeters": 5471,
+      "distanceFromDefaultTerminalMeters": 5471,
+      "minDistanceFromAnyTerminalMeters": 5471,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "archaeological_site"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/32cb27e43135f45112a2",
+      "name": "Caldera Beach",
+      "nameEnglish": "Caldera Beach",
+      "category": "outdoors",
+      "subcategory": "viewpoint",
+      "lat": 36.3609847,
+      "lng": 25.4044339,
+      "distanceFromTerminalMeters": 4417,
+      "distanceFromDefaultTerminalMeters": 4417,
+      "minDistanceFromAnyTerminalMeters": 4417,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "viewpoint"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/e8ccbc9b227d08983b9b",
+      "name": "Kamari Beach",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "beach",
+      "lat": 36.3768232,
+      "lng": 25.4841894,
+      "distanceFromTerminalMeters": 4906,
+      "distanceFromDefaultTerminalMeters": 4906,
+      "minDistanceFromAnyTerminalMeters": 4906,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "natural": "beach",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/cf491f8d36cb5370a984",
+      "name": "Κόκκινη Παραλία",
+      "nameEnglish": "Red Beach",
+      "category": "outdoors",
+      "subcategory": "beach",
+      "lat": 36.3488903,
+      "lng": 25.3930936,
+      "distanceFromTerminalMeters": 6102,
+      "distanceFromDefaultTerminalMeters": 6102,
+      "minDistanceFromAnyTerminalMeters": 6102,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Red sand beach with cafés and bars",
+      "osmTags": {
+        "natural": "beach",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/0e5832fe9c9c84a69e30",
+      "name": "Cruise Ship Anchor Point",
+      "nameEnglish": "Cruise Ship Anchor Point",
+      "category": "outdoors",
+      "subcategory": "viewpoint",
+      "lat": 36.4108894,
+      "lng": 25.4200813,
+      "distanceFromTerminalMeters": 2295,
+      "distanceFromDefaultTerminalMeters": 2295,
+      "minDistanceFromAnyTerminalMeters": 2295,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "viewpoint"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c5587dd8406d476c0bf6",
+      "name": "Eros Theros Beach",
+      "nameEnglish": "Eros Theros Beach",
+      "category": "outdoors",
+      "subcategory": "viewpoint",
+      "lat": 36.345269,
+      "lng": 25.4240056,
+      "distanceFromTerminalMeters": 5394,
+      "distanceFromDefaultTerminalMeters": 5394,
+      "minDistanceFromAnyTerminalMeters": 5394,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "viewpoint"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/cbb4c8b1ddef9ce32208",
+      "name": "Diapla Viewpoint",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "viewpoint",
+      "lat": 36.3643515,
+      "lng": 25.4507826,
+      "distanceFromTerminalMeters": 3569,
+      "distanceFromDefaultTerminalMeters": 3569,
+      "minDistanceFromAnyTerminalMeters": 3569,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "viewpoint"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c8da1786a84fcdb0573b",
+      "name": "Jaipur Palace Santorini",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 36.410504,
+      "lng": 25.4409055,
+      "distanceFromTerminalMeters": 2041,
+      "distanceFromDefaultTerminalMeters": 2041,
+      "minDistanceFromAnyTerminalMeters": 2041,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "847 00 Θήρα - Μεσαριά",
+      "openingHours": "",
+      "website": "",
+      "phone": "+306947117453",
+      "cuisine": [
+        "indian"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/78fa3d3155cb2c75ea30",
+      "name": "Athinios Souvlaki Restaurant Cafe - Grilled Chicken",
+      "nameEnglish": "Athinios Souvlaki Restaurant Cafe - Grilled Chicken",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 36.3856991,
+      "lng": 25.4296879,
+      "distanceFromTerminalMeters": 895,
+      "distanceFromDefaultTerminalMeters": 895,
+      "minDistanceFromAnyTerminalMeters": 895,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [
+        "greek"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/7f8c3df003338d61443d",
+      "name": "Cava Alta",
+      "nameEnglish": "Cava Alta",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 36.3831454,
+      "lng": 25.4496337,
+      "distanceFromTerminalMeters": 1841,
+      "distanceFromDefaultTerminalMeters": 1841,
+      "minDistanceFromAnyTerminalMeters": 1841,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Su 12:00-23:30",
+      "website": "https://www.cavaalta.gr/",
+      "phone": "2286033932",
+      "cuisine": [
+        "mediterranean"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/125617fd9cfc8e8a709f",
+      "name": "Μεταξύ Μας",
+      "nameEnglish": "Metaxi Mas",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 36.3879521,
+      "lng": 25.457357,
+      "distanceFromTerminalMeters": 2231,
+      "distanceFromDefaultTerminalMeters": 2231,
+      "minDistanceFromAnyTerminalMeters": 2231,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Su 14:30-23:30",
+      "website": "https://www.santorini-metaximas.gr/",
+      "phone": "+30 22860 31323",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "One of the most famous restaurants on the island. Reservation needed.",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/3bf6ea73c0e4d146a49d",
+      "name": "Pyrgos",
+      "nameEnglish": "Pyrgos restaurant",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 36.3844056,
+      "lng": 25.444112,
+      "distanceFromTerminalMeters": 1376,
+      "distanceFromDefaultTerminalMeters": 1376,
+      "minDistanceFromAnyTerminalMeters": 1376,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "https://www.pyrgos-santorini.com/",
+      "phone": "",
+      "cuisine": [
+        "greek"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/80e11498f47fd08f55d1",
+      "name": "Barolo Restaurant",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 36.4154874,
+      "lng": 25.4316366,
+      "distanceFromTerminalMeters": 2483,
+      "distanceFromDefaultTerminalMeters": 2483,
+      "minDistanceFromAnyTerminalMeters": 2483,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "847 00",
+      "openingHours": "",
+      "website": "https://www.barolosantorini.gr/",
+      "phone": "+30 2286 021344",
+      "cuisine": [
+        "mediterranean"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/dc3ac2d56df9201b4e39",
+      "name": "Agaze Bistro Restaurant",
+      "nameEnglish": "Agaze Bistro Restaurant",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 36.3838074,
+      "lng": 25.4460156,
+      "distanceFromTerminalMeters": 1545,
+      "distanceFromDefaultTerminalMeters": 1545,
+      "minDistanceFromAnyTerminalMeters": 1545,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "84700",
+      "openingHours": "08:00 - 15:00 ; 18:00 - 24:00",
+      "website": "",
+      "phone": "+302286031003",
+      "cuisine": [
+        "international",
+        "mediterranean"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/0a387496ab3dfcf19968",
+      "name": "Tavern Tzanakis",
+      "nameEnglish": "Tavern Tzanakis",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 36.3749806,
+      "lng": 25.4287119,
+      "distanceFromTerminalMeters": 2067,
+      "distanceFromDefaultTerminalMeters": 2067,
+      "minDistanceFromAnyTerminalMeters": 2067,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "20 Μεγαλοχώρι - Περίσσα",
+      "openingHours": "Mo-Su 08:00-23:55",
+      "website": "",
+      "phone": "2286081929",
+      "cuisine": [
+        "greek"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/5128f400a1bda5702517",
+      "name": "Kaliya Reimagined Food & Drinks",
+      "nameEnglish": "Kaliya Reimagined Food & Drinks",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 36.4176394,
+      "lng": 25.4316259,
+      "distanceFromTerminalMeters": 2722,
+      "distanceFromDefaultTerminalMeters": 2722,
+      "minDistanceFromAnyTerminalMeters": 2722,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "84700",
+      "openingHours": "8:00 - 12:00",
+      "website": "https://sevenrooms.com/",
+      "phone": "+302286023807",
+      "cuisine": [
+        "international",
+        "mediterranean",
+        "seafood"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/66f24ab026b8e44ff40f",
+      "name": "Esperisma",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 36.4166311,
+      "lng": 25.4310216,
+      "distanceFromTerminalMeters": 2613,
+      "distanceFromDefaultTerminalMeters": 2613,
+      "minDistanceFromAnyTerminalMeters": 2613,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Agiou Mina, 84700",
+      "openingHours": "Mo-Su 12:30-01:00",
+      "website": "https://www.esperisma.com/",
+      "phone": "+302286024910",
+      "cuisine": [
+        "fine_dining",
+        "greek",
+        "mediterranean"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/a023e0237f93942991f0",
+      "name": "regional market",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "marketplace",
+      "lat": 36.4187538,
+      "lng": 25.4323485,
+      "distanceFromTerminalMeters": 2843,
+      "distanceFromDefaultTerminalMeters": 2843,
+      "minDistanceFromAnyTerminalMeters": 2843,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "08:00-12:00",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "marketplace"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/8fb86ee2fb2b593965cd",
+      "name": "Fabrica Shopping Center",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "mall",
+      "lat": 36.4172642,
+      "lng": 25.4319867,
+      "distanceFromTerminalMeters": 2678,
+      "distanceFromDefaultTerminalMeters": 2678,
+      "minDistanceFromAnyTerminalMeters": 2678,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "shop": "mall"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/5f8160f6f536fde620e3",
+      "name": "Asmis Kolaitou",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "gallery",
+      "lat": 36.4036773,
+      "lng": 25.4366916,
+      "distanceFromTerminalMeters": 1204,
+      "distanceFromDefaultTerminalMeters": 1204,
+      "minDistanceFromAnyTerminalMeters": 1204,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "https://www.ak-galleries.com",
+      "phone": "+30 22860 21506",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "gallery"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b9d7ba9bed867b846075",
+      "name": "The Santozeum",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 36.4200528,
+      "lng": 25.430509,
+      "distanceFromTerminalMeters": 2996,
+      "distanceFromDefaultTerminalMeters": 2996,
+      "minDistanceFromAnyTerminalMeters": 2996,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "http://www.santozeum.com/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    }
+  ],
+  "portAnchor": {
+    "id": "ports-json-anchor",
+    "name": "Athinios Port",
+    "lat": 36.3932,
+    "lng": 25.4333,
+    "address": "Athinios, Santorini 847 00",
+    "source": "ports.json",
+    "sourceId": "",
+    "score": 0,
+    "slug": "athinios-port"
+  },
+  "terminalResolution": {
+    "status": "unresolved",
+    "method": "ports_json_fallback",
+    "verified": false,
+    "notes": "All supplied candidates are ferry-only stops, local docks, unnamed maritime features, or unrelated places rather than passenger cruise terminals."
+  }
+}

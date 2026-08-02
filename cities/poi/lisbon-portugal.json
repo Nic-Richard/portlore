@@ -1,0 +1,1872 @@
+{
+  "schemaVersion": 5,
+  "catalogType": "curation-candidates",
+  "generatedAt": "2026-07-30T08:47:03.291Z",
+  "source": "openstreetmap",
+  "sourceExtract": "portugal-latest.osm.pbf",
+  "radiusMeters": 10000,
+  "port": {
+    "id": "lisbon-portugal",
+    "city": "Lisbon",
+    "country": "Portugal"
+  },
+  "defaultTerminalId": "osm/generated/7eef0cb11d6d984e06bb",
+  "terminal": {
+    "id": "osm/generated/7eef0cb11d6d984e06bb",
+    "name": "Terminal de Cruzeiros de Lisboa",
+    "nameEnglish": "Lisbon Cruise Terminal",
+    "lat": 38.7102066,
+    "lng": -9.1263789,
+    "address": "Terminal de Cruzeiros de Lisboa, Ciclovia Ribeirinha Terminal de Cruzeiros, Alfama, Santa Maria Maior, Madalena, Lisboa, 1100-288, Portugal",
+    "source": "verified_terminal_candidate",
+    "sourceId": "osm/generated/7eef0cb11d6d984e06bb",
+    "terminalType": "passenger_cruise_terminal",
+    "verified": true,
+    "notes": "Accepted 1 candidate explicitly identified as an ocean-cruise or cruise-passenger terminal; ferry and unrelated results were excluded.",
+    "sourceUrls": [],
+    "sources": [
+      "openstreetmap",
+      "nominatim"
+    ],
+    "sourceIds": [
+      "osm/generated/7eef0cb11d6d984e06bb",
+      "osm/way/481570880"
+    ],
+    "osmTags": {
+      "amenity": "ferry_terminal",
+      "building": "yes",
+      "ferry": "yes",
+      "name:en": "Lisbon Cruise Terminal",
+      "public_transport": "station"
+    },
+    "matchedBy": [
+      "amenity=ferry_terminal",
+      "terminal-like name",
+      "Nominatim query: Lisbon cruise terminal, Portugal"
+    ],
+    "distanceFromPortMeters": 3952
+  },
+  "terminals": [
+    {
+      "id": "osm/generated/7eef0cb11d6d984e06bb",
+      "name": "Terminal de Cruzeiros de Lisboa",
+      "nameEnglish": "Lisbon Cruise Terminal",
+      "lat": 38.7102066,
+      "lng": -9.1263789,
+      "address": "Terminal de Cruzeiros de Lisboa, Ciclovia Ribeirinha Terminal de Cruzeiros, Alfama, Santa Maria Maior, Madalena, Lisboa, 1100-288, Portugal",
+      "source": "verified_terminal_candidate",
+      "sourceId": "osm/generated/7eef0cb11d6d984e06bb",
+      "terminalType": "passenger_cruise_terminal",
+      "verified": true,
+      "notes": "Accepted 1 candidate explicitly identified as an ocean-cruise or cruise-passenger terminal; ferry and unrelated results were excluded.",
+      "sourceUrls": [],
+      "sources": [
+        "openstreetmap",
+        "nominatim"
+      ],
+      "sourceIds": [
+        "osm/generated/7eef0cb11d6d984e06bb",
+        "osm/way/481570880"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "building": "yes",
+        "ferry": "yes",
+        "name:en": "Lisbon Cruise Terminal",
+        "public_transport": "station"
+      },
+      "matchedBy": [
+        "amenity=ferry_terminal",
+        "terminal-like name",
+        "Nominatim query: Lisbon cruise terminal, Portugal"
+      ],
+      "distanceFromPortMeters": 3952
+    }
+  ],
+  "terminalCandidateRadiusMeters": 5000,
+  "terminalCandidates": [
+    {
+      "source": "nominatim",
+      "sourceId": "osm/way/437795195",
+      "osmType": "way",
+      "osmId": "437795195",
+      "name": "Porto de Lisboa - Terminal de Contentores de Alcântara",
+      "nameEnglish": "Port of Lisbon - Alcântara Container Terminal",
+      "lat": 38.7001006,
+      "lng": -9.167698,
+      "distanceFromPortMeters": 200,
+      "address": "Porto de Lisboa - Terminal de Contentores de Alcântara, Prazeres, Estrela, Lisboa, Portugal",
+      "displayName": "Porto de Lisboa - Terminal de Contentores de Alcântara, Prazeres, Estrela, Lisboa, Portugal",
+      "query": "LISBOA Port, Lisbon, Portugal",
+      "matchedBy": [
+        "Nominatim query: LISBOA Port, Lisbon, Portugal"
+      ],
+      "osmTags": {
+        "cargo": "container",
+        "industrial": "port",
+        "seamark:type": "harbour"
+      },
+      "sources": [
+        "nominatim"
+      ],
+      "sourceIds": [
+        "osm/way/437795195"
+      ]
+    },
+    {
+      "source": "nominatim",
+      "sourceId": "osm/relation/15469875",
+      "osmType": "relation",
+      "osmId": "15469875",
+      "name": "Porto de Lisboa - Terminal de Contentores de Alcântara",
+      "nameEnglish": "Port of Lisbon - Alcântara Container Terminal",
+      "lat": 38.6985321,
+      "lng": -9.1739145,
+      "distanceFromPortMeters": 377,
+      "address": "Porto de Lisboa - Terminal de Contentores de Alcântara, Prazeres, Estrela, Lisboa, Portugal",
+      "displayName": "Porto de Lisboa - Terminal de Contentores de Alcântara, Prazeres, Estrela, Lisboa, Portugal",
+      "query": "LISBOA Port, Lisbon, Portugal",
+      "matchedBy": [
+        "Nominatim query: LISBOA Port, Lisbon, Portugal"
+      ],
+      "osmTags": {
+        "cargo": "container",
+        "industrial": "port",
+        "seamark:type": "harbour"
+      },
+      "sources": [
+        "nominatim"
+      ],
+      "sourceIds": [
+        "osm/relation/15469875"
+      ]
+    },
+    {
+      "source": "nominatim",
+      "sourceId": "osm/way/437800863",
+      "osmType": "way",
+      "osmId": "437800863",
+      "name": "Porto de Lisboa - Terminal de Passageiros da Rocha do Conde de Óbidos",
+      "nameEnglish": "Port of Lisbon - Rocha do Conde de Óbidos Passenger Terminal",
+      "lat": 38.7014259,
+      "lng": -9.161646,
+      "distanceFromPortMeters": 742,
+      "address": "Porto de Lisboa - Terminal de Passageiros da Rocha do Conde de Óbidos, Prazeres, Estrela, Lisboa, Portugal",
+      "displayName": "Porto de Lisboa - Terminal de Passageiros da Rocha do Conde de Óbidos, Prazeres, Estrela, Lisboa, Portugal",
+      "query": "LISBOA Port, Lisbon, Portugal",
+      "matchedBy": [
+        "Nominatim query: LISBOA Port, Lisbon, Portugal"
+      ],
+      "osmTags": {
+        "industrial": "port",
+        "seamark:type": "harbour"
+      },
+      "sources": [
+        "nominatim"
+      ],
+      "sourceIds": [
+        "osm/way/437800863"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/291674495f5a1c06f61e",
+      "name": "Porto de Lisboa - Terminal de Passageiros da Rocha do Conde de Óbidos",
+      "nameEnglish": "Port of Lisbon - Rocha do Conde de Óbidos Passenger Terminal",
+      "lat": 38.7016366,
+      "lng": -9.1599236,
+      "distanceFromPortMeters": 893,
+      "address": "",
+      "matchedBy": [
+        "terminal-like name"
+      ],
+      "osmTags": {
+        "industrial": "port",
+        "name:en": "Port of Lisbon - Rocha do Conde de Óbidos Passenger Terminal",
+        "seamark:type": "harbour"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/291674495f5a1c06f61e"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/11447bf9be48a1526d71",
+      "name": "Cais do Sodré",
+      "nameEnglish": "",
+      "lat": 38.704225,
+      "lng": -9.146674,
+      "distanceFromPortMeters": 2078,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "operator": "Transtejo Soflusa",
+        "public_transport": "stop_position"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/11447bf9be48a1526d71"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/6a772e3d7d8f43180fcc",
+      "name": "Terminal Fluvial do Cais do Sodré",
+      "nameEnglish": "",
+      "lat": 38.7050023,
+      "lng": -9.1456898,
+      "distanceFromPortMeters": 2182,
+      "address": "Rua da Cintura do Porto de Lisboa, Lisboa",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "building": "transportation",
+        "cargo": "passengers",
+        "ferry": "yes",
+        "operator": "Transtejo Soflusa",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/6a772e3d7d8f43180fcc"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/4baff4682aafe48764b5",
+      "name": "Cais do Sodré",
+      "nameEnglish": "",
+      "lat": 38.704494,
+      "lng": -9.1451722,
+      "distanceFromPortMeters": 2212,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "operator": "Transtejo Soflusa",
+        "public_transport": "stop_position"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/4baff4682aafe48764b5"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/76df8c7d76cb149cd253",
+      "name": "Cacilhas",
+      "nameEnglish": "",
+      "lat": 38.6882695,
+      "lng": -9.1483507,
+      "distanceFromPortMeters": 2287,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "cargo": "passengers",
+        "ferry": "yes",
+        "operator": "Transtejo",
+        "public_transport": "stop_position"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/76df8c7d76cb149cd253"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/00d2597def623b40d518",
+      "name": "Terminal Fluvial de Cacilhas",
+      "nameEnglish": "",
+      "lat": 38.6881217,
+      "lng": -9.1478466,
+      "distanceFromPortMeters": 2333,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "building": "transportation",
+        "ferry": "yes",
+        "operator": "Transtejo Soflusa",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/00d2597def623b40d518"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/1faedcffd32a8cbbd049",
+      "name": "Estação Fluvial de Belém",
+      "nameEnglish": "",
+      "lat": 38.6949724,
+      "lng": -9.1985326,
+      "distanceFromPortMeters": 2538,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "building": "transportation",
+        "ferry": "yes",
+        "operator": "Transtejo Soflusa",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/1faedcffd32a8cbbd049"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/17d032a4bbd9691e54aa",
+      "name": "Belém",
+      "nameEnglish": "",
+      "lat": 38.6944899,
+      "lng": -9.1984011,
+      "distanceFromPortMeters": 2540,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "cargo": "passengers;vehicle",
+        "ferry": "yes",
+        "operator": "Transtejo Soflusa",
+        "public_transport": "stop_position"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/17d032a4bbd9691e54aa"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/fcd102795d32ab07b0ee",
+      "name": "Estação Fluvial Sul e Sueste",
+      "nameEnglish": "",
+      "lat": 38.7067167,
+      "lng": -9.1340105,
+      "distanceFromPortMeters": 3211,
+      "address": "1B Avenida Infante Dom Henrique, Lisboa, 1100-278",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "alt_name": "Estação Fluvial de Sul-Sueste",
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "operator": "Associação Turismo de Lisboa – Visitors & Convention Bureau",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/fcd102795d32ab07b0ee"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b95c05b619b8c1a6fba3",
+      "name": "Terreiro do Paço",
+      "nameEnglish": "",
+      "lat": 38.7062885,
+      "lng": -9.1334308,
+      "distanceFromPortMeters": 3249,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "cargo": "passengers",
+        "ferry": "yes",
+        "operator": "Transtejo Soflusa",
+        "public_transport": "stop_position"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/b95c05b619b8c1a6fba3"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/46754ce739638cd1631e",
+      "name": "Terminal Fluvial do Terreiro do Paço",
+      "nameEnglish": "",
+      "lat": 38.7068601,
+      "lng": -9.1333915,
+      "distanceFromPortMeters": 3267,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "alt_name": "Estação Fluvial do Sul e Sueste",
+        "amenity": "ferry_terminal",
+        "building": "transportation",
+        "cargo": "passengers",
+        "ferry": "yes",
+        "operator": "Transtejo Soflusa",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/46754ce739638cd1631e"
+      ]
+    },
+    {
+      "source": "openstreetmap+nominatim",
+      "sourceId": "osm/generated/7eef0cb11d6d984e06bb",
+      "name": "Terminal de Cruzeiros de Lisboa",
+      "nameEnglish": "Lisbon Cruise Terminal",
+      "lat": 38.7102066,
+      "lng": -9.1263789,
+      "distanceFromPortMeters": 3952,
+      "address": "Terminal de Cruzeiros de Lisboa, Ciclovia Ribeirinha Terminal de Cruzeiros, Alfama, Santa Maria Maior, Madalena, Lisboa, 1100-288, Portugal",
+      "matchedBy": [
+        "amenity=ferry_terminal",
+        "terminal-like name",
+        "Nominatim query: Lisbon cruise terminal, Portugal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "building": "yes",
+        "ferry": "yes",
+        "name:en": "Lisbon Cruise Terminal",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap",
+        "nominatim"
+      ],
+      "sourceIds": [
+        "osm/generated/7eef0cb11d6d984e06bb",
+        "osm/way/481570880"
+      ],
+      "displayName": "Terminal de Cruzeiros de Lisboa, Ciclovia Ribeirinha Terminal de Cruzeiros, Alfama, Santa Maria Maior, Madalena, Lisboa, 1100-288, Portugal",
+      "query": "Lisbon cruise terminal, Portugal"
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/e7b4b3e4e6eddb45eccd",
+      "name": "Estação Fluvial de Porto Brandão",
+      "nameEnglish": "",
+      "lat": 38.6778665,
+      "lng": -9.2066429,
+      "distanceFromPortMeters": 4021,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "building": "transportation",
+        "ferry": "yes",
+        "operator": "Transtejo Soflusa",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/e7b4b3e4e6eddb45eccd"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/acd4b89b65422c5e2d9a",
+      "name": "Porto Brandão",
+      "nameEnglish": "",
+      "lat": 38.6781522,
+      "lng": -9.2069332,
+      "distanceFromPortMeters": 4022,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "cargo": "passengers",
+        "ferry": "yes",
+        "operator": "Transtejo Soflusa",
+        "public_transport": "stop_position"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/acd4b89b65422c5e2d9a"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/6bfb6c6cf02f7c2d05d0",
+      "name": "Terminal de Cruzeiros de Lisboa",
+      "nameEnglish": "",
+      "lat": 38.7115298,
+      "lng": -9.1244894,
+      "distanceFromPortMeters": 4152,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal",
+        "terminal-like name"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/6bfb6c6cf02f7c2d05d0"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/23070b2dda568b59579c",
+      "name": "(unnamed maritime feature)",
+      "nameEnglish": "",
+      "lat": 38.7131452,
+      "lng": -9.1223364,
+      "distanceFromPortMeters": 4387,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "building": "yes",
+        "ferry": "yes",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/23070b2dda568b59579c"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/596c8ad624edc7c7a462",
+      "name": "Pedrouços/Algés",
+      "nameEnglish": "",
+      "lat": 38.694089,
+      "lng": -9.2265816,
+      "distanceFromPortMeters": 4954,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "operator": "Transtejo Soflusa",
+        "public_transport": "stop_position"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/596c8ad624edc7c7a462"
+      ]
+    }
+  ],
+  "counts": {
+    "attraction": 23,
+    "outdoors": 6,
+    "food_drink": 15,
+    "shopping": 2,
+    "essentials": 1
+  },
+  "pois": [
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/a0606fa8eef779b941f5",
+      "name": "Museu Nacional de Arte Antiga",
+      "nameEnglish": "National Museum of Ancient Art",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 38.7047843,
+      "lng": -9.161447,
+      "distanceFromTerminalMeters": 913,
+      "distanceFromDefaultTerminalMeters": 913,
+      "minDistanceFromAnyTerminalMeters": 913,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "59 Rua das Janelas Verdes, Lisboa, 1249-017",
+      "openingHours": "Tu-Su 10:00-18:00",
+      "website": "http://museudearteantiga.pt",
+      "phone": "+351 213 912 800",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Mandado edificar no séc. XVII por Francisco de Távora,1º Conde de Alvor,sofreu obras de adaptação e restauro nos sécs. XVIII e XIX.Traduz um dos mais perfeitos exemplares de palácio urbano barroco aristocrático...",
+      "osmTags": {
+        "historic": "castle",
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/aad41b10602a10ff0107",
+      "name": "Experiência Pilar 7",
+      "nameEnglish": "Pilar 7 Experience",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 38.7004123,
+      "lng": -9.1788655,
+      "distanceFromTerminalMeters": 771,
+      "distanceFromDefaultTerminalMeters": 771,
+      "minDistanceFromAnyTerminalMeters": 771,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "52 Avenida da Índia",
+      "openingHours": "Mo-Su 10:00-18:00; Dec 25 off",
+      "website": "https://www.visitlisboa.com/pt-pt/locais/experiencia-pilar-7",
+      "phone": "+351 21 111 7880",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f72e4b6e88c64afbaff7",
+      "name": "Museu do Centro Científico e Cultural de Macau",
+      "nameEnglish": "Scientific and Cultural Macao Museum",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 38.700849,
+      "lng": -9.1824432,
+      "distanceFromTerminalMeters": 1084,
+      "distanceFromDefaultTerminalMeters": 1084,
+      "minDistanceFromAnyTerminalMeters": 1084,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "30 Rua da Junqueira, Lisbon, 1300-343",
+      "openingHours": "Tu-Su 10:00-17:00",
+      "website": "http://www.cccm.pt/",
+      "phone": "+351 213 617 570",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ec5a3afca75a1d7d27b9",
+      "name": "Palácio da Cova da Moura",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "castle",
+      "lat": 38.7056089,
+      "lng": -9.1682385,
+      "distanceFromTerminalMeters": 642,
+      "distanceFromDefaultTerminalMeters": 642,
+      "minDistanceFromAnyTerminalMeters": 642,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1 Rua Cova da Moura",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "O restauro de um palácio setecentista, propriedade de João Ulrich, segundo projeto do arq. Tertuliano de Lacerda Marques, foi considerado pelos críticos da época como tendo sido executado \"dentro de uma arquitetura tradicionalista portuguesa das mais",
+      "osmTags": {
+        "historic": "castle"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/5db10513319e029e3abc",
+      "name": "Palácio dos Condes de Óbidos",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "castle",
+      "lat": 38.7042783,
+      "lng": -9.1634953,
+      "distanceFromTerminalMeters": 738,
+      "distanceFromDefaultTerminalMeters": 738,
+      "minDistanceFromAnyTerminalMeters": 738,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1 Jardim Nove de Abril",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Classificado como Imóvel de Interesse Público, este palácio do séc. XVII permaneceu na posse da família Óbidos-Sabugal até 1919, data em que foi adquirido pela Cruz Vermelha Portuguesa, que aí instalou a sua sede nacional...",
+      "osmTags": {
+        "historic": "castle"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/04042e93a421cb90d012",
+      "name": "Palácio das Necessidades",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "castle",
+      "lat": 38.7070001,
+      "lng": -9.1703569,
+      "distanceFromTerminalMeters": 779,
+      "distanceFromDefaultTerminalMeters": 779,
+      "minDistanceFromAnyTerminalMeters": 779,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Largo das Necessidades",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Data de 1742 a aquisição de terrenos,por parte da Coroa,com o objectivo de edificar um templo dedicado a N. S. das Necessidades.D. João V aproveita,de imediato,para erguer uma sumptuosa igreja,convento de São Filipe Néri e palácio real contíguo.",
+      "osmTags": {
+        "historic": "castle"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/91d96b8b271bcbb04654",
+      "name": "Palacete Viscondes e Condes dos Olivais e Penha-Longa",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "castle",
+      "lat": 38.7069959,
+      "lng": -9.1648692,
+      "distanceFromTerminalMeters": 896,
+      "distanceFromDefaultTerminalMeters": 896,
+      "minDistanceFromAnyTerminalMeters": 896,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "11 Rua do Pau de Bandeira",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Construído na 2ª metade do séc. XIX por iniciativa do 1º conde e 2º visconde dos Olivais, manteve-se na família menos de um século. A partir de 1926, o edifício foi adaptado para acolher embaixadas, nomeadamente da Alemanha, até 1945...",
+      "osmTags": {
+        "historic": "castle"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/44a8924b16cc98d7a575",
+      "name": "Palácio Sabugosa",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "castle",
+      "lat": 38.7028958,
+      "lng": -9.1802746,
+      "distanceFromTerminalMeters": 948,
+      "distanceFromDefaultTerminalMeters": 948,
+      "minDistanceFromAnyTerminalMeters": 948,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "112 Rua Primeiro de Maio",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "A origem deste imóvel remonta ao séc. XVI,altura em que Luís César de Menezes construiu um primitivo paço.Objecto de remodelações de vulto ao tempo do 1º Conde de Sabugosa,Vasco Fernandes César de Menezes...",
+      "osmTags": {
+        "historic": "castle"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d37d8307ea0b2e87ed29",
+      "name": "Verride Palácio de Santa Catarina",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "castle",
+      "lat": 38.70963,
+      "lng": -9.1470343,
+      "distanceFromTerminalMeters": 2262,
+      "distanceFromDefaultTerminalMeters": 2262,
+      "minDistanceFromAnyTerminalMeters": 2262,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1 Rua de Santa Catarina, Lisboa, 1200-401",
+      "openingHours": "",
+      "website": "https://verridesc.pt/",
+      "phone": "+351 21 157 3055",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Apresentando uma fachada tripartida, de linhas severas, traduz um exemplo das construções mandadas erigir por uma burguesia comercial, sugerindo um compromisso entre a residência burguesa e a fachada de prédio de rendimento.",
+      "osmTags": {
+        "historic": "castle"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d5a94c3d587b7b625da0",
+      "name": "Baluarte do Livramento",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "fort",
+      "lat": 38.7065008,
+      "lng": -9.1727568,
+      "distanceFromTerminalMeters": 761,
+      "distanceFromDefaultTerminalMeters": 761,
+      "minDistanceFromAnyTerminalMeters": 761,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "15 Calçada do Livramento, Lisboa",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Edificado no séc. XVIII. A vila ergue-se sobre o recinto do baluarte, com algumas construções adossadas aos panos das muralhas. Da construção defensiva resta uma guarita.",
+      "osmTags": {
+        "historic": "fort"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/5393560ccf53333c0fb4",
+      "name": "atelier Re.al",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "gallery",
+      "lat": 38.7103382,
+      "lng": -9.1504609,
+      "distanceFromTerminalMeters": 2048,
+      "distanceFromDefaultTerminalMeters": 2048,
+      "minDistanceFromAnyTerminalMeters": 2048,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "55 Rua do Poço dos Negros, Misericórdia, 1200-254",
+      "openingHours": "",
+      "website": "https://re-al.org/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "O Atelier Real é um centro de residências artísticas com estúdios, ateliers de trabalho e quartos disponíveis para artistas e investigadores académicos.",
+      "osmTags": {
+        "tourism": "gallery"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/8a9f212475ef9d88d80d",
+      "name": "Picadeiro Real",
+      "nameEnglish": "National Coach Museum",
+      "category": "attraction",
+      "subcategory": "castle",
+      "lat": 38.697811,
+      "lng": -9.1997093,
+      "distanceFromTerminalMeters": 2590,
+      "distanceFromDefaultTerminalMeters": 2590,
+      "minDistanceFromAnyTerminalMeters": 2590,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "136 Avenida da Índia, Lisboa, 1300-300",
+      "openingHours": "Tu-Su 10:00-18:00; Jan 01,May 01,Dec 25; easter off",
+      "website": "www.museudoscoches.pt",
+      "phone": "+351 210 732 319;+351 210 492 400",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Edifício integrado na classificação como Monumento Nacional do Palácio Nacional de Belém e todo o conjunto intramuros.O edifício do actual Museu dos Coches ocupa o espaço do antigo Picadeiro Real de Belém,mandado construír,em 1787,por iniciativa",
+      "osmTags": {
+        "historic": "castle"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f5fb0d5f9a141db46938",
+      "name": "Museu Nacional de Arqueologia",
+      "nameEnglish": "National Archaeology Museum",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 38.6973662,
+      "lng": -9.2070794,
+      "distanceFromTerminalMeters": 3231,
+      "distanceFromDefaultTerminalMeters": 3231,
+      "minDistanceFromAnyTerminalMeters": 3231,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Praça do Império, Lisboa, 1400-206",
+      "openingHours": "Tu-Su 10:00-18:00; Jan 01,May 01,Jun 13,Dec 25 off;easter off",
+      "website": "https://www.mnarqueologia-ipmuseus.pt/",
+      "phone": "+351 213 620 000;+351 213 620 025",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Instalado em 1893, possui um acervo vastíssimo e diversificado dividido em núcleos: arqueologia, etnografia, numismática, epigrafia pré-latina e latina, escultura, documentos escritos, mosaicos e antropologia física. Na sala do tesouro encontra-se u",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/261321f577e6052955fd",
+      "name": "Museu de Lisboa - Teatro Romano",
+      "nameEnglish": "Roman Theatre Museum",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 38.7105167,
+      "lng": -9.1323876,
+      "distanceFromTerminalMeters": 3467,
+      "distanceFromDefaultTerminalMeters": 3467,
+      "minDistanceFromAnyTerminalMeters": 3467,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "3A Rua de São Mamede, Lisboa, 1100-532",
+      "openingHours": "Tu-Su 10:00-18:00; Jan 01 off; May 01 off; Dec 25 off",
+      "website": "https://museudelisboa.pt/pt/about/venues/teatro-romano/",
+      "phone": "+351 215 818 530",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Construído na época de Augusto e inaugurado oficialmente na de Nero, ocupa a vertente sul da colina do Castelo. Abandonado no séc. IV d.C., as suas ruínas foram descobertas, em 1798, como consequência da reconstrução pombalina.",
+      "osmTags": {
+        "historic": "archaeological_site",
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/2782fb4e487e949bd1cd",
+      "name": "Castelo de São Jorge",
+      "nameEnglish": "São Jorge Castle",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 38.713928,
+      "lng": -9.1334948,
+      "distanceFromTerminalMeters": 3526,
+      "distanceFromDefaultTerminalMeters": 3526,
+      "minDistanceFromAnyTerminalMeters": 3526,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Rua de Santa Cruz do Castelo",
+      "openingHours": "Mo-Su 10:00-20:00",
+      "website": "https://www.castelodesaojorge.pt/",
+      "phone": "+351218800620",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "A colina onde se ergue o Castelo de S. Jorge foi das primeiras áreas ocupadas de Lisboa.Durante a Idade do Ferro e o período romano desempenhou um papel estratégico na defesa do povoado.Ocupado pelos árabes,foi conquistado em 1147 por D. Afonso...",
+      "osmTags": {
+        "historic": "castle",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/19179acc615ae6cac3e9",
+      "name": "Verso Branco",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "gallery",
+      "lat": 38.7089731,
+      "lng": -9.149822,
+      "distanceFromTerminalMeters": 2015,
+      "distanceFromDefaultTerminalMeters": 2015,
+      "minDistanceFromAnyTerminalMeters": 2015,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "132-134 Rua da Boavista, Lisboa, 1200-070",
+      "openingHours": "Tu-Sa 11:30-20:00",
+      "website": "https://www.versobranco.pt/",
+      "phone": "+351 211 342634",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "gallery"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/fdbe0580105ecda86a5d",
+      "name": "Núcleo Arqueológico da Rua dos Correeiros (BCP)",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 38.7099747,
+      "lng": -9.1370415,
+      "distanceFromTerminalMeters": 3067,
+      "distanceFromDefaultTerminalMeters": 3067,
+      "minDistanceFromAnyTerminalMeters": 3067,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "21 Rua dos Correeiros, Lisboa, 1100-061",
+      "openingHours": "Mo-Sa 10:00-12:00,14:00-17:00; PH off",
+      "website": "http://www.cm-lisboa.pt/equipamentos/equipamento/info/nucleo-arqueologico-da-rua-dos-correeiros-bcp",
+      "phone": "+351 21 113 1004",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Um pequeno museu que revela a riqueza arqueológica que existe sob a Baixa Pombalina,pondo à vista vestígios de diversas épocas,mas principalmente romanos.No local foram encontrados vestígios das primeiras habitações da cidade ibero-púnica...",
+      "osmTags": {
+        "historic": "archaeological_site",
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/4e74e0ae0c25ff5be806",
+      "name": "Museu do Fado",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 38.7110374,
+      "lng": -9.1277093,
+      "distanceFromTerminalMeters": 3869,
+      "distanceFromDefaultTerminalMeters": 3869,
+      "minDistanceFromAnyTerminalMeters": 3869,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1 Largo do Chafariz de Dentro, Lisboa, 1100-139",
+      "openingHours": "Tu-Su 10:00-18:00; Jan 01,May 01,Dec 25 off",
+      "website": "https://www.museudofado.pt/",
+      "phone": "+351 218 823 470",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Com o objectivo de solucionar o problema da falta de água em Lisboa em 1868/1869, edificou-se este reservatório com sistema elevatório que captava as águas de Alfama. Em 1880, o edifício converte-se num simples ponto de apoio da estação principal",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/14c851d8e7e4ce3b2064",
+      "name": "Mosteiro dos Jerónimos",
+      "nameEnglish": "Jerónimos Monastery",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 38.6980047,
+      "lng": -9.205598,
+      "distanceFromTerminalMeters": 3097,
+      "distanceFromDefaultTerminalMeters": 3097,
+      "minDistanceFromAnyTerminalMeters": 3097,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Oct-Apr 10:00-17:30; May-Sep 10:00-18:30; Mo off; Jan 1 off; May 1 off; Dec 25 off",
+      "website": "http://www.mosteirojeronimos.pt",
+      "phone": "+351 213 620 034",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/84ba5e44458bb27f64a3",
+      "name": "Torre de Belém",
+      "nameEnglish": "Tower of Belém",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 38.6916021,
+      "lng": -9.2159192,
+      "distanceFromTerminalMeters": 4093,
+      "distanceFromDefaultTerminalMeters": 4093,
+      "minDistanceFromAnyTerminalMeters": 4093,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Avenida de Brasília, Lisboa, 1400-038",
+      "openingHours": "Oct-Apr: Tu-Su 10:00-17:30; May-Sep: Tu-Su 10:00-18:30",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "no",
+      "brand": "",
+      "description": "Monumento Nacional e Património Mundial da UNESCO é um belo exemplar da arquitectura militar em Portugal.Construída em honra do santo patrono de Lisboa,S. Vicente,no local onde estava ancorada a Grande Nau,que cruzava fogo com a fortaleza de S. Sebast",
+      "osmTags": {
+        "historic": "fort",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d805ff68919a864ab1d6",
+      "name": "Quinta do Almaraz",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "archaeological_site",
+      "lat": 38.6859347,
+      "lng": -9.1523653,
+      "distanceFromTerminalMeters": 2188,
+      "distanceFromDefaultTerminalMeters": 2188,
+      "minDistanceFromAnyTerminalMeters": 2188,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "off",
+      "website": "http://www.m-almada.pt/portal/page/portal/MUSEUS/ARQ_HIST/?mus=1&actualmenu=4197711&mus_nuc_arq_hist=7115639",
+      "phone": "+351 212 724 988",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Escavação no estado de sondagem. Acesso ao público mediante inscrição nas visitas guiadas realizadas esporadicamente.",
+      "osmTags": {
+        "historic": "archaeological_site"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/4921580735b86eb1254a",
+      "name": "Elevador de Santa Justa",
+      "nameEnglish": "Santa Justa Lift",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 38.712117,
+      "lng": -9.1393753,
+      "distanceFromTerminalMeters": 2979,
+      "distanceFromDefaultTerminalMeters": 2979,
+      "minDistanceFromAnyTerminalMeters": 2979,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "building",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/49e33a80c962e578ac89",
+      "name": "Praça do Comércio",
+      "nameEnglish": "Comércio Square",
+      "category": "attraction",
+      "subcategory": "square",
+      "lat": 38.7076117,
+      "lng": -9.1365457,
+      "distanceFromTerminalMeters": 3024,
+      "distanceFromDefaultTerminalMeters": 3024,
+      "minDistanceFromAnyTerminalMeters": 3024,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "place": "square"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c17266793ce3a969c552",
+      "name": "Hotel Pestana Palace",
+      "nameEnglish": "Pestana Palace Hotel",
+      "category": "outdoors",
+      "subcategory": "garden",
+      "lat": 38.7040887,
+      "lng": -9.1871717,
+      "distanceFromTerminalMeters": 1558,
+      "distanceFromDefaultTerminalMeters": 1558,
+      "minDistanceFromAnyTerminalMeters": 1558,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Rua Jau",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Construído nos finais do séc. XIX, o Palácio Valle Flor e os respetivos jardins foram em 1997 classificados como Monumento Nacional. Atualmente no Palácio encontra-se instalado um Hotel. Os jardins, delimitados por muros de cantaria, são um refúgio",
+      "osmTags": {
+        "leisure": "garden",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/3f1d5943f8651ffa879c",
+      "name": "Miradouro da Rocha de Conde de Óbidos",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "viewpoint",
+      "lat": 38.7041787,
+      "lng": -9.1627272,
+      "distanceFromTerminalMeters": 784,
+      "distanceFromDefaultTerminalMeters": 784,
+      "minDistanceFromAnyTerminalMeters": 784,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Rua Presidente Arriaga",
+      "openingHours": "",
+      "website": "http://lisboaverde.cm-lisboa.pt/index.php?id=4345",
+      "phone": "+351 213 912 600",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Este miradouro, enquadrado por um conjunto de edifícios harmoniosos, nomeadamente o Museu Nacional de Arte Antiga e o Palácio Óbidos-Sabugal (actual Sede Nacional da Cruz Vermelha Portuguesa), localiza-se no Jardim 9 de Abril, também conhecido por Ja",
+      "osmTags": {
+        "tourism": "viewpoint"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/81260d3fd3c1d736d9b2",
+      "name": "Tapada das Necessidades",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 38.7090649,
+      "lng": -9.1693713,
+      "distanceFromTerminalMeters": 1009,
+      "distanceFromDefaultTerminalMeters": 1009,
+      "minDistanceFromAnyTerminalMeters": 1009,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Calçada das Necessidades",
+      "openingHours": "Apr-Sep: Mo-Fr 08:00-20:00; Apr-Sep: Sa,Su,PH 10:00-19:00; Oct-Mar: Mo-Fr 08:00-19:00; Oct-Mar: Sa,Su,PH 10:00-18:00",
+      "website": "https://informacoeseservicos.lisboa.pt/contactos/diretorio-da-cidade/tapada-das-necessidades",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Como o nome indica, trata-se de um espaço verde murado, quase totalmente coberto por uma mata e sujeito a Regime Florestal. Em 1742, D. João V mandou construir uma ermida maior, um convento e um palácio para sua residência, por aquisição de terras",
+      "osmTags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/93490a62f5a426945628",
+      "name": "Miradouro de Santo Amaro",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "viewpoint",
+      "lat": 38.7020851,
+      "lng": -9.1826175,
+      "distanceFromTerminalMeters": 1119,
+      "distanceFromDefaultTerminalMeters": 1119,
+      "minDistanceFromAnyTerminalMeters": 1119,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Calçada de Santo Amaro, Lisboa, 1300-001",
+      "openingHours": "",
+      "website": "http://www.cm-lisboa.pt/equipamentos/equipamento/info/miradouro-de-santo-amaro",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "viewpoint"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ac1f7cf932720883eef9",
+      "name": "Jardim Botânico Tropical",
+      "nameEnglish": "Tropical Botanical Garden",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 38.6997649,
+      "lng": -9.2021712,
+      "distanceFromTerminalMeters": 2792,
+      "distanceFromDefaultTerminalMeters": 2792,
+      "minDistanceFromAnyTerminalMeters": 2792,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Calçada do Galvão",
+      "openingHours": "Apr-Sep Mo-Su 09:00-20:00; Oct-Mar Mo-Su 10:00-17:00; PH; Jan 01,Dec 25 off",
+      "website": "https://www.museus.ulisboa.pt/pt-pt/jardim-botanico-tropical",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Criado em 1912, no local onde hoje se localiza a antiga cerca do Palácio de Belém. Presentemente sob administração do Instituto de Investigação Científica Tropical, foi construído com o objetivo de promover o estudo sistemático da flora das anti",
+      "osmTags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d0774b31602aa1410e8b",
+      "name": "Jardim Botânico da Ajuda",
+      "nameEnglish": "Ajuda Botanical Garden",
+      "category": "outdoors",
+      "subcategory": "garden",
+      "lat": 38.7062162,
+      "lng": -9.2008118,
+      "distanceFromTerminalMeters": 2762,
+      "distanceFromDefaultTerminalMeters": 2762,
+      "minDistanceFromAnyTerminalMeters": 2762,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Calçada da Ajuda",
+      "openingHours": "",
+      "website": "https://jba.isa.ulisboa.pt/",
+      "phone": "+351 213 653 100",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "É o mais antigo jardim de Portugal, mandado plantar pelo Marquês de Pombal, em 1768 com a designação de Real Jardim Botânico da Ajuda. Foi construído com a vocação de museu e viveiro de espécies botânicas oriundas das mais diversas proveniências.",
+      "osmTags": {
+        "leisure": "garden",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/67ae36606fb890d10b73",
+      "name": "Donna Pizzeria",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 38.7045829,
+      "lng": -9.1678491,
+      "distanceFromTerminalMeters": 543,
+      "distanceFromDefaultTerminalMeters": 543,
+      "minDistanceFromAnyTerminalMeters": 543,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "70A Travessa dos Brunos, Lisboa, 1200-621",
+      "openingHours": "Tu-Th 19:00-23:00, Fr-Su 19:00-23:59",
+      "website": "https://donnapizzeria.pt/",
+      "phone": "+351 924 306 283",
+      "cuisine": [
+        "pizza"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c2ff6088e7bd8c55875f",
+      "name": "Katana Sushi Santos",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 38.7043861,
+      "lng": -9.1664948,
+      "distanceFromTerminalMeters": 575,
+      "distanceFromDefaultTerminalMeters": 575,
+      "minDistanceFromAnyTerminalMeters": 575,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "55 Rua Presidente Arriaga, Lisboa, 1200-771",
+      "openingHours": "Tu-Su 12:00-23:00",
+      "website": "https://www.katanasushilx.pt/",
+      "phone": "",
+      "cuisine": [
+        "sushi"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/98142615e19cb725b560",
+      "name": "Yak and Yeti",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 38.7056002,
+      "lng": -9.1734264,
+      "distanceFromTerminalMeters": 690,
+      "distanceFromDefaultTerminalMeters": 690,
+      "minDistanceFromAnyTerminalMeters": 690,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "66 Rua Vieira da Silva, Estrela, Lisboa, 1350-278",
+      "openingHours": "Mo-Su 11:00-23:00",
+      "website": "https://yakandyetialcantara.mdig.pt/",
+      "phone": "",
+      "cuisine": [
+        "nepalese",
+        "indian"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/9296f88714d057dae0d5",
+      "name": "Tempero e Paladar",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 38.7060689,
+      "lng": -9.1676033,
+      "distanceFromTerminalMeters": 706,
+      "distanceFromDefaultTerminalMeters": 706,
+      "minDistanceFromAnyTerminalMeters": 706,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "32C Avenida Infante Santo, Lisboa, 1350-179",
+      "openingHours": "Mo-Su 10:00-22:00",
+      "website": "https://www.pai.pt/paginas/293338-tempero-e-paladar",
+      "phone": "+351 21 390 0947",
+      "cuisine": [
+        "burger",
+        "regional",
+        "sandwich"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/29a535025da998846fcc",
+      "name": "Di Casa",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 38.7062303,
+      "lng": -9.167923,
+      "distanceFromTerminalMeters": 716,
+      "distanceFromDefaultTerminalMeters": 716,
+      "minDistanceFromAnyTerminalMeters": 716,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "13 Avenida Infante Santo, Lisboa, 1350-175",
+      "openingHours": "Mo-Su 12:00-23:00",
+      "website": "https://www.dicasa.pt/",
+      "phone": "+351 21 394 1388",
+      "cuisine": [
+        "italian"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ee4a809b0152720dcf80",
+      "name": "Okah Restaurante",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 38.7032106,
+      "lng": -9.1621677,
+      "distanceFromTerminalMeters": 768,
+      "distanceFromDefaultTerminalMeters": 768,
+      "minDistanceFromAnyTerminalMeters": 768,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "4 Rocha do Conde de Óbidos, Lisboa, 1350-352, PT",
+      "openingHours": "Mo-Th 12:00-15:00,19:00-23:00; Fr,Sa 12:00-15:00,19:00-00:00; Su 12:00-18:00",
+      "website": "https://www.okah.pt/restaurante/",
+      "phone": "+351 914 110 791",
+      "cuisine": [
+        "asian",
+        "japanese",
+        "chinese",
+        "fusion",
+        "gourmet"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/186628e3390ae475f02c",
+      "name": "A Mila",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 38.7063387,
+      "lng": -9.1744535,
+      "distanceFromTerminalMeters": 804,
+      "distanceFromDefaultTerminalMeters": 804,
+      "minDistanceFromAnyTerminalMeters": 804,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "12 R/C Rua das Fontaínhas, 1330-257",
+      "openingHours": "Su-Fr 08:00-19:00",
+      "website": "http://amila.eatbu.com/?lang=en",
+      "phone": "+351 212 427 630",
+      "cuisine": [
+        "portuguese"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/17acd3ffdedc0244a74a",
+      "name": "Geographia",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 38.7055368,
+      "lng": -9.1617404,
+      "distanceFromTerminalMeters": 945,
+      "distanceFromDefaultTerminalMeters": 945,
+      "minDistanceFromAnyTerminalMeters": 945,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1 Rua do Conde, 1200-608",
+      "openingHours": "Mo-Sa 12:30-15:00, 19:30-23:30",
+      "website": "https://restaurantegeographia.pt/",
+      "phone": "+351 213 960 036",
+      "cuisine": [
+        "african",
+        "brazilian",
+        "international",
+        "portuguese"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d087296fc41178f2eef9",
+      "name": "Sakura (Infante Santo)",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 38.7083618,
+      "lng": -9.1670385,
+      "distanceFromTerminalMeters": 965,
+      "distanceFromDefaultTerminalMeters": 965,
+      "minDistanceFromAnyTerminalMeters": 965,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "60 B Avenida Infante Santo, Lisboa, 1350-179, PT",
+      "openingHours": "Mo-Su 12:00-15:00,19:00-23:00",
+      "website": "http://www.sakura-restaurante.com/",
+      "phone": "+351 216 064 512;+351 969 248 086",
+      "cuisine": [
+        "japanese",
+        "sushi"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/021c168649dd75de9a4e",
+      "name": "Oliveira's Restaurante Moçambicano",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 38.7104503,
+      "lng": -9.1538924,
+      "distanceFromTerminalMeters": 1818,
+      "distanceFromDefaultTerminalMeters": 1818,
+      "minDistanceFromAnyTerminalMeters": 1818,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "9 Rua dos Industriais, Lisboa, 1200-731",
+      "openingHours": "Tu-Sa 12:00-15:00, 19:30-22:30",
+      "website": "https://www.oliveirasmocambicano.pt/",
+      "phone": "+351 213 570 159",
+      "cuisine": [
+        "african",
+        "traditional",
+        "regional"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Oliveira's, o autêntico sabor de Moçambique em Lisboa! Somos um restaurante familiar, que traz os vibrantes sabores e a calorosa hospitalidade da África Oriental. Receitas tradicionais de Quelimane, Moçambique.",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b92308e19716268dbb11",
+      "name": "Choco do Bairro",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 38.71686,
+      "lng": -9.1670711,
+      "distanceFromTerminalMeters": 1892,
+      "distanceFromDefaultTerminalMeters": 1892,
+      "minDistanceFromAnyTerminalMeters": 1892,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "55 Rua Tenente Ferreira Durão, Lisboa, 1350-311",
+      "openingHours": "Tu-Sa 12:00-15:00, 19:00-22:00, Su 12:00-15:00",
+      "website": "http://www.facebook.com/Choco-do-Bairro-1463916713698582/",
+      "phone": "+351213850486",
+      "cuisine": [
+        "mediterranean",
+        "portuguese"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Delicious Portuguese food. Clean, simple, healthy. As close to home-cooking as you can get. Family run and owned.",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/e44641cd36d2ea3d7516",
+      "name": "Fabric",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 38.7083332,
+      "lng": -9.1459126,
+      "distanceFromTerminalMeters": 2286,
+      "distanceFromDefaultTerminalMeters": 2286,
+      "minDistanceFromAnyTerminalMeters": 2286,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "190 Rua de São Paulo, Lisboa",
+      "openingHours": "Mo-Su 10:00-23:00",
+      "website": "https://www.instagram.com/fabric_lisboa/",
+      "phone": "",
+      "cuisine": [
+        "middle_eastern"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Fábrico próprio",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/564a12992eeda8b62086",
+      "name": "Tabik Restaurant",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 38.7169652,
+      "lng": -9.1434144,
+      "distanceFromTerminalMeters": 2980,
+      "distanceFromDefaultTerminalMeters": 2980,
+      "minDistanceFromAnyTerminalMeters": 2980,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "29A Avenida da Liberdade, Lisboa, 1250-139",
+      "openingHours": "Mo-Su 10:30-00:00",
+      "website": "https://www.tabikrestaurant.com/",
+      "phone": "+351213470549",
+      "cuisine": [
+        "regional",
+        "international"
+      ],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "The Tabik Restaurant in Avenida da Liberdade presents a modern and creative gastronomy that challenge your senses. Our gastronomy is based in Portuguese traditional flavours with creative and tasty traces!",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c1131a505bfc75f1ab91",
+      "name": "Solar dos Nunes",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 38.7054663,
+      "lng": -9.1804785,
+      "distanceFromTerminalMeters": 1094,
+      "distanceFromDefaultTerminalMeters": 1094,
+      "minDistanceFromAnyTerminalMeters": 1094,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "354 Rua dos Lusíadas, 1300-366",
+      "openingHours": "Mo-Sa 12:00-15:00, 19:00-01:00",
+      "website": "https://www.solardosnunes.net/",
+      "phone": "+351 21 364 7359",
+      "cuisine": [
+        "portuguese"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/4c85af4b7c6c0dd688d0",
+      "name": "AMMAZZA! Infante Santo",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 38.7095418,
+      "lng": -9.1661354,
+      "distanceFromTerminalMeters": 1113,
+      "distanceFromDefaultTerminalMeters": 1113,
+      "minDistanceFromAnyTerminalMeters": 1113,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "66 Av. Infante Santo, Lisboa, 1350-180",
+      "openingHours": "12:00-22:30",
+      "website": "https://www.ammazza.pt/",
+      "phone": "+351 912 419 552",
+      "cuisine": [
+        "italian"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/2101613738cd766be5d9",
+      "name": "Mercado de Campo de Ourique",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "marketplace",
+      "lat": 38.7161428,
+      "lng": -9.1667786,
+      "distanceFromTerminalMeters": 1817,
+      "distanceFromDefaultTerminalMeters": 1817,
+      "minDistanceFromAnyTerminalMeters": 1817,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "104 Rua Coelho da Rocha, Lisboa, 1350-075",
+      "openingHours": "Su,We 10:00-00:00;Mo,Tu 10:00-23:00;Th-Sa 10:00-01:00",
+      "website": "https://mercadodecampodeourique.pt/",
+      "phone": "",
+      "cuisine": [
+        "international"
+      ],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "marketplace"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d93600449876bb85cb8b",
+      "name": "Dona Ajuda",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "marketplace",
+      "lat": 38.7213965,
+      "lng": -9.1535708,
+      "distanceFromTerminalMeters": 2774,
+      "distanceFromDefaultTerminalMeters": 2774,
+      "minDistanceFromAnyTerminalMeters": 2774,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "64 Rua Alexandre Herculano, Lisboa",
+      "openingHours": "Mo-Su 11:00-19:00",
+      "website": "https://donaajuda.pt",
+      "phone": "+351965461901",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "marketplace"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/155190346ebcb5963eef",
+      "name": "HIPPOtrip",
+      "nameEnglish": "",
+      "category": "essentials",
+      "subcategory": "visitor_information",
+      "lat": 38.6989277,
+      "lng": -9.1763481,
+      "distanceFromTerminalMeters": 564,
+      "distanceFromDefaultTerminalMeters": 564,
+      "minDistanceFromAnyTerminalMeters": 564,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Doca de Santo Amaro, Lisboa, 1350-353, PT",
+      "openingHours": "",
+      "website": "https://www.hippotrip.com/",
+      "phone": "+351 211 922 030",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "information"
+      }
+    }
+  ],
+  "portAnchor": {
+    "id": "ports-json-anchor",
+    "name": "LISBOA Port",
+    "lat": 38.7,
+    "lng": -9.17,
+    "address": "Lisbon, Lisbon District, Portugal",
+    "source": "ports.json",
+    "sourceId": "",
+    "score": 0,
+    "slug": "lisboa-port"
+  },
+  "terminalResolution": {
+    "status": "resolved",
+    "method": "accepted_terminal_candidate",
+    "verified": true,
+    "notes": "Accepted 1 candidate explicitly identified as an ocean-cruise or cruise-passenger terminal; ferry and unrelated results were excluded."
+  }
+}

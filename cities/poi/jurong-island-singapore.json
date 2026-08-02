@@ -1,0 +1,372 @@
+{
+  "schemaVersion": 5,
+  "catalogType": "curation-candidates",
+  "generatedAt": "2026-07-30T08:18:23.399Z",
+  "source": "openstreetmap",
+  "sourceExtract": "malaysia-singapore-brunei-latest.osm.pbf",
+  "radiusMeters": 10000,
+  "port": {
+    "id": "jurong-island-singapore",
+    "city": "Jurong Island",
+    "country": "Singapore"
+  },
+  "defaultTerminalId": "ports-json-anchor",
+  "terminal": {
+    "id": "ports-json-anchor",
+    "name": "JURONG ISLAND Port",
+    "lat": 1.28,
+    "lng": 103.73,
+    "address": "Jurong Island, Singapore, Singapore",
+    "source": "ports.json",
+    "sourceId": "",
+    "score": 0,
+    "slug": "jurong-island-port"
+  },
+  "terminals": [
+    {
+      "id": "ports-json-anchor",
+      "name": "JURONG ISLAND Port",
+      "lat": 1.28,
+      "lng": 103.73,
+      "address": "Jurong Island, Singapore, Singapore",
+      "source": "ports.json",
+      "sourceId": "",
+      "score": 0,
+      "slug": "jurong-island-port"
+    }
+  ],
+  "terminalCandidateRadiusMeters": 5000,
+  "terminalCandidates": [
+    {
+      "source": "nominatim",
+      "sourceId": "osm/way/137879903",
+      "osmType": "way",
+      "osmId": "137879903",
+      "name": "Jurong Island Highway",
+      "nameEnglish": "",
+      "lat": 1.2968935,
+      "lng": 103.7115273,
+      "distanceFromPortMeters": 2783,
+      "address": "Jurong Island Highway, Jurong Port, Western Islands, West Region, Singapore, 619175, Singapore",
+      "displayName": "Jurong Island Highway, Jurong Port, Western Islands, West Region, Singapore, 619175, Singapore",
+      "query": "JURONG ISLAND Port, Jurong Island, Singapore",
+      "matchedBy": [
+        "Nominatim query: JURONG ISLAND Port, Jurong Island, Singapore"
+      ],
+      "osmTags": {},
+      "sources": [
+        "nominatim"
+      ],
+      "sourceIds": [
+        "osm/way/137879903"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/3cade95c5f874d8d776f",
+      "name": "West Coast Ferry Terminal",
+      "nameEnglish": "",
+      "lat": 1.2917597,
+      "lng": 103.7618915,
+      "distanceFromPortMeters": 3779,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "building": "yes"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/3cade95c5f874d8d776f"
+      ]
+    }
+  ],
+  "counts": {
+    "outdoors": 4,
+    "food_drink": 4,
+    "shopping": 1,
+    "attraction": 1,
+    "essentials": 0
+  },
+  "pois": [
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/80e85e67515ea250f49a",
+      "name": "Jurong Hill Tower",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "viewpoint",
+      "lat": 1.3174225,
+      "lng": 103.707856,
+      "distanceFromTerminalMeters": 4835,
+      "distanceFromDefaultTerminalMeters": 4835,
+      "minDistanceFromAnyTerminalMeters": 4835,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "viewpoint"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/cc2a8de0ea3120d55f63",
+      "name": "rumah pekerja hortpark",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "viewpoint",
+      "lat": 1.308246,
+      "lng": 103.761885,
+      "distanceFromTerminalMeters": 4736,
+      "distanceFromDefaultTerminalMeters": 4736,
+      "minDistanceFromAnyTerminalMeters": 4736,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "viewpoint"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/26610cbe24a386c489eb",
+      "name": "Fragrant Plant Garden",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "garden",
+      "lat": 1.2947937,
+      "lng": 103.7717903,
+      "distanceFromTerminalMeters": 4928,
+      "distanceFromDefaultTerminalMeters": 4928,
+      "minDistanceFromAnyTerminalMeters": 4928,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "garden"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ca41a4f1b090adfafd35",
+      "name": "Pandan Gardens Leisure Park",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 1.3198595,
+      "lng": 103.7504178,
+      "distanceFromTerminalMeters": 4980,
+      "distanceFromDefaultTerminalMeters": 4980,
+      "minDistanceFromAnyTerminalMeters": 4980,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/0ae4d49f05e53d6bfa20",
+      "name": "Dario",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 1.2923903,
+      "lng": 103.7684218,
+      "distanceFromTerminalMeters": 4488,
+      "distanceFromDefaultTerminalMeters": 4488,
+      "minDistanceFromAnyTerminalMeters": 4488,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "6 Clementi Road, 129741",
+      "openingHours": "",
+      "website": "https://www.facebook.com/dario6clementi",
+      "phone": "+65 9446 0253",
+      "cuisine": [
+        "italian"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/25a29e1e71389121c43a",
+      "name": "Fish Mart Sakuraya",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 1.303685,
+      "lng": 103.765551,
+      "distanceFromTerminalMeters": 4749,
+      "distanceFromDefaultTerminalMeters": 4749,
+      "minDistanceFromAnyTerminalMeters": 4749,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "154 West Coast Road, Singapore, 127371, SG",
+      "openingHours": "",
+      "website": "https://www.sakuraya.com.sg/",
+      "phone": "+65 6773 6973",
+      "cuisine": [
+        "japanese"
+      ],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/62853d3d8af5dee7d667",
+      "name": "West Coast Plaza",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "mall",
+      "lat": 1.3036424,
+      "lng": 103.766276,
+      "distanceFromTerminalMeters": 4814,
+      "distanceFromDefaultTerminalMeters": 4814,
+      "minDistanceFromAnyTerminalMeters": 4814,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "154 West Coast Road, Singapore, 127371, SG",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "shop": "mall"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/2dd088153b61c2e76dee",
+      "name": "肯特崗大伯公",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "wayside_shrine",
+      "lat": 1.293856,
+      "lng": 103.7697074,
+      "distanceFromTerminalMeters": 4675,
+      "distanceFromDefaultTerminalMeters": 4675,
+      "minDistanceFromAnyTerminalMeters": 4675,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "wayside_shrine"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/0111df795db6ec260953",
+      "name": "Benches Cafe",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 1.2998197,
+      "lng": 103.768143,
+      "distanceFromTerminalMeters": 4779,
+      "distanceFromDefaultTerminalMeters": 4779,
+      "minDistanceFromAnyTerminalMeters": 4779,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "93A Clementi Road, Singapore, 129781",
+      "openingHours": "Mo-Fr 08:00-16:30",
+      "website": "",
+      "phone": "+65 6977 7096",
+      "cuisine": [
+        "coffee_shop",
+        "dessert",
+        "sandwich"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/5fedeebbe21ab8fbf7c7",
+      "name": "One Kueh At A Time Cafe",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 1.3145044,
+      "lng": 103.7493332,
+      "distanceFromTerminalMeters": 4398,
+      "distanceFromDefaultTerminalMeters": 4398,
+      "minDistanceFromAnyTerminalMeters": 4398,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "230 Pandan Loop, 128415",
+      "openingHours": "Tu-Su 10:00-18:00",
+      "website": "",
+      "phone": "+65 9795 6119",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    }
+  ],
+  "portAnchor": {
+    "id": "ports-json-anchor",
+    "name": "JURONG ISLAND Port",
+    "lat": 1.28,
+    "lng": 103.73,
+    "address": "Jurong Island, Singapore, Singapore",
+    "source": "ports.json",
+    "sourceId": "",
+    "score": 0,
+    "slug": "jurong-island-port"
+  },
+  "terminalResolution": {
+    "status": "unresolved",
+    "method": "ports_json_fallback",
+    "verified": false,
+    "notes": "External port and cruise-schedule checks found no established ocean passenger cruise terminal or meaningful cruise-call pattern here. The supplied candidates are cargo, ferry, marina, local-dock, road, or unrelated results."
+  }
+}

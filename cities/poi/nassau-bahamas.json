@@ -1,0 +1,1284 @@
+{
+  "schemaVersion": 5,
+  "catalogType": "curation-candidates",
+  "generatedAt": "2026-07-30T07:36:51.260Z",
+  "source": "openstreetmap",
+  "sourceExtract": "bahamas-latest.osm.pbf",
+  "radiusMeters": 10000,
+  "port": {
+    "id": "nassau-bahamas",
+    "city": "Nassau",
+    "country": "Bahamas"
+  },
+  "defaultTerminalId": "manual/nassau-bahamas/nassau-cruise-port",
+  "terminal": {
+    "id": "manual/nassau-bahamas/nassau-cruise-port",
+    "name": "Nassau Cruise Port",
+    "nameEnglish": "",
+    "lat": 25.07911,
+    "lng": -77.34405,
+    "address": "",
+    "source": "manual_web_research",
+    "sourceId": "manual/nassau-bahamas/nassau-cruise-port",
+    "terminalType": "multi_berth_cruise_terminal",
+    "verified": true,
+    "notes": "Central passenger arrivals complex serving Nassau's cruise piers. Coordinate marks the terminal marketplace and city-side exit.",
+    "sourceUrls": [
+      "https://www.nassaucruiseport.com/",
+      "https://www.openstreetmap.org/?mlat=25.07911&mlon=-77.34405#map=17/25.07911/-77.34405"
+    ],
+    "sources": [
+      "manual_web_research"
+    ],
+    "sourceIds": [
+      "manual/nassau-bahamas/nassau-cruise-port"
+    ],
+    "osmTags": {},
+    "matchedBy": [
+      "web_researched_terminal"
+    ],
+    "distanceFromPortMeters": null
+  },
+  "terminals": [
+    {
+      "id": "manual/nassau-bahamas/nassau-cruise-port",
+      "name": "Nassau Cruise Port",
+      "nameEnglish": "",
+      "lat": 25.07911,
+      "lng": -77.34405,
+      "address": "",
+      "source": "manual_web_research",
+      "sourceId": "manual/nassau-bahamas/nassau-cruise-port",
+      "terminalType": "multi_berth_cruise_terminal",
+      "verified": true,
+      "notes": "Central passenger arrivals complex serving Nassau's cruise piers. Coordinate marks the terminal marketplace and city-side exit.",
+      "sourceUrls": [
+        "https://www.nassaucruiseport.com/",
+        "https://www.openstreetmap.org/?mlat=25.07911&mlon=-77.34405#map=17/25.07911/-77.34405"
+      ],
+      "sources": [
+        "manual_web_research"
+      ],
+      "sourceIds": [
+        "manual/nassau-bahamas/nassau-cruise-port"
+      ],
+      "osmTags": {},
+      "matchedBy": [
+        "web_researched_terminal"
+      ],
+      "distanceFromPortMeters": null
+    }
+  ],
+  "terminalCandidateRadiusMeters": 5000,
+  "terminalCandidates": [
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/3351082d810bf292510d",
+      "name": "(unnamed maritime feature)",
+      "nameEnglish": "",
+      "lat": 25.0791226,
+      "lng": -77.3440498,
+      "distanceFromPortMeters": 607,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/3351082d810bf292510d"
+      ]
+    },
+    {
+      "source": "nominatim",
+      "sourceId": "osm/way/408036394",
+      "osmType": "way",
+      "osmId": "408036394",
+      "name": "Banana Bay Nassau's Port Shop",
+      "nameEnglish": "",
+      "lat": 25.0782703,
+      "lng": -77.3430256,
+      "distanceFromPortMeters": 728,
+      "address": "Banana Bay Nassau's Port Shop, Bay Street, Nassau, New Providence, The Bahamas",
+      "displayName": "Banana Bay Nassau's Port Shop, Bay Street, Nassau, New Providence, The Bahamas",
+      "query": "NASSAU Port, Nassau, Bahamas",
+      "matchedBy": [
+        "Nominatim query: NASSAU Port, Nassau, Bahamas"
+      ],
+      "osmTags": {
+        "building": "yes"
+      },
+      "sources": [
+        "nominatim"
+      ],
+      "sourceIds": [
+        "osm/way/408036394"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d95d949bc1b04f0c7f1a",
+      "name": "Nassau",
+      "nameEnglish": "",
+      "lat": 25.0769738,
+      "lng": -77.3237203,
+      "distanceFromPortMeters": 2668,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "operator": "Bahamas Ferries",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/d95d949bc1b04f0c7f1a"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/9b46d9b1695d76f8f23b",
+      "name": "Paradise Island Ferry Terminal",
+      "nameEnglish": "",
+      "lat": 25.0800388,
+      "lng": -77.3225798,
+      "distanceFromPortMeters": 2762,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/9b46d9b1695d76f8f23b"
+      ]
+    }
+  ],
+  "counts": {
+    "attraction": 19,
+    "outdoors": 9,
+    "food_drink": 12,
+    "shopping": 2,
+    "essentials": 0
+  },
+  "pois": [
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/7e43b44389f2deac190f",
+      "name": "National Art Gallery of The Bahamas (NAGB)",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 25.0753363,
+      "lng": -77.3473308,
+      "distanceFromTerminalMeters": 584,
+      "distanceFromDefaultTerminalMeters": 584,
+      "minDistanceFromAnyTerminalMeters": 584,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "West Street, Nassau",
+      "openingHours": "Tu-Su 10:00-17:00",
+      "website": "https://nagb.org.bs/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/74617e6c5e99a32d2fd3",
+      "name": "Pirates of Nassau",
+      "nameEnglish": "Pirates of Nassau",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 25.0775147,
+      "lng": -77.344654,
+      "distanceFromTerminalMeters": 605,
+      "distanceFromDefaultTerminalMeters": 605,
+      "minDistanceFromAnyTerminalMeters": 605,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "https://www.nassauparadiseisland.com/what-to-do/unique-tours-activities/pirates-of-nassau/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/781427e081d9539268f0",
+      "name": "Fort Charlotte",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 25.0770279,
+      "lng": -77.3588201,
+      "distanceFromTerminalMeters": 948,
+      "distanceFromDefaultTerminalMeters": 948,
+      "minDistanceFromAnyTerminalMeters": 948,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "West Bay Street, Nassau",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Built in 1788 by Lord Dunmore, the fort was named after the wife of King George III, Queen Saharia Charlotte. The fort has a moat, dungeons, underground passageways, and 42 cannons, which have never been fired in an act of aggression.",
+      "osmTags": {
+        "historic": "fort",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f644f3978496507d34af",
+      "name": "Heritage Museum",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 25.0766177,
+      "lng": -77.3465569,
+      "distanceFromTerminalMeters": 512,
+      "distanceFromDefaultTerminalMeters": 512,
+      "minDistanceFromAnyTerminalMeters": 512,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/86ac80fbf9e3a3e4e89b",
+      "name": "Pompey Museum of Slavery & Emancipation",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 25.0784172,
+      "lng": -77.3442902,
+      "distanceFromTerminalMeters": 601,
+      "distanceFromDefaultTerminalMeters": 601,
+      "minDistanceFromAnyTerminalMeters": 601,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/9f12f98804d78e0ed1a7",
+      "name": "Museum of Junkanoo",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 25.0789966,
+      "lng": -77.3404841,
+      "distanceFromTerminalMeters": 965,
+      "distanceFromDefaultTerminalMeters": 965,
+      "minDistanceFromAnyTerminalMeters": 965,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/e171c57742930824f255",
+      "name": "popop studios",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "gallery",
+      "lat": 25.0731558,
+      "lng": -77.3598728,
+      "distanceFromTerminalMeters": 1252,
+      "distanceFromDefaultTerminalMeters": 1252,
+      "minDistanceFromAnyTerminalMeters": 1252,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "https://www.popopstudios.com/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "arts_centre",
+        "tourism": "gallery"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/1615abebb73918a7c52c",
+      "name": "John Watling's Distillery",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 25.0743172,
+      "lng": -77.3488496,
+      "distanceFromTerminalMeters": 642,
+      "distanceFromDefaultTerminalMeters": 642,
+      "minDistanceFromAnyTerminalMeters": 642,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Su 10:00-18:00",
+      "website": "https://www.johnwatlings.com/",
+      "phone": "+12423222811",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/56b17f9bf884220718c3",
+      "name": "Ardastra Gardens, Zoo & Conservation Centre",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "zoo",
+      "lat": 25.0758766,
+      "lng": -77.3620495,
+      "distanceFromTerminalMeters": 1297,
+      "distanceFromDefaultTerminalMeters": 1297,
+      "minDistanceFromAnyTerminalMeters": 1297,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "zoo"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/6b97385c6c8b9022a62e",
+      "name": "Fort Fincastle",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "fort",
+      "lat": 25.0736097,
+      "lng": -77.3384808,
+      "distanceFromTerminalMeters": 1360,
+      "distanceFromDefaultTerminalMeters": 1360,
+      "minDistanceFromAnyTerminalMeters": 1360,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "fort"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/0abaee8bdee5228c5dcc",
+      "name": "Gregory’s Arch",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 25.0755313,
+      "lng": -77.343689,
+      "distanceFromTerminalMeters": 807,
+      "distanceFromDefaultTerminalMeters": 807,
+      "minDistanceFromAnyTerminalMeters": 807,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Market Street",
+      "openingHours": "",
+      "website": "https://www.bahamas.com/vendor/gregorys-arch",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "man_made": "bridge",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f9e785304d12feed07a7",
+      "name": "Rawson Square",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 25.0783116,
+      "lng": -77.3404607,
+      "distanceFromTerminalMeters": 979,
+      "distanceFromDefaultTerminalMeters": 979,
+      "minDistanceFromAnyTerminalMeters": 979,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "place": "square",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/bb4c865988960993dcc5",
+      "name": "Parliament Square",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 25.0777915,
+      "lng": -77.3404757,
+      "distanceFromTerminalMeters": 990,
+      "distanceFromDefaultTerminalMeters": 990,
+      "minDistanceFromAnyTerminalMeters": 990,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/2e7e9a6338294a495589",
+      "name": "The Queen's Staircase",
+      "nameEnglish": "Queens Staircase",
+      "category": "attraction",
+      "subcategory": "yes",
+      "lat": 25.073197,
+      "lng": -77.3376253,
+      "distanceFromTerminalMeters": 1458,
+      "distanceFromDefaultTerminalMeters": 1458,
+      "minDistanceFromAnyTerminalMeters": 1458,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "https://queensstaircase.com/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "no",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "yes"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/10aa82b229f4b01a36b8",
+      "name": "The Dig",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "aquarium",
+      "lat": 25.0842969,
+      "lng": -77.3225216,
+      "distanceFromTerminalMeters": 2808,
+      "distanceFromDefaultTerminalMeters": 2808,
+      "minDistanceFromAnyTerminalMeters": 2808,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "aquarium"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c5c853abda398cfc3444",
+      "name": "Fort Montagu",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "fort",
+      "lat": 25.0736607,
+      "lng": -77.30662,
+      "distanceFromTerminalMeters": 4425,
+      "distanceFromDefaultTerminalMeters": 4425,
+      "minDistanceFromAnyTerminalMeters": 4425,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "fort"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/76c056e908e0826a4b8f",
+      "name": "Paradise Island Lighthouse",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "lighthouse",
+      "lat": 25.0869397,
+      "lng": -77.3514229,
+      "distanceFromTerminalMeters": 785,
+      "distanceFromDefaultTerminalMeters": 785,
+      "minDistanceFromAnyTerminalMeters": 785,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "man_made": "lighthouse"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/14670c18ba427611b87a",
+      "name": "Centreville Estate",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 25.0750253,
+      "lng": -77.3342751,
+      "distanceFromTerminalMeters": 1678,
+      "distanceFromDefaultTerminalMeters": 1678,
+      "minDistanceFromAnyTerminalMeters": 1678,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "manor",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/356a6611a179b0d6ad65",
+      "name": "Junkanoo Beach",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "beach",
+      "lat": 25.079168,
+      "lng": -77.3500025,
+      "distanceFromTerminalMeters": 93,
+      "distanceFromDefaultTerminalMeters": 93,
+      "minDistanceFromAnyTerminalMeters": 93,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "natural": "beach"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/cccc8ee65e45a26fd5ad",
+      "name": "Colonial Beach",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "beach",
+      "lat": 25.086075,
+      "lng": -77.3459025,
+      "distanceFromTerminalMeters": 792,
+      "distanceFromDefaultTerminalMeters": 792,
+      "minDistanceFromAnyTerminalMeters": 792,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "natural": "beach"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/41f339002a7e4a779f47",
+      "name": "Public Park & Beach",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 25.0796792,
+      "lng": -77.3667078,
+      "distanceFromTerminalMeters": 1683,
+      "distanceFromDefaultTerminalMeters": 1683,
+      "minDistanceFromAnyTerminalMeters": 1683,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ad0dd514842a1a2d0dbd",
+      "name": "Paradise Beach",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "beach",
+      "lat": 25.0872271,
+      "lng": -77.3315038,
+      "distanceFromTerminalMeters": 2029,
+      "distanceFromDefaultTerminalMeters": 2029,
+      "minDistanceFromAnyTerminalMeters": 2029,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "natural": "beach"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/a07461e4e86310acea1a",
+      "name": "Saunders Beach",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "beach",
+      "lat": 25.0793811,
+      "lng": -77.3719121,
+      "distanceFromTerminalMeters": 2208,
+      "distanceFromDefaultTerminalMeters": 2208,
+      "minDistanceFromAnyTerminalMeters": 2208,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "natural": "beach"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f8fb820b7ef4f28e2079",
+      "name": "Paradise Lagoon Beach South",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "beach",
+      "lat": 25.0849655,
+      "lng": -77.3219447,
+      "distanceFromTerminalMeters": 2879,
+      "distanceFromDefaultTerminalMeters": 2879,
+      "minDistanceFromAnyTerminalMeters": 2879,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "natural": "beach"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/0019c5e996b0f04fa9ab",
+      "name": "Nassau Botanical Gardens",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "garden",
+      "lat": 25.0760237,
+      "lng": -77.3583386,
+      "distanceFromTerminalMeters": 949,
+      "distanceFromDefaultTerminalMeters": 949,
+      "minDistanceFromAnyTerminalMeters": 949,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "garden",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/594a242b8a2535900c7b",
+      "name": "The Retreat Gardens",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "nature_reserve",
+      "lat": 25.0636787,
+      "lng": -77.3109667,
+      "distanceFromTerminalMeters": 4330,
+      "distanceFromDefaultTerminalMeters": 4330,
+      "minDistanceFromAnyTerminalMeters": 4330,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Fr 09:00-16:00",
+      "website": "https://bnt.bs/explore/new-providence/the-retreat/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "nature_reserve"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b32b0cbfded96547ec6c",
+      "name": "The Anchorage - Market and Restaurant",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 25.0801617,
+      "lng": -77.3596746,
+      "distanceFromTerminalMeters": 975,
+      "distanceFromDefaultTerminalMeters": 975,
+      "minDistanceFromAnyTerminalMeters": 975,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/351de23c95004569cf78",
+      "name": "Summer Palace",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 25.0781527,
+      "lng": -77.3448629,
+      "distanceFromTerminalMeters": 557,
+      "distanceFromDefaultTerminalMeters": 557,
+      "minDistanceFromAnyTerminalMeters": 557,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [
+        "chinese"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/3606ffe9de1ac94c4806",
+      "name": "Pirate Republic Brewing",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "bar",
+      "lat": 25.0788363,
+      "lng": -77.3420303,
+      "distanceFromTerminalMeters": 813,
+      "distanceFromDefaultTerminalMeters": 813,
+      "minDistanceFromAnyTerminalMeters": 813,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Woodes Rodgers Walk, Nassau",
+      "openingHours": "",
+      "website": "https://piraterepublicbahamas.com/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "bar"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ab73ecb9b803581e2a2a",
+      "name": "Café Matisse",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 25.0768776,
+      "lng": -77.340177,
+      "distanceFromTerminalMeters": 1048,
+      "distanceFromDefaultTerminalMeters": 1048,
+      "minDistanceFromAnyTerminalMeters": 1048,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Bank Lane, Nassau, The Bahamas",
+      "openingHours": "Tu-Sa 12:00-15:00 Tu-Sa 18:00-22:00",
+      "website": "https://cafematisse.rest/2025/",
+      "phone": "+1 242-356-7012",
+      "cuisine": [
+        "italian"
+      ],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/8c29e954675ca74b8ade",
+      "name": "Señor Frog's",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 25.0789494,
+      "lng": -77.3448168,
+      "distanceFromTerminalMeters": 535,
+      "distanceFromDefaultTerminalMeters": 535,
+      "minDistanceFromAnyTerminalMeters": 535,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Woodes Rodgers Walk, Nassau",
+      "openingHours": "",
+      "website": "https://senorfrogs.com/",
+      "phone": "",
+      "cuisine": [
+        "mexican"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b6239e2c367bb05d0a17",
+      "name": "Sharkeez Bar & Grill",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 25.0788438,
+      "lng": -77.3423934,
+      "distanceFromTerminalMeters": 777,
+      "distanceFromDefaultTerminalMeters": 777,
+      "minDistanceFromAnyTerminalMeters": 777,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Woodes Rodgers Walk, Nassau",
+      "openingHours": "",
+      "website": "www.sharkeezcaribbean.com",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f3a06b34f3d12190d57f",
+      "name": "Bistro Express",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "fast_food",
+      "lat": 25.0762886,
+      "lng": -77.3324364,
+      "distanceFromTerminalMeters": 1816,
+      "distanceFromDefaultTerminalMeters": 1816,
+      "minDistanceFromAnyTerminalMeters": 1816,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Fr 11:30-00:00; Sa 00:00-02:00, 11:30-00:00; Su 00:00-02:00; PH off",
+      "website": "https://bahamianbistro.com/",
+      "phone": "+1 242 829 3663",
+      "cuisine": [
+        "sushi",
+        "pizza",
+        "burger",
+        "tacos",
+        "hatian",
+        "mexican",
+        "bahamian"
+      ],
+      "wheelchair": "limited",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "fast_food"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/5a1a3a1c16d43af9d7d5",
+      "name": "Nom Nom Pita",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 25.0624097,
+      "lng": -77.3354522,
+      "distanceFromTerminalMeters": 2444,
+      "distanceFromDefaultTerminalMeters": 2444,
+      "minDistanceFromAnyTerminalMeters": 2444,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "15 East Court, 00000",
+      "openingHours": "Mo-Fr 11:00-15:00; PH off",
+      "website": "https://www.nomnompita.com/",
+      "phone": "+12428155821",
+      "cuisine": [
+        "arab",
+        "international"
+      ],
+      "wheelchair": "limited",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/76df242c405cd994354b",
+      "name": "Ichiban",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 25.0784819,
+      "lng": -77.3497542,
+      "distanceFromTerminalMeters": 171,
+      "distanceFromDefaultTerminalMeters": 171,
+      "minDistanceFromAnyTerminalMeters": 171,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [
+        "asian"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/86125bf88a4d3014c198",
+      "name": "Clay Oven",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 25.0781026,
+      "lng": -77.3475351,
+      "distanceFromTerminalMeters": 326,
+      "distanceFromDefaultTerminalMeters": 326,
+      "minDistanceFromAnyTerminalMeters": 326,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [
+        "indian"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/325b4055fea88ba6e624",
+      "name": "Lukka Kairi",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 25.078984,
+      "lng": -77.3442099,
+      "distanceFromTerminalMeters": 594,
+      "distanceFromDefaultTerminalMeters": 594,
+      "minDistanceFromAnyTerminalMeters": 594,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [
+        "regional"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/98ba03372c73a84aab40",
+      "name": "The Bearded Clam",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "bar",
+      "lat": 25.078414,
+      "lng": -77.3412752,
+      "distanceFromTerminalMeters": 896,
+      "distanceFromDefaultTerminalMeters": 896,
+      "minDistanceFromAnyTerminalMeters": 896,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "International Plaza",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [
+        "local",
+        "burger"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "bar"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/007a1d486ce9abcaeb00",
+      "name": "Straw Market",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "marketplace",
+      "lat": 25.0785933,
+      "lng": -77.3433869,
+      "distanceFromTerminalMeters": 684,
+      "distanceFromDefaultTerminalMeters": 684,
+      "minDistanceFromAnyTerminalMeters": 684,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "marketplace",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/82f013e4d2eb5f8e8680",
+      "name": "Elizabeth on Bay",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "mall",
+      "lat": 25.0785432,
+      "lng": -77.3379997,
+      "distanceFromTerminalMeters": 1219,
+      "distanceFromDefaultTerminalMeters": 1219,
+      "minDistanceFromAnyTerminalMeters": 1219,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Bay Street",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "shop": "mall"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/acc4dd7f25604e971748",
+      "name": "The Water Tower",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "yes",
+      "lat": 25.0732085,
+      "lng": -77.3379486,
+      "distanceFromTerminalMeters": 1429,
+      "distanceFromDefaultTerminalMeters": 1429,
+      "minDistanceFromAnyTerminalMeters": 1429,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "yes",
+        "man_made": "water_tower"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/bfa2741db9492bc15505",
+      "name": "Clifford Park",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 25.0774689,
+      "lng": -77.3554581,
+      "distanceFromTerminalMeters": 618,
+      "distanceFromDefaultTerminalMeters": 618,
+      "minDistanceFromAnyTerminalMeters": 618,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "park"
+      }
+    }
+  ],
+  "portAnchor": {
+    "id": "ports-json-anchor",
+    "name": "NASSAU Port",
+    "lat": 25.08,
+    "lng": -77.35,
+    "address": "Nassau, Bahamas, Bahamas",
+    "source": "ports.json",
+    "sourceId": "",
+    "score": 0,
+    "slug": "nassau-port"
+  },
+  "terminalResolution": {
+    "status": "resolved",
+    "method": "manual_web_research",
+    "verified": true,
+    "notes": "Terminal records were added from researched cruise-port sources because no supplied candidate accurately represented the passenger arrival point."
+  }
+}

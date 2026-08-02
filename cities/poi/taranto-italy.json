@@ -1,0 +1,1123 @@
+{
+  "schemaVersion": 5,
+  "catalogType": "curation-candidates",
+  "generatedAt": "2026-07-30T09:02:01.886Z",
+  "source": "openstreetmap",
+  "sourceExtract": "sud-latest.osm.pbf",
+  "radiusMeters": 10000,
+  "port": {
+    "id": "taranto-italy",
+    "city": "Taranto",
+    "country": "Italy"
+  },
+  "defaultTerminalId": "manual/taranto-italy/falanto-cruise-terminal",
+  "terminal": {
+    "id": "manual/taranto-italy/falanto-cruise-terminal",
+    "name": "Falanto Cruise Terminal",
+    "nameEnglish": "",
+    "lat": 40.47633,
+    "lng": 17.21926,
+    "address": "",
+    "source": "manual_web_research",
+    "sourceId": "manual/taranto-italy/falanto-cruise-terminal",
+    "terminalType": "dedicated_cruise_terminal",
+    "verified": true,
+    "notes": "Passenger cruise terminal at Molo San Cataldo.",
+    "sourceUrls": [
+      "https://www.tarantoport.com/en/cruise/",
+      "https://www.openstreetmap.org/?mlat=40.47633&mlon=17.21926#map=17/40.47633/17.21926"
+    ],
+    "sources": [
+      "manual_web_research"
+    ],
+    "sourceIds": [
+      "manual/taranto-italy/falanto-cruise-terminal"
+    ],
+    "osmTags": {},
+    "matchedBy": [
+      "web_researched_terminal"
+    ],
+    "distanceFromPortMeters": null
+  },
+  "terminals": [
+    {
+      "id": "manual/taranto-italy/falanto-cruise-terminal",
+      "name": "Falanto Cruise Terminal",
+      "nameEnglish": "",
+      "lat": 40.47633,
+      "lng": 17.21926,
+      "address": "",
+      "source": "manual_web_research",
+      "sourceId": "manual/taranto-italy/falanto-cruise-terminal",
+      "terminalType": "dedicated_cruise_terminal",
+      "verified": true,
+      "notes": "Passenger cruise terminal at Molo San Cataldo.",
+      "sourceUrls": [
+        "https://www.tarantoport.com/en/cruise/",
+        "https://www.openstreetmap.org/?mlat=40.47633&mlon=17.21926#map=17/40.47633/17.21926"
+      ],
+      "sources": [
+        "manual_web_research"
+      ],
+      "sourceIds": [
+        "manual/taranto-italy/falanto-cruise-terminal"
+      ],
+      "osmTags": {},
+      "matchedBy": [
+        "web_researched_terminal"
+      ],
+      "distanceFromPortMeters": null
+    }
+  ],
+  "terminalCandidateRadiusMeters": 5000,
+  "terminalCandidates": [
+    {
+      "source": "nominatim",
+      "sourceId": "osm/way/383707958",
+      "osmType": "way",
+      "osmId": "383707958",
+      "name": "Taranto Port Authority",
+      "nameEnglish": "",
+      "lat": 40.4784869,
+      "lng": 17.2199649,
+      "distanceFromPortMeters": 1935,
+      "address": "Taranto Port Authority, Via Cristoforo Colombo, Taranto, Puglia, 74123, Italia",
+      "displayName": "Taranto Port Authority, Via Cristoforo Colombo, Taranto, Puglia, 74123, Italia",
+      "query": "TARANTO Port, Taranto, Italy",
+      "matchedBy": [
+        "Nominatim query: TARANTO Port, Taranto, Italy"
+      ],
+      "osmTags": {
+        "building": "yes"
+      },
+      "sources": [
+        "nominatim"
+      ],
+      "sourceIds": [
+        "osm/way/383707958"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/eb17f55eb340cdb49def",
+      "name": "Amat Idrovia per Isola di San Pietro",
+      "nameEnglish": "",
+      "lat": 40.4805325,
+      "lng": 17.2275104,
+      "distanceFromPortMeters": 2605,
+      "address": "Piazzale Democrate, Taranto, 74123",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "operator": "Amat"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/eb17f55eb340cdb49def"
+      ]
+    }
+  ],
+  "counts": {
+    "attraction": 19,
+    "outdoors": 6,
+    "food_drink": 12,
+    "shopping": 1,
+    "essentials": 0
+  },
+  "pois": [
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/3b38c77288dd500a89b4",
+      "name": "Chiostro del convento di San Domenico",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 40.4771923,
+      "lng": 17.2267511,
+      "distanceFromTerminalMeters": 2400,
+      "distanceFromDefaultTerminalMeters": 2400,
+      "minDistanceFromAnyTerminalMeters": 2400,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "33 Via Duomo, Taranto, 74123",
+      "openingHours": "Mo-Fr 08:30-18:30; Sa 08:30-13:00; Su off",
+      "website": "https://musei.beniculturali.it/musei?mid=5133&nome=chiostro-del-convento-di-san-domenico",
+      "phone": "+39 099 4713511",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/30218d46baf9120e77ba",
+      "name": "Museo etnografico Alfredo Majorano",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 40.4780807,
+      "lng": 17.2264134,
+      "distanceFromTerminalMeters": 2408,
+      "distanceFromDefaultTerminalMeters": 2408,
+      "minDistanceFromAnyTerminalMeters": 2408,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Vico Civico, Taranto, 74123",
+      "openingHours": "Tu-Fr 10:00-16:00; Sa 10:00-13:00, 15:00-18:00; Su 10:00-13:00; Mo off",
+      "website": "https://www.museoetnograficomajorano.it/",
+      "phone": "+39 333 3716581",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/9c63652ceb2b2b2b20d4",
+      "name": "Mudi Museo Diocesano di Taranto",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 40.4762135,
+      "lng": 17.2275792,
+      "distanceFromTerminalMeters": 2433,
+      "distanceFromDefaultTerminalMeters": 2433,
+      "minDistanceFromAnyTerminalMeters": 2433,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "2 Vico Seminario I",
+      "openingHours": "May 15-Sep 15: Th,Sa,Su 18:00-21:00; Sep 15-May 15: Th,Sa,Su 09:30-12:30,16:30-19:30",
+      "website": "http://www.museodiocesanotaranto.it",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c5bf520ff98ca12069cf",
+      "name": "CRAC Puglia",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 40.4768163,
+      "lng": 17.2261187,
+      "distanceFromTerminalMeters": 2336,
+      "distanceFromDefaultTerminalMeters": 2336,
+      "minDistanceFromAnyTerminalMeters": 2336,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/e193114fd2a40e83d85f",
+      "name": "Palazzo Carducci Artenisio",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 40.4766547,
+      "lng": 17.2278522,
+      "distanceFromTerminalMeters": 2469,
+      "distanceFromDefaultTerminalMeters": 2469,
+      "minDistanceFromAnyTerminalMeters": 2469,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c1a6c076613e3b09dddb",
+      "name": "Museo Meteorico - Sismico",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 40.4752274,
+      "lng": 17.23054,
+      "distanceFromTerminalMeters": 2648,
+      "distanceFromDefaultTerminalMeters": 2648,
+      "minDistanceFromAnyTerminalMeters": 2648,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo, We, Fr 09:00-12:00",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/11311f5038350d125cfe",
+      "name": "Castello Aragonese",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "castle",
+      "lat": 40.472724,
+      "lng": 17.2341062,
+      "distanceFromTerminalMeters": 2901,
+      "distanceFromDefaultTerminalMeters": 2901,
+      "minDistanceFromAnyTerminalMeters": 2901,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "limited",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "castle"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b6a974a004d131291466",
+      "name": "Palazzo Ulmo",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 40.4768561,
+      "lng": 17.2274131,
+      "distanceFromTerminalMeters": 2441,
+      "distanceFromDefaultTerminalMeters": 2441,
+      "minDistanceFromAnyTerminalMeters": 2441,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "SEC XVIII",
+      "osmTags": {
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/5e8bc95f411ebfeac649",
+      "name": "Palazzo Pantaleo",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 40.4780418,
+      "lng": 17.2264793,
+      "distanceFromTerminalMeters": 2412,
+      "distanceFromDefaultTerminalMeters": 2412,
+      "minDistanceFromAnyTerminalMeters": 2412,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Vico Civico, Taranto, 74123",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "limited",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "building",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c8559c95359af608e160",
+      "name": "Palazzo di Città",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "building",
+      "lat": 40.4735465,
+      "lng": 17.2326089,
+      "distanceFromTerminalMeters": 2786,
+      "distanceFromDefaultTerminalMeters": 2786,
+      "minDistanceFromAnyTerminalMeters": 2786,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1 Piazza Municipio, Taranto, 74121",
+      "openingHours": "",
+      "website": "http://www.comune.taranto.it/",
+      "phone": "+39 099 458 1111",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "townhall",
+        "historic": "building"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/e064a194b9d03a3e1e97",
+      "name": "Monumento ai Caduti",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "monument",
+      "lat": 40.4723933,
+      "lng": 17.2399443,
+      "distanceFromTerminalMeters": 3389,
+      "distanceFromDefaultTerminalMeters": 3389,
+      "minDistanceFromAnyTerminalMeters": 3389,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "monument"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/413c84ff4fa74eaa2039",
+      "name": "Parco archeologico di Collepasso",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "archaeological_site",
+      "lat": 40.466891,
+      "lng": 17.2757509,
+      "distanceFromTerminalMeters": 6417,
+      "distanceFromDefaultTerminalMeters": 6417,
+      "minDistanceFromAnyTerminalMeters": 6417,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Via Rondinelli, Taranto",
+      "openingHours": "",
+      "website": "https://www.beniculturali.it/mibac/opencms/MiBAC/sito-MiBAC/Luogo/MibacUnif/Luoghi-della-Cultura/visualizza_asset.html?id=177585&pagename=57",
+      "phone": "+39 099 4713511",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Nel parco sono conservati i resti delle fondazioni e di una parte limitata dell’elevato del circuito murario del V secolo a.C. che definiva e proteggeva ad est la città antica. Fu adibita a necropoli fra la fine del V e il IV secolo a.C.",
+      "osmTags": {
+        "historic": "archaeological_site"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ca6689686dab4c6fde6e",
+      "name": "Colonne doriche tempio di Poseidone",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "archaeological_site",
+      "lat": 40.4737991,
+      "lng": 17.2330151,
+      "distanceFromTerminalMeters": 2824,
+      "distanceFromDefaultTerminalMeters": 2824,
+      "minDistanceFromAnyTerminalMeters": 2824,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "archaeological_site"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/372024fe4c89575cadb9",
+      "name": "Tempio Dorico",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "archaeological_site",
+      "lat": 40.4737866,
+      "lng": 17.2330416,
+      "distanceFromTerminalMeters": 2826,
+      "distanceFromDefaultTerminalMeters": 2826,
+      "minDistanceFromAnyTerminalMeters": 2826,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "archaeological_site"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/110a8b7d9c2782ece0c6",
+      "name": "Necropolis Magna Grecia",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "archaeological_site",
+      "lat": 40.4722234,
+      "lng": 17.2372445,
+      "distanceFromTerminalMeters": 3160,
+      "distanceFromDefaultTerminalMeters": 3160,
+      "minDistanceFromAnyTerminalMeters": 3160,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "archaeological_site"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/486fdec5c510ffcf3cd6",
+      "name": "Faro di San Paolo",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "lighthouse",
+      "lat": 40.436843,
+      "lng": 17.1794353,
+      "distanceFromTerminalMeters": 4077,
+      "distanceFromDefaultTerminalMeters": 4077,
+      "minDistanceFromAnyTerminalMeters": 4077,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "man_made": "lighthouse"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/22fad7bf023e342fdf9c",
+      "name": "Necropoli Magna Grecia",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "archaeological_site",
+      "lat": 40.4600831,
+      "lng": 17.2546958,
+      "distanceFromTerminalMeters": 4757,
+      "distanceFromDefaultTerminalMeters": 4757,
+      "minDistanceFromAnyTerminalMeters": 4757,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "archaeological_site"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/e25120ca3810f40782f9",
+      "name": "Spiaggia pubblica Lungomare",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "beach",
+      "lat": 40.4658254,
+      "lng": 17.2428115,
+      "distanceFromTerminalMeters": 3651,
+      "distanceFromDefaultTerminalMeters": 3651,
+      "minDistanceFromAnyTerminalMeters": 3651,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "natural": "beach"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c02220a906243cd0ea49",
+      "name": "Suggestive point",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "viewpoint",
+      "lat": 40.4800322,
+      "lng": 17.2701114,
+      "distanceFromTerminalMeters": 6034,
+      "distanceFromDefaultTerminalMeters": 6034,
+      "minDistanceFromAnyTerminalMeters": 6034,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "On the sea, under the big bridge. Some little wood rowing boat is very nice to populate and take a selfy on that.",
+      "osmTags": {
+        "tourism": "viewpoint"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/2f301e6c00496d5f5fca",
+      "name": "Lido Chiapparo",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "beach",
+      "lat": 40.4310179,
+      "lng": 17.2429502,
+      "distanceFromTerminalMeters": 5657,
+      "distanceFromDefaultTerminalMeters": 5657,
+      "minDistanceFromAnyTerminalMeters": 5657,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "natural": "beach"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/09c3de80281d26b5d405",
+      "name": "Giardini Martiri Partigiani-Capitano Basile",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 40.4633424,
+      "lng": 17.2469943,
+      "distanceFromTerminalMeters": 4044,
+      "distanceFromDefaultTerminalMeters": 4044,
+      "minDistanceFromAnyTerminalMeters": 4044,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "23 Viale Virgilio, Taranto, 74123",
+      "openingHours": "",
+      "website": "https://www.comune.taranto.it/index.php/contatti-ed-uffici/ambiente-salute-qualita-della-vita",
+      "phone": "+39 099 4581129",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/99076b9d6d6e1d35d31b",
+      "name": "BAC – Parco della Musica",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 40.4694758,
+      "lng": 17.2507066,
+      "distanceFromTerminalMeters": 4290,
+      "distanceFromDefaultTerminalMeters": 4290,
+      "minDistanceFromAnyTerminalMeters": 4290,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "133 Via Federico Di Palma, Taranto, IT",
+      "openingHours": "",
+      "website": "https://www.comune.taranto.it/it/vivere/parco-della-musica",
+      "phone": "+390994581661",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/8a762ce29e686a635770",
+      "name": "Giardini Adele Ficarelli",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "garden",
+      "lat": 40.4469774,
+      "lng": 17.2698,
+      "distanceFromTerminalMeters": 6436,
+      "distanceFromDefaultTerminalMeters": 6436,
+      "minDistanceFromAnyTerminalMeters": 6436,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Via Golfo di Taranto, Taranto, 74121",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "garden"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/528e83e8148a8546f462",
+      "name": "Apollo",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 40.4819866,
+      "lng": 17.2236376,
+      "distanceFromTerminalMeters": 2403,
+      "distanceFromDefaultTerminalMeters": 2403,
+      "minDistanceFromAnyTerminalMeters": 2403,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "47,49 Via Costantinopoli, 74100",
+      "openingHours": "",
+      "website": "https://www.panificioapollo.it/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d918ce614bbfeb177c47",
+      "name": "GATA Galleria Taranto",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "pub",
+      "lat": 40.4747485,
+      "lng": 17.2319995,
+      "distanceFromTerminalMeters": 2758,
+      "distanceFromDefaultTerminalMeters": 2758,
+      "minDistanceFromAnyTerminalMeters": 2758,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "15/17 Postierla Immacolata, 74123",
+      "openingHours": "We-Su 18:00-02:00",
+      "website": "https://www.gatagalleriataranto.com/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "pub"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f1bafab4db61cfa93351",
+      "name": "SONORA Art Music Drinks Food",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "pub",
+      "lat": 40.470308,
+      "lng": 17.2389942,
+      "distanceFromTerminalMeters": 3299,
+      "distanceFromDefaultTerminalMeters": 3299,
+      "minDistanceFromAnyTerminalMeters": 3299,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1/3 Via Principe Amedeo, 74123",
+      "openingHours": "Su-Th 18:30-02:30; Fr-Sa 18:30-03:30",
+      "website": "",
+      "phone": "+39 338 427 3389",
+      "cuisine": [
+        "sandwich"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "pub"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/fbc135c287e6a8b81799",
+      "name": "Cafè del Mar",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 40.4705944,
+      "lng": 17.239752,
+      "distanceFromTerminalMeters": 3363,
+      "distanceFromDefaultTerminalMeters": 3363,
+      "minDistanceFromAnyTerminalMeters": 3363,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "34 Via Anfiteatro, Taranto, 74123",
+      "openingHours": "Mo-Sa 07:00-21:00",
+      "website": "",
+      "phone": "+39 099 946 0217",
+      "cuisine": [
+        "coffee_shop",
+        "pasticceria"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d2995c726997235709c3",
+      "name": "Gelateria Del Ponte",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 40.4716405,
+      "lng": 17.2403599,
+      "distanceFromTerminalMeters": 3419,
+      "distanceFromDefaultTerminalMeters": 3419,
+      "minDistanceFromAnyTerminalMeters": 3419,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "108 Via Tommaso Nicolò D'Aquino",
+      "openingHours": "Mo-Su 10:00-01:00",
+      "website": "",
+      "phone": "+39 347 967 3879",
+      "cuisine": [
+        "coffee_shop",
+        "gelato"
+      ],
+      "wheelchair": "no",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c1e4962f410e903634f9",
+      "name": "Super Ramen Taranto",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 40.4640059,
+      "lng": 17.2575185,
+      "distanceFromTerminalMeters": 4911,
+      "distanceFromDefaultTerminalMeters": 4911,
+      "minDistanceFromAnyTerminalMeters": 4911,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "168 Via Dante Alighieri, Taranto, 74121",
+      "openingHours": "12:00-15:30,19:30-23:30; Th off",
+      "website": "https://superramen.it/",
+      "phone": "+393520970006",
+      "cuisine": [
+        "ramen"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f2f68342900662b70b45",
+      "name": "Patties",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 40.4724939,
+      "lng": 17.2365166,
+      "distanceFromTerminalMeters": 3101,
+      "distanceFromDefaultTerminalMeters": 3101,
+      "minDistanceFromAnyTerminalMeters": 3101,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "https://www.patties.restaurant/",
+      "phone": "",
+      "cuisine": [
+        "regional"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b53228d3819b2d98dedc",
+      "name": "Sushi Autunno",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 40.4735964,
+      "lng": 17.2370476,
+      "distanceFromTerminalMeters": 3159,
+      "distanceFromDefaultTerminalMeters": 3159,
+      "minDistanceFromAnyTerminalMeters": 3159,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "9 Corso Umberto",
+      "openingHours": "",
+      "website": "https://www.ristorantesushiautunno.it",
+      "phone": "",
+      "cuisine": [
+        "sushi"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c97190d8e1f3b2c27ea6",
+      "name": "Pizzeria Rossoblu",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 40.4771985,
+      "lng": 17.2296069,
+      "distanceFromTerminalMeters": 2629,
+      "distanceFromDefaultTerminalMeters": 2629,
+      "minDistanceFromAnyTerminalMeters": 2629,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [
+        "pizza"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Una pizzeria situata in uno splendido panorama,dove c'è solo una regola:essere tifosi del taranto calcio(rosso e blu sono i colori appunto del taranto)",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/69eb9f32dc5183b8408f",
+      "name": "Stella Maris",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 40.4822516,
+      "lng": 17.2250299,
+      "distanceFromTerminalMeters": 2518,
+      "distanceFromDefaultTerminalMeters": 2518,
+      "minDistanceFromAnyTerminalMeters": 2518,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "21a Viale Duca D'Aosta, 74123",
+      "openingHours": "",
+      "website": "https://www.stellamaris.taranto.it",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/309ba4c76553dabfa63e",
+      "name": "Caffé Letterario",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 40.474799,
+      "lng": 17.2316473,
+      "distanceFromTerminalMeters": 2730,
+      "distanceFromDefaultTerminalMeters": 2730,
+      "minDistanceFromAnyTerminalMeters": 2730,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "29 Via Duomo",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [
+        "italian"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/0cff9f355678398f7ecf",
+      "name": "Pizzeria Picce De Fame",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 40.4743248,
+      "lng": 17.2322569,
+      "distanceFromTerminalMeters": 2771,
+      "distanceFromDefaultTerminalMeters": 2771,
+      "minDistanceFromAnyTerminalMeters": 2771,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "254 Via Duomo, Taranto, 74123",
+      "openingHours": "",
+      "website": "",
+      "phone": "+39 099 4707924",
+      "cuisine": [
+        "pizza",
+        "regional"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/7ad62223d5fdff51266b",
+      "name": "Max risparmio",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "mall",
+      "lat": 40.4341518,
+      "lng": 17.2584202,
+      "distanceFromTerminalMeters": 6350,
+      "distanceFromDefaultTerminalMeters": 6350,
+      "minDistanceFromAnyTerminalMeters": 6350,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "169 Viale Unità d'Italia",
+      "openingHours": "",
+      "website": "https://www.maxrisparmio.com/",
+      "phone": "+39 327 812 5223",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "shop": "mall"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/54b6e852567b6f548430",
+      "name": "Piazzetta Monte Oliveto",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "square",
+      "lat": 40.4749808,
+      "lng": 17.2298796,
+      "distanceFromTerminalMeters": 2587,
+      "distanceFromDefaultTerminalMeters": 2587,
+      "minDistanceFromAnyTerminalMeters": 2587,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "place": "square"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/21304406ab5a2762f6e0",
+      "name": "Piazzetta Sant'Egidio",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "square",
+      "lat": 40.4742907,
+      "lng": 17.2345348,
+      "distanceFromTerminalMeters": 2960,
+      "distanceFromDefaultTerminalMeters": 2960,
+      "minDistanceFromAnyTerminalMeters": 2960,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "place": "square"
+      }
+    }
+  ],
+  "portAnchor": {
+    "id": "ports-json-anchor",
+    "name": "TARANTO Port",
+    "lat": 40.47,
+    "lng": 17.2,
+    "address": "Taranto, Apulia, Italy",
+    "source": "ports.json",
+    "sourceId": "",
+    "score": 0,
+    "slug": "taranto-port"
+  },
+  "terminalResolution": {
+    "status": "resolved",
+    "method": "manual_web_research",
+    "verified": true,
+    "notes": "Terminal records were added from researched cruise-port sources because no supplied candidate accurately represented the passenger arrival point."
+  }
+}

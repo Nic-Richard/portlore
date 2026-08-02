@@ -1,0 +1,1497 @@
+{
+  "schemaVersion": 5,
+  "catalogType": "curation-candidates",
+  "generatedAt": "2026-07-30T08:56:00.364Z",
+  "source": "openstreetmap",
+  "sourceExtract": "south-africa-latest.osm.pbf",
+  "radiusMeters": 10000,
+  "port": {
+    "id": "cape-town-south-africa",
+    "city": "Cape Town",
+    "country": "South Africa"
+  },
+  "defaultTerminalId": "osm/way/422111421",
+  "terminal": {
+    "id": "osm/way/422111421",
+    "name": "Cape Town Cruise Terminal",
+    "nameEnglish": "",
+    "lat": -33.9104965,
+    "lng": 18.4259785,
+    "address": "Cape Town Cruise Terminal, Duncan Road, Foreshore, Cape Town Ward 115, Cape Town, City of Cape Town, Western Cape, 8001, South Africa",
+    "source": "verified_terminal_candidate",
+    "sourceId": "osm/way/422111421",
+    "terminalType": "passenger_cruise_terminal",
+    "verified": true,
+    "notes": "Accepted 1 candidate explicitly identified as an ocean-cruise or cruise-passenger terminal; ferry and unrelated results were excluded.",
+    "sourceUrls": [],
+    "sources": [
+      "nominatim"
+    ],
+    "sourceIds": [
+      "osm/way/422111421"
+    ],
+    "osmTags": {
+      "cargo": "passengers"
+    },
+    "matchedBy": [
+      "Nominatim query: Cape Town cruise terminal, South Africa"
+    ],
+    "distanceFromPortMeters": 1192
+  },
+  "terminals": [
+    {
+      "id": "osm/way/422111421",
+      "name": "Cape Town Cruise Terminal",
+      "nameEnglish": "",
+      "lat": -33.9104965,
+      "lng": 18.4259785,
+      "address": "Cape Town Cruise Terminal, Duncan Road, Foreshore, Cape Town Ward 115, Cape Town, City of Cape Town, Western Cape, 8001, South Africa",
+      "source": "verified_terminal_candidate",
+      "sourceId": "osm/way/422111421",
+      "terminalType": "passenger_cruise_terminal",
+      "verified": true,
+      "notes": "Accepted 1 candidate explicitly identified as an ocean-cruise or cruise-passenger terminal; ferry and unrelated results were excluded.",
+      "sourceUrls": [],
+      "sources": [
+        "nominatim"
+      ],
+      "sourceIds": [
+        "osm/way/422111421"
+      ],
+      "osmTags": {
+        "cargo": "passengers"
+      },
+      "matchedBy": [
+        "Nominatim query: Cape Town cruise terminal, South Africa"
+      ],
+      "distanceFromPortMeters": 1192
+    }
+  ],
+  "terminalCandidateRadiusMeters": 5000,
+  "terminalCandidates": [
+    {
+      "source": "nominatim",
+      "sourceId": "osm/node/13405553401",
+      "osmType": "node",
+      "osmId": "13405553401",
+      "name": "Hertz Rent a Car - Cape Town Downtown",
+      "nameEnglish": "",
+      "lat": -33.9128405,
+      "lng": 18.4207798,
+      "distanceFromPortMeters": 799,
+      "address": "Hertz Rent a Car - Cape Town Downtown, 1, Port Road, Foreshore, Cape Town Ward 115, Cape Town, City of Cape Town, Western Cape, 8001, South Africa",
+      "displayName": "Hertz Rent a Car - Cape Town Downtown, 1, Port Road, Foreshore, Cape Town Ward 115, Cape Town, City of Cape Town, Western Cape, 8001, South Africa",
+      "query": "CAPE TOWN Port, Cape Town, South Africa",
+      "matchedBy": [
+        "Nominatim query: CAPE TOWN Port, Cape Town, South Africa"
+      ],
+      "osmTags": {},
+      "sources": [
+        "nominatim"
+      ],
+      "sourceIds": [
+        "osm/node/13405553401"
+      ]
+    },
+    {
+      "source": "nominatim",
+      "sourceId": "osm/way/422111421",
+      "osmType": "way",
+      "osmId": "422111421",
+      "name": "Cape Town Cruise Terminal",
+      "nameEnglish": "",
+      "lat": -33.9104965,
+      "lng": 18.4259785,
+      "distanceFromPortMeters": 1192,
+      "address": "Cape Town Cruise Terminal, Duncan Road, Foreshore, Cape Town Ward 115, Cape Town, City of Cape Town, Western Cape, 8001, South Africa",
+      "displayName": "Cape Town Cruise Terminal, Duncan Road, Foreshore, Cape Town Ward 115, Cape Town, City of Cape Town, Western Cape, 8001, South Africa",
+      "query": "Cape Town cruise terminal, South Africa",
+      "matchedBy": [
+        "Nominatim query: Cape Town cruise terminal, South Africa"
+      ],
+      "osmTags": {
+        "cargo": "passengers"
+      },
+      "sources": [
+        "nominatim"
+      ],
+      "sourceIds": [
+        "osm/way/422111421"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c886254efe0f971868fe",
+      "name": "Nelson Mandela Gateway to Robben Island",
+      "nameEnglish": "",
+      "lat": -33.90647,
+      "lng": 18.4225194,
+      "distanceFromPortMeters": 1522,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "building": "yes",
+        "cargo": "passengers",
+        "ferry": "yes",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/c886254efe0f971868fe"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/4a20886a4e57fd43d51b",
+      "name": "(unnamed maritime feature)",
+      "nameEnglish": "",
+      "lat": -33.9061302,
+      "lng": 18.4228748,
+      "distanceFromPortMeters": 1565,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/4a20886a4e57fd43d51b"
+      ]
+    }
+  ],
+  "counts": {
+    "attraction": 22,
+    "outdoors": 8,
+    "shopping": 6,
+    "food_drink": 14,
+    "essentials": 0
+  },
+  "pois": [
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c453fff5d351c562580e",
+      "name": "Bo-Kaap Museum",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": -33.9214161,
+      "lng": 18.4148808,
+      "distanceFromTerminalMeters": 498,
+      "distanceFromDefaultTerminalMeters": 498,
+      "minDistanceFromAnyTerminalMeters": 498,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "71 Wale Street, Cape Town, ZA",
+      "openingHours": "",
+      "website": "https://www.iziko.org.za/museums/bo-kaap-museum",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/7e690e18e74912258779",
+      "name": "Table Mountain Yellow Frame (District Six)",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": -33.928387,
+      "lng": 18.4250038,
+      "distanceFromTerminalMeters": 1041,
+      "distanceFromDefaultTerminalMeters": 1041,
+      "minDistanceFromAnyTerminalMeters": 1041,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/a63fc1e245d41dc7ebd8",
+      "name": "Robben Island Jetty Museum",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": -33.9067545,
+      "lng": 18.422448,
+      "distanceFromTerminalMeters": 1490,
+      "distanceFromDefaultTerminalMeters": 1490,
+      "minDistanceFromAnyTerminalMeters": 1490,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d7efdd298edbc7dc3b22",
+      "name": "V&A Waterfront",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": -33.9032693,
+      "lng": 18.4222901,
+      "distanceFromTerminalMeters": 1872,
+      "distanceFromDefaultTerminalMeters": 1872,
+      "minDistanceFromAnyTerminalMeters": 1872,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/97569809eaf0b62f9d0e",
+      "name": "Bo-Kaap view",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "viewpoint",
+      "lat": -33.9202564,
+      "lng": 18.4149556,
+      "distanceFromTerminalMeters": 466,
+      "distanceFromDefaultTerminalMeters": 466,
+      "minDistanceFromAnyTerminalMeters": 466,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "viewpoint"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/8b08a5f79b7b74973fd5",
+      "name": "Kirstenbosch Botanical Gardens",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "garden",
+      "lat": -33.9856281,
+      "lng": 18.4303765,
+      "distanceFromTerminalMeters": 7360,
+      "distanceFromDefaultTerminalMeters": 7360,
+      "minDistanceFromAnyTerminalMeters": 7360,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Rhodes Drive, Newlands",
+      "openingHours": "Oct-Mar 08:00-19:00; Apr-Sep 08:00-18:00",
+      "website": "https://www.sanbi.org/gardens/kirstenbosch/",
+      "phone": "+27 21 799 8899",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "garden",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/76f32d2b6042d6975556",
+      "name": "Trafalgar Place Flower Market",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "marketplace",
+      "lat": -33.9233086,
+      "lng": 18.4224221,
+      "distanceFromTerminalMeters": 430,
+      "distanceFromDefaultTerminalMeters": 430,
+      "minDistanceFromAnyTerminalMeters": 430,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "13 Adderley Street, Cape Town",
+      "openingHours": "",
+      "website": "http://trafalgarplaceflowermarket.co.za/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "marketplace"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/dba1974afc2fa2d1d9ab",
+      "name": "Greenmarket Square",
+      "nameEnglish": "Greenmarket Square",
+      "category": "shopping",
+      "subcategory": "marketplace",
+      "lat": -33.9227067,
+      "lng": 18.4200839,
+      "distanceFromTerminalMeters": 301,
+      "distanceFromDefaultTerminalMeters": 301,
+      "minDistanceFromAnyTerminalMeters": 301,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Sa 09:00-16:00",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "marketplace",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b1e1253f4633bee04b50",
+      "name": "Oranjezicht City Farm Market",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "marketplace",
+      "lat": -33.9029303,
+      "lng": 18.4178358,
+      "distanceFromTerminalMeters": 1909,
+      "distanceFromDefaultTerminalMeters": 1909,
+      "minDistanceFromAnyTerminalMeters": 1909,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Beach Road, Cape Town",
+      "openingHours": "Sa 08:00-14:00; Su 09:00-14:00; We 16:00-21:00",
+      "website": "https://www.ozcf.co.za/market-day/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "marketplace"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/67b090caca3f62619948",
+      "name": "Victoria Wharf Shopping Centre",
+      "nameEnglish": "Victoria Wharf Shopping Centre",
+      "category": "shopping",
+      "subcategory": "mall",
+      "lat": -33.9034849,
+      "lng": 18.4204795,
+      "distanceFromTerminalMeters": 1837,
+      "distanceFromDefaultTerminalMeters": 1837,
+      "minDistanceFromAnyTerminalMeters": 1837,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Breakwater Boulevard, Cape Town",
+      "openingHours": "Mo-Su 09:00-21:00",
+      "website": "https://www.waterfront.co.za/area/victoria-wharf/",
+      "phone": "+27 21 408 7600",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "shop": "mall"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/7f9560664cf37ff73dbc",
+      "name": "Gardens Centre",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "mall",
+      "lat": -33.9344688,
+      "lng": 18.4179827,
+      "distanceFromTerminalMeters": 1620,
+      "distanceFromDefaultTerminalMeters": 1620,
+      "minDistanceFromAnyTerminalMeters": 1620,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Fr 09:00-19:00; Sa 09:00-17:00; Su 09:00-14:00",
+      "website": "https://www.gardensshoppingcentre.co.za/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "shop": "mall"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/4d78a57a1b100bb6384b",
+      "name": "Chavonnes Battery Museum",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": -33.9071143,
+      "lng": 18.421602,
+      "distanceFromTerminalMeters": 1440,
+      "distanceFromDefaultTerminalMeters": 1440,
+      "minDistanceFromAnyTerminalMeters": 1440,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Su 09:00-18:00",
+      "website": "https://www.chavonnesbattery.co.za/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "History of Cape Town Museum International Photo Exhibitions Guided Walking Tours of Waterfront Venue Hire and Cannon Firing",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/a1913206b22c5370940f",
+      "name": "District Six Museum",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": -33.9278109,
+      "lng": 18.4237456,
+      "distanceFromTerminalMeters": 935,
+      "distanceFromDefaultTerminalMeters": 935,
+      "minDistanceFromAnyTerminalMeters": 935,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "25A Buitenkant Street, Cape Town",
+      "openingHours": "Mo-Sa 09:00-16:00",
+      "website": "https://www.districtsix.co.za/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c2924b044e93bd896f6b",
+      "name": "Koopmans-de Wet House",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": -33.9209527,
+      "lng": 18.4212671,
+      "distanceFromTerminalMeters": 158,
+      "distanceFromDefaultTerminalMeters": 158,
+      "minDistanceFromAnyTerminalMeters": 158,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "35 Long Street",
+      "openingHours": "",
+      "website": "https://www.iziko.org.za/static/page/history-of-koopmans-de-wet-house",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/35a9492b9d349820df44",
+      "name": "Castle of Good Hope",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "castle",
+      "lat": -33.9258507,
+      "lng": 18.4276163,
+      "distanceFromTerminalMeters": 958,
+      "distanceFromDefaultTerminalMeters": 958,
+      "minDistanceFromAnyTerminalMeters": 958,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "https://www.castleofgoodhope.co.za/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "castle"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/33073a8c1361d5e3cf66",
+      "name": "Museum of Illusions",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": -33.9275532,
+      "lng": 18.4129647,
+      "distanceFromTerminalMeters": 1061,
+      "distanceFromDefaultTerminalMeters": 1061,
+      "minDistanceFromAnyTerminalMeters": 1061,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "10 Kloof Street, Cape Town, 8001",
+      "openingHours": "Su-We 09:00-18:00, Tu-Sa 09;00:00-22:00",
+      "website": "https://moicapetown.co.za",
+      "phone": "+27 21 541 0744",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/3ca53a407fd1ab699a0a",
+      "name": "Zeitz Museum of Contemporary Art Africa (MOCAA)",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": -33.908416,
+      "lng": 18.4230011,
+      "distanceFromTerminalMeters": 1318,
+      "distanceFromDefaultTerminalMeters": 1318,
+      "minDistanceFromAnyTerminalMeters": 1318,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Th-Su 10:00-18:00",
+      "website": "https://zeitzmocaa.museum",
+      "phone": "+27 87 350 4777",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/984846487550b1f4b45b",
+      "name": "Two Oceans Aquarium",
+      "nameEnglish": "Two Oceans Aquarium",
+      "category": "attraction",
+      "subcategory": "aquarium",
+      "lat": -33.9079897,
+      "lng": 18.4174581,
+      "distanceFromTerminalMeters": 1356,
+      "distanceFromDefaultTerminalMeters": 1356,
+      "minDistanceFromAnyTerminalMeters": 1356,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Dock Road, 8002",
+      "openingHours": "",
+      "website": "https://www.aquarium.co.za/",
+      "phone": "+27 21 418 3823",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "aquarium"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c970ef54d02f0544f661",
+      "name": "South African National Gallery",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "gallery",
+      "lat": -33.9291468,
+      "lng": 18.4173922,
+      "distanceFromTerminalMeters": 1045,
+      "distanceFromDefaultTerminalMeters": 1045,
+      "minDistanceFromAnyTerminalMeters": 1045,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "https://www.iziko.org.za/museums/south-african-national-gallery/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "gallery"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/e0271460d87ddd3b2ed2",
+      "name": "Old Town House Museum",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": -33.9231199,
+      "lng": 18.4198815,
+      "distanceFromTerminalMeters": 347,
+      "distanceFromDefaultTerminalMeters": 347,
+      "minDistanceFromAnyTerminalMeters": 347,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "149 Longmarket Street",
+      "openingHours": "",
+      "website": "",
+      "phone": "+27 214813933",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/5c64d05952d504a7cfc8",
+      "name": "Castle Military Museum",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": -33.9253542,
+      "lng": 18.4279654,
+      "distanceFromTerminalMeters": 946,
+      "distanceFromDefaultTerminalMeters": 946,
+      "minDistanceFromAnyTerminalMeters": 946,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/38cef688559131b99694",
+      "name": "Bishop Robert Gray Memorial",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "monument",
+      "lat": -33.924266,
+      "lng": 18.4195584,
+      "distanceFromTerminalMeters": 476,
+      "distanceFromDefaultTerminalMeters": 476,
+      "minDistanceFromAnyTerminalMeters": 476,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "monument"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/86e40020e3c504cf10a9",
+      "name": "Old Slave Tree Memorial",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "monument",
+      "lat": -33.9251929,
+      "lng": 18.4213164,
+      "distanceFromTerminalMeters": 590,
+      "distanceFromDefaultTerminalMeters": 590,
+      "minDistanceFromAnyTerminalMeters": 590,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "monument"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/e23ec6e545d493b43fc9",
+      "name": "Artillerymen's Memorial",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "monument",
+      "lat": -33.9283021,
+      "lng": 18.4162446,
+      "distanceFromTerminalMeters": 986,
+      "distanceFromDefaultTerminalMeters": 986,
+      "minDistanceFromAnyTerminalMeters": 986,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "monument"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/4ea21a978798a026b1cf",
+      "name": "The Neighbourgoods Market",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "marketplace",
+      "lat": -33.927442,
+      "lng": 18.458254,
+      "distanceFromTerminalMeters": 3625,
+      "distanceFromDefaultTerminalMeters": 3625,
+      "minDistanceFromAnyTerminalMeters": 3625,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Cape Town",
+      "openingHours": "Sa 09:00-15:00, Su 09:00-16:00",
+      "website": "https://www.neighbourgoodsmarket.co.za/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "marketplace"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/27325c42472f3c578445",
+      "name": "Jolly Roger Pirate boat cruises",
+      "nameEnglish": "Jolly Roger Pirate boat cruises",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": -33.9000018,
+      "lng": 18.4124838,
+      "distanceFromTerminalMeters": 2329,
+      "distanceFromDefaultTerminalMeters": 2329,
+      "minDistanceFromAnyTerminalMeters": 2329,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "yacoobyachts 8 Beach Road, 8002",
+      "openingHours": "Mo-Su 09:00-19:00",
+      "website": "https://www.yacoobyachts.co.za/",
+      "phone": "+27214210909",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/a400b8aaec16642a30e5",
+      "name": "Tigresse Catamaran Cruises",
+      "nameEnglish": "Tigresse Catamaran Cruises",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": -33.9000915,
+      "lng": 18.412527,
+      "distanceFromTerminalMeters": 2319,
+      "distanceFromDefaultTerminalMeters": 2319,
+      "minDistanceFromAnyTerminalMeters": 2319,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Beach Road, Cape Town, 8002",
+      "openingHours": "24/7",
+      "website": "",
+      "phone": "+27 214210909",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Shop 8, Quay 5, Granger Bay",
+      "osmTags": {
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f3ab0e935202b0bfe15a",
+      "name": "The Ladder",
+      "nameEnglish": "The Ladder",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": -33.9228596,
+      "lng": 18.4160693,
+      "distanceFromTerminalMeters": 482,
+      "distanceFromDefaultTerminalMeters": 482,
+      "minDistanceFromAnyTerminalMeters": 482,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "136 Breë Street, 8001",
+      "openingHours": "Mo-Fr 07:00-16:00; Sa 08:00-14:30",
+      "website": "https://www.theladderon136.com/",
+      "phone": "+27824511572",
+      "cuisine": [
+        "breakfast",
+        "cake",
+        "coffee_shop",
+        "deli",
+        "sandwich",
+        "tea"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c081f399bf31ca895c0c",
+      "name": "The Africa Cafe",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": -33.920535,
+      "lng": 18.4177475,
+      "distanceFromTerminalMeters": 216,
+      "distanceFromDefaultTerminalMeters": 216,
+      "minDistanceFromAnyTerminalMeters": 216,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "108 Shortmarket Street, 8001",
+      "openingHours": "Mo-Sa 18:00-23:00",
+      "website": "https://www.africacafe.co.za/",
+      "phone": "+27214220221",
+      "cuisine": [
+        "regional"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c69ce4033f49975426f0",
+      "name": "Company's Garden",
+      "nameEnglish": "Company's Garden",
+      "category": "outdoors",
+      "subcategory": "garden",
+      "lat": -33.9273057,
+      "lng": 18.4171148,
+      "distanceFromTerminalMeters": 855,
+      "distanceFromDefaultTerminalMeters": 855,
+      "minDistanceFromAnyTerminalMeters": 855,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "garden"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/a916ab86d58952231c93",
+      "name": "The Rose Garden",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "garden",
+      "lat": -33.9278073,
+      "lng": 18.4165638,
+      "distanceFromTerminalMeters": 924,
+      "distanceFromDefaultTerminalMeters": 924,
+      "minDistanceFromAnyTerminalMeters": 924,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Su 07:00-19:00",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "garden"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/0f3d139d21a82638397d",
+      "name": "rooftop garden",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "garden",
+      "lat": -33.9175394,
+      "lng": 18.4183298,
+      "distanceFromTerminalMeters": 314,
+      "distanceFromDefaultTerminalMeters": 314,
+      "minDistanceFromAnyTerminalMeters": 314,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "garden"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/204b84746369eb472327",
+      "name": "Streetscape Roeland Street Garden",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "garden",
+      "lat": -33.9298281,
+      "lng": 18.424092,
+      "distanceFromTerminalMeters": 1156,
+      "distanceFromDefaultTerminalMeters": 1156,
+      "minDistanceFromAnyTerminalMeters": 1156,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "garden"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/86f9844ed3a2af7a1592",
+      "name": "Berlin Wall segment",
+      "nameEnglish": "Berlin Wall segment",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": -33.9242999,
+      "lng": 18.4194736,
+      "distanceFromTerminalMeters": 481,
+      "distanceFromDefaultTerminalMeters": 481,
+      "minDistanceFromAnyTerminalMeters": 481,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "memorial",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/227c17202b523938e5c9",
+      "name": "National Council of Provinces",
+      "nameEnglish": "National Council of Provinces",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": -33.9258002,
+      "lng": 18.4197286,
+      "distanceFromTerminalMeters": 645,
+      "distanceFromDefaultTerminalMeters": 645,
+      "minDistanceFromAnyTerminalMeters": 645,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/00c18f669c8b6e081be0",
+      "name": "Long street",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "monument",
+      "lat": -33.9221891,
+      "lng": 18.4193544,
+      "distanceFromTerminalMeters": 251,
+      "distanceFromDefaultTerminalMeters": 251,
+      "minDistanceFromAnyTerminalMeters": 251,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "monument"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/854998926d603cb57537",
+      "name": "Trafalgar Park",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": -33.9293237,
+      "lng": 18.4417317,
+      "distanceFromTerminalMeters": 2257,
+      "distanceFromDefaultTerminalMeters": 2257,
+      "minDistanceFromAnyTerminalMeters": 2257,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "https://www.capetown.gov.za/Family%20and%20home/See-all-city-facilities/Our-recreational-facilities/District%20parks/Trafalgar%20Park",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/9602eecc05a81f5ca2df",
+      "name": "Signal Hill Frame",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "viewpoint",
+      "lat": -33.9180976,
+      "lng": 18.4023305,
+      "distanceFromTerminalMeters": 1644,
+      "distanceFromDefaultTerminalMeters": 1644,
+      "minDistanceFromAnyTerminalMeters": 1644,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "viewpoint"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/4d2078726ca077fd8c4d",
+      "name": "Castle Hotel Bar",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": -33.9285414,
+      "lng": 18.4245904,
+      "distanceFromTerminalMeters": 1040,
+      "distanceFromDefaultTerminalMeters": 1040,
+      "minDistanceFromAnyTerminalMeters": 1040,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "21 Constitution Street, Cape Town",
+      "openingHours": "",
+      "website": "https://thecastlehotelbar.co.za/",
+      "phone": "+27 60 658 4641",
+      "cuisine": [
+        "burger",
+        "breakfast",
+        "coffee"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/960510bf888ee7de677e",
+      "name": "The Bailey",
+      "nameEnglish": "The Bailey",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": -33.9209418,
+      "lng": 18.4186294,
+      "distanceFromTerminalMeters": 164,
+      "distanceFromDefaultTerminalMeters": 164,
+      "minDistanceFromAnyTerminalMeters": 164,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "91 Breë Street, 8000",
+      "openingHours": "",
+      "website": "https://the-bailey.co.za/",
+      "phone": "+27 21 773 0440",
+      "cuisine": [
+        "mediterranean",
+        "seafood"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/72fe643e920c77e53d3a",
+      "name": "Hacienda Coastal Mexican",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": -33.9207028,
+      "lng": 18.4182373,
+      "distanceFromTerminalMeters": 180,
+      "distanceFromDefaultTerminalMeters": 180,
+      "minDistanceFromAnyTerminalMeters": 180,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "92, 8000",
+      "openingHours": "Mo-Su 12:00-22:30",
+      "website": "https://hacienda.co.za/",
+      "phone": "",
+      "cuisine": [
+        "mexican"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d8c99ef7561380201e6f",
+      "name": "Grub & Vine",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": -33.9213359,
+      "lng": 18.4182267,
+      "distanceFromTerminalMeters": 221,
+      "distanceFromDefaultTerminalMeters": 221,
+      "minDistanceFromAnyTerminalMeters": 221,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "103 Breë Street, Cape Town, 8000",
+      "openingHours": "Tu-Sa 12:00-15:00,18:00-21:30",
+      "website": "https://www.grubandvine.co.za",
+      "phone": "+27 87 153 5244",
+      "cuisine": [
+        "bistro"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f005027ae98a11a94d5b",
+      "name": "Ouzeri",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": -33.9227027,
+      "lng": 18.4172391,
+      "distanceFromTerminalMeters": 394,
+      "distanceFromDefaultTerminalMeters": 394,
+      "minDistanceFromAnyTerminalMeters": 394,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "8000",
+      "openingHours": "Tu-Sa 12:00-14:30, 18:00-21:30",
+      "website": "https://www.ouzeri.co.za/",
+      "phone": "",
+      "cuisine": [
+        "greek"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/16ed7a995f1780e10efe",
+      "name": "Seven Colours Eatery",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": -33.9126237,
+      "lng": 18.4219311,
+      "distanceFromTerminalMeters": 839,
+      "distanceFromDefaultTerminalMeters": 839,
+      "minDistanceFromAnyTerminalMeters": 839,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Dock Road, Cape Town, 8001",
+      "openingHours": "Mo-Su 09:00-18:00",
+      "website": "https://sevencolourseatery.co.za/",
+      "phone": "+27872658762",
+      "cuisine": [
+        "traditional",
+        "south_african_food"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/df7cd7dbf028d13057d3",
+      "name": "Royale Eatery",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": -33.926455,
+      "lng": 18.414862,
+      "distanceFromTerminalMeters": 860,
+      "distanceFromDefaultTerminalMeters": 860,
+      "minDistanceFromAnyTerminalMeters": 860,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "273 Long Street, Cape Town, 8001, ZA",
+      "openingHours": "",
+      "website": "https://www.royaleeatery.com/",
+      "phone": "+2721 422 4536",
+      "cuisine": [
+        "burger"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/2dc5ed21c6a14caff48b",
+      "name": "Pitso's Kitchen",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": -33.9102454,
+      "lng": 18.4255707,
+      "distanceFromTerminalMeters": 1200,
+      "distanceFromDefaultTerminalMeters": 1200,
+      "minDistanceFromAnyTerminalMeters": 1200,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Cape Town, 8001",
+      "openingHours": "Tu-Th 12:30-20:00; Fr-Su 12:30-22:00",
+      "website": "https://pitsoskitchen.co.za/",
+      "phone": "+27 84 408 5459",
+      "cuisine": [
+        "regional"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/445abac3da993c626664",
+      "name": "MAReSOL Restaurant",
+      "nameEnglish": "MAReSOL Restaurant",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": -33.9056932,
+      "lng": 18.4210378,
+      "distanceFromTerminalMeters": 1594,
+      "distanceFromDefaultTerminalMeters": 1594,
+      "minDistanceFromAnyTerminalMeters": 1594,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "9 Dock Road, Cape Town, 8002",
+      "openingHours": "Mo-Su 08:00-22:00",
+      "website": "www.mar-e-sol.co.za",
+      "phone": "+27214283385",
+      "cuisine": [
+        "portuguese",
+        "cocktails",
+        "seafood"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Victoria Wharf Shopping Centre",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/1aed409994ecb9b4fa9c",
+      "name": "Pier",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": -33.9056715,
+      "lng": 18.4210701,
+      "distanceFromTerminalMeters": 1596,
+      "distanceFromDefaultTerminalMeters": 1596,
+      "minDistanceFromAnyTerminalMeters": 1596,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "9 Dock Road, Cape Town, 7764",
+      "openingHours": "",
+      "website": "https://pier.restaurant/",
+      "phone": "+27218796328",
+      "cuisine": [
+        "fine_dining"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Victoria Wharf Shopping Centre",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/9a4b414f529eb9862214",
+      "name": "Mitchell's Scottish Ale House Victoria & Alfred Waterfront",
+      "nameEnglish": "Mitchell's Scottish Ale House",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": -33.9051339,
+      "lng": 18.41939,
+      "distanceFromTerminalMeters": 1654,
+      "distanceFromDefaultTerminalMeters": 1654,
+      "minDistanceFromAnyTerminalMeters": 1654,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Dock Road, Cape Town, 8001",
+      "openingHours": "Mo-Su 09:00-23:59",
+      "website": "https://mitchellsalehouse.co.za",
+      "phone": "+27 21 419 5074",
+      "cuisine": [
+        "pizza",
+        "pub",
+        "burger",
+        "tapas",
+        "whisky"
+      ],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/4ce4a7a369dfa1a36a24",
+      "name": "Quay Four",
+      "nameEnglish": "Quay 4",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": -33.9053609,
+      "lng": 18.4205714,
+      "distanceFromTerminalMeters": 1629,
+      "distanceFromDefaultTerminalMeters": 1629,
+      "minDistanceFromAnyTerminalMeters": 1629,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "4 Dock Road, Cape Town, 8001",
+      "openingHours": "Mo-Su 11:00-22:00",
+      "website": "https://www.quay4.co.za/",
+      "phone": "+27214192008",
+      "cuisine": [
+        "seafood",
+        "grill",
+        "burger"
+      ],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    }
+  ],
+  "portAnchor": {
+    "id": "ports-json-anchor",
+    "name": "CAPE TOWN Port",
+    "lat": -33.92,
+    "lng": 18.42,
+    "address": "Cape Town, Western Cape, South Africa",
+    "source": "ports.json",
+    "sourceId": "",
+    "score": 0,
+    "slug": "cape-town-port"
+  },
+  "terminalResolution": {
+    "status": "resolved",
+    "method": "accepted_terminal_candidate",
+    "verified": true,
+    "notes": "Accepted 1 candidate explicitly identified as an ocean-cruise or cruise-passenger terminal; ferry and unrelated results were excluded."
+  }
+}

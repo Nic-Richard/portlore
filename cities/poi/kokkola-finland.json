@@ -1,0 +1,555 @@
+{
+  "schemaVersion": 5,
+  "catalogType": "curation-candidates",
+  "generatedAt": "2026-07-30T07:57:16.751Z",
+  "source": "openstreetmap",
+  "sourceExtract": "finland-latest.osm.pbf",
+  "radiusMeters": 10000,
+  "port": {
+    "id": "kokkola-finland",
+    "city": "Kokkola",
+    "country": "Finland"
+  },
+  "defaultTerminalId": "ports-json-anchor",
+  "terminal": {
+    "id": "ports-json-anchor",
+    "name": "KOKKOLA Port",
+    "lat": 63.85,
+    "lng": 23.02,
+    "address": "Kokkola, Central Ostrobothnia, Finland",
+    "source": "ports.json",
+    "sourceId": "",
+    "score": 0,
+    "slug": "kokkola-port"
+  },
+  "terminals": [
+    {
+      "id": "ports-json-anchor",
+      "name": "KOKKOLA Port",
+      "lat": 63.85,
+      "lng": 23.02,
+      "address": "Kokkola, Central Ostrobothnia, Finland",
+      "source": "ports.json",
+      "sourceId": "",
+      "score": 0,
+      "slug": "kokkola-port"
+    }
+  ],
+  "terminalCandidateRadiusMeters": 5000,
+  "terminalCandidates": [
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/212798091f48db1ad06c",
+      "name": "Matkustajaterminaali",
+      "nameEnglish": "",
+      "lat": 63.8578591,
+      "lng": 23.1146278,
+      "distanceFromPortMeters": 4718,
+      "address": "7 Meritie, Kokkola",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "building": "transportation",
+        "ferry": "yes",
+        "harbour": "yes",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/212798091f48db1ad06c"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b59a3afce27a0d36e747",
+      "name": "Kokkola",
+      "nameEnglish": "",
+      "lat": 63.8577662,
+      "lng": 23.1156154,
+      "distanceFromPortMeters": 4764,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "cargo": "passengers"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/b59a3afce27a0d36e747"
+      ]
+    }
+  ],
+  "counts": {
+    "attraction": 1,
+    "outdoors": 9,
+    "food_drink": 6,
+    "essentials": 1,
+    "shopping": 0
+  },
+  "pois": [
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/bab1c72e6d2f8e453e34",
+      "name": "Pro Patria 1939-1944",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "memorial",
+      "lat": 63.8281383,
+      "lng": 23.0974683,
+      "distanceFromTerminalMeters": 4509,
+      "distanceFromDefaultTerminalMeters": 4509,
+      "minDistanceFromAnyTerminalMeters": 4509,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Pro Patria 1939-1944",
+      "osmTags": {
+        "historic": "memorial"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/6d18b58b1a13c995be91",
+      "name": "Lahdenperän uimaranta",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "beach",
+      "lat": 63.8341532,
+      "lng": 23.0422625,
+      "distanceFromTerminalMeters": 2073,
+      "distanceFromDefaultTerminalMeters": 2073,
+      "minDistanceFromAnyTerminalMeters": 2073,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "bathing_place",
+        "natural": "beach"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/01d6a8fa045886111732",
+      "name": "Palman uimaranta",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "beach",
+      "lat": 63.8259351,
+      "lng": 23.0073895,
+      "distanceFromTerminalMeters": 2746,
+      "distanceFromDefaultTerminalMeters": 2746,
+      "minDistanceFromAnyTerminalMeters": 2746,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "natural": "beach"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/9ff49b81920701aced1c",
+      "name": "Suntinsuun uimaranta",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "beach",
+      "lat": 63.8547841,
+      "lng": 23.1108673,
+      "distanceFromTerminalMeters": 4484,
+      "distanceFromDefaultTerminalMeters": 4484,
+      "minDistanceFromAnyTerminalMeters": 4484,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "natural": "beach"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f33eca49e1a338f309a9",
+      "name": "Vanhasatamanlahden uimaranta",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "beach",
+      "lat": 63.8580635,
+      "lng": 23.1135936,
+      "distanceFromTerminalMeters": 4673,
+      "distanceFromDefaultTerminalMeters": 4673,
+      "minDistanceFromAnyTerminalMeters": 4673,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "natural": "beach"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/6bf09e43cf3ac7d0f64d",
+      "name": "Potin rantapuisto",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 63.8365532,
+      "lng": 23.0452404,
+      "distanceFromTerminalMeters": 1941,
+      "distanceFromDefaultTerminalMeters": 1941,
+      "minDistanceFromAnyTerminalMeters": 1941,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/e600ac0b0db6bae7d314",
+      "name": "Rummelö-Harrinniemi",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "nature_reserve",
+      "lat": 63.8765772,
+      "lng": 23.0794419,
+      "distanceFromTerminalMeters": 4149,
+      "distanceFromDefaultTerminalMeters": 4149,
+      "minDistanceFromAnyTerminalMeters": 4149,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "nature_reserve"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/a78f7caecb368e785c5e",
+      "name": "Cafe Elba",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 63.8671058,
+      "lng": 23.10155,
+      "distanceFromTerminalMeters": 4425,
+      "distanceFromDefaultTerminalMeters": 4425,
+      "minDistanceFromAnyTerminalMeters": 4425,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "60 Sannanrannantie, Kokkola, 67200",
+      "openingHours": "Mo-Fr 09:00-15:00",
+      "website": "https://villaelba.fi",
+      "phone": "+358 50 329 4547",
+      "cuisine": [
+        "regional",
+        "coffee_shop",
+        "ice_cream",
+        "lounas",
+        "tilausravintola"
+      ],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/4f55231defa779788752",
+      "name": "Kahvila Saha",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 63.8402363,
+      "lng": 23.0362436,
+      "distanceFromTerminalMeters": 1346,
+      "distanceFromDefaultTerminalMeters": 1346,
+      "minDistanceFromAnyTerminalMeters": 1346,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "8 Sahakatu, Kokkola, 67900",
+      "openingHours": "",
+      "website": "",
+      "phone": "+358 40 7022604",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/eff91cb326a9fc8d44e6",
+      "name": "Hickarö Resort",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 63.8235305,
+      "lng": 22.9923194,
+      "distanceFromTerminalMeters": 3241,
+      "distanceFromDefaultTerminalMeters": 3241,
+      "minDistanceFromAnyTerminalMeters": 3241,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "https://www.hickaroresort.fi/",
+      "phone": "",
+      "cuisine": [
+        "pizza",
+        "burger",
+        "fish_and_chips"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ee8b5fd98941c411228f",
+      "name": "Kesäravintola Elba",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 63.8662297,
+      "lng": 23.1022885,
+      "distanceFromTerminalMeters": 4417,
+      "distanceFromDefaultTerminalMeters": 4417,
+      "minDistanceFromAnyTerminalMeters": 4417,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "https:/kesäravintolaelba.fi",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/3a5bc22d23307adc722b",
+      "name": "Mary's La Favorita",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 63.8264304,
+      "lng": 23.0719079,
+      "distanceFromTerminalMeters": 3653,
+      "distanceFromDefaultTerminalMeters": 3653,
+      "minDistanceFromAnyTerminalMeters": 3653,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "(06) 822 7390",
+      "cuisine": [
+        "pizza"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/0ea8d8f7b5fb8f5ea73f",
+      "name": "Lintutaulu",
+      "nameEnglish": "",
+      "category": "essentials",
+      "subcategory": "visitor_information",
+      "lat": 63.8677709,
+      "lng": 23.0952732,
+      "distanceFromTerminalMeters": 4184,
+      "distanceFromDefaultTerminalMeters": 4184,
+      "minDistanceFromAnyTerminalMeters": 4184,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "information"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/48a61eb9250573a84228",
+      "name": "Vanha Kippari Oy",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "pub",
+      "lat": 63.8379052,
+      "lng": 23.0520416,
+      "distanceFromTerminalMeters": 2068,
+      "distanceFromDefaultTerminalMeters": 2068,
+      "minDistanceFromAnyTerminalMeters": 2068,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "12 Satamakatu, Kokkola, 67900",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "pub"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/30ae827b15f7915eb012",
+      "name": "Perhepuisto",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 63.8243127,
+      "lng": 23.0724832,
+      "distanceFromTerminalMeters": 3844,
+      "distanceFromDefaultTerminalMeters": 3844,
+      "minDistanceFromAnyTerminalMeters": 3844,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/694383adc42315528274",
+      "name": "Meripuisto",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 63.8570641,
+      "lng": 23.1133911,
+      "distanceFromTerminalMeters": 4643,
+      "distanceFromDefaultTerminalMeters": 4643,
+      "minDistanceFromAnyTerminalMeters": 4643,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "park",
+        "place": "islet"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/41c4fb005a818b73020b",
+      "name": "Pajurinne",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 63.8428248,
+      "lng": 23.1169418,
+      "distanceFromTerminalMeters": 4818,
+      "distanceFromDefaultTerminalMeters": 4818,
+      "minDistanceFromAnyTerminalMeters": 4818,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "park"
+      }
+    }
+  ],
+  "portAnchor": {
+    "id": "ports-json-anchor",
+    "name": "KOKKOLA Port",
+    "lat": 63.85,
+    "lng": 23.02,
+    "address": "Kokkola, Central Ostrobothnia, Finland",
+    "source": "ports.json",
+    "sourceId": "",
+    "score": 0,
+    "slug": "kokkola-port"
+  },
+  "terminalResolution": {
+    "status": "unresolved",
+    "method": "ports_json_fallback",
+    "verified": false,
+    "notes": "All supplied candidates are ferry-only stops, local docks, unnamed maritime features, or unrelated places rather than passenger cruise terminals."
+  }
+}

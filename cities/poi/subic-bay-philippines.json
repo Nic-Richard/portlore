@@ -1,0 +1,1303 @@
+{
+  "schemaVersion": 5,
+  "catalogType": "curation-candidates",
+  "generatedAt": "2026-07-30T08:45:25.279Z",
+  "source": "openstreetmap",
+  "sourceExtract": "philippines-latest.osm.pbf",
+  "radiusMeters": 10000,
+  "port": {
+    "id": "subic-bay-philippines",
+    "city": "Subic Bay",
+    "country": "Philippines"
+  },
+  "defaultTerminalId": "manual/subic-bay-philippines/alava-wharf-cruise-berth",
+  "terminal": {
+    "id": "manual/subic-bay-philippines/alava-wharf-cruise-berth",
+    "name": "Alava Wharf Cruise Berth",
+    "nameEnglish": "",
+    "lat": 14.81841,
+    "lng": 120.27947,
+    "address": "",
+    "source": "manual_web_research",
+    "sourceId": "manual/subic-bay-philippines/alava-wharf-cruise-berth",
+    "terminalType": "cruise_berth",
+    "verified": true,
+    "notes": "Practical passenger disembarkation point at Alava Wharf in Subic Bay Freeport.",
+    "sourceUrls": [
+      "https://www.cruisemapper.com/ports/subic-bay-port-1611",
+      "https://www.openstreetmap.org/?mlat=14.81841&mlon=120.27947#map=17/14.81841/120.27947"
+    ],
+    "sources": [
+      "manual_web_research"
+    ],
+    "sourceIds": [
+      "manual/subic-bay-philippines/alava-wharf-cruise-berth"
+    ],
+    "osmTags": {},
+    "matchedBy": [
+      "web_researched_terminal"
+    ],
+    "distanceFromPortMeters": null
+  },
+  "terminals": [
+    {
+      "id": "manual/subic-bay-philippines/alava-wharf-cruise-berth",
+      "name": "Alava Wharf Cruise Berth",
+      "nameEnglish": "",
+      "lat": 14.81841,
+      "lng": 120.27947,
+      "address": "",
+      "source": "manual_web_research",
+      "sourceId": "manual/subic-bay-philippines/alava-wharf-cruise-berth",
+      "terminalType": "cruise_berth",
+      "verified": true,
+      "notes": "Practical passenger disembarkation point at Alava Wharf in Subic Bay Freeport.",
+      "sourceUrls": [
+        "https://www.cruisemapper.com/ports/subic-bay-port-1611",
+        "https://www.openstreetmap.org/?mlat=14.81841&mlon=120.27947#map=17/14.81841/120.27947"
+      ],
+      "sources": [
+        "manual_web_research"
+      ],
+      "sourceIds": [
+        "manual/subic-bay-philippines/alava-wharf-cruise-berth"
+      ],
+      "osmTags": {},
+      "matchedBy": [
+        "web_researched_terminal"
+      ],
+      "distanceFromPortMeters": null
+    }
+  ],
+  "terminalCandidateRadiusMeters": 5000,
+  "terminalCandidates": [
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/8f027e86de0d11b02f4f",
+      "name": "(unnamed maritime feature)",
+      "nameEnglish": "",
+      "lat": 14.8168666,
+      "lng": 120.2796419,
+      "distanceFromPortMeters": 2143,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "cargo": "passengers",
+        "ferry": "tourist"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/8f027e86de0d11b02f4f"
+      ]
+    },
+    {
+      "source": "nominatim",
+      "sourceId": "osm/way/245030664",
+      "osmType": "way",
+      "osmId": "245030664",
+      "name": "Port of Subic Bay Administration Building",
+      "nameEnglish": "",
+      "lat": 14.8157249,
+      "lng": 120.2834936,
+      "distanceFromPortMeters": 2272,
+      "address": "Port of Subic Bay Administration Building, Pershing Street, Subic Bay Freeport Zone, Olongapo, Central Luzon, 2200, Philippines",
+      "displayName": "Port of Subic Bay Administration Building, Pershing Street, Subic Bay Freeport Zone, Olongapo, Central Luzon, 2200, Philippines",
+      "query": "SUBIC BAY Port, Subic Bay, Philippines",
+      "matchedBy": [
+        "Nominatim query: SUBIC BAY Port, Subic Bay, Philippines"
+      ],
+      "osmTags": {
+        "building": "yes"
+      },
+      "sources": [
+        "nominatim"
+      ],
+      "sourceIds": [
+        "osm/way/245030664"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/2a8b1b5b885045294e8c",
+      "name": "Subic Bay Yacht Club",
+      "nameEnglish": "",
+      "lat": 14.8226248,
+      "lng": 120.2880714,
+      "distanceFromPortMeters": 3179,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "cargo": "passengers",
+        "ferry": "tourist"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/2a8b1b5b885045294e8c"
+      ]
+    }
+  ],
+  "counts": {
+    "attraction": 16,
+    "outdoors": 9,
+    "food_drink": 12,
+    "shopping": 5,
+    "essentials": 2
+  },
+  "pois": [
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/129098da857edae2b60a",
+      "name": "Subic Bay Arts Center",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 14.8188755,
+      "lng": 120.2817618,
+      "distanceFromTerminalMeters": 2450,
+      "distanceFromDefaultTerminalMeters": 2450,
+      "minDistanceFromAnyTerminalMeters": 2450,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Olongapo, 2200",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/95985642eb106a6186dc",
+      "name": "Subic Bay Historical Center",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 14.8192653,
+      "lng": 120.2819869,
+      "distanceFromTerminalMeters": 2500,
+      "distanceFromDefaultTerminalMeters": 2500,
+      "minDistanceFromAnyTerminalMeters": 2500,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Olongapo, 2200",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/a2a2d2211c7d4750f5dc",
+      "name": "Subic Bay Sign",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 14.8166493,
+      "lng": 120.2809376,
+      "distanceFromTerminalMeters": 2193,
+      "distanceFromDefaultTerminalMeters": 2193,
+      "minDistanceFromAnyTerminalMeters": 2193,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/fe19c4187ae7dfae8e9a",
+      "name": "Zoobic Safari",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "zoo",
+      "lat": 14.7532759,
+      "lng": 120.2691532,
+      "distanceFromTerminalMeters": 5196,
+      "distanceFromDefaultTerminalMeters": 5196,
+      "minDistanceFromAnyTerminalMeters": 5196,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "2222;2108, PH",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "zoo"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/9689c73f4706f8794d0e",
+      "name": "USS Rochester",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "wreck",
+      "lat": 14.8078769,
+      "lng": 120.2791318,
+      "distanceFromTerminalMeters": 1316,
+      "distanceFromDefaultTerminalMeters": 1316,
+      "minDistanceFromAnyTerminalMeters": 1316,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "wreck"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f5b49ed25185c5b7ed5c",
+      "name": "IJN Seian Maru",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "wreck",
+      "lat": 14.8096894,
+      "lng": 120.2819727,
+      "distanceFromTerminalMeters": 1679,
+      "distanceFromDefaultTerminalMeters": 1679,
+      "minDistanceFromAnyTerminalMeters": 1679,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "wreck"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/082e8eb92a88eff12ffe",
+      "name": "SS Oryoku Maru",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "wreck",
+      "lat": 14.8126139,
+      "lng": 120.2819219,
+      "distanceFromTerminalMeters": 1900,
+      "distanceFromDefaultTerminalMeters": 1900,
+      "minDistanceFromAnyTerminalMeters": 1900,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "wreck"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/43107110a67b3529fc71",
+      "name": "Landing Craft Utility (LCU)",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "wreck",
+      "lat": 14.7835061,
+      "lng": 120.2651654,
+      "distanceFromTerminalMeters": 1906,
+      "distanceFromDefaultTerminalMeters": 1906,
+      "minDistanceFromAnyTerminalMeters": 1906,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "wreck"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/5d7c3179557e471f3963",
+      "name": "Ray Wolf",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 14.8201111,
+      "lng": 120.2863185,
+      "distanceFromTerminalMeters": 2842,
+      "distanceFromDefaultTerminalMeters": 2842,
+      "minDistanceFromAnyTerminalMeters": 2842,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b1f7971c358c8010a25b",
+      "name": "Garden Maze",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 14.7727467,
+      "lng": 120.2889104,
+      "distanceFromTerminalMeters": 3649,
+      "distanceFromDefaultTerminalMeters": 3649,
+      "minDistanceFromAnyTerminalMeters": 3649,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f59db68c0b990dc43e38",
+      "name": "Inflatable Island",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 14.8373998,
+      "lng": 120.2678455,
+      "distanceFromTerminalMeters": 4165,
+      "distanceFromDefaultTerminalMeters": 4165,
+      "minDistanceFromAnyTerminalMeters": 4165,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b7a9d50ad5e85c54a009",
+      "name": "Kalaklan Lighthouse",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "lighthouse",
+      "lat": 14.8237597,
+      "lng": 120.2682272,
+      "distanceFromTerminalMeters": 2649,
+      "distanceFromDefaultTerminalMeters": 2649,
+      "minDistanceFromAnyTerminalMeters": 2649,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Olongapo",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "man_made": "lighthouse"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/25cbd84dd62182dc928a",
+      "name": "Funtastic Park Subic Bay",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "theme_park",
+      "lat": 14.7724653,
+      "lng": 120.2888232,
+      "distanceFromTerminalMeters": 3670,
+      "distanceFromDefaultTerminalMeters": 3670,
+      "minDistanceFromAnyTerminalMeters": 3670,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "theme_park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/2c1704fa0d6f5ad53c8d",
+      "name": "Ocean Adventure",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "theme_park",
+      "lat": 14.764762,
+      "lng": 120.253028,
+      "distanceFromTerminalMeters": 4322,
+      "distanceFromDefaultTerminalMeters": 4322,
+      "minDistanceFromAnyTerminalMeters": 4322,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "theme_park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/3b6e8e4df24871f18277",
+      "name": "Mayanga Lighthouse",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "lighthouse",
+      "lat": 14.832196,
+      "lng": 120.2346979,
+      "distanceFromTerminalMeters": 5217,
+      "distanceFromDefaultTerminalMeters": 5217,
+      "minDistanceFromAnyTerminalMeters": 5217,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "man_made": "lighthouse"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/036502c616624d2e6491",
+      "name": "Holy Land Subic",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "theme_park",
+      "lat": 14.8240502,
+      "lng": 120.3382395,
+      "distanceFromTerminalMeters": 7808,
+      "distanceFromDefaultTerminalMeters": 7808,
+      "minDistanceFromAnyTerminalMeters": 7808,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Subic-Tipo Expressway, Hermosa, 2222",
+      "openingHours": "",
+      "website": "https://www.facebook.com/holylandsubic",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "theme_park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/85e5d78823908cbe98bc",
+      "name": "All Hands Beach",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "beach",
+      "lat": 14.7960641,
+      "lng": 120.2654712,
+      "distanceFromTerminalMeters": 655,
+      "distanceFromDefaultTerminalMeters": 655,
+      "minDistanceFromAnyTerminalMeters": 655,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "natural": "beach"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c0a03d724b888962d3e3",
+      "name": "Dungaree Beach",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "beach",
+      "lat": 14.7880644,
+      "lng": 120.2623844,
+      "distanceFromTerminalMeters": 1559,
+      "distanceFromDefaultTerminalMeters": 1559,
+      "minDistanceFromAnyTerminalMeters": 1559,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "natural": "beach"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/91f4e579de75fdd260ce",
+      "name": "Halfmoon Beach",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "beach",
+      "lat": 14.8369846,
+      "lng": 120.2687585,
+      "distanceFromTerminalMeters": 4115,
+      "distanceFromDefaultTerminalMeters": 4115,
+      "minDistanceFromAnyTerminalMeters": 4115,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "natural": "beach"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/efb32a99f53a0aeb50f9",
+      "name": "Camayan Beach",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "beach",
+      "lat": 14.7649752,
+      "lng": 120.2494145,
+      "distanceFromTerminalMeters": 4480,
+      "distanceFromDefaultTerminalMeters": 4480,
+      "minDistanceFromAnyTerminalMeters": 4480,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "natural": "beach"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/3d7c353166e820be69ca",
+      "name": "White Rock Beach",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "beach",
+      "lat": 14.8553735,
+      "lng": 120.2421242,
+      "distanceFromTerminalMeters": 6848,
+      "distanceFromDefaultTerminalMeters": 6848,
+      "minDistanceFromAnyTerminalMeters": 6848,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "natural": "beach"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/1e2262af38f9ac384f04",
+      "name": "Tappan Park",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 14.8196721,
+      "lng": 120.2787488,
+      "distanceFromTerminalMeters": 2381,
+      "distanceFromDefaultTerminalMeters": 2381,
+      "minDistanceFromAnyTerminalMeters": 2381,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/425a561324d8997ece92",
+      "name": "Bats",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "tree",
+      "lat": 14.7877806,
+      "lng": 120.2717506,
+      "distanceFromTerminalMeters": 1372,
+      "distanceFromDefaultTerminalMeters": 1372,
+      "minDistanceFromAnyTerminalMeters": 1372,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "natural": "tree",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/3d2b50a8b23fe9c38821",
+      "name": "JPELAEZ-CLUB",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "viewpoint",
+      "lat": 14.8577869,
+      "lng": 120.2902897,
+      "distanceFromTerminalMeters": 6786,
+      "distanceFromDefaultTerminalMeters": 6786,
+      "minDistanceFromAnyTerminalMeters": 6786,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "viewpoint"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b8b97215642ef7658a60",
+      "name": "Tatlong Krus ng Bundok Balimpuyo",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "viewpoint",
+      "lat": 14.8555977,
+      "lng": 120.2968527,
+      "distanceFromTerminalMeters": 6823,
+      "distanceFromDefaultTerminalMeters": 6823,
+      "minDistanceFromAnyTerminalMeters": 6823,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "viewpoint"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c4013b19f8cc9cfa931f",
+      "name": "Primero Coffee Shop",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 14.8158393,
+      "lng": 120.2824848,
+      "distanceFromTerminalMeters": 2214,
+      "distanceFromDefaultTerminalMeters": 2214,
+      "minDistanceFromAnyTerminalMeters": 2214,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [
+        "coffee_shop"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ae394e6e2b6496fdf332",
+      "name": "Holy Grounds Coffee House",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 14.8170779,
+      "lng": 120.283138,
+      "distanceFromTerminalMeters": 2367,
+      "distanceFromDefaultTerminalMeters": 2367,
+      "minDistanceFromAnyTerminalMeters": 2367,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [
+        "coffee_shop"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/364020e0791e697bb55e",
+      "name": "Scuba Shack",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 14.8203322,
+      "lng": 120.2759446,
+      "distanceFromTerminalMeters": 2349,
+      "distanceFromDefaultTerminalMeters": 2349,
+      "minDistanceFromAnyTerminalMeters": 2349,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [
+        "international"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f513667a11fb5ea3d996",
+      "name": "Pista sa Barrio",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 14.8202233,
+      "lng": 120.2768125,
+      "distanceFromTerminalMeters": 2365,
+      "distanceFromDefaultTerminalMeters": 2365,
+      "minDistanceFromAnyTerminalMeters": 2365,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [
+        "regional"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/62579a3ac9835de00e62",
+      "name": "Cribs & Craves",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 14.8278286,
+      "lng": 120.2810196,
+      "distanceFromTerminalMeters": 3313,
+      "distanceFromDefaultTerminalMeters": 3313,
+      "minDistanceFromAnyTerminalMeters": 3313,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [
+        "burger"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f8d3b1cdb0156426d733",
+      "name": "Cake Couture & Café",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 14.827359,
+      "lng": 120.2843084,
+      "distanceFromTerminalMeters": 3409,
+      "distanceFromDefaultTerminalMeters": 3409,
+      "minDistanceFromAnyTerminalMeters": 3409,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "23 Gordon Avenue, Olongapo, 2200",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [
+        "burger",
+        "pasta",
+        "coffee_shop",
+        "coffee"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/5d77df47d6bd3f027d89",
+      "name": "Chef Samurai",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 14.8202822,
+      "lng": 120.2832376,
+      "distanceFromTerminalMeters": 2667,
+      "distanceFromDefaultTerminalMeters": 2667,
+      "minDistanceFromAnyTerminalMeters": 2667,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Olongapo, 2200",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [
+        "japanese"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/989ccf8fc49f8aeb1733",
+      "name": "Golden Dragon",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 14.8217749,
+      "lng": 120.2820246,
+      "distanceFromTerminalMeters": 2745,
+      "distanceFromDefaultTerminalMeters": 2745,
+      "minDistanceFromAnyTerminalMeters": 2745,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [
+        "chinese"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c1584ba61b7740117ebb",
+      "name": "Sakura",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 14.8235395,
+      "lng": 120.2815036,
+      "distanceFromTerminalMeters": 2895,
+      "distanceFromDefaultTerminalMeters": 2895,
+      "minDistanceFromAnyTerminalMeters": 2895,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [
+        "japanese"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/dc4cf07d1bd38bc9a0f9",
+      "name": "Ben's Kitchen",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 14.825242,
+      "lng": 120.2796631,
+      "distanceFromTerminalMeters": 2993,
+      "distanceFromDefaultTerminalMeters": 2993,
+      "minDistanceFromAnyTerminalMeters": 2993,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [
+        "american"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d99a956ecaee11567310",
+      "name": "Altney's Canteen",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 14.8288826,
+      "lng": 120.2797937,
+      "distanceFromTerminalMeters": 3380,
+      "distanceFromDefaultTerminalMeters": 3380,
+      "minDistanceFromAnyTerminalMeters": 3380,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Rizal Avenue Extension",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [
+        "filipino"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/4e523a37bce02ac1208b",
+      "name": "Magic Lagoon",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 14.8247979,
+      "lng": 120.2883678,
+      "distanceFromTerminalMeters": 3391,
+      "distanceFromDefaultTerminalMeters": 3391,
+      "minDistanceFromAnyTerminalMeters": 3391,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [
+        "regional"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ea9ad2c1d67bba5b3010",
+      "name": "Pagasa Public Market",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "marketplace",
+      "lat": 14.8291655,
+      "lng": 120.2871563,
+      "distanceFromTerminalMeters": 3731,
+      "distanceFromDefaultTerminalMeters": 3731,
+      "minDistanceFromAnyTerminalMeters": 3731,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "marketplace"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/1bc8995d3d4c763dfe5c",
+      "name": "Magsaysay Public Market Brgy. Asinan",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "marketplace",
+      "lat": 14.8291952,
+      "lng": 120.2872036,
+      "distanceFromTerminalMeters": 3736,
+      "distanceFromDefaultTerminalMeters": 3736,
+      "minDistanceFromAnyTerminalMeters": 3736,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Olongapo",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "marketplace"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/a9b7d82dcb0e90e387cb",
+      "name": "Olongapo Public Market",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "marketplace",
+      "lat": 14.8404783,
+      "lng": 120.2867184,
+      "distanceFromTerminalMeters": 4847,
+      "distanceFromDefaultTerminalMeters": 4847,
+      "minDistanceFromAnyTerminalMeters": 4847,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Rizal Avenue, 2200",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "marketplace"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/5ffb3bd9ecd86d7da16c",
+      "name": "Harbor Point Mall",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "mall",
+      "lat": 14.8249035,
+      "lng": 120.2802027,
+      "distanceFromTerminalMeters": 2978,
+      "distanceFromDefaultTerminalMeters": 2978,
+      "minDistanceFromAnyTerminalMeters": 2978,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Rizal Highway, Subic Bay Freeport",
+      "openingHours": "Su-Th 10:00-21:00; Fr-Sa 10:00-22:00",
+      "website": "https://www.ayalamalls.com/main/malls/ayala-harbor-point",
+      "phone": "+63277959595",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "shop": "mall"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/6b5da0de9746f362b906",
+      "name": "West Bajac-Bajac Public Market",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "marketplace",
+      "lat": 14.8434613,
+      "lng": 120.286105,
+      "distanceFromTerminalMeters": 5133,
+      "distanceFromDefaultTerminalMeters": 5133,
+      "minDistanceFromAnyTerminalMeters": 5133,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "marketplace"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/0d03da2e0891aa342a34",
+      "name": "Philippine Economic Zone Authority",
+      "nameEnglish": "Philippine Economic Zone Authority",
+      "category": "essentials",
+      "subcategory": "visitor_information",
+      "lat": 14.8178961,
+      "lng": 120.2812622,
+      "distanceFromTerminalMeters": 2329,
+      "distanceFromDefaultTerminalMeters": 2329,
+      "minDistanceFromAnyTerminalMeters": 2329,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Taft Street, Olongapo, 2200",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "information"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/0d343a83c55d8564e988",
+      "name": "SBMA",
+      "nameEnglish": "",
+      "category": "essentials",
+      "subcategory": "visitor_information",
+      "lat": 14.8173326,
+      "lng": 120.2810114,
+      "distanceFromTerminalMeters": 2262,
+      "distanceFromDefaultTerminalMeters": 2262,
+      "minDistanceFromAnyTerminalMeters": 2262,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "information"
+      }
+    }
+  ],
+  "portAnchor": {
+    "id": "ports-json-anchor",
+    "name": "SUBIC BAY Port",
+    "lat": 14.8,
+    "lng": 120.27,
+    "address": "Subic Bay, Zambales, Philippines",
+    "source": "ports.json",
+    "sourceId": "",
+    "score": 0,
+    "slug": "subic-bay-port"
+  },
+  "terminalResolution": {
+    "status": "resolved",
+    "method": "manual_web_research",
+    "verified": true,
+    "notes": "Terminal records were added from researched cruise-port sources because no supplied candidate accurately represented the passenger arrival point."
+  }
+}

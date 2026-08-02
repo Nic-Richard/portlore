@@ -1,0 +1,1118 @@
+{
+  "schemaVersion": 5,
+  "catalogType": "curation-candidates",
+  "generatedAt": "2026-07-30T07:35:19.775Z",
+  "source": "openstreetmap",
+  "sourceExtract": "aquitaine-latest.osm.pbf",
+  "radiusMeters": 10000,
+  "port": {
+    "id": "bordeaux-france",
+    "city": "Bordeaux",
+    "country": "France"
+  },
+  "defaultTerminalId": "ports-json-anchor",
+  "terminal": {
+    "id": "ports-json-anchor",
+    "name": "BORDEAUX Port",
+    "lat": 44.87,
+    "lng": -0.57,
+    "address": "Bordeaux, Nouvelle-Aquitaine, France",
+    "source": "ports.json",
+    "sourceId": "",
+    "score": 0,
+    "slug": "bordeaux-port"
+  },
+  "terminals": [
+    {
+      "id": "ports-json-anchor",
+      "name": "BORDEAUX Port",
+      "lat": 44.87,
+      "lng": -0.57,
+      "address": "Bordeaux, Nouvelle-Aquitaine, France",
+      "source": "ports.json",
+      "sourceId": "",
+      "score": 0,
+      "slug": "bordeaux-port"
+    }
+  ],
+  "terminalCandidateRadiusMeters": 5000,
+  "terminalCandidates": [
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/569afb86319f038f451e",
+      "name": "Cité du Vin",
+      "nameEnglish": "",
+      "lat": 44.8617807,
+      "lng": -0.5492202,
+      "distanceFromPortMeters": 1875,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/569afb86319f038f451e"
+      ]
+    },
+    {
+      "source": "nominatim",
+      "sourceId": "osm/way/154846619",
+      "osmType": "way",
+      "osmId": "154846619",
+      "name": "France-Langue",
+      "nameEnglish": "",
+      "lat": 44.84489,
+      "lng": -0.5797076,
+      "distanceFromPortMeters": 2895,
+      "address": "France-Langue, 42, Rue Lafaurie de Monbadon, Bordeaux, Port de la Lune, Bordeaux Centre, Bordeaux, Gironde, Nouvelle-Aquitaine, France métropolitaine, 33000, France",
+      "displayName": "France-Langue, 42, Rue Lafaurie de Monbadon, Bordeaux, Port de la Lune, Bordeaux Centre, Bordeaux, Gironde, Nouvelle-Aquitaine, France métropolitaine, 33000, France",
+      "query": "BORDEAUX Port, Bordeaux, France",
+      "matchedBy": [
+        "Nominatim query: BORDEAUX Port, Bordeaux, France"
+      ],
+      "osmTags": {},
+      "sources": [
+        "nominatim"
+      ],
+      "sourceIds": [
+        "osm/way/154846619"
+      ]
+    },
+    {
+      "source": "nominatim",
+      "sourceId": "osm/relation/1241252",
+      "osmType": "relation",
+      "osmId": "1241252",
+      "name": "Banque de France",
+      "nameEnglish": "",
+      "lat": 44.8435341,
+      "lng": -0.572285,
+      "distanceFromPortMeters": 2948,
+      "address": "Banque de France, Rue Esprit des Lois, Bordeaux, Port de la Lune, Bordeaux Centre, Bordeaux, Gironde, Nouvelle-Aquitaine, France métropolitaine, 33000, France",
+      "displayName": "Banque de France, Rue Esprit des Lois, Bordeaux, Port de la Lune, Bordeaux Centre, Bordeaux, Gironde, Nouvelle-Aquitaine, France métropolitaine, 33000, France",
+      "query": "BORDEAUX Port, Bordeaux, France",
+      "matchedBy": [
+        "Nominatim query: BORDEAUX Port, Bordeaux, France"
+      ],
+      "osmTags": {
+        "building": "public"
+      },
+      "sources": [
+        "nominatim"
+      ],
+      "sourceIds": [
+        "osm/relation/1241252"
+      ]
+    },
+    {
+      "source": "nominatim",
+      "sourceId": "osm/node/2923469417",
+      "osmType": "node",
+      "osmId": "2923469417",
+      "name": "Pharmacie de France",
+      "nameEnglish": "",
+      "lat": 44.8417662,
+      "lng": -0.5804509,
+      "distanceFromPortMeters": 3246,
+      "address": "Pharmacie de France, 44, Place Gambetta, Bordeaux, Port de la Lune, Bordeaux Centre, Bordeaux, Gironde, Nouvelle-Aquitaine, France métropolitaine, 33000, France",
+      "displayName": "Pharmacie de France, 44, Place Gambetta, Bordeaux, Port de la Lune, Bordeaux Centre, Bordeaux, Gironde, Nouvelle-Aquitaine, France métropolitaine, 33000, France",
+      "query": "BORDEAUX Port, Bordeaux, France",
+      "matchedBy": [
+        "Nominatim query: BORDEAUX Port, Bordeaux, France"
+      ],
+      "osmTags": {
+        "operator": "N. Belier - F. Albi"
+      },
+      "sources": [
+        "nominatim"
+      ],
+      "sourceIds": [
+        "osm/node/2923469417"
+      ]
+    },
+    {
+      "source": "nominatim",
+      "sourceId": "osm/way/30118888",
+      "osmType": "way",
+      "osmId": "30118888",
+      "name": "Square des Commandos de France",
+      "nameEnglish": "",
+      "lat": 44.8401785,
+      "lng": -0.5826765,
+      "distanceFromPortMeters": 3463,
+      "address": "Square des Commandos de France, Bordeaux, Port de la Lune, Bordeaux Centre, Bordeaux, Gironde, Nouvelle-Aquitaine, France métropolitaine, 33000, France",
+      "displayName": "Square des Commandos de France, Bordeaux, Port de la Lune, Bordeaux Centre, Bordeaux, Gironde, Nouvelle-Aquitaine, France métropolitaine, 33000, France",
+      "query": "BORDEAUX Port, Bordeaux, France",
+      "matchedBy": [
+        "Nominatim query: BORDEAUX Port, Bordeaux, France"
+      ],
+      "osmTags": {},
+      "sources": [
+        "nominatim"
+      ],
+      "sourceIds": [
+        "osm/way/30118888"
+      ]
+    },
+    {
+      "source": "nominatim",
+      "sourceId": "osm/way/194458954",
+      "osmType": "way",
+      "osmId": "194458954",
+      "name": "École élémentaire Anatole France",
+      "nameEnglish": "",
+      "lat": 44.8385571,
+      "lng": -0.5824068,
+      "distanceFromPortMeters": 3630,
+      "address": "École élémentaire Anatole France, Place du Colonel Raynal, Bordeaux, Port de la Lune, Bordeaux Centre, Bordeaux, Gironde, Nouvelle-Aquitaine, France métropolitaine, 33000, France",
+      "displayName": "École élémentaire Anatole France, Place du Colonel Raynal, Bordeaux, Port de la Lune, Bordeaux Centre, Bordeaux, Gironde, Nouvelle-Aquitaine, France métropolitaine, 33000, France",
+      "query": "BORDEAUX Port, Bordeaux, France",
+      "matchedBy": [
+        "Nominatim query: BORDEAUX Port, Bordeaux, France"
+      ],
+      "osmTags": {},
+      "sources": [
+        "nominatim"
+      ],
+      "sourceIds": [
+        "osm/way/194458954"
+      ]
+    },
+    {
+      "source": "nominatim",
+      "sourceId": "osm/way/247303347",
+      "osmType": "way",
+      "osmId": "247303347",
+      "name": "Cours Anatole France",
+      "nameEnglish": "",
+      "lat": 44.8356229,
+      "lng": -0.5839495,
+      "distanceFromPortMeters": 3978,
+      "address": "Cours Anatole France, Bordeaux, Port de la Lune, Saint-Augustin - Tauzin - Alphonse Dupeux, Bordeaux, Gironde, Nouvelle-Aquitaine, France métropolitaine, 33000, France",
+      "displayName": "Cours Anatole France, Bordeaux, Port de la Lune, Saint-Augustin - Tauzin - Alphonse Dupeux, Bordeaux, Gironde, Nouvelle-Aquitaine, France métropolitaine, 33000, France",
+      "query": "BORDEAUX Port, Bordeaux, France",
+      "matchedBy": [
+        "Nominatim query: BORDEAUX Port, Bordeaux, France"
+      ],
+      "osmTags": {},
+      "sources": [
+        "nominatim"
+      ],
+      "sourceIds": [
+        "osm/way/247303347"
+      ]
+    },
+    {
+      "source": "nominatim",
+      "sourceId": "osm/way/189678855",
+      "osmType": "way",
+      "osmId": "189678855",
+      "name": "Cours Anatole France",
+      "nameEnglish": "",
+      "lat": 44.8347292,
+      "lng": -0.5842975,
+      "distanceFromPortMeters": 4081,
+      "address": "Cours Anatole France, Bordeaux, Port de la Lune, Saint-Augustin - Tauzin - Alphonse Dupeux, Bordeaux, Gironde, Nouvelle-Aquitaine, France métropolitaine, 33000, France",
+      "displayName": "Cours Anatole France, Bordeaux, Port de la Lune, Saint-Augustin - Tauzin - Alphonse Dupeux, Bordeaux, Gironde, Nouvelle-Aquitaine, France métropolitaine, 33000, France",
+      "query": "BORDEAUX Port, Bordeaux, France",
+      "matchedBy": [
+        "Nominatim query: BORDEAUX Port, Bordeaux, France"
+      ],
+      "osmTags": {},
+      "sources": [
+        "nominatim"
+      ],
+      "sourceIds": [
+        "osm/way/189678855"
+      ]
+    },
+    {
+      "source": "nominatim",
+      "sourceId": "osm/way/155593974",
+      "osmType": "way",
+      "osmId": "155593974",
+      "name": "France Domaine",
+      "nameEnglish": "",
+      "lat": 44.828164,
+      "lng": -0.5859832,
+      "distanceFromPortMeters": 4820,
+      "address": "France Domaine, Rue Fernand Audeguil, Bordeaux, Port de la Lune, Saint-Augustin - Tauzin - Alphonse Dupeux, Bordeaux, Gironde, Nouvelle-Aquitaine, France métropolitaine, 33000, France",
+      "displayName": "France Domaine, Rue Fernand Audeguil, Bordeaux, Port de la Lune, Saint-Augustin - Tauzin - Alphonse Dupeux, Bordeaux, Gironde, Nouvelle-Aquitaine, France métropolitaine, 33000, France",
+      "query": "BORDEAUX Port, Bordeaux, France",
+      "matchedBy": [
+        "Nominatim query: BORDEAUX Port, Bordeaux, France"
+      ],
+      "osmTags": {},
+      "sources": [
+        "nominatim"
+      ],
+      "sourceIds": [
+        "osm/way/155593974"
+      ]
+    }
+  ],
+  "counts": {
+    "attraction": 11,
+    "outdoors": 6,
+    "food_drink": 12,
+    "shopping": 3,
+    "essentials": 0
+  },
+  "pois": [
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c920aaf0420b8b0a1bd8",
+      "name": "Base Sous-Marine de Bordeaux",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 44.8703215,
+      "lng": -0.558554,
+      "distanceFromTerminalMeters": 903,
+      "distanceFromDefaultTerminalMeters": 903,
+      "minDistanceFromAnyTerminalMeters": 903,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Boulevard Alfred Daney, Bordeaux, 33000",
+      "openingHours": "",
+      "website": "https://www.bordeaux.fr/o271",
+      "phone": "+33556399445",
+      "cuisine": [],
+      "wheelchair": "limited",
+      "brand": "",
+      "description": "Abri bétonné pour sous-marins allemands de la Seconde Guerre mondiale",
+      "osmTags": {
+        "historic": "submarine_pen",
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/1acade7b38b67fbafe9f",
+      "name": "Cap Sciences",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 44.859633,
+      "lng": -0.5542245,
+      "distanceFromTerminalMeters": 1695,
+      "distanceFromDefaultTerminalMeters": 1695,
+      "minDistanceFromAnyTerminalMeters": 1695,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "20 Quai de Bacalan, Bordeaux, 33000",
+      "openingHours": "Tu-Fr 14:00-18:00, Sa-Su 14:00-19:00",
+      "website": "https://www.cap-sciences.net/",
+      "phone": "+33 5 56 01 07 07",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "Centre de Culture Scientifique, Technique et Industrielle Région Aquitaine",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/4313a99c024fe63edc76",
+      "name": "Musée Mer Marine",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 44.8673927,
+      "lng": -0.5539963,
+      "distanceFromTerminalMeters": 1294,
+      "distanceFromDefaultTerminalMeters": 1294,
+      "minDistanceFromAnyTerminalMeters": 1294,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "89 Rue des Étrangers, Bordeaux, 33300",
+      "openingHours": "Tu-Fr 13:00-18:00; Sa-Su 10:30-18:00",
+      "website": "https://www.mmmbordeaux.com/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/63c1a9fdf81a89213c16",
+      "name": "Musée du Vin et du Négoce",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 44.854628,
+      "lng": -0.5693905,
+      "distanceFromTerminalMeters": 1710,
+      "distanceFromDefaultTerminalMeters": 1710,
+      "minDistanceFromAnyTerminalMeters": 1710,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "41 Rue Borie, 33300",
+      "openingHours": "Mo-Su 10:00-18:00",
+      "website": "https://www.museeduvinbordeaux.com/",
+      "phone": "+33 5 56 90 19 13",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/aad0611c816d8ff46776",
+      "name": "Cité du Vin",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 44.8623733,
+      "lng": -0.55002,
+      "distanceFromTerminalMeters": 1788,
+      "distanceFromDefaultTerminalMeters": 1788,
+      "minDistanceFromAnyTerminalMeters": 1788,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "134 Quai de Bacalan, Bordeaux, 33300",
+      "openingHours": "09:30-19:00",
+      "website": "https://www.laciteduvin.com/fr",
+      "phone": "+33 5 56 16 20 20",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/58f86beb873b253058cc",
+      "name": "Musée de l'Histoire Maritime de Bordeaux",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 44.8627338,
+      "lng": -0.5549184,
+      "distanceFromTerminalMeters": 1437,
+      "distanceFromDefaultTerminalMeters": 1437,
+      "minDistanceFromAnyTerminalMeters": 1437,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1 Quai Armand Lalande",
+      "openingHours": "",
+      "website": "https://www.museehistoiremaritimedebordeaux.fr/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "no",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/0bdf8b3e22eb9ce7f603",
+      "name": "Château Labottière",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "castle",
+      "lat": 44.8538025,
+      "lng": -0.5895125,
+      "distanceFromTerminalMeters": 2368,
+      "distanceFromDefaultTerminalMeters": 2368,
+      "minDistanceFromAnyTerminalMeters": 2368,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "castle"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/af9223291bca1c47b845",
+      "name": "Palais de la Bourse",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "castle",
+      "lat": 44.8421984,
+      "lng": -0.5708231,
+      "distanceFromTerminalMeters": 3092,
+      "distanceFromDefaultTerminalMeters": 3092,
+      "minDistanceFromAnyTerminalMeters": 3092,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Palais de la Bourse",
+      "osmTags": {
+        "historic": "castle"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d2f09ce26fa50b11a91b",
+      "name": "EVA bordeaux lac",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 44.8791772,
+      "lng": -0.5580506,
+      "distanceFromTerminalMeters": 1389,
+      "distanceFromDefaultTerminalMeters": 1389,
+      "minDistanceFromAnyTerminalMeters": 1389,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "9 Rue Dumont d'Urville, 33000",
+      "openingHours": "Mo-Tu 16:00-22:40; Th-Fr 14:00-23:20; We 14:00-22:40; Sa 14:00-00:00; Su 14:00-22:00",
+      "website": "https://www.eva.gg/fr-FR/locations/bordeaux-lac-33",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/cae54fad170bcdb84a38",
+      "name": "Hôtel de Ville de Blanquefort",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "castle",
+      "lat": 44.9086659,
+      "lng": -0.6295103,
+      "distanceFromTerminalMeters": 6361,
+      "distanceFromDefaultTerminalMeters": 6361,
+      "minDistanceFromAnyTerminalMeters": 6361,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "12 Rue Dupaty",
+      "openingHours": "Mo 13:30-18:00; Tu-Fr 08:30-12:30,13:30-18:00; Sa 09:00-12:00",
+      "website": "https://www.ville-blanquefort.fr/",
+      "phone": "+33556955095",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "townhall",
+        "historic": "castle"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/76b669428de94843c42f",
+      "name": "Virtual Room",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 44.8647034,
+      "lng": -0.5517375,
+      "distanceFromTerminalMeters": 1555,
+      "distanceFromDefaultTerminalMeters": 1555,
+      "minDistanceFromAnyTerminalMeters": 1555,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "3 Sente de la Nancy, Bordeaux, 33300",
+      "openingHours": "",
+      "website": "https://bordeaux.virtual-room.com/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/cd309070e7e49eae37cd",
+      "name": "Plage du Lac",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "beach",
+      "lat": 44.8784948,
+      "lng": -0.5790433,
+      "distanceFromTerminalMeters": 1183,
+      "distanceFromDefaultTerminalMeters": 1183,
+      "minDistanceFromAnyTerminalMeters": 1183,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "natural": "beach"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b4ba57ab34e47dffe726",
+      "name": "Square Étienne Morin",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "garden",
+      "lat": 44.8642866,
+      "lng": -0.5704141,
+      "distanceFromTerminalMeters": 636,
+      "distanceFromDefaultTerminalMeters": 636,
+      "minDistanceFromAnyTerminalMeters": 636,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "garden"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/4fb910b49f47ce23d180",
+      "name": "Aire de compostage du Port de la Lune",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "garden",
+      "lat": 44.876765,
+      "lng": -0.5419983,
+      "distanceFromTerminalMeters": 2331,
+      "distanceFromDefaultTerminalMeters": 2331,
+      "minDistanceFromAnyTerminalMeters": 2331,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "7 Rue Henri Collet, Bordeaux, 33300",
+      "openingHours": "",
+      "website": "https://www.facebook.com/airedecompostageduportdelalune",
+      "phone": "+33 6 81 35 40 54",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "recycling",
+        "leisure": "garden"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c8017844078b01d58cec",
+      "name": "Square Joséphine",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "garden",
+      "lat": 44.8611031,
+      "lng": -0.5602991,
+      "distanceFromTerminalMeters": 1250,
+      "distanceFromDefaultTerminalMeters": 1250,
+      "minDistanceFromAnyTerminalMeters": 1250,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "garden"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/901bb16599c462411f8b",
+      "name": "Jardin Botanique",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "garden",
+      "lat": 44.8455577,
+      "lng": -0.5610807,
+      "distanceFromTerminalMeters": 2807,
+      "distanceFromDefaultTerminalMeters": 2807,
+      "minDistanceFromAnyTerminalMeters": 2807,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Esplanade Linné, 33100",
+      "openingHours": "",
+      "website": "https://bordeaux.fr/parc-jardin/jardin-botanique-de-bordeaux",
+      "phone": "+33 5 24 99 61 00",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "garden"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d0c07e437793e9419848",
+      "name": "Réserve Écologique des Barails",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "nature_reserve",
+      "lat": 44.9025879,
+      "lng": -0.5662364,
+      "distanceFromTerminalMeters": 3636,
+      "distanceFromDefaultTerminalMeters": 3636,
+      "minDistanceFromAnyTerminalMeters": 3636,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Feb 15-Mar 01: 08:30-18:15; Mar 02-Mar 25: 08:30-18:45; Mar 26-Apr 15: 08:30-20:15; Apr 16-Sep 15: 08:30-20:45; Sep 16-Oct 31: 08:30-19:45; Nov 01-Feb 14: 08:30-17:45",
+      "website": "https://www.bordeaux.fr/l853/reserve-ecologique-des-barails",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "nature_reserve"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d8970c984fbb2713e9d1",
+      "name": "Crous Market La Bastide",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "fast_food",
+      "lat": 44.8450823,
+      "lng": -0.5582933,
+      "distanceFromTerminalMeters": 2920,
+      "distanceFromDefaultTerminalMeters": 2920,
+      "minDistanceFromAnyTerminalMeters": 2920,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "15 Avenue Abadie, Bordeaux, 33100",
+      "openingHours": "Mo-Fr 07:30-16:30",
+      "website": "https://www.crous-bordeaux.fr/restaurant/resto-u-la-bastide/",
+      "phone": "+33 6 71 60 68 13",
+      "cuisine": [
+        "sandwich"
+      ],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "fast_food"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f27d03d5192f01add4a1",
+      "name": "Papadum Indian food",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 44.8676111,
+      "lng": -0.5629811,
+      "distanceFromTerminalMeters": 614,
+      "distanceFromDefaultTerminalMeters": 614,
+      "minDistanceFromAnyTerminalMeters": 614,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "121 Rue Lucien Faure, 33000",
+      "openingHours": "Tu-Sa 11:30-15:00,19:00-22:30; Su 19:00-22:30",
+      "website": "https://papadum.fr/",
+      "phone": "+33 5 56 36 20 78",
+      "cuisine": [
+        "indian"
+      ],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/13aa45388f3a86a4dff7",
+      "name": "Flam's",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 44.8668784,
+      "lng": -0.5612417,
+      "distanceFromTerminalMeters": 773,
+      "distanceFromDefaultTerminalMeters": 773,
+      "minDistanceFromAnyTerminalMeters": 773,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "17, 33000",
+      "openingHours": "Mo-Fr 12:00-14:30, Su-Th 18:30-22:30, Sa,Su 12:00-15:00, Fr,Sa 18:30-23:00",
+      "website": "https://flams.fr/index.php/nos-restaurants/flams-bordeaux-bassin-a-flots/",
+      "phone": "+33 5 57 02 10 15",
+      "cuisine": [
+        "burger"
+      ],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/50b6f5e0cf9066285bd5",
+      "name": "La Ferme de Bruges",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 44.8750659,
+      "lng": -0.5789106,
+      "distanceFromTerminalMeters": 900,
+      "distanceFromDefaultTerminalMeters": 900,
+      "minDistanceFromAnyTerminalMeters": 900,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "9 Avenue de Chavailles",
+      "openingHours": "Mo 12:00-14:30,19:00-22:30; Tu-Th 12:00-14:30,16:00-22:30; Fr-Sa 12:00-01:00; Su 12:00-22:30",
+      "website": "https://lafermedebruges.com/",
+      "phone": "+335 56 39 49 20",
+      "cuisine": [
+        "french"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/6482ce53ac4e900392b0",
+      "name": "Papà Lello",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 44.8509485,
+      "lng": -0.5698077,
+      "distanceFromTerminalMeters": 2118,
+      "distanceFromDefaultTerminalMeters": 2118,
+      "minDistanceFromAnyTerminalMeters": 2118,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "35 Quai des Chartrons, Bordeaux, 33000",
+      "openingHours": "PH,Mo-Su 12:00-14:00,19:00-22:00",
+      "website": "https://papafamiglia.com/",
+      "phone": "",
+      "cuisine": [
+        "pizza"
+      ],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "Papà Lello c’est une pizzeria Napolitaine qui a ouvert sur le quai des Chartrons. Le restaurant italien allie les codes de la tradition et la modernité de la pizza napolitaine contemporaine, en s’amusant avec des recettes funky et créatives. Papà Lello es",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/def5edd2320a11fbedad",
+      "name": "La Péniche Bistrot Régent",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 44.8651426,
+      "lng": -0.5579092,
+      "distanceFromTerminalMeters": 1095,
+      "distanceFromDefaultTerminalMeters": 1095,
+      "minDistanceFromAnyTerminalMeters": 1095,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Quai Armand Lalande, 33000",
+      "openingHours": "Mo-Su 11:45-14:30,18:45-22:45",
+      "website": "https://www.bistro-regent.fr/",
+      "phone": "+33556449000",
+      "cuisine": [
+        "steak_house",
+        "grill",
+        "seafood",
+        "coffee_shop",
+        "friture"
+      ],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ea2e865f06de9a89b225",
+      "name": "Su and Shi",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 44.8642949,
+      "lng": -0.5581746,
+      "distanceFromTerminalMeters": 1127,
+      "distanceFromDefaultTerminalMeters": 1127,
+      "minDistanceFromAnyTerminalMeters": 1127,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Fr 11:00-14:00,18:30-22:30; Sa 18:30-22:30; Su 18:00-22:30",
+      "website": "https://www.suandshi.com/6-restaurant-bordeaux-quartier-bassin-a-flots.html",
+      "phone": "0 826 30 03 06",
+      "cuisine": [
+        "japanese"
+      ],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/bf906023c04d79ed3842",
+      "name": "Sushiman",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 44.8638455,
+      "lng": -0.5817071,
+      "distanceFromTerminalMeters": 1149,
+      "distanceFromDefaultTerminalMeters": 1149,
+      "minDistanceFromAnyTerminalMeters": 1149,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "78 Rue Calixte Camelle",
+      "openingHours": "Mo-Fr 11:00-14:00,18:00-22:00; Sa-Su 18:00-22:00",
+      "website": "https://www.ausushiman.fr",
+      "phone": "+33 5 56 29 11 51",
+      "cuisine": [
+        "sushi"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/1b5965ef22a50d141492",
+      "name": "La Tradizione",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 44.8558371,
+      "lng": -0.5672052,
+      "distanceFromTerminalMeters": 1590,
+      "distanceFromDefaultTerminalMeters": 1590,
+      "minDistanceFromAnyTerminalMeters": 1590,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "6 Place Paul et Jean-Paul Avisseau, 33300",
+      "openingHours": "Mo-Su 12:00-14:30, 19:00-22:30",
+      "website": "https://www.latradizionebordeaux.fr/",
+      "phone": "+33 5 33 05 16 87",
+      "cuisine": [
+        "pizza"
+      ],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b804d5e22772d9ad44ea",
+      "name": "Alma portuguesa",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 44.8590948,
+      "lng": -0.556647,
+      "distanceFromTerminalMeters": 1606,
+      "distanceFromDefaultTerminalMeters": 1606,
+      "minDistanceFromAnyTerminalMeters": 1606,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "59 Quai de Bacalan, Bordeaux, 33000",
+      "openingHours": "Mo-Fr 08:30-16:00; Sa 10:00-16:00",
+      "website": "https://www.alma-bordeaux.com/",
+      "phone": "+33 6 37 17 30 08",
+      "cuisine": [
+        "portuguese"
+      ],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/8493053ac97fd048d44e",
+      "name": "L'Écharpe",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 44.8535022,
+      "lng": -0.5718589,
+      "distanceFromTerminalMeters": 1840,
+      "distanceFromDefaultTerminalMeters": 1840,
+      "minDistanceFromAnyTerminalMeters": 1840,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "27 Rue Minvielle, Bordeaux, 33000",
+      "openingHours": "Th-Sa 19:45-22:30",
+      "website": "https://www.facebook.com/echarperestaurantmarocain/",
+      "phone": "+33 6 87 72 94 37",
+      "cuisine": [
+        "moroccan"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/75f3cb82f0237b537eff",
+      "name": "Moelleuses et Persillées",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 44.8528176,
+      "lng": -0.5679737,
+      "distanceFromTerminalMeters": 1917,
+      "distanceFromDefaultTerminalMeters": 1917,
+      "minDistanceFromAnyTerminalMeters": 1917,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "65 Quai des Chartrons",
+      "openingHours": "Mo-Th 12:00-14:30, 19:00-23:00; Fr-Su 12:00-23:00",
+      "website": "https://www.moelleuses-et-persillees.fr/",
+      "phone": "+33 5 57 87 60 82",
+      "cuisine": [
+        "steak_house"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d3279862c79cae58f1f7",
+      "name": "Centre Commercial Aushopping Bordeaux Le Lac",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "mall",
+      "lat": 44.8802072,
+      "lng": -0.5658795,
+      "distanceFromTerminalMeters": 1181,
+      "distanceFromDefaultTerminalMeters": 1181,
+      "minDistanceFromAnyTerminalMeters": 1181,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1 Avenue des 40 Journaux, Bordeaux, 33300",
+      "openingHours": "Mo-Sa 08:30-21:30; Su 08:30-12:30",
+      "website": "https://bordeaux-lac.aushopping.com/fr",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "shop": "mall"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/61dd12622fdb7eb1cbb3",
+      "name": "Les Halles de Bacalan",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "marketplace",
+      "lat": 44.8630881,
+      "lng": -0.5514394,
+      "distanceFromTerminalMeters": 1652,
+      "distanceFromDefaultTerminalMeters": 1652,
+      "minDistanceFromAnyTerminalMeters": 1652,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "10 Esplanade de Pontac, 33300",
+      "openingHours": "Tu-Th 08:00-14:30, 16:30-22:30; Fr-Sa 08:00-22:30; Su 08:00-17:00",
+      "website": "https://biltoki.com/nos-halles/bordeaux/",
+      "phone": "+33 5 35 54 44 82",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "marketplace"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/a4eeff41a4a2615d57de",
+      "name": "Hasnaâ",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "chocolate",
+      "lat": 44.8415186,
+      "lng": -0.5793796,
+      "distanceFromTerminalMeters": 3252,
+      "distanceFromDefaultTerminalMeters": 3252,
+      "minDistanceFromAnyTerminalMeters": 3252,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "4 Rue de la Vieille Tour",
+      "openingHours": "Mo-Sa 10:00-19:00",
+      "website": "https://www.hasnaa-chocolats.fr",
+      "phone": "+33 5 56 81 11 40",
+      "cuisine": [],
+      "wheelchair": "no",
+      "brand": "",
+      "description": "Artisan chocolatier",
+      "osmTags": {
+        "shop": "chocolate"
+      }
+    }
+  ],
+  "portAnchor": {
+    "id": "ports-json-anchor",
+    "name": "BORDEAUX Port",
+    "lat": 44.87,
+    "lng": -0.57,
+    "address": "Bordeaux, Nouvelle-Aquitaine, France",
+    "source": "ports.json",
+    "sourceId": "",
+    "score": 0,
+    "slug": "bordeaux-port"
+  },
+  "terminalResolution": {
+    "status": "unresolved",
+    "method": "ports_json_fallback",
+    "verified": false,
+    "notes": "External port and cruise-schedule checks support passenger cruise calls, but none of the supplied candidates matches the actual cruise terminal or cruise berth closely enough to accept. Ferry-only and generic commercial-port candidates were rejected."
+  }
+}

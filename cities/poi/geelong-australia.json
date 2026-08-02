@@ -1,0 +1,919 @@
+{
+  "schemaVersion": 5,
+  "catalogType": "curation-candidates",
+  "generatedAt": "2026-07-30T09:29:02.881Z",
+  "source": "openstreetmap",
+  "sourceExtract": "victoria-latest.osm.pbf",
+  "radiusMeters": 10000,
+  "port": {
+    "id": "geelong-australia",
+    "city": "Geelong",
+    "country": "Australia"
+  },
+  "defaultTerminalId": "ports-json-anchor",
+  "terminal": {
+    "id": "ports-json-anchor",
+    "name": "GEELONG Port",
+    "lat": -38.15,
+    "lng": 144.37,
+    "address": "Geelong, Victoria, Australia",
+    "source": "ports.json",
+    "sourceId": "",
+    "score": 0,
+    "slug": "geelong-port"
+  },
+  "terminals": [
+    {
+      "id": "ports-json-anchor",
+      "name": "GEELONG Port",
+      "lat": -38.15,
+      "lng": 144.37,
+      "address": "Geelong, Victoria, Australia",
+      "source": "ports.json",
+      "sourceId": "",
+      "score": 0,
+      "slug": "geelong-port"
+    }
+  ],
+  "terminalCandidateRadiusMeters": 5000,
+  "terminalCandidates": [
+    {
+      "source": "openstreetmap+nominatim",
+      "sourceId": "osm/generated/0655c58682ab8da0305a",
+      "name": "Port Phillip Ferries (Geelong-Docklands)",
+      "nameEnglish": "",
+      "lat": -38.1430774,
+      "lng": 144.3622527,
+      "distanceFromPortMeters": 1025,
+      "address": "Port Phillip Ferries (Geelong-Docklands), Cunningham Pier, Geelong, Victoria, 3220, Australia",
+      "matchedBy": [
+        "amenity=ferry_terminal",
+        "Nominatim query: GEELONG Port, Geelong, Australia"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "operator": "Port Phillip Ferries",
+        "public_transport": "stop_position"
+      },
+      "sources": [
+        "openstreetmap",
+        "nominatim"
+      ],
+      "sourceIds": [
+        "osm/generated/0655c58682ab8da0305a",
+        "osm/node/7187651056"
+      ],
+      "displayName": "Port Phillip Ferries (Geelong-Docklands), Cunningham Pier, Geelong, Victoria, 3220, Australia",
+      "query": "GEELONG Port, Geelong, Australia"
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b41f33589ca6b6330a0f",
+      "name": "Spirit of Tasmania",
+      "nameEnglish": "",
+      "lat": -38.1068862,
+      "lng": 144.362259,
+      "distanceFromPortMeters": 4842,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "station"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/b41f33589ca6b6330a0f"
+      ]
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/eacdc62a3a8742ea65f2",
+      "name": "Spirit of Tasmania",
+      "nameEnglish": "",
+      "lat": -38.1065381,
+      "lng": 144.3607553,
+      "distanceFromPortMeters": 4900,
+      "address": "",
+      "matchedBy": [
+        "amenity=ferry_terminal"
+      ],
+      "osmTags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "stop_position"
+      },
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/eacdc62a3a8742ea65f2"
+      ]
+    }
+  ],
+  "counts": {
+    "attraction": 12,
+    "outdoors": 6,
+    "food_drink": 12,
+    "shopping": 0,
+    "essentials": 0
+  },
+  "pois": [
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/6f538a06167097f2e1ce",
+      "name": "National Wool Museum",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": -38.1454159,
+      "lng": 144.3611734,
+      "distanceFromTerminalMeters": 925,
+      "distanceFromDefaultTerminalMeters": 925,
+      "minDistanceFromAnyTerminalMeters": 925,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "26-32 Moorabool Street",
+      "openingHours": "Mo-Su 10:00-15:00",
+      "website": "",
+      "phone": "+61 3 5272 4701",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d611bee53a7741a8d128",
+      "name": "Museum of Play and Art",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": -38.1528335,
+      "lng": 144.357123,
+      "distanceFromTerminalMeters": 1169,
+      "distanceFromDefaultTerminalMeters": 1169,
+      "minDistanceFromAnyTerminalMeters": 1169,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "51 McKillop Street",
+      "openingHours": "Mo-Fr 09:30-15:30; Sa,Su 09:00-17:00",
+      "website": "https://museumofplayandart.com.au",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/6862ee273426119d91ae",
+      "name": "Geelong Sports Museum",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": -38.1571588,
+      "lng": 144.3554109,
+      "distanceFromTerminalMeters": 1504,
+      "distanceFromDefaultTerminalMeters": 1504,
+      "minDistanceFromAnyTerminalMeters": 1504,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "We-Fr 10:00-16:30; PH off",
+      "website": "https://geelongsportsmuseum.vic.gov.au",
+      "phone": "+61 3 5224 9111",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/2a53b6d7dcd6a58a382d",
+      "name": "Geelong Gallery",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "gallery",
+      "lat": -38.146957,
+      "lng": 144.3569187,
+      "distanceFromTerminalMeters": 1193,
+      "distanceFromDefaultTerminalMeters": 1193,
+      "minDistanceFromAnyTerminalMeters": 1193,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "55 Little Malop Street",
+      "openingHours": "Mo-Su 10:00-17:00",
+      "website": "https://geelonggallery.org.au",
+      "phone": "+61 3 5229 3645",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "gallery"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/32933900191d6f574ff9",
+      "name": "James Street Gallery",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "gallery",
+      "lat": -38.1481582,
+      "lng": 144.3586054,
+      "distanceFromTerminalMeters": 1017,
+      "distanceFromDefaultTerminalMeters": 1017,
+      "minDistanceFromAnyTerminalMeters": 1017,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "4 James Street",
+      "openingHours": "",
+      "website": "",
+      "phone": "+61 3 5221 1789",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "gallery"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f3d03eafd802d9f5210b",
+      "name": "Ferris Wheel",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": -38.1459799,
+      "lng": 144.3676872,
+      "distanceFromTerminalMeters": 491,
+      "distanceFromDefaultTerminalMeters": 491,
+      "minDistanceFromAnyTerminalMeters": 491,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/1878142fcd3ee7dc1049",
+      "name": "Old Geelong Gaol",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": -38.1538565,
+      "lng": 144.3654504,
+      "distanceFromTerminalMeters": 585,
+      "distanceFromDefaultTerminalMeters": 585,
+      "minDistanceFromAnyTerminalMeters": 585,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/a04f2e5761ae15c11231",
+      "name": "The Carousel",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": -38.1437122,
+      "lng": 144.362968,
+      "distanceFromTerminalMeters": 931,
+      "distanceFromDefaultTerminalMeters": 931,
+      "minDistanceFromAnyTerminalMeters": 931,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1-11 Eastern Beach Road, 3220, AU",
+      "openingHours": "",
+      "website": "",
+      "phone": "+61 3 5224 1547",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d41d01c549489347f8e1",
+      "name": "Geelong Powerhouse",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": -38.1167198,
+      "lng": 144.3580202,
+      "distanceFromTerminalMeters": 3846,
+      "distanceFromDefaultTerminalMeters": 3846,
+      "minDistanceFromAnyTerminalMeters": 3846,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "40 Mackey Street",
+      "openingHours": "Mo-Su 09:30-17:00",
+      "website": "http://www.powerhousegeelong.com",
+      "phone": "+61 418 526 640",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/7e9b4cca706e622db760",
+      "name": "'St Leonards'",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "building",
+      "lat": -38.1483045,
+      "lng": 144.3522144,
+      "distanceFromTerminalMeters": 1567,
+      "distanceFromDefaultTerminalMeters": 1567,
+      "minDistanceFromAnyTerminalMeters": 1567,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "262 La Trobe Terrace",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "building"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/face13d94d0113a7ae5b",
+      "name": "Highton WW2 Memorial Gates",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "monument",
+      "lat": -38.1712922,
+      "lng": 144.3203874,
+      "distanceFromTerminalMeters": 4942,
+      "distanceFromDefaultTerminalMeters": 4942,
+      "minDistanceFromAnyTerminalMeters": 4942,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "historic": "monument"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/14611eea27f9560e5571",
+      "name": "Geelong Botanic Gardens",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "garden",
+      "lat": -38.150081,
+      "lng": 144.3777033,
+      "distanceFromTerminalMeters": 674,
+      "distanceFromDefaultTerminalMeters": 674,
+      "minDistanceFromAnyTerminalMeters": 674,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "https://www.geelongaustralia.com.au/gbg/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "garden"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/6e67401e1930b5894ae9",
+      "name": "Eastern Beach",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "beach",
+      "lat": -38.1462474,
+      "lng": 144.3699099,
+      "distanceFromTerminalMeters": 417,
+      "distanceFromDefaultTerminalMeters": 417,
+      "minDistanceFromAnyTerminalMeters": 417,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "natural": "beach"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/e872dad77c02d1cb3995",
+      "name": "21st Century Garden",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "garden",
+      "lat": -38.149152,
+      "lng": 144.37648,
+      "distanceFromTerminalMeters": 574,
+      "distanceFromDefaultTerminalMeters": 574,
+      "minDistanceFromAnyTerminalMeters": 574,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "garden"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/e634da5024c62ffb4e0b",
+      "name": "Rose Garden",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "garden",
+      "lat": -38.1496504,
+      "lng": 144.3775562,
+      "distanceFromTerminalMeters": 662,
+      "distanceFromDefaultTerminalMeters": 662,
+      "minDistanceFromAnyTerminalMeters": 662,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "garden"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f1431dc9d051d1659818",
+      "name": "Royal Geelong Yacht Club",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "marina",
+      "lat": -38.1444547,
+      "lng": 144.3672636,
+      "distanceFromTerminalMeters": 661,
+      "distanceFromDefaultTerminalMeters": 661,
+      "minDistanceFromAnyTerminalMeters": 661,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "https://www.rgyc.com.au/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "marina"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b703b38d2fbb3f506c94",
+      "name": "La Cachette Bistrot",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": -38.1450723,
+      "lng": 144.3631806,
+      "distanceFromTerminalMeters": 810,
+      "distanceFromDefaultTerminalMeters": 810,
+      "minDistanceFromAnyTerminalMeters": 810,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "6-8 Eastern Beach Road",
+      "openingHours": "Tu-Fr 17:30-22:30; Sa,Su 12:00-14:30,17:30-22:30",
+      "website": "https://cachette.com.au",
+      "phone": "+61 478 522 996",
+      "cuisine": [
+        "french"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/84d41ecaf32874d05ebd",
+      "name": "Justin Lane",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": -38.1451247,
+      "lng": 144.3623063,
+      "distanceFromTerminalMeters": 864,
+      "distanceFromDefaultTerminalMeters": 864,
+      "minDistanceFromAnyTerminalMeters": 864,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Su 12:00+",
+      "website": "https://justinlane.com.au",
+      "phone": "+61 3 5246 6500",
+      "cuisine": [
+        "pizza"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/54d1cf35bdd43d464d8b",
+      "name": "Hana",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": -38.14672,
+      "lng": 144.3599571,
+      "distanceFromTerminalMeters": 951,
+      "distanceFromDefaultTerminalMeters": 951,
+      "minDistanceFromAnyTerminalMeters": 951,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "35 Malop Street",
+      "openingHours": "Mo-Th 11:00-15:00,17:00-20:30; Tu 11:00-15:00; Fr 11:00-15:00,17:00-21:30; Sa 11:00-21:30; Su 11:00-21:00",
+      "website": "https://hanajapaneserestaurant.com.au",
+      "phone": "+61 3 5270 2784",
+      "cuisine": [
+        "japanese"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/9a9cfa7a02a98a5eb889",
+      "name": "Pho Downtown",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": -38.1495305,
+      "lng": 144.3586677,
+      "distanceFromTerminalMeters": 992,
+      "distanceFromDefaultTerminalMeters": 992,
+      "minDistanceFromAnyTerminalMeters": 992,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "7 Warner Place",
+      "openingHours": "Mo-Sa 10:30-21:00; Su 11:00-20:00",
+      "website": "https://phodowntown.com",
+      "phone": "+61 3 5270 3991",
+      "cuisine": [
+        "vietnamese"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c3e8ac12f23b81d50caa",
+      "name": "Pizza and Mandi House",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": -38.1494113,
+      "lng": 144.3586399,
+      "distanceFromTerminalMeters": 996,
+      "distanceFromDefaultTerminalMeters": 996,
+      "minDistanceFromAnyTerminalMeters": 996,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "132 Ryrie Street",
+      "openingHours": "Mo-We 17:00-23:00; Th-Su 17:00-24:00",
+      "website": "https://pizzanmandihousegeelong.com.au",
+      "phone": "+61 3 5923 0223",
+      "cuisine": [
+        "pizza"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/a565d9a4c79064f6a650",
+      "name": "Eastern Spice",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": -38.1478065,
+      "lng": 144.366408,
+      "distanceFromTerminalMeters": 398,
+      "distanceFromDefaultTerminalMeters": 398,
+      "minDistanceFromAnyTerminalMeters": 398,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "https://easternspice.com.au",
+      "phone": "+61 3 5221 9544",
+      "cuisine": [
+        "indian"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/9ab9ee44af160f2b7f02",
+      "name": "Hecho En Mexico",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": -38.143979,
+      "lng": 144.3614568,
+      "distanceFromTerminalMeters": 1003,
+      "distanceFromDefaultTerminalMeters": 1003,
+      "minDistanceFromAnyTerminalMeters": 1003,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "100 Western Beach Road, 3220",
+      "openingHours": "Mo-Su 12:00-21:30; Fr-Sa 12:00-22:00",
+      "website": "https://hechoenmexico.com.au",
+      "phone": "+61 3 5221 2774",
+      "cuisine": [
+        "mexican"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c462010dd34c46807cd6",
+      "name": "Khan Curry Hut",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": -38.148545,
+      "lng": 144.3580922,
+      "distanceFromTerminalMeters": 1054,
+      "distanceFromDefaultTerminalMeters": 1054,
+      "minDistanceFromAnyTerminalMeters": 1054,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "97-99 Ryrie Street",
+      "openingHours": "Mo-Su 17:00-22:00",
+      "website": "https://khancurryhut.com.au",
+      "phone": "",
+      "cuisine": [
+        "indian"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b270fa148774043f2e29",
+      "name": "emerge",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": -38.1494177,
+      "lng": 144.3579375,
+      "distanceFromTerminalMeters": 1057,
+      "distanceFromDefaultTerminalMeters": 1057,
+      "minDistanceFromAnyTerminalMeters": 1057,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "33 Little Ryrie Street",
+      "openingHours": "Mo-Su 11:30-14:00,17:00-20:30",
+      "website": "https://emergedining.com.au",
+      "phone": "+61 3 5229 5511",
+      "cuisine": [
+        "australian"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/fff01ed02ef820d76809",
+      "name": "Oxide Arts",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "gallery",
+      "lat": -38.1476393,
+      "lng": 144.3595835,
+      "distanceFromTerminalMeters": 948,
+      "distanceFromDefaultTerminalMeters": 948,
+      "minDistanceFromAnyTerminalMeters": 948,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "tourism": "gallery"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/e0c7fea6dad5aa4a6e4d",
+      "name": "Eastern Park",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": -38.1497531,
+      "lng": 144.3793596,
+      "distanceFromTerminalMeters": 819,
+      "distanceFromDefaultTerminalMeters": 819,
+      "minDistanceFromAnyTerminalMeters": 819,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "https://www.geelongaustralia.com.au/leisure/parks/item/eastern.aspx",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/77fc96288ffb020a6456",
+      "name": "Boba Central",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": -38.1492758,
+      "lng": 144.3608939,
+      "distanceFromTerminalMeters": 800,
+      "distanceFromDefaultTerminalMeters": 800,
+      "minDistanceFromAnyTerminalMeters": 800,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "18 Union Street",
+      "openingHours": "Mo-Th,Su 11:00-18:00; Fr-Sa 11:00-19:00",
+      "website": "https://boba-central.business.site/",
+      "phone": "+61 424 224 311",
+      "cuisine": [
+        "bubble_tea"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/0dfa8ce88cf18a1bba65",
+      "name": "Bubble Bar",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": -38.1498306,
+      "lng": 144.3607663,
+      "distanceFromTerminalMeters": 808,
+      "distanceFromDefaultTerminalMeters": 808,
+      "minDistanceFromAnyTerminalMeters": 808,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "188 Ryrie Street",
+      "openingHours": "",
+      "website": "https://bubblebar.whoods.com.au",
+      "phone": "+61 3 5298 3183",
+      "cuisine": [
+        "bubble_tea"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c4e60a6019174e8b7aa5",
+      "name": "Cake Cult",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": -38.1480751,
+      "lng": 144.3598938,
+      "distanceFromTerminalMeters": 909,
+      "distanceFromDefaultTerminalMeters": 909,
+      "minDistanceFromAnyTerminalMeters": 909,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "101 Little Malop Street",
+      "openingHours": "Th-Su 18:00-23:00",
+      "website": "https://jointhecakecult.com.au",
+      "phone": "",
+      "cuisine": [
+        "cake"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    }
+  ],
+  "portAnchor": {
+    "id": "ports-json-anchor",
+    "name": "GEELONG Port",
+    "lat": -38.15,
+    "lng": 144.37,
+    "address": "Geelong, Victoria, Australia",
+    "source": "ports.json",
+    "sourceId": "",
+    "score": 0,
+    "slug": "geelong-port"
+  },
+  "terminalResolution": {
+    "status": "unresolved",
+    "method": "ports_json_fallback",
+    "verified": false,
+    "notes": "All supplied candidates are ferry-only stops, local docks, unnamed maritime features, or unrelated places rather than passenger cruise terminals."
+  }
+}
