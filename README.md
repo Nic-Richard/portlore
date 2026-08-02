@@ -1,83 +1,78 @@
 # Portlore
 
-Portlore is a cruise-port day-planning guide for passengers who want practical stops near their terminal. It combines a curated OpenStreetMap point-of-interest catalog with Google Places matching, route calculations, and a small Anthropic enrichment step that produces visitor-facing descriptions and tips.
+Portlore is a cruise port guide for finding nearby places and planning a day ashore. It combines port and terminal data with curated OpenStreetMap POIs, Google Places matching, route estimates, and generated destination summaries.
 
 **Live site:** https://portlore.com
 
 ## Features
 
-- Search and browse 310 cruise destinations
-- Port and terminal-aware maps
-- Curated attractions, food, shopping, and practical stops
-- Walking and driving estimates from the selected terminal
-- Custom itinerary planning with visit and travel time
-- Google Maps links backed by resolved Place IDs
-- On-demand generation for ports that do not yet have a published guide
+- Search and browse port destinations
+- View port and terminal locations on a map
+- Explore attractions, food, shopping, and practical stops
+- Compare walking and driving estimates
+- Build an itinerary with visit and travel time
+- Open matched locations in Google Maps
+- Generate guides for ports that do not have one yet
 
-## Repository structure
+## Project structure
 
 ```text
-client/                  Static single-page frontend
+client/                  Static frontend
 server/                  Express API and generation routes
-shared/                  POI curation, geocoding, and terminal logic
-scripts/                 Offline catalog and guide-generation tools
-cities/ports.json        Port index and fallback anchors
-cities/poi/              Final curated POI catalogs for all ports
+shared/                  Shared POI, geocoding, and terminal logic
+scripts/                 Catalog and guide generation tools
+cities/ports.json        Current port catalog
+cities/poi/              Curated POI catalogs
 ```
 
-The frontend intentionally lives in `client/src/index.html`. It is a dependency-free static application rather than a Vite or React project.
+The frontend is currently contained in `client/src/index.html` and can be reworked into a more structured client later.
 
-## Data pipeline
+## Current data flow
 
-The repository contains the final curated POI catalogs used by the application. It does not include the large raw `.osm.pbf` extracts or earlier intermediate catalogs.
+1. `scripts/generate-ports.js` creates a broad candidate list from the World Port Index dataset.
+2. Candidates are reviewed before being added to `cities/ports.json`.
+3. `scripts/build-all-poi-catalogs.js` downloads the required OpenStreetMap extracts.
+4. `scripts/build-poi-catalog.js` extracts nearby POI candidates for each port.
+5. POIs are reviewed and saved in `cities/poi/`.
+6. Google Places matching adds Place IDs and terminal candidates.
+7. Anthropic is used for short destination descriptions and practical tips.
+8. The server calculates route, distance, and terminal access information.
 
-The current flow is:
+Generated guides are stored as `cities/<port-id>.json`. They are runtime files and are not committed to Git.
 
-1. `scripts/generate-ports.js` can produce a broad WIP candidate list from the World Port Index dataset.
-2. Candidate ports are reviewed and filtered before selected records are added to `cities/ports.json`.
-3. `cities/ports.json` defines the supported ports and fallback anchors.
-4. `scripts/build-all-poi-catalogs.js` refreshes the temporary Geofabrik extract manifest and downloads the required source extracts.
-5. `scripts/build-poi-catalog.js` extracts local POI candidates.
-6. The resulting catalogs are curated and stored in `cities/poi/`.
-7. Google Places matching resolves stable Place IDs and passenger terminal candidates.
-8. The Anthropic API adds concise visitor descriptions and practical tips.
-9. The server calculates terminal distance, access, and route information in code.
+## Work in progress
 
-Generated user-facing guides are runtime data stored as `cities/<port-id>.json`. They are intentionally ignored by Git. The live server currently contains only the guides that have been generated or uploaded there.
+The port list, cruise-port filtering, terminal records, and POI catalogs are still being refined.
 
+The current `cities/ports.json` contains a manually reviewed working catalog, but it may still include unsuitable ports, miss valid cruise destinations, or combine terminals that should be treated separately.
 
-## Port discovery status
-
-Port discovery, passenger-cruise filtering, and the current manually curated port catalog are still works in progress.
-
-The committed `cities/ports.json` is the best current working set for the live product, but it has not yet received a final verification pass. It may still include non-passenger ports, miss legitimate cruise destinations, or group nearby terminals too broadly.
-
-Run the broad candidate generator with:
+Run the initial port candidate generator with:
 
 ```bash
 node scripts/generate-ports.js
 ```
 
-It writes `cities/port-candidates.json`, which is ignored by Git. The script uses physical port characteristics as a first-pass filter and does not confirm that a port is an active passenger cruise destination.
+It writes `cities/port-candidates.json`. This file is ignored by Git and does not replace `cities/ports.json`.
 
-The generated candidates must be reviewed before records are added to `cities/ports.json`. That catalog is manually curated but remains provisional. The script never overwrites the production port catalog.
+The generator only applies a broad physical-port filter. It does not confirm that a port currently receives passenger cruises.
+
 ## Rebuild POI candidates
 
-The batch builder regenerates `cities/osm-extracts.json` automatically before downloading extracts and building catalogs:
+Run the batch builder with:
 
 ```bash
 node scripts/build-all-poi-catalogs.js
 ```
 
-The manifest, raw PBF files, and `cities/poi-raw/` output are generated locally and ignored by Git. Use `--no-sync-manifest` only when deliberately reusing an existing local manifest.
+It creates `cities/osm-extracts.json`, downloads the required `.osm.pbf` files, and builds local POI data. The manifest, raw extracts, and `cities/poi-raw/` output are ignored by Git.
 
-Validate the committed port and catalog data with:
+Validate the committed port and POI data with:
 
 ```bash
 node scripts/validate-data.js
 ```
 
-Review nearby-port candidates and ID anomalies with:
+Audit nearby ports and possible ID issues with:
 
 ```bash
 node scripts/audit-ports.js
@@ -90,19 +85,22 @@ Requirements:
 - Node.js 20 or newer
 - Anthropic API key
 - Google Maps Platform key with Places and Routes access
-- Pexels API key for destination imagery
+- Pexels API key
 
-Copy the environment template:
+Create the local environment file:
 
 ```bash
 cp .env.example .env
 ```
 
-Install server and script dependencies. Commit the generated lockfiles before publishing the repository so installs remain repeatable:
+Install dependencies:
 
 ```bash
-cd server && npm install
-cd ../scripts && npm install
+cd server
+npm install
+
+cd ../scripts
+npm install
 ```
 
 Start the API:
@@ -112,11 +110,11 @@ cd server
 npm start
 ```
 
-Serve `client/src/` with any static web server on port `8080` for local development.
+Serve `client/src/` with a static web server on port `8080` to run the frontend locally.
 
 ## Generate a guide
 
-Generate one port locally:
+Generate one guide:
 
 ```bash
 node scripts/generate-city.js saint-john-canada
@@ -128,43 +126,39 @@ Resolve Google Places data without generating the full guide:
 node scripts/resolve-google-places.js saint-john-canada
 ```
 
-Batch example:
+Process a small batch:
 
 ```bash
 node scripts/resolve-google-places.js --all --limit=10
 ```
 
-Generated guides are written to `cities/<port-id>.json`. Source POI catalogs are never rewritten by the guide-generation step.
+Generated guides are written to `cities/<port-id>.json`. The source files in `cities/poi/` are not changed.
 
 ## Deployment
 
-Copy `.env.deploy.example` to `.env.deploy` and configure the SSH target. The real deployment file is ignored by Git.
+Copy `.env.deploy.example` to `.env.deploy` and add the SSH target and remote directory.
+
+Deploy with:
 
 ```bash
 bash scripts/deploy.sh
 ```
 
-The script can be run from any directory. It uploads the application, merges the port index without discarding generated-state flags, installs dependencies, validates the health endpoint, and reloads Nginx.
+The script uploads the release, installs server dependencies, preserves existing generated guides, restarts Portlore with PM2, checks the health endpoint, and reloads Nginx.
 
-## Data limitations
+## Data notes
 
-Portlore is a planning guide, not a source of truth for opening hours, accessibility, transportation availability, or cruise schedules. POIs and terminal records retain source metadata where available, but travelers should confirm time-sensitive details with official sources.
+Portlore is a planning tool. Opening hours, accessibility, transportation, terminal use, and cruise schedules can change. Travelers should confirm important details with official sources.
 
-## Data reproducibility
+The scripts can rebuild new POI candidates from current OpenStreetMap data, but they cannot reproduce the committed catalogs exactly. The current catalogs include automated extraction, manual review, assisted curation, and later cleanup.
 
-The included extraction pipeline can rebuild raw and preselected POI candidates from current OpenStreetMap data. It cannot deterministically recreate the exact committed final catalogs.
+## Removing ports
 
-The final catalogs in `cities/poi/` reflect several stages of work, including automated OSM extraction, candidate reselection, manual review, assisted curation, targeted attraction recovery, and later cleanup passes. The repository does not include every intermediate catalog, prompt, result, or historical OSM snapshot used during that process.
+To remove a port from the project:
 
-This means the scripts can produce a new candidate dataset from current source data, while the committed curated catalogs remain the source of truth for the current product.
+1. Delete its entry from `cities/ports.json`.
+2. Delete its matching file from `cities/poi/`.
+3. Run `node scripts/validate-data.js`.
+4. Delete any old generated guide for that port from the server when appropriate.
 
-## Trimming the port catalog
-
-The master catalog is `cities/ports.json`. To remove ports later:
-
-1. Remove the unwanted entries from `cities/ports.json`.
-2. Remove their matching files from `cities/poi/`.
-3. Run `node scripts/validate-data.js` to verify the remaining catalog.
-4. Remove any stale generated guide files from the server as a separate explicit maintenance step.
-
-Generated city guides are intentionally preserved during normal deployment because they are runtime output and are not committed to this repository. Normal deployment therefore does not automatically delete guides for ports removed from `ports.json`.
+Normal deployment preserves generated guides, so removed ports are not deleted from the server automatically.
