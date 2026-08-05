@@ -1,6 +1,8 @@
 # Portlore
 
-Portlore is a cruise port guide for finding nearby places and planning a day ashore. It combines port and terminal data with curated OpenStreetMap POIs, Google Places matching, route estimates, and generated destination summaries.
+Portlore is a cruise port guide that helps passengers find worthwhile places near where they disembark and plan what they can realistically fit into a day ashore.
+
+The project is built around turning messy geographic data into useful destination guides. It starts with ports from around the world, resolves practical passenger terminal locations, gathers large sets of nearby POIs, and filters them through several rounds of cleanup and review. A model is used near the end for final curation and guide content, but most of the work comes from building and refining the data that makes those results useful.
 
 **Live site:** https://portlore.com
 
