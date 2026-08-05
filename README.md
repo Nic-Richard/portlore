@@ -2,7 +2,7 @@
 
 Portlore is a cruise port guide that helps passengers find worthwhile places near where they disembark and plan what they can realistically fit into a day ashore.
 
-The project is built around turning messy geographic data into useful destination guides. It starts with ports from around the world, resolves practical passenger terminal locations, gathers large sets of nearby POIs, and filters them through several rounds of cleanup and review. A model is used near the end for final curation and guide content, but most of the work comes from building and refining the data that makes those results useful.
+The project is built around turning messy geographic data into useful destination guides. It starts with ports from around the world, resolves practical passenger terminal locations, gathers large sets of nearby POIs, and filters them through several rounds of cleanup and review. The finished guide presents the strongest options in a visual map and itinerary interface, with travel estimates and practical port information to help passengers plan their time ashore.
 
 **Live site:** https://portlore.com
 
