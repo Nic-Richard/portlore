@@ -8,6 +8,7 @@ import generateRoute from './routes/generate.js';
 import cityRoute from './routes/city.js';
 import nearbyRoute from './routes/nearby.js';
 import routeRoute from './routes/route.js';
+import * as logger from './lib/logger.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 config({ path: path.join(__dirname, '..', '..', '.env') });
@@ -28,5 +29,5 @@ app.use('/api/route', routeRoute);
 app.get('/api/health', (_, res) => res.json({ ok: true }));
 
 app.listen(PORT, () => {
-  console.log(`Portlore server running on port ${PORT}`);
+  logger.info(`Portlore server running on port ${PORT}`);
 });

@@ -10,7 +10,8 @@
     "poi:all": "node build-all-poi-catalogs.js",
     "places": "node resolve-google-places.js",
     "validate": "node validate-data.js",
-    "audit": "node audit-ports.js"
+    "audit": "node audit-ports.js",
+    "smoke": "node smoke-shared.js"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.30.0",

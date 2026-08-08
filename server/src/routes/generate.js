@@ -14,6 +14,7 @@ import {
   POI_CATALOG_SCHEMA_VERSION,
 } from '../../../shared/poi-curation.js';
 import { discoverGoogleCruiseTerminals, resolveCatalogGooglePlaces, resolveCurationGooglePlaces } from '../../../shared/google-places.js';
+import * as logger from '../lib/logger.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const CITIES_DIR = path.join(__dirname, '..', '..', '..', 'cities');
@@ -151,7 +152,7 @@ router.post('/:id', async (req, res) => {
       apiKey: process.env.GOOGLE_MAPS_API_KEY,
       cachePath: path.join(CITIES_DIR, '.google-place-id-cache.json'),
     });
-    console.log(`Google terminal discovery for ${portInfo.id}: ${discoveredTerminals.length} terminal(s)`);
+    logger.debug(`Google terminal discovery for ${portInfo.id}: ${discoveredTerminals.length} terminal(s)`);
 
     const client = new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY });
     const response = await client.messages.create({
@@ -163,7 +164,7 @@ router.post('/:id', async (req, res) => {
     });
 
     const responseUsage = response.usage || {};
-    console.log(`Claude response for ${id}: stop_reason=${response.stop_reason || 'unknown'}, input_tokens=${responseUsage.input_tokens || 0}, output_tokens=${responseUsage.output_tokens || 0}, max_tokens=${CITY_MAX_TOKENS}`);
+    logger.debug(`Claude response for ${id}: stop_reason=${response.stop_reason || 'unknown'}, input_tokens=${responseUsage.input_tokens || 0}, output_tokens=${responseUsage.output_tokens || 0}, max_tokens=${CITY_MAX_TOKENS}`);
 
     const fullText = response.content.filter(block => block.type === 'text').map(block => block.text).join('');
     const start = fullText.indexOf('{');
@@ -189,9 +190,9 @@ router.post('/:id', async (req, res) => {
       }
     } catch {}
 
-    console.log(`Enriched from curated POI catalog: ${cityInput}`);
+    logger.debug(`Enriched from curated POI catalog: ${cityInput}`);
   } catch (error) {
-    console.error(`Generation failed for ${id}:`, error.message);
+    logger.error(`Generation failed for ${id}:`, error.message);
   } finally {
     inProgress.delete(id);
   }
