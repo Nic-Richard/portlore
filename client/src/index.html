@@ -133,8 +133,39 @@ body { font-family: var(--sans); background: var(--sand); color: var(--text); mi
 }
 
 @media (min-width: 900px) {
-  #page-welcome { align-items: center; }
-  .w-content { max-width: 480px; width: 100%; }
+  #page-welcome { align-items: stretch; }
+  .w-content {
+    width: 100%;
+    max-width: none;
+    padding: 0 clamp(3rem, 7vw, 9rem) clamp(3rem, 7vh, 5rem);
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(430px, 500px);
+    grid-template-rows: auto 1fr;
+    column-gap: clamp(4rem, 8vw, 10rem);
+  }
+  .w-wordmark {
+    grid-column: 1 / -1;
+    padding: 2rem 0 0;
+  }
+  .w-hero {
+    grid-column: 1;
+    grid-row: 2;
+    justify-content: center;
+    padding: 0;
+    max-width: 720px;
+  }
+  .w-city { font-size: clamp(4.8rem, 6vw, 7.2rem); }
+  .w-tagline { font-size: 1.05rem; }
+  .w-card {
+    grid-column: 2;
+    grid-row: 2;
+    align-self: center;
+    border: 1px solid rgba(255,255,255,0.14);
+    border-radius: 1rem;
+    padding: 1.5rem;
+    background: rgba(8,18,32,0.58);
+    box-shadow: 0 24px 80px rgba(0,0,0,0.28);
+  }
 }
 
 .w-time-label {
@@ -380,7 +411,7 @@ body { font-family: var(--sans); background: var(--sand); color: var(--text); mi
   body { overflow: hidden; height: 100vh; }
   #page-explore { overflow: hidden; height: 100vh; }
   .app-col {
-    width: 390px; flex-shrink: 0; margin: 0;
+    width: 440px; flex-shrink: 0; margin: 0;
     border-right: 1px solid var(--border);
     overflow-y: auto; height: 100vh; max-width: none;
   }
