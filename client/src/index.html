@@ -121,6 +121,15 @@ body { font-family: var(--sans); background: var(--sand); color: var(--text); mi
 }
 .w-photo-credit a { color: inherit; text-decoration: none; }
 .w-photo-credit a:hover { color: rgba(255,255,255,0.4); }
+.w-legal {
+  font-family: var(--sans);
+  font-size: 0.7rem;
+  color: rgba(255,255,255,0.35);
+  text-align: center;
+  margin-top: 0.9rem;
+}
+.w-legal a { color: inherit; text-decoration: none; }
+.w-legal a:hover { color: rgba(255,255,255,0.6); }
 .w-card {
   position: relative; z-index: 2;
   flex-shrink: 0;
@@ -923,6 +932,7 @@ html.detail-open, body.detail-open { overflow: hidden !important; overscroll-beh
         </div>
       </div>
       <button class="w-go" id="goBtn" disabled>Let's explore</button>
+      <div class="w-legal"><a href="/privacy">Privacy</a> · <a href="/terms">Terms</a></div>
     </div>
   </div>
 </div>

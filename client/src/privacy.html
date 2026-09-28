@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Privacy · Portlore</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&display=swap" rel="stylesheet"/>
+<style>
+:root {
+  --navy:   #0b1929;
+  --accent: #3d9be0;
+  --sand:   #f5f0e8;
+  --border: #e2ddd6;
+  --muted:  #8a8880;
+  --text:   #1a1614;
+  --sans:   'DM Sans', system-ui, sans-serif;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: var(--sans); background: var(--sand); color: var(--text); line-height: 1.65; }
+main { max-width: 680px; margin: 0 auto; padding: 2.5rem 1rem 4rem; }
+.wordmark { color: var(--navy); font-weight: 700; font-size: 1.05rem; letter-spacing: -0.01em; text-decoration: none; }
+h1 { color: var(--navy); font-size: 2rem; letter-spacing: -0.02em; margin-top: 2rem; }
+.updated { color: var(--muted); font-size: 0.85rem; margin-top: 0.3rem; }
+.intro { margin-top: 1.2rem; }
+section { border-top: 1px solid var(--border); margin-top: 1.8rem; padding-top: 1.4rem; }
+h2 { color: var(--navy); font-size: 1.05rem; margin-bottom: 0.5rem; }
+p + p, p + ul, ul + p { margin-top: 0.7rem; }
+ul { padding-left: 1.2rem; }
+li + li { margin-top: 0.3rem; }
+a { color: var(--accent); }
+footer { border-top: 1px solid var(--border); margin-top: 2.5rem; padding-top: 1.2rem; font-size: 0.85rem; color: var(--muted); }
+footer a { color: var(--muted); }
+</style>
+</head>
+<body>
+<main>
+  <a class="wordmark" href="/">Portlore</a>
+
+  <h1>Privacy Policy</h1>
+  <p class="updated">Last updated: September 28, 2026</p>
+  <p class="intro">This policy explains what Portlore collects and how it is used. Portlore is operated by Nic Richard in New Brunswick, Canada.</p>
+
+  <section>
+    <h2>1. No accounts</h2>
+    <p>Portlore doesn't have accounts. You don't need to sign up or give your name or email address to use it.</p>
+  </section>
+
+  <section>
+    <h2>2. Your location</h2>
+    <p>If you allow it, Portlore uses your device's location to find your nearest cruise port and to show walking distances to places. Your location stays on your device. It is never sent to Portlore's servers or stored.</p>
+    <p>If you don't allow location access, Portlore shows distances from the cruise terminal instead.</p>
+  </section>
+
+  <section>
+    <h2>3. What Portlore's servers receive</h2>
+    <ul>
+      <li>The ports and places you look up.</li>
+      <li>The stops in an itinerary, to calculate travel times between them. These requests contain the places' coordinates, not your location.</li>
+      <li>Basic technical information found in server logs, such as IP address, browser, and request times.</li>
+    </ul>
+    <p>IP addresses are also kept briefly in memory to limit how often new port guides can be generated.</p>
+  </section>
+
+  <section>
+    <h2>4. Analytics</h2>
+    <p>Portlore uses TraceTray to understand how people use the site. It records things like cursor movement, taps, scrolling, and which pages are visited, and stores a random visitor ID in your browser so visits can be grouped together. It doesn't record what you type, form entries, or anything that identifies you, and it isn't used for advertising. See <a href="https://tracetray.com/privacy.html">TraceTray's privacy policy</a> for details.</p>
+  </section>
+
+  <section>
+    <h2>5. Third-party services</h2>
+    <p>While you use Portlore, your browser loads map tiles from OpenStreetMap, weather for the port from Open-Meteo, fonts from Google Fonts, and the map library from unpkg. Like any web request, these services receive your IP address. Links to Google Maps open Google's own site.</p>
+    <p>Portlore's server uses Google Places and Google Routes for place and travel details, and Anthropic to write short place descriptions. These services receive place information only, never information about you.</p>
+  </section>
+
+  <section>
+    <h2>6. Cookies and storage</h2>
+    <p>Portlore doesn't use cookies. The only thing stored in your browser is TraceTray's random visitor ID, described above.</p>
+  </section>
+
+  <section>
+    <h2>7. Data retention</h2>
+    <p>Server logs are kept for a limited time for security and troubleshooting. Portlore doesn't build profiles of its visitors or sell information.</p>
+  </section>
+
+  <section>
+    <h2>8. Children</h2>
+    <p>Portlore is not directed at children under 13.</p>
+  </section>
+
+  <section>
+    <h2>9. Changes to this policy</h2>
+    <p>Portlore may update this policy as the product changes. The latest version will always be posted on this page.</p>
+  </section>
+
+  <section>
+    <h2>10. Contact</h2>
+    <p>Questions or requests about privacy can be sent to <a href="mailto:support@portlore.com">support@portlore.com</a>.</p>
+  </section>
+
+  <footer><a href="/">Portlore</a> · <a href="/terms">Terms of Use</a></footer>
+</main>
+</body>
+</html>
