@@ -101,5 +101,15 @@ footer a { color: var(--muted); }
 
   <footer><a href="/">Portlore</a> · <a href="/terms">Terms of Use</a></footer>
 </main>
+<!-- TraceTray loads only on the live domain; a site key binds to the first domain that sends it data. -->
+<script>
+if (["portlore.com", "www.portlore.com"].includes(location.hostname)) {
+  window.TraceTray = { endpoint: "https://tracetray.com/collect", key: "tt_i5KcdQ_E9Idd86jM" };
+  const s = document.createElement("script");
+  s.src = "https://tracetray.com/client/tracker.js";
+  s.defer = true;
+  document.head.appendChild(s);
+}
+</script>
 </body>
 </html>
