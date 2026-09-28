@@ -15,8 +15,8 @@
     "id": "osm/generated/1a63647e6b6591799e06",
     "name": "Skarfabakki",
     "nameEnglish": "Reykjavík (Skarfabakki)",
-    "lat": 64.1564348,
-    "lng": -21.8666787,
+    "lat": 64.156435,
+    "lng": -21.866679,
     "address": "",
     "source": "verified_terminal_candidate",
     "sourceId": "osm/generated/1a63647e6b6591799e06",
@@ -38,16 +38,15 @@
     },
     "matchedBy": [
       "amenity=ferry_terminal"
-    ],
-    "distanceFromPortMeters": 3152
+    ]
   },
   "terminals": [
     {
       "id": "osm/generated/1a63647e6b6591799e06",
       "name": "Skarfabakki",
       "nameEnglish": "Reykjavík (Skarfabakki)",
-      "lat": 64.1564348,
-      "lng": -21.8666787,
+      "lat": 64.156435,
+      "lng": -21.866679,
       "address": "",
       "source": "verified_terminal_candidate",
       "sourceId": "osm/generated/1a63647e6b6591799e06",
@@ -69,8 +68,29 @@
       },
       "matchedBy": [
         "amenity=ferry_terminal"
-      ],
-      "distanceFromPortMeters": 3152
+      ]
+    },
+    {
+      "id": "review/reykjavik-iceland/faxagardur-cruise-berth-old-harbour",
+      "name": "Faxagardur Cruise Berth (Old Harbour)",
+      "lat": 64.150541,
+      "lng": -21.934944,
+      "terminalType": "passenger_cruise_terminal",
+      "source": "terminal_review",
+      "sourceUrls": [],
+      "verified": true,
+      "sourceId": "review/reykjavik-iceland/faxagardur-cruise-berth-old-harbour"
+    },
+    {
+      "id": "review/reykjavik-iceland/midbakki-cruise-berth-old-harbour",
+      "name": "Midbakki Cruise Berth (Old Harbour)",
+      "lat": 64.149886,
+      "lng": -21.938918,
+      "terminalType": "passenger_cruise_terminal",
+      "source": "terminal_review",
+      "sourceUrls": [],
+      "verified": true,
+      "sourceId": "review/reykjavik-iceland/midbakki-cruise-berth-old-harbour"
     }
   ],
   "terminalCandidateRadiusMeters": 5000,
@@ -1132,8 +1152,9 @@
   },
   "terminalResolution": {
     "status": "resolved",
-    "method": "accepted_terminal_candidate",
+    "method": "terminal_review",
     "verified": true,
-    "notes": "Accepted 1 candidate explicitly identified as an ocean-cruise or cruise-passenger terminal; ferry and unrelated results were excluded."
+    "reviewedAt": "2026-09-28",
+    "notes": "Skarfabakki is the main cruise quay; small ships use the old harbour downtown. Terminal sweep: Added the two Old Harbour berths downtown used by smaller ships (from Google Maps)."
   }
 }

@@ -15,8 +15,8 @@
     "id": "osm/way/119238635",
     "name": "Smith Cove Cruise Terminal",
     "nameEnglish": "",
-    "lat": 47.6273922,
-    "lng": -122.3829223,
+    "lat": 47.627392,
+    "lng": -122.382922,
     "address": "Smith Cove Cruise Terminal, 2001, West Garfield Street, Terminal 91, Queen Anne, Seattle, King County, Washington, 98119, United States",
     "source": "verified_terminal_candidate",
     "sourceId": "osm/way/119238635",
@@ -35,16 +35,15 @@
     },
     "matchedBy": [
       "Nominatim query: Smith Cove Cruise Terminal, Seattle, United States"
-    ],
-    "distanceFromPortMeters": 235
+    ]
   },
   "terminals": [
     {
       "id": "osm/way/119238635",
       "name": "Smith Cove Cruise Terminal",
       "nameEnglish": "",
-      "lat": 47.6273922,
-      "lng": -122.3829223,
+      "lat": 47.627392,
+      "lng": -122.382922,
       "address": "Smith Cove Cruise Terminal, 2001, West Garfield Street, Terminal 91, Queen Anne, Seattle, King County, Washington, 98119, United States",
       "source": "verified_terminal_candidate",
       "sourceId": "osm/way/119238635",
@@ -63,8 +62,18 @@
       },
       "matchedBy": [
         "Nominatim query: Smith Cove Cruise Terminal, Seattle, United States"
-      ],
-      "distanceFromPortMeters": 235
+      ]
+    },
+    {
+      "id": "review/seattle-united-states/bell-street-cruise-terminal-pier-66",
+      "name": "Bell Street Cruise Terminal (Pier 66)",
+      "lat": 47.611718,
+      "lng": -122.35032,
+      "terminalType": "passenger_cruise_terminal",
+      "source": "terminal_review",
+      "sourceUrls": [],
+      "verified": true,
+      "sourceId": "review/seattle-united-states/bell-street-cruise-terminal-pier-66"
     }
   ],
   "terminalCandidateRadiusMeters": 5000,
@@ -1540,8 +1549,9 @@
   },
   "terminalResolution": {
     "status": "resolved",
-    "method": "accepted_terminal_candidate",
+    "method": "terminal_review",
     "verified": true,
-    "notes": "Accepted 1 candidate explicitly identified as an ocean-cruise or cruise-passenger terminal; ferry and unrelated results were excluded."
+    "reviewedAt": "2026-09-28",
+    "notes": "Smith Cove (Pier 91) is correct; added Bell Street at Pier 66 (from OpenStreetMap), Seattle's downtown cruise terminal."
   }
 }

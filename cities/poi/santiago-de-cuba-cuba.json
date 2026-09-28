@@ -10,29 +10,29 @@
     "city": "Santiago de Cuba",
     "country": "Cuba"
   },
-  "defaultTerminalId": "ports-json-anchor",
+  "defaultTerminalId": "review/santiago-de-cuba-cuba/terminal-de-cruceros",
   "terminal": {
-    "id": "ports-json-anchor",
-    "name": "SANTIAGO DE CUBA Port",
-    "lat": 20.02,
-    "lng": -75.83,
-    "address": "Santiago de Cuba, Santiago de Cuba, Cuba",
-    "source": "ports.json",
-    "sourceId": "",
-    "score": 0,
-    "slug": "santiago-de-cuba-port"
+    "id": "review/santiago-de-cuba-cuba/terminal-de-cruceros",
+    "name": "Terminal de Cruceros",
+    "lat": 20.022452,
+    "lng": -75.837991,
+    "terminalType": "passenger_cruise_terminal",
+    "source": "openstreetmap",
+    "sourceUrls": [],
+    "verified": true,
+    "sourceId": "review/santiago-de-cuba-cuba/terminal-de-cruceros"
   },
   "terminals": [
     {
-      "id": "ports-json-anchor",
-      "name": "SANTIAGO DE CUBA Port",
-      "lat": 20.02,
-      "lng": -75.83,
-      "address": "Santiago de Cuba, Santiago de Cuba, Cuba",
-      "source": "ports.json",
-      "sourceId": "",
-      "score": 0,
-      "slug": "santiago-de-cuba-port"
+      "id": "review/santiago-de-cuba-cuba/terminal-de-cruceros",
+      "name": "Terminal de Cruceros",
+      "lat": 20.022452,
+      "lng": -75.837991,
+      "terminalType": "passenger_cruise_terminal",
+      "source": "openstreetmap",
+      "sourceUrls": [],
+      "verified": true,
+      "sourceId": "review/santiago-de-cuba-cuba/terminal-de-cruceros"
     }
   ],
   "terminalCandidateRadiusMeters": 5000,
@@ -991,9 +991,10 @@
     "slug": "santiago-de-cuba-port"
   },
   "terminalResolution": {
-    "status": "unresolved",
-    "method": "ports_json_fallback",
-    "verified": false,
-    "notes": "All supplied candidates are ferry-only stops, local docks, unnamed maritime features, or unrelated places rather than passenger cruise terminals."
+    "status": "resolved",
+    "method": "terminal_review",
+    "verified": true,
+    "reviewedAt": "2026-09-28",
+    "notes": "Non-US lines still call at Santiago de Cuba; kept its cruise terminal."
   }
 }

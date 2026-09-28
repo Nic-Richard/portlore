@@ -15,8 +15,8 @@
     "id": "osm/node/5780984855",
     "name": "四日市ポートビル",
     "nameEnglish": "Yokkaichi port building",
-    "lat": 34.9933011,
-    "lng": 136.6575937,
+    "lat": 34.993301,
+    "lng": 136.657594,
     "address": "四日市ポートビル, 1, 四日市市, 三重県, 510-8006, 日本",
     "source": "verified_terminal_candidate",
     "sourceId": "osm/node/5780984855",
@@ -33,16 +33,15 @@
     "osmTags": {},
     "matchedBy": [
       "Nominatim query: YOKKAICHI Port, Yokkaichi, Japan"
-    ],
-    "distanceFromPortMeters": 3610
+    ]
   },
   "terminals": [
     {
       "id": "osm/node/5780984855",
       "name": "四日市ポートビル",
       "nameEnglish": "Yokkaichi port building",
-      "lat": 34.9933011,
-      "lng": 136.6575937,
+      "lat": 34.993301,
+      "lng": 136.657594,
       "address": "四日市ポートビル, 1, 四日市市, 三重県, 510-8006, 日本",
       "source": "verified_terminal_candidate",
       "sourceId": "osm/node/5780984855",
@@ -59,8 +58,7 @@
       "osmTags": {},
       "matchedBy": [
         "Nominatim query: YOKKAICHI Port, Yokkaichi, Japan"
-      ],
-      "distanceFromPortMeters": 3610
+      ]
     }
   ],
   "terminalCandidateRadiusMeters": 5000,
@@ -617,8 +615,9 @@
   },
   "terminalResolution": {
     "status": "resolved",
-    "method": "accepted_terminal_candidate",
+    "method": "terminal_review",
     "verified": true,
-    "notes": "Accepted Yokkaichi Port Building as the best supplied passenger arrival landmark for cruise calls at the Kasumi Wharf area."
+    "reviewedAt": "2026-09-28",
+    "notes": "Yokkaichi Port Building area is correct. Cruise calls are occasional."
   }
 }

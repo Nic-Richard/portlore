@@ -15,8 +15,8 @@
     "id": "osm/generated/2ff93a7bf713d1990b0f",
     "name": "Carnival CruisePort Muelle 4",
     "nameEnglish": "",
-    "lat": 18.4624721,
-    "lng": -66.1099215,
+    "lat": 18.462472,
+    "lng": -66.109921,
     "address": "",
     "source": "verified_terminal_candidate",
     "sourceId": "osm/generated/2ff93a7bf713d1990b0f",
@@ -41,16 +41,15 @@
     "matchedBy": [
       "terminal-like name",
       "amenity=ferry_terminal"
-    ],
-    "distanceFromPortMeters": 1075
+    ]
   },
   "terminals": [
     {
       "id": "osm/generated/2ff93a7bf713d1990b0f",
       "name": "Carnival CruisePort Muelle 4",
       "nameEnglish": "",
-      "lat": 18.4624721,
-      "lng": -66.1099215,
+      "lat": 18.462472,
+      "lng": -66.109921,
       "address": "",
       "source": "verified_terminal_candidate",
       "sourceId": "osm/generated/2ff93a7bf713d1990b0f",
@@ -75,8 +74,29 @@
       "matchedBy": [
         "terminal-like name",
         "amenity=ferry_terminal"
-      ],
-      "distanceFromPortMeters": 1075
+      ]
+    },
+    {
+      "id": "review/san-juan-puerto-rico/muelle-1",
+      "name": "Muelle 1",
+      "lat": 18.462102,
+      "lng": -66.113628,
+      "terminalType": "passenger_cruise_terminal",
+      "source": "openstreetmap",
+      "sourceUrls": [],
+      "verified": true,
+      "sourceId": "review/san-juan-puerto-rico/muelle-1"
+    },
+    {
+      "id": "review/san-juan-puerto-rico/pan-american-pier-2-west",
+      "name": "Pan American Pier 2 West",
+      "lat": 18.458813,
+      "lng": -66.097665,
+      "terminalType": "passenger_cruise_terminal",
+      "source": "openstreetmap",
+      "sourceUrls": [],
+      "verified": true,
+      "sourceId": "review/san-juan-puerto-rico/pan-american-pier-2-west"
     }
   ],
   "terminalCandidateRadiusMeters": 5000,
@@ -1470,8 +1490,9 @@
   },
   "terminalResolution": {
     "status": "resolved",
-    "method": "accepted_terminal_candidate",
+    "method": "terminal_review",
     "verified": true,
-    "notes": "Accepted 1 candidate explicitly identified as an ocean-cruise or cruise-passenger terminal; ferry and unrelated results were excluded."
+    "reviewedAt": "2026-09-28",
+    "notes": "Kept the Old San Juan cruise piers and the Pan American Pier, which also takes ships; the Acuaexpreso ferry pier is rejected."
   }
 }

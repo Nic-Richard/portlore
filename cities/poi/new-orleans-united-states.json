@@ -16,7 +16,7 @@
     "name": "Julia Street Wharf",
     "nameEnglish": "",
     "lat": 29.943765,
-    "lng": -90.0615728,
+    "lng": -90.061573,
     "address": "",
     "source": "verified_terminal_candidate",
     "sourceId": "osm/generated/564c0321836d9d55d888",
@@ -38,8 +38,7 @@
     },
     "matchedBy": [
       "amenity=ferry_terminal"
-    ],
-    "distanceFromPortMeters": 1313
+    ]
   },
   "terminals": [
     {
@@ -47,7 +46,7 @@
       "name": "Julia Street Wharf",
       "nameEnglish": "",
       "lat": 29.943765,
-      "lng": -90.0615728,
+      "lng": -90.061573,
       "address": "",
       "source": "verified_terminal_candidate",
       "sourceId": "osm/generated/564c0321836d9d55d888",
@@ -69,15 +68,14 @@
       },
       "matchedBy": [
         "amenity=ferry_terminal"
-      ],
-      "distanceFromPortMeters": 1313
+      ]
     },
     {
       "id": "osm/generated/3c002381d13277bce2c1",
       "name": "Erato Street Wharf",
       "nameEnglish": "",
-      "lat": 29.9405255,
-      "lng": -90.0612245,
+      "lat": 29.940525,
+      "lng": -90.061224,
       "address": "",
       "source": "verified_terminal_candidate",
       "sourceId": "osm/generated/3c002381d13277bce2c1",
@@ -98,8 +96,7 @@
       },
       "matchedBy": [
         "amenity=ferry_terminal"
-      ],
-      "distanceFromPortMeters": 1510
+      ]
     }
   ],
   "terminalCandidateRadiusMeters": 5000,
@@ -1415,8 +1412,9 @@
   },
   "terminalResolution": {
     "status": "resolved",
-    "method": "accepted_terminal_candidate",
+    "method": "terminal_review",
     "verified": true,
-    "notes": "External port and cruise-schedule checks support passenger cruise use, and the accepted candidate ID(s) correspond to the actual cruise terminal, cruise pier, or passenger terminal used by cruise ships."
+    "reviewedAt": "2026-09-28",
+    "notes": "Julia Street and Erato Street cruise terminals are correct; the rest are ferry landings."
   }
 }

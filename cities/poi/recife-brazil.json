@@ -10,29 +10,29 @@
     "city": "Recife",
     "country": "Brazil"
   },
-  "defaultTerminalId": "ports-json-anchor",
+  "defaultTerminalId": "review/recife-brazil/terminal-mar-timo-de-passageiros-do-recife",
   "terminal": {
-    "id": "ports-json-anchor",
-    "name": "RECIFE Port",
-    "lat": -8.05,
-    "lng": -34.87,
-    "address": "Recife, Pernambuco, Brazil",
-    "source": "ports.json",
-    "sourceId": "",
-    "score": 0,
-    "slug": "recife-port"
+    "id": "review/recife-brazil/terminal-mar-timo-de-passageiros-do-recife",
+    "name": "Terminal Marítimo de Passageiros do Recife",
+    "lat": -8.057089,
+    "lng": -34.869014,
+    "terminalType": "passenger_cruise_terminal",
+    "source": "openstreetmap",
+    "sourceUrls": [],
+    "verified": true,
+    "sourceId": "review/recife-brazil/terminal-mar-timo-de-passageiros-do-recife"
   },
   "terminals": [
     {
-      "id": "ports-json-anchor",
-      "name": "RECIFE Port",
-      "lat": -8.05,
-      "lng": -34.87,
-      "address": "Recife, Pernambuco, Brazil",
-      "source": "ports.json",
-      "sourceId": "",
-      "score": 0,
-      "slug": "recife-port"
+      "id": "review/recife-brazil/terminal-mar-timo-de-passageiros-do-recife",
+      "name": "Terminal Marítimo de Passageiros do Recife",
+      "lat": -8.057089,
+      "lng": -34.869014,
+      "terminalType": "passenger_cruise_terminal",
+      "source": "openstreetmap",
+      "sourceUrls": [],
+      "verified": true,
+      "sourceId": "review/recife-brazil/terminal-mar-timo-de-passageiros-do-recife"
     }
   ],
   "terminalCandidateRadiusMeters": 5000,
@@ -1107,9 +1107,10 @@
     "slug": "recife-port"
   },
   "terminalResolution": {
-    "status": "unresolved",
-    "method": "ports_json_fallback",
-    "verified": false,
-    "notes": "All supplied candidates are ferry-only stops, local docks, unnamed maritime features, or unrelated places rather than passenger cruise terminals."
+    "status": "resolved",
+    "method": "terminal_review",
+    "verified": true,
+    "reviewedAt": "2026-09-28",
+    "notes": "The Recife maritime passenger terminal is correct; the rest are tour-boat piers."
   }
 }

@@ -12,6 +12,7 @@ import {
   CITY_MODEL,
   CITY_SYSTEM_PROMPT,
   CITY_TOOLS,
+  hasVerifiedTerminals,
   POI_CATALOG_SCHEMA_VERSION,
 } from '../shared/poi-curation.js';
 import { discoverGoogleCruiseTerminals, resolveCatalogGooglePlaces, resolveCurationGooglePlaces } from '../shared/google-places.js';
@@ -73,11 +74,11 @@ async function main() {
     cachePath: path.join(ROOT, 'cities', '.google-place-id-cache.json'),
   });
 
-  const discoveredTerminals = await discoverGoogleCruiseTerminals(portInfo, catalog, {
+  const discoveredTerminals = hasVerifiedTerminals(catalog) ? [] : await discoverGoogleCruiseTerminals(portInfo, catalog, {
     apiKey: process.env.GOOGLE_MAPS_API_KEY,
     cachePath: path.join(ROOT, 'cities', '.google-place-id-cache.json'),
   });
-  console.log(`Google terminal discovery for ${portInfo.id}: ${discoveredTerminals.length} terminal(s)`);
+  if (!hasVerifiedTerminals(catalog)) console.log(`Google terminal discovery for ${portInfo.id}: ${discoveredTerminals.length} terminal(s)`);
 
   const client = new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY });
   const response = await client.messages.create({

@@ -10,63 +10,29 @@
     "city": "Tokyo",
     "country": "Japan"
   },
-  "defaultTerminalId": "manual/tokyo-japan/tokyo-international-cruise-terminal",
+  "defaultTerminalId": "review/tokyo-japan/tokyo-international-cruise-terminal",
   "terminal": {
-    "id": "manual/tokyo-japan/tokyo-international-cruise-terminal",
+    "id": "review/tokyo-japan/tokyo-international-cruise-terminal",
     "name": "Tokyo International Cruise Terminal",
-    "nameEnglish": "",
-    "lat": 35.62096,
-    "lng": 139.77371,
-    "address": "",
-    "source": "manual_web_research",
-    "sourceId": "manual/tokyo-japan/tokyo-international-cruise-terminal",
-    "terminalType": "dedicated_cruise_terminal",
+    "lat": 35.61774,
+    "lng": 139.7711,
+    "terminalType": "passenger_cruise_terminal",
+    "source": "terminal_review",
+    "sourceUrls": [],
     "verified": true,
-    "notes": "Primary large-ship passenger cruise terminal in Aomi.",
-    "sourceUrls": [
-      "https://www.tptc.co.jp/en/c_terminal/",
-      "https://www.openstreetmap.org/?mlat=35.62096&mlon=139.77371#map=17/35.62096/139.77371"
-    ],
-    "sources": [
-      "manual_web_research"
-    ],
-    "sourceIds": [
-      "manual/tokyo-japan/tokyo-international-cruise-terminal"
-    ],
-    "osmTags": {},
-    "matchedBy": [
-      "web_researched_terminal"
-    ],
-    "distanceFromPortMeters": null
+    "sourceId": "review/tokyo-japan/tokyo-international-cruise-terminal"
   },
   "terminals": [
     {
-      "id": "manual/tokyo-japan/tokyo-international-cruise-terminal",
+      "id": "review/tokyo-japan/tokyo-international-cruise-terminal",
       "name": "Tokyo International Cruise Terminal",
-      "nameEnglish": "",
-      "lat": 35.62096,
-      "lng": 139.77371,
-      "address": "",
-      "source": "manual_web_research",
-      "sourceId": "manual/tokyo-japan/tokyo-international-cruise-terminal",
-      "terminalType": "dedicated_cruise_terminal",
+      "lat": 35.61774,
+      "lng": 139.7711,
+      "terminalType": "passenger_cruise_terminal",
+      "source": "terminal_review",
+      "sourceUrls": [],
       "verified": true,
-      "notes": "Primary large-ship passenger cruise terminal in Aomi.",
-      "sourceUrls": [
-        "https://www.tptc.co.jp/en/c_terminal/",
-        "https://www.openstreetmap.org/?mlat=35.62096&mlon=139.77371#map=17/35.62096/139.77371"
-      ],
-      "sources": [
-        "manual_web_research"
-      ],
-      "sourceIds": [
-        "manual/tokyo-japan/tokyo-international-cruise-terminal"
-      ],
-      "osmTags": {},
-      "matchedBy": [
-        "web_researched_terminal"
-      ],
-      "distanceFromPortMeters": null
+      "sourceId": "review/tokyo-japan/tokyo-international-cruise-terminal"
     }
   ],
   "terminalCandidateRadiusMeters": 5000,
@@ -1571,8 +1537,9 @@
   },
   "terminalResolution": {
     "status": "resolved",
-    "method": "manual_web_research",
+    "method": "terminal_review",
     "verified": true,
-    "notes": "Terminal records were added from researched cruise-port sources because no supplied candidate accurately represented the passenger arrival point."
+    "reviewedAt": "2026-09-28",
+    "notes": "Tokyo International Cruise Terminal in Odaiba is correct; Takeshiba is for island ferries and water buses. Terminal sweep: Moved the terminal pin about 400 m from the station onto the terminal building (from Google Maps)."
   }
 }

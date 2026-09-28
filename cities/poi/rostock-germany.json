@@ -7,32 +7,32 @@
   "radiusMeters": 10000,
   "port": {
     "id": "rostock-germany",
-    "city": "Rostock",
+    "city": "Warnemunde (Rostock)",
     "country": "Germany"
   },
-  "defaultTerminalId": "ports-json-anchor",
+  "defaultTerminalId": "review/rostock-germany/warnemunde-cruise-center",
   "terminal": {
-    "id": "ports-json-anchor",
-    "name": "ROSTOCK Port",
-    "lat": 54.1,
-    "lng": 12.13,
-    "address": "Rostock, Mecklenburg-Vorpommern, Germany",
-    "source": "ports.json",
-    "sourceId": "",
-    "score": 0,
-    "slug": "rostock-port"
+    "id": "review/rostock-germany/warnemunde-cruise-center",
+    "name": "Warnemunde Cruise Center",
+    "lat": 54.174405,
+    "lng": 12.094346,
+    "terminalType": "passenger_cruise_terminal",
+    "source": "terminal_review",
+    "sourceUrls": [],
+    "verified": true,
+    "sourceId": "review/rostock-germany/warnemunde-cruise-center"
   },
   "terminals": [
     {
-      "id": "ports-json-anchor",
-      "name": "ROSTOCK Port",
-      "lat": 54.1,
-      "lng": 12.13,
-      "address": "Rostock, Mecklenburg-Vorpommern, Germany",
-      "source": "ports.json",
-      "sourceId": "",
-      "score": 0,
-      "slug": "rostock-port"
+      "id": "review/rostock-germany/warnemunde-cruise-center",
+      "name": "Warnemunde Cruise Center",
+      "lat": 54.174405,
+      "lng": 12.094346,
+      "terminalType": "passenger_cruise_terminal",
+      "source": "terminal_review",
+      "sourceUrls": [],
+      "verified": true,
+      "sourceId": "review/rostock-germany/warnemunde-cruise-center"
     }
   ],
   "terminalCandidateRadiusMeters": 5000,
@@ -1046,9 +1046,10 @@
     "slug": "rostock-port"
   },
   "terminalResolution": {
-    "status": "unresolved",
-    "method": "ports_json_fallback",
-    "verified": false,
-    "notes": "All supplied candidates are ferry-only stops, local docks, unnamed maritime features, or unrelated places rather than passenger cruise terminals."
+    "status": "resolved",
+    "method": "terminal_review",
+    "verified": true,
+    "reviewedAt": "2026-09-28",
+    "notes": "Cruise ships call at Warnemunde, Rostock's seaside port (added from OpenStreetMap). Berlin is about 3 hours away. Consider renaming this port to Warnemunde (Rostock)."
   }
 }

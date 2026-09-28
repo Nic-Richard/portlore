@@ -10,16 +10,16 @@
     "city": "Ensenada",
     "country": "Mexico"
   },
-  "defaultTerminalId": "osm/generated/86ef853df44d9ac0c124",
+  "defaultTerminalId": "osm/generated/096a7d8f2a38231b88a0",
   "terminal": {
-    "id": "osm/generated/86ef853df44d9ac0c124",
-    "name": "Terminal de Cruceros",
-    "nameEnglish": "Cruise Ship Terminal",
-    "lat": 31.855928,
-    "lng": -116.6241645,
+    "id": "osm/generated/096a7d8f2a38231b88a0",
+    "name": "Cruiseport Marina Ensenada",
+    "nameEnglish": "",
+    "lat": 31.854963,
+    "lng": -116.621403,
     "address": "",
     "source": "verified_terminal_candidate",
-    "sourceId": "osm/generated/86ef853df44d9ac0c124",
+    "sourceId": "osm/generated/096a7d8f2a38231b88a0",
     "terminalType": "passenger_cruise_terminal",
     "verified": true,
     "notes": "Accepted 3 candidates explicitly identified as an ocean-cruise or cruise-passenger terminal; ferry and unrelated results were excluded.",
@@ -28,24 +28,48 @@
       "openstreetmap"
     ],
     "sourceIds": [
-      "osm/generated/86ef853df44d9ac0c124"
+      "osm/generated/096a7d8f2a38231b88a0"
     ],
     "osmTags": {
-      "man_made": "pier",
-      "name:en": "Cruise Ship Terminal"
+      "seamark:type": "harbour"
     },
     "matchedBy": [
       "terminal-like name"
-    ],
-    "distanceFromPortMeters": 1659
+    ]
   },
   "terminals": [
+    {
+      "id": "osm/generated/096a7d8f2a38231b88a0",
+      "name": "Cruiseport Marina Ensenada",
+      "nameEnglish": "",
+      "lat": 31.854963,
+      "lng": -116.621403,
+      "address": "",
+      "source": "verified_terminal_candidate",
+      "sourceId": "osm/generated/096a7d8f2a38231b88a0",
+      "terminalType": "passenger_cruise_terminal",
+      "verified": true,
+      "notes": "Accepted 3 candidates explicitly identified as an ocean-cruise or cruise-passenger terminal; ferry and unrelated results were excluded.",
+      "sourceUrls": [],
+      "sources": [
+        "openstreetmap"
+      ],
+      "sourceIds": [
+        "osm/generated/096a7d8f2a38231b88a0"
+      ],
+      "osmTags": {
+        "seamark:type": "harbour"
+      },
+      "matchedBy": [
+        "terminal-like name"
+      ]
+    },
     {
       "id": "osm/generated/86ef853df44d9ac0c124",
       "name": "Terminal de Cruceros",
       "nameEnglish": "Cruise Ship Terminal",
       "lat": 31.855928,
-      "lng": -116.6241645,
+      "lng": -116.624165,
       "address": "",
       "source": "verified_terminal_candidate",
       "sourceId": "osm/generated/86ef853df44d9ac0c124",
@@ -65,63 +89,7 @@
       },
       "matchedBy": [
         "terminal-like name"
-      ],
-      "distanceFromPortMeters": 1659
-    },
-    {
-      "id": "osm/generated/096a7d8f2a38231b88a0",
-      "name": "Cruiseport Marina Ensenada",
-      "nameEnglish": "",
-      "lat": 31.8549629,
-      "lng": -116.6214033,
-      "address": "",
-      "source": "verified_terminal_candidate",
-      "sourceId": "osm/generated/096a7d8f2a38231b88a0",
-      "terminalType": "passenger_cruise_terminal",
-      "verified": true,
-      "notes": "Accepted 3 candidates explicitly identified as an ocean-cruise or cruise-passenger terminal; ferry and unrelated results were excluded.",
-      "sourceUrls": [],
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/096a7d8f2a38231b88a0"
-      ],
-      "osmTags": {
-        "seamark:type": "harbour"
-      },
-      "matchedBy": [
-        "terminal-like name"
-      ],
-      "distanceFromPortMeters": 1859
-    },
-    {
-      "id": "osm/generated/e214b68569c6895c3c5a",
-      "name": "Terminal de Cruceros",
-      "nameEnglish": "Cruise Ship Terminal",
-      "lat": 31.8533131,
-      "lng": -116.6246595,
-      "address": "",
-      "source": "verified_terminal_candidate",
-      "sourceId": "osm/generated/e214b68569c6895c3c5a",
-      "terminalType": "passenger_cruise_terminal",
-      "verified": true,
-      "notes": "Accepted 3 candidates explicitly identified as an ocean-cruise or cruise-passenger terminal; ferry and unrelated results were excluded.",
-      "sourceUrls": [],
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/e214b68569c6895c3c5a"
-      ],
-      "osmTags": {
-        "man_made": "pier",
-        "name:en": "Cruise Ship Terminal"
-      },
-      "matchedBy": [
-        "terminal-like name"
-      ],
-      "distanceFromPortMeters": 1923
+      ]
     }
   ],
   "terminalCandidateRadiusMeters": 5000,
@@ -1306,8 +1274,9 @@
   },
   "terminalResolution": {
     "status": "resolved",
-    "method": "accepted_terminal_candidate",
+    "method": "terminal_review",
     "verified": true,
-    "notes": "Accepted 3 candidates explicitly identified as an ocean-cruise or cruise-passenger terminal; ferry and unrelated results were excluded."
+    "reviewedAt": "2026-09-28",
+    "notes": "Cruiseport Village is the main terminal; kept the second cruise terminal entry and removed its duplicate."
   }
 }

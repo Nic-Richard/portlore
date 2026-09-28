@@ -10,29 +10,29 @@
     "city": "Sept-Îles",
     "country": "Canada"
   },
-  "defaultTerminalId": "ports-json-anchor",
+  "defaultTerminalId": "review/sept-iles-canada/sept-iles-cruise-terminal-vieux-quai",
   "terminal": {
-    "id": "ports-json-anchor",
-    "name": "SEPT ILES Port",
-    "lat": 50.2,
-    "lng": -66.38,
-    "address": "Sept-Îles, Quebec, Canada",
-    "source": "ports.json",
-    "sourceId": "",
-    "score": 0,
-    "slug": "sept-iles-port"
+    "id": "review/sept-iles-canada/sept-iles-cruise-terminal-vieux-quai",
+    "name": "Sept-Iles cruise terminal (Vieux-Quai)",
+    "lat": 50.20544,
+    "lng": -66.388669,
+    "terminalType": "passenger_cruise_terminal",
+    "source": "terminal_review",
+    "sourceUrls": [],
+    "verified": true,
+    "sourceId": "review/sept-iles-canada/sept-iles-cruise-terminal-vieux-quai"
   },
   "terminals": [
     {
-      "id": "ports-json-anchor",
-      "name": "SEPT ILES Port",
-      "lat": 50.2,
-      "lng": -66.38,
-      "address": "Sept-Îles, Quebec, Canada",
-      "source": "ports.json",
-      "sourceId": "",
-      "score": 0,
-      "slug": "sept-iles-port"
+      "id": "review/sept-iles-canada/sept-iles-cruise-terminal-vieux-quai",
+      "name": "Sept-Iles cruise terminal (Vieux-Quai)",
+      "lat": 50.20544,
+      "lng": -66.388669,
+      "terminalType": "passenger_cruise_terminal",
+      "source": "terminal_review",
+      "sourceUrls": [],
+      "verified": true,
+      "sourceId": "review/sept-iles-canada/sept-iles-cruise-terminal-vieux-quai"
     }
   ],
   "terminalCandidateRadiusMeters": 5000,
@@ -625,9 +625,10 @@
     "slug": "sept-iles-port"
   },
   "terminalResolution": {
-    "status": "unresolved",
-    "method": "ports_json_fallback",
-    "verified": false,
-    "notes": "All supplied candidates are ferry-only stops, local docks, unnamed maritime features, or unrelated places rather than passenger cruise terminals."
+    "status": "resolved",
+    "method": "terminal_review",
+    "verified": true,
+    "reviewedAt": "2026-09-28",
+    "notes": "Cruise ships berth at the Vieux-Quai in the town centre; the pin is the Vieux-Quai park beside it (from OpenStreetMap), accurate to a couple of hundred metres."
   }
 }

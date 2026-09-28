@@ -16,7 +16,7 @@
     "name": "Galataport",
     "nameEnglish": "",
     "lat": 41.023197,
-    "lng": 28.9793176,
+    "lng": 28.979318,
     "address": "",
     "source": "verified_terminal_candidate",
     "sourceId": "osm/generated/2b60d0474321f0a2c81b",
@@ -37,8 +37,7 @@
     },
     "matchedBy": [
       "amenity=ferry_terminal"
-    ],
-    "distanceFromPortMeters": 859
+    ]
   },
   "terminals": [
     {
@@ -46,7 +45,7 @@
       "name": "Galataport",
       "nameEnglish": "",
       "lat": 41.023197,
-      "lng": 28.9793176,
+      "lng": 28.979318,
       "address": "",
       "source": "verified_terminal_candidate",
       "sourceId": "osm/generated/2b60d0474321f0a2c81b",
@@ -67,8 +66,7 @@
       },
       "matchedBy": [
         "amenity=ferry_terminal"
-      ],
-      "distanceFromPortMeters": 859
+      ]
     }
   ],
   "terminalCandidateRadiusMeters": 5000,
@@ -2573,8 +2571,9 @@
   },
   "terminalResolution": {
     "status": "resolved",
-    "method": "accepted_terminal_candidate",
+    "method": "terminal_review",
     "verified": true,
-    "notes": "External port and cruise-schedule checks support passenger cruise use, and the accepted candidate ID(s) correspond to the actual cruise terminal, cruise pier, or passenger terminal used by cruise ships."
+    "reviewedAt": "2026-09-28",
+    "notes": "Galataport is Istanbul's cruise terminal; the rest are Bosphorus ferry piers."
   }
 }

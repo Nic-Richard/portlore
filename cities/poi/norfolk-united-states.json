@@ -10,67 +10,29 @@
     "city": "Norfolk",
     "country": "United States"
   },
-  "defaultTerminalId": "osm/generated/ca4ec75755672081636f",
+  "defaultTerminalId": "review/norfolk-united-states/half-moone-cruise-and-celebration-center",
   "terminal": {
-    "id": "osm/generated/ca4ec75755672081636f",
-    "name": "Waterside",
-    "nameEnglish": "",
-    "lat": 36.8433208,
-    "lng": -76.2909387,
-    "address": "",
-    "source": "verified_terminal_candidate",
-    "sourceId": "osm/generated/ca4ec75755672081636f",
+    "id": "review/norfolk-united-states/half-moone-cruise-and-celebration-center",
+    "name": "Half Moone Cruise and Celebration Center",
+    "lat": 36.847512,
+    "lng": -76.295993,
     "terminalType": "passenger_cruise_terminal",
-    "verified": true,
-    "notes": "Accepted Waterside as the closest supplied public waterfront arrival point to the Half Moone Cruise and Celebration Center, where passengers enter downtown Norfolk.",
+    "source": "terminal_review",
     "sourceUrls": [],
-    "sources": [
-      "openstreetmap"
-    ],
-    "sourceIds": [
-      "osm/generated/ca4ec75755672081636f"
-    ],
-    "osmTags": {
-      "amenity": "ferry_terminal",
-      "cargo": "passengers;bicycle",
-      "ferry": "yes",
-      "public_transport": "station"
-    },
-    "matchedBy": [
-      "amenity=ferry_terminal"
-    ],
-    "distanceFromPortMeters": 1096
+    "verified": true,
+    "sourceId": "review/norfolk-united-states/half-moone-cruise-and-celebration-center"
   },
   "terminals": [
     {
-      "id": "osm/generated/ca4ec75755672081636f",
-      "name": "Waterside",
-      "nameEnglish": "",
-      "lat": 36.8433208,
-      "lng": -76.2909387,
-      "address": "",
-      "source": "verified_terminal_candidate",
-      "sourceId": "osm/generated/ca4ec75755672081636f",
+      "id": "review/norfolk-united-states/half-moone-cruise-and-celebration-center",
+      "name": "Half Moone Cruise and Celebration Center",
+      "lat": 36.847512,
+      "lng": -76.295993,
       "terminalType": "passenger_cruise_terminal",
-      "verified": true,
-      "notes": "Accepted Waterside as the closest supplied public waterfront arrival point to the Half Moone Cruise and Celebration Center, where passengers enter downtown Norfolk.",
+      "source": "terminal_review",
       "sourceUrls": [],
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/ca4ec75755672081636f"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "cargo": "passengers;bicycle",
-        "ferry": "yes",
-        "public_transport": "station"
-      },
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "distanceFromPortMeters": 1096
+      "verified": true,
+      "sourceId": "review/norfolk-united-states/half-moone-cruise-and-celebration-center"
     }
   ],
   "terminalCandidateRadiusMeters": 5000,
@@ -1431,8 +1393,9 @@
   },
   "terminalResolution": {
     "status": "resolved",
-    "method": "accepted_terminal_candidate",
+    "method": "terminal_review",
     "verified": true,
-    "notes": "Accepted Waterside as the closest supplied public waterfront arrival point to the Half Moone Cruise and Celebration Center, where passengers enter downtown Norfolk."
+    "reviewedAt": "2026-09-28",
+    "notes": "ships dock at the Half Moone Cruise and Celebration Center beside Nauticus (added from OpenStreetMap). 'Waterside' is the nearby dining district, not the terminal; 'Port of Norfolk' duplicated Half Moone under a vague name."
   }
 }

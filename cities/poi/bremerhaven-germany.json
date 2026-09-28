@@ -15,8 +15,8 @@
     "id": "osm/way/41339649",
     "name": "Columbus Cruise Center Bremerhaven",
     "nameEnglish": "",
-    "lat": 53.5607299,
-    "lng": 8.5528959,
+    "lat": 53.56073,
+    "lng": 8.552896,
     "address": "Columbus Cruise Center Bremerhaven, 1, Columbuskaje, Stadtbremisches Überseehafengebiet, Häfen, Bremen-Mitte, Bremerhaven, Bremen, 27568, Deutschland",
     "source": "verified_terminal_candidate",
     "sourceId": "osm/way/41339649",
@@ -35,16 +35,15 @@
     },
     "matchedBy": [
       "Nominatim query: Bremerhaven cruise terminal, Germany"
-    ],
-    "distanceFromPortMeters": 3858
+    ]
   },
   "terminals": [
     {
       "id": "osm/way/41339649",
       "name": "Columbus Cruise Center Bremerhaven",
       "nameEnglish": "",
-      "lat": 53.5607299,
-      "lng": 8.5528959,
+      "lat": 53.56073,
+      "lng": 8.552896,
       "address": "Columbus Cruise Center Bremerhaven, 1, Columbuskaje, Stadtbremisches Überseehafengebiet, Häfen, Bremen-Mitte, Bremerhaven, Bremen, 27568, Deutschland",
       "source": "verified_terminal_candidate",
       "sourceId": "osm/way/41339649",
@@ -63,8 +62,7 @@
       },
       "matchedBy": [
         "Nominatim query: Bremerhaven cruise terminal, Germany"
-      ],
-      "distanceFromPortMeters": 3858
+      ]
     }
   ],
   "terminalCandidateRadiusMeters": 5000,
@@ -1254,8 +1252,9 @@
   },
   "terminalResolution": {
     "status": "resolved",
-    "method": "accepted_terminal_candidate",
+    "method": "terminal_review",
     "verified": true,
-    "notes": "Accepted 1 candidate explicitly identified as an ocean-cruise or cruise-passenger terminal; ferry and unrelated results were excluded."
+    "reviewedAt": "2026-09-28",
+    "notes": "Verified terminal is correct; other candidates are ferry stops, offices, or unrelated places."
   }
 }

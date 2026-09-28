@@ -10,29 +10,29 @@
     "city": "Montevideo",
     "country": "Uruguay"
   },
-  "defaultTerminalId": "ports-json-anchor",
+  "defaultTerminalId": "review/montevideo-uruguay/port-of-montevideo-cruise-berth-ciudad-vieja",
   "terminal": {
-    "id": "ports-json-anchor",
-    "name": "MONTEVIDEO Port",
-    "lat": -34.9,
-    "lng": -56.22,
-    "address": "Montevideo, Montevideo, Uruguay",
-    "source": "ports.json",
-    "sourceId": "",
-    "score": 0,
-    "slug": "montevideo-port"
+    "id": "review/montevideo-uruguay/port-of-montevideo-cruise-berth-ciudad-vieja",
+    "name": "Port of Montevideo cruise berth (Ciudad Vieja)",
+    "lat": -34.89986,
+    "lng": -56.207422,
+    "terminalType": "passenger_cruise_terminal",
+    "source": "terminal_review",
+    "sourceUrls": [],
+    "verified": true,
+    "sourceId": "review/montevideo-uruguay/port-of-montevideo-cruise-berth-ciudad-vieja"
   },
   "terminals": [
     {
-      "id": "ports-json-anchor",
-      "name": "MONTEVIDEO Port",
-      "lat": -34.9,
-      "lng": -56.22,
-      "address": "Montevideo, Montevideo, Uruguay",
-      "source": "ports.json",
-      "sourceId": "",
-      "score": 0,
-      "slug": "montevideo-port"
+      "id": "review/montevideo-uruguay/port-of-montevideo-cruise-berth-ciudad-vieja",
+      "name": "Port of Montevideo cruise berth (Ciudad Vieja)",
+      "lat": -34.89986,
+      "lng": -56.207422,
+      "terminalType": "passenger_cruise_terminal",
+      "source": "terminal_review",
+      "sourceUrls": [],
+      "verified": true,
+      "sourceId": "review/montevideo-uruguay/port-of-montevideo-cruise-berth-ciudad-vieja"
     }
   ],
   "terminalCandidateRadiusMeters": 5000,
@@ -845,9 +845,10 @@
     "slug": "montevideo-port"
   },
   "terminalResolution": {
-    "status": "unresolved",
-    "method": "ports_json_fallback",
-    "verified": false,
-    "notes": "All supplied candidates are ferry-only stops, local docks, unnamed maritime features, or unrelated places rather than passenger cruise terminals."
+    "status": "resolved",
+    "method": "terminal_review",
+    "verified": true,
+    "reviewedAt": "2026-09-28",
+    "notes": "Ships berth in the Port of Montevideo beside the Ciudad Vieja (added from OpenStreetMap). The candidate was the Buquebus ferry."
   }
 }

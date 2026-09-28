@@ -10,29 +10,29 @@
     "city": "Kotka",
     "country": "Finland"
   },
-  "defaultTerminalId": "ports-json-anchor",
+  "defaultTerminalId": "review/kotka-finland/risteilyalukset",
   "terminal": {
-    "id": "ports-json-anchor",
-    "name": "KOTKA Port",
-    "lat": 60.47,
-    "lng": 26.97,
-    "address": "Kotka, Kymenlaakso, Finland",
-    "source": "ports.json",
-    "sourceId": "",
-    "score": 0,
-    "slug": "kotka-port"
+    "id": "review/kotka-finland/risteilyalukset",
+    "name": "Risteilyalukset",
+    "lat": 60.472604,
+    "lng": 26.951706,
+    "terminalType": "passenger_cruise_terminal",
+    "source": "openstreetmap",
+    "sourceUrls": [],
+    "verified": true,
+    "sourceId": "review/kotka-finland/risteilyalukset"
   },
   "terminals": [
     {
-      "id": "ports-json-anchor",
-      "name": "KOTKA Port",
-      "lat": 60.47,
-      "lng": 26.97,
-      "address": "Kotka, Kymenlaakso, Finland",
-      "source": "ports.json",
-      "sourceId": "",
-      "score": 0,
-      "slug": "kotka-port"
+      "id": "review/kotka-finland/risteilyalukset",
+      "name": "Risteilyalukset",
+      "lat": 60.472604,
+      "lng": 26.951706,
+      "terminalType": "passenger_cruise_terminal",
+      "source": "openstreetmap",
+      "sourceUrls": [],
+      "verified": true,
+      "sourceId": "review/kotka-finland/risteilyalukset"
     }
   ],
   "terminalCandidateRadiusMeters": 5000,
@@ -1083,9 +1083,10 @@
     "slug": "kotka-port"
   },
   "terminalResolution": {
-    "status": "unresolved",
-    "method": "ports_json_fallback",
-    "verified": false,
-    "notes": "All supplied candidates are ferry-only stops, local docks, unnamed maritime features, or unrelated places rather than passenger cruise terminals."
+    "status": "resolved",
+    "method": "terminal_review",
+    "verified": true,
+    "reviewedAt": "2026-09-28",
+    "notes": "Kotka gets occasional cruise calls; kept the cruise ship berth ('Risteilyalukset')."
   }
 }

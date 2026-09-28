@@ -36,8 +36,7 @@
     "osmTags": {},
     "matchedBy": [
       "web_researched_terminal"
-    ],
-    "distanceFromPortMeters": null
+    ]
   },
   "terminals": [
     {
@@ -65,8 +64,18 @@
       "osmTags": {},
       "matchedBy": [
         "web_researched_terminal"
-      ],
-      "distanceFromPortMeters": null
+      ]
+    },
+    {
+      "id": "review/helsinki-finland/olympia-terminal",
+      "name": "Olympia Terminal",
+      "lat": 60.160807,
+      "lng": 24.958776,
+      "terminalType": "passenger_cruise_terminal",
+      "source": "terminal_review",
+      "sourceUrls": [],
+      "verified": true,
+      "sourceId": "review/helsinki-finland/olympia-terminal"
     },
     {
       "id": "manual/helsinki-finland/katajanokka-cruise-quay",
@@ -93,8 +102,7 @@
       "osmTags": {},
       "matchedBy": [
         "web_researched_terminal"
-      ],
-      "distanceFromPortMeters": null
+      ]
     },
     {
       "id": "manual/helsinki-finland/west-harbour-cruise-quay",
@@ -121,8 +129,7 @@
       "osmTags": {},
       "matchedBy": [
         "web_researched_terminal"
-      ],
-      "distanceFromPortMeters": null
+      ]
     }
   ],
   "terminalCandidateRadiusMeters": 5000,
@@ -2209,8 +2216,9 @@
   },
   "terminalResolution": {
     "status": "resolved",
-    "method": "manual_web_research",
+    "method": "terminal_review",
     "verified": true,
-    "notes": "Terminal records were added from researched cruise-port sources because no supplied candidate accurately represented the passenger arrival point."
+    "reviewedAt": "2026-09-28",
+    "notes": "Hernesaari, Katajanokka, and West Harbour are all Helsinki cruise quays. Terminal sweep: Added the Olympia Terminal in the South Harbour, which also takes cruise ships (from Google Maps)."
   }
 }

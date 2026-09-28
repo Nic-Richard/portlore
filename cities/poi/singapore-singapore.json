@@ -15,8 +15,8 @@
     "id": "osm/way/510913018",
     "name": "Marina Bay Cruise Centre",
     "nameEnglish": "",
-    "lat": 1.2663024,
-    "lng": 103.8604558,
+    "lat": 1.266302,
+    "lng": 103.860456,
     "address": "Marina Bay Cruise Centre, 61, Marina Coastal Drive, Straits View, Central Region, Singapore, 018947, Singapore",
     "source": "verified_terminal_candidate",
     "sourceId": "osm/way/510913018",
@@ -43,16 +43,15 @@
       "Nominatim query: Singapore cruise terminal, Singapore",
       "amenity=ferry_terminal",
       "terminal-like name"
-    ],
-    "distanceFromPortMeters": 1916
+    ]
   },
   "terminals": [
     {
       "id": "osm/way/510913018",
       "name": "Marina Bay Cruise Centre",
       "nameEnglish": "",
-      "lat": 1.2663024,
-      "lng": 103.8604558,
+      "lat": 1.266302,
+      "lng": 103.860456,
       "address": "Marina Bay Cruise Centre, 61, Marina Coastal Drive, Straits View, Central Region, Singapore, 018947, Singapore",
       "source": "verified_terminal_candidate",
       "sourceId": "osm/way/510913018",
@@ -79,14 +78,13 @@
         "Nominatim query: Singapore cruise terminal, Singapore",
         "amenity=ferry_terminal",
         "terminal-like name"
-      ],
-      "distanceFromPortMeters": 1916
+      ]
     },
     {
       "id": "osm/generated/2a5f3eec342ff540e032",
       "name": "Singapore Cruise Centre",
       "nameEnglish": "",
-      "lat": 1.2627922,
+      "lat": 1.262792,
       "lng": 103.819521,
       "address": "",
       "source": "verified_terminal_candidate",
@@ -106,42 +104,7 @@
       },
       "matchedBy": [
         "terminal-like name"
-      ],
-      "distanceFromPortMeters": 3891
-    },
-    {
-      "id": "osm/generated/f276d9af85a7105548e5",
-      "name": "Singapore Cruise Centre (HarbourFront) Terminal",
-      "nameEnglish": "",
-      "lat": 1.26385,
-      "lng": 103.8184019,
-      "address": "5 Harbourfront Avenue, Singapore, 099549",
-      "source": "verified_terminal_candidate",
-      "sourceId": "osm/generated/f276d9af85a7105548e5",
-      "terminalType": "passenger_cruise_terminal",
-      "verified": true,
-      "notes": "Accepted 3 candidates explicitly identified as an ocean-cruise or cruise-passenger terminal; ferry and unrelated results were excluded.",
-      "sourceUrls": [],
-      "sources": [
-        "openstreetmap",
-        "nominatim"
-      ],
-      "sourceIds": [
-        "osm/generated/f276d9af85a7105548e5",
-        "osm/way/1529989581"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "building": "yes",
-        "ferry": "yes",
-        "public_transport": "station"
-      },
-      "matchedBy": [
-        "amenity=ferry_terminal",
-        "terminal-like name",
-        "Nominatim query: Singapore cruise terminal, Singapore"
-      ],
-      "distanceFromPortMeters": 3945
+      ]
     }
   ],
   "terminalCandidateRadiusMeters": 5000,
@@ -1599,8 +1562,9 @@
   },
   "terminalResolution": {
     "status": "resolved",
-    "method": "accepted_terminal_candidate",
+    "method": "terminal_review",
     "verified": true,
-    "notes": "Accepted 3 candidates explicitly identified as an ocean-cruise or cruise-passenger terminal; ferry and unrelated results were excluded."
+    "reviewedAt": "2026-09-28",
+    "notes": "Marina Bay Cruise Centre and Singapore Cruise Centre (HarbourFront) are correct; removed duplicates of each."
   }
 }

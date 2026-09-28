@@ -10,42 +10,35 @@
     "city": "Quebec City",
     "country": "Canada"
   },
-  "defaultTerminalId": "osm/way/32550086",
+  "defaultTerminalId": "review/quebec-city-canada/pointe-a-carcy-cruise-terminal",
   "terminal": {
-    "id": "osm/way/32550086",
-    "name": "Port de Québec - Secteur L'Estuaire",
-    "nameEnglish": "",
-    "lat": 46.8222559,
-    "lng": -71.20076,
-    "address": "Port de Québec - Secteur L'Estuaire, Vieux-Québec, Vieux-Québec–Cap-Blanc–Colline-Parlementaire, La Cité-Limoilou, Québec, Agglomération de Québec, Capitale-Nationale, Québec, G1K 8M8, Canada",
-    "source": "verified_terminal_candidate",
-    "sourceId": "osm/way/32550086",
+    "id": "review/quebec-city-canada/pointe-a-carcy-cruise-terminal",
+    "name": "Pointe-a-Carcy Cruise Terminal",
+    "lat": 46.818417,
+    "lng": -71.199235,
     "terminalType": "passenger_cruise_terminal",
-    "verified": true,
-    "notes": "Accepted the Port de Québec Estuaire sector, which contains the principal city cruise berths and passenger terminals near Old Québec.",
+    "source": "terminal_review",
     "sourceUrls": [],
-    "sources": [
-      "nominatim"
-    ],
-    "sourceIds": [
-      "osm/way/32550086"
-    ],
-    "osmTags": {
-      "operator": "Quebec Port Authority",
-      "industrial": "port",
-      "seamark:type": "harbour"
-    },
-    "matchedBy": [
-      "Nominatim query: QUEBEC Port, Quebec City, Canada"
-    ],
-    "distanceFromPortMeters": 1485
+    "verified": true,
+    "sourceId": "review/quebec-city-canada/pointe-a-carcy-cruise-terminal"
   },
   "terminals": [
+    {
+      "id": "review/quebec-city-canada/pointe-a-carcy-cruise-terminal",
+      "name": "Pointe-a-Carcy Cruise Terminal",
+      "lat": 46.818417,
+      "lng": -71.199235,
+      "terminalType": "passenger_cruise_terminal",
+      "source": "terminal_review",
+      "sourceUrls": [],
+      "verified": true,
+      "sourceId": "review/quebec-city-canada/pointe-a-carcy-cruise-terminal"
+    },
     {
       "id": "osm/way/32550086",
       "name": "Port de Québec - Secteur L'Estuaire",
       "nameEnglish": "",
-      "lat": 46.8222559,
+      "lat": 46.822256,
       "lng": -71.20076,
       "address": "Port de Québec - Secteur L'Estuaire, Vieux-Québec, Vieux-Québec–Cap-Blanc–Colline-Parlementaire, La Cité-Limoilou, Québec, Agglomération de Québec, Capitale-Nationale, Québec, G1K 8M8, Canada",
       "source": "verified_terminal_candidate",
@@ -67,8 +60,7 @@
       },
       "matchedBy": [
         "Nominatim query: QUEBEC Port, Quebec City, Canada"
-      ],
-      "distanceFromPortMeters": 1485
+      ]
     }
   ],
   "terminalCandidateRadiusMeters": 5000,
@@ -1290,8 +1282,9 @@
   },
   "terminalResolution": {
     "status": "resolved",
-    "method": "accepted_terminal_candidate",
+    "method": "terminal_review",
     "verified": true,
-    "notes": "Accepted the Port de Québec Estuaire sector, which contains the principal city cruise berths and passenger terminals near Old Québec."
+    "reviewedAt": "2026-09-28",
+    "notes": "Added the Pointe-a-Carcy terminal (from OpenStreetMap), right below Old Quebec, where most ships berth; kept the Estuary sector berth for overflow. The rest are marinas and the river ferry."
   }
 }

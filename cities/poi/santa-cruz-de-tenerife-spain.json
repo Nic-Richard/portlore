@@ -10,29 +10,29 @@
     "city": "Santa Cruz de Tenerife",
     "country": "Spain"
   },
-  "defaultTerminalId": "ports-json-anchor",
+  "defaultTerminalId": "review/santa-cruz-de-tenerife-spain/santa-cruz-de-tenerife-cruise-pier-muelle-de-ribera",
   "terminal": {
-    "id": "ports-json-anchor",
-    "name": "SANTA CRUZ DE TENERIFE Port",
-    "lat": 28.47,
-    "lng": -16.23,
-    "address": "Santa Cruz de Tenerife, Canary Islands, Spain",
-    "source": "ports.json",
-    "sourceId": "",
-    "score": 0,
-    "slug": "santa-cruz-de-tenerife-port"
+    "id": "review/santa-cruz-de-tenerife-spain/santa-cruz-de-tenerife-cruise-pier-muelle-de-ribera",
+    "name": "Santa Cruz de Tenerife Cruise Pier (Muelle de Ribera)",
+    "lat": 28.474036,
+    "lng": -16.245709,
+    "terminalType": "passenger_cruise_terminal",
+    "source": "terminal_review",
+    "sourceUrls": [],
+    "verified": true,
+    "sourceId": "review/santa-cruz-de-tenerife-spain/santa-cruz-de-tenerife-cruise-pier-muelle-de-ribera"
   },
   "terminals": [
     {
-      "id": "ports-json-anchor",
-      "name": "SANTA CRUZ DE TENERIFE Port",
-      "lat": 28.47,
-      "lng": -16.23,
-      "address": "Santa Cruz de Tenerife, Canary Islands, Spain",
-      "source": "ports.json",
-      "sourceId": "",
-      "score": 0,
-      "slug": "santa-cruz-de-tenerife-port"
+      "id": "review/santa-cruz-de-tenerife-spain/santa-cruz-de-tenerife-cruise-pier-muelle-de-ribera",
+      "name": "Santa Cruz de Tenerife Cruise Pier (Muelle de Ribera)",
+      "lat": 28.474036,
+      "lng": -16.245709,
+      "terminalType": "passenger_cruise_terminal",
+      "source": "terminal_review",
+      "sourceUrls": [],
+      "verified": true,
+      "sourceId": "review/santa-cruz-de-tenerife-spain/santa-cruz-de-tenerife-cruise-pier-muelle-de-ribera"
     }
   ],
   "terminalCandidateRadiusMeters": 5000,
@@ -1043,9 +1043,10 @@
     "slug": "santa-cruz-de-tenerife-port"
   },
   "terminalResolution": {
-    "status": "unresolved",
-    "method": "ports_json_fallback",
-    "verified": false,
-    "notes": "All supplied candidates are ferry-only stops, local docks, unnamed maritime features, or unrelated places rather than passenger cruise terminals."
+    "status": "resolved",
+    "method": "terminal_review",
+    "verified": true,
+    "reviewedAt": "2026-09-28",
+    "notes": "Cruise ships berth at the Muelle de Ribera cruise pier (added from OpenStreetMap). The candidates were Armas and Fred Olsen ferry terminals."
   }
 }

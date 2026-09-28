@@ -10,29 +10,29 @@
     "city": "Santos",
     "country": "Brazil"
   },
-  "defaultTerminalId": "ports-json-anchor",
+  "defaultTerminalId": "review/santos-brazil/terminal-mar-timo-de-passageiros-giusfredo-santini",
   "terminal": {
-    "id": "ports-json-anchor",
-    "name": "SANTOS Port",
-    "lat": -23.95,
-    "lng": -46.3,
-    "address": "Santos, São Paulo, Brazil",
-    "source": "ports.json",
-    "sourceId": "",
-    "score": 0,
-    "slug": "santos-port"
+    "id": "review/santos-brazil/terminal-mar-timo-de-passageiros-giusfredo-santini",
+    "name": "Terminal Marítimo de Passageiros Giusfredo Santini",
+    "lat": -23.952356,
+    "lng": -46.310752,
+    "terminalType": "passenger_cruise_terminal",
+    "source": "openstreetmap",
+    "sourceUrls": [],
+    "verified": true,
+    "sourceId": "review/santos-brazil/terminal-mar-timo-de-passageiros-giusfredo-santini"
   },
   "terminals": [
     {
-      "id": "ports-json-anchor",
-      "name": "SANTOS Port",
-      "lat": -23.95,
-      "lng": -46.3,
-      "address": "Santos, São Paulo, Brazil",
-      "source": "ports.json",
-      "sourceId": "",
-      "score": 0,
-      "slug": "santos-port"
+      "id": "review/santos-brazil/terminal-mar-timo-de-passageiros-giusfredo-santini",
+      "name": "Terminal Marítimo de Passageiros Giusfredo Santini",
+      "lat": -23.952356,
+      "lng": -46.310752,
+      "terminalType": "passenger_cruise_terminal",
+      "source": "openstreetmap",
+      "sourceUrls": [],
+      "verified": true,
+      "sourceId": "review/santos-brazil/terminal-mar-timo-de-passageiros-giusfredo-santini"
     }
   ],
   "terminalCandidateRadiusMeters": 5000,
@@ -1680,9 +1680,10 @@
     "slug": "santos-port"
   },
   "terminalResolution": {
-    "status": "unresolved",
-    "method": "ports_json_fallback",
-    "verified": false,
-    "notes": "All supplied candidates are ferry-only stops, local docks, unnamed maritime features, or unrelated places rather than passenger cruise terminals."
+    "status": "resolved",
+    "method": "terminal_review",
+    "verified": true,
+    "reviewedAt": "2026-09-28",
+    "notes": "The Concais maritime passenger terminal is correct; the rest are local ferry crossings."
   }
 }

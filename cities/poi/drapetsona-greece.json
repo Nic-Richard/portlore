@@ -7,7 +7,7 @@
   "radiusMeters": 10000,
   "port": {
     "id": "drapetsona-greece",
-    "city": "Drapetsona",
+    "city": "Piraeus (Athens)",
     "country": "Greece"
   },
   "defaultTerminalId": "osm/generated/1abfa94ed6ff013b33d4",
@@ -15,8 +15,8 @@
     "id": "osm/generated/1abfa94ed6ff013b33d4",
     "name": "Λιμένας Κρουαζιέρας Πειραιά",
     "nameEnglish": "Piraeus Cruise Port",
-    "lat": 37.9368861,
-    "lng": 23.6306088,
+    "lat": 37.936886,
+    "lng": 23.630609,
     "address": "",
     "source": "verified_terminal_candidate",
     "sourceId": "osm/generated/1abfa94ed6ff013b33d4",
@@ -37,16 +37,15 @@
     },
     "matchedBy": [
       "terminal-like name"
-    ],
-    "distanceFromPortMeters": 1865
+    ]
   },
   "terminals": [
     {
       "id": "osm/generated/1abfa94ed6ff013b33d4",
       "name": "Λιμένας Κρουαζιέρας Πειραιά",
       "nameEnglish": "Piraeus Cruise Port",
-      "lat": 37.9368861,
-      "lng": 23.6306088,
+      "lat": 37.936886,
+      "lng": 23.630609,
       "address": "",
       "source": "verified_terminal_candidate",
       "sourceId": "osm/generated/1abfa94ed6ff013b33d4",
@@ -67,15 +66,25 @@
       },
       "matchedBy": [
         "terminal-like name"
-      ],
-      "distanceFromPortMeters": 1865
+      ]
+    },
+    {
+      "id": "review/drapetsona-greece/cruise-terminal-a-miaoulis",
+      "name": "Cruise Terminal A (Miaoulis)",
+      "lat": 37.938068,
+      "lng": 23.63586,
+      "terminalType": "passenger_cruise_terminal",
+      "source": "terminal_review",
+      "sourceUrls": [],
+      "verified": true,
+      "sourceId": "review/drapetsona-greece/cruise-terminal-a-miaoulis"
     },
     {
       "id": "osm/generated/0d62f50629cc7583da40",
       "name": "Πύλη Ε12 -  Σταθμός Κρουαζιέρας Β «ΘΕΜΙΣΤΟΚΛΗΣ»",
       "nameEnglish": "Gate E12 - Cruise Terminal B \"THEMISTOCLES\"",
-      "lat": 37.9385367,
-      "lng": 23.6297311,
+      "lat": 37.938537,
+      "lng": 23.629731,
       "address": "",
       "source": "verified_terminal_candidate",
       "sourceId": "osm/generated/0d62f50629cc7583da40",
@@ -96,8 +105,7 @@
       },
       "matchedBy": [
         "terminal-like name"
-      ],
-      "distanceFromPortMeters": 2015
+      ]
     }
   ],
   "terminalCandidateRadiusMeters": 5000,
@@ -1655,8 +1663,9 @@
   },
   "terminalResolution": {
     "status": "resolved",
-    "method": "accepted_terminal_candidate",
+    "method": "terminal_review",
     "verified": true,
-    "notes": "Accepted 2 candidates explicitly identified as an ocean-cruise or cruise-passenger terminal; ferry and unrelated results were excluded."
+    "reviewedAt": "2026-09-28",
+    "notes": "These are the Piraeus cruise terminals (for Athens). Worth renaming this port to Piraeus. Terminal sweep: Added Piraeus Cruise Terminal A (Miaoulis), from Google Maps."
   }
 }

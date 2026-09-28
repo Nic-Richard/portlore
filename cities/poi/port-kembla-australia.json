@@ -10,29 +10,29 @@
     "city": "Port Kembla",
     "country": "Australia"
   },
-  "defaultTerminalId": "ports-json-anchor",
+  "defaultTerminalId": "review/port-kembla-australia/port-kembla-outer-harbour-cruise-berth",
   "terminal": {
-    "id": "ports-json-anchor",
-    "name": "PORT KEMBLA Port",
-    "lat": -34.48,
-    "lng": 150.92,
-    "address": "Port Kembla, New South Wales, Australia",
-    "source": "ports.json",
-    "sourceId": "",
-    "score": 0,
-    "slug": "port-kembla-port"
+    "id": "review/port-kembla-australia/port-kembla-outer-harbour-cruise-berth",
+    "name": "Port Kembla outer harbour cruise berth",
+    "lat": -34.471115,
+    "lng": 150.902481,
+    "terminalType": "passenger_cruise_terminal",
+    "source": "terminal_review",
+    "sourceUrls": [],
+    "verified": true,
+    "sourceId": "review/port-kembla-australia/port-kembla-outer-harbour-cruise-berth"
   },
   "terminals": [
     {
-      "id": "ports-json-anchor",
-      "name": "PORT KEMBLA Port",
-      "lat": -34.48,
-      "lng": 150.92,
-      "address": "Port Kembla, New South Wales, Australia",
-      "source": "ports.json",
-      "sourceId": "",
-      "score": 0,
-      "slug": "port-kembla-port"
+      "id": "review/port-kembla-australia/port-kembla-outer-harbour-cruise-berth",
+      "name": "Port Kembla outer harbour cruise berth",
+      "lat": -34.471115,
+      "lng": 150.902481,
+      "terminalType": "passenger_cruise_terminal",
+      "source": "terminal_review",
+      "sourceUrls": [],
+      "verified": true,
+      "sourceId": "review/port-kembla-australia/port-kembla-outer-harbour-cruise-berth"
     }
   ],
   "terminalCandidateRadiusMeters": 5000,
@@ -640,9 +640,10 @@
     "slug": "port-kembla-port"
   },
   "terminalResolution": {
-    "status": "unresolved",
-    "method": "ports_json_fallback",
-    "verified": false,
-    "notes": "The catalog contains no terminal candidates, so there is no candidate ID to accept."
+    "status": "resolved",
+    "method": "terminal_review",
+    "verified": true,
+    "reviewedAt": "2026-09-28",
+    "notes": "Cruise ships berth in Port Kembla's outer harbour. The pin is the Port Kembla Gateway terminal (from Google Places); moderately confident, so worth a glance."
   }
 }

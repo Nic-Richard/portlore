@@ -7,32 +7,32 @@
   "radiusMeters": 10000,
   "port": {
     "id": "souda-greece",
-    "city": "Souda",
+    "city": "Chania (Souda)",
     "country": "Greece"
   },
-  "defaultTerminalId": "ports-json-anchor",
+  "defaultTerminalId": "review/souda-greece/souda-cruise-berth",
   "terminal": {
-    "id": "ports-json-anchor",
-    "name": "SOUDHA Port",
-    "lat": 35.48,
-    "lng": 24.18,
-    "address": "Souda, Crete, Greece",
-    "source": "ports.json",
-    "sourceId": "",
-    "score": 0,
-    "slug": "soudha-port"
+    "id": "review/souda-greece/souda-cruise-berth",
+    "name": "Souda Cruise Berth",
+    "lat": 35.492157,
+    "lng": 24.069666,
+    "terminalType": "passenger_cruise_terminal",
+    "source": "terminal_review",
+    "sourceUrls": [],
+    "verified": true,
+    "sourceId": "review/souda-greece/souda-cruise-berth"
   },
   "terminals": [
     {
-      "id": "ports-json-anchor",
-      "name": "SOUDHA Port",
-      "lat": 35.48,
-      "lng": 24.18,
-      "address": "Souda, Crete, Greece",
-      "source": "ports.json",
-      "sourceId": "",
-      "score": 0,
-      "slug": "soudha-port"
+      "id": "review/souda-greece/souda-cruise-berth",
+      "name": "Souda Cruise Berth",
+      "lat": 35.492157,
+      "lng": 24.069666,
+      "terminalType": "passenger_cruise_terminal",
+      "source": "terminal_review",
+      "sourceUrls": [],
+      "verified": true,
+      "sourceId": "review/souda-greece/souda-cruise-berth"
     }
   ],
   "terminalCandidateRadiusMeters": 5000,
@@ -1006,9 +1006,10 @@
     "slug": "soudha-port"
   },
   "terminalResolution": {
-    "status": "unresolved",
-    "method": "ports_json_fallback",
-    "verified": false,
-    "notes": "The catalog contains no terminal candidates, so there is no candidate ID to accept."
+    "status": "resolved",
+    "method": "terminal_review",
+    "verified": true,
+    "reviewedAt": "2026-09-28",
+    "notes": "Ships berth at Souda's cruise berth (OpenStreetMap 'Cruise Berth Point'); a bus and taxis run to Chania, about 7 km away. Renamed Chania (Souda)."
   }
 }

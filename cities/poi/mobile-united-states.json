@@ -10,29 +10,29 @@
     "city": "Mobile",
     "country": "United States"
   },
-  "defaultTerminalId": "ports-json-anchor",
+  "defaultTerminalId": "review/mobile-united-states/alabama-cruise-terminal",
   "terminal": {
-    "id": "ports-json-anchor",
-    "name": "MOBILE Port",
-    "lat": 30.68,
-    "lng": -88.12,
-    "address": "Mobile, Alabama, United States",
-    "source": "ports.json",
-    "sourceId": "",
-    "score": 0,
-    "slug": "mobile-port"
+    "id": "review/mobile-united-states/alabama-cruise-terminal",
+    "name": "Alabama Cruise Terminal",
+    "lat": 30.687423,
+    "lng": -88.038018,
+    "terminalType": "passenger_cruise_terminal",
+    "source": "terminal_review",
+    "sourceUrls": [],
+    "verified": true,
+    "sourceId": "review/mobile-united-states/alabama-cruise-terminal"
   },
   "terminals": [
     {
-      "id": "ports-json-anchor",
-      "name": "MOBILE Port",
-      "lat": 30.68,
-      "lng": -88.12,
-      "address": "Mobile, Alabama, United States",
-      "source": "ports.json",
-      "sourceId": "",
-      "score": 0,
-      "slug": "mobile-port"
+      "id": "review/mobile-united-states/alabama-cruise-terminal",
+      "name": "Alabama Cruise Terminal",
+      "lat": 30.687423,
+      "lng": -88.038018,
+      "terminalType": "passenger_cruise_terminal",
+      "source": "terminal_review",
+      "sourceUrls": [],
+      "verified": true,
+      "sourceId": "review/mobile-united-states/alabama-cruise-terminal"
     }
   ],
   "terminalCandidateRadiusMeters": 5000,
@@ -853,9 +853,10 @@
     "slug": "mobile-port"
   },
   "terminalResolution": {
-    "status": "unresolved",
-    "method": "ports_json_fallback",
-    "verified": false,
-    "notes": "The catalog contains no terminal candidates, so there is no candidate ID to accept."
+    "status": "resolved",
+    "method": "terminal_review",
+    "verified": true,
+    "reviewedAt": "2026-09-28",
+    "notes": "Added the Alabama Cruise Terminal in downtown Mobile (from OpenStreetMap)."
   }
 }

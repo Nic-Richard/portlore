@@ -15,8 +15,8 @@
     "id": "osm/relation/18821078",
     "name": "New Mangalore Port",
     "nameEnglish": "",
-    "lat": 12.9298239,
-    "lng": 74.8224536,
+    "lat": 12.929824,
+    "lng": 74.822454,
     "address": "New Mangalore Port, Kulur, Mangaluru, Mangaluru taluk, Dakshina Kannada, Karnataka, 575001, India",
     "source": "verified_terminal_candidate",
     "sourceId": "osm/relation/18821078",
@@ -35,16 +35,15 @@
     },
     "matchedBy": [
       "Nominatim query: NEW MANGALORE Port, Mangalore, India"
-    ],
-    "distanceFromPortMeters": 1124
+    ]
   },
   "terminals": [
     {
       "id": "osm/relation/18821078",
       "name": "New Mangalore Port",
       "nameEnglish": "",
-      "lat": 12.9298239,
-      "lng": 74.8224536,
+      "lat": 12.929824,
+      "lng": 74.822454,
       "address": "New Mangalore Port, Kulur, Mangaluru, Mangaluru taluk, Dakshina Kannada, Karnataka, 575001, India",
       "source": "verified_terminal_candidate",
       "sourceId": "osm/relation/18821078",
@@ -63,8 +62,7 @@
       },
       "matchedBy": [
         "Nominatim query: NEW MANGALORE Port, Mangalore, India"
-      ],
-      "distanceFromPortMeters": 1124
+      ]
     }
   ],
   "terminalCandidateRadiusMeters": 5000,
@@ -778,8 +776,9 @@
   },
   "terminalResolution": {
     "status": "resolved",
-    "method": "accepted_terminal_candidate",
+    "method": "terminal_review",
     "verified": true,
-    "notes": "Accepted New Mangalore Port as the practical arrival area. Cruise calls use berths inside the port and passengers are transferred out through the port rather than a separately mapped public terminal."
+    "reviewedAt": "2026-09-28",
+    "notes": "New Mangalore Port is correct. It's about 10 km north of Mangalore city."
   }
 }

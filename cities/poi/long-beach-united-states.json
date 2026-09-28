@@ -15,8 +15,8 @@
     "id": "osm/relation/6573072",
     "name": "Long Beach Cruise Terminal",
     "nameEnglish": "Long Beach Cruise Terminal",
-    "lat": 33.7512511,
-    "lng": -118.1888636,
+    "lat": 33.751251,
+    "lng": -118.188864,
     "address": "Long Beach Cruise Terminal, 231, Windsor Way, Long Beach, Los Angeles County, California, 90802, United States",
     "source": "verified_terminal_candidate",
     "sourceId": "osm/relation/6573072",
@@ -33,16 +33,15 @@
     "osmTags": {},
     "matchedBy": [
       "Nominatim query: Long Beach cruise terminal, United States"
-    ],
-    "distanceFromPortMeters": 2240
+    ]
   },
   "terminals": [
     {
       "id": "osm/relation/6573072",
       "name": "Long Beach Cruise Terminal",
       "nameEnglish": "Long Beach Cruise Terminal",
-      "lat": 33.7512511,
-      "lng": -118.1888636,
+      "lat": 33.751251,
+      "lng": -118.188864,
       "address": "Long Beach Cruise Terminal, 231, Windsor Way, Long Beach, Los Angeles County, California, 90802, United States",
       "source": "verified_terminal_candidate",
       "sourceId": "osm/relation/6573072",
@@ -59,8 +58,7 @@
       "osmTags": {},
       "matchedBy": [
         "Nominatim query: Long Beach cruise terminal, United States"
-      ],
-      "distanceFromPortMeters": 2240
+      ]
     }
   ],
   "terminalCandidateRadiusMeters": 5000,
@@ -1254,8 +1252,9 @@
   },
   "terminalResolution": {
     "status": "resolved",
-    "method": "accepted_terminal_candidate",
+    "method": "terminal_review",
     "verified": true,
-    "notes": "Accepted 1 candidate explicitly identified as an ocean-cruise or cruise-passenger terminal; ferry and unrelated results were excluded."
+    "reviewedAt": "2026-09-28",
+    "notes": "Long Beach Cruise Terminal (next to the Queen Mary) is correct; the rest are harbour docks and the Catalina ferry."
   }
 }

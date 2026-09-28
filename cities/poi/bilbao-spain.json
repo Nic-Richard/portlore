@@ -15,8 +15,8 @@
     "id": "osm/generated/79a5a74d0baf8f79d547",
     "name": "Terminal de Cruceros Getxo III",
     "nameEnglish": "",
-    "lat": 43.3412216,
-    "lng": -3.0250519,
+    "lat": 43.341222,
+    "lng": -3.025052,
     "address": "",
     "source": "verified_terminal_candidate",
     "sourceId": "osm/generated/79a5a74d0baf8f79d547",
@@ -37,16 +37,15 @@
     "matchedBy": [
       "amenity=ferry_terminal",
       "terminal-like name"
-    ],
-    "distanceFromPortMeters": 2241
+    ]
   },
   "terminals": [
     {
       "id": "osm/generated/79a5a74d0baf8f79d547",
       "name": "Terminal de Cruceros Getxo III",
       "nameEnglish": "",
-      "lat": 43.3412216,
-      "lng": -3.0250519,
+      "lat": 43.341222,
+      "lng": -3.025052,
       "address": "",
       "source": "verified_terminal_candidate",
       "sourceId": "osm/generated/79a5a74d0baf8f79d547",
@@ -67,15 +66,14 @@
       "matchedBy": [
         "amenity=ferry_terminal",
         "terminal-like name"
-      ],
-      "distanceFromPortMeters": 2241
+      ]
     },
     {
       "id": "osm/generated/e6888765d4fbc11fd696",
       "name": "Terminal de Cruceros Getxo I y II",
       "nameEnglish": "",
-      "lat": 43.3386756,
-      "lng": -3.0213591,
+      "lat": 43.338676,
+      "lng": -3.021359,
       "address": "",
       "source": "verified_terminal_candidate",
       "sourceId": "osm/generated/e6888765d4fbc11fd696",
@@ -96,8 +94,7 @@
       "matchedBy": [
         "amenity=ferry_terminal",
         "terminal-like name"
-      ],
-      "distanceFromPortMeters": 2636
+      ]
     }
   ],
   "terminalCandidateRadiusMeters": 5000,
@@ -1547,8 +1544,9 @@
   },
   "terminalResolution": {
     "status": "resolved",
-    "method": "accepted_terminal_candidate",
+    "method": "terminal_review",
     "verified": true,
-    "notes": "External port and cruise-schedule checks support passenger cruise use, and the accepted candidate ID(s) correspond to the actual cruise terminal, cruise pier, or passenger terminal used by cruise ships."
+    "reviewedAt": "2026-09-28",
+    "notes": "Ships berth at the Getxo cruise terminals; kept both."
   }
 }

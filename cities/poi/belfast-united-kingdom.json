@@ -15,8 +15,8 @@
     "id": "osm/node/11630944526",
     "name": "Belfast Cruise Terminal",
     "nameEnglish": "",
-    "lat": 54.6261278,
-    "lng": -5.8850794,
+    "lat": 54.626128,
+    "lng": -5.885079,
     "address": "Belfast Cruise Terminal, Belfast City District, County Down, Northern Ireland / Tuaisceart Éireann, United Kingdom",
     "source": "verified_terminal_candidate",
     "sourceId": "osm/node/11630944526",
@@ -42,16 +42,15 @@
       "Nominatim query: Belfast cruise terminal, United Kingdom",
       "amenity=ferry_terminal",
       "terminal-like name"
-    ],
-    "distanceFromPortMeters": 1178
+    ]
   },
   "terminals": [
     {
       "id": "osm/node/11630944526",
       "name": "Belfast Cruise Terminal",
       "nameEnglish": "",
-      "lat": 54.6261278,
-      "lng": -5.8850794,
+      "lat": 54.626128,
+      "lng": -5.885079,
       "address": "Belfast Cruise Terminal, Belfast City District, County Down, Northern Ireland / Tuaisceart Éireann, United Kingdom",
       "source": "verified_terminal_candidate",
       "sourceId": "osm/node/11630944526",
@@ -77,8 +76,7 @@
         "Nominatim query: Belfast cruise terminal, United Kingdom",
         "amenity=ferry_terminal",
         "terminal-like name"
-      ],
-      "distanceFromPortMeters": 1178
+      ]
     }
   ],
   "terminalCandidateRadiusMeters": 5000,
@@ -1180,8 +1178,9 @@
   },
   "terminalResolution": {
     "status": "resolved",
-    "method": "accepted_terminal_candidate",
+    "method": "terminal_review",
     "verified": true,
-    "notes": "Accepted 1 candidate explicitly identified as an ocean-cruise or cruise-passenger terminal; ferry and unrelated results were excluded."
+    "reviewedAt": "2026-09-28",
+    "notes": "Belfast Cruise Terminal is correct; the rest are Stena Line ferry terminals and the airport."
   }
 }

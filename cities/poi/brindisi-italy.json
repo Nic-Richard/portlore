@@ -10,29 +10,29 @@
     "city": "Brindisi",
     "country": "Italy"
   },
-  "defaultTerminalId": "ports-json-anchor",
+  "defaultTerminalId": "review/brindisi-italy/banchina-stazione-marittima",
   "terminal": {
-    "id": "ports-json-anchor",
-    "name": "BRINDISI Port",
-    "lat": 40.65,
-    "lng": 17.98,
-    "address": "Brindisi, Apulia, Italy",
-    "source": "ports.json",
-    "sourceId": "",
-    "score": 0,
-    "slug": "brindisi-port"
+    "id": "review/brindisi-italy/banchina-stazione-marittima",
+    "name": "Banchina Stazione Marittima",
+    "lat": 40.640328,
+    "lng": 17.948428,
+    "terminalType": "passenger_cruise_terminal",
+    "source": "openstreetmap",
+    "sourceUrls": [],
+    "verified": true,
+    "sourceId": "review/brindisi-italy/banchina-stazione-marittima"
   },
   "terminals": [
     {
-      "id": "ports-json-anchor",
-      "name": "BRINDISI Port",
-      "lat": 40.65,
-      "lng": 17.98,
-      "address": "Brindisi, Apulia, Italy",
-      "source": "ports.json",
-      "sourceId": "",
-      "score": 0,
-      "slug": "brindisi-port"
+      "id": "review/brindisi-italy/banchina-stazione-marittima",
+      "name": "Banchina Stazione Marittima",
+      "lat": 40.640328,
+      "lng": 17.948428,
+      "terminalType": "passenger_cruise_terminal",
+      "source": "openstreetmap",
+      "sourceUrls": [],
+      "verified": true,
+      "sourceId": "review/brindisi-italy/banchina-stazione-marittima"
     }
   ],
   "terminalCandidateRadiusMeters": 5000,
@@ -1216,9 +1216,10 @@
     "slug": "brindisi-port"
   },
   "terminalResolution": {
-    "status": "unresolved",
-    "method": "ports_json_fallback",
-    "verified": false,
-    "notes": "All supplied candidates are ferry-only stops, local docks, unnamed maritime features, or unrelated places rather than passenger cruise terminals."
+    "status": "resolved",
+    "method": "terminal_review",
+    "verified": true,
+    "reviewedAt": "2026-09-28",
+    "notes": "Brindisi gets occasional cruise calls at the maritime station quay. Kept per the occasional-calls rule."
   }
 }

@@ -15,8 +15,8 @@
     "id": "osm/generated/cb2ea3815a8546a89b6b",
     "name": "제2국제크루즈터미널",
     "nameEnglish": "Busan Port International Cruise Ship Terminal 2",
-    "lat": 35.1119861,
-    "lng": 129.0512694,
+    "lat": 35.111986,
+    "lng": 129.051269,
     "address": "제2국제크루즈터미널, AH1, 초량동, 초량3동, 동구, 부산광역시, 48751, 대한민국",
     "source": "verified_terminal_candidate",
     "sourceId": "osm/generated/cb2ea3815a8546a89b6b",
@@ -43,16 +43,15 @@
       "amenity=ferry_terminal",
       "terminal-like name",
       "Nominatim query: Busan cruise terminal, South Korea"
-    ],
-    "distanceFromPortMeters": 2349
+    ]
   },
   "terminals": [
     {
       "id": "osm/generated/cb2ea3815a8546a89b6b",
       "name": "제2국제크루즈터미널",
       "nameEnglish": "Busan Port International Cruise Ship Terminal 2",
-      "lat": 35.1119861,
-      "lng": 129.0512694,
+      "lat": 35.111986,
+      "lng": 129.051269,
       "address": "제2국제크루즈터미널, AH1, 초량동, 초량3동, 동구, 부산광역시, 48751, 대한민국",
       "source": "verified_terminal_candidate",
       "sourceId": "osm/generated/cb2ea3815a8546a89b6b",
@@ -79,8 +78,29 @@
         "amenity=ferry_terminal",
         "terminal-like name",
         "Nominatim query: Busan cruise terminal, South Korea"
-      ],
-      "distanceFromPortMeters": 2349
+      ]
+    },
+    {
+      "id": "review/busan-south-korea/busan-port-international-cruise-terminal-yeongdo",
+      "name": "Busan Port International Cruise Terminal (Yeongdo)",
+      "lat": 35.080749,
+      "lng": 129.07917,
+      "terminalType": "passenger_cruise_terminal",
+      "source": "terminal_review",
+      "sourceUrls": [],
+      "verified": true,
+      "sourceId": "review/busan-south-korea/busan-port-international-cruise-terminal-yeongdo"
+    },
+    {
+      "id": "review/busan-south-korea/terminal",
+      "name": "부산항국제여객터미널",
+      "lat": 35.117035,
+      "lng": 129.049374,
+      "terminalType": "passenger_cruise_terminal",
+      "source": "openstreetmap",
+      "sourceUrls": [],
+      "verified": true,
+      "sourceId": "review/busan-south-korea/terminal"
     }
   ],
   "terminalCandidateRadiusMeters": 5000,
@@ -1236,8 +1256,9 @@
   },
   "terminalResolution": {
     "status": "resolved",
-    "method": "accepted_terminal_candidate",
+    "method": "terminal_review",
     "verified": true,
-    "notes": "Accepted 1 candidate explicitly identified as an ocean-cruise or cruise-passenger terminal; ferry and unrelated results were excluded."
+    "reviewedAt": "2026-09-28",
+    "notes": "Busan uses both the international cruise terminal and the international passenger terminal for cruise ships; kept both. Terminal sweep: Added the Yeongdo cruise terminal, where the largest ships berth (from Google Maps)."
   }
 }

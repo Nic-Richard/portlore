@@ -15,7 +15,7 @@
     "id": "osm/generated/006ee54556a4c9da2556",
     "name": "新みなとターミナル",
     "nameEnglish": "",
-    "lat": 33.1637372,
+    "lat": 33.163737,
     "lng": 129.722471,
     "address": "",
     "source": "verified_terminal_candidate",
@@ -38,15 +38,14 @@
     },
     "matchedBy": [
       "amenity=ferry_terminal"
-    ],
-    "distanceFromPortMeters": 733
+    ]
   },
   "terminals": [
     {
       "id": "osm/generated/006ee54556a4c9da2556",
       "name": "新みなとターミナル",
       "nameEnglish": "",
-      "lat": 33.1637372,
+      "lat": 33.163737,
       "lng": 129.722471,
       "address": "",
       "source": "verified_terminal_candidate",
@@ -69,8 +68,18 @@
       },
       "matchedBy": [
         "amenity=ferry_terminal"
-      ],
-      "distanceFromPortMeters": 733
+      ]
+    },
+    {
+      "id": "review/sasebo-japan/uragashira-international-cruise-terminal",
+      "name": "Uragashira International Cruise Terminal",
+      "lat": 33.10112,
+      "lng": 129.74961,
+      "terminalType": "passenger_cruise_terminal",
+      "source": "terminal_review",
+      "sourceUrls": [],
+      "verified": true,
+      "sourceId": "review/sasebo-japan/uragashira-international-cruise-terminal"
     }
   ],
   "terminalCandidateRadiusMeters": 5000,
@@ -807,8 +816,9 @@
   },
   "terminalResolution": {
     "status": "resolved",
-    "method": "accepted_terminal_candidate",
+    "method": "terminal_review",
     "verified": true,
-    "notes": "Accepted Shin Minato Terminal, the central Sasebo passenger terminal beside the cruise-ship waterfront and the most plausible visitor exit point."
+    "reviewedAt": "2026-09-28",
+    "notes": "Smaller cruise ships berth at Miura quay by the new port terminal, next to Sasebo station, which is the terminal on file. Terminal sweep: Added the Uragashira cruise terminal, where large ships berth, about 7 km south of the centre (from Google Maps)."
   }
 }

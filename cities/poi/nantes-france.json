@@ -15,8 +15,8 @@
     "id": "osm/generated/4431b33a03daa53a75e5",
     "name": "Gare Maritime",
     "nameEnglish": "",
-    "lat": 47.2055886,
-    "lng": -1.5730683,
+    "lat": 47.205589,
+    "lng": -1.573068,
     "address": "",
     "source": "verified_terminal_candidate",
     "sourceId": "osm/generated/4431b33a03daa53a75e5",
@@ -40,16 +40,15 @@
     "matchedBy": [
       "amenity=ferry_terminal",
       "terminal-like name"
-    ],
-    "distanceFromPortMeters": 663
+    ]
   },
   "terminals": [
     {
       "id": "osm/generated/4431b33a03daa53a75e5",
       "name": "Gare Maritime",
       "nameEnglish": "",
-      "lat": 47.2055886,
-      "lng": -1.5730683,
+      "lat": 47.205589,
+      "lng": -1.573068,
       "address": "",
       "source": "verified_terminal_candidate",
       "sourceId": "osm/generated/4431b33a03daa53a75e5",
@@ -73,8 +72,7 @@
       "matchedBy": [
         "amenity=ferry_terminal",
         "terminal-like name"
-      ],
-      "distanceFromPortMeters": 663
+      ]
     }
   ],
   "terminalCandidateRadiusMeters": 5000,
@@ -1141,8 +1139,9 @@
   },
   "terminalResolution": {
     "status": "resolved",
-    "method": "accepted_terminal_candidate",
+    "method": "terminal_review",
     "verified": true,
-    "notes": "Accepted Gare Maritime as the central Nantes passenger landing point for river and small-ship cruise calls reaching the city."
+    "reviewedAt": "2026-09-28",
+    "notes": "The maritime station is used by occasional river and small cruise ships. Consider whether Nantes belongs on the list."
   }
 }

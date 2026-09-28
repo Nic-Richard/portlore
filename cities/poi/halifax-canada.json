@@ -10,57 +10,41 @@
     "city": "Halifax",
     "country": "Canada"
   },
-  "defaultTerminalId": "osm/relation/9435337",
+  "defaultTerminalId": "review/halifax-canada/halifax-seaport-cruise-pavilion-piers-20-22",
   "terminal": {
-    "id": "osm/relation/9435337",
-    "name": "Port of Halifax - South End Terminal",
-    "nameEnglish": "",
-    "lat": 44.6339005,
-    "lng": -63.5699803,
-    "address": "Port of Halifax - South End Terminal, South End, Halifax, Halifax Regional Municipality, Halifax County, Nova Scotia, Canada",
-    "source": "verified_terminal_candidate",
-    "sourceId": "osm/relation/9435337",
+    "id": "review/halifax-canada/halifax-seaport-cruise-pavilion-piers-20-22",
+    "name": "Halifax Seaport Cruise Pavilion (Piers 20-22)",
+    "lat": 44.638402,
+    "lng": -63.565091,
     "terminalType": "passenger_cruise_terminal",
-    "verified": true,
-    "notes": "Accepted the Port of Halifax South End Terminal area, which contains the main cruise berths and passenger facilities at Piers 20 and 22.",
+    "source": "terminal_review",
     "sourceUrls": [],
-    "sources": [
-      "nominatim"
-    ],
-    "sourceIds": [
-      "osm/relation/9435337"
-    ],
-    "osmTags": {},
-    "matchedBy": [
-      "Nominatim query: HALIFAX Port, Halifax, Canada"
-    ],
-    "distanceFromPortMeters": 1958
+    "verified": true,
+    "sourceId": "review/halifax-canada/halifax-seaport-cruise-pavilion-piers-20-22"
   },
   "terminals": [
     {
-      "id": "osm/relation/9435337",
-      "name": "Port of Halifax - South End Terminal",
-      "nameEnglish": "",
-      "lat": 44.6339005,
-      "lng": -63.5699803,
-      "address": "Port of Halifax - South End Terminal, South End, Halifax, Halifax Regional Municipality, Halifax County, Nova Scotia, Canada",
-      "source": "verified_terminal_candidate",
-      "sourceId": "osm/relation/9435337",
+      "id": "review/halifax-canada/halifax-seaport-cruise-pavilion-piers-20-22",
+      "name": "Halifax Seaport Cruise Pavilion (Piers 20-22)",
+      "lat": 44.638402,
+      "lng": -63.565091,
       "terminalType": "passenger_cruise_terminal",
-      "verified": true,
-      "notes": "Accepted the Port of Halifax South End Terminal area, which contains the main cruise berths and passenger facilities at Piers 20 and 22.",
+      "source": "terminal_review",
       "sourceUrls": [],
-      "sources": [
-        "nominatim"
-      ],
-      "sourceIds": [
-        "osm/relation/9435337"
-      ],
-      "osmTags": {},
-      "matchedBy": [
-        "Nominatim query: HALIFAX Port, Halifax, Canada"
-      ],
-      "distanceFromPortMeters": 1958
+      "verified": true,
+      "sourceId": "review/halifax-canada/halifax-seaport-cruise-pavilion-piers-20-22"
+    },
+    {
+      "id": "review/halifax-canada/halifax-pier-24",
+      "name": "Halifax Pier 24",
+      "lat": 44.635519,
+      "lng": -63.567372,
+      "terminalType": "passenger_cruise_terminal",
+      "source": "live_guide_google",
+      "sourceUrls": [],
+      "verified": true,
+      "notes": "Used by the live guide",
+      "sourceId": "review/halifax-canada/halifax-pier-24"
     }
   ],
   "terminalCandidateRadiusMeters": 5000,
@@ -1655,8 +1639,9 @@
   },
   "terminalResolution": {
     "status": "resolved",
-    "method": "accepted_terminal_candidate",
+    "method": "terminal_review",
     "verified": true,
-    "notes": "Accepted the Port of Halifax South End Terminal area, which contains the main cruise berths and passenger facilities at Piers 20 and 22."
+    "reviewedAt": "2026-09-28",
+    "notes": "ships use the Seaport cruise pavilion at Piers 20-22 beside the Pier 21 museum (main); Pier 24 kept as overflow. The 'South End Terminal' was the container terminal area."
   }
 }

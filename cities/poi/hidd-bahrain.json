@@ -7,32 +7,32 @@
   "radiusMeters": 10000,
   "port": {
     "id": "hidd-bahrain",
-    "city": "Hidd",
+    "city": "Bahrain (Manama)",
     "country": "Bahrain"
   },
-  "defaultTerminalId": "ports-json-anchor",
+  "defaultTerminalId": "review/hidd-bahrain/khalifa-bin-salman-port-cruise-berth",
   "terminal": {
-    "id": "ports-json-anchor",
-    "name": "KHALIFA BIN SALMAN Port",
-    "lat": 26.25,
-    "lng": 50.75,
-    "address": "Hidd, Bahrain, Bahrain",
-    "source": "ports.json",
-    "sourceId": "",
-    "score": 0,
-    "slug": "khalifa-bin-salman-port"
+    "id": "review/hidd-bahrain/khalifa-bin-salman-port-cruise-berth",
+    "name": "Khalifa Bin Salman Port (cruise berth)",
+    "lat": 26.188611,
+    "lng": 50.714212,
+    "terminalType": "passenger_cruise_terminal",
+    "source": "terminal_review",
+    "sourceUrls": [],
+    "verified": true,
+    "sourceId": "review/hidd-bahrain/khalifa-bin-salman-port-cruise-berth"
   },
   "terminals": [
     {
-      "id": "ports-json-anchor",
-      "name": "KHALIFA BIN SALMAN Port",
-      "lat": 26.25,
-      "lng": 50.75,
-      "address": "Hidd, Bahrain, Bahrain",
-      "source": "ports.json",
-      "sourceId": "",
-      "score": 0,
-      "slug": "khalifa-bin-salman-port"
+      "id": "review/hidd-bahrain/khalifa-bin-salman-port-cruise-berth",
+      "name": "Khalifa Bin Salman Port (cruise berth)",
+      "lat": 26.188611,
+      "lng": 50.714212,
+      "terminalType": "passenger_cruise_terminal",
+      "source": "terminal_review",
+      "sourceUrls": [],
+      "verified": true,
+      "sourceId": "review/hidd-bahrain/khalifa-bin-salman-port-cruise-berth"
     }
   ],
   "terminalCandidateRadiusMeters": 5000,
@@ -57,9 +57,10 @@
     "slug": "khalifa-bin-salman-port"
   },
   "terminalResolution": {
-    "status": "unresolved",
-    "method": "ports_json_fallback",
-    "verified": false,
-    "notes": "The catalog contains no terminal candidates, so there is no candidate ID to accept."
+    "status": "resolved",
+    "method": "terminal_review",
+    "verified": true,
+    "reviewedAt": "2026-09-28",
+    "notes": "Cruise ships call at Khalifa Bin Salman Port in Hidd during the Gulf season; the pin is the port (from OpenStreetMap), accurate to a few hundred metres. Renamed Bahrain (Manama)."
   }
 }

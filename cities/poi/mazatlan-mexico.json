@@ -10,29 +10,29 @@
     "city": "Mazatlán",
     "country": "Mexico"
   },
-  "defaultTerminalId": "ports-json-anchor",
+  "defaultTerminalId": "review/mazatlan-mexico/mazatlan-cruise-terminal",
   "terminal": {
-    "id": "ports-json-anchor",
-    "name": "MAZATLAN Port",
-    "lat": 23.2,
-    "lng": -106.42,
-    "address": "Mazatlán, Sinaloa, Mexico",
-    "source": "ports.json",
-    "sourceId": "",
-    "score": 0,
-    "slug": "mazatlan-port"
+    "id": "review/mazatlan-mexico/mazatlan-cruise-terminal",
+    "name": "Mazatlan Cruise Terminal",
+    "lat": 23.192938,
+    "lng": -106.41741,
+    "terminalType": "passenger_cruise_terminal",
+    "source": "terminal_review",
+    "sourceUrls": [],
+    "verified": true,
+    "sourceId": "review/mazatlan-mexico/mazatlan-cruise-terminal"
   },
   "terminals": [
     {
-      "id": "ports-json-anchor",
-      "name": "MAZATLAN Port",
-      "lat": 23.2,
-      "lng": -106.42,
-      "address": "Mazatlán, Sinaloa, Mexico",
-      "source": "ports.json",
-      "sourceId": "",
-      "score": 0,
-      "slug": "mazatlan-port"
+      "id": "review/mazatlan-mexico/mazatlan-cruise-terminal",
+      "name": "Mazatlan Cruise Terminal",
+      "lat": 23.192938,
+      "lng": -106.41741,
+      "terminalType": "passenger_cruise_terminal",
+      "source": "terminal_review",
+      "sourceUrls": [],
+      "verified": true,
+      "sourceId": "review/mazatlan-mexico/mazatlan-cruise-terminal"
     }
   ],
   "terminalCandidateRadiusMeters": 5000,
@@ -1109,9 +1109,10 @@
     "slug": "mazatlan-port"
   },
   "terminalResolution": {
-    "status": "unresolved",
-    "method": "ports_json_fallback",
-    "verified": false,
-    "notes": "All supplied candidates are ferry-only stops, local docks, unnamed maritime features, or unrelated places rather than passenger cruise terminals."
+    "status": "resolved",
+    "method": "terminal_review",
+    "verified": true,
+    "reviewedAt": "2026-09-28",
+    "notes": "Added Mazatlan's cruise vessel terminal (from OpenStreetMap), a short ride from the historic centre."
   }
 }

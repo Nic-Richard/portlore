@@ -10,29 +10,40 @@
     "city": "Gothenburg",
     "country": "Sweden"
   },
-  "defaultTerminalId": "ports-json-anchor",
+  "defaultTerminalId": "review/gothenburg-sweden/amerika-cruise-terminal-stigberget",
   "terminal": {
-    "id": "ports-json-anchor",
-    "name": "GOTEBORG Port",
-    "lat": 57.7,
-    "lng": 11.97,
-    "address": "Gothenburg, Västra Götaland, Sweden",
-    "source": "ports.json",
-    "sourceId": "",
-    "score": 0,
-    "slug": "goteborg-port"
+    "id": "review/gothenburg-sweden/amerika-cruise-terminal-stigberget",
+    "name": "Amerika Cruise Terminal (Stigberget)",
+    "lat": 57.700187,
+    "lng": 11.931648,
+    "terminalType": "passenger_cruise_terminal",
+    "source": "terminal_review",
+    "sourceUrls": [],
+    "verified": true,
+    "sourceId": "review/gothenburg-sweden/amerika-cruise-terminal-stigberget"
   },
   "terminals": [
     {
-      "id": "ports-json-anchor",
-      "name": "GOTEBORG Port",
-      "lat": 57.7,
-      "lng": 11.97,
-      "address": "Gothenburg, Västra Götaland, Sweden",
-      "source": "ports.json",
-      "sourceId": "",
-      "score": 0,
-      "slug": "goteborg-port"
+      "id": "review/gothenburg-sweden/amerika-cruise-terminal-stigberget",
+      "name": "Amerika Cruise Terminal (Stigberget)",
+      "lat": 57.700187,
+      "lng": 11.931648,
+      "terminalType": "passenger_cruise_terminal",
+      "source": "terminal_review",
+      "sourceUrls": [],
+      "verified": true,
+      "sourceId": "review/gothenburg-sweden/amerika-cruise-terminal-stigberget"
+    },
+    {
+      "id": "review/gothenburg-sweden/arendal-cruise-terminal",
+      "name": "Arendal Cruise Terminal",
+      "lat": 57.694044,
+      "lng": 11.818911,
+      "terminalType": "passenger_cruise_terminal",
+      "source": "terminal_review",
+      "sourceUrls": [],
+      "verified": true,
+      "sourceId": "review/gothenburg-sweden/arendal-cruise-terminal"
     }
   ],
   "terminalCandidateRadiusMeters": 5000,
@@ -985,9 +996,10 @@
     "slug": "goteborg-port"
   },
   "terminalResolution": {
-    "status": "unresolved",
-    "method": "ports_json_fallback",
-    "verified": false,
-    "notes": "All supplied candidates are ferry-only stops, local docks, unnamed maritime features, or unrelated places rather than passenger cruise terminals."
+    "status": "resolved",
+    "method": "terminal_review",
+    "verified": true,
+    "reviewedAt": "2026-09-28",
+    "notes": "Added the Amerika cruise terminal (from OpenStreetMap), the city-centre cruise berth. The largest ships use Arendal, farther out, which could be added later. Terminal sweep: Added the Arendal cruise terminal, where larger ships berth, about 7 km out (from Google Maps)."
   }
 }

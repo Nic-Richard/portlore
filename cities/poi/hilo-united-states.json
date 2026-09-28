@@ -15,8 +15,8 @@
     "id": "osm/way/146525599",
     "name": "Port of Hilo",
     "nameEnglish": "",
-    "lat": 19.7303704,
-    "lng": -155.0518713,
+    "lat": 19.73037,
+    "lng": -155.051871,
     "address": "Port of Hilo, Mokaoku, Hilo, Hawaiʻi County, Hawaii, United States",
     "source": "verified_terminal_candidate",
     "sourceId": "osm/way/146525599",
@@ -36,16 +36,15 @@
     },
     "matchedBy": [
       "Nominatim query: HILO Port, Hilo, United States"
-    ],
-    "distanceFromPortMeters": 1898
+    ]
   },
   "terminals": [
     {
       "id": "osm/way/146525599",
       "name": "Port of Hilo",
       "nameEnglish": "",
-      "lat": 19.7303704,
-      "lng": -155.0518713,
+      "lat": 19.73037,
+      "lng": -155.051871,
       "address": "Port of Hilo, Mokaoku, Hilo, Hawaiʻi County, Hawaii, United States",
       "source": "verified_terminal_candidate",
       "sourceId": "osm/way/146525599",
@@ -65,8 +64,7 @@
       },
       "matchedBy": [
         "Nominatim query: HILO Port, Hilo, United States"
-      ],
-      "distanceFromPortMeters": 1898
+      ]
     }
   ],
   "terminalCandidateRadiusMeters": 5000,
@@ -1050,8 +1048,9 @@
   },
   "terminalResolution": {
     "status": "resolved",
-    "method": "accepted_terminal_candidate",
+    "method": "terminal_review",
     "verified": true,
-    "notes": "Accepted Port of Hilo. Cruise passengers berth in Hilo Harbor and exit through the port area; no more specific cruise-terminal candidate is supplied."
+    "reviewedAt": "2026-09-28",
+    "notes": "Verified terminal is correct; other candidates are ferry stops, offices, or unrelated places."
   }
 }

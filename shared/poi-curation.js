@@ -1,4 +1,4 @@
-export const CURRENT_CITY_SCHEMA_VERSION = '1.8';
+export const CURRENT_CITY_SCHEMA_VERSION = '1.9';
 export const POI_CATALOG_SCHEMA_VERSION = 5;
 export const CITY_MODEL = 'claude-haiku-4-5-20251001';
 export const CITY_MAX_TOKENS = 20000;
@@ -11,7 +11,7 @@ export const CITY_TOOLS = [
   },
 ];
 
-function compactPoi(poi, googleMatch = null) {
+function compactPoi(poi, googleMatch = null, terminals = []) {
   const value = {
     id: poi.sourceId,
     n: poi.name,
@@ -22,6 +22,8 @@ function compactPoi(poi, googleMatch = null) {
     lng: poi.lng,
   };
   if (!value.e) delete value.e;
+  const nearest = nearestTerminal(poi, terminals);
+  if (nearest) value.t = nearest.distance;
   if (poi.address) value.a = poi.address;
   if (poi.openingHours) value.h = poi.openingHours;
   if (poi.website) value.w = poi.website;
@@ -41,15 +43,16 @@ function compactPoi(poi, googleMatch = null) {
 }
 
 export function buildCityCurationPrompt(portInfo, catalog, googleMatches = {}) {
-  const fallbackJson = JSON.stringify(catalog.portAnchor || catalog.port || portInfo);
-  const poiJson = JSON.stringify((catalog.pois || []).map(poi => compactPoi(poi, googleMatches.pois?.[poi.sourceId])));
+  const terminals = catalogTerminals(catalog);
+  const terminalJson = JSON.stringify(terminals.map(terminal => ({ n: terminal.name, lat: terminal.lat, lng: terminal.lng })));
+  const poiJson = JSON.stringify((catalog.pois || []).map(poi => compactPoi(poi, googleMatches.pois?.[poi.sourceId], terminals)));
 
   return `Create a practical cruise-port guide for ${portInfo.city}, ${portInfo.country}.
 
 Use the supplied curated POIs as the main list. Make a final editorial pass: keep good stops, remove weak or unsuitable ones, and add only a few obvious omissions. Do not rebuild the destination from scratch.
 
 Port ID: ${portInfo.id}
-Approximate port anchor: ${fallbackJson}
+Cruise terminals where passengers come ashore: ${terminalJson}
 
 POIS
 
@@ -57,8 +60,9 @@ POIS
 - Remove closed, private, industrial, malformed, duplicated, unrelated, or low-value stops.
 - Source categories may be wrong. Choose the best display category.
 - Keep a useful range of food and drink options when they differ by cuisine, format, or visitor need.
-- Favor stops closer to the approximate port anchor and the walkable visitor core, while still including important farther attractions when worthwhile.
-- The anchor may not be the passenger's exact terminal. Do not reject a worthwhile stop solely because it appears slightly farther away. Final terminal discovery, nearest-terminal distances, and access classifications are handled after your curation.
+- Each POI's t value is its straight-line distance in metres from the nearest cruise terminal. Passengers start from a terminal, not the city centre.
+- Favor stops within walking distance of a terminal and the walkable visitor core near it, while still including important farther attractions when worthwhile.
+- Access classifications and Maps links are calculated after your curation.
 - Google match fields are provided when available. Use them to confirm identity and closure status, but do not repeat routine verification.
 - Search only for questionable POIs, missing official websites, duplicates, and obvious missing headline stops.
 
@@ -74,7 +78,7 @@ For each included stop return:
 - hoursNote: only when limited hours materially affect a cruise visit
 - operatingStatus: open, uncertain, or not_applicable
 
-Do not research, select, rename, or return cruise terminals. Google Places handles terminal discovery separately.
+Do not research, select, rename, or return cruise terminals. The terminals above are verified.
 Do not select hidden gems. Return hiddenGems as an empty array. That field is reserved for future manual entries.
 Do not calculate coordinates, distance, access, or Maps links. Do not include prices, ratings, detailed schedules, construction updates, or temporary details.
 
@@ -84,7 +88,7 @@ Write a concise overview of what the destination offers, general walkability, an
 Return only this JSON shape:
 {"province":"","timezone":"","photo_query":"","background_position":"center 70%","overview":{"summary":"","arrivalContext":""},"places":[{"sourceId":"","source":"supplied","subtitle":"","description":"","suggestedVisitMinutes":45,"goodFor":[],"displayCategory":"attraction","operatingStatus":"open","officialWebsiteUrl":"","hoursNote":"","verificationSourceUrls":[]}],"hiddenGems":[],"supplementedPois":[{"sourceId":"supplement/example-slug","source":"supplement","name":"","address":"","locationHint":"main visitor entrance","category":"attraction","subtitle":"","description":"","suggestedVisitMinutes":45,"goodFor":[],"operatingStatus":"open","officialWebsiteUrl":"","hoursNote":"","reasonAdded":"","confidence":"high","verificationSourceUrls":[]}],"excludedPoiIds":[{"sourceId":"","reason":""}]}
 
-Candidate keys: id=source ID, n=name, e=English name, c=category, s=subcategory, lat/lng=source coordinates, a=address, h=hours, w=website, p=phone, u=cuisine, x=wheelchair, o=description, g=source tags, gp=Google Place ID, gn=Google name, ga=Google address, gt=Google type, gb=Google business status.
+Candidate keys: id=source ID, n=name, e=English name, c=category, s=subcategory, lat/lng=source coordinates, t=metres from the nearest cruise terminal, a=address, h=hours, w=website, p=phone, u=cuisine, x=wheelchair, o=description, g=source tags, gp=Google Place ID, gn=Google name, ga=Google address, gt=Google type, gb=Google business status.
 
 Supplied curated POIs:
 ${poiJson}`;
@@ -244,15 +248,39 @@ function cleanTerminal(terminal) {
   };
 }
 
-function buildTerminals(catalog, discoveredTerminals, fallback, portInfo) {
-  const discovered = (Array.isArray(discoveredTerminals) ? discoveredTerminals : [])
+function usableTerminals(items) {
+  return (Array.isArray(items) ? items : [])
     .map(cleanTerminal)
     .filter(item => item.id && Number.isFinite(item.lat) && Number.isFinite(item.lng));
+}
+
+export function hasVerifiedTerminals(catalog) {
+  return usableTerminals(catalog?.terminals).some(item => item.verified);
+}
+
+function catalogTerminals(catalog) {
+  const supplied = usableTerminals(catalog?.terminals);
+  const verified = supplied.filter(item => item.verified);
+  return verified.length ? verified : supplied;
+}
+
+function nearestTerminal(place, terminals) {
+  if (!terminals.length || !Number.isFinite(Number(place.lat)) || !Number.isFinite(Number(place.lng))) return null;
+  let nearest = null;
+  for (const terminal of terminals) {
+    const distance = haversineMeters(place, terminal);
+    if (!nearest || distance < nearest.distance) nearest = { terminal, distance };
+  }
+  return nearest;
+}
+
+function buildTerminals(catalog, discoveredTerminals, fallback, portInfo) {
+  if (hasVerifiedTerminals(catalog)) return catalogTerminals(catalog);
+
+  const discovered = usableTerminals(discoveredTerminals);
   if (discovered.length) return discovered;
 
-  const supplied = (catalog.terminals || [])
-    .map(cleanTerminal)
-    .filter(item => item.id && Number.isFinite(item.lat) && Number.isFinite(item.lng));
+  const supplied = catalogTerminals(catalog);
   if (supplied.length) return supplied;
 
   const lat = Number(fallback.lat);
@@ -339,6 +367,7 @@ export function buildCityData(portInfo, catalog, curation = {}, googleMatches = 
 
   const fallback = catalog.portAnchor || catalog.port || portInfo;
   const terminals = buildTerminals(catalog, discoveredTerminals, fallback, portInfo);
+  const verifiedTerminals = hasVerifiedTerminals(catalog);
   const defaultTerminal = terminals.find(item => item.id === catalog.defaultTerminalId) || terminals[0];
 
   const overview = curation.overview && typeof curation.overview === 'object' ? curation.overview : {};
@@ -364,8 +393,8 @@ export function buildCityData(portInfo, catalog, curation = {}, googleMatches = 
     terminal: defaultTerminal,
     terminals,
     terminalReview: {
-      status: discoveredTerminals.length ? 'confirmed' : 'unresolved',
-      warning: discoveredTerminals.length ? '' : 'Google Places did not return a cruise terminal, so the supplied terminal or port anchor is being used.',
+      status: verifiedTerminals || discoveredTerminals.length ? 'confirmed' : 'unresolved',
+      warning: verifiedTerminals || discoveredTerminals.length ? '' : 'No verified cruise terminal was found, so the port anchor is being used.',
       proposedCorrection: null,
     },
     weather: {

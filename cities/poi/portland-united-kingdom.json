@@ -10,29 +10,29 @@
     "city": "Portland",
     "country": "United Kingdom"
   },
-  "defaultTerminalId": "ports-json-anchor",
+  "defaultTerminalId": "review/portland-united-kingdom/portland-port-cruise-berth",
   "terminal": {
-    "id": "ports-json-anchor",
-    "name": "PORTLAND HARBOUR Port",
-    "lat": 50.58,
-    "lng": -2.43,
-    "address": "Portland, England, United Kingdom",
-    "source": "ports.json",
-    "sourceId": "",
-    "score": 0,
-    "slug": "portland-harbour-port"
+    "id": "review/portland-united-kingdom/portland-port-cruise-berth",
+    "name": "Portland Port cruise berth",
+    "lat": 50.567236,
+    "lng": -2.430478,
+    "terminalType": "passenger_cruise_terminal",
+    "source": "terminal_review",
+    "sourceUrls": [],
+    "verified": true,
+    "sourceId": "review/portland-united-kingdom/portland-port-cruise-berth"
   },
   "terminals": [
     {
-      "id": "ports-json-anchor",
-      "name": "PORTLAND HARBOUR Port",
-      "lat": 50.58,
-      "lng": -2.43,
-      "address": "Portland, England, United Kingdom",
-      "source": "ports.json",
-      "sourceId": "",
-      "score": 0,
-      "slug": "portland-harbour-port"
+      "id": "review/portland-united-kingdom/portland-port-cruise-berth",
+      "name": "Portland Port cruise berth",
+      "lat": 50.567236,
+      "lng": -2.430478,
+      "terminalType": "passenger_cruise_terminal",
+      "source": "terminal_review",
+      "sourceUrls": [],
+      "verified": true,
+      "sourceId": "review/portland-united-kingdom/portland-port-cruise-berth"
     }
   ],
   "terminalCandidateRadiusMeters": 5000,
@@ -1034,9 +1034,10 @@
     "slug": "portland-harbour-port"
   },
   "terminalResolution": {
-    "status": "unresolved",
-    "method": "ports_json_fallback",
-    "verified": false,
-    "notes": "All supplied candidates are ferry-only stops, local docks, unnamed maritime features, or unrelated places rather than passenger cruise terminals."
+    "status": "resolved",
+    "method": "terminal_review",
+    "verified": true,
+    "reviewedAt": "2026-09-28",
+    "notes": "Portland Port on Dorset's Jurassic Coast gets regular cruise calls; the pin is the port (from OpenStreetMap), accurate to a few hundred metres."
   }
 }

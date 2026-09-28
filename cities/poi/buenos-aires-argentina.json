@@ -10,29 +10,29 @@
     "city": "Buenos Aires",
     "country": "Argentina"
   },
-  "defaultTerminalId": "ports-json-anchor",
+  "defaultTerminalId": "review/buenos-aires-argentina/terminal-de-cruceros-quinquela-mart-n",
   "terminal": {
-    "id": "ports-json-anchor",
-    "name": "BUENOS AIRES Port",
-    "lat": -34.6,
-    "lng": -58.37,
-    "address": "Buenos Aires, Buenos Aires, Argentina",
-    "source": "ports.json",
-    "sourceId": "",
-    "score": 0,
-    "slug": "buenos-aires-port"
+    "id": "review/buenos-aires-argentina/terminal-de-cruceros-quinquela-mart-n",
+    "name": "Terminal de Cruceros Quinquela Martín",
+    "lat": -34.582795,
+    "lng": -58.369959,
+    "terminalType": "passenger_cruise_terminal",
+    "source": "openstreetmap",
+    "sourceUrls": [],
+    "verified": true,
+    "sourceId": "review/buenos-aires-argentina/terminal-de-cruceros-quinquela-mart-n"
   },
   "terminals": [
     {
-      "id": "ports-json-anchor",
-      "name": "BUENOS AIRES Port",
-      "lat": -34.6,
-      "lng": -58.37,
-      "address": "Buenos Aires, Buenos Aires, Argentina",
-      "source": "ports.json",
-      "sourceId": "",
-      "score": 0,
-      "slug": "buenos-aires-port"
+      "id": "review/buenos-aires-argentina/terminal-de-cruceros-quinquela-mart-n",
+      "name": "Terminal de Cruceros Quinquela Martín",
+      "lat": -34.582795,
+      "lng": -58.369959,
+      "terminalType": "passenger_cruise_terminal",
+      "source": "openstreetmap",
+      "sourceUrls": [],
+      "verified": true,
+      "sourceId": "review/buenos-aires-argentina/terminal-de-cruceros-quinquela-mart-n"
     }
   ],
   "terminalCandidateRadiusMeters": 5000,
@@ -1043,9 +1043,10 @@
     "slug": "buenos-aires-port"
   },
   "terminalResolution": {
-    "status": "unresolved",
-    "method": "ports_json_fallback",
-    "verified": false,
-    "notes": "All supplied candidates are ferry-only stops, local docks, unnamed maritime features, or unrelated places rather than passenger cruise terminals."
+    "status": "resolved",
+    "method": "terminal_review",
+    "verified": true,
+    "reviewedAt": "2026-09-28",
+    "notes": "Terminal de Cruceros Quinquela Martin is Buenos Aires's cruise terminal; the rest are the Buquebus ferry and unnamed berths."
   }
 }

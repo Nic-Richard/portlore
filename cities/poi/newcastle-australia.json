@@ -10,29 +10,29 @@
     "city": "Newcastle",
     "country": "Australia"
   },
-  "defaultTerminalId": "ports-json-anchor",
+  "defaultTerminalId": "review/newcastle-australia/newcastle-cruise-terminal-carrington",
   "terminal": {
-    "id": "ports-json-anchor",
-    "name": "NEWCASTLE Port",
-    "lat": -32.92,
-    "lng": 151.78,
-    "address": "Newcastle, New South Wales, Australia",
-    "source": "ports.json",
-    "sourceId": "",
-    "score": 0,
-    "slug": "newcastle-port"
+    "id": "review/newcastle-australia/newcastle-cruise-terminal-carrington",
+    "name": "Newcastle Cruise Terminal (Carrington)",
+    "lat": -32.91265,
+    "lng": 151.766147,
+    "terminalType": "passenger_cruise_terminal",
+    "source": "terminal_review",
+    "sourceUrls": [],
+    "verified": true,
+    "sourceId": "review/newcastle-australia/newcastle-cruise-terminal-carrington"
   },
   "terminals": [
     {
-      "id": "ports-json-anchor",
-      "name": "NEWCASTLE Port",
-      "lat": -32.92,
-      "lng": 151.78,
-      "address": "Newcastle, New South Wales, Australia",
-      "source": "ports.json",
-      "sourceId": "",
-      "score": 0,
-      "slug": "newcastle-port"
+      "id": "review/newcastle-australia/newcastle-cruise-terminal-carrington",
+      "name": "Newcastle Cruise Terminal (Carrington)",
+      "lat": -32.91265,
+      "lng": 151.766147,
+      "terminalType": "passenger_cruise_terminal",
+      "source": "terminal_review",
+      "sourceUrls": [],
+      "verified": true,
+      "sourceId": "review/newcastle-australia/newcastle-cruise-terminal-carrington"
     }
   ],
   "terminalCandidateRadiusMeters": 5000,
@@ -935,9 +935,10 @@
     "slug": "newcastle-port"
   },
   "terminalResolution": {
-    "status": "unresolved",
-    "method": "ports_json_fallback",
-    "verified": false,
-    "notes": "All supplied candidates are ferry-only stops, local docks, unnamed maritime features, or unrelated places rather than passenger cruise terminals."
+    "status": "resolved",
+    "method": "terminal_review",
+    "verified": true,
+    "reviewedAt": "2026-09-28",
+    "notes": "Newcastle's cruise terminal is on Channel Street in Carrington; OpenStreetMap only has the suburb, so the pin is accurate to about 500 m."
   }
 }

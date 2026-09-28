@@ -15,8 +15,8 @@
     "id": "osm/generated/c1445cc4e380432edb9e",
     "name": "Gare Maritime d'Oran",
     "nameEnglish": "",
-    "lat": 35.7101806,
-    "lng": -0.6461937,
+    "lat": 35.710181,
+    "lng": -0.646194,
     "address": "Oran, 31000",
     "source": "verified_terminal_candidate",
     "sourceId": "osm/generated/c1445cc4e380432edb9e",
@@ -39,16 +39,15 @@
     "matchedBy": [
       "amenity=ferry_terminal",
       "terminal-like name"
-    ],
-    "distanceFromPortMeters": 1849
+    ]
   },
   "terminals": [
     {
       "id": "osm/generated/c1445cc4e380432edb9e",
       "name": "Gare Maritime d'Oran",
       "nameEnglish": "",
-      "lat": 35.7101806,
-      "lng": -0.6461937,
+      "lat": 35.710181,
+      "lng": -0.646194,
       "address": "Oran, 31000",
       "source": "verified_terminal_candidate",
       "sourceId": "osm/generated/c1445cc4e380432edb9e",
@@ -71,8 +70,7 @@
       "matchedBy": [
         "amenity=ferry_terminal",
         "terminal-like name"
-      ],
-      "distanceFromPortMeters": 1849
+      ]
     }
   ],
   "terminalCandidateRadiusMeters": 5000,
@@ -1229,8 +1227,9 @@
   },
   "terminalResolution": {
     "status": "resolved",
-    "method": "accepted_terminal_candidate",
+    "method": "terminal_review",
     "verified": true,
-    "notes": "Accepted Gare Maritime d’Oran, the named maritime passenger terminal and strongest supplied match for cruise-passenger processing."
+    "reviewedAt": "2026-09-28",
+    "notes": "Oran maritime station is correct. Cruise calls are rare."
   }
 }

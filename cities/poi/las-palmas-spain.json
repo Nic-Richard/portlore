@@ -10,29 +10,29 @@
     "city": "Las Palmas",
     "country": "Spain"
   },
-  "defaultTerminalId": "ports-json-anchor",
+  "defaultTerminalId": "review/las-palmas-spain/santa-catalina-cruise-terminal",
   "terminal": {
-    "id": "ports-json-anchor",
-    "name": "LAS PALMAS Port",
-    "lat": 28.15,
-    "lng": -15.42,
-    "address": "Las Palmas, Canary Islands, Spain",
-    "source": "ports.json",
-    "sourceId": "",
-    "score": 0,
-    "slug": "las-palmas-port"
+    "id": "review/las-palmas-spain/santa-catalina-cruise-terminal",
+    "name": "Santa Catalina Cruise Terminal",
+    "lat": 28.141138,
+    "lng": -15.426012,
+    "terminalType": "passenger_cruise_terminal",
+    "source": "terminal_review",
+    "sourceUrls": [],
+    "verified": true,
+    "sourceId": "review/las-palmas-spain/santa-catalina-cruise-terminal"
   },
   "terminals": [
     {
-      "id": "ports-json-anchor",
-      "name": "LAS PALMAS Port",
-      "lat": 28.15,
-      "lng": -15.42,
-      "address": "Las Palmas, Canary Islands, Spain",
-      "source": "ports.json",
-      "sourceId": "",
-      "score": 0,
-      "slug": "las-palmas-port"
+      "id": "review/las-palmas-spain/santa-catalina-cruise-terminal",
+      "name": "Santa Catalina Cruise Terminal",
+      "lat": 28.141138,
+      "lng": -15.426012,
+      "terminalType": "passenger_cruise_terminal",
+      "source": "terminal_review",
+      "sourceUrls": [],
+      "verified": true,
+      "sourceId": "review/las-palmas-spain/santa-catalina-cruise-terminal"
     }
   ],
   "terminalCandidateRadiusMeters": 5000,
@@ -1320,9 +1320,10 @@
     "slug": "las-palmas-port"
   },
   "terminalResolution": {
-    "status": "unresolved",
-    "method": "ports_json_fallback",
-    "verified": false,
-    "notes": "All supplied candidates are ferry-only stops, local docks, unnamed maritime features, or unrelated places rather than passenger cruise terminals."
+    "status": "resolved",
+    "method": "terminal_review",
+    "verified": true,
+    "reviewedAt": "2026-09-28",
+    "notes": "Cruise ships berth at Santa Catalina pier (added from OpenStreetMap). The candidates were Fred Olsen ferry terminals."
   }
 }

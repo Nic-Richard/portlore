@@ -7,32 +7,32 @@
   "radiusMeters": 10000,
   "port": {
     "id": "krk-croatia",
-    "city": "Krk",
+    "city": "Rijeka",
     "country": "Croatia"
   },
-  "defaultTerminalId": "ports-json-anchor",
+  "defaultTerminalId": "review/krk-croatia/rije-ki-terminal",
   "terminal": {
-    "id": "ports-json-anchor",
-    "name": "RIJEKA LUKA Port",
-    "lat": 45.33,
-    "lng": 14.43,
-    "address": "Krk, Primorje-Gorski Kotar, Croatia",
-    "source": "ports.json",
-    "sourceId": "",
-    "score": 0,
-    "slug": "rijeka-luka-port"
+    "id": "review/krk-croatia/rije-ki-terminal",
+    "name": "Riječki terminal",
+    "lat": 45.32373,
+    "lng": 14.438495,
+    "terminalType": "passenger_cruise_terminal",
+    "source": "openstreetmap",
+    "sourceUrls": [],
+    "verified": true,
+    "sourceId": "review/krk-croatia/rije-ki-terminal"
   },
   "terminals": [
     {
-      "id": "ports-json-anchor",
-      "name": "RIJEKA LUKA Port",
-      "lat": 45.33,
-      "lng": 14.43,
-      "address": "Krk, Primorje-Gorski Kotar, Croatia",
-      "source": "ports.json",
-      "sourceId": "",
-      "score": 0,
-      "slug": "rijeka-luka-port"
+      "id": "review/krk-croatia/rije-ki-terminal",
+      "name": "Riječki terminal",
+      "lat": 45.32373,
+      "lng": 14.438495,
+      "terminalType": "passenger_cruise_terminal",
+      "source": "openstreetmap",
+      "sourceUrls": [],
+      "verified": true,
+      "sourceId": "review/krk-croatia/rije-ki-terminal"
     }
   ],
   "terminalCandidateRadiusMeters": 5000,
@@ -940,9 +940,10 @@
     "slug": "rijeka-luka-port"
   },
   "terminalResolution": {
-    "status": "unresolved",
-    "method": "ports_json_fallback",
-    "verified": false,
-    "notes": "All supplied candidates are ferry-only stops, local docks, unnamed maritime features, or unrelated places rather than passenger cruise terminals."
+    "status": "resolved",
+    "method": "terminal_review",
+    "verified": true,
+    "reviewedAt": "2026-09-28",
+    "notes": "These coordinates are Rijeka, not Krk, so the port should be renamed Rijeka. Kept the Rijeka passenger terminal, where cruise ships berth."
   }
 }

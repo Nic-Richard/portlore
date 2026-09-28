@@ -10,29 +10,29 @@
     "city": "Rio de Janeiro",
     "country": "Brazil"
   },
-  "defaultTerminalId": "ports-json-anchor",
+  "defaultTerminalId": "review/rio-de-janeiro-brazil/pier-maua-cruise-terminal",
   "terminal": {
-    "id": "ports-json-anchor",
-    "name": "RIO DE JANEIRO Port",
-    "lat": -22.9,
-    "lng": -43.17,
-    "address": "Rio de Janeiro, Rio de Janeiro, Brazil",
-    "source": "ports.json",
-    "sourceId": "",
-    "score": 0,
-    "slug": "rio-de-janeiro-port"
+    "id": "review/rio-de-janeiro-brazil/pier-maua-cruise-terminal",
+    "name": "Pier Maua Cruise Terminal",
+    "lat": -22.89558,
+    "lng": -43.18173,
+    "terminalType": "passenger_cruise_terminal",
+    "source": "terminal_review",
+    "sourceUrls": [],
+    "verified": true,
+    "sourceId": "review/rio-de-janeiro-brazil/pier-maua-cruise-terminal"
   },
   "terminals": [
     {
-      "id": "ports-json-anchor",
-      "name": "RIO DE JANEIRO Port",
-      "lat": -22.9,
-      "lng": -43.17,
-      "address": "Rio de Janeiro, Rio de Janeiro, Brazil",
-      "source": "ports.json",
-      "sourceId": "",
-      "score": 0,
-      "slug": "rio-de-janeiro-port"
+      "id": "review/rio-de-janeiro-brazil/pier-maua-cruise-terminal",
+      "name": "Pier Maua Cruise Terminal",
+      "lat": -22.89558,
+      "lng": -43.18173,
+      "terminalType": "passenger_cruise_terminal",
+      "source": "terminal_review",
+      "sourceUrls": [],
+      "verified": true,
+      "sourceId": "review/rio-de-janeiro-brazil/pier-maua-cruise-terminal"
     }
   ],
   "terminalCandidateRadiusMeters": 5000,
@@ -1239,9 +1239,10 @@
     "slug": "rio-de-janeiro-port"
   },
   "terminalResolution": {
-    "status": "unresolved",
-    "method": "ports_json_fallback",
-    "verified": false,
-    "notes": "All supplied candidates are ferry-only stops, local docks, unnamed maritime features, or unrelated places rather than passenger cruise terminals."
+    "status": "resolved",
+    "method": "terminal_review",
+    "verified": true,
+    "reviewedAt": "2026-09-28",
+    "notes": "Cruise ships berth at Pier Maua (added from OpenStreetMap). The candidates were Praca XV ferry stops."
   }
 }

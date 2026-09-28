@@ -10,29 +10,29 @@
     "city": "Amalfi",
     "country": "Italy"
   },
-  "defaultTerminalId": "ports-json-anchor",
+  "defaultTerminalId": "review/amalfi-italy/molo-pennello",
   "terminal": {
-    "id": "ports-json-anchor",
-    "name": "Amalfi Cruise Dock",
-    "lat": 40.634,
-    "lng": 14.6027,
-    "address": "Lungomare dei Cavalieri, Amalfi",
-    "source": "ports.json",
-    "sourceId": "",
-    "score": 0,
-    "slug": "amalfi-cruise-dock"
+    "id": "review/amalfi-italy/molo-pennello",
+    "name": "Molo Pennello",
+    "lat": 40.632864,
+    "lng": 14.601462,
+    "terminalType": "passenger_cruise_terminal",
+    "source": "openstreetmap",
+    "sourceUrls": [],
+    "verified": true,
+    "sourceId": "review/amalfi-italy/molo-pennello"
   },
   "terminals": [
     {
-      "id": "ports-json-anchor",
-      "name": "Amalfi Cruise Dock",
-      "lat": 40.634,
-      "lng": 14.6027,
-      "address": "Lungomare dei Cavalieri, Amalfi",
-      "source": "ports.json",
-      "sourceId": "",
-      "score": 0,
-      "slug": "amalfi-cruise-dock"
+      "id": "review/amalfi-italy/molo-pennello",
+      "name": "Molo Pennello",
+      "lat": 40.632864,
+      "lng": 14.601462,
+      "terminalType": "passenger_cruise_terminal",
+      "source": "openstreetmap",
+      "sourceUrls": [],
+      "verified": true,
+      "sourceId": "review/amalfi-italy/molo-pennello"
     }
   ],
   "terminalCandidateRadiusMeters": 5000,
@@ -960,9 +960,10 @@
     "slug": "amalfi-cruise-dock"
   },
   "terminalResolution": {
-    "status": "unresolved",
-    "method": "ports_json_fallback",
-    "verified": false,
-    "notes": "All supplied candidates are ferry-only stops, local docks, unnamed maritime features, or unrelated places rather than passenger cruise terminals."
+    "status": "resolved",
+    "method": "terminal_review",
+    "verified": true,
+    "reviewedAt": "2026-09-28",
+    "notes": "Ships anchor offshore and tender to Molo Pennello, which is correct. The rest are other coastal villages."
   }
 }

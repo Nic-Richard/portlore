@@ -15,7 +15,7 @@
     "id": "osm/generated/87b2030fcb8423297dcd",
     "name": "Gare Maritime Iberville",
     "nameEnglish": "",
-    "lat": 45.5023566,
+    "lat": 45.502357,
     "lng": -73.549875,
     "address": "",
     "source": "verified_terminal_candidate",
@@ -39,15 +39,14 @@
     "matchedBy": [
       "amenity=ferry_terminal",
       "terminal-like name"
-    ],
-    "distanceFromPortMeters": 1962
+    ]
   },
   "terminals": [
     {
       "id": "osm/generated/87b2030fcb8423297dcd",
       "name": "Gare Maritime Iberville",
       "nameEnglish": "",
-      "lat": 45.5023566,
+      "lat": 45.502357,
       "lng": -73.549875,
       "address": "",
       "source": "verified_terminal_candidate",
@@ -71,8 +70,7 @@
       "matchedBy": [
         "amenity=ferry_terminal",
         "terminal-like name"
-      ],
-      "distanceFromPortMeters": 1962
+      ]
     }
   ],
   "terminalCandidateRadiusMeters": 5000,
@@ -1184,8 +1182,9 @@
   },
   "terminalResolution": {
     "status": "resolved",
-    "method": "accepted_terminal_candidate",
+    "method": "terminal_review",
     "verified": true,
-    "notes": "External port and cruise-schedule checks support passenger cruise use, and the accepted candidate ID(s) correspond to the actual cruise terminal, cruise pier, or passenger terminal used by cruise ships."
+    "reviewedAt": "2026-09-28",
+    "notes": "Iberville terminal at the Grand Quay in the Old Port is correct."
   }
 }

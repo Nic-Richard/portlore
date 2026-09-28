@@ -15,7 +15,7 @@
     "id": "osm/generated/767eb512bb7ade845c2e",
     "name": "محطة البحرية الجزائر",
     "nameEnglish": "Algiers ferry terminal",
-    "lat": 36.7770511,
+    "lat": 36.777051,
     "lng": 3.063675,
     "address": "Alger, 16000",
     "source": "verified_terminal_candidate",
@@ -44,15 +44,14 @@
     "matchedBy": [
       "amenity=ferry_terminal",
       "Nominatim query: ALGER Port, Algiers, Algeria"
-    ],
-    "distanceFromPortMeters": 965
+    ]
   },
   "terminals": [
     {
       "id": "osm/generated/767eb512bb7ade845c2e",
       "name": "محطة البحرية الجزائر",
       "nameEnglish": "Algiers ferry terminal",
-      "lat": 36.7770511,
+      "lat": 36.777051,
       "lng": 3.063675,
       "address": "Alger, 16000",
       "source": "verified_terminal_candidate",
@@ -81,8 +80,7 @@
       "matchedBy": [
         "amenity=ferry_terminal",
         "Nominatim query: ALGER Port, Algiers, Algeria"
-      ],
-      "distanceFromPortMeters": 965
+      ]
     }
   ],
   "terminalCandidateRadiusMeters": 5000,
@@ -1360,8 +1358,9 @@
   },
   "terminalResolution": {
     "status": "resolved",
-    "method": "accepted_terminal_candidate",
+    "method": "terminal_review",
     "verified": true,
-    "notes": "The supplied maritime-station candidate matches the Gare Maritime d’Alger area on the commercial port, the practical passenger processing and city-side exit point for cruise calls."
+    "reviewedAt": "2026-09-28",
+    "notes": "The maritime station is correct. Cruise calls are infrequent here."
   }
 }

@@ -10,29 +10,40 @@
     "city": "Santo Domingo",
     "country": "Dominican Republic"
   },
-  "defaultTerminalId": "ports-json-anchor",
+  "defaultTerminalId": "review/santo-domingo-dominican-republic/terminal-del-ferry-diego-col-n",
   "terminal": {
-    "id": "ports-json-anchor",
-    "name": "SANTO DOMINGO Port",
-    "lat": 18.47,
-    "lng": -69.88,
-    "address": "Santo Domingo, Distrito Nacional, Dominican Republic",
-    "source": "ports.json",
-    "sourceId": "",
-    "score": 0,
-    "slug": "santo-domingo-port"
+    "id": "review/santo-domingo-dominican-republic/terminal-del-ferry-diego-col-n",
+    "name": "Terminal del Ferry Diego Colón",
+    "lat": 18.476224,
+    "lng": -69.881824,
+    "terminalType": "passenger_cruise_terminal",
+    "source": "openstreetmap",
+    "sourceUrls": [],
+    "verified": true,
+    "sourceId": "review/santo-domingo-dominican-republic/terminal-del-ferry-diego-col-n"
   },
   "terminals": [
     {
-      "id": "ports-json-anchor",
-      "name": "SANTO DOMINGO Port",
-      "lat": 18.47,
-      "lng": -69.88,
-      "address": "Santo Domingo, Distrito Nacional, Dominican Republic",
-      "source": "ports.json",
-      "sourceId": "",
-      "score": 0,
-      "slug": "santo-domingo-port"
+      "id": "review/santo-domingo-dominican-republic/terminal-del-ferry-diego-col-n",
+      "name": "Terminal del Ferry Diego Colón",
+      "lat": 18.476224,
+      "lng": -69.881824,
+      "terminalType": "passenger_cruise_terminal",
+      "source": "openstreetmap",
+      "sourceUrls": [],
+      "verified": true,
+      "sourceId": "review/santo-domingo-dominican-republic/terminal-del-ferry-diego-col-n"
+    },
+    {
+      "id": "review/santo-domingo-dominican-republic/sans-souci-cruise-terminal",
+      "name": "Sans Souci Cruise Terminal",
+      "lat": 18.47123,
+      "lng": -69.876233,
+      "terminalType": "passenger_cruise_terminal",
+      "source": "terminal_review",
+      "sourceUrls": [],
+      "verified": true,
+      "sourceId": "review/santo-domingo-dominican-republic/sans-souci-cruise-terminal"
     }
   ],
   "terminalCandidateRadiusMeters": 5000,
@@ -906,9 +917,10 @@
     "slug": "santo-domingo-port"
   },
   "terminalResolution": {
-    "status": "unresolved",
-    "method": "ports_json_fallback",
-    "verified": false,
-    "notes": "All supplied candidates are ferry-only stops, local docks, unnamed maritime features, or unrelated places rather than passenger cruise terminals."
+    "status": "resolved",
+    "method": "terminal_review",
+    "verified": true,
+    "reviewedAt": "2026-09-28",
+    "notes": "Ships use the Sans Souci terminal (added from OpenStreetMap) and the Don Diego terminal by the Colonial Zone, which was the candidate."
   }
 }

@@ -15,8 +15,8 @@
     "id": "osm/generated/b20adfe98cdc1175a5af",
     "name": "Cruise Terminal & Immigration",
     "nameEnglish": "",
-    "lat": 10.6511831,
-    "lng": -61.5177986,
+    "lat": 10.651183,
+    "lng": -61.517799,
     "address": "",
     "source": "verified_terminal_candidate",
     "sourceId": "osm/generated/b20adfe98cdc1175a5af",
@@ -39,16 +39,15 @@
     "matchedBy": [
       "amenity=ferry_terminal",
       "terminal-like name"
-    ],
-    "distanceFromPortMeters": 274
+    ]
   },
   "terminals": [
     {
       "id": "osm/generated/b20adfe98cdc1175a5af",
       "name": "Cruise Terminal & Immigration",
       "nameEnglish": "",
-      "lat": 10.6511831,
-      "lng": -61.5177986,
+      "lat": 10.651183,
+      "lng": -61.517799,
       "address": "",
       "source": "verified_terminal_candidate",
       "sourceId": "osm/generated/b20adfe98cdc1175a5af",
@@ -71,8 +70,7 @@
       "matchedBy": [
         "amenity=ferry_terminal",
         "terminal-like name"
-      ],
-      "distanceFromPortMeters": 274
+      ]
     }
   ],
   "terminalCandidateRadiusMeters": 5000,
@@ -1489,8 +1487,9 @@
   },
   "terminalResolution": {
     "status": "resolved",
-    "method": "accepted_terminal_candidate",
+    "method": "terminal_review",
     "verified": true,
-    "notes": "Accepted 1 candidate explicitly identified as an ocean-cruise or cruise-passenger terminal; ferry and unrelated results were excluded."
+    "reviewedAt": "2026-09-28",
+    "notes": "Verified terminal is correct; other candidates are ferry stops, offices, or unrelated places."
   }
 }

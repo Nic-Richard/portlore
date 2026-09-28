@@ -10,29 +10,29 @@
     "city": "Salvador",
     "country": "Brazil"
   },
-  "defaultTerminalId": "ports-json-anchor",
+  "defaultTerminalId": "review/salvador-brazil/salvador-cruise-terminal-porto-de-salvador",
   "terminal": {
-    "id": "ports-json-anchor",
-    "name": "PORT DE SALVADOR Port",
-    "lat": -12.97,
-    "lng": -38.52,
-    "address": "Salvador, Bahia, Brazil",
-    "source": "ports.json",
-    "sourceId": "",
-    "score": 0,
-    "slug": "port-de-salvador-port"
+    "id": "review/salvador-brazil/salvador-cruise-terminal-porto-de-salvador",
+    "name": "Salvador Cruise Terminal (Porto de Salvador)",
+    "lat": -12.96095,
+    "lng": -38.506924,
+    "terminalType": "passenger_cruise_terminal",
+    "source": "terminal_review",
+    "sourceUrls": [],
+    "verified": true,
+    "sourceId": "review/salvador-brazil/salvador-cruise-terminal-porto-de-salvador"
   },
   "terminals": [
     {
-      "id": "ports-json-anchor",
-      "name": "PORT DE SALVADOR Port",
-      "lat": -12.97,
-      "lng": -38.52,
-      "address": "Salvador, Bahia, Brazil",
-      "source": "ports.json",
-      "sourceId": "",
-      "score": 0,
-      "slug": "port-de-salvador-port"
+      "id": "review/salvador-brazil/salvador-cruise-terminal-porto-de-salvador",
+      "name": "Salvador Cruise Terminal (Porto de Salvador)",
+      "lat": -12.96095,
+      "lng": -38.506924,
+      "terminalType": "passenger_cruise_terminal",
+      "source": "terminal_review",
+      "sourceUrls": [],
+      "verified": true,
+      "sourceId": "review/salvador-brazil/salvador-cruise-terminal-porto-de-salvador"
     }
   ],
   "terminalCandidateRadiusMeters": 5000,
@@ -1055,9 +1055,10 @@
     "slug": "port-de-salvador-port"
   },
   "terminalResolution": {
-    "status": "unresolved",
-    "method": "ports_json_fallback",
-    "verified": false,
-    "notes": "All supplied candidates are ferry-only stops, local docks, unnamed maritime features, or unrelated places rather than passenger cruise terminals."
+    "status": "resolved",
+    "method": "terminal_review",
+    "verified": true,
+    "reviewedAt": "2026-09-28",
+    "notes": "Cruise ships berth at the Port of Salvador by the Comercio district, below the historic Pelourinho (added from OpenStreetMap)."
   }
 }

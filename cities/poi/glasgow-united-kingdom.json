@@ -7,66 +7,32 @@
   "radiusMeters": 10000,
   "port": {
     "id": "glasgow-united-kingdom",
-    "city": "Glasgow",
+    "city": "Glasgow (Greenock)",
     "country": "United Kingdom"
   },
-  "defaultTerminalId": "manual/glasgow-united-kingdom/greenock-ocean-terminal",
+  "defaultTerminalId": "review/glasgow-united-kingdom/greenock-ocean-terminal",
   "terminal": {
-    "id": "manual/glasgow-united-kingdom/greenock-ocean-terminal",
+    "id": "review/glasgow-united-kingdom/greenock-ocean-terminal",
     "name": "Greenock Ocean Terminal",
-    "nameEnglish": "",
-    "lat": 55.95751,
-    "lng": -4.76526,
-    "address": "",
-    "source": "manual_web_research",
-    "sourceId": "manual/glasgow-united-kingdom/greenock-ocean-terminal",
-    "terminalType": "gateway_cruise_terminal",
+    "lat": 55.95107,
+    "lng": -4.75619,
+    "terminalType": "passenger_cruise_terminal",
+    "source": "terminal_review",
+    "sourceUrls": [],
     "verified": true,
-    "notes": "Actual cruise gateway for Glasgow. Coordinate marks the passenger terminal and landside exit in Greenock.",
-    "sourceUrls": [
-      "https://www.greenockcruiseport.com/",
-      "https://www.openstreetmap.org/?mlat=55.95751&mlon=-4.76526#map=17/55.95751/-4.76526"
-    ],
-    "sources": [
-      "manual_web_research"
-    ],
-    "sourceIds": [
-      "manual/glasgow-united-kingdom/greenock-ocean-terminal"
-    ],
-    "osmTags": {},
-    "matchedBy": [
-      "web_researched_terminal"
-    ],
-    "distanceFromPortMeters": null
+    "sourceId": "review/glasgow-united-kingdom/greenock-ocean-terminal"
   },
   "terminals": [
     {
-      "id": "manual/glasgow-united-kingdom/greenock-ocean-terminal",
+      "id": "review/glasgow-united-kingdom/greenock-ocean-terminal",
       "name": "Greenock Ocean Terminal",
-      "nameEnglish": "",
-      "lat": 55.95751,
-      "lng": -4.76526,
-      "address": "",
-      "source": "manual_web_research",
-      "sourceId": "manual/glasgow-united-kingdom/greenock-ocean-terminal",
-      "terminalType": "gateway_cruise_terminal",
+      "lat": 55.95107,
+      "lng": -4.75619,
+      "terminalType": "passenger_cruise_terminal",
+      "source": "terminal_review",
+      "sourceUrls": [],
       "verified": true,
-      "notes": "Actual cruise gateway for Glasgow. Coordinate marks the passenger terminal and landside exit in Greenock.",
-      "sourceUrls": [
-        "https://www.greenockcruiseport.com/",
-        "https://www.openstreetmap.org/?mlat=55.95751&mlon=-4.76526#map=17/55.95751/-4.76526"
-      ],
-      "sources": [
-        "manual_web_research"
-      ],
-      "sourceIds": [
-        "manual/glasgow-united-kingdom/greenock-ocean-terminal"
-      ],
-      "osmTags": {},
-      "matchedBy": [
-        "web_researched_terminal"
-      ],
-      "distanceFromPortMeters": null
+      "sourceId": "review/glasgow-united-kingdom/greenock-ocean-terminal"
     }
   ],
   "terminalCandidateRadiusMeters": 5000,
@@ -1177,8 +1143,9 @@
   },
   "terminalResolution": {
     "status": "resolved",
-    "method": "manual_web_research",
+    "method": "terminal_review",
     "verified": true,
-    "notes": "Terminal records were added from researched cruise-port sources because no supplied candidate accurately represented the passenger arrival point."
+    "reviewedAt": "2026-09-28",
+    "notes": "ships dock at Greenock Ocean Terminal, about 32 km from Glasgow. Kept as a gateway port, renamed Glasgow (Greenock). It shares its terminal with the Greenock entry. Terminal sweep: Moved the Greenock Ocean Terminal pin about 900 m onto the terminal building (two Google Maps listings agree)."
   }
 }

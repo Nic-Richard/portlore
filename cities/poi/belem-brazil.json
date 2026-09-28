@@ -10,29 +10,29 @@
     "city": "Belém",
     "country": "Brazil"
   },
-  "defaultTerminalId": "ports-json-anchor",
+  "defaultTerminalId": "review/belem-brazil/estacao-das-docas-waterfront",
   "terminal": {
-    "id": "ports-json-anchor",
-    "name": "BELEM Port",
-    "lat": -1.45,
-    "lng": -48.5,
-    "address": "Belém, Pará, Brazil",
-    "source": "ports.json",
-    "sourceId": "",
-    "score": 0,
-    "slug": "belem-port"
+    "id": "review/belem-brazil/estacao-das-docas-waterfront",
+    "name": "Estacao das Docas waterfront",
+    "lat": -1.44861,
+    "lng": -48.499986,
+    "terminalType": "passenger_cruise_terminal",
+    "source": "terminal_review",
+    "sourceUrls": [],
+    "verified": true,
+    "sourceId": "review/belem-brazil/estacao-das-docas-waterfront"
   },
   "terminals": [
     {
-      "id": "ports-json-anchor",
-      "name": "BELEM Port",
-      "lat": -1.45,
-      "lng": -48.5,
-      "address": "Belém, Pará, Brazil",
-      "source": "ports.json",
-      "sourceId": "",
-      "score": 0,
-      "slug": "belem-port"
+      "id": "review/belem-brazil/estacao-das-docas-waterfront",
+      "name": "Estacao das Docas waterfront",
+      "lat": -1.44861,
+      "lng": -48.499986,
+      "terminalType": "passenger_cruise_terminal",
+      "source": "terminal_review",
+      "sourceUrls": [],
+      "verified": true,
+      "sourceId": "review/belem-brazil/estacao-das-docas-waterfront"
     }
   ],
   "terminalCandidateRadiusMeters": 5000,
@@ -1132,9 +1132,10 @@
     "slug": "belem-port"
   },
   "terminalResolution": {
-    "status": "unresolved",
-    "method": "ports_json_fallback",
-    "verified": false,
-    "notes": "All supplied candidates are ferry-only stops, local docks, unnamed maritime features, or unrelated places rather than passenger cruise terminals."
+    "status": "resolved",
+    "method": "terminal_review",
+    "verified": true,
+    "reviewedAt": "2026-09-28",
+    "notes": "Occasional expedition and river ships moor by the Estacao das Docas waterfront (from OpenStreetMap)."
   }
 }

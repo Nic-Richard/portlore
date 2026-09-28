@@ -10,29 +10,29 @@
     "city": "Syracuse",
     "country": "Italy"
   },
-  "defaultTerminalId": "ports-json-anchor",
+  "defaultTerminalId": "review/syracuse-italy/molo-sant-antonio-cruise-berth",
   "terminal": {
-    "id": "ports-json-anchor",
-    "name": "SIRACUSA Port",
-    "lat": 37.05,
-    "lng": 15.28,
-    "address": "Syracuse, Sicily, Italy",
-    "source": "ports.json",
-    "sourceId": "",
-    "score": 0,
-    "slug": "siracusa-port"
+    "id": "review/syracuse-italy/molo-sant-antonio-cruise-berth",
+    "name": "Molo Sant'Antonio cruise berth",
+    "lat": 37.063101,
+    "lng": 15.286013,
+    "terminalType": "passenger_cruise_terminal",
+    "source": "terminal_review",
+    "sourceUrls": [],
+    "verified": true,
+    "sourceId": "review/syracuse-italy/molo-sant-antonio-cruise-berth"
   },
   "terminals": [
     {
-      "id": "ports-json-anchor",
-      "name": "SIRACUSA Port",
-      "lat": 37.05,
-      "lng": 15.28,
-      "address": "Syracuse, Sicily, Italy",
-      "source": "ports.json",
-      "sourceId": "",
-      "score": 0,
-      "slug": "siracusa-port"
+      "id": "review/syracuse-italy/molo-sant-antonio-cruise-berth",
+      "name": "Molo Sant'Antonio cruise berth",
+      "lat": 37.063101,
+      "lng": 15.286013,
+      "terminalType": "passenger_cruise_terminal",
+      "source": "terminal_review",
+      "sourceUrls": [],
+      "verified": true,
+      "sourceId": "review/syracuse-italy/molo-sant-antonio-cruise-berth"
     }
   ],
   "terminalCandidateRadiusMeters": 5000,
@@ -859,9 +859,10 @@
     "slug": "siracusa-port"
   },
   "terminalResolution": {
-    "status": "unresolved",
-    "method": "ports_json_fallback",
-    "verified": false,
-    "notes": "The catalog contains no terminal candidates, so there is no candidate ID to accept."
+    "status": "resolved",
+    "method": "terminal_review",
+    "verified": true,
+    "reviewedAt": "2026-09-28",
+    "notes": "Cruise ships berth at Molo Sant'Antonio in the Porto Grande (from OpenStreetMap), a short walk to Ortigia."
   }
 }

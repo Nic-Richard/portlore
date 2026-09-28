@@ -15,8 +15,8 @@
     "id": "osm/generated/d8670698cb81edc53285",
     "name": "Passenger Terminal Amsterdam",
     "nameEnglish": "",
-    "lat": 52.3778116,
-    "lng": 4.9153293,
+    "lat": 52.377812,
+    "lng": 4.915329,
     "address": "27 Piet Heinkade, Amsterdam, 1019BR, NL",
     "source": "verified_terminal_candidate",
     "sourceId": "osm/generated/d8670698cb81edc53285",
@@ -36,16 +36,15 @@
     "matchedBy": [
       "amenity=ferry_terminal",
       "terminal-like name"
-    ],
-    "distanceFromPortMeters": 1356
+    ]
   },
   "terminals": [
     {
       "id": "osm/generated/d8670698cb81edc53285",
       "name": "Passenger Terminal Amsterdam",
       "nameEnglish": "",
-      "lat": 52.3778116,
-      "lng": 4.9153293,
+      "lat": 52.377812,
+      "lng": 4.915329,
       "address": "27 Piet Heinkade, Amsterdam, 1019BR, NL",
       "source": "verified_terminal_candidate",
       "sourceId": "osm/generated/d8670698cb81edc53285",
@@ -65,8 +64,7 @@
       "matchedBy": [
         "amenity=ferry_terminal",
         "terminal-like name"
-      ],
-      "distanceFromPortMeters": 1356
+      ]
     }
   ],
   "terminalCandidateRadiusMeters": 5000,
@@ -1537,8 +1535,9 @@
   },
   "terminalResolution": {
     "status": "resolved",
-    "method": "accepted_terminal_candidate",
+    "method": "terminal_review",
     "verified": true,
-    "notes": "Accepted 1 candidate explicitly identified as an ocean-cruise or cruise-passenger terminal; ferry and unrelated results were excluded."
+    "reviewedAt": "2026-09-28",
+    "notes": "Passenger Terminal Amsterdam is correct; the rest are GVB ferry stops and canal tours."
   }
 }

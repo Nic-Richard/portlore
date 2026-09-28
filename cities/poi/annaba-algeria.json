@@ -15,8 +15,8 @@
     "id": "osm/generated/4f557e2065400f548f0c",
     "name": "Gare Maritime المحطة البحرية",
     "nameEnglish": "",
-    "lat": 36.8972177,
-    "lng": 7.7634079,
+    "lat": 36.897218,
+    "lng": 7.763408,
     "address": "Annaba, 23000",
     "source": "verified_terminal_candidate",
     "sourceId": "osm/generated/4f557e2065400f548f0c",
@@ -38,16 +38,15 @@
     "matchedBy": [
       "amenity=ferry_terminal",
       "terminal-like name"
-    ],
-    "distanceFromPortMeters": 2600
+    ]
   },
   "terminals": [
     {
       "id": "osm/generated/4f557e2065400f548f0c",
       "name": "Gare Maritime المحطة البحرية",
       "nameEnglish": "",
-      "lat": 36.8972177,
-      "lng": 7.7634079,
+      "lat": 36.897218,
+      "lng": 7.763408,
       "address": "Annaba, 23000",
       "source": "verified_terminal_candidate",
       "sourceId": "osm/generated/4f557e2065400f548f0c",
@@ -69,8 +68,7 @@
       "matchedBy": [
         "amenity=ferry_terminal",
         "terminal-like name"
-      ],
-      "distanceFromPortMeters": 2600
+      ]
     }
   ],
   "terminalCandidateRadiusMeters": 5000,
@@ -1099,8 +1097,9 @@
   },
   "terminalResolution": {
     "status": "resolved",
-    "method": "accepted_terminal_candidate",
+    "method": "terminal_review",
     "verified": true,
-    "notes": "Accepted the named Gare Maritime. The Port of Annaba identifies this passenger terminal as the city-centre maritime passenger facility used for vessel calls."
+    "reviewedAt": "2026-09-28",
+    "notes": "The maritime station is the passenger berth. Cruise calls are rare, so consider whether to keep this port."
   }
 }

@@ -10,29 +10,29 @@
     "city": "Dubrovnik",
     "country": "Croatia"
   },
-  "defaultTerminalId": "ports-json-anchor",
+  "defaultTerminalId": "review/dubrovnik-croatia/dubrovnik-cruise-port-gruz",
   "terminal": {
-    "id": "ports-json-anchor",
-    "name": "Dubrovnik Cruise Port",
-    "lat": 42.655,
-    "lng": 18.0784,
-    "address": "Obala Stjepana Radica 27, Dubrovnik",
-    "source": "ports.json",
-    "sourceId": "",
-    "score": 0,
-    "slug": "dubrovnik-cruise-port"
+    "id": "review/dubrovnik-croatia/dubrovnik-cruise-port-gruz",
+    "name": "Dubrovnik Cruise Port (Gruz)",
+    "lat": 42.658531,
+    "lng": 18.086478,
+    "terminalType": "passenger_cruise_terminal",
+    "source": "terminal_review",
+    "sourceUrls": [],
+    "verified": true,
+    "sourceId": "review/dubrovnik-croatia/dubrovnik-cruise-port-gruz"
   },
   "terminals": [
     {
-      "id": "ports-json-anchor",
-      "name": "Dubrovnik Cruise Port",
-      "lat": 42.655,
-      "lng": 18.0784,
-      "address": "Obala Stjepana Radica 27, Dubrovnik",
-      "source": "ports.json",
-      "sourceId": "",
-      "score": 0,
-      "slug": "dubrovnik-cruise-port"
+      "id": "review/dubrovnik-croatia/dubrovnik-cruise-port-gruz",
+      "name": "Dubrovnik Cruise Port (Gruz)",
+      "lat": 42.658531,
+      "lng": 18.086478,
+      "terminalType": "passenger_cruise_terminal",
+      "source": "terminal_review",
+      "sourceUrls": [],
+      "verified": true,
+      "sourceId": "review/dubrovnik-croatia/dubrovnik-cruise-port-gruz"
     }
   ],
   "terminalCandidateRadiusMeters": 5000,
@@ -1773,9 +1773,10 @@
     "slug": "dubrovnik-cruise-port"
   },
   "terminalResolution": {
-    "status": "unresolved",
-    "method": "ports_json_fallback",
-    "verified": false,
-    "notes": "All supplied candidates are ferry-only stops, local docks, unnamed maritime features, or unrelated places rather than passenger cruise terminals."
+    "status": "resolved",
+    "method": "terminal_review",
+    "verified": true,
+    "reviewedAt": "2026-09-28",
+    "notes": "Ships berth at Gruz port (added from OpenStreetMap), about 3 km from the Old Town; some anchor and tender to the old harbour."
   }
 }

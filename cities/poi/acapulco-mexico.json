@@ -15,8 +15,8 @@
     "id": "osm/generated/a3ab818583391f6c1f8b",
     "name": "Terminal Marítima",
     "nameEnglish": "",
-    "lat": 16.8486372,
-    "lng": -99.9020256,
+    "lat": 16.848637,
+    "lng": -99.902026,
     "address": "",
     "source": "verified_terminal_candidate",
     "sourceId": "osm/generated/a3ab818583391f6c1f8b",
@@ -35,16 +35,15 @@
     },
     "matchedBy": [
       "terminal-like name"
-    ],
-    "distanceFromPortMeters": 2981
+    ]
   },
   "terminals": [
     {
       "id": "osm/generated/a3ab818583391f6c1f8b",
       "name": "Terminal Marítima",
       "nameEnglish": "",
-      "lat": 16.8486372,
-      "lng": -99.9020256,
+      "lat": 16.848637,
+      "lng": -99.902026,
       "address": "",
       "source": "verified_terminal_candidate",
       "sourceId": "osm/generated/a3ab818583391f6c1f8b",
@@ -63,8 +62,7 @@
       },
       "matchedBy": [
         "terminal-like name"
-      ],
-      "distanceFromPortMeters": 2981
+      ]
     }
   ],
   "terminalCandidateRadiusMeters": 5000,
@@ -1053,8 +1051,9 @@
   },
   "terminalResolution": {
     "status": "resolved",
-    "method": "accepted_terminal_candidate",
+    "method": "terminal_review",
     "verified": true,
-    "notes": "External port and cruise-schedule checks support passenger cruise use, and the accepted candidate ID(s) correspond to the actual cruise terminal, cruise pier, or passenger terminal used by cruise ships."
+    "reviewedAt": "2026-09-28",
+    "notes": "Verified terminal is correct; other candidates are ferry stops, offices, or unrelated places."
   }
 }

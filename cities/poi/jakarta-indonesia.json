@@ -15,8 +15,8 @@
     "id": "osm/generated/69921fcdfff483fe2037",
     "name": "Terminal Penumpang Pelabuhan Tanjung Priok",
     "nameEnglish": "",
-    "lat": -6.1037524,
-    "lng": 106.8818244,
+    "lat": -6.103752,
+    "lng": 106.881824,
     "address": "Tanjung Priok",
     "source": "verified_terminal_candidate",
     "sourceId": "osm/generated/69921fcdfff483fe2037",
@@ -38,16 +38,15 @@
     },
     "matchedBy": [
       "amenity=ferry_terminal"
-    ],
-    "distanceFromPortMeters": 463
+    ]
   },
   "terminals": [
     {
       "id": "osm/generated/69921fcdfff483fe2037",
       "name": "Terminal Penumpang Pelabuhan Tanjung Priok",
       "nameEnglish": "",
-      "lat": -6.1037524,
-      "lng": 106.8818244,
+      "lat": -6.103752,
+      "lng": 106.881824,
       "address": "Tanjung Priok",
       "source": "verified_terminal_candidate",
       "sourceId": "osm/generated/69921fcdfff483fe2037",
@@ -69,8 +68,7 @@
       },
       "matchedBy": [
         "amenity=ferry_terminal"
-      ],
-      "distanceFromPortMeters": 463
+      ]
     }
   ],
   "terminalCandidateRadiusMeters": 5000,
@@ -842,8 +840,9 @@
   },
   "terminalResolution": {
     "status": "resolved",
-    "method": "accepted_terminal_candidate",
+    "method": "terminal_review",
     "verified": true,
-    "notes": "Accepted Terminal Penumpang Pelabuhan Tanjung Priok, the mapped passenger terminal in the port complex where cruise visitors are processed ashore."
+    "reviewedAt": "2026-09-28",
+    "notes": "Tanjung Priok passenger terminal is correct. It's about 10 km from central Jakarta, so most stops need a transfer."
   }
 }

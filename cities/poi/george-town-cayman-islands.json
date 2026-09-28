@@ -15,7 +15,7 @@
     "id": "osm/generated/b06d3645435da745ce22",
     "name": "Royal Watler Cruise Terminal",
     "nameEnglish": "",
-    "lat": 19.2953425,
+    "lat": 19.295343,
     "lng": -81.384151,
     "address": "",
     "source": "verified_terminal_candidate",
@@ -38,15 +38,14 @@
     "matchedBy": [
       "amenity=ferry_terminal",
       "terminal-like name"
-    ],
-    "distanceFromPortMeters": 1068
+    ]
   },
   "terminals": [
     {
       "id": "osm/generated/b06d3645435da745ce22",
       "name": "Royal Watler Cruise Terminal",
       "nameEnglish": "",
-      "lat": 19.2953425,
+      "lat": 19.295343,
       "lng": -81.384151,
       "address": "",
       "source": "verified_terminal_candidate",
@@ -69,8 +68,7 @@
       "matchedBy": [
         "amenity=ferry_terminal",
         "terminal-like name"
-      ],
-      "distanceFromPortMeters": 1068
+      ]
     }
   ],
   "terminalCandidateRadiusMeters": 5000,
@@ -1194,8 +1192,9 @@
   },
   "terminalResolution": {
     "status": "resolved",
-    "method": "accepted_terminal_candidate",
+    "method": "terminal_review",
     "verified": true,
-    "notes": "Accepted 1 candidate explicitly identified as an ocean-cruise or cruise-passenger terminal; ferry and unrelated results were excluded."
+    "reviewedAt": "2026-09-28",
+    "notes": "Royal Watler is the tender landing (ships anchor offshore here)."
   }
 }

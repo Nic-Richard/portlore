@@ -15,8 +15,8 @@
     "id": "osm/way/154250076",
     "name": "Port Tampa Bay Cruise Terminal 3",
     "nameEnglish": "",
-    "lat": 27.9455003,
-    "lng": -82.4442069,
+    "lat": 27.9455,
+    "lng": -82.444207,
     "address": "Port Tampa Bay Cruise Terminal 3, 815, Channelside Drive, Harbour Island, Tampa, Hillsborough County, Florida, 33602, United States",
     "source": "verified_terminal_candidate",
     "sourceId": "osm/way/154250076",
@@ -35,16 +35,15 @@
     },
     "matchedBy": [
       "Nominatim query: Tampa cruise terminal, United States"
-    ],
-    "distanceFromPortMeters": 420
+    ]
   },
   "terminals": [
     {
       "id": "osm/way/154250076",
       "name": "Port Tampa Bay Cruise Terminal 3",
       "nameEnglish": "",
-      "lat": 27.9455003,
-      "lng": -82.4442069,
+      "lat": 27.9455,
+      "lng": -82.444207,
       "address": "Port Tampa Bay Cruise Terminal 3, 815, Channelside Drive, Harbour Island, Tampa, Hillsborough County, Florida, 33602, United States",
       "source": "verified_terminal_candidate",
       "sourceId": "osm/way/154250076",
@@ -63,15 +62,14 @@
       },
       "matchedBy": [
         "Nominatim query: Tampa cruise terminal, United States"
-      ],
-      "distanceFromPortMeters": 420
+      ]
     },
     {
       "id": "osm/way/1123482900",
       "name": "Port Tampa Bay Cruise Terminal 6",
       "nameEnglish": "",
-      "lat": 27.9497701,
-      "lng": -82.4438215,
+      "lat": 27.94977,
+      "lng": -82.443821,
       "address": "Port Tampa Bay Cruise Terminal 6, McKay Street, Estuary, Ybor City, Tampa, Hillsborough County, Florida, 33602, United States",
       "source": "verified_terminal_candidate",
       "sourceId": "osm/way/1123482900",
@@ -90,15 +88,14 @@
       },
       "matchedBy": [
         "Nominatim query: Tampa cruise terminal, United States"
-      ],
-      "distanceFromPortMeters": 843
+      ]
     },
     {
       "id": "osm/generated/3736395356b332b0f700",
       "name": "Port Tampa Bay Cruise Terminal 2",
       "nameEnglish": "",
-      "lat": 27.9433542,
-      "lng": -82.4458064,
+      "lat": 27.943354,
+      "lng": -82.445806,
       "address": "651 Channelside Drive, Tampa, FL, 33602, US",
       "source": "verified_terminal_candidate",
       "sourceId": "osm/generated/3736395356b332b0f700",
@@ -124,8 +121,7 @@
         "amenity=ferry_terminal",
         "terminal-like name",
         "Nominatim query: Tampa cruise terminal, United States"
-      ],
-      "distanceFromPortMeters": 150
+      ]
     }
   ],
   "terminalCandidateRadiusMeters": 5000,
@@ -1449,8 +1445,9 @@
   },
   "terminalResolution": {
     "status": "resolved",
-    "method": "accepted_terminal_candidate",
+    "method": "terminal_review",
     "verified": true,
-    "notes": "Accepted 3 candidates explicitly identified as an ocean-cruise or cruise-passenger terminal; ferry and unrelated results were excluded."
+    "reviewedAt": "2026-09-28",
+    "notes": "Cruise Terminals 2, 3, and 6 are correct; the rest are the Tampa ferry and a generic port entry."
   }
 }

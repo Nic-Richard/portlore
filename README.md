@@ -36,9 +36,10 @@ The frontend is currently contained in `client/src/index.html` and can be rework
 3. `scripts/build-all-poi-catalogs.js` downloads the required OpenStreetMap extracts.
 4. `scripts/build-poi-catalog.js` extracts nearby POI candidates for each port.
 5. POIs are reviewed and saved in `cities/poi/`.
-6. Google Places matching adds Place IDs and terminal candidates.
-7. Anthropic is used for short destination descriptions and practical tips.
-8. The server calculates route, distance, and terminal access information.
+6. `scripts/apply-terminal-review.js` applies the reviewed cruise terminals in `data/terminal-review.json` to the port list and catalogs.
+7. Google Places matching adds Place IDs.
+8. Anthropic curates the guide around the terminals and writes short descriptions and practical tips.
+9. The server calculates route, distance, and terminal access information.
 
 Generated guides are stored as `cities/<port-id>.json`. They are runtime files and are not committed to Git.
 
@@ -46,7 +47,7 @@ Generated guides are stored as `cities/<port-id>.json`. They are runtime files a
 
 The port list, cruise-port filtering, terminal records, and POI catalogs are still being refined.
 
-The current `cities/ports.json` contains a manually reviewed working catalog, but it may still include unsuitable ports, miss valid cruise destinations, or combine terminals that should be treated separately.
+Every port in `cities/ports.json` has been checked for cruise or passenger-ship calls, and each has one or more reviewed cruise terminals. Ports that only handle cargo were removed.
 
 Run the initial port candidate generator with:
 

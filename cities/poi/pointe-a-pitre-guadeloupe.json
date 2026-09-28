@@ -15,8 +15,8 @@
     "id": "osm/way/65845367",
     "name": "Cruise Terminal Guadeloupe Port Caraïbes",
     "nameEnglish": "",
-    "lat": 16.2387028,
-    "lng": -61.5388821,
+    "lat": 16.238703,
+    "lng": -61.538882,
     "address": "Cruise Terminal Guadeloupe Port Caraïbes, Quai Lefèbvre, Gare maritime, Pointe-à-Pitre, Guadeloupe, 97110, France",
     "source": "verified_terminal_candidate",
     "sourceId": "osm/way/65845367",
@@ -33,16 +33,15 @@
     "osmTags": {},
     "matchedBy": [
       "Nominatim query: POINTE A PITRE Port, Pointe-à-Pitre, Guadeloupe"
-    ],
-    "distanceFromPortMeters": 1355
+    ]
   },
   "terminals": [
     {
       "id": "osm/way/65845367",
       "name": "Cruise Terminal Guadeloupe Port Caraïbes",
       "nameEnglish": "",
-      "lat": 16.2387028,
-      "lng": -61.5388821,
+      "lat": 16.238703,
+      "lng": -61.538882,
       "address": "Cruise Terminal Guadeloupe Port Caraïbes, Quai Lefèbvre, Gare maritime, Pointe-à-Pitre, Guadeloupe, 97110, France",
       "source": "verified_terminal_candidate",
       "sourceId": "osm/way/65845367",
@@ -59,8 +58,7 @@
       "osmTags": {},
       "matchedBy": [
         "Nominatim query: POINTE A PITRE Port, Pointe-à-Pitre, Guadeloupe"
-      ],
-      "distanceFromPortMeters": 1355
+      ]
     }
   ],
   "terminalCandidateRadiusMeters": 5000,
@@ -1664,8 +1662,9 @@
   },
   "terminalResolution": {
     "status": "resolved",
-    "method": "accepted_terminal_candidate",
+    "method": "terminal_review",
     "verified": true,
-    "notes": "Accepted 1 candidate explicitly identified as an ocean-cruise or cruise-passenger terminal; ferry and unrelated results were excluded."
+    "reviewedAt": "2026-09-28",
+    "notes": "Pointe-a-Pitre cruise terminal is correct; the rest are unrelated."
   }
 }

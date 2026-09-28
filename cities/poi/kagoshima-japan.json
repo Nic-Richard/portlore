@@ -10,29 +10,29 @@
     "city": "Kagoshima",
     "country": "Japan"
   },
-  "defaultTerminalId": "ports-json-anchor",
+  "defaultTerminalId": "review/kagoshima-japan/marine-port-kagoshima",
   "terminal": {
-    "id": "ports-json-anchor",
-    "name": "KAGOSHIMA KO Port",
-    "lat": 31.58,
-    "lng": 130.57,
-    "address": "Kagoshima, Kagoshima Prefecture, Japan",
-    "source": "ports.json",
-    "sourceId": "",
-    "score": 0,
-    "slug": "kagoshima-ko-port"
+    "id": "review/kagoshima-japan/marine-port-kagoshima",
+    "name": "Marine Port Kagoshima",
+    "lat": 31.536906,
+    "lng": 130.554322,
+    "terminalType": "passenger_cruise_terminal",
+    "source": "terminal_review",
+    "sourceUrls": [],
+    "verified": true,
+    "sourceId": "review/kagoshima-japan/marine-port-kagoshima"
   },
   "terminals": [
     {
-      "id": "ports-json-anchor",
-      "name": "KAGOSHIMA KO Port",
-      "lat": 31.58,
-      "lng": 130.57,
-      "address": "Kagoshima, Kagoshima Prefecture, Japan",
-      "source": "ports.json",
-      "sourceId": "",
-      "score": 0,
-      "slug": "kagoshima-ko-port"
+      "id": "review/kagoshima-japan/marine-port-kagoshima",
+      "name": "Marine Port Kagoshima",
+      "lat": 31.536906,
+      "lng": 130.554322,
+      "terminalType": "passenger_cruise_terminal",
+      "source": "terminal_review",
+      "sourceUrls": [],
+      "verified": true,
+      "sourceId": "review/kagoshima-japan/marine-port-kagoshima"
     }
   ],
   "terminalCandidateRadiusMeters": 5000,
@@ -1059,9 +1059,10 @@
     "slug": "kagoshima-ko-port"
   },
   "terminalResolution": {
-    "status": "unresolved",
-    "method": "ports_json_fallback",
-    "verified": false,
-    "notes": "All supplied candidates are ferry-only stops, local docks, unnamed maritime features, or unrelated places rather than passenger cruise terminals."
+    "status": "resolved",
+    "method": "terminal_review",
+    "verified": true,
+    "reviewedAt": "2026-09-28",
+    "notes": "Large ships berth at Marine Port Kagoshima (added from OpenStreetMap). The candidates were island ferry terminals."
   }
 }

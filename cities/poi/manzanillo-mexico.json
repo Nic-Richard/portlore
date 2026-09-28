@@ -15,7 +15,7 @@
     "id": "osm/generated/77343455e3e871f48eef",
     "name": "Terminal de Cruceros",
     "nameEnglish": "",
-    "lat": 19.0550862,
+    "lat": 19.055086,
     "lng": -104.3144,
     "address": "",
     "source": "verified_terminal_candidate",
@@ -39,15 +39,14 @@
     "matchedBy": [
       "amenity=ferry_terminal",
       "terminal-like name"
-    ],
-    "distanceFromPortMeters": 816
+    ]
   },
   "terminals": [
     {
       "id": "osm/generated/77343455e3e871f48eef",
       "name": "Terminal de Cruceros",
       "nameEnglish": "",
-      "lat": 19.0550862,
+      "lat": 19.055086,
       "lng": -104.3144,
       "address": "",
       "source": "verified_terminal_candidate",
@@ -71,15 +70,14 @@
       "matchedBy": [
         "amenity=ferry_terminal",
         "terminal-like name"
-      ],
-      "distanceFromPortMeters": 816
+      ]
     },
     {
       "id": "osm/generated/2e08031f8bc1b64ff895",
       "name": "Muelle para cruceros",
       "nameEnglish": "",
       "lat": 19.057294,
-      "lng": -104.3129801,
+      "lng": -104.31298,
       "address": "",
       "source": "verified_terminal_candidate",
       "sourceId": "osm/generated/2e08031f8bc1b64ff895",
@@ -98,8 +96,7 @@
       },
       "matchedBy": [
         "terminal-like name"
-      ],
-      "distanceFromPortMeters": 1096
+      ]
     }
   ],
   "terminalCandidateRadiusMeters": 5000,
@@ -1101,8 +1098,9 @@
   },
   "terminalResolution": {
     "status": "resolved",
-    "method": "accepted_terminal_candidate",
+    "method": "terminal_review",
     "verified": true,
-    "notes": "External port and cruise-schedule checks support passenger cruise use, and the accepted candidate ID(s) correspond to the actual cruise terminal, cruise pier, or passenger terminal used by cruise ships."
+    "reviewedAt": "2026-09-28",
+    "notes": "Verified terminal is correct; other candidates are ferry stops, offices, or unrelated places."
   }
 }

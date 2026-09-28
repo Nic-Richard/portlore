@@ -10,63 +10,40 @@
     "city": "Abu Dhabi",
     "country": "United Arab Emirates"
   },
-  "defaultTerminalId": "manual/abu-dhabi-united-arab-emirates/abu-dhabi-cruise-terminal",
+  "defaultTerminalId": "review/abu-dhabi-united-arab-emirates/abu-dhabi-cruise-terminal-1",
   "terminal": {
-    "id": "manual/abu-dhabi-united-arab-emirates/abu-dhabi-cruise-terminal",
-    "name": "Abu Dhabi Cruise Terminal",
-    "nameEnglish": "",
-    "lat": 24.52762,
-    "lng": 54.37484,
-    "address": "",
-    "source": "manual_web_research",
-    "sourceId": "manual/abu-dhabi-united-arab-emirates/abu-dhabi-cruise-terminal",
-    "terminalType": "dedicated_cruise_terminal",
+    "id": "review/abu-dhabi-united-arab-emirates/abu-dhabi-cruise-terminal-1",
+    "name": "Abu Dhabi Cruise Terminal 1",
+    "lat": 24.52966,
+    "lng": 54.38194,
+    "terminalType": "passenger_cruise_terminal",
+    "source": "terminal_review",
+    "sourceUrls": [],
     "verified": true,
-    "notes": "Passenger terminal at Zayed Port. The coordinate marks the terminal building and landside passenger exit.",
-    "sourceUrls": [
-      "https://www.adports.ae/ports-terminals/cruise-terminals/abu-dhabi-cruise-terminal/",
-      "https://www.openstreetmap.org/?mlat=24.52762&mlon=54.37484#map=17/24.52762/54.37484"
-    ],
-    "sources": [
-      "manual_web_research"
-    ],
-    "sourceIds": [
-      "manual/abu-dhabi-united-arab-emirates/abu-dhabi-cruise-terminal"
-    ],
-    "osmTags": {},
-    "matchedBy": [
-      "web_researched_terminal"
-    ],
-    "distanceFromPortMeters": null
+    "sourceId": "review/abu-dhabi-united-arab-emirates/abu-dhabi-cruise-terminal-1"
   },
   "terminals": [
     {
-      "id": "manual/abu-dhabi-united-arab-emirates/abu-dhabi-cruise-terminal",
-      "name": "Abu Dhabi Cruise Terminal",
-      "nameEnglish": "",
-      "lat": 24.52762,
-      "lng": 54.37484,
-      "address": "",
-      "source": "manual_web_research",
-      "sourceId": "manual/abu-dhabi-united-arab-emirates/abu-dhabi-cruise-terminal",
-      "terminalType": "dedicated_cruise_terminal",
+      "id": "review/abu-dhabi-united-arab-emirates/abu-dhabi-cruise-terminal-1",
+      "name": "Abu Dhabi Cruise Terminal 1",
+      "lat": 24.52966,
+      "lng": 54.38194,
+      "terminalType": "passenger_cruise_terminal",
+      "source": "terminal_review",
+      "sourceUrls": [],
       "verified": true,
-      "notes": "Passenger terminal at Zayed Port. The coordinate marks the terminal building and landside passenger exit.",
-      "sourceUrls": [
-        "https://www.adports.ae/ports-terminals/cruise-terminals/abu-dhabi-cruise-terminal/",
-        "https://www.openstreetmap.org/?mlat=24.52762&mlon=54.37484#map=17/24.52762/54.37484"
-      ],
-      "sources": [
-        "manual_web_research"
-      ],
-      "sourceIds": [
-        "manual/abu-dhabi-united-arab-emirates/abu-dhabi-cruise-terminal"
-      ],
-      "osmTags": {},
-      "matchedBy": [
-        "web_researched_terminal"
-      ],
-      "distanceFromPortMeters": null
+      "sourceId": "review/abu-dhabi-united-arab-emirates/abu-dhabi-cruise-terminal-1"
+    },
+    {
+      "id": "review/abu-dhabi-united-arab-emirates/abu-dhabi-cruise-terminal-2",
+      "name": "Abu Dhabi Cruise Terminal 2",
+      "lat": 24.53066,
+      "lng": 54.38286,
+      "terminalType": "passenger_cruise_terminal",
+      "source": "terminal_review",
+      "sourceUrls": [],
+      "verified": true,
+      "sourceId": "review/abu-dhabi-united-arab-emirates/abu-dhabi-cruise-terminal-2"
     }
   ],
   "terminalCandidateRadiusMeters": 5000,
@@ -1290,8 +1267,9 @@
   },
   "terminalResolution": {
     "status": "resolved",
-    "method": "manual_web_research",
+    "method": "terminal_review",
     "verified": true,
-    "notes": "Terminal records were added from researched cruise-port sources because no supplied candidate accurately represented the passenger arrival point."
+    "reviewedAt": "2026-09-28",
+    "notes": "Abu Dhabi Cruise Terminal at Mina Zayed is correct; the other candidates are unrelated streets and shops. Terminal sweep: Moved the terminal pin about 750 m onto the terminal building and added Terminal 2 next door (both from Google Maps)."
   }
 }

@@ -16,7 +16,7 @@
     "name": "Hiroshima Port Cruise Terminal",
     "nameEnglish": "Hiroshima Port Cruise Terminal",
     "lat": 34.352801,
-    "lng": 132.4706897,
+    "lng": 132.47069,
     "address": "Hiroshima Port Cruise Terminal, 広島高速3号;広島南道路, 宇品海岸三丁目, 南区, 広島市, 広島県, 734-0011, 日本",
     "source": "verified_terminal_candidate",
     "sourceId": "osm/generated/d8bc79df136b7992c69f",
@@ -40,8 +40,7 @@
       "amenity=ferry_terminal",
       "terminal-like name",
       "Nominatim query: Hiroshima cruise terminal, Japan"
-    ],
-    "distanceFromPortMeters": 318
+    ]
   },
   "terminals": [
     {
@@ -49,7 +48,7 @@
       "name": "Hiroshima Port Cruise Terminal",
       "nameEnglish": "Hiroshima Port Cruise Terminal",
       "lat": 34.352801,
-      "lng": 132.4706897,
+      "lng": 132.47069,
       "address": "Hiroshima Port Cruise Terminal, 広島高速3号;広島南道路, 宇品海岸三丁目, 南区, 広島市, 広島県, 734-0011, 日本",
       "source": "verified_terminal_candidate",
       "sourceId": "osm/generated/d8bc79df136b7992c69f",
@@ -73,8 +72,18 @@
         "amenity=ferry_terminal",
         "terminal-like name",
         "Nominatim query: Hiroshima cruise terminal, Japan"
-      ],
-      "distanceFromPortMeters": 318
+      ]
+    },
+    {
+      "id": "review/hiroshima-japan/itsukaichi-cruise-ship-port",
+      "name": "Itsukaichi Cruise Ship Port",
+      "lat": 34.34844,
+      "lng": 132.367539,
+      "terminalType": "passenger_cruise_terminal",
+      "source": "terminal_review",
+      "sourceUrls": [],
+      "verified": true,
+      "sourceId": "review/hiroshima-japan/itsukaichi-cruise-ship-port"
     }
   ],
   "terminalCandidateRadiusMeters": 5000,
@@ -1117,8 +1126,9 @@
   },
   "terminalResolution": {
     "status": "resolved",
-    "method": "accepted_terminal_candidate",
+    "method": "terminal_review",
     "verified": true,
-    "notes": "Accepted 1 candidate explicitly identified as an ocean-cruise or cruise-passenger terminal; ferry and unrelated results were excluded."
+    "reviewedAt": "2026-09-28",
+    "notes": "Hiroshima Port (Ujina) cruise terminal is correct; the rest are ferry and hotel piers. Terminal sweep: Added Itsukaichi, where the largest cruise ships berth, about 10 km west of Ujina (from Google Maps)."
   }
 }

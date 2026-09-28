@@ -10,29 +10,29 @@
     "city": "Bordeaux",
     "country": "France"
   },
-  "defaultTerminalId": "ports-json-anchor",
+  "defaultTerminalId": "review/bordeaux-france/quai-des-chartrons-cruise-berth",
   "terminal": {
-    "id": "ports-json-anchor",
-    "name": "BORDEAUX Port",
-    "lat": 44.87,
-    "lng": -0.57,
-    "address": "Bordeaux, Nouvelle-Aquitaine, France",
-    "source": "ports.json",
-    "sourceId": "",
-    "score": 0,
-    "slug": "bordeaux-port"
+    "id": "review/bordeaux-france/quai-des-chartrons-cruise-berth",
+    "name": "Quai des Chartrons cruise berth",
+    "lat": 44.852476,
+    "lng": -0.567816,
+    "terminalType": "passenger_cruise_terminal",
+    "source": "terminal_review",
+    "sourceUrls": [],
+    "verified": true,
+    "sourceId": "review/bordeaux-france/quai-des-chartrons-cruise-berth"
   },
   "terminals": [
     {
-      "id": "ports-json-anchor",
-      "name": "BORDEAUX Port",
-      "lat": 44.87,
-      "lng": -0.57,
-      "address": "Bordeaux, Nouvelle-Aquitaine, France",
-      "source": "ports.json",
-      "sourceId": "",
-      "score": 0,
-      "slug": "bordeaux-port"
+      "id": "review/bordeaux-france/quai-des-chartrons-cruise-berth",
+      "name": "Quai des Chartrons cruise berth",
+      "lat": 44.852476,
+      "lng": -0.567816,
+      "terminalType": "passenger_cruise_terminal",
+      "source": "terminal_review",
+      "sourceUrls": [],
+      "verified": true,
+      "sourceId": "review/bordeaux-france/quai-des-chartrons-cruise-berth"
     }
   ],
   "terminalCandidateRadiusMeters": 5000,
@@ -1110,9 +1110,10 @@
     "slug": "bordeaux-port"
   },
   "terminalResolution": {
-    "status": "unresolved",
-    "method": "ports_json_fallback",
-    "verified": false,
-    "notes": "External port and cruise-schedule checks support passenger cruise calls, but none of the supplied candidates matches the actual cruise terminal or cruise berth closely enough to accept. Ferry-only and generic commercial-port candidates were rejected."
+    "status": "resolved",
+    "method": "terminal_review",
+    "verified": true,
+    "reviewedAt": "2026-09-28",
+    "notes": "Ocean cruise ships and river cruisers berth along the Quai des Chartrons in the city centre (added from OpenStreetMap). The other candidates were shops and a museum."
   }
 }

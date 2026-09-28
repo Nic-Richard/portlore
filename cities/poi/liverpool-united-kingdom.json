@@ -15,8 +15,8 @@
     "id": "osm/generated/59cd284a1d45a369d68d",
     "name": "Liverpool Cruise Terminal",
     "nameEnglish": "",
-    "lat": 53.4067666,
-    "lng": -2.9984203,
+    "lat": 53.406767,
+    "lng": -2.99842,
     "address": "Princes Parade",
     "source": "verified_terminal_candidate",
     "sourceId": "osm/generated/59cd284a1d45a369d68d",
@@ -42,16 +42,15 @@
       "amenity=ferry_terminal",
       "terminal-like name",
       "Nominatim query: Liverpool cruise terminal, United Kingdom"
-    ],
-    "distanceFromPortMeters": 1475
+    ]
   },
   "terminals": [
     {
       "id": "osm/generated/59cd284a1d45a369d68d",
       "name": "Liverpool Cruise Terminal",
       "nameEnglish": "",
-      "lat": 53.4067666,
-      "lng": -2.9984203,
+      "lat": 53.406767,
+      "lng": -2.99842,
       "address": "Princes Parade",
       "source": "verified_terminal_candidate",
       "sourceId": "osm/generated/59cd284a1d45a369d68d",
@@ -77,8 +76,7 @@
         "amenity=ferry_terminal",
         "terminal-like name",
         "Nominatim query: Liverpool cruise terminal, United Kingdom"
-      ],
-      "distanceFromPortMeters": 1475
+      ]
     }
   ],
   "terminalCandidateRadiusMeters": 5000,
@@ -1588,8 +1586,9 @@
   },
   "terminalResolution": {
     "status": "resolved",
-    "method": "accepted_terminal_candidate",
+    "method": "terminal_review",
     "verified": true,
-    "notes": "Accepted 1 candidate explicitly identified as an ocean-cruise or cruise-passenger terminal; ferry and unrelated results were excluded."
+    "reviewedAt": "2026-09-28",
+    "notes": "Liverpool Cruise Terminal at Princes Dock is correct; the rest are Mersey and Isle of Man ferry terminals."
   }
 }

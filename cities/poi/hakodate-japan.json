@@ -15,8 +15,8 @@
     "id": "osm/node/13072228501",
     "name": "Hakodate cruise terminal",
     "nameEnglish": "",
-    "lat": 41.7727748,
-    "lng": 140.7224297,
+    "lat": 41.772775,
+    "lng": 140.72243,
     "address": "Hakodate cruise terminal, 12-19, ともえ大橋, 若松町, 函館市, 渡島総合振興局, 北海道, 北海道地方, 040-0075, 日本",
     "source": "verified_terminal_candidate",
     "sourceId": "osm/node/13072228501",
@@ -33,16 +33,15 @@
     "osmTags": {},
     "matchedBy": [
       "Nominatim query: Hakodate cruise terminal, Japan"
-    ],
-    "distanceFromPortMeters": 828
+    ]
   },
   "terminals": [
     {
       "id": "osm/node/13072228501",
       "name": "Hakodate cruise terminal",
       "nameEnglish": "",
-      "lat": 41.7727748,
-      "lng": 140.7224297,
+      "lat": 41.772775,
+      "lng": 140.72243,
       "address": "Hakodate cruise terminal, 12-19, ともえ大橋, 若松町, 函館市, 渡島総合振興局, 北海道, 北海道地方, 040-0075, 日本",
       "source": "verified_terminal_candidate",
       "sourceId": "osm/node/13072228501",
@@ -59,8 +58,7 @@
       "osmTags": {},
       "matchedBy": [
         "Nominatim query: Hakodate cruise terminal, Japan"
-      ],
-      "distanceFromPortMeters": 828
+      ]
     }
   ],
   "terminalCandidateRadiusMeters": 5000,
@@ -1163,8 +1161,9 @@
   },
   "terminalResolution": {
     "status": "resolved",
-    "method": "accepted_terminal_candidate",
+    "method": "terminal_review",
     "verified": true,
-    "notes": "Accepted 1 candidate explicitly identified as an ocean-cruise or cruise-passenger terminal; ferry and unrelated results were excluded."
+    "reviewedAt": "2026-09-28",
+    "notes": "Hakodate cruise terminal is correct; the Japanese-named entry duplicates it. The rest are tram stops and the Seikan ferry terminal."
   }
 }

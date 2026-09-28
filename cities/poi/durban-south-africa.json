@@ -15,8 +15,8 @@
     "id": "osm/generated/9546000a49c5ab57eacd",
     "name": "Nelson Mandela Cruise Terminal",
     "nameEnglish": "",
-    "lat": -29.8731378,
-    "lng": 31.0474951,
+    "lat": -29.873138,
+    "lng": 31.047495,
     "address": "",
     "source": "verified_terminal_candidate",
     "sourceId": "osm/generated/9546000a49c5ab57eacd",
@@ -39,16 +39,15 @@
     "matchedBy": [
       "amenity=ferry_terminal",
       "terminal-like name"
-    ],
-    "distanceFromPortMeters": 2198
+    ]
   },
   "terminals": [
     {
       "id": "osm/generated/9546000a49c5ab57eacd",
       "name": "Nelson Mandela Cruise Terminal",
       "nameEnglish": "",
-      "lat": -29.8731378,
-      "lng": 31.0474951,
+      "lat": -29.873138,
+      "lng": 31.047495,
       "address": "",
       "source": "verified_terminal_candidate",
       "sourceId": "osm/generated/9546000a49c5ab57eacd",
@@ -71,8 +70,7 @@
       "matchedBy": [
         "amenity=ferry_terminal",
         "terminal-like name"
-      ],
-      "distanceFromPortMeters": 2198
+      ]
     }
   ],
   "terminalCandidateRadiusMeters": 5000,
@@ -1096,8 +1094,9 @@
   },
   "terminalResolution": {
     "status": "resolved",
-    "method": "accepted_terminal_candidate",
+    "method": "terminal_review",
     "verified": true,
-    "notes": "Accepted 1 candidate explicitly identified as an ocean-cruise or cruise-passenger terminal; ferry and unrelated results were excluded."
+    "reviewedAt": "2026-09-28",
+    "notes": "Verified terminal is correct; other candidates are ferry stops, offices, or unrelated places."
   }
 }

@@ -15,8 +15,8 @@
     "id": "osm/relation/8368117",
     "name": "Λιμάνι Θεσσαλονίκης",
     "nameEnglish": "Thessaloniki Port",
-    "lat": 40.6377484,
-    "lng": 22.9254157,
+    "lat": 40.637748,
+    "lng": 22.925416,
     "address": "Λιμάνι Θεσσαλονίκης, 2η Κοινότητα Θεσσαλονίκης, Δημοτική Ενότητα Θεσαλονίκης, Δήμος Θεσσαλονίκης, Μητροπολιτική Ενότητα Θεσσαλονίκης, Περιφέρεια Κεντρικής Μακεδονίας, Αποκεντρωμένη Διοίκηση Μακεδονίας - Θράκης, Ελλάς",
     "source": "verified_terminal_candidate",
     "sourceId": "osm/relation/8368117",
@@ -35,16 +35,15 @@
     },
     "matchedBy": [
       "Nominatim query: THESSALONIKI Port, Thessaloniki, Greece"
-    ],
-    "distanceFromPortMeters": 944
+    ]
   },
   "terminals": [
     {
       "id": "osm/relation/8368117",
       "name": "Λιμάνι Θεσσαλονίκης",
       "nameEnglish": "Thessaloniki Port",
-      "lat": 40.6377484,
-      "lng": 22.9254157,
+      "lat": 40.637748,
+      "lng": 22.925416,
       "address": "Λιμάνι Θεσσαλονίκης, 2η Κοινότητα Θεσσαλονίκης, Δημοτική Ενότητα Θεσαλονίκης, Δήμος Θεσσαλονίκης, Μητροπολιτική Ενότητα Θεσσαλονίκης, Περιφέρεια Κεντρικής Μακεδονίας, Αποκεντρωμένη Διοίκηση Μακεδονίας - Θράκης, Ελλάς",
       "source": "verified_terminal_candidate",
       "sourceId": "osm/relation/8368117",
@@ -63,8 +62,7 @@
       },
       "matchedBy": [
         "Nominatim query: THESSALONIKI Port, Thessaloniki, Greece"
-      ],
-      "distanceFromPortMeters": 944
+      ]
     }
   ],
   "terminalCandidateRadiusMeters": 5000,
@@ -911,8 +909,9 @@
   },
   "terminalResolution": {
     "status": "resolved",
-    "method": "accepted_terminal_candidate",
+    "method": "terminal_review",
     "verified": true,
-    "notes": "Accepted the Port of Thessaloniki candidate because the cruise terminal and passenger exit are inside the central port directly beside the city centre."
+    "reviewedAt": "2026-09-28",
+    "notes": "The passenger terminal at Thessaloniki port is correct; the rest are local boats."
   }
 }

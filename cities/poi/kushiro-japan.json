@@ -10,29 +10,29 @@
     "city": "Kushiro",
     "country": "Japan"
   },
-  "defaultTerminalId": "ports-json-anchor",
+  "defaultTerminalId": "review/kushiro-japan/kushiro-port-cruise-terminal-dock",
   "terminal": {
-    "id": "ports-json-anchor",
-    "name": "KUSHIRO KO Port",
-    "lat": 42.98,
-    "lng": 144.37,
-    "address": "Kushiro, Hokkaido, Japan",
-    "source": "ports.json",
-    "sourceId": "",
-    "score": 0,
-    "slug": "kushiro-ko-port"
+    "id": "review/kushiro-japan/kushiro-port-cruise-terminal-dock",
+    "name": "Kushiro Port cruise terminal dock",
+    "lat": 42.981792,
+    "lng": 144.379184,
+    "terminalType": "passenger_cruise_terminal",
+    "source": "terminal_review",
+    "sourceUrls": [],
+    "verified": true,
+    "sourceId": "review/kushiro-japan/kushiro-port-cruise-terminal-dock"
   },
   "terminals": [
     {
-      "id": "ports-json-anchor",
-      "name": "KUSHIRO KO Port",
-      "lat": 42.98,
-      "lng": 144.37,
-      "address": "Kushiro, Hokkaido, Japan",
-      "source": "ports.json",
-      "sourceId": "",
-      "score": 0,
-      "slug": "kushiro-ko-port"
+      "id": "review/kushiro-japan/kushiro-port-cruise-terminal-dock",
+      "name": "Kushiro Port cruise terminal dock",
+      "lat": 42.981792,
+      "lng": 144.379184,
+      "terminalType": "passenger_cruise_terminal",
+      "source": "terminal_review",
+      "sourceUrls": [],
+      "verified": true,
+      "sourceId": "review/kushiro-japan/kushiro-port-cruise-terminal-dock"
     }
   ],
   "terminalCandidateRadiusMeters": 5000,
@@ -650,9 +650,10 @@
     "slug": "kushiro-ko-port"
   },
   "terminalResolution": {
-    "status": "unresolved",
-    "method": "ports_json_fallback",
-    "verified": false,
-    "notes": "The catalog contains no terminal candidates, so there is no candidate ID to accept."
+    "status": "resolved",
+    "method": "terminal_review",
+    "verified": true,
+    "reviewedAt": "2026-09-28",
+    "notes": "Added the Kushiro Port terminal dock in Saiwaicho (from Google Places), near the city centre."
   }
 }

@@ -15,8 +15,8 @@
     "id": "osm/generated/a09718250193790d9c1b",
     "name": "中突堤旅客ターミナル",
     "nameEnglish": "Naka Pier Passenser Terminal",
-    "lat": 34.6800855,
-    "lng": 135.1885378,
+    "lat": 34.680085,
+    "lng": 135.188538,
     "address": "",
     "source": "verified_terminal_candidate",
     "sourceId": "osm/generated/a09718250193790d9c1b",
@@ -38,16 +38,15 @@
     },
     "matchedBy": [
       "amenity=ferry_terminal"
-    ],
-    "distanceFromPortMeters": 3435
+    ]
   },
   "terminals": [
     {
       "id": "osm/generated/a09718250193790d9c1b",
       "name": "中突堤旅客ターミナル",
       "nameEnglish": "Naka Pier Passenser Terminal",
-      "lat": 34.6800855,
-      "lng": 135.1885378,
+      "lat": 34.680085,
+      "lng": 135.188538,
       "address": "",
       "source": "verified_terminal_candidate",
       "sourceId": "osm/generated/a09718250193790d9c1b",
@@ -69,15 +68,14 @@
       },
       "matchedBy": [
         "amenity=ferry_terminal"
-      ],
-      "distanceFromPortMeters": 3435
+      ]
     },
     {
       "id": "osm/generated/f0858ef16bfb293f95e1",
       "name": "神戸ポートターミナル",
       "nameEnglish": "Kobe Port Terminal",
-      "lat": 34.6804578,
-      "lng": 135.2028947,
+      "lat": 34.680458,
+      "lng": 135.202895,
       "address": "",
       "source": "verified_terminal_candidate",
       "sourceId": "osm/generated/f0858ef16bfb293f95e1",
@@ -100,8 +98,7 @@
       },
       "matchedBy": [
         "amenity=ferry_terminal"
-      ],
-      "distanceFromPortMeters": 3982
+      ]
     }
   ],
   "terminalCandidateRadiusMeters": 5000,
@@ -1393,8 +1390,9 @@
   },
   "terminalResolution": {
     "status": "resolved",
-    "method": "accepted_terminal_candidate",
+    "method": "terminal_review",
     "verified": true,
-    "notes": "External port and cruise-schedule checks support passenger cruise use, and the accepted candidate ID(s) correspond to the actual cruise terminal, cruise pier, or passenger terminal used by cruise ships."
+    "reviewedAt": "2026-09-28",
+    "notes": "Kobe Port Terminal and Nakatottei are the cruise terminals; removed a duplicate of Nakatottei. The rest are ferry and airport-boat terminals."
   }
 }

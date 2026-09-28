@@ -7,7 +7,7 @@
   "radiusMeters": 10000,
   "port": {
     "id": "bangkok-thailand",
-    "city": "Bangkok",
+    "city": "Bangkok (Laem Chabang)",
     "country": "Thailand"
   },
   "defaultTerminalId": "manual/bangkok-thailand/laem-chabang-cruise-terminal-a",
@@ -36,8 +36,7 @@
     "osmTags": {},
     "matchedBy": [
       "web_researched_terminal"
-    ],
-    "distanceFromPortMeters": null
+    ]
   },
   "terminals": [
     {
@@ -65,8 +64,7 @@
       "osmTags": {},
       "matchedBy": [
         "web_researched_terminal"
-      ],
-      "distanceFromPortMeters": null
+      ]
     }
   ],
   "terminalCandidateRadiusMeters": 5000,
@@ -2980,8 +2978,9 @@
   },
   "terminalResolution": {
     "status": "resolved",
-    "method": "manual_web_research",
+    "method": "terminal_review",
     "verified": true,
-    "notes": "Terminal records were added from researched cruise-port sources because no supplied candidate accurately represented the passenger arrival point."
+    "reviewedAt": "2026-09-28",
+    "notes": "ships dock at Laem Chabang, about 85 km from Bangkok. Kept as a gateway port, renamed Bangkok (Laem Chabang)."
   }
 }

@@ -10,63 +10,29 @@
     "city": "Baltimore",
     "country": "United States"
   },
-  "defaultTerminalId": "manual/baltimore-united-states/cruise-maryland-terminal",
+  "defaultTerminalId": "review/baltimore-united-states/cruise-maryland-terminal",
   "terminal": {
-    "id": "manual/baltimore-united-states/cruise-maryland-terminal",
+    "id": "review/baltimore-united-states/cruise-maryland-terminal",
     "name": "Cruise Maryland Terminal",
-    "nameEnglish": "",
-    "lat": 39.25938,
-    "lng": -76.59873,
-    "address": "",
-    "source": "manual_web_research",
-    "sourceId": "manual/baltimore-united-states/cruise-maryland-terminal",
-    "terminalType": "dedicated_cruise_terminal",
+    "lat": 39.26497,
+    "lng": -76.59863,
+    "terminalType": "passenger_cruise_terminal",
+    "source": "terminal_review",
+    "sourceUrls": [],
     "verified": true,
-    "notes": "South Locust Point terminal at 2001 East McComas Street. Coordinate marks the passenger terminal entrance area.",
-    "sourceUrls": [
-      "https://mpa.maryland.gov/pages/south-locust-point.aspx",
-      "https://www.openstreetmap.org/?mlat=39.25938&mlon=-76.59873#map=17/39.25938/-76.59873"
-    ],
-    "sources": [
-      "manual_web_research"
-    ],
-    "sourceIds": [
-      "manual/baltimore-united-states/cruise-maryland-terminal"
-    ],
-    "osmTags": {},
-    "matchedBy": [
-      "web_researched_terminal"
-    ],
-    "distanceFromPortMeters": null
+    "sourceId": "review/baltimore-united-states/cruise-maryland-terminal"
   },
   "terminals": [
     {
-      "id": "manual/baltimore-united-states/cruise-maryland-terminal",
+      "id": "review/baltimore-united-states/cruise-maryland-terminal",
       "name": "Cruise Maryland Terminal",
-      "nameEnglish": "",
-      "lat": 39.25938,
-      "lng": -76.59873,
-      "address": "",
-      "source": "manual_web_research",
-      "sourceId": "manual/baltimore-united-states/cruise-maryland-terminal",
-      "terminalType": "dedicated_cruise_terminal",
+      "lat": 39.26497,
+      "lng": -76.59863,
+      "terminalType": "passenger_cruise_terminal",
+      "source": "terminal_review",
+      "sourceUrls": [],
       "verified": true,
-      "notes": "South Locust Point terminal at 2001 East McComas Street. Coordinate marks the passenger terminal entrance area.",
-      "sourceUrls": [
-        "https://mpa.maryland.gov/pages/south-locust-point.aspx",
-        "https://www.openstreetmap.org/?mlat=39.25938&mlon=-76.59873#map=17/39.25938/-76.59873"
-      ],
-      "sources": [
-        "manual_web_research"
-      ],
-      "sourceIds": [
-        "manual/baltimore-united-states/cruise-maryland-terminal"
-      ],
-      "osmTags": {},
-      "matchedBy": [
-        "web_researched_terminal"
-      ],
-      "distanceFromPortMeters": null
+      "sourceId": "review/baltimore-united-states/cruise-maryland-terminal"
     }
   ],
   "terminalCandidateRadiusMeters": 5000,
@@ -1164,8 +1130,9 @@
   },
   "terminalResolution": {
     "status": "resolved",
-    "method": "manual_web_research",
+    "method": "terminal_review",
     "verified": true,
-    "notes": "Terminal records were added from researched cruise-port sources because no supplied candidate accurately represented the passenger arrival point."
+    "reviewedAt": "2026-09-28",
+    "notes": "Verified terminal is correct; other candidates are ferry stops, offices, or unrelated places. Terminal sweep: Moved the terminal pin about 600 m onto the terminal at South Locust Point (two Google Maps listings agree)."
   }
 }

@@ -15,8 +15,8 @@
     "id": "osm/way/667254123",
     "name": "Los Angeles World Cruise Center",
     "nameEnglish": "",
-    "lat": 33.7449169,
-    "lng": -118.2775646,
+    "lat": 33.744917,
+    "lng": -118.277565,
     "address": "Los Angeles World Cruise Center, East 1st Street, Port of Los Angeles, San Pedro Arts and Cultural District, San Pedro, Los Angeles, Los Angeles County, California, 90731, United States",
     "source": "verified_terminal_candidate",
     "sourceId": "osm/way/667254123",
@@ -36,16 +36,15 @@
     },
     "matchedBy": [
       "Nominatim query: LOS ANGELES Port, Los Angeles, United States"
-    ],
-    "distanceFromPortMeters": 2610
+    ]
   },
   "terminals": [
     {
       "id": "osm/way/667254123",
       "name": "Los Angeles World Cruise Center",
       "nameEnglish": "",
-      "lat": 33.7449169,
-      "lng": -118.2775646,
+      "lat": 33.744917,
+      "lng": -118.277565,
       "address": "Los Angeles World Cruise Center, East 1st Street, Port of Los Angeles, San Pedro Arts and Cultural District, San Pedro, Los Angeles, Los Angeles County, California, 90731, United States",
       "source": "verified_terminal_candidate",
       "sourceId": "osm/way/667254123",
@@ -65,38 +64,7 @@
       },
       "matchedBy": [
         "Nominatim query: LOS ANGELES Port, Los Angeles, United States"
-      ],
-      "distanceFromPortMeters": 2610
-    },
-    {
-      "id": "osm/generated/e4dd8f2777f8d5783429",
-      "name": "Los Angeles World Cruise Center",
-      "nameEnglish": "",
-      "lat": 33.7461483,
-      "lng": -118.2771727,
-      "address": "",
-      "source": "verified_terminal_candidate",
-      "sourceId": "osm/generated/e4dd8f2777f8d5783429",
-      "terminalType": "passenger_cruise_terminal",
-      "verified": true,
-      "notes": "Accepted 2 candidates explicitly identified as an ocean-cruise or cruise-passenger terminal; ferry and unrelated results were excluded.",
-      "sourceUrls": [],
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/e4dd8f2777f8d5783429"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "public_transport": "station"
-      },
-      "matchedBy": [
-        "amenity=ferry_terminal",
-        "terminal-like name"
-      ],
-      "distanceFromPortMeters": 2549
+      ]
     }
   ],
   "terminalCandidateRadiusMeters": 5000,
@@ -1617,8 +1585,9 @@
   },
   "terminalResolution": {
     "status": "resolved",
-    "method": "accepted_terminal_candidate",
+    "method": "terminal_review",
     "verified": true,
-    "notes": "Accepted 2 candidates explicitly identified as an ocean-cruise or cruise-passenger terminal; ferry and unrelated results were excluded."
+    "reviewedAt": "2026-09-28",
+    "notes": "World Cruise Center in San Pedro is correct; the second entry duplicates it."
   }
 }

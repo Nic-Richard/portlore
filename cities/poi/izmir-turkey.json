@@ -10,29 +10,29 @@
     "city": "Izmir",
     "country": "Turkey"
   },
-  "defaultTerminalId": "ports-json-anchor",
+  "defaultTerminalId": "review/izmir-turkey/izmir-cruise-port-alsancak",
   "terminal": {
-    "id": "ports-json-anchor",
-    "name": "IZMIR Port",
-    "lat": 38.43,
-    "lng": 27.13,
-    "address": "Izmir, Izmir, Turkey",
-    "source": "ports.json",
-    "sourceId": "",
-    "score": 0,
-    "slug": "izmir-port"
+    "id": "review/izmir-turkey/izmir-cruise-port-alsancak",
+    "name": "Izmir Cruise Port (Alsancak)",
+    "lat": 38.443531,
+    "lng": 27.151338,
+    "terminalType": "passenger_cruise_terminal",
+    "source": "terminal_review",
+    "sourceUrls": [],
+    "verified": true,
+    "sourceId": "review/izmir-turkey/izmir-cruise-port-alsancak"
   },
   "terminals": [
     {
-      "id": "ports-json-anchor",
-      "name": "IZMIR Port",
-      "lat": 38.43,
-      "lng": 27.13,
-      "address": "Izmir, Izmir, Turkey",
-      "source": "ports.json",
-      "sourceId": "",
-      "score": 0,
-      "slug": "izmir-port"
+      "id": "review/izmir-turkey/izmir-cruise-port-alsancak",
+      "name": "Izmir Cruise Port (Alsancak)",
+      "lat": 38.443531,
+      "lng": 27.151338,
+      "terminalType": "passenger_cruise_terminal",
+      "source": "terminal_review",
+      "sourceUrls": [],
+      "verified": true,
+      "sourceId": "review/izmir-turkey/izmir-cruise-port-alsancak"
     }
   ],
   "terminalCandidateRadiusMeters": 5000,
@@ -1110,9 +1110,10 @@
     "slug": "izmir-port"
   },
   "terminalResolution": {
-    "status": "unresolved",
-    "method": "ports_json_fallback",
-    "verified": false,
-    "notes": "All supplied candidates are ferry-only stops, local docks, unnamed maritime features, or unrelated places rather than passenger cruise terminals."
+    "status": "resolved",
+    "method": "terminal_review",
+    "verified": true,
+    "reviewedAt": "2026-09-28",
+    "notes": "Cruise ships berth at Alsancak port (added from OpenStreetMap). The candidates were city ferry piers."
   }
 }

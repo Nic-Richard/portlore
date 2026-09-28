@@ -15,8 +15,8 @@
     "id": "osm/generated/a03bb787b087e4e7fd15",
     "name": "呉中央桟橋ターミナル",
     "nameEnglish": "Kure Central Pier Terminal",
-    "lat": 34.2406703,
-    "lng": 132.5564127,
+    "lat": 34.24067,
+    "lng": 132.556413,
     "address": "",
     "source": "verified_terminal_candidate",
     "sourceId": "osm/generated/a03bb787b087e4e7fd15",
@@ -39,16 +39,15 @@
     },
     "matchedBy": [
       "amenity=ferry_terminal"
-    ],
-    "distanceFromPortMeters": 1325
+    ]
   },
   "terminals": [
     {
       "id": "osm/generated/a03bb787b087e4e7fd15",
       "name": "呉中央桟橋ターミナル",
       "nameEnglish": "Kure Central Pier Terminal",
-      "lat": 34.2406703,
-      "lng": 132.5564127,
+      "lat": 34.24067,
+      "lng": 132.556413,
       "address": "",
       "source": "verified_terminal_candidate",
       "sourceId": "osm/generated/a03bb787b087e4e7fd15",
@@ -71,8 +70,7 @@
       },
       "matchedBy": [
         "amenity=ferry_terminal"
-      ],
-      "distanceFromPortMeters": 1325
+      ]
     }
   ],
   "terminalCandidateRadiusMeters": 5000,
@@ -856,8 +854,9 @@
   },
   "terminalResolution": {
     "status": "resolved",
-    "method": "accepted_terminal_candidate",
+    "method": "terminal_review",
     "verified": true,
-    "notes": "Accepted Kure Central Pier Terminal, the central passenger waterfront terminal and most plausible supplied disembarkation point for cruise visitors."
+    "reviewedAt": "2026-09-28",
+    "notes": "Kure central pier terminal is correct. Cruise calls are occasional."
   }
 }

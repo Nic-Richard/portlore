@@ -15,8 +15,8 @@
     "id": "osm/generated/b57fd0e4c8021ca6df2e",
     "name": "Terminal de Cruceros de La Habana",
     "nameEnglish": "Havana Cruise Ship Terminal",
-    "lat": 23.1378294,
-    "lng": -82.3469918,
+    "lat": 23.137829,
+    "lng": -82.346992,
     "address": "Avenida del Puerto, La Habana",
     "source": "verified_terminal_candidate",
     "sourceId": "osm/generated/b57fd0e4c8021ca6df2e",
@@ -44,16 +44,15 @@
       "amenity=ferry_terminal",
       "terminal-like name",
       "Nominatim query: Havana cruise terminal, Cuba"
-    ],
-    "distanceFromPortMeters": 2509
+    ]
   },
   "terminals": [
     {
       "id": "osm/generated/b57fd0e4c8021ca6df2e",
       "name": "Terminal de Cruceros de La Habana",
       "nameEnglish": "Havana Cruise Ship Terminal",
-      "lat": 23.1378294,
-      "lng": -82.3469918,
+      "lat": 23.137829,
+      "lng": -82.346992,
       "address": "Avenida del Puerto, La Habana",
       "source": "verified_terminal_candidate",
       "sourceId": "osm/generated/b57fd0e4c8021ca6df2e",
@@ -81,8 +80,7 @@
         "amenity=ferry_terminal",
         "terminal-like name",
         "Nominatim query: Havana cruise terminal, Cuba"
-      ],
-      "distanceFromPortMeters": 2509
+      ]
     }
   ],
   "terminalCandidateRadiusMeters": 5000,
@@ -1049,8 +1047,9 @@
   },
   "terminalResolution": {
     "status": "resolved",
-    "method": "accepted_terminal_candidate",
+    "method": "terminal_review",
     "verified": true,
-    "notes": "Accepted 1 candidate explicitly identified as an ocean-cruise or cruise-passenger terminal; ferry and unrelated results were excluded."
+    "reviewedAt": "2026-09-28",
+    "notes": "The Sierra Maestra cruise terminal is correct; the second entry duplicates it. The rest are harbour launches. Cruise calls from US lines have been restricted since 2019."
   }
 }

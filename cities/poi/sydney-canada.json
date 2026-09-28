@@ -10,29 +10,29 @@
     "city": "Sydney",
     "country": "Canada"
   },
-  "defaultTerminalId": "ports-json-anchor",
+  "defaultTerminalId": "review/sydney-canada/joan-harriss-cruise-pavilion",
   "terminal": {
-    "id": "ports-json-anchor",
-    "name": "SYDNEY Port",
-    "lat": 46.15,
-    "lng": -60.2,
-    "address": "Sydney, Nova Scotia, Canada",
-    "source": "ports.json",
-    "sourceId": "",
-    "score": 0,
-    "slug": "sydney-port"
+    "id": "review/sydney-canada/joan-harriss-cruise-pavilion",
+    "name": "Joan Harriss Cruise Pavilion",
+    "lat": 46.14205,
+    "lng": -60.199771,
+    "terminalType": "passenger_cruise_terminal",
+    "source": "terminal_review",
+    "sourceUrls": [],
+    "verified": true,
+    "sourceId": "review/sydney-canada/joan-harriss-cruise-pavilion"
   },
   "terminals": [
     {
-      "id": "ports-json-anchor",
-      "name": "SYDNEY Port",
-      "lat": 46.15,
-      "lng": -60.2,
-      "address": "Sydney, Nova Scotia, Canada",
-      "source": "ports.json",
-      "sourceId": "",
-      "score": 0,
-      "slug": "sydney-port"
+      "id": "review/sydney-canada/joan-harriss-cruise-pavilion",
+      "name": "Joan Harriss Cruise Pavilion",
+      "lat": 46.14205,
+      "lng": -60.199771,
+      "terminalType": "passenger_cruise_terminal",
+      "source": "terminal_review",
+      "sourceUrls": [],
+      "verified": true,
+      "sourceId": "review/sydney-canada/joan-harriss-cruise-pavilion"
     }
   ],
   "terminalCandidateRadiusMeters": 5000,
@@ -1108,9 +1108,10 @@
     "slug": "sydney-port"
   },
   "terminalResolution": {
-    "status": "unresolved",
-    "method": "ports_json_fallback",
-    "verified": false,
-    "notes": "All supplied candidates are ferry-only stops, local docks, unnamed maritime features, or unrelated places rather than passenger cruise terminals."
+    "status": "resolved",
+    "method": "terminal_review",
+    "verified": true,
+    "reviewedAt": "2026-09-28",
+    "notes": "Added the Joan Harriss Cruise Pavilion on Sydney's waterfront (from OpenStreetMap)."
   }
 }

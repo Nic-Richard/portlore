@@ -10,29 +10,29 @@
     "city": "Cienfuegos",
     "country": "Cuba"
   },
-  "defaultTerminalId": "ports-json-anchor",
+  "defaultTerminalId": "review/cienfuegos-cuba/terminal-mar-tima-olimpia-medina",
   "terminal": {
-    "id": "ports-json-anchor",
-    "name": "CIENFUEGOS Port",
-    "lat": 22.15,
-    "lng": -80.45,
-    "address": "Cienfuegos, Cienfuegos, Cuba",
-    "source": "ports.json",
-    "sourceId": "",
-    "score": 0,
-    "slug": "cienfuegos-port"
+    "id": "review/cienfuegos-cuba/terminal-mar-tima-olimpia-medina",
+    "name": "Terminal Marítima \"Olimpia Medina\"",
+    "lat": 22.141264,
+    "lng": -80.456524,
+    "terminalType": "passenger_cruise_terminal",
+    "source": "openstreetmap",
+    "sourceUrls": [],
+    "verified": true,
+    "sourceId": "review/cienfuegos-cuba/terminal-mar-tima-olimpia-medina"
   },
   "terminals": [
     {
-      "id": "ports-json-anchor",
-      "name": "CIENFUEGOS Port",
-      "lat": 22.15,
-      "lng": -80.45,
-      "address": "Cienfuegos, Cienfuegos, Cuba",
-      "source": "ports.json",
-      "sourceId": "",
-      "score": 0,
-      "slug": "cienfuegos-port"
+      "id": "review/cienfuegos-cuba/terminal-mar-tima-olimpia-medina",
+      "name": "Terminal Marítima \"Olimpia Medina\"",
+      "lat": 22.141264,
+      "lng": -80.456524,
+      "terminalType": "passenger_cruise_terminal",
+      "source": "openstreetmap",
+      "sourceUrls": [],
+      "verified": true,
+      "sourceId": "review/cienfuegos-cuba/terminal-mar-tima-olimpia-medina"
     }
   ],
   "terminalCandidateRadiusMeters": 5000,
@@ -997,9 +997,10 @@
     "slug": "cienfuegos-port"
   },
   "terminalResolution": {
-    "status": "unresolved",
-    "method": "ports_json_fallback",
-    "verified": false,
-    "notes": "All supplied candidates are ferry-only stops, local docks, unnamed maritime features, or unrelated places rather than passenger cruise terminals."
+    "status": "resolved",
+    "method": "terminal_review",
+    "verified": true,
+    "reviewedAt": "2026-09-28",
+    "notes": "Non-US lines still call at Cienfuegos; kept the Olimpia Medina passenger terminal."
   }
 }

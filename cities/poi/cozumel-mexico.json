@@ -10,39 +10,47 @@
     "city": "Cozumel",
     "country": "Mexico"
   },
-  "defaultTerminalId": "osm/way/208112915",
+  "defaultTerminalId": "review/cozumel-mexico/international-cruise-pier-ssa",
   "terminal": {
-    "id": "osm/way/208112915",
-    "name": "Punta Langosta Pier",
-    "nameEnglish": "",
-    "lat": 20.5105822,
-    "lng": -86.9566421,
-    "address": "Punta Langosta Pier, Avenida Rafael E. Melgar, Centro, San Miguel de Cozumel, Cozumel, Quintana Roo, 77668, México",
-    "source": "verified_terminal_candidate",
-    "sourceId": "osm/way/208112915",
+    "id": "review/cozumel-mexico/international-cruise-pier-ssa",
+    "name": "International Cruise Pier (SSA)",
+    "lat": 20.479197,
+    "lng": -86.973551,
     "terminalType": "passenger_cruise_terminal",
-    "verified": true,
-    "notes": "External port and cruise-schedule checks support passenger cruise use, and the accepted candidate ID(s) correspond to the actual cruise terminal, cruise pier, or passenger terminal used by cruise ships.",
+    "source": "terminal_review",
     "sourceUrls": [],
-    "sources": [
-      "nominatim"
-    ],
-    "sourceIds": [
-      "osm/way/208112915"
-    ],
-    "osmTags": {},
-    "matchedBy": [
-      "Nominatim query: Punta Langosta Pier, Cozumel, Mexico"
-    ],
-    "distanceFromPortMeters": 1044
+    "verified": true,
+    "sourceId": "review/cozumel-mexico/international-cruise-pier-ssa"
   },
   "terminals": [
+    {
+      "id": "review/cozumel-mexico/international-cruise-pier-ssa",
+      "name": "International Cruise Pier (SSA)",
+      "lat": 20.479197,
+      "lng": -86.973551,
+      "terminalType": "passenger_cruise_terminal",
+      "source": "terminal_review",
+      "sourceUrls": [],
+      "verified": true,
+      "sourceId": "review/cozumel-mexico/international-cruise-pier-ssa"
+    },
+    {
+      "id": "review/cozumel-mexico/puerta-maya-cruise-pier",
+      "name": "Puerta Maya Cruise Pier",
+      "lat": 20.47589,
+      "lng": -86.974789,
+      "terminalType": "passenger_cruise_terminal",
+      "source": "terminal_review",
+      "sourceUrls": [],
+      "verified": true,
+      "sourceId": "review/cozumel-mexico/puerta-maya-cruise-pier"
+    },
     {
       "id": "osm/way/208112915",
       "name": "Punta Langosta Pier",
       "nameEnglish": "",
-      "lat": 20.5105822,
-      "lng": -86.9566421,
+      "lat": 20.510582,
+      "lng": -86.956642,
       "address": "Punta Langosta Pier, Avenida Rafael E. Melgar, Centro, San Miguel de Cozumel, Cozumel, Quintana Roo, 77668, México",
       "source": "verified_terminal_candidate",
       "sourceId": "osm/way/208112915",
@@ -59,8 +67,7 @@
       "osmTags": {},
       "matchedBy": [
         "Nominatim query: Punta Langosta Pier, Cozumel, Mexico"
-      ],
-      "distanceFromPortMeters": 1044
+      ]
     }
   ],
   "terminalCandidateRadiusMeters": 5000,
@@ -1376,8 +1383,9 @@
   },
   "terminalResolution": {
     "status": "resolved",
-    "method": "accepted_terminal_candidate",
+    "method": "terminal_review",
     "verified": true,
-    "notes": "External port and cruise-schedule checks support passenger cruise use, and the accepted candidate ID(s) correspond to the actual cruise terminal, cruise pier, or passenger terminal used by cruise ships."
+    "reviewedAt": "2026-09-28",
+    "notes": "Added Puerta Maya and the International Pier (from OpenStreetMap), which take most ships; Punta Langosta downtown is kept. The ferry pier is for the mainland ferry."
   }
 }

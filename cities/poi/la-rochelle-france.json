@@ -10,67 +10,29 @@
     "city": "La Rochelle",
     "country": "France"
   },
-  "defaultTerminalId": "osm/generated/7b5caa972fb58b3d6bcf",
+  "defaultTerminalId": "review/la-rochelle-france/mole-d-escale-de-la-pallice",
   "terminal": {
-    "id": "osm/generated/7b5caa972fb58b3d6bcf",
-    "name": "Embarcadère Vieux-Port",
-    "nameEnglish": "",
-    "lat": 46.156216,
-    "lng": -1.1541239,
-    "address": "",
-    "source": "verified_terminal_candidate",
-    "sourceId": "osm/generated/7b5caa972fb58b3d6bcf",
+    "id": "review/la-rochelle-france/mole-d-escale-de-la-pallice",
+    "name": "Mole d'Escale de La Pallice",
+    "lat": 46.16005,
+    "lng": -1.240231,
     "terminalType": "passenger_cruise_terminal",
-    "verified": true,
-    "notes": "Accepted Embarcadère Vieux-Port as the practical city-centre tender landing used when cruise passengers are brought ashore from vessels unable to berth directly in the old harbour.",
+    "source": "terminal_review",
     "sourceUrls": [],
-    "sources": [
-      "openstreetmap"
-    ],
-    "sourceIds": [
-      "osm/generated/7b5caa972fb58b3d6bcf"
-    ],
-    "osmTags": {
-      "amenity": "ferry_terminal",
-      "ferry": "yes",
-      "operator": "Yélo",
-      "public_transport": "station"
-    },
-    "matchedBy": [
-      "amenity=ferry_terminal"
-    ],
-    "distanceFromPortMeters": 761
+    "verified": true,
+    "sourceId": "review/la-rochelle-france/mole-d-escale-de-la-pallice"
   },
   "terminals": [
     {
-      "id": "osm/generated/7b5caa972fb58b3d6bcf",
-      "name": "Embarcadère Vieux-Port",
-      "nameEnglish": "",
-      "lat": 46.156216,
-      "lng": -1.1541239,
-      "address": "",
-      "source": "verified_terminal_candidate",
-      "sourceId": "osm/generated/7b5caa972fb58b3d6bcf",
+      "id": "review/la-rochelle-france/mole-d-escale-de-la-pallice",
+      "name": "Mole d'Escale de La Pallice",
+      "lat": 46.16005,
+      "lng": -1.240231,
       "terminalType": "passenger_cruise_terminal",
-      "verified": true,
-      "notes": "Accepted Embarcadère Vieux-Port as the practical city-centre tender landing used when cruise passengers are brought ashore from vessels unable to berth directly in the old harbour.",
+      "source": "terminal_review",
       "sourceUrls": [],
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/7b5caa972fb58b3d6bcf"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "operator": "Yélo",
-        "public_transport": "station"
-      },
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "distanceFromPortMeters": 761
+      "verified": true,
+      "sourceId": "review/la-rochelle-france/mole-d-escale-de-la-pallice"
     }
   ],
   "terminalCandidateRadiusMeters": 5000,
@@ -1000,8 +962,9 @@
   },
   "terminalResolution": {
     "status": "resolved",
-    "method": "accepted_terminal_candidate",
+    "method": "terminal_review",
     "verified": true,
-    "notes": "Accepted Embarcadère Vieux-Port as the practical city-centre tender landing used when cruise passengers are brought ashore from vessels unable to berth directly in the old harbour."
+    "reviewedAt": "2026-09-28",
+    "notes": "Cruise ships berth at the Mole d'Escale at La Pallice (from OpenStreetMap), about 5 km west of the old town."
   }
 }

@@ -10,29 +10,29 @@
     "city": "Agadir",
     "country": "Morocco"
   },
-  "defaultTerminalId": "ports-json-anchor",
+  "defaultTerminalId": "review/agadir-morocco/port-of-agadir-cruise-berth-commercial-port",
   "terminal": {
-    "id": "ports-json-anchor",
-    "name": "AGADIR Port",
-    "lat": 30.43,
-    "lng": -9.63,
-    "address": "Agadir, Souss-Massa, Morocco",
-    "source": "ports.json",
-    "sourceId": "",
-    "score": 0,
-    "slug": "agadir-port"
+    "id": "review/agadir-morocco/port-of-agadir-cruise-berth-commercial-port",
+    "name": "Port of Agadir cruise berth (commercial port)",
+    "lat": 30.422829,
+    "lng": -9.641917,
+    "terminalType": "passenger_cruise_terminal",
+    "source": "terminal_review",
+    "sourceUrls": [],
+    "verified": true,
+    "sourceId": "review/agadir-morocco/port-of-agadir-cruise-berth-commercial-port"
   },
   "terminals": [
     {
-      "id": "ports-json-anchor",
-      "name": "AGADIR Port",
-      "lat": 30.43,
-      "lng": -9.63,
-      "address": "Agadir, Souss-Massa, Morocco",
-      "source": "ports.json",
-      "sourceId": "",
-      "score": 0,
-      "slug": "agadir-port"
+      "id": "review/agadir-morocco/port-of-agadir-cruise-berth-commercial-port",
+      "name": "Port of Agadir cruise berth (commercial port)",
+      "lat": 30.422829,
+      "lng": -9.641917,
+      "terminalType": "passenger_cruise_terminal",
+      "source": "terminal_review",
+      "sourceUrls": [],
+      "verified": true,
+      "sourceId": "review/agadir-morocco/port-of-agadir-cruise-berth-commercial-port"
     }
   ],
   "terminalCandidateRadiusMeters": 5000,
@@ -770,9 +770,10 @@
     "slug": "agadir-port"
   },
   "terminalResolution": {
-    "status": "unresolved",
-    "method": "ports_json_fallback",
-    "verified": false,
-    "notes": "The catalog contains no terminal candidates, so there is no candidate ID to accept."
+    "status": "resolved",
+    "method": "terminal_review",
+    "verified": true,
+    "reviewedAt": "2026-09-28",
+    "notes": "Cruise ships berth in Agadir's commercial port; the pin is inside it, accurate to a few hundred metres (from OpenStreetMap)."
   }
 }

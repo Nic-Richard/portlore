@@ -15,8 +15,8 @@
     "id": "osm/generated/3db9a898e4cf2256792b",
     "name": "Port of Miami Cruise Terminals",
     "nameEnglish": "",
-    "lat": 25.7777808,
-    "lng": -80.1731625,
+    "lat": 25.777781,
+    "lng": -80.173163,
     "address": "",
     "source": "verified_terminal_candidate",
     "sourceId": "osm/generated/3db9a898e4cf2256792b",
@@ -35,16 +35,15 @@
     },
     "matchedBy": [
       "terminal-like name"
-    ],
-    "distanceFromPortMeters": 571
+    ]
   },
   "terminals": [
     {
       "id": "osm/generated/3db9a898e4cf2256792b",
       "name": "Port of Miami Cruise Terminals",
       "nameEnglish": "",
-      "lat": 25.7777808,
-      "lng": -80.1731625,
+      "lat": 25.777781,
+      "lng": -80.173163,
       "address": "",
       "source": "verified_terminal_candidate",
       "sourceId": "osm/generated/3db9a898e4cf2256792b",
@@ -63,39 +62,91 @@
       },
       "matchedBy": [
         "terminal-like name"
-      ],
-      "distanceFromPortMeters": 571
+      ]
     },
     {
-      "id": "osm/generated/59e3916a22953c5a38c0",
-      "name": "CruiseTerminal E",
-      "nameEnglish": "",
-      "lat": 25.7778573,
-      "lng": -80.1731541,
-      "address": "",
-      "source": "verified_terminal_candidate",
-      "sourceId": "osm/generated/59e3916a22953c5a38c0",
+      "id": "review/miami-united-states/cruise-terminal-j-port-of-miami",
+      "name": "Cruise Terminal J - Port of Miami",
+      "lat": 25.774518,
+      "lng": -80.177492,
       "terminalType": "passenger_cruise_terminal",
-      "verified": true,
-      "notes": "Accepted 2 candidates explicitly identified as an ocean-cruise or cruise-passenger terminal; ferry and unrelated results were excluded.",
+      "source": "live_guide_google",
       "sourceUrls": [],
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/59e3916a22953c5a38c0"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "cargo": "passengers",
-        "ferry": "yes",
-        "public_transport": "station"
-      },
-      "matchedBy": [
-        "amenity=ferry_terminal",
-        "terminal-like name"
-      ],
-      "distanceFromPortMeters": 575
+      "verified": true,
+      "notes": "Used by the live guide",
+      "sourceId": "review/miami-united-states/cruise-terminal-j-port-of-miami"
+    },
+    {
+      "id": "review/miami-united-states/cruise-terminal-aa-portmiami-msc-cruise-line",
+      "name": "Cruise Terminal AA - PortMiami - MSC Cruise Line",
+      "lat": 25.771879,
+      "lng": -80.15841,
+      "terminalType": "passenger_cruise_terminal",
+      "source": "live_guide_google",
+      "sourceUrls": [],
+      "verified": true,
+      "notes": "Used by the live guide",
+      "sourceId": "review/miami-united-states/cruise-terminal-aa-portmiami-msc-cruise-line"
+    },
+    {
+      "id": "review/miami-united-states/cruise-terminal-g-port-of-miami",
+      "name": "Cruise Terminal G - Port of Miami",
+      "lat": 25.780013,
+      "lng": -80.178619,
+      "terminalType": "passenger_cruise_terminal",
+      "source": "live_guide_google",
+      "sourceUrls": [],
+      "verified": true,
+      "notes": "Used by the live guide",
+      "sourceId": "review/miami-united-states/cruise-terminal-g-port-of-miami"
+    },
+    {
+      "id": "review/miami-united-states/terminal-d-port-of-miami",
+      "name": "Terminal D - Port of Miami",
+      "lat": 25.776172,
+      "lng": -80.170032,
+      "terminalType": "passenger_cruise_terminal",
+      "source": "live_guide_google",
+      "sourceUrls": [],
+      "verified": true,
+      "notes": "Used by the live guide",
+      "sourceId": "review/miami-united-states/terminal-d-port-of-miami"
+    },
+    {
+      "id": "review/miami-united-states/cruise-terminal-e",
+      "name": "Cruise Terminal E",
+      "lat": 25.777712,
+      "lng": -80.173784,
+      "terminalType": "passenger_cruise_terminal",
+      "source": "live_guide_google",
+      "sourceUrls": [],
+      "verified": true,
+      "notes": "Used by the live guide",
+      "sourceId": "review/miami-united-states/cruise-terminal-e"
+    },
+    {
+      "id": "review/miami-united-states/cruise-terminal-f-port-of-miami",
+      "name": "Cruise Terminal F - Port of Miami",
+      "lat": 25.778723,
+      "lng": -80.174974,
+      "terminalType": "passenger_cruise_terminal",
+      "source": "live_guide_google",
+      "sourceUrls": [],
+      "verified": true,
+      "notes": "Used by the live guide",
+      "sourceId": "review/miami-united-states/cruise-terminal-f-port-of-miami"
+    },
+    {
+      "id": "review/miami-united-states/cruise-terminal-a-port-of-miami-royal-caribbean-internationa",
+      "name": "Cruise Terminal A - Port of Miami - Royal Caribbean International",
+      "lat": 25.77256,
+      "lng": -80.159783,
+      "terminalType": "passenger_cruise_terminal",
+      "source": "live_guide_google",
+      "sourceUrls": [],
+      "verified": true,
+      "notes": "Used by the live guide",
+      "sourceId": "review/miami-united-states/cruise-terminal-a-port-of-miami-royal-caribbean-internationa"
     }
   ],
   "terminalCandidateRadiusMeters": 5000,
@@ -1552,8 +1603,9 @@
   },
   "terminalResolution": {
     "status": "resolved",
-    "method": "accepted_terminal_candidate",
+    "method": "terminal_review",
     "verified": true,
-    "notes": "Accepted 2 candidates explicitly identified as an ocean-cruise or cruise-passenger terminal; ferry and unrelated results were excluded."
+    "reviewedAt": "2026-09-28",
+    "notes": "PortMiami has many terminals on Dodge Island; kept the named ones (A, AA, D, E, F, G, J) so distances use the nearest. Rejected generic 'Port Miami' entries, a duplicate of Terminal A, the Fisher Island ferries, and Annazon Carinderia (a restaurant)."
   }
 }

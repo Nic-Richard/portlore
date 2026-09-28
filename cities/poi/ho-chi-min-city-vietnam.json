@@ -10,29 +10,40 @@
     "city": "Ho Chi Min City",
     "country": "Vietnam"
   },
-  "defaultTerminalId": "ports-json-anchor",
+  "defaultTerminalId": "review/ho-chi-min-city-vietnam/psa-cruise-port-phu-my",
   "terminal": {
-    "id": "ports-json-anchor",
-    "name": "THANH HO CHI MINH Port",
-    "lat": 10.77,
-    "lng": 106.72,
-    "address": "Ho Chi Min City, Vietnam, Vietnam",
-    "source": "ports.json",
-    "sourceId": "",
-    "score": 0,
-    "slug": "thanh-ho-chi-minh-port"
+    "id": "review/ho-chi-min-city-vietnam/psa-cruise-port-phu-my",
+    "name": "PSA Cruise Port (Phu My)",
+    "lat": 10.568496,
+    "lng": 107.020587,
+    "terminalType": "passenger_cruise_terminal",
+    "source": "terminal_review",
+    "sourceUrls": [],
+    "verified": true,
+    "sourceId": "review/ho-chi-min-city-vietnam/psa-cruise-port-phu-my"
   },
   "terminals": [
     {
-      "id": "ports-json-anchor",
-      "name": "THANH HO CHI MINH Port",
-      "lat": 10.77,
-      "lng": 106.72,
-      "address": "Ho Chi Min City, Vietnam, Vietnam",
-      "source": "ports.json",
-      "sourceId": "",
-      "score": 0,
-      "slug": "thanh-ho-chi-minh-port"
+      "id": "review/ho-chi-min-city-vietnam/psa-cruise-port-phu-my",
+      "name": "PSA Cruise Port (Phu My)",
+      "lat": 10.568496,
+      "lng": 107.020587,
+      "terminalType": "passenger_cruise_terminal",
+      "source": "terminal_review",
+      "sourceUrls": [],
+      "verified": true,
+      "sourceId": "review/ho-chi-min-city-vietnam/psa-cruise-port-phu-my"
+    },
+    {
+      "id": "review/ho-chi-min-city-vietnam/saigon-port-nha-rong-wharf",
+      "name": "Saigon Port (Nha Rong wharf)",
+      "lat": 10.768284,
+      "lng": 106.706643,
+      "terminalType": "passenger_cruise_terminal",
+      "source": "terminal_review",
+      "sourceUrls": [],
+      "verified": true,
+      "sourceId": "review/ho-chi-min-city-vietnam/saigon-port-nha-rong-wharf"
     }
   ],
   "terminalCandidateRadiusMeters": 5000,
@@ -1144,9 +1155,10 @@
     "slug": "thanh-ho-chi-minh-port"
   },
   "terminalResolution": {
-    "status": "unresolved",
-    "method": "ports_json_fallback",
-    "verified": false,
-    "notes": "All supplied candidates are ferry-only stops, local docks, unnamed maritime features, or unrelated places rather than passenger cruise terminals."
+    "status": "resolved",
+    "method": "terminal_review",
+    "verified": true,
+    "reviewedAt": "2026-09-28",
+    "notes": "Large ships berth at the PSA cruise port in Phu My, about 80 km from the city; small ships reach Saigon port by Nha Rong wharf. Both added from OpenStreetMap."
   }
 }

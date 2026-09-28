@@ -15,8 +15,8 @@
     "id": "osm/generated/969e70c97ab46810aabc",
     "name": "Princes Wharf Cruise Terminal",
     "nameEnglish": "Princes Wharf Cruise Terminal",
-    "lat": -36.8404594,
-    "lng": 174.7657997,
+    "lat": -36.840459,
+    "lng": 174.7658,
     "address": "",
     "source": "verified_terminal_candidate",
     "sourceId": "osm/generated/969e70c97ab46810aabc",
@@ -36,16 +36,15 @@
     },
     "matchedBy": [
       "terminal-like name"
-    ],
-    "distanceFromPortMeters": 1125
+    ]
   },
   "terminals": [
     {
       "id": "osm/generated/969e70c97ab46810aabc",
       "name": "Princes Wharf Cruise Terminal",
       "nameEnglish": "Princes Wharf Cruise Terminal",
-      "lat": -36.8404594,
-      "lng": 174.7657997,
+      "lat": -36.840459,
+      "lng": 174.7658,
       "address": "",
       "source": "verified_terminal_candidate",
       "sourceId": "osm/generated/969e70c97ab46810aabc",
@@ -65,8 +64,7 @@
       },
       "matchedBy": [
         "terminal-like name"
-      ],
-      "distanceFromPortMeters": 1125
+      ]
     }
   ],
   "terminalCandidateRadiusMeters": 5000,
@@ -1661,8 +1659,9 @@
   },
   "terminalResolution": {
     "status": "resolved",
-    "method": "accepted_terminal_candidate",
+    "method": "terminal_review",
     "verified": true,
-    "notes": "Accepted 1 candidate explicitly identified as an ocean-cruise or cruise-passenger terminal; ferry and unrelated results were excluded."
+    "reviewedAt": "2026-09-28",
+    "notes": "Princes Wharf is correct. Queens Wharf (Shed 10) also takes ships and could be added later."
   }
 }

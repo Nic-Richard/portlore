@@ -15,8 +15,8 @@
     "id": "osm/generated/7eef0cb11d6d984e06bb",
     "name": "Terminal de Cruzeiros de Lisboa",
     "nameEnglish": "Lisbon Cruise Terminal",
-    "lat": 38.7102066,
-    "lng": -9.1263789,
+    "lat": 38.710207,
+    "lng": -9.126379,
     "address": "Terminal de Cruzeiros de Lisboa, Ciclovia Ribeirinha Terminal de Cruzeiros, Alfama, Santa Maria Maior, Madalena, Lisboa, 1100-288, Portugal",
     "source": "verified_terminal_candidate",
     "sourceId": "osm/generated/7eef0cb11d6d984e06bb",
@@ -43,16 +43,15 @@
       "amenity=ferry_terminal",
       "terminal-like name",
       "Nominatim query: Lisbon cruise terminal, Portugal"
-    ],
-    "distanceFromPortMeters": 3952
+    ]
   },
   "terminals": [
     {
       "id": "osm/generated/7eef0cb11d6d984e06bb",
       "name": "Terminal de Cruzeiros de Lisboa",
       "nameEnglish": "Lisbon Cruise Terminal",
-      "lat": 38.7102066,
-      "lng": -9.1263789,
+      "lat": 38.710207,
+      "lng": -9.126379,
       "address": "Terminal de Cruzeiros de Lisboa, Ciclovia Ribeirinha Terminal de Cruzeiros, Alfama, Santa Maria Maior, Madalena, Lisboa, 1100-288, Portugal",
       "source": "verified_terminal_candidate",
       "sourceId": "osm/generated/7eef0cb11d6d984e06bb",
@@ -79,8 +78,18 @@
         "amenity=ferry_terminal",
         "terminal-like name",
         "Nominatim query: Lisbon cruise terminal, Portugal"
-      ],
-      "distanceFromPortMeters": 3952
+      ]
+    },
+    {
+      "id": "review/lisbon-portugal/porto-de-lisboa-terminal-de-passageiros-da-rocha-do-conde-de",
+      "name": "Porto de Lisboa - Terminal de Passageiros da Rocha do Conde de Óbidos",
+      "lat": 38.701426,
+      "lng": -9.161646,
+      "terminalType": "passenger_cruise_terminal",
+      "source": "openstreetmap",
+      "sourceUrls": [],
+      "verified": true,
+      "sourceId": "review/lisbon-portugal/porto-de-lisboa-terminal-de-passageiros-da-rocha-do-conde-de"
     }
   ],
   "terminalCandidateRadiusMeters": 5000,
@@ -1865,8 +1874,9 @@
   },
   "terminalResolution": {
     "status": "resolved",
-    "method": "accepted_terminal_candidate",
+    "method": "terminal_review",
     "verified": true,
-    "notes": "Accepted 1 candidate explicitly identified as an ocean-cruise or cruise-passenger terminal; ferry and unrelated results were excluded."
+    "reviewedAt": "2026-09-28",
+    "notes": "main is the Lisbon Cruise Terminal at Jardim do Tabaco (Santa Apolonia). Kept Rocha do Conde de Obidos, which also takes cruise ships (its duplicate removed). Alcantara entries are the container terminal; Cais do Sodre is a river ferry terminal."
   }
 }

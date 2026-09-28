@@ -10,29 +10,29 @@
     "city": "Callao",
     "country": "Peru"
   },
-  "defaultTerminalId": "ports-json-anchor",
+  "defaultTerminalId": "review/callao-peru/callao-port-cruise-berth-darsena",
   "terminal": {
-    "id": "ports-json-anchor",
-    "name": "PUERTO DEL CALLAO Port",
-    "lat": -12.05,
-    "lng": -77.15,
-    "address": "Callao, Callao, Peru",
-    "source": "ports.json",
-    "sourceId": "",
-    "score": 0,
-    "slug": "puerto-del-callao-port"
+    "id": "review/callao-peru/callao-port-cruise-berth-darsena",
+    "name": "Callao port cruise berth (Darsena)",
+    "lat": -12.05836,
+    "lng": -77.149339,
+    "terminalType": "passenger_cruise_terminal",
+    "source": "terminal_review",
+    "sourceUrls": [],
+    "verified": true,
+    "sourceId": "review/callao-peru/callao-port-cruise-berth-darsena"
   },
   "terminals": [
     {
-      "id": "ports-json-anchor",
-      "name": "PUERTO DEL CALLAO Port",
-      "lat": -12.05,
-      "lng": -77.15,
-      "address": "Callao, Callao, Peru",
-      "source": "ports.json",
-      "sourceId": "",
-      "score": 0,
-      "slug": "puerto-del-callao-port"
+      "id": "review/callao-peru/callao-port-cruise-berth-darsena",
+      "name": "Callao port cruise berth (Darsena)",
+      "lat": -12.05836,
+      "lng": -77.149339,
+      "terminalType": "passenger_cruise_terminal",
+      "source": "terminal_review",
+      "sourceUrls": [],
+      "verified": true,
+      "sourceId": "review/callao-peru/callao-port-cruise-berth-darsena"
     }
   ],
   "terminalCandidateRadiusMeters": 5000,
@@ -960,9 +960,10 @@
     "slug": "puerto-del-callao-port"
   },
   "terminalResolution": {
-    "status": "unresolved",
-    "method": "ports_json_fallback",
-    "verified": false,
-    "notes": "The catalog contains no terminal candidates, so there is no candidate ID to accept."
+    "status": "resolved",
+    "method": "terminal_review",
+    "verified": true,
+    "reviewedAt": "2026-09-28",
+    "notes": "Cruise ships berth inside Callao port, but the exact berth varies. The pin is the main basin (from OpenStreetMap), accurate to about 1 km. Lima's centre is about 15 km away."
   }
 }

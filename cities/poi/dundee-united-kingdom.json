@@ -15,8 +15,8 @@
     "id": "osm/way/48179784",
     "name": "Port of Dundee",
     "nameEnglish": "",
-    "lat": 56.4651278,
-    "lng": -2.9418281,
+    "lat": 56.465128,
+    "lng": -2.941828,
     "address": "Port of Dundee, Baxter Park, Craigiebank, Dundee, Dundee City, Alba / Scotland, United Kingdom",
     "source": "verified_terminal_candidate",
     "sourceId": "osm/way/48179784",
@@ -35,16 +35,15 @@
     },
     "matchedBy": [
       "Nominatim query: DUNDEE Port, Dundee, United Kingdom"
-    ],
-    "distanceFromPortMeters": 739
+    ]
   },
   "terminals": [
     {
       "id": "osm/way/48179784",
       "name": "Port of Dundee",
       "nameEnglish": "",
-      "lat": 56.4651278,
-      "lng": -2.9418281,
+      "lat": 56.465128,
+      "lng": -2.941828,
       "address": "Port of Dundee, Baxter Park, Craigiebank, Dundee, Dundee City, Alba / Scotland, United Kingdom",
       "source": "verified_terminal_candidate",
       "sourceId": "osm/way/48179784",
@@ -63,8 +62,7 @@
       },
       "matchedBy": [
         "Nominatim query: DUNDEE Port, Dundee, United Kingdom"
-      ],
-      "distanceFromPortMeters": 739
+      ]
     }
   ],
   "terminalCandidateRadiusMeters": 5000,
@@ -1051,8 +1049,9 @@
   },
   "terminalResolution": {
     "status": "resolved",
-    "method": "accepted_terminal_candidate",
+    "method": "terminal_review",
     "verified": true,
-    "notes": "Accepted Port of Dundee as the practical arrival location. Cruise ships berth inside the commercial port and passengers leave through the port-controlled landside area rather than a separately mapped cruise terminal."
+    "reviewedAt": "2026-09-28",
+    "notes": "Cruise ships use the Port of Dundee's berths; calls are occasional."
   }
 }

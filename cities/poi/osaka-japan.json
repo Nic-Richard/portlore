@@ -16,7 +16,7 @@
     "name": "天保山客船ターミナル",
     "nameEnglish": "Cruise Ship Terminal",
     "lat": 34.656892,
-    "lng": 135.4312471,
+    "lng": 135.431247,
     "address": "",
     "source": "verified_terminal_candidate",
     "sourceId": "osm/generated/f7043161b7f398905012",
@@ -39,8 +39,7 @@
     "matchedBy": [
       "amenity=ferry_terminal",
       "terminal-like name"
-    ],
-    "distanceFromPortMeters": 775
+    ]
   },
   "terminals": [
     {
@@ -48,7 +47,7 @@
       "name": "天保山客船ターミナル",
       "nameEnglish": "Cruise Ship Terminal",
       "lat": 34.656892,
-      "lng": 135.4312471,
+      "lng": 135.431247,
       "address": "",
       "source": "verified_terminal_candidate",
       "sourceId": "osm/generated/f7043161b7f398905012",
@@ -71,8 +70,7 @@
       "matchedBy": [
         "amenity=ferry_terminal",
         "terminal-like name"
-      ],
-      "distanceFromPortMeters": 775
+      ]
     }
   ],
   "terminalCandidateRadiusMeters": 5000,
@@ -1767,8 +1765,9 @@
   },
   "terminalResolution": {
     "status": "resolved",
-    "method": "accepted_terminal_candidate",
+    "method": "terminal_review",
     "verified": true,
-    "notes": "Accepted 1 candidate explicitly identified as an ocean-cruise or cruise-passenger terminal; ferry and unrelated results were excluded."
+    "reviewedAt": "2026-09-28",
+    "notes": "Tempozan cruise terminal is correct; the rest are harbour tour boats and ferry landings."
   }
 }

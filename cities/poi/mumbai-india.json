@@ -10,29 +10,29 @@
     "city": "Mumbai",
     "country": "India"
   },
-  "defaultTerminalId": "ports-json-anchor",
+  "defaultTerminalId": "review/mumbai-india/mumbai-international-cruise-terminal",
   "terminal": {
-    "id": "ports-json-anchor",
-    "name": "MUMBAI (BOMBAY) Port",
-    "lat": 18.97,
-    "lng": 72.87,
-    "address": "Mumbai, Maharashtra, India",
-    "source": "ports.json",
-    "sourceId": "",
-    "score": 0,
-    "slug": "mumbai-bombay-port"
+    "id": "review/mumbai-india/mumbai-international-cruise-terminal",
+    "name": "Mumbai International Cruise Terminal",
+    "lat": 18.93048,
+    "lng": 72.843558,
+    "terminalType": "passenger_cruise_terminal",
+    "source": "terminal_review",
+    "sourceUrls": [],
+    "verified": true,
+    "sourceId": "review/mumbai-india/mumbai-international-cruise-terminal"
   },
   "terminals": [
     {
-      "id": "ports-json-anchor",
-      "name": "MUMBAI (BOMBAY) Port",
-      "lat": 18.97,
-      "lng": 72.87,
-      "address": "Mumbai, Maharashtra, India",
-      "source": "ports.json",
-      "sourceId": "",
-      "score": 0,
-      "slug": "mumbai-bombay-port"
+      "id": "review/mumbai-india/mumbai-international-cruise-terminal",
+      "name": "Mumbai International Cruise Terminal",
+      "lat": 18.93048,
+      "lng": 72.843558,
+      "terminalType": "passenger_cruise_terminal",
+      "source": "terminal_review",
+      "sourceUrls": [],
+      "verified": true,
+      "sourceId": "review/mumbai-india/mumbai-international-cruise-terminal"
     }
   ],
   "terminalCandidateRadiusMeters": 5000,
@@ -746,9 +746,10 @@
     "slug": "mumbai-bombay-port"
   },
   "terminalResolution": {
-    "status": "unresolved",
-    "method": "ports_json_fallback",
-    "verified": false,
-    "notes": "All supplied candidates are ferry-only stops, local docks, unnamed maritime features, or unrelated places rather than passenger cruise terminals."
+    "status": "resolved",
+    "method": "terminal_review",
+    "verified": true,
+    "reviewedAt": "2026-09-28",
+    "notes": "Added the Mumbai International Cruise Terminal at Ballard Pier (from OpenStreetMap). The candidates were ferry wharves."
   }
 }

@@ -15,8 +15,8 @@
     "id": "osm/generated/e5e3de5710ba4fc830cb",
     "name": "Molo Crociere Napoli",
     "nameEnglish": "Naples Cruise Port",
-    "lat": 40.8381904,
-    "lng": 14.2602186,
+    "lat": 40.83819,
+    "lng": 14.260219,
     "address": "Napoli, 80133",
     "source": "verified_terminal_candidate",
     "sourceId": "osm/generated/e5e3de5710ba4fc830cb",
@@ -42,16 +42,15 @@
       "amenity=ferry_terminal",
       "terminal-like name",
       "Nominatim query: NAPOLI Port, Naples, Italy"
-    ],
-    "distanceFromPortMeters": 1550
+    ]
   },
   "terminals": [
     {
       "id": "osm/generated/e5e3de5710ba4fc830cb",
       "name": "Molo Crociere Napoli",
       "nameEnglish": "Naples Cruise Port",
-      "lat": 40.8381904,
-      "lng": 14.2602186,
+      "lat": 40.83819,
+      "lng": 14.260219,
       "address": "Napoli, 80133",
       "source": "verified_terminal_candidate",
       "sourceId": "osm/generated/e5e3de5710ba4fc830cb",
@@ -77,8 +76,7 @@
         "amenity=ferry_terminal",
         "terminal-like name",
         "Nominatim query: NAPOLI Port, Naples, Italy"
-      ],
-      "distanceFromPortMeters": 1550
+      ]
     }
   ],
   "terminalCandidateRadiusMeters": 5000,
@@ -1495,8 +1493,9 @@
   },
   "terminalResolution": {
     "status": "resolved",
-    "method": "accepted_terminal_candidate",
+    "method": "terminal_review",
     "verified": true,
-    "notes": "Accepted 1 candidate explicitly identified as an ocean-cruise or cruise-passenger terminal; ferry and unrelated results were excluded."
+    "reviewedAt": "2026-09-28",
+    "notes": "The Stazione Marittima cruise pier is correct; the rest are ferry piers."
   }
 }

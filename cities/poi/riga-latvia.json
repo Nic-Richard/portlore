@@ -10,29 +10,29 @@
     "city": "Riga",
     "country": "Latvia"
   },
-  "defaultTerminalId": "ports-json-anchor",
+  "defaultTerminalId": "review/riga-latvia/riga-passenger-port",
   "terminal": {
-    "id": "ports-json-anchor",
-    "name": "RIGA Port",
-    "lat": 56.95,
-    "lng": 24.1,
-    "address": "Riga, Latvia, Latvia",
-    "source": "ports.json",
-    "sourceId": "",
-    "score": 0,
-    "slug": "riga-port"
+    "id": "review/riga-latvia/riga-passenger-port",
+    "name": "Riga Passenger Port",
+    "lat": 56.959292,
+    "lng": 24.09458,
+    "terminalType": "passenger_cruise_terminal",
+    "source": "terminal_review",
+    "sourceUrls": [],
+    "verified": true,
+    "sourceId": "review/riga-latvia/riga-passenger-port"
   },
   "terminals": [
     {
-      "id": "ports-json-anchor",
-      "name": "RIGA Port",
-      "lat": 56.95,
-      "lng": 24.1,
-      "address": "Riga, Latvia, Latvia",
-      "source": "ports.json",
-      "sourceId": "",
-      "score": 0,
-      "slug": "riga-port"
+      "id": "review/riga-latvia/riga-passenger-port",
+      "name": "Riga Passenger Port",
+      "lat": 56.959292,
+      "lng": 24.09458,
+      "terminalType": "passenger_cruise_terminal",
+      "source": "terminal_review",
+      "sourceUrls": [],
+      "verified": true,
+      "sourceId": "review/riga-latvia/riga-passenger-port"
     }
   ],
   "terminalCandidateRadiusMeters": 5000,
@@ -1105,9 +1105,10 @@
     "slug": "riga-port"
   },
   "terminalResolution": {
-    "status": "unresolved",
-    "method": "ports_json_fallback",
-    "verified": false,
-    "notes": "All supplied candidates are ferry-only stops, local docks, unnamed maritime features, or unrelated places rather than passenger cruise terminals."
+    "status": "resolved",
+    "method": "terminal_review",
+    "verified": true,
+    "reviewedAt": "2026-09-28",
+    "notes": "Cruise ships berth at the Riga passenger port, near the old town (added from OpenStreetMap). The candidates were bus and tram stops."
   }
 }

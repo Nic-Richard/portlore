@@ -10,29 +10,40 @@
     "city": "Otaru",
     "country": "Japan"
   },
-  "defaultTerminalId": "ports-json-anchor",
+  "defaultTerminalId": "review/otaru-japan/otaru-port-no-3-pier",
   "terminal": {
-    "id": "ports-json-anchor",
-    "name": "ISHIKARI BAY NEW PORT Port",
-    "lat": 43.22,
-    "lng": 141.28,
-    "address": "Otaru, Hokkaido, Japan",
-    "source": "ports.json",
-    "sourceId": "",
-    "score": 0,
-    "slug": "ishikari-bay-new-port-port"
+    "id": "review/otaru-japan/otaru-port-no-3-pier",
+    "name": "Otaru Port No. 3 Pier",
+    "lat": 43.202751,
+    "lng": 141.008255,
+    "terminalType": "passenger_cruise_terminal",
+    "source": "terminal_review",
+    "sourceUrls": [],
+    "verified": true,
+    "sourceId": "review/otaru-japan/otaru-port-no-3-pier"
   },
   "terminals": [
     {
-      "id": "ports-json-anchor",
-      "name": "ISHIKARI BAY NEW PORT Port",
-      "lat": 43.22,
-      "lng": 141.28,
-      "address": "Otaru, Hokkaido, Japan",
-      "source": "ports.json",
-      "sourceId": "",
-      "score": 0,
-      "slug": "ishikari-bay-new-port-port"
+      "id": "review/otaru-japan/otaru-port-no-3-pier",
+      "name": "Otaru Port No. 3 Pier",
+      "lat": 43.202751,
+      "lng": 141.008255,
+      "terminalType": "passenger_cruise_terminal",
+      "source": "terminal_review",
+      "sourceUrls": [],
+      "verified": true,
+      "sourceId": "review/otaru-japan/otaru-port-no-3-pier"
+    },
+    {
+      "id": "review/otaru-japan/katsunai-wharf",
+      "name": "Katsunai Wharf",
+      "lat": 43.18838,
+      "lng": 141.02385,
+      "terminalType": "passenger_cruise_terminal",
+      "source": "terminal_review",
+      "sourceUrls": [],
+      "verified": true,
+      "sourceId": "review/otaru-japan/katsunai-wharf"
     }
   ],
   "terminalCandidateRadiusMeters": 5000,
@@ -108,9 +119,10 @@
     "slug": "ishikari-bay-new-port-port"
   },
   "terminalResolution": {
-    "status": "unresolved",
-    "method": "ports_json_fallback",
-    "verified": false,
-    "notes": "The catalog contains no terminal candidates, so there is no candidate ID to accept."
+    "status": "resolved",
+    "method": "terminal_review",
+    "verified": true,
+    "reviewedAt": "2026-09-28",
+    "notes": "cruise ships dock at Otaru Port's No. 3 Pier near the canal (added from OpenStreetMap). The port list points at Ishikari Bay New Port, a cargo port about 23 km away, so the place catalog was built around the wrong spot and must be rebuilt before regenerating. Terminal sweep: Added Katsunai Wharf, used by larger cruise ships (from Google Maps)."
   }
 }

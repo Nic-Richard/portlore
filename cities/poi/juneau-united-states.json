@@ -15,8 +15,8 @@
     "id": "osm/generated/a441119109b9a888b4fb",
     "name": "Cruise Ship Pier",
     "nameEnglish": "",
-    "lat": 58.2976354,
-    "lng": -134.4049195,
+    "lat": 58.297635,
+    "lng": -134.40492,
     "address": "",
     "source": "verified_terminal_candidate",
     "sourceId": "osm/generated/a441119109b9a888b4fb",
@@ -35,16 +35,15 @@
     },
     "matchedBy": [
       "terminal-like name"
-    ],
-    "distanceFromPortMeters": 239
+    ]
   },
   "terminals": [
     {
       "id": "osm/generated/a441119109b9a888b4fb",
       "name": "Cruise Ship Pier",
       "nameEnglish": "",
-      "lat": 58.2976354,
-      "lng": -134.4049195,
+      "lat": 58.297635,
+      "lng": -134.40492,
       "address": "",
       "source": "verified_terminal_candidate",
       "sourceId": "osm/generated/a441119109b9a888b4fb",
@@ -63,15 +62,36 @@
       },
       "matchedBy": [
         "terminal-like name"
-      ],
-      "distanceFromPortMeters": 239
+      ]
+    },
+    {
+      "id": "review/juneau-united-states/franklin-dock",
+      "name": "Franklin Dock",
+      "lat": 58.292474,
+      "lng": -134.395346,
+      "terminalType": "passenger_cruise_terminal",
+      "source": "terminal_review",
+      "sourceUrls": [],
+      "verified": true,
+      "sourceId": "review/juneau-united-states/franklin-dock"
+    },
+    {
+      "id": "review/juneau-united-states/aj-dock",
+      "name": "AJ Dock",
+      "lat": 58.289386,
+      "lng": -134.39657,
+      "terminalType": "passenger_cruise_terminal",
+      "source": "terminal_review",
+      "sourceUrls": [],
+      "verified": true,
+      "sourceId": "review/juneau-united-states/aj-dock"
     },
     {
       "id": "osm/generated/6679497ca53526e7dd0e",
       "name": "Cruise Ship Pier",
       "nameEnglish": "",
-      "lat": 58.2955068,
-      "lng": -134.4016301,
+      "lat": 58.295507,
+      "lng": -134.40163,
       "address": "",
       "source": "verified_terminal_candidate",
       "sourceId": "osm/generated/6679497ca53526e7dd0e",
@@ -90,8 +110,7 @@
       },
       "matchedBy": [
         "terminal-like name"
-      ],
-      "distanceFromPortMeters": 544
+      ]
     }
   ],
   "terminalCandidateRadiusMeters": 5000,
@@ -1319,8 +1338,9 @@
   },
   "terminalResolution": {
     "status": "resolved",
-    "method": "accepted_terminal_candidate",
+    "method": "terminal_review",
     "verified": true,
-    "notes": "Accepted 2 candidates explicitly identified as an ocean-cruise or cruise-passenger terminal; ferry and unrelated results were excluded."
+    "reviewedAt": "2026-09-28",
+    "notes": "Juneau has several downtown cruise docks; kept both pier entries. Terminal sweep: Added the privately owned Franklin and AJ docks, which take cruise ships alongside the city berths (from Google Maps)."
   }
 }

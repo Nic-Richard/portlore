@@ -15,8 +15,8 @@
     "id": "osm/generated/1a2a179f646166697c9a",
     "name": "Ostseekai",
     "nameEnglish": "",
-    "lat": 54.3258448,
-    "lng": 10.1465807,
+    "lat": 54.325845,
+    "lng": 10.146581,
     "address": "",
     "source": "verified_terminal_candidate",
     "sourceId": "osm/generated/1a2a179f646166697c9a",
@@ -37,16 +37,15 @@
     },
     "matchedBy": [
       "amenity=ferry_terminal"
-    ],
-    "distanceFromPortMeters": 1256
+    ]
   },
   "terminals": [
     {
       "id": "osm/generated/1a2a179f646166697c9a",
       "name": "Ostseekai",
       "nameEnglish": "",
-      "lat": 54.3258448,
-      "lng": 10.1465807,
+      "lat": 54.325845,
+      "lng": 10.146581,
       "address": "",
       "source": "verified_terminal_candidate",
       "sourceId": "osm/generated/1a2a179f646166697c9a",
@@ -67,8 +66,18 @@
       },
       "matchedBy": [
         "amenity=ferry_terminal"
-      ],
-      "distanceFromPortMeters": 1256
+      ]
+    },
+    {
+      "id": "review/kiel-germany/ostuferhafen-cruise-terminal",
+      "name": "Ostuferhafen Cruise Terminal",
+      "lat": 54.337256,
+      "lng": 10.174977,
+      "terminalType": "passenger_cruise_terminal",
+      "source": "terminal_review",
+      "sourceUrls": [],
+      "verified": true,
+      "sourceId": "review/kiel-germany/ostuferhafen-cruise-terminal"
     }
   ],
   "terminalCandidateRadiusMeters": 5000,
@@ -1301,8 +1310,9 @@
   },
   "terminalResolution": {
     "status": "resolved",
-    "method": "accepted_terminal_candidate",
+    "method": "terminal_review",
     "verified": true,
-    "notes": "Accepted 1 candidate explicitly identified as an ocean-cruise or cruise-passenger terminal; ferry and unrelated results were excluded."
+    "reviewedAt": "2026-09-28",
+    "notes": "Ostseekai is Kiel's main cruise terminal. Schwedenkai and Norwegenkai are ferry terminals that occasionally take cruise ships. Terminal sweep: Added the Ostuferhafen cruise terminal on the east bank (from Google Maps)."
   }
 }

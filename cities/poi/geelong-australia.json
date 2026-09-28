@@ -10,29 +10,29 @@
     "city": "Geelong",
     "country": "Australia"
   },
-  "defaultTerminalId": "ports-json-anchor",
+  "defaultTerminalId": "review/geelong-australia/corio-quay-cruise-berth",
   "terminal": {
-    "id": "ports-json-anchor",
-    "name": "GEELONG Port",
-    "lat": -38.15,
-    "lng": 144.37,
-    "address": "Geelong, Victoria, Australia",
-    "source": "ports.json",
-    "sourceId": "",
-    "score": 0,
-    "slug": "geelong-port"
+    "id": "review/geelong-australia/corio-quay-cruise-berth",
+    "name": "Corio Quay cruise berth",
+    "lat": -38.107706,
+    "lng": 144.357689,
+    "terminalType": "passenger_cruise_terminal",
+    "source": "terminal_review",
+    "sourceUrls": [],
+    "verified": true,
+    "sourceId": "review/geelong-australia/corio-quay-cruise-berth"
   },
   "terminals": [
     {
-      "id": "ports-json-anchor",
-      "name": "GEELONG Port",
-      "lat": -38.15,
-      "lng": 144.37,
-      "address": "Geelong, Victoria, Australia",
-      "source": "ports.json",
-      "sourceId": "",
-      "score": 0,
-      "slug": "geelong-port"
+      "id": "review/geelong-australia/corio-quay-cruise-berth",
+      "name": "Corio Quay cruise berth",
+      "lat": -38.107706,
+      "lng": 144.357689,
+      "terminalType": "passenger_cruise_terminal",
+      "source": "terminal_review",
+      "sourceUrls": [],
+      "verified": true,
+      "sourceId": "review/geelong-australia/corio-quay-cruise-berth"
     }
   ],
   "terminalCandidateRadiusMeters": 5000,
@@ -911,9 +911,10 @@
     "slug": "geelong-port"
   },
   "terminalResolution": {
-    "status": "unresolved",
-    "method": "ports_json_fallback",
-    "verified": false,
-    "notes": "All supplied candidates are ferry-only stops, local docks, unnamed maritime features, or unrelated places rather than passenger cruise terminals."
+    "status": "resolved",
+    "method": "terminal_review",
+    "verified": true,
+    "reviewedAt": "2026-09-28",
+    "notes": "Cruise ships berth at Corio Quay in North Geelong. The pin is the GeelongPort office beside the berths (from Google Places), accurate to a few hundred metres."
   }
 }

@@ -16,7 +16,7 @@
     "name": "Passenger Terminal 1",
     "nameEnglish": "Passenger Terminal 1",
     "lat": 10.292605,
-    "lng": 123.9084778,
+    "lng": 123.908478,
     "address": "Quezon Boulevard, 6000",
     "source": "verified_terminal_candidate",
     "sourceId": "osm/generated/cfc0aad7c1a504895b33",
@@ -40,8 +40,7 @@
     "matchedBy": [
       "amenity=ferry_terminal",
       "terminal-like name"
-    ],
-    "distanceFromPortMeters": 1240
+    ]
   },
   "terminals": [
     {
@@ -49,7 +48,7 @@
       "name": "Passenger Terminal 1",
       "nameEnglish": "Passenger Terminal 1",
       "lat": 10.292605,
-      "lng": 123.9084778,
+      "lng": 123.908478,
       "address": "Quezon Boulevard, 6000",
       "source": "verified_terminal_candidate",
       "sourceId": "osm/generated/cfc0aad7c1a504895b33",
@@ -73,8 +72,7 @@
       "matchedBy": [
         "amenity=ferry_terminal",
         "terminal-like name"
-      ],
-      "distanceFromPortMeters": 1240
+      ]
     }
   ],
   "terminalCandidateRadiusMeters": 5000,
@@ -1494,8 +1492,9 @@
   },
   "terminalResolution": {
     "status": "resolved",
-    "method": "accepted_terminal_candidate",
+    "method": "terminal_review",
     "verified": true,
-    "notes": "Accepted Passenger Terminal 1 at Cebu Pier 1, the strongest supplied match for the passenger processing point used when cruise visitors disembark in central Cebu Port."
+    "reviewedAt": "2026-09-28",
+    "notes": "Verified terminal is correct; other candidates are ferry stops, offices, or unrelated places."
   }
 }

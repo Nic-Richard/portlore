@@ -16,7 +16,7 @@
     "name": "Terminal de croisière",
     "nameEnglish": "Cruise Terminal",
     "lat": 14.60155,
-    "lng": -61.0727409,
+    "lng": -61.072741,
     "address": "",
     "source": "verified_terminal_candidate",
     "sourceId": "osm/generated/f73db692131908f0b97f",
@@ -39,8 +39,7 @@
     "matchedBy": [
       "amenity=ferry_terminal",
       "terminal-like name"
-    ],
-    "distanceFromPortMeters": 342
+    ]
   },
   "terminals": [
     {
@@ -48,7 +47,7 @@
       "name": "Terminal de croisière",
       "nameEnglish": "Cruise Terminal",
       "lat": 14.60155,
-      "lng": -61.0727409,
+      "lng": -61.072741,
       "address": "",
       "source": "verified_terminal_candidate",
       "sourceId": "osm/generated/f73db692131908f0b97f",
@@ -71,8 +70,18 @@
       "matchedBy": [
         "amenity=ferry_terminal",
         "terminal-like name"
-      ],
-      "distanceFromPortMeters": 342
+      ]
+    },
+    {
+      "id": "review/fort-de-france-martinique/tourelles-cruise-terminal",
+      "name": "Tourelles Cruise Terminal",
+      "lat": 14.601997,
+      "lng": -61.060263,
+      "terminalType": "passenger_cruise_terminal",
+      "source": "terminal_review",
+      "sourceUrls": [],
+      "verified": true,
+      "sourceId": "review/fort-de-france-martinique/tourelles-cruise-terminal"
     }
   ],
   "terminalCandidateRadiusMeters": 5000,
@@ -1327,8 +1336,9 @@
   },
   "terminalResolution": {
     "status": "resolved",
-    "method": "accepted_terminal_candidate",
+    "method": "terminal_review",
     "verified": true,
-    "notes": "Accepted 1 candidate explicitly identified as an ocean-cruise or cruise-passenger terminal; ferry and unrelated results were excluded."
+    "reviewedAt": "2026-09-28",
+    "notes": "The cruise terminal at Pointe Simon is correct; the maritime station is for inter-island ferries. Terminal sweep: Added the Tourelles cruise terminal, used when Pointe Simon is full (from Google Maps)."
   }
 }

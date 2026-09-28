@@ -15,8 +15,8 @@
     "id": "osm/way/326635842",
     "name": "Copenhagen Ocean Cruise Terminal 1",
     "nameEnglish": "",
-    "lat": 55.7134097,
-    "lng": 12.6194364,
+    "lat": 55.71341,
+    "lng": 12.619436,
     "address": "Copenhagen Ocean Cruise Terminal 1, Oceankaj, Nordhavn, København, Københavns Kommune, Region Hovedstaden, 2150, Danmark",
     "source": "verified_terminal_candidate",
     "sourceId": "osm/way/326635842",
@@ -33,16 +33,15 @@
     "osmTags": {},
     "matchedBy": [
       "Nominatim query: Copenhagen cruise terminal, Denmark"
-    ],
-    "distanceFromPortMeters": 1492
+    ]
   },
   "terminals": [
     {
       "id": "osm/way/326635842",
       "name": "Copenhagen Ocean Cruise Terminal 1",
       "nameEnglish": "",
-      "lat": 55.7134097,
-      "lng": 12.6194364,
+      "lat": 55.71341,
+      "lng": 12.619436,
       "address": "Copenhagen Ocean Cruise Terminal 1, Oceankaj, Nordhavn, København, Københavns Kommune, Region Hovedstaden, 2150, Danmark",
       "source": "verified_terminal_candidate",
       "sourceId": "osm/way/326635842",
@@ -59,15 +58,25 @@
       "osmTags": {},
       "matchedBy": [
         "Nominatim query: Copenhagen cruise terminal, Denmark"
-      ],
-      "distanceFromPortMeters": 1492
+      ]
+    },
+    {
+      "id": "review/copenhagen-denmark/langelinie-cruise-quay",
+      "name": "Langelinie Cruise Quay",
+      "lat": 55.697294,
+      "lng": 12.600438,
+      "terminalType": "passenger_cruise_terminal",
+      "source": "terminal_review",
+      "sourceUrls": [],
+      "verified": true,
+      "sourceId": "review/copenhagen-denmark/langelinie-cruise-quay"
     },
     {
       "id": "osm/way/326635843",
       "name": "Copenhagen Ocean Cruise Terminal 2",
       "nameEnglish": "",
       "lat": 55.71531,
-      "lng": 12.6235485,
+      "lng": 12.623549,
       "address": "Copenhagen Ocean Cruise Terminal 2, Havvej, Nordhavn, København, Københavns Kommune, Region Hovedstaden, 2150, Danmark",
       "source": "verified_terminal_candidate",
       "sourceId": "osm/way/326635843",
@@ -84,15 +93,14 @@
       "osmTags": {},
       "matchedBy": [
         "Nominatim query: Copenhagen cruise terminal, Denmark"
-      ],
-      "distanceFromPortMeters": 1717
+      ]
     },
     {
       "id": "osm/way/326635844",
       "name": "Copenhagen Ocean Cruise Terminal 3",
       "nameEnglish": "",
-      "lat": 55.7172043,
-      "lng": 12.6276985,
+      "lat": 55.717204,
+      "lng": 12.627698,
       "address": "Copenhagen Ocean Cruise Terminal 3, Havvej, Nordhavn, København, Københavns Kommune, Region Hovedstaden, 2150, Danmark",
       "source": "verified_terminal_candidate",
       "sourceId": "osm/way/326635844",
@@ -109,38 +117,7 @@
       "osmTags": {},
       "matchedBy": [
         "Nominatim query: Copenhagen cruise terminal, Denmark"
-      ],
-      "distanceFromPortMeters": 1973
-    },
-    {
-      "id": "osm/generated/46281b65a83f446a852e",
-      "name": "Terminal Go Nordic Cruiseline",
-      "nameEnglish": "",
-      "lat": 55.7015161,
-      "lng": 12.5950114,
-      "address": "",
-      "source": "verified_terminal_candidate",
-      "sourceId": "osm/generated/46281b65a83f446a852e",
-      "terminalType": "passenger_cruise_terminal",
-      "verified": true,
-      "notes": "Accepted 4 candidates explicitly identified as an ocean-cruise or cruise-passenger terminal; ferry and unrelated results were excluded.",
-      "sourceUrls": [],
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/46281b65a83f446a852e"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "public_transport": "station"
-      },
-      "matchedBy": [
-        "amenity=ferry_terminal",
-        "terminal-like name"
-      ],
-      "distanceFromPortMeters": 1575
+      ]
     }
   ],
   "terminalCandidateRadiusMeters": 5000,
@@ -1599,8 +1576,9 @@
   },
   "terminalResolution": {
     "status": "resolved",
-    "method": "accepted_terminal_candidate",
+    "method": "terminal_review",
     "verified": true,
-    "notes": "Accepted 4 candidates explicitly identified as an ocean-cruise or cruise-passenger terminal; ferry and unrelated results were excluded."
+    "reviewedAt": "2026-09-28",
+    "notes": "Ocean Terminals 1-3 are correct; added Langelinie (from OpenStreetMap), the downtown quay near the Little Mermaid where many ships berth. Rejected the 'Go Nordic' entry and ferry stops."
   }
 }

@@ -10,29 +10,29 @@
     "city": "Houston",
     "country": "United States"
   },
-  "defaultTerminalId": "ports-json-anchor",
+  "defaultTerminalId": "review/houston-united-states/port-of-houston-cruise-terminal-bayport",
   "terminal": {
-    "id": "ports-json-anchor",
-    "name": "HOUSTON Port",
-    "lat": 29.75,
-    "lng": -95.28,
-    "address": "Houston, Texas, United States",
-    "source": "ports.json",
-    "sourceId": "",
-    "score": 0,
-    "slug": "houston-port"
+    "id": "review/houston-united-states/port-of-houston-cruise-terminal-bayport",
+    "name": "Port of Houston Cruise Terminal (Bayport)",
+    "lat": 29.610661,
+    "lng": -94.991737,
+    "terminalType": "passenger_cruise_terminal",
+    "source": "terminal_review",
+    "sourceUrls": [],
+    "verified": true,
+    "sourceId": "review/houston-united-states/port-of-houston-cruise-terminal-bayport"
   },
   "terminals": [
     {
-      "id": "ports-json-anchor",
-      "name": "HOUSTON Port",
-      "lat": 29.75,
-      "lng": -95.28,
-      "address": "Houston, Texas, United States",
-      "source": "ports.json",
-      "sourceId": "",
-      "score": 0,
-      "slug": "houston-port"
+      "id": "review/houston-united-states/port-of-houston-cruise-terminal-bayport",
+      "name": "Port of Houston Cruise Terminal (Bayport)",
+      "lat": 29.610661,
+      "lng": -94.991737,
+      "terminalType": "passenger_cruise_terminal",
+      "source": "terminal_review",
+      "sourceUrls": [],
+      "verified": true,
+      "sourceId": "review/houston-united-states/port-of-houston-cruise-terminal-bayport"
     }
   ],
   "terminalCandidateRadiusMeters": 5000,
@@ -963,9 +963,10 @@
     "slug": "houston-port"
   },
   "terminalResolution": {
-    "status": "unresolved",
-    "method": "ports_json_fallback",
-    "verified": false,
-    "notes": "External port and cruise-schedule checks found no established ocean passenger cruise terminal or meaningful cruise-call pattern here. The supplied candidates are cargo, ferry, marina, local-dock, road, or unrelated results."
+    "status": "resolved",
+    "method": "terminal_review",
+    "verified": true,
+    "reviewedAt": "2026-09-28",
+    "notes": "Added the Port of Houston Cruise Terminal at Bayport in Seabrook (from Google Places), about 40 km from downtown Houston."
   }
 }

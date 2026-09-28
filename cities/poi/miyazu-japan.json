@@ -10,29 +10,29 @@
     "city": "MIYAZU",
     "country": "Japan"
   },
-  "defaultTerminalId": "ports-json-anchor",
+  "defaultTerminalId": "review/miyazu-japan/terminal",
   "terminal": {
-    "id": "ports-json-anchor",
-    "name": "MIYAZU Port",
-    "lat": 35.53,
-    "lng": 135.2,
-    "address": "MIYAZU, Japan",
-    "source": "ports.json",
-    "sourceId": "",
-    "score": 0,
-    "slug": "miyazu-port"
+    "id": "review/miyazu-japan/terminal",
+    "name": "宮津桟橋",
+    "lat": 35.539829,
+    "lng": 135.193882,
+    "terminalType": "passenger_cruise_terminal",
+    "source": "openstreetmap",
+    "sourceUrls": [],
+    "verified": true,
+    "sourceId": "review/miyazu-japan/terminal"
   },
   "terminals": [
     {
-      "id": "ports-json-anchor",
-      "name": "MIYAZU Port",
-      "lat": 35.53,
-      "lng": 135.2,
-      "address": "MIYAZU, Japan",
-      "source": "ports.json",
-      "sourceId": "",
-      "score": 0,
-      "slug": "miyazu-port"
+      "id": "review/miyazu-japan/terminal",
+      "name": "宮津桟橋",
+      "lat": 35.539829,
+      "lng": 135.193882,
+      "terminalType": "passenger_cruise_terminal",
+      "source": "openstreetmap",
+      "sourceUrls": [],
+      "verified": true,
+      "sourceId": "review/miyazu-japan/terminal"
     }
   ],
   "terminalCandidateRadiusMeters": 5000,
@@ -611,9 +611,10 @@
     "slug": "miyazu-port"
   },
   "terminalResolution": {
-    "status": "unresolved",
-    "method": "ports_json_fallback",
-    "verified": false,
-    "notes": "All supplied candidates are ferry-only stops, local docks, unnamed maritime features, or unrelated places rather than passenger cruise terminals."
+    "status": "resolved",
+    "method": "terminal_review",
+    "verified": true,
+    "reviewedAt": "2026-09-28",
+    "notes": "Miyazu gets occasional cruise calls for Amanohashidate; kept the Miyazu pier."
   }
 }

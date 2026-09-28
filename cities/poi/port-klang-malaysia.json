@@ -10,71 +10,29 @@
     "city": "Port Klang",
     "country": "Malaysia"
   },
-  "defaultTerminalId": "osm/generated/b67934b969a0e6b2fc3e",
+  "defaultTerminalId": "review/port-klang-malaysia/port-klang-cruise-terminal-west-port",
   "terminal": {
-    "id": "osm/generated/b67934b969a0e6b2fc3e",
-    "name": "Terminal Penumpang South Port",
-    "nameEnglish": "South Port Passenger Terminal",
-    "lat": 2.9983094,
-    "lng": 101.3919948,
-    "address": "Pelabuhan Klang",
-    "source": "verified_terminal_candidate",
-    "sourceId": "osm/generated/b67934b969a0e6b2fc3e",
+    "id": "review/port-klang-malaysia/port-klang-cruise-terminal-west-port",
+    "name": "Port Klang Cruise Terminal (West Port)",
+    "lat": 2.984759,
+    "lng": 101.336888,
     "terminalType": "passenger_cruise_terminal",
-    "verified": true,
-    "notes": "Accepted 1 candidate explicitly identified as an ocean-cruise or cruise-passenger terminal; ferry and unrelated results were excluded.",
+    "source": "terminal_review",
     "sourceUrls": [],
-    "sources": [
-      "openstreetmap"
-    ],
-    "sourceIds": [
-      "osm/generated/b67934b969a0e6b2fc3e"
-    ],
-    "osmTags": {
-      "amenity": "ferry_terminal",
-      "building": "yes",
-      "ferry": "yes",
-      "name:en": "South Port Passenger Terminal",
-      "public_transport": "station"
-    },
-    "matchedBy": [
-      "amenity=ferry_terminal",
-      "terminal-like name"
-    ],
-    "distanceFromPortMeters": 909
+    "verified": true,
+    "sourceId": "review/port-klang-malaysia/port-klang-cruise-terminal-west-port"
   },
   "terminals": [
     {
-      "id": "osm/generated/b67934b969a0e6b2fc3e",
-      "name": "Terminal Penumpang South Port",
-      "nameEnglish": "South Port Passenger Terminal",
-      "lat": 2.9983094,
-      "lng": 101.3919948,
-      "address": "Pelabuhan Klang",
-      "source": "verified_terminal_candidate",
-      "sourceId": "osm/generated/b67934b969a0e6b2fc3e",
+      "id": "review/port-klang-malaysia/port-klang-cruise-terminal-west-port",
+      "name": "Port Klang Cruise Terminal (West Port)",
+      "lat": 2.984759,
+      "lng": 101.336888,
       "terminalType": "passenger_cruise_terminal",
-      "verified": true,
-      "notes": "Accepted 1 candidate explicitly identified as an ocean-cruise or cruise-passenger terminal; ferry and unrelated results were excluded.",
+      "source": "terminal_review",
       "sourceUrls": [],
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/b67934b969a0e6b2fc3e"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "building": "yes",
-        "ferry": "yes",
-        "name:en": "South Port Passenger Terminal",
-        "public_transport": "station"
-      },
-      "matchedBy": [
-        "amenity=ferry_terminal",
-        "terminal-like name"
-      ],
-      "distanceFromPortMeters": 909
+      "verified": true,
+      "sourceId": "review/port-klang-malaysia/port-klang-cruise-terminal-west-port"
     }
   ],
   "terminalCandidateRadiusMeters": 5000,
@@ -946,8 +904,9 @@
   },
   "terminalResolution": {
     "status": "resolved",
-    "method": "accepted_terminal_candidate",
+    "method": "terminal_review",
     "verified": true,
-    "notes": "Accepted 1 candidate explicitly identified as an ocean-cruise or cruise-passenger terminal; ferry and unrelated results were excluded."
+    "reviewedAt": "2026-09-28",
+    "notes": "Cruise ships use the Port Klang Cruise Terminal at West Port (added from OpenStreetMap), not the South Port passenger terminal. Kuala Lumpur is about 60 km inland."
   }
 }

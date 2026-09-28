@@ -10,29 +10,29 @@
     "city": "Incheon",
     "country": "South Korea"
   },
-  "defaultTerminalId": "ports-json-anchor",
+  "defaultTerminalId": "review/incheon-south-korea/incheon-port-cruise-terminal-songdo",
   "terminal": {
-    "id": "ports-json-anchor",
-    "name": "INCHON Port",
-    "lat": 37.47,
-    "lng": 126.62,
-    "address": "Incheon, Incheon, South Korea",
-    "source": "ports.json",
-    "sourceId": "",
-    "score": 0,
-    "slug": "inchon-port"
+    "id": "review/incheon-south-korea/incheon-port-cruise-terminal-songdo",
+    "name": "Incheon Port Cruise Terminal (Songdo)",
+    "lat": 37.425057,
+    "lng": 126.591662,
+    "terminalType": "passenger_cruise_terminal",
+    "source": "terminal_review",
+    "sourceUrls": [],
+    "verified": true,
+    "sourceId": "review/incheon-south-korea/incheon-port-cruise-terminal-songdo"
   },
   "terminals": [
     {
-      "id": "ports-json-anchor",
-      "name": "INCHON Port",
-      "lat": 37.47,
-      "lng": 126.62,
-      "address": "Incheon, Incheon, South Korea",
-      "source": "ports.json",
-      "sourceId": "",
-      "score": 0,
-      "slug": "inchon-port"
+      "id": "review/incheon-south-korea/incheon-port-cruise-terminal-songdo",
+      "name": "Incheon Port Cruise Terminal (Songdo)",
+      "lat": 37.425057,
+      "lng": 126.591662,
+      "terminalType": "passenger_cruise_terminal",
+      "source": "terminal_review",
+      "sourceUrls": [],
+      "verified": true,
+      "sourceId": "review/incheon-south-korea/incheon-port-cruise-terminal-songdo"
     }
   ],
   "terminalCandidateRadiusMeters": 5000,
@@ -920,9 +920,10 @@
     "slug": "inchon-port"
   },
   "terminalResolution": {
-    "status": "unresolved",
-    "method": "ports_json_fallback",
-    "verified": false,
-    "notes": "All supplied candidates are ferry-only stops, local docks, unnamed maritime features, or unrelated places rather than passenger cruise terminals."
+    "status": "resolved",
+    "method": "terminal_review",
+    "verified": true,
+    "reviewedAt": "2026-09-28",
+    "notes": "Added the Incheon Port Cruise Terminal in Songdo (from OpenStreetMap). Seoul is about an hour away."
   }
 }

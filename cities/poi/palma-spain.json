@@ -10,29 +10,40 @@
     "city": "Palma",
     "country": "Spain"
   },
-  "defaultTerminalId": "ports-json-anchor",
+  "defaultTerminalId": "review/palma-spain/dique-del-oeste-cruise-terminal",
   "terminal": {
-    "id": "ports-json-anchor",
-    "name": "PALMA DE MALLORCA Port",
-    "lat": 39.57,
-    "lng": 2.63,
-    "address": "Palma, Balearic Islands, Spain",
-    "source": "ports.json",
-    "sourceId": "",
-    "score": 0,
-    "slug": "palma-de-mallorca-port"
+    "id": "review/palma-spain/dique-del-oeste-cruise-terminal",
+    "name": "Dique del Oeste Cruise Terminal",
+    "lat": 39.547411,
+    "lng": 2.618089,
+    "terminalType": "passenger_cruise_terminal",
+    "source": "terminal_review",
+    "sourceUrls": [],
+    "verified": true,
+    "sourceId": "review/palma-spain/dique-del-oeste-cruise-terminal"
   },
   "terminals": [
     {
-      "id": "ports-json-anchor",
-      "name": "PALMA DE MALLORCA Port",
-      "lat": 39.57,
-      "lng": 2.63,
-      "address": "Palma, Balearic Islands, Spain",
-      "source": "ports.json",
-      "sourceId": "",
-      "score": 0,
-      "slug": "palma-de-mallorca-port"
+      "id": "review/palma-spain/dique-del-oeste-cruise-terminal",
+      "name": "Dique del Oeste Cruise Terminal",
+      "lat": 39.547411,
+      "lng": 2.618089,
+      "terminalType": "passenger_cruise_terminal",
+      "source": "terminal_review",
+      "sourceUrls": [],
+      "verified": true,
+      "sourceId": "review/palma-spain/dique-del-oeste-cruise-terminal"
+    },
+    {
+      "id": "review/palma-spain/estaci-maritima-2",
+      "name": "Estació Maritima 2",
+      "lat": 39.552907,
+      "lng": 2.626809,
+      "terminalType": "passenger_cruise_terminal",
+      "source": "openstreetmap",
+      "sourceUrls": [],
+      "verified": true,
+      "sourceId": "review/palma-spain/estaci-maritima-2"
     }
   ],
   "terminalCandidateRadiusMeters": 5000,
@@ -1167,9 +1178,10 @@
     "slug": "palma-de-mallorca-port"
   },
   "terminalResolution": {
-    "status": "unresolved",
-    "method": "ports_json_fallback",
-    "verified": false,
-    "notes": "All supplied candidates are ferry-only stops, local docks, unnamed maritime features, or unrelated places rather than passenger cruise terminals."
+    "status": "resolved",
+    "method": "terminal_review",
+    "verified": true,
+    "reviewedAt": "2026-09-28",
+    "notes": "Most ships berth at the Dique del Oeste (added from OpenStreetMap); smaller ships use the Estacio Maritima quays. The other candidates were local terminals."
   }
 }

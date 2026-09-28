@@ -10,29 +10,29 @@
     "city": "Lerwick",
     "country": "United Kingdom"
   },
-  "defaultTerminalId": "ports-json-anchor",
+  "defaultTerminalId": "review/lerwick-united-kingdom/lerwick-holmsgarth-terminal",
   "terminal": {
-    "id": "ports-json-anchor",
-    "name": "LERWICK Port",
-    "lat": 60.15,
-    "lng": -1.15,
-    "address": "Lerwick, Shetland, United Kingdom",
-    "source": "ports.json",
-    "sourceId": "",
-    "score": 0,
-    "slug": "lerwick-port"
+    "id": "review/lerwick-united-kingdom/lerwick-holmsgarth-terminal",
+    "name": "Lerwick Holmsgarth Terminal",
+    "lat": 60.16292,
+    "lng": -1.157663,
+    "terminalType": "passenger_cruise_terminal",
+    "source": "terminal_review",
+    "sourceUrls": [],
+    "verified": true,
+    "sourceId": "review/lerwick-united-kingdom/lerwick-holmsgarth-terminal"
   },
   "terminals": [
     {
-      "id": "ports-json-anchor",
-      "name": "LERWICK Port",
-      "lat": 60.15,
-      "lng": -1.15,
-      "address": "Lerwick, Shetland, United Kingdom",
-      "source": "ports.json",
-      "sourceId": "",
-      "score": 0,
-      "slug": "lerwick-port"
+      "id": "review/lerwick-united-kingdom/lerwick-holmsgarth-terminal",
+      "name": "Lerwick Holmsgarth Terminal",
+      "lat": 60.16292,
+      "lng": -1.157663,
+      "terminalType": "passenger_cruise_terminal",
+      "source": "terminal_review",
+      "sourceUrls": [],
+      "verified": true,
+      "sourceId": "review/lerwick-united-kingdom/lerwick-holmsgarth-terminal"
     }
   ],
   "terminalCandidateRadiusMeters": 5000,
@@ -979,9 +979,10 @@
     "slug": "lerwick-port"
   },
   "terminalResolution": {
-    "status": "unresolved",
-    "method": "ports_json_fallback",
-    "verified": false,
-    "notes": "All supplied candidates are ferry-only stops, local docks, unnamed maritime features, or unrelated places rather than passenger cruise terminals."
+    "status": "resolved",
+    "method": "terminal_review",
+    "verified": true,
+    "reviewedAt": "2026-09-28",
+    "notes": "Ships berth near Holmsgarth or anchor and tender to Victoria Pier. Added the Holmsgarth terminal from OpenStreetMap."
   }
 }

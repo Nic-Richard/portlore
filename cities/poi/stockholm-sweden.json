@@ -36,8 +36,7 @@
     "osmTags": {},
     "matchedBy": [
       "web_researched_terminal"
-    ],
-    "distanceFromPortMeters": null
+    ]
   },
   "terminals": [
     {
@@ -65,36 +64,29 @@
       "osmTags": {},
       "matchedBy": [
         "web_researched_terminal"
-      ],
-      "distanceFromPortMeters": null
+      ]
     },
     {
-      "id": "manual/stockholm-sweden/frihamnen-cruise-terminal",
-      "name": "Frihamnen Cruise Terminal",
-      "nameEnglish": "",
-      "lat": 59.34755,
-      "lng": 18.11783,
-      "address": "",
-      "source": "manual_web_research",
-      "sourceId": "manual/stockholm-sweden/frihamnen-cruise-terminal",
-      "terminalType": "cruise_terminal",
+      "id": "review/stockholm-sweden/masthamnen-cruise-terminal",
+      "name": "Masthamnen Cruise Terminal",
+      "lat": 59.315932,
+      "lng": 18.10319,
+      "terminalType": "passenger_cruise_terminal",
+      "source": "terminal_review",
+      "sourceUrls": [],
       "verified": true,
-      "notes": "Separate passenger terminal in Stockholm's Frihamnen port district.",
-      "sourceUrls": [
-        "https://www.portsofstockholm.com/passengers/cruise/",
-        "https://www.openstreetmap.org/?mlat=59.34755&mlon=18.11783#map=17/59.34755/18.11783"
-      ],
-      "sources": [
-        "manual_web_research"
-      ],
-      "sourceIds": [
-        "manual/stockholm-sweden/frihamnen-cruise-terminal"
-      ],
-      "osmTags": {},
-      "matchedBy": [
-        "web_researched_terminal"
-      ],
-      "distanceFromPortMeters": null
+      "sourceId": "review/stockholm-sweden/masthamnen-cruise-terminal"
+    },
+    {
+      "id": "review/stockholm-sweden/stockholm-cruise-center-frihamnen",
+      "name": "Stockholm Cruise Center Frihamnen",
+      "lat": 59.34526,
+      "lng": 18.12954,
+      "terminalType": "passenger_cruise_terminal",
+      "source": "terminal_review",
+      "sourceUrls": [],
+      "verified": true,
+      "sourceId": "review/stockholm-sweden/stockholm-cruise-center-frihamnen"
     },
     {
       "id": "manual/stockholm-sweden/nyn-shamn-cruise-terminal",
@@ -121,8 +113,7 @@
       "osmTags": {},
       "matchedBy": [
         "web_researched_terminal"
-      ],
-      "distanceFromPortMeters": null
+      ]
     }
   ],
   "terminalCandidateRadiusMeters": 5000,
@@ -2285,8 +2276,9 @@
   },
   "terminalResolution": {
     "status": "resolved",
-    "method": "manual_web_research",
+    "method": "terminal_review",
     "verified": true,
-    "notes": "Terminal records were added from researched cruise-port sources because no supplied candidate accurately represented the passenger arrival point."
+    "reviewedAt": "2026-09-28",
+    "notes": "Stadsgarden, Frihamnen, and Nynashamn (a gateway port 47 km south) are all used by cruise ships. Terminal sweep: Added Masthamnen next to Stadsgarden and moved the Frihamnen pin about 750 m onto the Cruise Center (from Google Maps)."
   }
 }

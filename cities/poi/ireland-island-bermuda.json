@@ -7,32 +7,32 @@
   "radiusMeters": 10000,
   "port": {
     "id": "ireland-island-bermuda",
-    "city": "IRELAND ISLAND",
+    "city": "Bermuda (Royal Naval Dockyard)",
     "country": "Bermuda"
   },
-  "defaultTerminalId": "ports-json-anchor",
+  "defaultTerminalId": "review/ireland-island-bermuda/king-s-wharf-royal-naval-dockyard",
   "terminal": {
-    "id": "ports-json-anchor",
-    "name": "IRELAND ISLAND Port",
-    "lat": 32.32,
-    "lng": -64.83,
-    "address": "IRELAND ISLAND, Bermuda",
-    "source": "ports.json",
-    "sourceId": "",
-    "score": 0,
-    "slug": "ireland-island-port"
+    "id": "review/ireland-island-bermuda/king-s-wharf-royal-naval-dockyard",
+    "name": "King's Wharf (Royal Naval Dockyard)",
+    "lat": 32.327628,
+    "lng": -64.833959,
+    "terminalType": "passenger_cruise_terminal",
+    "source": "terminal_review",
+    "sourceUrls": [],
+    "verified": true,
+    "sourceId": "review/ireland-island-bermuda/king-s-wharf-royal-naval-dockyard"
   },
   "terminals": [
     {
-      "id": "ports-json-anchor",
-      "name": "IRELAND ISLAND Port",
-      "lat": 32.32,
-      "lng": -64.83,
-      "address": "IRELAND ISLAND, Bermuda",
-      "source": "ports.json",
-      "sourceId": "",
-      "score": 0,
-      "slug": "ireland-island-port"
+      "id": "review/ireland-island-bermuda/king-s-wharf-royal-naval-dockyard",
+      "name": "King's Wharf (Royal Naval Dockyard)",
+      "lat": 32.327628,
+      "lng": -64.833959,
+      "terminalType": "passenger_cruise_terminal",
+      "source": "terminal_review",
+      "sourceUrls": [],
+      "verified": true,
+      "sourceId": "review/ireland-island-bermuda/king-s-wharf-royal-naval-dockyard"
     }
   ],
   "terminalCandidateRadiusMeters": 5000,
@@ -1108,9 +1108,10 @@
     "slug": "ireland-island-port"
   },
   "terminalResolution": {
-    "status": "unresolved",
-    "method": "ports_json_fallback",
-    "verified": false,
-    "notes": "All supplied candidates are ferry-only stops, local docks, unnamed maritime features, or unrelated places rather than passenger cruise terminals."
+    "status": "resolved",
+    "method": "terminal_review",
+    "verified": true,
+    "reviewedAt": "2026-09-28",
+    "notes": "Ships berth at King's Wharf and Heritage Wharf in the Royal Naval Dockyard (added from OpenStreetMap). Worth renaming this port to Bermuda (Royal Naval Dockyard)."
   }
 }

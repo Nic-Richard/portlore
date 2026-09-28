@@ -10,91 +10,40 @@
     "city": "Port Canaveral",
     "country": "United States"
   },
-  "defaultTerminalId": "manual/port-canaveral-united-states/cruise-terminal-1",
+  "defaultTerminalId": "review/port-canaveral-united-states/cruise-terminal-1",
   "terminal": {
-    "id": "manual/port-canaveral-united-states/cruise-terminal-1",
+    "id": "review/port-canaveral-united-states/cruise-terminal-1",
     "name": "Cruise Terminal 1",
-    "nameEnglish": "",
-    "lat": 28.41076,
-    "lng": -80.62918,
-    "address": "",
-    "source": "manual_web_research",
-    "sourceId": "manual/port-canaveral-united-states/cruise-terminal-1",
-    "terminalType": "dedicated_cruise_terminal",
+    "lat": 28.40691,
+    "lng": -80.61219,
+    "terminalType": "passenger_cruise_terminal",
+    "source": "terminal_review",
+    "sourceUrls": [],
     "verified": true,
-    "notes": "Passenger terminal on the south side of Port Canaveral.",
-    "sourceUrls": [
-      "https://www.portcanaveral.com/cruise",
-      "https://www.openstreetmap.org/?mlat=28.41076&mlon=-80.62918#map=17/28.41076/-80.62918"
-    ],
-    "sources": [
-      "manual_web_research"
-    ],
-    "sourceIds": [
-      "manual/port-canaveral-united-states/cruise-terminal-1"
-    ],
-    "osmTags": {},
-    "matchedBy": [
-      "web_researched_terminal"
-    ],
-    "distanceFromPortMeters": null
+    "sourceId": "review/port-canaveral-united-states/cruise-terminal-1"
   },
   "terminals": [
     {
-      "id": "manual/port-canaveral-united-states/cruise-terminal-1",
+      "id": "review/port-canaveral-united-states/cruise-terminal-1",
       "name": "Cruise Terminal 1",
-      "nameEnglish": "",
-      "lat": 28.41076,
-      "lng": -80.62918,
-      "address": "",
-      "source": "manual_web_research",
-      "sourceId": "manual/port-canaveral-united-states/cruise-terminal-1",
-      "terminalType": "dedicated_cruise_terminal",
+      "lat": 28.40691,
+      "lng": -80.61219,
+      "terminalType": "passenger_cruise_terminal",
+      "source": "terminal_review",
+      "sourceUrls": [],
       "verified": true,
-      "notes": "Passenger terminal on the south side of Port Canaveral.",
-      "sourceUrls": [
-        "https://www.portcanaveral.com/cruise",
-        "https://www.openstreetmap.org/?mlat=28.41076&mlon=-80.62918#map=17/28.41076/-80.62918"
-      ],
-      "sources": [
-        "manual_web_research"
-      ],
-      "sourceIds": [
-        "manual/port-canaveral-united-states/cruise-terminal-1"
-      ],
-      "osmTags": {},
-      "matchedBy": [
-        "web_researched_terminal"
-      ],
-      "distanceFromPortMeters": null
+      "sourceId": "review/port-canaveral-united-states/cruise-terminal-1"
     },
     {
-      "id": "manual/port-canaveral-united-states/cruise-terminal-3",
+      "id": "review/port-canaveral-united-states/cruise-terminal-3",
       "name": "Cruise Terminal 3",
-      "nameEnglish": "",
-      "lat": 28.41506,
-      "lng": -80.62533,
-      "address": "",
-      "source": "manual_web_research",
-      "sourceId": "manual/port-canaveral-united-states/cruise-terminal-3",
-      "terminalType": "dedicated_cruise_terminal",
+      "lat": 28.40773,
+      "lng": -80.59846,
+      "terminalType": "passenger_cruise_terminal",
+      "source": "terminal_review",
+      "sourceUrls": [],
       "verified": true,
-      "notes": "Passenger terminal on the south side of Port Canaveral.",
-      "sourceUrls": [
-        "https://www.portcanaveral.com/cruise",
-        "https://www.openstreetmap.org/?mlat=28.41506&mlon=-80.62533#map=17/28.41506/-80.62533"
-      ],
-      "sources": [
-        "manual_web_research"
-      ],
-      "sourceIds": [
-        "manual/port-canaveral-united-states/cruise-terminal-3"
-      ],
-      "osmTags": {},
-      "matchedBy": [
-        "web_researched_terminal"
-      ],
-      "distanceFromPortMeters": null
+      "sourceId": "review/port-canaveral-united-states/cruise-terminal-3"
     },
     {
       "id": "manual/port-canaveral-united-states/cruise-terminal-5",
@@ -121,8 +70,7 @@
       "osmTags": {},
       "matchedBy": [
         "web_researched_terminal"
-      ],
-      "distanceFromPortMeters": null
+      ]
     },
     {
       "id": "manual/port-canaveral-united-states/cruise-terminal-6",
@@ -149,8 +97,7 @@
       "osmTags": {},
       "matchedBy": [
         "web_researched_terminal"
-      ],
-      "distanceFromPortMeters": null
+      ]
     },
     {
       "id": "manual/port-canaveral-united-states/cruise-terminal-8",
@@ -177,8 +124,7 @@
       "osmTags": {},
       "matchedBy": [
         "web_researched_terminal"
-      ],
-      "distanceFromPortMeters": null
+      ]
     },
     {
       "id": "manual/port-canaveral-united-states/cruise-terminal-10",
@@ -205,8 +151,7 @@
       "osmTags": {},
       "matchedBy": [
         "web_researched_terminal"
-      ],
-      "distanceFromPortMeters": null
+      ]
     }
   ],
   "terminalCandidateRadiusMeters": 5000,
@@ -1081,8 +1026,9 @@
   },
   "terminalResolution": {
     "status": "resolved",
-    "method": "manual_web_research",
+    "method": "terminal_review",
     "verified": true,
-    "notes": "Terminal records were added from researched cruise-port sources because no supplied candidate accurately represented the passenger arrival point."
+    "reviewedAt": "2026-09-28",
+    "notes": "All the numbered Port Canaveral cruise terminals are correct; kept them all so distances use the nearest. Terminal sweep: Moved Cruise Terminals 1 and 3 to the south side of the harbour, where they are; the old pins were 1.5 to 2.7 km off on the north side (from Google Maps)."
   }
 }

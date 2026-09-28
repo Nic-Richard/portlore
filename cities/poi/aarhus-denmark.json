@@ -36,8 +36,7 @@
     "osmTags": {},
     "matchedBy": [
       "web_researched_terminal"
-    ],
-    "distanceFromPortMeters": null
+    ]
   },
   "terminals": [
     {
@@ -65,8 +64,7 @@
       "osmTags": {},
       "matchedBy": [
         "web_researched_terminal"
-      ],
-      "distanceFromPortMeters": null
+      ]
     },
     {
       "id": "manual/aarhus-denmark/aarhus-cruise-quay-503",
@@ -93,8 +91,7 @@
       "osmTags": {},
       "matchedBy": [
         "web_researched_terminal"
-      ],
-      "distanceFromPortMeters": null
+      ]
     }
   ],
   "terminalCandidateRadiusMeters": 5000,
@@ -1001,8 +998,9 @@
   },
   "terminalResolution": {
     "status": "resolved",
-    "method": "manual_web_research",
+    "method": "terminal_review",
     "verified": true,
-    "notes": "Terminal records were added from researched cruise-port sources because no supplied candidate accurately represented the passenger arrival point."
+    "reviewedAt": "2026-09-28",
+    "notes": "Cruise Quays 129/131 (city side, main) and Quay 503 are Aarhus's cruise berths; the rest are ferry terminals."
   }
 }

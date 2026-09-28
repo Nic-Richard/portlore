@@ -10,29 +10,29 @@
     "city": "Santander",
     "country": "Spain"
   },
-  "defaultTerminalId": "ports-json-anchor",
+  "defaultTerminalId": "review/santander-spain/terminal-mar-tima-de-santander",
   "terminal": {
-    "id": "ports-json-anchor",
-    "name": "SANTANDER Port",
-    "lat": 43.47,
-    "lng": -3.78,
-    "address": "Santander, Cantabria, Spain",
-    "source": "ports.json",
-    "sourceId": "",
-    "score": 0,
-    "slug": "santander-port"
+    "id": "review/santander-spain/terminal-mar-tima-de-santander",
+    "name": "Terminal Marítima de Santander",
+    "lat": 43.458947,
+    "lng": -3.805612,
+    "terminalType": "passenger_cruise_terminal",
+    "source": "openstreetmap",
+    "sourceUrls": [],
+    "verified": true,
+    "sourceId": "review/santander-spain/terminal-mar-tima-de-santander"
   },
   "terminals": [
     {
-      "id": "ports-json-anchor",
-      "name": "SANTANDER Port",
-      "lat": 43.47,
-      "lng": -3.78,
-      "address": "Santander, Cantabria, Spain",
-      "source": "ports.json",
-      "sourceId": "",
-      "score": 0,
-      "slug": "santander-port"
+      "id": "review/santander-spain/terminal-mar-tima-de-santander",
+      "name": "Terminal Marítima de Santander",
+      "lat": 43.458947,
+      "lng": -3.805612,
+      "terminalType": "passenger_cruise_terminal",
+      "source": "openstreetmap",
+      "sourceUrls": [],
+      "verified": true,
+      "sourceId": "review/santander-spain/terminal-mar-tima-de-santander"
     }
   ],
   "terminalCandidateRadiusMeters": 5000,
@@ -936,9 +936,10 @@
     "slug": "santander-port"
   },
   "terminalResolution": {
-    "status": "unresolved",
-    "method": "ports_json_fallback",
-    "verified": false,
-    "notes": "All supplied candidates are ferry-only stops, local docks, unnamed maritime features, or unrelated places rather than passenger cruise terminals."
+    "status": "resolved",
+    "method": "terminal_review",
+    "verified": true,
+    "reviewedAt": "2026-09-28",
+    "notes": "Santander gets occasional cruise calls at the maritime terminal. Kept per the occasional-calls rule."
   }
 }

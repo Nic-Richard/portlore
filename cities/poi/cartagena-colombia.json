@@ -10,29 +10,29 @@
     "city": "Cartagena",
     "country": "Colombia"
   },
-  "defaultTerminalId": "ports-json-anchor",
+  "defaultTerminalId": "review/cartagena-colombia/cartagena-cruise-terminal-manga",
   "terminal": {
-    "id": "ports-json-anchor",
-    "name": "CARTAGENA Port",
-    "lat": 10.42,
-    "lng": -75.53,
-    "address": "Cartagena, Bolívar, Colombia",
-    "source": "ports.json",
-    "sourceId": "",
-    "score": 0,
-    "slug": "cartagena-port"
+    "id": "review/cartagena-colombia/cartagena-cruise-terminal-manga",
+    "name": "Cartagena Cruise Terminal (Manga)",
+    "lat": 10.406154,
+    "lng": -75.534209,
+    "terminalType": "passenger_cruise_terminal",
+    "source": "terminal_review",
+    "sourceUrls": [],
+    "verified": true,
+    "sourceId": "review/cartagena-colombia/cartagena-cruise-terminal-manga"
   },
   "terminals": [
     {
-      "id": "ports-json-anchor",
-      "name": "CARTAGENA Port",
-      "lat": 10.42,
-      "lng": -75.53,
-      "address": "Cartagena, Bolívar, Colombia",
-      "source": "ports.json",
-      "sourceId": "",
-      "score": 0,
-      "slug": "cartagena-port"
+      "id": "review/cartagena-colombia/cartagena-cruise-terminal-manga",
+      "name": "Cartagena Cruise Terminal (Manga)",
+      "lat": 10.406154,
+      "lng": -75.534209,
+      "terminalType": "passenger_cruise_terminal",
+      "source": "terminal_review",
+      "sourceUrls": [],
+      "verified": true,
+      "sourceId": "review/cartagena-colombia/cartagena-cruise-terminal-manga"
     }
   ],
   "terminalCandidateRadiusMeters": 5000,
@@ -1232,9 +1232,10 @@
     "slug": "cartagena-port"
   },
   "terminalResolution": {
-    "status": "unresolved",
-    "method": "ports_json_fallback",
-    "verified": false,
-    "notes": "All supplied candidates are ferry-only stops, local docks, unnamed maritime features, or unrelated places rather than passenger cruise terminals."
+    "status": "resolved",
+    "method": "terminal_review",
+    "verified": true,
+    "reviewedAt": "2026-09-28",
+    "notes": "Ships berth at the Sociedad Portuaria cruise terminal on Manga island (added from OpenStreetMap), a short ride from the old city."
   }
 }

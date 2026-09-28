@@ -10,41 +10,36 @@
     "city": "Brisbane",
     "country": "Australia"
   },
-  "defaultTerminalId": "osm/generated/747beda30c15fe1d6c76",
+  "defaultTerminalId": "review/brisbane-australia/brisbane-international-cruise-terminal",
   "terminal": {
-    "id": "osm/generated/747beda30c15fe1d6c76",
-    "name": "Bretts Wharf Cruise Ship Terminal",
-    "nameEnglish": "",
-    "lat": -27.4411678,
-    "lng": 153.0684885,
-    "address": "",
-    "source": "verified_terminal_candidate",
-    "sourceId": "osm/generated/747beda30c15fe1d6c76",
+    "id": "review/brisbane-australia/brisbane-international-cruise-terminal",
+    "name": "Brisbane International Cruise Terminal",
+    "lat": -27.38042,
+    "lng": 153.155329,
     "terminalType": "passenger_cruise_terminal",
-    "verified": true,
-    "notes": "Accepted 1 candidate explicitly identified as an ocean-cruise or cruise-passenger terminal; ferry and unrelated results were excluded.",
+    "source": "terminal_review",
     "sourceUrls": [],
-    "sources": [
-      "openstreetmap"
-    ],
-    "sourceIds": [
-      "osm/generated/747beda30c15fe1d6c76"
-    ],
-    "osmTags": {
-      "man_made": "pier"
-    },
-    "matchedBy": [
-      "terminal-like name"
-    ],
-    "distanceFromPortMeters": 4970
+    "verified": true,
+    "sourceId": "review/brisbane-australia/brisbane-international-cruise-terminal"
   },
   "terminals": [
+    {
+      "id": "review/brisbane-australia/brisbane-international-cruise-terminal",
+      "name": "Brisbane International Cruise Terminal",
+      "lat": -27.38042,
+      "lng": 153.155329,
+      "terminalType": "passenger_cruise_terminal",
+      "source": "terminal_review",
+      "sourceUrls": [],
+      "verified": true,
+      "sourceId": "review/brisbane-australia/brisbane-international-cruise-terminal"
+    },
     {
       "id": "osm/generated/747beda30c15fe1d6c76",
       "name": "Bretts Wharf Cruise Ship Terminal",
       "nameEnglish": "",
-      "lat": -27.4411678,
-      "lng": 153.0684885,
+      "lat": -27.441168,
+      "lng": 153.068489,
       "address": "",
       "source": "verified_terminal_candidate",
       "sourceId": "osm/generated/747beda30c15fe1d6c76",
@@ -63,8 +58,7 @@
       },
       "matchedBy": [
         "terminal-like name"
-      ],
-      "distanceFromPortMeters": 4970
+      ]
     }
   ],
   "terminalCandidateRadiusMeters": 5000,
@@ -1749,8 +1743,9 @@
   },
   "terminalResolution": {
     "status": "resolved",
-    "method": "accepted_terminal_candidate",
+    "method": "terminal_review",
     "verified": true,
-    "notes": "Accepted 1 candidate explicitly identified as an ocean-cruise or cruise-passenger terminal; ferry and unrelated results were excluded."
+    "reviewedAt": "2026-09-28",
+    "notes": "Added the Brisbane International Cruise Terminal (from OpenStreetMap), which takes most ships since 2020; Bretts Wharf is kept for smaller ships. The rest are river ferry terminals."
   }
 }

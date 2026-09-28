@@ -16,7 +16,7 @@
     "name": "New port - Tourlos, cruise dock",
     "nameEnglish": "",
     "lat": 37.465485,
-    "lng": 25.3228641,
+    "lng": 25.322864,
     "address": "",
     "source": "verified_terminal_candidate",
     "sourceId": "osm/generated/90ca0b77aec445f00520",
@@ -38,8 +38,7 @@
     "matchedBy": [
       "amenity=ferry_terminal",
       "terminal-like name"
-    ],
-    "distanceFromPortMeters": 2156
+    ]
   },
   "terminals": [
     {
@@ -47,7 +46,7 @@
       "name": "New port - Tourlos, cruise dock",
       "nameEnglish": "",
       "lat": 37.465485,
-      "lng": 25.3228641,
+      "lng": 25.322864,
       "address": "",
       "source": "verified_terminal_candidate",
       "sourceId": "osm/generated/90ca0b77aec445f00520",
@@ -69,8 +68,7 @@
       "matchedBy": [
         "amenity=ferry_terminal",
         "terminal-like name"
-      ],
-      "distanceFromPortMeters": 2156
+      ]
     }
   ],
   "terminalCandidateRadiusMeters": 5000,
@@ -1561,8 +1559,9 @@
   },
   "terminalResolution": {
     "status": "resolved",
-    "method": "accepted_terminal_candidate",
+    "method": "terminal_review",
     "verified": true,
-    "notes": "Accepted 1 candidate explicitly identified as an ocean-cruise or cruise-passenger terminal; ferry and unrelated results were excluded."
+    "reviewedAt": "2026-09-28",
+    "notes": "The new port at Tourlos is where most ships berth; some tender into the old port. Sea bus links Tourlos to town."
   }
 }

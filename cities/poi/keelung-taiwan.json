@@ -10,29 +10,40 @@
     "city": "Keelung",
     "country": "Taiwan"
   },
-  "defaultTerminalId": "ports-json-anchor",
+  "defaultTerminalId": "review/keelung-taiwan/terminal",
   "terminal": {
-    "id": "ports-json-anchor",
-    "name": "CHI-LUNG Port",
-    "lat": 25.13,
-    "lng": 121.77,
-    "address": "Keelung, Taiwan, Taiwan",
-    "source": "ports.json",
-    "sourceId": "",
-    "score": 0,
-    "slug": "chi-lung-port"
+    "id": "review/keelung-taiwan/terminal",
+    "name": "基隆港西岸客運中心",
+    "lat": 25.135083,
+    "lng": 121.741621,
+    "terminalType": "passenger_cruise_terminal",
+    "source": "openstreetmap",
+    "sourceUrls": [],
+    "verified": true,
+    "sourceId": "review/keelung-taiwan/terminal"
   },
   "terminals": [
     {
-      "id": "ports-json-anchor",
-      "name": "CHI-LUNG Port",
-      "lat": 25.13,
-      "lng": 121.77,
-      "address": "Keelung, Taiwan, Taiwan",
-      "source": "ports.json",
-      "sourceId": "",
-      "score": 0,
-      "slug": "chi-lung-port"
+      "id": "review/keelung-taiwan/terminal",
+      "name": "基隆港西岸客運中心",
+      "lat": 25.135083,
+      "lng": 121.741621,
+      "terminalType": "passenger_cruise_terminal",
+      "source": "openstreetmap",
+      "sourceUrls": [],
+      "verified": true,
+      "sourceId": "review/keelung-taiwan/terminal"
+    },
+    {
+      "id": "review/keelung-taiwan/terminal-1",
+      "name": "基港大樓",
+      "lat": 25.132362,
+      "lng": 121.743754,
+      "terminalType": "passenger_cruise_terminal",
+      "source": "openstreetmap",
+      "sourceUrls": [],
+      "verified": true,
+      "sourceId": "review/keelung-taiwan/terminal-1"
     }
   ],
   "terminalCandidateRadiusMeters": 5000,
@@ -835,9 +846,10 @@
     "slug": "chi-lung-port"
   },
   "terminalResolution": {
-    "status": "unresolved",
-    "method": "ports_json_fallback",
-    "verified": false,
-    "notes": "All supplied candidates are ferry-only stops, local docks, unnamed maritime features, or unrelated places rather than passenger cruise terminals."
+    "status": "resolved",
+    "method": "terminal_review",
+    "verified": true,
+    "reviewedAt": "2026-09-28",
+    "notes": "The West Passenger Terminal is Keelung's main cruise terminal; the port building by the east wharf is kept too."
   }
 }

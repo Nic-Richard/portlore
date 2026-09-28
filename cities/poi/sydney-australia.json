@@ -10,45 +10,38 @@
     "city": "Sydney",
     "country": "Australia"
   },
-  "defaultTerminalId": "osm/generated/99ac1ce752e60927e5aa",
+  "defaultTerminalId": "review/sydney-australia/opt-overseas-passenger-terminal",
   "terminal": {
-    "id": "osm/generated/99ac1ce752e60927e5aa",
-    "name": "White Bay Cruise Terminal",
-    "nameEnglish": "",
-    "lat": -33.8617088,
-    "lng": 151.1862661,
-    "address": "",
-    "source": "verified_terminal_candidate",
-    "sourceId": "osm/generated/99ac1ce752e60927e5aa",
+    "id": "review/sydney-australia/opt-overseas-passenger-terminal",
+    "name": "Opt Overseas Passenger Terminal",
+    "lat": -33.858063,
+    "lng": 151.21008,
     "terminalType": "passenger_cruise_terminal",
-    "verified": true,
-    "notes": "Accepted 1 candidate explicitly identified as an ocean-cruise or cruise-passenger terminal; ferry and unrelated results were excluded.",
+    "source": "live_guide_google",
     "sourceUrls": [],
-    "sources": [
-      "openstreetmap"
-    ],
-    "sourceIds": [
-      "osm/generated/99ac1ce752e60927e5aa"
-    ],
-    "osmTags": {
-      "amenity": "ferry_terminal",
-      "ferry": "yes",
-      "operator": "Captain Cook",
-      "public_transport": "station"
-    },
-    "matchedBy": [
-      "amenity=ferry_terminal",
-      "terminal-like name"
-    ],
-    "distanceFromPortMeters": 1568
+    "verified": true,
+    "notes": "Used by the live guide",
+    "sourceId": "review/sydney-australia/opt-overseas-passenger-terminal"
   },
   "terminals": [
+    {
+      "id": "review/sydney-australia/opt-overseas-passenger-terminal",
+      "name": "Opt Overseas Passenger Terminal",
+      "lat": -33.858063,
+      "lng": 151.21008,
+      "terminalType": "passenger_cruise_terminal",
+      "source": "live_guide_google",
+      "sourceUrls": [],
+      "verified": true,
+      "notes": "Used by the live guide",
+      "sourceId": "review/sydney-australia/opt-overseas-passenger-terminal"
+    },
     {
       "id": "osm/generated/99ac1ce752e60927e5aa",
       "name": "White Bay Cruise Terminal",
       "nameEnglish": "",
-      "lat": -33.8617088,
-      "lng": 151.1862661,
+      "lat": -33.861709,
+      "lng": 151.186266,
       "address": "",
       "source": "verified_terminal_candidate",
       "sourceId": "osm/generated/99ac1ce752e60927e5aa",
@@ -71,8 +64,7 @@
       "matchedBy": [
         "amenity=ferry_terminal",
         "terminal-like name"
-      ],
-      "distanceFromPortMeters": 1568
+      ]
     }
   ],
   "terminalCandidateRadiusMeters": 5000,
@@ -2678,8 +2670,9 @@
   },
   "terminalResolution": {
     "status": "resolved",
-    "method": "accepted_terminal_candidate",
+    "method": "terminal_review",
     "verified": true,
-    "notes": "Accepted 1 candidate explicitly identified as an ocean-cruise or cruise-passenger terminal; ferry and unrelated results were excluded."
+    "reviewedAt": "2026-09-28",
+    "notes": "main is the Overseas Passenger Terminal at Circular Quay, where most ships berth; White Bay takes ships too big for the Harbour Bridge. The Google White Bay result duplicates the verified one; the rest are Darling Harbour ferry wharves."
   }
 }

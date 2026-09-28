@@ -15,7 +15,7 @@
     "id": "osm/way/808763390",
     "name": "Terminal de Cruceros de Málaga",
     "nameEnglish": "Malaga Cruise Terminal",
-    "lat": 36.7068183,
+    "lat": 36.706818,
     "lng": -4.414994,
     "address": "Terminal de Cruceros de Málaga, Centro, Málaga, Málaga-Costa del Sol, Málaga, Andalucía, España",
     "source": "verified_terminal_candidate",
@@ -36,15 +36,14 @@
     },
     "matchedBy": [
       "Nominatim query: Malaga cruise terminal, Spain"
-    ],
-    "distanceFromPortMeters": 1532
+    ]
   },
   "terminals": [
     {
       "id": "osm/way/808763390",
       "name": "Terminal de Cruceros de Málaga",
       "nameEnglish": "Malaga Cruise Terminal",
-      "lat": 36.7068183,
+      "lat": 36.706818,
       "lng": -4.414994,
       "address": "Terminal de Cruceros de Málaga, Centro, Málaga, Málaga-Costa del Sol, Málaga, Andalucía, España",
       "source": "verified_terminal_candidate",
@@ -65,8 +64,7 @@
       },
       "matchedBy": [
         "Nominatim query: Malaga cruise terminal, Spain"
-      ],
-      "distanceFromPortMeters": 1532
+      ]
     }
   ],
   "terminalCandidateRadiusMeters": 5000,
@@ -1305,8 +1303,9 @@
   },
   "terminalResolution": {
     "status": "resolved",
-    "method": "accepted_terminal_candidate",
+    "method": "terminal_review",
     "verified": true,
-    "notes": "Accepted 1 candidate explicitly identified as an ocean-cruise or cruise-passenger terminal; ferry and unrelated results were excluded."
+    "reviewedAt": "2026-09-28",
+    "notes": "The Levante cruise terminal is correct; the maritime station is for ferries."
   }
 }

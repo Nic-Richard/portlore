@@ -15,8 +15,8 @@
     "id": "osm/way/1533989983",
     "name": "Port of Sunderland",
     "nameEnglish": "",
-    "lat": 54.9085493,
-    "lng": -1.3585011,
+    "lat": 54.908549,
+    "lng": -1.358501,
     "address": "Port of Sunderland, East End, Sunderland, Tyne and Wear, North East, England, United Kingdom",
     "source": "verified_terminal_candidate",
     "sourceId": "osm/way/1533989983",
@@ -33,16 +33,15 @@
     "osmTags": {},
     "matchedBy": [
       "Nominatim query: SUNDERLAND Port, Sunderland, United Kingdom"
-    ],
-    "distanceFromPortMeters": 1470
+    ]
   },
   "terminals": [
     {
       "id": "osm/way/1533989983",
       "name": "Port of Sunderland",
       "nameEnglish": "",
-      "lat": 54.9085493,
-      "lng": -1.3585011,
+      "lat": 54.908549,
+      "lng": -1.358501,
       "address": "Port of Sunderland, East End, Sunderland, Tyne and Wear, North East, England, United Kingdom",
       "source": "verified_terminal_candidate",
       "sourceId": "osm/way/1533989983",
@@ -59,8 +58,7 @@
       "osmTags": {},
       "matchedBy": [
         "Nominatim query: SUNDERLAND Port, Sunderland, United Kingdom"
-      ],
-      "distanceFromPortMeters": 1470
+      ]
     }
   ],
   "terminalCandidateRadiusMeters": 5000,
@@ -1126,8 +1124,9 @@
   },
   "terminalResolution": {
     "status": "resolved",
-    "method": "accepted_terminal_candidate",
+    "method": "terminal_review",
     "verified": true,
-    "notes": "Accepted Port of Sunderland as the practical cruise arrival location. Calls use port berths and passengers leave through the port rather than a separately mapped cruise terminal."
+    "reviewedAt": "2026-09-28",
+    "notes": "Port of Sunderland takes occasional cruise calls. Consider whether it belongs on the list."
   }
 }

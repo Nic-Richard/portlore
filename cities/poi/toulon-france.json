@@ -10,44 +10,36 @@
     "city": "Toulon",
     "country": "France"
   },
-  "defaultTerminalId": "osm/generated/be9acc65293c16a8fa7c",
+  "defaultTerminalId": "review/toulon-france/terminal-croisieres-de-la-seyne-sur-mer",
   "terminal": {
-    "id": "osm/generated/be9acc65293c16a8fa7c",
-    "name": "Ponton Toulon",
-    "nameEnglish": "",
-    "lat": 43.1200637,
-    "lng": 5.9307453,
-    "address": "",
-    "source": "verified_terminal_candidate",
-    "sourceId": "osm/generated/be9acc65293c16a8fa7c",
+    "id": "review/toulon-france/terminal-croisieres-de-la-seyne-sur-mer",
+    "name": "Terminal Croisieres de La Seyne-sur-Mer",
+    "lat": 43.104998,
+    "lng": 5.898063,
     "terminalType": "passenger_cruise_terminal",
-    "verified": true,
-    "notes": "Accepted Ponton Toulon as the best supplied city-side landing point. It closely matches the central Toulon waterfront where tendered and centrally berthed cruise passengers enter the city.",
+    "source": "terminal_review",
     "sourceUrls": [],
-    "sources": [
-      "openstreetmap"
-    ],
-    "sourceIds": [
-      "osm/generated/be9acc65293c16a8fa7c"
-    ],
-    "osmTags": {
-      "alt_name": "Station Maritime",
-      "amenity": "ferry_terminal",
-      "ferry": "yes",
-      "public_transport": "stop_position"
-    },
-    "matchedBy": [
-      "amenity=ferry_terminal"
-    ],
-    "distanceFromPortMeters": 2395
+    "verified": true,
+    "sourceId": "review/toulon-france/terminal-croisieres-de-la-seyne-sur-mer"
   },
   "terminals": [
+    {
+      "id": "review/toulon-france/terminal-croisieres-de-la-seyne-sur-mer",
+      "name": "Terminal Croisieres de La Seyne-sur-Mer",
+      "lat": 43.104998,
+      "lng": 5.898063,
+      "terminalType": "passenger_cruise_terminal",
+      "source": "terminal_review",
+      "sourceUrls": [],
+      "verified": true,
+      "sourceId": "review/toulon-france/terminal-croisieres-de-la-seyne-sur-mer"
+    },
     {
       "id": "osm/generated/be9acc65293c16a8fa7c",
       "name": "Ponton Toulon",
       "nameEnglish": "",
-      "lat": 43.1200637,
-      "lng": 5.9307453,
+      "lat": 43.120064,
+      "lng": 5.930745,
       "address": "",
       "source": "verified_terminal_candidate",
       "sourceId": "osm/generated/be9acc65293c16a8fa7c",
@@ -69,8 +61,7 @@
       },
       "matchedBy": [
         "amenity=ferry_terminal"
-      ],
-      "distanceFromPortMeters": 2395
+      ]
     }
   ],
   "terminalCandidateRadiusMeters": 5000,
@@ -1521,8 +1512,9 @@
   },
   "terminalResolution": {
     "status": "resolved",
-    "method": "accepted_terminal_candidate",
+    "method": "terminal_review",
     "verified": true,
-    "notes": "Accepted Ponton Toulon as the best supplied city-side landing point. It closely matches the central Toulon waterfront where tendered and centrally berthed cruise passengers enter the city."
+    "reviewedAt": "2026-09-28",
+    "notes": "Large ships berth at the La Seyne-sur-Mer cruise terminal across the harbour (added from OpenStreetMap), with a shuttle boat to Toulon; smaller ships use the Toulon pontoon."
   }
 }

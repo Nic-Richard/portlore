@@ -10,29 +10,29 @@
     "city": "Belawan",
     "country": "Indonesia"
   },
-  "defaultTerminalId": "ports-json-anchor",
+  "defaultTerminalId": "review/belawan-indonesia/pelabuhan-belawan",
   "terminal": {
-    "id": "ports-json-anchor",
-    "name": "BELAWAN Port",
-    "lat": 3.78,
-    "lng": 98.68,
-    "address": "Belawan, North Sumatra, Indonesia",
-    "source": "ports.json",
-    "sourceId": "",
-    "score": 0,
-    "slug": "belawan-port"
+    "id": "review/belawan-indonesia/pelabuhan-belawan",
+    "name": "Pelabuhan Belawan",
+    "lat": 3.778078,
+    "lng": 98.68062,
+    "terminalType": "passenger_cruise_terminal",
+    "source": "openstreetmap",
+    "sourceUrls": [],
+    "verified": true,
+    "sourceId": "review/belawan-indonesia/pelabuhan-belawan"
   },
   "terminals": [
     {
-      "id": "ports-json-anchor",
-      "name": "BELAWAN Port",
-      "lat": 3.78,
-      "lng": 98.68,
-      "address": "Belawan, North Sumatra, Indonesia",
-      "source": "ports.json",
-      "sourceId": "",
-      "score": 0,
-      "slug": "belawan-port"
+      "id": "review/belawan-indonesia/pelabuhan-belawan",
+      "name": "Pelabuhan Belawan",
+      "lat": 3.778078,
+      "lng": 98.68062,
+      "terminalType": "passenger_cruise_terminal",
+      "source": "openstreetmap",
+      "sourceUrls": [],
+      "verified": true,
+      "sourceId": "review/belawan-indonesia/pelabuhan-belawan"
     }
   ],
   "terminalCandidateRadiusMeters": 5000,
@@ -293,9 +293,10 @@
     "slug": "belawan-port"
   },
   "terminalResolution": {
-    "status": "unresolved",
-    "method": "ports_json_fallback",
-    "verified": false,
-    "notes": "All supplied candidates are ferry-only stops, local docks, unnamed maritime features, or unrelated places rather than passenger cruise terminals."
+    "status": "resolved",
+    "method": "terminal_review",
+    "verified": true,
+    "reviewedAt": "2026-09-28",
+    "notes": "Belawan is the port for Medan and gets occasional regional cruise calls. Kept per the occasional-calls rule."
   }
 }

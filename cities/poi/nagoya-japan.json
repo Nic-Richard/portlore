@@ -10,29 +10,40 @@
     "city": "Nagoya",
     "country": "Japan"
   },
-  "defaultTerminalId": "ports-json-anchor",
+  "defaultTerminalId": "review/nagoya-japan/terminal",
   "terminal": {
-    "id": "ports-json-anchor",
-    "name": "NAGOYA KO Port",
-    "lat": 35.07,
-    "lng": 136.87,
-    "address": "Nagoya, Aichi, Japan",
-    "source": "ports.json",
-    "sourceId": "",
-    "score": 0,
-    "slug": "nagoya-ko-port"
+    "id": "review/nagoya-japan/terminal",
+    "name": "ガーデンふ頭",
+    "lat": 35.089791,
+    "lng": 136.880374,
+    "terminalType": "passenger_cruise_terminal",
+    "source": "openstreetmap",
+    "sourceUrls": [],
+    "verified": true,
+    "sourceId": "review/nagoya-japan/terminal"
   },
   "terminals": [
     {
-      "id": "ports-json-anchor",
-      "name": "NAGOYA KO Port",
-      "lat": 35.07,
-      "lng": 136.87,
-      "address": "Nagoya, Aichi, Japan",
-      "source": "ports.json",
-      "sourceId": "",
-      "score": 0,
-      "slug": "nagoya-ko-port"
+      "id": "review/nagoya-japan/terminal",
+      "name": "ガーデンふ頭",
+      "lat": 35.089791,
+      "lng": 136.880374,
+      "terminalType": "passenger_cruise_terminal",
+      "source": "openstreetmap",
+      "sourceUrls": [],
+      "verified": true,
+      "sourceId": "review/nagoya-japan/terminal"
+    },
+    {
+      "id": "review/nagoya-japan/terminal-1",
+      "name": "金城ふ頭",
+      "lat": 35.046366,
+      "lng": 136.848184,
+      "terminalType": "passenger_cruise_terminal",
+      "source": "openstreetmap",
+      "sourceUrls": [],
+      "verified": true,
+      "sourceId": "review/nagoya-japan/terminal-1"
     }
   ],
   "terminalCandidateRadiusMeters": 5000,
@@ -773,9 +784,10 @@
     "slug": "nagoya-ko-port"
   },
   "terminalResolution": {
-    "status": "unresolved",
-    "method": "ports_json_fallback",
-    "verified": false,
-    "notes": "All supplied candidates are ferry-only stops, local docks, unnamed maritime features, or unrelated places rather than passenger cruise terminals."
+    "status": "resolved",
+    "method": "terminal_review",
+    "verified": true,
+    "reviewedAt": "2026-09-28",
+    "notes": "Cruise ships use Garden Pier (main) and Kinjo Pier."
   }
 }

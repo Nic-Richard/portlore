@@ -15,8 +15,8 @@
     "id": "osm/generated/4fec7405d6d7147197c0",
     "name": "啟德郵輪碼頭 Kai Tak Cruise Terminal",
     "nameEnglish": "Kai Tak Cruise Terminal",
-    "lat": 22.3064922,
-    "lng": 114.2125346,
+    "lat": 22.306492,
+    "lng": 114.212535,
     "address": "33 承豐道 Shing Fung Road",
     "source": "verified_terminal_candidate",
     "sourceId": "osm/generated/4fec7405d6d7147197c0",
@@ -39,16 +39,15 @@
     "matchedBy": [
       "amenity=ferry_terminal",
       "terminal-like name"
-    ],
-    "distanceFromPortMeters": 4258
+    ]
   },
   "terminals": [
     {
       "id": "osm/generated/4fec7405d6d7147197c0",
       "name": "啟德郵輪碼頭 Kai Tak Cruise Terminal",
       "nameEnglish": "Kai Tak Cruise Terminal",
-      "lat": 22.3064922,
-      "lng": 114.2125346,
+      "lat": 22.306492,
+      "lng": 114.212535,
       "address": "33 承豐道 Shing Fung Road",
       "source": "verified_terminal_candidate",
       "sourceId": "osm/generated/4fec7405d6d7147197c0",
@@ -71,8 +70,19 @@
       "matchedBy": [
         "amenity=ferry_terminal",
         "terminal-like name"
-      ],
-      "distanceFromPortMeters": 4258
+      ]
+    },
+    {
+      "id": "review/hong-kong-hong-kong/ocean-terminal",
+      "name": "Ocean Terminal",
+      "lat": 22.295025,
+      "lng": 114.16688,
+      "terminalType": "passenger_cruise_terminal",
+      "source": "live_guide_google",
+      "sourceUrls": [],
+      "verified": true,
+      "notes": "Used by the live guide",
+      "sourceId": "review/hong-kong-hong-kong/ocean-terminal"
     }
   ],
   "terminalCandidateRadiusMeters": 5000,
@@ -1700,8 +1710,9 @@
   },
   "terminalResolution": {
     "status": "resolved",
-    "method": "accepted_terminal_candidate",
+    "method": "terminal_review",
     "verified": true,
-    "notes": "Accepted 1 candidate explicitly identified as an ocean-cruise or cruise-passenger terminal; ferry and unrelated results were excluded."
+    "reviewedAt": "2026-09-28",
+    "notes": "two cruise terminals. Kai Tak takes the large ships and is main. Ocean Terminal in Tsim Sha Tsui takes smaller ships and is very central. The Google Kai Tak result duplicates the verified one. The rest are ferry piers."
   }
 }

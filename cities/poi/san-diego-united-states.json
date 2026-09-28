@@ -10,45 +10,36 @@
     "city": "San Diego",
     "country": "United States"
   },
-  "defaultTerminalId": "osm/generated/b874fae69fa1f346b606",
+  "defaultTerminalId": "review/san-diego-united-states/b-street-cruise-ship-terminal",
   "terminal": {
-    "id": "osm/generated/b874fae69fa1f346b606",
-    "name": "Broadway Pier",
-    "nameEnglish": "",
-    "lat": 32.7152509,
-    "lng": -117.1736031,
-    "address": "1000 The Embarcadero, San Diego, CA, 92101",
-    "source": "verified_terminal_candidate",
-    "sourceId": "osm/generated/b874fae69fa1f346b606",
+    "id": "review/san-diego-united-states/b-street-cruise-ship-terminal",
+    "name": "B Street Cruise Ship Terminal",
+    "lat": 32.717678,
+    "lng": -117.17498,
     "terminalType": "passenger_cruise_terminal",
-    "verified": true,
-    "notes": "External port and cruise-schedule checks support passenger cruise use, and the accepted candidate ID(s) correspond to the actual cruise terminal, cruise pier, or passenger terminal used by cruise ships.",
+    "source": "terminal_review",
     "sourceUrls": [],
-    "sources": [
-      "openstreetmap"
-    ],
-    "sourceIds": [
-      "osm/generated/b874fae69fa1f346b606"
-    ],
-    "osmTags": {
-      "amenity": "ferry_terminal",
-      "ferry": "yes",
-      "operator": "Flagship Cruises & Events",
-      "public_transport": "station"
-    },
-    "matchedBy": [
-      "amenity=ferry_terminal",
-      "terminal-like name"
-    ],
-    "distanceFromPortMeters": 798
+    "verified": true,
+    "sourceId": "review/san-diego-united-states/b-street-cruise-ship-terminal"
   },
   "terminals": [
+    {
+      "id": "review/san-diego-united-states/b-street-cruise-ship-terminal",
+      "name": "B Street Cruise Ship Terminal",
+      "lat": 32.717678,
+      "lng": -117.17498,
+      "terminalType": "passenger_cruise_terminal",
+      "source": "terminal_review",
+      "sourceUrls": [],
+      "verified": true,
+      "sourceId": "review/san-diego-united-states/b-street-cruise-ship-terminal"
+    },
     {
       "id": "osm/generated/b874fae69fa1f346b606",
       "name": "Broadway Pier",
       "nameEnglish": "",
-      "lat": 32.7152509,
-      "lng": -117.1736031,
+      "lat": 32.715251,
+      "lng": -117.173603,
       "address": "1000 The Embarcadero, San Diego, CA, 92101",
       "source": "verified_terminal_candidate",
       "sourceId": "osm/generated/b874fae69fa1f346b606",
@@ -71,8 +62,7 @@
       "matchedBy": [
         "amenity=ferry_terminal",
         "terminal-like name"
-      ],
-      "distanceFromPortMeters": 798
+      ]
     }
   ],
   "terminalCandidateRadiusMeters": 5000,
@@ -1004,8 +994,9 @@
   },
   "terminalResolution": {
     "status": "resolved",
-    "method": "accepted_terminal_candidate",
+    "method": "terminal_review",
     "verified": true,
-    "notes": "External port and cruise-schedule checks support passenger cruise use, and the accepted candidate ID(s) correspond to the actual cruise terminal, cruise pier, or passenger terminal used by cruise ships."
+    "reviewedAt": "2026-09-28",
+    "notes": "Added the B Street Cruise Ship Terminal (from OpenStreetMap), San Diego's main terminal; Broadway Pier is kept as the second berth. The rest are ferry landings."
   }
 }

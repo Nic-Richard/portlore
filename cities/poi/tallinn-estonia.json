@@ -10,16 +10,16 @@
     "city": "Tallinn",
     "country": "Estonia"
   },
-  "defaultTerminalId": "osm/generated/f4c98b078045e3f16da6",
+  "defaultTerminalId": "osm/generated/27901376c194b8753bbe",
   "terminal": {
-    "id": "osm/generated/f4c98b078045e3f16da6",
-    "name": "Kai 26 (kruiisilaevade kai)",
-    "nameEnglish": "Vanasadam cruise ship pier 26",
-    "lat": 59.4506984,
-    "lng": 24.7661135,
-    "address": "",
+    "id": "osm/generated/27901376c194b8753bbe",
+    "name": "Kruiisiterminal",
+    "nameEnglish": "Cruise terminal",
+    "lat": 59.447895,
+    "lng": 24.764191,
+    "address": "4/2 Logi, Tallinn, 10111, EE",
     "source": "verified_terminal_candidate",
-    "sourceId": "osm/generated/f4c98b078045e3f16da6",
+    "sourceId": "osm/generated/27901376c194b8753bbe",
     "terminalType": "passenger_cruise_terminal",
     "verified": true,
     "notes": "Accepted 5 candidates explicitly identified as an ocean-cruise or cruise-passenger terminal; ferry and unrelated results were excluded.",
@@ -28,108 +28,27 @@
       "openstreetmap"
     ],
     "sourceIds": [
-      "osm/generated/f4c98b078045e3f16da6"
+      "osm/generated/27901376c194b8753bbe"
     ],
     "osmTags": {
-      "man_made": "pier",
-      "name:en": "Vanasadam cruise ship pier 26"
+      "amenity": "ferry_terminal",
+      "building": "transportation",
+      "ferry": "yes",
+      "name:en": "Cruise terminal",
+      "public_transport": "station"
     },
     "matchedBy": [
+      "amenity=ferry_terminal",
       "terminal-like name"
-    ],
-    "distanceFromPortMeters": 233
+    ]
   },
   "terminals": [
-    {
-      "id": "osm/generated/f4c98b078045e3f16da6",
-      "name": "Kai 26 (kruiisilaevade kai)",
-      "nameEnglish": "Vanasadam cruise ship pier 26",
-      "lat": 59.4506984,
-      "lng": 24.7661135,
-      "address": "",
-      "source": "verified_terminal_candidate",
-      "sourceId": "osm/generated/f4c98b078045e3f16da6",
-      "terminalType": "passenger_cruise_terminal",
-      "verified": true,
-      "notes": "Accepted 5 candidates explicitly identified as an ocean-cruise or cruise-passenger terminal; ferry and unrelated results were excluded.",
-      "sourceUrls": [],
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/f4c98b078045e3f16da6"
-      ],
-      "osmTags": {
-        "man_made": "pier",
-        "name:en": "Vanasadam cruise ship pier 26"
-      },
-      "matchedBy": [
-        "terminal-like name"
-      ],
-      "distanceFromPortMeters": 233
-    },
-    {
-      "id": "osm/generated/923780a9fea1d229fd7c",
-      "name": "Kai 25 (kruiisilaevade kai)",
-      "nameEnglish": "Vanasadam cruise ship pier 25",
-      "lat": 59.4500056,
-      "lng": 24.7631708,
-      "address": "",
-      "source": "verified_terminal_candidate",
-      "sourceId": "osm/generated/923780a9fea1d229fd7c",
-      "terminalType": "passenger_cruise_terminal",
-      "verified": true,
-      "notes": "Accepted 5 candidates explicitly identified as an ocean-cruise or cruise-passenger terminal; ferry and unrelated results were excluded.",
-      "sourceUrls": [],
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/923780a9fea1d229fd7c"
-      ],
-      "osmTags": {
-        "man_made": "pier",
-        "name:en": "Vanasadam cruise ship pier 25"
-      },
-      "matchedBy": [
-        "terminal-like name"
-      ],
-      "distanceFromPortMeters": 386
-    },
-    {
-      "id": "osm/generated/7732b9627ff1db2f77f6",
-      "name": "Kai 24 (kruiisilaevade kai)",
-      "nameEnglish": "Vanasadam cruise ship pier 24",
-      "lat": 59.4499933,
-      "lng": 24.7629897,
-      "address": "",
-      "source": "verified_terminal_candidate",
-      "sourceId": "osm/generated/7732b9627ff1db2f77f6",
-      "terminalType": "passenger_cruise_terminal",
-      "verified": true,
-      "notes": "Accepted 5 candidates explicitly identified as an ocean-cruise or cruise-passenger terminal; ferry and unrelated results were excluded.",
-      "sourceUrls": [],
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/7732b9627ff1db2f77f6"
-      ],
-      "osmTags": {
-        "man_made": "pier",
-        "name:en": "Vanasadam cruise ship pier 24"
-      },
-      "matchedBy": [
-        "terminal-like name"
-      ],
-      "distanceFromPortMeters": 396
-    },
     {
       "id": "osm/generated/27901376c194b8753bbe",
       "name": "Kruiisiterminal",
       "nameEnglish": "Cruise terminal",
-      "lat": 59.4478946,
-      "lng": 24.7641914,
+      "lat": 59.447895,
+      "lng": 24.764191,
       "address": "4/2 Logi, Tallinn, 10111, EE",
       "source": "verified_terminal_candidate",
       "sourceId": "osm/generated/27901376c194b8753bbe",
@@ -153,18 +72,17 @@
       "matchedBy": [
         "amenity=ferry_terminal",
         "terminal-like name"
-      ],
-      "distanceFromPortMeters": 403
+      ]
     },
     {
-      "id": "osm/generated/a2163a7f57cb338730d5",
-      "name": "Vanasadama kruiisikai tulepaak",
-      "nameEnglish": "Vanasadam cruise ship quay",
-      "lat": 59.4514761,
-      "lng": 24.7626725,
+      "id": "osm/generated/f4c98b078045e3f16da6",
+      "name": "Kai 26 (kruiisilaevade kai)",
+      "nameEnglish": "Vanasadam cruise ship pier 26",
+      "lat": 59.450698,
+      "lng": 24.766113,
       "address": "",
       "source": "verified_terminal_candidate",
-      "sourceId": "osm/generated/a2163a7f57cb338730d5",
+      "sourceId": "osm/generated/f4c98b078045e3f16da6",
       "terminalType": "passenger_cruise_terminal",
       "verified": true,
       "notes": "Accepted 5 candidates explicitly identified as an ocean-cruise or cruise-passenger terminal; ferry and unrelated results were excluded.",
@@ -173,16 +91,42 @@
         "openstreetmap"
       ],
       "sourceIds": [
-        "osm/generated/a2163a7f57cb338730d5"
+        "osm/generated/f4c98b078045e3f16da6"
       ],
       "osmTags": {
-        "man_made": "beacon",
-        "name:en": "Vanasadam cruise ship quay light beacon"
+        "man_made": "pier",
+        "name:en": "Vanasadam cruise ship pier 26"
       },
       "matchedBy": [
         "terminal-like name"
+      ]
+    },
+    {
+      "id": "osm/generated/923780a9fea1d229fd7c",
+      "name": "Kai 25 (kruiisilaevade kai)",
+      "nameEnglish": "Vanasadam cruise ship pier 25",
+      "lat": 59.450006,
+      "lng": 24.763171,
+      "address": "",
+      "source": "verified_terminal_candidate",
+      "sourceId": "osm/generated/923780a9fea1d229fd7c",
+      "terminalType": "passenger_cruise_terminal",
+      "verified": true,
+      "notes": "Accepted 5 candidates explicitly identified as an ocean-cruise or cruise-passenger terminal; ferry and unrelated results were excluded.",
+      "sourceUrls": [],
+      "sources": [
+        "openstreetmap"
       ],
-      "distanceFromPortMeters": 445
+      "sourceIds": [
+        "osm/generated/923780a9fea1d229fd7c"
+      ],
+      "osmTags": {
+        "man_made": "pier",
+        "name:en": "Vanasadam cruise ship pier 25"
+      },
+      "matchedBy": [
+        "terminal-like name"
+      ]
     }
   ],
   "terminalCandidateRadiusMeters": 5000,
@@ -1604,8 +1548,9 @@
   },
   "terminalResolution": {
     "status": "resolved",
-    "method": "accepted_terminal_candidate",
+    "method": "terminal_review",
     "verified": true,
-    "notes": "Accepted 5 candidates explicitly identified as an ocean-cruise or cruise-passenger terminal; ferry and unrelated results were excluded."
+    "reviewedAt": "2026-09-28",
+    "notes": "The Old City Harbour cruise terminal and quays 25-26 are correct; the lighthouse entry is not a terminal."
   }
 }

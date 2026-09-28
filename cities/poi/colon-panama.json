@@ -15,8 +15,8 @@
     "id": "osm/way/337482922",
     "name": "Colon 2000 Cruise Terminal",
     "nameEnglish": "",
-    "lat": 9.3575937,
-    "lng": -79.8910089,
+    "lat": 9.357594,
+    "lng": -79.891009,
     "address": "Colon 2000 Cruise Terminal, Calle 13, Colón, Barrio Sur, Colón, 0301, Panamá",
     "source": "verified_terminal_candidate",
     "sourceId": "osm/way/337482922",
@@ -33,16 +33,15 @@
     "osmTags": {},
     "matchedBy": [
       "Nominatim query: Colón cruise terminal, Panama"
-    ],
-    "distanceFromPortMeters": 3291
+    ]
   },
   "terminals": [
     {
       "id": "osm/way/337482922",
       "name": "Colon 2000 Cruise Terminal",
       "nameEnglish": "",
-      "lat": 9.3575937,
-      "lng": -79.8910089,
+      "lat": 9.357594,
+      "lng": -79.891009,
       "address": "Colon 2000 Cruise Terminal, Calle 13, Colón, Barrio Sur, Colón, 0301, Panamá",
       "source": "verified_terminal_candidate",
       "sourceId": "osm/way/337482922",
@@ -59,8 +58,7 @@
       "osmTags": {},
       "matchedBy": [
         "Nominatim query: Colón cruise terminal, Panama"
-      ],
-      "distanceFromPortMeters": 3291
+      ]
     }
   ],
   "terminalCandidateRadiusMeters": 5000,
@@ -789,8 +787,9 @@
   },
   "terminalResolution": {
     "status": "resolved",
-    "method": "accepted_terminal_candidate",
+    "method": "terminal_review",
     "verified": true,
-    "notes": "Accepted 1 candidate explicitly identified as an ocean-cruise or cruise-passenger terminal; ferry and unrelated results were excluded."
+    "reviewedAt": "2026-09-28",
+    "notes": "Colon 2000 is correct. Cristobal pier also takes some ships."
   }
 }

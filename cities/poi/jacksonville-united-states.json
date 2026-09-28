@@ -10,29 +10,29 @@
     "city": "Jacksonville",
     "country": "United States"
   },
-  "defaultTerminalId": "ports-json-anchor",
+  "defaultTerminalId": "review/jacksonville-united-states/jaxport-cruise-terminal",
   "terminal": {
-    "id": "ports-json-anchor",
-    "name": "JACKSONVILLE Port",
-    "lat": 30.32,
-    "lng": -81.65,
-    "address": "Jacksonville, Florida, United States",
-    "source": "ports.json",
-    "sourceId": "",
-    "score": 0,
-    "slug": "jacksonville-port"
+    "id": "review/jacksonville-united-states/jaxport-cruise-terminal",
+    "name": "JAXPORT Cruise Terminal",
+    "lat": 30.407718,
+    "lng": -81.580347,
+    "terminalType": "passenger_cruise_terminal",
+    "source": "terminal_review",
+    "sourceUrls": [],
+    "verified": true,
+    "sourceId": "review/jacksonville-united-states/jaxport-cruise-terminal"
   },
   "terminals": [
     {
-      "id": "ports-json-anchor",
-      "name": "JACKSONVILLE Port",
-      "lat": 30.32,
-      "lng": -81.65,
-      "address": "Jacksonville, Florida, United States",
-      "source": "ports.json",
-      "sourceId": "",
-      "score": 0,
-      "slug": "jacksonville-port"
+      "id": "review/jacksonville-united-states/jaxport-cruise-terminal",
+      "name": "JAXPORT Cruise Terminal",
+      "lat": 30.407718,
+      "lng": -81.580347,
+      "terminalType": "passenger_cruise_terminal",
+      "source": "terminal_review",
+      "sourceUrls": [],
+      "verified": true,
+      "sourceId": "review/jacksonville-united-states/jaxport-cruise-terminal"
     }
   ],
   "terminalCandidateRadiusMeters": 5000,
@@ -878,9 +878,10 @@
     "slug": "jacksonville-port"
   },
   "terminalResolution": {
-    "status": "unresolved",
-    "method": "ports_json_fallback",
-    "verified": false,
-    "notes": "All supplied candidates are ferry-only stops, local docks, unnamed maritime features, or unrelated places rather than passenger cruise terminals."
+    "status": "resolved",
+    "method": "terminal_review",
+    "verified": true,
+    "reviewedAt": "2026-09-28",
+    "notes": "Added the JAXPORT cruise terminal at Dames Point (from OpenStreetMap), about 15 km from downtown."
   }
 }

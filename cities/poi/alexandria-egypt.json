@@ -10,29 +10,29 @@
     "city": "Alexandria",
     "country": "Egypt"
   },
-  "defaultTerminalId": "ports-json-anchor",
+  "defaultTerminalId": "review/alexandria-egypt/port-of-alexandria-passenger-terminal-area",
   "terminal": {
-    "id": "ports-json-anchor",
-    "name": "AL ISKANDARIYH (ALEXANDRIA) Port",
-    "lat": 31.17,
-    "lng": 29.83,
-    "address": "Alexandria, Alexandria Governorate, Egypt",
-    "source": "ports.json",
-    "sourceId": "",
-    "score": 0,
-    "slug": "al-iskandariyh-alexandria-port"
+    "id": "review/alexandria-egypt/port-of-alexandria-passenger-terminal-area",
+    "name": "Port of Alexandria (passenger terminal area)",
+    "lat": 31.186667,
+    "lng": 29.869167,
+    "terminalType": "passenger_cruise_terminal",
+    "source": "terminal_review",
+    "sourceUrls": [],
+    "verified": true,
+    "sourceId": "review/alexandria-egypt/port-of-alexandria-passenger-terminal-area"
   },
   "terminals": [
     {
-      "id": "ports-json-anchor",
-      "name": "AL ISKANDARIYH (ALEXANDRIA) Port",
-      "lat": 31.17,
-      "lng": 29.83,
-      "address": "Alexandria, Alexandria Governorate, Egypt",
-      "source": "ports.json",
-      "sourceId": "",
-      "score": 0,
-      "slug": "al-iskandariyh-alexandria-port"
+      "id": "review/alexandria-egypt/port-of-alexandria-passenger-terminal-area",
+      "name": "Port of Alexandria (passenger terminal area)",
+      "lat": 31.186667,
+      "lng": 29.869167,
+      "terminalType": "passenger_cruise_terminal",
+      "source": "terminal_review",
+      "sourceUrls": [],
+      "verified": true,
+      "sourceId": "review/alexandria-egypt/port-of-alexandria-passenger-terminal-area"
     }
   ],
   "terminalCandidateRadiusMeters": 5000,
@@ -313,9 +313,10 @@
     "slug": "al-iskandariyh-alexandria-port"
   },
   "terminalResolution": {
-    "status": "unresolved",
-    "method": "ports_json_fallback",
-    "verified": false,
-    "notes": "The catalog contains no terminal candidates, so there is no candidate ID to accept."
+    "status": "resolved",
+    "method": "terminal_review",
+    "verified": true,
+    "reviewedAt": "2026-09-28",
+    "notes": "Alexandria is a real cruise port (for Cairo, about 3 hours away). OpenStreetMap has no separate passenger terminal, so the pin is the port itself; accurate to about 1 km."
   }
 }

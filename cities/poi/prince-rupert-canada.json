@@ -15,8 +15,8 @@
     "id": "osm/generated/5a710f7ac9b21c6b8fd0",
     "name": "Prince Rupert Cruise Terminal",
     "nameEnglish": "",
-    "lat": 54.3178884,
-    "lng": -130.3225589,
+    "lat": 54.317888,
+    "lng": -130.322559,
     "address": "100 Manson Way, Prince Rupert",
     "source": "verified_terminal_candidate",
     "sourceId": "osm/generated/5a710f7ac9b21c6b8fd0",
@@ -42,16 +42,15 @@
       "amenity=ferry_terminal",
       "terminal-like name",
       "Nominatim query: Prince Rupert cruise terminal, Canada"
-    ],
-    "distanceFromPortMeters": 537
+    ]
   },
   "terminals": [
     {
       "id": "osm/generated/5a710f7ac9b21c6b8fd0",
       "name": "Prince Rupert Cruise Terminal",
       "nameEnglish": "",
-      "lat": 54.3178884,
-      "lng": -130.3225589,
+      "lat": 54.317888,
+      "lng": -130.322559,
       "address": "100 Manson Way, Prince Rupert",
       "source": "verified_terminal_candidate",
       "sourceId": "osm/generated/5a710f7ac9b21c6b8fd0",
@@ -77,8 +76,7 @@
         "amenity=ferry_terminal",
         "terminal-like name",
         "Nominatim query: Prince Rupert cruise terminal, Canada"
-      ],
-      "distanceFromPortMeters": 537
+      ]
     }
   ],
   "terminalCandidateRadiusMeters": 5000,
@@ -1227,8 +1225,9 @@
   },
   "terminalResolution": {
     "status": "resolved",
-    "method": "accepted_terminal_candidate",
+    "method": "terminal_review",
     "verified": true,
-    "notes": "Accepted 1 candidate explicitly identified as an ocean-cruise or cruise-passenger terminal; ferry and unrelated results were excluded."
+    "reviewedAt": "2026-09-28",
+    "notes": "Northland cruise terminal is correct."
   }
 }

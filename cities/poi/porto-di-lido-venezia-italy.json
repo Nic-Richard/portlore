@@ -7,32 +7,54 @@
   "radiusMeters": 10000,
   "port": {
     "id": "porto-di-lido-venezia-italy",
-    "city": "PORTO DI LIDO-VENEZIA",
+    "city": "Venice",
     "country": "Italy"
   },
-  "defaultTerminalId": "ports-json-anchor",
+  "defaultTerminalId": "review/porto-di-lido-venezia-italy/venezia-terminal-passeggeri-marittima",
   "terminal": {
-    "id": "ports-json-anchor",
-    "name": "PORTO DI LIDO-VENEZIA Port",
-    "lat": 45.42,
-    "lng": 12.43,
-    "address": "PORTO DI LIDO-VENEZIA, Italy",
-    "source": "ports.json",
-    "sourceId": "",
-    "score": 0,
-    "slug": "porto-di-lido-venezia-port"
+    "id": "review/porto-di-lido-venezia-italy/venezia-terminal-passeggeri-marittima",
+    "name": "Venezia Terminal Passeggeri (Marittima)",
+    "lat": 45.436015,
+    "lng": 12.306919,
+    "terminalType": "passenger_cruise_terminal",
+    "source": "terminal_review",
+    "sourceUrls": [],
+    "verified": true,
+    "sourceId": "review/porto-di-lido-venezia-italy/venezia-terminal-passeggeri-marittima"
   },
   "terminals": [
     {
-      "id": "ports-json-anchor",
-      "name": "PORTO DI LIDO-VENEZIA Port",
-      "lat": 45.42,
-      "lng": 12.43,
-      "address": "PORTO DI LIDO-VENEZIA, Italy",
-      "source": "ports.json",
-      "sourceId": "",
-      "score": 0,
-      "slug": "porto-di-lido-venezia-port"
+      "id": "review/porto-di-lido-venezia-italy/venezia-terminal-passeggeri-marittima",
+      "name": "Venezia Terminal Passeggeri (Marittima)",
+      "lat": 45.436015,
+      "lng": 12.306919,
+      "terminalType": "passenger_cruise_terminal",
+      "source": "terminal_review",
+      "sourceUrls": [],
+      "verified": true,
+      "sourceId": "review/porto-di-lido-venezia-italy/venezia-terminal-passeggeri-marittima"
+    },
+    {
+      "id": "review/porto-di-lido-venezia-italy/san-basilio-cruise-terminal",
+      "name": "San Basilio Cruise Terminal",
+      "lat": 45.43091,
+      "lng": 12.320079,
+      "terminalType": "passenger_cruise_terminal",
+      "source": "terminal_review",
+      "sourceUrls": [],
+      "verified": true,
+      "sourceId": "review/porto-di-lido-venezia-italy/san-basilio-cruise-terminal"
+    },
+    {
+      "id": "review/porto-di-lido-venezia-italy/marghera-cruise-berth-canale-nord",
+      "name": "Marghera cruise berth (Canale Nord)",
+      "lat": 45.455486,
+      "lng": 12.242021,
+      "terminalType": "passenger_cruise_terminal",
+      "source": "terminal_review",
+      "sourceUrls": [],
+      "verified": true,
+      "sourceId": "review/porto-di-lido-venezia-italy/marghera-cruise-berth-canale-nord"
     }
   ],
   "terminalCandidateRadiusMeters": 5000,
@@ -1358,9 +1380,10 @@
     "slug": "porto-di-lido-venezia-port"
   },
   "terminalResolution": {
-    "status": "unresolved",
-    "method": "ports_json_fallback",
-    "verified": false,
-    "notes": "All supplied candidates are ferry-only stops, local docks, unnamed maritime features, or unrelated places rather than passenger cruise terminals."
+    "status": "resolved",
+    "method": "terminal_review",
+    "verified": true,
+    "reviewedAt": "2026-09-28",
+    "notes": "large ships have been barred from the lagoon since 2021, but small cruise ships and passenger vessels still use the Marittima terminal (kept). Renamed Venice. Terminal sweep: Added San Basilio (small ships, on the Zattere) and the Marghera industrial-canal berth used by larger ships since the 2021 lagoon ban (from Google Maps)."
   }
 }

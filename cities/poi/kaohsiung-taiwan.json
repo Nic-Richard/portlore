@@ -16,7 +16,7 @@
     "name": "高雄港旅運中心",
     "nameEnglish": "Kaohsiung Port Cruise Terminal",
     "lat": 22.611011,
-    "lng": 120.2935352,
+    "lng": 120.293535,
     "address": "高雄港旅運中心, 海邊路, 苓東里, 苓雅區, 高雄市, 802, 臺灣",
     "source": "verified_terminal_candidate",
     "sourceId": "osm/way/668444820",
@@ -43,8 +43,7 @@
       "Nominatim query: Kaohsiung cruise terminal, Taiwan",
       "amenity=ferry_terminal",
       "terminal-like name"
-    ],
-    "distanceFromPortMeters": 4579
+    ]
   },
   "terminals": [
     {
@@ -52,7 +51,7 @@
       "name": "高雄港旅運中心",
       "nameEnglish": "Kaohsiung Port Cruise Terminal",
       "lat": 22.611011,
-      "lng": 120.2935352,
+      "lng": 120.293535,
       "address": "高雄港旅運中心, 海邊路, 苓東里, 苓雅區, 高雄市, 802, 臺灣",
       "source": "verified_terminal_candidate",
       "sourceId": "osm/way/668444820",
@@ -79,8 +78,7 @@
         "Nominatim query: Kaohsiung cruise terminal, Taiwan",
         "amenity=ferry_terminal",
         "terminal-like name"
-      ],
-      "distanceFromPortMeters": 4579
+      ]
     }
   ],
   "terminalCandidateRadiusMeters": 5000,
@@ -1451,8 +1449,9 @@
   },
   "terminalResolution": {
     "status": "resolved",
-    "method": "accepted_terminal_candidate",
+    "method": "terminal_review",
     "verified": true,
-    "notes": "Accepted 1 candidate explicitly identified as an ocean-cruise or cruise-passenger terminal; ferry and unrelated results were excluded."
+    "reviewedAt": "2026-09-28",
+    "notes": "Kaohsiung Port Cruise Terminal is correct; the rest are ferry stations and marinas."
   }
 }

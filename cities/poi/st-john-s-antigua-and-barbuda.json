@@ -10,29 +10,29 @@
     "city": "St John's",
     "country": "Antigua and Barbuda"
   },
-  "defaultTerminalId": "ports-json-anchor",
+  "defaultTerminalId": "review/st-john-s-antigua-and-barbuda/heritage-quay-cruise-pier",
   "terminal": {
-    "id": "ports-json-anchor",
-    "name": "ST JOHNS Port",
-    "lat": 17.12,
-    "lng": -61.85,
-    "address": "St John's, Saint John, Antigua and Barbuda",
-    "source": "ports.json",
-    "sourceId": "",
-    "score": 0,
-    "slug": "st-johns-port"
+    "id": "review/st-john-s-antigua-and-barbuda/heritage-quay-cruise-pier",
+    "name": "Heritage Quay Cruise Pier",
+    "lat": 17.121018,
+    "lng": -61.846404,
+    "terminalType": "passenger_cruise_terminal",
+    "source": "terminal_review",
+    "sourceUrls": [],
+    "verified": true,
+    "sourceId": "review/st-john-s-antigua-and-barbuda/heritage-quay-cruise-pier"
   },
   "terminals": [
     {
-      "id": "ports-json-anchor",
-      "name": "ST JOHNS Port",
-      "lat": 17.12,
-      "lng": -61.85,
-      "address": "St John's, Saint John, Antigua and Barbuda",
-      "source": "ports.json",
-      "sourceId": "",
-      "score": 0,
-      "slug": "st-johns-port"
+      "id": "review/st-john-s-antigua-and-barbuda/heritage-quay-cruise-pier",
+      "name": "Heritage Quay Cruise Pier",
+      "lat": 17.121018,
+      "lng": -61.846404,
+      "terminalType": "passenger_cruise_terminal",
+      "source": "terminal_review",
+      "sourceUrls": [],
+      "verified": true,
+      "sourceId": "review/st-john-s-antigua-and-barbuda/heritage-quay-cruise-pier"
     }
   ],
   "terminalCandidateRadiusMeters": 5000,
@@ -1052,9 +1052,10 @@
     "slug": "st-johns-port"
   },
   "terminalResolution": {
-    "status": "unresolved",
-    "method": "ports_json_fallback",
-    "verified": false,
-    "notes": "All supplied candidates are ferry-only stops, local docks, unnamed maritime features, or unrelated places rather than passenger cruise terminals."
+    "status": "resolved",
+    "method": "terminal_review",
+    "verified": true,
+    "reviewedAt": "2026-09-28",
+    "notes": "Ships berth at Heritage Quay and Nevis Street pier in downtown St John's (added from OpenStreetMap)."
   }
 }

@@ -10,29 +10,29 @@
     "city": "Itajaí",
     "country": "Brazil"
   },
-  "defaultTerminalId": "ports-json-anchor",
+  "defaultTerminalId": "review/itajai-brazil/terminal-de-cruzeiros-itajai",
   "terminal": {
-    "id": "ports-json-anchor",
-    "name": "ITAJAI Port",
-    "lat": -26.92,
-    "lng": -48.63,
-    "address": "Itajaí, Santa Catarina, Brazil",
-    "source": "ports.json",
-    "sourceId": "",
-    "score": 0,
-    "slug": "itajai-port"
+    "id": "review/itajai-brazil/terminal-de-cruzeiros-itajai",
+    "name": "Terminal de Cruzeiros Itajai",
+    "lat": -26.909777,
+    "lng": -48.653443,
+    "terminalType": "passenger_cruise_terminal",
+    "source": "terminal_review",
+    "sourceUrls": [],
+    "verified": true,
+    "sourceId": "review/itajai-brazil/terminal-de-cruzeiros-itajai"
   },
   "terminals": [
     {
-      "id": "ports-json-anchor",
-      "name": "ITAJAI Port",
-      "lat": -26.92,
-      "lng": -48.63,
-      "address": "Itajaí, Santa Catarina, Brazil",
-      "source": "ports.json",
-      "sourceId": "",
-      "score": 0,
-      "slug": "itajai-port"
+      "id": "review/itajai-brazil/terminal-de-cruzeiros-itajai",
+      "name": "Terminal de Cruzeiros Itajai",
+      "lat": -26.909777,
+      "lng": -48.653443,
+      "terminalType": "passenger_cruise_terminal",
+      "source": "terminal_review",
+      "sourceUrls": [],
+      "verified": true,
+      "sourceId": "review/itajai-brazil/terminal-de-cruzeiros-itajai"
     }
   ],
   "terminalCandidateRadiusMeters": 5000,
@@ -1057,9 +1057,10 @@
     "slug": "itajai-port"
   },
   "terminalResolution": {
-    "status": "unresolved",
-    "method": "ports_json_fallback",
-    "verified": false,
-    "notes": "All supplied candidates are ferry-only stops, local docks, unnamed maritime features, or unrelated places rather than passenger cruise terminals."
+    "status": "resolved",
+    "method": "terminal_review",
+    "verified": true,
+    "reviewedAt": "2026-09-28",
+    "notes": "Added the Itajai cruise terminal in the city centre (from Google Places)."
   }
 }

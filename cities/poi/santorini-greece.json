@@ -10,29 +10,40 @@
     "city": "Santorini",
     "country": "Greece"
   },
-  "defaultTerminalId": "ports-json-anchor",
+  "defaultTerminalId": "review/santorini-greece/terminal",
   "terminal": {
-    "id": "ports-json-anchor",
-    "name": "Athinios Port",
-    "lat": 36.3932,
-    "lng": 25.4333,
-    "address": "Athinios, Santorini 847 00",
-    "source": "ports.json",
-    "sourceId": "",
-    "score": 0,
-    "slug": "athinios-port"
+    "id": "review/santorini-greece/terminal",
+    "name": "Παλιό λιμάνι - Φηρά",
+    "lat": 36.418309,
+    "lng": 25.427612,
+    "terminalType": "passenger_cruise_terminal",
+    "source": "openstreetmap",
+    "sourceUrls": [],
+    "verified": true,
+    "sourceId": "review/santorini-greece/terminal"
   },
   "terminals": [
     {
-      "id": "ports-json-anchor",
-      "name": "Athinios Port",
-      "lat": 36.3932,
-      "lng": 25.4333,
-      "address": "Athinios, Santorini 847 00",
-      "source": "ports.json",
-      "sourceId": "",
-      "score": 0,
-      "slug": "athinios-port"
+      "id": "review/santorini-greece/terminal",
+      "name": "Παλιό λιμάνι - Φηρά",
+      "lat": 36.418309,
+      "lng": 25.427612,
+      "terminalType": "passenger_cruise_terminal",
+      "source": "openstreetmap",
+      "sourceUrls": [],
+      "verified": true,
+      "sourceId": "review/santorini-greece/terminal"
+    },
+    {
+      "id": "review/santorini-greece/terminal-1",
+      "name": "Θήρα - Λιμάνι Αθηνιός",
+      "lat": 36.386812,
+      "lng": 25.430142,
+      "terminalType": "passenger_cruise_terminal",
+      "source": "openstreetmap",
+      "sourceUrls": [],
+      "verified": true,
+      "sourceId": "review/santorini-greece/terminal-1"
     }
   ],
   "terminalCandidateRadiusMeters": 5000,
@@ -994,9 +1005,10 @@
     "slug": "athinios-port"
   },
   "terminalResolution": {
-    "status": "unresolved",
-    "method": "ports_json_fallback",
-    "verified": false,
-    "notes": "All supplied candidates are ferry-only stops, local docks, unnamed maritime features, or unrelated places rather than passenger cruise terminals."
+    "status": "resolved",
+    "method": "terminal_review",
+    "verified": true,
+    "reviewedAt": "2026-09-28",
+    "notes": "Ships anchor in the caldera and tender to the old port below Fira (main), then take the cable car up; some tender to Athinios. The numbered piers are ferry piers."
   }
 }

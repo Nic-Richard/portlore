@@ -10,29 +10,29 @@
     "city": "Cherbourg-en-Cotentin",
     "country": "France"
   },
-  "defaultTerminalId": "ports-json-anchor",
+  "defaultTerminalId": "review/cherbourg-en-cotentin-france/terminal-croisi-re",
   "terminal": {
-    "id": "ports-json-anchor",
-    "name": "RADE DE CHERBOURG Port",
-    "lat": 49.65,
-    "lng": -1.63,
-    "address": "Cherbourg-en-Cotentin, Normandy, France",
-    "source": "ports.json",
-    "sourceId": "",
-    "score": 0,
-    "slug": "rade-de-cherbourg-port"
+    "id": "review/cherbourg-en-cotentin-france/terminal-croisi-re",
+    "name": "Terminal croisière",
+    "lat": 49.646709,
+    "lng": -1.616739,
+    "terminalType": "passenger_cruise_terminal",
+    "source": "openstreetmap",
+    "sourceUrls": [],
+    "verified": true,
+    "sourceId": "review/cherbourg-en-cotentin-france/terminal-croisi-re"
   },
   "terminals": [
     {
-      "id": "ports-json-anchor",
-      "name": "RADE DE CHERBOURG Port",
-      "lat": 49.65,
-      "lng": -1.63,
-      "address": "Cherbourg-en-Cotentin, Normandy, France",
-      "source": "ports.json",
-      "sourceId": "",
-      "score": 0,
-      "slug": "rade-de-cherbourg-port"
+      "id": "review/cherbourg-en-cotentin-france/terminal-croisi-re",
+      "name": "Terminal croisière",
+      "lat": 49.646709,
+      "lng": -1.616739,
+      "terminalType": "passenger_cruise_terminal",
+      "source": "openstreetmap",
+      "sourceUrls": [],
+      "verified": true,
+      "sourceId": "review/cherbourg-en-cotentin-france/terminal-croisi-re"
     }
   ],
   "terminalCandidateRadiusMeters": 5000,
@@ -952,9 +952,10 @@
     "slug": "rade-de-cherbourg-port"
   },
   "terminalResolution": {
-    "status": "unresolved",
-    "method": "ports_json_fallback",
-    "verified": false,
-    "notes": "All supplied candidates are ferry-only stops, local docks, unnamed maritime features, or unrelated places rather than passenger cruise terminals."
+    "status": "resolved",
+    "method": "terminal_review",
+    "verified": true,
+    "reviewedAt": "2026-09-28",
+    "notes": "The cruise terminal (Gare Maritime Transatlantique) is correct; the rest are ferry gangways."
   }
 }

@@ -15,8 +15,8 @@
     "id": "osm/generated/49699a0947f9bc384d3e",
     "name": "Cruise Center Steinwerder",
     "nameEnglish": "",
-    "lat": 53.5295812,
-    "lng": 9.9613666,
+    "lat": 53.529581,
+    "lng": 9.961367,
     "address": "",
     "source": "verified_terminal_candidate",
     "sourceId": "osm/generated/49699a0947f9bc384d3e",
@@ -38,16 +38,15 @@
     },
     "matchedBy": [
       "terminal-like name"
-    ],
-    "distanceFromPortMeters": 3074
+    ]
   },
   "terminals": [
     {
       "id": "osm/generated/49699a0947f9bc384d3e",
       "name": "Cruise Center Steinwerder",
       "nameEnglish": "",
-      "lat": 53.5295812,
-      "lng": 9.9613666,
+      "lat": 53.529581,
+      "lng": 9.961367,
       "address": "",
       "source": "verified_terminal_candidate",
       "sourceId": "osm/generated/49699a0947f9bc384d3e",
@@ -69,15 +68,25 @@
       },
       "matchedBy": [
         "terminal-like name"
-      ],
-      "distanceFromPortMeters": 3074
+      ]
+    },
+    {
+      "id": "review/hamburg-germany/cruise-center-altona",
+      "name": "Cruise Center Altona",
+      "lat": 53.543658,
+      "lng": 9.93707,
+      "terminalType": "passenger_cruise_terminal",
+      "source": "terminal_review",
+      "sourceUrls": [],
+      "verified": true,
+      "sourceId": "review/hamburg-germany/cruise-center-altona"
     },
     {
       "id": "osm/generated/d2fd64539d4ebf5dd192",
       "name": "Cruise Center HafenCity",
       "nameEnglish": "",
-      "lat": 53.5389489,
-      "lng": 9.9974359,
+      "lat": 53.538949,
+      "lng": 9.997436,
       "address": "",
       "source": "verified_terminal_candidate",
       "sourceId": "osm/generated/d2fd64539d4ebf5dd192",
@@ -101,8 +110,7 @@
       "matchedBy": [
         "amenity=ferry_terminal",
         "terminal-like name"
-      ],
-      "distanceFromPortMeters": 4622
+      ]
     }
   ],
   "terminalCandidateRadiusMeters": 5000,
@@ -1825,8 +1833,9 @@
   },
   "terminalResolution": {
     "status": "resolved",
-    "method": "accepted_terminal_candidate",
+    "method": "terminal_review",
     "verified": true,
-    "notes": "Accepted 2 candidates explicitly identified as an ocean-cruise or cruise-passenger terminal; ferry and unrelated results were excluded."
+    "reviewedAt": "2026-09-28",
+    "notes": "Steinwerder and HafenCity are correct; added Cruise Center Altona (from OpenStreetMap), Hamburg's third terminal. The rest are HADAG ferry stops."
   }
 }

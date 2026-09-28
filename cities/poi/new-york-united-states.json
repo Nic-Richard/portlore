@@ -16,7 +16,7 @@
     "name": "Manhattan Cruise Terminal",
     "nameEnglish": "",
     "lat": 40.767583,
-    "lng": -73.9988369,
+    "lng": -73.998837,
     "address": "",
     "source": "verified_terminal_candidate",
     "sourceId": "osm/generated/c368578c2f5918952724",
@@ -37,8 +37,7 @@
     },
     "matchedBy": [
       "terminal-like name"
-    ],
-    "distanceFromPortMeters": 484
+    ]
   },
   "terminals": [
     {
@@ -46,7 +45,7 @@
       "name": "Manhattan Cruise Terminal",
       "nameEnglish": "",
       "lat": 40.767583,
-      "lng": -73.9988369,
+      "lng": -73.998837,
       "address": "",
       "source": "verified_terminal_candidate",
       "sourceId": "osm/generated/c368578c2f5918952724",
@@ -67,8 +66,30 @@
       },
       "matchedBy": [
         "terminal-like name"
-      ],
-      "distanceFromPortMeters": 484
+      ]
+    },
+    {
+      "id": "review/new-york-united-states/cape-liberty-cruise-port-bayonne",
+      "name": "Cape Liberty Cruise Port (Bayonne)",
+      "lat": 40.664974,
+      "lng": -74.072458,
+      "terminalType": "passenger_cruise_terminal",
+      "source": "terminal_review",
+      "sourceUrls": [],
+      "verified": true,
+      "sourceId": "review/new-york-united-states/cape-liberty-cruise-port-bayonne"
+    },
+    {
+      "id": "review/new-york-united-states/brooklyn-cruise-terminal",
+      "name": "Brooklyn Cruise Terminal",
+      "lat": 40.680768,
+      "lng": -74.013841,
+      "terminalType": "passenger_cruise_terminal",
+      "source": "live_guide_google",
+      "sourceUrls": [],
+      "verified": true,
+      "notes": "Used by the live guide",
+      "sourceId": "review/new-york-united-states/brooklyn-cruise-terminal"
     }
   ],
   "terminalCandidateRadiusMeters": 5000,
@@ -1017,8 +1038,9 @@
   },
   "terminalResolution": {
     "status": "resolved",
-    "method": "accepted_terminal_candidate",
+    "method": "terminal_review",
     "verified": true,
-    "notes": "Accepted 1 candidate explicitly identified as an ocean-cruise or cruise-passenger terminal; ferry and unrelated results were excluded."
+    "reviewedAt": "2026-09-28",
+    "notes": "three NYC-area cruise terminals: Manhattan (Piers 88/90, main), Brooklyn (Red Hook), and Cape Liberty in Bayonne, NJ (added from OpenStreetMap). Pier entries duplicated Manhattan; the rest are commuter ferry stops."
   }
 }

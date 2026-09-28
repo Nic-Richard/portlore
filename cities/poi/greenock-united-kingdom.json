@@ -10,57 +10,29 @@
     "city": "Greenock",
     "country": "United Kingdom"
   },
-  "defaultTerminalId": "osm/way/1157024640",
+  "defaultTerminalId": "review/greenock-united-kingdom/greenock-ocean-terminal",
   "terminal": {
-    "id": "osm/way/1157024640",
-    "name": "Greenock Cruise Terminal",
-    "nameEnglish": "",
-    "lat": 55.9513224,
-    "lng": -4.755915,
-    "address": "Greenock Cruise Terminal, Custom House Way, Central, Greenock, Inverclyde, Alba / Scotland, PA15 1EG, United Kingdom",
-    "source": "verified_terminal_candidate",
-    "sourceId": "osm/way/1157024640",
+    "id": "review/greenock-united-kingdom/greenock-ocean-terminal",
+    "name": "Greenock Ocean Terminal",
+    "lat": 55.95107,
+    "lng": -4.75619,
     "terminalType": "passenger_cruise_terminal",
-    "verified": true,
-    "notes": "Accepted 1 candidate explicitly identified as an ocean-cruise or cruise-passenger terminal; ferry and unrelated results were excluded.",
+    "source": "terminal_review",
     "sourceUrls": [],
-    "sources": [
-      "nominatim"
-    ],
-    "sourceIds": [
-      "osm/way/1157024640"
-    ],
-    "osmTags": {},
-    "matchedBy": [
-      "Nominatim query: Greenock cruise terminal, United Kingdom"
-    ],
-    "distanceFromPortMeters": 397
+    "verified": true,
+    "sourceId": "review/greenock-united-kingdom/greenock-ocean-terminal"
   },
   "terminals": [
     {
-      "id": "osm/way/1157024640",
-      "name": "Greenock Cruise Terminal",
-      "nameEnglish": "",
-      "lat": 55.9513224,
-      "lng": -4.755915,
-      "address": "Greenock Cruise Terminal, Custom House Way, Central, Greenock, Inverclyde, Alba / Scotland, PA15 1EG, United Kingdom",
-      "source": "verified_terminal_candidate",
-      "sourceId": "osm/way/1157024640",
+      "id": "review/greenock-united-kingdom/greenock-ocean-terminal",
+      "name": "Greenock Ocean Terminal",
+      "lat": 55.95107,
+      "lng": -4.75619,
       "terminalType": "passenger_cruise_terminal",
-      "verified": true,
-      "notes": "Accepted 1 candidate explicitly identified as an ocean-cruise or cruise-passenger terminal; ferry and unrelated results were excluded.",
+      "source": "terminal_review",
       "sourceUrls": [],
-      "sources": [
-        "nominatim"
-      ],
-      "sourceIds": [
-        "osm/way/1157024640"
-      ],
-      "osmTags": {},
-      "matchedBy": [
-        "Nominatim query: Greenock cruise terminal, United Kingdom"
-      ],
-      "distanceFromPortMeters": 397
+      "verified": true,
+      "sourceId": "review/greenock-united-kingdom/greenock-ocean-terminal"
     }
   ],
   "terminalCandidateRadiusMeters": 5000,
@@ -1269,8 +1241,9 @@
   },
   "terminalResolution": {
     "status": "resolved",
-    "method": "accepted_terminal_candidate",
+    "method": "terminal_review",
     "verified": true,
-    "notes": "Accepted 1 candidate explicitly identified as an ocean-cruise or cruise-passenger terminal; ferry and unrelated results were excluded."
+    "reviewedAt": "2026-09-28",
+    "notes": "Greenock Ocean Terminal is correct (the second entry duplicates it). Glasgow is listed separately but uses this same terminal, so one of the two ports should go. Terminal sweep: Moved the Greenock Ocean Terminal pin onto the terminal building (two Google Maps listings agree)."
   }
 }

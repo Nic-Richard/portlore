@@ -7,32 +7,32 @@
   "radiusMeters": 10000,
   "port": {
     "id": "tynemouth-united-kingdom",
-    "city": "Tynemouth",
+    "city": "Newcastle upon Tyne (North Shields)",
     "country": "United Kingdom"
   },
-  "defaultTerminalId": "ports-json-anchor",
+  "defaultTerminalId": "review/tynemouth-united-kingdom/port-of-tyne-international-passenger-terminal",
   "terminal": {
-    "id": "ports-json-anchor",
-    "name": "TYNEMOUTH Port",
-    "lat": 55,
-    "lng": -1.4,
-    "address": "Tynemouth, England, United Kingdom",
-    "source": "ports.json",
-    "sourceId": "",
-    "score": 0,
-    "slug": "tynemouth-port"
+    "id": "review/tynemouth-united-kingdom/port-of-tyne-international-passenger-terminal",
+    "name": "Port of Tyne International Passenger Terminal",
+    "lat": 54.992503,
+    "lng": -1.452218,
+    "terminalType": "passenger_cruise_terminal",
+    "source": "openstreetmap",
+    "sourceUrls": [],
+    "verified": true,
+    "sourceId": "review/tynemouth-united-kingdom/port-of-tyne-international-passenger-terminal"
   },
   "terminals": [
     {
-      "id": "ports-json-anchor",
-      "name": "TYNEMOUTH Port",
-      "lat": 55,
-      "lng": -1.4,
-      "address": "Tynemouth, England, United Kingdom",
-      "source": "ports.json",
-      "sourceId": "",
-      "score": 0,
-      "slug": "tynemouth-port"
+      "id": "review/tynemouth-united-kingdom/port-of-tyne-international-passenger-terminal",
+      "name": "Port of Tyne International Passenger Terminal",
+      "lat": 54.992503,
+      "lng": -1.452218,
+      "terminalType": "passenger_cruise_terminal",
+      "source": "openstreetmap",
+      "sourceUrls": [],
+      "verified": true,
+      "sourceId": "review/tynemouth-united-kingdom/port-of-tyne-international-passenger-terminal"
     }
   ],
   "terminalCandidateRadiusMeters": 5000,
@@ -1012,9 +1012,10 @@
     "slug": "tynemouth-port"
   },
   "terminalResolution": {
-    "status": "unresolved",
-    "method": "ports_json_fallback",
-    "verified": false,
-    "notes": "All supplied candidates are ferry-only stops, local docks, unnamed maritime features, or unrelated places rather than passenger cruise terminals."
+    "status": "resolved",
+    "method": "terminal_review",
+    "verified": true,
+    "reviewedAt": "2026-09-28",
+    "notes": "This is the Port of Tyne for Newcastle. Kept the International Passenger Terminal in North Shields, where cruise ships berth; the rest are river ferry landings."
   }
 }
