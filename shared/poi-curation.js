@@ -1,4 +1,4 @@
-export const CURRENT_CITY_SCHEMA_VERSION = '2.1';
+export const CURRENT_CITY_SCHEMA_VERSION = '2.2';
 export const POI_CATALOG_SCHEMA_VERSION = 5;
 export const CITY_MODEL = 'claude-haiku-4-5-20251001';
 export const CITY_MAX_TOKENS = 20000;
@@ -40,7 +40,14 @@ function compactPoi(poi, terminals = []) {
 export function buildCityCurationPrompt(portInfo, catalog) {
   const terminals = catalogTerminals(catalog);
   const terminalJson = JSON.stringify(terminals.map(terminal => ({ n: terminal.name, lat: terminal.lat, lng: terminal.lng })));
-  const poiJson = JSON.stringify((catalog.pois || []).map(poi => compactPoi(poi, terminals)));
+  // Gateway ports (Civitavecchia for Rome) measure walking distance from the city passengers travel into.
+  const centre = catalog.guideCentre;
+  const centreName = cleanString(centre?.name).replace(/\s*\([^)]*\)/g, '');
+  const origins = centre ? [{ lat: centre.lat, lng: centre.lng }] : terminals;
+  const distanceRule = centre
+    ? `Passengers travel from the port into ${centreName} by train, coach, or taxi, then explore from there. t is each POI's distance in metres from ${centreName}'s centre.`
+    : "Passengers start from a terminal. t is each POI's distance in metres from the nearest one.";
+  const poiJson = JSON.stringify((catalog.pois || []).map(poi => compactPoi(poi, origins)));
   const suggestions = Array.isArray(catalog.gemSuggestions) && catalog.gemSuggestions.length
     ? `
 Editor's hidden gem suggestions not in the POI list: ${JSON.stringify(catalog.gemSuggestions)}. Add any that hold up as new stops with "hiddenGem": true.
@@ -56,7 +63,7 @@ Curate the best possible day ashore from the POI shortlist below: the must-see s
 - k is how many Wikipedia language editions cover a place: the higher it is, the more famous the place.
 - p=1 marks an editor's pick; keep it unless it has closed.
 - Mark 3 to 7 stops with "hiddenGem": true: quieter places a first-time visitor would likely miss but locals or seasoned travellers rate highly. g=1 marks the editor's gem candidates: always keep them as stops, but set "hiddenGem": false on any that do not hold up as gems. Add your own gems from the list or as new stops. Say in the description what makes each gem worth finding.
-- Passengers start from a terminal. t is each POI's distance in metres from the nearest one. Favor stops within walking distance, but always keep the destination's headline attractions, even when they need a short ride. Never drop a worthwhile stop only because it is farther away.
+- ${distanceRule} Favor stops within walking distance, but always keep the destination's headline attractions, even when they need a short ride. Never drop a worthwhile stop only because it is farther away.
 - Keep a useful range of food and drink when options differ by cuisine, format, or visitor need.
 - Source categories may be wrong; choose the best displayCategory.
 - Permanently closed places are removed automatically after your picks, so do not verify routine details.

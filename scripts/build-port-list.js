@@ -57,9 +57,11 @@ function portListEntry(port) {
 }
 
 function withTerminals(catalog, port) {
+  const { guideCentre, ...rest } = catalog;
   const terminals = port.terminals.map(terminal => ({ ...terminal, sourceId: terminal.id, verified: true }));
   return {
-    ...catalog,
+    ...rest,
+    ...(port.guideCentre ? { guideCentre: port.guideCentre } : {}),
     port: { ...(catalog.port || {}), id: port.id, city: port.city, country: port.country },
     terminals,
     terminal: terminals[0],
