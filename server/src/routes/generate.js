@@ -10,6 +10,7 @@ import {
 } from '../../../shared/poi-curation.js';
 import { curateCity } from '../../../shared/curation-model.js';
 import { resolveCatalogGooglePlaces, resolveCurationGooglePlaces } from '../../../shared/google-places.js';
+import { describeFromWebsites } from '../../../shared/website-descriptions.js';
 import * as logger from '../lib/logger.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
@@ -155,6 +156,12 @@ router.post('/:id', async (req, res) => {
       catalogMatches: googleMatches,
     });
     const data = { ...buildCityData(portInfo, catalog, resolvedCuration, googleMatches), model: result.model };
+    try {
+      const websites = await describeFromWebsites(data, catalog);
+      logger.info(`Described ${id} from websites: checked=${websites.checked}, rewritten=${websites.rewritten}, parked=${websites.parked}, est_cost=$${websites.cost.toFixed(4)}`);
+    } catch (error) {
+      logger.warn(`Website descriptions failed for ${id}: ${error.message}`);
+    }
     fs.mkdirSync(CITIES_DIR, { recursive: true });
     fs.writeFileSync(outPath, JSON.stringify(data, null, 2));
 

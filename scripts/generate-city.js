@@ -11,6 +11,7 @@ import {
 } from '../shared/poi-curation.js';
 import { curateCity, curationModel } from '../shared/curation-model.js';
 import { resolveCatalogGooglePlaces, resolveCurationGooglePlaces } from '../shared/google-places.js';
+import { describeFromWebsites } from '../shared/website-descriptions.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.join(__dirname, '..');
@@ -70,13 +71,20 @@ async function main() {
     catalogMatches: googleMatches,
   });
   const data = { ...buildCityData(portInfo, catalog, resolvedCuration, googleMatches), model: result.model };
+  let websites = { checked: 0, rewritten: 0, parked: 0, cost: 0 };
+  try {
+    websites = await describeFromWebsites(data, catalog);
+  } catch (error) {
+    console.warn(`Website descriptions failed: ${error.message}`);
+  }
+  console.log(`Websites: checked ${websites.checked}, rewrote ${websites.rewritten}, dropped ${websites.parked} parked domains.`);
 
   const outPath = path.join(ROOT, 'cities', `${portInfo.id}.json`);
   fs.writeFileSync(outPath, JSON.stringify(data, null, 2));
 
   console.log(`Written to cities/${portInfo.id}.json`);
   console.log(`Selected ${data.places.length} stops and ${data.hiddenGems.length} hidden gems.`);
-  console.log(`Estimated model cost: $${result.cost.toFixed(4)}`);
+  console.log(`Estimated model cost: $${(result.cost + websites.cost).toFixed(4)}`);
 }
 
 main().catch(error => {

@@ -1,4 +1,4 @@
-export const CURRENT_CITY_SCHEMA_VERSION = '2.2';
+export const CURRENT_CITY_SCHEMA_VERSION = '3.0';
 export const POI_CATALOG_SCHEMA_VERSION = 5;
 export const CITY_MAX_TOKENS = 32000;
 const MAX_HIDDEN_GEMS = 7;
@@ -66,7 +66,7 @@ Leave out:
 - private, industrial, or closed places
 - duplicates: the same place listed twice, for example under two names
 
-Never invent anything. Describe a place only from its POI data (d is its Wikipedia intro, when it has one) or from what you reliably know about that exact place. If you cannot tell what a place is, leave it out rather than guess from its name.
+Never invent anything. Describe a place only from its POI data (d is its Wikipedia intro, when it has one) or from what you reliably know about that exact place. When a place has no d or o, keep to what its data shows, such as the kind of place, its cuisine, and where it is; do not name dishes, decor, or history unless you are certain of them. If you cannot tell what a place is, leave it out rather than guess from its name.
 
 For each stop, write a subtitle of at most 15 words, a one- or two-sentence description, and suggestedVisitMinutes.
 
@@ -149,7 +149,8 @@ function normalizeEditorial(editorial = {}) {
 function copySuppliedPoi(poi, editorial, googleMatch = null) {
   const generated = normalizeEditorial(editorial);
   const category = categoryFromGoogle(googleMatch) || generated.category || poi.category;
-  const officialWebsiteUrl = cleanString(poi.website) || cleanString(googleMatch?.googleWebsite) || generated.officialWebsiteUrl;
+  // Google's website comes from the business listing, so it is fresher than OSM's tag.
+  const officialWebsiteUrl = cleanString(googleMatch?.googleWebsite) || cleanString(poi.website) || generated.officialWebsiteUrl;
   const hours = cleanString(googleMatch?.googleOpeningHours) || generated.hoursNote || cleanString(poi.openingHours);
   return {
     id: poi.sourceId,

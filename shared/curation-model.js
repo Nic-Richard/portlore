@@ -7,14 +7,18 @@ const PROVIDERS = {
 };
 const TIMEOUT_MS = 180000;
 
-async function callGemini(provider, apiKey, prompt) {
+async function callGemini(provider, apiKey, prompt, options) {
   const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${provider.model}:generateContent`, {
     method: 'POST',
     headers: { 'Content-Type': 'application/json', 'x-goog-api-key': apiKey },
     body: JSON.stringify({
       systemInstruction: { parts: [{ text: CITY_SYSTEM_PROMPT }] },
       contents: [{ role: 'user', parts: [{ text: prompt }] }],
-      generationConfig: { maxOutputTokens: CITY_MAX_TOKENS, responseMimeType: 'application/json' },
+      generationConfig: {
+        maxOutputTokens: CITY_MAX_TOKENS,
+        responseMimeType: 'application/json',
+        ...(options.lightThinking ? { thinkingConfig: { thinkingLevel: 'low' } } : {}),
+      },
     }),
     signal: AbortSignal.timeout(TIMEOUT_MS),
   });
@@ -67,8 +71,8 @@ export function curationModel() {
   return { name, ...provider };
 }
 
-// Asks the model for a guide, retrying once when the reply is not usable JSON.
-export async function curateCity(prompt) {
+// Asks the model for a guide, retrying once when the reply is not usable JSON. Simple rewrites can use light thinking.
+export async function curateCity(prompt, options = {}) {
   const provider = curationModel();
   const apiKey = process.env[provider.keyName];
   if (!apiKey) throw new Error(`${provider.keyName} is not set in .env`);
@@ -76,7 +80,7 @@ export async function curateCity(prompt) {
   let lastError;
   const totals = { inputTokens: 0, outputTokens: 0 };
   for (let attempt = 1; attempt <= 2; attempt += 1) {
-    const reply = await provider.call(provider, apiKey, prompt);
+    const reply = await provider.call(provider, apiKey, prompt, options);
     totals.inputTokens += reply.inputTokens;
     totals.outputTokens += reply.outputTokens;
     try {

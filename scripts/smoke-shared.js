@@ -6,6 +6,7 @@ import { fallbackTerminal, distanceMeters } from '../shared/port-resolution.js';
 import { selectCurationCandidates } from '../shared/poi-selection.js';
 import { buildCityData } from '../shared/poi-curation.js';
 import { renderPortPage } from '../server/src/lib/port-page.js';
+import { isParkedDomain, websiteText } from '../shared/website-descriptions.js';
 
 const tests = [];
 
@@ -136,6 +137,15 @@ test('Google place types decide the category of a matched stop', () => {
   const matches = { pois: { 'osm/cat1': { googlePrimaryType: 'bakery' }, 'osm/cat2': { googlePrimaryType: 'museum' } } };
   const data = buildCityData(portInfo, { ...guideCatalog, pois }, curation, matches);
   assert.deepStrictEqual(data.places.map(p => p.category), ['food_drink', 'attraction']);
+});
+
+test('website text keeps the page summary and drops scripts, and parked domains are spotted', () => {
+  const html = '<html><head><title>Cabin Coffee</title><meta name="description" content="Coffee, fresh pastries &amp; a big fireplace"><script>track()</script></head><body><nav>Menu</nav><p>Open daily on Hollis Street.</p></body></html>';
+  const text = websiteText(html);
+  assert.ok(text.includes('fresh pastries & a big fireplace') && text.includes('Hollis Street'));
+  assert.ok(!text.includes('track()') && !text.includes('Menu'));
+  assert.ok(isParkedDomain('This domain may be for sale. Terms of Service'));
+  assert.ok(!isParkedDomain(text));
 });
 
 test('port pages are indexed only when the port has a guide', () => {

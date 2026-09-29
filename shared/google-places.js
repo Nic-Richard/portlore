@@ -76,6 +76,15 @@ function tokenScore(expected, actual) {
   return matched / wanted.size;
 }
 
+// Names written by the model often add words Google leaves out ("San Gervasio Mayan Archaeological Site"
+// for "San Gervasio"), so a Google name found whole inside the request counts as a full match.
+function nameScore(expected, actual) {
+  const googleTokens = normalize(actual).split(' ').filter(token => token.length > 2);
+  const requestTokens = new Set(normalize(expected).split(' '));
+  const contained = googleTokens.length > 0 && googleTokens.every(token => requestTokens.has(token));
+  return contained ? 1 : tokenScore(expected, actual);
+}
+
 function placePoint(place) {
   const lat = Number(place?.location?.latitude);
   const lng = Number(place?.location?.longitude);
@@ -97,17 +106,18 @@ function bestTokenScore(values, target) {
 function scorePlace(place, request) {
   const displayName = cleanString(place?.displayName?.text);
   const formattedAddress = cleanString(place?.formattedAddress);
-  const nameScore = bestTokenScore(nameVariants(request.name), displayName) * 70;
+  const namePoints = Math.max(0, ...nameVariants(request.name).map(value => nameScore(value, displayName))) * 70;
   const addressScore = request.address ? tokenScore(request.address, formattedAddress) * 15 : 0;
   const localityScore = bestTokenScore(nameVariants(request.city).map(city => `${city} ${request.country}`), formattedAddress) * 15;
   const point = placePoint(place);
   let distancePenalty = 0;
   if (request.reference && point) {
     const km = haversineMeters(request.reference, point) / 1000;
-    distancePenalty = Math.min(45, km * (request.kind === 'terminal' ? 0.7 : 2.2));
+    // Places the model adds have no location of their own yet, so distance from the port says little.
+    distancePenalty = request.kind === 'supplement' ? Math.min(20, km) : Math.min(45, km * (request.kind === 'terminal' ? 0.7 : 2.2));
   }
   const statusPenalty = place?.businessStatus === 'CLOSED_PERMANENTLY' ? 35 : 0;
-  return nameScore + addressScore + localityScore - distancePenalty - statusPenalty;
+  return namePoints + addressScore + localityScore - distancePenalty - statusPenalty;
 }
 
 function buildTextQuery(request) {
@@ -241,7 +251,7 @@ async function resolveGooglePlace(request, options = {}) {
 }
 
 function portReference(portInfo, catalog) {
-  const fallback = catalog.portAnchor || catalog.port || portInfo;
+  const fallback = catalog.guideCentre || catalog.portAnchor || catalog.port || portInfo;
   const lat = Number(fallback.lat);
   const lng = Number(fallback.lng);
   return Number.isFinite(lat) && Number.isFinite(lng) ? { lat, lng } : null;
@@ -345,7 +355,7 @@ export async function resolveCurationGooglePlaces(portInfo, catalog, curation, o
       city: portInfo.city,
       country: portInfo.country,
       reference,
-      kind: 'poi',
+      kind: 'supplement',
     };
     let match = null;
     try {

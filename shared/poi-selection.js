@@ -168,6 +168,24 @@ function metersBetween(a, b) {
   return 6371000 * 2 * Math.asin(Math.sqrt(h));
 }
 
+function similarNames(a, b) {
+  const names = poi => [nameKey(poi.name), nameKey(poi.nameEnglish)].filter(Boolean);
+  return names(a).some(x => names(b).some(y => x.includes(y) || y.includes(x)));
+}
+
+// OSM often maps one place twice, such as a building and its entrance. Entries only merge when the Wikidata
+// item, the name, and the location all agree, because some OSM Wikidata tags point at the wrong place.
+function dropDuplicatePlaces(pois) {
+  const kept = [];
+  for (const poi of pois) {
+    const id = wikidataId(poi);
+    const twin = id && kept.find(other => wikidataId(other) === id && similarNames(other, poi) && metersBetween(other, poi) < 1000);
+    if (!twin) kept.push(poi);
+    else if (metadataScore(poi) > metadataScore(twin)) kept[kept.indexOf(twin)] = poi;
+  }
+  return kept;
+}
+
 // Picks are matched by name and location because OpenStreetMap-derived IDs change whenever a place is edited.
 function findPick(pick, pois) {
   const key = nameKey(pick.name);
@@ -217,7 +235,7 @@ function curatedPicks(catalog) {
 export function selectCurationCandidates(catalog, maxCandidates = 220) {
   const curated = curatedPicks(catalog);
   const curatedIds = new Set(curated.map(poi => poi.sourceId));
-  const source = (catalog.pois || []).filter(poi => isVisitorRelevantPoi(poi) && !curatedIds.has(poi.sourceId));
+  const source = dropDuplicatePlaces((catalog.pois || []).filter(poi => isVisitorRelevantPoi(poi) && !curatedIds.has(poi.sourceId)));
   const byCategory = new Map();
   for (const poi of source) {
     if (!byCategory.has(poi.category)) byCategory.set(poi.category, []);
