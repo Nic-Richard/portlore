@@ -2,6 +2,8 @@ import fs from 'fs';
 
 const FAME_FILE = new URL('../data/wikidata-fame.json', import.meta.url);
 const FAME = fs.existsSync(FAME_FILE) ? JSON.parse(fs.readFileSync(FAME_FILE, 'utf8')).counts : {};
+const INTROS_FILE = new URL('../data/wikipedia-intros.json', import.meta.url);
+const INTROS = fs.existsSync(INTROS_FILE) ? JSON.parse(fs.readFileSync(INTROS_FILE, 'utf8')).intros : {};
 const PICKS_FILE = new URL('../data/curated-picks.json', import.meta.url);
 const PICKS = fs.existsSync(PICKS_FILE) ? JSON.parse(fs.readFileSync(PICKS_FILE, 'utf8')).ports : {};
 
@@ -275,5 +277,8 @@ export function selectCurationCandidates(catalog, maxCandidates = 220) {
 
   // Curated picks come on top of the rule-based shortlist rather than displacing it.
   return [...curated, ...selected.slice(0, maxCandidates)]
-    .map(poi => (fame(poi) ? { ...poi, fame: fame(poi) } : poi));
+    .map(poi => {
+      const intro = INTROS[wikidataId(poi)];
+      return { ...poi, ...(fame(poi) ? { fame: fame(poi) } : {}), ...(intro ? { intro } : {}) };
+    });
 }

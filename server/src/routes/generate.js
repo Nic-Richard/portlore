@@ -1,18 +1,14 @@
 import { Router } from 'express';
-import Anthropic from '@anthropic-ai/sdk';
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import {
   buildCityCurationPrompt,
   buildCityData,
-  CITY_MAX_TOKENS,
-  CITY_MODEL,
-  CITY_SYSTEM_PROMPT,
-  CITY_TOOLS,
   CURRENT_CITY_SCHEMA_VERSION,
   POI_CATALOG_SCHEMA_VERSION,
 } from '../../../shared/poi-curation.js';
+import { curateCity } from '../../../shared/curation-model.js';
 import { resolveCatalogGooglePlaces, resolveCurationGooglePlaces } from '../../../shared/google-places.js';
 import * as logger from '../lib/logger.js';
 
@@ -143,27 +139,11 @@ router.post('/:id', async (req, res) => {
   res.status(202).json({ status: 'started', estimatedSeconds: 75 });
 
   try {
-    const client = new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY });
-    const response = await client.messages.create({
-      model: CITY_MODEL,
-      max_tokens: CITY_MAX_TOKENS,
-      system: CITY_SYSTEM_PROMPT,
-      tools: CITY_TOOLS,
-      messages: [{ role: 'user', content: buildCityCurationPrompt(portInfo, catalog) }],
-    });
+    const result = await curateCity(buildCityCurationPrompt(portInfo, catalog));
+    logger.info(`Generated ${id}: model=${result.model}, stop_reason=${result.stopReason}, attempts=${result.attempts}, input_tokens=${result.inputTokens}, output_tokens=${result.outputTokens}, est_cost=$${result.cost.toFixed(4)}`);
 
-    const responseUsage = response.usage || {};
-    const searches = responseUsage.server_tool_use?.web_search_requests || 0;
-    const cost = ((responseUsage.input_tokens || 0) / 1e6) * 1 + ((responseUsage.output_tokens || 0) / 1e6) * 5 + searches * 0.01;
-    logger.info(`Generated ${id}: stop_reason=${response.stop_reason || 'unknown'}, input_tokens=${responseUsage.input_tokens || 0}, output_tokens=${responseUsage.output_tokens || 0}, web_searches=${searches}, est_cost=$${cost.toFixed(4)}`);
-
-    const fullText = response.content.filter(block => block.type === 'text').map(block => block.text).join('');
-    const start = fullText.indexOf('{');
-    const end = fullText.lastIndexOf('}');
-    if (start === -1 || end === -1) throw new Error('No JSON in response');
-
-    const curation = JSON.parse(fullText.slice(start, end + 1));
-    // Google is only searched for the stops Claude picked, not the whole shortlist.
+    const curation = result.curation;
+    // Google is only searched for the stops the model picked, not the whole shortlist.
     const googleMatches = await resolveCatalogGooglePlaces(portInfo, catalog, {
       apiKey: process.env.GOOGLE_MAPS_API_KEY,
       cachePath: path.join(CITIES_DIR, '.google-place-id-cache.json'),
@@ -174,7 +154,7 @@ router.post('/:id', async (req, res) => {
       cachePath: path.join(CITIES_DIR, '.google-place-id-cache.json'),
       catalogMatches: googleMatches,
     });
-    const data = buildCityData(portInfo, catalog, resolvedCuration, googleMatches);
+    const data = { ...buildCityData(portInfo, catalog, resolvedCuration, googleMatches), model: result.model };
     fs.mkdirSync(CITIES_DIR, { recursive: true });
     fs.writeFileSync(outPath, JSON.stringify(data, null, 2));
 

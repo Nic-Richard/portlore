@@ -1,6 +1,5 @@
 #!/usr/bin/env node
 
-import Anthropic from '@anthropic-ai/sdk';
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
@@ -8,12 +7,9 @@ import { config } from 'dotenv';
 import {
   buildCityCurationPrompt,
   buildCityData,
-  CITY_MAX_TOKENS,
-  CITY_MODEL,
-  CITY_SYSTEM_PROMPT,
-  CITY_TOOLS,
   POI_CATALOG_SCHEMA_VERSION,
 } from '../shared/poi-curation.js';
+import { curateCity, curationModel } from '../shared/curation-model.js';
 import { resolveCatalogGooglePlaces, resolveCurationGooglePlaces } from '../shared/google-places.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
@@ -41,20 +37,12 @@ function findPort(input) {
   process.exit(1);
 }
 
-function parseJsonText(text) {
-  const start = text.indexOf('{');
-  const end = text.lastIndexOf('}');
-  if (start === -1 || end === -1) throw new Error('No JSON found in model output');
-  return JSON.parse(text.slice(start, end + 1));
-}
-
 async function main() {
   const cityInput = process.argv[2];
   if (!cityInput) {
     console.error('Usage: node scripts/generate-city.js <port-id or city>');
     process.exit(1);
   }
-  if (!process.env.ANTHROPIC_API_KEY) throw new Error('ANTHROPIC_API_KEY is not set in .env');
   if (!process.env.GOOGLE_MAPS_API_KEY) throw new Error('GOOGLE_MAPS_API_KEY is not set in .env');
 
   const portInfo = findPort(cityInput);
@@ -67,22 +55,10 @@ async function main() {
     throw new Error(`POI catalog for ${portInfo.id} is missing, outdated, or too small.`);
   }
 
-  console.log(`Enriching ${portInfo.city}, ${portInfo.country} from ${catalog.pois.length} curated POIs...`);
-
-  const client = new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY });
-  const response = await client.messages.create({
-    model: CITY_MODEL,
-    max_tokens: CITY_MAX_TOKENS,
-    system: CITY_SYSTEM_PROMPT,
-    tools: CITY_TOOLS,
-    messages: [{ role: 'user', content: buildCityCurationPrompt(portInfo, catalog) }],
-  });
-  const usage = response.usage || {};
-  const searches = usage.server_tool_use?.web_search_requests || 0;
-  console.log(`Claude response: stop_reason=${response.stop_reason || 'unknown'}, input_tokens=${usage.input_tokens || 0}, output_tokens=${usage.output_tokens || 0}, web_searches=${searches}, max_tokens=${CITY_MAX_TOKENS}`);
-
-  const text = response.content.filter(block => block.type === 'text').map(block => block.text).join('');
-  const curation = parseJsonText(text);
+  console.log(`Curating ${portInfo.city}, ${portInfo.country} from ${catalog.pois.length} POIs with ${curationModel().model}...`);
+  const result = await curateCity(buildCityCurationPrompt(portInfo, catalog));
+  console.log(`Model response: stop_reason=${result.stopReason}, attempts=${result.attempts}, input_tokens=${result.inputTokens}, output_tokens=${result.outputTokens}`);
+  const curation = result.curation;
   const googleMatches = await resolveCatalogGooglePlaces(portInfo, catalog, {
     apiKey: process.env.GOOGLE_MAPS_API_KEY,
     cachePath: path.join(ROOT, 'cities', '.google-place-id-cache.json'),
@@ -93,15 +69,14 @@ async function main() {
     cachePath: path.join(ROOT, 'cities', '.google-place-id-cache.json'),
     catalogMatches: googleMatches,
   });
-  const data = buildCityData(portInfo, catalog, resolvedCuration, googleMatches);
+  const data = { ...buildCityData(portInfo, catalog, resolvedCuration, googleMatches), model: result.model };
 
   const outPath = path.join(ROOT, 'cities', `${portInfo.id}.json`);
   fs.writeFileSync(outPath, JSON.stringify(data, null, 2));
 
-  const cost = (((usage.input_tokens || 0) / 1e6) * 1 + ((usage.output_tokens || 0) / 1e6) * 5 + searches * 0.01).toFixed(4);
   console.log(`Written to cities/${portInfo.id}.json`);
   console.log(`Selected ${data.places.length} stops and ${data.hiddenGems.length} hidden gems.`);
-  console.log(`Estimated model cost: $${cost}`);
+  console.log(`Estimated model cost: $${result.cost.toFixed(4)}`);
 }
 
 main().catch(error => {

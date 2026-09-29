@@ -12,6 +12,7 @@ const DETAILS_FIELD_MASK = [
   'types',
   'businessStatus',
   'regularOpeningHours',
+  'websiteUri',
 ].join(',');
 
 const FIELD_MASK = [
@@ -178,6 +179,8 @@ function publicMatch(place, score, query) {
     googleDisplayName: cleanString(place?.displayName?.text),
     googleFormattedAddress: cleanString(place?.formattedAddress),
     googlePrimaryType: cleanString(place?.primaryType),
+    googleTypes: Array.isArray(place?.types) ? place.types : [],
+    googleWebsite: cleanString(place?.websiteUri),
     googleBusinessStatus: cleanString(place?.businessStatus),
     googleOpeningHours: openingHoursText(place),
     googleLocation: point,

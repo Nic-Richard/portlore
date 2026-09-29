@@ -127,6 +127,17 @@ test('an added stop that repeats a supplied one is dropped', () => {
   assert.strictEqual(data.places.length, 1);
 });
 
+test('Google place types decide the category of a matched stop', () => {
+  const pois = [
+    { sourceId: 'osm/cat1', name: 'Corner Bakery', category: 'shopping', lat: 44.64, lng: -63.57 },
+    { sourceId: 'osm/cat2', name: 'Harbour Museum', category: 'food_drink', lat: 44.64, lng: -63.57 },
+  ];
+  const curation = { places: [{ sourceId: 'osm/cat1' }, { sourceId: 'osm/cat2' }] };
+  const matches = { pois: { 'osm/cat1': { googlePrimaryType: 'bakery' }, 'osm/cat2': { googlePrimaryType: 'museum' } } };
+  const data = buildCityData(portInfo, { ...guideCatalog, pois }, curation, matches);
+  assert.deepStrictEqual(data.places.map(p => p.category), ['food_drink', 'attraction']);
+});
+
 test('port pages are indexed only when the port has a guide', () => {
   const port = { id: 'halifax-canada', city: 'Halifax', country: 'Canada', terminal: 'Seaport Cruise Pavilion', lat: 44.638, lng: -63.565 };
   const guide = { terminals: [{ name: 'Seaport Cruise Pavilion', lat: 44.638, lng: -63.565 }], places: [{ id: 'a', name: 'Pier 21 <Museum>', lat: 44.637, lng: -63.566 }], hiddenGems: [] };

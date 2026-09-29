@@ -722,6 +722,7 @@ html.detail-open, body.detail-open { overflow: hidden !important; overscroll-beh
 .d-fit p.warn b { color: #f3b1a8; }
 .d-facts { display: grid; gap: 0.6rem; margin-bottom: 1.2rem; font-size: 0.86rem; }
 .d-facts > div { display: grid; grid-template-columns: 6.2rem minmax(0, 1fr); gap: 0.6rem; }
+.d-facts > div[hidden] { display: none; }
 .d-facts dt { color: var(--muted); }
 .d-facts dd { color: var(--navy); }
 .d-facts details summary { cursor: pointer; color: var(--blue); font-size: 0.8rem; margin-top: 0.2rem; }
@@ -1059,7 +1060,7 @@ html.detail-open, body.detail-open { overflow: hidden !important; overscroll-beh
       <p id="d-fit-note"></p>
     </section>
     <dl class="d-facts">
-      <div><dt>Good for</dt><dd id="d-good-for"></dd></div>
+      <div id="d-good-for-row"><dt>Good for</dt><dd id="d-good-for"></dd></div>
       <div><dt>Hours</dt><dd id="d-hours"></dd></div>
       <div id="d-address-row"><dt>Address</dt><dd id="d-address"></dd></div>
     </dl>
@@ -2656,7 +2657,8 @@ function openDetail(place){
       ? `Leave now and you'd miss all aboard by <b>${fmtMinutes(-spare)}</b>.`
       : `Leave now and you're back at ${origin} by <b>${clockLabel(backBy)}</b>, ${fmtMinutes(spare)} before all aboard.`;
   const goodFor=place.goodFor || [];
-  document.getElementById('d-good-for').textContent=goodFor.length?goodFor.map((t,i)=>i?t:t.charAt(0).toUpperCase()+t.slice(1)).join(', '):'A general visit';
+  document.getElementById('d-good-for').textContent=goodFor.map((t,i)=>i?t:t.charAt(0).toUpperCase()+t.slice(1)).join(', ');
+  document.getElementById('d-good-for-row').hidden=!goodFor.length;
   const allHours=String(place.hours||'').split(/\s*·\s*/).filter(Boolean);
   document.getElementById('d-hours').innerHTML=today
     ? `Today ${today}${allHours.length>1?`<details><summary>All hours</summary><div>${allHours.join('<br>')}</div></details>`:''}`

@@ -1,16 +1,8 @@
 export const CURRENT_CITY_SCHEMA_VERSION = '2.2';
 export const POI_CATALOG_SCHEMA_VERSION = 5;
-export const CITY_MODEL = 'claude-haiku-4-5-20251001';
-export const CITY_MAX_TOKENS = 20000;
+export const CITY_MAX_TOKENS = 32000;
 const MAX_HIDDEN_GEMS = 7;
-export const CITY_SYSTEM_PROMPT = 'You are a careful cruise-port guide editor with web research access. Output only valid JSON. No narration, explanation, preamble, markdown, or citations outside the JSON fields.';
-export const CITY_TOOLS = [
-  {
-    type: 'web_search_20250305',
-    name: 'web_search',
-    max_uses: 4,
-  },
-];
+export const CITY_SYSTEM_PROMPT = 'You are a careful cruise-port guide editor. Output only valid JSON. No narration, explanation, preamble, markdown, or citations outside the JSON fields.';
 
 function compactPoi(poi, terminals = []) {
   const value = {
@@ -27,10 +19,9 @@ function compactPoi(poi, terminals = []) {
   if (nearest) value.t = nearest.distance;
   if (poi.address) value.a = poi.address;
   if (poi.openingHours) value.h = poi.openingHours;
-  if (poi.website) value.w = poi.website;
   if (poi.cuisine?.length) value.u = poi.cuisine;
-  if (poi.wheelchair) value.x = poi.wheelchair;
   if (poi.description) value.o = poi.description;
+  if (poi.intro) value.d = poi.intro;
   if (poi.fame) value.k = poi.fame;
   if (poi.curated) value.p = 1;
   if (poi.gem) value.g = 1;
@@ -44,9 +35,10 @@ export function buildCityCurationPrompt(portInfo, catalog) {
   const centre = catalog.guideCentre;
   const centreName = cleanString(centre?.name).replace(/\s*\([^)]*\)/g, '');
   const origins = centre ? [{ lat: centre.lat, lng: centre.lng }] : terminals;
+  const centreKm = centre ? Math.round((nearestTerminal(centre, terminals)?.distance || 0) / 1000) : 0;
   const distanceRule = centre
-    ? `Passengers travel from the port into ${centreName} by train, coach, or taxi, then explore from there. t is each POI's distance in metres from ${centreName}'s centre.`
-    : "Passengers start from a terminal. t is each POI's distance in metres from the nearest one.";
+    ? `The port is about ${centreKm} km from ${centreName}'s centre. Passengers travel in by train, coach, or taxi, then explore on foot from there. t is each POI's distance in metres from ${centreName}'s centre.`
+    : "Passengers explore on foot from the terminal. t is each POI's distance in metres from the nearest terminal.";
   const poiJson = JSON.stringify((catalog.pois || []).map(poi => compactPoi(poi, origins)));
   const suggestions = Array.isArray(catalog.gemSuggestions) && catalog.gemSuggestions.length
     ? `
@@ -57,38 +49,33 @@ Editor's hidden gem suggestions not in the POI list: ${JSON.stringify(catalog.ge
   return `Create a practical cruise-port guide for ${portInfo.city}, ${portInfo.country}.
 
 Cruise terminals where passengers come ashore: ${terminalJson}
+${distanceRule}
 
-Curate the best possible day ashore from the POI shortlist below: the must-see sights, well-loved local favourites, a few hidden gems a first-time visitor would miss, and a varied spread of food and drink, shops, and outdoor stops. Most ports should end up with roughly 25 to 45 stops. Large capitals and major cities deserve the upper end of that range; only the very biggest destinations should go past 45, and rarely beyond 60.
-- Keep the exact sourceId of each stop you include. Leave out closed, private, industrial, duplicated, unrelated, or low-value places.
-- k is how many Wikipedia language editions cover a place: the higher it is, the more famous the place.
-- p=1 marks an editor's pick; keep it unless it has closed.
-- Mark 3 to 7 stops with "hiddenGem": true: quieter places a first-time visitor would likely miss but locals or seasoned travellers rate highly. g=1 marks the editor's gem candidates: always keep them as stops, but set "hiddenGem": false on any that do not hold up as gems. Add your own gems from the list or as new stops. Say in the description what makes each gem worth finding.
-- ${distanceRule} Favor stops within walking distance, but always keep the destination's headline attractions, even when they need a short ride. Never drop a worthwhile stop only because it is farther away.
-- Keep a useful range of food and drink when options differ by cuisine, format, or visitor need.
-- Source categories may be wrong; choose the best displayCategory.
-- Permanently closed places are removed automatically after your picks, so do not verify routine details.
-- Search only to check a stop that may be closed or duplicated, or to confirm an obvious missing headline attraction. Do not search for websites or routine details.
-- Never return two entries for the same place, including a site and its museum or a supplied stop under another name.
-- Add at most a few important missing stops that are not already in the list (attractions, districts, waterfronts, markets, beaches, viewpoints, food halls, shopping areas, or distinctive local food). Give an exact name, an address when known, and a location hint. Do not return coordinates.
+Curate the best possible day ashore from the POI shortlist below: the must-see sights, well-loved local favourites, a few hidden gems, and a varied spread of food and drink, shops, and outdoor stops. Aim for 35 to 50 stops; major cities can go up to 60. Go below 30 only when a port genuinely lacks good options.
+- Keep the exact sourceId of each stop you include.
+- k is how many Wikipedia language editions cover a place. Keep the most famous places (highest k) unless they are closed or unsuitable for visitors.
+- Keep editor's picks (p=1) unless they have closed.
+- Favour stops within walking distance, but always keep the headline attractions, even when they need a short ride. Never drop a worthwhile stop only because it is farther away.
+- At least 30 to 40% of the stops should be food and drink where the port has enough good options, covering a wide variety: local restaurants, cafés and bakeries, street food and markets, sweets or gelato, and local drinks.
+- Also include at least 3 shops, 3 outdoor stops, and 1 or 2 essentials (such as a pharmacy or ATM near the terminal) whenever the shortlist has them.
+- Add "hiddenGem": true to 3 to 7 stops: quieter places a first-time visitor would likely miss but locals or seasoned travellers rate highly. Editor's gem candidates (g=1) are gems by default; always keep them as stops, and add "hiddenGem": false only to one that does not hold up. The description of a gem says what makes it special, not just that it is well liked.
+- Add at most a few important stops missing from the list (attractions, districts, waterfronts, markets, beaches, viewpoints, food halls, or distinctive local food), with an exact name and address. Only add real places you know well.
 
-For each stop return:
-- subtitle: at most 10 words
-- description: 1 or 2 useful sentences
-- suggestedVisitMinutes
-- goodFor: 1 to 4 short labels
-- displayCategory: attraction, food_drink, shopping, outdoors, or essentials
-- officialWebsiteUrl: only when confidently known, otherwise empty
-- hoursNote: only when limited hours materially affect a cruise visit
+Leave out:
+- chains and everyday businesses (supermarkets, car rentals, generic takeaways, trade shops) unless locally famous
+- private, industrial, or closed places
+- duplicates: the same place listed twice, for example under two names
 
-Do not return terminals, coordinates, distances, prices, ratings, schedules, or temporary details.
+Never invent anything. Describe a place only from its POI data (d is its Wikipedia intro, when it has one) or from what you reliably know about that exact place. If you cannot tell what a place is, leave it out rather than guess from its name.
 
-The overview summary covers what the destination offers, general walkability, and whether transport is needed.
+For each stop, write a subtitle of at most 15 words, a one- or two-sentence description, and suggestedVisitMinutes.
 
-Return only this JSON shape:
-{"timezone":"","photo_query":"","background_position":"center 70%","overview":{"summary":""},"places":[{"sourceId":"","subtitle":"","description":"","suggestedVisitMinutes":45,"goodFor":[],"displayCategory":"attraction","officialWebsiteUrl":"","hoursNote":"","hiddenGem":false}],"supplementedPois":[{"sourceId":"supplement/example-slug","name":"","address":"","locationHint":"main visitor entrance","category":"attraction","subtitle":"","description":"","suggestedVisitMinutes":45,"goodFor":[],"officialWebsiteUrl":"","hoursNote":"","hiddenGem":false}]}
+The summary says what the destination offers, how passengers get from the terminal into town with a realistic distance and travel time, and whether they can explore on foot.
 
-POI keys: id=sourceId, n=name, e=English name, c=category, s=subcategory, lat/lng, t=metres from nearest terminal, a=address, h=hours, w=website, u=cuisine, x=wheelchair, o=description, k=Wikipedia editions covering the place, p=editor's pick, g=editor's gem candidate.
+Return only this JSON:
+{"timezone":"","photo_query":"","overview":{"summary":""},"places":[{"sourceId":"","subtitle":"","description":"","suggestedVisitMinutes":45}],"supplementedPois":[{"sourceId":"supplement/example-slug","name":"","address":"","category":"attraction","subtitle":"","description":"","suggestedVisitMinutes":45}]}
 
+POI keys: id=sourceId, n=name, e=English name, c=category, s=subcategory, lat/lng, t=distance in metres, a=address, h=hours, u=cuisine, o=description, d=Wikipedia intro, k=Wikipedia editions covering the place, p=editor's pick, g=editor's gem candidate.
 ${suggestions}
 POIs:
 ${poiJson}`;
@@ -123,6 +110,24 @@ function iconFor(category, subcategory = '') {
   return category || 'default';
 }
 
+const GOOGLE_CATEGORIES = [
+  ['essentials', /^(pharmacy|drugstore|atm|bank|car_rental|hospital|post_office|supermarket|grocery_store|convenience_store|tourist_information_center)$/],
+  ['food_drink', /(restaurant|cafe|coffee_shop|bakery|bar|pub|brewery|winery|ice_cream_shop|dessert_shop|food_court|meal_takeaway|tea_house|confectionery|deli)$/],
+  ['shopping', /(_store|^store$|shopping_mall|^market$|farmers_market|gift_shop|flea_market)$/],
+  ['outdoors', /^(park|national_park|state_park|garden|botanical_garden|beach|hiking_area|marina|plaza|dog_park|city_park)$/],
+  ['attraction', /(museum|art_gallery|church|place_of_worship|tourist_attraction|historical_landmark|historical_place|monument|castle|cultural_landmark|aquarium|zoo|observation_deck|performing_arts_theater|landmark)$/],
+];
+
+// Google's place types are more reliable than OSM tags, so they decide the category when a stop matched.
+function categoryFromGoogle(match) {
+  const types = [cleanString(match?.googlePrimaryType), ...(Array.isArray(match?.googleTypes) ? match.googleTypes : [])].filter(Boolean);
+  for (const type of types) {
+    const found = GOOGLE_CATEGORIES.find(([, pattern]) => pattern.test(type));
+    if (found) return found[0];
+  }
+  return '';
+}
+
 function normalizeEditorial(editorial = {}) {
   return {
     subtitle: cleanString(editorial.subtitle),
@@ -143,8 +148,8 @@ function normalizeEditorial(editorial = {}) {
 
 function copySuppliedPoi(poi, editorial, googleMatch = null) {
   const generated = normalizeEditorial(editorial);
-  const category = generated.category || poi.category;
-  const officialWebsiteUrl = generated.officialWebsiteUrl || cleanString(poi.website);
+  const category = categoryFromGoogle(googleMatch) || generated.category || poi.category;
+  const officialWebsiteUrl = cleanString(poi.website) || cleanString(googleMatch?.googleWebsite) || generated.officialWebsiteUrl;
   const hours = cleanString(googleMatch?.googleOpeningHours) || generated.hoursNote || cleanString(poi.openingHours);
   return {
     id: poi.sourceId,
@@ -182,7 +187,7 @@ function copySuppliedPoi(poi, editorial, googleMatch = null) {
 }
 
 function copySupplement(poi) {
-  const editorial = normalizeEditorial({ ...poi, displayCategory: poi.category });
+  const editorial = normalizeEditorial({ ...poi, displayCategory: categoryFromGoogle(poi) || poi.category });
   const id = cleanString(poi.sourceId);
   if (!id.startsWith('supplement/')) return null;
   const lat = Number(poi.lat);
@@ -203,8 +208,8 @@ function copySupplement(poi) {
     lng,
     address: cleanString(poi.address),
     hours: editorial.hoursNote,
-    website: editorial.officialWebsiteUrl,
-    officialWebsiteUrl: editorial.officialWebsiteUrl,
+    website: cleanString(poi.googleWebsite) || editorial.officialWebsiteUrl,
+    officialWebsiteUrl: cleanString(poi.googleWebsite) || editorial.officialWebsiteUrl,
     phone: '',
     cuisine: [],
     wheelchair: '',
@@ -387,7 +392,7 @@ export function buildCityData(portInfo, catalog, curation = {}, googleMatches = 
   return {
     schemaVersion: CURRENT_CITY_SCHEMA_VERSION,
     generatedAt: new Date().toISOString(),
-    source: 'curated-poi-v4-google-places-claude-enrichment',
+    source: 'curated-poi-v5-google-places',
     id: portInfo.id,
     city: portInfo.city,
     country: portInfo.country,
