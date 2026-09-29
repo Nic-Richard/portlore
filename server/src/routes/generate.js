@@ -21,6 +21,7 @@ const USAGE_FILE = path.join(CITIES_DIR, '.generation-usage.json');
 
 const router = Router();
 const inProgress = new Set();
+const failures = new Map();
 const requestsByIp = new Map();
 const IP_WINDOW_MS = 60 * 60 * 1000;
 let lastGenerationStartedAt = 0;
@@ -137,6 +138,7 @@ router.post('/:id', async (req, res) => {
   inProgress.add(id);
 
   const cityInput = `${portInfo.city}, ${portInfo.country}`;
+  failures.delete(id);
   res.status(202).json({ status: 'started', estimatedSeconds: 75 });
 
   try {
@@ -177,6 +179,9 @@ router.post('/:id', async (req, res) => {
     logger.debug(`Enriched from curated POI catalog: ${cityInput}`);
   } catch (error) {
     logger.error(`Generation failed for ${id}:`, error.message);
+    failures.set(id, error.overloaded
+      ? 'The server is overloaded right now. Please try again in a few minutes.'
+      : 'There was a server error building this guide. Please try again in a few minutes.');
   } finally {
     inProgress.delete(id);
   }
@@ -194,6 +199,7 @@ router.get('/:id/status', (req, res) => {
     } catch {}
   }
   if (inProgress.has(id)) return res.json({ status: 'generating' });
+  if (failures.has(id)) return res.json({ status: 'failed', error: failures.get(id) });
   try {
     return res.json({ status: readCatalog(id) ? 'not_started' : 'catalog_required' });
   } catch {

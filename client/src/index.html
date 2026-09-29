@@ -1667,6 +1667,7 @@ async function generateCity(port) {
       await new Promise(r => setTimeout(r, 2000));
       const r = await fetch(`/api/generate/${port.id}/status`);
       const data = await r.json();
+      if (data.status === 'failed') throw new Error(data.error);
       ready = data.status === 'ready';
       attempts++;
     }

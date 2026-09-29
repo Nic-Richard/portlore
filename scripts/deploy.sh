@@ -73,6 +73,7 @@ while IFS= read -r -d '' city_file; do
   scp "$city_file" "$SERVER:$REMOTE/cities/$city_name"
   local_city_count=$((local_city_count + 1))
 done < <(find cities -maxdepth 1 -type f -name '*.json' \
+  ! -name '.*' \
   ! -name 'ports.json' \
   ! -name 'osm-extracts.json' \
   -print0)
