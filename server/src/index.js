@@ -8,6 +8,7 @@ import generateRoute from './routes/generate.js';
 import cityRoute from './routes/city.js';
 import nearbyRoute from './routes/nearby.js';
 import routeRoute from './routes/route.js';
+import pagesRoute from './routes/pages.js';
 import * as logger from './lib/logger.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
@@ -25,6 +26,7 @@ app.use('/api/generate', generateRoute);
 app.use('/api/city', cityRoute);
 app.use('/api/nearby', nearbyRoute);
 app.use('/api/route', routeRoute);
+app.use(pagesRoute);
 
 app.get('/api/health', (_, res) => res.json({ ok: true }));
 

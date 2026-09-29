@@ -5,6 +5,7 @@ import fs from 'fs';
 import { fallbackTerminal, distanceMeters } from '../shared/port-resolution.js';
 import { selectCurationCandidates } from '../shared/poi-selection.js';
 import { buildCityData } from '../shared/poi-curation.js';
+import { renderPortPage } from '../server/src/lib/port-page.js';
 
 const tests = [];
 
@@ -124,6 +125,16 @@ test('an added stop that repeats a supplied one is dropped', () => {
   };
   const data = buildCityData(portInfo, guideCatalog, curation, {});
   assert.strictEqual(data.places.length, 1);
+});
+
+test('port pages are indexed only when the port has a guide', () => {
+  const port = { id: 'halifax-canada', city: 'Halifax', country: 'Canada', terminal: 'Seaport Cruise Pavilion', lat: 44.638, lng: -63.565 };
+  const guide = { terminals: [{ name: 'Seaport Cruise Pavilion', lat: 44.638, lng: -63.565 }], places: [{ id: 'a', name: 'Pier 21 <Museum>', lat: 44.637, lng: -63.566 }], hiddenGems: [] };
+  const withGuide = renderPortPage({ port, guide });
+  const withoutGuide = renderPortPage({ port, guide: null });
+  assert.ok(withGuide.includes('rel="canonical"') && !withGuide.includes('noindex'));
+  assert.ok(withGuide.includes('Pier 21 &lt;Museum&gt;'));
+  assert.ok(withoutGuide.includes('noindex') && !withoutGuide.includes('rel="canonical"'));
 });
 
 (async () => {

@@ -40,6 +40,8 @@ The frontend is currently contained in `client/src/index.html` and can be rework
 
 **Guides.** On a port's first visit, or with `scripts/generate-city.js`, Claude curates the shortlist into the guide, planning around the terminals. Google Places then confirms the chosen stops and drops any that have closed.
 
+**Port pages.** Every port has a page at `/ports/<id>`, rendered by the server from the port list and the port's guide: where ships dock, the stops within walking distance, and the hidden gems. Only ports with a current guide are indexed and listed in `/sitemap.xml`; the rest are marked `noindex` until someone plans a day there. `/?port=<id>` opens the planner with that port selected.
+
 ## Rebuilding the data
 
 After editing `data/cruise-ports.json`, regenerate the port list and attach terminals to the catalogs:
