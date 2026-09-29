@@ -51,7 +51,7 @@ ${guide ? `<link rel="canonical" href="${url}">` : '<meta name="robots" content=
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600&display=swap" rel="stylesheet">
 <style>
-:root { --navy: #0f2340; --steel: #4a7299; --brass: #b8954a; --brass-l: #dcc690; --muted: #5d6b80; --faint: #8995a7; --line: #e1e5ec; --page: #f7f8fa; --panel: radial-gradient(80% 110% at 0% 0%, rgba(220,198,144,.34) 0%, transparent 60%), linear-gradient(110deg, var(--steel) 0%, var(--navy) 72%); }
+:root { --navy: #0f2340; --steel: #4a7299; --brass: #b8954a; --brass-l: #dcc690; --muted: #5d6b80; --faint: #8995a7; --line: #ebe6dc; --page: #fbf9f4; --panel: radial-gradient(80% 110% at 0% 0%, rgba(220,198,144,.34) 0%, transparent 60%), linear-gradient(110deg, var(--steel) 0%, var(--navy) 72%); }
 * { box-sizing: border-box; margin: 0; padding: 0; }
 body { font: 17px/1.5 'DM Sans', system-ui, sans-serif; color: var(--navy); background: var(--page); -webkit-font-smoothing: antialiased; font-feature-settings: 'tnum' 1; }
 a { color: inherit; text-underline-offset: 3px; }

@@ -21,9 +21,9 @@
   --brass:   #b8954a;
   --brass-l: #dcc690;
   --metal:   linear-gradient(90deg, var(--brass-l) 0%, var(--brass) 22%, var(--blue) 62%, var(--navy) 100%);
-  --sand:    #f7f8fa;
+  --sand:    #fbf9f4;
   --card:    #ffffff;
-  --border:  #e1e5ec;
+  --border:  #ebe6dc;
   --muted:   #5d6b80;
   --text:    #0f2340;
   --r:       3px;
@@ -266,20 +266,15 @@ body { font-family: var(--sans); background: var(--sand); color: var(--text); mi
   content: ', guide written on first visit';
   font-size: 0.7rem; color: var(--muted); font-weight: 400;
 }
-#page-generating { background: var(--navy); }
-.gen-icon { font-size: 3rem; margin-bottom: 1rem; animation: bob 3s ease-in-out infinite; }
-.gen-title { font-size: 1.5rem; font-weight: 800; color: #fff; letter-spacing: -0.025em; margin-bottom: 0.5rem; }
-.gen-sub { font-size: 0.85rem; color: rgba(255,255,255,0.45); line-height: 1.6; margin-bottom: 1.75rem; }
-.gen-bar {
-  width: 200px; height: 4px; background: rgba(255,255,255,0.1);
-  border-radius: 2px; overflow: hidden; margin: 0 auto 0.75rem;
-}
-.gen-bar-fill {
-  height: 100%; background: var(--metal);
-  border-radius: 2px; width: 0%;
-  transition: width 0.5s ease;
-}
-.gen-status { font-size: 0.75rem; color: rgba(255,255,255,0.35); font-family: var(--sans); }
+.gen { width: 100%; max-width: 420px; text-align: center; color: #fff; }
+.gen-icon { display: block; width: 44px; height: 44px; margin: 0 auto 1.25rem; fill: none; stroke: var(--brass-l); stroke-width: 1.5; stroke-linecap: round; stroke-linejoin: round; animation: bob 3s ease-in-out infinite; }
+.gen-title { font-size: 1.75rem; font-weight: 600; letter-spacing: -0.03em; line-height: 1.15; margin-bottom: 0.6rem; }
+.gen-sub { font-size: 0.95rem; color: rgba(255,255,255,0.72); line-height: 1.6; margin-bottom: 2rem; }
+.gen-bar { width: 240px; height: 6px; background: rgba(255,255,255,0.14); border-radius: 3px; overflow: hidden; margin: 0 auto 0.9rem; }
+.gen-bar-fill { height: 100%; width: 0%; background: var(--metal); transition: width 0.5s ease; }
+.gen-status { font-size: 0.85rem; color: var(--brass-l); }
+@keyframes bob { 50% { transform: translateY(-6px); } }
+@media (prefers-reduced-motion: reduce) { .gen-icon { animation: none; } }
 .w-go {
   width: 100%; padding: 1rem;
   border-radius: var(--r-btn);
@@ -356,19 +351,7 @@ body { font-family: var(--sans); background: var(--sand); color: var(--text); mi
 
 .w-go:disabled { opacity: 0.45; cursor: default; box-shadow: none; }
 
-#page-generating {
-  min-height: 100vh;
-  position: relative;
-  overflow: hidden;
-  background: var(--navy);
-  align-items: center;
-  justify-content: center;
-}
-#page-generating .w-content {
-  width: 100%;
-  max-width: 560px;
-  min-height: 100vh;
-}
+#page-generating { min-height: 100vh; padding: 2rem 1.5rem; background: var(--panel); align-items: center; justify-content: center; }
 #page-explore { flex-direction: row; min-height: 100vh; }
 
 .app-col {
@@ -399,13 +382,13 @@ body { font-family: var(--sans); background: var(--sand); color: var(--text); mi
 .dp-city {
   font-size: 1.4rem; font-weight: 800; color: var(--navy);
   letter-spacing: -0.03em; line-height: 1;
-  background: rgba(247,248,250,0.95);
+  background: rgba(251,249,244,0.95);
   padding: 0.4rem 0.65rem 0.35rem;
   border-radius: var(--r-lg) var(--r-lg) 0 0;
   border: 1px solid var(--border); border-bottom: none;
 }
 .dp-wx {
-  background: rgba(247,248,250,0.95);
+  background: rgba(251,249,244,0.95);
   border: 1px solid var(--border);
   border-radius: 0 var(--r) var(--r) var(--r);
   padding: 0.35rem 0.65rem 0.4rem;
@@ -414,7 +397,7 @@ body { font-family: var(--sans); background: var(--sand); color: var(--text); mi
 }
 .dp-back {
   position: absolute; top: 1rem; right: 1rem; z-index: 10;
-  background: rgba(247,248,250,0.95);
+  background: rgba(251,249,244,0.95);
   border: 1px solid var(--border); border-radius: var(--r);
   padding: 0.38rem 0.7rem; font-size: 0.72rem;
   font-weight: 600; color: var(--navy); cursor: pointer;
@@ -502,7 +485,7 @@ body { font-family: var(--sans); background: var(--sand); color: var(--text); mi
 .wx-unit { font-weight: 500; }
 .wx-cond-row { display: inline; }
 .wx-meta-row { display: none; }
-.wx-note { padding: 0 1.1rem; font-size: 0.76rem; color: var(--muted); }
+.wx-note { padding: 2px 20px 0; font-size: 12px; color: var(--muted); }
 .wx-loading { font-size: 0.78rem; color: var(--muted); }
 #loc-status:empty { display: none; }
 #loc-status { padding: 0.6rem 1.1rem 0; }
@@ -544,7 +527,7 @@ body { font-family: var(--sans); background: var(--sand); color: var(--text); mi
   display: grid; grid-template-columns: 44px minmax(0, 1fr) 32px; gap: 14px; align-items: center;
   cursor: pointer;
 }
-.acard:hover { background: #fbfcfd; }
+.acard:hover { background: #fdfaf4; }
 .awalk { font-size: 22px; font-weight: 600; color: var(--navy); line-height: 1; letter-spacing: -0.02em; font-variant-numeric: tabular-nums; }
 .awalk small { display: block; font-size: 11px; font-weight: 400; color: #8995a7; margin-top: 4px; letter-spacing: 0; line-height: 1.25; }
 .awalk.ride { font-size: 13px; font-weight: 600; }
@@ -628,7 +611,7 @@ body { font-family: var(--sans); background: var(--sand); color: var(--text); mi
   transition: opacity 0.1s;
 }
 #map-container { border-radius: var(--r); overflow: hidden; height: 248px; border: 1px solid var(--border); }
-#dp-map .leaflet-tile-pane, #map-container .leaflet-tile-pane { filter: grayscale(.85) contrast(.92) brightness(1.06); }
+#dp-map .leaflet-tile-pane, #map-container .leaflet-tile-pane { filter: saturate(.85) sepia(.1) brightness(1.02); }
 #tab-map { position: relative; }
 .terminal-lookup-status { position: absolute; z-index: 500; top: 12px; left: 50%; transform: translateX(-50%); display: none; align-items: center; gap: 7px; padding: 7px 11px; border-radius: var(--r); background: rgba(11,25,41,.88); color: white; font-size: .76rem; box-shadow: 0 2px 10px rgba(0,0,0,.2); pointer-events: none; white-space: nowrap; }
 .terminal-lookup-status.visible { display: flex; }
@@ -883,14 +866,12 @@ html.detail-open, body.detail-open { overflow: hidden !important; overscroll-beh
 </div>
 
 <div id="page-generating" class="page">
-  <div class="w-photo-fallback"></div>
-  <div class="w-overlay-top"></div>
-  <div class="w-content" style="align-items:center;justify-content:center;text-align:center;padding:2rem">
-    <div class="gen-icon">🗺️</div>
-    <div class="gen-title" id="gen-title">Exploring Saint John</div>
-    <div class="gen-sub">You're the first to visit this port, so Portlore is building its guide.<br>This only happens once per port and can take a few minutes.</div>
+  <div class="gen">
+    <svg class="gen-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="m16.24 7.76-1.8 5.41a2 2 0 0 1-1.27 1.27L7.76 16.24l1.8-5.41a2 2 0 0 1 1.27-1.27z"/></svg>
+    <h1 class="gen-title" id="gen-title">Building the guide</h1>
+    <p class="gen-sub">You're the first to plan a day here, so Portlore is building this port's guide. It only happens once and takes about a minute.</p>
     <div class="gen-bar"><div class="gen-bar-fill" id="gen-bar-fill"></div></div>
-    <div class="gen-status" id="gen-status">Searching...</div>
+    <p class="gen-status" id="gen-status">Getting to know the port...</p>
   </div>
 </div>
 <div id="page-explore" class="page">
@@ -1609,28 +1590,28 @@ async function loadCity(portId) {
 
 async function generateCity(port) {
   showPage('page-generating');
-  document.getElementById('gen-title').textContent = `Exploring ${port.city}`;
+  document.getElementById('gen-title').textContent = `Building the ${port.city} guide`;
 
   const fill = document.getElementById('gen-bar-fill');
   const status = document.getElementById('gen-status');
   const startedAt = Date.now();
   const statuses = [
     [0, 'Getting to know the port...'],
-    [15, 'Finding the places worth your time...'],
-    [35, 'Picking out the must-see sights...'],
-    [60, 'Looking for good places to eat and shop...'],
-    [90, 'Adding a few local favourites...'],
-    [125, 'Writing your port guide...'],
-    [165, 'Checking how far everything is from the ship...'],
-    [210, 'Finishing up your recommendations...'],
-    [255, 'Almost there. Bigger destinations can take a little longer...']
+    [4, 'Finding the places worth your time...'],
+    [8, 'Picking out the must-see sights...'],
+    [13, 'Looking for good places to eat and shop...'],
+    [18, 'Adding a few local favourites...'],
+    [24, 'Writing your port guide...'],
+    [30, 'Checking how far everything is from the ship...'],
+    [38, 'Finishing up your recommendations...'],
+    [50, 'Almost there. Bigger destinations can take a little longer...']
   ];
   let statusIndex = 0;
   fill.style.width = '4%';
   status.textContent = statuses[0][1];
   const interval = setInterval(() => {
     const elapsedSeconds = (Date.now() - startedAt) / 1000;
-    const pct = Math.min(92, 4 + 88 * (1 - Math.exp(-elapsedSeconds / 105)));
+    const pct = Math.min(92, 4 + 88 * (1 - Math.exp(-elapsedSeconds / 22)));
     fill.style.width = pct.toFixed(1) + '%';
 
     while (statusIndex + 1 < statuses.length && elapsedSeconds >= statuses[statusIndex + 1][0]) {
