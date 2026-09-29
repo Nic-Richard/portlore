@@ -1,4 +1,4 @@
-export const CURRENT_CITY_SCHEMA_VERSION = '1.9';
+export const CURRENT_CITY_SCHEMA_VERSION = '2.0';
 export const POI_CATALOG_SCHEMA_VERSION = 5;
 export const CITY_MODEL = 'claude-haiku-4-5-20251001';
 export const CITY_MAX_TOKENS = 20000;
@@ -7,11 +7,11 @@ export const CITY_TOOLS = [
   {
     type: 'web_search_20250305',
     name: 'web_search',
-    max_uses: 10,
+    max_uses: 4,
   },
 ];
 
-function compactPoi(poi, googleMatch = null, terminals = []) {
+function compactPoi(poi, terminals = []) {
   const value = {
     id: poi.sourceId,
     n: poi.name,
@@ -27,70 +27,62 @@ function compactPoi(poi, googleMatch = null, terminals = []) {
   if (poi.address) value.a = poi.address;
   if (poi.openingHours) value.h = poi.openingHours;
   if (poi.website) value.w = poi.website;
-  if (poi.phone) value.p = poi.phone;
   if (poi.cuisine?.length) value.u = poi.cuisine;
   if (poi.wheelchair) value.x = poi.wheelchair;
   if (poi.description) value.o = poi.description;
-  if (poi.osmTags && Object.keys(poi.osmTags).length) value.g = poi.osmTags;
-  if (googleMatch?.googlePlaceId) {
-    value.gp = googleMatch.googlePlaceId;
-    value.gn = googleMatch.googleDisplayName || undefined;
-    value.ga = googleMatch.googleFormattedAddress || undefined;
-    value.gt = googleMatch.googlePrimaryType || undefined;
-    value.gb = googleMatch.googleBusinessStatus || undefined;
-  }
+  if (poi.fame) value.k = poi.fame;
+  if (poi.curated) value.p = 1;
+  if (poi.gem) value.g = 1;
   return value;
 }
 
-export function buildCityCurationPrompt(portInfo, catalog, googleMatches = {}) {
+export function buildCityCurationPrompt(portInfo, catalog) {
   const terminals = catalogTerminals(catalog);
   const terminalJson = JSON.stringify(terminals.map(terminal => ({ n: terminal.name, lat: terminal.lat, lng: terminal.lng })));
-  const poiJson = JSON.stringify((catalog.pois || []).map(poi => compactPoi(poi, googleMatches.pois?.[poi.sourceId], terminals)));
+  const poiJson = JSON.stringify((catalog.pois || []).map(poi => compactPoi(poi, terminals)));
+  const suggestions = Array.isArray(catalog.gemSuggestions) && catalog.gemSuggestions.length
+    ? `
+Editor's hidden gem suggestions not in the POI list: ${JSON.stringify(catalog.gemSuggestions)}. Add any that hold up as new stops with "hiddenGem": true.
+`
+    : '';
 
   return `Create a practical cruise-port guide for ${portInfo.city}, ${portInfo.country}.
 
-Use the supplied curated POIs as the main list. Make a final editorial pass: keep good stops, remove weak or unsuitable ones, and add only a few obvious omissions. Do not rebuild the destination from scratch.
-
-Port ID: ${portInfo.id}
 Cruise terminals where passengers come ashore: ${terminalJson}
 
-POIS
+Curate the best possible day ashore from the POI shortlist below: the must-see sights, well-loved local favourites, a few hidden gems a first-time visitor would miss, and a varied spread of food and drink, shops, and outdoor stops. Most ports should end up with roughly 25 to 45 stops; a truly lively destination can go past 45.
+- Keep the exact sourceId of each stop you include. Leave out closed, private, industrial, duplicated, unrelated, or low-value places.
+- k is how many Wikipedia language editions cover a place: the higher it is, the more famous the place.
+- p=1 marks an editor's pick; keep it unless it has closed.
+- Mark 3 to 7 stops with "hiddenGem": true: quieter places a first-time visitor would likely miss but locals or seasoned travellers rate highly. g=1 marks the editor's gem candidates: always keep them as stops, but set "hiddenGem": false on any that do not hold up as gems. Add your own gems from the list or as new stops. Say in the description what makes each gem worth finding.
+- Passengers start from a terminal. t is each POI's distance in metres from the nearest one. Favor stops within walking distance, but always keep the destination's headline attractions, even when they need a short ride. Never drop a worthwhile stop only because it is farther away.
+- Keep a useful range of food and drink when options differ by cuisine, format, or visitor need.
+- Source categories may be wrong; choose the best displayCategory.
+- Permanently closed places are removed automatically after your picks, so do not verify routine details.
+- Search only to check a stop that may be closed or duplicated, or to confirm an obvious missing headline attraction. Do not search for websites or routine details.
+- Never return two entries for the same place, including a site and its museum or a supplied stop under another name.
+- Add at most a few important missing stops that are not already in the list (attractions, districts, waterfronts, markets, beaches, viewpoints, food halls, shopping areas, or distinctive local food). Give an exact name, an address when known, and a location hint. Do not return coordinates.
 
-- Keep the exact sourceId for each supplied POI you include.
-- Remove closed, private, industrial, malformed, duplicated, unrelated, or low-value stops.
-- Source categories may be wrong. Choose the best display category.
-- Keep a useful range of food and drink options when they differ by cuisine, format, or visitor need.
-- Each POI's t value is its straight-line distance in metres from the nearest cruise terminal. Passengers start from a terminal, not the city centre.
-- Favor stops within walking distance of a terminal and the walkable visitor core near it, while still including important farther attractions when worthwhile.
-- Access classifications and Maps links are calculated after your curation.
-- Google match fields are provided when available. Use them to confirm identity and closure status, but do not repeat routine verification.
-- Search only for questionable POIs, missing official websites, duplicates, and obvious missing headline stops.
-
-You may add a few important missing attractions, districts, waterfronts, markets, beaches, viewpoints, food halls, shopping areas, or distinctive local food stops. For each supplement return an exact name, address when available, and a practical location hint. Do not return coordinates.
-
-For each included stop return:
+For each stop return:
 - subtitle: at most 10 words
 - description: 1 or 2 useful sentences
 - suggestedVisitMinutes
 - goodFor: 1 to 4 short labels
 - displayCategory: attraction, food_drink, shopping, outdoors, or essentials
-- officialWebsiteUrl: official site when confidently known, otherwise empty
+- officialWebsiteUrl: only when confidently known, otherwise empty
 - hoursNote: only when limited hours materially affect a cruise visit
-- operatingStatus: open, uncertain, or not_applicable
 
-Do not research, select, rename, or return cruise terminals. The terminals above are verified.
-Do not select hidden gems. Return hiddenGems as an empty array. That field is reserved for future manual entries.
-Do not calculate coordinates, distance, access, or Maps links. Do not include prices, ratings, detailed schedules, construction updates, or temporary details.
+Do not return terminals, coordinates, distances, prices, ratings, schedules, or temporary details.
 
-
-Write a concise overview of what the destination offers, general walkability, and whether transport is needed.
+The overview summary covers what the destination offers, general walkability, and whether transport is needed.
 
 Return only this JSON shape:
-{"province":"","timezone":"","photo_query":"","background_position":"center 70%","overview":{"summary":"","arrivalContext":""},"places":[{"sourceId":"","source":"supplied","subtitle":"","description":"","suggestedVisitMinutes":45,"goodFor":[],"displayCategory":"attraction","operatingStatus":"open","officialWebsiteUrl":"","hoursNote":"","verificationSourceUrls":[]}],"hiddenGems":[],"supplementedPois":[{"sourceId":"supplement/example-slug","source":"supplement","name":"","address":"","locationHint":"main visitor entrance","category":"attraction","subtitle":"","description":"","suggestedVisitMinutes":45,"goodFor":[],"operatingStatus":"open","officialWebsiteUrl":"","hoursNote":"","reasonAdded":"","confidence":"high","verificationSourceUrls":[]}],"excludedPoiIds":[{"sourceId":"","reason":""}]}
+{"timezone":"","photo_query":"","background_position":"center 70%","overview":{"summary":""},"places":[{"sourceId":"","subtitle":"","description":"","suggestedVisitMinutes":45,"goodFor":[],"displayCategory":"attraction","officialWebsiteUrl":"","hoursNote":"","hiddenGem":false}],"supplementedPois":[{"sourceId":"supplement/example-slug","name":"","address":"","locationHint":"main visitor entrance","category":"attraction","subtitle":"","description":"","suggestedVisitMinutes":45,"goodFor":[],"officialWebsiteUrl":"","hoursNote":"","hiddenGem":false}]}
 
-Candidate keys: id=source ID, n=name, e=English name, c=category, s=subcategory, lat/lng=source coordinates, t=metres from the nearest cruise terminal, a=address, h=hours, w=website, p=phone, u=cuisine, x=wheelchair, o=description, g=source tags, gp=Google Place ID, gn=Google name, ga=Google address, gt=Google type, gb=Google business status.
+POI keys: id=sourceId, n=name, e=English name, c=category, s=subcategory, lat/lng, t=metres from nearest terminal, a=address, h=hours, w=website, u=cuisine, x=wheelchair, o=description, k=Wikipedia editions covering the place, p=editor's pick, g=editor's gem candidate.
 
-Supplied curated POIs:
+${suggestions}
+POIs:
 ${poiJson}`;
 }
 
@@ -254,10 +246,6 @@ function usableTerminals(items) {
     .filter(item => item.id && Number.isFinite(item.lat) && Number.isFinite(item.lng));
 }
 
-export function hasVerifiedTerminals(catalog) {
-  return usableTerminals(catalog?.terminals).some(item => item.verified);
-}
-
 function catalogTerminals(catalog) {
   const supplied = usableTerminals(catalog?.terminals);
   const verified = supplied.filter(item => item.verified);
@@ -274,12 +262,22 @@ function nearestTerminal(place, terminals) {
   return nearest;
 }
 
-function buildTerminals(catalog, discoveredTerminals, fallback, portInfo) {
-  if (hasVerifiedTerminals(catalog)) return catalogTerminals(catalog);
+function nameKey(value) {
+  return cleanString(value).toLowerCase().normalize('NFKD').replace(/[̀-ͯ]/g, '').replace(/[^a-z0-9]+/g, ' ').trim();
+}
 
-  const discovered = usableTerminals(discoveredTerminals);
-  if (discovered.length) return discovered;
+// Drops an added stop when the model re-adds a supplied stop under a longer or shorter name.
+function duplicatesPlace(supplement, places) {
+  const name = nameKey(supplement.name);
+  if (!name) return false;
+  return places.some(place => {
+    const other = nameKey(place.name);
+    if (!other || (!name.includes(other) && !other.includes(name))) return false;
+    return !Number.isFinite(Number(place.lat)) || haversineMeters(place, supplement) <= 500;
+  });
+}
 
+function buildTerminals(catalog, fallback, portInfo) {
   const supplied = catalogTerminals(catalog);
   if (supplied.length) return supplied;
 
@@ -337,37 +335,37 @@ function applyTerminalDistance(place, terminals) {
     access: accessFromDistance(distance),
   };
 }
-export function buildCityData(portInfo, catalog, curation = {}, googleMatches = {}, discoveredTerminals = []) {
+export function buildCityData(portInfo, catalog, curation = {}, googleMatches = {}) {
   const byId = new Map((catalog.pois || []).map(poi => [poi.sourceId, poi]));
   const used = new Set();
 
-  function resolveSupplied(items) {
-    const output = [];
-    for (const editorial of Array.isArray(items) ? items : []) {
-      const id = cleanString(editorial.sourceId);
-      const poi = byId.get(id);
-      if (!poi || used.has(id)) continue;
-      used.add(id);
-      output.push(copySuppliedPoi(poi, editorial, googleMatches.pois?.[id]));
-    }
-    return output;
-  }
-
-  const places = resolveSupplied(curation.places);
+  const places = [];
   const hiddenGems = [];
+  for (const editorial of Array.isArray(curation.places) ? curation.places : []) {
+    const id = cleanString(editorial.sourceId);
+    const poi = byId.get(id);
+    if (!poi || used.has(id)) continue;
+    used.add(id);
+    // An editor's gem stays a gem unless the model explicitly turns it down.
+    const isGem = editorial.hiddenGem === true || (poi.gem && editorial.hiddenGem !== false);
+    (isGem ? hiddenGems : places).push(copySuppliedPoi(poi, editorial, googleMatches.pois?.[id]));
+  }
 
   const supplements = [];
   for (const item of Array.isArray(curation.supplementedPois) ? curation.supplementedPois : []) {
     const supplement = copySupplement(item);
     if (!supplement || used.has(supplement.id)) continue;
     used.add(supplement.id);
-    supplements.push(supplement);
+    supplements.push({ supplement, isGem: item.hiddenGem === true });
   }
-  places.push(...supplements);
+  for (const { supplement, isGem } of supplements) {
+    if (duplicatesPlace(supplement, [...places, ...hiddenGems])) continue;
+    (isGem ? hiddenGems : places).push(supplement);
+  }
 
   const fallback = catalog.portAnchor || catalog.port || portInfo;
-  const terminals = buildTerminals(catalog, discoveredTerminals, fallback, portInfo);
-  const verifiedTerminals = hasVerifiedTerminals(catalog);
+  const terminals = buildTerminals(catalog, fallback, portInfo);
+  const verifiedTerminals = terminals.some(item => item.verified);
   const defaultTerminal = terminals.find(item => item.id === catalog.defaultTerminalId) || terminals[0];
 
   const overview = curation.overview && typeof curation.overview === 'object' ? curation.overview : {};
@@ -393,8 +391,8 @@ export function buildCityData(portInfo, catalog, curation = {}, googleMatches = 
     terminal: defaultTerminal,
     terminals,
     terminalReview: {
-      status: verifiedTerminals || discoveredTerminals.length ? 'confirmed' : 'unresolved',
-      warning: verifiedTerminals || discoveredTerminals.length ? '' : 'No verified cruise terminal was found, so the port anchor is being used.',
+      status: verifiedTerminals ? 'confirmed' : 'unresolved',
+      warning: verifiedTerminals ? '' : 'No verified cruise terminal was found, so the port anchor is being used.',
       proposedCorrection: null,
     },
     weather: {

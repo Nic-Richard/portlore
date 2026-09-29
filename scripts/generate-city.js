@@ -12,10 +12,9 @@ import {
   CITY_MODEL,
   CITY_SYSTEM_PROMPT,
   CITY_TOOLS,
-  hasVerifiedTerminals,
   POI_CATALOG_SCHEMA_VERSION,
 } from '../shared/poi-curation.js';
-import { discoverGoogleCruiseTerminals, resolveCatalogGooglePlaces, resolveCurationGooglePlaces } from '../shared/google-places.js';
+import { resolveCatalogGooglePlaces, resolveCurationGooglePlaces } from '../shared/google-places.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.join(__dirname, '..');
@@ -69,16 +68,6 @@ async function main() {
   }
 
   console.log(`Enriching ${portInfo.city}, ${portInfo.country} from ${catalog.pois.length} curated POIs...`);
-  const googleMatches = await resolveCatalogGooglePlaces(portInfo, catalog, {
-    apiKey: process.env.GOOGLE_MAPS_API_KEY,
-    cachePath: path.join(ROOT, 'cities', '.google-place-id-cache.json'),
-  });
-
-  const discoveredTerminals = hasVerifiedTerminals(catalog) ? [] : await discoverGoogleCruiseTerminals(portInfo, catalog, {
-    apiKey: process.env.GOOGLE_MAPS_API_KEY,
-    cachePath: path.join(ROOT, 'cities', '.google-place-id-cache.json'),
-  });
-  if (!hasVerifiedTerminals(catalog)) console.log(`Google terminal discovery for ${portInfo.id}: ${discoveredTerminals.length} terminal(s)`);
 
   const client = new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY });
   const response = await client.messages.create({
@@ -86,24 +75,30 @@ async function main() {
     max_tokens: CITY_MAX_TOKENS,
     system: CITY_SYSTEM_PROMPT,
     tools: CITY_TOOLS,
-    messages: [{ role: 'user', content: buildCityCurationPrompt(portInfo, catalog, googleMatches) }],
+    messages: [{ role: 'user', content: buildCityCurationPrompt(portInfo, catalog) }],
   });
   const usage = response.usage || {};
-  console.log(`Claude response: stop_reason=${response.stop_reason || 'unknown'}, input_tokens=${usage.input_tokens || 0}, output_tokens=${usage.output_tokens || 0}, max_tokens=${CITY_MAX_TOKENS}`);
+  const searches = usage.server_tool_use?.web_search_requests || 0;
+  console.log(`Claude response: stop_reason=${response.stop_reason || 'unknown'}, input_tokens=${usage.input_tokens || 0}, output_tokens=${usage.output_tokens || 0}, web_searches=${searches}, max_tokens=${CITY_MAX_TOKENS}`);
 
   const text = response.content.filter(block => block.type === 'text').map(block => block.text).join('');
   const curation = parseJsonText(text);
+  const googleMatches = await resolveCatalogGooglePlaces(portInfo, catalog, {
+    apiKey: process.env.GOOGLE_MAPS_API_KEY,
+    cachePath: path.join(ROOT, 'cities', '.google-place-id-cache.json'),
+    onlyIds: (Array.isArray(curation.places) ? curation.places : []).map(item => item?.sourceId).filter(Boolean),
+  });
   const resolvedCuration = await resolveCurationGooglePlaces(portInfo, catalog, curation, {
     apiKey: process.env.GOOGLE_MAPS_API_KEY,
     cachePath: path.join(ROOT, 'cities', '.google-place-id-cache.json'),
     catalogMatches: googleMatches,
   });
-  const data = buildCityData(portInfo, catalog, resolvedCuration, googleMatches, discoveredTerminals);
+  const data = buildCityData(portInfo, catalog, resolvedCuration, googleMatches);
 
   const outPath = path.join(ROOT, 'cities', `${portInfo.id}.json`);
   fs.writeFileSync(outPath, JSON.stringify(data, null, 2));
 
-  const cost = (((usage.input_tokens || 0) / 1e6) * 1 + ((usage.output_tokens || 0) / 1e6) * 5).toFixed(4);
+  const cost = (((usage.input_tokens || 0) / 1e6) * 1 + ((usage.output_tokens || 0) / 1e6) * 5 + searches * 0.01).toFixed(4);
   console.log(`Written to cities/${portInfo.id}.json`);
   console.log(`Selected ${data.places.length} stops and ${data.hiddenGems.length} hidden gems.`);
   console.log(`Estimated model cost: $${cost}`);

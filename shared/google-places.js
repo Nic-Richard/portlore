@@ -21,7 +21,6 @@ const FIELD_MASK = [
   'places.location',
   'places.primaryType',
   'places.types',
-  'places.googleMapsTypeLabel',
   'places.businessStatus',
 ].join(',');
 
@@ -82,12 +81,24 @@ function placePoint(place) {
   return Number.isFinite(lat) && Number.isFinite(lng) ? { lat, lng } : null;
 }
 
+// "Roman Forum (Foro Romano)" should match "Roman Forum" or "Foro Romano", not only the full string.
+function nameVariants(value) {
+  const text = cleanString(value);
+  const outside = text.replace(/\([^)]*\)/g, ' ').replace(/\s+/g, ' ').trim();
+  const inside = [...text.matchAll(/\(([^)]*)\)/g)].map(match => match[1].trim());
+  return [...new Set([text, outside, ...inside].filter(Boolean))];
+}
+
+function bestTokenScore(values, target) {
+  return Math.max(0, ...values.map(value => tokenScore(value, target)));
+}
+
 function scorePlace(place, request) {
   const displayName = cleanString(place?.displayName?.text);
   const formattedAddress = cleanString(place?.formattedAddress);
-  const nameScore = tokenScore(request.name, displayName) * 70;
+  const nameScore = bestTokenScore(nameVariants(request.name), displayName) * 70;
   const addressScore = request.address ? tokenScore(request.address, formattedAddress) * 15 : 0;
-  const localityScore = tokenScore(`${request.city} ${request.country}`, formattedAddress) * 15;
+  const localityScore = bestTokenScore(nameVariants(request.city).map(city => `${city} ${request.country}`), formattedAddress) * 15;
   const point = placePoint(place);
   let distancePenalty = 0;
   if (request.reference && point) {
@@ -176,7 +187,7 @@ function publicMatch(place, score, query) {
   };
 }
 
-export async function resolveGooglePlace(request, options = {}) {
+async function resolveGooglePlace(request, options = {}) {
   const apiKey = cleanString(options.apiKey);
   if (!apiKey || !cleanString(request?.name)) return null;
 
@@ -247,97 +258,6 @@ async function mapWithConcurrency(items, concurrency, worker) {
   return output;
 }
 
-function terminalFromPlace(place) {
-  const point = placePoint(place);
-  if (!point || !cleanString(place?.id)) return null;
-  return {
-    id: `google-terminal-${place.id}`,
-    sourceId: `google-terminal-${place.id}`,
-    name: cleanString(place?.displayName?.text, 'Cruise terminal'),
-    lat: point.lat,
-    lng: point.lng,
-    address: cleanString(place?.formattedAddress),
-    terminalType: 'passenger_cruise_terminal',
-    verified: true,
-    source: 'google_places_terminal_search',
-    sourceUrls: [],
-    coordinateSource: 'google_places',
-    googlePlaceId: cleanString(place?.id),
-    googlePlaceMatchConfidence: 'high',
-    googlePrimaryType: cleanString(place?.primaryType),
-    googleTypes: Array.isArray(place?.types) ? place.types.filter(type => typeof type === 'string') : [],
-    googleMapsTypeLabel: cleanString(place?.googleMapsTypeLabel?.text),
-  };
-}
-
-export async function discoverGoogleCruiseTerminals(portInfo, catalog, options = {}) {
-  const apiKey = cleanString(options.apiKey);
-  const reference = portReference(portInfo, catalog);
-  if (!apiKey || !reference) return [];
-
-  const cache = loadCache(options.cachePath);
-  const cacheKey = `terminal-discovery:${portInfo.id}`;
-  const cached = cache[cacheKey];
-  if (Array.isArray(cached?.terminals) && cached.terminals.length && !options.force) {
-    return cached.terminals;
-  }
-
-  const fallback = catalog.portAnchor || catalog.port || portInfo;
-  const portName = cleanString(fallback.name || fallback.terminal || portInfo.terminal || portInfo.address);
-  const textQuery = [portName, portInfo.city, portInfo.country, 'cruise terminals'].filter(Boolean).join(', ');
-  const body = {
-    textQuery,
-    pageSize: 20,
-    languageCode: options.languageCode || 'en',
-    locationBias: {
-      circle: {
-        center: { latitude: reference.lat, longitude: reference.lng },
-        radius: options.radiusMeters || 10000,
-      },
-    },
-  };
-
-  const response = await fetch(SEARCH_URL, {
-    method: 'POST',
-    headers: {
-      'Content-Type': 'application/json',
-      'X-Goog-Api-Key': apiKey,
-      'X-Goog-FieldMask': FIELD_MASK,
-    },
-    body: JSON.stringify(body),
-  });
-  if (!response.ok) {
-    const text = await response.text();
-    throw new Error(`Google terminal discovery returned ${response.status}: ${text.slice(0, 300)}`);
-  }
-
-  const data = await response.json();
-  const places = Array.isArray(data.places) ? data.places : [];
-  const radiusMeters = options.radiusMeters || 10000;
-  const typed = places.filter(place => {
-    const types = Array.isArray(place?.types) ? place.types : [];
-    const typeLabel = normalize(place?.googleMapsTypeLabel?.text);
-    return place?.primaryType === 'cruise_terminal'
-      || types.includes('cruise_terminal')
-      || typeLabel === 'cruise terminal';
-  });
-  const candidates = typed.length ? typed : places;
-  const terminals = [];
-  const seen = new Set();
-  for (const place of candidates) {
-    const terminal = terminalFromPlace(place);
-    if (!terminal || seen.has(terminal.googlePlaceId)) continue;
-    if (haversineMeters(reference, terminal) > radiusMeters) continue;
-    seen.add(terminal.googlePlaceId);
-    terminals.push(terminal);
-  }
-
-  terminals.sort((a, b) => haversineMeters(reference, a) - haversineMeters(reference, b));
-  cache[cacheKey] = { terminals, query: textQuery, resolvedAt: new Date().toISOString() };
-  saveCache(options.cachePath, cache);
-  return terminals;
-}
-
 export async function resolveCatalogGooglePlaces(portInfo, catalog, options = {}) {
   const apiKey = cleanString(options.apiKey);
   if (!apiKey) return { pois: {}, terminals: {} };
@@ -346,7 +266,9 @@ export async function resolveCatalogGooglePlaces(portInfo, catalog, options = {}
   const pois = {};
   const terminals = {};
 
-  await mapWithConcurrency(catalog.pois || [], options.concurrency || 3, async poi => {
+  const onlyIds = options.onlyIds ? new Set(options.onlyIds) : null;
+  const candidates = (catalog.pois || []).filter(poi => !onlyIds || onlyIds.has(cleanString(poi.sourceId || poi.id)));
+  await mapWithConcurrency(candidates, options.concurrency || 3, async poi => {
     const sourceId = cleanString(poi.sourceId || poi.id);
     if (!sourceId || !cleanString(poi.name)) return;
     try {

@@ -11,10 +11,9 @@ import {
   CITY_SYSTEM_PROMPT,
   CITY_TOOLS,
   CURRENT_CITY_SCHEMA_VERSION,
-  hasVerifiedTerminals,
   POI_CATALOG_SCHEMA_VERSION,
 } from '../../../shared/poi-curation.js';
-import { discoverGoogleCruiseTerminals, resolveCatalogGooglePlaces, resolveCurationGooglePlaces } from '../../../shared/google-places.js';
+import { resolveCatalogGooglePlaces, resolveCurationGooglePlaces } from '../../../shared/google-places.js';
 import * as logger from '../lib/logger.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
@@ -144,24 +143,13 @@ router.post('/:id', async (req, res) => {
   res.status(202).json({ status: 'started', estimatedSeconds: 75 });
 
   try {
-    const googleMatches = await resolveCatalogGooglePlaces(portInfo, catalog, {
-      apiKey: process.env.GOOGLE_MAPS_API_KEY,
-      cachePath: path.join(CITIES_DIR, '.google-place-id-cache.json'),
-    });
-
-    const discoveredTerminals = hasVerifiedTerminals(catalog) ? [] : await discoverGoogleCruiseTerminals(portInfo, catalog, {
-      apiKey: process.env.GOOGLE_MAPS_API_KEY,
-      cachePath: path.join(CITIES_DIR, '.google-place-id-cache.json'),
-    });
-    if (!hasVerifiedTerminals(catalog)) logger.debug(`Google terminal discovery for ${portInfo.id}: ${discoveredTerminals.length} terminal(s)`);
-
     const client = new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY });
     const response = await client.messages.create({
       model: CITY_MODEL,
       max_tokens: CITY_MAX_TOKENS,
       system: CITY_SYSTEM_PROMPT,
       tools: CITY_TOOLS,
-      messages: [{ role: 'user', content: buildCityCurationPrompt(portInfo, catalog, googleMatches) }],
+      messages: [{ role: 'user', content: buildCityCurationPrompt(portInfo, catalog) }],
     });
 
     const responseUsage = response.usage || {};
@@ -173,12 +161,18 @@ router.post('/:id', async (req, res) => {
     if (start === -1 || end === -1) throw new Error('No JSON in response');
 
     const curation = JSON.parse(fullText.slice(start, end + 1));
+    // Google is only searched for the stops Claude picked, not the whole shortlist.
+    const googleMatches = await resolveCatalogGooglePlaces(portInfo, catalog, {
+      apiKey: process.env.GOOGLE_MAPS_API_KEY,
+      cachePath: path.join(CITIES_DIR, '.google-place-id-cache.json'),
+      onlyIds: (Array.isArray(curation.places) ? curation.places : []).map(item => item?.sourceId).filter(Boolean),
+    });
     const resolvedCuration = await resolveCurationGooglePlaces(portInfo, catalog, curation, {
       apiKey: process.env.GOOGLE_MAPS_API_KEY,
       cachePath: path.join(CITIES_DIR, '.google-place-id-cache.json'),
       catalogMatches: googleMatches,
     });
-    const data = buildCityData(portInfo, catalog, resolvedCuration, googleMatches, discoveredTerminals);
+    const data = buildCityData(portInfo, catalog, resolvedCuration, googleMatches);
     fs.mkdirSync(CITIES_DIR, { recursive: true });
     fs.writeFileSync(outPath, JSON.stringify(data, null, 2));
 
