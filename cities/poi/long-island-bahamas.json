@@ -1,0 +1,96 @@
+{
+  "defaultTerminalId": "review/long-island-bahamas/long-island-cruise-port",
+  "terminal": {
+    "id": "review/long-island-bahamas/long-island-cruise-port",
+    "name": "Long Island cruise port",
+    "lat": 23.04989,
+    "lng": -74.90545,
+    "terminalType": "passenger_cruise_terminal",
+    "source": "cruisemapper",
+    "approximate": true,
+    "sourceId": "review/long-island-bahamas/long-island-cruise-port",
+    "verified": true
+  },
+  "terminals": [
+    {
+      "id": "review/long-island-bahamas/long-island-cruise-port",
+      "name": "Long Island cruise port",
+      "lat": 23.04989,
+      "lng": -74.90545,
+      "terminalType": "passenger_cruise_terminal",
+      "source": "cruisemapper",
+      "approximate": true,
+      "sourceId": "review/long-island-bahamas/long-island-cruise-port",
+      "verified": true
+    }
+  ],
+  "schemaVersion": 5,
+  "catalogType": "curation-candidates",
+  "source": "openstreetmap",
+  "sourceExtract": "bahamas-latest.osm.pbf",
+  "radiusMeters": 10000,
+  "port": {
+    "id": "long-island-bahamas",
+    "city": "Long Island (Bahamas)",
+    "country": "Bahamas"
+  },
+  "portAnchor": {
+    "id": "ports-json-anchor",
+    "name": "Long Island cruise port",
+    "lat": 23.04989,
+    "lng": -74.90545,
+    "address": "Long Island (Bahamas), Bahamas",
+    "source": "ports.json",
+    "sourceId": "",
+    "score": 0,
+    "slug": "long-island-cruise-port"
+  },
+  "generatedAt": "2026-09-29T05:47:43.225Z",
+  "counts": {
+    "attraction": 0,
+    "food_drink": 0,
+    "shopping": 0,
+    "outdoors": 1,
+    "essentials": 0
+  },
+  "pois": [
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/53e8efea053585ccbf3b",
+      "name": "Lochabar Beach",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "beach",
+      "lat": 23.0685931,
+      "lng": -74.9149137,
+      "distanceFromTerminalMeters": 2294,
+      "distanceFromDefaultTerminalMeters": 2294,
+      "minDistanceFromAnyTerminalMeters": 2294,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "natural": "beach"
+      },
+      "curated": true,
+      "gem": true
+    }
+  ],
+  "terminalResolution": {
+    "status": "resolved",
+    "method": "cruise-ports",
+    "verified": true,
+    "notes": ""
+  },
+  "gemSuggestions": [
+    "Dean's Blue Hole"
+  ]
+}

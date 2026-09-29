@@ -1,15 +1,4 @@
 {
-  "schemaVersion": 5,
-  "catalogType": "curation-candidates",
-  "generatedAt": "2026-07-30T08:14:40.531Z",
-  "source": "openstreetmap",
-  "sourceExtract": "kanto-latest.osm.pbf",
-  "radiusMeters": 10000,
-  "port": {
-    "id": "tokyo-japan",
-    "city": "Tokyo",
-    "country": "Japan"
-  },
   "defaultTerminalId": "review/tokyo-japan/tokyo-international-cruise-terminal",
   "terminal": {
     "id": "review/tokyo-japan/tokyo-international-cruise-terminal",
@@ -18,9 +7,8 @@
     "lng": 139.7711,
     "terminalType": "passenger_cruise_terminal",
     "source": "terminal_review",
-    "sourceUrls": [],
-    "verified": true,
-    "sourceId": "review/tokyo-japan/tokyo-international-cruise-terminal"
+    "sourceId": "review/tokyo-japan/tokyo-international-cruise-terminal",
+    "verified": true
   },
   "terminals": [
     {
@@ -30,654 +18,145 @@
       "lng": 139.7711,
       "terminalType": "passenger_cruise_terminal",
       "source": "terminal_review",
-      "sourceUrls": [],
-      "verified": true,
-      "sourceId": "review/tokyo-japan/tokyo-international-cruise-terminal"
+      "sourceId": "review/tokyo-japan/tokyo-international-cruise-terminal",
+      "verified": true
     }
   ],
-  "terminalCandidateRadiusMeters": 5000,
-  "terminalCandidates": [
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/dfe608600b07fd42e674",
-      "name": "ウォーターズ竹芝前",
-      "nameEnglish": "",
-      "lat": 35.6569486,
-      "lng": 139.7630061,
-      "distanceFromPortMeters": 1867,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/dfe608600b07fd42e674"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/0cb34f14c3dcc2573c9e",
-      "name": "水上バス乗り場",
-      "nameEnglish": "Water Bus Station",
-      "lat": 35.6601987,
-      "lng": 139.7672897,
-      "distanceFromPortMeters": 1905,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "name:en": "Water Bus Station",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/0cb34f14c3dcc2573c9e"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/0c197199e2e9e26a422c",
-      "name": "竹芝客船ターミナル",
-      "nameEnglish": "Takeshiba Passenger Terminal",
-      "lat": 35.6540857,
-      "lng": 139.762769,
-      "distanceFromPortMeters": 2112,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal",
-        "terminal-like name"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "name:en": "Takeshiba Passenger Terminal",
-        "public_transport": "stop_position"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/0c197199e2e9e26a422c"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/6e5034313b649591b66c",
-      "name": "竹芝桟橋",
-      "nameEnglish": "",
-      "lat": 35.6548259,
-      "lng": 139.7641671,
-      "distanceFromPortMeters": 2118,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "public_transport": "stop_position"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/6e5034313b649591b66c"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/01ac90af426cce80ec0f",
-      "name": "竹芝小型船ターミナル",
-      "nameEnglish": "Takeshiba Small ship terminal",
-      "lat": 35.6521992,
-      "lng": 139.7620109,
-      "distanceFromPortMeters": 2257,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "name:en": "Takeshiba Small ship terminal",
-        "public_transport": "stop_position"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/01ac90af426cce80ec0f"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/bb78554dfeba8fefb544",
-      "name": "Hi-NODE",
-      "nameEnglish": "",
-      "lat": 35.6516307,
-      "lng": 139.7607112,
-      "distanceFromPortMeters": 2260,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/bb78554dfeba8fefb544"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/7fce3bee29d1a844a972",
-      "name": "日の出桟橋",
-      "nameEnglish": "Hinode Sambashi",
-      "lat": 35.6513748,
-      "lng": 139.7606156,
-      "distanceFromPortMeters": 2282,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "name:en": "Hinode Sambashi",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/7fce3bee29d1a844a972"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/35571c99d98a20a7fc4f",
-      "name": "明石町・聖路加ガーデン前",
-      "nameEnglish": "",
-      "lat": 35.665265,
-      "lng": 139.7780707,
-      "distanceFromPortMeters": 2590,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/35571c99d98a20a7fc4f"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/e403dcd0cc0bb8179c02",
-      "name": "日本橋観光桟橋",
-      "nameEnglish": "Nihonbashi Tourist Pier",
-      "lat": 35.6838198,
-      "lng": 139.7748102,
-      "distanceFromPortMeters": 2717,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "cargo": "passengers",
-        "ferry": "yes",
-        "name:en": "Nihonbashi Tourist Pier",
-        "operator": "(株)東京湾クルージング",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/e403dcd0cc0bb8179c02"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/a7024f6925e55f961cee",
-      "name": "晴海五丁目船着場",
-      "nameEnglish": "",
-      "lat": 35.6517672,
-      "lng": 139.7724682,
-      "distanceFromPortMeters": 2869,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/a7024f6925e55f961cee"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/08f5b1a2db46f6bb19ff",
-      "name": "晴海客船ターミナル",
-      "nameEnglish": "",
-      "lat": 35.6468898,
-      "lng": 139.7733091,
-      "distanceFromPortMeters": 3322,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "building": "yes"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/08f5b1a2db46f6bb19ff"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/d290c5278c9fab0a8250",
-      "name": "越中島船着場",
-      "nameEnglish": "Etchujima Water Bus Station",
-      "lat": 35.6691461,
-      "lng": 139.7888861,
-      "distanceFromPortMeters": 3514,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "name:en": "Etchujima Water Bus Station",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/d290c5278c9fab0a8250"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/36fb37dad6caec67f176",
-      "name": "水上バスのりば",
-      "nameEnglish": "Water Bus Station",
-      "lat": 35.6976268,
-      "lng": 139.7921912,
-      "distanceFromPortMeters": 4895,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "cargo": "passengers",
-        "ferry": "yes",
-        "name:en": "Water Bus Station",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/36fb37dad6caec67f176"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/968a9df8517c72dbc88e",
-      "name": "有明アリーナ船着場",
-      "nameEnglish": "",
-      "lat": 35.6449156,
-      "lng": 139.7950918,
-      "distanceFromPortMeters": 4937,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/968a9df8517c72dbc88e"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/a9da78880dcef8675897",
-      "name": "お台場海浜公園船着場",
-      "nameEnglish": "",
-      "lat": 35.6294897,
-      "lng": 139.7732994,
-      "distanceFromPortMeters": 4972,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/a9da78880dcef8675897"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/a12027119f5e63b2c6cf",
-      "name": "お台場海浜公園船着場",
-      "nameEnglish": "",
-      "lat": 35.6291145,
-      "lng": 139.7722742,
-      "distanceFromPortMeters": 4972,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/a12027119f5e63b2c6cf"
-      ]
-    }
-  ],
+  "schemaVersion": 5,
+  "catalogType": "curation-candidates",
+  "source": "openstreetmap",
+  "sourceExtract": "kanto-latest.osm.pbf",
+  "radiusMeters": 10000,
+  "port": {
+    "id": "tokyo-japan",
+    "city": "Tokyo",
+    "country": "Japan"
+  },
+  "portAnchor": {
+    "id": "ports-json-anchor",
+    "name": "Tokyo International Cruise Terminal",
+    "lat": 35.61774,
+    "lng": 139.7711,
+    "address": "Tokyo, Tokyo Prefecture, Japan",
+    "source": "ports.json",
+    "sourceId": "",
+    "score": 0,
+    "slug": "tokyo-international-cruise-terminal"
+  },
+  "generatedAt": "2026-09-29T05:47:50.392Z",
   "counts": {
-    "attraction": 13,
-    "outdoors": 7,
-    "food_drink": 16,
-    "shopping": 4,
-    "essentials": 2
+    "attraction": 28,
+    "food_drink": 24,
+    "shopping": 15,
+    "outdoors": 13,
+    "essentials": 3
   },
   "pois": [
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/f3841eacb4fcfbc25c75",
-      "name": "teamLab Borderless Museum",
-      "nameEnglish": "teamLab Borderless",
+      "sourceId": "osm/generated/da3087f9486c4e307039",
+      "name": "宗谷",
+      "nameEnglish": "Sōya",
       "category": "attraction",
       "subcategory": "museum",
-      "lat": 35.6620024,
-      "lng": 139.7434178,
-      "distanceFromTerminalMeters": 1070,
-      "distanceFromDefaultTerminalMeters": 1070,
-      "minDistanceFromAnyTerminalMeters": 1070,
+      "lat": 35.6190646,
+      "lng": 139.7736648,
+      "distanceFromTerminalMeters": 275,
+      "distanceFromDefaultTerminalMeters": 275,
+      "minDistanceFromAnyTerminalMeters": 275,
       "nearestTerminalId": "ports-json-anchor",
       "address": "",
-      "openingHours": "Mo-Su 08:30-21:00",
-      "website": "https://www.teamlab.art/e/tokyo/",
+      "openingHours": "10:00-17:00",
+      "website": "",
       "phone": "",
       "cuisine": [],
-      "wheelchair": "yes",
+      "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "Q138537",
+      "wikipedia": "ja:宗谷 (船)",
       "osmTags": {
+        "historic": "ship",
+        "man_made": "yes",
         "tourism": "museum"
-      }
+      },
+      "curated": true,
+      "gem": true,
+      "fame": 10
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/46720f37a51229da0f40",
-      "name": "明治神宮ミュージアム",
-      "nameEnglish": "Meiji Shrine Museum",
-      "category": "attraction",
-      "subcategory": "museum",
-      "lat": 35.6723145,
-      "lng": 139.7021481,
-      "distanceFromTerminalMeters": 4330,
-      "distanceFromDefaultTerminalMeters": 4330,
-      "minDistanceFromAnyTerminalMeters": 4330,
+      "sourceId": "osm/generated/44db4a1cdcbe4e930197",
+      "name": "浜離宮恩賜庭園",
+      "nameEnglish": "Hama-rikyu Gardens",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 35.6602032,
+      "lng": 139.7637002,
+      "distanceFromTerminalMeters": 4769,
+      "distanceFromDefaultTerminalMeters": 4769,
+      "minDistanceFromAnyTerminalMeters": 4769,
       "nearestTerminalId": "ports-json-anchor",
       "address": "",
-      "openingHours": "Mo-We,Fr-Su 10:00-16:30; PH 10:00-16:30",
-      "website": "https://www.meijijingu.or.jp/museum/",
+      "openingHours": "Mo-Su 09:00-17:00; Dec 29-Jan 01 off",
+      "website": "https://www.tokyo-park.or.jp/park/hama-rikyu/",
+      "phone": "+81 3-3541-0200",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q1033333",
+      "wikipedia": "ja:浜離宮恩賜庭園",
+      "osmTags": {
+        "leisure": "park"
+      },
+      "curated": true,
+      "gem": true,
+      "fame": 18
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/48ceb9b284eaa2feeb8b",
+      "name": "甘味処いちょうの木",
+      "nameEnglish": "Ichounoki",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 35.62008,
+      "lng": 139.7412004,
+      "distanceFromTerminalMeters": 2715,
+      "distanceFromDefaultTerminalMeters": 2715,
+      "minDistanceFromAnyTerminalMeters": 2715,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "14, 品川区",
+      "openingHours": "Fr-We 11:30-17:30",
+      "website": "http://www1.odn.ne.jp/~cdv71250/ichounoki/ichounoki.html",
       "phone": "",
-      "cuisine": [],
+      "cuisine": [
+        "dessert"
+      ],
       "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "",
+      "wikipedia": "",
       "osmTags": {
-        "tourism": "museum"
-      }
+        "amenity": "restaurant"
+      },
+      "curated": true,
+      "gem": true
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/57ef91a8f3f3cd6d73e1",
-      "name": "金龍山 浅草寺",
-      "nameEnglish": "Sensō-ji",
-      "category": "attraction",
-      "subcategory": "attraction",
-      "lat": 35.713454,
-      "lng": 139.7959524,
-      "distanceFromTerminalMeters": 6369,
-      "distanceFromDefaultTerminalMeters": 6369,
-      "minDistanceFromAnyTerminalMeters": 6369,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "1, 台東区, 111-0032",
-      "openingHours": "Mo-Su 06:00-17:00",
-      "website": "https://senso-ji.jp",
-      "phone": "+81-3-3842-0181",
-      "cuisine": [],
-      "wheelchair": "no",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "amenity": "place_of_worship",
-        "tourism": "attraction"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/9b39d95b6c7ed648d59f",
-      "name": "菊池寛実記念智美術館",
-      "nameEnglish": "Kikuchi Kanjitsu Memorial Tomo Museum",
-      "category": "attraction",
-      "subcategory": "museum",
-      "lat": 35.666041,
-      "lng": 139.744605,
-      "distanceFromTerminalMeters": 657,
-      "distanceFromDefaultTerminalMeters": 657,
-      "minDistanceFromAnyTerminalMeters": 657,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "",
-      "openingHours": "",
-      "website": "https://www.musee-tomo.or.jp/",
-      "phone": "",
-      "cuisine": [],
-      "wheelchair": "limited",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "tourism": "museum"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/8c190169cfe8d15d1527",
-      "name": "大倉集古館",
-      "nameEnglish": "Okura Museum of Art",
-      "category": "attraction",
-      "subcategory": "museum",
-      "lat": 35.666923,
-      "lng": 139.7432191,
-      "distanceFromTerminalMeters": 702,
-      "distanceFromDefaultTerminalMeters": 702,
-      "minDistanceFromAnyTerminalMeters": 702,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "3, 港区",
-      "openingHours": "Tu-Su 10:00-16:30",
-      "website": "https://www.shukokan.org/",
-      "phone": "",
-      "cuisine": [],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "tourism": "museum"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/21e670a1d9b6141d691e",
-      "name": "NHK放送博物館",
-      "nameEnglish": "NHK Museum of Broadcasting",
-      "category": "attraction",
-      "subcategory": "museum",
-      "lat": 35.6637251,
-      "lng": 139.7482596,
-      "distanceFromTerminalMeters": 715,
-      "distanceFromDefaultTerminalMeters": 715,
-      "minDistanceFromAnyTerminalMeters": 715,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "1, 105-0002",
-      "openingHours": "Tu-Su,PH 10:00-16:30",
-      "website": "http://www.nhk.or.jp/museum/",
-      "phone": "03-5400-6900",
-      "cuisine": [],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "tourism": "museum"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/7d384ccc5b8aa34185b9",
-      "name": "憲政記念館",
-      "nameEnglish": "Parliamentary Museum",
-      "category": "attraction",
-      "subcategory": "museum",
-      "lat": 35.678347,
-      "lng": 139.7470123,
-      "distanceFromTerminalMeters": 967,
-      "distanceFromDefaultTerminalMeters": 967,
-      "minDistanceFromAnyTerminalMeters": 967,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "",
-      "openingHours": "Mo-Su 09:30-17:00",
-      "website": "http://www.shugiin.go.jp",
-      "phone": "0335811651",
-      "cuisine": [],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "tourism": "museum"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/8b2d0757c5dc5984b748",
-      "name": "泉屋博古館東京",
-      "nameEnglish": "Sen-Oku Hakukokan Museum Tokyo",
-      "category": "attraction",
-      "subcategory": "museum",
-      "lat": 35.665033,
-      "lng": 139.741068,
-      "distanceFromTerminalMeters": 978,
-      "distanceFromDefaultTerminalMeters": 978,
-      "minDistanceFromAnyTerminalMeters": 978,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "1",
-      "openingHours": "Tu-Su 10:00-16:30",
-      "website": "https://sen-oku.or.jp/tokyo",
-      "phone": "",
-      "cuisine": [],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "tourism": "museum"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/ced66d9d2e0f550e3959",
-      "name": "Art Aquarium Museum GINZA",
-      "nameEnglish": "Art Aquarium Museum GINZA",
-      "category": "attraction",
-      "subcategory": "museum",
-      "lat": 35.67138,
-      "lng": 139.7657079,
-      "distanceFromTerminalMeters": 1427,
-      "distanceFromDefaultTerminalMeters": 1427,
-      "minDistanceFromAnyTerminalMeters": 1427,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "16, 中央区, 104-8212",
-      "openingHours": "Mo-Su,PH 10:00-19:00; Dec 31 10:00-17:30; Jan 01 off",
-      "website": "https://artaquarium.jp/",
-      "phone": "+81-3-3528-6721",
-      "cuisine": [],
-      "wheelchair": "yes",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "tourism": "museum"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/79ac4d417d4d5c508046",
+      "sourceId": "osm/generated/5285ced35d701129df09",
       "name": "皇居",
       "nameEnglish": "Imperial Palace",
       "category": "attraction",
       "subcategory": "castle",
       "lat": 35.6838556,
       "lng": 139.7508321,
-      "distanceFromTerminalMeters": 1543,
-      "distanceFromDefaultTerminalMeters": 1543,
-      "minDistanceFromAnyTerminalMeters": 1543,
+      "distanceFromTerminalMeters": 7576,
+      "distanceFromDefaultTerminalMeters": 7576,
+      "minDistanceFromAnyTerminalMeters": 7576,
       "nearestTerminalId": "ports-json-anchor",
       "address": "1, 千代田区, 100-0001",
       "openingHours": "",
@@ -687,9 +166,68 @@
       "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "Q500681",
+      "wikipedia": "ja:皇居",
       "osmTags": {
         "historic": "castle"
-      }
+      },
+      "fame": 43
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/df528d27cd131eaa4cb0",
+      "name": "お台場",
+      "nameEnglish": "Odaiba",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 35.6275347,
+      "lng": 139.7714719,
+      "distanceFromTerminalMeters": 1090,
+      "distanceFromDefaultTerminalMeters": 1090,
+      "minDistanceFromAnyTerminalMeters": 1090,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q211861",
+      "wikipedia": "ja:お台場",
+      "osmTags": {
+        "tourism": "attraction"
+      },
+      "fame": 38
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b331441ca61a732bc9c5",
+      "name": "国立新美術館",
+      "nameEnglish": "National Art Center Tokyo",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 35.6650234,
+      "lng": 139.7264998,
+      "distanceFromTerminalMeters": 6625,
+      "distanceFromDefaultTerminalMeters": 6625,
+      "minDistanceFromAnyTerminalMeters": 6625,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Su-Mo,We-Th 10:00-18:00; Fr-Sa 10:00-20:00; Tu off; Dec 26-Jan 10 off",
+      "website": "https://www.nact.jp/",
+      "phone": "+81 3 6812 9900",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q1362638",
+      "wikipedia": "ja:国立新美術館",
+      "osmTags": {
+        "tourism": "museum"
+      },
+      "fame": 26
     },
     {
       "source": "openstreetmap",
@@ -700,9 +238,9 @@
       "subcategory": "castle",
       "lat": 35.6803087,
       "lng": 139.72877,
-      "distanceFromTerminalMeters": 2234,
-      "distanceFromDefaultTerminalMeters": 2234,
-      "minDistanceFromAnyTerminalMeters": 2234,
+      "distanceFromTerminalMeters": 7939,
+      "distanceFromDefaultTerminalMeters": 7939,
+      "minDistanceFromAnyTerminalMeters": 7939,
       "nearestTerminalId": "ports-json-anchor",
       "address": "1, 港区, 107-0051",
       "openingHours": "",
@@ -712,147 +250,109 @@
       "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "Q555255",
+      "wikipedia": "ja:迎賓館赤坂離宮",
       "osmTags": {
         "historic": "castle"
-      }
+      },
+      "fame": 26
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/a9a77eb58caa37363e19",
-      "name": "Crossing View & Rooftop Lounge MAG8",
-      "nameEnglish": "",
-      "category": "outdoors",
-      "subcategory": "viewpoint",
-      "lat": 35.6596594,
-      "lng": 139.7008409,
-      "distanceFromTerminalMeters": 4587,
-      "distanceFromDefaultTerminalMeters": 4587,
-      "minDistanceFromAnyTerminalMeters": 4587,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "",
-      "openingHours": "10:00-22:00",
-      "website": "https://magnetbyshibuya109.jp/shop/shibuya-mag8",
-      "phone": "+81-80-9194-6496",
-      "cuisine": [],
-      "wheelchair": "",
-      "brand": "",
-      "description": "Magnet mall's park rooftop Shibuya Crossing observation deck; charges for access",
-      "osmTags": {
-        "tourism": "viewpoint"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/4e3d4497307143453510",
-      "name": "皇居外苑",
-      "nameEnglish": "Kokyo Gaien National Garden",
+      "sourceId": "osm/generated/dd4614e114cd083cc007",
+      "name": "代々木公園",
+      "nameEnglish": "Yoyogi Park",
       "category": "outdoors",
       "subcategory": "park",
-      "lat": 35.6799642,
-      "lng": 139.7572672,
-      "distanceFromTerminalMeters": 1288,
-      "distanceFromDefaultTerminalMeters": 1288,
-      "minDistanceFromAnyTerminalMeters": 1288,
+      "lat": 35.6699745,
+      "lng": 139.6963083,
+      "distanceFromTerminalMeters": 8911,
+      "distanceFromDefaultTerminalMeters": 8911,
+      "minDistanceFromAnyTerminalMeters": 8911,
       "nearestTerminalId": "ports-json-anchor",
-      "address": "",
+      "address": "渋谷区代々木神園町2-1",
       "openingHours": "",
-      "website": "https://fng.or.jp/koukyo/",
-      "phone": "",
-      "cuisine": [],
-      "wheelchair": "yes",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "leisure": "park"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/720e5f802f349489dadb",
-      "name": "浜離宮恩賜庭園",
-      "nameEnglish": "Hama-rikyū Gardens",
-      "category": "outdoors",
-      "subcategory": "park",
-      "lat": 35.6602032,
-      "lng": 139.7637002,
-      "distanceFromTerminalMeters": 1649,
-      "distanceFromDefaultTerminalMeters": 1649,
-      "minDistanceFromAnyTerminalMeters": 1649,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "",
-      "openingHours": "Mo-Su 09:00-17:00; Dec 29-Jan 01 off",
-      "website": "https://www.tokyo-park.or.jp/park/hama-rikyu/",
-      "phone": "+81 3-3541-0200",
+      "website": "https://www.tokyo-park.or.jp/park/format/index039.html",
+      "phone": "+81 3-3469-6081",
       "cuisine": [],
       "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "Q1204253",
+      "wikipedia": "ja:代々木公園",
       "osmTags": {
         "leisure": "park"
-      }
+      },
+      "fame": 25
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/46c23e5e4bb306c81a33",
-      "name": "丸の内ハウス",
-      "nameEnglish": "Marunouchi House",
-      "category": "outdoors",
-      "subcategory": "viewpoint",
-      "lat": 35.6824495,
-      "lng": 139.7646788,
-      "distanceFromTerminalMeters": 1917,
-      "distanceFromDefaultTerminalMeters": 1917,
-      "minDistanceFromAnyTerminalMeters": 1917,
+      "sourceId": "osm/generated/619915f59791fc9eae4b",
+      "name": "東京国立近代美術館",
+      "nameEnglish": "National Museum of Modern Art, Tokyo",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 35.6904947,
+      "lng": 139.7546203,
+      "distanceFromTerminalMeters": 8226,
+      "distanceFromDefaultTerminalMeters": 8226,
+      "minDistanceFromAnyTerminalMeters": 8226,
       "nearestTerminalId": "ports-json-anchor",
-      "address": "",
-      "openingHours": "Mo-Su 11:00-23:00",
-      "website": "https://www.marunouchi-house.com/",
-      "phone": "",
+      "address": "3-1, 千代田区, 102-8322",
+      "openingHours": "Sa-Th 10:00-17:00; Fr 10:00-20:00",
+      "website": "https://www.momat.go.jp/",
+      "phone": "+81357778600",
       "cuisine": [],
-      "wheelchair": "yes",
+      "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "Q1359908",
+      "wikipedia": "ja:東京国立近代美術館",
       "osmTags": {
-        "tourism": "viewpoint"
-      }
+        "tourism": "museum"
+      },
+      "fame": 22
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/dff94c1072e0c43350e7",
-      "name": "皇居東御苑",
-      "nameEnglish": "Imperial Palace East Gardens",
+      "sourceId": "osm/generated/1e7da6a068538dad834c",
+      "name": "新宿御苑",
+      "nameEnglish": "Shinjuku Gyoen National Garden",
       "category": "outdoors",
       "subcategory": "park",
-      "lat": 35.6864721,
-      "lng": 139.7571878,
-      "distanceFromTerminalMeters": 1943,
-      "distanceFromDefaultTerminalMeters": 1943,
-      "minDistanceFromAnyTerminalMeters": 1943,
+      "lat": 35.6851027,
+      "lng": 139.7098924,
+      "distanceFromTerminalMeters": 9311,
+      "distanceFromDefaultTerminalMeters": 9311,
+      "minDistanceFromAnyTerminalMeters": 9311,
       "nearestTerminalId": "ports-json-anchor",
-      "address": "",
-      "openingHours": "Mar 01-Apr 14 Tu-Th,Sa-Su 09:00-17:00; Apr 15-Aug 31 Tu-Th,Sa-Su 09:00-18:00; Sep Tu-Th,Sa-Su 09:00-17:00; Oct Tu-Th,Sa-Su 09:00-16:30; Nov 01-Feb 29 Tu-Th,Sa-Su 09:00-16:00; Dec 28-Jan 03 off; Feb 23 off; Mo,Fr off",
-      "website": "https://www.kunaicho.go.jp/event/higashigyoen/higashigyoen.html",
-      "phone": "",
+      "address": "新宿区, 160-0014",
+      "openingHours": "Mo off; Oct 01-Mar 14 Tu-Su 09:00-16:30; Mar 15-Jun 30 Tu-Su 09:00-18:00; Jul 01-Aug 20 Tu-Su 09:00-19:00; Aug 21-Sep 30 Tu-Su 09:00-18:00; Dec 29-Jan 03 off",
+      "website": "http://www.env.go.jp/garden/shinjukugyoen/",
+      "phone": "+81 3-3350-0151",
       "cuisine": [],
-      "wheelchair": "yes",
+      "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "Q776863",
+      "wikipedia": "ja:新宿御苑",
       "osmTags": {
         "leisure": "park"
-      }
+      },
+      "fame": 22
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/52ff9f041f02aebc44b3",
-      "name": "オークラ庭園",
-      "nameEnglish": "The Okura Tokyo garden",
+      "sourceId": "osm/generated/dfde872d261aa803e001",
+      "name": "都立夢の島公園",
+      "nameEnglish": "Yumenoshima Park",
       "category": "outdoors",
-      "subcategory": "garden",
-      "lat": 35.6676974,
-      "lng": 139.7442027,
-      "distanceFromTerminalMeters": 583,
-      "distanceFromDefaultTerminalMeters": 583,
-      "minDistanceFromAnyTerminalMeters": 583,
+      "subcategory": "park",
+      "lat": 35.651103,
+      "lng": 139.8279005,
+      "distanceFromTerminalMeters": 6333,
+      "distanceFromDefaultTerminalMeters": 6333,
+      "minDistanceFromAnyTerminalMeters": 6333,
       "nearestTerminalId": "ports-json-anchor",
       "address": "",
       "openingHours": "",
@@ -862,565 +362,1198 @@
       "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "Q11431452",
+      "wikipedia": "en:Yumenoshima Park",
       "osmTags": {
-        "leisure": "garden"
-      }
+        "leisure": "park"
+      },
+      "fame": 17
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/7cfa81c981ba5f4b2770",
-      "name": "国会前庭",
-      "nameEnglish": "Diet Front Garden",
+      "sourceId": "osm/generated/c76a10c15779315deda3",
+      "name": "葛西臨海公園",
+      "nameEnglish": "Kasai Rinkai Park",
       "category": "outdoors",
-      "subcategory": "garden",
-      "lat": 35.6753971,
-      "lng": 139.7481601,
-      "distanceFromTerminalMeters": 623,
-      "distanceFromDefaultTerminalMeters": 623,
-      "minDistanceFromAnyTerminalMeters": 623,
+      "subcategory": "park",
+      "lat": 35.6422183,
+      "lng": 139.8619281,
+      "distanceFromTerminalMeters": 8648,
+      "distanceFromDefaultTerminalMeters": 8648,
+      "minDistanceFromAnyTerminalMeters": 8648,
       "nearestTerminalId": "ports-json-anchor",
       "address": "",
-      "openingHours": "09:00-17:30",
+      "openingHours": "",
       "website": "",
       "phone": "",
       "cuisine": [],
       "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "Q1038727",
+      "wikipedia": "ja:葛西臨海公園",
       "osmTags": {
-        "leisure": "garden"
-      }
+        "leisure": "park"
+      },
+      "fame": 17
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/672a585da83f83ac9eaa",
-      "name": "虎ノ門横丁",
-      "nameEnglish": "Toranomom Yokocho",
-      "category": "food_drink",
-      "subcategory": "restaurant",
-      "lat": 35.6677987,
-      "lng": 139.7498952,
-      "distanceFromTerminalMeters": 245,
-      "distanceFromDefaultTerminalMeters": 245,
-      "minDistanceFromAnyTerminalMeters": 245,
+      "sourceId": "osm/generated/b822a468be1dda069242",
+      "name": "江戸東京博物館",
+      "nameEnglish": "Edo Tokyo Museum",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 35.6964445,
+      "lng": 139.7960767,
+      "distanceFromTerminalMeters": 9038,
+      "distanceFromDefaultTerminalMeters": 9038,
+      "minDistanceFromAnyTerminalMeters": 9038,
       "nearestTerminalId": "ports-json-anchor",
-      "address": "1, 港区, 105-6403",
-      "openingHours": "Mo-Su 11:00-23:00",
-      "website": "https://www.toranomonhills.com/toranomonyokocho/index.html",
+      "address": "1, 墨田区, 130-0015",
+      "openingHours": "Su, Tu-Fr 09:30-17:30; Sa 09:30-19:30; Mo off",
+      "website": "http://www.edo-tokyo-museum.or.jp/",
+      "phone": "+81-3-3626-9974",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q1191042",
+      "wikipedia": "ja:東京都江戸東京博物館",
+      "osmTags": {
+        "tourism": "museum"
+      },
+      "fame": 17
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/e82ad430a8ab34b7d507",
+      "name": "日本科学未来館",
+      "nameEnglish": "Miraikan",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 35.6192416,
+      "lng": 139.776659,
+      "distanceFromTerminalMeters": 530,
+      "distanceFromDefaultTerminalMeters": 530,
+      "minDistanceFromAnyTerminalMeters": 530,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "6, 江東区, 135-0064",
+      "openingHours": "We-Mo 10:00-17:00",
+      "website": "https://www.miraikan.jst.go.jp/",
+      "phone": "+81 3-3570-9151",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q656957",
+      "wikipedia": "ja:日本科学未来館",
+      "osmTags": {
+        "tourism": "museum"
+      },
+      "fame": 16
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/43fd29d9a0cb4217b5c8",
+      "name": "アーティゾン美術館",
+      "nameEnglish": "Artizon Museum",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 35.678749,
+      "lng": 139.7721285,
+      "distanceFromTerminalMeters": 6785,
+      "distanceFromDefaultTerminalMeters": 6785,
+      "minDistanceFromAnyTerminalMeters": 6785,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "2, 中央区",
+      "openingHours": "Tu-Sa 10:00-20:00; Su 10:00-18:00",
+      "website": "https://www.artizon.museum/",
       "phone": "",
-      "cuisine": [
-        "japanese"
-      ],
-      "wheelchair": "yes",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "amenity": "restaurant"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/d47becb68195d880db20",
-      "name": "頤和園",
-      "nameEnglish": "Iwaen",
-      "category": "food_drink",
-      "subcategory": "restaurant",
-      "lat": 35.6705947,
-      "lng": 139.7467383,
-      "distanceFromTerminalMeters": 302,
-      "distanceFromDefaultTerminalMeters": 302,
-      "minDistanceFromAnyTerminalMeters": 302,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "6, 千代田区",
-      "openingHours": "Mo-Fr 11:00-15:00,17:30-23:00; Sa,Su,PH 11:00-14:30,17:30-21:30",
-      "website": "https://www.iwaen.co.jp/",
-      "phone": "03-3501-3222",
-      "cuisine": [
-        "chinese"
-      ],
+      "cuisine": [],
       "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "Q913808",
+      "wikipedia": "ja:アーティゾン美術館",
       "osmTags": {
-        "amenity": "restaurant"
-      }
+        "tourism": "museum"
+      },
+      "fame": 16
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/16f9270839c97d35adbe",
-      "name": "ピンクカウ",
-      "nameEnglish": "The Pink Cow",
-      "category": "food_drink",
-      "subcategory": "restaurant",
-      "lat": 35.6705396,
-      "lng": 139.7437149,
-      "distanceFromTerminalMeters": 571,
-      "distanceFromDefaultTerminalMeters": 571,
-      "minDistanceFromAnyTerminalMeters": 571,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "18, 港区, 107-0052",
-      "openingHours": "Mo-Fr 11:30-15:00,18:00-23:00; Sa 18:00-23:00; Su off",
-      "website": "https://www.thepinkcow.com/",
-      "phone": "+81 3 4400 8656",
-      "cuisine": [
-        "mexican"
-      ],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "amenity": "restaurant"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/73881ad96431e1e98cc3",
-      "name": "美々卯",
-      "nameEnglish": "Mimiu",
-      "category": "food_drink",
-      "subcategory": "restaurant",
-      "lat": 35.6674499,
-      "lng": 139.7558867,
-      "distanceFromTerminalMeters": 603,
-      "distanceFromDefaultTerminalMeters": 603,
-      "minDistanceFromAnyTerminalMeters": 603,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "6, 港区, 105-0004",
-      "openingHours": "11:30-20:30; Su off",
-      "website": "http://www.mimiu.co.jp/",
-      "phone": "+81 3-3503-3350",
-      "cuisine": [
-        "noodle"
-      ],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "amenity": "restaurant"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/b943f4eec71a2c6375d9",
-      "name": "サイノ",
-      "nameEnglish": "Saino",
-      "category": "food_drink",
-      "subcategory": "restaurant",
-      "lat": 35.6650297,
-      "lng": 139.7462403,
-      "distanceFromTerminalMeters": 649,
-      "distanceFromDefaultTerminalMeters": 649,
-      "minDistanceFromAnyTerminalMeters": 649,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "19, 港区, 105-0001",
-      "openingHours": "Mo-Fr 11:00-15:30,17:30-23:30; Sa 11:00-15:30; Su, PH off",
-      "website": "https://www.saino2004.com/",
-      "phone": "03-342-5221",
-      "cuisine": [
-        "indian"
-      ],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "amenity": "restaurant"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/8c1d5dc38a765d006e18",
-      "name": "もうやんカレー",
-      "nameEnglish": "Moyan Curry",
-      "category": "food_drink",
-      "subcategory": "restaurant",
-      "lat": 35.6663402,
-      "lng": 139.7563431,
-      "distanceFromTerminalMeters": 703,
-      "distanceFromDefaultTerminalMeters": 703,
-      "minDistanceFromAnyTerminalMeters": 703,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "12, 港区, 105-0004",
-      "openingHours": "Mo-Sa 11:30-15:00, 18:00-23:30",
-      "website": "https://www.moyan.jp/shimbashi/",
-      "phone": "",
-      "cuisine": [
-        "curry"
-      ],
-      "wheelchair": "no",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "amenity": "restaurant"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/0b810fb3373fe398e514",
-      "name": "LAD's DE WINE",
-      "nameEnglish": "",
-      "category": "food_drink",
-      "subcategory": "restaurant",
-      "lat": 35.6680623,
-      "lng": 139.7576057,
-      "distanceFromTerminalMeters": 720,
-      "distanceFromDefaultTerminalMeters": 720,
-      "minDistanceFromAnyTerminalMeters": 720,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "4, 港区, 105-0004",
-      "openingHours": "Mo-Th,Sa-Su 6:30-24:00; Fr,PH 06:30-4:00",
-      "website": "https://ladsdewine-shinbashi.gorp.jp/",
-      "phone": "+81 50-3464-4847",
-      "cuisine": [
-        "italian"
-      ],
-      "wheelchair": "limited",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "amenity": "restaurant"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/eb8e0d7a6059698e86f7",
-      "name": "宇奈とと",
-      "nameEnglish": "Unatoto",
-      "category": "food_drink",
-      "subcategory": "restaurant",
-      "lat": 35.6652944,
-      "lng": 139.7563743,
-      "distanceFromTerminalMeters": 778,
-      "distanceFromDefaultTerminalMeters": 778,
-      "minDistanceFromAnyTerminalMeters": 778,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "19, 港区",
-      "openingHours": "Mo-Fr 11:00-22:30; Sa 11:00-16:00; Su off",
-      "website": "http://unatoto.com",
-      "phone": "+81 3-3433-6969",
-      "cuisine": [
-        "japanese"
-      ],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "amenity": "restaurant"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/267b876e8cba0140d562",
-      "name": "URACORI 銀座裏コリドー街",
-      "nameEnglish": "Uracori - Ginza-Ura Corridor Street",
-      "category": "food_drink",
-      "subcategory": "restaurant",
-      "lat": 35.6694105,
-      "lng": 139.7587155,
-      "distanceFromTerminalMeters": 790,
-      "distanceFromDefaultTerminalMeters": 790,
-      "minDistanceFromAnyTerminalMeters": 790,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "5, 千代田区, 100-0011",
-      "openingHours": "Mo-Fr 21:00-05:00",
-      "website": "https://uracori.com",
-      "phone": "+81 3 3591 0868",
-      "cuisine": [
-        "japanese"
-      ],
-      "wheelchair": "yes",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "amenity": "restaurant"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/97c72858d79ba00d32e7",
-      "name": "板前寿司 銀座コリドー店",
-      "nameEnglish": "Itamae Sushi Ginza Corridor",
-      "category": "food_drink",
-      "subcategory": "restaurant",
-      "lat": 35.6695767,
-      "lng": 139.7593559,
-      "distanceFromTerminalMeters": 846,
-      "distanceFromDefaultTerminalMeters": 846,
-      "minDistanceFromAnyTerminalMeters": 846,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "21, 中央区, 104-0061",
-      "openingHours": "Mo-Su 11:30-03:00",
-      "website": "https://itamae.co.jp/shop/ginza_wt.html",
-      "phone": "+81 3-3289-0051",
-      "cuisine": [
-        "sushi"
-      ],
-      "wheelchair": "no",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "amenity": "restaurant"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/6951f86170f7b848de9c",
-      "name": "WOLFGANG PUCK",
-      "nameEnglish": "WOLFGANG PUCK",
-      "category": "food_drink",
-      "subcategory": "restaurant",
-      "lat": 35.6669362,
-      "lng": 139.7396288,
-      "distanceFromTerminalMeters": 997,
-      "distanceFromDefaultTerminalMeters": 997,
-      "minDistanceFromAnyTerminalMeters": 997,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "32, 港区",
-      "openingHours": "Mo-Fr 11:00-23:00",
-      "website": "https://www.wp-japan.jp/",
-      "phone": "+81 3-5575-2100",
-      "cuisine": [
-        "italian"
-      ],
-      "wheelchair": "yes",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "amenity": "restaurant"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/73b6c4ee3c065ef67587",
-      "name": "Wayang Bali",
-      "nameEnglish": "Wayang Bali",
-      "category": "food_drink",
-      "subcategory": "restaurant",
-      "lat": 35.664477,
-      "lng": 139.7396704,
-      "distanceFromTerminalMeters": 1117,
-      "distanceFromDefaultTerminalMeters": 1117,
-      "minDistanceFromAnyTerminalMeters": 1117,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "1, 港区, 106-6002",
-      "openingHours": "11:00-23:00",
-      "website": "https://www.surabaya.jp/wayang_bali/",
-      "phone": "03-5545-6895",
-      "cuisine": [
-        "indonesian"
-      ],
-      "wheelchair": "limited",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "amenity": "restaurant"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/16e724c2c7a528e29f84",
-      "name": "回転寿司 根室花まる 銀座店",
-      "nameEnglish": "Kaitenzushi Nemuro Hanamaru Ginza",
-      "category": "food_drink",
-      "subcategory": "restaurant",
-      "lat": 35.6717729,
-      "lng": 139.7621885,
-      "distanceFromTerminalMeters": 1119,
-      "distanceFromDefaultTerminalMeters": 1119,
-      "minDistanceFromAnyTerminalMeters": 1119,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "1, 中央区, 104-0061",
-      "openingHours": "Mo-Su 11:00-23:00",
-      "website": "https://www.sushi-hanamaru.com/store/details/s12.html",
-      "phone": "+81-3-6264-5735",
-      "cuisine": [
-        "sushi"
-      ],
-      "wheelchair": "limited",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "amenity": "restaurant"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/2325927cf7d70c900bd6",
-      "name": "アナム　本格インド料理　銀座店",
-      "nameEnglish": "Anam Authentic Indian Cuisine Ginza Branch",
-      "category": "food_drink",
-      "subcategory": "restaurant",
-      "lat": 35.6674705,
-      "lng": 139.762034,
-      "distanceFromTerminalMeters": 1123,
-      "distanceFromDefaultTerminalMeters": 1123,
-      "minDistanceFromAnyTerminalMeters": 1123,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "8, 中央区",
-      "openingHours": "Mo-Su 11:00-03:00",
-      "website": "https://annam-indian-restaurannt.owsr.jp",
-      "phone": "+81 3-6280-6708",
-      "cuisine": [
-        "indian"
-      ],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "amenity": "restaurant"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/40bd4b4bba561777623c",
-      "name": "聚福縁",
-      "nameEnglish": "Shufukuen",
-      "category": "food_drink",
-      "subcategory": "restaurant",
-      "lat": 35.6735432,
-      "lng": 139.7382929,
-      "distanceFromTerminalMeters": 1129,
-      "distanceFromDefaultTerminalMeters": 1129,
-      "minDistanceFromAnyTerminalMeters": 1129,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "12, 港区, 107-0052",
-      "openingHours": "Mo-Fr 11:00-15:00,17:00; Sa-Su 11:00-23:00",
-      "website": "https://shufukuen.gorp.jp/",
-      "phone": "+81-50-5487-1858",
-      "cuisine": [
-        "chinese"
-      ],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "amenity": "restaurant"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/4d9e8827a3e4bcd250be",
-      "name": "Matsue",
-      "nameEnglish": "Matsue Shibuya Scramble Square",
-      "category": "food_drink",
-      "subcategory": "restaurant",
-      "lat": 35.6583643,
-      "lng": 139.701998,
-      "distanceFromTerminalMeters": 4525,
-      "distanceFromDefaultTerminalMeters": 4525,
-      "minDistanceFromAnyTerminalMeters": 4525,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "12, 渋谷区, 150-0002",
-      "openingHours": "Mo-Su 11:00-15:00, 17:00-23:00",
-      "website": "https://www.matsue.cc/jp/scsq/",
-      "phone": "+81364526338",
-      "cuisine": [
-        "sushi"
-      ],
-      "wheelchair": "yes",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "amenity": "restaurant"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/e8ce7badf4a24648281d",
-      "name": "西銀座",
-      "nameEnglish": "Nishi Ginza",
+      "sourceId": "osm/generated/b3b935a7bb1500de6e0e",
+      "name": "Shibuya 109",
+      "nameEnglish": "Shibuya 109",
       "category": "shopping",
       "subcategory": "mall",
-      "lat": 35.6732737,
-      "lng": 139.7635441,
+      "lat": 35.6595997,
+      "lng": 139.6987592,
+      "distanceFromTerminalMeters": 8025,
+      "distanceFromDefaultTerminalMeters": 8025,
+      "minDistanceFromAnyTerminalMeters": 8025,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1, 渋谷区, 150-0043",
+      "openingHours": "Mo-Su 10:00-21:00",
+      "website": "https://shibuya109.jp",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "limited",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q685328",
+      "wikipedia": "ja:109 (商業施設)",
+      "osmTags": {
+        "shop": "mall"
+      },
+      "fame": 16
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/a7086a766bb1da48799b",
+      "name": "大奥跡",
+      "nameEnglish": "Site of Ōoku",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 35.6873627,
+      "lng": 139.7553982,
+      "distanceFromTerminalMeters": 7871,
+      "distanceFromDefaultTerminalMeters": 7871,
+      "minDistanceFromAnyTerminalMeters": 7871,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q1064983",
+      "wikipedia": "ja:大奥",
+      "osmTags": {
+        "historic": "ruins",
+        "tourism": "attraction"
+      },
+      "fame": 14
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/9c8f829d773438b89653",
+      "name": "雲鷹丸",
+      "nameEnglish": "Unyō Maru",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 35.6251677,
+      "lng": 139.7492206,
+      "distanceFromTerminalMeters": 2143,
+      "distanceFromDefaultTerminalMeters": 2143,
+      "minDistanceFromAnyTerminalMeters": 2143,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q1599020",
+      "wikipedia": "en:Japanese aircraft carrier Un'yō",
+      "osmTags": {
+        "tourism": "attraction"
+      },
+      "fame": 13
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/aa3b7bc757477d640011",
+      "name": "船の科学館",
+      "nameEnglish": "Museum of Maritime Science",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 35.620217,
+      "lng": 139.772296,
+      "distanceFromTerminalMeters": 296,
+      "distanceFromDefaultTerminalMeters": 296,
+      "minDistanceFromAnyTerminalMeters": 296,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1, 品川区",
+      "openingHours": "closed",
+      "website": "https://funenokagakukan.or.jp/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q1048709",
+      "wikipedia": "ja:船の科学館",
+      "osmTags": {
+        "tourism": "museum"
+      },
+      "fame": 8
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/a38c92320910e58bae2b",
+      "name": "ジョイポリス",
+      "nameEnglish": "Joypolis",
+      "category": "attraction",
+      "subcategory": "theme_park",
+      "lat": 35.6286805,
+      "lng": 139.7753412,
       "distanceFromTerminalMeters": 1276,
       "distanceFromDefaultTerminalMeters": 1276,
       "minDistanceFromAnyTerminalMeters": 1276,
       "nearestTerminalId": "ports-json-anchor",
-      "address": "100-0006",
-      "openingHours": "Mo-Sa 11:00-21:00; Su 11:00-20:00",
-      "website": "https://www.nishiginza.co.jp/",
-      "phone": "+81 3 35664111",
-      "cuisine": [],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "shop": "mall"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/8968287b05f4f18e0710",
-      "name": "東京駅一番街",
-      "nameEnglish": "First Avenue Tokyo Station",
-      "category": "shopping",
-      "subcategory": "mall",
-      "lat": 35.6812743,
-      "lng": 139.7681755,
-      "distanceFromTerminalMeters": 2066,
-      "distanceFromDefaultTerminalMeters": 2066,
-      "minDistanceFromAnyTerminalMeters": 2066,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "1, 千代田区",
-      "openingHours": "10:00-20:00",
-      "website": "https://www.tokyoeki-1bangai.co.jp/",
-      "phone": "03-3210-0077",
-      "cuisine": [],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "shop": "mall"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/690f2f2cf8f24340eac0",
-      "name": "宝塚歌劇インフォメーションセンター",
-      "nameEnglish": "Takarazuka Revue Information Centre",
-      "category": "essentials",
-      "subcategory": "visitor_information",
-      "lat": 35.6728563,
-      "lng": 139.759026,
-      "distanceFromTerminalMeters": 875,
-      "distanceFromDefaultTerminalMeters": 875,
-      "minDistanceFromAnyTerminalMeters": 875,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "3, 千代田区, 100-0006",
-      "openingHours": "Tu-Su 10:00-18:00",
-      "website": "",
-      "phone": "0570-00-5100",
-      "cuisine": [],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "tourism": "information"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/473fb377dbb6cf4b3ca4",
-      "name": "東京タワー",
-      "nameEnglish": "Tokyo Tower",
-      "category": "essentials",
-      "subcategory": "bicycle_rental",
-      "lat": 35.65928,
-      "lng": 139.744767,
-      "distanceFromTerminalMeters": 1282,
-      "distanceFromDefaultTerminalMeters": 1282,
-      "minDistanceFromAnyTerminalMeters": 1282,
-      "nearestTerminalId": "ports-json-anchor",
       "address": "",
-      "openingHours": "",
-      "website": "",
+      "openingHours": "Mo-Su 10:00-20:00",
+      "website": "https://tokyo-joypolis.com/",
+      "phone": "03-5500-1801",
+      "cuisine": [],
+      "wheelchair": "limited",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q11310533",
+      "wikipedia": "en:Joypolis",
+      "osmTags": {
+        "tourism": "theme_park"
+      },
+      "fame": 4
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/8e785c32d3ea6f6107ee",
+      "name": "根津美術館",
+      "nameEnglish": "Nezu Museum",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 35.6621944,
+      "lng": 139.7173527,
+      "distanceFromTerminalMeters": 6930,
+      "distanceFromDefaultTerminalMeters": 6930,
+      "minDistanceFromAnyTerminalMeters": 6930,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1, 港区",
+      "openingHours": "Mo off; Tu-Su 10:00-17:00",
+      "website": "http://www.nezu-muse.or.jp/",
+      "phone": "+81 3 3400 2536",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q1047097",
+      "wikipedia": "ja:根津美術館",
+      "osmTags": {
+        "tourism": "museum"
+      },
+      "fame": 10
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f45a57073f21dac5f57c",
+      "name": "荏原 畠山美術館",
+      "nameEnglish": "Ebara Hatakeyama Museum of Art",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 35.632242,
+      "lng": 139.726938,
+      "distanceFromTerminalMeters": 4305,
+      "distanceFromDefaultTerminalMeters": 4305,
+      "minDistanceFromAnyTerminalMeters": 4305,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "東京都港区白金台2-20-12, 白金台二丁目, 〒108-0071",
+      "openingHours": "Tu-Su 10:00-17:00",
+      "website": "https://www.hatakeyama-museum.org/exhibition/",
+      "phone": "050 5541 8600",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q3330210",
+      "wikipedia": "en:Hatakeyama Memorial Museum of Fine Art",
+      "osmTags": {
+        "tourism": "museum"
+      },
+      "fame": 5
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/381c92e2e95083bf4457",
+      "name": "東京都現代美術館",
+      "nameEnglish": "Museum of Contemporary Art Tokyo",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 35.679795,
+      "lng": 139.8080673,
+      "distanceFromTerminalMeters": 7666,
+      "distanceFromDefaultTerminalMeters": 7666,
+      "minDistanceFromAnyTerminalMeters": 7666,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1, 江東区, 135-0022",
+      "openingHours": "Tu-Su 10:00-18:00; Mo off",
+      "website": "https://www.mot-art-museum.jp/",
+      "phone": "+81-3-52454111",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q1649688",
+      "wikipedia": "ja:東京都現代美術館",
+      "osmTags": {
+        "tourism": "museum"
+      },
+      "fame": 11
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/548e405393cd4da18e0b",
+      "name": "東京都写真美術館",
+      "nameEnglish": "Tokyo Photographic Art Museum",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 35.641543,
+      "lng": 139.7133962,
+      "distanceFromTerminalMeters": 5848,
+      "distanceFromDefaultTerminalMeters": 5848,
+      "minDistanceFromAnyTerminalMeters": 5848,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "3, 目黒区",
+      "openingHours": "Tu-We, Sa-Su 10:00-18:00; Th-Fr 10:00-20:00",
+      "website": "https://topmuseum.jp/",
       "phone": "",
       "cuisine": [],
       "wheelchair": "",
-      "brand": "ドコモ・バイクシェア",
+      "brand": "",
       "description": "",
+      "wikidata": "Q862884",
+      "wikipedia": "ja:東京都写真美術館",
       "osmTags": {
-        "amenity": "bicycle_rental"
+        "tourism": "museum"
+      },
+      "fame": 10
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/808b9ab3e126aac2075e",
+      "name": "チームラボ プラネッツ",
+      "nameEnglish": "teamLab Planets",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 35.64938,
+      "lng": 139.789728,
+      "distanceFromTerminalMeters": 3900,
+      "distanceFromDefaultTerminalMeters": 3900,
+      "minDistanceFromAnyTerminalMeters": 3900,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "16",
+      "openingHours": "Mo-Su 09:00-22:00",
+      "website": "https://planets.teamlab.art/tokyo/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "no",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q97613610",
+      "wikipedia": "en:TeamLab Planets TOKYO DMM.com",
+      "osmTags": {
+        "tourism": "museum"
+      },
+      "fame": 5
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/71b6501d8dd2f3845313",
+      "name": "サントリー美術館",
+      "nameEnglish": "Suntory Museum of Art",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 35.6664346,
+      "lng": 139.7304575,
+      "distanceFromTerminalMeters": 6543,
+      "distanceFromDefaultTerminalMeters": 6543,
+      "minDistanceFromAnyTerminalMeters": 6543,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Fr 10:00-20:00; Sa-We 10:00-18:00; Th off",
+      "website": "https://www.suntory.co.jp/sma/",
+      "phone": "+81 3-3479-8600",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q11249110",
+      "wikipedia": "ja:サントリー美術館",
+      "osmTags": {
+        "tourism": "museum"
+      },
+      "fame": 9
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/716c78b2a4fec54cefdc",
+      "name": "アクアパーク品川",
+      "nameEnglish": "Aqua Park Shinagawa",
+      "category": "attraction",
+      "subcategory": "aquarium",
+      "lat": 35.6278835,
+      "lng": 139.7352723,
+      "distanceFromTerminalMeters": 3429,
+      "distanceFromDefaultTerminalMeters": 3429,
+      "minDistanceFromAnyTerminalMeters": 3429,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "30, 108-8611",
+      "openingHours": "",
+      "website": "https://www.aqua-park.jp/aqua/",
+      "phone": "+81 3-5421-1111",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q3055859",
+      "wikipedia": "ja:アクアパーク品川",
+      "osmTags": {
+        "tourism": "aquarium"
+      },
+      "fame": 4
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/8d722b4e9b51ab059a98",
+      "name": "アド・ミュージアム東京",
+      "nameEnglish": "Advertising Museum Tokyo",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 35.6645224,
+      "lng": 139.7626413,
+      "distanceFromTerminalMeters": 5258,
+      "distanceFromDefaultTerminalMeters": 5258,
+      "minDistanceFromAnyTerminalMeters": 5258,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "2, 港区, 105-7090",
+      "openingHours": "Tu-Sa 12:00-18:00",
+      "website": "https://www.admt.jp/",
+      "phone": "+81 3-6218-2500",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q11284141",
+      "wikipedia": "ja:アド・ミュージアム東京",
+      "osmTags": {
+        "tourism": "museum"
+      },
+      "fame": 4
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b40c909081fb79300193",
+      "name": "しながわ水族館",
+      "nameEnglish": "Shinagawa Aquarium",
+      "category": "attraction",
+      "subcategory": "aquarium",
+      "lat": 35.5886351,
+      "lng": 139.7374653,
+      "distanceFromTerminalMeters": 4441,
+      "distanceFromDefaultTerminalMeters": 4441,
+      "minDistanceFromAnyTerminalMeters": 4441,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1, 品川区, 140-0012",
+      "openingHours": "Mo-Fr 10:00-17:00",
+      "website": "https://www.aquarium.gr.jp/",
+      "phone": "+81 3-3762-3433",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q11254393",
+      "wikipedia": "ja:しながわ水族館",
+      "osmTags": {
+        "tourism": "aquarium"
+      },
+      "fame": 3
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/e9ba2c84fd682f58bd8e",
+      "name": "瀧爪 TAKIZME",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 35.6204125,
+      "lng": 139.7444633,
+      "distanceFromTerminalMeters": 2426,
+      "distanceFromDefaultTerminalMeters": 2426,
+      "minDistanceFromAnyTerminalMeters": 2426,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "7, 品川区, 140-0002",
+      "openingHours": "We-Th 11:00-13:30,15:00-17:30,18:00-20:30; Sa 10:00-12:30,14:00-16:30,17:00-21:00; Su 11:00-17:30",
+      "website": "https://takizme.jp",
+      "phone": "+81-80-9536-3260",
+      "cuisine": [
+        "teahouse",
+        "tea",
+        "japanese",
+        "bar",
+        "cafe",
+        "asian",
+        "deserts"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Serene tea house in Shinagawa, Tokyo, offering a mindful and relaxing tea experience. Service is either in English or Japanese.",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "cafe",
+        "shop": "tea"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/86932d472d1dd4eae095",
+      "name": "タコベル アクアシティお台場店",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "fast_food",
+      "lat": 35.6284044,
+      "lng": 139.7741415,
+      "distanceFromTerminalMeters": 1217,
+      "distanceFromDefaultTerminalMeters": 1217,
+      "minDistanceFromAnyTerminalMeters": 1217,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "１丁目７一１, 135-0091",
+      "openingHours": "Mo-Su 11:00-21:00",
+      "website": "https://tacobell.jp/",
+      "phone": "03-6457-1722",
+      "cuisine": [
+        "american"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "fast_food"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/52990a6d876acbee468c",
+      "name": "タリーズコーヒー 東京テレポート駅店",
+      "nameEnglish": "Tully's Coffee",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 35.6275446,
+      "lng": 139.778768,
+      "distanceFromTerminalMeters": 1292,
+      "distanceFromDefaultTerminalMeters": 1292,
+      "minDistanceFromAnyTerminalMeters": 1292,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "１丁目２一１, 135-0064",
+      "openingHours": "Mo-Su 08:00-20:00",
+      "website": "https://shop.tullys.co.jp/detail/1003284",
+      "phone": "03-5579-4700",
+      "cuisine": [
+        "coffee_shop"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/356fbfa67d50ce3f5c7c",
+      "name": "肉汁らーめん 公",
+      "nameEnglish": "Ramen Kimi",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 35.6188652,
+      "lng": 139.7449019,
+      "distanceFromTerminalMeters": 2371,
+      "distanceFromDefaultTerminalMeters": 2371,
+      "minDistanceFromAnyTerminalMeters": 2371,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "10, 品川区, 140-0001",
+      "openingHours": "Mo-Su 11:00-22:00",
+      "website": "https://tabelog.com/tokyo/A1314/A131405/13126798/",
+      "phone": "+81 3-6433-9952",
+      "cuisine": [
+        "ramen"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/53cd62e4c5763ade3495",
+      "name": "日比谷 松本楼",
+      "nameEnglish": "Matsumotoro",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 35.6737913,
+      "lng": 139.7558071,
+      "distanceFromTerminalMeters": 6384,
+      "distanceFromDefaultTerminalMeters": 6384,
+      "minDistanceFromAnyTerminalMeters": 6384,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "2, 千代田区, 100-0012",
+      "openingHours": "",
+      "website": "https://matsumotoro.co.jp/",
+      "phone": "+81 3-3503-1451",
+      "cuisine": [
+        "japanese"
+      ],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q11104500",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      },
+      "fame": 2
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/874a0e3650f8bf4e1e81",
+      "name": "海岸カフェ",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "fast_food",
+      "lat": 35.6396095,
+      "lng": 139.7548161,
+      "distanceFromTerminalMeters": 2842,
+      "distanceFromDefaultTerminalMeters": 2842,
+      "minDistanceFromAnyTerminalMeters": 2842,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "東京港湾福利厚生センター, 港区, 108-0022",
+      "openingHours": "Mo-Fr 08:00-16:00",
+      "website": "https://www.t-port-kousei.or.jp/center.html",
+      "phone": "03-6435-2651",
+      "cuisine": [
+        "coffee_shop",
+        "sandwich"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "fast_food"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/9d6db2b2821a4d0ac839",
+      "name": "キッチン湾",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 35.6392738,
+      "lng": 139.7540311,
+      "distanceFromTerminalMeters": 2848,
+      "distanceFromDefaultTerminalMeters": 2848,
+      "minDistanceFromAnyTerminalMeters": 2848,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "ロジング湾 2F, 港区, 108-0022",
+      "openingHours": "Mo-Fr 07:00-10:00, 11:00-14:00",
+      "website": "https://www.t-port-kousei.or.jp/shisetsu.html",
+      "phone": "03-3456-0780",
+      "cuisine": [
+        "chinese"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ad36541e99b1583d2c9a",
+      "name": "タリーズコーヒー 品川インターシティ店",
+      "nameEnglish": "Tully's Coffee",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 35.6277593,
+      "lng": 139.7420828,
+      "distanceFromTerminalMeters": 2850,
+      "distanceFromDefaultTerminalMeters": 2850,
+      "minDistanceFromAnyTerminalMeters": 2850,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "２丁目１５一２, 108-0075",
+      "openingHours": "Mo-Fr 07:00-21:00; Sa 08:00-19:00; Su 09:00-19:00",
+      "website": "https://shop.tullys.co.jp/detail/1000853",
+      "phone": "03-6433-2580",
+      "cuisine": [
+        "coffee_shop"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/5a78ba4bda0b6920620d",
+      "name": "サイゼリヤ",
+      "nameEnglish": "Saizeriya",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 35.6521478,
+      "lng": 139.7982112,
+      "distanceFromTerminalMeters": 4543,
+      "distanceFromDefaultTerminalMeters": 4543,
+      "minDistanceFromAnyTerminalMeters": 4543,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "36, 江東区",
+      "openingHours": "",
+      "website": "https://www.saizeriya.co.jp/restaurant/shop_detail.php?cd=0966",
+      "phone": "+81 3 5547 8767",
+      "cuisine": [
+        "italian"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "ja:サイゼリヤ",
+      "osmTags": {
+        "amenity": "restaurant"
+      },
+      "fame": 1
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/19cbcf6aa5bdc145e0ff",
+      "name": "タリーズコーヒー ＆TEA 有明ガーデン店",
+      "nameEnglish": "Tully's Coffee & TEA",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 35.6389278,
+      "lng": 139.7932361,
+      "distanceFromTerminalMeters": 3091,
+      "distanceFromDefaultTerminalMeters": 3091,
+      "minDistanceFromAnyTerminalMeters": 3091,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "２丁目１一８, 135-0063",
+      "openingHours": "Mo-Su 10:00-21:00",
+      "website": "https://shop.tullys.co.jp/detail/1003290",
+      "phone": "03-5579-6177",
+      "cuisine": [
+        "coffee_shop"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/5715bac7fa619c46f682",
+      "name": "Lounge & Dining G",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 35.6218348,
+      "lng": 139.7366973,
+      "distanceFromTerminalMeters": 3143,
+      "distanceFromDefaultTerminalMeters": 3143,
+      "minDistanceFromAnyTerminalMeters": 3143,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "36, 品川区",
+      "openingHours": "06:30-23:00",
+      "website": "https://g.tokyomarriotthotel.com",
+      "phone": "+81 3 5488 3929",
+      "cuisine": [
+        "tea",
+        "grill"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/8c58dd26fcf8e5b8731b",
+      "name": "Link cafe TOKYO",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 35.6348976,
+      "lng": 139.7393976,
+      "distanceFromTerminalMeters": 3442,
+      "distanceFromDefaultTerminalMeters": 3442,
+      "minDistanceFromAnyTerminalMeters": 3442,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "２丁目２１一２, 108-0074",
+      "openingHours": "Mo-Su 11:00-20:00",
+      "website": "https://www.tullys.co.jp/lct/",
+      "phone": "03-6432-5310",
+      "cuisine": [
+        "coffee_shop"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/a1f2eb99d3662e958a41",
+      "name": "東京 芝 とうふ屋うかい",
+      "nameEnglish": "Tokyo Shiba Tofuya Ukai",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 35.6576023,
+      "lng": 139.7451017,
+      "distanceFromTerminalMeters": 5017,
+      "distanceFromDefaultTerminalMeters": 5017,
+      "minDistanceFromAnyTerminalMeters": 5017,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Su 11:00-22:00",
+      "website": "https://www.ukai.co.jp/english/shiba/",
+      "phone": "+81334361028",
+      "cuisine": [
+        "japanese"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q129820690",
+      "wikipedia": "en:Tofuya Ukai",
+      "osmTags": {
+        "amenity": "restaurant"
+      },
+      "fame": 1
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/55d237dda9cd0ffb7f78",
+      "name": "元祖久留米らーめん 福ヤ",
+      "nameEnglish": "Fukuya",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 35.6546766,
+      "lng": 139.7372853,
+      "distanceFromTerminalMeters": 5119,
+      "distanceFromDefaultTerminalMeters": 5119,
+      "minDistanceFromAnyTerminalMeters": 5119,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1, 港区, 106-0045",
+      "openingHours": "Mo-Sa 11:30-16:00, 18:00-03:00",
+      "website": "https://www.alcazaba.co.jp/fukuya/fukuya.html",
+      "phone": "+81-3-5419-0055",
+      "cuisine": [
+        "ramen"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "元祖とんこつ久留米ラーメン",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b086fb87a8218802326c",
+      "name": "Sunrise",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 35.6151692,
+      "lng": 139.7311973,
+      "distanceFromTerminalMeters": 3618,
+      "distanceFromDefaultTerminalMeters": 3618,
+      "minDistanceFromAnyTerminalMeters": 3618,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1, 品川区, 141-0033",
+      "openingHours": "Mo-Su 11:00-15:00, 17:00-23:00",
+      "website": "https://hira-corporation.co.jp/sunrise-osaki/",
+      "phone": "+81-3-6417-0113",
+      "cuisine": [
+        "curry",
+        "thai"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f484ae1bfc8bc74c23de",
+      "name": "タリーズコーヒー グランドプリンスホテル新高輪店",
+      "nameEnglish": "Tully's Coffee",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 35.6296784,
+      "lng": 139.7331429,
+      "distanceFromTerminalMeters": 3679,
+      "distanceFromDefaultTerminalMeters": 3679,
+      "minDistanceFromAnyTerminalMeters": 3679,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "３丁目１３一１ 柘榴坂, 108-0074",
+      "openingHours": "Mo-Su 07:00-18:00",
+      "website": "https://shop.tullys.co.jp/detail/1003247",
+      "phone": "03-6277-2811",
+      "cuisine": [
+        "coffee_shop"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f33f7d12446a9325c1e9",
+      "name": "Cocorotus Foodtruck",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "fast_food",
+      "lat": 35.6405978,
+      "lng": 139.7412716,
+      "distanceFromTerminalMeters": 3705,
+      "distanceFromDefaultTerminalMeters": 3705,
+      "minDistanceFromAnyTerminalMeters": 3705,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "24, 港区, 108-0073",
+      "openingHours": "Tu,Fr 11:30-14:00",
+      "website": "https://cocorotus.com",
+      "phone": "",
+      "cuisine": [
+        "asian"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "国際興業三田第二ビルでの定期出店場所です。キッチンカーのため、施設の代表住所と実際の出店位置が離れている場合があります。地図上の登録地点を目印にお越しください。",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "fast_food"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/74314e7da12484e16343",
+      "name": "芝浦おかめ鮨",
+      "nameEnglish": "Okamezushi",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 35.6486898,
+      "lng": 139.7526967,
+      "distanceFromTerminalMeters": 3822,
+      "distanceFromDefaultTerminalMeters": 3822,
+      "minDistanceFromAnyTerminalMeters": 3822,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "4, 港区, 108-0014",
+      "openingHours": "Mo-Fr 11:30-13:00, 17:00-22:00; PH off",
+      "website": "http://okamezushi.com/",
+      "phone": "+81334516430",
+      "cuisine": [
+        "sushi"
+      ],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/9d33283e24cae95b3c49",
+      "name": "鳥一代",
+      "nameEnglish": "Toriichidai",
+      "category": "food_drink",
+      "subcategory": "pub",
+      "lat": 35.6474592,
+      "lng": 139.7437146,
+      "distanceFromTerminalMeters": 4129,
+      "distanceFromDefaultTerminalMeters": 4129,
+      "minDistanceFromAnyTerminalMeters": 4129,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "19, 港区, 108-0073",
+      "openingHours": "Mo-Fr 11:30-14:00,17:30-23:00; Sa,Su,PH off",
+      "website": "https://toriichidai-keiou.owst.jp/",
+      "phone": "+81-3-5439-6242",
+      "cuisine": [
+        "chicken",
+        "japanese"
+      ],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "pub"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/267ea61af8082eac3b24",
+      "name": "Cocorotus Foodtruck",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "fast_food",
+      "lat": 35.6517002,
+      "lng": 139.746685,
+      "distanceFromTerminalMeters": 4374,
+      "distanceFromDefaultTerminalMeters": 4374,
+      "minDistanceFromAnyTerminalMeters": 4374,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "7, 港区, 105-0014",
+      "openingHours": "We 11:30-14:30",
+      "website": "https://cocorotus.com",
+      "phone": "",
+      "cuisine": [
+        "asian"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "芝での定期出店場所です。キッチンカーのため、施設の代表住所と実際の出店位置が離れている場合があります。地図上の登録地点を目印にお越しください。",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "fast_food"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/92ed62a90e5150cfbd07",
+      "name": "日本橋弁松総本店",
+      "nameEnglish": "Nihombashi Benmatsu Sohonten",
+      "category": "food_drink",
+      "subcategory": "fast_food",
+      "lat": 35.685411,
+      "lng": 139.7758674,
+      "distanceFromTerminalMeters": 7537,
+      "distanceFromDefaultTerminalMeters": 7537,
+      "minDistanceFromAnyTerminalMeters": 7537,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "7, 103-0022",
+      "openingHours": "Mo-Fr 09:30-15:00; Sa-Su 09:30-12:30",
+      "website": "https://www.benmatsu.com/",
+      "phone": "+81-3-3279-2361",
+      "cuisine": [
+        "japanese"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q48764050",
+      "wikipedia": "ja:日本橋弁松総本店",
+      "osmTags": {
+        "amenity": "fast_food"
+      },
+      "fame": 1
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/be1c115170701da1e36e",
+      "name": "タリーズコーヒー ダイバーシティ東京プラザ店",
+      "nameEnglish": "Tully's Coffee",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 35.6248383,
+      "lng": 139.7756512,
+      "distanceFromTerminalMeters": 890,
+      "distanceFromDefaultTerminalMeters": 890,
+      "minDistanceFromAnyTerminalMeters": 890,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "１丁目１一１０, 江東区, 135-0064, JP",
+      "openingHours": "Mo-Su 10:00-21:00",
+      "website": "https://shop.tullys.co.jp/detail/1000665",
+      "phone": "03-3527-6112",
+      "cuisine": [
+        "coffee_shop"
+      ],
+      "wheelchair": "",
+      "brand": "タリーズコーヒー",
+      "description": "",
+      "wikidata": "Q11316408",
+      "wikipedia": "ja:タリーズコーヒージャパン",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d605af7d61798de4421d",
+      "name": "CANAL GATE CAFE",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 35.6393647,
+      "lng": 139.7521371,
+      "distanceFromTerminalMeters": 2953,
+      "distanceFromDefaultTerminalMeters": 2953,
+      "minDistanceFromAnyTerminalMeters": 2953,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "港区, 1080023",
+      "openingHours": "Tu-Fr 10:00-22:00; Sa 10:00-20:00; Su 10:00-19:00; PH 10:00-19:00",
+      "website": "https://www.nas-club.co.jp/shibaura/cafe/",
+      "phone": "",
+      "cuisine": [
+        "coffee_shop"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "cafe"
       }
     },
     {
@@ -1432,9 +1565,9 @@
       "subcategory": "mall",
       "lat": 35.6695711,
       "lng": 139.7640687,
-      "distanceFromTerminalMeters": 1272,
-      "distanceFromDefaultTerminalMeters": 1272,
-      "minDistanceFromAnyTerminalMeters": 1272,
+      "distanceFromTerminalMeters": 5798,
+      "distanceFromDefaultTerminalMeters": 5798,
+      "minDistanceFromAnyTerminalMeters": 5798,
       "nearestTerminalId": "ports-json-anchor",
       "address": "1, 中央区, 104-0061",
       "openingHours": "Mo-Su 10:30-23:00",
@@ -1444,102 +1577,859 @@
       "wheelchair": "yes",
       "brand": "",
       "description": "",
+      "wikidata": "Q28685888",
+      "wikipedia": "ja:GINZA SIX",
       "osmTags": {
         "shop": "mall"
-      }
+      },
+      "fame": 6
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/2858f7524caf66a22257",
-      "name": "KITTE",
-      "nameEnglish": "",
+      "sourceId": "osm/generated/268bf85b4b55c764c18d",
+      "name": "東京ミッドタウン日比谷",
+      "nameEnglish": "TOKYO Midtown HIBIYA",
       "category": "shopping",
-      "subcategory": "mall",
-      "lat": 35.6798593,
-      "lng": 139.7647819,
-      "distanceFromTerminalMeters": 1728,
-      "distanceFromDefaultTerminalMeters": 1728,
-      "minDistanceFromAnyTerminalMeters": 1728,
+      "subcategory": "department_store",
+      "lat": 35.6734721,
+      "lng": 139.7592489,
+      "distanceFromTerminalMeters": 6289,
+      "distanceFromDefaultTerminalMeters": 6289,
+      "minDistanceFromAnyTerminalMeters": 6289,
       "nearestTerminalId": "ports-json-anchor",
-      "address": "2, 千代田区, 100-0005",
-      "openingHours": "Mo-Sa 11:00-21:00; Su 11:00-20:00",
-      "website": "http://jptower-kitte.jp/",
+      "address": "100-0006",
+      "openingHours": "",
+      "website": "http://www.hibiya.tokyo-midtown.com.e.adj.hp.transer.com/en/",
       "phone": "",
       "cuisine": [],
       "wheelchair": "yes",
       "brand": "",
       "description": "",
+      "wikidata": "Q48752023",
+      "wikipedia": "ja:東京ミッドタウン日比谷",
+      "osmTags": {
+        "shop": "department_store"
+      },
+      "fame": 5
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/e8ce7badf4a24648281d",
+      "name": "西銀座",
+      "nameEnglish": "Nishi Ginza",
+      "category": "shopping",
+      "subcategory": "mall",
+      "lat": 35.6732737,
+      "lng": 139.7635441,
+      "distanceFromTerminalMeters": 6213,
+      "distanceFromDefaultTerminalMeters": 6213,
+      "minDistanceFromAnyTerminalMeters": 6213,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "100-0006",
+      "openingHours": "Mo-Sa 11:00-21:00; Su 11:00-20:00",
+      "website": "https://www.nishiginza.co.jp/",
+      "phone": "+81 3 35664111",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q11629930",
+      "wikipedia": "ja:西銀座デパート",
       "osmTags": {
         "shop": "mall"
+      },
+      "fame": 1
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f8a4ad5512f52cad1254",
+      "name": "Miraiksn Shop",
+      "nameEnglish": "Miraikan Shop",
+      "category": "shopping",
+      "subcategory": "gift",
+      "lat": 35.619379,
+      "lng": 139.777442,
+      "distanceFromTerminalMeters": 602,
+      "distanceFromDefaultTerminalMeters": 602,
+      "minDistanceFromAnyTerminalMeters": 602,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "135-0064",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [
+        "burger"
+      ],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "shop": "gift"
       }
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/8d722b4e9b51ab059a98",
-      "name": "アド・ミュージアム東京",
-      "nameEnglish": "Advertising Museum Tokyo",
-      "category": "attraction",
-      "subcategory": "museum",
-      "lat": 35.6645224,
-      "lng": 139.7626413,
-      "distanceFromTerminalMeters": 1294,
-      "distanceFromDefaultTerminalMeters": 1294,
-      "minDistanceFromAnyTerminalMeters": 1294,
+      "sourceId": "osm/generated/8968287b05f4f18e0710",
+      "name": "東京駅一番街",
+      "nameEnglish": "First Avenue Tokyo Station",
+      "category": "shopping",
+      "subcategory": "mall",
+      "lat": 35.6812743,
+      "lng": 139.7681755,
+      "distanceFromTerminalMeters": 7070,
+      "distanceFromDefaultTerminalMeters": 7070,
+      "minDistanceFromAnyTerminalMeters": 7070,
       "nearestTerminalId": "ports-json-anchor",
-      "address": "2, 港区, 105-7090",
-      "openingHours": "Tu-Sa 12:00-18:00",
-      "website": "https://www.admt.jp/",
-      "phone": "+81 3-6218-2500",
+      "address": "1, 千代田区",
+      "openingHours": "10:00-20:00",
+      "website": "https://www.tokyoeki-1bangai.co.jp/",
+      "phone": "03-3210-0077",
       "cuisine": [],
       "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "Q11525947",
+      "wikipedia": "ja:東京駅一番街",
       "osmTags": {
-        "tourism": "museum"
+        "shop": "mall"
+      },
+      "fame": 1
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/8763a509614e64c66432",
+      "name": "ヨドバシカメラ マルチメディアAkiba",
+      "nameEnglish": "Yodobashi Multimedia Akiba",
+      "category": "shopping",
+      "subcategory": "mall",
+      "lat": 35.6987826,
+      "lng": 139.7747276,
+      "distanceFromTerminalMeters": 9017,
+      "distanceFromDefaultTerminalMeters": 9017,
+      "minDistanceFromAnyTerminalMeters": 9017,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "１一１ ヨドバシカメラ マルチメディアAkiba, 千代田区, 101-0028",
+      "openingHours": "Mo-Su 09:30-22:00",
+      "website": "https://www.yodobashi.com/ec/store/0018/",
+      "phone": "03-5209-1010",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q11346098",
+      "wikipedia": "ja:ヨドバシAkiba",
+      "osmTags": {
+        "shop": "mall"
+      },
+      "fame": 2
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/5fb4581eb1c61225f7c4",
+      "name": "日本橋三越本店",
+      "nameEnglish": "Nihonbashi Mitsukoshi Main Store",
+      "category": "shopping",
+      "subcategory": "department_store",
+      "lat": 35.6854647,
+      "lng": 139.7735447,
+      "distanceFromTerminalMeters": 7534,
+      "distanceFromDefaultTerminalMeters": 7534,
+      "minDistanceFromAnyTerminalMeters": 7534,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1, 中央区, 103-8001",
+      "openingHours": "Mo-Su 10:30-19:30",
+      "website": "",
+      "phone": "+81 3 3241 3311",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q108899516",
+      "wikipedia": "ja:三越日本橋本店",
+      "osmTags": {
+        "shop": "department_store"
+      },
+      "fame": 2
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/401dbaa527e22c1e9525",
+      "name": "銀座つぼやきいも",
+      "nameEnglish": "GINZA Tsubo-Yakiimo",
+      "category": "shopping",
+      "subcategory": "confectionery",
+      "lat": 35.6697631,
+      "lng": 139.7620772,
+      "distanceFromTerminalMeters": 5842,
+      "distanceFromDefaultTerminalMeters": 5842,
+      "minDistanceFromAnyTerminalMeters": 5842,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "4, 中央区, 104-0061",
+      "openingHours": "Tu-Fr 12:00-22:00; Sa-Su, PH 12:00-18:00",
+      "website": "https://www.imo-tsubo.com",
+      "phone": "+81 3-6263-8773",
+      "cuisine": [
+        "japanese"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "craft": "confectionery"
       }
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/3d47752680275add7075",
-      "name": "ギャラリー上田 / Gallery Ueda",
+      "sourceId": "osm/generated/48bd55470a82e2f1c384",
+      "name": "SHIPS Days",
       "nameEnglish": "",
-      "category": "attraction",
-      "subcategory": "gallery",
-      "lat": 35.6686511,
-      "lng": 139.7618558,
-      "distanceFromTerminalMeters": 1081,
-      "distanceFromDefaultTerminalMeters": 1081,
-      "minDistanceFromAnyTerminalMeters": 1081,
+      "category": "shopping",
+      "subcategory": "clothes",
+      "lat": 35.6472063,
+      "lng": 139.8014314,
+      "distanceFromTerminalMeters": 4272,
+      "distanceFromDefaultTerminalMeters": 4272,
+      "minDistanceFromAnyTerminalMeters": 4272,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "8, 江東区, 135-0062",
+      "openingHours": "Mo,We-Su 11:00-20:00",
+      "website": "https://www.shipsltd.co.jp/store/detail.aspx?store=4302",
+      "phone": "+81 3 6225 0505",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "shop": "clothes"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/349592a67f232be10ee4",
+      "name": "HIDE COFFEE BEANS STORE",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "coffee",
+      "lat": 35.6491015,
+      "lng": 139.8006378,
+      "distanceFromTerminalMeters": 4392,
+      "distanceFromDefaultTerminalMeters": 4392,
+      "minDistanceFromAnyTerminalMeters": 4392,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1, 江東区, 135-0062",
+      "openingHours": "Mo-Su 11:00-18:00; We-Th off",
+      "website": "https://www.hidecoffee.com",
+      "phone": "+81 3 3533 1010",
+      "cuisine": [],
+      "wheelchair": "no",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "shop": "coffee"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/08e5c2aaa697bd475044",
+      "name": "潮風公園",
+      "nameEnglish": "Shiokaze Park",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 35.62266,
+      "lng": 139.7699842,
+      "distanceFromTerminalMeters": 556,
+      "distanceFromDefaultTerminalMeters": 556,
+      "minDistanceFromAnyTerminalMeters": 556,
       "nearestTerminalId": "ports-json-anchor",
       "address": "",
-      "openingHours": "Mo-Fr 11:30-18:30",
-      "website": "https://www.gallery-ueda.com/",
-      "phone": "+81 3 3574 7553",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
       "cuisine": [],
       "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "Q6630204",
+      "wikipedia": "ja:潮風公園",
       "osmTags": {
-        "tourism": "gallery"
+        "leisure": "park"
+      },
+      "fame": 12
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/0566f8fd9c489ab8c076",
+      "name": "お台場海浜公園",
+      "nameEnglish": "Odaiba Marine Park",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 35.6310793,
+      "lng": 139.7736653,
+      "distanceFromTerminalMeters": 1501,
+      "distanceFromDefaultTerminalMeters": 1501,
+      "minDistanceFromAnyTerminalMeters": 1501,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "limited",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q5368576",
+      "wikipedia": "ja:お台場海浜公園",
+      "osmTags": {
+        "leisure": "park"
+      },
+      "fame": 8
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/1030c332229530744547",
+      "name": "有明テニスの森公園",
+      "nameEnglish": "Ariake Tennis Park",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 35.6353223,
+      "lng": 139.7881752,
+      "distanceFromTerminalMeters": 2491,
+      "distanceFromDefaultTerminalMeters": 2491,
+      "minDistanceFromAnyTerminalMeters": 2491,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q11516419",
+      "wikipedia": "ja:有明テニスの森公園",
+      "osmTags": {
+        "leisure": "park"
+      },
+      "fame": 10
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/cc2d96ca515ae90d3b32",
+      "name": "旧芝離宮恩賜庭園",
+      "nameEnglish": "Kyu Shiba Rikyu Garden",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 35.654979,
+      "lng": 139.7585664,
+      "distanceFromTerminalMeters": 4293,
+      "distanceFromDefaultTerminalMeters": 4293,
+      "minDistanceFromAnyTerminalMeters": 4293,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "09:00-17:00",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q3266874",
+      "wikipedia": "ja:旧芝離宮恩賜庭園",
+      "osmTags": {
+        "leisure": "park",
+        "tourism": "yes"
+      },
+      "fame": 8
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/6514ebd8c6f1fb50db12",
+      "name": "清澄庭園",
+      "nameEnglish": "Kiyosumi Gardens",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 35.6798593,
+      "lng": 139.7977156,
+      "distanceFromTerminalMeters": 7314,
+      "distanceFromDefaultTerminalMeters": 7314,
+      "minDistanceFromAnyTerminalMeters": 7314,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Su 09:00-17:00; Dec 29-Jan 01 off",
+      "website": "https://www.tokyo-park.or.jp/park/format/index033.html",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q4388146",
+      "wikipedia": "ja:清澄庭園",
+      "osmTags": {
+        "leisure": "park"
+      },
+      "fame": 10
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/e049fcbb76441ab9e3a3",
+      "name": "東京都夢の島熱帯植物館",
+      "nameEnglish": "Yumenoshima Tropical Greenhouse Dome",
+      "category": "outdoors",
+      "subcategory": "garden",
+      "lat": 35.6513401,
+      "lng": 139.8293953,
+      "distanceFromTerminalMeters": 6459,
+      "distanceFromDefaultTerminalMeters": 6459,
+      "minDistanceFromAnyTerminalMeters": 6459,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Tu-Su 09:30-17:00",
+      "website": "",
+      "phone": "03-3522-0281",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q4388023",
+      "wikipedia": "en:Yumenoshima Tropical Greenhouse Dome",
+      "osmTags": {
+        "leisure": "garden"
+      },
+      "fame": 5
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/5ccd4b2a23476cd7c736",
+      "name": "国立科学博物館附属自然教育園",
+      "nameEnglish": "Institute for Nature Study, National Museum of Nature and Science",
+      "category": "outdoors",
+      "subcategory": "garden",
+      "lat": 35.6385173,
+      "lng": 139.719893,
+      "distanceFromTerminalMeters": 5173,
+      "distanceFromDefaultTerminalMeters": 5173,
+      "minDistanceFromAnyTerminalMeters": 5173,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q5557026",
+      "wikipedia": "ja:国立科学博物館附属自然教育園",
+      "osmTags": {
+        "leisure": "garden"
+      },
+      "fame": 4
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/92df05ee90e7888ea372",
+      "name": "LOVE sign, Statue of Liberty, and Rainbow Bridge view",
+      "nameEnglish": "LOVE sign, Statue of Liberty, and Rainbow Bridge view",
+      "category": "outdoors",
+      "subcategory": "viewpoint",
+      "lat": 35.6274004,
+      "lng": 139.7722442,
+      "distanceFromTerminalMeters": 1079,
+      "distanceFromDefaultTerminalMeters": 1079,
+      "minDistanceFromAnyTerminalMeters": 1079,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "この人気の写真スポットは、特に夜に魅力的なレインボーブリッジと自由の女神の素晴らしい景色を提供します。カップルや訪問者が思い出に残る瞬間を捉えるための魅力的な場所です。",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "tourism": "viewpoint"
       }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/7c71b9db01b61022db8a",
+      "name": "Yamato",
+      "nameEnglish": "Yamato",
+      "category": "essentials",
+      "subcategory": "post_office",
+      "lat": 35.634088,
+      "lng": 139.7824065,
+      "distanceFromTerminalMeters": 2085,
+      "distanceFromDefaultTerminalMeters": 2085,
+      "minDistanceFromAnyTerminalMeters": 2085,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "江東区, 135-0063",
+      "openingHours": "24/7",
+      "website": "http://www.e-map.ne.jp/p/yamato01/shop_dtl.htm?p_f1=1&kid=031902",
+      "phone": "+81 3-5564-3720",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "post_office"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/31d7a015429576f24115",
+      "name": "テレコムセンター駅",
+      "nameEnglish": "Telecom Center Station",
+      "category": "essentials",
+      "subcategory": "bicycle_rental",
+      "lat": 35.618158,
+      "lng": 139.778704,
+      "distanceFromTerminalMeters": 689,
+      "distanceFromDefaultTerminalMeters": 689,
+      "minDistanceFromAnyTerminalMeters": 689,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "07:00-22:00",
+      "website": "http://kcc.docomo-cycle.jp",
+      "phone": "0120-053-537",
+      "cuisine": [],
+      "wheelchair": "no",
+      "brand": "Docomo Bike Share",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "bicycle_rental"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d5144b740e04cb3a4e68",
+      "name": "船の科学館＜案内図＞",
+      "nameEnglish": "",
+      "category": "essentials",
+      "subcategory": "visitor_information",
+      "lat": 35.6208455,
+      "lng": 139.7730181,
+      "distanceFromTerminalMeters": 386,
+      "distanceFromDefaultTerminalMeters": 386,
+      "minDistanceFromAnyTerminalMeters": 386,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "tourism": "information"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/cb7f15bb87de35843f86",
+      "name": "台場一丁目商店街",
+      "nameEnglish": "Daiba 1-chōme Shōtengai",
+      "category": "attraction",
+      "subcategory": "theme_park",
+      "lat": 35.6292846,
+      "lng": 139.7762176,
+      "distanceFromTerminalMeters": 1364,
+      "distanceFromDefaultTerminalMeters": 1364,
+      "minDistanceFromAnyTerminalMeters": 1364,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1, 港区",
+      "openingHours": "Mo-Fr 11:00-20:00; Sa-Su 11:00-21:00",
+      "website": "https://www.odaiba-decks.com/news/event/daiba1chome.html",
+      "phone": "+81 3-3599-6500",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q11411934",
+      "wikipedia": "ja:台場一丁目商店街",
+      "osmTags": {
+        "tourism": "theme_park"
+      },
+      "fame": 1
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f19421e556fd5ee14293",
+      "name": "Small Worlds Tokyo",
+      "nameEnglish": "Small Worlds Tokyo",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 35.6378302,
+      "lng": 139.78825,
+      "distanceFromTerminalMeters": 2719,
+      "distanceFromDefaultTerminalMeters": 2719,
+      "minDistanceFromAnyTerminalMeters": 2719,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "33, 135-0063, JP",
+      "openingHours": "Mo-Su 09:00-19:00",
+      "website": "https://www.smallworlds.jp/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q30926669",
+      "wikipedia": "ja:スモールワールズ",
+      "osmTags": {
+        "tourism": "attraction"
+      },
+      "fame": 4
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b6808cac2f77a5e555d0",
+      "name": "キッザニア東京",
+      "nameEnglish": "Kidzania Tokyo",
+      "category": "attraction",
+      "subcategory": "theme_park",
+      "lat": 35.6563097,
+      "lng": 139.7913488,
+      "distanceFromTerminalMeters": 4663,
+      "distanceFromDefaultTerminalMeters": 4663,
+      "minDistanceFromAnyTerminalMeters": 4663,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "9, 江東区, 135-8614",
+      "openingHours": "",
+      "website": "https://www.kidzania.jp/tokyo/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q5363436",
+      "wikipedia": "en:KidZania Tokyo",
+      "osmTags": {
+        "tourism": "theme_park"
+      },
+      "fame": 5
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/154c902990b5d89c02c6",
+      "name": "汐留SIO-SITE",
+      "nameEnglish": "Shiodome Sio-Site",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 35.6646201,
+      "lng": 139.7604893,
+      "distanceFromTerminalMeters": 5300,
+      "distanceFromDefaultTerminalMeters": 5300,
+      "minDistanceFromAnyTerminalMeters": 5300,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q1185910",
+      "wikipedia": "ja:汐留",
+      "osmTags": {
+        "tourism": "attraction"
+      },
+      "fame": 13
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/fdacfce4f982575cae3e",
+      "name": "葛西臨海水族園",
+      "nameEnglish": "Tokyo Sea Life Park",
+      "category": "attraction",
+      "subcategory": "aquarium",
+      "lat": 35.6407837,
+      "lng": 139.8619507,
+      "distanceFromTerminalMeters": 8602,
+      "distanceFromDefaultTerminalMeters": 8602,
+      "minDistanceFromAnyTerminalMeters": 8602,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Th-Tu 09:30-17:00",
+      "website": "https://www.tokyo-zoo.net/english/kasai/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q4925165",
+      "wikipedia": "ja:葛西臨海水族園",
+      "osmTags": {
+        "tourism": "aquarium"
+      },
+      "fame": 7
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/6b8c58020f14590deba1",
+      "name": "赤坂サカス",
+      "nameEnglish": "akasaka Sacas",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 35.672424,
+      "lng": 139.7352371,
+      "distanceFromTerminalMeters": 6890,
+      "distanceFromDefaultTerminalMeters": 6890,
+      "minDistanceFromAnyTerminalMeters": 6890,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "港区",
+      "openingHours": "",
+      "website": "https://sacas.net/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q864638",
+      "wikipedia": "ja:赤坂サカス",
+      "osmTags": {
+        "tourism": "attraction"
+      },
+      "fame": 6
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/874543e88a44a7adde48",
+      "name": "ブレッドマチエール　カフェ&バル",
+      "nameEnglish": "Bread Matiere Cafe & Bar",
+      "category": "shopping",
+      "subcategory": "bakery",
+      "lat": 35.6207734,
+      "lng": 139.7025827,
+      "distanceFromTerminalMeters": 6203,
+      "distanceFromDefaultTerminalMeters": 6203,
+      "minDistanceFromAnyTerminalMeters": 6203,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "目黒区",
+      "openingHours": "Su-Mo 07:00-19:00; We-Sa 07:00-19:00",
+      "website": "https://tabelog.com/tokyo/A1317/A131710/13277903/",
+      "phone": "+81 3-6451-0759",
+      "cuisine": [
+        "coffee_shop",
+        "sandwich"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "shop": "bakery"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/7b7aa2fd8888517b7342",
+      "name": "THE CITY BAKERY アトレ品川",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "bakery",
+      "lat": 35.62903,
+      "lng": 139.7409534,
+      "distanceFromTerminalMeters": 3000,
+      "distanceFromDefaultTerminalMeters": 3000,
+      "minDistanceFromAnyTerminalMeters": 3000,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Su 07:00-22:00",
+      "website": "https://thecitybakery.jp/shop/shinagawa.html",
+      "phone": "+8103-6717-0960",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "shop": "bakery"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/36ba5f8a28340b73a811",
+      "name": "Boulangerie La Terre",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "bakery",
+      "lat": 35.6282973,
+      "lng": 139.7387919,
+      "distanceFromTerminalMeters": 3147,
+      "distanceFromDefaultTerminalMeters": 3147,
+      "minDistanceFromAnyTerminalMeters": 3147,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Fr 07:00-22:00; Sa-Su 07:00-21:00",
+      "website": "https://www.laterre.com/boulangerie/",
+      "phone": "03-5421-8005",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "shop": "bakery"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/6bc1a02277a20275e6a1",
+      "name": "渋谷Parco",
+      "nameEnglish": "Shibuya Parco",
+      "category": "shopping",
+      "subcategory": "mall",
+      "lat": 35.6619508,
+      "lng": 139.6987706,
+      "distanceFromTerminalMeters": 8179,
+      "distanceFromDefaultTerminalMeters": 8179,
+      "minDistanceFromAnyTerminalMeters": 8179,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1, 渋谷区, 150-8377, JP",
+      "openingHours": "Mo-Su 11:00-21:00",
+      "website": "https://shibuya.parco.jp/",
+      "phone": "+81 3-3464-5111",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q17992805",
+      "wikipedia": "ja:渋谷パルコ",
+      "osmTags": {
+        "shop": "mall"
+      },
+      "fame": 1
     }
   ],
-  "portAnchor": {
-    "id": "ports-json-anchor",
-    "name": "TOKYO KO Port",
-    "lat": 35.67,
-    "lng": 139.75,
-    "address": "Tokyo, Tokyo Prefecture, Japan",
-    "source": "ports.json",
-    "sourceId": "",
-    "score": 0,
-    "slug": "tokyo-ko-port"
-  },
   "terminalResolution": {
     "status": "resolved",
-    "method": "terminal_review",
+    "method": "cruise-ports",
     "verified": true,
-    "reviewedAt": "2026-09-28",
-    "notes": "Tokyo International Cruise Terminal in Odaiba is correct; Takeshiba is for island ferries and water buses. Terminal sweep: Moved the terminal pin about 400 m from the station onto the terminal building (from Google Maps)."
-  }
+    "notes": "Tokyo International Cruise Terminal in Odaiba is correct; Takeshiba is for island ferries and water buses. Moved the terminal pin about 400 m from the station onto the terminal building (from Google Maps)."
+  },
+  "gemSuggestions": [
+    "Tsukiji Outer Market",
+    "Yanaka Ginza"
+  ]
 }

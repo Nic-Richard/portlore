@@ -1,7 +1,55 @@
 {
+  "defaultTerminalId": "manual/victoria-canada/ogden-point-cruise-terminal-pier-a",
+  "terminal": {
+    "id": "manual/victoria-canada/ogden-point-cruise-terminal-pier-a",
+    "name": "Ogden Point Cruise Terminal, Pier A",
+    "lat": 48.41456,
+    "lng": -123.39136,
+    "terminalType": "cruise_terminal",
+    "source": "manual_web_research",
+    "sourceUrls": [
+      "https://gvha.ca/cruise/",
+      "https://www.openstreetmap.org/?mlat=48.41456&mlon=-123.39136#map=17/48.41456/-123.39136"
+    ],
+    "notes": "Passenger terminal serving Pier A at Ogden Point.",
+    "sourceId": "manual/victoria-canada/ogden-point-cruise-terminal-pier-a",
+    "verified": true
+  },
+  "terminals": [
+    {
+      "id": "manual/victoria-canada/ogden-point-cruise-terminal-pier-a",
+      "name": "Ogden Point Cruise Terminal, Pier A",
+      "lat": 48.41456,
+      "lng": -123.39136,
+      "terminalType": "cruise_terminal",
+      "source": "manual_web_research",
+      "sourceUrls": [
+        "https://gvha.ca/cruise/",
+        "https://www.openstreetmap.org/?mlat=48.41456&mlon=-123.39136#map=17/48.41456/-123.39136"
+      ],
+      "notes": "Passenger terminal serving Pier A at Ogden Point.",
+      "sourceId": "manual/victoria-canada/ogden-point-cruise-terminal-pier-a",
+      "verified": true
+    },
+    {
+      "id": "manual/victoria-canada/ogden-point-cruise-terminal-pier-b",
+      "name": "Ogden Point Cruise Terminal, Pier B",
+      "lat": 48.41273,
+      "lng": -123.3892,
+      "terminalType": "cruise_terminal",
+      "source": "manual_web_research",
+      "sourceUrls": [
+        "https://gvha.ca/cruise/",
+        "https://www.openstreetmap.org/?mlat=48.41273&mlon=-123.3892#map=17/48.41273/-123.3892"
+      ],
+      "notes": "Separate passenger terminal serving Pier B at Ogden Point.",
+      "sourceId": "manual/victoria-canada/ogden-point-cruise-terminal-pier-b",
+      "verified": true
+    }
+  ],
   "schemaVersion": 5,
   "catalogType": "curation-candidates",
-  "generatedAt": "2026-07-30T08:07:46.469Z",
+  "generatedAt": "2026-09-29T05:47:51.116Z",
   "source": "openstreetmap",
   "sourceExtract": "island-admreg-latest.osm.pbf",
   "radiusMeters": 10000,
@@ -10,651 +58,429 @@
     "city": "Victoria",
     "country": "Canada"
   },
-  "defaultTerminalId": "manual/victoria-canada/ogden-point-cruise-terminal-pier-a",
-  "terminal": {
-    "id": "manual/victoria-canada/ogden-point-cruise-terminal-pier-a",
+  "portAnchor": {
+    "id": "ports-json-anchor",
     "name": "Ogden Point Cruise Terminal, Pier A",
-    "nameEnglish": "",
     "lat": 48.41456,
     "lng": -123.39136,
-    "address": "",
-    "source": "manual_web_research",
-    "sourceId": "manual/victoria-canada/ogden-point-cruise-terminal-pier-a",
-    "terminalType": "cruise_terminal",
-    "verified": true,
-    "notes": "Passenger terminal serving Pier A at Ogden Point.",
-    "sourceUrls": [
-      "https://gvha.ca/cruise/",
-      "https://www.openstreetmap.org/?mlat=48.41456&mlon=-123.39136#map=17/48.41456/-123.39136"
-    ],
-    "sources": [
-      "manual_web_research"
-    ],
-    "sourceIds": [
-      "manual/victoria-canada/ogden-point-cruise-terminal-pier-a"
-    ],
-    "osmTags": {},
-    "matchedBy": [
-      "web_researched_terminal"
-    ]
+    "address": "Victoria, British Columbia, Canada",
+    "source": "ports.json",
+    "sourceId": "",
+    "score": 0,
+    "slug": "ogden-point-cruise-terminal-pier-a"
   },
-  "terminals": [
-    {
-      "id": "manual/victoria-canada/ogden-point-cruise-terminal-pier-a",
-      "name": "Ogden Point Cruise Terminal, Pier A",
-      "nameEnglish": "",
-      "lat": 48.41456,
-      "lng": -123.39136,
-      "address": "",
-      "source": "manual_web_research",
-      "sourceId": "manual/victoria-canada/ogden-point-cruise-terminal-pier-a",
-      "terminalType": "cruise_terminal",
-      "verified": true,
-      "notes": "Passenger terminal serving Pier A at Ogden Point.",
-      "sourceUrls": [
-        "https://gvha.ca/cruise/",
-        "https://www.openstreetmap.org/?mlat=48.41456&mlon=-123.39136#map=17/48.41456/-123.39136"
-      ],
-      "sources": [
-        "manual_web_research"
-      ],
-      "sourceIds": [
-        "manual/victoria-canada/ogden-point-cruise-terminal-pier-a"
-      ],
-      "osmTags": {},
-      "matchedBy": [
-        "web_researched_terminal"
-      ]
-    },
-    {
-      "id": "manual/victoria-canada/ogden-point-cruise-terminal-pier-b",
-      "name": "Ogden Point Cruise Terminal, Pier B",
-      "nameEnglish": "",
-      "lat": 48.41273,
-      "lng": -123.3892,
-      "address": "",
-      "source": "manual_web_research",
-      "sourceId": "manual/victoria-canada/ogden-point-cruise-terminal-pier-b",
-      "terminalType": "cruise_terminal",
-      "verified": true,
-      "notes": "Separate passenger terminal serving Pier B at Ogden Point.",
-      "sourceUrls": [
-        "https://gvha.ca/cruise/",
-        "https://www.openstreetmap.org/?mlat=48.41273&mlon=-123.3892#map=17/48.41273/-123.3892"
-      ],
-      "sources": [
-        "manual_web_research"
-      ],
-      "sourceIds": [
-        "manual/victoria-canada/ogden-point-cruise-terminal-pier-b"
-      ],
-      "osmTags": {},
-      "matchedBy": [
-        "web_researched_terminal"
-      ]
-    }
-  ],
-  "terminalCandidateRadiusMeters": 5000,
-  "terminalCandidates": [
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/dc3cbf51f026d70b91c5",
-      "name": "Dockside Green",
-      "nameEnglish": "",
-      "lat": 48.4328484,
-      "lng": -123.377716,
-      "distanceFromPortMeters": 359,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "operator": "Victoria Harbour Ferry",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/dc3cbf51f026d70b91c5"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/f4c2db669976df6eac1c",
-      "name": "Songhees Landing",
-      "nameEnglish": "",
-      "lat": 48.426078,
-      "lng": -123.380758,
-      "distanceFromPortMeters": 440,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "operator": "Victoria Harbour Ferry",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/f4c2db669976df6eac1c"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/7c104350f4973045a7d6",
-      "name": "Delta Ocean Pointe",
-      "nameEnglish": "",
-      "lat": 48.4268327,
-      "lng": -123.374077,
-      "distanceFromPortMeters": 561,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "operator": "Victoria Harbour Ferry",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/7c104350f4973045a7d6"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/cf82a5785ad87233e8c0",
-      "name": "Swift Street Landing",
-      "nameEnglish": "",
-      "lat": 48.4293016,
-      "lng": -123.37173,
-      "distanceFromPortMeters": 615,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "operator": "Victoria Harbour Ferry",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/cf82a5785ad87233e8c0"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/492a186aaab2a3a6f480",
-      "name": "Point Ellice House",
-      "nameEnglish": "",
-      "lat": 48.4354417,
-      "lng": -123.377971,
-      "distanceFromPortMeters": 623,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "operator": "Victoria Harbour Ferry",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/492a186aaab2a3a6f480"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/0401b8212605bd3cef46",
-      "name": "Old Town",
-      "nameEnglish": "",
-      "lat": 48.4263956,
-      "lng": -123.3712129,
-      "distanceFromPortMeters": 762,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "operator": "Victoria Harbour Ferry",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/0401b8212605bd3cef46"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/9be68d1b94c7b2b4175d",
-      "name": "Coast Hotel",
-      "nameEnglish": "",
-      "lat": 48.4229134,
-      "lng": -123.379918,
-      "distanceFromPortMeters": 788,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "operator": "Victoria Harbour Ferry",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/9be68d1b94c7b2b4175d"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/9a3aa838a227eccec893",
-      "name": "Fisherman's Wharf",
-      "nameEnglish": "",
-      "lat": 48.4227595,
-      "lng": -123.3825675,
-      "distanceFromPortMeters": 827,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "operator": "Victoria Harbour Ferry",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/9a3aa838a227eccec893"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/d5f6644bdf59d41161ab",
-      "name": "Railyards",
-      "nameEnglish": "",
-      "lat": 48.4377752,
-      "lng": -123.38207,
-      "distanceFromPortMeters": 878,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "operator": "Victoria Harbour Ferry",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/d5f6644bdf59d41161ab"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/054d31e0fddae3dcab95",
-      "name": "Selkirk Landing",
-      "nameEnglish": "",
-      "lat": 48.4388577,
-      "lng": -123.379665,
-      "distanceFromPortMeters": 985,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "operator": "Victoria Harbour Ferry",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/054d31e0fddae3dcab95"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/ae3ef19aa30398b83db3",
-      "name": "Harbour Air",
-      "nameEnglish": "Harbour Air Seaplanes",
-      "lat": 48.4234101,
-      "lng": -123.370738,
-      "distanceFromPortMeters": 1002,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "name:en": "Harbour Air Seaplanes",
-        "operator": "Victoria Harbour Ferry",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/ae3ef19aa30398b83db3"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/73f2a7a90b26804ecdf5",
-      "name": "Coho Ferry",
-      "nameEnglish": "",
-      "lat": 48.4216885,
-      "lng": -123.3728734,
-      "distanceFromPortMeters": 1063,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "cargo": "passengers;vehicle",
-        "ferry": "yes",
-        "operator": "Black Ball Ferry Line",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/73f2a7a90b26804ecdf5"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/cb90a2105447e81ec833",
-      "name": "Victoria",
-      "nameEnglish": "",
-      "lat": 48.4216189,
-      "lng": -123.372083,
-      "distanceFromPortMeters": 1100,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "public_transport": "stop_position"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/cb90a2105447e81ec833"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/02839bc7e1a6dc971dcd",
-      "name": "Victoria",
-      "nameEnglish": "",
-      "lat": 48.4216702,
-      "lng": -123.3707143,
-      "distanceFromPortMeters": 1152,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "cargo": "passengers",
-        "ferry": "yes",
-        "operator": "Clipper Vacations",
-        "public_transport": "stop_position"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/02839bc7e1a6dc971dcd"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/7279ae191b26f3695fac",
-      "name": "Empress Dock",
-      "nameEnglish": "",
-      "lat": 48.4223016,
-      "lng": -123.3688977,
-      "distanceFromPortMeters": 1185,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "operator": "Victoria Harbour Ferry",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/7279ae191b26f3695fac"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/4328573d44e6b6c27256",
-      "name": "FRS Clipper",
-      "nameEnglish": "",
-      "lat": 48.4210097,
-      "lng": -123.371383,
-      "distanceFromPortMeters": 1185,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/4328573d44e6b6c27256"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/4ed39a38b90fa651a438",
-      "name": "West Bay/Esquimalt",
-      "nameEnglish": "",
-      "lat": 48.426555,
-      "lng": -123.39776,
-      "distanceFromPortMeters": 1365,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "operator": "Victoria Harbour Ferry",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/4ed39a38b90fa651a438"
-      ]
-    }
-  ],
   "counts": {
-    "attraction": 16,
-    "outdoors": 8,
-    "food_drink": 14,
-    "shopping": 2,
+    "attraction": 22,
+    "food_drink": 30,
+    "shopping": 17,
+    "outdoors": 12,
     "essentials": 3
   },
   "pois": [
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/2af7db002746622f778e",
-      "name": "Point Ellice House",
-      "nameEnglish": "",
+      "sourceId": "osm/generated/3069d84be5a125a1f510",
+      "name": "Royal BC Museum",
+      "nameEnglish": "Royal BC Museum",
       "category": "attraction",
       "subcategory": "museum",
-      "lat": 48.4360935,
-      "lng": -123.3773497,
-      "distanceFromTerminalMeters": 705,
-      "distanceFromDefaultTerminalMeters": 705,
-      "minDistanceFromAnyTerminalMeters": 705,
+      "lat": 48.4197216,
+      "lng": -123.3679278,
+      "distanceFromTerminalMeters": 1822,
+      "distanceFromDefaultTerminalMeters": 1822,
+      "minDistanceFromAnyTerminalMeters": 1822,
       "nearestTerminalId": "ports-json-anchor",
-      "address": "2616 Pleasant Street",
-      "openingHours": "",
-      "website": "https://www.pointellicehouse.com/",
-      "phone": "+1-250-800-1831",
+      "address": "675 Belleville Street, Victoria, V8W 9W2",
+      "openingHours": "Mo-Su 10:00-18:00",
+      "website": "https://royalbcmuseum.bc.ca/",
+      "phone": "+1-250-356-7226",
       "cuisine": [],
       "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "Q1542695",
+      "wikipedia": "en:Royal British Columbia Museum",
       "osmTags": {
         "tourism": "museum"
-      }
+      },
+      "curated": true,
+      "gem": true,
+      "fame": 7
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/65f562f5358f396b4577",
-      "name": "Victoria Chinatown Museum",
+      "sourceId": "osm/generated/38151f835f4943c9b8c5",
+      "name": "James Bay Market",
       "nameEnglish": "",
-      "category": "attraction",
-      "subcategory": "museum",
-      "lat": 48.4288495,
-      "lng": -123.367958,
-      "distanceFromTerminalMeters": 898,
-      "distanceFromDefaultTerminalMeters": 898,
-      "minDistanceFromAnyTerminalMeters": 898,
+      "category": "shopping",
+      "subcategory": "marketplace",
+      "lat": 48.4184283,
+      "lng": -123.3727607,
+      "distanceFromTerminalMeters": 1438,
+      "distanceFromDefaultTerminalMeters": 1438,
+      "minDistanceFromAnyTerminalMeters": 1438,
       "nearestTerminalId": "ports-json-anchor",
-      "address": "10 Fan Tan Alley, V8W 1N6",
-      "openingHours": "",
-      "website": "https://victoriachinatownmuseum.com/",
+      "address": "",
+      "openingHours": "Sa 09:00-15:00; Oct 07-Apr 30 closed",
+      "website": "https://jamesbaymarket.com/",
       "phone": "",
       "cuisine": [],
       "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "",
+      "wikipedia": "",
       "osmTags": {
-        "tourism": "museum"
-      }
+        "amenity": "marketplace"
+      },
+      "curated": true,
+      "gem": true
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/d9fe7aa1dd3d06a700db",
-      "name": "Victoria Bug Zoo",
+      "sourceId": "osm/generated/8bee664210131d323110",
+      "name": "Janevca",
       "nameEnglish": "",
-      "category": "attraction",
-      "subcategory": "zoo",
-      "lat": 48.4232281,
-      "lng": -123.366577,
-      "distanceFromTerminalMeters": 1244,
-      "distanceFromDefaultTerminalMeters": 1244,
-      "minDistanceFromAnyTerminalMeters": 1244,
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 48.4246881,
+      "lng": -123.407569,
+      "distanceFromTerminalMeters": 1643,
+      "distanceFromDefaultTerminalMeters": 1643,
+      "minDistanceFromAnyTerminalMeters": 1643,
       "nearestTerminalId": "ports-json-anchor",
-      "address": "631 Courtney Street",
+      "address": "429 Lampson Street, V9A5K7",
+      "openingHours": "Mo-Su 16:30-21:30",
+      "website": "https://janevca.ca/",
+      "phone": "",
+      "cuisine": [
+        "fine_dining"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      },
+      "curated": true,
+      "gem": true
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/638e2ff95d81489789e6",
+      "name": "Kinton Ramen",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 48.423324,
+      "lng": -123.3689929,
+      "distanceFromTerminalMeters": 1917,
+      "distanceFromDefaultTerminalMeters": 1917,
+      "minDistanceFromAnyTerminalMeters": 1917,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "813 Wharf Street, V8W 1T2",
+      "openingHours": "Mo-We 11:00-21:00; Th-Sa 11:00-22:00; Su 11:00-21:00",
+      "website": "https://kintonramen.com/victoria-downtown",
+      "phone": "+1 250 590-9699",
+      "cuisine": [
+        "ramen"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      },
+      "curated": true,
+      "gem": true
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d9eb05fa198cb3fd8250",
+      "name": "Wendy's",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "fast_food",
+      "lat": 48.4608848,
+      "lng": -123.4970275,
+      "distanceFromTerminalMeters": 9343,
+      "distanceFromDefaultTerminalMeters": 9343,
+      "minDistanceFromAnyTerminalMeters": 9343,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "06:30-25:00",
+      "website": "https://locations.wendys.com/canada/bc/langford/151-2401g-millstream-road",
+      "phone": "+1 250 800-1723",
+      "cuisine": [
+        "burger"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q550258",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "fast_food"
+      },
+      "fame": 46
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/06b9e67e2f9afb76bb40",
+      "name": "Under Armour",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "clothes",
+      "lat": 48.4632147,
+      "lng": -123.4967619,
+      "distanceFromTerminalMeters": 9472,
+      "distanceFromDefaultTerminalMeters": 9472,
+      "minDistanceFromAnyTerminalMeters": 9472,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Th,Su 10:00-19:00; Fr-Sa 10:00-21:00",
+      "website": "https://www.underarmour.ca/en-ca/stores/detail/CAFH33V2MHABGGYL/",
+      "phone": "+1 250 220-1178",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q2031485",
+      "wikipedia": "",
+      "osmTags": {
+        "shop": "clothes"
+      },
+      "fame": 39
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/cb12ea1e6432a5af7794",
+      "name": "Grove of tall Chinese windmill palm (Trachycarpus fortunei)",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "garden",
+      "lat": 48.4153048,
+      "lng": -123.3444829,
+      "distanceFromTerminalMeters": 3461,
+      "distanceFromDefaultTerminalMeters": 3461,
+      "minDistanceFromAnyTerminalMeters": 3461,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
       "openingHours": "",
-      "website": "https://www.victoriabugzoo.ca",
-      "phone": "+1-250-384-2847",
+      "website": "",
+      "phone": "",
       "cuisine": [],
       "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "Q158383",
+      "wikipedia": "en:Trachycarpus fortunei",
       "osmTags": {
-        "tourism": "zoo"
-      }
+        "leisure": "garden"
+      },
+      "fame": 37
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/312f510bf21b8bbdfd0c",
-      "name": "Monkey C Interactive's Artcade",
+      "sourceId": "osm/generated/dfdc2a80fde81557c4fc",
+      "name": "Beacon Hill Park",
       "nameEnglish": "",
-      "category": "attraction",
-      "subcategory": "attraction",
-      "lat": 48.424678,
-      "lng": -123.3648294,
-      "distanceFromTerminalMeters": 1266,
-      "distanceFromDefaultTerminalMeters": 1266,
-      "minDistanceFromAnyTerminalMeters": 1266,
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 48.4125939,
+      "lng": -123.3635806,
+      "distanceFromTerminalMeters": 2062,
+      "distanceFromDefaultTerminalMeters": 2062,
+      "minDistanceFromAnyTerminalMeters": 2062,
       "nearestTerminalId": "ports-json-anchor",
-      "address": "706 Fort Street",
-      "openingHours": "Th-Su 14:00-22:00; PH off",
-      "website": "https://www.artcade.ca/",
-      "phone": "+1 250 588-6459",
+      "address": "100 Cook Street",
+      "openingHours": "",
+      "website": "https://www.victoria.ca/EN/main/residents/parks/beacon-hill.html",
+      "phone": "",
       "cuisine": [],
       "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "Q2892796",
+      "wikipedia": "en:Beacon Hill Park",
       "osmTags": {
-        "tourism": "attraction"
-      }
+        "leisure": "park"
+      },
+      "fame": 7
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/fc684583bdd2d7b807ab",
-      "name": "Miniature World",
+      "sourceId": "osm/generated/38ee7c1d6505a784b181",
+      "name": "Craigdarroch Castle",
       "nameEnglish": "",
       "category": "attraction",
       "subcategory": "museum",
-      "lat": 48.42237,
-      "lng": -123.366946,
-      "distanceFromTerminalMeters": 1284,
-      "distanceFromDefaultTerminalMeters": 1284,
-      "minDistanceFromAnyTerminalMeters": 1284,
+      "lat": 48.4225493,
+      "lng": -123.3438159,
+      "distanceFromTerminalMeters": 3619,
+      "distanceFromDefaultTerminalMeters": 3619,
+      "minDistanceFromAnyTerminalMeters": 3619,
       "nearestTerminalId": "ports-json-anchor",
-      "address": "649 Humboldt Street, V8W 1A7",
-      "openingHours": "Mo-Su 10:00-21:00",
-      "website": "https://www.miniatureworld.com/",
-      "phone": "+1-250-385-9731",
+      "address": "1048 Joan Crescent, Victoria",
+      "openingHours": "",
+      "website": "https://thecastle.ca",
+      "phone": "",
       "cuisine": [],
       "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "Q5181657",
+      "wikipedia": "en:Craigdarroch Castle",
       "osmTags": {
         "tourism": "museum"
-      }
+      },
+      "fame": 7
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/692bffe7cca93b8d2caf",
+      "name": "Marshall's",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "department_store",
+      "lat": 48.4630796,
+      "lng": -123.498162,
+      "distanceFromTerminalMeters": 9549,
+      "distanceFromDefaultTerminalMeters": 9549,
+      "minDistanceFromAnyTerminalMeters": 9549,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Sa 09:00-21:00; Su 10:00-21:00",
+      "website": "https://www.marshalls.ca/",
+      "phone": "+1 236 475-0759",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q15903261",
+      "wikipedia": "",
+      "osmTags": {
+        "shop": "department_store"
+      },
+      "fame": 7
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/e52859ece7e6ab9e81b6",
+      "name": "Fisgard Lighthouse",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "lighthouse",
+      "lat": 48.4303831,
+      "lng": -123.4475557,
+      "distanceFromTerminalMeters": 4505,
+      "distanceFromDefaultTerminalMeters": 4505,
+      "minDistanceFromAnyTerminalMeters": 4505,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q1420045",
+      "wikipedia": "en:Fisgard Lighthouse National Historic Site",
+      "osmTags": {
+        "man_made": "lighthouse"
+      },
+      "fame": 6
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/127a851a09118ab765a1",
+      "name": "Fort Rodd Hill and Fisgard Lighthouse National Historic Sites",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 48.4329528,
+      "lng": -123.4527347,
+      "distanceFromTerminalMeters": 4969,
+      "distanceFromDefaultTerminalMeters": 4969,
+      "minDistanceFromAnyTerminalMeters": 4969,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q185393",
+      "wikipedia": "en:Fort Rodd Hill National Historic Site",
+      "osmTags": {
+        "historic": "fort",
+        "leisure": "park",
+        "tourism": "attraction"
+      },
+      "fame": 5
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/88d655eff94a8eb1eb72",
+      "name": "Michaels",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "craft",
+      "lat": 48.4629408,
+      "lng": -123.4964481,
+      "distanceFromTerminalMeters": 9436,
+      "distanceFromDefaultTerminalMeters": 9436,
+      "minDistanceFromAnyTerminalMeters": 9436,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Tu,Th-Sa 09:00-21:00; We 09:00-18:00; Su 10:00-19:00",
+      "website": "https://locationsca.michaels.com/BC/Victoria/3951",
+      "phone": "+1 250 391-0954",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q6835667",
+      "wikipedia": "",
+      "osmTags": {
+        "shop": "craft"
+      },
+      "fame": 5
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f71472cbbdd6b824fae8",
+      "name": "Art Gallery of Greater Victoria",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 48.4218759,
+      "lng": -123.3477561,
+      "distanceFromTerminalMeters": 3319,
+      "distanceFromDefaultTerminalMeters": 3319,
+      "minDistanceFromAnyTerminalMeters": 3319,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1040 Moss Street",
+      "openingHours": "",
+      "website": "https://aggv.ca/",
+      "phone": "+1-250-384-4171",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q4796829",
+      "wikipedia": "en:Art Gallery of Greater Victoria",
+      "osmTags": {
+        "tourism": "museum"
+      },
+      "fame": 2
     },
     {
       "source": "openstreetmap",
@@ -665,9 +491,9 @@
       "subcategory": "museum",
       "lat": 48.4217671,
       "lng": -123.3663512,
-      "distanceFromTerminalMeters": 1361,
-      "distanceFromDefaultTerminalMeters": 1361,
-      "minDistanceFromAnyTerminalMeters": 1361,
+      "distanceFromTerminalMeters": 2012,
+      "distanceFromDefaultTerminalMeters": 2012,
+      "minDistanceFromAnyTerminalMeters": 2012,
       "nearestTerminalId": "ports-json-anchor",
       "address": "744 Douglas Street",
       "openingHours": "",
@@ -677,84 +503,148 @@
       "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "Q6765822",
+      "wikipedia": "en:Maritime Museum of British Columbia",
       "osmTags": {
         "tourism": "museum"
-      }
+      },
+      "fame": 1
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/3069d84be5a125a1f510",
-      "name": "Royal BC Museum",
-      "nameEnglish": "Royal BC Museum",
+      "sourceId": "osm/generated/d9fe7aa1dd3d06a700db",
+      "name": "Victoria Bug Zoo",
+      "nameEnglish": "",
       "category": "attraction",
-      "subcategory": "museum",
-      "lat": 48.4197216,
-      "lng": -123.3679278,
-      "distanceFromTerminalMeters": 1449,
-      "distanceFromDefaultTerminalMeters": 1449,
-      "minDistanceFromAnyTerminalMeters": 1449,
+      "subcategory": "zoo",
+      "lat": 48.4232281,
+      "lng": -123.366577,
+      "distanceFromTerminalMeters": 2067,
+      "distanceFromDefaultTerminalMeters": 2067,
+      "minDistanceFromAnyTerminalMeters": 2067,
       "nearestTerminalId": "ports-json-anchor",
-      "address": "675 Belleville Street, Victoria, V8W 9W2",
-      "openingHours": "Mo-Su 10:00-18:00",
-      "website": "https://royalbcmuseum.bc.ca/",
-      "phone": "+1-250-356-7226",
-      "cuisine": [],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "tourism": "museum"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/fa912d3a00c4b7df9c07",
-      "name": "Wawadiťła, The Mungo Martin House",
-      "nameEnglish": "The Mungo Martin House",
-      "category": "attraction",
-      "subcategory": "attraction",
-      "lat": 48.4199873,
-      "lng": -123.3667216,
-      "distanceFromTerminalMeters": 1483,
-      "distanceFromDefaultTerminalMeters": 1483,
-      "minDistanceFromAnyTerminalMeters": 1483,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "680 Douglas Street",
+      "address": "631 Courtney Street",
       "openingHours": "",
-      "website": "https://royalbcmuseum.bc.ca/exhibits/tbird-park/html/present/ex07/ex07.htm",
-      "phone": "",
+      "website": "https://www.victoriabugzoo.ca",
+      "phone": "+1-250-384-2847",
       "cuisine": [],
       "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "Q7926615",
+      "wikipedia": "en:Victoria Bug Zoo",
       "osmTags": {
-        "historic": "building",
-        "tourism": "attraction"
-      }
+        "tourism": "zoo"
+      },
+      "fame": 1
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/c99bb37975154563a789",
-      "name": "Emily Carr House",
+      "sourceId": "osm/generated/aa8c497f64ff0e6ae4ec",
+      "name": "Helmcken House",
       "nameEnglish": "",
       "category": "attraction",
       "subcategory": "museum",
-      "lat": 48.4137482,
-      "lng": -123.3696906,
-      "distanceFromTerminalMeters": 1961,
-      "distanceFromDefaultTerminalMeters": 1961,
-      "minDistanceFromAnyTerminalMeters": 1961,
+      "lat": 48.4196283,
+      "lng": -123.3669478,
+      "distanceFromTerminalMeters": 1888,
+      "distanceFromDefaultTerminalMeters": 1888,
+      "minDistanceFromAnyTerminalMeters": 1888,
       "nearestTerminalId": "ports-json-anchor",
-      "address": "207 Government Street",
-      "openingHours": "url=https://carrhouse.ca/guided-tours",
-      "website": "https://carrhouse.ca/",
+      "address": "",
+      "openingHours": "",
+      "website": "https://royalbcmuseum.bc.ca/visit/exhibitions/helmcken-house-and-st-anns-schoolhouse",
       "phone": "",
       "cuisine": [],
       "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "Q1603188",
+      "wikipedia": "en:Helmcken House",
       "osmTags": {
         "tourism": "museum"
+      },
+      "fame": 2
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/fc684583bdd2d7b807ab",
+      "name": "Miniature World",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 48.42237,
+      "lng": -123.366946,
+      "distanceFromTerminalMeters": 2000,
+      "distanceFromDefaultTerminalMeters": 2000,
+      "minDistanceFromAnyTerminalMeters": 2000,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "649 Humboldt Street, V8W 1A7",
+      "openingHours": "Mo-Su 10:00-21:00",
+      "website": "https://www.miniatureworld.com/",
+      "phone": "+1-250-385-9731",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/77ec8c55a9198564d98a",
+      "name": "Mark Loria Gallery",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "gallery",
+      "lat": 48.4247195,
+      "lng": -123.3670973,
+      "distanceFromTerminalMeters": 2117,
+      "distanceFromDefaultTerminalMeters": 2117,
+      "minDistanceFromAnyTerminalMeters": 2117,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "621 Fort Street",
+      "openingHours": "Tu-Sa 11:00-18:00",
+      "website": "https://www.markloriagallery.com/",
+      "phone": "+1 250 383-8224",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "tourism": "gallery"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/db47c980d97fb2b97e19",
+      "name": "Legacy Art Galleries",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "gallery",
+      "lat": 48.4265848,
+      "lng": -123.3664323,
+      "distanceFromTerminalMeters": 2274,
+      "distanceFromDefaultTerminalMeters": 2274,
+      "minDistanceFromAnyTerminalMeters": 2274,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "630 Yates Street",
+      "openingHours": "We-Sa 10:00-16:00",
+      "website": "https://www.uvic.ca/legacygalleries/",
+      "phone": "+1 250 721-6562",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "tourism": "gallery"
       }
     },
     {
@@ -766,9 +656,9 @@
       "subcategory": "museum",
       "lat": 48.4233313,
       "lng": -123.3516186,
-      "distanceFromTerminalMeters": 2222,
-      "distanceFromDefaultTerminalMeters": 2222,
-      "minDistanceFromAnyTerminalMeters": 2222,
+      "distanceFromTerminalMeters": 3091,
+      "distanceFromDefaultTerminalMeters": 3091,
+      "minDistanceFromAnyTerminalMeters": 3091,
       "nearestTerminalId": "ports-json-anchor",
       "address": "1156 Fort Street",
       "openingHours": "Th-Sa 11:00-16:00; Su-We Off",
@@ -778,6 +668,8 @@
       "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "",
+      "wikipedia": "",
       "osmTags": {
         "tourism": "museum"
       }
@@ -791,9 +683,9 @@
       "subcategory": "zoo",
       "lat": 48.4115884,
       "lng": -123.3638364,
-      "distanceFromTerminalMeters": 2369,
-      "distanceFromDefaultTerminalMeters": 2369,
-      "minDistanceFromAnyTerminalMeters": 2369,
+      "distanceFromTerminalMeters": 2058,
+      "distanceFromDefaultTerminalMeters": 2058,
+      "minDistanceFromAnyTerminalMeters": 2058,
       "nearestTerminalId": "ports-json-anchor",
       "address": "",
       "openingHours": "Mo-Su 10:00-16:00",
@@ -803,687 +695,461 @@
       "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "",
+      "wikipedia": "",
       "osmTags": {
         "tourism": "zoo"
       }
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/b2ad57bfe9f5c68f9917",
-      "name": "Golf Hill Battery",
+      "sourceId": "osm/generated/312f510bf21b8bbdfd0c",
+      "name": "Monkey C Interactive's Artcade",
       "nameEnglish": "",
       "category": "attraction",
-      "subcategory": "fort",
-      "lat": 48.4207693,
-      "lng": -123.4015106,
-      "distanceFromTerminalMeters": 1890,
-      "distanceFromDefaultTerminalMeters": 1890,
-      "minDistanceFromAnyTerminalMeters": 1890,
+      "subcategory": "attraction",
+      "lat": 48.424678,
+      "lng": -123.3648294,
+      "distanceFromTerminalMeters": 2258,
+      "distanceFromDefaultTerminalMeters": 2258,
+      "minDistanceFromAnyTerminalMeters": 2258,
       "nearestTerminalId": "ports-json-anchor",
-      "address": "",
-      "openingHours": "",
-      "website": "",
-      "phone": "",
+      "address": "706 Fort Street",
+      "openingHours": "Th-Su 14:00-22:00; PH off",
+      "website": "https://www.artcade.ca/",
+      "phone": "+1 250 588-6459",
       "cuisine": [],
       "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "",
+      "wikipedia": "",
       "osmTags": {
-        "historic": "fort"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/64ff1bbea36e31531166",
-      "name": "Beacon Hill Park Story Pole",
-      "nameEnglish": "",
-      "category": "attraction",
-      "subcategory": "monument",
-      "lat": 48.4091842,
-      "lng": -123.360431,
-      "distanceFromTerminalMeters": 2728,
-      "distanceFromDefaultTerminalMeters": 2728,
-      "minDistanceFromAnyTerminalMeters": 2728,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "",
-      "openingHours": "",
-      "website": "https://www.fbhp.ca/Totem-Pole",
-      "phone": "",
-      "cuisine": [],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "historic": "monument"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/db47c980d97fb2b97e19",
-      "name": "Legacy Art Galleries",
-      "nameEnglish": "",
-      "category": "attraction",
-      "subcategory": "gallery",
-      "lat": 48.4265848,
-      "lng": -123.3664323,
-      "distanceFromTerminalMeters": 1071,
-      "distanceFromDefaultTerminalMeters": 1071,
-      "minDistanceFromAnyTerminalMeters": 1071,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "630 Yates Street",
-      "openingHours": "We-Sa 10:00-16:00",
-      "website": "https://www.uvic.ca/legacygalleries/",
-      "phone": "+1 250 721-6562",
-      "cuisine": [],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "tourism": "gallery"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/77ec8c55a9198564d98a",
-      "name": "Mark Loria Gallery",
-      "nameEnglish": "",
-      "category": "attraction",
-      "subcategory": "gallery",
-      "lat": 48.4247195,
-      "lng": -123.3670973,
-      "distanceFromTerminalMeters": 1119,
-      "distanceFromDefaultTerminalMeters": 1119,
-      "minDistanceFromAnyTerminalMeters": 1119,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "621 Fort Street",
-      "openingHours": "Tu-Sa 11:00-18:00",
-      "website": "https://www.markloriagallery.com/",
-      "phone": "+1 250 383-8224",
-      "cuisine": [],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "tourism": "gallery"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/e53337c2230ab7ca5531",
-      "name": "Haida Pole, 1954",
-      "nameEnglish": "",
-      "category": "attraction",
-      "subcategory": "artwork",
-      "lat": 48.4197556,
-      "lng": -123.366465,
-      "distanceFromTerminalMeters": 1515,
-      "distanceFromDefaultTerminalMeters": 1515,
-      "minDistanceFromAnyTerminalMeters": 1515,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "",
-      "openingHours": "",
-      "website": "https://royalbcmuseum.bc.ca/exhibits/tbird-park/html/present/ex12/ex12.htm",
-      "phone": "",
-      "cuisine": [],
-      "wheelchair": "",
-      "brand": "",
-      "description": "It was raised by a man named Checkgath around 1880 as a memorial to his wife and shows some of Checkgath’s family crests. The original pole is now in the entrance lobby of the RBC museum.",
-      "osmTags": {
-        "tourism": "artwork"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/5c5ac68d74b64bad5e60",
-      "name": "Victoria International Marina",
-      "nameEnglish": "",
-      "category": "outdoors",
-      "subcategory": "marina",
-      "lat": 48.4267966,
-      "lng": -123.3830933,
-      "distanceFromTerminalMeters": 423,
-      "distanceFromDefaultTerminalMeters": 423,
-      "minDistanceFromAnyTerminalMeters": 423,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "1 Cooperage Place, Victoria, V9A 7J9",
-      "openingHours": "",
-      "website": "https://vimarina.ca/",
-      "phone": "+1-778-432-0477",
-      "cuisine": [],
-      "wheelchair": "",
-      "brand": "",
-      "description": "World-class, custom-built moorage for yachts over 20m (65′) LOA. Sets the standard in upscale security and safety, amenities, concierge services and crew facilities. A sanctuary at the gateway to British Columbia’s Pacific Northwest and Inside Passage.",
-      "osmTags": {
-        "leisure": "marina"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/083b4297372133a5a976",
-      "name": "Fort Victoria National Historic Site of Canada",
-      "nameEnglish": "",
-      "category": "outdoors",
-      "subcategory": "park",
-      "lat": 48.4246241,
-      "lng": -123.3700543,
-      "distanceFromTerminalMeters": 947,
-      "distanceFromDefaultTerminalMeters": 947,
-      "minDistanceFromAnyTerminalMeters": 947,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "",
-      "openingHours": "",
-      "website": "https://www.pc.gc.ca/apps/dfhd/page_nhs_eng.aspx?id=100",
-      "phone": "",
-      "cuisine": [],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "historic": "fort",
-        "leisure": "park",
         "tourism": "attraction"
       }
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/3f7c4a667f5305622730",
-      "name": "Fisherman's Wharf Park",
+      "sourceId": "osm/generated/2af7db002746622f778e",
+      "name": "Point Ellice House",
       "nameEnglish": "",
-      "category": "outdoors",
-      "subcategory": "park",
-      "lat": 48.4217804,
-      "lng": -123.3829037,
-      "distanceFromTerminalMeters": 939,
-      "distanceFromDefaultTerminalMeters": 939,
-      "minDistanceFromAnyTerminalMeters": 939,
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 48.4360935,
+      "lng": -123.3773497,
+      "distanceFromTerminalMeters": 2608,
+      "distanceFromDefaultTerminalMeters": 2608,
+      "minDistanceFromAnyTerminalMeters": 2608,
       "nearestTerminalId": "ports-json-anchor",
-      "address": "300 Saint Lawrence Street",
+      "address": "2616 Pleasant Street",
       "openingHours": "",
-      "website": "",
-      "phone": "",
+      "website": "https://www.pointellicehouse.com/",
+      "phone": "+1-250-800-1831",
       "cuisine": [],
       "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "",
+      "wikipedia": "",
       "osmTags": {
-        "leisure": "park"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/7e952bdea9843967b232",
-      "name": "Matson Conservation Area",
-      "nameEnglish": "",
-      "category": "outdoors",
-      "subcategory": "nature_reserve",
-      "lat": 48.4291517,
-      "lng": -123.3957426,
-      "distanceFromTerminalMeters": 1165,
-      "distanceFromDefaultTerminalMeters": 1165,
-      "minDistanceFromAnyTerminalMeters": 1165,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "Garrett Place, Esquimalt",
-      "openingHours": "24/7",
-      "website": "",
-      "phone": "",
-      "cuisine": [],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "leisure": "nature_reserve"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/48100d209a148aaa1d9e",
-      "name": "Thunderbird Park",
-      "nameEnglish": "",
-      "category": "outdoors",
-      "subcategory": "park",
-      "lat": 48.4197654,
-      "lng": -123.3667042,
-      "distanceFromTerminalMeters": 1503,
-      "distanceFromDefaultTerminalMeters": 1503,
-      "minDistanceFromAnyTerminalMeters": 1503,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "638 Douglas Street, Victoria, V8V 2P8",
-      "openingHours": "",
-      "website": "https://royalbcmuseum.bc.ca/exhibits/tbird-park/html/intro/intro.htm",
-      "phone": "",
-      "cuisine": [],
-      "wheelchair": "",
-      "brand": "",
-      "description": "Outdoor collection of replica totem poles & historic buildings including a convent & carving studio.",
-      "osmTags": {
-        "leisure": "park",
         "tourism": "museum"
       }
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/098eaf1c49a02b053a4c",
-      "name": "Royal Athletic Park",
+      "sourceId": "osm/generated/5bf0ce4d2571c219f911",
+      "name": "FLUX Media Gallery",
       "nameEnglish": "",
-      "category": "outdoors",
-      "subcategory": "park",
-      "lat": 48.4312616,
-      "lng": -123.354261,
-      "distanceFromTerminalMeters": 1904,
-      "distanceFromDefaultTerminalMeters": 1904,
-      "minDistanceFromAnyTerminalMeters": 1904,
+      "category": "attraction",
+      "subcategory": "gallery",
+      "lat": 48.4267019,
+      "lng": -123.3372428,
+      "distanceFromTerminalMeters": 4216,
+      "distanceFromDefaultTerminalMeters": 4216,
+      "minDistanceFromAnyTerminalMeters": 4216,
       "nearestTerminalId": "ports-json-anchor",
-      "address": "1014 Caledonia Avenue, V8T 1G1",
-      "openingHours": "",
-      "website": "https://www.victoria.ca/EN/main/residents/facilities/royal-athletic-park.html",
-      "phone": "",
+      "address": "1524 Pandora Avenue",
+      "openingHours": "Tu-Fr 12:00-17:00 \"Appointment required\"",
+      "website": "https://www.fluxmediagallery.org/",
+      "phone": "+1 250 381-4428",
       "cuisine": [],
       "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "",
+      "wikipedia": "",
       "osmTags": {
-        "leisure": "park"
+        "tourism": "gallery"
       }
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/b4ce4b3485f3e5773247",
-      "name": "Beacon Hill Park",
+      "sourceId": "osm/generated/9758cd23353062a71ac9",
+      "name": "Old Victoria Custom House",
       "nameEnglish": "",
-      "category": "outdoors",
-      "subcategory": "park",
-      "lat": 48.4125939,
-      "lng": -123.3635806,
-      "distanceFromTerminalMeters": 2283,
-      "distanceFromDefaultTerminalMeters": 2283,
-      "minDistanceFromAnyTerminalMeters": 2283,
+      "category": "attraction",
+      "subcategory": "building",
+      "lat": 48.4244145,
+      "lng": -123.3700002,
+      "distanceFromTerminalMeters": 1920,
+      "distanceFromDefaultTerminalMeters": 1920,
+      "minDistanceFromAnyTerminalMeters": 1920,
       "nearestTerminalId": "ports-json-anchor",
-      "address": "100 Cook Street",
-      "openingHours": "",
-      "website": "https://www.victoria.ca/EN/main/residents/parks/beacon-hill.html",
-      "phone": "",
-      "cuisine": [],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "leisure": "park"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/6be69382bd114bd71275",
-      "name": "St. Ann's Academy National Historic Site",
-      "nameEnglish": "",
-      "category": "outdoors",
-      "subcategory": "park",
-      "lat": 48.4193384,
-      "lng": -123.3634673,
-      "distanceFromTerminalMeters": 1701,
-      "distanceFromDefaultTerminalMeters": 1701,
-      "minDistanceFromAnyTerminalMeters": 1701,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "835 Humboldt Street, Victoria, V8V 9V1",
+      "address": "1002 Wharf Street",
       "openingHours": "",
       "website": "",
-      "phone": "+1-250-953-8829",
+      "phone": "",
       "cuisine": [],
       "wheelchair": "",
       "brand": "",
-      "description": "St. Ann’s Academy is a testament to the dedication of the Sisters of St. Ann who were integral to the beginnings of education and healthcare in British Columbia. Now a national historic site owned by the Ministry of Technology.",
+      "description": "",
+      "wikidata": "Q7085374",
+      "wikipedia": "en:Old Victoria Custom House",
       "osmTags": {
-        "leisure": "park"
+        "historic": "building"
+      },
+      "fame": 2
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/65f562f5358f396b4577",
+      "name": "Victoria Chinatown Museum",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 48.4288495,
+      "lng": -123.367958,
+      "distanceFromTerminalMeters": 2347,
+      "distanceFromDefaultTerminalMeters": 2347,
+      "minDistanceFromAnyTerminalMeters": 2347,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "10 Fan Tan Alley, V8W 1N6",
+      "openingHours": "",
+      "website": "https://victoriachinatownmuseum.com/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "tourism": "museum"
       }
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/2b96fae488944f40a674",
-      "name": "Victoria Sushi",
+      "sourceId": "osm/generated/ee7f12eabe84e72243ca",
+      "name": "Brotchie Ledge Light",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "lighthouse",
+      "lat": 48.4064152,
+      "lng": -123.3879832,
+      "distanceFromTerminalMeters": 939,
+      "distanceFromDefaultTerminalMeters": 939,
+      "minDistanceFromAnyTerminalMeters": 939,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Light 205 G5310: green; flashing; 4 s",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "man_made": "lighthouse"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/14c8adabd0c01af441ee",
+      "name": "the fifty fifty arts collective",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "gallery",
+      "lat": 48.4361767,
+      "lng": -123.3659798,
+      "distanceFromTerminalMeters": 3047,
+      "distanceFromDefaultTerminalMeters": 3047,
+      "minDistanceFromAnyTerminalMeters": 3047,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "2516 Douglas Street",
+      "openingHours": "Sa 13:00-15:00",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "tourism": "gallery"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/80dd313fae31ace071fb",
+      "name": "Trial Islands Lighthouse",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "lighthouse",
+      "lat": 48.3953462,
+      "lng": -123.305117,
+      "distanceFromTerminalMeters": 6715,
+      "distanceFromDefaultTerminalMeters": 6715,
+      "minDistanceFromAnyTerminalMeters": 6715,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Light 212 G5328: green; flash 0.1 s; eclipse 4.9 s",
+      "wikidata": "Q17142180",
+      "wikipedia": "en:Trial Islands Lighthouse",
+      "osmTags": {
+        "man_made": "lighthouse"
+      },
+      "fame": 2
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/858b99d6900b602dccee",
+      "name": "CFB Esquimalt Naval & Military Museum - NAD29",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 48.4362013,
+      "lng": -123.4206518,
+      "distanceFromTerminalMeters": 3235,
+      "distanceFromDefaultTerminalMeters": 3235,
+      "minDistanceFromAnyTerminalMeters": 3235,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Su 10:00-15:30; PH off",
+      "website": "https://navalandmilitarymuseum.org/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/fa912d3a00c4b7df9c07",
+      "name": "Wawadiťła, The Mungo Martin House",
+      "nameEnglish": "The Mungo Martin House",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 48.4199873,
+      "lng": -123.3667216,
+      "distanceFromTerminalMeters": 1916,
+      "distanceFromDefaultTerminalMeters": 1916,
+      "minDistanceFromAnyTerminalMeters": 1916,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "680 Douglas Street",
+      "openingHours": "",
+      "website": "https://royalbcmuseum.bc.ca/exhibits/tbird-park/html/present/ex07/ex07.htm",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "historic": "building",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/98df38fe134f64c88467",
+      "name": "Imagine Studio Cafe",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 48.4212421,
+      "lng": -123.383381,
+      "distanceFromTerminalMeters": 948,
+      "distanceFromDefaultTerminalMeters": 948,
+      "minDistanceFromAnyTerminalMeters": 948,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "31 Erie Street, V8V1P8",
+      "openingHours": "Mo-Fr 09:00-16:00; Sa-Su 10:00-16:00",
+      "website": "https://imaginestudio.cafe",
+      "phone": "+1-250-812-7651",
+      "cuisine": [
+        "breakfast",
+        "pizza",
+        "sandwich"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ac2a34ab7f9949c48e8f",
+      "name": "Finest At Sea",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "fast_food",
+      "lat": 48.4214095,
+      "lng": -123.3834722,
+      "distanceFromTerminalMeters": 959,
+      "distanceFromDefaultTerminalMeters": 959,
+      "minDistanceFromAnyTerminalMeters": 959,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "27 Erie Street",
+      "openingHours": "Mo-Su 11:00-19:00",
+      "website": "https://www.finestatsea.com/",
+      "phone": "+1-250-383-7760",
+      "cuisine": [
+        "fish_and_chips",
+        "burger",
+        "taco"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "fast_food"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/a346d983b1c7a4bf5c85",
+      "name": "Superior Pizza",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "fast_food",
+      "lat": 48.4155152,
+      "lng": -123.3749032,
+      "distanceFromTerminalMeters": 1219,
+      "distanceFromDefaultTerminalMeters": 1219,
+      "minDistanceFromAnyTerminalMeters": 1219,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "455 Simcoe Street, V8V 4T3",
+      "openingHours": "Su-Th 11:30-21:00; Fr-Sa 11:30-22:00",
+      "website": "https://superiorpizza.ca/",
+      "phone": "+1-250-418-8889",
+      "cuisine": [
+        "pizza"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "fast_food"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c94ad4234a899793705c",
+      "name": "Murder Burger",
       "nameEnglish": "",
       "category": "food_drink",
       "subcategory": "restaurant",
-      "lat": 48.4327063,
-      "lng": -123.381471,
-      "distanceFromTerminalMeters": 320,
-      "distanceFromDefaultTerminalMeters": 320,
-      "minDistanceFromAnyTerminalMeters": 320,
+      "lat": 48.4179792,
+      "lng": -123.3727248,
+      "distanceFromTerminalMeters": 1427,
+      "distanceFromDefaultTerminalMeters": 1427,
+      "minDistanceFromAnyTerminalMeters": 1427,
       "nearestTerminalId": "ports-json-anchor",
-      "address": "176 Wilson Street",
-      "openingHours": "Mo-Su 11:30-20:00",
-      "website": "https://victoria-sushi.ca",
+      "address": "332 Menzies Street, Victoria, V8V 2G9",
+      "openingHours": "We-Fr 17:00-21:00; Sa-Su 12:00-21:00",
+      "website": "https://www.eatmurderburger.com/",
       "phone": "",
       "cuisine": [
-        "sushi"
+        "burger"
       ],
       "wheelchair": "",
       "brand": "",
-      "description": "",
+      "description": "Classic breakfast spot home of the Mahoney",
+      "wikidata": "",
+      "wikipedia": "",
       "osmTags": {
         "amenity": "restaurant"
       }
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/1f9980c0ded2655ba429",
-      "name": "Pita Land",
+      "sourceId": "osm/generated/def747d5c149589de936",
+      "name": "Steamship Grill & Bar",
       "nameEnglish": "",
       "category": "food_drink",
       "subcategory": "restaurant",
-      "lat": 48.4332849,
-      "lng": -123.3812298,
-      "distanceFromTerminalMeters": 376,
-      "distanceFromDefaultTerminalMeters": 376,
-      "minDistanceFromAnyTerminalMeters": 376,
+      "lat": 48.4210431,
+      "lng": -123.3713347,
+      "distanceFromTerminalMeters": 1644,
+      "distanceFromDefaultTerminalMeters": 1644,
+      "minDistanceFromAnyTerminalMeters": 1644,
       "nearestTerminalId": "ports-json-anchor",
-      "address": "#110, 182 Wilson Street, V9A 7N6",
-      "openingHours": "Su-Th 11:00-22:00; Fr-Sa 11:00-23:00",
-      "website": "https://pitaland.ca/locations/pita-land-victoria-best-shawarma-in-victoria/",
-      "phone": "",
-      "cuisine": [
-        "mediterranean"
-      ],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "amenity": "restaurant"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/002aac0ea6d1559c9d79",
-      "name": "Browns Crafthouse",
-      "nameEnglish": "",
-      "category": "food_drink",
-      "subcategory": "restaurant",
-      "lat": 48.4335338,
-      "lng": -123.3807516,
-      "distanceFromTerminalMeters": 397,
-      "distanceFromDefaultTerminalMeters": 397,
-      "minDistanceFromAnyTerminalMeters": 397,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "184 Wilson Street, Victoria",
-      "openingHours": "Su-Mo 11:00-22:00; Tu-Th 11:00-23:00; Fr-Sa 11:00-0:00",
-      "website": "https://www.brownscrafthouse.com/",
-      "phone": "+1-778-432-0565",
-      "cuisine": [
-        "pub"
-      ],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "amenity": "restaurant"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/2617da4ab7edff96d456",
-      "name": "Cafe Malabar",
-      "nameEnglish": "",
-      "category": "food_drink",
-      "subcategory": "restaurant",
-      "lat": 48.4293538,
-      "lng": -123.3710728,
-      "distanceFromTerminalMeters": 663,
-      "distanceFromDefaultTerminalMeters": 663,
-      "minDistanceFromAnyTerminalMeters": 663,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "407 Swift Street, V8W 1S2",
-      "openingHours": "We-Su 12:00-14:30 open \"lunch\", We,Th,Su 16:00-20:00 open \"dinner\", Fr,Sa 16:00-20:30 open \"dinner\"",
-      "website": "https://cafemalabar.ca/",
-      "phone": "+1-780 600 0005",
-      "cuisine": [
-        "indian",
-        "south_indian"
-      ],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "amenity": "restaurant"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/807fba43e38d1357004f",
-      "name": "CRAFT Beer Market",
-      "nameEnglish": "",
-      "category": "food_drink",
-      "subcategory": "pub",
-      "lat": 48.4297866,
-      "lng": -123.3708249,
-      "distanceFromTerminalMeters": 677,
-      "distanceFromDefaultTerminalMeters": 677,
-      "minDistanceFromAnyTerminalMeters": 677,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "450 Swift Street, V8W 1S3",
-      "openingHours": "Su-Th 11:00-24:00, Fr-Sa 11:00-25:00",
-      "website": "https://www.craftbeermarket.ca/",
-      "phone": "+1-250-361-1940",
-      "cuisine": [
-        "regional"
-      ],
-      "wheelchair": "yes",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "amenity": "pub"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/701324206d814a73f4f6",
-      "name": "Greek On the Street",
-      "nameEnglish": "",
-      "category": "food_drink",
-      "subcategory": "restaurant",
-      "lat": 48.4355439,
-      "lng": -123.3733503,
-      "distanceFromTerminalMeters": 788,
-      "distanceFromDefaultTerminalMeters": 788,
-      "minDistanceFromAnyTerminalMeters": 788,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "492 Bay Street",
-      "openingHours": "Mo-Fr 09:00-15:00",
-      "website": "https://www.greekonthestreet.ca/",
-      "phone": "+1 250 813-3598",
-      "cuisine": [
-        "greek"
-      ],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "amenity": "restaurant"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/be4125ce3c414a1d8a40",
-      "name": "Mentora Ramen",
-      "nameEnglish": "",
-      "category": "food_drink",
-      "subcategory": "restaurant",
-      "lat": 48.4287954,
-      "lng": -123.3694528,
-      "distanceFromTerminalMeters": 790,
-      "distanceFromDefaultTerminalMeters": 790,
-      "minDistanceFromAnyTerminalMeters": 790,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "1609 Store Street, Victoria",
-      "openingHours": "Mo-Su 11:30-21:30",
-      "website": "https://www.mentoravictoria.ca/",
-      "phone": "+1-250-590-9821",
-      "cuisine": [
-        "ramen"
-      ],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "amenity": "restaurant"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/ace92d2fa1f6f2843bc7",
-      "name": "Ohana Poke",
-      "nameEnglish": "",
-      "category": "food_drink",
-      "subcategory": "restaurant",
-      "lat": 48.4292219,
-      "lng": -123.3690526,
-      "distanceFromTerminalMeters": 812,
-      "distanceFromDefaultTerminalMeters": 812,
-      "minDistanceFromAnyTerminalMeters": 812,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "513 Fisgard Street",
-      "openingHours": "11:30-21:00",
-      "website": "https://ohanapoke.ca/",
-      "phone": "+1 778 406-1556",
-      "cuisine": [
-        "hawaiian"
-      ],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "amenity": "restaurant"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/6310120d5f925f096866",
-      "name": "Ferris' Burger & Oyster Bar",
-      "nameEnglish": "",
-      "category": "food_drink",
-      "subcategory": "restaurant",
-      "lat": 48.4269403,
-      "lng": -123.3690811,
-      "distanceFromTerminalMeters": 875,
-      "distanceFromDefaultTerminalMeters": 875,
-      "minDistanceFromAnyTerminalMeters": 875,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "536 Yates Street",
-      "openingHours": "11:30-22:00",
-      "website": "https://www.ferrisoysterbar.com/",
-      "phone": "+1 778 767-2266",
+      "address": "470 Belleville Street, V8V 1W9",
+      "openingHours": "Mo-Th 11:00-22:00; Fr 11:00-22:30; Sa 10:00-22:30; Su 10:00-21:30",
+      "website": "https://steamshipgrill.com/",
+      "phone": "+1-778-433-6736",
       "cuisine": [
         "seafood"
       ],
       "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "",
+      "wikipedia": "",
       "osmTags": {
         "amenity": "restaurant"
       }
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/d030596a244ee6145e6a",
-      "name": "Ugly Duckling Dining & Provisions",
+      "sourceId": "osm/generated/f1671e3ee1da0fc643c4",
+      "name": "Tractor",
       "nameEnglish": "",
       "category": "food_drink",
       "subcategory": "restaurant",
-      "lat": 48.4292482,
-      "lng": -123.3680584,
-      "distanceFromTerminalMeters": 885,
-      "distanceFromDefaultTerminalMeters": 885,
-      "minDistanceFromAnyTerminalMeters": 885,
+      "lat": 48.4230459,
+      "lng": -123.3681116,
+      "distanceFromTerminalMeters": 1958,
+      "distanceFromDefaultTerminalMeters": 1958,
+      "minDistanceFromAnyTerminalMeters": 1958,
       "nearestTerminalId": "ports-json-anchor",
-      "address": "543 Fisgard Street",
-      "openingHours": "We-Su 17:00-21:30",
-      "website": "https://www.uglyducklingrestaurant.ca/",
-      "phone": "+1 250 978-0915",
+      "address": "805 Government Street, Victoria, V8W 1W8",
+      "openingHours": "Mo-Su 07:30-21:00",
+      "website": "https://tractorfoods.com/",
+      "phone": "+17782470354",
       "cuisine": [
-        "chinese"
+        "sandwich",
+        "soup",
+        "salad"
       ],
       "wheelchair": "",
       "brand": "",
       "description": "",
-      "osmTags": {
-        "amenity": "restaurant"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/44d4b42ca59988b5bf11",
-      "name": "Little Yunnan Restaurant",
-      "nameEnglish": "",
-      "category": "food_drink",
-      "subcategory": "restaurant",
-      "lat": 48.4294705,
-      "lng": -123.367973,
-      "distanceFromTerminalMeters": 889,
-      "distanceFromDefaultTerminalMeters": 889,
-      "minDistanceFromAnyTerminalMeters": 889,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "546 Fisgard Street",
-      "openingHours": "Tu-Su 12:00-20:00",
-      "website": "https://little-yunnan-restaurant-ltd.square.site/",
-      "phone": "+1 236 967-0303",
-      "cuisine": [
-        "chinese"
-      ],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "amenity": "restaurant"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/776318ffc5330005496a",
-      "name": "Kwong Tung Seafood Restaurant",
-      "nameEnglish": "",
-      "category": "food_drink",
-      "subcategory": "restaurant",
-      "lat": 48.4294712,
-      "lng": -123.3679153,
-      "distanceFromTerminalMeters": 894,
-      "distanceFromDefaultTerminalMeters": 894,
-      "minDistanceFromAnyTerminalMeters": 894,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "548 Fisgard Street",
-      "openingHours": "Mo,We-Su 11:00-20:00",
-      "website": "https://kwong-tung-seafood-restaurant.weeblyte.com/",
-      "phone": "+1 250 884-2845",
-      "cuisine": [
-        "seafood"
-      ],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "amenity": "restaurant"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/ac0f58eea6b60f1d911d",
-      "name": "Matadora Taperia",
-      "nameEnglish": "",
-      "category": "food_drink",
-      "subcategory": "restaurant",
-      "lat": 48.4292588,
-      "lng": -123.3675836,
-      "distanceFromTerminalMeters": 920,
-      "distanceFromDefaultTerminalMeters": 920,
-      "minDistanceFromAnyTerminalMeters": 920,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "559 Fisgard Street",
-      "openingHours": "Su, Th 04:00-21:00; Fr-Sa 16:00-22:30",
-      "website": "https://www.matadora.ca/",
-      "phone": "+1-250-380-2911",
-      "cuisine": [
-        "spanish",
-        "tapas"
-      ],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
       "osmTags": {
         "amenity": "restaurant"
       }
@@ -1497,9 +1163,9 @@
       "subcategory": "restaurant",
       "lat": 48.4234775,
       "lng": -123.3684492,
-      "distanceFromTerminalMeters": 1119,
-      "distanceFromDefaultTerminalMeters": 1119,
-      "minDistanceFromAnyTerminalMeters": 1119,
+      "distanceFromTerminalMeters": 1960,
+      "distanceFromDefaultTerminalMeters": 1960,
+      "minDistanceFromAnyTerminalMeters": 1960,
       "nearestTerminalId": "ports-json-anchor",
       "address": "898 Government Street, V8W 1X1",
       "openingHours": "Mo-Su 11:00-22:00",
@@ -1511,9 +1177,478 @@
       "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "",
+      "wikipedia": "",
       "osmTags": {
         "amenity": "restaurant"
       }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/52fc44a0e09f92838a8e",
+      "name": "Frankie's Modern Diner",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 48.4236647,
+      "lng": -123.3685205,
+      "distanceFromTerminalMeters": 1966,
+      "distanceFromDefaultTerminalMeters": 1966,
+      "minDistanceFromAnyTerminalMeters": 1966,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "910 Government Street",
+      "openingHours": "We-Su 07:00-21:00; Mo-Tu 07:00-15:00",
+      "website": "https://www.frankiesmoderndiner.com/",
+      "phone": "+1-778-265-8575",
+      "cuisine": [
+        "diner"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/887c0fb06376f221db19",
+      "name": "March",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 48.4245463,
+      "lng": -123.3688822,
+      "distanceFromTerminalMeters": 1996,
+      "distanceFromDefaultTerminalMeters": 1996,
+      "minDistanceFromAnyTerminalMeters": 1996,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1008 Langley Street",
+      "openingHours": "We-Th,Sa 16:30-22:30; Fr-Su 12:30-22:30",
+      "website": "https://march.res-menu.net/",
+      "phone": "+1 778 366-2610",
+      "cuisine": [
+        "chinese"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/3b7a4173c50c32d6f826",
+      "name": "Le Petit Saigon",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 48.4246183,
+      "lng": -123.3688443,
+      "distanceFromTerminalMeters": 2003,
+      "distanceFromDefaultTerminalMeters": 2003,
+      "minDistanceFromAnyTerminalMeters": 2003,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1010 Langley Street, V8W 1V8",
+      "openingHours": "Tu-Sa 11:30-14:00, 17:00-20:30; PH off",
+      "website": "https://www.lepetitsaigon.ca/",
+      "phone": "+1-250-386-1412",
+      "cuisine": [
+        "vietnamese"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/3ae150d9651426b1c1b5",
+      "name": "Chobap Sushi Bar",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 48.4235551,
+      "lng": -123.3675166,
+      "distanceFromTerminalMeters": 2024,
+      "distanceFromDefaultTerminalMeters": 2024,
+      "minDistanceFromAnyTerminalMeters": 2024,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "610 Courtney Street",
+      "openingHours": "We-Su 17:00-22:00",
+      "website": "https://chobapsushibar.com/",
+      "phone": "+1 778 977-1006",
+      "cuisine": [
+        "sushi"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ddfb1bf3a9283bc62033",
+      "name": "Siam Thai Cuisine",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 48.425118,
+      "lng": -123.3690118,
+      "distanceFromTerminalMeters": 2024,
+      "distanceFromDefaultTerminalMeters": 2024,
+      "minDistanceFromAnyTerminalMeters": 2024,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "512 Fort Street, V8W 1E6",
+      "openingHours": "Mo-Th 11:30-14:30, 16:30-21:00; Fr 11:30-14:30, 16:30-21:30; Sa 12:00-21:30; Su 12:00-21:00",
+      "website": "https://siamthaivictoria.ca/",
+      "phone": "+1-250-383-9911",
+      "cuisine": [
+        "thai"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b2857c29b32cd35fb9b8",
+      "name": "Hey Happy",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 48.4278185,
+      "lng": -123.3691736,
+      "distanceFromTerminalMeters": 2203,
+      "distanceFromDefaultTerminalMeters": 2203,
+      "minDistanceFromAnyTerminalMeters": 2203,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "560 Johnson Street, V8W 3C6",
+      "openingHours": "Mo-Fr 07:30-17:30; Sa,Su 09:00-17:00",
+      "website": "https://heyhappycoffee.com/",
+      "phone": "+12505909680",
+      "cuisine": [
+        "coffee_shop"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/0fc89783e82d4240089a",
+      "name": "Umi Sushi Express",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "fast_food",
+      "lat": 48.4249901,
+      "lng": -123.3657294,
+      "distanceFromTerminalMeters": 2219,
+      "distanceFromDefaultTerminalMeters": 2219,
+      "minDistanceFromAnyTerminalMeters": 2219,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1150 Douglas Street, Victoria, V8W 3M9",
+      "openingHours": "Mo-We 10:00-18:00; Th-Fr 10:00-19:00; Sa 10:00-18:00; Su 11:00-18:00",
+      "website": "http://umisushiexpress.com/",
+      "phone": "+1-250-383-3887",
+      "cuisine": [
+        "sushi"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "fast_food"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/27c54803e9523b053328",
+      "name": "Coop’s Chicken & Smash Burgers",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "fast_food",
+      "lat": 48.4264249,
+      "lng": -123.3668828,
+      "distanceFromTerminalMeters": 2237,
+      "distanceFromDefaultTerminalMeters": 2237,
+      "minDistanceFromAnyTerminalMeters": 2237,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "609 Yates Street, V8W1L1",
+      "openingHours": "Su-We 11:00-21:00; Th 11:00-22:00; Fr-Sa 11:00-03:00",
+      "website": "http://coopschicken.ca",
+      "phone": "+1-250-940-1797",
+      "cuisine": [
+        "american"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "fast_food"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/807fba43e38d1357004f",
+      "name": "CRAFT Beer Market",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "pub",
+      "lat": 48.4297866,
+      "lng": -123.3708249,
+      "distanceFromTerminalMeters": 2272,
+      "distanceFromDefaultTerminalMeters": 2272,
+      "minDistanceFromAnyTerminalMeters": 2272,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "450 Swift Street, V8W 1S3",
+      "openingHours": "Su-Th 11:00-24:00, Fr-Sa 11:00-25:00",
+      "website": "https://www.craftbeermarket.ca/",
+      "phone": "+1-250-361-1940",
+      "cuisine": [
+        "regional"
+      ],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "pub"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/4f7cfb79f4f65a5f9379",
+      "name": "Pretty Patty",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "fast_food",
+      "lat": 48.4265534,
+      "lng": -123.3657096,
+      "distanceFromTerminalMeters": 2315,
+      "distanceFromDefaultTerminalMeters": 2315,
+      "minDistanceFromAnyTerminalMeters": 2315,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "642 Yates Street",
+      "openingHours": "Mo-Th,Su 11:00-23:00; Fr,Sa 11:00-26:00",
+      "website": "https://prettypatty.ca/",
+      "phone": "+1 250 580-2089",
+      "cuisine": [
+        "burger"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "fast_food"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/8f6f82b21a05ffd85ef5",
+      "name": "Habit Coffee",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 48.4286309,
+      "lng": -123.3676724,
+      "distanceFromTerminalMeters": 2346,
+      "distanceFromDefaultTerminalMeters": 2346,
+      "minDistanceFromAnyTerminalMeters": 2346,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "552 Pandora Avenue, V8W 1N7",
+      "openingHours": "Mo-Fr 07:00-18:00; Sa-Su 08:00-18:00",
+      "website": "https://habitcoffee.com",
+      "phone": "+1 250 294 1127",
+      "cuisine": [
+        "coffee_shop"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/4c263465c159aed1204e",
+      "name": "Second Slice Pizza",
+      "nameEnglish": "Second Slice Pizza",
+      "category": "food_drink",
+      "subcategory": "fast_food",
+      "lat": 48.4269769,
+      "lng": -123.3649927,
+      "distanceFromTerminalMeters": 2386,
+      "distanceFromDefaultTerminalMeters": 2386,
+      "minDistanceFromAnyTerminalMeters": 2386,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1322 Douglas Street",
+      "openingHours": "Mo-Th 11:00-27:00; Fr 11:00-28:30; Sa 12:00-28:30; Su 12:00-27:00",
+      "website": "https://secondslice.com/",
+      "phone": "+1 250 385-1000",
+      "cuisine": [
+        "pizza"
+      ],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "fast_food"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/1b9876238d1401111218",
+      "name": "Union Pacific Coffee",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 48.430099,
+      "lng": -123.3683847,
+      "distanceFromTerminalMeters": 2421,
+      "distanceFromDefaultTerminalMeters": 2421,
+      "minDistanceFromAnyTerminalMeters": 2421,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "537 Herald Street",
+      "openingHours": "Mo-Sa 08:00-15:00",
+      "website": "https://www.unionpacificcoffee.ca/",
+      "phone": "+1-250-380-0005",
+      "cuisine": [
+        "sandwich"
+      ],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d6190d0ec4d81b2771c5",
+      "name": "QV Cafe",
+      "nameEnglish": "QV Cafe & Bakery",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 48.4295028,
+      "lng": -123.366712,
+      "distanceFromTerminalMeters": 2464,
+      "distanceFromDefaultTerminalMeters": 2464,
+      "minDistanceFromAnyTerminalMeters": 2464,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1701 Government Street",
+      "openingHours": "Mo-Su 08:30-21:00",
+      "website": "https://www.qvcafe.ca/",
+      "phone": "+1-250-384-8831",
+      "cuisine": [
+        "breakfast",
+        "cake",
+        "coffee_shop",
+        "pancake",
+        "sandwich"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/754ca809bbdec344a0f7",
+      "name": "Habit Coffee",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 48.4261454,
+      "lng": -123.3616547,
+      "distanceFromTerminalMeters": 2543,
+      "distanceFromDefaultTerminalMeters": 2543,
+      "minDistanceFromAnyTerminalMeters": 2543,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "808 Yates Street, V8W 3S2",
+      "openingHours": "Mo-Fr 07:00-21:00; Sa 08:00-21:00; Su 08:00-17:00",
+      "website": "https://habitcoffee.com/",
+      "phone": "+1-250-590-5953",
+      "cuisine": [
+        "coffee_shop"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/0c2324c83b625ff9d231",
+      "name": "Munro's Books",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "books",
+      "lat": 48.4252142,
+      "lng": -123.3682125,
+      "distanceFromTerminalMeters": 2079,
+      "distanceFromDefaultTerminalMeters": 2079,
+      "minDistanceFromAnyTerminalMeters": 2079,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1108 Government Street, Victoria, V8W 1Y2",
+      "openingHours": "Mo-Su 09:30-18:00; PH 10:00-17:00",
+      "website": "https://www.munrobooks.com/",
+      "phone": "+1-250-382-2464",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q6936821",
+      "wikipedia": "en:Munro's Books",
+      "osmTags": {
+        "shop": "books"
+      },
+      "fame": 2
     },
     {
       "source": "openstreetmap",
@@ -1524,9 +1659,9 @@
       "subcategory": "mall",
       "lat": 48.4251763,
       "lng": -123.3665272,
-      "distanceFromTerminalMeters": 1130,
-      "distanceFromDefaultTerminalMeters": 1130,
-      "minDistanceFromAnyTerminalMeters": 1130,
+      "distanceFromTerminalMeters": 2180,
+      "distanceFromDefaultTerminalMeters": 2180,
+      "minDistanceFromAnyTerminalMeters": 2180,
       "nearestTerminalId": "ports-json-anchor",
       "address": "",
       "openingHours": "Su 10:00-18:00; Mo-We 10:00-19:00; Th-Sa 10:00-21:00",
@@ -1536,59 +1671,450 @@
       "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "Q4873945",
+      "wikipedia": "en:Bay Centre",
       "osmTags": {
         "shop": "mall"
-      }
+      },
+      "fame": 2
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/38151f835f4943c9b8c5",
-      "name": "James Bay Market",
+      "sourceId": "osm/generated/f2a68f68b7c3e2a6f5a4",
+      "name": "Russell Books",
       "nameEnglish": "",
       "category": "shopping",
-      "subcategory": "marketplace",
-      "lat": 48.4184283,
-      "lng": -123.3727607,
-      "distanceFromTerminalMeters": 1393,
-      "distanceFromDefaultTerminalMeters": 1393,
-      "minDistanceFromAnyTerminalMeters": 1393,
+      "subcategory": "books",
+      "lat": 48.424344,
+      "lng": -123.36409,
+      "distanceFromTerminalMeters": 2288,
+      "distanceFromDefaultTerminalMeters": 2288,
+      "minDistanceFromAnyTerminalMeters": 2288,
       "nearestTerminalId": "ports-json-anchor",
       "address": "",
-      "openingHours": "Sa 09:00-15:00; Oct 07-Apr 30 closed",
-      "website": "https://jamesbaymarket.com/",
-      "phone": "",
+      "openingHours": "Mo-Su 09:30-18:00",
+      "website": "https://russellbooks.com",
+      "phone": "+1-250-361-4447",
       "cuisine": [],
       "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "Q78186458",
+      "wikipedia": "",
       "osmTags": {
-        "amenity": "marketplace"
+        "shop": "books"
+      },
+      "fame": 1
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d4d8ef59ab3598f3c1bd",
+      "name": "Out of Ireland",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "clothes",
+      "lat": 48.4243095,
+      "lng": -123.3681835,
+      "distanceFromTerminalMeters": 2025,
+      "distanceFromDefaultTerminalMeters": 2025,
+      "minDistanceFromAnyTerminalMeters": 2025,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1000 Government Street",
+      "openingHours": "Mo-Sa 10:00-17:30; Su 11:00-17:30",
+      "website": "https://www.outofireland.ca/",
+      "phone": "+1 250 389-0886",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "shop": "clothes"
       }
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/12ee597e3fe13aefbc4e",
-      "name": "Heart Pharmacy",
+      "sourceId": "osm/generated/536194ceb515cb8e31f8",
+      "name": "Black Goat Cashmere",
       "nameEnglish": "",
-      "category": "essentials",
-      "subcategory": "pharmacy",
-      "lat": 48.4308861,
-      "lng": -123.4007296,
-      "distanceFromTerminalMeters": 1533,
-      "distanceFromDefaultTerminalMeters": 1533,
-      "minDistanceFromAnyTerminalMeters": 1533,
+      "category": "shopping",
+      "subcategory": "clothes",
+      "lat": 48.4245178,
+      "lng": -123.3681339,
+      "distanceFromTerminalMeters": 2041,
+      "distanceFromDefaultTerminalMeters": 2041,
+      "minDistanceFromAnyTerminalMeters": 2041,
       "nearestTerminalId": "ports-json-anchor",
-      "address": "890 Esquimalt Road, Victoria, V9A 3M4",
-      "openingHours": "Mo-Sa 09:00-17:00",
-      "website": "https://www.heartpharmacy.com/locations/heart-esquimalt",
+      "address": "1008 Government Street",
+      "openingHours": "Mo-We 10:00-18:00; Th-Sa 10:00-19:00; Su 11:00-18:00",
+      "website": "https://www.blackgoatcashmere.com/",
+      "phone": "+1 250 590-3887",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "shop": "clothes"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/e51105af419368c366fa",
+      "name": "OK Boot Corral",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "shoes",
+      "lat": 48.4262534,
+      "lng": -123.369909,
+      "distanceFromTerminalMeters": 2049,
+      "distanceFromDefaultTerminalMeters": 2049,
+      "minDistanceFromAnyTerminalMeters": 2049,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1209 Wharf Street",
+      "openingHours": "Mo-Th,Su 10:00-18:00; Fr-Sa 10:00-21:00",
+      "website": "https://okbootcorral.com/",
+      "phone": "+1 250 383-1434",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "shop": "shoes"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/17cb5ec823fac20d25d3",
+      "name": "Cool as a Moose",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "clothes",
+      "lat": 48.4244973,
+      "lng": -123.367804,
+      "distanceFromTerminalMeters": 2060,
+      "distanceFromDefaultTerminalMeters": 2060,
+      "minDistanceFromAnyTerminalMeters": 2060,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1009 Government Street",
+      "openingHours": "Mo,We-Su 10:00-22:00; Tu 10:00-20:00",
+      "website": "https://www.coolasamoose.ca/",
+      "phone": "+1 778 406-2226",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "shop": "clothes"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/9350001a02e6a4a10f0b",
+      "name": "Armeni Jewellers",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "jewelry",
+      "lat": 48.4210715,
+      "lng": -123.3650355,
+      "distanceFromTerminalMeters": 2073,
+      "distanceFromDefaultTerminalMeters": 2073,
+      "minDistanceFromAnyTerminalMeters": 2073,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "733 Humboldt Street",
+      "openingHours": "Mo-Fr 10:30-17:00; PH off",
+      "website": "https://armenijewelers.com/",
+      "phone": "+1 250 388-6822",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "shop": "jewelry"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/82e043078718d35597d8",
+      "name": "Thunderbird Park",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 48.4197822,
+      "lng": -123.366682,
+      "distanceFromTerminalMeters": 1912,
+      "distanceFromDefaultTerminalMeters": 1912,
+      "minDistanceFromAnyTerminalMeters": 1912,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "638 Douglas Street, Victoria, V8V 2P8",
+      "openingHours": "",
+      "website": "https://royalbcmuseum.bc.ca/exhibits/tbird-park/html/intro/intro.htm",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Outdoor collection of replica totem poles & historic buildings including a convent & carving studio.",
+      "wikidata": "Q429291",
+      "wikipedia": "en:Thunderbird Park (Victoria, British Columbia)",
+      "osmTags": {
+        "leisure": "park",
+        "tourism": "museum"
+      },
+      "fame": 4
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/5a227d8ef39f493ff9c8",
+      "name": "Abkhazi Garden",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "garden",
+      "lat": 48.4161782,
+      "lng": -123.3265291,
+      "distanceFromTerminalMeters": 4788,
+      "distanceFromDefaultTerminalMeters": 4788,
+      "minDistanceFromAnyTerminalMeters": 4788,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1964 Fairfield Road",
+      "openingHours": "",
+      "website": "https://conservancy.bc.ca/featured-projects/abkhazi-garden/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Historical site, open to the public (donations requested) 11am-5pm April-September",
+      "wikidata": "Q112039603",
+      "wikipedia": "",
+      "osmTags": {
+        "leisure": "garden"
+      },
+      "fame": 2
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/6be69382bd114bd71275",
+      "name": "St. Ann's Academy National Historic Site",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 48.4193384,
+      "lng": -123.3634673,
+      "distanceFromTerminalMeters": 2126,
+      "distanceFromDefaultTerminalMeters": 2126,
+      "minDistanceFromAnyTerminalMeters": 2126,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "835 Humboldt Street, Victoria, V8V 9V1",
+      "openingHours": "",
+      "website": "",
+      "phone": "+1-250-953-8829",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "St. Ann’s Academy is a testament to the dedication of the Sisters of St. Ann who were integral to the beginnings of education and healthcare in British Columbia. Now a national historic site owned by the Ministry of Technology.",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/03ee17846c59a15bdba5",
+      "name": "Golf Hill",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "peak",
+      "lat": 48.4214784,
+      "lng": -123.4021541,
+      "distanceFromTerminalMeters": 1107,
+      "distanceFromDefaultTerminalMeters": 1107,
+      "minDistanceFromAnyTerminalMeters": 1107,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
       "phone": "",
       "cuisine": [],
       "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "Q22362534",
+      "wikipedia": "",
       "osmTags": {
-        "amenity": "pharmacy"
+        "natural": "peak"
+      },
+      "fame": 1
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/5c5ac68d74b64bad5e60",
+      "name": "Victoria International Marina",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "marina",
+      "lat": 48.4267966,
+      "lng": -123.3830933,
+      "distanceFromTerminalMeters": 1491,
+      "distanceFromDefaultTerminalMeters": 1491,
+      "minDistanceFromAnyTerminalMeters": 1491,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1 Cooperage Place, Victoria, V9A 7J9",
+      "openingHours": "",
+      "website": "https://vimarina.ca/",
+      "phone": "+1-778-432-0477",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "World-class, custom-built moorage for yachts over 20m (65′) LOA. Sets the standard in upscale security and safety, amenities, concierge services and crew facilities. A sanctuary at the gateway to British Columbia’s Pacific Northwest and Inside Passage.",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "leisure": "marina"
       }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/7e952bdea9843967b232",
+      "name": "Matson Conservation Area",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "nature_reserve",
+      "lat": 48.4291517,
+      "lng": -123.3957426,
+      "distanceFromTerminalMeters": 1654,
+      "distanceFromDefaultTerminalMeters": 1654,
+      "minDistanceFromAnyTerminalMeters": 1654,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Garrett Place, Esquimalt",
+      "openingHours": "24/7",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "leisure": "nature_reserve"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f030d5128cd8023373e7",
+      "name": "Todd Park",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 48.4178289,
+      "lng": -123.3832681,
+      "distanceFromTerminalMeters": 699,
+      "distanceFromDefaultTerminalMeters": 699,
+      "minDistanceFromAnyTerminalMeters": 699,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "100 Montreal Street",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/63c90e4f8707161e9a6e",
+      "name": "Ernest Todd Playground",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 48.4176943,
+      "lng": -123.3823804,
+      "distanceFromTerminalMeters": 749,
+      "distanceFromDefaultTerminalMeters": 749,
+      "minDistanceFromAnyTerminalMeters": 749,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "111 Montreal Street",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/2e4bbf4275ef0268827e",
+      "name": "Macdonald Park",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 48.4174132,
+      "lng": -123.3809394,
+      "distanceFromTerminalMeters": 832,
+      "distanceFromDefaultTerminalMeters": 832,
+      "minDistanceFromAnyTerminalMeters": 832,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "212 Niagara Street",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/6143a9e39866c483c4b2",
+      "name": "Hertz",
+      "nameEnglish": "",
+      "category": "essentials",
+      "subcategory": "car_rental",
+      "lat": 48.4466005,
+      "lng": -123.3756455,
+      "distanceFromTerminalMeters": 3747,
+      "distanceFromDefaultTerminalMeters": 3747,
+      "minDistanceFromAnyTerminalMeters": 3747,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "565 Alpha Street",
+      "openingHours": "Mo-Fr 08:00-17:00; Sa-Su 09:00-14:00",
+      "website": "https://www.hertz.ca/rentacar/location/canada/britishcolumbia/victoria/YYJC08",
+      "phone": "+1 250 217-5189",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q1543874",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "car_rental"
+      },
+      "fame": 28
     },
     {
       "source": "openstreetmap",
@@ -1599,9 +2125,9 @@
       "subcategory": "pharmacy",
       "lat": 48.4157033,
       "lng": -123.374292,
-      "distanceFromTerminalMeters": 1645,
-      "distanceFromDefaultTerminalMeters": 1645,
-      "minDistanceFromAnyTerminalMeters": 1645,
+      "distanceFromTerminalMeters": 1266,
+      "distanceFromDefaultTerminalMeters": 1266,
+      "minDistanceFromAnyTerminalMeters": 1266,
       "nearestTerminalId": "ports-json-anchor",
       "address": "230 Menzies Street, V8V 2G7",
       "openingHours": "Mo-Fr 08:00-20:00, Sa-Su 09:00-18:00",
@@ -1611,52 +2137,332 @@
       "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "",
+      "wikipedia": "",
       "osmTags": {
         "amenity": "pharmacy"
       }
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/f4f8208dc563c2d9bfa6",
-      "name": "Inner Harbour Optometry",
+      "sourceId": "osm/generated/017c7b9f8dadf0ac9acf",
+      "name": "Budget Car & Truck Rental",
       "nameEnglish": "",
       "category": "essentials",
-      "subcategory": "clinic",
-      "lat": 48.4260479,
-      "lng": -123.3529891,
-      "distanceFromTerminalMeters": 2041,
-      "distanceFromDefaultTerminalMeters": 2041,
-      "minDistanceFromAnyTerminalMeters": 2041,
+      "subcategory": "car_rental",
+      "lat": 48.4214126,
+      "lng": -123.36642,
+      "distanceFromTerminalMeters": 1992,
+      "distanceFromDefaultTerminalMeters": 1992,
+      "minDistanceFromAnyTerminalMeters": 1992,
       "nearestTerminalId": "ports-json-anchor",
-      "address": "",
-      "openingHours": "Mo-Th 08:00-17:30; Fr, Sa 08:00-17:00",
-      "website": "https://www.innerharbouroptometry.com/",
-      "phone": "+1 250 920-0755",
+      "address": "724 Douglas Street",
+      "openingHours": "08:00-17:30; PH 08:00-17:00; Jan 01,Dec 25-26 off",
+      "website": "https://www.budget.ca/en/locations/ca/bc/victoria/yy1",
+      "phone": "+1 250 953-5218",
       "cuisine": [],
       "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "",
+      "wikipedia": "",
       "osmTags": {
-        "amenity": "clinic"
+        "amenity": "car_rental"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/6730411cf52036d78336",
+      "name": "Lugaro Jewellers",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "jewelry",
+      "lat": 48.4250555,
+      "lng": -123.3680269,
+      "distanceFromTerminalMeters": 2080,
+      "distanceFromDefaultTerminalMeters": 2080,
+      "minDistanceFromAnyTerminalMeters": 2080,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1102 Government Street",
+      "openingHours": "Mo-Sa 10:00-17:00",
+      "website": "https://lugaro.com/",
+      "phone": "+1 250 382-2040",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "shop": "jewelry"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c4aa5cc8bf514eb6b340",
+      "name": "Bagheera Boutique",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "clothes",
+      "lat": 48.4242169,
+      "lng": -123.3670127,
+      "distanceFromTerminalMeters": 2093,
+      "distanceFromDefaultTerminalMeters": 2093,
+      "minDistanceFromAnyTerminalMeters": 2093,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "618 Broughton Street",
+      "openingHours": "Mo-Sa 09:30-17:30; Su 12:00-17:00",
+      "website": "https://www.bagheeravictoria.ca/",
+      "phone": "+1 778 406-1600",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "shop": "clothes"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d32f95191fb0cad37804",
+      "name": "Murchie's",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "tea",
+      "lat": 48.4252881,
+      "lng": -123.3679887,
+      "distanceFromTerminalMeters": 2097,
+      "distanceFromDefaultTerminalMeters": 2097,
+      "minDistanceFromAnyTerminalMeters": 2097,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1110 Government Street",
+      "openingHours": "Mo-Sa 09:00-18:00; PH 11:00-18:00",
+      "website": "",
+      "phone": "+1-250-381-5451",
+      "cuisine": [
+        "tea",
+        "coffee"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "shop": "tea"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/9104050101b4efb4f3ee",
+      "name": "D.G. Bremner & Co.",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "clothes",
+      "lat": 48.4242018,
+      "lng": -123.3668705,
+      "distanceFromTerminalMeters": 2101,
+      "distanceFromDefaultTerminalMeters": 2101,
+      "minDistanceFromAnyTerminalMeters": 2101,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "620 Broughton Street",
+      "openingHours": "Mo-Sa 10:00-17:30",
+      "website": "https://www.dgbremner.com/locations/victoria",
+      "phone": "+1 778 265-5340",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "shop": "clothes"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/8e8954b38add7a593694",
+      "name": "Paul Mara Jewellers",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "jewelry",
+      "lat": 48.4247273,
+      "lng": -123.3671711,
+      "distanceFromTerminalMeters": 2113,
+      "distanceFromDefaultTerminalMeters": 2113,
+      "minDistanceFromAnyTerminalMeters": 2113,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "619 Fort Street",
+      "openingHours": "Tu-Fr 10:00-17:00; Sa 11:00-16:00",
+      "website": "https://paulmarajewellers.com/",
+      "phone": "+1 250 475-1444",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "shop": "jewelry"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/6d0ddff0536b49a442cb",
+      "name": "Breakwater Bistro & Bar",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 48.4153647,
+      "lng": -123.384685,
+      "distanceFromTerminalMeters": 501,
+      "distanceFromDefaultTerminalMeters": 501,
+      "minDistanceFromAnyTerminalMeters": 501,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "199 Dallas Road, V8V 1A2",
+      "openingHours": "",
+      "website": "https://www.breakwaterbistro.ca/",
+      "phone": "+12503868080",
+      "cuisine": [
+        "regional"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/10f332fcd9215aea3170",
+      "name": "Ithaka Greek Restaurant",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 48.4222891,
+      "lng": -123.3648353,
+      "distanceFromTerminalMeters": 2138,
+      "distanceFromDefaultTerminalMeters": 2138,
+      "minDistanceFromAnyTerminalMeters": 2138,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "716 Burdett Avenue",
+      "openingHours": "16:30-21:00; PH off",
+      "website": "https://www.ithakagreek.ca/",
+      "phone": "+1 250 384-6474",
+      "cuisine": [
+        "greek"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/a23edb5c311362e82dcf",
+      "name": "70'ees Pizza",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "fast_food",
+      "lat": 48.4290852,
+      "lng": -123.3647202,
+      "distanceFromTerminalMeters": 2544,
+      "distanceFromDefaultTerminalMeters": 2544,
+      "minDistanceFromAnyTerminalMeters": 2544,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1680 Douglas Street",
+      "openingHours": "Mo-Th,Su 11:00-26:00; Fr-Sa 11:00-27:00",
+      "website": "https://70eespizza.com/",
+      "phone": "+1 250 388-0100",
+      "cuisine": [
+        "pizza"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "fast_food"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f69749dc675a6a371b14",
+      "name": "Tacofino",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "fast_food",
+      "lat": 48.4280258,
+      "lng": -123.3629254,
+      "distanceFromTerminalMeters": 2578,
+      "distanceFromDefaultTerminalMeters": 2578,
+      "minDistanceFromAnyTerminalMeters": 2578,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "760 Pandora Avenue, V8W 1N9",
+      "openingHours": "Mo-Su 11:00-23:00",
+      "website": "https://www.tacofino.com/location/victoria-taco-bar",
+      "phone": "+1 778-406 1787",
+      "cuisine": [
+        "mexican"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "fast_food"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/9eeab8d8e0ad2eef3e5c",
+      "name": "Salt Chuck Pie Company",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "fast_food",
+      "lat": 48.4352711,
+      "lng": -123.3749448,
+      "distanceFromTerminalMeters": 2602,
+      "distanceFromDefaultTerminalMeters": 2602,
+      "minDistanceFromAnyTerminalMeters": 2602,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "360 Bay Street, V8T 1P7",
+      "openingHours": "Mo-Su 09:00-18:00",
+      "website": "https://saltchuckpies.com/",
+      "phone": "+1-250-383-7551",
+      "cuisine": [
+        "local"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "fast_food",
+        "shop": "bakery"
       }
     }
   ],
-  "portAnchor": {
-    "id": "ports-json-anchor",
-    "name": "VICTORIA HARBOR Port",
-    "lat": 48.43,
-    "lng": -123.38,
-    "address": "Victoria, British Columbia, Canada",
-    "source": "ports.json",
-    "sourceId": "",
-    "score": 0,
-    "slug": "victoria-harbor-port"
-  },
+  "gemSuggestions": [
+    "Fisherman's Wharf float homes",
+    "Fan Tan Alley"
+  ],
   "terminalResolution": {
     "status": "resolved",
-    "method": "terminal_review",
+    "method": "cruise-ports",
     "verified": true,
-    "reviewedAt": "2026-09-28",
     "notes": "Ogden Point Piers A and B are correct; the rest are harbour ferry landings."
   }
 }

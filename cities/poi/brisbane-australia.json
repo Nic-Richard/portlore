@@ -1,15 +1,4 @@
 {
-  "schemaVersion": 5,
-  "catalogType": "curation-candidates",
-  "generatedAt": "2026-07-30T08:50:45.069Z",
-  "source": "openstreetmap",
-  "sourceExtract": "queensland-latest.osm.pbf",
-  "radiusMeters": 10000,
-  "port": {
-    "id": "brisbane-australia",
-    "city": "Brisbane",
-    "country": "Australia"
-  },
   "defaultTerminalId": "review/brisbane-australia/brisbane-international-cruise-terminal",
   "terminal": {
     "id": "review/brisbane-australia/brisbane-international-cruise-terminal",
@@ -18,9 +7,8 @@
     "lng": 153.155329,
     "terminalType": "passenger_cruise_terminal",
     "source": "terminal_review",
-    "sourceUrls": [],
-    "verified": true,
-    "sourceId": "review/brisbane-australia/brisbane-international-cruise-terminal"
+    "sourceId": "review/brisbane-australia/brisbane-international-cruise-terminal",
+    "verified": true
   },
   "terminals": [
     {
@@ -30,696 +18,654 @@
       "lng": 153.155329,
       "terminalType": "passenger_cruise_terminal",
       "source": "terminal_review",
-      "sourceUrls": [],
-      "verified": true,
-      "sourceId": "review/brisbane-australia/brisbane-international-cruise-terminal"
+      "sourceId": "review/brisbane-australia/brisbane-international-cruise-terminal",
+      "verified": true
     },
     {
       "id": "osm/generated/747beda30c15fe1d6c76",
       "name": "Bretts Wharf Cruise Ship Terminal",
-      "nameEnglish": "",
       "lat": -27.441168,
       "lng": 153.068489,
-      "address": "",
-      "source": "verified_terminal_candidate",
-      "sourceId": "osm/generated/747beda30c15fe1d6c76",
       "terminalType": "passenger_cruise_terminal",
-      "verified": true,
+      "source": "verified_terminal_candidate",
       "notes": "Accepted 1 candidate explicitly identified as an ocean-cruise or cruise-passenger terminal; ferry and unrelated results were excluded.",
-      "sourceUrls": [],
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/747beda30c15fe1d6c76"
-      ],
-      "osmTags": {
-        "man_made": "pier"
-      },
-      "matchedBy": [
-        "terminal-like name"
-      ]
-    }
-  ],
-  "terminalCandidateRadiusMeters": 5000,
-  "terminalCandidates": [
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/42dbbb4ba2826490a66f",
-      "name": "(unnamed maritime feature)",
-      "nameEnglish": "",
-      "lat": -27.4720168,
-      "lng": 153.0313446,
-      "distanceFromPortMeters": 261,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "building": "yes",
-        "ferry": "yes",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/42dbbb4ba2826490a66f"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/ef487c97fc2f3ca884af",
-      "name": "Riverside Ferry Terminal",
-      "nameEnglish": "",
-      "lat": -27.4670127,
-      "lng": 153.0312824,
-      "distanceFromPortMeters": 355,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "cargo": "passengers",
-        "ferry": "yes",
-        "man_made": "pier",
-        "operator": "RiverCity Ferries",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/ef487c97fc2f3ca884af"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/1703a4d1b53b1d16dbd7",
-      "name": "Holman Street ferry terminal",
-      "nameEnglish": "",
-      "lat": -27.465684,
-      "lng": 153.0334817,
-      "distanceFromPortMeters": 590,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "cargo": "passengers",
-        "ferry": "yes",
-        "operator": "RiverCity Ferries",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/1703a4d1b53b1d16dbd7"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/913bbe03cdfdf88f02e0",
-      "name": "(unnamed maritime feature)",
-      "nameEnglish": "",
-      "lat": -27.4657717,
-      "lng": 153.0336506,
-      "distanceFromPortMeters": 592,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "cargo": "passengers",
-        "ferry": "yes",
-        "man_made": "pier",
-        "operator": "RiverCity Ferries",
-        "public_transport": "platform"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/913bbe03cdfdf88f02e0"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/a94a1193966931a50b5e",
-      "name": "North Quay ferry terminal",
-      "nameEnglish": "",
-      "lat": -27.472723,
-      "lng": 153.022454,
-      "distanceFromPortMeters": 804,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "cargo": "passengers",
-        "ferry": "yes",
-        "operator": "RiverCity Ferries",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/a94a1193966931a50b5e"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/909109918d5b5d017c92",
-      "name": "Dockside Ferry Terminal",
-      "nameEnglish": "",
-      "lat": -27.4724363,
-      "lng": 153.0389727,
-      "distanceFromPortMeters": 926,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "cargo": "passengers",
-        "ferry": "yes",
-        "operator": "RiverCity Ferries",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/909109918d5b5d017c92"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/ad34e4fd5d869b5f8681",
-      "name": "South Bank ferry terminal",
-      "nameEnglish": "",
-      "lat": -27.4758479,
-      "lng": 153.0223302,
-      "distanceFromPortMeters": 998,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "cargo": "passengers",
-        "ferry": "yes",
-        "operator": "RiverCity Ferries",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/ad34e4fd5d869b5f8681"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/4e68b34d2527ac76d3a5",
-      "name": "QUT Gardens Point ferry terminal",
-      "nameEnglish": "",
-      "lat": -27.478506,
-      "lng": 153.026209,
-      "distanceFromPortMeters": 1017,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "cargo": "passengers",
-        "ferry": "yes",
-        "operator": "RiverCity Ferries",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/4e68b34d2527ac76d3a5"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/488a9ed6ab87a7ea744e",
-      "name": "Howard Smith Wharves ferry terminal",
-      "nameEnglish": "",
-      "lat": -27.4632474,
-      "lng": 153.0375422,
-      "distanceFromPortMeters": 1057,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "cargo": "passengers",
-        "ferry": "yes",
-        "operator": "RiverCity Ferries",
-        "public_transport": "platform",
-        "man_made": "pier"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/488a9ed6ab87a7ea744e"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/1b9aff7ea4a780d28b95",
-      "name": "Cultural Centre",
-      "nameEnglish": "",
-      "lat": -27.4718822,
-      "lng": 153.0194905,
-      "distanceFromPortMeters": 1058,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "cargo": "passengers",
-        "ferry": "yes",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/1b9aff7ea4a780d28b95"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/9443f7b95f99145309b6",
-      "name": "Sydney Street ferry terminal",
-      "nameEnglish": "",
-      "lat": -27.4748117,
-      "lng": 153.0421393,
-      "distanceFromPortMeters": 1312,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "cargo": "passengers",
-        "ferry": "yes",
-        "operator": "RiverCity Ferries",
-        "public_transport": "platform"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/9443f7b95f99145309b6"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/6414ffe5c6b3039cd8e3",
-      "name": "Maritime Museum ferry terminal",
-      "nameEnglish": "",
-      "lat": -27.4819651,
-      "lng": 153.0288302,
-      "distanceFromPortMeters": 1335,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "cargo": "passengers",
-        "ferry": "yes",
-        "operator": "RiverCity Ferries",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/6414ffe5c6b3039cd8e3"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/7cdbad587f808e0f38a4",
-      "name": "Mowbray Park ferry terminal",
-      "nameEnglish": "",
-      "lat": -27.4772631,
-      "lng": 153.0432673,
-      "distanceFromPortMeters": 1538,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "cargo": "passengers",
-        "ferry": "yes",
-        "operator": "RiverCity Ferries",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/7cdbad587f808e0f38a4"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/e47e56b1c37325c48f51",
-      "name": "New Farm Park Ferry Terminal",
-      "nameEnglish": "",
-      "lat": -27.4716239,
-      "lng": 153.0525505,
-      "distanceFromPortMeters": 2232,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "cargo": "passengers",
-        "ferry": "yes",
-        "operator": "RiverCity Ferries",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/e47e56b1c37325c48f51"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/38b11a20f9b5849e1e59",
-      "name": "Milton ferry terminal",
-      "nameEnglish": "",
-      "lat": -27.4736218,
-      "lng": 153.0056308,
-      "distanceFromPortMeters": 2438,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "cargo": "passengers",
-        "ferry": "yes",
-        "operator": "RiverCity Ferries",
-        "public_transport": "platform",
-        "man_made": "pier"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/38b11a20f9b5849e1e59"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/6c4ab8f7c1b440bf61c0",
-      "name": "Hawthorne ferry terminal",
-      "nameEnglish": "",
-      "lat": -27.4611672,
-      "lng": 153.0530886,
-      "distanceFromPortMeters": 2481,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "cargo": "passengers",
-        "ferry": "yes",
-        "operator": "RiverCity Ferries",
-        "public_transport": "platform"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/6c4ab8f7c1b440bf61c0"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/26d190572a00530c1aeb",
-      "name": "Teneriffe Ferry Terminal",
-      "nameEnglish": "",
-      "lat": -27.4519088,
-      "lng": 153.0493282,
-      "distanceFromPortMeters": 2772,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "cargo": "passengers",
-        "ferry": "yes",
-        "operator": "RiverCity Ferries",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/26d190572a00530c1aeb"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/505932b6ab7d36c861f9",
-      "name": "Bulimba ferry terminal",
-      "nameEnglish": "",
-      "lat": -27.4506938,
-      "lng": 153.0521172,
-      "distanceFromPortMeters": 3061,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "cargo": "passengers",
-        "ferry": "yes",
-        "operator": "RiverCity Ferries",
-        "public_transport": "platform"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/505932b6ab7d36c861f9"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/4e79559bbd2b0ed51bfa",
-      "name": "UQ St Lucia ferry terminal",
-      "nameEnglish": "",
-      "lat": -27.4967418,
-      "lng": 153.0195876,
-      "distanceFromPortMeters": 3146,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "cargo": "passengers",
-        "ferry": "yes",
-        "operator": "RiverCity Ferries",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/4e79559bbd2b0ed51bfa"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/9b0a66b3e2898681b1e4",
-      "name": "West End ferry terminal",
-      "nameEnglish": "",
-      "lat": -27.4904067,
-      "lng": 153.0032262,
-      "distanceFromPortMeters": 3482,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "cargo": "passengers",
-        "ferry": "yes",
-        "operator": "RiverCity Ferries",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/9b0a66b3e2898681b1e4"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/fa49f25f8aeea4f010b8",
-      "name": "Regatta ferry terminal",
-      "nameEnglish": "",
-      "lat": -27.4832774,
-      "lng": 152.9969348,
-      "distanceFromPortMeters": 3581,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "cargo": "passengers",
-        "ferry": "yes",
-        "operator": "RiverCity Ferries",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/fa49f25f8aeea4f010b8"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/8e220a98e8e0989bed19",
-      "name": "Guyatt Park ferry terminal",
-      "nameEnglish": "",
-      "lat": -27.4923077,
-      "lng": 153.0021812,
-      "distanceFromPortMeters": 3699,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "cargo": "passengers",
-        "ferry": "yes",
-        "operator": "RiverCity Ferries",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/8e220a98e8e0989bed19"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/7e86b7766e8ae01e8e12",
-      "name": "Apollo Road Ferry Terminal",
-      "nameEnglish": "",
-      "lat": -27.4432868,
-      "lng": 153.0637881,
-      "distanceFromPortMeters": 4465,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "cargo": "passengers",
-        "ferry": "yes",
-        "operator": "RiverCity Ferries",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/7e86b7766e8ae01e8e12"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/15075e36112b6afb3980",
-      "name": "Bretts Wharf ferry terminal",
-      "nameEnglish": "",
-      "lat": -27.4402911,
-      "lng": 153.0641099,
-      "distanceFromPortMeters": 4716,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "cargo": "passengers",
-        "ferry": "yes",
-        "operator": "RiverCity Ferries",
-        "public_transport": "platform"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/15075e36112b6afb3980"
-      ]
-    },
-    {
-      "source": "openstreetmap",
       "sourceId": "osm/generated/747beda30c15fe1d6c76",
-      "name": "Bretts Wharf Cruise Ship Terminal",
-      "nameEnglish": "",
-      "lat": -27.4411678,
-      "lng": 153.0684885,
-      "distanceFromPortMeters": 4970,
-      "address": "",
-      "matchedBy": [
-        "terminal-like name"
-      ],
-      "osmTags": {
-        "man_made": "pier"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/747beda30c15fe1d6c76"
-      ]
+      "verified": true
     }
   ],
+  "schemaVersion": 5,
+  "catalogType": "curation-candidates",
+  "generatedAt": "2026-09-29T05:47:35.950Z",
+  "source": "openstreetmap",
+  "sourceExtract": "queensland-latest.osm.pbf",
+  "radiusMeters": 10000,
+  "port": {
+    "id": "brisbane-australia",
+    "city": "Brisbane",
+    "country": "Australia"
+  },
+  "portAnchor": {
+    "id": "ports-json-anchor",
+    "name": "Brisbane International Cruise Terminal",
+    "lat": -27.47,
+    "lng": 153.03,
+    "address": "Brisbane, Queensland, Australia",
+    "source": "ports.json",
+    "sourceId": "",
+    "score": 0,
+    "slug": "brisbane-international-cruise-terminal"
+  },
   "counts": {
-    "attraction": 16,
-    "outdoors": 5,
-    "food_drink": 12,
-    "shopping": 5,
-    "essentials": 1
+    "attraction": 23,
+    "food_drink": 30,
+    "shopping": 17,
+    "outdoors": 12,
+    "essentials": 3
   },
   "pois": [
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f8f9f5ca4ab466d68333",
+      "name": "Queensland Museum",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": -27.4727442,
+      "lng": 153.0180223,
+      "distanceFromTerminalMeters": 1220,
+      "distanceFromDefaultTerminalMeters": 1220,
+      "minDistanceFromAnyTerminalMeters": 1220,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Grey Street, QLD, 4101",
+      "openingHours": "Mo-Su 09:30-17:00",
+      "website": "https://www.museum.qld.gov.au/",
+      "phone": "+61 7 3153 3000",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q1537684",
+      "wikipedia": "en:Queensland Museum",
+      "osmTags": {
+        "tourism": "museum"
+      },
+      "curated": true,
+      "gem": true,
+      "fame": 9
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/5ad62c7dd1d5925beeec",
+      "name": "Gallery of Modern Art",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "gallery",
+      "lat": -27.4705443,
+      "lng": 153.01711,
+      "distanceFromTerminalMeters": 1273,
+      "distanceFromDefaultTerminalMeters": 1273,
+      "minDistanceFromAnyTerminalMeters": 1273,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Stanley Place",
+      "openingHours": "Mo-Su 10:00-17:00",
+      "website": "https://www.qagoma.qld.gov.au",
+      "phone": "+61 7 3840 7303",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q7270943",
+      "wikipedia": "en:Gallery of Modern Art, Brisbane",
+      "osmTags": {
+        "tourism": "gallery"
+      },
+      "curated": true,
+      "gem": true,
+      "fame": 10
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/51e698e663b3516ac77c",
+      "name": "New Farm Seafood Market",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "seafood",
+      "lat": -27.4666725,
+      "lng": 153.0469021,
+      "distanceFromTerminalMeters": 1708,
+      "distanceFromDefaultTerminalMeters": 1708,
+      "minDistanceFromAnyTerminalMeters": 1708,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "85 Merthyr Road",
+      "openingHours": "Tu-Su 08:00-21:00",
+      "website": "http://newfarmseafood.com.au/market",
+      "phone": "",
+      "cuisine": [
+        "seafood"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "shop": "seafood"
+      },
+      "curated": true,
+      "gem": true
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/aa615071ee511a75c768",
+      "name": "Cartel del Taco",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": -27.4673263,
+      "lng": 153.0461547,
+      "distanceFromTerminalMeters": 1621,
+      "distanceFromDefaultTerminalMeters": 1621,
+      "minDistanceFromAnyTerminalMeters": 1621,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "79 Merthyr Road",
+      "openingHours": "We, Th 17:00-21:00; Fr, Sa 17:00-21:30; Su 17:00-20:00",
+      "website": "https://carteldeltaco.com.au/",
+      "phone": "+61 7 3096 0516",
+      "cuisine": [
+        "mexican"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Taqueria",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      },
+      "curated": true,
+      "gem": true
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/6c5703ed8ca10c6ad425",
+      "name": "The Pancake Manor",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": -27.472161,
+      "lng": 153.0252754,
+      "distanceFromTerminalMeters": 524,
+      "distanceFromDefaultTerminalMeters": 524,
+      "minDistanceFromAnyTerminalMeters": 524,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "18 Charlotte Street",
+      "openingHours": "24/7",
+      "website": "https://www.pancakemanor.com.au/",
+      "phone": "+61 7 3221 6433",
+      "cuisine": [
+        "breakfast",
+        "pancakes"
+      ],
+      "wheelchair": "no",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      },
+      "curated": true,
+      "gem": true
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/8eea808eb298e6c33c3b",
+      "name": "Brisbane City Botanic Gardens",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": -27.475938,
+      "lng": 153.0296383,
+      "distanceFromTerminalMeters": 661,
+      "distanceFromDefaultTerminalMeters": 661,
+      "minDistanceFromAnyTerminalMeters": 661,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "https://www.brisbane.qld.gov.au/facilities-recreation/parks-venues/parks/city-botanic-gardens",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q917681",
+      "wikipedia": "en:Brisbane City Botanic Gardens",
+      "osmTags": {
+        "leisure": "park",
+        "tourism": "attraction"
+      },
+      "fame": 13
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/854513496566a2a98044",
+      "name": "Lone Pine Koala Sanctuary",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "zoo",
+      "lat": -27.5350519,
+      "lng": 152.9683958,
+      "distanceFromTerminalMeters": 9447,
+      "distanceFromDefaultTerminalMeters": 9447,
+      "minDistanceFromAnyTerminalMeters": 9447,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "708 Jesmond Road, QLD, 4069",
+      "openingHours": "Mo-Su 09:00-17:00",
+      "website": "https://koala.net/",
+      "phone": "+61 7 3378 1366",
+      "cuisine": [],
+      "wheelchair": "limited",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q641873",
+      "wikipedia": "en:Lone Pine Koala Sanctuary",
+      "osmTags": {
+        "tourism": "zoo"
+      },
+      "fame": 12
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/e11817482cd3095242f9",
+      "name": "Queensland Art Gallery",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "gallery",
+      "lat": -27.4726035,
+      "lng": 153.0184895,
+      "distanceFromTerminalMeters": 1172,
+      "distanceFromDefaultTerminalMeters": 1172,
+      "minDistanceFromAnyTerminalMeters": 1172,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Stanley Place, 4101",
+      "openingHours": "10:00-17:00",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q7270900",
+      "wikipedia": "en:Queensland Art Gallery",
+      "osmTags": {
+        "tourism": "gallery"
+      },
+      "fame": 8
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/a898b06ffc3b60f0eee8",
+      "name": "South Bank Parklands",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": -27.4775618,
+      "lng": 153.0230667,
+      "distanceFromTerminalMeters": 1084,
+      "distanceFromDefaultTerminalMeters": 1084,
+      "minDistanceFromAnyTerminalMeters": 1084,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "https://www.visitbrisbane.com.au/south-bank/destinations?sc_lang=en-au",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q3492231",
+      "wikipedia": "en:South Bank Parklands",
+      "osmTags": {
+        "leisure": "park",
+        "tourism": "attraction"
+      },
+      "fame": 6
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/cf87e94e2f6fff381413",
+      "name": "Max Brenner Chocolate Bar",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": -27.4785815,
+      "lng": 153.0226886,
+      "distanceFromTerminalMeters": 1196,
+      "distanceFromDefaultTerminalMeters": 1196,
+      "minDistanceFromAnyTerminalMeters": 1196,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "2 Little Stanley Street",
+      "openingHours": "Su-Th 10:00-23:00, Fr,Sa 10:00-24:00",
+      "website": "https://www.maxbrenner.com.au/",
+      "phone": "+61 7 3255 0411",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q955687",
+      "wikipedia": "en:Max Brenner",
+      "osmTags": {
+        "amenity": "cafe"
+      },
+      "fame": 6
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b97fcaf8f7dcb1e7f464",
+      "name": "HMAS Diamantina",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": -27.4818832,
+      "lng": 153.026569,
+      "distanceFromTerminalMeters": 1364,
+      "distanceFromDefaultTerminalMeters": 1364,
+      "minDistanceFromAnyTerminalMeters": 1364,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q3061684",
+      "wikipedia": "en:HMAS Diamantina (K377)",
+      "osmTags": {
+        "historic": "ship",
+        "tourism": "attraction"
+      },
+      "fame": 6
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/1f1afb3265705f519cb3",
+      "name": "Mount Coot-tha Botanic Gardens",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": -27.4778979,
+      "lng": 152.9736094,
+      "distanceFromTerminalMeters": 5632,
+      "distanceFromDefaultTerminalMeters": 5632,
+      "minDistanceFromAnyTerminalMeters": 5632,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "152 Mt Coot-Tha Road, QLD, 4066",
+      "openingHours": "Mo-Su 08:00-17:50; Apr-Aug Mo-Su 08:00-17:00",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q917672",
+      "wikipedia": "",
+      "osmTags": {
+        "leisure": "park"
+      },
+      "fame": 6
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b2d88c06b0a76401d00a",
+      "name": "King George Square",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "square",
+      "lat": -27.4684772,
+      "lng": 153.0241355,
+      "distanceFromTerminalMeters": 603,
+      "distanceFromDefaultTerminalMeters": 603,
+      "minDistanceFromAnyTerminalMeters": 603,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q1279655",
+      "wikipedia": "en:King George Square",
+      "osmTags": {
+        "place": "square"
+      },
+      "fame": 5
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/51b035b36b2ebddec028",
+      "name": "The Wheel of Brisbane",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": -27.4753229,
+      "lng": 153.0208953,
+      "distanceFromTerminalMeters": 1076,
+      "distanceFromDefaultTerminalMeters": 1076,
+      "minDistanceFromAnyTerminalMeters": 1076,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Fr-Sa 10:00-23:00; Su-Th 10:00-22:00",
+      "website": "https://thewheelofbrisbane.com.au/",
+      "phone": "+61 7 3844 3464",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q1181159",
+      "wikipedia": "en:Wheel of Brisbane",
+      "osmTags": {
+        "tourism": "attraction"
+      },
+      "fame": 5
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/8718511fc0c94e4e7199",
+      "name": "Whites Hill Reserve",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "nature_reserve",
+      "lat": -27.5107055,
+      "lng": 153.0833177,
+      "distanceFromTerminalMeters": 6939,
+      "distanceFromDefaultTerminalMeters": 6939,
+      "minDistanceFromAnyTerminalMeters": 6939,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "24/7",
+      "website": "https://www.brisbane.qld.gov.au/environment-waste/natural-environment/bushland-reserves/whites-hill-reserve",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q7996218",
+      "wikipedia": "en:Whites Hill",
+      "osmTags": {
+        "leisure": "nature_reserve"
+      },
+      "fame": 5
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/823a98c31e9af643ece9",
+      "name": "Museum of Lands, Mapping and Surveying",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": -27.4654316,
+      "lng": 153.0250599,
+      "distanceFromTerminalMeters": 704,
+      "distanceFromDefaultTerminalMeters": 704,
+      "minDistanceFromAnyTerminalMeters": 704,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Fr 09:30-16:00",
+      "website": "https://www.qld.gov.au/recreation/arts/heritage/museum-of-lands",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q60746927",
+      "wikipedia": "",
+      "osmTags": {
+        "tourism": "museum"
+      },
+      "fame": 2
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/7899513c47c5cbc01396",
+      "name": "Commissariat Store",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": -27.4732537,
+      "lng": 153.0242409,
+      "distanceFromTerminalMeters": 674,
+      "distanceFromDefaultTerminalMeters": 674,
+      "minDistanceFromAnyTerminalMeters": 674,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "115 William Street",
+      "openingHours": "Tu-Fr 10:00-16:00",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q5152612",
+      "wikipedia": "en:Commissariat Store, Brisbane",
+      "osmTags": {
+        "tourism": "museum"
+      },
+      "fame": 1
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/66213d91f00b03b4a1e6",
+      "name": "The Design Bank",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "gallery",
+      "lat": -27.4737276,
+      "lng": 153.0179727,
+      "distanceFromTerminalMeters": 1257,
+      "distanceFromDefaultTerminalMeters": 1257,
+      "minDistanceFromAnyTerminalMeters": 1257,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "89 Grey Street, QLD, 4101",
+      "openingHours": "Mo-Sa 10:00-18:00",
+      "website": "https://aboriginalart.co/",
+      "phone": "+61 493 498 729",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "tourism": "gallery"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/39e3412fde6cbcbf4b47",
+      "name": "Chinatown",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": -27.4586027,
+      "lng": 153.0336866,
+      "distanceFromTerminalMeters": 1318,
+      "distanceFromDefaultTerminalMeters": 1318,
+      "minDistanceFromAnyTerminalMeters": 1318,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "Chinatown in the heart of Fortitude Valley",
+      "wikidata": "Q5100135",
+      "wikipedia": "en:Chinatown, Brisbane",
+      "osmTags": {
+        "tourism": "attraction"
+      },
+      "fame": 3
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d9cdbea85164a8607766",
+      "name": "Queensland Maritime Museum",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": -27.481844,
+      "lng": 153.0266694,
+      "distanceFromTerminalMeters": 1357,
+      "distanceFromDefaultTerminalMeters": 1357,
+      "minDistanceFromAnyTerminalMeters": 1357,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Su 09:30-16:30",
+      "website": "https://maritimemuseum.com.au/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q7270964",
+      "wikipedia": "en:Queensland Maritime Museum",
+      "osmTags": {
+        "tourism": "museum"
+      },
+      "fame": 1
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/481fa321ef693bd585cc",
+      "name": "Woolloongabba Art Gallery",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "gallery",
+      "lat": -27.485732,
+      "lng": 153.0295125,
+      "distanceFromTerminalMeters": 1750,
+      "distanceFromDefaultTerminalMeters": 1750,
+      "minDistanceFromAnyTerminalMeters": 1750,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "613 Stanley Street, QLD, 4102",
+      "openingHours": "Tu-Fr 10:00-17:00; Sa 10:00-15:00",
+      "website": "https://wag.com.au/",
+      "phone": "+61 7 3891 5551",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "tourism": "gallery"
+      }
+    },
     {
       "source": "openstreetmap",
       "sourceId": "osm/generated/569b11f5c2dfb79a3a6d",
@@ -741,6 +687,8 @@
       "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "",
+      "wikipedia": "",
       "osmTags": {
         "tourism": "museum"
       }
@@ -766,97 +714,24 @@
       "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "",
+      "wikipedia": "",
       "osmTags": {
         "tourism": "museum"
       }
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/823a98c31e9af643ece9",
-      "name": "Museum of Lands, Mapping and Surveying",
+      "sourceId": "osm/generated/66be71aac5dd16c4d090",
+      "name": "Boggo Road Gaol",
       "nameEnglish": "",
       "category": "attraction",
       "subcategory": "museum",
-      "lat": -27.4654316,
-      "lng": 153.0250599,
-      "distanceFromTerminalMeters": 704,
-      "distanceFromDefaultTerminalMeters": 704,
-      "minDistanceFromAnyTerminalMeters": 704,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "",
-      "openingHours": "Mo-Fr 09:30-16:00",
-      "website": "https://www.qld.gov.au/recreation/arts/heritage/museum-of-lands",
-      "phone": "",
-      "cuisine": [],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "tourism": "museum"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/f8f9f5ca4ab466d68333",
-      "name": "Queensland Museum",
-      "nameEnglish": "",
-      "category": "attraction",
-      "subcategory": "museum",
-      "lat": -27.4727442,
-      "lng": 153.0180223,
-      "distanceFromTerminalMeters": 1220,
-      "distanceFromDefaultTerminalMeters": 1220,
-      "minDistanceFromAnyTerminalMeters": 1220,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "Grey Street, QLD, 4101",
-      "openingHours": "Mo-Su 09:30-17:00",
-      "website": "https://www.museum.qld.gov.au/",
-      "phone": "+61 7 3153 3000",
-      "cuisine": [],
-      "wheelchair": "yes",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "tourism": "museum"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/86a8514b332a1794fc55",
-      "name": "Queensland Maritime Museum",
-      "nameEnglish": "",
-      "category": "attraction",
-      "subcategory": "museum",
-      "lat": -27.481844,
-      "lng": 153.0266694,
-      "distanceFromTerminalMeters": 1357,
-      "distanceFromDefaultTerminalMeters": 1357,
-      "minDistanceFromAnyTerminalMeters": 1357,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "",
-      "openingHours": "Mo-Su 09:30-16:30",
-      "website": "https://maritimemuseum.com.au/",
-      "phone": "",
-      "cuisine": [],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "tourism": "museum"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/aeac7d352bb866ba1831",
-      "name": "Brisbane City Hall Clock Tower",
-      "nameEnglish": "",
-      "category": "attraction",
-      "subcategory": "attraction",
-      "lat": -27.4687808,
-      "lng": 153.0237552,
-      "distanceFromTerminalMeters": 631,
-      "distanceFromDefaultTerminalMeters": 631,
-      "minDistanceFromAnyTerminalMeters": 631,
+      "lat": -27.4951487,
+      "lng": 153.0286957,
+      "distanceFromTerminalMeters": 2799,
+      "distanceFromDefaultTerminalMeters": 2799,
+      "minDistanceFromAnyTerminalMeters": 2799,
       "nearestTerminalId": "ports-json-anchor",
       "address": "",
       "openingHours": "",
@@ -866,59 +741,177 @@
       "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "Q4937584",
+      "wikipedia": "en:Boggo Road Gaol",
       "osmTags": {
-        "man_made": "tower",
-        "tourism": "attraction"
+        "amenity": "prison",
+        "tourism": "museum"
+      },
+      "fame": 3
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/582b1bbbaa10d16cdee6",
+      "name": "Army Museum South Queensland",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": -27.4642377,
+      "lng": 153.0145424,
+      "distanceFromTerminalMeters": 1654,
+      "distanceFromDefaultTerminalMeters": 1654,
+      "minDistanceFromAnyTerminalMeters": 1654,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "80-86 Petrie Terrace, QLD, 4000",
+      "openingHours": "",
+      "website": "https://www.armymuseumsouthqueensland.com.au/",
+      "phone": "+61 7 3233 4531",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "tourism": "museum"
       }
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/5ad62c7dd1d5925beeec",
-      "name": "Gallery of Modern Art",
+      "sourceId": "osm/generated/21f605b0945bef0776a9",
+      "name": "Queensland Holocaust Museum",
       "nameEnglish": "",
       "category": "attraction",
-      "subcategory": "gallery",
-      "lat": -27.4705443,
-      "lng": 153.01711,
-      "distanceFromTerminalMeters": 1273,
-      "distanceFromDefaultTerminalMeters": 1273,
-      "minDistanceFromAnyTerminalMeters": 1273,
+      "subcategory": "museum",
+      "lat": -27.4694056,
+      "lng": 153.0287157,
+      "distanceFromTerminalMeters": 143,
+      "distanceFromDefaultTerminalMeters": 143,
+      "minDistanceFromAnyTerminalMeters": 143,
       "nearestTerminalId": "ports-json-anchor",
-      "address": "Stanley Place",
-      "openingHours": "Mo-Su 10:00-17:00",
-      "website": "https://www.qagoma.qld.gov.au",
-      "phone": "+61 7 3840 7303",
+      "address": "168 Charlotte Street",
+      "openingHours": "Tu,Th,Su 09:00-16:00",
+      "website": "",
+      "phone": "",
       "cuisine": [],
       "wheelchair": "yes",
       "brand": "",
       "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b1a8c428615bf6d816b6",
+      "name": "Sir Thomas Brisbane Planetarium",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": -27.4757407,
+      "lng": 152.976964,
+      "distanceFromTerminalMeters": 5271,
+      "distanceFromDefaultTerminalMeters": 5271,
+      "minDistanceFromAnyTerminalMeters": 5271,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Tu-Su 10:00-16:00",
+      "website": "https://www.brisbane.qld.gov.au/libraries-venues-and-facilities/venue-and-places/sir-thomas-brisbane-planetarium",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q1444706",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "planetarium",
+        "tourism": "attraction"
+      },
+      "fame": 3
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/df7bc68b3be6cbcaca64",
+      "name": "Philip Bacon Galleries",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "gallery",
+      "lat": -27.460557,
+      "lng": 153.0381195,
+      "distanceFromTerminalMeters": 1321,
+      "distanceFromDefaultTerminalMeters": 1321,
+      "minDistanceFromAnyTerminalMeters": 1321,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "2 Arthur Street",
+      "openingHours": "",
+      "website": "https://philipbacongalleries.com.au",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
       "osmTags": {
         "tourism": "gallery"
       }
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/152e629001d50327c00f",
-      "name": "Streets Beach",
+      "sourceId": "osm/generated/25a39ff079cc1194642c",
+      "name": "Old Museum",
       "nameEnglish": "",
       "category": "attraction",
-      "subcategory": "attraction",
-      "lat": -27.4782601,
-      "lng": 153.0235995,
-      "distanceFromTerminalMeters": 1115,
-      "distanceFromDefaultTerminalMeters": 1115,
-      "minDistanceFromAnyTerminalMeters": 1115,
+      "subcategory": "building",
+      "lat": -27.4518031,
+      "lng": 153.0295426,
+      "distanceFromTerminalMeters": 2024,
+      "distanceFromDefaultTerminalMeters": 2024,
+      "minDistanceFromAnyTerminalMeters": 2024,
       "nearestTerminalId": "ports-json-anchor",
-      "address": "Stanley Street Plaza, 4101",
+      "address": "480 Gregory Terrace, Brisbane, QLD, 4006",
       "openingHours": "",
       "website": "",
       "phone": "",
       "cuisine": [],
-      "wheelchair": "limited",
+      "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "Q7084585",
+      "wikipedia": "en:Old Museum Building, Brisbane",
       "osmTags": {
-        "tourism": "attraction"
+        "historic": "building"
+      },
+      "fame": 2
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/bd7b8a76aeafc25dce43",
+      "name": "QUT Art Museum",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "gallery",
+      "lat": -27.4765707,
+      "lng": 153.0288645,
+      "distanceFromTerminalMeters": 739,
+      "distanceFromDefaultTerminalMeters": 739,
+      "minDistanceFromAnyTerminalMeters": 739,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "2 George Street",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "tourism": "gallery"
       }
     },
     {
@@ -942,362 +935,37 @@
       "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "",
+      "wikipedia": "",
       "osmTags": {
         "tourism": "attraction"
       }
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/51b035b36b2ebddec028",
-      "name": "The Wheel of Brisbane",
-      "nameEnglish": "",
-      "category": "attraction",
-      "subcategory": "attraction",
-      "lat": -27.4753229,
-      "lng": 153.0208953,
-      "distanceFromTerminalMeters": 1076,
-      "distanceFromDefaultTerminalMeters": 1076,
-      "minDistanceFromAnyTerminalMeters": 1076,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "",
-      "openingHours": "Fr-Sa 10:00-23:00; Su-Th 10:00-22:00",
-      "website": "https://thewheelofbrisbane.com.au/",
-      "phone": "+61 7 3844 3464",
-      "cuisine": [],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "tourism": "attraction"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/c7f6471790c4964ca99f",
-      "name": "Queensland first artillery 24-pound Carron cannons",
-      "nameEnglish": "",
-      "category": "attraction",
-      "subcategory": "monument",
-      "lat": -27.4731108,
-      "lng": 153.0309405,
-      "distanceFromTerminalMeters": 358,
-      "distanceFromDefaultTerminalMeters": 358,
-      "minDistanceFromAnyTerminalMeters": 358,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "",
-      "openingHours": "",
-      "website": "",
-      "phone": "",
-      "cuisine": [],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "historic": "monument"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/0b91ce0a53557c6ed9ec",
-      "name": "Cannon",
-      "nameEnglish": "",
-      "category": "attraction",
-      "subcategory": "monument",
-      "lat": -27.4723462,
-      "lng": 153.0246091,
-      "distanceFromTerminalMeters": 592,
-      "distanceFromDefaultTerminalMeters": 592,
-      "minDistanceFromAnyTerminalMeters": 592,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "",
-      "openingHours": "",
-      "website": "",
-      "phone": "",
-      "cuisine": [],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "historic": "monument"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/55a102fa672663a1c5f8",
-      "name": "Queen Victoria",
-      "nameEnglish": "",
-      "category": "attraction",
-      "subcategory": "monument",
-      "lat": -27.4724709,
-      "lng": 153.0244075,
-      "distanceFromTerminalMeters": 616,
-      "distanceFromDefaultTerminalMeters": 616,
-      "minDistanceFromAnyTerminalMeters": 616,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "",
-      "openingHours": "",
-      "website": "",
-      "phone": "",
-      "cuisine": [],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "historic": "monument"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/390186f8367e2270bee4",
-      "name": "Thomas Joseph Ryan",
-      "nameEnglish": "",
-      "category": "attraction",
-      "subcategory": "monument",
-      "lat": -27.4722979,
-      "lng": 153.0238667,
-      "distanceFromTerminalMeters": 657,
-      "distanceFromDefaultTerminalMeters": 657,
-      "minDistanceFromAnyTerminalMeters": 657,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "",
-      "openingHours": "",
-      "website": "",
-      "phone": "",
-      "cuisine": [],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "historic": "monument"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/711f330b642f393158e1",
-      "name": "The Old Windmill",
-      "nameEnglish": "",
-      "category": "attraction",
-      "subcategory": "monument",
-      "lat": -27.4657483,
-      "lng": 153.0230679,
-      "distanceFromTerminalMeters": 831,
-      "distanceFromDefaultTerminalMeters": 831,
-      "minDistanceFromAnyTerminalMeters": 831,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "",
-      "openingHours": "",
-      "website": "",
-      "phone": "",
-      "cuisine": [],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "historic": "monument"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/ae64c0539453d8b5e2ae",
-      "name": "Langshaw Marble Lime Works",
-      "nameEnglish": "",
-      "category": "attraction",
-      "subcategory": "archaeological_site",
-      "lat": -27.4683099,
-      "lng": 153.0404735,
-      "distanceFromTerminalMeters": 1050,
-      "distanceFromDefaultTerminalMeters": 1050,
-      "minDistanceFromAnyTerminalMeters": 1050,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "",
-      "openingHours": "",
-      "website": "",
-      "phone": "",
-      "cuisine": [],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "historic": "archaeological_site"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/8eea808eb298e6c33c3b",
-      "name": "Brisbane City Botanic Gardens",
-      "nameEnglish": "",
-      "category": "outdoors",
-      "subcategory": "park",
-      "lat": -27.475938,
-      "lng": 153.0296383,
-      "distanceFromTerminalMeters": 661,
-      "distanceFromDefaultTerminalMeters": 661,
-      "minDistanceFromAnyTerminalMeters": 661,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "",
-      "openingHours": "",
-      "website": "https://www.brisbane.qld.gov.au/facilities-recreation/parks-venues/parks/city-botanic-gardens",
-      "phone": "",
-      "cuisine": [],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "leisure": "park",
-        "tourism": "attraction"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/f997416462323c76d205",
-      "name": "Story Bridge view",
-      "nameEnglish": "",
-      "category": "outdoors",
-      "subcategory": "viewpoint",
-      "lat": -27.4644852,
-      "lng": 153.0318489,
-      "distanceFromTerminalMeters": 640,
-      "distanceFromDefaultTerminalMeters": 640,
-      "minDistanceFromAnyTerminalMeters": 640,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "",
-      "openingHours": "",
-      "website": "",
-      "phone": "",
-      "cuisine": [],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "tourism": "viewpoint"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/96e0693fde50536f022d",
-      "name": "Formal Flower Garden",
-      "nameEnglish": "",
-      "category": "outdoors",
-      "subcategory": "viewpoint",
-      "lat": -27.4744837,
-      "lng": 153.029974,
-      "distanceFromTerminalMeters": 499,
-      "distanceFromDefaultTerminalMeters": 499,
-      "minDistanceFromAnyTerminalMeters": 499,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "",
-      "openingHours": "",
-      "website": "",
-      "phone": "",
-      "cuisine": [],
-      "wheelchair": "yes",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "tourism": "viewpoint"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/51e8e264b7764997fdf1",
-      "name": "Camelia Lawn",
-      "nameEnglish": "",
-      "category": "outdoors",
-      "subcategory": "garden",
-      "lat": -27.4754994,
-      "lng": 153.0308826,
-      "distanceFromTerminalMeters": 618,
-      "distanceFromDefaultTerminalMeters": 618,
-      "minDistanceFromAnyTerminalMeters": 618,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "",
-      "openingHours": "",
-      "website": "",
-      "phone": "",
-      "cuisine": [],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "leisure": "garden"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/058490d06de444f071b0",
-      "name": "Spring Hill Baths",
-      "nameEnglish": "",
-      "category": "outdoors",
-      "subcategory": "swimming_pool",
-      "lat": -27.4599371,
-      "lng": 153.0212874,
-      "distanceFromTerminalMeters": 1411,
-      "distanceFromDefaultTerminalMeters": 1411,
-      "minDistanceFromAnyTerminalMeters": 1411,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "14 Torrington Street, QLD",
-      "openingHours": "Mo-Th 06:30-19:00; Fr 06:30-18:00; Sa-Su 08:00-18:00; PH 09:00-17:00; Dec 25 off; easter -2 days off; Apr 25 off",
-      "website": "https://www.brisbane.qld.gov.au/parks-and-recreation/sports-and-leisure/find-pools-and-water-parks/spring-hill-baths",
-      "phone": "",
-      "cuisine": [],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "historic": "heritage",
-        "leisure": "swimming_pool"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/ce33049c6d2b4f387d94",
-      "name": "Anytime Coffee",
+      "sourceId": "osm/generated/61f986f64f4cf980c02b",
+      "name": "Lil Luca",
       "nameEnglish": "",
       "category": "food_drink",
       "subcategory": "cafe",
-      "lat": -27.4706059,
-      "lng": 153.0284729,
-      "distanceFromTerminalMeters": 165,
-      "distanceFromDefaultTerminalMeters": 165,
-      "minDistanceFromAnyTerminalMeters": 165,
+      "lat": -27.4701036,
+      "lng": 153.0283449,
+      "distanceFromTerminalMeters": 164,
+      "distanceFromDefaultTerminalMeters": 164,
+      "minDistanceFromAnyTerminalMeters": 164,
       "nearestTerminalId": "ports-json-anchor",
-      "address": "Mary Street",
-      "openingHours": "Mo-Fr 07:00-14:00",
-      "website": "http://www.anytimecoffee.com.au/",
-      "phone": "",
+      "address": "123 Albert Street",
+      "openingHours": "Mo-Fr 06:00-14:50",
+      "website": "https://lalucacucina.com/",
+      "phone": "+61 7 3211 2044",
       "cuisine": [
-        "coffee"
+        "sandwich"
       ],
       "wheelchair": "",
       "brand": "",
       "description": "",
-      "osmTags": {
-        "amenity": "cafe"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/973349bf78054d8019ed",
-      "name": "New Farm Deli",
-      "nameEnglish": "",
-      "category": "food_drink",
-      "subcategory": "cafe",
-      "lat": -27.4672586,
-      "lng": 153.0471874,
-      "distanceFromTerminalMeters": 1723,
-      "distanceFromDefaultTerminalMeters": 1723,
-      "minDistanceFromAnyTerminalMeters": 1723,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "900 Brunswick Street, 4005",
-      "openingHours": "Mo-Sa 06:00-18:00, Su 06:00-17:00",
-      "website": "https://newfarmdeli.com.au/",
-      "phone": "+61 7 3358 2634",
-      "cuisine": [
-        "italian"
-      ],
-      "wheelchair": "",
-      "brand": "",
-      "description": "Deli, cafe, lots of great italian meat and cheese",
+      "wikidata": "",
+      "wikipedia": "",
       "osmTags": {
         "amenity": "cafe"
       }
@@ -1327,35 +995,39 @@
       "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "",
+      "wikipedia": "",
       "osmTags": {
         "amenity": "restaurant"
       }
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/3be18365753f0cebb20c",
-      "name": "Maru",
+      "sourceId": "osm/generated/973349bf78054d8019ed",
+      "name": "New Farm Deli",
       "nameEnglish": "",
       "category": "food_drink",
-      "subcategory": "restaurant",
-      "lat": -27.4701234,
-      "lng": 153.0267213,
-      "distanceFromTerminalMeters": 324,
-      "distanceFromDefaultTerminalMeters": 324,
-      "minDistanceFromAnyTerminalMeters": 324,
+      "subcategory": "cafe",
+      "lat": -27.4672586,
+      "lng": 153.0471874,
+      "distanceFromTerminalMeters": 1723,
+      "distanceFromDefaultTerminalMeters": 1723,
+      "minDistanceFromAnyTerminalMeters": 1723,
       "nearestTerminalId": "ports-json-anchor",
-      "address": "157 Elizabeth Street, 4000",
-      "openingHours": "Mo-Fr 11:30-15:15, Sa,Su 11:30-15:30, Su-Th 17:00-22:00, Fr,Sa 17:00-23:00",
-      "website": "https://marukoreanbbq.weebly.com/",
-      "phone": "",
+      "address": "900 Brunswick Street, 4005",
+      "openingHours": "Mo-Sa 06:00-18:00, Su 06:00-17:00",
+      "website": "https://newfarmdeli.com.au/",
+      "phone": "+61 7 3358 2634",
       "cuisine": [
-        "korean"
+        "italian"
       ],
       "wheelchair": "",
       "brand": "",
-      "description": "",
+      "description": "Deli, cafe, lots of great italian meat and cheese",
+      "wikidata": "",
+      "wikipedia": "",
       "osmTags": {
-        "amenity": "restaurant"
+        "amenity": "cafe"
       }
     },
     {
@@ -1381,36 +1053,39 @@
       "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "",
+      "wikipedia": "",
       "osmTags": {
         "amenity": "restaurant"
       }
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/6c5703ed8ca10c6ad425",
-      "name": "The Pancake Manor",
+      "sourceId": "osm/generated/d20fa0e294e895ce9779",
+      "name": "Bar Pacino",
       "nameEnglish": "",
       "category": "food_drink",
-      "subcategory": "restaurant",
-      "lat": -27.472161,
-      "lng": 153.0252754,
-      "distanceFromTerminalMeters": 524,
-      "distanceFromDefaultTerminalMeters": 524,
-      "minDistanceFromAnyTerminalMeters": 524,
+      "subcategory": "bar",
+      "lat": -27.4656395,
+      "lng": 153.030797,
+      "distanceFromTerminalMeters": 491,
+      "distanceFromDefaultTerminalMeters": 491,
+      "minDistanceFromAnyTerminalMeters": 491,
       "nearestTerminalId": "ports-json-anchor",
-      "address": "18 Charlotte Street",
-      "openingHours": "24/7",
-      "website": "https://www.pancakemanor.com.au/",
-      "phone": "+61 7 3221 6433",
+      "address": "175 Eagle Street, 4000",
+      "openingHours": "Th 11:00-17:00; Fr-Sa 11:00-00:00",
+      "website": "http://barpacino.com.au/",
+      "phone": "+61 7 3221 2397",
       "cuisine": [
-        "breakfast",
-        "pancakes"
+        "italian"
       ],
-      "wheelchair": "no",
+      "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "",
+      "wikipedia": "",
       "osmTags": {
-        "amenity": "restaurant"
+        "amenity": "bar"
       }
     },
     {
@@ -1436,6 +1111,8 @@
       "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "",
+      "wikipedia": "",
       "osmTags": {
         "amenity": "restaurant"
       }
@@ -1466,6 +1143,8 @@
       "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "",
+      "wikipedia": "",
       "osmTags": {
         "amenity": "restaurant"
       }
@@ -1494,6 +1173,8 @@
       "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "",
+      "wikipedia": "",
       "osmTags": {
         "amenity": "restaurant"
       }
@@ -1522,60 +1203,398 @@
       "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "",
+      "wikipedia": "",
       "osmTags": {
         "amenity": "restaurant"
       }
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/4e05ba13a87713afcfb4",
-      "name": "Madame Wu",
+      "sourceId": "osm/generated/12b5bc90f2e7868fced7",
+      "name": "PHAT PHÓ",
       "nameEnglish": "",
       "category": "food_drink",
       "subcategory": "restaurant",
-      "lat": -27.4678769,
-      "lng": 153.0307987,
-      "distanceFromTerminalMeters": 249,
-      "distanceFromDefaultTerminalMeters": 249,
-      "minDistanceFromAnyTerminalMeters": 249,
+      "lat": -27.4541145,
+      "lng": 153.0465216,
+      "distanceFromTerminalMeters": 2404,
+      "distanceFromDefaultTerminalMeters": 2404,
+      "minDistanceFromAnyTerminalMeters": 2404,
       "nearestTerminalId": "ports-json-anchor",
-      "address": "71 Eagle Street",
-      "openingHours": "",
-      "website": "https://www.madamewu.com.au",
-      "phone": "+61 7 3229 5070",
+      "address": "100 Commercial Road",
+      "openingHours": "Tu-Sa 11:00-14:30,17:00-21:00",
+      "website": "https://www.phatpho.com.au/",
+      "phone": "+61 7 3162 8152",
       "cuisine": [
-        "asian"
+        "vietnamese"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Vietnamese Streetfood",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/0c2032e68c9e7c909993",
+      "name": "1603 Bar",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "bar",
+      "lat": -27.4691535,
+      "lng": 153.0210733,
+      "distanceFromTerminalMeters": 886,
+      "distanceFromDefaultTerminalMeters": 886,
+      "minDistanceFromAnyTerminalMeters": 886,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "27 Turbot Street",
+      "openingHours": "Mo-Su 07:00-22:00",
+      "website": "https://www.izakayapublico.com/1603-bar",
+      "phone": "+61 7 3237 2330",
+      "cuisine": [
+        "japanese"
       ],
       "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "bar"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/eb97bcd5fb2372234efe",
+      "name": "Julius Pizzeria",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": -27.4736162,
+      "lng": 153.0178938,
+      "distanceFromTerminalMeters": 1260,
+      "distanceFromDefaultTerminalMeters": 1260,
+      "minDistanceFromAnyTerminalMeters": 1260,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "77 Grey Street, QLD, 4101",
+      "openingHours": "Tu 17:00-21:30; We-Th 12:00-21:30; Fr-Sa 12:00-22:00; Su 12:00-21:00",
+      "website": "https://juliuspizzeria.com.au/",
+      "phone": "+61 7 3844 2655",
+      "cuisine": [
+        "pizza"
+      ],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
       "osmTags": {
         "amenity": "restaurant"
       }
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/6647007cfb730f05f436",
-      "name": "Riverbar & Kitchen",
+      "sourceId": "osm/generated/f8c69ff63ee679203d3c",
+      "name": "Etna Pizza & Vino",
       "nameEnglish": "",
       "category": "food_drink",
       "subcategory": "restaurant",
-      "lat": -27.4680225,
-      "lng": 153.0309264,
-      "distanceFromTerminalMeters": 238,
-      "distanceFromDefaultTerminalMeters": 238,
-      "minDistanceFromAnyTerminalMeters": 238,
+      "lat": -27.4594627,
+      "lng": 153.0347905,
+      "distanceFromTerminalMeters": 1263,
+      "distanceFromDefaultTerminalMeters": 1263,
+      "minDistanceFromAnyTerminalMeters": 1263,
       "nearestTerminalId": "ports-json-anchor",
-      "address": "71 Eagle Street",
-      "openingHours": "Th-Su 07:00-24:00; Mo-We 11:00-24:00",
-      "website": "https://riverbarandkitchen.com.au",
-      "phone": "+61 7 3211 9020",
-      "cuisine": [],
+      "address": "15 Marshall Street, 4006",
+      "openingHours": "We-Th 17:00-21:30; Fr-Sa 17:00-22:00; Su 17:00-21:00",
+      "website": "https://www.etnabrisbane.com.au/",
+      "phone": "+61 431 730 787",
+      "cuisine": [
+        "italian_pizza"
+      ],
       "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "",
+      "wikipedia": "",
       "osmTags": {
         "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/4a8737167fe153e48e7d",
+      "name": "Teaology Lab",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": -27.4753999,
+      "lng": 153.0151868,
+      "distanceFromTerminalMeters": 1580,
+      "distanceFromDefaultTerminalMeters": 1580,
+      "minDistanceFromAnyTerminalMeters": 1580,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "125 Melbourne Street",
+      "openingHours": "Fr-Su 11:00-21:00; Mo-Th 11:00-20:30",
+      "website": "https://www.teaologylab.com.au/",
+      "phone": "+61 433 657 105",
+      "cuisine": [
+        "bubble_tea"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b438976a51253c93977d",
+      "name": "Hey Joe Coffee Co.",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": -27.4794843,
+      "lng": 153.042514,
+      "distanceFromTerminalMeters": 1624,
+      "distanceFromDefaultTerminalMeters": 1624,
+      "minDistanceFromAnyTerminalMeters": 1624,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "33A Lytton Road, Brisbane, QLD, 4169",
+      "openingHours": "We-Su 06:00-22:00; Mo-Tu 06:00-16:00",
+      "website": "https://www.heyjoecoffeeandco.com/",
+      "phone": "+61 7 3162 2644",
+      "cuisine": [
+        "coffee_shop",
+        "sandwich",
+        "burger",
+        "italian",
+        "chicken"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ce33049c6d2b4f387d94",
+      "name": "Anytime Coffee",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": -27.4706059,
+      "lng": 153.0284729,
+      "distanceFromTerminalMeters": 165,
+      "distanceFromDefaultTerminalMeters": 165,
+      "minDistanceFromAnyTerminalMeters": 165,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Mary Street",
+      "openingHours": "Mo-Fr 07:00-14:00",
+      "website": "http://www.anytimecoffee.com.au/",
+      "phone": "",
+      "cuisine": [
+        "coffee"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/9234d21264bd157ef9b6",
+      "name": "Lucky Duck Cafe & Bar",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": -27.4825785,
+      "lng": 153.0189974,
+      "distanceFromTerminalMeters": 1770,
+      "distanceFromDefaultTerminalMeters": 1770,
+      "minDistanceFromAnyTerminalMeters": 1770,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "15 Gladstone Road, 4101",
+      "openingHours": "Mo-Th 06:00-14:00; Fr-Su 06:00+",
+      "website": "http://luckyduckcafebar.com.au/",
+      "phone": "+61 7 3846 5756",
+      "cuisine": [
+        "coffee_shop"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/1ff07eba57ea49e6dfa8",
+      "name": "Wrapture",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": -27.4788268,
+      "lng": 153.0134932,
+      "distanceFromTerminalMeters": 1901,
+      "distanceFromDefaultTerminalMeters": 1901,
+      "minDistanceFromAnyTerminalMeters": 1901,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "71 Russell Street",
+      "openingHours": "Mo-Sa 08:30-14:00",
+      "website": "https://wrapture.bitebusiness.com/",
+      "phone": "+61 7 3844 4444",
+      "cuisine": [
+        "wrap"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/bd22c2d9c4c8f28292b2",
+      "name": "The Hideout Specialty Coffee on Adelaide",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": -27.4646449,
+      "lng": 153.0295226,
+      "distanceFromTerminalMeters": 597,
+      "distanceFromDefaultTerminalMeters": 597,
+      "minDistanceFromAnyTerminalMeters": 597,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "340 Adelaide Street",
+      "openingHours": "Mo-Fr 06:30-15:00; Sa-Su 07:30-14:30",
+      "website": "https://www.thehideoutspecialtycoffee.com",
+      "phone": "",
+      "cuisine": [
+        "coffee_shop",
+        "pastry",
+        "sandwich",
+        "breakfast"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/733f110767140f09986f",
+      "name": "El Cafe",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": -27.4532438,
+      "lng": 153.0415597,
+      "distanceFromTerminalMeters": 2185,
+      "distanceFromDefaultTerminalMeters": 2185,
+      "minDistanceFromAnyTerminalMeters": 2185,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "27 Commercial Road, QLD, 4006",
+      "openingHours": "Mo-Fr 04:00-14:30; Sa 04:00-13:00; Su 06:00-13:00",
+      "website": "https://www.facebook.com/elcafe2017/",
+      "phone": "+61 451 522 419",
+      "cuisine": [
+        "coffee_shop",
+        "burger",
+        "pastry"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/dbc55d8beac7f43c0fa8",
+      "name": "Danny Boys",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "fast_food",
+      "lat": -27.4524937,
+      "lng": 153.0144103,
+      "distanceFromTerminalMeters": 2481,
+      "distanceFromDefaultTerminalMeters": 2481,
+      "minDistanceFromAnyTerminalMeters": 2481,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "88 Musk Avenue",
+      "openingHours": "07:00-21:00",
+      "website": "https://dannyboys.com.au/",
+      "phone": "+61 7 3175 9915",
+      "cuisine": [
+        "sandwich",
+        "soup",
+        "chips"
+      ],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "fast_food"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/0334a6f7393b5c69b70c",
+      "name": "Lord Stanley Hotel",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "pub",
+      "lat": -27.488147,
+      "lng": 153.0476715,
+      "distanceFromTerminalMeters": 2667,
+      "distanceFromDefaultTerminalMeters": 2667,
+      "minDistanceFromAnyTerminalMeters": 2667,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "994 Stanley Street East",
+      "openingHours": "Mo-Su 10:00-03:30",
+      "website": "https://lordstanley.com.au/",
+      "phone": "+61 7 3473 3222",
+      "cuisine": [
+        "steak_house"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "pub"
       }
     },
     {
@@ -1599,34 +1618,66 @@
       "wheelchair": "",
       "brand": "",
       "description": "The ‘Jewel in the Crown’ of Brisbane, Brisbane Arcade is Brisbane’s oldest shopping arcade. Believed to have been under construction in 1923 with the first store openings in 1924, the arcade’s history spans nearly a century.",
+      "wikidata": "Q4968533",
+      "wikipedia": "en:Brisbane Arcade",
       "osmTags": {
         "historic": "yes",
         "shop": "mall"
+      },
+      "fame": 1
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/234037aec37477b2bc57",
+      "name": "Ainslie Bullion",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "jewelry",
+      "lat": -27.4685531,
+      "lng": 153.0295893,
+      "distanceFromTerminalMeters": 166,
+      "distanceFromDefaultTerminalMeters": 166,
+      "minDistanceFromAnyTerminalMeters": 166,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "12 Creek Street, QLD, 4000",
+      "openingHours": "Mo-Fr 09:00-16:00",
+      "website": "https://www.ainsliebullion.com.au/",
+      "phone": "+61 7 3221 0500",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "shop": "jewelry"
       }
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/30002863da60258771fd",
-      "name": "Uptown Brisbane",
+      "sourceId": "osm/generated/56083f99b664ee6e624e",
+      "name": "Laced",
       "nameEnglish": "",
       "category": "shopping",
-      "subcategory": "mall",
-      "lat": -27.4706941,
-      "lng": 153.0249243,
-      "distanceFromTerminalMeters": 507,
-      "distanceFromDefaultTerminalMeters": 507,
-      "minDistanceFromAnyTerminalMeters": 507,
+      "subcategory": "clothes",
+      "lat": -27.4696228,
+      "lng": 153.0274509,
+      "distanceFromTerminalMeters": 255,
+      "distanceFromDefaultTerminalMeters": 255,
+      "minDistanceFromAnyTerminalMeters": 255,
       "nearestTerminalId": "ports-json-anchor",
-      "address": "91 Queen Street",
-      "openingHours": "Mo 10:00-17:00; Tu-Th 09:00-17:30; Fr 09:00-21:00; Sa 09:00-17:00; Su 10:00-17:00",
-      "website": "https://www.uptownbrisbane.com.au/",
-      "phone": "+61 7 3223 6917",
+      "address": "199 Elizabeth Street",
+      "openingHours": "Mo-Sa 10:00-17:00; Su 11:00-17:00",
+      "website": "https://www.laced.com.au/",
+      "phone": "+61 7 3012 7888",
       "cuisine": [],
-      "wheelchair": "yes",
+      "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "",
+      "wikipedia": "",
       "osmTags": {
-        "shop": "mall"
+        "shop": "clothes"
       }
     },
     {
@@ -1650,33 +1701,588 @@
       "wheelchair": "yes",
       "brand": "",
       "description": "",
+      "wikidata": "Q8026454",
+      "wikipedia": "",
+      "osmTags": {
+        "shop": "mall"
+      },
+      "fame": 1
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/0200e75702bb2764f362",
+      "name": "Le Bon Choix",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "bakery",
+      "lat": -27.4661597,
+      "lng": 153.0300775,
+      "distanceFromTerminalMeters": 427,
+      "distanceFromDefaultTerminalMeters": 427,
+      "minDistanceFromAnyTerminalMeters": 427,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "379 Queen Street, 4000",
+      "openingHours": "Mo-Sa 06:30-18:00; Su 06:30-17:00",
+      "website": "https://www.lebonchoixbakery.com.au/",
+      "phone": "",
+      "cuisine": [
+        "bakery"
+      ],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "shop": "bakery"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f1431b94744573c71705",
+      "name": "Ringleaders",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "jewelry",
+      "lat": -27.4699281,
+      "lng": 153.0253537,
+      "distanceFromTerminalMeters": 458,
+      "distanceFromDefaultTerminalMeters": 458,
+      "minDistanceFromAnyTerminalMeters": 458,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "127 Albert Street",
+      "openingHours": "Mo-Th 09:00-17:00; Fr 09:00-18:30; Sa 09:00-15:00; Su off",
+      "website": "https://www.ringleaders.com.au/",
+      "phone": "+61 7 3229 8066",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "shop": "jewelry"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/30002863da60258771fd",
+      "name": "Uptown Brisbane",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "mall",
+      "lat": -27.4706941,
+      "lng": 153.0249243,
+      "distanceFromTerminalMeters": 507,
+      "distanceFromDefaultTerminalMeters": 507,
+      "minDistanceFromAnyTerminalMeters": 507,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "91 Queen Street",
+      "openingHours": "Mo 10:00-17:00; Tu-Th 09:00-17:30; Fr 09:00-21:00; Sa 09:00-17:00; Su 10:00-17:00",
+      "website": "https://www.uptownbrisbane.com.au/",
+      "phone": "+61 7 3223 6917",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
       "osmTags": {
         "shop": "mall"
       }
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/14339b766604115da8ca",
-      "name": "Brisbane City Markets",
+      "sourceId": "osm/generated/cc42c8e612f35f734497",
+      "name": "Chocolate Elements",
       "nameEnglish": "",
       "category": "shopping",
-      "subcategory": "marketplace",
-      "lat": -27.4710583,
-      "lng": 153.0230106,
-      "distanceFromTerminalMeters": 700,
-      "distanceFromDefaultTerminalMeters": 700,
-      "minDistanceFromAnyTerminalMeters": 700,
+      "subcategory": "chocolate",
+      "lat": -27.4744378,
+      "lng": 153.0171426,
+      "distanceFromTerminalMeters": 1361,
+      "distanceFromDefaultTerminalMeters": 1361,
+      "minDistanceFromAnyTerminalMeters": 1361,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "99 Melbourne Street",
+      "openingHours": "Tu-Th 10:00-17:30; Fr 10:00-18:00; Sa-Su 10:00-17:00",
+      "website": "https://chocolateelements.com.au/",
+      "phone": "+61 493 110 949",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "shop": "chocolate"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/9c2d349f9983b4006b6e",
+      "name": "Wendy Makin Bridal Designs",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "clothes",
+      "lat": -27.4805843,
+      "lng": 153.0413771,
+      "distanceFromTerminalMeters": 1626,
+      "distanceFromDefaultTerminalMeters": 1626,
+      "minDistanceFromAnyTerminalMeters": 1626,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "169 Wellington Road",
+      "openingHours": "\"by appointment\"",
+      "website": "https://www.wendymakin.com/",
+      "phone": "+61 7 3823 0100",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "shop": "clothes"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/9a63b396e7416b201fc5",
+      "name": "Macarthur Central",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "mall",
+      "lat": -27.4684774,
+      "lng": 153.027809,
+      "distanceFromTerminalMeters": 275,
+      "distanceFromDefaultTerminalMeters": 275,
+      "minDistanceFromAnyTerminalMeters": 275,
       "nearestTerminalId": "ports-json-anchor",
       "address": "",
-      "openingHours": "We 08:00-16:00",
-      "website": "https://www.brisbanecitymarkets.com.au/",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q6721722",
+      "wikipedia": "en:MacArthur Central",
+      "osmTags": {
+        "shop": "mall"
+      },
+      "fame": 2
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/fec0a1f0544710c8a363",
+      "name": "Urbbana",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "clothes",
+      "lat": -27.4703436,
+      "lng": 153.0287012,
+      "distanceFromTerminalMeters": 134,
+      "distanceFromDefaultTerminalMeters": 134,
+      "minDistanceFromAnyTerminalMeters": 134,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Edward Street, QLD, 4000",
+      "openingHours": "",
+      "website": "https://urbbana.com.au",
+      "phone": "+61 7 3211 5499",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "shop": "clothes"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f02d48cfc125becd94ec",
+      "name": "Victoria Park / Barrambin",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": -27.4537147,
+      "lng": 153.0224492,
+      "distanceFromTerminalMeters": 1958,
+      "distanceFromDefaultTerminalMeters": 1958,
+      "minDistanceFromAnyTerminalMeters": 1958,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "223 Herston Road, QLD",
+      "openingHours": "",
+      "website": "https://www.brisbane.qld.gov.au/things-to-see-and-do/council-venues-and-precincts/parks/victoria-park",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Former golf course",
+      "wikidata": "Q21030032",
+      "wikipedia": "en:Victoria Park, Brisbane",
+      "osmTags": {
+        "leisure": "park"
+      },
+      "fame": 3
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/554ae189ce43dbed7f21",
+      "name": "Anzac Square",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": -27.4665345,
+      "lng": 153.0266645,
+      "distanceFromTerminalMeters": 507,
+      "distanceFromDefaultTerminalMeters": 507,
+      "minDistanceFromAnyTerminalMeters": 507,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q2819304",
+      "wikipedia": "en:ANZAC Square, Brisbane",
+      "osmTags": {
+        "leisure": "park"
+      },
+      "fame": 4
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/2ffa263bb7ba5b0599f3",
+      "name": "New Farm Park",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": -27.4692763,
+      "lng": 153.0512006,
+      "distanceFromTerminalMeters": 2093,
+      "distanceFromDefaultTerminalMeters": 2093,
+      "minDistanceFromAnyTerminalMeters": 2093,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "https://www.brisbane.qld.gov.au/facilities-recreation/parks-venues/parks/using-council-parks/park-bookings-consents/designated-sites-park-bookings/new-farm-park-designated-booking-sites",
       "phone": "",
       "cuisine": [],
       "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "Q7007567",
+      "wikipedia": "en:New Farm Park",
       "osmTags": {
-        "amenity": "marketplace"
+        "leisure": "park"
+      },
+      "fame": 3
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/058490d06de444f071b0",
+      "name": "Spring Hill Baths",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "swimming_pool",
+      "lat": -27.4599371,
+      "lng": 153.0212874,
+      "distanceFromTerminalMeters": 1411,
+      "distanceFromDefaultTerminalMeters": 1411,
+      "minDistanceFromAnyTerminalMeters": 1411,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "14 Torrington Street, QLD",
+      "openingHours": "Mo-Th 06:30-19:00; Fr 06:30-18:00; Sa-Su 08:00-18:00; PH 09:00-17:00; Dec 25 off; easter -2 days off; Apr 25 off",
+      "website": "https://www.brisbane.qld.gov.au/parks-and-recreation/sports-and-leisure/find-pools-and-water-parks/spring-hill-baths",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q19879336",
+      "wikipedia": "en:Spring Hill Baths",
+      "osmTags": {
+        "historic": "heritage",
+        "leisure": "swimming_pool"
+      },
+      "fame": 1
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/2a473b4deb410289c43c",
+      "name": "Roma Street Parklands",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": -27.4626672,
+      "lng": 153.0181131,
+      "distanceFromTerminalMeters": 1428,
+      "distanceFromDefaultTerminalMeters": 1428,
+      "minDistanceFromAnyTerminalMeters": 1428,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q7361492",
+      "wikipedia": "en:Roma Street Parkland",
+      "osmTags": {
+        "leisure": "park"
+      },
+      "fame": 2
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/1cbc634253089131fec2",
+      "name": "Musgrave Park",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": -27.4788315,
+      "lng": 153.0166142,
+      "distanceFromTerminalMeters": 1646,
+      "distanceFromDefaultTerminalMeters": 1646,
+      "minDistanceFromAnyTerminalMeters": 1646,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q6941170",
+      "wikipedia": "",
+      "osmTags": {
+        "leisure": "park"
+      },
+      "fame": 2
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/96e0693fde50536f022d",
+      "name": "Formal Flower Garden",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "viewpoint",
+      "lat": -27.4744837,
+      "lng": 153.029974,
+      "distanceFromTerminalMeters": 499,
+      "distanceFromDefaultTerminalMeters": 499,
+      "minDistanceFromAnyTerminalMeters": 499,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "tourism": "viewpoint"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/51e8e264b7764997fdf1",
+      "name": "Camelia Lawn",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "garden",
+      "lat": -27.4754994,
+      "lng": 153.0308826,
+      "distanceFromTerminalMeters": 618,
+      "distanceFromDefaultTerminalMeters": 618,
+      "minDistanceFromAnyTerminalMeters": 618,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "leisure": "garden"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/975a45c65f03345d16c4",
+      "name": "Bulimba Pharmacy",
+      "nameEnglish": "",
+      "category": "essentials",
+      "subcategory": "pharmacy",
+      "lat": -27.4514552,
+      "lng": 153.0611023,
+      "distanceFromTerminalMeters": 3697,
+      "distanceFromDefaultTerminalMeters": 3697,
+      "minDistanceFromAnyTerminalMeters": 3697,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "200 Oxford Street, QLD, 4171",
+      "openingHours": "Mo-Fr 08:30-19:00, Sa 08:30-18:00, Su 09:00-17:00",
+      "website": "http://www.bulimbapharmacy.com/",
+      "phone": "+61 7 3399 3930",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "pharmacy"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/0caebb8dd8cde3a5a0f2",
+      "name": "Rolo Hire",
+      "nameEnglish": "",
+      "category": "essentials",
+      "subcategory": "car_rental",
+      "lat": -27.4575636,
+      "lng": 153.0375271,
+      "distanceFromTerminalMeters": 1570,
+      "distanceFromDefaultTerminalMeters": 1570,
+      "minDistanceFromAnyTerminalMeters": 1570,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "91-93 McLachlan Street",
+      "openingHours": "",
+      "website": "www.rolo.com.au",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "car_rental"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/987cdbb211d807de501b",
+      "name": "Ramsay Pharmacy",
+      "nameEnglish": "",
+      "category": "essentials",
+      "subcategory": "pharmacy",
+      "lat": -27.4670102,
+      "lng": 153.0461375,
+      "distanceFromTerminalMeters": 1626,
+      "distanceFromDefaultTerminalMeters": 1626,
+      "minDistanceFromAnyTerminalMeters": 1626,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Fr 08:00-18:00; Sa 08:00-13:00; Su off",
+      "website": "",
+      "phone": "+61 7 3358 1363",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "pharmacy"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/3a939f03fc245ae280f7",
+      "name": "Stalks & Stems",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "florist",
+      "lat": -27.487178,
+      "lng": 153.0369634,
+      "distanceFromTerminalMeters": 2030,
+      "distanceFromDefaultTerminalMeters": 2030,
+      "minDistanceFromAnyTerminalMeters": 2030,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "28 Logan Road",
+      "openingHours": "Tu-Fr 08:30-17:00; Sa-Su 09:00-15:00; Mo 08:30-15:00",
+      "website": "https://www.stalksandstems.com.au",
+      "phone": "+61 7 3391 5544",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "shop": "florist"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/a33ee3801451c57362b3",
+      "name": "Christian Jacques Bakery",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "bakery",
+      "lat": -27.468476,
+      "lng": 153.0357169,
+      "distanceFromTerminalMeters": 589,
+      "distanceFromDefaultTerminalMeters": 589,
+      "minDistanceFromAnyTerminalMeters": 589,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "8 Baildon Street",
+      "openingHours": "Tu-Su 06:00-12:00",
+      "website": "https://christianjacquespastries.com",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "shop": "bakery"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ce86f1d22207660b1c4e",
+      "name": "Memory Lane Store",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "second_hand",
+      "lat": -27.4700665,
+      "lng": 153.023699,
+      "distanceFromTerminalMeters": 622,
+      "distanceFromDefaultTerminalMeters": 622,
+      "minDistanceFromAnyTerminalMeters": 622,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "26 Burnett Lane, 4000",
+      "openingHours": "Sa-Th 09:00-18:00; Fr 09:00-21:00",
+      "website": "",
+      "phone": "+61 431 020 113",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "shop": "second_hand"
       }
     },
     {
@@ -1700,52 +2306,191 @@
       "wheelchair": "yes",
       "brand": "",
       "description": "",
+      "wikidata": "",
+      "wikipedia": "",
       "osmTags": {
         "amenity": "marketplace"
       }
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/298849872c640e613980",
-      "name": "Brisbane Visitor Information",
+      "sourceId": "osm/generated/8b98d4919d3cc437c5a1",
+      "name": "Fig & Bloom",
       "nameEnglish": "",
-      "category": "essentials",
-      "subcategory": "visitor_information",
-      "lat": -27.4693074,
-      "lng": 153.0259021,
-      "distanceFromTerminalMeters": 412,
-      "distanceFromDefaultTerminalMeters": 412,
-      "minDistanceFromAnyTerminalMeters": 412,
+      "category": "shopping",
+      "subcategory": "florist",
+      "lat": -27.4498913,
+      "lng": 153.0359479,
+      "distanceFromTerminalMeters": 2312,
+      "distanceFromDefaultTerminalMeters": 2312,
+      "minDistanceFromAnyTerminalMeters": 2312,
       "nearestTerminalId": "ports-json-anchor",
-      "address": "",
-      "openingHours": "Mo-Fr 09:00-16:00; Sa,Su,PH 10:00-16:00",
-      "website": "",
-      "phone": "",
+      "address": "31 Jeays Street, QLD, 4006",
+      "openingHours": "Mo-Fr 08:00-16:00",
+      "website": "https://www.figandbloom.com/qld/brisbane/",
+      "phone": "+61 7 3130 0335",
       "cuisine": [],
       "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "",
+      "wikipedia": "",
       "osmTags": {
-        "tourism": "information"
+        "shop": "florist"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/41af465fa8bff8296d94",
+      "name": "Bar Rosa Vini & Piatti",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": -27.4734422,
+      "lng": 153.0177927,
+      "distanceFromTerminalMeters": 1264,
+      "distanceFromDefaultTerminalMeters": 1264,
+      "minDistanceFromAnyTerminalMeters": 1264,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "77 Grey Street, QLD, 4101",
+      "openingHours": "Tu-Th 17:00-21:00; Fr 17:00-22:30; Sa 12:00-22:30",
+      "website": "https://www.barrosa.com.au/",
+      "phone": "+61 7 3532 3801",
+      "cuisine": [
+        "italian"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/849b9822d769f281bf1f",
+      "name": "Hello Please",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": -27.4738664,
+      "lng": 153.0174041,
+      "distanceFromTerminalMeters": 1315,
+      "distanceFromDefaultTerminalMeters": 1315,
+      "minDistanceFromAnyTerminalMeters": 1315,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "10 Fish Lane, QLD, 4101",
+      "openingHours": "Tu-Th 17:00-19:00; Fr-Sa 12:00-21:30",
+      "website": "https://helloplease.co/",
+      "phone": "+61 421 153 611",
+      "cuisine": [
+        "vietnamese"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/2f4bb62b5a18d4450c06",
+      "name": "Vulture St. Espresso",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": -27.4810076,
+      "lng": 153.0115471,
+      "distanceFromTerminalMeters": 2194,
+      "distanceFromDefaultTerminalMeters": 2194,
+      "minDistanceFromAnyTerminalMeters": 2194,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "85 Vulture Street, QLD, 4101",
+      "openingHours": "Mo-Su 07:00-15:00",
+      "website": "https://www.vulturestespresso.com/",
+      "phone": "+61 7 3844 3208",
+      "cuisine": [
+        "coffee_shop",
+        "breakfast"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/6801a6ed5d7abd56ed6c",
+      "name": "Hashtag Burgers & Waffles",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "fast_food",
+      "lat": -27.4608352,
+      "lng": 153.0378152,
+      "distanceFromTerminalMeters": 1278,
+      "distanceFromDefaultTerminalMeters": 1278,
+      "minDistanceFromAnyTerminalMeters": 1278,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "477 Brunswick Street",
+      "openingHours": "Su-Th 11:00-22:00; Fr-Sa 11:00-23:00",
+      "website": "https://www.hashtagburgersandwaffles.com.au/",
+      "phone": "",
+      "cuisine": [
+        "burger"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "fast_food"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/1ca672ddd0d1d39bc6d2",
+      "name": "Grand Central Hotel",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "pub",
+      "lat": -27.4661619,
+      "lng": 153.0260205,
+      "distanceFromTerminalMeters": 580,
+      "distanceFromDefaultTerminalMeters": 580,
+      "minDistanceFromAnyTerminalMeters": 580,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "270 Ann Street, QLD, 4000",
+      "openingHours": "Mo-Th 11:00-20:00; Fr,Sa 11:00-24:00; Su 11:00-18:30",
+      "website": "https://grandcentralhotel.com.au/",
+      "phone": "+61 7 3220 2061",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "pub"
       }
     }
   ],
-  "portAnchor": {
-    "id": "ports-json-anchor",
-    "name": "BRISBANE Port",
-    "lat": -27.47,
-    "lng": 153.03,
-    "address": "Brisbane, Queensland, Australia",
-    "source": "ports.json",
-    "sourceId": "",
-    "score": 0,
-    "slug": "brisbane-port"
-  },
+  "gemSuggestions": [
+    "Kangaroo Point Cliffs"
+  ],
   "terminalResolution": {
     "status": "resolved",
-    "method": "terminal_review",
+    "method": "cruise-ports",
     "verified": true,
-    "reviewedAt": "2026-09-28",
     "notes": "Added the Brisbane International Cruise Terminal (from OpenStreetMap), which takes most ships since 2020; Bretts Wharf is kept for smaller ships. The rest are river ferry terminals."
   }
 }

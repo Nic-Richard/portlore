@@ -1,7 +1,32 @@
 {
+  "defaultTerminalId": "osm/generated/2b60d0474321f0a2c81b",
+  "terminal": {
+    "id": "osm/generated/2b60d0474321f0a2c81b",
+    "name": "Galataport",
+    "lat": 41.023197,
+    "lng": 28.979318,
+    "terminalType": "passenger_cruise_terminal",
+    "source": "verified_terminal_candidate",
+    "notes": "External port and cruise-schedule checks support passenger cruise use, and the accepted candidate ID(s) correspond to the actual cruise terminal, cruise pier, or passenger terminal used by cruise ships.",
+    "sourceId": "osm/generated/2b60d0474321f0a2c81b",
+    "verified": true
+  },
+  "terminals": [
+    {
+      "id": "osm/generated/2b60d0474321f0a2c81b",
+      "name": "Galataport",
+      "lat": 41.023197,
+      "lng": 28.979318,
+      "terminalType": "passenger_cruise_terminal",
+      "source": "verified_terminal_candidate",
+      "notes": "External port and cruise-schedule checks support passenger cruise use, and the accepted candidate ID(s) correspond to the actual cruise terminal, cruise pier, or passenger terminal used by cruise ships.",
+      "sourceId": "osm/generated/2b60d0474321f0a2c81b",
+      "verified": true
+    }
+  ],
   "schemaVersion": 5,
   "catalogType": "curation-candidates",
-  "generatedAt": "2026-07-30T09:13:48.280Z",
+  "generatedAt": "2026-09-29T05:47:40.917Z",
   "source": "openstreetmap",
   "sourceExtract": "turkey-latest.osm.pbf",
   "radiusMeters": 10000,
@@ -10,1542 +35,85 @@
     "city": "Istanbul",
     "country": "Turkey"
   },
-  "defaultTerminalId": "osm/generated/2b60d0474321f0a2c81b",
-  "terminal": {
-    "id": "osm/generated/2b60d0474321f0a2c81b",
+  "portAnchor": {
+    "id": "ports-json-anchor",
     "name": "Galataport",
-    "nameEnglish": "",
     "lat": 41.023197,
     "lng": 28.979318,
-    "address": "",
-    "source": "verified_terminal_candidate",
-    "sourceId": "osm/generated/2b60d0474321f0a2c81b",
-    "terminalType": "passenger_cruise_terminal",
-    "verified": true,
-    "notes": "External port and cruise-schedule checks support passenger cruise use, and the accepted candidate ID(s) correspond to the actual cruise terminal, cruise pier, or passenger terminal used by cruise ships.",
-    "sourceUrls": [],
-    "sources": [
-      "openstreetmap"
-    ],
-    "sourceIds": [
-      "osm/generated/2b60d0474321f0a2c81b"
-    ],
-    "osmTags": {
-      "amenity": "ferry_terminal",
-      "ferry": "yes",
-      "public_transport": "station"
-    },
-    "matchedBy": [
-      "amenity=ferry_terminal"
-    ]
+    "address": "Istanbul, Istanbul, Turkey",
+    "source": "ports.json",
+    "sourceId": "",
+    "score": 0,
+    "slug": "galataport"
   },
-  "terminals": [
-    {
-      "id": "osm/generated/2b60d0474321f0a2c81b",
-      "name": "Galataport",
-      "nameEnglish": "",
-      "lat": 41.023197,
-      "lng": 28.979318,
-      "address": "",
-      "source": "verified_terminal_candidate",
-      "sourceId": "osm/generated/2b60d0474321f0a2c81b",
-      "terminalType": "passenger_cruise_terminal",
-      "verified": true,
-      "notes": "External port and cruise-schedule checks support passenger cruise use, and the accepted candidate ID(s) correspond to the actual cruise terminal, cruise pier, or passenger terminal used by cruise ships.",
-      "sourceUrls": [],
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/2b60d0474321f0a2c81b"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "public_transport": "station"
-      },
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ]
-    }
-  ],
-  "terminalCandidateRadiusMeters": 5000,
-  "terminalCandidates": [
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/225608af6a6b58fcb064",
-      "name": "(unnamed maritime feature)",
-      "nameEnglish": "",
-      "lat": 41.0195127,
-      "lng": 28.9688726,
-      "distanceFromPortMeters": 109,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "public_transport": "station",
-        "operator": "Şehir Hatları"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/225608af6a6b58fcb064"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/c8e899959c8e51c97088",
-      "name": "Eminönü (Turyol)",
-      "nameEnglish": "",
-      "lat": 41.0188274,
-      "lng": 28.9704378,
-      "distanceFromPortMeters": 135,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/c8e899959c8e51c97088"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/ee151b9afe4cb9e51f4a",
-      "name": "Turyol İskelesi",
-      "nameEnglish": "",
-      "lat": 41.0187489,
-      "lng": 28.9703535,
-      "distanceFromPortMeters": 142,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "building": "yes",
-        "ferry": "yes",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/ee151b9afe4cb9e51f4a"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/8341eedcfe628cbd4c50",
-      "name": "Eminönü",
-      "nameEnglish": "Eminönü",
-      "lat": 41.0183472,
-      "lng": 28.973161,
-      "distanceFromPortMeters": 323,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "name:en": "Eminonu",
-        "official_name": "Galata(Eminönü 4) İskelesi",
-        "operator": "Şehir Hatları",
-        "public_transport": "stop_position"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/8341eedcfe628cbd4c50"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/5bcbb3c483a00bf1ad9a",
-      "name": "(unnamed maritime feature)",
-      "nameEnglish": "",
-      "lat": 41.0217333,
-      "lng": 28.9731981,
-      "distanceFromPortMeters": 330,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/5bcbb3c483a00bf1ad9a"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/a5a73cd39895059cc491",
-      "name": "Turyol İskelesi",
-      "nameEnglish": "",
-      "lat": 41.021799,
-      "lng": 28.9733347,
-      "distanceFromPortMeters": 344,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "operator": "Turyol",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/a5a73cd39895059cc491"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/9980f06897f16aa47608",
-      "name": "Kadıköy ve Üsküdar İskelesi",
-      "nameEnglish": "",
-      "lat": 41.0218821,
-      "lng": 28.9733919,
-      "distanceFromPortMeters": 353,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/9980f06897f16aa47608"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/3c1beeb20ab02d522e95",
-      "name": "Şehir Hatları Boğaz İskelesi",
-      "nameEnglish": "Şehir Hatları Bosphorus Pier",
-      "lat": 41.0178692,
-      "lng": 28.9740234,
-      "distanceFromPortMeters": 412,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "building": "yes",
-        "ferry": "yes",
-        "name:en": "Şehir Hatları Bosphorus Pier",
-        "official_name": "Hezarfen Ahmet Çelebi İskelesi",
-        "operator": "Şehir Hatları",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/3c1beeb20ab02d522e95"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/1cf49b3a10ce033d019c",
-      "name": "Eminönü",
-      "nameEnglish": "",
-      "lat": 41.0175781,
-      "lng": 28.9751818,
-      "distanceFromPortMeters": 511,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "operator": "Şehir Hatları",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/1cf49b3a10ce033d019c"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/8edf4e76d8ddd98c4a26",
-      "name": "Karaköy",
-      "nameEnglish": "",
-      "lat": 41.0216273,
-      "lng": 28.9757039,
-      "distanceFromPortMeters": 512,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/8edf4e76d8ddd98c4a26"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/c0370b02a77cba5b0c2a",
-      "name": "Şehir Hatları Kadıköy İskelesi",
-      "nameEnglish": "Şehir Hatları Kadıköy Pier",
-      "lat": 41.0174361,
-      "lng": 28.9750672,
-      "distanceFromPortMeters": 512,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "building": "yes",
-        "ferry": "yes",
-        "name:en": "Şehir Hatları Kadıköy Pier",
-        "official_name": "Evliya Çelebi İskelesi",
-        "operator": "Şehir Hatları",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/c0370b02a77cba5b0c2a"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/a270542db1f9c1993a85",
-      "name": "Karaköy",
-      "nameEnglish": "",
-      "lat": 41.0211009,
-      "lng": 28.9768149,
-      "distanceFromPortMeters": 585,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "public_transport": "stop_position"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/a270542db1f9c1993a85"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/5cad8f1476b3f9b79d1a",
-      "name": "Eminönü İskelesi",
-      "nameEnglish": "Eminonu Pier",
-      "lat": 41.0171316,
-      "lng": 28.976271,
-      "distanceFromPortMeters": 615,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "name:en": "Eminonu Pier",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/5cad8f1476b3f9b79d1a"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/2e2540523e836b1c5a6a",
-      "name": "(unnamed maritime feature)",
-      "nameEnglish": "",
-      "lat": 41.0169766,
-      "lng": 28.976224,
-      "distanceFromPortMeters": 621,
-      "address": "İstanbul",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "building": "transportation",
-        "ferry": "yes",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/2e2540523e836b1c5a6a"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/59511a3f8b81a02d543f",
-      "name": "Harem İskelesi",
-      "nameEnglish": "Harem Pier",
-      "lat": 41.0168221,
-      "lng": 28.9765587,
-      "distanceFromPortMeters": 654,
-      "address": "İstanbul",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "building": "yes",
-        "ferry": "yes",
-        "name:en": "Harem Pier",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/59511a3f8b81a02d543f"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/5a621d7c0ad9f7fcd41f",
-      "name": "Sirkeci",
-      "nameEnglish": "",
-      "lat": 41.016772,
-      "lng": 28.9776393,
-      "distanceFromPortMeters": 735,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/5a621d7c0ad9f7fcd41f"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/2b60d0474321f0a2c81b",
-      "name": "Galataport",
-      "nameEnglish": "",
-      "lat": 41.023197,
-      "lng": 28.9793176,
-      "distanceFromPortMeters": 859,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/2b60d0474321f0a2c81b"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/2495cf4f3cc90e204caf",
-      "name": "(unnamed maritime feature)",
-      "nameEnglish": "",
-      "lat": 41.0262478,
-      "lng": 28.9596331,
-      "distanceFromPortMeters": 1113,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/2495cf4f3cc90e204caf"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/3e46923812d49f2a3829",
-      "name": "Sarayburnu Limanı",
-      "nameEnglish": "",
-      "lat": 41.0173357,
-      "lng": 28.9832049,
-      "distanceFromPortMeters": 1147,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/3e46923812d49f2a3829"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/ea52b62bce8f59365659",
-      "name": "Kasımpaşa",
-      "nameEnglish": "",
-      "lat": 41.030314,
-      "lng": 28.9660776,
-      "distanceFromPortMeters": 1193,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "public_transport": "station",
-        "harbour": "yes"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/ea52b62bce8f59365659"
-      ]
-    },
-    {
-      "source": "nominatim",
-      "sourceId": "osm/node/1343734824",
-      "osmType": "node",
-      "osmId": "1343734824",
-      "name": "istanbul port hotel",
-      "nameEnglish": "",
-      "lat": 41.0056825,
-      "lng": 28.9645057,
-      "distanceFromPortMeters": 1657,
-      "address": "istanbul port hotel, Tiyatro Caddesi, Saraç İshak Mahallesi, İstanbul, Fatih, İstanbul, Marmara Bölgesi, 34126, Türkiye",
-      "displayName": "istanbul port hotel, Tiyatro Caddesi, Saraç İshak Mahallesi, İstanbul, Fatih, İstanbul, Marmara Bölgesi, 34126, Türkiye",
-      "query": "ISTANBUL Port, Istanbul, Turkey",
-      "matchedBy": [
-        "Nominatim query: ISTANBUL Port, Istanbul, Turkey"
-      ],
-      "osmTags": {},
-      "sources": [
-        "nominatim"
-      ],
-      "sourceIds": [
-        "osm/node/1343734824"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/37d3d463e3dbefcb7f98",
-      "name": "Fener İskelesi",
-      "nameEnglish": "Fener Pier",
-      "lat": 41.030947,
-      "lng": 28.9526209,
-      "distanceFromPortMeters": 1899,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "building": "yes",
-        "ferry": "yes",
-        "name:en": "Fener Pier",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/37d3d463e3dbefcb7f98"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/51e6bbd046f2ef3d1c61",
-      "name": "(unnamed maritime feature)",
-      "nameEnglish": "",
-      "lat": 41.0035756,
-      "lng": 28.9823555,
-      "distanceFromPortMeters": 2100,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "building": "yes",
-        "ferry": "yes",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/51e6bbd046f2ef3d1c61"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/6da4704a46f8edd88604",
-      "name": "Ahırkapı İskelesi",
-      "nameEnglish": "",
-      "lat": 41.0035807,
-      "lng": 28.9823737,
-      "distanceFromPortMeters": 2100,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "operator": "İBB Şehir Hatları",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/6da4704a46f8edd88604"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/c93cd622e00e28e4e24c",
-      "name": "İDO Yenikapı Terminalı",
-      "nameEnglish": "",
-      "lat": 41.0021424,
-      "lng": 28.9563779,
-      "distanceFromPortMeters": 2291,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/c93cd622e00e28e4e24c"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/705897dd625f7bc5f245",
-      "name": "Balat iskelesi",
-      "nameEnglish": "",
-      "lat": 41.0348188,
-      "lng": 28.9493238,
-      "distanceFromPortMeters": 2392,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/705897dd625f7bc5f245"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/0ec1f4ded1f73952756b",
-      "name": "İDO",
-      "nameEnglish": "",
-      "lat": 41.0329339,
-      "lng": 28.9928351,
-      "distanceFromPortMeters": 2395,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/0ec1f4ded1f73952756b"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/5414192fc32564dcf7f9",
-      "name": "(unnamed maritime feature)",
-      "nameEnglish": "",
-      "lat": 41.0019835,
-      "lng": 28.9541738,
-      "distanceFromPortMeters": 2403,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/5414192fc32564dcf7f9"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/66a22162a3a3b9726278",
-      "name": "(unnamed maritime feature)",
-      "nameEnglish": "",
-      "lat": 41.0329746,
-      "lng": 28.9930052,
-      "distanceFromPortMeters": 2409,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/66a22162a3a3b9726278"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/5d6faa15b360c034a7d3",
-      "name": "Şehir Hatları",
-      "nameEnglish": "",
-      "lat": 41.0332322,
-      "lng": 28.9933481,
-      "distanceFromPortMeters": 2450,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/5d6faa15b360c034a7d3"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/94ab918366fdc5941365",
-      "name": "Kabataş",
-      "nameEnglish": "",
-      "lat": 41.0328673,
-      "lng": 28.9940042,
-      "distanceFromPortMeters": 2470,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "public_transport": "stop_position"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/94ab918366fdc5941365"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/0e2de32410d1d8765be3",
-      "name": "(unnamed maritime feature)",
-      "nameEnglish": "",
-      "lat": 41.0337274,
-      "lng": 28.9936618,
-      "distanceFromPortMeters": 2504,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/0e2de32410d1d8765be3"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/9aea74ba2d2894a838d1",
-      "name": "Kabataş",
-      "nameEnglish": "",
-      "lat": 41.0338703,
-      "lng": 28.9942017,
-      "distanceFromPortMeters": 2550,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "operator": "Dentur Avrasya",
-        "public_transport": "stop_position"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/9aea74ba2d2894a838d1"
-      ]
-    },
-    {
-      "source": "nominatim",
-      "sourceId": "osm/node/846568267",
-      "osmType": "node",
-      "osmId": "846568267",
-      "name": "Port of Istanbul",
-      "nameEnglish": "",
-      "lat": 41.01277,
-      "lng": 28.999,
-      "distanceFromPortMeters": 2562,
-      "address": "Port of Istanbul, Avrasya Tüneli, Selimiye Mahallesi, Üsküdar, İstanbul, Marmara Bölgesi, Türkiye",
-      "displayName": "Port of Istanbul, Avrasya Tüneli, Selimiye Mahallesi, Üsküdar, İstanbul, Marmara Bölgesi, Türkiye",
-      "query": "ISTANBUL Port, Istanbul, Turkey",
-      "matchedBy": [
-        "Nominatim query: ISTANBUL Port, Istanbul, Turkey"
-      ],
-      "osmTags": {
-        "harbour": "yes",
-        "operator": "Türkiye Denizcilik İşletmeleri A.Ş.",
-        "seamark:type": "harbour"
-      },
-      "sources": [
-        "nominatim"
-      ],
-      "sourceIds": [
-        "osm/node/846568267"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/5b574b65ad79d7cbb29c",
-      "name": "Kabataş - Kadıköy Motor İskelesi",
-      "nameEnglish": "Kabatas - Kadıkoy Boat Port",
-      "lat": 41.0355109,
-      "lng": 28.9941626,
-      "distanceFromPortMeters": 2661,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "building": "yes",
-        "ferry": "yes",
-        "name:en": "Kabatas - Kadıkoy Boat Port",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/5b574b65ad79d7cbb29c"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/611c89f611a02003deec",
-      "name": "Kabataş",
-      "nameEnglish": "",
-      "lat": 41.0354562,
-      "lng": 28.9942453,
-      "distanceFromPortMeters": 2663,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "operator": "Dentur Avrasya",
-        "public_transport": "stop_position"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/611c89f611a02003deec"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/3068aff0d06c2301e691",
-      "name": "Hasköy",
-      "nameEnglish": "",
-      "lat": 41.0405509,
-      "lng": 28.9490619,
-      "distanceFromPortMeters": 2882,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/3068aff0d06c2301e691"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/7534f302ffd0ffc058b9",
-      "name": "Ayvansaray",
-      "nameEnglish": "",
-      "lat": 41.0408106,
-      "lng": 28.9448547,
-      "distanceFromPortMeters": 3131,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/7534f302ffd0ffc058b9"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/b173bcdf43e50a0d272f",
-      "name": "İDO Sirkeci Araba Vapuru İskelesi",
-      "nameEnglish": "",
-      "lat": 41.0106806,
-      "lng": 29.0096084,
-      "distanceFromPortMeters": 3481,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/b173bcdf43e50a0d272f"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/500d3816248c8325f5e6",
-      "name": "(unnamed maritime feature)",
-      "nameEnglish": "",
-      "lat": 41.0106592,
-      "lng": 29.009817,
-      "distanceFromPortMeters": 3498,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "building": "yes",
-        "ferry": "yes",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/500d3816248c8325f5e6"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/83b89317c2dbb2f5be73",
-      "name": "Harem",
-      "nameEnglish": "",
-      "lat": 41.0108274,
-      "lng": 29.0099238,
-      "distanceFromPortMeters": 3501,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/83b89317c2dbb2f5be73"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/6169872c157004c97838",
-      "name": "Beşiktaş",
-      "nameEnglish": "",
-      "lat": 41.0399916,
-      "lng": 29.0057053,
-      "distanceFromPortMeters": 3730,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "operator": "Şehir Hatları",
-        "public_transport": "stop_position"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/6169872c157004c97838"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/321411b16e803415fe70",
-      "name": "Üsküdar",
-      "nameEnglish": "",
-      "lat": 41.0274495,
-      "lng": 29.014668,
-      "distanceFromPortMeters": 3838,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/321411b16e803415fe70"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/c00c64887f538ed6356e",
-      "name": "(unnamed maritime feature)",
-      "nameEnglish": "",
-      "lat": 41.0466394,
-      "lng": 28.9407196,
-      "distanceFromPortMeters": 3848,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "building": "yes",
-        "ferry": "yes",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/c00c64887f538ed6356e"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/88e6af6ad19c6f28f254",
-      "name": "Sütlüce",
-      "nameEnglish": "",
-      "lat": 41.046615,
-      "lng": 28.9406246,
-      "distanceFromPortMeters": 3851,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/88e6af6ad19c6f28f254"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/189da4bd396651b0d2fa",
-      "name": "Sütlüce Vapur İskelesi",
-      "nameEnglish": "",
-      "lat": 41.0466672,
-      "lng": 28.9406879,
-      "distanceFromPortMeters": 3852,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/189da4bd396651b0d2fa"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/937ec1ca9424657bb17f",
-      "name": "Beşiktaş",
-      "nameEnglish": "",
-      "lat": 41.0408253,
-      "lng": 29.0074193,
-      "distanceFromPortMeters": 3901,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "operator": "Şehir Hatları",
-        "public_transport": "stop_position"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/937ec1ca9424657bb17f"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/337e4c3a9bba0e9395b1",
-      "name": "Üsküdar İskelesi",
-      "nameEnglish": "Üsküdar Pier",
-      "lat": 41.0281402,
-      "lng": 29.0152875,
-      "distanceFromPortMeters": 3905,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "name:en": "Üsküdar Pier",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/337e4c3a9bba0e9395b1"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/a7901bf1a3d6acf8f7f0",
-      "name": "Üsküdar",
-      "nameEnglish": "",
-      "lat": 41.0280444,
-      "lng": 29.0157836,
-      "distanceFromPortMeters": 3944,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "operator": "Dentur Avrasya",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/a7901bf1a3d6acf8f7f0"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/bb68404ee857eb9e117b",
-      "name": "Beşiktaş Dentur İskelesi",
-      "nameEnglish": "Besiktas",
-      "lat": 41.0413118,
-      "lng": 29.0077801,
-      "distanceFromPortMeters": 3957,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "name:en": "Besiktas",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/bb68404ee857eb9e117b"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/6e07b060d3ab4ac2af64",
-      "name": "Beşiktaş Motor İskelesi",
-      "nameEnglish": "",
-      "lat": 41.0413123,
-      "lng": 29.0077867,
-      "distanceFromPortMeters": 3958,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "building": "transportation",
-        "ferry": "yes",
-        "operator": "Turyol, Avrasya Dentur",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/6e07b060d3ab4ac2af64"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/29c6318955bb5300d46e",
-      "name": "Üsküdar",
-      "nameEnglish": "",
-      "lat": 41.0288624,
-      "lng": 29.0164034,
-      "distanceFromPortMeters": 4016,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "operator": "Turyol",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/29c6318955bb5300d46e"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/4e7280bb08e5ec468ad3",
-      "name": "Eyüp Vapur İskelesi",
-      "nameEnglish": "",
-      "lat": 41.0472543,
-      "lng": 28.9377954,
-      "distanceFromPortMeters": 4060,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "operator": "İstanbul Şehir Hatları",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/4e7280bb08e5ec468ad3"
-      ]
-    }
-  ],
   "counts": {
-    "attraction": 15,
-    "outdoors": 7,
-    "food_drink": 15,
-    "shopping": 6,
-    "essentials": 1
+    "attraction": 28,
+    "food_drink": 25,
+    "shopping": 17,
+    "outdoors": 12,
+    "essentials": 3
   },
   "pois": [
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/fa82598c7b1e5806d5cd",
-      "name": "Türkiye İş Bankası Müzesi",
-      "nameEnglish": "İşbank Museum",
-      "category": "attraction",
-      "subcategory": "museum",
-      "lat": 41.0160939,
-      "lng": 28.9726009,
-      "distanceFromTerminalMeters": 486,
-      "distanceFromDefaultTerminalMeters": 486,
-      "minDistanceFromAnyTerminalMeters": 486,
+      "sourceId": "osm/generated/a10954ee21e578ce45db",
+      "name": "Karaköy Güllüoğlu",
+      "nameEnglish": "Karakoy Gulluoglu",
+      "category": "shopping",
+      "subcategory": "confectionery",
+      "lat": 41.0248853,
+      "lng": 28.9809581,
+      "distanceFromTerminalMeters": 233,
+      "distanceFromDefaultTerminalMeters": 233,
+      "minDistanceFromAnyTerminalMeters": 233,
       "nearestTerminalId": "ports-json-anchor",
-      "address": "İstanbul, 34112",
-      "openingHours": "Tu-Su 10:00-18:00",
-      "website": "https://muze.isbank.com.tr/",
+      "address": "67 Kemankeş Caddesi, İstanbul, 36827",
+      "openingHours": "Mo-Sa 07:30-01:00; Su 08:00-01:00",
+      "website": "https://www.karakoygulluoglu.com",
+      "phone": "+90 850 308 45 45",
+      "cuisine": [
+        "coffee_shop",
+        "turkish"
+      ],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "shop": "confectionery"
+      },
+      "curated": true,
+      "gem": true
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/0ff897f194589711ca70",
+      "name": "Resat Balik Market",
+      "nameEnglish": "Resat Balik Market",
+      "category": "shopping",
+      "subcategory": "seafood",
+      "lat": 41.0345205,
+      "lng": 28.9774466,
+      "distanceFromTerminalMeters": 1269,
+      "distanceFromDefaultTerminalMeters": 1269,
+      "minDistanceFromAnyTerminalMeters": 1269,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "8/B Sahne Sokağı, 34433",
+      "openingHours": "Mo-Sa 08:00-20:00; Su 08:00-19:00",
+      "website": "https://www.resatbalik.com",
       "phone": "",
       "cuisine": [],
       "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "",
+      "wikipedia": "",
       "osmTags": {
-        "tourism": "museum"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/5238e3c27e035b84952a",
-      "name": "SALT Galata",
-      "nameEnglish": "SALT Galata",
-      "category": "attraction",
-      "subcategory": "museum",
-      "lat": 41.0238724,
-      "lng": 28.9734736,
-      "distanceFromTerminalMeters": 520,
-      "distanceFromDefaultTerminalMeters": 520,
-      "minDistanceFromAnyTerminalMeters": 520,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "11 Bankalar Caddesi, İstanbul, 34420",
-      "openingHours": "Tu-Sa 11:00-19:00; Su 11:00-18:00",
-      "website": "https://saltonline.org/",
-      "phone": "+90 212 334 22 00",
-      "cuisine": [],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "tourism": "museum"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/a3b54d440d8556b83cc4",
-      "name": "Galata Kulesi",
-      "nameEnglish": "Galata Tower",
-      "category": "attraction",
-      "subcategory": "attraction",
-      "lat": 41.0256344,
-      "lng": 28.974213,
-      "distanceFromTerminalMeters": 719,
-      "distanceFromDefaultTerminalMeters": 719,
-      "minDistanceFromAnyTerminalMeters": 719,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "Bereketzade Mahallesi, İstanbul, 34420",
-      "openingHours": "09:00-20:30",
-      "website": "https://muze.gen.tr/muze-detay/galatakulesi",
-      "phone": "+90 212 293 81 80",
-      "cuisine": [],
-      "wheelchair": "no",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "historic": "tower",
-        "man_made": "tower",
-        "tourism": "attraction"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/eb199a1acbba4ed3f4f5",
-      "name": "500. Yıl Vakfı Türk Musevileri Müzesi",
-      "nameEnglish": "The Jewish Museum of Turkey",
-      "category": "attraction",
-      "subcategory": "museum",
-      "lat": 41.0267866,
-      "lng": 28.9727283,
-      "distanceFromTerminalMeters": 789,
-      "distanceFromDefaultTerminalMeters": 789,
-      "minDistanceFromAnyTerminalMeters": 789,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "39 Bereketzade Mahallesi Büyük Hendek Cadessi, İstanbul, 34421",
-      "openingHours": "10:00-16:00; Fr 10:00-13:00; Su 10:00-14:00",
-      "website": "https://www.muze500.com/",
-      "phone": "+90 212 292 63 33",
-      "cuisine": [],
-      "wheelchair": "no",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "tourism": "museum"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/4e216d340c0f0da14268",
-      "name": "Galata Mevlevihanesi Müzesi",
-      "nameEnglish": "Galata Dervish House Museum",
-      "category": "attraction",
-      "subcategory": "museum",
-      "lat": 41.0280128,
-      "lng": 28.9751142,
-      "distanceFromTerminalMeters": 989,
-      "distanceFromDefaultTerminalMeters": 989,
-      "minDistanceFromAnyTerminalMeters": 989,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "Galip Dede Caddesi, İstanbul",
-      "openingHours": "Tu-Su 09:00-16:30",
-      "website": "https://muze.gen.tr/",
-      "phone": "+90 212 245 41 41",
-      "cuisine": [],
-      "wheelchair": "limited",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "tourism": "museum"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/d5321b867963fe15d709",
-      "name": "Topkapi Sarayı",
-      "nameEnglish": "Topkapi Palace",
-      "category": "attraction",
-      "subcategory": "museum",
-      "lat": 41.011344,
-      "lng": 28.9832034,
-      "distanceFromTerminalMeters": 1467,
-      "distanceFromDefaultTerminalMeters": 1467,
-      "minDistanceFromAnyTerminalMeters": 1467,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "34122",
-      "openingHours": "Mo, We-Su 09:00-18:00",
-      "website": "https://muze.gen.tr/muze-detay/topkapi",
-      "phone": "+902125285991",
-      "cuisine": [],
-      "wheelchair": "",
-      "brand": "",
-      "description": "The quintessential [[Ottoman Empire|Ottoman]] palace was built over centuries starting from the Fall of Constantinople in 1453, and includes many mansions tastefully decorated with delicate tiles. It is on the Seraglio Point, ancient Byzantium's Acropolis",
-      "osmTags": {
-        "tourism": "museum"
-      }
+        "shop": "seafood"
+      },
+      "curated": true,
+      "gem": true
     },
     {
       "source": "openstreetmap",
@@ -1556,9 +124,9 @@
       "subcategory": "museum",
       "lat": 41.025911,
       "lng": 28.982812,
-      "distanceFromTerminalMeters": 1260,
-      "distanceFromDefaultTerminalMeters": 1260,
-      "minDistanceFromAnyTerminalMeters": 1260,
+      "distanceFromTerminalMeters": 421,
+      "distanceFromDefaultTerminalMeters": 421,
+      "minDistanceFromAnyTerminalMeters": 421,
       "nearestTerminalId": "ports-json-anchor",
       "address": "1/1 Tophane İskele Caddesi, İstanbul, 34433",
       "openingHours": "Tu-Th, Sa-Su 10:00-18:00; Fr 10:00-20:00",
@@ -1568,86 +136,164 @@
       "wheelchair": "designated",
       "brand": "",
       "description": "",
+      "wikidata": "Q1463961",
+      "wikipedia": "tr:İstanbul Modern",
       "osmTags": {
         "tourism": "museum"
-      }
+      },
+      "curated": true,
+      "gem": true,
+      "fame": 22
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/2b3af5dc7e8149c0dd17",
-      "name": "Eski Şark Eserleri Müzesi",
-      "nameEnglish": "Museum Of Ancient Orient",
-      "category": "attraction",
-      "subcategory": "museum",
-      "lat": 41.011393,
-      "lng": 28.9804023,
-      "distanceFromTerminalMeters": 1295,
-      "distanceFromDefaultTerminalMeters": 1295,
-      "minDistanceFromAnyTerminalMeters": 1295,
+      "sourceId": "osm/generated/c13472c722a66ca6cadc",
+      "name": "Haci Abdullah Lokantasi",
+      "nameEnglish": "Haci Abdullah Lokantasi",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 41.0352491,
+      "lng": 28.9803137,
+      "distanceFromTerminalMeters": 1343,
+      "distanceFromDefaultTerminalMeters": 1343,
+      "minDistanceFromAnyTerminalMeters": 1343,
       "nearestTerminalId": "ports-json-anchor",
-      "address": "34122",
-      "openingHours": "Tu-Su 09:00-19:00",
-      "website": "http://www.istanbularkeoloji.gov.tr/",
-      "phone": "+90 212 520 77 40",
+      "address": "9/A Atıf Yılmaz Caddesi, 34435",
+      "openingHours": "Mo-Su 11:00-23:00",
+      "website": "https://haciabdullah.com.tr/",
+      "phone": "+902122938561",
+      "cuisine": [
+        "turkish"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q6037571",
+      "wikipedia": "en:Hacı Abdullah Restaurant",
+      "osmTags": {
+        "amenity": "restaurant"
+      },
+      "curated": true,
+      "gem": true,
+      "fame": 2
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/eec5cdf2ea6d257a5bf6",
+      "name": "Neolokal",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 41.0237821,
+      "lng": 28.9734763,
+      "distanceFromTerminalMeters": 494,
+      "distanceFromDefaultTerminalMeters": 494,
+      "minDistanceFromAnyTerminalMeters": 494,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "11",
+      "openingHours": "",
+      "website": "https://www.neolokal.com/",
+      "phone": "",
+      "cuisine": [
+        "turkish"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q130781477",
+      "wikipedia": "en:Neolokal",
+      "osmTags": {
+        "amenity": "restaurant"
+      },
+      "curated": true,
+      "gem": true,
+      "fame": 2
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/a2bca3752c7d6e7bb4cd",
+      "name": "Ayasofya",
+      "nameEnglish": "Hagia Sophia",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 41.0085112,
+      "lng": 28.9799976,
+      "distanceFromTerminalMeters": 1634,
+      "distanceFromDefaultTerminalMeters": 1634,
+      "minDistanceFromAnyTerminalMeters": 1634,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1 Ayasofya Meydanı, İstanbul, 34122",
+      "openingHours": "Mo-Su 09:00-19:30",
+      "website": "https://muze.gen.tr/muze-detay/ayasofya",
+      "phone": "+90 212 522 1750",
       "cuisine": [],
       "wheelchair": "yes",
       "brand": "",
       "description": "",
+      "wikidata": "Q12506",
+      "wikipedia": "tr:Ayasofya",
       "osmTags": {
-        "tourism": "museum"
-      }
+        "amenity": "place_of_worship",
+        "historic": "church",
+        "tourism": "attraction"
+      },
+      "fame": 141
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/5887132d0e0c91a50ca7",
-      "name": "İstanbul Arkeoloji Müzesi",
-      "nameEnglish": "Istanbul Archaeological Museum",
+      "sourceId": "osm/generated/ce95e16d0557d292d186",
+      "name": "Fâtih Sultan Mehmed Han Türbesi",
+      "nameEnglish": "Tomb of Sultan Muhammad Al-Fatih",
       "category": "attraction",
-      "subcategory": "museum",
-      "lat": 41.0116433,
-      "lng": 28.9813725,
-      "distanceFromTerminalMeters": 1332,
-      "distanceFromDefaultTerminalMeters": 1332,
-      "minDistanceFromAnyTerminalMeters": 1332,
+      "subcategory": "tomb",
+      "lat": 41.0192888,
+      "lng": 28.9502787,
+      "distanceFromTerminalMeters": 2475,
+      "distanceFromDefaultTerminalMeters": 2475,
+      "minDistanceFromAnyTerminalMeters": 2475,
       "nearestTerminalId": "ports-json-anchor",
-      "address": "İstanbul, 34122",
-      "openingHours": "Tu-Su 09:00-19:00",
-      "website": "https://muze.gen.tr/",
+      "address": "",
+      "openingHours": "",
+      "website": "",
       "phone": "",
       "cuisine": [],
       "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "Q34503",
+      "wikipedia": "tr:II. Mehmed",
       "osmTags": {
-        "historic": "building",
-        "tourism": "museum"
-      }
+        "historic": "tomb"
+      },
+      "fame": 108
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/2ce9502df43e6b3e7ea3",
-      "name": "Yerebatan Sarnıcı",
-      "nameEnglish": "Basilica Cistern (Exit)",
+      "sourceId": "osm/generated/838e3f4b0ec80d588c32",
+      "name": "II. Abdülhamid Türbesi",
+      "nameEnglish": "",
       "category": "attraction",
-      "subcategory": "attraction",
-      "lat": 41.0084795,
-      "lng": 28.9783826,
-      "distanceFromTerminalMeters": 1461,
-      "distanceFromDefaultTerminalMeters": 1461,
-      "minDistanceFromAnyTerminalMeters": 1461,
+      "subcategory": "tomb",
+      "lat": 41.0086349,
+      "lng": 28.972596,
+      "distanceFromTerminalMeters": 1715,
+      "distanceFromDefaultTerminalMeters": 1715,
+      "minDistanceFromAnyTerminalMeters": 1715,
       "nearestTerminalId": "ports-json-anchor",
-      "address": "1 Yerebatan Caddesi, İstanbul, 34110, TR",
-      "openingHours": "Mo-Su 09:00-19:00",
-      "website": "http://yerebatansarnici.com/",
-      "phone": "+90 212 522 12 59",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
       "cuisine": [],
-      "wheelchair": "no",
+      "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "Q134817",
+      "wikipedia": "tr:II. Abdülhamid",
       "osmTags": {
-        "historic": "cistern",
-        "tourism": "attraction"
-      }
+        "historic": "tomb"
+      },
+      "fame": 91
     },
     {
       "source": "openstreetmap",
@@ -1658,9 +304,9 @@
       "subcategory": "attraction",
       "lat": 41.0054066,
       "lng": 28.9766495,
-      "distanceFromTerminalMeters": 1716,
-      "distanceFromDefaultTerminalMeters": 1716,
-      "minDistanceFromAnyTerminalMeters": 1716,
+      "distanceFromTerminalMeters": 1991,
+      "distanceFromDefaultTerminalMeters": 1991,
+      "minDistanceFromAnyTerminalMeters": 1991,
       "nearestTerminalId": "ports-json-anchor",
       "address": "7 Atmeydanı Caddesi, İstanbul, 34122",
       "openingHours": "Mo-Su 08:30-12:15, 14:00-16:45, 17:45-18:30",
@@ -1670,26 +316,29 @@
       "wheelchair": "no",
       "brand": "",
       "description": "",
+      "wikidata": "Q80541",
+      "wikipedia": "en:Blue Mosque, Istanbul",
       "osmTags": {
         "amenity": "place_of_worship",
         "historic": "mosque",
         "tourism": "attraction"
-      }
+      },
+      "fame": 87
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/08d3d601967cb46ff5fb",
-      "name": "Padişah Mahfili - Yeni Cami",
-      "nameEnglish": "Sultans Pavillion - the new Mosque",
+      "sourceId": "osm/generated/c184aff0398194d2306e",
+      "name": "Yavuz Sultan Selim Türbesi",
+      "nameEnglish": "Tomb of Selim the Resolute",
       "category": "attraction",
-      "subcategory": "castle",
-      "lat": 41.0168929,
-      "lng": 28.9727768,
-      "distanceFromTerminalMeters": 417,
-      "distanceFromDefaultTerminalMeters": 417,
-      "minDistanceFromAnyTerminalMeters": 417,
+      "subcategory": "tomb",
+      "lat": 41.026245,
+      "lng": 28.951634,
+      "distanceFromTerminalMeters": 2347,
+      "distanceFromDefaultTerminalMeters": 2347,
+      "minDistanceFromAnyTerminalMeters": 2347,
       "nearestTerminalId": "ports-json-anchor",
-      "address": "Bankacilar 1",
+      "address": "",
       "openingHours": "",
       "website": "",
       "phone": "",
@@ -1697,125 +346,54 @@
       "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "Q494660",
+      "wikipedia": "tr:I. Selim",
       "osmTags": {
-        "historic": "castle"
-      }
+        "historic": "tomb"
+      },
+      "fame": 82
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/bb1883cb2b3ecf2f8def",
-      "name": "SALT Beyoğlu",
-      "nameEnglish": "",
-      "category": "attraction",
-      "subcategory": "gallery",
-      "lat": 41.0320737,
-      "lng": 28.9760955,
-      "distanceFromTerminalMeters": 1437,
-      "distanceFromDefaultTerminalMeters": 1437,
-      "minDistanceFromAnyTerminalMeters": 1437,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "34430",
-      "openingHours": "Tu-Sa 11:00-19:00; Su 11:00-18:00",
-      "website": "https://saltonline.org/",
-      "phone": "+90 212 334 22 00",
-      "cuisine": [],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "tourism": "gallery"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/c671f40391c03ec1bf43",
-      "name": "Kariye Camii",
-      "nameEnglish": "The Chora",
-      "category": "attraction",
-      "subcategory": "church",
-      "lat": 41.0312131,
-      "lng": 28.9390393,
-      "distanceFromTerminalMeters": 2881,
-      "distanceFromDefaultTerminalMeters": 2881,
-      "minDistanceFromAnyTerminalMeters": 2881,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "18 Kariye Cami Sk., İstanbul, 34087",
-      "openingHours": "09:00-18:00",
-      "website": "https://muze.gen.tr/muze-detay/kariye",
-      "phone": "+90 212 631 92 41",
-      "cuisine": [],
-      "wheelchair": "yes",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "amenity": "place_of_worship",
-        "historic": "church"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/c94f7218536693cbf1bb",
-      "name": "Ayasofya",
-      "nameEnglish": "Hagia Sophia",
+      "sourceId": "osm/generated/87fe21845c1c6ea6fb72",
+      "name": "Topkapı Sarayı",
+      "nameEnglish": "Topkapı Palace",
       "category": "attraction",
       "subcategory": "attraction",
-      "lat": 41.0085112,
-      "lng": 28.9799976,
-      "distanceFromTerminalMeters": 1528,
-      "distanceFromDefaultTerminalMeters": 1528,
-      "minDistanceFromAnyTerminalMeters": 1528,
+      "lat": 41.01281,
+      "lng": 28.9840154,
+      "distanceFromTerminalMeters": 1220,
+      "distanceFromDefaultTerminalMeters": 1220,
+      "minDistanceFromAnyTerminalMeters": 1220,
       "nearestTerminalId": "ports-json-anchor",
-      "address": "1 Ayasofya Meydanı, İstanbul, 34122",
-      "openingHours": "Mo-Su 09:00-19:30",
-      "website": "https://muze.gen.tr/muze-detay/ayasofya",
-      "phone": "+90 212 522 1750",
+      "address": "",
+      "openingHours": "",
+      "website": "https://muze.gen.tr/",
+      "phone": "",
       "cuisine": [],
-      "wheelchair": "yes",
+      "wheelchair": "limited",
       "brand": "",
       "description": "",
+      "wikidata": "Q170495",
+      "wikipedia": "tr:Topkapı Sarayı",
       "osmTags": {
-        "amenity": "place_of_worship",
-        "historic": "church",
+        "historic": "castle",
         "tourism": "attraction"
-      }
+      },
+      "fame": 78
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/5709792a03cb14f7fff1",
-      "name": "Yeni Cami Meydani",
-      "nameEnglish": "New Mosque Square",
-      "category": "outdoors",
-      "subcategory": "park",
-      "lat": 41.0165011,
-      "lng": 28.9715333,
-      "distanceFromTerminalMeters": 410,
-      "distanceFromDefaultTerminalMeters": 410,
-      "minDistanceFromAnyTerminalMeters": 410,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "İstanbul",
-      "openingHours": "24/7",
-      "website": "",
-      "phone": "",
-      "cuisine": [],
-      "wheelchair": "yes",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "leisure": "park"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/9d2afea2bd5d2e74f593",
-      "name": "Alfred Heilbronn Botanik Bahçesi",
-      "nameEnglish": "Alfred Heilbronn Botanical Garden",
-      "category": "outdoors",
-      "subcategory": "garden",
-      "lat": 41.018313,
-      "lng": 28.9638711,
-      "distanceFromTerminalMeters": 547,
-      "distanceFromDefaultTerminalMeters": 547,
-      "minDistanceFromAnyTerminalMeters": 547,
+      "sourceId": "osm/generated/af60ea35556f37c60dda",
+      "name": "Sultan II. Selim Türbesi",
+      "nameEnglish": "Mausoleum of Sultan Selim II",
+      "category": "attraction",
+      "subcategory": "tomb",
+      "lat": 41.0079253,
+      "lng": 28.979715,
+      "distanceFromTerminalMeters": 1698,
+      "distanceFromDefaultTerminalMeters": 1698,
+      "minDistanceFromAnyTerminalMeters": 1698,
       "nearestTerminalId": "ports-json-anchor",
       "address": "",
       "openingHours": "",
@@ -1825,22 +403,53 @@
       "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "Q161872",
+      "wikipedia": "tr:II. Selim",
       "osmTags": {
-        "leisure": "garden"
-      }
+        "historic": "tomb"
+      },
+      "fame": 76
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/01482a36985f71e29629",
-      "name": "Nice wiew",
-      "nameEnglish": "Nice wiew",
-      "category": "outdoors",
-      "subcategory": "viewpoint",
-      "lat": 41.0244477,
-      "lng": 28.9740733,
-      "distanceFromTerminalMeters": 601,
-      "distanceFromDefaultTerminalMeters": 601,
-      "minDistanceFromAnyTerminalMeters": 601,
+      "sourceId": "osm/generated/fe2e82ae46d09aa263a0",
+      "name": "Sultan 2. Mahmut Türbesi",
+      "nameEnglish": "Mausoleum of Sultan Mahmud II",
+      "category": "attraction",
+      "subcategory": "tomb",
+      "lat": 41.0084813,
+      "lng": 28.9725914,
+      "distanceFromTerminalMeters": 1731,
+      "distanceFromDefaultTerminalMeters": 1731,
+      "minDistanceFromAnyTerminalMeters": 1731,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "no",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q174791",
+      "wikipedia": "tr:II. Mahmud",
+      "osmTags": {
+        "historic": "tomb"
+      },
+      "fame": 76
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/a73d0885207253e0f5f1",
+      "name": "Sultan III. Murad Türbesi",
+      "nameEnglish": "Mausoleum of Sultan Murad III",
+      "category": "attraction",
+      "subcategory": "tomb",
+      "lat": 41.0079049,
+      "lng": 28.9794475,
+      "distanceFromTerminalMeters": 1700,
+      "distanceFromDefaultTerminalMeters": 1700,
+      "minDistanceFromAnyTerminalMeters": 1700,
       "nearestTerminalId": "ports-json-anchor",
       "address": "",
       "openingHours": "",
@@ -1850,72 +459,25 @@
       "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "Q159934",
+      "wikipedia": "tr:III. Murad",
       "osmTags": {
-        "tourism": "viewpoint"
-      }
+        "historic": "tomb"
+      },
+      "fame": 75
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/6a633149a20270e2bae4",
-      "name": "Cesme",
+      "sourceId": "osm/generated/3bd6edfab1cfc8a2fd7f",
+      "name": "Abdülmecid Han Türbesi",
       "nameEnglish": "",
-      "category": "outdoors",
-      "subcategory": "viewpoint",
-      "lat": 41.0116571,
-      "lng": 28.9719397,
-      "distanceFromTerminalMeters": 942,
-      "distanceFromDefaultTerminalMeters": 942,
-      "minDistanceFromAnyTerminalMeters": 942,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "Bezciler Sokağı, İstanbul",
-      "openingHours": "",
-      "website": "",
-      "phone": "",
-      "cuisine": [],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "tourism": "viewpoint"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/8520f30887228d5fb258",
-      "name": "Harmony hotel teras",
-      "nameEnglish": "Harmony hotel terrace",
-      "category": "outdoors",
-      "subcategory": "viewpoint",
-      "lat": 41.0026409,
-      "lng": 28.9735712,
-      "distanceFromTerminalMeters": 1953,
-      "distanceFromDefaultTerminalMeters": 1953,
-      "minDistanceFromAnyTerminalMeters": 1953,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "",
-      "openingHours": "",
-      "website": "",
-      "phone": "",
-      "cuisine": [],
-      "wheelchair": "",
-      "brand": "",
-      "description": "Terrace on the tap floor of \"Harmony\" hotel with a beatiful view on the Marmara sea. You can also order some drinks from the terrace menu and enjoy beatiful sunsets or sunrises above the sea surface.",
-      "osmTags": {
-        "tourism": "viewpoint"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/1a6de4e97f406d460d2d",
-      "name": "Agora hotel terrace",
-      "nameEnglish": "Agora hotel terrace",
-      "category": "outdoors",
-      "subcategory": "viewpoint",
-      "lat": 41.0105435,
-      "lng": 28.9761932,
-      "distanceFromTerminalMeters": 1173,
-      "distanceFromDefaultTerminalMeters": 1173,
-      "minDistanceFromAnyTerminalMeters": 1173,
+      "category": "attraction",
+      "subcategory": "tomb",
+      "lat": 41.0265133,
+      "lng": 28.9520446,
+      "distanceFromTerminalMeters": 2317,
+      "distanceFromDefaultTerminalMeters": 2317,
+      "minDistanceFromAnyTerminalMeters": 2317,
       "nearestTerminalId": "ports-json-anchor",
       "address": "",
       "openingHours": "",
@@ -1925,63 +487,324 @@
       "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "Q174772",
+      "wikipedia": "tr:Abdülmecid",
       "osmTags": {
-        "tourism": "viewpoint"
-      }
+        "historic": "tomb"
+      },
+      "fame": 73
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/f16d180b5ccc347655a8",
-      "name": "Çemberlitaş Hamamı",
-      "nameEnglish": "Çemberlitaş Hammam",
-      "category": "outdoors",
-      "subcategory": "turkish_bath",
-      "lat": 41.0085416,
-      "lng": 28.9716244,
-      "distanceFromTerminalMeters": 1281,
-      "distanceFromDefaultTerminalMeters": 1281,
-      "minDistanceFromAnyTerminalMeters": 1281,
+      "sourceId": "osm/generated/8fc138211dbdce14d2b9",
+      "name": "Sultan Abdulaziz Han kabri",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "tomb",
+      "lat": 41.008552,
+      "lng": 28.9725794,
+      "distanceFromTerminalMeters": 1724,
+      "distanceFromDefaultTerminalMeters": 1724,
+      "minDistanceFromAnyTerminalMeters": 1724,
       "nearestTerminalId": "ports-json-anchor",
-      "address": "8 Vezirhanı Caddesi, 34440",
-      "openingHours": "Mo-Su 06:00-23:30",
+      "address": "",
+      "openingHours": "",
       "website": "",
       "phone": "",
       "cuisine": [],
       "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "Q151500",
+      "wikipedia": "tr:Abdülaziz",
       "osmTags": {
-        "amenity": "public_bath",
-        "leisure": "turkish_bath",
+        "historic": "tomb"
+      },
+      "fame": 72
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/e09f2fa41179144579b0",
+      "name": "Sultan Ahmet Türbesi",
+      "nameEnglish": "Tomb of Sultan Ahmed I",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 41.0067894,
+      "lng": 28.9769854,
+      "distanceFromTerminalMeters": 1835,
+      "distanceFromDefaultTerminalMeters": 1835,
+      "minDistanceFromAnyTerminalMeters": 1835,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "34122",
+      "openingHours": "",
+      "website": "https://www.voyageturquie.info/sultan-ahmet-turbesi-istanbul/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q114749",
+      "wikipedia": "tr:I. Ahmed",
+      "osmTags": {
+        "historic": "tomb",
         "tourism": "attraction"
-      }
+      },
+      "fame": 72
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/bcf92a24b600f4ede1d1",
-      "name": "Privato Cafe",
+      "sourceId": "osm/generated/c9b8dd8b8d39774936c4",
+      "name": "Sultan Reşad Türbesi",
       "nameEnglish": "",
-      "category": "food_drink",
-      "subcategory": "restaurant",
-      "lat": 41.0268623,
-      "lng": 28.9740831,
-      "distanceFromTerminalMeters": 836,
-      "distanceFromDefaultTerminalMeters": 836,
-      "minDistanceFromAnyTerminalMeters": 836,
+      "category": "attraction",
+      "subcategory": "tomb",
+      "lat": 41.0478987,
+      "lng": 28.9358095,
+      "distanceFromTerminalMeters": 4567,
+      "distanceFromDefaultTerminalMeters": 4567,
+      "minDistanceFromAnyTerminalMeters": 4567,
       "nearestTerminalId": "ports-json-anchor",
-      "address": "3B Tımarcı Sokağı, İstanbul, 34420",
-      "openingHours": "09:00-23:00",
-      "website": "http://privatocafe.com/",
-      "phone": "+90 212 293 20 55",
-      "cuisine": [
-        "turkish"
-      ],
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
       "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "Q151494",
+      "wikipedia": "tr:V. Mehmed",
       "osmTags": {
-        "amenity": "restaurant"
-      }
+        "historic": "tomb"
+      },
+      "fame": 71
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/2ac3e5b6efbf9d5cd3c3",
+      "name": "Sultan 1. Abdülhamit Türbesi",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "tomb",
+      "lat": 41.0155099,
+      "lng": 28.9741344,
+      "distanceFromTerminalMeters": 959,
+      "distanceFromDefaultTerminalMeters": 959,
+      "minDistanceFromAnyTerminalMeters": 959,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q170707",
+      "wikipedia": "tr:I. Abdülhamid",
+      "osmTags": {
+        "historic": "tomb"
+      },
+      "fame": 70
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/756bdc6a26237fd8baf2",
+      "name": "IV. Mehmet Türbesi",
+      "nameEnglish": "Tomb of Mehmed the Hunter",
+      "category": "attraction",
+      "subcategory": "tomb",
+      "lat": 41.0160855,
+      "lng": 28.9717905,
+      "distanceFromTerminalMeters": 1012,
+      "distanceFromDefaultTerminalMeters": 1012,
+      "minDistanceFromAnyTerminalMeters": 1012,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q170514",
+      "wikipedia": "tr:IV. Mehmed",
+      "osmTags": {
+        "historic": "tomb"
+      },
+      "fame": 70
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/cd3345f9176ab816f422",
+      "name": "Topkapı Sarayı",
+      "nameEnglish": "Topkapi Palace",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 41.011344,
+      "lng": 28.9832034,
+      "distanceFromTerminalMeters": 1358,
+      "distanceFromDefaultTerminalMeters": 1358,
+      "minDistanceFromAnyTerminalMeters": 1358,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "34122",
+      "openingHours": "Mo, We-Su 09:00-18:00",
+      "website": "https://muze.gen.tr/muze-detay/topkapi",
+      "phone": "+902125285991",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q170495",
+      "wikipedia": "en:Topkapı Palace",
+      "osmTags": {
+        "tourism": "museum"
+      },
+      "fame": 78
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/a3b54d440d8556b83cc4",
+      "name": "Galata Kulesi",
+      "nameEnglish": "Galata Tower",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 41.0256344,
+      "lng": 28.974213,
+      "distanceFromTerminalMeters": 507,
+      "distanceFromDefaultTerminalMeters": 507,
+      "minDistanceFromAnyTerminalMeters": 507,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Bereketzade Mahallesi, İstanbul, 34420",
+      "openingHours": "09:00-20:30",
+      "website": "https://muze.gen.tr/muze-detay/galatakulesi",
+      "phone": "+90 212 293 81 80",
+      "cuisine": [],
+      "wheelchair": "no",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q91274",
+      "wikipedia": "tr:Galata Kulesi",
+      "osmTags": {
+        "historic": "tower",
+        "man_made": "tower",
+        "tourism": "attraction"
+      },
+      "fame": 56
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/6fbf59276644e63f6610",
+      "name": "İstanbul Arkeoloji Müzeleri",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 41.0116941,
+      "lng": 28.9812131,
+      "distanceFromTerminalMeters": 1289,
+      "distanceFromDefaultTerminalMeters": 1289,
+      "minDistanceFromAnyTerminalMeters": 1289,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "09:00-21:00",
+      "website": "https://muze.gen.tr/",
+      "phone": "+90 212 520 7740",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q636978",
+      "wikipedia": "en:Istanbul Archaeology Museums",
+      "osmTags": {
+        "tourism": "museum"
+      },
+      "fame": 35
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/a966a9c13821f9a3e3dc",
+      "name": "Yerebatan Sarnıcı",
+      "nameEnglish": "Basilica Cistern (Exit)",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 41.0084795,
+      "lng": 28.9783826,
+      "distanceFromTerminalMeters": 1638,
+      "distanceFromDefaultTerminalMeters": 1638,
+      "minDistanceFromAnyTerminalMeters": 1638,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1 Yerebatan Caddesi, İstanbul, 34110, TR",
+      "openingHours": "Mo-Su 09:00-19:00",
+      "website": "http://yerebatansarnici.com/",
+      "phone": "+90 212 522 12 59",
+      "cuisine": [],
+      "wheelchair": "no",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q216511",
+      "wikipedia": "tr:Yerebatan Sarnıcı",
+      "osmTags": {
+        "historic": "cistern",
+        "tourism": "attraction"
+      },
+      "fame": 39
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/55db697bd2ab1975e562",
+      "name": "Türk ve İslam Eserleri Müzesi",
+      "nameEnglish": "Turkish and Islamic Arts Museum",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 41.0062801,
+      "lng": 28.974915,
+      "distanceFromTerminalMeters": 1917,
+      "distanceFromDefaultTerminalMeters": 1917,
+      "minDistanceFromAnyTerminalMeters": 1917,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Atmeydanı Caddesi, İstanbul",
+      "openingHours": "Mo-Su 09:00-18:30",
+      "website": "https://muze.gen.tr/",
+      "phone": "+90 212 518 18 05",
+      "cuisine": [],
+      "wheelchair": "limited",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q525939",
+      "wikipedia": "en:Turkish and Islamic Arts Museum",
+      "osmTags": {
+        "tourism": "museum"
+      },
+      "fame": 27
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ac490c0b2f9420d23714",
+      "name": "Pera Müzesi",
+      "nameEnglish": "Pera Museum",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 41.0318037,
+      "lng": 28.975204,
+      "distanceFromTerminalMeters": 1017,
+      "distanceFromDefaultTerminalMeters": 1017,
+      "minDistanceFromAnyTerminalMeters": 1017,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Meşrutiyet Caddesi No.65Taksim Istanbul",
+      "openingHours": "Tu-Su 10:00-19:00, Su 12:00-18:00",
+      "website": "https://www.peramuzesi.org.tr",
+      "phone": "+90 212 334 99 00",
+      "cuisine": [],
+      "wheelchair": "no",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q1662392",
+      "wikipedia": "en:Pera Museum",
+      "osmTags": {
+        "tourism": "museum"
+      },
+      "fame": 22
     },
     {
       "source": "openstreetmap",
@@ -1992,9 +815,9 @@
       "subcategory": "cafe",
       "lat": 41.0247717,
       "lng": 28.9778887,
-      "distanceFromTerminalMeters": 848,
-      "distanceFromDefaultTerminalMeters": 848,
-      "minDistanceFromAnyTerminalMeters": 848,
+      "distanceFromTerminalMeters": 212,
+      "distanceFromDefaultTerminalMeters": 212,
+      "minDistanceFromAnyTerminalMeters": 212,
       "nearestTerminalId": "ports-json-anchor",
       "address": "36/A Necatibey Caddesi, 34425",
       "openingHours": "Mo-Fr 08:00-22:00; Sa-Su 10:00-22:00",
@@ -2006,81 +829,53 @@
       "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "",
+      "wikipedia": "",
       "osmTags": {
         "amenity": "cafe"
       }
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/891550c9f47c323f93fa",
-      "name": "Sirkeci Lokantası 1912",
-      "nameEnglish": "Sirkeci Lokantası 1912",
+      "sourceId": "osm/generated/fbbdde74e0248d1d65c2",
+      "name": "Route Burger House Karaköy",
+      "nameEnglish": "",
       "category": "food_drink",
-      "subcategory": "restaurant",
-      "lat": 41.015399,
-      "lng": 28.9725332,
-      "distanceFromTerminalMeters": 554,
-      "distanceFromDefaultTerminalMeters": 554,
-      "minDistanceFromAnyTerminalMeters": 554,
+      "subcategory": "fast_food",
+      "lat": 41.0251659,
+      "lng": 28.97787,
+      "distanceFromTerminalMeters": 250,
+      "distanceFromDefaultTerminalMeters": 250,
+      "minDistanceFromAnyTerminalMeters": 250,
       "nearestTerminalId": "ports-json-anchor",
-      "address": "5 Rahvancı Sokağı, 34112",
-      "openingHours": "Mo-Su 08:00-23:00",
-      "website": "https://dm.hunsolutions.com/cronton-design-hotel/?pos=34&menu=32",
-      "phone": "+90 212 556 47 20",
+      "address": "6A Vekilharç Sokağı, 34425",
+      "openingHours": "Mo-Fr 11:30-00:00; Sa-Su 12:30-00:00",
+      "website": "https://www.yemeksepeti.com/route-burger-house-beyoglu",
+      "phone": "+90 212 243 70 28",
       "cuisine": [
-        "breakfast",
-        "coffee_shop",
-        "french",
-        "pasta",
-        "turkish"
+        "burger"
       ],
       "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "",
+      "wikipedia": "",
       "osmTags": {
-        "amenity": "restaurant"
+        "amenity": "fast_food"
       }
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/5c69c8c1b466e450df63",
-      "name": "Mutfak Dili Ev Yemekleri",
-      "nameEnglish": "Mutfak Dili Ev Yemekleri",
-      "category": "food_drink",
-      "subcategory": "restaurant",
-      "lat": 41.0227667,
-      "lng": 28.9710771,
-      "distanceFromTerminalMeters": 321,
-      "distanceFromDefaultTerminalMeters": 321,
-      "minDistanceFromAnyTerminalMeters": 321,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "8 Ziyalı Sokak, 34421",
-      "openingHours": "",
-      "website": "http://www.mutfakdili.biz",
-      "phone": "+90 212 254 11 54",
-      "cuisine": [
-        "regional",
-        "homecooking"
-      ],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "amenity": "restaurant"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/cbce45eace5618a6bfa5",
+      "sourceId": "osm/generated/bd958b28c9644e0c1233",
       "name": "Galapera Restaurant",
       "nameEnglish": "",
       "category": "food_drink",
       "subcategory": "restaurant",
       "lat": 41.0211214,
       "lng": 28.9741775,
-      "distanceFromTerminalMeters": 372,
-      "distanceFromDefaultTerminalMeters": 372,
-      "minDistanceFromAnyTerminalMeters": 372,
+      "distanceFromTerminalMeters": 489,
+      "distanceFromDefaultTerminalMeters": 489,
+      "minDistanceFromAnyTerminalMeters": 489,
       "nearestTerminalId": "ports-json-anchor",
       "address": "6 Galata Köprüsü",
       "openingHours": "Mo-Su 09:00-02:00",
@@ -2098,8 +893,391 @@
       "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "",
+      "wikipedia": "",
       "osmTags": {
         "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/797bb11a91338f44845d",
+      "name": "Güney",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 41.02601,
+      "lng": 28.974564,
+      "distanceFromTerminalMeters": 507,
+      "distanceFromDefaultTerminalMeters": 507,
+      "minDistanceFromAnyTerminalMeters": 507,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "2B Kuledibi Şah Kapısı, 34421",
+      "openingHours": "08:00-24:00",
+      "website": "https://www.guneyrestaurant.com/",
+      "phone": "+90 212249 03 93",
+      "cuisine": [
+        "turkish"
+      ],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/107a678520e3ff6edb57",
+      "name": "Muhayyel Cafe",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 41.0279168,
+      "lng": 28.9759491,
+      "distanceFromTerminalMeters": 596,
+      "distanceFromDefaultTerminalMeters": 596,
+      "minDistanceFromAnyTerminalMeters": 596,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "NO:22/A Şah Kulu Bostan Sokağı, İstanbul, 34421",
+      "openingHours": "09:00-22:00",
+      "website": "https://muhayyel.com",
+      "phone": "+905549761118",
+      "cuisine": [
+        "coffee_shop"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/bcf92a24b600f4ede1d1",
+      "name": "Privato Cafe",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 41.0268623,
+      "lng": 28.9740831,
+      "distanceFromTerminalMeters": 599,
+      "distanceFromDefaultTerminalMeters": 599,
+      "minDistanceFromAnyTerminalMeters": 599,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "3B Tımarcı Sokağı, İstanbul, 34420",
+      "openingHours": "09:00-23:00",
+      "website": "http://privatocafe.com/",
+      "phone": "+90 212 293 20 55",
+      "cuisine": [
+        "turkish"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/174392f7f6f919b7994b",
+      "name": "Cihangir sosyal tesisleri",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 41.0283244,
+      "lng": 28.9824353,
+      "distanceFromTerminalMeters": 627,
+      "distanceFromDefaultTerminalMeters": 627,
+      "minDistanceFromAnyTerminalMeters": 627,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1 Kamacı Ustası Sokağı, İstanbul",
+      "openingHours": "08:30-23:00",
+      "website": "https://tesislerimiz.ibb.istanbul",
+      "phone": "4441034",
+      "cuisine": [
+        "regional"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/73568bf08a6267d2ae58",
+      "name": "Leb-i derya",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 41.0286253,
+      "lng": 28.976482,
+      "distanceFromTerminalMeters": 649,
+      "distanceFromDefaultTerminalMeters": 649,
+      "minDistanceFromAnyTerminalMeters": 649,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "57 Kumbaracı Ykş., İstanbul, 34425",
+      "openingHours": "16:00-02:00",
+      "website": "http://lebiderya.com",
+      "phone": "+90 5413668480",
+      "cuisine": [
+        "regional"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/7da212d0cee80b1a0510",
+      "name": "d'Orient Beyoğlu",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 41.0276348,
+      "lng": 28.9742547,
+      "distanceFromTerminalMeters": 651,
+      "distanceFromDefaultTerminalMeters": 651,
+      "minDistanceFromAnyTerminalMeters": 651,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "22 Galip Dede Caddesi, İstanbul",
+      "openingHours": "Mo-Su 08:00-22:00",
+      "website": "www.vitavien.com.tr",
+      "phone": "+90 212 251 23 71",
+      "cuisine": [
+        "ice_cream",
+        "kahve_dükkanı"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/27268f40a0be8ec4e7a2",
+      "name": "Varuna Gezgin",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 41.0293312,
+      "lng": 28.9755939,
+      "distanceFromTerminalMeters": 750,
+      "distanceFromDefaultTerminalMeters": 750,
+      "minDistanceFromAnyTerminalMeters": 750,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "79/D Kumbaracı Yokuşu, İstanbul, 34421",
+      "openingHours": "08:15-01:00",
+      "website": "https://varunagezgin.com/",
+      "phone": "+90 212 243 7107",
+      "cuisine": [
+        "international",
+        "turkish"
+      ],
+      "wheelchair": "no",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/fb9052cfd58be5cfcfb8",
+      "name": "Sofyalı 9 Restoran",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 41.0291163,
+      "lng": 28.9743233,
+      "distanceFromTerminalMeters": 780,
+      "distanceFromDefaultTerminalMeters": 780,
+      "minDistanceFromAnyTerminalMeters": 780,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "9 Sofyalı Sokağı, İstanbul, 34430",
+      "openingHours": "Salı-Pazar 14:30-01:30",
+      "website": "https://www.sofyali.com.tr/",
+      "phone": "+905332581652",
+      "cuisine": [
+        "türk_mutfağı",
+        "regional",
+        "meyhane"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/30b2ec0aa338338d3025",
+      "name": "Dogaciyiz.com gourmet şarküteri",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 41.0300565,
+      "lng": 28.9824119,
+      "distanceFromTerminalMeters": 806,
+      "distanceFromDefaultTerminalMeters": 806,
+      "minDistanceFromAnyTerminalMeters": 806,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Kasatura Sokağı, İstanbul, 34433",
+      "openingHours": "08:00-24:00",
+      "website": "www.dogaciyiz.com",
+      "phone": "+90212 243 8190",
+      "cuisine": [
+        "Naturel_foods"
+      ],
+      "wheelchair": "limited",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b318bb51fb1142d068f3",
+      "name": "Kronotrop Cihangir",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 41.0314243,
+      "lng": 28.9823898,
+      "distanceFromTerminalMeters": 950,
+      "distanceFromDefaultTerminalMeters": 950,
+      "minDistanceFromAnyTerminalMeters": 950,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "2/b Firuzaga Cami Sokağı, İstanbul, 34433",
+      "openingHours": "Mo-Su 07:00-23:00",
+      "website": "https://www.kronotrop.com.tr/",
+      "phone": "+902122499271",
+      "cuisine": [
+        "coffee_shop"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/84dc27520e205e4588e9",
+      "name": "Swedish Coffee Point",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 41.031516,
+      "lng": 28.982262,
+      "distanceFromTerminalMeters": 957,
+      "distanceFromDefaultTerminalMeters": 957,
+      "minDistanceFromAnyTerminalMeters": 957,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "2/e Firuzaga Cami Sk., 34433",
+      "openingHours": "Su-Th 08:30-22:30; Fr-Sa 08:30-23:00",
+      "website": "http://www.SwedishCoffeePoint.com",
+      "phone": "+90 212 243 94 53",
+      "cuisine": [
+        "coffee_shop"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/1291e53b18586b9cf4db",
+      "name": "Yiğit Sofram",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 41.0314076,
+      "lng": 28.9832923,
+      "distanceFromTerminalMeters": 972,
+      "distanceFromDefaultTerminalMeters": 972,
+      "minDistanceFromAnyTerminalMeters": 972,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "31/A Yeni Yuva Sokağı",
+      "openingHours": "Tu-Fr 07:00-17:00; Sa-Su 07:00-18:00; Mo,PH off",
+      "website": "https://yigitsoframkahvalti.com",
+      "phone": "+90 212 243 04 33",
+      "cuisine": [
+        "breakfast"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/972979c7ea61ac6ac796",
+      "name": "Root'inn",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 41.0150011,
+      "lng": 28.9743444,
+      "distanceFromTerminalMeters": 1002,
+      "distanceFromDefaultTerminalMeters": 1002,
+      "minDistanceFromAnyTerminalMeters": 1002,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "3/A Mimar Vedat Sokağı, İstanbul, 34112",
+      "openingHours": "08:00-22:00",
+      "website": "https://www.instagram.com/root.inn/",
+      "phone": "+902125142561",
+      "cuisine": [
+        "coffee_shop"
+      ],
+      "wheelchair": "no",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "cafe"
       }
     },
     {
@@ -2111,9 +1289,9 @@
       "subcategory": "restaurant",
       "lat": 41.0149875,
       "lng": 28.9737158,
-      "distanceFromTerminalMeters": 639,
-      "distanceFromDefaultTerminalMeters": 639,
-      "minDistanceFromAnyTerminalMeters": 639,
+      "distanceFromTerminalMeters": 1027,
+      "distanceFromDefaultTerminalMeters": 1027,
+      "minDistanceFromAnyTerminalMeters": 1027,
       "nearestTerminalId": "ports-json-anchor",
       "address": "24 Hobyar, 34112",
       "openingHours": "Mo-Su 08:00-20:30",
@@ -2128,270 +1306,203 @@
       "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "",
+      "wikipedia": "",
       "osmTags": {
         "amenity": "restaurant"
       }
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/797bb11a91338f44845d",
-      "name": "Güney",
+      "sourceId": "osm/generated/14b150a53d8299b71c91",
+      "name": "MUUS Coffee",
       "nameEnglish": "",
       "category": "food_drink",
-      "subcategory": "restaurant",
-      "lat": 41.02601,
-      "lng": 28.974564,
-      "distanceFromTerminalMeters": 770,
-      "distanceFromDefaultTerminalMeters": 770,
-      "minDistanceFromAnyTerminalMeters": 770,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "2B Kuledibi Şah Kapısı, 34421",
-      "openingHours": "08:00-24:00",
-      "website": "https://www.guneyrestaurant.com/",
-      "phone": "+90 212249 03 93",
-      "cuisine": [
-        "turkish"
-      ],
-      "wheelchair": "yes",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "amenity": "restaurant"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/e7349131fc5727cb3a4a",
-      "name": "The House Cafe İstiklal",
-      "nameEnglish": "",
-      "category": "food_drink",
-      "subcategory": "restaurant",
-      "lat": 41.0328264,
-      "lng": 28.9766652,
-      "distanceFromTerminalMeters": 1532,
-      "distanceFromDefaultTerminalMeters": 1532,
-      "minDistanceFromAnyTerminalMeters": 1532,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "163a İstiklal Caddesi, İstanbul",
-      "openingHours": "Mo-Th 08:00-02:00; Fr-Sa 08:00-04:00; Su 08:00-01:00",
-      "website": "https://thehousecafe.com/",
-      "phone": "+90 212 251 79 91",
-      "cuisine": [
-        "European"
-      ],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "amenity": "restaurant"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/8ec69c1be0235ee678ac",
-      "name": "Restohan",
-      "nameEnglish": "Resto Han",
-      "category": "food_drink",
-      "subcategory": "restaurant",
-      "lat": 41.0134446,
-      "lng": 28.978543,
-      "distanceFromTerminalMeters": 1022,
-      "distanceFromDefaultTerminalMeters": 1022,
-      "minDistanceFromAnyTerminalMeters": 1022,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "6 Darüssade Sokağı, 34110",
-      "openingHours": "Mo-Su 08:00-20:00",
-      "website": "https://www.restohan.net/",
-      "phone": "+90 553 009 09 12",
-      "cuisine": [
-        "mediterranean",
-        "turkish"
-      ],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "amenity": "restaurant"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/9ec209bbf7758fcb9d9a",
-      "name": "Antiochia",
-      "nameEnglish": "",
-      "category": "food_drink",
-      "subcategory": "restaurant",
-      "lat": 41.0289764,
-      "lng": 28.9739429,
-      "distanceFromTerminalMeters": 1052,
-      "distanceFromDefaultTerminalMeters": 1052,
-      "minDistanceFromAnyTerminalMeters": 1052,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "3 General Yazgan Sokağı",
-      "openingHours": "Mo-Sa 12:00-00:00",
-      "website": "http://www.antiochiaconcept.com/",
-      "phone": "",
-      "cuisine": [
-        "mediterranean",
-        "turkish"
-      ],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "amenity": "restaurant"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/b4e4f8bab9137afa8b7d",
-      "name": "Sofyalı 9 Restoran",
-      "nameEnglish": "",
-      "category": "food_drink",
-      "subcategory": "restaurant",
-      "lat": 41.0290879,
-      "lng": 28.9743252,
-      "distanceFromTerminalMeters": 1074,
-      "distanceFromDefaultTerminalMeters": 1074,
-      "minDistanceFromAnyTerminalMeters": 1074,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "9 Sofyalı Sokağı, İstanbul, 34430",
-      "openingHours": "Salı-Pazar 14:30-01:30",
-      "website": "https://www.sofyali.com.tr/",
-      "phone": "+905332581652",
-      "cuisine": [
-        "türk_mutfağı",
-        "regional",
-        "meyhane"
-      ],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "amenity": "restaurant"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/73568bf08a6267d2ae58",
-      "name": "Leb-i derya",
-      "nameEnglish": "",
-      "category": "food_drink",
-      "subcategory": "restaurant",
-      "lat": 41.0286253,
-      "lng": 28.976482,
+      "subcategory": "cafe",
+      "lat": 41.0323661,
+      "lng": 28.9843239,
       "distanceFromTerminalMeters": 1103,
       "distanceFromDefaultTerminalMeters": 1103,
       "minDistanceFromAnyTerminalMeters": 1103,
       "nearestTerminalId": "ports-json-anchor",
-      "address": "57 Kumbaracı Ykş., İstanbul, 34425",
-      "openingHours": "16:00-02:00",
-      "website": "http://lebiderya.com",
-      "phone": "+90 5413668480",
+      "address": "2/B Oba Sokak, İstanbul, 34433",
+      "openingHours": "Mo-Su 09:00-24:00",
+      "website": "https://www.muuscoffee.com/",
+      "phone": "+90 536 772 48 58",
       "cuisine": [
-        "regional"
+        "coffee_shop"
       ],
       "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "",
+      "wikipedia": "",
       "osmTags": {
-        "amenity": "restaurant"
+        "amenity": "cafe"
       }
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/27268f40a0be8ec4e7a2",
-      "name": "Varuna Gezgin",
-      "nameEnglish": "",
+      "sourceId": "osm/generated/a7d4a504b91479fa1657",
+      "name": "Juicery",
+      "nameEnglish": "Juicery",
       "category": "food_drink",
-      "subcategory": "restaurant",
-      "lat": 41.0293312,
-      "lng": 28.9755939,
-      "distanceFromTerminalMeters": 1139,
-      "distanceFromDefaultTerminalMeters": 1139,
-      "minDistanceFromAnyTerminalMeters": 1139,
+      "subcategory": "cafe",
+      "lat": 41.0324819,
+      "lng": 28.9842411,
+      "distanceFromTerminalMeters": 1112,
+      "distanceFromDefaultTerminalMeters": 1112,
+      "minDistanceFromAnyTerminalMeters": 1112,
       "nearestTerminalId": "ports-json-anchor",
-      "address": "79/D Kumbaracı Yokuşu, İstanbul, 34421",
-      "openingHours": "08:15-01:00",
-      "website": "https://varunagezgin.com/",
-      "phone": "+90 212 243 7107",
+      "address": "7B Sıraselviler Caddesi, 34433",
+      "openingHours": "Mo-Sa 09:30-19:00",
+      "website": "https://juicery.bademsoft.com/en/menu-tr-english-2/",
+      "phone": "+90 530 096 38 11",
       "cuisine": [
-        "international",
-        "turkish"
-      ],
-      "wheelchair": "no",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "amenity": "restaurant"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/174392f7f6f919b7994b",
-      "name": "Cihangir sosyal tesisleri",
-      "nameEnglish": "",
-      "category": "food_drink",
-      "subcategory": "restaurant",
-      "lat": 41.0283244,
-      "lng": 28.9824353,
-      "distanceFromTerminalMeters": 1395,
-      "distanceFromDefaultTerminalMeters": 1395,
-      "minDistanceFromAnyTerminalMeters": 1395,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "1 Kamacı Ustası Sokağı, İstanbul",
-      "openingHours": "08:30-23:00",
-      "website": "https://tesislerimiz.ibb.istanbul",
-      "phone": "4441034",
-      "cuisine": [
-        "regional"
+        "indonesian"
       ],
       "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "",
+      "wikipedia": "",
       "osmTags": {
-        "amenity": "restaurant"
+        "amenity": "cafe"
       }
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/8530a74b77a0ad5875a8",
-      "name": "Çok Çok Thai Restaurant",
-      "nameEnglish": "",
+      "sourceId": "osm/generated/5a67850f5af4a743abae",
+      "name": "Falafel House",
+      "nameEnglish": "Falafel House",
       "category": "food_drink",
-      "subcategory": "restaurant",
-      "lat": 41.0327089,
-      "lng": 28.9751817,
-      "distanceFromTerminalMeters": 1479,
-      "distanceFromDefaultTerminalMeters": 1479,
-      "minDistanceFromAnyTerminalMeters": 1479,
+      "subcategory": "fast_food",
+      "lat": 41.0385941,
+      "lng": 28.9844819,
+      "distanceFromTerminalMeters": 1766,
+      "distanceFromDefaultTerminalMeters": 1766,
+      "minDistanceFromAnyTerminalMeters": 1766,
       "nearestTerminalId": "ports-json-anchor",
-      "address": "51 Meşrutiyet Caddesi",
-      "openingHours": "Mo 18:00-23:45; Tu-Su 12:00-23:45",
-      "website": "https://www.cokcok.com.tr/",
-      "phone": "+90 212 292 64 96",
+      "address": "19/A Şehit Muhtar Bey Caddesi",
+      "openingHours": "Mo-Su 09:00-01:00",
+      "website": "https://www.falafelhouse.net/",
+      "phone": "+90 212 253 7730",
       "cuisine": [
-        "thai"
+        "chicken",
+        "turkish",
+        "kebab"
       ],
-      "wheelchair": "limited",
+      "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "",
+      "wikipedia": "",
       "osmTags": {
-        "amenity": "restaurant"
+        "amenity": "fast_food"
       }
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/4fcd86600a4caa3d249d",
+      "sourceId": "osm/generated/105f5f5c67159d21f8f6",
+      "name": "My Home Döner",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "fast_food",
+      "lat": 41.0064756,
+      "lng": 28.9701941,
+      "distanceFromTerminalMeters": 2011,
+      "distanceFromDefaultTerminalMeters": 2011,
+      "minDistanceFromAnyTerminalMeters": 2011,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "35 Piyer Loti Caddesi, İstanbul, 34126",
+      "openingHours": "Mo-Sa 12:00-22:00",
+      "website": "https://www.myhomedoner.com/",
+      "phone": "+905317617130",
+      "cuisine": [
+        "turkish",
+        "burger",
+        "kebab"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "fast_food"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/48e5f254c21ddaa19515",
+      "name": "Via Romana Pizza",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "fast_food",
+      "lat": 41.028925,
+      "lng": 28.9740736,
+      "distanceFromTerminalMeters": 774,
+      "distanceFromDefaultTerminalMeters": 774,
+      "minDistanceFromAnyTerminalMeters": 774,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "3A General Yazgan Sokağı, İstanbul, 34430",
+      "openingHours": "Mo-Su 12:00-23:00",
+      "website": "www.viaromanapizza.com",
+      "phone": "",
+      "cuisine": [
+        "pizza"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "fast_food"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/67d30de6ac66cd20da40",
+      "name": "Solera Winery",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "bar",
+      "lat": 41.0320257,
+      "lng": 28.9782016,
+      "distanceFromTerminalMeters": 986,
+      "distanceFromDefaultTerminalMeters": 986,
+      "minDistanceFromAnyTerminalMeters": 986,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "44 Yeni Çarşı Caddesi, İstanbul, 34433",
+      "openingHours": "11:00-02:00",
+      "website": "",
+      "phone": "+90 212 252 27 19",
+      "cuisine": [
+        "bar"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "bar",
+        "craft": "winery"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/5ee782013784a89b4969",
       "name": "Mısır Çarşısı",
       "nameEnglish": "Egyptian (Spice) Bazaar",
       "category": "shopping",
-      "subcategory": "mall",
+      "subcategory": "marketplace",
       "lat": 41.0164631,
       "lng": 28.9710981,
-      "distanceFromTerminalMeters": 404,
-      "distanceFromDefaultTerminalMeters": 404,
-      "minDistanceFromAnyTerminalMeters": 404,
+      "distanceFromTerminalMeters": 1018,
+      "distanceFromDefaultTerminalMeters": 1018,
+      "minDistanceFromAnyTerminalMeters": 1018,
       "nearestTerminalId": "ports-json-anchor",
       "address": "İstanbul, 34116",
       "openingHours": "Mo-Sa 08:00-19:00; Su 09:30-19:00",
@@ -2401,179 +1512,999 @@
       "wheelchair": "yes",
       "brand": "",
       "description": "",
-      "osmTags": {
-        "amenity": "marketplace",
-        "shop": "mall"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/27ef95f293d983ffeec4",
-      "name": "Bomonti Semt Pazarı",
-      "nameEnglish": "Bomonti Neighborhood Market",
-      "category": "shopping",
-      "subcategory": "marketplace",
-      "lat": 41.0566725,
-      "lng": 28.9804502,
-      "distanceFromTerminalMeters": 4171,
-      "distanceFromDefaultTerminalMeters": 4171,
-      "minDistanceFromAnyTerminalMeters": 4171,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "6 Gökkuşağı Sokağı, İstanbul, 34380",
-      "openingHours": "09:00-19:30; We off",
-      "website": "https://ferikoyantikapazari.com/",
-      "phone": "+90 212 708 8888;444 31 12",
-      "cuisine": [],
-      "wheelchair": "",
-      "brand": "",
-      "description": "Pazartesi ve perşembe günleri semt pazarı, salı günü kadın el emeği pazarı, cuma günü ikinci el ve tekstil pazarı, cumartesi günü organik pazar, pazar günü ise antika pazarı kurulmaktadır.",
+      "wikidata": "Q668641",
+      "wikipedia": "tr:Mısır Çarşısı",
       "osmTags": {
         "amenity": "marketplace"
-      }
+      },
+      "fame": 33
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/cc0aeb471fbac18e73f0",
-      "name": "Historia Alışveriş ve Yaşam Merkezi",
-      "nameEnglish": "Historia Shopping Mall",
+      "sourceId": "osm/generated/1454d2fa6be18f750513",
+      "name": "Kapalı Çarşı",
+      "nameEnglish": "Grand Bazaar",
       "category": "shopping",
-      "subcategory": "mall",
-      "lat": 41.0143987,
-      "lng": 28.9452682,
-      "distanceFromTerminalMeters": 2166,
-      "distanceFromDefaultTerminalMeters": 2166,
-      "minDistanceFromAnyTerminalMeters": 2166,
+      "subcategory": "marketplace",
+      "lat": 41.0109671,
+      "lng": 28.9682528,
+      "distanceFromTerminalMeters": 1647,
+      "distanceFromDefaultTerminalMeters": 1647,
+      "minDistanceFromAnyTerminalMeters": 1647,
       "nearestTerminalId": "ports-json-anchor",
-      "address": "2 Ahmediye Caddesi, İstanbul",
-      "openingHours": "Mo-Su 10:00-22:00",
-      "website": "http://historia.com.tr",
-      "phone": "+90 212 532 0202",
+      "address": "İstanbul, 34126, TR",
+      "openingHours": "Mo-Sa 9:00-19:00",
+      "website": "",
+      "phone": "",
       "cuisine": [],
       "wheelchair": "limited",
       "brand": "",
       "description": "",
+      "wikidata": "Q505954",
+      "wikipedia": "tr:Kapalıçarşı",
+      "osmTags": {
+        "amenity": "marketplace",
+        "historic": "district",
+        "tourism": "attraction"
+      },
+      "fame": 45
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/913b7a5d6629034d2e32",
+      "name": "İstanbul Cevahir Alışveriş ve Eğlence Merkezi",
+      "nameEnglish": "Istanbul Cevahir Shopping and Entertainment Center",
+      "category": "shopping",
+      "subcategory": "mall",
+      "lat": 41.0625758,
+      "lng": 28.9928557,
+      "distanceFromTerminalMeters": 4524,
+      "distanceFromDefaultTerminalMeters": 4524,
+      "minDistanceFromAnyTerminalMeters": 4524,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "22 Büyükdere Caddesi, İstanbul, 34363",
+      "openingHours": "10:00-22:00",
+      "website": "https://istanbulcevahir.com/",
+      "phone": "+90 212 368 6900",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q1057835",
+      "wikipedia": "en:Istanbul Cevahir",
       "osmTags": {
         "shop": "mall"
+      },
+      "fame": 14
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ead305824216cb34cd4e",
+      "name": "Trump Alışveriş Merkezi",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "mall",
+      "lat": 41.0684882,
+      "lng": 28.9923001,
+      "distanceFromTerminalMeters": 5152,
+      "distanceFromDefaultTerminalMeters": 5152,
+      "minDistanceFromAnyTerminalMeters": 5152,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "12 Mecidiyeköy Yolu Caddesi, İstanbul, 34381",
+      "openingHours": "10:00-22:00",
+      "website": "https://www.trumpalisverismerkezi.com/",
+      "phone": "+90 212 348 7840",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q7847787",
+      "wikipedia": "tr:Trump Towers",
+      "osmTags": {
+        "shop": "mall"
+      },
+      "fame": 11
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/60428f85415d0ecadf03",
+      "name": "Zorlu Center",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "mall",
+      "lat": 41.0664574,
+      "lng": 29.01688,
+      "distanceFromTerminalMeters": 5750,
+      "distanceFromDefaultTerminalMeters": 5750,
+      "minDistanceFromAnyTerminalMeters": 5750,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "2 Koru Sokağı, İstanbul, 34340",
+      "openingHours": "10:00-22:00",
+      "website": "https://www.zorlucenter.com.tr/",
+      "phone": "+90 212 924 0100",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q6066268",
+      "wikipedia": "tr:Zorlu Center",
+      "osmTags": {
+        "shop": "mall"
+      },
+      "fame": 11
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/8e0450a900392116292e",
+      "name": "Akmerkez",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "mall",
+      "lat": 41.0766353,
+      "lng": 29.0267386,
+      "distanceFromTerminalMeters": 7150,
+      "distanceFromDefaultTerminalMeters": 7150,
+      "minDistanceFromAnyTerminalMeters": 7150,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Nisbetiye Caddesi, İstanbul, 34337",
+      "openingHours": "Mo-Su 10:00-22:00",
+      "website": "https://www.akmerkez.com.tr/",
+      "phone": "+90 212 282 0170",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q1972427",
+      "wikipedia": "en:Akmerkez",
+      "osmTags": {
+        "shop": "mall"
+      },
+      "fame": 7
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/a561e5085741db5e9415",
+      "name": "Sapphire",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "mall",
+      "lat": 41.0849612,
+      "lng": 29.0060498,
+      "distanceFromTerminalMeters": 7224,
+      "distanceFromDefaultTerminalMeters": 7224,
+      "minDistanceFromAnyTerminalMeters": 7224,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q166882",
+      "wikipedia": "en:Istanbul Sapphire",
+      "osmTags": {
+        "shop": "mall"
+      },
+      "fame": 29
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/7f45656b10faac013d7d",
+      "name": "Opus3a",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "music",
+      "lat": 41.0309676,
+      "lng": 28.9866283,
+      "distanceFromTerminalMeters": 1060,
+      "distanceFromDefaultTerminalMeters": 1060,
+      "minDistanceFromAnyTerminalMeters": 1060,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "3/A Cihangir Caddesi, İstanbul, 34427",
+      "openingHours": "Mo-Sa 11:00-19:00; Su 12:00-19:00",
+      "website": "https://www.opus3a.com/",
+      "phone": "+90 212 251 8405",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Opus3a was founded in 2010. The majority of the Opus3a archive consists of classical music, jazz, world music, repertoire, traditional music, Classical Turkish music and local pop-rock.",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "shop": "music"
       }
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/d4e1c677a7e4ea47b905",
-      "name": "İMÇ Çarşısı",
+      "sourceId": "osm/generated/1d6e190aa48a774a35d1",
+      "name": "Özsafalar Turkish Delight Karaköy",
       "nameEnglish": "",
       "category": "shopping",
-      "subcategory": "mall",
-      "lat": 41.0172811,
-      "lng": 28.9575926,
-      "distanceFromTerminalMeters": 1084,
-      "distanceFromDefaultTerminalMeters": 1084,
-      "minDistanceFromAnyTerminalMeters": 1084,
+      "subcategory": "gift",
+      "lat": 41.0234071,
+      "lng": 28.9777961,
+      "distanceFromTerminalMeters": 130,
+      "distanceFromDefaultTerminalMeters": 130,
+      "minDistanceFromAnyTerminalMeters": 130,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "13 Maliye Caddesi",
+      "openingHours": "Mo-Su 08:00-01:00",
+      "website": "http://www.ozsafalar.com",
+      "phone": "+90 539 680 51 85",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "shop": "gift"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ea2ecf7506aa9ab865a8",
+      "name": "Sport city",
+      "nameEnglish": "Sport City",
+      "category": "shopping",
+      "subcategory": "sports",
+      "lat": 41.0259799,
+      "lng": 28.9782953,
+      "distanceFromTerminalMeters": 321,
+      "distanceFromDefaultTerminalMeters": 321,
+      "minDistanceFromAnyTerminalMeters": 321,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "27 Kemeraltı Caddesi, 34425",
+      "openingHours": "Mo-Sa 09:00-19:30",
+      "website": "https://www.sportcity.com.tr/",
+      "phone": "+902122516800",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "shop": "sports"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/546974129f750f3ac44c",
+      "name": "Eren Kitabevi",
+      "nameEnglish": "Eren Bookstore",
+      "category": "shopping",
+      "subcategory": "books",
+      "lat": 41.0290313,
+      "lng": 28.9741316,
+      "distanceFromTerminalMeters": 781,
+      "distanceFromDefaultTerminalMeters": 781,
+      "minDistanceFromAnyTerminalMeters": 781,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "24 Sofyalı Sokağı, İstanbul, 34430",
+      "openingHours": "",
+      "website": "https://www.eren.com.tr/",
+      "phone": "+90 212 251 28 58",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Rare and hard-to-find books, in multiple languages",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "shop": "books"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/9d982f54fb4b9ba9f7c6",
+      "name": "Dolmabahçe Sarayı",
+      "nameEnglish": "Dolmabahçe Palace",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 41.0390167,
+      "lng": 28.9996491,
+      "distanceFromTerminalMeters": 2450,
+      "distanceFromDefaultTerminalMeters": 2450,
+      "minDistanceFromAnyTerminalMeters": 2450,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "http://www.millisaraylar.gov.tr/saraylar/dolmabahce-sarayi",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q274141",
+      "wikipedia": "en:Dolmabahçe Palace",
+      "osmTags": {
+        "leisure": "park"
+      },
+      "fame": 52
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/3e9a180d85438295202b",
+      "name": "Gülhane Parkı",
+      "nameEnglish": "Gülhane Park",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 41.0131234,
+      "lng": 28.9823101,
+      "distanceFromTerminalMeters": 1148,
+      "distanceFromDefaultTerminalMeters": 1148,
+      "minDistanceFromAnyTerminalMeters": 1148,
       "nearestTerminalId": "ports-json-anchor",
       "address": "İstanbul",
-      "openingHours": "Mo-Fr 08:30-17:30; Sa 08:30-13:00",
-      "website": "https://imc.org.tr/",
-      "phone": "+90 212 526 5283",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
       "cuisine": [],
       "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "Q1560106",
+      "wikipedia": "en:Gülhane Park",
       "osmTags": {
-        "shop": "mall"
-      }
+        "leisure": "park"
+      },
+      "fame": 26
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/751cf36f903fefe170e0",
-      "name": "Mevlana Bazaar",
-      "nameEnglish": "",
-      "category": "shopping",
-      "subcategory": "mall",
-      "lat": 41.0028113,
-      "lng": 28.9797131,
-      "distanceFromTerminalMeters": 2078,
-      "distanceFromDefaultTerminalMeters": 2078,
-      "minDistanceFromAnyTerminalMeters": 2078,
+      "sourceId": "osm/generated/23fec8a23aea9007aeb4",
+      "name": "Taksim Gezi Parkı",
+      "nameEnglish": "Taksim Gezi Park",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 41.0388553,
+      "lng": 28.9869032,
+      "distanceFromTerminalMeters": 1854,
+      "distanceFromDefaultTerminalMeters": 1854,
+      "minDistanceFromAnyTerminalMeters": 1854,
       "nearestTerminalId": "ports-json-anchor",
-      "address": "38 Kennedy Caddesi, İstanbul, 34122",
-      "openingHours": "Mo-Su 08:00-22:00",
-      "website": "www.mevlanabazaar.com",
-      "phone": "+90 212 458 24 27",
+      "address": "İstanbul",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
       "cuisine": [],
       "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "Q6048634",
+      "wikipedia": "en:Taksim Gezi Park",
       "osmTags": {
-        "shop": "mall",
+        "leisure": "park"
+      },
+      "fame": 23
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b4786350b31fb820680a",
+      "name": "Yıldız Parkı",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "wood",
+      "lat": 41.048307,
+      "lng": 29.0168889,
+      "distanceFromTerminalMeters": 4210,
+      "distanceFromDefaultTerminalMeters": 4210,
+      "minDistanceFromAnyTerminalMeters": 4210,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Su 08:00-22:00",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q1818005",
+      "wikipedia": "tr:Yıldız Parkı",
+      "osmTags": {
+        "leisure": "park",
+        "natural": "wood"
+      },
+      "fame": 17
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/365ca8ac1b0aa93da838",
+      "name": "Maçka Demokrasi Parkı",
+      "nameEnglish": "Maçka Park",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 41.0443425,
+      "lng": 28.9939957,
+      "distanceFromTerminalMeters": 2654,
+      "distanceFromDefaultTerminalMeters": 2654,
+      "minDistanceFromAnyTerminalMeters": 2654,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q6098591",
+      "wikipedia": "tr:Maçka Demokrasi Parkı",
+      "osmTags": {
+        "leisure": "park"
+      },
+      "fame": 6
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f5bb98de62bb6e66a103",
+      "name": "Tophane Parkı",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 41.0269742,
+      "lng": 28.9819557,
+      "distanceFromTerminalMeters": 475,
+      "distanceFromDefaultTerminalMeters": 475,
+      "minDistanceFromAnyTerminalMeters": 475,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q49571240",
+      "wikipedia": "en:Tophane Park",
+      "osmTags": {
+        "leisure": "park"
+      },
+      "fame": 3
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f16d180b5ccc347655a8",
+      "name": "Çemberlitaş Hamamı",
+      "nameEnglish": "Çemberlitaş Hammam",
+      "category": "outdoors",
+      "subcategory": "turkish_bath",
+      "lat": 41.0085416,
+      "lng": 28.9716244,
+      "distanceFromTerminalMeters": 1753,
+      "distanceFromDefaultTerminalMeters": 1753,
+      "minDistanceFromAnyTerminalMeters": 1753,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "8 Vezirhanı Caddesi, 34440",
+      "openingHours": "Mo-Su 06:00-23:30",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q8077658",
+      "wikipedia": "tr:Çemberlitaş Hamamı",
+      "osmTags": {
+        "amenity": "public_bath",
+        "leisure": "turkish_bath",
         "tourism": "attraction"
+      },
+      "fame": 3
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/9d2afea2bd5d2e74f593",
+      "name": "Alfred Heilbronn Botanik Bahçesi",
+      "nameEnglish": "Alfred Heilbronn Botanical Garden",
+      "category": "outdoors",
+      "subcategory": "garden",
+      "lat": 41.018313,
+      "lng": 28.9638711,
+      "distanceFromTerminalMeters": 1405,
+      "distanceFromDefaultTerminalMeters": 1405,
+      "minDistanceFromAnyTerminalMeters": 1405,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q55594541",
+      "wikipedia": "tr:İstanbul Üniversitesi Alfred Heilbronn Botanik Bahçesi",
+      "osmTags": {
+        "leisure": "garden"
+      },
+      "fame": 2
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/9449023f6fb1619aa989",
+      "name": "Çamlıca Tepesi",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "peak",
+      "lat": 41.0278163,
+      "lng": 29.0692717,
+      "distanceFromTerminalMeters": 7563,
+      "distanceFromDefaultTerminalMeters": 7563,
+      "minDistanceFromAnyTerminalMeters": 7563,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q2414579",
+      "wikipedia": "en:Çamlıca Hill",
+      "osmTags": {
+        "natural": "peak"
+      },
+      "fame": 9
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/11f5bd9ec796a645f7b0",
+      "name": "Aya Triada Rum Ortodoks Kilisesi",
+      "nameEnglish": "Hagia Triada Greek Orthodox Church",
+      "category": "outdoors",
+      "subcategory": "garden",
+      "lat": 40.9861873,
+      "lng": 29.0275052,
+      "distanceFromTerminalMeters": 5769,
+      "distanceFromDefaultTerminalMeters": 5769,
+      "minDistanceFromAnyTerminalMeters": 5769,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "İstanbul, 34710, TR",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q25474792",
+      "wikipedia": "tr:Kadıköy Aya Triada Rum Ortodoks Kilisesi",
+      "osmTags": {
+        "amenity": "place_of_worship",
+        "leisure": "garden"
+      },
+      "fame": 3
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/fe05d1e0be90cf4609f6",
+      "name": "Sarayburnu Manzarası",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "viewpoint",
+      "lat": 41.0175429,
+      "lng": 28.9857457,
+      "distanceFromTerminalMeters": 828,
+      "distanceFromDefaultTerminalMeters": 828,
+      "minDistanceFromAnyTerminalMeters": 828,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "kennedy Cd, İstanbul",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "tourism": "viewpoint"
       }
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/f8bb07784f927fd537ad",
-      "name": "The Sultanahmet",
-      "nameEnglish": "The Sultanahmet",
+      "sourceId": "osm/generated/6a633149a20270e2bae4",
+      "name": "Cesme",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "viewpoint",
+      "lat": 41.0116571,
+      "lng": 28.9719397,
+      "distanceFromTerminalMeters": 1425,
+      "distanceFromDefaultTerminalMeters": 1425,
+      "minDistanceFromAnyTerminalMeters": 1425,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Bezciler Sokağı, İstanbul",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "tourism": "viewpoint"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/a607a40f7bff5111e59d",
+      "name": "Luggage Storage & Lockers 24/7",
+      "nameEnglish": "",
       "category": "essentials",
       "subcategory": "visitor_information",
-      "lat": 41.012343,
-      "lng": 28.9440101,
-      "distanceFromTerminalMeters": 2341,
-      "distanceFromDefaultTerminalMeters": 2341,
-      "minDistanceFromAnyTerminalMeters": 2341,
+      "lat": 41.01992,
+      "lng": 28.9629068,
+      "distanceFromTerminalMeters": 1424,
+      "distanceFromDefaultTerminalMeters": 1424,
+      "minDistanceFromAnyTerminalMeters": 1424,
       "nearestTerminalId": "ports-json-anchor",
-      "address": "20 Softa Sinan Sokak, İstanbul, 34093",
-      "openingHours": "",
-      "website": "https://thesultanahmet.com",
-      "phone": "+90 537 725 5464",
+      "address": "No:5 Yoğurtçu Nuri Sokağı, 34134",
+      "openingHours": "24/7",
+      "website": "https://www.istanbulluggagestorage.com",
+      "phone": "+905353856447",
       "cuisine": [],
-      "wheelchair": "no",
+      "wheelchair": "",
       "brand": "",
-      "description": "At The Sultanahmet, we provide a smooth way for you to discover Turkey tours, activities, attractions and many things to do in Turkey. We're a group of Turkey enthusiasts who love helping travelers planning to visit Turkey.",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
       "osmTags": {
         "tourism": "information"
       }
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/7bb3ef9d50bfcb53eb86",
-      "name": "Grand Bazaar Jewelers",
+      "sourceId": "osm/generated/34e41a84cf2cebf213a5",
+      "name": "Galata Plus Eczanesi",
       "nameEnglish": "",
-      "category": "shopping",
-      "subcategory": "jewelry",
-      "lat": 41.0087517,
-      "lng": 28.9756599,
-      "distanceFromTerminalMeters": 1338,
-      "distanceFromDefaultTerminalMeters": 1338,
-      "minDistanceFromAnyTerminalMeters": 1338,
+      "category": "essentials",
+      "subcategory": "pharmacy",
+      "lat": 41.02674,
+      "lng": 28.97292,
+      "distanceFromTerminalMeters": 666,
+      "distanceFromDefaultTerminalMeters": 666,
+      "minDistanceFromAnyTerminalMeters": 666,
       "nearestTerminalId": "ports-json-anchor",
-      "address": "50 Divanyolu Caddesi, İstanbul, 34410",
-      "openingHours": "",
-      "website": "https://www.grandbazaarjewelers.com",
-      "phone": "+90 212 511 88 61",
+      "address": "No: 26/A Büyük Hendek Caddesi, İstanbul",
+      "openingHours": "Mo-Sa 09:00-19:00",
+      "website": "",
+      "phone": "+90 551 402 27 68",
       "cuisine": [],
       "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "",
+      "wikipedia": "",
       "osmTags": {
-        "shop": "jewelry"
+        "amenity": "pharmacy"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/0005ca77dec95f01eacb",
+      "name": "Sirkeci-1 İsbike İstasyonu",
+      "nameEnglish": "",
+      "category": "essentials",
+      "subcategory": "bicycle_rental",
+      "lat": 41.0164861,
+      "lng": 28.9767835,
+      "distanceFromTerminalMeters": 776,
+      "distanceFromDefaultTerminalMeters": 776,
+      "minDistanceFromAnyTerminalMeters": 776,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "https://www.isbike.istanbul/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "tr:İsbike",
+      "osmTags": {
+        "amenity": "bicycle_rental"
+      },
+      "fame": 1
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/617da8ca9bf9053f68ea",
+      "name": "Masumiyet Müzesi",
+      "nameEnglish": "The Museum of Innocence",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 41.0308716,
+      "lng": 28.9797952,
+      "distanceFromTerminalMeters": 854,
+      "distanceFromDefaultTerminalMeters": 854,
+      "minDistanceFromAnyTerminalMeters": 854,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "34425",
+      "openingHours": "Tu-Su 10:00-18:00",
+      "website": "https://www.masumiyetmuzesi.org/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "no",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q15961492",
+      "wikipedia": "en:The Museum of Innocence (museum)",
+      "osmTags": {
+        "tourism": "museum"
+      },
+      "fame": 25
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c671f40391c03ec1bf43",
+      "name": "Kariye Camii",
+      "nameEnglish": "The Chora",
+      "category": "attraction",
+      "subcategory": "church",
+      "lat": 41.0312131,
+      "lng": 28.9390393,
+      "distanceFromTerminalMeters": 3494,
+      "distanceFromDefaultTerminalMeters": 3494,
+      "minDistanceFromAnyTerminalMeters": 3494,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "18 Kariye Cami Sk., İstanbul, 34087",
+      "openingHours": "09:00-18:00",
+      "website": "https://muze.gen.tr/muze-detay/kariye",
+      "phone": "+90 212 631 92 41",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q849489",
+      "wikipedia": "tr:Kariye Camii",
+      "osmTags": {
+        "amenity": "place_of_worship",
+        "historic": "church"
+      },
+      "fame": 43
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/06996debd66c90c865c2",
+      "name": "Aya İrini Kilisesi",
+      "nameEnglish": "Hagia Irene",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 41.0098292,
+      "lng": 28.9809477,
+      "distanceFromTerminalMeters": 1493,
+      "distanceFromDefaultTerminalMeters": 1493,
+      "minDistanceFromAnyTerminalMeters": 1493,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "İstanbul",
+      "openingHours": "",
+      "website": "https://muze.gen.tr/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q736676",
+      "wikipedia": "tr:Aya İrini",
+      "osmTags": {
+        "historic": "yes",
+        "tourism": "museum"
+      },
+      "fame": 38
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/eb199a1acbba4ed3f4f5",
+      "name": "500. Yıl Vakfı Türk Musevileri Müzesi",
+      "nameEnglish": "The Jewish Museum of Turkey",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 41.0267866,
+      "lng": 28.9727283,
+      "distanceFromTerminalMeters": 682,
+      "distanceFromDefaultTerminalMeters": 682,
+      "minDistanceFromAnyTerminalMeters": 682,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "39 Bereketzade Mahallesi Büyük Hendek Cadessi, İstanbul, 34421",
+      "openingHours": "10:00-16:00; Fr 10:00-13:00; Su 10:00-14:00",
+      "website": "https://www.muze500.com/",
+      "phone": "+90 212 292 63 33",
+      "cuisine": [],
+      "wheelchair": "no",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q1059699",
+      "wikipedia": "en:Jewish Museum of Turkey",
+      "osmTags": {
+        "tourism": "museum"
+      },
+      "fame": 15
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/9ed9dd63691e03fb35f3",
+      "name": "Beylerbeyi Sarayı",
+      "nameEnglish": "Beylerbeyi Palace",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 41.0427184,
+      "lng": 29.0400359,
+      "distanceFromTerminalMeters": 5536,
+      "distanceFromDefaultTerminalMeters": 5536,
+      "minDistanceFromAnyTerminalMeters": 5536,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "İstanbul, 34676",
+      "openingHours": "Tu-Su 09:00-18:00",
+      "website": "https://www.millisaraylar.gov.tr/en/saray-kosk-ve-kasirlar/beylerbeyi-sarayi",
+      "phone": "+90 216 321 93 20",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q794349",
+      "wikipedia": "tr:Beylerbeyi Sarayı",
+      "osmTags": {
+        "tourism": "museum"
+      },
+      "fame": 31
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/1044c7eec3acd5e13f4e",
+      "name": "Şerefiye Sarnıcı",
+      "nameEnglish": "Theodosius Cistern",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 41.0074148,
+      "lng": 28.9723954,
+      "distanceFromTerminalMeters": 1849,
+      "distanceFromDefaultTerminalMeters": 1849,
+      "minDistanceFromAnyTerminalMeters": 1849,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "4 Piyer Loti Caddesi, 34122",
+      "openingHours": "Mo-Su 09:00-18:00",
+      "website": "https://www.facebook.com/serefiyesarnici/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q3150393",
+      "wikipedia": "en:Theodosius Cistern",
+      "osmTags": {
+        "tourism": "museum"
+      },
+      "fame": 18
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/dab1a83ae65ed0b592eb",
+      "name": "Capitol Shopping Center",
+      "nameEnglish": "Capitol Shopping Center",
+      "category": "shopping",
+      "subcategory": "mall",
+      "lat": 41.0209493,
+      "lng": 29.0395004,
+      "distanceFromTerminalMeters": 5055,
+      "distanceFromDefaultTerminalMeters": 5055,
+      "minDistanceFromAnyTerminalMeters": 5055,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Mahir İz Caddesi, istanbul, 34662",
+      "openingHours": "10:00-22:00",
+      "website": "https://www.capitol.com.tr/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q3404574",
+      "wikipedia": "tr:Capitol Alışveriş Merkezi",
+      "osmTags": {
+        "shop": "mall"
+      },
+      "fame": 5
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/6cc59f8ffe74ca78af9c",
+      "name": "Инстаграмный магаз",
+      "nameEnglish": "Minoa Pera",
+      "category": "shopping",
+      "subcategory": "books",
+      "lat": 41.0299603,
+      "lng": 28.9732967,
+      "distanceFromTerminalMeters": 906,
+      "distanceFromDefaultTerminalMeters": 906,
+      "minDistanceFromAnyTerminalMeters": 906,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "99 Evliya Çelebi, 34430",
+      "openingHours": "Su-Sa 08:00-00:00",
+      "website": "https://minoa.com/",
+      "phone": "+902128920858",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "shop": "books"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/95fc91d6bea3ebae8d5f",
+      "name": "Salpa Sahaf",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "books",
+      "lat": 41.0330532,
+      "lng": 28.9824199,
+      "distanceFromTerminalMeters": 1126,
+      "distanceFromDefaultTerminalMeters": 1126,
+      "minDistanceFromAnyTerminalMeters": 1126,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "16/A Liva",
+      "openingHours": "Mo-Sa 13:00-20:00",
+      "website": "https://www.nadirkitap.com/kitapara.php?ara=aramayap&satici=246484",
+      "phone": "+90 538 011 8339",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "shop": "books"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/2ef37d85a5f3eff8ef53",
+      "name": "Zoks Store",
+      "nameEnglish": "Zoks Store",
+      "category": "shopping",
+      "subcategory": "gift",
+      "lat": 41.0318525,
+      "lng": 28.9485135,
+      "distanceFromTerminalMeters": 2757,
+      "distanceFromDefaultTerminalMeters": 2757,
+      "minDistanceFromAnyTerminalMeters": 2757,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "104A Vodina Caddesi, İstanbul, 34087",
+      "openingHours": "Mo-Su 09:00-19:00",
+      "website": "https://zoksstudio.com",
+      "phone": "+90 541 317 34 53",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Handmade Ceramics & More",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "shop": "gift"
       }
     }
   ],
-  "portAnchor": {
-    "id": "ports-json-anchor",
-    "name": "ISTANBUL Port",
-    "lat": 41.02,
-    "lng": 28.97,
-    "address": "Istanbul, Istanbul, Turkey",
-    "source": "ports.json",
-    "sourceId": "",
-    "score": 0,
-    "slug": "istanbul-port"
-  },
+  "gemSuggestions": [
+    "Balat colourful houses",
+    "Süleymaniye Mosque terrace"
+  ],
   "terminalResolution": {
     "status": "resolved",
-    "method": "terminal_review",
+    "method": "cruise-ports",
     "verified": true,
-    "reviewedAt": "2026-09-28",
     "notes": "Galataport is Istanbul's cruise terminal; the rest are Bosphorus ferry piers."
   }
 }

@@ -1,70 +1,35 @@
 {
-  "schemaVersion": 5,
-  "catalogType": "curation-candidates",
-  "generatedAt": "2026-07-30T09:09:46.313Z",
-  "source": "openstreetmap",
-  "sourceExtract": "sweden-latest.osm.pbf",
-  "radiusMeters": 10000,
-  "port": {
-    "id": "stockholm-sweden",
-    "city": "Stockholm",
-    "country": "Sweden"
-  },
   "defaultTerminalId": "manual/stockholm-sweden/stadsg-rden-cruise-terminal",
   "terminal": {
     "id": "manual/stockholm-sweden/stadsg-rden-cruise-terminal",
     "name": "Stadsgården Cruise Terminal",
-    "nameEnglish": "",
     "lat": 59.31691,
     "lng": 18.09159,
-    "address": "",
-    "source": "manual_web_research",
-    "sourceId": "manual/stockholm-sweden/stadsg-rden-cruise-terminal",
     "terminalType": "cruise_terminal",
-    "verified": true,
-    "notes": "Central Stockholm cruise facility. Multiple adjacent berth numbers share the same general passenger exit zone.",
+    "source": "manual_web_research",
     "sourceUrls": [
       "https://www.portsofstockholm.com/passengers/cruise/",
       "https://www.openstreetmap.org/?mlat=59.31691&mlon=18.09159#map=17/59.31691/18.09159"
     ],
-    "sources": [
-      "manual_web_research"
-    ],
-    "sourceIds": [
-      "manual/stockholm-sweden/stadsg-rden-cruise-terminal"
-    ],
-    "osmTags": {},
-    "matchedBy": [
-      "web_researched_terminal"
-    ]
+    "notes": "Central Stockholm cruise facility. Multiple adjacent berth numbers share the same general passenger exit zone.",
+    "sourceId": "manual/stockholm-sweden/stadsg-rden-cruise-terminal",
+    "verified": true
   },
   "terminals": [
     {
       "id": "manual/stockholm-sweden/stadsg-rden-cruise-terminal",
       "name": "Stadsgården Cruise Terminal",
-      "nameEnglish": "",
       "lat": 59.31691,
       "lng": 18.09159,
-      "address": "",
-      "source": "manual_web_research",
-      "sourceId": "manual/stockholm-sweden/stadsg-rden-cruise-terminal",
       "terminalType": "cruise_terminal",
-      "verified": true,
-      "notes": "Central Stockholm cruise facility. Multiple adjacent berth numbers share the same general passenger exit zone.",
+      "source": "manual_web_research",
       "sourceUrls": [
         "https://www.portsofstockholm.com/passengers/cruise/",
         "https://www.openstreetmap.org/?mlat=59.31691&mlon=18.09159#map=17/59.31691/18.09159"
       ],
-      "sources": [
-        "manual_web_research"
-      ],
-      "sourceIds": [
-        "manual/stockholm-sweden/stadsg-rden-cruise-terminal"
-      ],
-      "osmTags": {},
-      "matchedBy": [
-        "web_researched_terminal"
-      ]
+      "notes": "Central Stockholm cruise facility. Multiple adjacent berth numbers share the same general passenger exit zone.",
+      "sourceId": "manual/stockholm-sweden/stadsg-rden-cruise-terminal",
+      "verified": true
     },
     {
       "id": "review/stockholm-sweden/masthamnen-cruise-terminal",
@@ -73,9 +38,8 @@
       "lng": 18.10319,
       "terminalType": "passenger_cruise_terminal",
       "source": "terminal_review",
-      "sourceUrls": [],
-      "verified": true,
-      "sourceId": "review/stockholm-sweden/masthamnen-cruise-terminal"
+      "sourceId": "review/stockholm-sweden/masthamnen-cruise-terminal",
+      "verified": true
     },
     {
       "id": "review/stockholm-sweden/stockholm-cruise-center-frihamnen",
@@ -84,1253 +48,217 @@
       "lng": 18.12954,
       "terminalType": "passenger_cruise_terminal",
       "source": "terminal_review",
-      "sourceUrls": [],
-      "verified": true,
-      "sourceId": "review/stockholm-sweden/stockholm-cruise-center-frihamnen"
+      "sourceId": "review/stockholm-sweden/stockholm-cruise-center-frihamnen",
+      "verified": true
     },
     {
       "id": "manual/stockholm-sweden/nyn-shamn-cruise-terminal",
       "name": "Nynäshamn Cruise Terminal",
-      "nameEnglish": "",
       "lat": 58.90663,
       "lng": 17.95579,
-      "address": "",
-      "source": "manual_web_research",
-      "sourceId": "manual/stockholm-sweden/nyn-shamn-cruise-terminal",
       "terminalType": "gateway_cruise_terminal",
-      "verified": true,
-      "notes": "Outer Stockholm-region cruise port used by some large ships. Coordinate marks the passenger terminal and shuttle area.",
+      "source": "manual_web_research",
       "sourceUrls": [
         "https://www.portsofstockholm.com/passengers/cruise/",
         "https://www.openstreetmap.org/?mlat=58.90663&mlon=17.95579#map=17/58.90663/17.95579"
       ],
-      "sources": [
-        "manual_web_research"
-      ],
-      "sourceIds": [
-        "manual/stockholm-sweden/nyn-shamn-cruise-terminal"
-      ],
-      "osmTags": {},
-      "matchedBy": [
-        "web_researched_terminal"
-      ]
+      "notes": "Outer Stockholm-region cruise port used by some large ships. Coordinate marks the passenger terminal and shuttle area.",
+      "sourceId": "manual/stockholm-sweden/nyn-shamn-cruise-terminal",
+      "verified": true
     }
   ],
-  "terminalCandidateRadiusMeters": 5000,
-  "terminalCandidates": [
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/a540f166ad51c40866dc",
-      "name": "(unnamed maritime feature)",
-      "nameEnglish": "",
-      "lat": 59.3279998,
-      "lng": 18.0576975,
-      "distanceFromPortMeters": 490,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/a540f166ad51c40866dc"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/ac65ea02728528b0dfb8",
-      "name": "Klara Mälarstrand",
-      "nameEnglish": "",
-      "lat": 59.3277368,
-      "lng": 18.0580091,
-      "distanceFromPortMeters": 519,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/ac65ea02728528b0dfb8"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/4c10e98705d734190c55",
-      "name": "Zeam",
-      "nameEnglish": "",
-      "lat": 59.3261849,
-      "lng": 18.0440806,
-      "distanceFromPortMeters": 541,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "cargo": "passengers",
-        "ferry": "yes",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/4c10e98705d734190c55"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/72f43cbe7a1aaf5efc2d",
-      "name": "Drottingholm, Mälarlunch",
-      "nameEnglish": "",
-      "lat": 59.3278071,
-      "lng": 18.059045,
-      "distanceFromPortMeters": 568,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/72f43cbe7a1aaf5efc2d"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/13f2550d66bce2da3a14",
-      "name": "Birka, Mälarparty",
-      "nameEnglish": "",
-      "lat": 59.3278676,
-      "lng": 18.0595342,
-      "distanceFromPortMeters": 590,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/13f2550d66bce2da3a14"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/363e0670bf6eaa223b04",
-      "name": "Birka skoltrafik",
-      "nameEnglish": "",
-      "lat": 59.3278818,
-      "lng": 18.0598031,
-      "distanceFromPortMeters": 604,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/363e0670bf6eaa223b04"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/45362487617071f1a247",
-      "name": "Riddarholmen",
-      "nameEnglish": "",
-      "lat": 59.3244822,
-      "lng": 18.0616372,
-      "distanceFromPortMeters": 901,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "operator": "E/S Movitz",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/45362487617071f1a247"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/5a4c9b2dc3cf80e65b15",
-      "name": "(unnamed maritime feature)",
-      "nameEnglish": "",
-      "lat": 59.3213637,
-      "lng": 18.0504352,
-      "distanceFromPortMeters": 961,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "cargo": "passengers"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/5a4c9b2dc3cf80e65b15"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/10bb6a6112d088a9df52",
-      "name": "Strömkajen",
-      "nameEnglish": "",
-      "lat": 59.3294181,
-      "lng": 18.0737815,
-      "distanceFromPortMeters": 1350,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "public_transport": "stop_position"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/10bb6a6112d088a9df52"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/d0378df189c2b6861b4a",
-      "name": "Waxholmsbolaget",
-      "nameEnglish": "",
-      "lat": 59.3294559,
-      "lng": 18.0748397,
-      "distanceFromPortMeters": 1410,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "building": "transportation",
-        "ferry": "yes",
-        "operator": "Waxholmsbolaget",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/d0378df189c2b6861b4a"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/d7eae391e168b6b101e3",
-      "name": "Hop-on Hop-off",
-      "nameEnglish": "",
-      "lat": 59.3270825,
-      "lng": 18.0748531,
-      "distanceFromPortMeters": 1447,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/d7eae391e168b6b101e3"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/aaf93b8b72f508ed9c37",
-      "name": "Strömkajen",
-      "nameEnglish": "",
-      "lat": 59.32907,
-      "lng": 18.0756268,
-      "distanceFromPortMeters": 1457,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "public_transport": "stop_position"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/aaf93b8b72f508ed9c37"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/3b3eb6ed1a47d3cc01da",
-      "name": "Nybrokajen",
-      "nameEnglish": "",
-      "lat": 59.3316818,
-      "lng": 18.0763364,
-      "distanceFromPortMeters": 1505,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "operator": "Strömma Kanalbolaget",
-        "public_transport": "stop_position"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/3b3eb6ed1a47d3cc01da"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/b1cdfc8c073f32320050",
-      "name": "Nybroplan",
-      "nameEnglish": "",
-      "lat": 59.3319039,
-      "lng": 18.0763928,
-      "distanceFromPortMeters": 1512,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "public_transport": "stop_position"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/b1cdfc8c073f32320050"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/cbe911c58e5dad512801",
-      "name": "Strömkajen",
-      "nameEnglish": "",
-      "lat": 59.3283706,
-      "lng": 18.0768096,
-      "distanceFromPortMeters": 1531,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "public_transport": "stop_position"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/cbe911c58e5dad512801"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/30a3f2378c50fa40c811",
-      "name": "Nybrokajen",
-      "nameEnglish": "",
-      "lat": 59.3308056,
-      "lng": 18.0778161,
-      "distanceFromPortMeters": 1580,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "operator": "Strömma Kanalbolaget",
-        "public_transport": "stop_position"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/30a3f2378c50fa40c811"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/6417bbbefb59a35ee5dd",
-      "name": "Strandvägen",
-      "nameEnglish": "",
-      "lat": 59.3320532,
-      "lng": 18.0783041,
-      "distanceFromPortMeters": 1622,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "operator": "Strömma Kanalbolaget",
-        "public_transport": "stop_position"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/6417bbbefb59a35ee5dd"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/bd83e790d2c04ffba0cc",
-      "name": "Slussen",
-      "nameEnglish": "",
-      "lat": 59.3237978,
-      "lng": 18.0764328,
-      "distanceFromPortMeters": 1650,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "public_transport": "stop_position"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/bd83e790d2c04ffba0cc"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/abbc8e7079d0bda3de2c",
-      "name": "Strandvägen",
-      "nameEnglish": "",
-      "lat": 59.3313412,
-      "lng": 18.0805439,
-      "distanceFromPortMeters": 1739,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "operator": "Strömma Kanalbolaget",
-        "public_transport": "stop_position"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/abbc8e7079d0bda3de2c"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/d5dc3304e06e61d4ba5c",
-      "name": "(unnamed maritime feature)",
-      "nameEnglish": "",
-      "lat": 59.3099581,
-      "lng": 18.0443489,
-      "distanceFromPortMeters": 2252,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/d5dc3304e06e61d4ba5c"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/274ce6090b307353b401",
-      "name": "Skeppsholmen",
-      "nameEnglish": "",
-      "lat": 59.3249862,
-      "lng": 18.0892022,
-      "distanceFromPortMeters": 2293,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/274ce6090b307353b401"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/feccf8b4baf548d14878",
-      "name": "Årsta holmars brygga",
-      "nameEnglish": "",
-      "lat": 59.3086755,
-      "lng": 18.0414434,
-      "distanceFromPortMeters": 2420,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/feccf8b4baf548d14878"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/7bc01d6469e508564895",
-      "name": "Lilla Essingen",
-      "nameEnglish": "",
-      "lat": 59.3232809,
-      "lng": 18.0088856,
-      "distanceFromPortMeters": 2449,
-      "address": "Stockholm, 112 67",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "operator": "SL",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/7bc01d6469e508564895"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/1a806dd791ca727a28db",
-      "name": "Viking Line Stockholm",
-      "nameEnglish": "Viking Line Stockholm",
-      "lat": 59.3177003,
-      "lng": 18.0887506,
-      "distanceFromPortMeters": 2589,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "name:en": "Viking Line Stockholm",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/1a806dd791ca727a28db"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/f15a01c1bff2451bb101",
-      "name": "Allmänna gränd",
-      "nameEnglish": "",
-      "lat": 59.324222,
-      "lng": 18.0942741,
-      "distanceFromPortMeters": 2592,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/f15a01c1bff2451bb101"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/fa427052cd24132b6e18",
-      "name": "Hornsbergs Strand",
-      "nameEnglish": "",
-      "lat": 59.339977,
-      "lng": 18.004668,
-      "distanceFromPortMeters": 2800,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "operator": "E/S Movitz",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/fa427052cd24132b6e18"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/0f92ce230bc820a2a98d",
-      "name": "Viking Line: Stadsgården, Stockholm",
-      "nameEnglish": "",
-      "lat": 59.3169172,
-      "lng": 18.0951941,
-      "distanceFromPortMeters": 2948,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "public_transport": "stop_position"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/0f92ce230bc820a2a98d"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/855e3072a09c95999535",
-      "name": "Viking Line terminal",
-      "nameEnglish": "Viking Line Terminal",
-      "lat": 59.3161295,
-      "lng": 18.0969709,
-      "distanceFromPortMeters": 3079,
-      "address": "Tegelvikshamn, Stockholm, 116 45",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "building": "transportation",
-        "ferry": "yes",
-        "name:en": "Viking Line Terminal",
-        "operator": "Viking Line",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/855e3072a09c95999535"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/071d14fe449dce7155b3",
-      "name": "Viking Line: Stadsgården, Stockholm",
-      "nameEnglish": "",
-      "lat": 59.3161315,
-      "lng": 18.0990844,
-      "distanceFromPortMeters": 3183,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "public_transport": "stop_position"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/071d14fe449dce7155b3"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/3c23bb437286a9ade817",
-      "name": "Masthamnen",
-      "nameEnglish": "",
-      "lat": 59.3157653,
-      "lng": 18.1067966,
-      "distanceFromPortMeters": 3590,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "public_transport": "stop_position"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/3c23bb437286a9ade817"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/c61720f1b235226c6ede",
-      "name": "Barnängsbryggan",
-      "nameEnglish": "",
-      "lat": 59.3080273,
-      "lng": 18.097532,
-      "distanceFromPortMeters": 3639,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "public_transport": "stop_position"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/c61720f1b235226c6ede"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/c3a24070cab746e27641",
-      "name": "Alviks Strand",
-      "nameEnglish": "",
-      "lat": 59.3288104,
-      "lng": 17.9855322,
-      "distanceFromPortMeters": 3659,
-      "address": "Bromma, 167 51",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "operator": "E/S Movitz",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/c3a24070cab746e27641"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/dc82650bd0fa4f3f9d4c",
-      "name": "Henriksdal",
-      "nameEnglish": "",
-      "lat": 59.309209,
-      "lng": 18.1012638,
-      "distanceFromPortMeters": 3715,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "public_transport": "stop_position"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/dc82650bd0fa4f3f9d4c"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/4a46b6c2eb1dea46070d",
-      "name": "Saltsjöqvarn",
-      "nameEnglish": "",
-      "lat": 59.3151329,
-      "lng": 18.1103205,
-      "distanceFromPortMeters": 3800,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "public_transport": "stop_position"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/4a46b6c2eb1dea46070d"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/82be9f75dce2d40b28e7",
-      "name": "Ekensberg",
-      "nameEnglish": "",
-      "lat": 59.3156252,
-      "lng": 17.9881616,
-      "distanceFromPortMeters": 3855,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/82be9f75dce2d40b28e7"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/942d4fbf9b11129a8bb7",
-      "name": "Lumabryggan",
-      "nameEnglish": "",
-      "lat": 59.3058155,
-      "lng": 18.0993318,
-      "distanceFromPortMeters": 3882,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "public_transport": "stop_position"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/942d4fbf9b11129a8bb7"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/7ac64ffc0f02ab5ee4ed",
-      "name": "Stora Essingen",
-      "nameEnglish": "",
-      "lat": 59.3165431,
-      "lng": 17.9845687,
-      "distanceFromPortMeters": 4002,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/7ac64ffc0f02ab5ee4ed"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/f85e64ad9ae00fa991a9",
-      "name": "Värtahamnen, Stockholm",
-      "nameEnglish": "",
-      "lat": 59.349645,
-      "lng": 18.1100799,
-      "distanceFromPortMeters": 4047,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "cargo": "passengers;vehicle",
-        "ferry": "yes",
-        "public_transport": "stop_position"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/f85e64ad9ae00fa991a9"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/e6d7a831094906b7ee92",
-      "name": "Frihamnsterminalen",
-      "nameEnglish": "",
-      "lat": 59.3434204,
-      "lng": 18.1191381,
-      "distanceFromPortMeters": 4195,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "cargo": "passengers",
-        "ferry": "yes",
-        "operator": "Tallink Silja AB",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/e6d7a831094906b7ee92"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/2febe1bfd11a16c1f164",
-      "name": "Värtaterminalen",
-      "nameEnglish": "",
-      "lat": 59.3513622,
-      "lng": 18.1118449,
-      "distanceFromPortMeters": 4235,
-      "address": "10 Hamnpirsvägen, Stockholm, 115 41, SE",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "building": "yes",
-        "ferry": "yes",
-        "operator": "Stockholms Hamnar / Tallink-Silja Line",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/2febe1bfd11a16c1f164"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/c20df383ba87211815b9",
-      "name": "Värtahamnen, Stockholm",
-      "nameEnglish": "",
-      "lat": 59.3506036,
-      "lng": 18.115094,
-      "distanceFromPortMeters": 4344,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "cargo": "passengers;vehicle",
-        "ferry": "yes",
-        "public_transport": "stop_position"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/c20df383ba87211815b9"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/8c0d23cbe2550a422c32",
-      "name": "(unnamed maritime feature)",
-      "nameEnglish": "",
-      "lat": 59.3526563,
-      "lng": 18.1125245,
-      "distanceFromPortMeters": 4349,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "public_transport": "stop_position"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/8c0d23cbe2550a422c32"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/0627ad3a630cb2af2389",
-      "name": "Lindholmen",
-      "nameEnglish": "",
-      "lat": 59.3135608,
-      "lng": 17.9799923,
-      "distanceFromPortMeters": 4372,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/0627ad3a630cb2af2389"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/0ac3090000d063330f44",
-      "name": "Finnboda hamn",
-      "nameEnglish": "",
-      "lat": 59.3160822,
-      "lng": 18.1242317,
-      "distanceFromPortMeters": 4487,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "public_transport": "stop_position"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/0ac3090000d063330f44"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/83a7f956122f7e60efa9",
-      "name": "Ropsten",
-      "nameEnglish": "",
-      "lat": 59.3584147,
-      "lng": 18.1062326,
-      "distanceFromPortMeters": 4489,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "public_transport": "stop_position"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/83a7f956122f7e60efa9"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/e575ff03d02f7fe7b707",
-      "name": "Frihamnen, Stockholm",
-      "nameEnglish": "",
-      "lat": 59.3454401,
-      "lng": 18.1245522,
-      "distanceFromPortMeters": 4563,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "public_transport": "stop_position"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/e575ff03d02f7fe7b707"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/23b4aaec86dbcec800e3",
-      "name": "Värtahamnen, Stockholm",
-      "nameEnglish": "",
-      "lat": 59.3526186,
-      "lng": 18.1173289,
-      "distanceFromPortMeters": 4572,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "cargo": "passengers;vehicle",
-        "ferry": "yes",
-        "public_transport": "stop_position"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/23b4aaec86dbcec800e3"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/08bf41a266173368eb48",
-      "name": "Frihamnen",
-      "nameEnglish": "",
-      "lat": 59.3458399,
-      "lng": 18.1314401,
-      "distanceFromPortMeters": 4943,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "public_transport": "stop_position"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/08bf41a266173368eb48"
-      ]
-    }
-  ],
+  "schemaVersion": 5,
+  "catalogType": "curation-candidates",
+  "generatedAt": "2026-09-29T05:47:49.427Z",
+  "source": "openstreetmap",
+  "sourceExtract": "sweden-latest.osm.pbf",
+  "radiusMeters": 10000,
+  "port": {
+    "id": "stockholm-sweden",
+    "city": "Stockholm",
+    "country": "Sweden"
+  },
+  "portAnchor": {
+    "id": "ports-json-anchor",
+    "name": "Stadsgården Cruise Terminal",
+    "lat": 59.31691,
+    "lng": 18.09159,
+    "address": "Stockholm, Stockholm County, Sweden",
+    "source": "ports.json",
+    "sourceId": "",
+    "score": 0,
+    "slug": "stadsg-rden-cruise-terminal"
+  },
   "counts": {
-    "attraction": 14,
-    "outdoors": 5,
-    "food_drink": 16,
-    "essentials": 2,
-    "shopping": 0
+    "attraction": 28,
+    "food_drink": 25,
+    "shopping": 15,
+    "outdoors": 13,
+    "essentials": 3
   },
   "pois": [
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/728921abaae6aceae87d",
-      "name": "Tre Kronor",
-      "nameEnglish": "Tre Kronor Museum",
+      "sourceId": "osm/generated/bb2c7f36bd79ac3dbff9",
+      "name": "Fotografiska",
+      "nameEnglish": "",
       "category": "attraction",
       "subcategory": "museum",
-      "lat": 59.3274107,
-      "lng": 18.0710534,
-      "distanceFromTerminalMeters": 1228,
-      "distanceFromDefaultTerminalMeters": 1228,
-      "minDistanceFromAnyTerminalMeters": 1228,
+      "lat": 59.3180039,
+      "lng": 18.0847007,
+      "distanceFromTerminalMeters": 409,
+      "distanceFromDefaultTerminalMeters": 409,
+      "minDistanceFromAnyTerminalMeters": 409,
       "nearestTerminalId": "ports-json-anchor",
-      "address": "",
-      "openingHours": "Mo-Su 10:00-17:00",
-      "website": "http://www.kungahuset.se/kungligaslotten/kungligaslottet/museumtrekronor",
-      "phone": "+4684026130",
+      "address": "22 Stadsgårdshamnen, Stockholm, 11645",
+      "openingHours": "Mo-Su 10:00-23:00",
+      "website": "https://www.fotografiska.com/sto/",
+      "phone": "+46 8 509 005 00",
       "cuisine": [],
-      "wheelchair": "",
+      "wheelchair": "yes",
       "brand": "",
-      "description": "Explains the 13th century fortifications that underly the Royal Palace",
+      "description": "",
+      "wikidata": "Q1439649",
+      "wikipedia": "sv:Fotografiska",
       "osmTags": {
         "tourism": "museum"
-      }
+      },
+      "curated": true,
+      "gem": true,
+      "fame": 12
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/f11d9de29c5cddf51b0d",
+      "sourceId": "osm/generated/5d9e631a23e218f44a41",
+      "name": "Robin Delselius Bageri",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "bakery",
+      "lat": 59.3151093,
+      "lng": 18.0842,
+      "distanceFromTerminalMeters": 465,
+      "distanceFromDefaultTerminalMeters": 465,
+      "minDistanceFromAnyTerminalMeters": 465,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Fr 07:00-18:30; Sa-Su 07:00-17:00",
+      "website": "https://robindelseliusbageri.se",
+      "phone": "+46840801615",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "shop": "bakery"
+      },
+      "curated": true,
+      "gem": true
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/5e80a2e50f2bef256dc2",
+      "name": "Fjällgatans kaffestuga",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 59.3173866,
+      "lng": 18.0871,
+      "distanceFromTerminalMeters": 260,
+      "distanceFromDefaultTerminalMeters": 260,
+      "minDistanceFromAnyTerminalMeters": 260,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "37 Fjällgatan, Stockholm, 116 28",
+      "openingHours": "week 22-40 Mo-Fr 09:00-(sunset-00:30); week 22-40 Sa-Su 10:00-(sunset-00:30); week 22-40 PH 10:00-(sunset-00:30)",
+      "website": "https://www.fjallgatan.com/",
+      "phone": "",
+      "cuisine": [
+        "coffee_shop"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "cafe"
+      },
+      "curated": true,
+      "gem": true
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/1374d472014e2fec1a2f",
+      "name": "Den Gyldene Freden",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 59.3231029,
+      "lng": 18.0737929,
+      "distanceFromTerminalMeters": 1222,
+      "distanceFromDefaultTerminalMeters": 1222,
+      "minDistanceFromAnyTerminalMeters": 1222,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Th 12:00-23:00; Fr,Sa 12:00-01:00; Su off",
+      "website": "https://www.gyldenefreden.se/",
+      "phone": "+468249760",
+      "cuisine": [
+        "swedish"
+      ],
+      "wheelchair": "limited",
+      "brand": "",
+      "description": "Established 1722",
+      "wikidata": "Q5256462",
+      "wikipedia": "sv:Den Gyldene Freden",
+      "osmTags": {
+        "amenity": "restaurant"
+      },
+      "curated": true,
+      "gem": true,
+      "fame": 5
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c2f442b5d0d19eff79f1",
+      "name": "Avicii Arena",
+      "nameEnglish": "Avicii Arena",
+      "category": "outdoors",
+      "subcategory": "stadium",
+      "lat": 59.2936091,
+      "lng": 18.0832128,
+      "distanceFromTerminalMeters": 2634,
+      "distanceFromDefaultTerminalMeters": 2634,
+      "minDistanceFromAnyTerminalMeters": 2634,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "https://aviciiarena.se",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "limited",
+      "brand": "",
+      "description": "Multiarena för musik, sport och evenemang.",
+      "wikidata": "Q32926",
+      "wikipedia": "sv:Globen",
+      "osmTags": {
+        "leisure": "stadium"
+      },
+      "fame": 49
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/cc42cab13c00bc1139bd",
       "name": "Stockholms slott",
       "nameEnglish": "Royal Palace",
       "category": "attraction",
       "subcategory": "attraction",
-      "lat": 59.3268923,
-      "lng": 18.0716881,
-      "distanceFromTerminalMeters": 1278,
-      "distanceFromDefaultTerminalMeters": 1278,
-      "minDistanceFromAnyTerminalMeters": 1278,
+      "lat": 59.3269411,
+      "lng": 18.0716277,
+      "distanceFromTerminalMeters": 1590,
+      "distanceFromDefaultTerminalMeters": 1590,
+      "minDistanceFromAnyTerminalMeters": 1590,
       "nearestTerminalId": "ports-json-anchor",
       "address": "1 Slottsbacken, Stockholm, SE",
       "openingHours": "",
@@ -1340,10 +268,13 @@
       "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "Q750444",
+      "wikipedia": "sv:Stockholms slott",
       "osmTags": {
         "historic": "castle",
         "tourism": "attraction"
-      }
+      },
+      "fame": 44
     },
     {
       "source": "openstreetmap",
@@ -1354,9 +285,9 @@
       "subcategory": "attraction",
       "lat": 59.3249529,
       "lng": 18.0706429,
-      "distanceFromTerminalMeters": 1298,
-      "distanceFromDefaultTerminalMeters": 1298,
-      "minDistanceFromAnyTerminalMeters": 1298,
+      "distanceFromTerminalMeters": 1487,
+      "distanceFromDefaultTerminalMeters": 1487,
+      "minDistanceFromAnyTerminalMeters": 1487,
       "nearestTerminalId": "ports-json-anchor",
       "address": "",
       "openingHours": "",
@@ -1366,149 +297,26 @@
       "wheelchair": "yes",
       "brand": "",
       "description": "",
+      "wikidata": "Q579854",
+      "wikipedia": "sv:Gamla stan",
       "osmTags": {
         "place": "suburb",
         "tourism": "attraction"
-      }
+      },
+      "fame": 41
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/8c9522e08eb531cd2dc3",
-      "name": "Konstakademien",
-      "nameEnglish": "Royal Academy of Fine Arts",
-      "category": "attraction",
-      "subcategory": "museum",
-      "lat": 59.3287664,
-      "lng": 18.0643695,
-      "distanceFromTerminalMeters": 827,
-      "distanceFromDefaultTerminalMeters": 827,
-      "minDistanceFromAnyTerminalMeters": 827,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "27 Jakobsgatan, Stockholm, 111 52, SE",
-      "openingHours": "Mo,Su off; Tu-Sa 11:00-16:00",
-      "website": "https://konstakademien.se/",
-      "phone": "",
-      "cuisine": [],
-      "wheelchair": "",
-      "brand": "",
-      "description": "The Royal Academy of Fine Arts was founded in 1735",
-      "osmTags": {
-        "tourism": "museum"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/2f55f50d406a4b4539bf",
-      "name": "Dansmuseet",
-      "nameEnglish": "Dance Museum",
-      "category": "attraction",
-      "subcategory": "museum",
-      "lat": 59.3297418,
-      "lng": 18.0653366,
-      "distanceFromTerminalMeters": 870,
-      "distanceFromDefaultTerminalMeters": 870,
-      "minDistanceFromAnyTerminalMeters": 870,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "",
-      "openingHours": "",
-      "website": "https://dansmuseet.se/",
-      "phone": "",
-      "cuisine": [],
-      "wheelchair": "",
-      "brand": "",
-      "description": "Dance, theatre, art and photo.",
-      "osmTags": {
-        "tourism": "museum"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/64b492d8d91c28e2648a",
-      "name": "Medelhavsmuseet",
-      "nameEnglish": "Museum of Mediterranean & Near East Antiquities",
-      "category": "attraction",
-      "subcategory": "museum",
-      "lat": 59.3294531,
-      "lng": 18.0672982,
-      "distanceFromTerminalMeters": 983,
-      "distanceFromDefaultTerminalMeters": 983,
-      "minDistanceFromAnyTerminalMeters": 983,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "",
-      "openingHours": "Mo off; Tu-Su 11:00-17:00",
-      "website": "https://www.medelhavsmuseet.se/",
-      "phone": "",
-      "cuisine": [],
-      "wheelchair": "yes",
-      "brand": "",
-      "description": "Archaeological museum with focus on ancient cultures around the Mediterranean",
-      "osmTags": {
-        "tourism": "museum"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/93611618db2a315f520b",
-      "name": "Strindbergsmuseet",
-      "nameEnglish": "Strindberg Museum",
-      "category": "attraction",
-      "subcategory": "museum",
-      "lat": 59.3385327,
-      "lng": 18.0566136,
-      "distanceFromTerminalMeters": 1020,
-      "distanceFromDefaultTerminalMeters": 1020,
-      "minDistanceFromAnyTerminalMeters": 1020,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "",
-      "openingHours": "Mo off; Tu-Su 12:00-16:00",
-      "website": "https://www.strindbergsmuseet.se/",
-      "phone": "+46 8 411 53 54",
-      "cuisine": [],
-      "wheelchair": "no",
-      "brand": "",
-      "description": "Last home of writer August Strindberg (1849 - 1912)",
-      "osmTags": {
-        "tourism": "museum"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/b3ca8c758f30d00cc444",
-      "name": "Hallwylska palatset",
-      "nameEnglish": "Hallwyl Museum",
-      "category": "attraction",
-      "subcategory": "museum",
-      "lat": 59.3332771,
-      "lng": 18.0745279,
-      "distanceFromTerminalMeters": 1438,
-      "distanceFromDefaultTerminalMeters": 1438,
-      "minDistanceFromAnyTerminalMeters": 1438,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "4 Hamngatan, Stockholm, 111 47",
-      "openingHours": "Tu, Th-Fr 12:00-16:00; We 12:00-19:00; Sa-Su 11:00-17:00",
-      "website": "https://hallwylskamuseet.se/",
-      "phone": "+46 8 4023099",
-      "cuisine": [],
-      "wheelchair": "",
-      "brand": "",
-      "description": "Private late 19th century palace with Wilhelmina von Hallwyl's collection of Dutch and Flemish painting, porcelain, silver , weapons textiles and household objects.",
-      "osmTags": {
-        "historic": "castle",
-        "tourism": "museum"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/2b07cf7a29bdb12dbe93",
+      "sourceId": "osm/generated/ff4064312b6e94752d75",
       "name": "Vasamuseet",
       "nameEnglish": "Vasa Museum",
       "category": "attraction",
       "subcategory": "museum",
-      "lat": 59.3281048,
+      "lat": 59.3281416,
       "lng": 18.0913889,
-      "distanceFromTerminalMeters": 2357,
-      "distanceFromDefaultTerminalMeters": 2357,
-      "minDistanceFromAnyTerminalMeters": 2357,
+      "distanceFromTerminalMeters": 1249,
+      "distanceFromDefaultTerminalMeters": 1249,
+      "minDistanceFromAnyTerminalMeters": 1249,
       "nearestTerminalId": "ports-json-anchor",
       "address": "",
       "openingHours": "Mo-Su 08:30-18:00",
@@ -1518,35 +326,41 @@
       "wheelchair": "yes",
       "brand": "",
       "description": "Almost entire 1628 Swedish warship raised and preserved in the '60s.",
+      "wikidata": "Q901371",
+      "wikipedia": "sv:Vasamuseet",
       "osmTags": {
         "historic": "ship",
         "tourism": "museum"
-      }
+      },
+      "fame": 39
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/24902dec572f12d65e8b",
-      "name": "Abbamuseet",
-      "nameEnglish": "ABBA The Museum",
+      "sourceId": "osm/generated/5e399a3bd82c61266fd9",
+      "name": "Nationalmuseum",
+      "nameEnglish": "National Museum of Fine Arts",
       "category": "attraction",
       "subcategory": "museum",
-      "lat": 59.3248966,
-      "lng": 18.0965661,
-      "distanceFromTerminalMeters": 2702,
-      "distanceFromDefaultTerminalMeters": 2702,
-      "minDistanceFromAnyTerminalMeters": 2702,
+      "lat": 59.3284862,
+      "lng": 18.0781967,
+      "distanceFromTerminalMeters": 1495,
+      "distanceFromDefaultTerminalMeters": 1495,
+      "minDistanceFromAnyTerminalMeters": 1495,
       "nearestTerminalId": "ports-json-anchor",
-      "address": "68 Djurgårdsvägen, Stockholm, 115 21",
-      "openingHours": "10:00-18:00",
-      "website": "https://abbathemuseum.com",
-      "phone": "",
+      "address": "",
+      "openingHours": "Mo off; Tu-We,Fr-Su 11:00-17:00; Th 11:00-20:00",
+      "website": "https://www.nationalmuseum.se",
+      "phone": "+46 8 519 543 00",
       "cuisine": [],
       "wheelchair": "yes",
       "brand": "",
-      "description": "",
+      "description": "Sweden's leading museum for art and design.",
+      "wikidata": "Q842858",
+      "wikipedia": "sv:Nationalmuseum, Stockholm",
       "osmTags": {
         "tourism": "museum"
-      }
+      },
+      "fame": 39
     },
     {
       "source": "openstreetmap",
@@ -1557,9 +371,9 @@
       "subcategory": "theme_park",
       "lat": 59.3265469,
       "lng": 18.1050876,
-      "distanceFromTerminalMeters": 3148,
-      "distanceFromDefaultTerminalMeters": 3148,
-      "minDistanceFromAnyTerminalMeters": 3148,
+      "distanceFromTerminalMeters": 1317,
+      "distanceFromDefaultTerminalMeters": 1317,
+      "minDistanceFromAnyTerminalMeters": 1317,
       "nearestTerminalId": "ports-json-anchor",
       "address": "49-51 Djurgårdsslätten, Stockholm, 115 21, SE",
       "openingHours": "Mo-Su 10:00-18:00",
@@ -1569,109 +383,642 @@
       "wheelchair": "limited",
       "brand": "",
       "description": "Sveriges äldsta friluftsmuseum och Stockholms enda djurpark.",
+      "wikidata": "Q725108",
+      "wikipedia": "sv:Skansen",
       "osmTags": {
         "tourism": "theme_park"
-      }
+      },
+      "fame": 38
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/86b005544cc15a3ff2f6",
-      "name": "Långholmens klippbad",
-      "nameEnglish": "",
-      "category": "outdoors",
-      "subcategory": "beach",
-      "lat": 59.3228861,
-      "lng": 18.0348812,
-      "distanceFromTerminalMeters": 1167,
-      "distanceFromDefaultTerminalMeters": 1167,
-      "minDistanceFromAnyTerminalMeters": 1167,
+      "sourceId": "osm/generated/581bdd2104ba837b1a22",
+      "name": "Stockholms stadshus",
+      "nameEnglish": "Stockholm City Hall",
+      "category": "attraction",
+      "subcategory": "townhall",
+      "lat": 59.3274933,
+      "lng": 18.0548845,
+      "distanceFromTerminalMeters": 2392,
+      "distanceFromDefaultTerminalMeters": 2392,
+      "minDistanceFromAnyTerminalMeters": 2392,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1 Hantverkargatan, Stockholm, 11152, SE",
+      "openingHours": "",
+      "website": "https://stadshuset.stockholm/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q648483",
+      "wikipedia": "sv:Stockholms stadshus",
+      "osmTags": {
+        "amenity": "townhall",
+        "historic": "townhall"
+      },
+      "fame": 38
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c3f31d2a09be70082970",
+      "name": "Nobelprismuseet",
+      "nameEnglish": "Nobel Museum",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 59.3252155,
+      "lng": 18.0708309,
+      "distanceFromTerminalMeters": 1497,
+      "distanceFromDefaultTerminalMeters": 1497,
+      "minDistanceFromAnyTerminalMeters": 1497,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Sep-Mar Tu-Th 11:00-17:00; Fr 11:00-21:00; Sa-Su 11:00-17:00; Mo off; Apr-May Tu-Th 11:00-17:00; Fr 11:00-21:00; Sa-Su 10:00-18:00; Mo off; Jun-Aug Mo-Th,Sa-Su 10:00-19:00; Fr 10:00-21:00; PH off",
+      "website": "https://www.nobelprizemuseum.se",
+      "phone": "+46853481800",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "About the Nobel Prize, Alfred Nobel and the prize winners.",
+      "wikidata": "Q1968711",
+      "wikipedia": "sv:Nobelprismuseet",
+      "osmTags": {
+        "tourism": "museum"
+      },
+      "fame": 35
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c0ad16dcc2b20b34c6e2",
+      "name": "Storkyrkan",
+      "nameEnglish": "Great Church",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 59.3257708,
+      "lng": 18.070412,
+      "distanceFromTerminalMeters": 1554,
+      "distanceFromDefaultTerminalMeters": 1554,
+      "minDistanceFromAnyTerminalMeters": 1554,
       "nearestTerminalId": "ports-json-anchor",
       "address": "",
       "openingHours": "",
-      "website": "",
+      "website": "https://www.svenskakyrkan.se/stockholmsdomkyrkoforsamling/visitors",
       "phone": "",
       "cuisine": [],
       "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "Q1133075",
+      "wikipedia": "sv:Storkyrkan",
       "osmTags": {
-        "natural": "beach"
-      }
+        "amenity": "place_of_worship",
+        "tourism": "attraction"
+      },
+      "fame": 34
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/a93123f5455ca969b300",
-      "name": "Vanadislunden",
-      "nameEnglish": "",
-      "category": "outdoors",
-      "subcategory": "park",
-      "lat": 59.3486194,
-      "lng": 18.0537811,
-      "distanceFromTerminalMeters": 2081,
-      "distanceFromDefaultTerminalMeters": 2081,
-      "minDistanceFromAnyTerminalMeters": 2081,
+      "sourceId": "osm/generated/e79817972e36562b8971",
+      "name": "Nordiska museet",
+      "nameEnglish": "Nordic Museum",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 59.3291499,
+      "lng": 18.0938662,
+      "distanceFromTerminalMeters": 1367,
+      "distanceFromDefaultTerminalMeters": 1367,
+      "minDistanceFromAnyTerminalMeters": 1367,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Su 10:00-17:00",
+      "website": "https://nordiskamuseet.se",
+      "phone": "+46 8 51954600",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "Collection of Swedish cultural objects from 1520 to the present day.",
+      "wikidata": "Q1142142",
+      "wikipedia": "sv:Nordiska museet",
+      "osmTags": {
+        "tourism": "museum"
+      },
+      "fame": 33
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/783153a557f613b1bbeb",
+      "name": "Moderna museet",
+      "nameEnglish": "Modern Art Museum",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 59.3263494,
+      "lng": 18.0840004,
+      "distanceFromTerminalMeters": 1135,
+      "distanceFromDefaultTerminalMeters": 1135,
+      "minDistanceFromAnyTerminalMeters": 1135,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo off; Tu,Fr 10:00-20:00; We-Th,Sa-Su 10:00-18:00",
+      "website": "https://www.modernamuseet.se/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q1274511",
+      "wikipedia": "sv:Moderna Museet",
+      "osmTags": {
+        "tourism": "museum"
+      },
+      "fame": 30
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/22b7454506ff527bf090",
+      "name": "Riddarholmskyrkan",
+      "nameEnglish": "Riddarholm Church",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 59.3246833,
+      "lng": 18.0645814,
+      "distanceFromTerminalMeters": 1759,
+      "distanceFromDefaultTerminalMeters": 1759,
+      "minDistanceFromAnyTerminalMeters": 1759,
       "nearestTerminalId": "ports-json-anchor",
       "address": "",
       "openingHours": "",
-      "website": "http://www.stockholm.se/-/Serviceenhetsdetaljer/?enhet=08d575272b3b47eb98086604aec7c34e",
+      "website": "https://www.kungahuset.se/",
+      "phone": "+4684026130",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q657118",
+      "wikipedia": "sv:Riddarholmskyrkan",
+      "osmTags": {
+        "amenity": "place_of_worship",
+        "historic": "church",
+        "tourism": "attraction"
+      },
+      "fame": 30
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/92793575bec58f3eef40",
+      "name": "Naturhistoriska riksmuseet",
+      "nameEnglish": "Swedish Museum of Natural History",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 59.3690466,
+      "lng": 18.0540033,
+      "distanceFromTerminalMeters": 6177,
+      "distanceFromDefaultTerminalMeters": 6177,
+      "minDistanceFromAnyTerminalMeters": 6177,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Tu-Su 10:00-18:00",
+      "website": "https://www.nrm.se/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "The universe, animals and nature; and Cosmonova, Sweden's only IMAX cimema",
+      "wikidata": "Q1420103",
+      "wikipedia": "sv:Naturhistoriska riksmuseet",
+      "osmTags": {
+        "tourism": "museum"
+      },
+      "fame": 30
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/79ad80f85700a97a5937",
+      "name": "Historiska museet",
+      "nameEnglish": "Swedish History Museum",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 59.3348465,
+      "lng": 18.0901504,
+      "distanceFromTerminalMeters": 1996,
+      "distanceFromDefaultTerminalMeters": 1996,
+      "minDistanceFromAnyTerminalMeters": 1996,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Stockholm, 114 60",
+      "openingHours": "Tu, Th-Su 11:00-17:00; We 11:00-20:00",
+      "website": "https://www.historiska.se",
+      "phone": "+46 8 51955600",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "Sweden's history from earliest times to the Middle Ages. Get your Viking fix here.",
+      "wikidata": "Q1726607",
+      "wikipedia": "sv:Statens historiska museum",
+      "osmTags": {
+        "tourism": "museum"
+      },
+      "fame": 28
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d4e9e6bab28ecabdee82",
+      "name": "Haga slott",
+      "nameEnglish": "Haga Palace",
+      "category": "attraction",
+      "subcategory": "castle",
+      "lat": 59.3633833,
+      "lng": 18.0396864,
+      "distanceFromTerminalMeters": 5947,
+      "distanceFromDefaultTerminalMeters": 5947,
+      "minDistanceFromAnyTerminalMeters": 5947,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "https://www.sfv.se/sv/fastigheter/sverige/stockholms-lan-ab/slott/haga-slott/",
       "phone": "",
       "cuisine": [],
       "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "Q5574523",
+      "wikipedia": "sv:Haga slott",
       "osmTags": {
-        "leisure": "park"
-      }
+        "historic": "castle"
+      },
+      "fame": 25
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/b0e693d1892442484d62",
-      "name": "Piperska trädgården",
-      "nameEnglish": "",
-      "category": "outdoors",
-      "subcategory": "garden",
-      "lat": 59.3305889,
-      "lng": 18.0445805,
-      "distanceFromTerminalMeters": 314,
-      "distanceFromDefaultTerminalMeters": 314,
-      "minDistanceFromAnyTerminalMeters": 314,
+      "sourceId": "osm/generated/24902dec572f12d65e8b",
+      "name": "Abbamuseet",
+      "nameEnglish": "ABBA The Museum",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 59.3248966,
+      "lng": 18.0965661,
+      "distanceFromTerminalMeters": 932,
+      "distanceFromDefaultTerminalMeters": 932,
+      "minDistanceFromAnyTerminalMeters": 932,
       "nearestTerminalId": "ports-json-anchor",
-      "address": "",
-      "openingHours": "",
-      "website": "",
+      "address": "68 Djurgårdsvägen, Stockholm, 115 21",
+      "openingHours": "10:00-18:00",
+      "website": "https://abbathemuseum.com",
       "phone": "",
       "cuisine": [],
-      "wheelchair": "",
+      "wheelchair": "yes",
       "brand": "",
       "description": "",
+      "wikidata": "Q2743819",
+      "wikipedia": "sv:Abbamuseet",
       "osmTags": {
-        "leisure": "garden"
-      }
+        "tourism": "museum"
+      },
+      "fame": 23
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/6d373ec3fdf66ba725b3",
-      "name": "Sinnenas trädgård",
-      "nameEnglish": "",
-      "category": "outdoors",
-      "subcategory": "garden",
-      "lat": 59.3392061,
-      "lng": 18.0425897,
-      "distanceFromTerminalMeters": 1107,
-      "distanceFromDefaultTerminalMeters": 1107,
-      "minDistanceFromAnyTerminalMeters": 1107,
+      "sourceId": "osm/generated/b3ca8c758f30d00cc444",
+      "name": "Hallwylska palatset",
+      "nameEnglish": "Hallwyl Museum",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 59.3332771,
+      "lng": 18.0745279,
+      "distanceFromTerminalMeters": 2061,
+      "distanceFromDefaultTerminalMeters": 2061,
+      "minDistanceFromAnyTerminalMeters": 2061,
       "nearestTerminalId": "ports-json-anchor",
-      "address": "",
-      "openingHours": "",
-      "website": "",
-      "phone": "",
+      "address": "4 Hamngatan, Stockholm, 111 47",
+      "openingHours": "Tu, Th-Fr 12:00-16:00; We 12:00-19:00; Sa-Su 11:00-17:00",
+      "website": "https://hallwylskamuseet.se/",
+      "phone": "+46 8 4023099",
       "cuisine": [],
       "wheelchair": "",
       "brand": "",
-      "description": "",
+      "description": "Private late 19th century palace with Wilhelmina von Hallwyl's collection of Dutch and Flemish painting, porcelain, silver , weapons textiles and household objects.",
+      "wikidata": "Q4346239",
+      "wikipedia": "sv:Hallwylska museet",
       "osmTags": {
-        "leisure": "garden"
-      }
+        "historic": "castle",
+        "tourism": "museum"
+      },
+      "fame": 14
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/3a56e524f9ebd3f22d90",
+      "name": "Etnografiska museet",
+      "nameEnglish": "Museum of Ethnography",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 59.3325579,
+      "lng": 18.1207098,
+      "distanceFromTerminalMeters": 2399,
+      "distanceFromDefaultTerminalMeters": 2399,
+      "minDistanceFromAnyTerminalMeters": 2399,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "115 27",
+      "openingHours": "Mo closed; Tu 11:00-17:00; We 11:00-20:00; Th-Su 11:00-17:00",
+      "website": "https://www.etnografiskamuseet.se",
+      "phone": "+46104561200",
+      "cuisine": [],
+      "wheelchair": "limited",
+      "brand": "",
+      "description": "220,000 cultural and life style objects from China, Korea, South- and Southeast Asia, The Pacific, the Americas and Africa.",
+      "wikidata": "Q1371375",
+      "wikipedia": "sv:Etnografiska museet, Stockholm",
+      "osmTags": {
+        "tourism": "museum"
+      },
+      "fame": 14
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/a84794b00d393946a5d0",
+      "name": "Livrustkammaren",
+      "nameEnglish": "Royal Armoury",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 59.3266147,
+      "lng": 18.0730777,
+      "distanceFromTerminalMeters": 1506,
+      "distanceFromDefaultTerminalMeters": 1506,
+      "minDistanceFromAnyTerminalMeters": 1506,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Jan-Apr Tu-Su 11:00-17:00, Th 11:00-20:00; May-Jun Tu-Su 11:00-17:00; Jul-Aug Tu-Su 10:00-18:00; Sep-Dec Tu-Su 11:00-17:00, Th 11:00-20:00",
+      "website": "https://livrustkammaren.se/",
+      "phone": "+4684023000",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q1636176",
+      "wikipedia": "sv:Livrustkammaren",
+      "osmTags": {
+        "tourism": "museum"
+      },
+      "fame": 21
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/7e74840a042d541a7403",
+      "name": "Östasiatiska museet",
+      "nameEnglish": "Museum of Far Eastern Antiquities",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 59.3273849,
+      "lng": 18.0816743,
+      "distanceFromTerminalMeters": 1293,
+      "distanceFromDefaultTerminalMeters": 1293,
+      "minDistanceFromAnyTerminalMeters": 1293,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Tu 11:00-20:00; We-Su 11:00-17:00",
+      "website": "https://www.ostasiatiskamuseet.se",
+      "phone": "+46104561200",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q298289",
+      "wikipedia": "sv:Östasiatiska museet",
+      "osmTags": {
+        "tourism": "museum"
+      },
+      "fame": 20
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/e6937de3350017f8d441",
+      "name": "Stadsmuseet i Stockholm",
+      "nameEnglish": "Stockholm City Museum",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 59.3195947,
+      "lng": 18.0712613,
+      "distanceFromTerminalMeters": 1191,
+      "distanceFromDefaultTerminalMeters": 1191,
+      "minDistanceFromAnyTerminalMeters": 1191,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Tu, Th-Su 11:00-17:00; We 11:00-20:00",
+      "website": "https://stadsmuseet.stockholm",
+      "phone": "+46850831620",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "The development of Stockholm from middle ages fortified port to the city of today.",
+      "wikidata": "Q1933896",
+      "wikipedia": "sv:Stadsmuseet i Stockholm",
+      "osmTags": {
+        "tourism": "museum"
+      },
+      "fame": 13
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/764000a42a8ebad86a5b",
+      "name": "Armémuseum",
+      "nameEnglish": "Swedish Army Museum",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 59.3347609,
+      "lng": 18.0802581,
+      "distanceFromTerminalMeters": 2086,
+      "distanceFromDefaultTerminalMeters": 2086,
+      "minDistanceFromAnyTerminalMeters": 2086,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "We-Su 11:00-17:00; Tu 11:00-19:00",
+      "website": "https://www.armemuseum.se/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "Sweden's military museum",
+      "wikidata": "Q690002",
+      "wikipedia": "sv:Armémuseum",
+      "osmTags": {
+        "tourism": "museum"
+      },
+      "fame": 18
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/fab61f2000c946e5aa2a",
+      "name": "Operakällaren",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 59.3297034,
+      "lng": 18.0712747,
+      "distanceFromTerminalMeters": 1831,
+      "distanceFromDefaultTerminalMeters": 1831,
+      "minDistanceFromAnyTerminalMeters": 1831,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo off; Tu-Sa 18:00-22:00; Su off",
+      "website": "https://www.operakallaren.se/",
+      "phone": "+4686765801",
+      "cuisine": [
+        "fine_dining"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q10610464",
+      "wikipedia": "sv:Operakällaren",
+      "osmTags": {
+        "amenity": "restaurant"
+      },
+      "fame": 3
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/2b923d44b4942b6c7e84",
+      "name": "Kafé 44",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 59.3159381,
+      "lng": 18.082819,
+      "distanceFromTerminalMeters": 509,
+      "distanceFromDefaultTerminalMeters": 509,
+      "minDistanceFromAnyTerminalMeters": 509,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Sa 12:00-16:00",
+      "website": "https://kafe44.org",
+      "phone": "+46 8 6445312",
+      "cuisine": [],
+      "wheelchair": "no",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q10542424",
+      "wikipedia": "sv:Kafé 44",
+      "osmTags": {
+        "amenity": "cafe",
+        "shop": "books"
+      },
+      "fame": 4
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/8b20ff35d712878454e8",
+      "name": "Sturehof",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 59.3358585,
+      "lng": 18.073306,
+      "distanceFromTerminalMeters": 2348,
+      "distanceFromDefaultTerminalMeters": 2348,
+      "minDistanceFromAnyTerminalMeters": 2348,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Sa 11:30-02:00; Su 12:00-02:00",
+      "website": "https://www.sturehof.com/",
+      "phone": "+4684405730",
+      "cuisine": [
+        "fish"
+      ],
+      "wheelchair": "limited",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q7628953",
+      "wikipedia": "sv:Sturehof (restaurang)",
+      "osmTags": {
+        "amenity": "restaurant"
+      },
+      "fame": 3
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/4cfc7138e49b3635ca3c",
+      "name": "Vete-Katten",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 59.334112,
+      "lng": 18.058346,
+      "distanceFromTerminalMeters": 2686,
+      "distanceFromDefaultTerminalMeters": 2686,
+      "minDistanceFromAnyTerminalMeters": 2686,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "55 Kungsgatan",
+      "openingHours": "Mo-Fr 07:30-20:00; Sa-Su 09:00-19:00",
+      "website": "https://vetekatten.se/",
+      "phone": "+468208405",
+      "cuisine": [],
+      "wheelchair": "no",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q10714690",
+      "wikipedia": "sv:Vete-Katten",
+      "osmTags": {
+        "amenity": "cafe"
+      },
+      "fame": 4
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f5f4a8e01bd88b2ed493",
+      "name": "Fem små hus",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 59.325317,
+      "lng": 18.0740777,
+      "distanceFromTerminalMeters": 1364,
+      "distanceFromDefaultTerminalMeters": 1364,
+      "minDistanceFromAnyTerminalMeters": 1364,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Tu 17:00-23:00;We-Sa 17:00-24:00;Su 17:00-23:00",
+      "website": "https://www.femsmahus.se/",
+      "phone": "+46 8 10 87 75",
+      "cuisine": [
+        "swedish"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q10494586",
+      "wikipedia": "sv:Fem små hus",
+      "osmTags": {
+        "amenity": "restaurant"
+      },
+      "fame": 2
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f9db32da7f8ac8983a16",
+      "name": "AIRA",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 59.3208205,
+      "lng": 18.1237096,
+      "distanceFromTerminalMeters": 1874,
+      "distanceFromDefaultTerminalMeters": 1874,
+      "minDistanceFromAnyTerminalMeters": 1874,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "9 Biskopsvägen, Stockholm, 115 21",
+      "openingHours": "",
+      "website": "https://aira.se/",
+      "phone": "+46 8 4800 4900",
+      "cuisine": [
+        "fine_dining"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q101654536",
+      "wikipedia": "sv:Aira (restaurang)",
+      "osmTags": {
+        "amenity": "restaurant"
+      },
+      "fame": 2
     },
     {
       "source": "openstreetmap",
@@ -1682,9 +1029,9 @@
       "subcategory": "restaurant",
       "lat": 59.3278542,
       "lng": 18.0557102,
-      "distanceFromTerminalMeters": 402,
-      "distanceFromDefaultTerminalMeters": 402,
-      "minDistanceFromAnyTerminalMeters": 402,
+      "distanceFromTerminalMeters": 2372,
+      "distanceFromDefaultTerminalMeters": 2372,
+      "minDistanceFromAnyTerminalMeters": 2372,
       "nearestTerminalId": "ports-json-anchor",
       "address": "",
       "openingHours": "Tu-Fr 11:30-14:00; We-Sa 17:00-23:00",
@@ -1696,411 +1043,353 @@
       "wheelchair": "",
       "brand": "",
       "description": "You can order a Nobel Prize dinner menu for any year",
+      "wikidata": "Q10677174",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      },
+      "fame": 1
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/30b26a0022af411a3c6e",
+      "name": "Kvarnen",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 59.3148328,
+      "lng": 18.0742292,
+      "distanceFromTerminalMeters": 1012,
+      "distanceFromDefaultTerminalMeters": 1012,
+      "minDistanceFromAnyTerminalMeters": 1012,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Tu 11:00-23:00; We-Th 11:00-24:00; Fr 11:00-03:00; Sa 11:30-03:00; Su 11:30-23:00",
+      "website": "https://www.kvarnen.com/",
+      "phone": "+4686430380",
+      "cuisine": [
+        "local"
+      ],
+      "wheelchair": "no",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q10550905",
+      "wikipedia": "sv:Kvarnen, Stockholm",
+      "osmTags": {
+        "amenity": "restaurant"
+      },
+      "fame": 1
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d69cc73ea875777d0942",
+      "name": "Pelikan",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 59.3105695,
+      "lng": 18.0761722,
+      "distanceFromTerminalMeters": 1124,
+      "distanceFromDefaultTerminalMeters": 1124,
+      "minDistanceFromAnyTerminalMeters": 1124,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Su 11:30-01:00",
+      "website": "https://www.pelikan.se/",
+      "phone": "+46855609090",
+      "cuisine": [
+        "local"
+      ],
+      "wheelchair": "limited",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q10651265",
+      "wikipedia": "sv:Restaurang Pelikan",
+      "osmTags": {
+        "amenity": "restaurant"
+      },
+      "fame": 1
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/0b7aa8d1df0e608de499",
+      "name": "Grand Palace",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 59.3134142,
+      "lng": 18.1107081,
+      "distanceFromTerminalMeters": 1152,
+      "distanceFromDefaultTerminalMeters": 1152,
+      "minDistanceFromAnyTerminalMeters": 1152,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "4 Västra Finnbodavägen, Nacka, 13130, SE",
+      "openingHours": "Mo-Th 11:00-22:00; Fr 11:00-23:00; Sa 12:00-23:00; Su 12:00-21:00",
+      "website": "https://grandpalace.se",
+      "phone": "+468209814",
+      "cuisine": [
+        "chinese"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "really big and really chinese",
+      "wikidata": "",
+      "wikipedia": "",
       "osmTags": {
         "amenity": "restaurant"
       }
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/934e3239147081860ff2",
-      "name": "Villa Romana",
+      "sourceId": "osm/generated/aa019fac9275d4dc13cd",
+      "name": "Matbaren",
       "nameEnglish": "",
       "category": "food_drink",
       "subcategory": "restaurant",
-      "lat": 59.3317397,
-      "lng": 18.0492798,
-      "distanceFromTerminalMeters": 198,
-      "distanceFromDefaultTerminalMeters": 198,
-      "minDistanceFromAnyTerminalMeters": 198,
+      "lat": 59.3294026,
+      "lng": 18.0761212,
+      "distanceFromTerminalMeters": 1643,
+      "distanceFromDefaultTerminalMeters": 1643,
+      "minDistanceFromAnyTerminalMeters": 1643,
       "nearestTerminalId": "ports-json-anchor",
       "address": "",
-      "openingHours": "Mo-Th 11:00-22:00; Fr 11:00-23:00; Sa 17:00-23:00; Su 16:00-22:00",
-      "website": "https://kungsholmen.villaromana.se",
-      "phone": "+468313101",
+      "openingHours": "We-Fr 12:00-13:30,18:00-24:00; Mo-Tu,Sa 18:00-24:00; PH closed",
+      "website": "https://mdghs.se/matbaren/",
+      "phone": "+4686793584",
       "cuisine": [
-        "italian",
-        "pizza"
+        "regional"
       ],
       "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "Q10578328",
+      "wikipedia": "sv:Mathias Dahlgren (restaurang)",
       "osmTags": {
         "amenity": "restaurant"
-      }
+      },
+      "fame": 1
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/b6359230beb3c7fa0f25",
-      "name": "Maharajah",
+      "sourceId": "osm/generated/1e8866deb2b29c9701c0",
+      "name": "Den Gröne Jägaren",
       "nameEnglish": "",
       "category": "food_drink",
-      "subcategory": "restaurant",
-      "lat": 59.3286907,
-      "lng": 18.0462497,
-      "distanceFromTerminalMeters": 258,
-      "distanceFromDefaultTerminalMeters": 258,
-      "minDistanceFromAnyTerminalMeters": 258,
+      "subcategory": "pub",
+      "lat": 59.3134668,
+      "lng": 18.0734858,
+      "distanceFromTerminalMeters": 1096,
+      "distanceFromDefaultTerminalMeters": 1096,
+      "minDistanceFromAnyTerminalMeters": 1096,
       "nearestTerminalId": "ports-json-anchor",
       "address": "",
-      "openingHours": "Mo-Fr 11:00-22:00;Sa-Su 13:00-22:00",
-      "website": "https://restaurangmaharajah.se/",
-      "phone": "+46 8 650 68 00",
+      "openingHours": "Mo-Su 11:00-01:00",
+      "website": "https://www.gronejagaren.com/",
+      "phone": "+4686409600",
+      "cuisine": [],
+      "wheelchair": "no",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q5256495",
+      "wikipedia": "sv:Den gröne Jägaren",
+      "osmTags": {
+        "amenity": "pub"
+      },
+      "fame": 2
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/16786238f067384805fe",
+      "name": "Tudor Arms",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "pub",
+      "lat": 59.3348944,
+      "lng": 18.0853465,
+      "distanceFromTerminalMeters": 2031,
+      "distanceFromDefaultTerminalMeters": 2031,
+      "minDistanceFromAnyTerminalMeters": 2031,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Tu 16:00-22:00; We-Th 16:00-23:00, Fr-Sa 15:00-23:00; Su 15:00-20:00",
+      "website": "http://tudorarms.se",
+      "phone": "+4686602712",
       "cuisine": [
-        "indian"
+        "british"
       ],
       "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "Q10706003",
+      "wikipedia": "sv:Tudor Arms",
       "osmTags": {
-        "amenity": "restaurant"
-      }
+        "amenity": "pub"
+      },
+      "fame": 1
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/919741657a883d4cff12",
-      "name": "Griffins Steakhouse",
+      "sourceId": "osm/generated/cf07ff194866781e97de",
+      "name": "Kupan",
       "nameEnglish": "",
       "category": "food_drink",
-      "subcategory": "restaurant",
-      "lat": 59.3300916,
-      "lng": 18.0547961,
-      "distanceFromTerminalMeters": 272,
-      "distanceFromDefaultTerminalMeters": 272,
-      "minDistanceFromAnyTerminalMeters": 272,
+      "subcategory": "cafe",
+      "lat": 59.310527,
+      "lng": 18.0786938,
+      "distanceFromTerminalMeters": 1019,
+      "distanceFromDefaultTerminalMeters": 1019,
+      "minDistanceFromAnyTerminalMeters": 1019,
       "nearestTerminalId": "ports-json-anchor",
       "address": "",
-      "openingHours": "Mo-Th 11:00-23:00; Fr 11:00-24:00; Sa 11:30-24:00; Su off",
-      "website": "https://www.griffinssteakhouse.se/",
-      "phone": "+46851942270",
+      "openingHours": "Mo-Tu off; We-Sa 12:00-16:00; Su off",
+      "website": "https://kommun.redcross.se/stockholm/stockholm-city/motesplatser/motesplats-ostgotagatan/",
+      "phone": "+4687020840",
       "cuisine": [
-        "steak_house"
+        "coffee_shop"
       ],
-      "wheelchair": "yes",
+      "wheelchair": "",
       "brand": "",
-      "description": "",
+      "description": "Cheap! Coffee and Tea",
+      "wikidata": "",
+      "wikipedia": "",
       "osmTags": {
-        "amenity": "restaurant"
+        "amenity": "cafe"
       }
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/b422f5fc696b9b8e534d",
-      "name": "Menomale",
+      "sourceId": "osm/generated/b70e1b94be33e31e35e4",
+      "name": "Pizzeria Söder",
       "nameEnglish": "",
       "category": "food_drink",
-      "subcategory": "restaurant",
-      "lat": 59.3288538,
-      "lng": 18.0450457,
-      "distanceFromTerminalMeters": 309,
-      "distanceFromDefaultTerminalMeters": 309,
-      "minDistanceFromAnyTerminalMeters": 309,
+      "subcategory": "fast_food",
+      "lat": 59.3162332,
+      "lng": 18.0658693,
+      "distanceFromTerminalMeters": 1461,
+      "distanceFromDefaultTerminalMeters": 1461,
+      "minDistanceFromAnyTerminalMeters": 1461,
       "nearestTerminalId": "ports-json-anchor",
-      "address": "",
-      "openingHours": "Mo-Tu 11:00-21:00; We-Fr 11:00-22:00; Sa 12:00-22:00; Su 12:00-21:00",
-      "website": "https://www.menomale.se",
-      "phone": "+468141410",
+      "address": "13 Björngårdsgatan",
+      "openingHours": "Mo-Fr 10:00-21:00, Sa,Su 11:00-21:00",
+      "website": "https://www.pizzeriasoder.nu",
+      "phone": "+4686411505",
       "cuisine": [
         "pizza"
       ],
       "wheelchair": "no",
       "brand": "",
       "description": "",
+      "wikidata": "",
+      "wikipedia": "",
       "osmTags": {
-        "amenity": "restaurant"
+        "amenity": "fast_food"
       }
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/e56f5ae36239064052c3",
-      "name": "Eat East",
+      "sourceId": "osm/generated/6ab9175f44b22cffdcc2",
+      "name": "Nivå",
       "nameEnglish": "",
       "category": "food_drink",
-      "subcategory": "restaurant",
-      "lat": 59.3324594,
-      "lng": 18.0468995,
-      "distanceFromTerminalMeters": 325,
-      "distanceFromDefaultTerminalMeters": 325,
-      "minDistanceFromAnyTerminalMeters": 325,
+      "subcategory": "fast_food",
+      "lat": 59.3236611,
+      "lng": 18.0690285,
+      "distanceFromTerminalMeters": 1484,
+      "distanceFromDefaultTerminalMeters": 1484,
+      "minDistanceFromAnyTerminalMeters": 1484,
       "nearestTerminalId": "ports-json-anchor",
-      "address": "",
-      "openingHours": "Mo-Th 11:00-21:00; Fr 11:00-22:00; Sa 12:00-22:00; Su 12:00-21:00",
-      "website": "https://eateast.se/",
-      "phone": "+4686524712",
+      "address": "15 Lilla Nygatan",
+      "openingHours": "Mo-Su 11:00-21:00",
+      "website": "https://pizzerianiva.se/",
+      "phone": "+468233202",
       "cuisine": [
-        "chinese"
+        "kebab",
+        "pizza"
       ],
-      "wheelchair": "",
+      "wheelchair": "no",
       "brand": "",
       "description": "",
+      "wikidata": "",
+      "wikipedia": "",
       "osmTags": {
-        "amenity": "restaurant"
+        "amenity": "fast_food"
       }
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/2e330b6e58a5bc7d20e8",
-      "name": "Brödernas",
+      "sourceId": "osm/generated/93cf6423e83a556188d6",
+      "name": "Drop Coffee Roasters",
       "nameEnglish": "",
       "category": "food_drink",
-      "subcategory": "restaurant",
-      "lat": 59.3312421,
-      "lng": 18.044641,
-      "distanceFromTerminalMeters": 334,
-      "distanceFromDefaultTerminalMeters": 334,
-      "minDistanceFromAnyTerminalMeters": 334,
+      "subcategory": "cafe",
+      "lat": 59.3169067,
+      "lng": 18.0628136,
+      "distanceFromTerminalMeters": 1633,
+      "distanceFromDefaultTerminalMeters": 1633,
+      "minDistanceFromAnyTerminalMeters": 1633,
       "nearestTerminalId": "ports-json-anchor",
       "address": "",
-      "openingHours": "Mo-Tu 11:00-23:00; We-Th 11:00-00:00; Fr 11:00-01:00; Sa 12:00-01:00; Su 12:00-23:00",
-      "website": "https://www.brodernas.nu/restauranger/kungsholmen",
-      "phone": "+4686500299",
+      "openingHours": "Mo-Fr 08:00-18:00;Sa-Su 10:00-17:00",
+      "website": "https://www.dropcoffee.com/",
+      "phone": "+46704239229",
       "cuisine": [
-        "burger",
+        "coffee_shop"
+      ],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "Speciality coffee shop and café serving coffee cup by cup from their own roasters. Pour-over and espresso with a wide selection of coffee to choose from.",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/6d3fa6ace36d219ab01f",
+      "name": "Deli Italia",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "fast_food",
+      "lat": 59.3147189,
+      "lng": 18.0899469,
+      "distanceFromTerminalMeters": 261,
+      "distanceFromDefaultTerminalMeters": 261,
+      "minDistanceFromAnyTerminalMeters": 261,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Fr 10:00-21:00; Sa,Su 11:00-21:00",
+      "website": "https://deliitaliasodermalm.se",
+      "phone": "+4686400080",
+      "cuisine": [
         "pizza"
       ],
       "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "",
+      "wikipedia": "",
       "osmTags": {
-        "amenity": "restaurant"
+        "amenity": "fast_food"
       }
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/1b67772b445be80adbfa",
-      "name": "Saffran",
+      "sourceId": "osm/generated/ffa51e410c16a87f9dde",
+      "name": "Minari Sushi",
       "nameEnglish": "",
       "category": "food_drink",
-      "subcategory": "restaurant",
-      "lat": 59.3316812,
-      "lng": 18.0441645,
-      "distanceFromTerminalMeters": 380,
-      "distanceFromDefaultTerminalMeters": 380,
-      "minDistanceFromAnyTerminalMeters": 380,
+      "subcategory": "fast_food",
+      "lat": 59.3057056,
+      "lng": 18.1126419,
+      "distanceFromTerminalMeters": 1726,
+      "distanceFromDefaultTerminalMeters": 1726,
+      "minDistanceFromAnyTerminalMeters": 1726,
       "nearestTerminalId": "ports-json-anchor",
-      "address": "",
-      "openingHours": "Mo-Fr 11:00-22:00; Sa 12:00-22:00; Su 15:00-22:00",
-      "website": "https://www.saffrankungsholmen.se",
-      "phone": "+4686543980",
-      "cuisine": [
-        "indian"
-      ],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "amenity": "restaurant"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/cb82c3c22f46961c3dd7",
-      "name": "W by Wijnjas",
-      "nameEnglish": "",
-      "category": "food_drink",
-      "subcategory": "restaurant",
-      "lat": 59.3295409,
-      "lng": 18.0432611,
-      "distanceFromTerminalMeters": 386,
-      "distanceFromDefaultTerminalMeters": 386,
-      "minDistanceFromAnyTerminalMeters": 386,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "",
-      "openingHours": "We,Th 17:00-23:00; Fr,Sa 17:00-24:00",
-      "website": "https://wbywijnjas.se/",
-      "phone": "+46 8 13 14 20",
-      "cuisine": [
-        "french"
-      ],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "amenity": "restaurant"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/9f8c6460326bdfb176e4",
-      "name": "Almaza",
-      "nameEnglish": "",
-      "category": "food_drink",
-      "subcategory": "restaurant",
-      "lat": 59.3294686,
-      "lng": 18.0432188,
-      "distanceFromTerminalMeters": 389,
-      "distanceFromDefaultTerminalMeters": 389,
-      "minDistanceFromAnyTerminalMeters": 389,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "",
-      "openingHours": "Su-Th 17:00-22:00; Fr 17:00-01:00; Sa 16:00-01:00",
-      "website": "https://www.restaurangalmaza.se/",
-      "phone": "+46851051855",
-      "cuisine": [
-        "lebanese"
-      ],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "amenity": "restaurant"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/415ff3daa43376445ab1",
-      "name": "Vout Vout",
-      "nameEnglish": "",
-      "category": "food_drink",
-      "subcategory": "restaurant",
-      "lat": 59.3324769,
-      "lng": 18.0449286,
-      "distanceFromTerminalMeters": 398,
-      "distanceFromDefaultTerminalMeters": 398,
-      "minDistanceFromAnyTerminalMeters": 398,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "",
-      "openingHours": "Mo-Su 11:00-21:00",
-      "website": "https://www.voutvout.se",
-      "phone": "+46868406841",
-      "cuisine": [
-        "greek"
-      ],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "amenity": "restaurant"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/8da84cfd3902c7d09560",
-      "name": "Uffe & Lottas",
-      "nameEnglish": "",
-      "category": "food_drink",
-      "subcategory": "restaurant",
-      "lat": 59.331751,
-      "lng": 18.0436534,
-      "distanceFromTerminalMeters": 409,
-      "distanceFromDefaultTerminalMeters": 409,
-      "minDistanceFromAnyTerminalMeters": 409,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "",
-      "openingHours": "Tu-Sa 15:00-21:00",
-      "website": "https://www.uffeolottas.se/",
-      "phone": "+468330820",
-      "cuisine": [
-        "diner",
-        "regional",
-        "international",
-        "local"
-      ],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "amenity": "restaurant"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/951b24f0183fd1df5757",
-      "name": "Perini",
-      "nameEnglish": "",
-      "category": "food_drink",
-      "subcategory": "restaurant",
-      "lat": 59.330632,
-      "lng": 18.0577058,
-      "distanceFromTerminalMeters": 443,
-      "distanceFromDefaultTerminalMeters": 443,
-      "minDistanceFromAnyTerminalMeters": 443,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "",
-      "openingHours": "Mo-Su 10:00-22:00",
-      "website": "https://www.perini.se",
-      "phone": "+468217000",
-      "cuisine": [
-        "italian"
-      ],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "amenity": "restaurant"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/106dd9bed677a71c640b",
-      "name": "Olé-Olé",
-      "nameEnglish": "",
-      "category": "food_drink",
-      "subcategory": "restaurant",
-      "lat": 59.3292092,
-      "lng": 18.0423305,
-      "distanceFromTerminalMeters": 444,
-      "distanceFromDefaultTerminalMeters": 444,
-      "minDistanceFromAnyTerminalMeters": 444,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "",
-      "openingHours": "Mo-Th 17:00-23:00; Fr-Sa 17:00-01:00; Su closed",
-      "website": "https://www.baroleole.se",
-      "phone": "+4686528880",
-      "cuisine": [
-        "spanish",
-        "tapas"
-      ],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "amenity": "restaurant"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/ea73dc2cd4b23195eafd",
-      "name": "Bergamott",
-      "nameEnglish": "",
-      "category": "food_drink",
-      "subcategory": "restaurant",
-      "lat": 59.3290311,
-      "lng": 18.0421919,
-      "distanceFromTerminalMeters": 456,
-      "distanceFromDefaultTerminalMeters": 456,
-      "minDistanceFromAnyTerminalMeters": 456,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "",
-      "openingHours": "Mo off; Tu-Th 17:30-23:00; Sa-Su 17:30-24:00; Su off",
-      "website": "http://www.restaurangbergamott.se",
-      "phone": "+4686503034",
-      "cuisine": [
-        "french"
-      ],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "amenity": "restaurant"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/d304ea84cea784e21480",
-      "name": "Nara De K-Bar Gamla Stan",
-      "nameEnglish": "",
-      "category": "food_drink",
-      "subcategory": "restaurant",
-      "lat": 59.3238253,
-      "lng": 18.0680191,
-      "distanceFromTerminalMeters": 1231,
-      "distanceFromDefaultTerminalMeters": 1231,
-      "minDistanceFromAnyTerminalMeters": 1231,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "5 Munkbrogatan",
-      "openingHours": "Mo-Th 11:00-21:00; Fr 11:00-23:00; Su 12:00-19:00; Sa 12:00-23:00",
-      "website": "https://kbarse.squarespace.com",
-      "phone": "+46709749992",
+      "address": "37 Skeppsmäklargatan, Stockholm, 120 69, SE",
+      "openingHours": "Mo-Sa 11:00-20:00; Su 11:00-20:00",
+      "website": "https://www.minarisushi.se/",
+      "phone": "+46 8 722 00 99",
       "cuisine": [
         "japanese",
         "korean"
@@ -2108,9 +1397,767 @@
       "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "",
+      "wikipedia": "",
       "osmTags": {
-        "amenity": "restaurant"
+        "amenity": "fast_food"
       }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c72270c683316a301c5c",
+      "name": "Sushi Sun",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "fast_food",
+      "lat": 59.3020901,
+      "lng": 18.0822046,
+      "distanceFromTerminalMeters": 1732,
+      "distanceFromDefaultTerminalMeters": 1732,
+      "minDistanceFromAnyTerminalMeters": 1732,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "13 Hammarby Allé, Stockholm, 12032",
+      "openingHours": "Mo-Fr 11:00-21:00; Sa-Su 12:00-21:00",
+      "website": "https://sushisun.se/",
+      "phone": "+46 8 20 99 60",
+      "cuisine": [
+        "sushi"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "fast_food"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/49c07372d0b5c2f7c1a5",
+      "name": "cucina povera",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "fast_food",
+      "lat": 59.3154174,
+      "lng": 18.0848448,
+      "distanceFromTerminalMeters": 417,
+      "distanceFromDefaultTerminalMeters": 417,
+      "minDistanceFromAnyTerminalMeters": 417,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Tu-Th 11:30-22:00; Fr 11:30-23:00; Sa 12:00-23:00; Su 12:00-21:00",
+      "website": "https://www.cucinapovera.se/",
+      "phone": "+46704782474",
+      "cuisine": [
+        "italian"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "fast_food"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c57cff0ef08f59731c9a",
+      "name": "Folkunga",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "fast_food",
+      "lat": 59.3154167,
+      "lng": 18.0845202,
+      "distanceFromTerminalMeters": 434,
+      "distanceFromDefaultTerminalMeters": 434,
+      "minDistanceFromAnyTerminalMeters": 434,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Fr 11:00-21:00; Sa-Su 12:00-21:00",
+      "website": "https://www.folkungasushi.se",
+      "phone": "+4686416567",
+      "cuisine": [
+        "sushi"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "fast_food"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/1142a9245e542a227936",
+      "name": "Thai House Wok",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "fast_food",
+      "lat": 59.3154138,
+      "lng": 18.0843995,
+      "distanceFromTerminalMeters": 441,
+      "distanceFromDefaultTerminalMeters": 441,
+      "minDistanceFromAnyTerminalMeters": 441,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Fr 11:00-21:00; Sa,Su 12:00-21:00",
+      "website": "https://thw.se/restauranger/folkungagatan/",
+      "phone": "+4686431130",
+      "cuisine": [
+        "thai"
+      ],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "fast_food"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ddee41bf0d3484653107",
+      "name": "Nordiska Kompaniet",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "department_store",
+      "lat": 59.3329999,
+      "lng": 18.0690111,
+      "distanceFromTerminalMeters": 2200,
+      "distanceFromDefaultTerminalMeters": 2200,
+      "minDistanceFromAnyTerminalMeters": 2200,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Fr 10:00-20:00; Sa 10:00-18:00; Su 11:00-17:00",
+      "website": "https://www.nk.se/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q1998385",
+      "wikipedia": "sv:NK",
+      "osmTags": {
+        "shop": "department_store"
+      },
+      "fame": 11
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/6ea206827def2ed39bf7",
+      "name": "Hötorgshallen",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "mall",
+      "lat": 59.3342773,
+      "lng": 18.0625353,
+      "distanceFromTerminalMeters": 2539,
+      "distanceFromDefaultTerminalMeters": 2539,
+      "minDistanceFromAnyTerminalMeters": 2539,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Th 10:00-18:00; Fr 10:00-19:00; Sa 10:00-17:00; Su off",
+      "website": "https://hotorgshallen.se",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q1112984",
+      "wikipedia": "sv:Hötorgshallen",
+      "osmTags": {
+        "shop": "mall"
+      },
+      "fame": 4
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/a41bb42d3e9b9574168f",
+      "name": "PUB",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "mall",
+      "lat": 59.3346109,
+      "lng": 18.0612394,
+      "distanceFromTerminalMeters": 2615,
+      "distanceFromDefaultTerminalMeters": 2615,
+      "minDistanceFromAnyTerminalMeters": 2615,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q751963",
+      "wikipedia": "sv:Pub (varuhus)",
+      "osmTags": {
+        "shop": "mall"
+      },
+      "fame": 6
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/2855b054ed7e5bf66838",
+      "name": "654",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "clothes",
+      "lat": 59.3138637,
+      "lng": 18.0822385,
+      "distanceFromTerminalMeters": 630,
+      "distanceFromDefaultTerminalMeters": 630,
+      "minDistanceFromAnyTerminalMeters": 630,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "27 Åsögatan, Stockholm, 11640, SE",
+      "openingHours": "Mo-Fr 11:00-18:00; Sa 11:00-17:00; Su 12:00-17:00",
+      "website": "https://654.se/pages/stockholm",
+      "phone": "+4686404654",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "shop": "clothes"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f03bbc2fce568b9cfe0d",
+      "name": "Ateljé Maria Söderholm",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "jewelry",
+      "lat": 59.3137456,
+      "lng": 18.0794956,
+      "distanceFromTerminalMeters": 771,
+      "distanceFromDefaultTerminalMeters": 771,
+      "minDistanceFromAnyTerminalMeters": 771,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "135 Åsögatan, Stockholm, 11624",
+      "openingHours": "We-Th 13:00-18:00",
+      "website": "https://www.ateljemariasoderholm.se/",
+      "phone": "+46701902717",
+      "cuisine": [],
+      "wheelchair": "no",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "shop": "jewelry"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/3c3fe2c43d3afabcdac6",
+      "name": "Pet Sounds",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "music",
+      "lat": 59.3121695,
+      "lng": 18.0780585,
+      "distanceFromTerminalMeters": 931,
+      "distanceFromDefaultTerminalMeters": 931,
+      "minDistanceFromAnyTerminalMeters": 931,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Fr 11:00-18:00; Sa 11:00-16:00; Su off",
+      "website": "https://petsounds.se/",
+      "phone": "+4687029798",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Vinyl & CD",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "shop": "music"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/258f43f7b144c7a6cb35",
+      "name": "Gateau",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "bakery",
+      "lat": 59.3304721,
+      "lng": 18.0570573,
+      "distanceFromTerminalMeters": 2472,
+      "distanceFromDefaultTerminalMeters": 2472,
+      "minDistanceFromAnyTerminalMeters": 2472,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Fr 06:30-18:00",
+      "website": "https://www.gateau.se/",
+      "phone": "+46851979117",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q10503368",
+      "wikipedia": "sv:Gateau",
+      "osmTags": {
+        "shop": "bakery"
+      },
+      "fame": 1
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/5ce76d4c64d6e334ed5a",
+      "name": "Nacka Forum",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "mall",
+      "lat": 59.3097846,
+      "lng": 18.1642025,
+      "distanceFromTerminalMeters": 4196,
+      "distanceFromDefaultTerminalMeters": 4196,
+      "minDistanceFromAnyTerminalMeters": 4196,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "14 Forumvägen, Nacka, 13153, SE",
+      "openingHours": "Mo-Fr 10:00-20:00; Sa 10:00-18:00; Su 11:00-18:00",
+      "website": "https://www.nackaforum.se",
+      "phone": "+46 8 400 003 00",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q10593918",
+      "wikipedia": "",
+      "osmTags": {
+        "shop": "mall"
+      },
+      "fame": 1
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/867e73cd441eb611b530",
+      "name": "Söderhallarna",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "mall",
+      "lat": 59.3144258,
+      "lng": 18.0708431,
+      "distanceFromTerminalMeters": 1209,
+      "distanceFromDefaultTerminalMeters": 1209,
+      "minDistanceFromAnyTerminalMeters": 1209,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "https://www.soderhallarna.se/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q2379694",
+      "wikipedia": "sv:Södermalms saluhall",
+      "osmTags": {
+        "shop": "mall"
+      },
+      "fame": 2
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/156e955ffb866dfac7b0",
+      "name": "Androuet",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "deli",
+      "lat": 59.3157495,
+      "lng": 18.0726663,
+      "distanceFromTerminalMeters": 1082,
+      "distanceFromDefaultTerminalMeters": 1082,
+      "minDistanceFromAnyTerminalMeters": 1082,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo,Su off; Tu-Fr 11:00-18:00; Sa 11:00-16:00",
+      "website": "https://androuet.se",
+      "phone": "+4686419020",
+      "cuisine": [],
+      "wheelchair": "no",
+      "brand": "",
+      "description": "French cheese",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "shop": "deli"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/8648fb82a036a76426cf",
+      "name": "Skeppsbro bageri",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "bakery",
+      "lat": 59.3248546,
+      "lng": 18.0761422,
+      "distanceFromTerminalMeters": 1244,
+      "distanceFromDefaultTerminalMeters": 1244,
+      "minDistanceFromAnyTerminalMeters": 1244,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "21 Skeppsbron, Stockholm, 111 30, SE",
+      "openingHours": "Mo-Fr 07:00-18:00; Sa-Su 08:00-18:00",
+      "website": "https://www.skeppsbrobageri.com",
+      "phone": "+468503 895 50",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "shop": "bakery"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/98512d9ec223fc31c369",
+      "name": "Kungsträdgården",
+      "nameEnglish": "King's Garden",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 59.3310959,
+      "lng": 18.0716083,
+      "distanceFromTerminalMeters": 1942,
+      "distanceFromDefaultTerminalMeters": 1942,
+      "minDistanceFromAnyTerminalMeters": 1942,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q926316",
+      "wikipedia": "sv:Kungsträdgården",
+      "osmTags": {
+        "leisure": "park"
+      },
+      "fame": 20
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/7577a4e6864494216183",
+      "name": "Katarinahissen",
+      "nameEnglish": "Katarina Elevator",
+      "category": "outdoors",
+      "subcategory": "viewpoint",
+      "lat": 59.3199188,
+      "lng": 18.0731707,
+      "distanceFromTerminalMeters": 1097,
+      "distanceFromDefaultTerminalMeters": 1097,
+      "minDistanceFromAnyTerminalMeters": 1097,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q615365",
+      "wikipedia": "sv:Katarinahissen",
+      "osmTags": {
+        "historic": "building",
+        "tourism": "viewpoint"
+      },
+      "fame": 15
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d02bbb64ea18bf55177f",
+      "name": "Mariatorget",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 59.3182116,
+      "lng": 18.0628995,
+      "distanceFromTerminalMeters": 1634,
+      "distanceFromDefaultTerminalMeters": 1634,
+      "minDistanceFromAnyTerminalMeters": 1634,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q1897080",
+      "wikipedia": "sv:Mariatorget",
+      "osmTags": {
+        "leisure": "park"
+      },
+      "fame": 10
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/8229a4e1039c85cf0bae",
+      "name": "Humlegården",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 59.3393197,
+      "lng": 18.0730616,
+      "distanceFromTerminalMeters": 2704,
+      "distanceFromDefaultTerminalMeters": 2704,
+      "minDistanceFromAnyTerminalMeters": 2704,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q1637097",
+      "wikipedia": "sv:Humlegården",
+      "osmTags": {
+        "leisure": "park"
+      },
+      "fame": 9
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c7b2d1a5b0c74ace48a6",
+      "name": "Bergianska trädgården",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 59.3686067,
+      "lng": 18.0447927,
+      "distanceFromTerminalMeters": 6331,
+      "distanceFromDefaultTerminalMeters": 6331,
+      "minDistanceFromAnyTerminalMeters": 6331,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "https://www.bergianska.se/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q819811",
+      "wikipedia": "sv:Bergianska trädgården",
+      "osmTags": {
+        "leisure": "park"
+      },
+      "fame": 13
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/7fd65215260574786321",
+      "name": "Karlaplan",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 59.3376958,
+      "lng": 18.0900951,
+      "distanceFromTerminalMeters": 2313,
+      "distanceFromDefaultTerminalMeters": 2313,
+      "minDistanceFromAnyTerminalMeters": 2313,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q3316834",
+      "wikipedia": "sv:Karlaplan, Stockholm",
+      "osmTags": {
+        "leisure": "park"
+      },
+      "fame": 7
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/a988c89a060a162eeb38",
+      "name": "Åsöberget",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "viewpoint",
+      "lat": 59.3144569,
+      "lng": 18.0958329,
+      "distanceFromTerminalMeters": 364,
+      "distanceFromDefaultTerminalMeters": 364,
+      "minDistanceFromAnyTerminalMeters": 364,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q10726955",
+      "wikipedia": "sv:Åsöberget",
+      "osmTags": {
+        "tourism": "viewpoint"
+      },
+      "fame": 2
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/0e4956cb39cbb8761f33",
+      "name": "Hammarbytoppen",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "peak",
+      "lat": 59.2987201,
+      "lng": 18.1090892,
+      "distanceFromTerminalMeters": 2253,
+      "distanceFromDefaultTerminalMeters": 2253,
+      "minDistanceFromAnyTerminalMeters": 2253,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q10516852",
+      "wikipedia": "",
+      "osmTags": {
+        "natural": "peak"
+      },
+      "fame": 3
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/27a927c4221eb59e96d3",
+      "name": "Koloniträdgård",
+      "nameEnglish": "Skansen allotments",
+      "category": "outdoors",
+      "subcategory": "garden",
+      "lat": 59.3262682,
+      "lng": 18.1028376,
+      "distanceFromTerminalMeters": 1221,
+      "distanceFromDefaultTerminalMeters": 1221,
+      "minDistanceFromAnyTerminalMeters": 1221,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "https://www.skansen.se/sv/kolonistugorna",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q10669727",
+      "wikipedia": "sv:Skansens koloniträdgård",
+      "osmTags": {
+        "leisure": "garden"
+      },
+      "fame": 1
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f010b0e005710a6fb02c",
+      "name": "Skinnarviksberget",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "peak",
+      "lat": 59.3199349,
+      "lng": 18.0507775,
+      "distanceFromTerminalMeters": 2340,
+      "distanceFromDefaultTerminalMeters": 2340,
+      "minDistanceFromAnyTerminalMeters": 2340,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q10670194",
+      "wikipedia": "sv:Skinnarviksberget",
+      "osmTags": {
+        "natural": "peak"
+      },
+      "fame": 2
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/faebe514f9dc815d1a44",
+      "name": "Skyview",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "viewpoint",
+      "lat": 59.2935052,
+      "lng": 18.0823788,
+      "distanceFromTerminalMeters": 2654,
+      "distanceFromDefaultTerminalMeters": 2654,
+      "minDistanceFromAnyTerminalMeters": 2654,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q7538081",
+      "wikipedia": "sv:Skyview",
+      "osmTags": {
+        "tourism": "viewpoint"
+      },
+      "fame": 2
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/6b3797aab1ad1d863112",
+      "name": "LloydsApotek",
+      "nameEnglish": "",
+      "category": "essentials",
+      "subcategory": "pharmacy",
+      "lat": 59.3022513,
+      "lng": 18.1017767,
+      "distanceFromTerminalMeters": 1729,
+      "distanceFromDefaultTerminalMeters": 1729,
+      "minDistanceFromAnyTerminalMeters": 1729,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Fr 09:00-19:00; Sa 10:00-17:00; Su off",
+      "website": "https://www.lloydsapotek.se",
+      "phone": "+46 8 505 154 20",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "sv:LloydsApotek",
+      "osmTags": {
+        "amenity": "pharmacy"
+      },
+      "fame": 1
     },
     {
       "source": "openstreetmap",
@@ -2121,9 +2168,9 @@
       "subcategory": "pharmacy",
       "lat": 59.3398498,
       "lng": 18.0379627,
-      "distanceFromTerminalMeters": 1291,
-      "distanceFromDefaultTerminalMeters": 1291,
-      "minDistanceFromAnyTerminalMeters": 1291,
+      "distanceFromTerminalMeters": 3970,
+      "distanceFromDefaultTerminalMeters": 3970,
+      "minDistanceFromAnyTerminalMeters": 3970,
       "nearestTerminalId": "ports-json-anchor",
       "address": "",
       "openingHours": "Mo-Fr 08:00-19:30;Sa 10:00-17:00;Su 11:00-15:00",
@@ -2133,47 +2180,222 @@
       "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "",
+      "wikipedia": "sv:LloydsApotek",
       "osmTags": {
         "amenity": "pharmacy"
-      }
+      },
+      "fame": 1
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/a42033f2f5123c93e89a",
-      "name": "Svea Apotek",
+      "sourceId": "osm/generated/eda8a2c5ad7d6f709ebe",
+      "name": "Berras biluthyrning",
       "nameEnglish": "",
       "category": "essentials",
-      "subcategory": "pharmacy",
-      "lat": 59.3418451,
-      "lng": 18.0579532,
-      "distanceFromTerminalMeters": 1392,
-      "distanceFromDefaultTerminalMeters": 1392,
-      "minDistanceFromAnyTerminalMeters": 1392,
+      "subcategory": "car_rental",
+      "lat": 59.3090002,
+      "lng": 18.0755894,
+      "distanceFromTerminalMeters": 1264,
+      "distanceFromDefaultTerminalMeters": 1264,
+      "minDistanceFromAnyTerminalMeters": 1264,
       "nearestTerminalId": "ports-json-anchor",
       "address": "",
-      "openingHours": "Mo-Fr 09:00-18:00",
-      "website": "www.citypoteket.se",
-      "phone": "+46 8 500 222 51",
+      "openingHours": "Mo-Fr 08:00-17:00",
+      "website": "https://www.berrasbiluthyrning.se",
+      "phone": "+4684427780",
       "cuisine": [],
-      "wheelchair": "no",
+      "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "",
+      "wikipedia": "",
       "osmTags": {
-        "amenity": "pharmacy"
+        "amenity": "car_rental"
       }
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/ac4fdc4a8935996d5d9a",
-      "name": "Vasaparken",
+      "sourceId": "osm/generated/42a9f0ec420a5d2329ab",
+      "name": "Liljevalchs konsthall",
+      "nameEnglish": "Liljevalch's Art Gallery",
+      "category": "attraction",
+      "subcategory": "gallery",
+      "lat": 59.3255204,
+      "lng": 18.0960836,
+      "distanceFromTerminalMeters": 991,
+      "distanceFromDefaultTerminalMeters": 991,
+      "minDistanceFromAnyTerminalMeters": 991,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "We, Fr-Mo 11:00-17:00; Tu, Th 11:00-20:00",
+      "website": "https://www.liljevalchs.se",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Art gallery with a goal to make art more accessible to all, focus is contemporary art.",
+      "wikidata": "Q1640397",
+      "wikipedia": "sv:Liljevalchs konsthall",
+      "osmTags": {
+        "tourism": "gallery"
+      },
+      "fame": 13
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/8960fb9dbc8d2d44703a",
+      "name": "Gröna Lund",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "theme_park",
+      "lat": 59.3233076,
+      "lng": 18.0964066,
+      "distanceFromTerminalMeters": 762,
+      "distanceFromDefaultTerminalMeters": 762,
+      "minDistanceFromAnyTerminalMeters": 762,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "https://www.gronalund.com/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q260304",
+      "wikipedia": "sv:Gröna Lund",
+      "osmTags": {
+        "tourism": "theme_park"
+      },
+      "fame": 20
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/4ec239b4b82e3c710409",
+      "name": "Tyska kyrkan",
+      "nameEnglish": "German Church",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 59.3241405,
+      "lng": 18.0716956,
+      "distanceFromTerminalMeters": 1386,
+      "distanceFromDefaultTerminalMeters": 1386,
+      "minDistanceFromAnyTerminalMeters": 1386,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Stockholm",
+      "openingHours": "10:30-16:30",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q2164087",
+      "wikipedia": "sv:Tyska kyrkan, Stockholm",
+      "osmTags": {
+        "amenity": "place_of_worship",
+        "tourism": "attraction"
+      },
+      "fame": 20
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/693acc5330592f43af4b",
+      "name": "Sagerska huset",
+      "nameEnglish": "Sager House",
+      "category": "attraction",
+      "subcategory": "castle",
+      "lat": 59.3287624,
+      "lng": 18.0672841,
+      "distanceFromTerminalMeters": 1907,
+      "distanceFromDefaultTerminalMeters": 1907,
+      "minDistanceFromAnyTerminalMeters": 1907,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Official residence of Swedish prime minister",
+      "wikidata": "Q1886105",
+      "wikipedia": "sv:Sagerska huset",
+      "osmTags": {
+        "historic": "castle"
+      },
+      "fame": 17
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/6088e1aeb3ab78e44c4f",
+      "name": "Tessinska palatset",
+      "nameEnglish": "Tessin Palace",
+      "category": "attraction",
+      "subcategory": "castle",
+      "lat": 59.3256312,
+      "lng": 18.0729847,
+      "distanceFromTerminalMeters": 1433,
+      "distanceFromDefaultTerminalMeters": 1433,
+      "minDistanceFromAnyTerminalMeters": 1433,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Stockholm",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q783848",
+      "wikipedia": "sv:Tessinska palatset",
+      "osmTags": {
+        "historic": "castle"
+      },
+      "fame": 13
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/de592936af1e775311da",
+      "name": "Klara kyrka",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "church",
+      "lat": 59.3311992,
+      "lng": 18.0615608,
+      "distanceFromTerminalMeters": 2330,
+      "distanceFromDefaultTerminalMeters": 2330,
+      "minDistanceFromAnyTerminalMeters": 2330,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Stockholm",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "limited",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q1540683",
+      "wikipedia": "sv:Klara kyrka",
+      "osmTags": {
+        "amenity": "place_of_worship",
+        "historic": "church"
+      },
+      "fame": 22
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d2b46f48e95a424d7f9f",
+      "name": "Vita bergen",
       "nameEnglish": "",
       "category": "outdoors",
       "subcategory": "park",
-      "lat": 59.3397262,
-      "lng": 18.043002,
-      "distanceFromTerminalMeters": 1152,
-      "distanceFromDefaultTerminalMeters": 1152,
-      "minDistanceFromAnyTerminalMeters": 1152,
+      "lat": 59.3114021,
+      "lng": 18.08921,
+      "distanceFromTerminalMeters": 627,
+      "distanceFromDefaultTerminalMeters": 627,
+      "minDistanceFromAnyTerminalMeters": 627,
       "nearestTerminalId": "ports-json-anchor",
       "address": "",
       "openingHours": "",
@@ -2183,102 +2405,104 @@
       "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "Q4356743",
+      "wikipedia": "sv:Vita bergen",
       "osmTags": {
         "leisure": "park"
-      }
+      },
+      "fame": 4
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/b7171092d1e8ff15421c",
-      "name": "Forum för levande historia",
-      "nameEnglish": "Living history forum",
-      "category": "attraction",
-      "subcategory": "museum",
-      "lat": 59.32496,
-      "lng": 18.0678712,
-      "distanceFromTerminalMeters": 1158,
-      "distanceFromDefaultTerminalMeters": 1158,
-      "minDistanceFromAnyTerminalMeters": 1158,
+      "sourceId": "osm/generated/ddce9c7a303718806c64",
+      "name": "PK-huset",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "mall",
+      "lat": 59.3331656,
+      "lng": 18.0705396,
+      "distanceFromTerminalMeters": 2166,
+      "distanceFromDefaultTerminalMeters": 2166,
+      "minDistanceFromAnyTerminalMeters": 2166,
       "nearestTerminalId": "ports-json-anchor",
       "address": "",
-      "openingHours": "Mo-Fr 12:00-17:00; Sa 12:00-16:00; Su off",
-      "website": "https://www.levandehistoria.se/",
-      "phone": "+4687238750",
-      "cuisine": [],
-      "wheelchair": "limited",
-      "brand": "",
-      "description": "\"An exhibition about the bystander.\"",
-      "osmTags": {
-        "tourism": "museum"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/15c0b760c4d1c28897fb",
-      "name": "Postmuseum",
-      "nameEnglish": "Post Museum",
-      "category": "attraction",
-      "subcategory": "museum",
-      "lat": 59.3240854,
-      "lng": 18.0680012,
-      "distanceFromTerminalMeters": 1215,
-      "distanceFromDefaultTerminalMeters": 1215,
-      "minDistanceFromAnyTerminalMeters": 1215,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "",
-      "openingHours": "Mo off; Tu-Fr 11:00-17:00; Sa-Su 10:00-16:00",
-      "website": "https://www.postmuseum.se/",
-      "phone": "+46104364439",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
       "cuisine": [],
       "wheelchair": "",
       "brand": "",
-      "description": "History of the Swedish postal service, postcards and stamps",
+      "description": "",
+      "wikidata": "Q10614543",
+      "wikipedia": "sv:PK-huset",
       "osmTags": {
-        "tourism": "museum"
+        "shop": "mall"
+      },
+      "fame": 4
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/31c2267c57e3f79a25fa",
+      "name": "Bönor och Blad",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "coffee",
+      "lat": 59.3085638,
+      "lng": 18.0757245,
+      "distanceFromTerminalMeters": 1293,
+      "distanceFromDefaultTerminalMeters": 1293,
+      "minDistanceFromAnyTerminalMeters": 1293,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "132 Götgatan, Stockholm, 11862, SE",
+      "openingHours": "Mo-Fr 10:00-20:00; Sa 10:00-18:00; Su 11:00-18:00",
+      "website": "https://bonorochblad.se",
+      "phone": "+4687021035",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "shop": "coffee"
       }
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/c3f31d2a09be70082970",
-      "name": "Nobelprismuseet",
-      "nameEnglish": "Nobel Museum",
-      "category": "attraction",
-      "subcategory": "museum",
-      "lat": 59.3252155,
-      "lng": 18.0708309,
-      "distanceFromTerminalMeters": 1296,
-      "distanceFromDefaultTerminalMeters": 1296,
-      "minDistanceFromAnyTerminalMeters": 1296,
+      "sourceId": "osm/generated/56e92665c6aaa58a323a",
+      "name": "Handfaste",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "gift",
+      "lat": 59.3233351,
+      "lng": 18.0719182,
+      "distanceFromTerminalMeters": 1325,
+      "distanceFromDefaultTerminalMeters": 1325,
+      "minDistanceFromAnyTerminalMeters": 1325,
       "nearestTerminalId": "ports-json-anchor",
-      "address": "",
-      "openingHours": "Sep-Mar Tu-Th 11:00-17:00; Fr 11:00-21:00; Sa-Su 11:00-17:00; Mo off; Apr-May Tu-Th 11:00-17:00; Fr 11:00-21:00; Sa-Su 10:00-18:00; Mo off; Jun-Aug Mo-Th,Sa-Su 10:00-19:00; Fr 10:00-21:00; PH off",
-      "website": "https://www.nobelprizemuseum.se",
-      "phone": "+46853481800",
+      "address": "73 Västerlånggatan, Stockholm, 11129",
+      "openingHours": "Mo-Su 10:00-18:30",
+      "website": "https://www.handfaste.se/",
+      "phone": "+468210720",
       "cuisine": [],
       "wheelchair": "",
       "brand": "",
-      "description": "About the Nobel Prize, Alfred Nobel and the prize winners.",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
       "osmTags": {
-        "tourism": "museum"
+        "shop": "gift"
       }
     }
   ],
-  "portAnchor": {
-    "id": "ports-json-anchor",
-    "name": "STOCKHOLM Port",
-    "lat": 59.33,
-    "lng": 18.05,
-    "address": "Stockholm, Stockholm County, Sweden",
-    "source": "ports.json",
-    "sourceId": "",
-    "score": 0,
-    "slug": "stockholm-port"
-  },
+  "gemSuggestions": [
+    "Östermalms Saluhall",
+    "Monteliusvägen viewpoint"
+  ],
   "terminalResolution": {
     "status": "resolved",
-    "method": "terminal_review",
+    "method": "cruise-ports",
     "verified": true,
-    "reviewedAt": "2026-09-28",
-    "notes": "Stadsgarden, Frihamnen, and Nynashamn (a gateway port 47 km south) are all used by cruise ships. Terminal sweep: Added Masthamnen next to Stadsgarden and moved the Frihamnen pin about 750 m onto the Cruise Center (from Google Maps)."
+    "notes": "Stadsgarden, Frihamnen, and Nynashamn (a gateway port 47 km south) are all used by cruise ships. Added Masthamnen next to Stadsgarden and moved the Frihamnen pin about 750 m onto the Cruise Center (from Google Maps)."
   }
 }

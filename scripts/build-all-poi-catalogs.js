@@ -23,6 +23,8 @@ function usage() {
 
 Options:
   --manifest <file>                  Extract manifest (default: cities/osm-extracts.json)
+  --ports <id,id,...>                Only rebuild these ports and keep every other catalog
+  --batch-extracts <n>               Download n extracts at a time and delete them after use (for small disks)
   --dry-run                          Validate and show planned downloads/builds
   --strict                           Fail when any port is not assigned to an extract
   --download-only                    Download required extracts without building catalogs
@@ -30,7 +32,6 @@ Options:
   --refresh-extracts                 Redownload extracts even when they already exist
   --no-download                      Never download; fail when a required PBF is missing
   --radius <metres>                  POI radius from ports.json coordinates (default: 10000)
-  --terminal-candidate-radius <m>    Terminal candidate radius (default: 5000)
   -h, --help                         Show this help`);
 }
 
@@ -44,12 +45,15 @@ function parseArgs(argv) {
     refreshExtracts: false,
     noDownload: false,
     radius: 10000,
-    terminalCandidateRadius: 5000,
+    ports: null,
+    batchExtracts: 0,
   };
 
   for (let i = 2; i < argv.length; i += 1) {
     const key = argv[i];
     if (key === '--manifest') args.manifest = path.resolve(argv[++i]);
+    else if (key === '--ports') args.ports = new Set(String(argv[++i] || '').split(',').map(id => id.trim()).filter(Boolean));
+    else if (key === '--batch-extracts') args.batchExtracts = Number(argv[++i]);
     else if (key === '--dry-run') args.dryRun = true;
     else if (key === '--strict') args.strict = true;
     else if (key === '--download-only') args.downloadOnly = true;
@@ -57,7 +61,6 @@ function parseArgs(argv) {
     else if (key === '--refresh-extracts') args.refreshExtracts = true;
     else if (key === '--no-download') args.noDownload = true;
     else if (key === '--radius') args.radius = Number(argv[++i]);
-    else if (key === '--terminal-candidate-radius') args.terminalCandidateRadius = Number(argv[++i]);
     else if (key === '--help' || key === '-h') args.help = true;
     else throw new Error(`Unknown argument: ${key}`);
   }
@@ -315,7 +318,6 @@ function runJob(job, args, extractStatus) {
     '--pbf', job.pbf,
     '--port', job.port.id,
     '--radius', String(args.radius),
-    '--terminal-candidate-radius', String(args.terminalCandidateRadius),
   ];
   const result = spawnSync(process.execPath, childArgs, {
     cwd: ROOT,
@@ -340,8 +342,8 @@ function runJob(job, args, extractStatus) {
 async function main() {
   const args = parseArgs(process.argv);
   if (args.help) return usage();
-  if (!Number.isFinite(args.radius) || args.radius <= 0 || !Number.isFinite(args.terminalCandidateRadius) || args.terminalCandidateRadius <= 0) {
-    throw new Error('Radius values must be positive numbers.');
+  if (!Number.isFinite(args.radius) || args.radius <= 0) {
+    throw new Error('Radius must be a positive number.');
   }
 
   if (args.syncManifest) {
@@ -355,7 +357,16 @@ async function main() {
   const ports = readJson(PORTS_FILE, 'ports.json');
   if (!Array.isArray(ports)) throw new Error('ports.json must contain an array.');
   const manifest = readJson(args.manifest, 'OSM extract manifest');
-  const { extracts, jobs, unassigned } = validateManifest(manifest, ports, args.manifest);
+  const validated = validateManifest(manifest, ports, args.manifest);
+  let { extracts, jobs, unassigned } = validated;
+  if (args.ports) {
+    const unknown = [...args.ports].filter(id => !ports.some(port => port.id === id));
+    if (unknown.length) throw new Error(`Unknown port id(s): ${unknown.join(', ')}`);
+    jobs = jobs.filter(job => args.ports.has(job.port.id));
+    const needed = new Set(jobs.map(job => job.extractId));
+    extracts = extracts.filter(extract => needed.has(extract.id));
+    unassigned = unassigned.filter(port => args.ports.has(port.id));
+  }
 
   console.log(`Validated ${jobs.length} port assignment(s) across ${extracts.length} extract(s).`);
   if (unassigned.length) {
@@ -365,7 +376,7 @@ async function main() {
     if (args.strict) throw new Error('Strict mode requires every port in ports.json to be assigned.');
   }
 
-  if (!args.downloadOnly && !args.dryRun) {
+  if (!args.downloadOnly && !args.dryRun && !args.ports) {
     const confirmed = await confirmPoiDeletion();
     if (!confirmed) {
       console.log('Cancelled. Existing POI catalogs were not changed.');
@@ -378,11 +389,38 @@ async function main() {
     console.log('Cleared previous raw and candidate POI catalogs. Building a fresh source-of-truth set.');
   }
 
-  const extractResults = await prepareExtracts(extracts, jobs, args);
   const extractCounts = { downloaded: 0, cached: 0, planned: 0, failed: 0, notNeeded: 0 };
-  for (const result of extractResults.values()) {
-    if (result.status === 'not-needed') extractCounts.notNeeded += 1;
-    else extractCounts[result.status] += 1;
+  const batchSize = args.batchExtracts > 0 && !args.downloadOnly && !args.dryRun ? args.batchExtracts : extracts.length;
+  const counts = { completed: 0, skipped: 0, planned: 0, failed: 0 };
+  const failures = [];
+  let jobNumber = 0;
+  for (let start = 0; start < extracts.length; start += batchSize) {
+    const batch = extracts.slice(start, start + batchSize);
+    if (batchSize < extracts.length) console.log(`\nBatch ${start / batchSize + 1} of ${Math.ceil(extracts.length / batchSize)}`);
+    const extractResults = await prepareExtracts(batch, jobs, args);
+    for (const result of extractResults.values()) {
+      if (result.status === 'not-needed') extractCounts.notNeeded += 1;
+      else extractCounts[result.status] += 1;
+    }
+    if (args.downloadOnly) continue;
+
+    const batchIds = new Set(batch.map(extract => extract.id));
+    for (const job of jobs.filter(item => batchIds.has(item.extractId))) {
+      jobNumber += 1;
+      console.log(`\nPort [${jobNumber}/${jobs.length}] ${job.port.id} using ${job.extractId}`);
+      const result = runJob(job, args, extractResults.get(job.extractId));
+      counts[result.status] += 1;
+      if (result.status === 'failed') {
+        failures.push({ portId: job.port.id, error: result.error });
+        console.error(`${job.port.id}: ${result.error}`);
+      } else if (result.status === 'planned') {
+        console.log(`${job.port.id}: would build from ${path.relative(ROOT, job.pbf)}`);
+      }
+    }
+    // Small disks: drop this batch's extracts before downloading the next.
+    if (batchSize < extracts.length) {
+      for (const extract of batch) fs.rmSync(extract.pbf, { force: true });
+    }
   }
 
   if (args.downloadOnly) {
@@ -393,23 +431,6 @@ async function main() {
     console.log(`Failed: ${extractCounts.failed}`);
     if (extractCounts.failed) process.exitCode = 1;
     return;
-  }
-
-  const counts = { completed: 0, skipped: 0, planned: 0, failed: 0 };
-  const failures = [];
-  for (let index = 0; index < jobs.length; index += 1) {
-    const job = jobs[index];
-    console.log(`\nPort [${index + 1}/${jobs.length}] ${job.port.id} using ${job.extractId}`);
-    const result = runJob(job, args, extractResults.get(job.extractId));
-    counts[result.status] += 1;
-    if (result.status === 'failed') {
-      failures.push({ portId: job.port.id, error: result.error });
-      console.error(`${job.port.id}: ${result.error}`);
-    } else if (result.status === 'skipped') {
-      console.log(`${job.port.id}: skipped, catalog already exists`);
-    } else if (result.status === 'planned') {
-      console.log(`${job.port.id}: would build from ${path.relative(ROOT, job.pbf)}`);
-    }
   }
 
   console.log('\nBatch summary');

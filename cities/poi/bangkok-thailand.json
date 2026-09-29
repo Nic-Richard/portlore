@@ -1,7 +1,40 @@
 {
+  "defaultTerminalId": "manual/bangkok-thailand/laem-chabang-cruise-terminal-a",
+  "terminal": {
+    "id": "manual/bangkok-thailand/laem-chabang-cruise-terminal-a",
+    "name": "Laem Chabang Cruise Terminal A",
+    "lat": 13.07887,
+    "lng": 100.88459,
+    "terminalType": "gateway_cruise_terminal",
+    "source": "manual_web_research",
+    "sourceUrls": [
+      "https://www.cruisemapper.com/ports/laem-chabang-bangkok-port-246",
+      "https://www.openstreetmap.org/?mlat=13.07887&mlon=100.88459#map=17/13.07887/100.88459"
+    ],
+    "notes": "Main deep-water cruise facility used by ships marketed as calling at Bangkok. Passengers enter the destination through Laem Chabang, not central Bangkok.",
+    "sourceId": "manual/bangkok-thailand/laem-chabang-cruise-terminal-a",
+    "verified": true
+  },
+  "terminals": [
+    {
+      "id": "manual/bangkok-thailand/laem-chabang-cruise-terminal-a",
+      "name": "Laem Chabang Cruise Terminal A",
+      "lat": 13.07887,
+      "lng": 100.88459,
+      "terminalType": "gateway_cruise_terminal",
+      "source": "manual_web_research",
+      "sourceUrls": [
+        "https://www.cruisemapper.com/ports/laem-chabang-bangkok-port-246",
+        "https://www.openstreetmap.org/?mlat=13.07887&mlon=100.88459#map=17/13.07887/100.88459"
+      ],
+      "notes": "Main deep-water cruise facility used by ships marketed as calling at Bangkok. Passengers enter the destination through Laem Chabang, not central Bangkok.",
+      "sourceId": "manual/bangkok-thailand/laem-chabang-cruise-terminal-a",
+      "verified": true
+    }
+  ],
   "schemaVersion": 5,
   "catalogType": "curation-candidates",
-  "generatedAt": "2026-07-30T09:11:59.134Z",
+  "generatedAt": "2026-09-29T05:47:34.794Z",
   "source": "openstreetmap",
   "sourceExtract": "thailand-latest.osm.pbf",
   "radiusMeters": 10000,
@@ -10,1924 +43,23 @@
     "city": "Bangkok (Laem Chabang)",
     "country": "Thailand"
   },
-  "defaultTerminalId": "manual/bangkok-thailand/laem-chabang-cruise-terminal-a",
-  "terminal": {
-    "id": "manual/bangkok-thailand/laem-chabang-cruise-terminal-a",
+  "portAnchor": {
+    "id": "ports-json-anchor",
     "name": "Laem Chabang Cruise Terminal A",
-    "nameEnglish": "",
-    "lat": 13.07887,
-    "lng": 100.88459,
-    "address": "",
-    "source": "manual_web_research",
-    "sourceId": "manual/bangkok-thailand/laem-chabang-cruise-terminal-a",
-    "terminalType": "gateway_cruise_terminal",
-    "verified": true,
-    "notes": "Main deep-water cruise facility used by ships marketed as calling at Bangkok. Passengers enter the destination through Laem Chabang, not central Bangkok.",
-    "sourceUrls": [
-      "https://www.cruisemapper.com/ports/laem-chabang-bangkok-port-246",
-      "https://www.openstreetmap.org/?mlat=13.07887&mlon=100.88459#map=17/13.07887/100.88459"
-    ],
-    "sources": [
-      "manual_web_research"
-    ],
-    "sourceIds": [
-      "manual/bangkok-thailand/laem-chabang-cruise-terminal-a"
-    ],
-    "osmTags": {},
-    "matchedBy": [
-      "web_researched_terminal"
-    ]
+    "lat": 13.75,
+    "lng": 100.5,
+    "address": "Bangkok, Bangkok Province, Thailand",
+    "source": "ports.json",
+    "sourceId": "",
+    "score": 0,
+    "slug": "laem-chabang-cruise-terminal-a"
   },
-  "terminals": [
-    {
-      "id": "manual/bangkok-thailand/laem-chabang-cruise-terminal-a",
-      "name": "Laem Chabang Cruise Terminal A",
-      "nameEnglish": "",
-      "lat": 13.07887,
-      "lng": 100.88459,
-      "address": "",
-      "source": "manual_web_research",
-      "sourceId": "manual/bangkok-thailand/laem-chabang-cruise-terminal-a",
-      "terminalType": "gateway_cruise_terminal",
-      "verified": true,
-      "notes": "Main deep-water cruise facility used by ships marketed as calling at Bangkok. Passengers enter the destination through Laem Chabang, not central Bangkok.",
-      "sourceUrls": [
-        "https://www.cruisemapper.com/ports/laem-chabang-bangkok-port-246",
-        "https://www.openstreetmap.org/?mlat=13.07887&mlon=100.88459#map=17/13.07887/100.88459"
-      ],
-      "sources": [
-        "manual_web_research"
-      ],
-      "sourceIds": [
-        "manual/bangkok-thailand/laem-chabang-cruise-terminal-a"
-      ],
-      "osmTags": {},
-      "matchedBy": [
-        "web_researched_terminal"
-      ]
-    }
-  ],
-  "terminalCandidateRadiusMeters": 5000,
-  "terminalCandidates": [
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/667e9610574885d825b1",
-      "name": "ผ่านฟ้าลีลาศ",
-      "nameEnglish": "Phanfa Leelard",
-      "lat": 13.7555116,
-      "lng": 100.506445,
-      "distanceFromPortMeters": 927,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "name:en": "Phanfa Leelard",
-        "public_transport": "stop_position"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/667e9610574885d825b1"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/2d36c0482c97145eb494",
-      "name": "Wat Pho",
-      "nameEnglish": "Wat Pho",
-      "lat": 13.7440374,
-      "lng": 100.4915217,
-      "distanceFromPortMeters": 1131,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "name:en": "Wat Pho",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/2d36c0482c97145eb494"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/060f5c63704238ea8625",
-      "name": "ราชินี",
-      "nameEnglish": "Rajinee N7",
-      "lat": 13.7416128,
-      "lng": 100.4938532,
-      "distanceFromPortMeters": 1145,
-      "address": "10200",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "name:en": "Atsadang Pier",
-        "operator": "CPX-T",
-        "public_transport": "stop_position"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/060f5c63704238ea8625"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/b6fdda2222e6f3597a83",
-      "name": "ท่าเตียน",
-      "nameEnglish": "Tha Tien",
-      "lat": 13.7454115,
-      "lng": 100.4904047,
-      "distanceFromPortMeters": 1155,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "description": "왓 아룬 가는 나루; cross rhe river",
-        "ferry": "yes",
-        "name:en": "Tha Tien N8",
-        "operator": "CPX-B, CPX-O, CPX-T",
-        "public_transport": "stop_position"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/b6fdda2222e6f3597a83"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/e0bf732b492a2049859b",
-      "name": "ยอดพิมาน",
-      "nameEnglish": "Yodpiman",
-      "lat": 13.740983,
-      "lng": 100.494693,
-      "distanceFromPortMeters": 1155,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "name:en": "Yodpiman",
-        "public_transport": "stop_position"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/e0bf732b492a2049859b"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/f69edf6ed287d4c333c3",
-      "name": "สะพานพุทธ",
-      "nameEnglish": "Memorial Bridge",
-      "lat": 13.7397402,
-      "lng": 100.4982194,
-      "distanceFromPortMeters": 1157,
-      "address": "10200",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "name:en": "Memorial Bridge",
-        "public_transport": "stop_position"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/f69edf6ed287d4c333c3"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/8a64547f3803338c1f78",
-      "name": "วัดอรุณราชวราราม",
-      "nameEnglish": "Wat Arun Ratchawararam",
-      "lat": 13.7440526,
-      "lng": 100.489838,
-      "distanceFromPortMeters": 1281,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "name:en": "Wat Arun Ratchawararam",
-        "public_transport": "stop_position"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/8a64547f3803338c1f78"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/3b3238f13158dac9745d",
-      "name": "ท่าเรือวัดอรุณฯ",
-      "nameEnglish": "Wat Arun Pier",
-      "lat": 13.7449657,
-      "lng": 100.4892081,
-      "distanceFromPortMeters": 1293,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "name:en": "Wat Arun Pier",
-        "public_transport": "stop_position"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/3b3238f13158dac9745d"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/890c352fda92b98561f5",
-      "name": "ท่าช้าง",
-      "nameEnglish": "Tha Chang N9",
-      "lat": 13.7525602,
-      "lng": 100.4882707,
-      "distanceFromPortMeters": 1298,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "name:en": "Tha Chang",
-        "operator": "CPX-G,CPX-OCPX-T",
-        "public_transport": "stop_position"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/890c352fda92b98561f5"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/7011d0a03d570b06dbe4",
-      "name": "(unnamed maritime feature)",
-      "nameEnglish": "",
-      "lat": 13.7397308,
-      "lng": 100.4941534,
-      "distanceFromPortMeters": 1305,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/7011d0a03d570b06dbe4"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/24eb4c9967bab692a55d",
-      "name": "ท่าเรือวัดกัลยาณมิตร",
-      "nameEnglish": "Wat Kanlayanamit Pier",
-      "lat": 13.7409626,
-      "lng": 100.4921971,
-      "distanceFromPortMeters": 1312,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "name:en": "Wat Kanlayanamit Pier",
-        "public_transport": "stop_position"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/24eb4c9967bab692a55d"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/c19d3fa4bb07d9176b0d",
-      "name": "มหาราช",
-      "nameEnglish": "Maharaj",
-      "lat": 13.7544784,
-      "lng": 100.4884271,
-      "distanceFromPortMeters": 1346,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "name:en": "Maharaj",
-        "public_transport": "stop_position"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/c19d3fa4bb07d9176b0d"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/f6346583faac2163620f",
-      "name": "ราชวงศ์",
-      "nameEnglish": "Ratchawong N 5",
-      "lat": 13.7384651,
-      "lng": 100.5043646,
-      "distanceFromPortMeters": 1367,
-      "address": "10100",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "name:en": "Rachawong",
-        "public_transport": "stop_position"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/f6346583faac2163620f"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/24891e267e2f1d31009f",
-      "name": "ท่าพระจันทร์",
-      "nameEnglish": "Tha Phra Chan",
-      "lat": 13.7565171,
-      "lng": 100.4886763,
-      "distanceFromPortMeters": 1422,
-      "address": "10200",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "name:en": "Tha Phra Chan 11",
-        "public_transport": "stop_position"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/24891e267e2f1d31009f"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/f827116442ad524a1642",
-      "name": "ท่าเรือวัดระฆังฯ",
-      "nameEnglish": "Wat Rakhang Pier",
-      "lat": 13.7525131,
-      "lng": 100.486708,
-      "distanceFromPortMeters": 1463,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "name:en": "Wat Rakhang Pier",
-        "public_transport": "stop_position"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/f827116442ad524a1642"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/86253cd57aebf5261ea3",
-      "name": "ท่าดินแดง",
-      "nameEnglish": "Tha Din Daeng",
-      "lat": 13.736982,
-      "lng": 100.5038479,
-      "distanceFromPortMeters": 1506,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "name:en": "Tha Din Daeng",
-        "public_transport": "stop_position"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/86253cd57aebf5261ea3"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/9d7e4e50fa33d53ac645",
-      "name": "ท่าเรือพระปิ่นเกล้า (ฝั่งพระนคร)",
-      "nameEnglish": "Phra Pin Klao Pier (Phra Nakhon)",
-      "lat": 13.7614233,
-      "lng": 100.4916887,
-      "distanceFromPortMeters": 1555,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "name:en": "Phra Pin Klao Pier (Phra Nakhon)",
-        "public_transport": "stop_position"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/9d7e4e50fa33d53ac645"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/d2d5cdbaeaeb633f8546",
-      "name": "ท่าวังหลัง",
-      "nameEnglish": "Tha Wang Lang",
-      "lat": 13.7556928,
-      "lng": 100.4868281,
-      "distanceFromPortMeters": 1557,
-      "address": "10700",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "alt_name": "พรานนก",
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "name:en": "Prannok",
-        "public_transport": "stop_position"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/d2d5cdbaeaeb633f8546"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/6e623634e5eb6e39696f",
-      "name": "ป้อมพระสุเมรุ",
-      "nameEnglish": "Phra Sumen Fort",
-      "lat": 13.7641078,
-      "lng": 100.4963148,
-      "distanceFromPortMeters": 1618,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "name:en": "Phra Sumen Fort",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/6e623634e5eb6e39696f"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/4bd92ff8f2d182eaf5f8",
-      "name": "พระอาทิตย์",
-      "nameEnglish": "Phra Arthit",
-      "lat": 13.7635578,
-      "lng": 100.4940371,
-      "distanceFromPortMeters": 1639,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "name:en": "Phra Arthit",
-        "public_transport": "stop_position"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/4bd92ff8f2d182eaf5f8"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/3f4f56f363a800ba6f01",
-      "name": "ท่ารถไฟ",
-      "nameEnglish": "Thonburi Railway",
-      "lat": 13.759207,
-      "lng": 100.4878041,
-      "distanceFromPortMeters": 1668,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "name:en": "Thonburi Railway",
-        "public_transport": "stop_position"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/3f4f56f363a800ba6f01"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/de622b9995459a951eca",
-      "name": "ท่าเรือพระปิ่นเกล้า (ฝั่งธนบุรี) 12",
-      "nameEnglish": "Phra Pin Klao Pier (Thon Buri) 12",
-      "lat": 13.7624275,
-      "lng": 100.4899834,
-      "distanceFromPortMeters": 1755,
-      "address": "10700",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "name:en": "Phra Pin Klao Pier (Thon Buri) 12",
-        "public_transport": "stop_position"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/de622b9995459a951eca"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/9dfef39a64e47e035320",
-      "name": "พระปิ่นเกล้า",
-      "nameEnglish": "Phra Pinklao Bridge N12",
-      "lat": 13.762992,
-      "lng": 100.4906911,
-      "distanceFromPortMeters": 1760,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "name:en": "Phra Pinklao Bridge N12",
-        "public_transport": "stop_position"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/9dfef39a64e47e035320"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/8357f0de4913e8080096",
-      "name": "ตลาดโบ๊เบ๊",
-      "nameEnglish": "Talad Bobae",
-      "lat": 13.7534236,
-      "lng": 100.515961,
-      "distanceFromPortMeters": 1765,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "name:en": "Talad Bobae",
-        "public_transport": "stop_position"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/8357f0de4913e8080096"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/51ec9ecdcd39cb141cea",
-      "name": "ท่าเรือนครสวรรค์",
-      "nameEnglish": "Nakhon Sawan Pier",
-      "lat": 13.7597686,
-      "lng": 100.5132132,
-      "distanceFromPortMeters": 1793,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "name:en": "Nakhon Sawan Pier",
-        "public_transport": "stop_position"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/51ec9ecdcd39cb141cea"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/ac6fbbf95ecdfecce9d5",
-      "name": "ท่าเรือราชดำเนินนอก",
-      "nameEnglish": "Ratchadamnoen Nok Pier",
-      "lat": 13.7628618,
-      "lng": 100.5100915,
-      "distanceFromPortMeters": 1798,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "name:en": "Ratchadamnoen Nok Pier",
-        "public_transport": "stop_position"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/ac6fbbf95ecdfecce9d5"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/7966ebcd5b07c2d8cf70",
-      "name": "ท่าเรือยศเส",
-      "nameEnglish": "Yotse Pier",
-      "lat": 13.7468323,
-      "lng": 100.5164749,
-      "distanceFromPortMeters": 1814,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "name:en": "Yotse Pier",
-        "public_transport": "stop_position"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/7966ebcd5b07c2d8cf70"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/b2faf7b41cb7239258d8",
-      "name": "ท่าเรือสวัสดี",
-      "nameEnglish": "Sawatdi Pier",
-      "lat": 13.7361988,
-      "lng": 100.5093072,
-      "distanceFromPortMeters": 1835,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "name:en": "Sawatdi Pier",
-        "public_transport": "stop_position"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/b2faf7b41cb7239258d8"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/3f3c86478f4ca08437b1",
-      "name": "ท่าเรือกระทรวงพลังงาน",
-      "nameEnglish": "Department of Energy Pier",
-      "lat": 13.7492906,
-      "lng": 100.5170059,
-      "distanceFromPortMeters": 1838,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "name:en": "Department of Energy Pier",
-        "public_transport": "stop_position"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/3f3c86478f4ca08437b1"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/dcd4ef93b9317ebe4985",
-      "name": "ท่าเรือนพวงศ์",
-      "nameEnglish": "Nopphawong Pier",
-      "lat": 13.7449517,
-      "lng": 100.5163042,
-      "distanceFromPortMeters": 1848,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "name:en": "Nopphawong Pier",
-        "public_transport": "stop_position"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/dcd4ef93b9317ebe4985"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/3f7373410b3d319ff6a8",
-      "name": "วัดดาวดึงษาราม",
-      "nameEnglish": "Wat Daowaduengsaram",
-      "lat": 13.765395,
-      "lng": 100.4934036,
-      "distanceFromPortMeters": 1854,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "name:en": "Wat Daowaduengsaram",
-        "public_transport": "stop_position"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/3f7373410b3d319ff6a8"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/b92b193161801dd848cd",
-      "name": "ท่าเรือวัดทองธรรมชาติ",
-      "nameEnglish": "Wat Thong Thammachat Pier",
-      "lat": 13.7352241,
-      "lng": 100.5082762,
-      "distanceFromPortMeters": 1870,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "name:en": "Wat Thong Thammachat Pier",
-        "public_transport": "stop_position"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/b92b193161801dd848cd"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/3adc4aa22871d2df790e",
-      "name": "ท่าเรือประชาธิปไตย",
-      "nameEnglish": "Praca Thippatai Pier",
-      "lat": 13.7650838,
-      "lng": 100.50796,
-      "distanceFromPortMeters": 1885,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "name:en": "Praca Thippatai Pier",
-        "public_transport": "stop_position"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/3adc4aa22871d2df790e"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/b4fd332bc92b628ffd01",
-      "name": "พระราม 8",
-      "nameEnglish": "Rama 8 Bridge",
-      "lat": 13.7675324,
-      "lng": 100.4977304,
-      "distanceFromPortMeters": 1965,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "name:en": "Rama 8 Bridge",
-        "public_transport": "stop_position"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/b4fd332bc92b628ffd01"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/14a055fefe55b2e26725",
-      "name": "หัวลำโพง",
-      "nameEnglish": "Hua Lamphong Pier",
-      "lat": 13.7409063,
-      "lng": 100.5157635,
-      "distanceFromPortMeters": 1980,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "name:en": "Hua Lamphong Pier",
-        "public_transport": "stop_position"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/14a055fefe55b2e26725"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/2dd2d96348991c3cffb4",
-      "name": "ท่าเรือสถานีรถไฟหัวลำโพง",
-      "nameEnglish": "Hua Lamphong Station Pier",
-      "lat": 13.7386935,
-      "lng": 100.515741,
-      "distanceFromPortMeters": 2115,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "name:en": "Hua Lamphong Station Pier",
-        "public_transport": "stop_position"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/2dd2d96348991c3cffb4"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/1bb4e1d9ce9e0796b560",
-      "name": "ท่าเรือเทเวศร์",
-      "nameEnglish": "Thewet Pier",
-      "lat": 13.7685662,
-      "lng": 100.5048108,
-      "distanceFromPortMeters": 2129,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "name:en": "Thewet Pier",
-        "public_transport": "stop_position"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/1bb4e1d9ce9e0796b560"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/8b619ceba4d608f88143",
-      "name": "กรมเจ้าท่า",
-      "nameEnglish": "Marine Department",
-      "lat": 13.7324943,
-      "lng": 100.5118793,
-      "distanceFromPortMeters": 2331,
-      "address": "10100",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "name:en": "Marine Department",
-        "public_transport": "stop_position"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/8b619ceba4d608f88143"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/3e13a09e99af3ea95ebb",
-      "name": "ท่าเรือตลาดเทวราช",
-      "nameEnglish": "Thevaraj Market Pier",
-      "lat": 13.7711639,
-      "lng": 100.5020131,
-      "distanceFromPortMeters": 2363,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "name:en": "Thevaraj Market Pier",
-        "public_transport": "stop_position"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/3e13a09e99af3ea95ebb"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/ab15d0eb0afd7954fb19",
-      "name": "เทเวศร์",
-      "nameEnglish": "Thewet",
-      "lat": 13.7720432,
-      "lng": 100.5000982,
-      "distanceFromPortMeters": 2451,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "name:en": "Thewet",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/ab15d0eb0afd7954fb19"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/b75050eccdae3b08a126",
-      "name": "วัดคฤหบดี",
-      "nameEnglish": "Wat Kharuehabodi",
-      "lat": 13.7718923,
-      "lng": 100.4971703,
-      "distanceFromPortMeters": 2453,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "name:en": "Wat Kharuehabodi",
-        "public_transport": "stop_position"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/b75050eccdae3b08a126"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/de33fdc8062f49b2c3b7",
-      "name": "สะพานเจริญผล",
-      "nameEnglish": "Sapan Charoenpol",
-      "lat": 13.7498204,
-      "lng": 100.5243125,
-      "distanceFromPortMeters": 2626,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "name:en": "Sapan Charoenpol",
-        "public_transport": "stop_position"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/de33fdc8062f49b2c3b7"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/7c0905814dc266d21336",
-      "name": "ท่าเรือคลองสาน",
-      "nameEnglish": "Khlong San Pier",
-      "lat": 13.7291082,
-      "lng": 100.5116047,
-      "distanceFromPortMeters": 2640,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "name:en": "Khlong San Pier",
-        "public_transport": "stop_position"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/7c0905814dc266d21336"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/eda3096a18511934f141",
-      "name": "ท่าเรือสี่พระยา (ประตู 2)",
-      "nameEnglish": "Si Phraya Pier (Gate 2)",
-      "lat": 13.729504,
-      "lng": 100.5129272,
-      "distanceFromPortMeters": 2673,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "name:en": "Si Phraya Pier (Gate 2)",
-        "public_transport": "stop_position"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/eda3096a18511934f141"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/c8e119cfeb67d171f525",
-      "name": "ท่าเรือสี่พระยา (ประตู 1)",
-      "nameEnglish": "Si Phraya Pier (Gate 1)",
-      "lat": 13.729432,
-      "lng": 100.5129442,
-      "distanceFromPortMeters": 2681,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "name:en": "Si Phraya Pier (Gate 1)",
-        "public_transport": "stop_position"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/c8e119cfeb67d171f525"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/999c2053a39f48e2e171",
-      "name": "ท่าเรือวัดบวรมงคล",
-      "nameEnglish": "Wat Bowon Mongkhon Pier",
-      "lat": 13.7742094,
-      "lng": 100.4980775,
-      "distanceFromPortMeters": 2700,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "name:en": "Wat Bowon Mongkhon Pier",
-        "public_transport": "stop_position"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/999c2053a39f48e2e171"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/60a8f72148b5bec58c58",
-      "name": "สี่พระยา",
-      "nameEnglish": "Si Phraya",
-      "lat": 13.728416,
-      "lng": 100.5131062,
-      "distanceFromPortMeters": 2786,
-      "address": "10500",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "name:en": "Si Phraya",
-        "public_transport": "stop_position"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/60a8f72148b5bec58c58"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/d5259016e326fb138ddc",
-      "name": "ท่าเรือไอคอนสยาม 4",
-      "nameEnglish": "Icon Siam Pier 4",
-      "lat": 13.7275593,
-      "lng": 100.5117949,
-      "distanceFromPortMeters": 2802,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "name:en": "Icon Siam Pier 4",
-        "public_transport": "stop_position"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/d5259016e326fb138ddc"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/261a6452068b138d83bf",
-      "name": "ท่าเรือไอคอนสยาม 2",
-      "nameEnglish": "Icon Siam Pier 2",
-      "lat": 13.7266265,
-      "lng": 100.5118539,
-      "distanceFromPortMeters": 2897,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "name:en": "Icon Siam Pier 2",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/261a6452068b138d83bf"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/4a54ba82eb4b627f9f0d",
-      "name": "เนาวจำเนียร",
-      "nameEnglish": "Naowachamnian",
-      "lat": 13.7277262,
-      "lng": 100.4853642,
-      "distanceFromPortMeters": 2938,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "name:en": "Naowachamnian",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/4a54ba82eb4b627f9f0d"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/b3a2ca310d5a9fab5753",
-      "name": "ท่าเรือกสท. โทรคมนาคม",
-      "nameEnglish": "Wat Muang Kae",
-      "lat": 13.7269639,
-      "lng": 100.5134675,
-      "distanceFromPortMeters": 2946,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "public_transport": "stop_position",
-        "name:en": "Wat Muang Kae"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/b3a2ca310d5a9fab5753"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/b466a34430ba726a5b2f",
-      "name": "ท่าเรือวัดสุวรรณ",
-      "nameEnglish": "Wat Suwan Pier",
-      "lat": 13.7240879,
-      "lng": 100.511844,
-      "distanceFromPortMeters": 3153,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "name:en": "Wat Suwan Pier",
-        "public_transport": "stop_position"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/b466a34430ba726a5b2f"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/c685f04cb012eab9e199",
-      "name": "Riverside Cruise",
-      "nameEnglish": "",
-      "lat": 13.7796122,
-      "lng": 100.5001656,
-      "distanceFromPortMeters": 3293,
-      "address": "",
-      "matchedBy": [
-        "terminal-like name"
-      ],
-      "osmTags": {
-        "man_made": "pier",
-        "operator": "Riverside Hotel"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/c685f04cb012eab9e199"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/11eea6775e849d0a05cf",
-      "name": "ท่าเรือโอเรียนเต็ล",
-      "nameEnglish": "Oriental Pier",
-      "lat": 13.7233146,
-      "lng": 100.5135187,
-      "distanceFromPortMeters": 3307,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "name:en": "Oriental Pier",
-        "public_transport": "stop_position"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/11eea6775e849d0a05cf"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/3f612f450c479b5a5bcc",
-      "name": "สะพานหัวช้าง",
-      "nameEnglish": "Sapan Hua Chang",
-      "lat": 13.7491969,
-      "lng": 100.5308829,
-      "distanceFromPortMeters": 3337,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "name:en": "Sapan Hua Chang",
-        "public_transport": "stop_position"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/3f612f450c479b5a5bcc"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/a25eb5a27ac231260cd3",
-      "name": "สะพานกรุงธน",
-      "nameEnglish": "Krung Thon Bridge",
-      "lat": 13.7815481,
-      "lng": 100.501088,
-      "distanceFromPortMeters": 3510,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "alt_name": "ท่าเรือซังฮี้",
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "name:en": "Krung Thon Bridge",
-        "public_transport": "stop_position"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/a25eb5a27ac231260cd3"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/bd779df95012819fac3f",
-      "name": "ท่าเรือตากสิน",
-      "nameEnglish": "Taksin Pier",
-      "lat": 13.7200153,
-      "lng": 100.5113205,
-      "distanceFromPortMeters": 3551,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "name:en": "Taksin Pier",
-        "public_transport": "stop_position"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/bd779df95012819fac3f"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/97deaafd88b1f1c91519",
-      "name": "ท่าเรือสาทร",
-      "nameEnglish": "Sathon Pier",
-      "lat": 13.7193143,
-      "lng": 100.5128954,
-      "distanceFromPortMeters": 3685,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "name:en": "Sathorn (Taksin)",
-        "public_transport": "stop_position"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/97deaafd88b1f1c91519"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/09e32bcabbeb9f8d3ce7",
-      "name": "ท่าเรือสาทร",
-      "nameEnglish": "Sathorn Pier",
-      "lat": 13.7183726,
-      "lng": 100.5125661,
-      "distanceFromPortMeters": 3770,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "name:en": "Sathorn Pier",
-        "public_transport": "stop_position"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/09e32bcabbeb9f8d3ce7"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/a1f4474fe0d892f94c65",
-      "name": "วัดเทพนารี",
-      "nameEnglish": "Wat Thepnahree",
-      "lat": 13.7839664,
-      "lng": 100.5023314,
-      "distanceFromPortMeters": 3785,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "name:en": "Wat Thepnahree",
-        "public_transport": "stop_position"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/a1f4474fe0d892f94c65"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/bfb6bd9c2649ed92d885",
-      "name": "ตลาดพลู",
-      "nameEnglish": "",
-      "lat": 13.7224408,
-      "lng": 100.4771199,
-      "distanceFromPortMeters": 3937,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/bfb6bd9c2649ed92d885"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/c676a4e0cada2ea7ba81",
-      "name": "วัดเทพากร",
-      "nameEnglish": "Wat Thepakorn",
-      "lat": 13.7855317,
-      "lng": 100.5034266,
-      "distanceFromPortMeters": 3968,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "name:en": "Wat Thepakorn",
-        "public_transport": "stop_position"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/c676a4e0cada2ea7ba81"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/766bf01d56410dcb1d6e",
-      "name": "วัดเศวตฉัตร",
-      "nameEnglish": "Wat Sawetachat",
-      "lat": 13.7126629,
-      "lng": 100.5071847,
-      "distanceFromPortMeters": 4224,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "name:en": "Wat Sawetachat",
-        "public_transport": "stop_position"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/766bf01d56410dcb1d6e"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/6e73c727cc7ca7adfb70",
-      "name": "พายัพ",
-      "nameEnglish": "Payap",
-      "lat": 13.7875432,
-      "lng": 100.508141,
-      "distanceFromPortMeters": 4266,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "name:en": "Payap",
-        "public_transport": "stop_position"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/6e73c727cc7ca7adfb70"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/7149232f18513f20372d",
-      "name": "กรมชลประทาน",
-      "nameEnglish": "Irrigation Dept.",
-      "lat": 13.7888406,
-      "lng": 100.50953,
-      "distanceFromPortMeters": 4440,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "name:en": "Irrigation Dept.",
-        "public_transport": "stop_position"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/7149232f18513f20372d"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/ff85eb86932079efd8af",
-      "name": "ท่าเรือวัดอาวุธวิกสิตาราม",
-      "nameEnglish": "Wat Awut Wikasitaram Pier",
-      "lat": 13.7894033,
-      "lng": 100.5069843,
-      "distanceFromPortMeters": 4446,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "name:en": "Wat Awut Wikasitaram Pier",
-        "public_transport": "stop_position"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/ff85eb86932079efd8af"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/5087fb12d836460f6ea8",
-      "name": "ประตูน้ำ",
-      "nameEnglish": "Pratunam",
-      "lat": 13.7493879,
-      "lng": 100.541208,
-      "distanceFromPortMeters": 4451,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "name:en": "Pratunam",
-        "public_transport": "stop_position",
-        "route": "NIDA line"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/5087fb12d836460f6ea8"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/e140cf6dd421e8b121bc",
-      "name": "ท่าเรือวัดคูหาสวรรค์",
-      "nameEnglish": "",
-      "lat": 13.7327251,
-      "lng": 100.4626175,
-      "distanceFromPortMeters": 4471,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/e140cf6dd421e8b121bc"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/bdeaf2696f68dd424764",
-      "name": "วัดวรจรรยาวาส",
-      "nameEnglish": "Wat Worachanyawas",
-      "lat": 13.7095433,
-      "lng": 100.5068599,
-      "distanceFromPortMeters": 4559,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "name:en": "Wat Worachanyawas",
-        "public_transport": "stop_position"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/bdeaf2696f68dd424764"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/6154ccd7854175bd47a3",
-      "name": "ประตูน้ำภาษีเจริญ",
-      "nameEnglish": "Pratunam Phasi Charoen",
-      "lat": 13.7221535,
-      "lng": 100.4681348,
-      "distanceFromPortMeters": 4630,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "name:en": "Pratunam Phasi Charoen",
-        "public_transport": "stop_position"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/6154ccd7854175bd47a3"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/326fd8b4a71552c89f99",
-      "name": "เขียวไข่กา",
-      "nameEnglish": "Kheaw Khai Ka",
-      "lat": 13.7911233,
-      "lng": 100.5115992,
-      "distanceFromPortMeters": 4741,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "name:en": "Kheaw Khai Ka",
-        "public_transport": "stop_position"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/326fd8b4a71552c89f99"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/9c3cc2f8b79337a7a354",
-      "name": "ชิดลม",
-      "nameEnglish": "Chidlom",
-      "lat": 13.7487051,
-      "lng": 100.5445742,
-      "distanceFromPortMeters": 4817,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "name:en": "Chidlom",
-        "public_transport": "stop_position"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/9c3cc2f8b79337a7a354"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/7308e2da3fb8704a081c",
-      "name": "อู่รถเมล์สาย 9",
-      "nameEnglish": "U Rot Me Sai 9",
-      "lat": 13.7213471,
-      "lng": 100.4662287,
-      "distanceFromPortMeters": 4843,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "name:en": "U Rot Me Sai 9",
-        "public_transport": "stop_position"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/7308e2da3fb8704a081c"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/32f13cd209df2e9d01b4",
-      "name": "วัดราชสิงขร",
-      "nameEnglish": "Wat Rajsingkorn",
-      "lat": 13.7065388,
-      "lng": 100.503845,
-      "distanceFromPortMeters": 4850,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "name:en": "Wat Rajsingkorn",
-        "public_transport": "stop_position"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/32f13cd209df2e9d01b4"
-      ]
-    }
-  ],
   "counts": {
-    "shopping": 5,
-    "attraction": 18,
-    "outdoors": 4,
-    "food_drink": 12,
-    "essentials": 1
+    "attraction": 27,
+    "food_drink": 25,
+    "shopping": 16,
+    "outdoors": 14,
+    "essentials": 3
   },
   "pois": [
     {
@@ -1951,485 +83,44 @@
       "wheelchair": "",
       "brand": "",
       "description": "Pak Khlong Talad Fresh Market, Flower market Thailand",
+      "wikidata": "",
+      "wikipedia": "",
       "osmTags": {
         "amenity": "marketplace"
-      }
+      },
+      "curated": true,
+      "gem": true
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/ff0ac1fe87b3d637561f",
-      "name": "ดิโอลด์สยามพลาซ่า",
-      "nameEnglish": "The Old Siam Plaza",
-      "category": "shopping",
-      "subcategory": "mall",
-      "lat": 13.7459816,
-      "lng": 100.5002292,
-      "distanceFromTerminalMeters": 448,
-      "distanceFromDefaultTerminalMeters": 448,
-      "minDistanceFromAnyTerminalMeters": 448,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "10200",
-      "openingHours": "",
-      "website": "https://www.theoldsiam.co.th/",
-      "phone": "",
-      "cuisine": [],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "shop": "mall"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/80871226486bd014187d",
-      "name": "แอมไชน่าทาวน์",
-      "nameEnglish": "I’m Chinatown",
-      "category": "shopping",
-      "subcategory": "mall",
-      "lat": 13.7416399,
-      "lng": 100.5113351,
-      "distanceFromTerminalMeters": 1537,
-      "distanceFromDefaultTerminalMeters": 1537,
-      "minDistanceFromAnyTerminalMeters": 1537,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "531 ถ. เจริญกรุง แขวง, 10100",
-      "openingHours": "Mo-Fr 10:00-21:00; Su,Sa 10:00-22:00",
-      "website": "https://iamchinatownbkk.com/",
-      "phone": "",
-      "cuisine": [],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "shop": "mall"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/52f325e05d13b92ace81",
-      "name": "พระที่นั่งจักรีมหาปราสาท",
-      "nameEnglish": "Chakri Maha Prasat Hall",
-      "category": "attraction",
-      "subcategory": "castle",
-      "lat": 13.7500317,
-      "lng": 100.4912781,
-      "distanceFromTerminalMeters": 942,
-      "distanceFromDefaultTerminalMeters": 942,
-      "minDistanceFromAnyTerminalMeters": 942,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "10200",
-      "openingHours": "",
-      "website": "https://www.royalgrandpalace.th/en/home",
-      "phone": "",
-      "cuisine": [],
-      "wheelchair": "",
-      "brand": "",
-      "description": "https://photos.app.goo.gl/PinGerfAWkiRhCps5",
-      "osmTags": {
-        "historic": "castle"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/1ffd5b612b65f86c9002",
-      "name": "พระบรมมหาราชวัง",
-      "nameEnglish": "Grand Palace",
-      "category": "attraction",
-      "subcategory": "attraction",
-      "lat": 13.7495708,
-      "lng": 100.4917924,
-      "distanceFromTerminalMeters": 888,
-      "distanceFromDefaultTerminalMeters": 888,
-      "minDistanceFromAnyTerminalMeters": 888,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "",
-      "openingHours": "Mo-Su 08:30-15:30",
-      "website": "https://www.royalgrandpalace.th/en/home",
-      "phone": "",
-      "cuisine": [],
-      "wheelchair": "yes",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "historic": "castle",
-        "tourism": "attraction"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/9bf35d33668e045d5ddf",
-      "name": "มิวเซียมสยาม",
-      "nameEnglish": "Museum of Siam",
-      "category": "attraction",
-      "subcategory": "museum",
-      "lat": 13.7439589,
-      "lng": 100.4938495,
-      "distanceFromTerminalMeters": 945,
-      "distanceFromDefaultTerminalMeters": 945,
-      "minDistanceFromAnyTerminalMeters": 945,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "",
-      "openingHours": "Tu-Su 10:00-18:00",
-      "website": "https://www.museumsiam.org/",
-      "phone": "+66(0)-2225-2777",
-      "cuisine": [],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "tourism": "museum"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/1fd5528b531a44364974",
-      "name": "นิทรรศน์รัตนโกสินทร์",
-      "nameEnglish": "Rattanakosin Exhibition Hall",
-      "category": "attraction",
-      "subcategory": "museum",
-      "lat": 13.7558915,
-      "lng": 100.5038318,
-      "distanceFromTerminalMeters": 775,
-      "distanceFromDefaultTerminalMeters": 775,
-      "minDistanceFromAnyTerminalMeters": 775,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "10200",
-      "openingHours": "",
-      "website": "https://www.nitasrattanakosin.com/",
-      "phone": "",
-      "cuisine": [],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "tourism": "museum"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/a3f1100ab1debfdd95bf",
-      "name": "จอยแมน แกลลอรี่",
-      "nameEnglish": "Joyman Gallery",
-      "category": "attraction",
-      "subcategory": "gallery",
-      "lat": 13.7517945,
-      "lng": 100.5045967,
-      "distanceFromTerminalMeters": 535,
-      "distanceFromDefaultTerminalMeters": 535,
-      "minDistanceFromAnyTerminalMeters": 535,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "357-359 ถนนมหาไชย",
-      "openingHours": "Tu-Su 11:00-18:00",
-      "website": "https://www.joymangallery.com",
-      "phone": "+6665-124-1111",
-      "cuisine": [],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "tourism": "gallery"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/bb55397746c0c39b33c9",
-      "name": "พระราชวังเดิม",
-      "nameEnglish": "Wang Derm Palace",
-      "category": "attraction",
-      "subcategory": "castle",
-      "lat": 13.742463,
-      "lng": 100.4897263,
-      "distanceFromTerminalMeters": 1391,
-      "distanceFromDefaultTerminalMeters": 1391,
-      "minDistanceFromAnyTerminalMeters": 1391,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "",
-      "openingHours": "",
-      "website": "http://www.wangdermpalace.org",
-      "phone": "",
-      "cuisine": [],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "historic": "castle"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/29eab0f1dc1e3fbb1b92",
-      "name": "พันธุ์ทิพย์พลาซ่า",
-      "nameEnglish": "Phenix",
-      "category": "shopping",
-      "subcategory": "mall",
-      "lat": 13.7504428,
-      "lng": 100.5372723,
-      "distanceFromTerminalMeters": 4026,
-      "distanceFromDefaultTerminalMeters": 4026,
-      "minDistanceFromAnyTerminalMeters": 4026,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "ถนนเพชรบุรี, 10400",
-      "openingHours": "Mo-Su 10:00-20:00",
-      "website": "https://www.pantipplaza.com",
-      "phone": "",
-      "cuisine": [],
-      "wheelchair": "",
-      "brand": "",
-      "description": "ศูนย์การค้าคอมพิวเตอร์และไอที",
-      "osmTags": {
-        "shop": "mall"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/12f78233b7608f9b7731",
-      "name": "centralwOrld",
-      "nameEnglish": "CentralWorld",
-      "category": "shopping",
-      "subcategory": "mall",
-      "lat": 13.7465211,
-      "lng": 100.5390066,
-      "distanceFromTerminalMeters": 4231,
-      "distanceFromDefaultTerminalMeters": 4231,
-      "minDistanceFromAnyTerminalMeters": 4231,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "999/9 ถนนราชดำริ, 10330",
-      "openingHours": "Mo-Su 10:00-22:00",
-      "website": "https://www.centralworld.co.th",
-      "phone": "+66 2 640 7000",
-      "cuisine": [],
-      "wheelchair": "yes",
-      "brand": "",
-      "description": "CentralWorld",
-      "osmTags": {
-        "shop": "mall"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/ef0df422414da8295dbe",
-      "name": "พิพิธภัณฑ์ราชทัณฑ์",
-      "nameEnglish": "Corrections Museum",
-      "category": "attraction",
-      "subcategory": "museum",
-      "lat": 13.7487944,
-      "lng": 100.5035347,
-      "distanceFromTerminalMeters": 405,
-      "distanceFromDefaultTerminalMeters": 405,
-      "minDistanceFromAnyTerminalMeters": 405,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "463 ถนนมหาไชย, 10200",
-      "openingHours": "closed",
-      "website": "",
-      "phone": "",
-      "cuisine": [],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "tourism": "museum"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/ffa3b9013a3b9eff6591",
-      "name": "วังวรวรรณ",
-      "nameEnglish": "Worawan Palace",
-      "category": "attraction",
-      "subcategory": "castle",
-      "lat": 13.7525978,
-      "lng": 100.4974232,
-      "distanceFromTerminalMeters": 401,
-      "distanceFromDefaultTerminalMeters": 401,
-      "minDistanceFromAnyTerminalMeters": 401,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "",
-      "openingHours": "",
-      "website": "",
-      "phone": "",
-      "cuisine": [],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "historic": "castle"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/864f2933745e51f5f7c3",
-      "name": "พระราชวังสราญรมย์",
-      "nameEnglish": "Saranrom Palace",
-      "category": "attraction",
-      "subcategory": "castle",
-      "lat": 13.7502795,
-      "lng": 100.4946973,
-      "distanceFromTerminalMeters": 574,
-      "distanceFromDefaultTerminalMeters": 574,
-      "minDistanceFromAnyTerminalMeters": 574,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "10200",
-      "openingHours": "",
-      "website": "",
-      "phone": "",
-      "cuisine": [],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "historic": "castle"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/070230af496f2ab90d64",
-      "name": "ศาลาเครื่องราชอิสริยยศ เครื่องราชอิสริยาภรณ์ และเหรียญกษาปณ์",
-      "nameEnglish": "Pavilion of Regalia, Royal Decorations and Coins",
-      "category": "attraction",
-      "subcategory": "museum",
-      "lat": 13.7510087,
-      "lng": 100.4917303,
-      "distanceFromTerminalMeters": 900,
-      "distanceFromDefaultTerminalMeters": 900,
-      "minDistanceFromAnyTerminalMeters": 900,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "10200",
-      "openingHours": "",
-      "website": "",
-      "phone": "",
-      "cuisine": [],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "tourism": "museum"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/ad7eac5b9ae8b1d50652",
-      "name": "พระตำหนักพระศรีสวรินทิรา บรมราชเทวี พระพันวัสสาอัยยิกาเจ้า",
-      "nameEnglish": "Royal Villa of Princess Consort Savang Vadhana",
-      "category": "attraction",
-      "subcategory": "castle",
-      "lat": 13.7486571,
-      "lng": 100.4914427,
-      "distanceFromTerminalMeters": 936,
-      "distanceFromDefaultTerminalMeters": 936,
-      "minDistanceFromAnyTerminalMeters": 936,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "10200",
-      "openingHours": "",
-      "website": "",
-      "phone": "",
-      "cuisine": [],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "historic": "castle"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/2a624b6a123768124db2",
-      "name": "ป้อมมหากาฬ",
-      "nameEnglish": "Mahakan Fort",
-      "category": "attraction",
-      "subcategory": "fort",
-      "lat": 13.7556215,
-      "lng": 100.5055217,
-      "distanceFromTerminalMeters": 864,
-      "distanceFromDefaultTerminalMeters": 864,
-      "minDistanceFromAnyTerminalMeters": 864,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "10200",
-      "openingHours": "",
-      "website": "",
-      "phone": "",
-      "cuisine": [],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "historic": "fort"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/4f7704cbd49902c15fc2",
-      "name": "พิพิธภัณฑ์วัดพระศรีรัตนศาสดาราม",
-      "nameEnglish": "Museum of the Emerald Buddha Temple",
-      "category": "attraction",
-      "subcategory": "museum",
-      "lat": 13.7509949,
-      "lng": 100.4901325,
-      "distanceFromTerminalMeters": 1071,
-      "distanceFromDefaultTerminalMeters": 1071,
-      "minDistanceFromAnyTerminalMeters": 1071,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "10200",
-      "openingHours": "Mo-Su 09:00-15:30",
-      "website": "",
-      "phone": "",
-      "cuisine": [],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "tourism": "museum"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/ea64d8b13f02f5b18a4c",
-      "name": "วังเทวะเวสม์",
-      "nameEnglish": "Devavesm Palace",
-      "category": "attraction",
-      "subcategory": "castle",
-      "lat": 13.7698042,
-      "lng": 100.5002903,
-      "distanceFromTerminalMeters": 2202,
-      "distanceFromDefaultTerminalMeters": 2202,
-      "minDistanceFromAnyTerminalMeters": 2202,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "10200",
-      "openingHours": "",
-      "website": "https://www.bot.or.th/English/MuseumAndLearningCenter/BOTMuseum/Devavesm/Pages/default.aspx",
-      "phone": "",
-      "cuisine": [],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "historic": "castle"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/befb51a354cb1ae0e7cd",
-      "name": "สวนรมณีนาถ",
-      "nameEnglish": "Rommani Nat Park",
+      "sourceId": "osm/generated/cb452696047d16efce20",
+      "name": "พิพิธภัณฑ์บ้านจิม ทอมป์สัน",
+      "nameEnglish": "Jim Thompson House",
       "category": "outdoors",
-      "subcategory": "park",
-      "lat": 13.7489656,
-      "lng": 100.5025788,
-      "distanceFromTerminalMeters": 301,
-      "distanceFromDefaultTerminalMeters": 301,
-      "minDistanceFromAnyTerminalMeters": 301,
+      "subcategory": "garden",
+      "lat": 13.7492247,
+      "lng": 100.5282818,
+      "distanceFromTerminalMeters": 3056,
+      "distanceFromDefaultTerminalMeters": 3056,
+      "minDistanceFromAnyTerminalMeters": 3056,
       "nearestTerminalId": "ports-json-anchor",
-      "address": "ถนนมหาไชย, 10200",
-      "openingHours": "05:00-21:00",
-      "website": "https://minpininteraction.com/bkk_static/park05.asp",
-      "phone": "",
+      "address": "6 Soi Kasemsan 2, Rama 1 Road",
+      "openingHours": "Mo-Su 09:00-18:00",
+      "website": "https://www.jimthompsonhouse.com/",
+      "phone": "+66 2 216 7368",
       "cuisine": [],
       "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "Q2916351",
+      "wikipedia": "th:พิพิธภัณฑ์บ้านจิม ทอมป์สัน",
       "osmTags": {
-        "leisure": "park"
-      }
+        "leisure": "garden",
+        "tourism": "museum"
+      },
+      "curated": true,
+      "gem": true,
+      "fame": 10
     },
     {
       "source": "openstreetmap",
@@ -2452,59 +143,822 @@
       "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "Q16304388",
+      "wikipedia": "th:สวนสราญรมย์",
       "osmTags": {
         "leisure": "park",
         "tourism": "attraction"
-      }
+      },
+      "curated": true,
+      "gem": true,
+      "fame": 2
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/65863bb9b1f5e40aa676",
-      "name": "สวนงู สถานเสาวภา",
-      "nameEnglish": "Snake Farm of Queen Saovabha Memorial Institute",
+      "sourceId": "osm/generated/6b6024239a5f04592058",
+      "name": "ร้านเจ๊ไฝ",
+      "nameEnglish": "Raan Jay Fai",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 13.7525335,
+      "lng": 100.5047365,
+      "distanceFromTerminalMeters": 584,
+      "distanceFromDefaultTerminalMeters": 584,
+      "minDistanceFromAnyTerminalMeters": 584,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "10200",
+      "openingHours": "We-Sa 07:00-19:30",
+      "website": "",
+      "phone": "",
+      "cuisine": [
+        "thai"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q47206330",
+      "wikipedia": "th:ร้านเจ๊ไฝ",
+      "osmTags": {
+        "amenity": "restaurant"
+      },
+      "curated": true,
+      "gem": true,
+      "fame": 5
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/6f24bd49c2a23fa41b3f",
+      "name": "Kem-Kon (เข้ม-ข้น)",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 13.7598696,
+      "lng": 100.4988372,
+      "distanceFromTerminalMeters": 1105,
+      "distanceFromDefaultTerminalMeters": 1105,
+      "minDistanceFromAnyTerminalMeters": 1105,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "ถนนรามบุตรี",
+      "openingHours": "Mo-Su 10:00-23:00",
+      "website": "https://www.kem-kon.com/",
+      "phone": "",
+      "cuisine": [
+        "thai"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      },
+      "curated": true,
+      "gem": true
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/1ffd5b612b65f86c9002",
+      "name": "พระบรมมหาราชวัง",
+      "nameEnglish": "Grand Palace",
       "category": "attraction",
-      "subcategory": "zoo",
-      "lat": 13.7328657,
-      "lng": 100.5328405,
-      "distanceFromTerminalMeters": 4026,
-      "distanceFromDefaultTerminalMeters": 4026,
-      "minDistanceFromAnyTerminalMeters": 4026,
+      "subcategory": "attraction",
+      "lat": 13.7495708,
+      "lng": 100.4917924,
+      "distanceFromTerminalMeters": 888,
+      "distanceFromDefaultTerminalMeters": 888,
+      "minDistanceFromAnyTerminalMeters": 888,
       "nearestTerminalId": "ports-json-anchor",
       "address": "",
-      "openingHours": "Mo-Fr 09:30-15:30; Sa-Su 09:30-13:00",
-      "website": "https://saovabha.org/service_saovabha/Snake-Farm-Services",
-      "phone": "02-2520161-4,7",
+      "openingHours": "Mo-Su 08:30-15:30",
+      "website": "https://www.royalgrandpalace.th/en/home",
+      "phone": "",
       "cuisine": [],
-      "wheelchair": "",
+      "wheelchair": "yes",
       "brand": "",
       "description": "",
+      "wikidata": "Q873769",
+      "wikipedia": "th:พระบรมมหาราชวัง",
       "osmTags": {
-        "tourism": "zoo"
-      }
+        "historic": "castle",
+        "tourism": "attraction"
+      },
+      "fame": 47
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/06b37a928389a4bda871",
-      "name": "Old Town Cafe Bangkok",
-      "nameEnglish": "Old Town Cafe Bangkok",
-      "category": "food_drink",
-      "subcategory": "cafe",
-      "lat": 13.7475515,
-      "lng": 100.4976326,
-      "distanceFromTerminalMeters": 374,
-      "distanceFromDefaultTerminalMeters": 374,
-      "minDistanceFromAnyTerminalMeters": 374,
+      "sourceId": "osm/generated/50c13ac398acd051f993",
+      "name": "วัดพระศรีรัตนศาสดาราม",
+      "nameEnglish": "Wat Phra Kaew",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 13.7515101,
+      "lng": 100.4926905,
+      "distanceFromTerminalMeters": 807,
+      "distanceFromDefaultTerminalMeters": 807,
+      "minDistanceFromAnyTerminalMeters": 807,
       "nearestTerminalId": "ports-json-anchor",
-      "address": "130/12 ถนนเฟื่องนคร, 10200",
-      "openingHours": "Sa-We 08:30-16:30",
-      "website": "http://www.facebook.com/OldTownCafeBangkok",
-      "phone": "0818108456",
+      "address": "Na Phra Lan Road, 10200",
+      "openingHours": "08:30-15:30; Mo-Su 08:30-16:30",
+      "website": "https://www.palaces.thai.net/",
+      "phone": "026235500",
+      "cuisine": [],
+      "wheelchair": "no",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q1045876",
+      "wikipedia": "th:วัดพระศรีรัตนศาสดาราม",
+      "osmTags": {
+        "amenity": "place_of_worship",
+        "historic": "yes",
+        "tourism": "attraction"
+      },
+      "fame": 44
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/07db35fc07975b2ba6e1",
+      "name": "วัดอรุณ",
+      "nameEnglish": "Wat Arun",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 13.7438235,
+      "lng": 100.4884885,
+      "distanceFromTerminalMeters": 1420,
+      "distanceFromDefaultTerminalMeters": 1420,
+      "minDistanceFromAnyTerminalMeters": 1420,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "158 Thanon Wang Doem, กรุงเทพมหานคร, 10600, TH",
+      "openingHours": "Mo-Su 08:30-18:00",
+      "website": "https://www.bangkok.com/attraction-temple/wat-arun.htm",
+      "phone": "",
       "cuisine": [],
       "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "Q724970",
+      "wikipedia": "th:วัดอรุณราชวรารามราชวรมหาวิหาร",
       "osmTags": {
-        "amenity": "cafe"
+        "amenity": "place_of_worship",
+        "tourism": "attraction"
+      },
+      "fame": 42
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/1c3f384d6d80122f4c8f",
+      "name": "วัดพระเชตุพนวิมลมังคลารามราชวรมหาวิหาร",
+      "nameEnglish": "Wat Phra Chettuphon Wimon Mangkhalaram Ratchaworamahawihan",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 13.7459076,
+      "lng": 100.4927621,
+      "distanceFromTerminalMeters": 905,
+      "distanceFromDefaultTerminalMeters": 905,
+      "minDistanceFromAnyTerminalMeters": 905,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "กรุงเทพมหานคร, TH",
+      "openingHours": "08:00-18:30",
+      "website": "https://www.watpho.com",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "limited",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q1059910",
+      "wikipedia": "th:วัดพระเชตุพนวิมลมังคลารามราชวรมหาวิหาร",
+      "osmTags": {
+        "amenity": "place_of_worship",
+        "tourism": "attraction"
+      },
+      "fame": 27
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d44ee7444e97d1ae8b9b",
+      "name": "วัดเบญจมบพิตรดุสิตวนารามราชวรวิหาร",
+      "nameEnglish": "Wat Benchamabophit Dusit Wanaram Ratchaworawihan",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 13.7661156,
+      "lng": 100.5137137,
+      "distanceFromTerminalMeters": 2325,
+      "distanceFromDefaultTerminalMeters": 2325,
+      "minDistanceFromAnyTerminalMeters": 2325,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "69 ถนนพระรามที่ 5, 10300",
+      "openingHours": "",
+      "website": "https://www.facebook.com/watbencham/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q2165719",
+      "wikipedia": "th:วัดเบญจมบพิตรดุสิตวนารามราชวรวิหาร",
+      "osmTags": {
+        "amenity": "place_of_worship",
+        "historic": "yes",
+        "tourism": "attraction"
+      },
+      "fame": 26
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/01ced50e3e9e8d1a0f01",
+      "name": "พิพิธภัณฑสถานแห่งชาติ พระนคร",
+      "nameEnglish": "Bangkok National Museum",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 13.758146,
+      "lng": 100.4915283,
+      "distanceFromTerminalMeters": 1288,
+      "distanceFromDefaultTerminalMeters": 1288,
+      "minDistanceFromAnyTerminalMeters": 1288,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "We-Su 09:00-16:00; PH off",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q1255815",
+      "wikipedia": "th:พิพิธภัณฑสถานแห่งชาติ พระนคร",
+      "osmTags": {
+        "tourism": "museum"
+      },
+      "fame": 24
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f85667b5a3cba5edeb0e",
+      "name": "สวนลุมพินี",
+      "nameEnglish": "Lumphini Park",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 13.7304754,
+      "lng": 100.5416508,
+      "distanceFromTerminalMeters": 4995,
+      "distanceFromDefaultTerminalMeters": 4995,
+      "minDistanceFromAnyTerminalMeters": 4995,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "192 ถนนวิทยุ, แขวงลุมพินี, 10330",
+      "openingHours": "04:30-22:00",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q977437",
+      "wikipedia": "th:สวนลุมพินี",
+      "osmTags": {
+        "leisure": "park"
+      },
+      "fame": 21
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/259c43833facd4ddbae2",
+      "name": "Siam Paragon",
+      "nameEnglish": "Siam Paragon",
+      "category": "shopping",
+      "subcategory": "mall",
+      "lat": 13.7468007,
+      "lng": 100.5349375,
+      "distanceFromTerminalMeters": 3790,
+      "distanceFromDefaultTerminalMeters": 3790,
+      "minDistanceFromAnyTerminalMeters": 3790,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "991 ถนนพระรามที่ 1, 10330",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q972334",
+      "wikipedia": "en:Siam Paragon",
+      "osmTags": {
+        "shop": "mall"
+      },
+      "fame": 20
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/6e2c2cec056e0fcd4696",
+      "name": "อนุสาวรีย์ประชาธิปไตย",
+      "nameEnglish": "Democracy Monument",
+      "category": "attraction",
+      "subcategory": "monument",
+      "lat": 13.7566865,
+      "lng": 100.5018398,
+      "distanceFromTerminalMeters": 770,
+      "distanceFromDefaultTerminalMeters": 770,
+      "minDistanceFromAnyTerminalMeters": 770,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q1186076",
+      "wikipedia": "th:อนุสาวรีย์ประชาธิปไตย",
+      "osmTags": {
+        "historic": "monument"
+      },
+      "fame": 19
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/21e04998b23b8a2a8bf6",
+      "name": "สะพานพระราม 8",
+      "nameEnglish": "Rama VIII Bridge",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 13.7696454,
+      "lng": 100.4958557,
+      "distanceFromTerminalMeters": 2230,
+      "distanceFromDefaultTerminalMeters": 2230,
+      "minDistanceFromAnyTerminalMeters": 2230,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q1092231",
+      "wikipedia": "en:Rama VIII Bridge",
+      "osmTags": {
+        "man_made": "tower",
+        "tourism": "attraction"
+      },
+      "fame": 19
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/5937f8a3e40f4ce134ae",
+      "name": "ตลาดนัดจตุจักร",
+      "nameEnglish": "Chatuchak Market",
+      "category": "shopping",
+      "subcategory": "marketplace",
+      "lat": 13.8003894,
+      "lng": 100.5503771,
+      "distanceFromTerminalMeters": 7810,
+      "distanceFromDefaultTerminalMeters": 7810,
+      "minDistanceFromAnyTerminalMeters": 7810,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Sa-Su 09:00-18:00; We-Th 07:00-18:00; Fr 18:00-00:00",
+      "website": "https://www.chatuchakmarket.org",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q1068311",
+      "wikipedia": "th:ตลาดนัดจตุจักร",
+      "osmTags": {
+        "amenity": "marketplace",
+        "tourism": "attraction"
+      },
+      "fame": 19
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/308b868735521e955631",
+      "name": "ศาลพระภูมิ",
+      "nameEnglish": "Spirit House",
+      "category": "attraction",
+      "subcategory": "wayside_shrine",
+      "lat": 13.8310331,
+      "lng": 100.4662019,
+      "distanceFromTerminalMeters": 9722,
+      "distanceFromDefaultTerminalMeters": 9722,
+      "minDistanceFromAnyTerminalMeters": 9722,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q1442187",
+      "wikipedia": "en:Spirit house",
+      "osmTags": {
+        "historic": "wayside_shrine"
+      },
+      "fame": 19
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/1d8e67a93b4ffb6ac1cb",
+      "name": "สถานีรถไฟกรุงเทพ",
+      "nameEnglish": "Bangkok Railway Station",
+      "category": "attraction",
+      "subcategory": "yes",
+      "lat": 13.7407458,
+      "lng": 100.5169274,
+      "distanceFromTerminalMeters": 2098,
+      "distanceFromDefaultTerminalMeters": 2098,
+      "minDistanceFromAnyTerminalMeters": 2098,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "10330",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q125929",
+      "wikipedia": "th:สถานีรถไฟกรุงเทพ",
+      "osmTags": {
+        "historic": "yes"
+      },
+      "fame": 18
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/a224fd867babcfd92de3",
+      "name": "พระราชวังดุสิต",
+      "nameEnglish": "Dusit Palace",
+      "category": "attraction",
+      "subcategory": "castle",
+      "lat": 13.7726388,
+      "lng": 100.5118848,
+      "distanceFromTerminalMeters": 2826,
+      "distanceFromDefaultTerminalMeters": 2826,
+      "minDistanceFromAnyTerminalMeters": 2826,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q2089016",
+      "wikipedia": "th:พระราชวังดุสิต",
+      "osmTags": {
+        "historic": "castle"
+      },
+      "fame": 18
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/5c0db9e0e366c024aafd",
+      "name": "วัดสุทัศนเทพวรารามราชวรมหาวิหาร",
+      "nameEnglish": "Wat Suthat Thep Wararam Ratchaworamahawihan",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 13.7501169,
+      "lng": 100.5009642,
+      "distanceFromTerminalMeters": 105,
+      "distanceFromDefaultTerminalMeters": 105,
+      "minDistanceFromAnyTerminalMeters": 105,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Su 08:30-21:00",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q2166761",
+      "wikipedia": "th:วัดสุทัศนเทพวรารามราชวรมหาวิหาร",
+      "osmTags": {
+        "amenity": "place_of_worship",
+        "tourism": "attraction"
+      },
+      "fame": 17
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/87dcb33b02b238ae92c8",
+      "name": "หอศิลปวัฒนธรรมแห่งกรุงเทพมหานคร",
+      "nameEnglish": "Bangkok Art and Culture Centre",
+      "category": "attraction",
+      "subcategory": "gallery",
+      "lat": 13.7467489,
+      "lng": 100.5302735,
+      "distanceFromTerminalMeters": 3290,
+      "distanceFromDefaultTerminalMeters": 3290,
+      "minDistanceFromAnyTerminalMeters": 3290,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "939 ถนนพระราม 1, 10330",
+      "openingHours": "Tu-Su 10:00-20:00",
+      "website": "https://www.bacc.or.th/",
+      "phone": "+66 2 214 6630;+66 2 214 6631;+66 2 214 6632;+66 2 214 6633;+66 2 214 6634;+66 2 214 6635;+66 2 214 6636;+66 2 214 6637;+66 2 214 6638",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q1130188",
+      "wikipedia": "th:หอศิลปวัฒนธรรมแห่งกรุงเทพมหานคร",
+      "osmTags": {
+        "amenity": "arts_centre",
+        "tourism": "gallery"
+      },
+      "fame": 12
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/3ce9aba36280495a7583",
+      "name": "มิวเซียมสยาม",
+      "nameEnglish": "Museum of Siam",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 13.7439589,
+      "lng": 100.4938495,
+      "distanceFromTerminalMeters": 945,
+      "distanceFromDefaultTerminalMeters": 945,
+      "minDistanceFromAnyTerminalMeters": 945,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Tu-Su 10:00-18:00",
+      "website": "https://www.museumsiam.org/",
+      "phone": "+66(0)-2225-2777",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q6584164",
+      "wikipedia": "th:มิวเซียมสยาม",
+      "osmTags": {
+        "tourism": "museum"
+      },
+      "fame": 7
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/868406cf6f60ed127354",
+      "name": "วัดราชนัดดารามวรวิหาร",
+      "nameEnglish": "Wat Ratchanatdaram Worawihan",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 13.7548369,
+      "lng": 100.5042531,
+      "distanceFromTerminalMeters": 707,
+      "distanceFromDefaultTerminalMeters": 707,
+      "minDistanceFromAnyTerminalMeters": 707,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "2 ถนนมหาไชย, 10200",
+      "openingHours": "Mo-Su 08:00-17:00",
+      "website": "",
+      "phone": "+66 2 224 8807",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q1554856",
+      "wikipedia": "th:วัดราชนัดดารามวรวิหาร",
+      "osmTags": {
+        "amenity": "place_of_worship",
+        "tourism": "attraction"
+      },
+      "fame": 9
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/e87683ee68f6d78e268d",
+      "name": "วัดราชบพิธสถิตมหาสีมารามราชวรวิหาร",
+      "nameEnglish": "Wat Ratchabophit Sathit Maha Simaram Ratchaworawihan",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 13.7490605,
+      "lng": 100.4971839,
+      "distanceFromTerminalMeters": 322,
+      "distanceFromDefaultTerminalMeters": 322,
+      "minDistanceFromAnyTerminalMeters": 322,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Su 06:00-18:00",
+      "website": "https://youtu.be/Hb6r3xzdB1E",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q1513232",
+      "wikipedia": "th:วัดราชบพิธสถิตมหาสีมารามราชวรวิหาร",
+      "osmTags": {
+        "amenity": "place_of_worship",
+        "tourism": "attraction"
+      },
+      "fame": 11
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/279587d85b3018b01608",
+      "name": "พิพิธภัณฑสถานแห่งชาติ หอศิลป",
+      "nameEnglish": "The National Gallery",
+      "category": "attraction",
+      "subcategory": "gallery",
+      "lat": 13.7591752,
+      "lng": 100.4940729,
+      "distanceFromTerminalMeters": 1204,
+      "distanceFromDefaultTerminalMeters": 1204,
+      "minDistanceFromAnyTerminalMeters": 1204,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "10200",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q1968373",
+      "wikipedia": "th:พิพิธภัณฑสถานแห่งชาติ หอศิลป",
+      "osmTags": {
+        "tourism": "gallery"
+      },
+      "fame": 11
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b33508c43202e6ddc03c",
+      "name": "พระตำหนักจิตรลดารโหฐาน",
+      "nameEnglish": "Chitralada Royal Villa",
+      "category": "attraction",
+      "subcategory": "castle",
+      "lat": 13.7683267,
+      "lng": 100.5206063,
+      "distanceFromTerminalMeters": 3018,
+      "distanceFromDefaultTerminalMeters": 3018,
+      "minDistanceFromAnyTerminalMeters": 3018,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "+66 2 282 8200",
+      "cuisine": [],
+      "wheelchair": "limited",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q61053357",
+      "wikipedia": "th:พระตำหนักจิตรลดารโหฐาน",
+      "osmTags": {
+        "historic": "castle"
+      },
+      "fame": 15
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/de37caaeefa99b02e8e8",
+      "name": "พิพิธภัณฑ์ผ้าในสมเด็จพระนางเจ้าสิริกิติ์ พระบรมราชินีนาถ",
+      "nameEnglish": "Queen Sirikit Museum of Textiles",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 13.7520266,
+      "lng": 100.4907235,
+      "distanceFromTerminalMeters": 1027,
+      "distanceFromDefaultTerminalMeters": 1027,
+      "minDistanceFromAnyTerminalMeters": 1027,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "10200",
+      "openingHours": "Mo-Su 09:00-16:30",
+      "website": "https://www.qsmtthailand.org/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q110517188",
+      "wikipedia": "th:พิพิธภัณฑ์ผ้าในสมเด็จพระนางเจ้าสิริกิติ์ พระบรมราชินีนาถ",
+      "osmTags": {
+        "tourism": "museum"
+      },
+      "fame": 4
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/62346219892e0cb3dbfe",
+      "name": "พระที่นั่งวิมานเมฆ",
+      "nameEnglish": "Vimanmek Mansion",
+      "category": "attraction",
+      "subcategory": "castle",
+      "lat": 13.7742203,
+      "lng": 100.5124086,
+      "distanceFromTerminalMeters": 3008,
+      "distanceFromDefaultTerminalMeters": 3008,
+      "minDistanceFromAnyTerminalMeters": 3008,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q1479428",
+      "wikipedia": "en:Vimanmek Mansion",
+      "osmTags": {
+        "historic": "castle"
+      },
+      "fame": 17
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/74e7d9e510854005ec9f",
+      "name": "เสาชิงช้า",
+      "nameEnglish": "Giant Swing",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 13.7518086,
+      "lng": 100.5012782,
+      "distanceFromTerminalMeters": 244,
+      "distanceFromDefaultTerminalMeters": 244,
+      "minDistanceFromAnyTerminalMeters": 244,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q1279344",
+      "wikipedia": "th:เสาชิงช้า",
+      "osmTags": {
+        "historic": "memorial",
+        "tourism": "attraction"
+      },
+      "fame": 12
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/3820ca09aa2c9ed470b7",
+      "name": "Sirocco",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 13.7212917,
+      "lng": 100.5168726,
+      "distanceFromTerminalMeters": 3676,
+      "distanceFromDefaultTerminalMeters": 3676,
+      "minDistanceFromAnyTerminalMeters": 3676,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1055 Silom Road, 10500",
+      "openingHours": "18:00-01:00",
+      "website": "https://www.lebua.com/sirocco",
+      "phone": "(66) 2624-9555",
+      "cuisine": [
+        "mediterranean"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q4923611",
+      "wikipedia": "en:Sirocco (restaurant)",
+      "osmTags": {
+        "amenity": "restaurant"
+      },
+      "fame": 3
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/28a7bb0880721a91ab7a",
+      "name": "Twist & Fork Pasta",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 13.7516947,
+      "lng": 100.4969328,
+      "distanceFromTerminalMeters": 381,
+      "distanceFromDefaultTerminalMeters": 381,
+      "minDistanceFromAnyTerminalMeters": 381,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "52-54;52 54 ถนนแพร่งภูธร, 10200",
+      "openingHours": "Fr-We 11:00-20:00",
+      "website": "https://linktr.ee/TWIST_AND_FORK",
+      "phone": "+66 99 256 4659",
+      "cuisine": [
+        "italian"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "restaurant"
       }
     },
     {
@@ -2531,8 +985,39 @@
       "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "",
+      "wikipedia": "",
       "osmTags": {
         "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/9f213bf236b39eccb087",
+      "name": "MUG JEE",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 13.7450947,
+      "lng": 100.4911092,
+      "distanceFromTerminalMeters": 1104,
+      "distanceFromDefaultTerminalMeters": 1104,
+      "minDistanceFromAnyTerminalMeters": 1104,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "FL1 INN A DAY Thanon Mahathat, 10200",
+      "openingHours": "Mo-Su 12:00-24:00",
+      "website": "https://www.innaday.com/",
+      "phone": "+6622210577",
+      "cuisine": [
+        "thai"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "restaurant"
       }
     },
     {
@@ -2558,192 +1043,223 @@
       "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "",
+      "wikipedia": "",
       "osmTags": {
         "amenity": "cafe"
       }
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/758d8571ecdf2891915a",
-      "name": "Streats Cafe & Restaurant",
-      "nameEnglish": "Streats Cafe & Restaurant",
+      "sourceId": "osm/generated/d64721eb5364002b2ff1",
+      "name": "Babble & Rum",
+      "nameEnglish": "Babble & Rum",
       "category": "food_drink",
       "subcategory": "restaurant",
-      "lat": 13.7599342,
-      "lng": 100.4974034,
-      "distanceFromTerminalMeters": 1140,
-      "distanceFromDefaultTerminalMeters": 1140,
-      "minDistanceFromAnyTerminalMeters": 1140,
+      "lat": 13.7622103,
+      "lng": 100.4930379,
+      "distanceFromTerminalMeters": 1552,
+      "distanceFromDefaultTerminalMeters": 1552,
+      "minDistanceFromAnyTerminalMeters": 1552,
       "nearestTerminalId": "ports-json-anchor",
-      "address": "42 Rambuttri Road, 10200",
-      "openingHours": "",
-      "website": "https://www.ibisstylesbangkokkhaosan.com/restaurants-bars/streats-cafe/",
-      "phone": "0066022805434",
+      "address": "23 ถนนพระอาทิตย์, 10200",
+      "openingHours": "Mo-Su 11:00-22:30",
+      "website": "https://www.rivasuryabangkok.com/",
+      "phone": "026335000",
       "cuisine": [
-        "burger",
-        "thai"
+        "thai",
+        "international",
+        "pizza"
       ],
       "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "",
+      "wikipedia": "",
       "osmTags": {
         "amenity": "restaurant"
       }
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/23b4ae02fbfeffeb3fbf",
-      "name": "Khlong Ong Ang Canal and Walking Street",
-      "nameEnglish": "Khlong Ong Ang Canal and Walking Street",
-      "category": "outdoors",
-      "subcategory": "viewpoint",
-      "lat": 13.7461622,
-      "lng": 100.5037126,
-      "distanceFromTerminalMeters": 586,
-      "distanceFromDefaultTerminalMeters": 586,
-      "minDistanceFromAnyTerminalMeters": 586,
+      "sourceId": "osm/generated/c75f7463a451033bcdf7",
+      "name": "Snooze Coffee House",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "bar",
+      "lat": 13.7657613,
+      "lng": 100.500439,
+      "distanceFromTerminalMeters": 1753,
+      "distanceFromDefaultTerminalMeters": 1753,
+      "minDistanceFromAnyTerminalMeters": 1753,
       "nearestTerminalId": "ports-json-anchor",
-      "address": "",
-      "openingHours": "",
+      "address": "170 Samsen Soi 4",
+      "openingHours": "Mo-Su 08:00-17:00",
+      "website": "http://www.facebook.com/CaffeineloverBKK/",
+      "phone": "66982682940",
+      "cuisine": [
+        "coffee_shop"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "bar"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/3e8648afd91d0a0e67da",
+      "name": "Alice Cafe",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 13.748578,
+      "lng": 100.4979332,
+      "distanceFromTerminalMeters": 274,
+      "distanceFromDefaultTerminalMeters": 274,
+      "minDistanceFromAnyTerminalMeters": 274,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "125 ถนนเฟื่องนคร, 10200",
+      "openingHours": "Mo-Su 08:00-17:00",
       "website": "",
-      "phone": "",
-      "cuisine": [],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "tourism": "viewpoint"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/0891639b11e0581ebab2",
-      "name": "สวนศิวาลัย",
-      "nameEnglish": "Siwalai Garden",
-      "category": "outdoors",
-      "subcategory": "garden",
-      "lat": 13.7496606,
-      "lng": 100.4930124,
-      "distanceFromTerminalMeters": 756,
-      "distanceFromDefaultTerminalMeters": 756,
-      "minDistanceFromAnyTerminalMeters": 756,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "",
-      "openingHours": "",
-      "website": "",
-      "phone": "",
-      "cuisine": [],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "leisure": "garden"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/e87683ee68f6d78e268d",
-      "name": "วัดราชบพิธสถิตมหาสีมารามราชวรวิหาร",
-      "nameEnglish": "Wat Ratchabophit Sathit Maha Simaram Ratchaworawihan",
-      "category": "attraction",
-      "subcategory": "attraction",
-      "lat": 13.7490605,
-      "lng": 100.4971839,
-      "distanceFromTerminalMeters": 322,
-      "distanceFromDefaultTerminalMeters": 322,
-      "minDistanceFromAnyTerminalMeters": 322,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "",
-      "openingHours": "Mo-Su 06:00-18:00",
-      "website": "https://youtu.be/Hb6r3xzdB1E",
-      "phone": "",
-      "cuisine": [],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "amenity": "place_of_worship",
-        "tourism": "attraction"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/50c13ac398acd051f993",
-      "name": "วัดพระศรีรัตนศาสดาราม",
-      "nameEnglish": "Wat Phra Kaew",
-      "category": "attraction",
-      "subcategory": "attraction",
-      "lat": 13.7515101,
-      "lng": 100.4926905,
-      "distanceFromTerminalMeters": 807,
-      "distanceFromDefaultTerminalMeters": 807,
-      "minDistanceFromAnyTerminalMeters": 807,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "Na Phra Lan Road, 10200",
-      "openingHours": "08:30-15:30; Mo-Su 08:30-16:30",
-      "website": "https://www.palaces.thai.net/",
-      "phone": "026235500",
-      "cuisine": [],
+      "phone": "+66 2 622 3635",
+      "cuisine": [
+        "thai",
+        "tea",
+        "italian",
+        "pasta",
+        "coffee_shop",
+        "cake",
+        "seafood",
+        "sandwich",
+        "local"
+      ],
       "wheelchair": "no",
       "brand": "",
       "description": "",
+      "wikidata": "",
+      "wikipedia": "",
       "osmTags": {
-        "amenity": "place_of_worship",
-        "historic": "yes",
-        "tourism": "attraction"
+        "amenity": "cafe"
       }
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/83acd550125ba149cae4",
-      "name": "บรมบรรพต",
-      "nameEnglish": "Golden Mount",
-      "category": "attraction",
-      "subcategory": "attraction",
-      "lat": 13.7538574,
-      "lng": 100.5066911,
-      "distanceFromTerminalMeters": 840,
-      "distanceFromDefaultTerminalMeters": 840,
-      "minDistanceFromAnyTerminalMeters": 840,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "344 ถนนบริพัตร, 10100",
-      "openingHours": "Mo-Su 07:00-19:00",
-      "website": "",
-      "phone": "+66 2 621 2280",
-      "cuisine": [],
-      "wheelchair": "no",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "historic": "monument",
-        "tourism": "attraction"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/584e470e5545fe0cc4ea",
-      "name": "โยตาอาหารเจ",
-      "nameEnglish": "Youta Vegan Foods",
+      "sourceId": "osm/generated/a911314a8f040f50f6ec",
+      "name": "Chote Chipr",
+      "nameEnglish": "",
       "category": "food_drink",
       "subcategory": "restaurant",
-      "lat": 13.7478925,
-      "lng": 100.5016496,
-      "distanceFromTerminalMeters": 294,
-      "distanceFromDefaultTerminalMeters": 294,
-      "minDistanceFromAnyTerminalMeters": 294,
+      "lat": 13.7521276,
+      "lng": 100.4979375,
+      "distanceFromTerminalMeters": 325,
+      "distanceFromDefaultTerminalMeters": 325,
+      "minDistanceFromAnyTerminalMeters": 325,
       "nearestTerminalId": "ports-json-anchor",
-      "address": "",
-      "openingHours": "Mo-Su 06:30-14:00",
-      "website": "https://www.youtavegetarian.com/",
-      "phone": "",
+      "address": "140 ถนนแพร่งภูธร, 10200",
+      "openingHours": "Mo-Su 08:00-18:00; Apr 10-15 off; Jun 08:00-14:00; Aug off; Dec 25 off",
+      "website": "",
+      "phone": "006622142082",
       "cuisine": [
         "thai"
       ],
       "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "",
+      "wikipedia": "",
       "osmTags": {
         "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f1d0c15d5a403c5c4308",
+      "name": "น้ำ หนึ่งหกศูนย์แปด",
+      "nameEnglish": "NAAM 1608",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 13.7359382,
+      "lng": 100.5099739,
+      "distanceFromTerminalMeters": 1899,
+      "distanceFromDefaultTerminalMeters": 1899,
+      "minDistanceFromAnyTerminalMeters": 1899,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1620 ถนนทรงวาด, 10100",
+      "openingHours": "Tu-Su 11:00-22:00",
+      "website": "https://www.facebook.com/naam1608",
+      "phone": "+66 91 936 1632",
+      "cuisine": [
+        "thai"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/a09b0d9e650c15fd5dd8",
+      "name": "292 Slowbar Cafe",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 13.768096,
+      "lng": 100.5032387,
+      "distanceFromTerminalMeters": 2042,
+      "distanceFromDefaultTerminalMeters": 2042,
+      "minDistanceFromAnyTerminalMeters": 2042,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Trok Wat In, 10200",
+      "openingHours": "Mo-Su 08:00-15:00",
+      "website": "https://www.coffeecateringby292slowbar.com/",
+      "phone": "+66 63 412 6292",
+      "cuisine": [
+        "coffee_shop"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/a5f4ba8e984368bfd19f",
+      "name": "Timo and Tintin",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 13.7351654,
+      "lng": 100.5114717,
+      "distanceFromTerminalMeters": 2063,
+      "distanceFromDefaultTerminalMeters": 2063,
+      "minDistanceFromAnyTerminalMeters": 2063,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "674 ซอยโจวซือกง, 10100",
+      "openingHours": "Mo-Su 09:00-18:00",
+      "website": "https://timoandtintin.com",
+      "phone": "+66 62 505 3546",
+      "cuisine": [
+        "coffee_shop"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "cafe"
       }
     },
     {
@@ -2769,174 +1285,875 @@
       "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "",
+      "wikipedia": "",
       "osmTags": {
         "amenity": "restaurant"
       }
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/28a7bb0880721a91ab7a",
-      "name": "Twist & Fork Pasta",
+      "sourceId": "osm/generated/b7da77776a746d0f1395",
+      "name": "เซี้ย เกาเหลาเนื้อใร้เทียมทาน",
+      "nameEnglish": "Beef Brisket",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 13.7461126,
+      "lng": 100.504043,
+      "distanceFromTerminalMeters": 614,
+      "distanceFromDefaultTerminalMeters": 614,
+      "minDistanceFromAnyTerminalMeters": 614,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "365 ถนนบริพัตร, 10100",
+      "openingHours": "Mo-Sa 09:00-14:00",
+      "website": "",
+      "phone": "+66891819981",
+      "cuisine": [
+        "thai"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/0e02c82566e94075c5c8",
+      "name": "292 Slowbar",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 13.7688813,
+      "lng": 100.5028843,
+      "distanceFromTerminalMeters": 2122,
+      "distanceFromDefaultTerminalMeters": 2122,
+      "minDistanceFromAnyTerminalMeters": 2122,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "292 ถนนสามเสน, 10200",
+      "openingHours": "Mo-Su 09:00-18:00",
+      "website": "https://www.coffeecateringby292slowbar.com/",
+      "phone": "+634126292",
+      "cuisine": [
+        "coffee_shop"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/3b3bea081d6013bb2270",
+      "name": "AMRA Thai Cuisine",
       "nameEnglish": "",
       "category": "food_drink",
       "subcategory": "restaurant",
-      "lat": 13.7516947,
-      "lng": 100.4969328,
-      "distanceFromTerminalMeters": 381,
-      "distanceFromDefaultTerminalMeters": 381,
-      "minDistanceFromAnyTerminalMeters": 381,
+      "lat": 13.7312513,
+      "lng": 100.5075408,
+      "distanceFromTerminalMeters": 2238,
+      "distanceFromDefaultTerminalMeters": 2238,
+      "minDistanceFromAnyTerminalMeters": 2238,
       "nearestTerminalId": "ports-json-anchor",
-      "address": "52-54;52 54 ถนนแพร่งภูธร, 10200",
-      "openingHours": "Fr-We 11:00-20:00",
-      "website": "https://linktr.ee/TWIST_AND_FORK",
-      "phone": "+66 99 256 4659",
+      "address": "53 สมเด็จเจ้าพระยา 17, 10600",
+      "openingHours": "Mo-Su 10:00-22:00",
+      "website": "https://linktr.ee/amrathaicuisine",
+      "phone": "+66640177383",
       "cuisine": [
+        "asian",
+        "thai",
+        "seafood",
+        "chicken",
+        "noodle",
+        "juice",
+        "diner",
+        "soup",
+        "fries",
+        "beer",
+        "alcohol"
+      ],
+      "wheelchair": "limited",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/bfa859553b0518258be0",
+      "name": "Floral Cafe",
+      "nameEnglish": "Floral Cafe",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 13.742236,
+      "lng": 100.496746,
+      "distanceFromTerminalMeters": 932,
+      "distanceFromDefaultTerminalMeters": 932,
+      "minDistanceFromAnyTerminalMeters": 932,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "67 Chakkraphet Rd,, 10200",
+      "openingHours": "Mo-So 09:00-19:00",
+      "website": "",
+      "phone": "02 222 6895",
+      "cuisine": [
+        "tea",
+        "cake",
+        "coffee_shop"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/90102b8a02cfd0aac2cf",
+      "name": "Elefin Coffee",
+      "nameEnglish": "Elefin Coffee",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 13.7441833,
+      "lng": 100.4926755,
+      "distanceFromTerminalMeters": 1022,
+      "distanceFromDefaultTerminalMeters": 1022,
+      "minDistanceFromAnyTerminalMeters": 1022,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Maha Rat Rd, Phra Borom Maha Ratchawang, Phra Nakhon, Bangkok 10200, Таиланд",
+      "openingHours": "",
+      "website": "https://elefincoffee.com/",
+      "phone": "+66 2 622 1115",
+      "cuisine": [
+        "breakfast"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/688fcfe1a537670933e4",
+      "name": "Vivi - The Coffee Place",
+      "nameEnglish": "Vivi - The Coffee Place",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 13.7436576,
+      "lng": 100.4920631,
+      "distanceFromTerminalMeters": 1110,
+      "distanceFromDefaultTerminalMeters": 1110,
+      "minDistanceFromAnyTerminalMeters": 1110,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Su 10:00-20:00",
+      "website": "https://facebook.com/vivithecoffeeplace/",
+      "phone": "022264672",
+      "cuisine": [
+        "coffee_shop"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/61ff4731c4bec8a64172",
+      "name": "ร้านลุงหลุยส์ (ท่าพระจันทร์",
+      "nameEnglish": "Lung Louise Phra Jan Restaurant",
+      "category": "food_drink",
+      "subcategory": "fast_food",
+      "lat": 13.7564025,
+      "lng": 100.4888706,
+      "distanceFromTerminalMeters": 1397,
+      "distanceFromDefaultTerminalMeters": 1397,
+      "minDistanceFromAnyTerminalMeters": 1397,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "10200",
+      "openingHours": "",
+      "website": "https://www.eatingthaifood.com/lan-loong-lui-restaurant-for-lip-licking-thai-food",
+      "phone": "+660861345445",
+      "cuisine": [
+        "fish",
+        "thai"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "fast_food"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/6e8924140367fbcb5433",
+      "name": "The Pizza Company",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "fast_food",
+      "lat": 13.7495329,
+      "lng": 100.4991066,
+      "distanceFromTerminalMeters": 110,
+      "distanceFromDefaultTerminalMeters": 110,
+      "minDistanceFromAnyTerminalMeters": 110,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "ถนนราชบพิธ",
+      "openingHours": "Mo-Su 09:00-22:00",
+      "website": "",
+      "phone": "",
+      "cuisine": [
+        "pizza"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "fast_food"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/191c3375143598e5ee63",
+      "name": "Buns & More",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "fast_food",
+      "lat": 13.7341165,
+      "lng": 100.5262859,
+      "distanceFromTerminalMeters": 3344,
+      "distanceFromDefaultTerminalMeters": 3344,
+      "minDistanceFromAnyTerminalMeters": 3344,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1505 ถนนพระรามที่ 4",
+      "openingHours": "Tu-Su 11:00-20:00",
+      "website": "https://www.facebook.com/bunsandmore.bkk/",
+      "phone": "+66 81 914 3636",
+      "cuisine": [
+        "burger"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "fast_food"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b2337b66ff3b6773ce42",
+      "name": "Swing Bar",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "bar",
+      "lat": 13.7524918,
+      "lng": 100.5021915,
+      "distanceFromTerminalMeters": 364,
+      "distanceFromDefaultTerminalMeters": 364,
+      "minDistanceFromAnyTerminalMeters": 364,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Su 17:00-24:00",
+      "website": "https://www.chingchabangkok.com/",
+      "phone": "",
+      "cuisine": [
+        "thai",
         "italian"
       ],
       "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "",
+      "wikipedia": "",
       "osmTags": {
-        "amenity": "restaurant"
+        "amenity": "bar"
       }
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/348293b39e2cc90a6e90",
-      "name": "Everything Halal Restaurant",
-      "nameEnglish": "",
-      "category": "food_drink",
-      "subcategory": "restaurant",
-      "lat": 13.7525575,
-      "lng": 100.5412604,
-      "distanceFromTerminalMeters": 4466,
-      "distanceFromDefaultTerminalMeters": 4466,
-      "minDistanceFromAnyTerminalMeters": 4466,
+      "sourceId": "osm/generated/12f78233b7608f9b7731",
+      "name": "centralwOrld",
+      "nameEnglish": "CentralWorld",
+      "category": "shopping",
+      "subcategory": "mall",
+      "lat": 13.7465211,
+      "lng": 100.5390066,
+      "distanceFromTerminalMeters": 4231,
+      "distanceFromDefaultTerminalMeters": 4231,
+      "minDistanceFromAnyTerminalMeters": 4231,
       "nearestTerminalId": "ports-json-anchor",
-      "address": "120 89 Ratchaprarop 1 Alley, 10400",
+      "address": "999/9 ถนนราชดำริ, 10330",
       "openingHours": "Mo-Su 10:00-22:00",
-      "website": "https://everythinghalal.restaurant",
-      "phone": "+66947969518",
-      "cuisine": [
-        "indian",
-        "pakistani",
-        "burmese"
-      ],
-      "wheelchair": "",
+      "website": "https://www.centralworld.co.th",
+      "phone": "+66 2 640 7000",
+      "cuisine": [],
+      "wheelchair": "yes",
       "brand": "",
-      "description": "Everything Halal is a delightful restaurant serving an exquisite blend of Pakistani and Chettinad cuisine, tantalizing your taste buds with a burst of traditional flavors. The restaurant offers a serene prayer room catering to both men and women.",
+      "description": "CentralWorld",
+      "wikidata": "Q3270302",
+      "wikipedia": "th:เซ็นทรัลเวิลด์",
       "osmTags": {
-        "amenity": "restaurant"
-      }
+        "shop": "mall"
+      },
+      "fame": 12
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/c87ca15ec854a166585a",
-      "name": "Began Vegan",
-      "nameEnglish": "",
-      "category": "food_drink",
-      "subcategory": "restaurant",
-      "lat": 13.7451968,
-      "lng": 100.4913119,
-      "distanceFromTerminalMeters": 1080,
-      "distanceFromDefaultTerminalMeters": 1080,
-      "minDistanceFromAnyTerminalMeters": 1080,
+      "sourceId": "osm/generated/6ac57ccb7bc53f57551b",
+      "name": "MBK Center",
+      "nameEnglish": "MBK Center",
+      "category": "shopping",
+      "subcategory": "mall",
+      "lat": 13.7445119,
+      "lng": 100.5298569,
+      "distanceFromTerminalMeters": 3282,
+      "distanceFromDefaultTerminalMeters": 3282,
+      "minDistanceFromAnyTerminalMeters": 3282,
       "nearestTerminalId": "ports-json-anchor",
-      "address": "10200",
-      "openingHours": "Mo-Su 10:00-18:00",
-      "website": "https://m.facebook.com/makememango/",
-      "phone": "",
-      "cuisine": [
-        "italian",
-        "thai"
-      ],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "amenity": "restaurant"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/0598ddf0aa6fac3df45c",
-      "name": "Shoshana",
-      "nameEnglish": "",
-      "category": "food_drink",
-      "subcategory": "restaurant",
-      "lat": 13.7599429,
-      "lng": 100.4962791,
-      "distanceFromTerminalMeters": 1176,
-      "distanceFromDefaultTerminalMeters": 1176,
-      "minDistanceFromAnyTerminalMeters": 1176,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "86 ถนนจักรพงษ์, 10200",
-      "openingHours": "Mo-Su 10:00-23:30",
-      "website": "http://shoshanarestaurant.com",
-      "phone": "",
-      "cuisine": [
-        "mediterranean",
-        "thai"
-      ],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "amenity": "restaurant"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/864a445bace0980dd9a7",
-      "name": "มิตรโกหย่วน",
-      "nameEnglish": "Mit Ko Yuan",
-      "category": "food_drink",
-      "subcategory": "restaurant",
-      "lat": 13.7537846,
-      "lng": 100.5010936,
-      "distanceFromTerminalMeters": 437,
-      "distanceFromDefaultTerminalMeters": 437,
-      "minDistanceFromAnyTerminalMeters": 437,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "186 ถนนดินสอ, 10200",
-      "openingHours": "Mo-Su 11:00-14:00,16:00-22:00",
-      "website": "",
-      "phone": "",
-      "cuisine": [
-        "asian"
-      ],
+      "address": "ถนนพญาไท, 10330",
+      "openingHours": "Mo-Su 10:00-22:00",
+      "website": "https://www.mbk-center.co.th/",
+      "phone": "+66 2 620 9000",
+      "cuisine": [],
       "wheelchair": "yes",
       "brand": "",
       "description": "",
+      "wikidata": "Q1926372",
+      "wikipedia": "th:เอ็มบีเคเซ็นเตอร์",
       "osmTags": {
-        "amenity": "restaurant"
+        "shop": "mall"
+      },
+      "fame": 13
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/437bb12036c7640c8a93",
+      "name": "ICONSIAM",
+      "nameEnglish": "ICONSIAM",
+      "category": "shopping",
+      "subcategory": "mall",
+      "lat": 13.7268256,
+      "lng": 100.5103251,
+      "distanceFromTerminalMeters": 2808,
+      "distanceFromDefaultTerminalMeters": 2808,
+      "minDistanceFromAnyTerminalMeters": 2808,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "168;259;289;299 ถนนเจริญนคร, 10600",
+      "openingHours": "Mo-Su 10:00-22:00",
+      "website": "https://www.iconsiam.com/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q20585880",
+      "wikipedia": "th:ไอคอนสยาม",
+      "osmTags": {
+        "shop": "mall"
+      },
+      "fame": 10
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/699b9075225bfd5d09f3",
+      "name": "Siam Center",
+      "nameEnglish": "Siam Center",
+      "category": "shopping",
+      "subcategory": "mall",
+      "lat": 13.7462767,
+      "lng": 100.5327979,
+      "distanceFromTerminalMeters": 3567,
+      "distanceFromDefaultTerminalMeters": 3567,
+      "minDistanceFromAnyTerminalMeters": 3567,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "979 ถนนพระรามที่ 1, 10330",
+      "openingHours": "Mo-Su 10:00-22:00",
+      "website": "https://www.siamcenter.co.th/",
+      "phone": "+66 2 658 1000",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q913929",
+      "wikipedia": "th:สยามเซ็นเตอร์",
+      "osmTags": {
+        "shop": "mall"
+      },
+      "fame": 8
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/668671a5ff9fd7d2e2e3",
+      "name": "Tokyu",
+      "nameEnglish": "Tokyu",
+      "category": "shopping",
+      "subcategory": "department_store",
+      "lat": 13.7458135,
+      "lng": 100.5298492,
+      "distanceFromTerminalMeters": 3257,
+      "distanceFromDefaultTerminalMeters": 3257,
+      "minDistanceFromAnyTerminalMeters": 3257,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Su,PH 10:00-21:30",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q863194",
+      "wikipedia": "en:Tokyu Department Store",
+      "osmTags": {
+        "shop": "department_store"
+      },
+      "fame": 6
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/a1abed68158ca3db7495",
+      "name": "ริมขอบฟ้า",
+      "nameEnglish": "Rim Khob Fa",
+      "category": "shopping",
+      "subcategory": "books",
+      "lat": 13.7562478,
+      "lng": 100.5013722,
+      "distanceFromTerminalMeters": 710,
+      "distanceFromDefaultTerminalMeters": 710,
+      "minDistanceFromAnyTerminalMeters": 710,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "78/1 ถนนราชดำเนินกลาง, 10200",
+      "openingHours": "Mo-Su,PH 10:00-19:00; Apr 13,14 closed; Dec 31 closed; Jan 01 closed",
+      "website": "http://www.rimkhobfabooks.com/",
+      "phone": "+66 2 622 3510",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "จำหน่ายหนังสือท่องเที่ยว ประวัติศาสตร์ ศิลปะ และวรรณกรรม",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "shop": "books"
       }
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/7ab0d0fe6ff6b76363fa",
-      "name": "อาซั้ง ก๋วยเตี๋ยวลูกชิ้นปลา",
-      "nameEnglish": "Ah Sang Fish Ball Noodles",
-      "category": "food_drink",
-      "subcategory": "restaurant",
-      "lat": 13.750315,
-      "lng": 100.5080751,
-      "distanceFromTerminalMeters": 873,
-      "distanceFromDefaultTerminalMeters": 873,
-      "minDistanceFromAnyTerminalMeters": 873,
+      "sourceId": "osm/generated/73dba9f1772de1ec569c",
+      "name": "Body Touch",
+      "nameEnglish": "Body Touch",
+      "category": "shopping",
+      "subcategory": "jewelry",
+      "lat": 13.7590677,
+      "lng": 100.4990442,
+      "distanceFromTerminalMeters": 1014,
+      "distanceFromDefaultTerminalMeters": 1014,
+      "minDistanceFromAnyTerminalMeters": 1014,
       "nearestTerminalId": "ports-json-anchor",
-      "address": "181 ถนนวรจักร",
-      "openingHours": "Mo-Su 19:00-22:00",
+      "address": "92, 10200",
+      "openingHours": "Mo-Su 10:30-20:00",
+      "website": "https://www.bodytouchonline.com/",
+      "phone": "+66 2 629 5071",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Organic jewelry manufacturer and wholesaler",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "craft": "jeweller",
+        "shop": "jewelry"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ecdd67cf4e9c75cfb9c4",
+      "name": "Chaotic Trading",
+      "nameEnglish": "Chaotic Trading",
+      "category": "shopping",
+      "subcategory": "jewelry",
+      "lat": 13.7585453,
+      "lng": 100.4989834,
+      "distanceFromTerminalMeters": 957,
+      "distanceFromDefaultTerminalMeters": 957,
+      "minDistanceFromAnyTerminalMeters": 957,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "128, 10200",
+      "openingHours": "Mo-Sa 11:00-19:30",
       "website": "",
-      "phone": "+6622234875",
-      "cuisine": [
-        "noodle"
-      ],
+      "phone": "+66 81 330 8793",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "ผลิต/ขายส่งเครื่องประดับ และเครื่องประดับฝังร่างกาย",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "craft": "jeweller",
+        "shop": "jewelry"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/a284109695755b0b8dc0",
+      "name": "Emotional Gift Company",
+      "nameEnglish": "Emotional Gift Company",
+      "category": "shopping",
+      "subcategory": "jewelry",
+      "lat": 13.7586697,
+      "lng": 100.4989978,
+      "distanceFromTerminalMeters": 970,
+      "distanceFromDefaultTerminalMeters": 970,
+      "minDistanceFromAnyTerminalMeters": 970,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "10200",
+      "openingHours": "",
+      "website": "https://www.emotionalgift.com/",
+      "phone": "+66 2 282 2129",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "ผลิตเครื่องประดับเงิน, สแตนเลส, ดีบุกผสม, ทองแดง, และทองเหลือง",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "craft": "jeweller",
+        "shop": "jewelry"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/319c63acde701da5fd46",
+      "name": "สนามหลวง",
+      "nameEnglish": "Sanam Luang",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 13.7551616,
+      "lng": 100.4930693,
+      "distanceFromTerminalMeters": 943,
+      "distanceFromDefaultTerminalMeters": 943,
+      "minDistanceFromAnyTerminalMeters": 943,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
       "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "Q767544",
+      "wikipedia": "th:ท้องสนามหลวง",
       "osmTags": {
-        "amenity": "restaurant"
+        "leisure": "park"
+      },
+      "fame": 16
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/e43a32830de0457cf352",
+      "name": "สวนผักกาด",
+      "nameEnglish": "Wang Suan Phakkat",
+      "category": "outdoors",
+      "subcategory": "garden",
+      "lat": 13.7566808,
+      "lng": 100.5371823,
+      "distanceFromTerminalMeters": 4084,
+      "distanceFromDefaultTerminalMeters": 4084,
+      "minDistanceFromAnyTerminalMeters": 4084,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Su 09:00-16:00",
+      "website": "http://www.suanpakkad.com/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q493505",
+      "wikipedia": "en:Suan Pakkad Palace",
+      "osmTags": {
+        "leisure": "garden",
+        "tourism": "museum"
+      },
+      "fame": 9
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/befb51a354cb1ae0e7cd",
+      "name": "สวนรมณีนาถ",
+      "nameEnglish": "Rommani Nat Park",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 13.7489656,
+      "lng": 100.5025788,
+      "distanceFromTerminalMeters": 301,
+      "distanceFromDefaultTerminalMeters": 301,
+      "minDistanceFromAnyTerminalMeters": 301,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "ถนนมหาไชย, 10200",
+      "openingHours": "05:00-21:00",
+      "website": "https://minpininteraction.com/bkk_static/park05.asp",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q13022359",
+      "wikipedia": "",
+      "osmTags": {
+        "leisure": "park"
+      },
+      "fame": 2
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/6ee1410f54fe2bcda3e1",
+      "name": "สวนจตุจักร",
+      "nameEnglish": "Chatuchak Park",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 13.8080737,
+      "lng": 100.5554938,
+      "distanceFromTerminalMeters": 8810,
+      "distanceFromDefaultTerminalMeters": 8810,
+      "minDistanceFromAnyTerminalMeters": 8810,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "ถนนกำแพงเพชร 3, 10900, ไทย",
+      "openingHours": "Mo-Su 04:30-22:00",
+      "website": "https://greener.bangkok.go.th/en/park/suan-chatuchak/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q1936390",
+      "wikipedia": "th:สวนจตุจักร",
+      "osmTags": {
+        "leisure": "park"
+      },
+      "fame": 11
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/5b67f4f64e6e9ad3544b",
+      "name": "สวนเบญจกิติ",
+      "nameEnglish": "Benjakitti Park",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 13.7293437,
+      "lng": 100.5586599,
+      "distanceFromTerminalMeters": 6740,
+      "distanceFromDefaultTerminalMeters": 6740,
+      "minDistanceFromAnyTerminalMeters": 6740,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "ถนนรัชดาภิเษก",
+      "openingHours": "Mo-Su 04:30-22:00",
+      "website": "http://office.bangkok.go.th/publicpark/park25.asp",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q13022388",
+      "wikipedia": "th:สวนเบญจกิติ",
+      "osmTags": {
+        "leisure": "park"
+      },
+      "fame": 6
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f0a59a0190b5221f2688",
+      "name": "สวนสันติภาพ",
+      "nameEnglish": "Santi Phap Park",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 13.7616097,
+      "lng": 100.5407085,
+      "distanceFromTerminalMeters": 4582,
+      "distanceFromDefaultTerminalMeters": 4582,
+      "minDistanceFromAnyTerminalMeters": 4582,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "ถนนราชวิถี, 10400",
+      "openingHours": "05:00-21:00",
+      "website": "https://greener.bangkok.go.th/park/suan-santipap/",
+      "phone": "+66-2-2452461",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q6896314",
+      "wikipedia": "en:Santiphap Park",
+      "osmTags": {
+        "leisure": "park"
+      },
+      "fame": 2
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/de4601e645b7d6ca177e",
+      "name": "โรงเรียนวชิราวุธวิทยาลัย",
+      "nameEnglish": "Vajiravudh College",
+      "category": "outdoors",
+      "subcategory": "garden",
+      "lat": 13.7761677,
+      "lng": 100.5180002,
+      "distanceFromTerminalMeters": 3499,
+      "distanceFromDefaultTerminalMeters": 3499,
+      "minDistanceFromAnyTerminalMeters": 3499,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q2507561",
+      "wikipedia": "th:วชิราวุธวิทยาลัย",
+      "osmTags": {
+        "amenity": "school",
+        "leisure": "garden"
+      },
+      "fame": 6
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/41f9b10c22e9d6f67cb2",
+      "name": "วังสระปทุม",
+      "nameEnglish": "Sa Pathum Palace",
+      "category": "outdoors",
+      "subcategory": "garden",
+      "lat": 13.747958,
+      "lng": 100.5330391,
+      "distanceFromTerminalMeters": 3576,
+      "distanceFromDefaultTerminalMeters": 3576,
+      "minDistanceFromAnyTerminalMeters": 3576,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q2315094",
+      "wikipedia": "th:วังสระปทุม",
+      "osmTags": {
+        "historic": "castle",
+        "leisure": "garden"
+      },
+      "fame": 4
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/dfb34f3bb5abe156f9a1",
+      "name": "บ้าน ม.ร.ว.คึกฤทธิ์ ปราโมช",
+      "nameEnglish": "M.R. Kukrit's Heritage Home",
+      "category": "outdoors",
+      "subcategory": "garden",
+      "lat": 13.7198439,
+      "lng": 100.533692,
+      "distanceFromTerminalMeters": 4949,
+      "distanceFromDefaultTerminalMeters": 4949,
+      "minDistanceFromAnyTerminalMeters": 4949,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "+6622868185",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q6579813",
+      "wikipedia": "en:M.R. Kukrit's House",
+      "osmTags": {
+        "leisure": "garden",
+        "tourism": "museum"
+      },
+      "fame": 2
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/35c4961e88b4bcad695e",
+      "name": "สนามไชย",
+      "nameEnglish": "Sanam Chai",
+      "category": "outdoors",
+      "subcategory": "garden",
+      "lat": 13.7489505,
+      "lng": 100.4941743,
+      "distanceFromTerminalMeters": 640,
+      "distanceFromDefaultTerminalMeters": 640,
+      "minDistanceFromAnyTerminalMeters": 640,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "24/7",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "leisure": "garden"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/23b4ae02fbfeffeb3fbf",
+      "name": "Khlong Ong Ang Canal and Walking Street",
+      "nameEnglish": "Khlong Ong Ang Canal and Walking Street",
+      "category": "outdoors",
+      "subcategory": "viewpoint",
+      "lat": 13.7461622,
+      "lng": 100.5037126,
+      "distanceFromTerminalMeters": 586,
+      "distanceFromDefaultTerminalMeters": 586,
+      "minDistanceFromAnyTerminalMeters": 586,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "tourism": "viewpoint"
       }
     },
     {
@@ -2960,27 +2177,353 @@
       "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "",
+      "wikipedia": "",
       "osmTags": {
         "tourism": "information"
       }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/4c20c219eeed1e88336c",
+      "name": "Yong Chieng Pharmacy",
+      "nameEnglish": "",
+      "category": "essentials",
+      "subcategory": "pharmacy",
+      "lat": 13.7141342,
+      "lng": 100.5132286,
+      "distanceFromTerminalMeters": 4236,
+      "distanceFromDefaultTerminalMeters": 4236,
+      "minDistanceFromAnyTerminalMeters": 4236,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1677/8 Charoen Krung 63, 10120",
+      "openingHours": "",
+      "website": "https://yong-chieng.appspot.com/",
+      "phone": "+66 2 212 4082",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Western Drugstore and Chinese Drugstore at entrance of Chareon Krung 63 Alley, 500 m. from BTS Saphan Taksin Station (S6), Chareon Krung Road Yannawa, Sathorn, Bangkok, Thailand Tel ： (+66) 2-212-4082 Email：yc.drugstore@gmail.com",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "pharmacy"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/97ed10da0305943583e8",
+      "name": "ศูนย์ประสานงานการถ่ายทำภาพยนตร์ในพื้นที่กรุงเทพมหานคร",
+      "nameEnglish": "Bangkok Filmmaking Coordination Center",
+      "category": "essentials",
+      "subcategory": "visitor_information",
+      "lat": 13.7607623,
+      "lng": 100.4915531,
+      "distanceFromTerminalMeters": 1505,
+      "distanceFromDefaultTerminalMeters": 1505,
+      "minDistanceFromAnyTerminalMeters": 1505,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "17/1 ถนนพระอาทิตย์, 10200",
+      "openingHours": "",
+      "website": "",
+      "phone": "+66 2246 8547-9",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "tourism": "information"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/29eab0f1dc1e3fbb1b92",
+      "name": "พันธุ์ทิพย์พลาซ่า",
+      "nameEnglish": "Phenix",
+      "category": "shopping",
+      "subcategory": "mall",
+      "lat": 13.7504428,
+      "lng": 100.5372723,
+      "distanceFromTerminalMeters": 4026,
+      "distanceFromDefaultTerminalMeters": 4026,
+      "minDistanceFromAnyTerminalMeters": 4026,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "ถนนเพชรบุรี, 10400",
+      "openingHours": "Mo-Su 10:00-20:00",
+      "website": "https://www.pantipplaza.com",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "ศูนย์การค้าคอมพิวเตอร์และไอที",
+      "wikidata": "Q2800701",
+      "wikipedia": "th:พันธุ์ทิพย์พลาซ่า",
+      "osmTags": {
+        "shop": "mall"
+      },
+      "fame": 5
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/5164cef54d8ee5df45cf",
+      "name": "พระตำหนักจิตรลดารโหฐาน",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "castle",
+      "lat": 13.7693269,
+      "lng": 100.5207236,
+      "distanceFromTerminalMeters": 3103,
+      "distanceFromDefaultTerminalMeters": 3103,
+      "minDistanceFromAnyTerminalMeters": 3103,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q61053357",
+      "wikipedia": "th:พระตำหนักจิตรลดารโหฐาน",
+      "osmTags": {
+        "historic": "castle"
+      },
+      "fame": 15
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/44b286bac9067167be37",
+      "name": "พิพิธภัณฑ์ธนาคารแห่งประเทศไทย",
+      "nameEnglish": "Bank of Thailand Museum",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 13.7682842,
+      "lng": 100.4995365,
+      "distanceFromTerminalMeters": 2034,
+      "distanceFromDefaultTerminalMeters": 2034,
+      "minDistanceFromAnyTerminalMeters": 2034,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Sat-Sun 09:30-16:30",
+      "website": "https://www.botlc.or.th/museum",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q4856189",
+      "wikipedia": "en:Bank of Thailand Museum",
+      "osmTags": {
+        "tourism": "museum"
+      },
+      "fame": 5
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/27308dde9556decafe3f",
+      "name": "หอศิลป์สมเด็จพระนางเจ้าสิริกิติ์ พระบรมราชินีนาถ",
+      "nameEnglish": "The Queen's Gallery",
+      "category": "attraction",
+      "subcategory": "gallery",
+      "lat": 13.7565471,
+      "lng": 100.5051315,
+      "distanceFromTerminalMeters": 915,
+      "distanceFromDefaultTerminalMeters": 915,
+      "minDistanceFromAnyTerminalMeters": 915,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "101, 10200",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q4921882",
+      "wikipedia": "th:หอศิลป์สมเด็จพระนางเจ้าสิริกิติ์ พระบรมราชินีนาถ",
+      "osmTags": {
+        "tourism": "gallery"
+      },
+      "fame": 5
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/52f325e05d13b92ace81",
+      "name": "พระที่นั่งจักรีมหาปราสาท",
+      "nameEnglish": "Chakri Maha Prasat Hall",
+      "category": "attraction",
+      "subcategory": "castle",
+      "lat": 13.7500317,
+      "lng": 100.4912781,
+      "distanceFromTerminalMeters": 942,
+      "distanceFromDefaultTerminalMeters": 942,
+      "minDistanceFromAnyTerminalMeters": 942,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "10200",
+      "openingHours": "",
+      "website": "https://www.royalgrandpalace.th/en/home",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "https://photos.app.goo.gl/PinGerfAWkiRhCps5",
+      "wikidata": "Q16304974",
+      "wikipedia": "th:พระที่นั่งจักรีมหาปราสาท",
+      "osmTags": {
+        "historic": "castle"
+      },
+      "fame": 2
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/6da60a9fbfb81283e5fb",
+      "name": "พระที่นั่งอนันตสมาคม",
+      "nameEnglish": "Ananta Samakhom Throne Hall",
+      "category": "attraction",
+      "subcategory": "castle",
+      "lat": 13.7717072,
+      "lng": 100.5131023,
+      "distanceFromTerminalMeters": 2798,
+      "distanceFromDefaultTerminalMeters": 2798,
+      "minDistanceFromAnyTerminalMeters": 2798,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q485954",
+      "wikipedia": "th:พระที่นั่งอนันตสมาคม",
+      "osmTags": {
+        "historic": "castle"
+      },
+      "fame": 11
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/65863bb9b1f5e40aa676",
+      "name": "สวนงู สถานเสาวภา",
+      "nameEnglish": "Snake Farm of Queen Saovabha Memorial Institute",
+      "category": "attraction",
+      "subcategory": "zoo",
+      "lat": 13.7328657,
+      "lng": 100.5328405,
+      "distanceFromTerminalMeters": 4026,
+      "distanceFromDefaultTerminalMeters": 4026,
+      "minDistanceFromAnyTerminalMeters": 4026,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Fr 09:30-15:30; Sa-Su 09:30-13:00",
+      "website": "https://saovabha.org/service_saovabha/Snake-Farm-Services",
+      "phone": "02-2520161-4,7",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q587434",
+      "wikipedia": "th:สถานเสาวภา",
+      "osmTags": {
+        "tourism": "zoo"
+      },
+      "fame": 4
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ab7d6debd606bdb15117",
+      "name": "บ้านช่างทอง by Siam Gold Gallery",
+      "nameEnglish": "Siam Gold Gallery",
+      "category": "shopping",
+      "subcategory": "jewelry",
+      "lat": 13.7418957,
+      "lng": 100.5072118,
+      "distanceFromTerminalMeters": 1191,
+      "distanceFromDefaultTerminalMeters": 1191,
+      "minDistanceFromAnyTerminalMeters": 1191,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "310 ถนนเยาวราช, 10100",
+      "openingHours": "Mo-Sa 10:00-17:00",
+      "website": "https://www.siamgoldgallery.com/",
+      "phone": "026225303",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "shop": "jewelry"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/570982d1ffd0dc1f23f8",
+      "name": "ฮั่วเซ่งเฮง​ ห้องค้าทองคำ​แท่ง​",
+      "nameEnglish": "Hua Seng Heng Gold Bullion Trading Room",
+      "category": "shopping",
+      "subcategory": "jewelry",
+      "lat": 13.7416158,
+      "lng": 100.5078595,
+      "distanceFromTerminalMeters": 1261,
+      "distanceFromDefaultTerminalMeters": 1261,
+      "minDistanceFromAnyTerminalMeters": 1261,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "255-257 ถนนเยาวราช, 10100",
+      "openingHours": "Mo-Sa 09:30-17:30",
+      "website": "http://huasengheng.com",
+      "phone": "021122222",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "shop": "jewelry"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/3805d86c74fecda488ab",
+      "name": "ห้างทองตั้งโต๊ะกัง",
+      "nameEnglish": "Tang To Kang Gold Shop",
+      "category": "shopping",
+      "subcategory": "jewelry",
+      "lat": 13.7406418,
+      "lng": 100.5073359,
+      "distanceFromTerminalMeters": 1308,
+      "distanceFromDefaultTerminalMeters": 1308,
+      "minDistanceFromAnyTerminalMeters": 1308,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "345 ถนนมังกร, 10100",
+      "openingHours": "",
+      "website": "",
+      "phone": "+66 22242422",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q59603514",
+      "wikipedia": "th:ห้างทองตั้งโต๊ะกัง",
+      "osmTags": {
+        "historic": "building",
+        "shop": "jewelry"
+      },
+      "fame": 1
     }
   ],
-  "portAnchor": {
-    "id": "ports-json-anchor",
-    "name": "BANGKOK Port",
-    "lat": 13.75,
-    "lng": 100.5,
-    "address": "Bangkok, Bangkok Province, Thailand",
-    "source": "ports.json",
-    "sourceId": "",
-    "score": 0,
-    "slug": "bangkok-port"
-  },
+  "gemSuggestions": [
+    "Wat Arun"
+  ],
   "terminalResolution": {
     "status": "resolved",
-    "method": "terminal_review",
+    "method": "cruise-ports",
     "verified": true,
-    "reviewedAt": "2026-09-28",
-    "notes": "ships dock at Laem Chabang, about 85 km from Bangkok. Kept as a gateway port, renamed Bangkok (Laem Chabang)."
+    "notes": "Ships dock at Laem Chabang, about 85 km from Bangkok. Kept as a gateway port, renamed Bangkok (Laem Chabang)."
   }
 }

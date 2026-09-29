@@ -1,7 +1,39 @@
 {
+  "defaultTerminalId": "manual/melbourne-australia/station-pier-cruise-terminal",
+  "terminal": {
+    "id": "manual/melbourne-australia/station-pier-cruise-terminal",
+    "name": "Station Pier Cruise Terminal",
+    "lat": -37.84266,
+    "lng": 144.93043,
+    "terminalType": "passenger_cruise_terminal",
+    "source": "manual_web_research",
+    "sourceUrls": [
+      "https://www.portofmelbourne.com/community-and-recreation/station-pier/",
+      "https://www.openstreetmap.org/?mlat=-37.84266&mlon=144.93043#map=17/-37.84266/144.93043"
+    ],
+    "notes": "Primary Melbourne cruise passenger terminal at Port Melbourne.",
+    "sourceId": "manual/melbourne-australia/station-pier-cruise-terminal",
+    "verified": true
+  },
+  "terminals": [
+    {
+      "id": "manual/melbourne-australia/station-pier-cruise-terminal",
+      "name": "Station Pier Cruise Terminal",
+      "lat": -37.84266,
+      "lng": 144.93043,
+      "terminalType": "passenger_cruise_terminal",
+      "source": "manual_web_research",
+      "sourceUrls": [
+        "https://www.portofmelbourne.com/community-and-recreation/station-pier/",
+        "https://www.openstreetmap.org/?mlat=-37.84266&mlon=144.93043#map=17/-37.84266/144.93043"
+      ],
+      "notes": "Primary Melbourne cruise passenger terminal at Port Melbourne.",
+      "sourceId": "manual/melbourne-australia/station-pier-cruise-terminal",
+      "verified": true
+    }
+  ],
   "schemaVersion": 5,
   "catalogType": "curation-candidates",
-  "generatedAt": "2026-07-30T09:29:22.016Z",
   "source": "openstreetmap",
   "sourceExtract": "victoria-latest.osm.pbf",
   "radiusMeters": 10000,
@@ -10,892 +42,26 @@
     "city": "Melbourne",
     "country": "Australia"
   },
-  "defaultTerminalId": "manual/melbourne-australia/station-pier-cruise-terminal",
-  "terminal": {
-    "id": "manual/melbourne-australia/station-pier-cruise-terminal",
+  "portAnchor": {
+    "id": "ports-json-anchor",
     "name": "Station Pier Cruise Terminal",
-    "nameEnglish": "",
     "lat": -37.84266,
     "lng": 144.93043,
-    "address": "",
-    "source": "manual_web_research",
-    "sourceId": "manual/melbourne-australia/station-pier-cruise-terminal",
-    "terminalType": "passenger_cruise_terminal",
-    "verified": true,
-    "notes": "Primary Melbourne cruise passenger terminal at Port Melbourne.",
-    "sourceUrls": [
-      "https://www.portofmelbourne.com/community-and-recreation/station-pier/",
-      "https://www.openstreetmap.org/?mlat=-37.84266&mlon=144.93043#map=17/-37.84266/144.93043"
-    ],
-    "sources": [
-      "manual_web_research"
-    ],
-    "sourceIds": [
-      "manual/melbourne-australia/station-pier-cruise-terminal"
-    ],
-    "osmTags": {},
-    "matchedBy": [
-      "web_researched_terminal"
-    ]
+    "address": "Melbourne, Victoria, Australia",
+    "source": "ports.json",
+    "sourceId": "",
+    "score": 0,
+    "slug": "station-pier-cruise-terminal"
   },
-  "terminals": [
-    {
-      "id": "manual/melbourne-australia/station-pier-cruise-terminal",
-      "name": "Station Pier Cruise Terminal",
-      "nameEnglish": "",
-      "lat": -37.84266,
-      "lng": 144.93043,
-      "address": "",
-      "source": "manual_web_research",
-      "sourceId": "manual/melbourne-australia/station-pier-cruise-terminal",
-      "terminalType": "passenger_cruise_terminal",
-      "verified": true,
-      "notes": "Primary Melbourne cruise passenger terminal at Port Melbourne.",
-      "sourceUrls": [
-        "https://www.portofmelbourne.com/community-and-recreation/station-pier/",
-        "https://www.openstreetmap.org/?mlat=-37.84266&mlon=144.93043#map=17/-37.84266/144.93043"
-      ],
-      "sources": [
-        "manual_web_research"
-      ],
-      "sourceIds": [
-        "manual/melbourne-australia/station-pier-cruise-terminal"
-      ],
-      "osmTags": {},
-      "matchedBy": [
-        "web_researched_terminal"
-      ]
-    }
-  ],
-  "terminalCandidateRadiusMeters": 5000,
-  "terminalCandidates": [
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/6cbf4f3c1acd0cdadec7",
-      "name": "Southgate Landing - Berth 1",
-      "nameEnglish": "",
-      "lat": -37.8199321,
-      "lng": 144.9654198,
-      "distanceFromPortMeters": 1190,
-      "address": "Southbank Promenade",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "operator": "Williamstown Ferries",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/6cbf4f3c1acd0cdadec7"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/eb1db66a87491cc3c038",
-      "name": "Berth 3",
-      "nameEnglish": "",
-      "lat": -37.818826,
-      "lng": 144.9690481,
-      "distanceFromPortMeters": 1245,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/eb1db66a87491cc3c038"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/adbdae36ea11283ef8ee",
-      "name": "Berth 4",
-      "nameEnglish": "",
-      "lat": -37.8188138,
-      "lng": 144.9694142,
-      "distanceFromPortMeters": 1245,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/adbdae36ea11283ef8ee"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/c5e91cd46b8ab4ca026e",
-      "name": "Berth 5",
-      "nameEnglish": "",
-      "lat": -37.8188043,
-      "lng": 144.969785,
-      "distanceFromPortMeters": 1245,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/c5e91cd46b8ab4ca026e"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/7c11b2dbd2f1a7172220",
-      "name": "Berth 2",
-      "nameEnglish": "",
-      "lat": -37.8188378,
-      "lng": 144.9686936,
-      "distanceFromPortMeters": 1246,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/7c11b2dbd2f1a7172220"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/197b50439abe81346b98",
-      "name": "Crown Landing",
-      "nameEnglish": "",
-      "lat": -37.822941,
-      "lng": 144.957215,
-      "distanceFromPortMeters": 1370,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/197b50439abe81346b98"
-      ]
-    },
-    {
-      "source": "nominatim",
-      "sourceId": "osm/way/132503422",
-      "osmType": "way",
-      "osmId": "132503422",
-      "name": "Port Melbourne Business Hub",
-      "nameEnglish": "Port Melbourne Business Hub",
-      "lat": -37.8309834,
-      "lng": 144.9404751,
-      "distanceFromPortMeters": 2595,
-      "address": "Port Melbourne Business Hub, Bertie Street, Port Melbourne, Melbourne, Victoria, 3207, Australia",
-      "displayName": "Port Melbourne Business Hub, Bertie Street, Port Melbourne, Melbourne, Victoria, 3207, Australia",
-      "query": "MELBOURNE Port, Melbourne, Australia",
-      "matchedBy": [
-        "Nominatim query: MELBOURNE Port, Melbourne, Australia"
-      ],
-      "osmTags": {
-        "building": "yes",
-        "operator": "Post Australia"
-      },
-      "sources": [
-        "nominatim"
-      ],
-      "sourceIds": [
-        "osm/way/132503422"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/f4b9179d5549c95175e9",
-      "name": "Port Phillip Ferries Docklands Terminal",
-      "nameEnglish": "",
-      "lat": -37.8168884,
-      "lng": 144.9451909,
-      "distanceFromPortMeters": 2622,
-      "address": "131 Harbour Esplanade, VIC",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "building": "yes",
-        "ferry": "yes",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/f4b9179d5549c95175e9"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/0b5b39364e4bf63627bf",
-      "name": "Port Phillip Ferries (Portarlington-Docklands)",
-      "nameEnglish": "",
-      "lat": -37.8171268,
-      "lng": 144.9447973,
-      "distanceFromPortMeters": 2636,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/0b5b39364e4bf63627bf"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/cd2164adc23efd05e4a9",
-      "name": "Port Phillip Ferries (Geelong-Docklands)",
-      "nameEnglish": "",
-      "lat": -37.8170969,
-      "lng": 144.9447841,
-      "distanceFromPortMeters": 2639,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "public_transport": "stop_position"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/cd2164adc23efd05e4a9"
-      ]
-    },
-    {
-      "source": "nominatim",
-      "sourceId": "osm/node/12873449750",
-      "osmType": "node",
-      "osmId": "12873449750",
-      "name": "Civil Air Operations Officers Association of Australia",
-      "nameEnglish": "",
-      "lat": -37.8393181,
-      "lng": 144.939573,
-      "distanceFromPortMeters": 2866,
-      "address": "Civil Air Operations Officers Association of Australia, 214, Graham Street, Port Melbourne, Melbourne, Victoria, 3207, Australia",
-      "displayName": "Civil Air Operations Officers Association of Australia, 214, Graham Street, Port Melbourne, Melbourne, Victoria, 3207, Australia",
-      "query": "MELBOURNE Port, Melbourne, Australia",
-      "matchedBy": [
-        "Nominatim query: MELBOURNE Port, Melbourne, Australia"
-      ],
-      "osmTags": {},
-      "sources": [
-        "nominatim"
-      ],
-      "sourceIds": [
-        "osm/node/12873449750"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/a3afa1121d53e5358e9c",
-      "name": "Herring Island Pier",
-      "nameEnglish": "",
-      "lat": -37.8340084,
-      "lng": 145.0040237,
-      "distanceFromPortMeters": 3021,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "operator": "Parks Victoria",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/a3afa1121d53e5358e9c"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/d294b645fae70dc31ee1",
-      "name": "Como Landing",
-      "nameEnglish": "",
-      "lat": -37.8344472,
-      "lng": 145.0042932,
-      "distanceFromPortMeters": 3052,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "operator": "Parks Victoria",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/d294b645fae70dc31ee1"
-      ]
-    },
-    {
-      "source": "nominatim",
-      "sourceId": "osm/way/132394467",
-      "osmType": "way",
-      "osmId": "132394467",
-      "name": "Toyota Corporate Headquarters Australia",
-      "nameEnglish": "",
-      "lat": -37.8268658,
-      "lng": 144.9343698,
-      "distanceFromPortMeters": 3149,
-      "address": "Toyota Corporate Headquarters Australia, 155, Bertie Street, Port Melbourne, Melbourne, Victoria, 3207, Australia",
-      "displayName": "Toyota Corporate Headquarters Australia, 155, Bertie Street, Port Melbourne, Melbourne, Victoria, 3207, Australia",
-      "query": "MELBOURNE Port, Melbourne, Australia",
-      "matchedBy": [
-        "Nominatim query: MELBOURNE Port, Melbourne, Australia"
-      ],
-      "osmTags": {},
-      "sources": [
-        "nominatim"
-      ],
-      "sourceIds": [
-        "osm/way/132394467"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/c511430a3ff7f1be4705",
-      "name": "St Kilda - Williamstown Ferry",
-      "nameEnglish": "",
-      "lat": -37.8635295,
-      "lng": 144.9660865,
-      "distanceFromPortMeters": 3744,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "public_transport": "stop_position"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/c511430a3ff7f1be4705"
-      ]
-    },
-    {
-      "source": "nominatim",
-      "sourceId": "osm/way/38313268",
-      "osmType": "way",
-      "osmId": "38313268",
-      "name": "FCA Australia Pty Ltd",
-      "nameEnglish": "",
-      "lat": -37.8320444,
-      "lng": 144.9261228,
-      "distanceFromPortMeters": 3860,
-      "address": "FCA Australia Pty Ltd, 437, Plummer Street, Port Melbourne, Melbourne, Victoria, 3207, Australia",
-      "displayName": "FCA Australia Pty Ltd, 437, Plummer Street, Port Melbourne, Melbourne, Victoria, 3207, Australia",
-      "query": "MELBOURNE Port, Melbourne, Australia",
-      "matchedBy": [
-        "Nominatim query: MELBOURNE Port, Melbourne, Australia"
-      ],
-      "osmTags": {},
-      "sources": [
-        "nominatim"
-      ],
-      "sourceIds": [
-        "osm/way/38313268"
-      ]
-    },
-    {
-      "source": "nominatim",
-      "sourceId": "osm/node/12410754507",
-      "osmType": "node",
-      "osmId": "12410754507",
-      "name": "Australia Post Parcel Locker",
-      "nameEnglish": "Australia Post Parcel Locker",
-      "lat": -37.8347352,
-      "lng": 144.9252578,
-      "distanceFromPortMeters": 3965,
-      "address": "Australia Post Parcel Locker, Williamstown Road, Garden City, Port Melbourne, Melbourne, Victoria, 3207, Australia",
-      "displayName": "Australia Post Parcel Locker, Williamstown Road, Garden City, Port Melbourne, Melbourne, Victoria, 3207, Australia",
-      "query": "MELBOURNE Port, Melbourne, Australia",
-      "matchedBy": [
-        "Nominatim query: MELBOURNE Port, Melbourne, Australia"
-      ],
-      "osmTags": {},
-      "sources": [
-        "nominatim"
-      ],
-      "sourceIds": [
-        "osm/node/12410754507"
-      ]
-    },
-    {
-      "source": "nominatim",
-      "sourceId": "osm/node/12925659483",
-      "osmType": "node",
-      "osmId": "12925659483",
-      "name": "Advanced Composite Structures Australia",
-      "nameEnglish": "",
-      "lat": -37.8296739,
-      "lng": 144.9209075,
-      "distanceFromPortMeters": 4312,
-      "address": "Advanced Composite Structures Australia, 19, Rocklea Drive, Fishermans Bend, Port Melbourne, Melbourne, Victoria, 3207, Australia",
-      "displayName": "Advanced Composite Structures Australia, 19, Rocklea Drive, Fishermans Bend, Port Melbourne, Melbourne, Victoria, 3207, Australia",
-      "query": "MELBOURNE Port, Melbourne, Australia",
-      "matchedBy": [
-        "Nominatim query: MELBOURNE Port, Melbourne, Australia"
-      ],
-      "osmTags": {},
-      "sources": [
-        "nominatim"
-      ],
-      "sourceIds": [
-        "osm/node/12925659483"
-      ]
-    },
-    {
-      "source": "nominatim",
-      "sourceId": "osm/way/1347896650",
-      "osmType": "way",
-      "osmId": "1347896650",
-      "name": "Optical Solutions Australia",
-      "nameEnglish": "",
-      "lat": -37.8322371,
-      "lng": 144.9197964,
-      "distanceFromPortMeters": 4416,
-      "address": "Optical Solutions Australia, 30, Prohasky Street, Garden City, Port Melbourne, Melbourne, Victoria, 3207, Australia",
-      "displayName": "Optical Solutions Australia, 30, Prohasky Street, Garden City, Port Melbourne, Melbourne, Victoria, 3207, Australia",
-      "query": "MELBOURNE Port, Melbourne, Australia",
-      "matchedBy": [
-        "Nominatim query: MELBOURNE Port, Melbourne, Australia"
-      ],
-      "osmTags": {},
-      "sources": [
-        "nominatim"
-      ],
-      "sourceIds": [
-        "osm/way/1347896650"
-      ]
-    },
-    {
-      "source": "nominatim",
-      "sourceId": "osm/way/907971768",
-      "osmType": "way",
-      "osmId": "907971768",
-      "name": "Australia Post",
-      "nameEnglish": "",
-      "lat": -37.8366364,
-      "lng": 144.9196846,
-      "distanceFromPortMeters": 4480,
-      "address": "Australia Post, Centre Avenue, Garden City, Port Melbourne, Melbourne, Victoria, 3207, Australia",
-      "displayName": "Australia Post, Centre Avenue, Garden City, Port Melbourne, Melbourne, Victoria, 3207, Australia",
-      "query": "MELBOURNE Port, Melbourne, Australia",
-      "matchedBy": [
-        "Nominatim query: MELBOURNE Port, Melbourne, Australia"
-      ],
-      "osmTags": {
-        "building": "yes",
-        "operator": "Australia Post"
-      },
-      "sources": [
-        "nominatim"
-      ],
-      "sourceIds": [
-        "osm/way/907971768"
-      ]
-    }
-  ],
+  "generatedAt": "2026-09-29T05:47:44.051Z",
   "counts": {
-    "attraction": 16,
-    "outdoors": 4,
-    "food_drink": 12,
-    "shopping": 5,
-    "essentials": 2
+    "attraction": 29,
+    "food_drink": 25,
+    "shopping": 15,
+    "outdoors": 12,
+    "essentials": 3
   },
   "pois": [
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/f6e4ee52d8d9860522d0",
-      "name": "Buxton Contemporary (868)",
-      "nameEnglish": "",
-      "category": "attraction",
-      "subcategory": "museum",
-      "lat": -37.8240653,
-      "lng": 144.968824,
-      "distanceFromTerminalMeters": 668,
-      "distanceFromDefaultTerminalMeters": 668,
-      "minDistanceFromAnyTerminalMeters": 668,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "156 Southbank Boulevard, VIC, 3006",
-      "openingHours": "Tu-Sa 11:00-17:00",
-      "website": "https://buxtoncontemporary.com/",
-      "phone": "+61 3 9035 9339",
-      "cuisine": [],
-      "wheelchair": "yes",
-      "brand": "",
-      "description": "The museum is located in the heart of the Melbourne arts precinct where it provides a creative forum through which the University engages local, national and international audiences with the best of contemporary Australian and international art.",
-      "osmTags": {
-        "tourism": "museum"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/268d8b6cbe34e9dca54d",
-      "name": "Fiona & Sidney Myer Gallery",
-      "nameEnglish": "",
-      "category": "attraction",
-      "subcategory": "gallery",
-      "lat": -37.8255106,
-      "lng": 144.967941,
-      "distanceFromTerminalMeters": 531,
-      "distanceFromDefaultTerminalMeters": 531,
-      "minDistanceFromAnyTerminalMeters": 531,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "40 Dodds Street, VIC, 3006",
-      "openingHours": "Tu-Sa 12:00-17:00",
-      "website": "https://finearts-music.unimelb.edu.au/about-us/fiona-and-sidney-myer-gallery",
-      "phone": "+61 3 9035 9400",
-      "cuisine": [],
-      "wheelchair": "yes",
-      "brand": "",
-      "description": "The Fiona and Sidney Myer Gallery (formerly the Margaret Lawrence Gallery) is a highly influential curatorial art space frequented by the general public and artists at all stages of their career.",
-      "osmTags": {
-        "tourism": "gallery"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/35769f0bd4554da4e071",
-      "name": "National Gallery of Victoria",
-      "nameEnglish": "",
-      "category": "attraction",
-      "subcategory": "gallery",
-      "lat": -37.822715,
-      "lng": 144.9686712,
-      "distanceFromTerminalMeters": 818,
-      "distanceFromDefaultTerminalMeters": 818,
-      "minDistanceFromAnyTerminalMeters": 818,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "130-180 St Kilda Road, VIC, 3006, AU",
-      "openingHours": "Mo-Su 10:00-17:00",
-      "website": "https://www.ngv.vic.gov.au",
-      "phone": "+61 3 8620 2222",
-      "cuisine": [],
-      "wheelchair": "yes",
-      "brand": "",
-      "description": "Rich treasury of visual arts.",
-      "osmTags": {
-        "amenity": "arts_centre",
-        "tourism": "gallery"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/f83f6d456087eaa3247e",
-      "name": "Australian Music Vault",
-      "nameEnglish": "",
-      "category": "attraction",
-      "subcategory": "museum",
-      "lat": -37.8216883,
-      "lng": 144.9685233,
-      "distanceFromTerminalMeters": 933,
-      "distanceFromDefaultTerminalMeters": 933,
-      "minDistanceFromAnyTerminalMeters": 933,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "100 St Kilda Road",
-      "openingHours": "",
-      "website": "https://www.australianmusicvault.com.au/",
-      "phone": "",
-      "cuisine": [],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "tourism": "museum"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/9322376a2d2c2379fe34",
-      "name": "Melbourne Skydeck",
-      "nameEnglish": "",
-      "category": "attraction",
-      "subcategory": "attraction",
-      "lat": -37.8216909,
-      "lng": 144.9645246,
-      "distanceFromTerminalMeters": 1042,
-      "distanceFromDefaultTerminalMeters": 1042,
-      "minDistanceFromAnyTerminalMeters": 1042,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "",
-      "openingHours": "Mo-Su 12:00-21:00",
-      "website": "https://www.eurekaskydeck.com.au/",
-      "phone": "+61 3 9693 8888",
-      "cuisine": [],
-      "wheelchair": "",
-      "brand": "",
-      "description": "Viewing deck at 297 m on top of the Eureka Tower building.",
-      "osmTags": {
-        "tourism": "attraction"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/10790e4d3ff7c7b9835f",
-      "name": "Bourke Street Mall",
-      "nameEnglish": "",
-      "category": "attraction",
-      "subcategory": "attraction",
-      "lat": -37.8138383,
-      "lng": 144.9644426,
-      "distanceFromTerminalMeters": 1862,
-      "distanceFromDefaultTerminalMeters": 1862,
-      "minDistanceFromAnyTerminalMeters": 1862,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "Bourke Street Mall, 3000",
-      "openingHours": "Mo-Fr 09:00-20:00",
-      "website": "http://www.bourkestreet.com.au",
-      "phone": "",
-      "cuisine": [],
-      "wheelchair": "yes",
-      "brand": "",
-      "description": "Pedestrian & tram-only portion of Bourke Street with department stores, cinemas, theatres",
-      "osmTags": {
-        "tourism": "attraction"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/1928cf7759fd059407f7",
-      "name": "Koorie Heritage Trust",
-      "nameEnglish": "",
-      "category": "attraction",
-      "subcategory": "museum",
-      "lat": -37.8181571,
-      "lng": 144.969102,
-      "distanceFromTerminalMeters": 1319,
-      "distanceFromDefaultTerminalMeters": 1319,
-      "minDistanceFromAnyTerminalMeters": 1319,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "",
-      "openingHours": "Mo-Su 10:00-17:00; PH closed",
-      "website": "https://kht.org.au/",
-      "phone": "+61 3 8662 6300",
-      "cuisine": [],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "tourism": "museum"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/822362159e3c9a15138a",
-      "name": "Immigration Museum",
-      "nameEnglish": "",
-      "category": "attraction",
-      "subcategory": "museum",
-      "lat": -37.8191169,
-      "lng": 144.9603968,
-      "distanceFromTerminalMeters": 1475,
-      "distanceFromDefaultTerminalMeters": 1475,
-      "minDistanceFromAnyTerminalMeters": 1475,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "400 Flinders Street, VIC, 3000",
-      "openingHours": "Mo-Su 10:00-17:00",
-      "website": "https://museumsvictoria.com.au/immigrationmuseum/",
-      "phone": "+61 3 9927 2709",
-      "cuisine": [],
-      "wheelchair": "yes",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "historic": "building",
-        "tourism": "museum"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/c0463a82b5f7752ba819",
-      "name": "SEA LIFE Melbourne Aquarium",
-      "nameEnglish": "",
-      "category": "attraction",
-      "subcategory": "aquarium",
-      "lat": -37.820723,
-      "lng": 144.9583442,
-      "distanceFromTerminalMeters": 1453,
-      "distanceFromDefaultTerminalMeters": 1453,
-      "minDistanceFromAnyTerminalMeters": 1453,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "King Street, VIC, 3000",
-      "openingHours": "Mo-Fr 10:00-17:30; Sa-Su 09:30-18:00",
-      "website": "https://www.melbourneaquarium.com.au/",
-      "phone": "",
-      "cuisine": [],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "tourism": "aquarium"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/c20da18b2b7ea973fa87",
-      "name": "Old Melbourne Gaol",
-      "nameEnglish": "",
-      "category": "attraction",
-      "subcategory": "attraction",
-      "lat": -37.8078116,
-      "lng": 144.9651252,
-      "distanceFromTerminalMeters": 2504,
-      "distanceFromDefaultTerminalMeters": 2504,
-      "minDistanceFromAnyTerminalMeters": 2504,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "377 Russell Street, VIC, 3000",
-      "openingHours": "09:30-17:00; Dec 25 closed; easter -2 days closed",
-      "website": "https://www.oldmelbournegaol.com.au",
-      "phone": "+61 3 8663 7228",
-      "cuisine": [],
-      "wheelchair": "",
-      "brand": "",
-      "description": "Closed prison, now a museum and tourist attraction.",
-      "osmTags": {
-        "tourism": "attraction"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/9c1783b459021cc93d41",
-      "name": "Collingwood Children's Farm",
-      "nameEnglish": "",
-      "category": "attraction",
-      "subcategory": "zoo",
-      "lat": -37.803365,
-      "lng": 145.0046468,
-      "distanceFromTerminalMeters": 4247,
-      "distanceFromDefaultTerminalMeters": 4247,
-      "minDistanceFromAnyTerminalMeters": 4247,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "6-24 St Heliers Street, VIC, 3067, AU",
-      "openingHours": "Mo-Su 09:15-16:45",
-      "website": "https://www.farm.org.au/",
-      "phone": "",
-      "cuisine": [],
-      "wheelchair": "",
-      "brand": "",
-      "description": "not-for-profit, inner city farm",
-      "osmTags": {
-        "tourism": "zoo"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/766ed046d2341229214d",
-      "name": "Arts Centre Melbourne",
-      "nameEnglish": "",
-      "category": "attraction",
-      "subcategory": "attraction",
-      "lat": -37.8217709,
-      "lng": 144.9713823,
-      "distanceFromTerminalMeters": 923,
-      "distanceFromDefaultTerminalMeters": 923,
-      "minDistanceFromAnyTerminalMeters": 923,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "",
-      "openingHours": "",
-      "website": "https://www.artscentremelbourne.com.au/",
-      "phone": "+61 3 9281 8000",
-      "cuisine": [],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "tourism": "attraction"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/4209e0e0597f63dd202f",
-      "name": "Federation Square",
-      "nameEnglish": "",
-      "category": "attraction",
-      "subcategory": "attraction",
-      "lat": -37.8177656,
-      "lng": 144.9693054,
-      "distanceFromTerminalMeters": 1362,
-      "distanceFromDefaultTerminalMeters": 1362,
-      "minDistanceFromAnyTerminalMeters": 1362,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "Swanston Street",
-      "openingHours": "24/7",
-      "website": "https://fedsquare.com/",
-      "phone": "+61 3 9655 1900",
-      "cuisine": [],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "place": "square",
-        "tourism": "attraction"
-      }
-    },
     {
       "source": "openstreetmap",
       "sourceId": "osm/generated/f5fe96c9e0f94ffbf5df",
@@ -905,9 +71,9 @@
       "subcategory": "attraction",
       "lat": -37.8247024,
       "lng": 144.9534263,
-      "distanceFromTerminalMeters": 1570,
-      "distanceFromDefaultTerminalMeters": 1570,
-      "minDistanceFromAnyTerminalMeters": 1570,
+      "distanceFromTerminalMeters": 2840,
+      "distanceFromDefaultTerminalMeters": 2840,
+      "minDistanceFromAnyTerminalMeters": 2840,
       "nearestTerminalId": "ports-json-anchor",
       "address": "21 South Wharf Promenade, 3006",
       "openingHours": "10:00-16:00",
@@ -917,160 +83,78 @@
       "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "Q2102199",
+      "wikipedia": "",
       "osmTags": {
         "historic": "ship",
         "tourism": "attraction"
-      }
+      },
+      "curated": true,
+      "gem": true,
+      "fame": 6
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/7016413345cbc8aa93b4",
-      "name": "Skyline Precinct Melbourne",
+      "sourceId": "osm/generated/0fb513d8da653025238f",
+      "name": "Cooks' Cottage",
       "nameEnglish": "",
       "category": "attraction",
-      "subcategory": "theme_park",
-      "lat": -37.824054,
-      "lng": 144.9548454,
-      "distanceFromTerminalMeters": 1486,
-      "distanceFromDefaultTerminalMeters": 1486,
-      "minDistanceFromAnyTerminalMeters": 1486,
+      "subcategory": "attraction",
+      "lat": -37.81449,
+      "lng": 144.97945,
+      "distanceFromTerminalMeters": 5324,
+      "distanceFromDefaultTerminalMeters": 5324,
+      "minDistanceFromAnyTerminalMeters": 5324,
       "nearestTerminalId": "ports-json-anchor",
       "address": "",
-      "openingHours": "",
-      "website": "https://www.skylinemelbourne.com.au/",
-      "phone": "",
-      "cuisine": [],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "tourism": "theme_park"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/214db50f4673833ee0a3",
-      "name": "Luna Park",
-      "nameEnglish": "",
-      "category": "attraction",
-      "subcategory": "theme_park",
-      "lat": -37.8680307,
-      "lng": 144.9767494,
-      "distanceFromTerminalMeters": 4270,
-      "distanceFromDefaultTerminalMeters": 4270,
-      "minDistanceFromAnyTerminalMeters": 4270,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "18 Lower Esplanade, VIC, 3182",
-      "openingHours": "Sa-Su 11:00-18:00",
-      "website": "https://www.lunapark.com.au/",
-      "phone": "+61 3 9525 5033",
-      "cuisine": [],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "tourism": "theme_park"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/2ee3bd73311988553ab5",
-      "name": "Royal Botanic Gardens",
-      "nameEnglish": "",
-      "category": "outdoors",
-      "subcategory": "garden",
-      "lat": -37.8294892,
-      "lng": 144.979551,
-      "distanceFromTerminalMeters": 841,
-      "distanceFromDefaultTerminalMeters": 841,
-      "minDistanceFromAnyTerminalMeters": 841,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "",
-      "openingHours": "",
-      "website": "https://www.rbg.vic.gov.au/",
-      "phone": "",
-      "cuisine": [],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "leisure": "garden"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/b4cfe7f526dcba4ad7c4",
-      "name": "Linear Park",
-      "nameEnglish": "",
-      "category": "outdoors",
-      "subcategory": "park",
-      "lat": -37.8251883,
-      "lng": 144.967653,
-      "distanceFromTerminalMeters": 573,
-      "distanceFromDefaultTerminalMeters": 573,
-      "minDistanceFromAnyTerminalMeters": 573,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "45 Sturt Street, VIC, 3006",
-      "openingHours": "24/7",
-      "website": "https://finearts-music.unimelb.edu.au/campus-experience/linear-park",
-      "phone": "",
-      "cuisine": [],
-      "wheelchair": "",
-      "brand": "",
-      "description": "Opened in 2019, Linear Park is an open space featuring areas for outdoor performance. The park runs through the southern half of the Southbank campus, linking Dodds & Sturt streets, to open up the heart of the campus & invite interaction.",
-      "osmTags": {
-        "leisure": "park"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/a92c458df723565c9faa",
-      "name": "Wilin Garden",
-      "nameEnglish": "",
-      "category": "outdoors",
-      "subcategory": "garden",
-      "lat": -37.8247406,
-      "lng": 144.9687763,
-      "distanceFromTerminalMeters": 595,
-      "distanceFromDefaultTerminalMeters": 595,
-      "minDistanceFromAnyTerminalMeters": 595,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "",
-      "openingHours": "",
-      "website": "https://finearts-music.unimelb.edu.au/about-us/wilin",
-      "phone": "",
-      "cuisine": [],
-      "wheelchair": "",
-      "brand": "",
-      "description": "Associated with the Wilin Centre at the Southbank Campus of the University of Melbourne",
-      "osmTags": {
-        "leisure": "garden"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/6f028f69eab2db1495f9",
-      "name": "Grollo Equiset Garden",
-      "nameEnglish": "",
-      "category": "outdoors",
-      "subcategory": "garden",
-      "lat": -37.8227296,
-      "lng": 144.968058,
-      "distanceFromTerminalMeters": 826,
-      "distanceFromDefaultTerminalMeters": 826,
-      "minDistanceFromAnyTerminalMeters": 826,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "",
-      "openingHours": "",
+      "openingHours": "Mo-Su 09:00-17:00",
       "website": "",
-      "phone": "",
+      "phone": "+61 3 9658 9658",
       "cuisine": [],
+      "wheelchair": "no",
+      "brand": "",
+      "description": "Family cottage constructed in 1755 in the village of Great Ayton, North Yorkshire, UK by Captain James Cook's parents. Transported to Melbourne in 1934. Source: Wikipedia",
+      "wikidata": "Q1129647",
+      "wikipedia": "en:Cooks' Cottage",
+      "osmTags": {
+        "historic": "yes",
+        "tourism": "attraction"
+      },
+      "curated": true,
+      "gem": true,
+      "fame": 10
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/4d40b258ad9a249e3c9b",
+      "name": "Beef House",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": -37.8123192,
+      "lng": 144.9613892,
+      "distanceFromTerminalMeters": 4333,
+      "distanceFromDefaultTerminalMeters": 4333,
+      "minDistanceFromAnyTerminalMeters": 4333,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "380 Lonsdale Street, 3000",
+      "openingHours": "",
+      "website": "https://www.shabushabu.com.au/",
+      "phone": "+61 3 9642 4934",
+      "cuisine": [
+        "chinese"
+      ],
       "wheelchair": "",
       "brand": "",
-      "description": "Rooftop public garden",
+      "description": "",
+      "wikidata": "Q19599928",
+      "wikipedia": "",
       "osmTags": {
-        "leisure": "garden"
-      }
+        "amenity": "restaurant"
+      },
+      "curated": true,
+      "gem": true,
+      "fame": 2
     },
     {
       "source": "openstreetmap",
@@ -1081,9 +165,9 @@
       "subcategory": "cafe",
       "lat": -37.8244506,
       "lng": 144.970159,
-      "distanceFromTerminalMeters": 617,
-      "distanceFromDefaultTerminalMeters": 617,
-      "minDistanceFromAnyTerminalMeters": 617,
+      "distanceFromTerminalMeters": 4034,
+      "distanceFromDefaultTerminalMeters": 4034,
+      "minDistanceFromAnyTerminalMeters": 4034,
       "nearestTerminalId": "ports-json-anchor",
       "address": "224 St Kilda Road, VIC, 3006",
       "openingHours": "Mo-Fr 07:00-14:00",
@@ -1098,66 +182,1156 @@
       "wheelchair": "limited",
       "brand": "",
       "description": "Pop-up cafe kiosk offering quick grab & go selection with very friendly and fast service",
+      "wikidata": "",
+      "wikipedia": "",
       "osmTags": {
         "amenity": "cafe"
-      }
+      },
+      "curated": true,
+      "gem": true
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/07ecbe6a1cda9c8ab211",
-      "name": "Trend Cafe and Restaurant",
+      "sourceId": "osm/generated/1da695f1842826ebba69",
+      "name": "Royal Exhibition Building",
       "nameEnglish": "",
-      "category": "food_drink",
-      "subcategory": "restaurant",
-      "lat": -37.8294061,
-      "lng": 144.9694174,
-      "distanceFromTerminalMeters": 84,
-      "distanceFromDefaultTerminalMeters": 84,
-      "minDistanceFromAnyTerminalMeters": 84,
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": -37.8046682,
+      "lng": 144.9714988,
+      "distanceFromTerminalMeters": 5555,
+      "distanceFromDefaultTerminalMeters": 5555,
+      "minDistanceFromAnyTerminalMeters": 5555,
       "nearestTerminalId": "ports-json-anchor",
-      "address": "35 Coventry Street, VIC, 3006",
-      "openingHours": "Mo 07:00-16:00; Tu-Sa 07:00-21:00; Su 08:00-16:00",
-      "website": "https://trendcafeandrestaurant.com.au/",
-      "phone": "+61 3 9122 4122",
-      "cuisine": [
-        "pizza",
-        "pasta",
-        "breakfast",
-        "coffee_shop"
-      ],
+      "address": "9 Nicholson Street, VIC, 3053",
+      "openingHours": "",
+      "website": "https://museumsvictoria.com.au/reb/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q695935",
+      "wikipedia": "en:Royal Exhibition Building",
+      "osmTags": {
+        "historic": "building",
+        "tourism": "attraction"
+      },
+      "fame": 43
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/82d4cda83e90c53984d7",
+      "name": "Carlton Gardens",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": -37.8042308,
+      "lng": 144.971567,
+      "distanceFromTerminalMeters": 5596,
+      "distanceFromDefaultTerminalMeters": 5596,
+      "minDistanceFromAnyTerminalMeters": 5596,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q829338",
+      "wikipedia": "en:Carlton Gardens",
+      "osmTags": {
+        "leisure": "park"
+      },
+      "fame": 36
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/dba09c483d6e39b8bee6",
+      "name": "National Gallery of Victoria",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "gallery",
+      "lat": -37.822715,
+      "lng": 144.9686712,
+      "distanceFromTerminalMeters": 4025,
+      "distanceFromDefaultTerminalMeters": 4025,
+      "minDistanceFromAnyTerminalMeters": 4025,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "130-180 St Kilda Road, VIC, 3006",
+      "openingHours": "Mo-Su 10:00-17:00",
+      "website": "https://www.ngv.vic.gov.au",
+      "phone": "+61 3 8620 2222",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "Rich treasury of visual arts.",
+      "wikidata": "Q1464509",
+      "wikipedia": "en:National Gallery of Victoria",
+      "osmTags": {
+        "amenity": "arts_centre",
+        "tourism": "gallery"
+      },
+      "fame": 31
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/7729e491d1be6af11c30",
+      "name": "Melbourne Museum",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": -37.8032374,
+      "lng": 144.9717001,
+      "distanceFromTerminalMeters": 5688,
+      "distanceFromDefaultTerminalMeters": 5688,
+      "minDistanceFromAnyTerminalMeters": 5688,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "11 Nicholson Street, VIC, 3053",
+      "openingHours": "Mo-Su 10:00-17:00,09:00-17:00",
+      "website": "https://museumsvictoria.com.au/melbournemuseum/",
+      "phone": "+61 3 8341 7777",
+      "cuisine": [],
       "wheelchair": "yes",
       "brand": "",
       "description": "",
+      "wikidata": "Q1353869",
+      "wikipedia": "en:Melbourne Museum",
+      "osmTags": {
+        "tourism": "museum"
+      },
+      "fame": 19
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/123464bab1196c9a425c",
+      "name": "Melbourne Zoological Gardens",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "zoo",
+      "lat": -37.7846056,
+      "lng": 144.951953,
+      "distanceFromTerminalMeters": 6727,
+      "distanceFromDefaultTerminalMeters": 6727,
+      "minDistanceFromAnyTerminalMeters": 6727,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1 Elliott Avenue",
+      "openingHours": "Mo-Su 09:00-17:00",
+      "website": "https://www.zoo.org.au/MelbourneZoo",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q578027",
+      "wikipedia": "en:Melbourne Zoo",
+      "osmTags": {
+        "tourism": "zoo"
+      },
+      "fame": 19
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/4209e0e0597f63dd202f",
+      "name": "Federation Square",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": -37.8177656,
+      "lng": 144.9693054,
+      "distanceFromTerminalMeters": 4395,
+      "distanceFromDefaultTerminalMeters": 4395,
+      "minDistanceFromAnyTerminalMeters": 4395,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Swanston Street",
+      "openingHours": "24/7",
+      "website": "https://fedsquare.com/",
+      "phone": "+61 3 9655 1900",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q923304",
+      "wikipedia": "en:Federation Square",
+      "osmTags": {
+        "place": "square",
+        "tourism": "attraction"
+      },
+      "fame": 16
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d3648af9c4edf8703b10",
+      "name": "Shrine of Remembrance",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": -37.8305324,
+      "lng": 144.9734454,
+      "distanceFromTerminalMeters": 4011,
+      "distanceFromDefaultTerminalMeters": 4011,
+      "minDistanceFromAnyTerminalMeters": 4011,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q1369544",
+      "wikipedia": "en:Shrine of Remembrance",
+      "osmTags": {
+        "historic": "monument",
+        "tourism": "attraction"
+      },
+      "fame": 15
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/86821250a5c92709dfc7",
+      "name": "Crown Melbourne",
+      "nameEnglish": "Crown Melbourne",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": -37.8233312,
+      "lng": 144.958697,
+      "distanceFromTerminalMeters": 3284,
+      "distanceFromDefaultTerminalMeters": 3284,
+      "minDistanceFromAnyTerminalMeters": 3284,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "8 Whiteman Street, 3006",
+      "openingHours": "",
+      "website": "https://www.crownmelbourne.com.au/",
+      "phone": "+61 3 9292 8888",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q1145115",
+      "wikipedia": "en:Crown Melbourne",
+      "osmTags": {
+        "amenity": "casino",
+        "tourism": "attraction"
+      },
+      "fame": 11
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/65762d8a703f57a084e3",
+      "name": "Australian Centre for Contemporary Art",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "gallery",
+      "lat": -37.8266823,
+      "lng": 144.9670748,
+      "distanceFromTerminalMeters": 3676,
+      "distanceFromDefaultTerminalMeters": 3676,
+      "minDistanceFromAnyTerminalMeters": 3676,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "111 Sturt Street, VIC, 3006",
+      "openingHours": "Tu-Fr 10:00-17:00; Sa-Su 11:00-17:00; Mo closed",
+      "website": "https://acca.melbourne/",
+      "phone": "+61 3 9697 9999",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q781373",
+      "wikipedia": "",
+      "osmTags": {
+        "tourism": "gallery"
+      },
+      "fame": 9
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/822362159e3c9a15138a",
+      "name": "Immigration Museum",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": -37.8191169,
+      "lng": 144.9603968,
+      "distanceFromTerminalMeters": 3712,
+      "distanceFromDefaultTerminalMeters": 3712,
+      "minDistanceFromAnyTerminalMeters": 3712,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "400 Flinders Street, VIC, 3000",
+      "openingHours": "Mo-Su 10:00-17:00",
+      "website": "https://museumsvictoria.com.au/immigrationmuseum/",
+      "phone": "+61 3 9927 2709",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q2694295",
+      "wikipedia": "en:Immigration Museum, Melbourne",
+      "osmTags": {
+        "historic": "building",
+        "tourism": "museum"
+      },
+      "fame": 9
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/4608028192081b4cf5c7",
+      "name": "Queen Victoria Market",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "marketplace",
+      "lat": -37.8074898,
+      "lng": 144.9577117,
+      "distanceFromTerminalMeters": 4586,
+      "distanceFromDefaultTerminalMeters": 4586,
+      "minDistanceFromAnyTerminalMeters": 4586,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Queen Street, VIC, 3000",
+      "openingHours": "Tu 06:00-14:00; Th 06:00-14:00; Fr 06:00-18:00; Sa 06:00-15:00; Su 09:00-16:00",
+      "website": "https://qvm.com.au/",
+      "phone": "+61 3 9320 5822",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q860621",
+      "wikipedia": "en:Queen Victoria Market",
+      "osmTags": {
+        "amenity": "marketplace",
+        "tourism": "attraction"
+      },
+      "fame": 9
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/4efb5982788119ef00c4",
+      "name": "Old Melbourne Observatory",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "building",
+      "lat": -37.8295324,
+      "lng": 144.9754054,
+      "distanceFromTerminalMeters": 4211,
+      "distanceFromDefaultTerminalMeters": 4211,
+      "minDistanceFromAnyTerminalMeters": 4211,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q3299222",
+      "wikipedia": "",
+      "osmTags": {
+        "historic": "building"
+      },
+      "fame": 8
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c20da18b2b7ea973fa87",
+      "name": "Old Melbourne Gaol",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": -37.8078116,
+      "lng": 144.9651252,
+      "distanceFromTerminalMeters": 4930,
+      "distanceFromDefaultTerminalMeters": 4930,
+      "minDistanceFromAnyTerminalMeters": 4930,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "377 Russell Street, VIC, 3000",
+      "openingHours": "09:30-17:00; Dec 25 closed; easter -2 days closed",
+      "website": "https://www.oldmelbournegaol.com.au",
+      "phone": "+61 3 8663 7228",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Closed prison, now a museum and tourist attraction.",
+      "wikidata": "Q2018436",
+      "wikipedia": "en:Old Melbourne Gaol",
+      "osmTags": {
+        "tourism": "attraction"
+      },
+      "fame": 8
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/214db50f4673833ee0a3",
+      "name": "Luna Park",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "theme_park",
+      "lat": -37.8680307,
+      "lng": 144.9767494,
+      "distanceFromTerminalMeters": 4949,
+      "distanceFromDefaultTerminalMeters": 4949,
+      "minDistanceFromAnyTerminalMeters": 4949,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "18 Lower Esplanade, VIC, 3182",
+      "openingHours": "Sa-Su 11:00-18:00",
+      "website": "https://www.lunapark.com.au/",
+      "phone": "+61 3 9525 5033",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q2750308",
+      "wikipedia": "en:Luna Park, Melbourne",
+      "osmTags": {
+        "tourism": "theme_park"
+      },
+      "fame": 8
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/a93f6b4d6aefa641f113",
+      "name": "Arts Centre Melbourne (Theatres Building)",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": -37.8213258,
+      "lng": 144.9684577,
+      "distanceFromTerminalMeters": 4096,
+      "distanceFromDefaultTerminalMeters": 4096,
+      "minDistanceFromAnyTerminalMeters": 4096,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "https://www.artscentremelbourne.com.au/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q4801443",
+      "wikipedia": "en:Arts Centre Melbourne",
+      "osmTags": {
+        "amenity": "arts_centre",
+        "tourism": "attraction"
+      },
+      "fame": 7
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/edb8060de9d592074188",
+      "name": "ACMI",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": -37.8174614,
+      "lng": 144.9691169,
+      "distanceFromTerminalMeters": 4404,
+      "distanceFromDefaultTerminalMeters": 4404,
+      "minDistanceFromAnyTerminalMeters": 4404,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Federation Square, VIC, 3000",
+      "openingHours": "10:00-17:00; Apr 25 13:00-17:00; Dec 25 off",
+      "website": "https://www.acmi.net.au/",
+      "phone": "+61 3 8663 2200",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q4823962",
+      "wikipedia": "en:ACMI (museum)",
+      "osmTags": {
+        "tourism": "museum"
+      },
+      "fame": 5
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/2976ef47f46fd4c3b379",
+      "name": "Hellenic Museum",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": -37.812171,
+      "lng": 144.957084,
+      "distanceFromTerminalMeters": 4120,
+      "distanceFromDefaultTerminalMeters": 4120,
+      "minDistanceFromAnyTerminalMeters": 4120,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "280 William Street",
+      "openingHours": "Mo-Su 10:00-16:00",
+      "website": "https://www.hellenic.org.au/",
+      "phone": "+61 3 8615 9016",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q15961629",
+      "wikipedia": "",
+      "osmTags": {
+        "tourism": "museum"
+      },
+      "fame": 4
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c90d2b1ca2facd14b763",
+      "name": "Scienceworks",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": -37.8315705,
+      "lng": 144.8939082,
+      "distanceFromTerminalMeters": 3436,
+      "distanceFromDefaultTerminalMeters": 3436,
+      "minDistanceFromAnyTerminalMeters": 3436,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "2 Booker Street, VIC, 3015",
+      "openingHours": "Mo-Su 08:00-16:30",
+      "website": "https://museumsvictoria.com.au/scienceworks",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q7433721",
+      "wikipedia": "en:Scienceworks (Melbourne)",
+      "osmTags": {
+        "tourism": "museum"
+      },
+      "fame": 5
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/453ed9df2183aaa04c0c",
+      "name": "Ian Potter Centre: NGV Australia",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": -37.8175394,
+      "lng": 144.9699711,
+      "distanceFromTerminalMeters": 4457,
+      "distanceFromDefaultTerminalMeters": 4457,
+      "minDistanceFromAnyTerminalMeters": 4457,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Federation Square, VIC, 3000",
+      "openingHours": "Mo-Su 10:00-17:00",
+      "website": "https://www.ngv.vic.gov.au/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q4350417",
+      "wikipedia": "",
+      "osmTags": {
+        "tourism": "museum"
+      },
+      "fame": 6
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/0e8a3462aeb9505abc9f",
+      "name": "Newport Railway Museum",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": -37.8557493,
+      "lng": 144.886144,
+      "distanceFromTerminalMeters": 4152,
+      "distanceFromDefaultTerminalMeters": 4152,
+      "minDistanceFromAnyTerminalMeters": 4152,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "26 Champion Road, VIC, 3015",
+      "openingHours": "Sa 12:00-17:00; SH Su 12:00-17:00; Dec 25 off",
+      "website": "https://www.railwaymuseum.org.au",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q16926902",
+      "wikipedia": "en:Newport Railway Museum",
+      "osmTags": {
+        "tourism": "museum"
+      },
+      "fame": 4
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/24446c45a98392cd8746",
+      "name": "Chinese Museum",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": -37.8107405,
+      "lng": 144.9692111,
+      "distanceFromTerminalMeters": 4919,
+      "distanceFromDefaultTerminalMeters": 4919,
+      "minDistanceFromAnyTerminalMeters": 4919,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "22 Cohen Place, 3000",
+      "openingHours": "Mo-Su 10:00-16:00",
+      "website": "https://www.chinesemuseum.com.au/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q5100547",
+      "wikipedia": "",
+      "osmTags": {
+        "tourism": "museum"
+      },
+      "fame": 4
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/6af8b8b7c87b25714477",
+      "name": "The Australian Sports Museum",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": -37.8188712,
+      "lng": 144.9843496,
+      "distanceFromTerminalMeters": 5424,
+      "distanceFromDefaultTerminalMeters": 5424,
+      "minDistanceFromAnyTerminalMeters": 5424,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Su 10:00-17:00",
+      "website": "https://www.australiansportsmuseum.org.au/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q4315039",
+      "wikipedia": "",
+      "osmTags": {
+        "tourism": "museum"
+      },
+      "fame": 6
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/766ed046d2341229214d",
+      "name": "Arts Centre Melbourne",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": -37.8217709,
+      "lng": 144.9713823,
+      "distanceFromTerminalMeters": 4281,
+      "distanceFromDefaultTerminalMeters": 4281,
+      "minDistanceFromAnyTerminalMeters": 4281,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "https://www.artscentremelbourne.com.au/",
+      "phone": "+61 3 9281 8000",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q4801443",
+      "wikipedia": "en:Arts Centre Melbourne",
+      "osmTags": {
+        "tourism": "attraction"
+      },
+      "fame": 7
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/55e4eb0f517384b04721",
+      "name": "Hanoi Mee",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": -37.8421333,
+      "lng": 144.939829,
+      "distanceFromTerminalMeters": 827,
+      "distanceFromDefaultTerminalMeters": 827,
+      "minDistanceFromAnyTerminalMeters": 827,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "140 Rouse Street, 3207",
+      "openingHours": "Mo-Th 17:00-22:00; Fr-Su 11:30-22:00",
+      "website": "https://hanoimee.com.au/",
+      "phone": "+61 3 9042 7921",
+      "cuisine": [
+        "vietnamese"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
       "osmTags": {
         "amenity": "restaurant"
       }
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/0e795ec388ec610ae789",
-      "name": "Foremost",
+      "sourceId": "osm/generated/953d2957ac6e7958032e",
+      "name": "Marbl",
       "nameEnglish": "",
       "category": "food_drink",
-      "subcategory": "cafe",
-      "lat": -37.8291898,
-      "lng": 144.9708848,
-      "distanceFromTerminalMeters": 119,
-      "distanceFromDefaultTerminalMeters": 119,
-      "minDistanceFromAnyTerminalMeters": 119,
+      "subcategory": "restaurant",
+      "lat": -37.8411566,
+      "lng": 144.9397129,
+      "distanceFromTerminalMeters": 832,
+      "distanceFromDefaultTerminalMeters": 832,
+      "minDistanceFromAnyTerminalMeters": 832,
       "nearestTerminalId": "ports-json-anchor",
-      "address": "312 St Kilda Road, VIC, 3006",
-      "openingHours": "Mo-Fr 07:00-15:00; Sa,Su 07:30-15:00",
-      "website": "https://foremost-coffee.square.site/",
-      "phone": "",
+      "address": "79 Bay Street",
+      "openingHours": "We-Su 18:00-21:30",
+      "website": "https://www.marblsteakhouse.com.au/",
+      "phone": "+61 481 586 102",
       "cuisine": [
-        "coffee_shop",
-        "sandwich"
+        "steak_house"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/be781c92f4e9456a05b9",
+      "name": "Hunky Dory Fish & Burger Bar",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "fast_food",
+      "lat": -37.8393062,
+      "lng": 144.9414057,
+      "distanceFromTerminalMeters": 1033,
+      "distanceFromDefaultTerminalMeters": 1033,
+      "minDistanceFromAnyTerminalMeters": 1033,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "181 Bay Street",
+      "openingHours": "Mo-Su 11:00-22:00+",
+      "website": "https://www.hunkydory.com.au/",
+      "phone": "+61 3 9646 1020",
+      "cuisine": [
+        "fish_and_chips"
       ],
       "wheelchair": "yes",
       "brand": "",
       "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "fast_food"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/845776a94da60641e7fa",
+      "name": "Old Salt Fish & Chips",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "fast_food",
+      "lat": -37.838367,
+      "lng": 144.942793,
+      "distanceFromTerminalMeters": 1186,
+      "distanceFromDefaultTerminalMeters": 1186,
+      "minDistanceFromAnyTerminalMeters": 1186,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "246 Bay Street",
+      "openingHours": "Tu-Su 11:30-22:00",
+      "website": "http://www.oldsalt.com.au/",
+      "phone": "+61 3 9645 2830",
+      "cuisine": [
+        "fish_and_chips"
+      ],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "fast_food"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/887dd3b1445469ef1f92",
+      "name": "Young & Jacksons",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "pub",
+      "lat": -37.8173556,
+      "lng": 144.9670198,
+      "distanceFromTerminalMeters": 4271,
+      "distanceFromDefaultTerminalMeters": 4271,
+      "minDistanceFromAnyTerminalMeters": 4271,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1 Swanston Street, VIC, 3000",
+      "openingHours": "Mo-Su 10:00-24:00",
+      "website": "https://www.youngandjacksons.com.au/",
+      "phone": "+61 3 9650 3884",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q8058520",
+      "wikipedia": "en:Young and Jackson Hotel",
+      "osmTags": {
+        "amenity": "pub"
+      },
+      "fame": 2
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/463cd3d1b6b1bb6bfdef",
+      "name": "Village Wine Bar",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": -37.8413822,
+      "lng": 144.9545054,
+      "distanceFromTerminalMeters": 2119,
+      "distanceFromDefaultTerminalMeters": 2119,
+      "minDistanceFromAnyTerminalMeters": 2119,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "117 Dundas Place, VIC, 3206",
+      "openingHours": "Mo-Su 12:00-23:00",
+      "website": "https://www.villagewinebar.com.au",
+      "phone": "+61 3 9910 6981",
+      "cuisine": [
+        "italian"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/7b7f5c23604624a98c1c",
+      "name": "Hog Lobster",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "fast_food",
+      "lat": -37.8420841,
+      "lng": 144.939721,
+      "distanceFromTerminalMeters": 818,
+      "distanceFromDefaultTerminalMeters": 818,
+      "minDistanceFromAnyTerminalMeters": 818,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "144 Rouse Street, VIC, 3207",
+      "openingHours": "",
+      "website": "http://www.smokeysbbq.com.au/",
+      "phone": "+61 3 9646 4719",
+      "cuisine": [
+        "barbecue"
+      ],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "fast_food"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/e69cc65081cb0a5ee85a",
+      "name": "Port Melbourne Burgers",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": -37.8408809,
+      "lng": 144.9400692,
+      "distanceFromTerminalMeters": 869,
+      "distanceFromDefaultTerminalMeters": 869,
+      "minDistanceFromAnyTerminalMeters": 869,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "105 Bay Street, 3207",
+      "openingHours": "Mo-Fr 17:00-23:59; Sa-Su 12:00-23:59",
+      "website": "",
+      "phone": "+61 405 111 276",
+      "cuisine": [
+        "burger"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/5372b7311702246dc51c",
+      "name": "BangPop",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": -37.8242013,
+      "lng": 144.9514922,
+      "distanceFromTerminalMeters": 2763,
+      "distanceFromDefaultTerminalMeters": 2763,
+      "minDistanceFromAnyTerminalMeters": 2763,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "35 South Wharf Promenade, VIC",
+      "openingHours": "Mo-Su 12:00-24:00; PH closed",
+      "website": "https://bangpop.com.au/",
+      "phone": "+61 3 9245 9800",
+      "cuisine": [
+        "thai"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/7f6bf013823e029eb37b",
+      "name": "Max on Hardware",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": -37.8133468,
+      "lng": 144.9612634,
+      "distanceFromTerminalMeters": 4238,
+      "distanceFromDefaultTerminalMeters": 4238,
+      "minDistanceFromAnyTerminalMeters": 4238,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "54-58 Hardware Lane",
+      "openingHours": "Mo-Th,Su 11:30-21:00; Fr-Sa 11:30-21:30",
+      "website": "https://www.maxonhardware.com.au/",
+      "phone": "+61 3 9600 1697",
+      "cuisine": [
+        "italian"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Italian restaurant",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ee9416975faa09ff574d",
+      "name": "Bay Beach Pizza and Pasta",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "fast_food",
+      "lat": -37.838395,
+      "lng": 144.942756,
+      "distanceFromTerminalMeters": 1182,
+      "distanceFromDefaultTerminalMeters": 1182,
+      "minDistanceFromAnyTerminalMeters": 1182,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "238 Bay Street",
+      "openingHours": "",
+      "website": "https://www.baybeachpizzaandpasta.com.au/",
+      "phone": "+61 3 9645 1851",
+      "cuisine": [
+        "pizza"
+      ],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "fast_food"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c5d6b56be0ace5728201",
+      "name": "Pho St",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": -37.8378152,
+      "lng": 144.9427212,
+      "distanceFromTerminalMeters": 1206,
+      "distanceFromDefaultTerminalMeters": 1206,
+      "minDistanceFromAnyTerminalMeters": 1206,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "251 Bay Street, VIC, 3207",
+      "openingHours": "Mo-Fr 11:00-21:00; Sa,Su 11:30-21:00",
+      "website": "",
+      "phone": "",
+      "cuisine": [
+        "vietnamese"
+      ],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "in middle of road! should it be on east side?",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d7d5d209dbb699501e26",
+      "name": "The Port Bake House",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": -37.8375671,
+      "lng": 144.9430892,
+      "distanceFromTerminalMeters": 1248,
+      "distanceFromDefaultTerminalMeters": 1248,
+      "minDistanceFromAnyTerminalMeters": 1248,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "269 Bay Street",
+      "openingHours": "",
+      "website": "",
+      "phone": "+61 3 9645 3312",
+      "cuisine": [
+        "sandwich"
+      ],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "in middle of road! should it be on east side?",
+      "wikidata": "",
+      "wikipedia": "",
       "osmTags": {
         "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/9cb5a15d7d00fe275b75",
+      "name": "Hunky Dory Fish & Chips South Melbourne",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": -37.8324208,
+      "lng": 144.960268,
+      "distanceFromTerminalMeters": 2857,
+      "distanceFromDefaultTerminalMeters": 2857,
+      "minDistanceFromAnyTerminalMeters": 2857,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "252 Clarendon Street",
+      "openingHours": "Mo-Su 11:00-21:30",
+      "website": "https://www.hunkydory.com.au/",
+      "phone": "+61 3 9696 4025",
+      "cuisine": [
+        "fish_and_chips"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/af185fa71710aa96c8df",
+      "name": "ST. Ali",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": -37.8313001,
+      "lng": 144.9603137,
+      "distanceFromTerminalMeters": 2912,
+      "distanceFromDefaultTerminalMeters": 2912,
+      "minDistanceFromAnyTerminalMeters": 2912,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "12-18 Yarra Place, 3205",
+      "openingHours": "Mo-Su 07:00-18:00",
+      "website": "https://stali.com.au/",
+      "phone": "+61 3 9686 2990",
+      "cuisine": [
+        "coffee_shop"
+      ],
+      "wheelchair": "limited",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/fd40617604f981a94d00",
+      "name": "St Ali Coffee Roasters",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": -37.8313313,
+      "lng": 144.9604687,
+      "distanceFromTerminalMeters": 2923,
+      "distanceFromDefaultTerminalMeters": 2923,
+      "minDistanceFromAnyTerminalMeters": 2923,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "12-18 Yarra Place",
+      "openingHours": "Mo-Su 07:00-18:00",
+      "website": "https://stali.com.au/",
+      "phone": "+61 3 9686 2990",
+      "cuisine": [
+        "breakfast"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/015f69890ffec7a87320",
+      "name": "Chilli India",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": -37.819172,
+      "lng": 144.948332,
+      "distanceFromTerminalMeters": 3048,
+      "distanceFromDefaultTerminalMeters": 3048,
+      "minDistanceFromAnyTerminalMeters": 3048,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "77 Batmans Hill Drive",
+      "openingHours": "Mo-Th 11:30-21:30; Fr 11:30-22:00; Sa-Su 12:00-16:00,17:30-21:30",
+      "website": "https://chilliindia.com.au/",
+      "phone": "+61 3 8383 1008",
+      "cuisine": [
+        "indian"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "restaurant"
       }
     },
     {
@@ -1169,9 +1343,9 @@
       "subcategory": "pub",
       "lat": -37.8084557,
       "lng": 144.9630105,
-      "distanceFromTerminalMeters": 2473,
-      "distanceFromDefaultTerminalMeters": 2473,
-      "minDistanceFromAnyTerminalMeters": 2473,
+      "distanceFromTerminalMeters": 4760,
+      "distanceFromDefaultTerminalMeters": 4760,
+      "minDistanceFromAnyTerminalMeters": 4760,
       "nearestTerminalId": "ports-json-anchor",
       "address": "427 Swanston Street",
       "openingHours": "Mo-Th 11:30-23:30, Fr-Sa 11:30-01:00",
@@ -1187,300 +1361,158 @@
       "wheelchair": "yes",
       "brand": "",
       "description": "Awesome student bar with 15% off for RMIT students and staff.",
+      "wikidata": "",
+      "wikipedia": "",
       "osmTags": {
         "amenity": "pub"
       }
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/2b18543a703a39189211",
-      "name": "Ayam Chef",
+      "sourceId": "osm/generated/b25338a9db4e3ff0e746",
+      "name": "Crowded House",
       "nameEnglish": "",
       "category": "food_drink",
-      "subcategory": "restaurant",
-      "lat": -37.8298535,
-      "lng": 144.9678868,
-      "distanceFromTerminalMeters": 186,
-      "distanceFromDefaultTerminalMeters": 186,
-      "minDistanceFromAnyTerminalMeters": 186,
+      "subcategory": "cafe",
+      "lat": -37.858918,
+      "lng": 144.8993079,
+      "distanceFromTerminalMeters": 3276,
+      "distanceFromDefaultTerminalMeters": 3276,
+      "minDistanceFromAnyTerminalMeters": 3276,
       "nearestTerminalId": "ports-json-anchor",
-      "address": "67-69 Coventry Street, VIC, 3006",
-      "openingHours": "Su-Mo 11:30-14:45, 17:00-21:15; We-Fr 11:30-14:45, 17:00-21:15; Sa 17:00-21:15",
-      "website": "https://ayamchefsouthbank.com.au/",
-      "phone": "+61 3 9681 4480",
+      "address": "48 Ferguson Street, VIC, 3016",
+      "openingHours": "Mo-Fr 07:00-15:00; Sa-Su 08:00-15:00",
+      "website": "https://m.facebook.com/Crowded-House-Cafe-Ferguson-Street-Williamstown-291901187518260/",
+      "phone": "+61 3 9397 5526",
       "cuisine": [
-        "malaysian"
+        "cafe",
+        "breakfast",
+        "brunch",
+        "lunch"
       ],
       "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "",
+      "wikipedia": "",
       "osmTags": {
-        "amenity": "restaurant"
+        "amenity": "cafe"
       }
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/a8be21a00c54617f7fc2",
-      "name": "Pho Vietnam Yummy",
+      "sourceId": "osm/generated/4c7c9d07b496ba50f572",
+      "name": "Eastern Road Larder",
       "nameEnglish": "",
       "category": "food_drink",
-      "subcategory": "restaurant",
-      "lat": -37.8318948,
-      "lng": 144.9694289,
-      "distanceFromTerminalMeters": 217,
-      "distanceFromDefaultTerminalMeters": 217,
-      "minDistanceFromAnyTerminalMeters": 217,
+      "subcategory": "cafe",
+      "lat": -37.8366192,
+      "lng": 144.9670105,
+      "distanceFromTerminalMeters": 3282,
+      "distanceFromDefaultTerminalMeters": 3282,
+      "minDistanceFromAnyTerminalMeters": 3282,
       "nearestTerminalId": "ports-json-anchor",
-      "address": "1 Bank Street, VIC, 3205",
-      "openingHours": "Mo-Su 11:00-21:00",
-      "website": "https://pho-vietnam-yummy.com.au",
-      "phone": "+61 3 9939 9172",
+      "address": "74 Eastern Road, 3205",
+      "openingHours": "Mo-Fr 07:00-16:00; Sa 08:00-14:00",
+      "website": "http://easternroadlarder.com.au",
+      "phone": "+61 3 9089 0284",
       "cuisine": [
-        "vietnamese"
+        "coffee_shop"
       ],
       "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "",
+      "wikipedia": "",
       "osmTags": {
-        "amenity": "restaurant"
+        "amenity": "cafe"
       }
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/b7afa165140a0f7a38cd",
-      "name": "Mister Margherita",
+      "sourceId": "osm/generated/ee763efc51e372b5bd26",
+      "name": "Burger Culture",
       "nameEnglish": "",
       "category": "food_drink",
-      "subcategory": "restaurant",
-      "lat": -37.832846,
-      "lng": 144.969196,
-      "distanceFromTerminalMeters": 324,
-      "distanceFromDefaultTerminalMeters": 324,
-      "minDistanceFromAnyTerminalMeters": 324,
+      "subcategory": "fast_food",
+      "lat": -37.8631526,
+      "lng": 144.9028855,
+      "distanceFromTerminalMeters": 3323,
+      "distanceFromDefaultTerminalMeters": 3323,
+      "minDistanceFromAnyTerminalMeters": 3323,
       "nearestTerminalId": "ports-json-anchor",
-      "address": "52 Park Street, VIC, 3205",
-      "openingHours": "Mo-Fr 11:00-14:00,16:30-22:00; Sa-Su 16:30-22:00",
-      "website": "https://www.pizzasouthmelbourne.com.au",
-      "phone": "+61 3 9682 2287",
+      "address": "3 Cole Street, VIC, 3016",
+      "openingHours": "Tu-Th,Su 11:30-20:30, Fr-Sa 11:30-21:00",
+      "website": "https://burgerculture.com.au/",
+      "phone": "+61 3 9397 7156",
       "cuisine": [
-        "pizza"
+        "burger"
       ],
       "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "",
+      "wikipedia": "",
       "osmTags": {
-        "amenity": "restaurant"
+        "amenity": "fast_food"
       }
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/5c4de21852cd8763cfa3",
-      "name": "THAI 29",
+      "sourceId": "osm/generated/4523554948bcf12bd2dd",
+      "name": "D'lish Fish",
       "nameEnglish": "",
       "category": "food_drink",
-      "subcategory": "restaurant",
-      "lat": -37.830029,
-      "lng": 144.962772,
-      "distanceFromTerminalMeters": 635,
-      "distanceFromDefaultTerminalMeters": 635,
-      "minDistanceFromAnyTerminalMeters": 635,
+      "subcategory": "fast_food",
+      "lat": -37.84097,
+      "lng": 144.931954,
+      "distanceFromTerminalMeters": 231,
+      "distanceFromDefaultTerminalMeters": 231,
+      "minDistanceFromAnyTerminalMeters": 231,
       "nearestTerminalId": "ports-json-anchor",
-      "address": "29 York Street, VIC, 3205",
-      "openingHours": "Mo-Su 11:00-15:00, 16:30-21:30",
-      "website": "https://thai29restaurant.com.au/",
-      "phone": "+61 3 9078 8527",
-      "cuisine": [
-        "thai"
-      ],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "amenity": "restaurant"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/359b6e3577b6de1c1d96",
-      "name": "Sopranos",
-      "nameEnglish": "",
-      "category": "food_drink",
-      "subcategory": "restaurant",
-      "lat": -37.822415,
-      "lng": 144.965021,
-      "distanceFromTerminalMeters": 950,
-      "distanceFromDefaultTerminalMeters": 950,
-      "minDistanceFromAnyTerminalMeters": 950,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "91 City Road",
-      "openingHours": "Mo-Su 17:00-23:00",
-      "website": "https://www.sopranospizzapasta.com.au/",
-      "phone": "+61 3 9696 3333",
-      "cuisine": [
-        "italian"
-      ],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "amenity": "restaurant"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/f079b31db7b957a74d25",
-      "name": "Queenie's Restaurant & Cafe Southbank",
-      "nameEnglish": "",
-      "category": "food_drink",
-      "subcategory": "restaurant",
-      "lat": -37.8294722,
-      "lng": 144.9691262,
-      "distanceFromTerminalMeters": 97,
-      "distanceFromDefaultTerminalMeters": 97,
-      "minDistanceFromAnyTerminalMeters": 97,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "41 Coventry Street",
-      "openingHours": "06:30-22:00",
-      "website": "",
-      "phone": "+61 3 9498 9065",
-      "cuisine": [
-        "vietnamese"
-      ],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "amenity": "restaurant"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/15b92574d7a027a1f996",
-      "name": "Orient East",
-      "nameEnglish": "",
-      "category": "food_drink",
-      "subcategory": "restaurant",
-      "lat": -37.8309252,
-      "lng": 144.9709131,
-      "distanceFromTerminalMeters": 130,
-      "distanceFromDefaultTerminalMeters": 130,
-      "minDistanceFromAnyTerminalMeters": 130,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "348 St Kilda Road",
+      "address": "105 Beach Street, VIC, 3207",
       "openingHours": "",
-      "website": "http://www.orienteast.com.au/",
-      "phone": "+61 3 9685 2900",
+      "website": "http://www.dlishfish.com.au/",
+      "phone": "",
       "cuisine": [
-        "malaysian"
+        "fish_and_chips"
       ],
       "wheelchair": "limited",
       "brand": "",
       "description": "",
+      "wikidata": "",
+      "wikipedia": "",
       "osmTags": {
-        "amenity": "restaurant"
+        "amenity": "fast_food"
       }
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/578788f5e42b02d5c779",
-      "name": "Tempura Hajime",
+      "sourceId": "osm/generated/e6c81110c5d3f48cdda0",
+      "name": "Cafenatics",
       "nameEnglish": "",
       "category": "food_drink",
-      "subcategory": "restaurant",
-      "lat": -37.832887,
-      "lng": 144.9689673,
-      "distanceFromTerminalMeters": 334,
-      "distanceFromDefaultTerminalMeters": 334,
-      "minDistanceFromAnyTerminalMeters": 334,
+      "subcategory": "cafe",
+      "lat": -37.8141621,
+      "lng": 144.9470999,
+      "distanceFromTerminalMeters": 3491,
+      "distanceFromDefaultTerminalMeters": 3491,
+      "minDistanceFromAnyTerminalMeters": 3491,
       "nearestTerminalId": "ports-json-anchor",
-      "address": "60 Park Street",
-      "openingHours": "",
-      "website": "http://www.tempurahajime.com/",
-      "phone": "+61 3 9696 0051",
+      "address": "990 La Trobe Street",
+      "openingHours": "Mo-Fr 06:00-16:30",
+      "website": "https://www.cafenatics.com.au/locations/990-la-trobe",
+      "phone": "+61 3 9670 4442",
       "cuisine": [
-        "japanese"
+        "coffee_shop"
       ],
-      "wheelchair": "",
+      "wheelchair": "yes",
       "brand": "",
       "description": "",
+      "wikidata": "",
+      "wikipedia": "",
       "osmTags": {
-        "amenity": "restaurant"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/28598dff906714f52ca1",
-      "name": "Sunday Market",
-      "nameEnglish": "",
-      "category": "shopping",
-      "subcategory": "marketplace",
-      "lat": -37.8206159,
-      "lng": 144.9684137,
-      "distanceFromTerminalMeters": 1053,
-      "distanceFromDefaultTerminalMeters": 1053,
-      "minDistanceFromAnyTerminalMeters": 1053,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "",
-      "openingHours": "Su 10:00-16:00; Mo-Sa closed",
-      "website": "https://www.artscentremelbourne.com.au/visit/sunday-market",
-      "phone": "+61 3 9281 8581",
-      "cuisine": [],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "amenity": "marketplace"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/429db5bfecb3781721da",
-      "name": "South Melbourne Market",
-      "nameEnglish": "",
-      "category": "shopping",
-      "subcategory": "marketplace",
-      "lat": -37.8323031,
-      "lng": 144.9565361,
-      "distanceFromTerminalMeters": 1210,
-      "distanceFromDefaultTerminalMeters": 1210,
-      "minDistanceFromAnyTerminalMeters": 1210,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "322-326 Coventry Street, VIC, 3205",
-      "openingHours": "We, Sa-Su 08:00-16:00; Fr 08:00-17:00",
-      "website": "https://www.southmelbournemarket.com.au/",
-      "phone": "+61 3 9209 6295",
-      "cuisine": [],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "amenity": "marketplace"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/4608028192081b4cf5c7",
-      "name": "Queen Victoria Market",
-      "nameEnglish": "",
-      "category": "shopping",
-      "subcategory": "marketplace",
-      "lat": -37.8074898,
-      "lng": 144.9577117,
-      "distanceFromTerminalMeters": 2726,
-      "distanceFromDefaultTerminalMeters": 2726,
-      "minDistanceFromAnyTerminalMeters": 2726,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "Queen Street, VIC, 3000",
-      "openingHours": "Tu 06:00-14:00; Th 06:00-14:00; Fr 06:00-18:00; Sa 06:00-15:00; Su 09:00-16:00",
-      "website": "https://qvm.com.au/",
-      "phone": "+61 3 9320 5822",
-      "cuisine": [],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "amenity": "marketplace",
-        "tourism": "attraction"
+        "amenity": "cafe"
       }
     },
     {
@@ -1492,9 +1524,9 @@
       "subcategory": "mall",
       "lat": -37.8156075,
       "lng": 144.9643782,
-      "distanceFromTerminalMeters": 1675,
-      "distanceFromDefaultTerminalMeters": 1675,
-      "minDistanceFromAnyTerminalMeters": 1675,
+      "distanceFromTerminalMeters": 4235,
+      "distanceFromDefaultTerminalMeters": 4235,
+      "minDistanceFromAnyTerminalMeters": 4235,
       "nearestTerminalId": "ports-json-anchor",
       "address": "282 Collins Street, VIC, 3000",
       "openingHours": "Mo-Th 08:00-18:00; Fr 08:00-20:00; Sa 08:00-17:00; Su 09:00-17:00",
@@ -1504,59 +1536,572 @@
       "wheelchair": "",
       "brand": "",
       "description": "Heritage shopping arcade & tourist icon",
+      "wikidata": "Q2429342",
+      "wikipedia": "en:Block Arcade, Melbourne",
       "osmTags": {
         "shop": "mall"
-      }
+      },
+      "fame": 3
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/e6046ac268feb5c186e5",
-      "name": "Melbourne's GPO",
+      "sourceId": "osm/generated/429db5bfecb3781721da",
+      "name": "South Melbourne Market",
       "nameEnglish": "",
       "category": "shopping",
-      "subcategory": "mall",
-      "lat": -37.8135937,
-      "lng": 144.9633067,
-      "distanceFromTerminalMeters": 1917,
-      "distanceFromDefaultTerminalMeters": 1917,
-      "minDistanceFromAnyTerminalMeters": 1917,
+      "subcategory": "marketplace",
+      "lat": -37.8323031,
+      "lng": 144.9565361,
+      "distanceFromTerminalMeters": 2566,
+      "distanceFromDefaultTerminalMeters": 2566,
+      "minDistanceFromAnyTerminalMeters": 2566,
       "nearestTerminalId": "ports-json-anchor",
-      "address": "350 Bourke Street, 3000",
-      "openingHours": "Mo-Th 10:00-18:00; Fr 10:00-20:00; Sa 10:00-18:00; Su 11:00-17:00",
-      "website": "https://www.melbournesgpo.com/",
-      "phone": "+61 3 9290 0200",
+      "address": "322-326 Coventry Street, VIC, 3205",
+      "openingHours": "We, Sa-Su 08:00-16:00; Fr 08:00-17:00",
+      "website": "https://www.southmelbournemarket.com.au/",
+      "phone": "+61 3 9209 6295",
       "cuisine": [],
       "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "Q7567936",
+      "wikipedia": "en:South Melbourne market",
       "osmTags": {
-        "shop": "mall"
+        "amenity": "marketplace"
+      },
+      "fame": 1
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b20f4a72b60d182e2014",
+      "name": "Queen Victoria Market",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "marketplace",
+      "lat": -37.8070192,
+      "lng": 144.9569486,
+      "distanceFromTerminalMeters": 4597,
+      "distanceFromDefaultTerminalMeters": 4597,
+      "minDistanceFromAnyTerminalMeters": 4597,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q860621",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "marketplace"
+      },
+      "fame": 9
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/620d9325b18180ba944d",
+      "name": "La Central",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "deli",
+      "lat": -37.8326622,
+      "lng": 144.9567877,
+      "distanceFromTerminalMeters": 2568,
+      "distanceFromDefaultTerminalMeters": 2568,
+      "minDistanceFromAnyTerminalMeters": 2568,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "https://www.lacentral.com.au/",
+      "phone": "+61 3 9686 5952",
+      "cuisine": [
+        "spanish"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Stall number 45",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "shop": "deli"
       }
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/59a83c7a31b5bbb51f79",
-      "name": "Royal Botanic Gardens Visitor Center",
+      "sourceId": "osm/generated/9ea4c112076c02e51884",
+      "name": "Jam Factory",
       "nameEnglish": "",
-      "category": "essentials",
-      "subcategory": "visitor_information",
-      "lat": -37.8296713,
-      "lng": 144.9758951,
-      "distanceFromTerminalMeters": 519,
-      "distanceFromDefaultTerminalMeters": 519,
-      "minDistanceFromAnyTerminalMeters": 519,
+      "category": "shopping",
+      "subcategory": "mall",
+      "lat": -37.8424476,
+      "lng": 144.995965,
+      "distanceFromTerminalMeters": 5755,
+      "distanceFromDefaultTerminalMeters": 5755,
+      "minDistanceFromAnyTerminalMeters": 5755,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "500 Chapel Street, 3141",
+      "openingHours": "Mo-Su 10:00-00:00",
+      "website": "https://thejamfactory.com.au/",
+      "phone": "+61 3 9860 8500",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q7742911",
+      "wikipedia": "",
+      "osmTags": {
+        "shop": "mall"
+      },
+      "fame": 1
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/55fd6415d6df7ed3ebe7",
+      "name": "Elegant Slax",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "clothes",
+      "lat": -37.8373829,
+      "lng": 144.9431903,
+      "distanceFromTerminalMeters": 1265,
+      "distanceFromDefaultTerminalMeters": 1265,
+      "minDistanceFromAnyTerminalMeters": 1265,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "275 Bay Street, VIC, 3207",
+      "openingHours": "",
+      "website": "http://www.elegantslax.com.au/",
+      "phone": "+61 3 9645 1271",
+      "cuisine": [],
+      "wheelchair": "limited",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "shop": "clothes"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/875b7846c046c6938ac6",
+      "name": "Beggar Man Thief",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "shoes",
+      "lat": -37.83217,
+      "lng": 144.95996,
+      "distanceFromTerminalMeters": 2843,
+      "distanceFromDefaultTerminalMeters": 2843,
+      "minDistanceFromAnyTerminalMeters": 2843,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "244 Clarendon Street",
+      "openingHours": "Mo-Fr 10:00-18:00; Sa 10:00-16:00; Su 12:00-16:00",
+      "website": "http://www.beggarmanthief.com.au/",
+      "phone": "+61 3 9686 3006",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "shop": "shoes"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b9c54573b17718085c62",
+      "name": "Amie Bakery Cafe",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "bakery",
+      "lat": -37.817513,
+      "lng": 144.957576,
+      "distanceFromTerminalMeters": 3675,
+      "distanceFromDefaultTerminalMeters": 3675,
+      "minDistanceFromAnyTerminalMeters": 3675,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "500 Collins Street, VIC, 3000",
+      "openingHours": "Mo-Fr 06:30-16:30",
+      "website": "https://www.amiebakerycafe.com.au/",
+      "phone": "",
+      "cuisine": [
+        "sandwich"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "shop": "bakery"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/93f9f6c13406775a688e",
+      "name": "All Star Comics",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "books",
+      "lat": -37.8175451,
+      "lng": 144.9616118,
+      "distanceFromTerminalMeters": 3911,
+      "distanceFromDefaultTerminalMeters": 3911,
+      "minDistanceFromAnyTerminalMeters": 3911,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "53 Queen Street, VIC, 3000",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q19870605",
+      "wikipedia": "en:All Star Comics Melbourne",
+      "osmTags": {
+        "shop": "books"
+      },
+      "fame": 2
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/26f2184eba1826c09f7e",
+      "name": "Amie's",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "bakery",
+      "lat": -37.8152744,
+      "lng": 144.957478,
+      "distanceFromTerminalMeters": 3862,
+      "distanceFromDefaultTerminalMeters": 3862,
+      "minDistanceFromAnyTerminalMeters": 3862,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "181 William Street, VIC, 3000",
+      "openingHours": "Mo-Fr 06:30-16:30",
+      "website": "https://www.amiebakerycafe.com.au/menu-3",
+      "phone": "+61 3 9650 6889",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "shop": "bakery"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/5aadcfb9e05f63ec53e9",
+      "name": "Albert Park",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": -37.8471227,
+      "lng": 144.9718935,
+      "distanceFromTerminalMeters": 3674,
+      "distanceFromDefaultTerminalMeters": 3674,
+      "minDistanceFromAnyTerminalMeters": 3674,
       "nearestTerminalId": "ports-json-anchor",
       "address": "",
-      "openingHours": "Mo-Su 09:30-17:00",
+      "openingHours": "",
+      "website": "https://parkweb.vic.gov.au/explore/parks/albert-park",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q4710971",
+      "wikipedia": "en:Albert Park and Lake",
+      "osmTags": {
+        "leisure": "park"
+      },
+      "fame": 5
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/87b53baf90b5bb4f31d6",
+      "name": "Royal Botanic Gardens",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "garden",
+      "lat": -37.8294892,
+      "lng": 144.979551,
+      "distanceFromTerminalMeters": 4556,
+      "distanceFromDefaultTerminalMeters": 4556,
+      "minDistanceFromAnyTerminalMeters": 4556,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "07:30-17:30; Oct 01-Mar 31 07:30-19:30",
       "website": "https://www.rbg.vic.gov.au/",
       "phone": "",
       "cuisine": [],
       "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "Q101433843",
+      "wikipedia": "en:Royal Botanic Gardens Victoria",
       "osmTags": {
-        "tourism": "information"
-      }
+        "leisure": "garden"
+      },
+      "fame": 3
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/bec2ba5f9097b72616e4",
+      "name": "Westgate Park",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": -37.8313284,
+      "lng": 144.9075888,
+      "distanceFromTerminalMeters": 2369,
+      "distanceFromDefaultTerminalMeters": 2369,
+      "minDistanceFromAnyTerminalMeters": 2369,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "https://parkweb.vic.gov.au/explore/parks/westgate-park",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q21970989",
+      "wikipedia": "",
+      "osmTags": {
+        "leisure": "park"
+      },
+      "fame": 2
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/433cb94dcaa471ff98d7",
+      "name": "Fitzroy Gardens",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": -37.8129571,
+      "lng": 144.9804658,
+      "distanceFromTerminalMeters": 5497,
+      "distanceFromDefaultTerminalMeters": 5497,
+      "minDistanceFromAnyTerminalMeters": 5497,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Victorian-era landscaped garden. Named after Sir Charles Augustus Fitzroy (1796-1858), Governor of New South Wales (1846-1851) and Governor-General of the Australian Colonies (1851-1855).",
+      "wikidata": "Q3444049",
+      "wikipedia": "en:Fitzroy Gardens",
+      "osmTags": {
+        "leisure": "park"
+      },
+      "fame": 5
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/79e3b0ea8a1d7a7190b8",
+      "name": "Batman Park",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": -37.8217951,
+      "lng": 144.9566004,
+      "distanceFromTerminalMeters": 3266,
+      "distanceFromDefaultTerminalMeters": 3266,
+      "minDistanceFromAnyTerminalMeters": 3266,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q2191993",
+      "wikipedia": "en:Batman Park",
+      "osmTags": {
+        "leisure": "park"
+      },
+      "fame": 4
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/7abea30277d84b48b4e6",
+      "name": "Flagstaff Gardens",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": -37.8104878,
+      "lng": 144.9544241,
+      "distanceFromTerminalMeters": 4152,
+      "distanceFromDefaultTerminalMeters": 4152,
+      "minDistanceFromAnyTerminalMeters": 4152,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q5457014",
+      "wikipedia": "en:Flagstaff Gardens",
+      "osmTags": {
+        "leisure": "park",
+        "tourism": "attraction"
+      },
+      "fame": 5
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/8719c3f945ba519c8fd0",
+      "name": "Como House and Garden",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "garden",
+      "lat": -37.8377653,
+      "lng": 145.0039499,
+      "distanceFromTerminalMeters": 6479,
+      "distanceFromDefaultTerminalMeters": 6479,
+      "minDistanceFromAnyTerminalMeters": 6479,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "VIC, 3141",
+      "openingHours": "",
+      "website": "https://www.nationaltrust.org.au/places/como-house-and-garden/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "The gardens of Como House. Access to the gardens is free.",
+      "wikidata": "Q4348856",
+      "wikipedia": "en:Como House",
+      "osmTags": {
+        "leisure": "garden"
+      },
+      "fame": 2
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ca7f55c10ecf9007e361",
+      "name": "Rippon Lea Estate",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "garden",
+      "lat": -37.8797436,
+      "lng": 144.9990551,
+      "distanceFromTerminalMeters": 7301,
+      "distanceFromDefaultTerminalMeters": 7301,
+      "minDistanceFromAnyTerminalMeters": 7301,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "192 Hotham Street, VIC, 3185",
+      "openingHours": "",
+      "website": "https://www.ripponleaestate.com.au/",
+      "phone": "+61 3 9656 9889",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q7335741",
+      "wikipedia": "en:Rippon Lea Estate",
+      "osmTags": {
+        "leisure": "garden"
+      },
+      "fame": 2
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/24cb6c52f66880d3dad7",
+      "name": "Sandridge Beach",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "beach",
+      "lat": -37.8409654,
+      "lng": 144.9200658,
+      "distanceFromTerminalMeters": 929,
+      "distanceFromDefaultTerminalMeters": 929,
+      "minDistanceFromAnyTerminalMeters": 929,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q21955816",
+      "wikipedia": "",
+      "osmTags": {
+        "natural": "beach"
+      },
+      "fame": 1
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/4f131afd3e0215e6a17c",
+      "name": "Pioneer Women's Memorial Garden",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "garden",
+      "lat": -37.8251049,
+      "lng": 144.9760441,
+      "distanceFromTerminalMeters": 4456,
+      "distanceFromDefaultTerminalMeters": 4456,
+      "minDistanceFromAnyTerminalMeters": 4456,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q25183819",
+      "wikipedia": "",
+      "osmTags": {
+        "leisure": "garden"
+      },
+      "fame": 3
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b05de9f207c3e2c3f854",
+      "name": "St Kilda Beach",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "beach",
+      "lat": -37.8680596,
+      "lng": 144.973111,
+      "distanceFromTerminalMeters": 4692,
+      "distanceFromDefaultTerminalMeters": 4692,
+      "minDistanceFromAnyTerminalMeters": 4692,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q7593902",
+      "wikipedia": "",
+      "osmTags": {
+        "natural": "beach"
+      },
+      "fame": 3
     },
     {
       "source": "openstreetmap",
@@ -1567,9 +2112,9 @@
       "subcategory": "visitor_information",
       "lat": -37.811658,
       "lng": 144.9755787,
-      "distanceFromTerminalMeters": 2098,
-      "distanceFromDefaultTerminalMeters": 2098,
-      "minDistanceFromAnyTerminalMeters": 2098,
+      "distanceFromTerminalMeters": 5254,
+      "distanceFromDefaultTerminalMeters": 5254,
+      "minDistanceFromAnyTerminalMeters": 5254,
       "nearestTerminalId": "ports-json-anchor",
       "address": "6 Cathedral Place",
       "openingHours": "Mo-Fr 09:00-17:00",
@@ -1579,27 +2124,354 @@
       "wheelchair": "",
       "brand": "",
       "description": "HQ of National Trust of Australia (Victoria)",
+      "wikidata": "",
+      "wikipedia": "en:National Trust of Australia (Victoria)",
+      "osmTags": {
+        "tourism": "information"
+      },
+      "fame": 1
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f9c6875dadfcce4a9424",
+      "name": "Creative Medicine Compounding Pharmacy",
+      "nameEnglish": "",
+      "category": "essentials",
+      "subcategory": "pharmacy",
+      "lat": -37.841807,
+      "lng": 144.9397842,
+      "distanceFromTerminalMeters": 827,
+      "distanceFromDefaultTerminalMeters": 827,
+      "minDistanceFromAnyTerminalMeters": 827,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "86 Bay Street",
+      "openingHours": "",
+      "website": "https://www.creativepharmacy.com.au/",
+      "phone": "+61 3 9646 1947",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "pharmacy"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/140bccfb3d52cb43f32a",
+      "name": "Hobsons Bay Visitor Information Centre",
+      "nameEnglish": "",
+      "category": "essentials",
+      "subcategory": "visitor_information",
+      "lat": -37.8628701,
+      "lng": 144.9047948,
+      "distanceFromTerminalMeters": 3181,
+      "distanceFromDefaultTerminalMeters": 3181,
+      "minDistanceFromAnyTerminalMeters": 3181,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1 Syme Street, VIC, 3016",
+      "openingHours": "10:00-16:00; Dec 25,easter -2 days off",
+      "website": "https://www.visithobsonsbay.com.au/Visitor-Information",
+      "phone": "+61 3 9932 3016",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
       "osmTags": {
         "tourism": "information"
       }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/885a56a3f81c33ed6684",
+      "name": "Grainger Museum",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": -37.7972913,
+      "lng": 144.958434,
+      "distanceFromTerminalMeters": 5613,
+      "distanceFromDefaultTerminalMeters": 5613,
+      "minDistanceFromAnyTerminalMeters": 5613,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "48 Royal Parade",
+      "openingHours": "\"by appointment\"",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "limited",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q5593518",
+      "wikipedia": "",
+      "osmTags": {
+        "tourism": "museum"
+      },
+      "fame": 5
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b862f1be6b3b5fc2ed01",
+      "name": "La Trobe’s Cottage",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": -37.8315852,
+      "lng": 144.9760267,
+      "distanceFromTerminalMeters": 4189,
+      "distanceFromDefaultTerminalMeters": 4189,
+      "minDistanceFromAnyTerminalMeters": 4189,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "37 Dallas Brooks Drive",
+      "openingHours": "Oct-Apr Su 13:00-16:00",
+      "website": "https://www.nationaltrust.org.au/places/la-trobes-cottage/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q6465528",
+      "wikipedia": "",
+      "osmTags": {
+        "historic": "yes",
+        "tourism": "attraction"
+      },
+      "fame": 3
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/cedacddc2133c4e1901d",
+      "name": "Princess Theatre",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": -37.8107112,
+      "lng": 144.9723303,
+      "distanceFromTerminalMeters": 5115,
+      "distanceFromDefaultTerminalMeters": 5115,
+      "minDistanceFromAnyTerminalMeters": 5115,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "163 Spring Street, 3000",
+      "openingHours": "",
+      "website": "https://marrinergroup.com.au/princess-theatre",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "limited",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q7244850",
+      "wikipedia": "en:Princess Theatre (Melbourne)",
+      "osmTags": {
+        "amenity": "theatre",
+        "tourism": "attraction"
+      },
+      "fame": 5
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/268d8b6cbe34e9dca54d",
+      "name": "Fiona & Sidney Myer Gallery",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "gallery",
+      "lat": -37.8255106,
+      "lng": 144.967941,
+      "distanceFromTerminalMeters": 3806,
+      "distanceFromDefaultTerminalMeters": 3806,
+      "minDistanceFromAnyTerminalMeters": 3806,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "40 Dodds Street, VIC, 3006",
+      "openingHours": "Tu-Sa 12:00-17:00",
+      "website": "https://finearts-music.unimelb.edu.au/about-us/fiona-and-sidney-myer-gallery",
+      "phone": "+61 3 9035 9400",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "The Fiona and Sidney Myer Gallery (formerly the Margaret Lawrence Gallery) is a highly influential curatorial art space frequented by the general public and artists at all stages of their career.",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "tourism": "gallery"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/10790e4d3ff7c7b9835f",
+      "name": "Bourke Street Mall",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": -37.8138383,
+      "lng": 144.9644426,
+      "distanceFromTerminalMeters": 4381,
+      "distanceFromDefaultTerminalMeters": 4381,
+      "minDistanceFromAnyTerminalMeters": 4381,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Bourke Street Mall, 3000",
+      "openingHours": "Mo-Fr 09:00-20:00",
+      "website": "http://www.bourkestreet.com.au",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "Pedestrian & tram-only portion of Bourke Street with department stores, cinemas, theatres",
+      "wikidata": "",
+      "wikipedia": "en:Bourke Street, Melbourne",
+      "osmTags": {
+        "tourism": "attraction"
+      },
+      "fame": 1
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/25317185902a5be4c017",
+      "name": "ArtVo",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "gallery",
+      "lat": -37.8128018,
+      "lng": 144.9377306,
+      "distanceFromTerminalMeters": 3381,
+      "distanceFromDefaultTerminalMeters": 3381,
+      "minDistanceFromAnyTerminalMeters": 3381,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "26 Star Crescent, VIC, 3008",
+      "openingHours": "Mo-Su 10:00-18:00",
+      "website": "https://artvo.com.au/",
+      "phone": "+61 3 9600 1118",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "tourism": "gallery"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/4f608ec9f96e4aa707d7",
+      "name": "Prahran Market",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "marketplace",
+      "lat": -37.8460646,
+      "lng": 144.9925928,
+      "distanceFromTerminalMeters": 5472,
+      "distanceFromDefaultTerminalMeters": 5472,
+      "minDistanceFromAnyTerminalMeters": 5472,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "163 Commercial Road, 3141",
+      "openingHours": "Mo,Tu 07:00-17:00; We,Th 00:00-00:00; Fr,Sa 07:00-17:00; Su 08:00-15:00",
+      "website": "https://www.prahranmarket.com.au/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q7237731",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "marketplace",
+        "tourism": "attraction"
+      },
+      "fame": 1
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/fbe6daa66e0db5ea86fa",
+      "name": "City Basement Books",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "books",
+      "lat": -37.8185324,
+      "lng": 144.9631942,
+      "distanceFromTerminalMeters": 3934,
+      "distanceFromDefaultTerminalMeters": 3934,
+      "minDistanceFromAnyTerminalMeters": 3934,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "342-348 Flinders Street, 3000",
+      "openingHours": "Mo-Fr 10:00-18:00; Sa 10:00-14:00",
+      "website": "http://allitebooks.site",
+      "phone": "+61 3 9620 0428",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "shop": "books"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/419ee7e6a7eb1bc4a207",
+      "name": "Ainslie Bullion",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "jewelry",
+      "lat": -37.8171493,
+      "lng": 144.9626868,
+      "distanceFromTerminalMeters": 4009,
+      "distanceFromDefaultTerminalMeters": 4009,
+      "minDistanceFromAnyTerminalMeters": 4009,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "357 Collins Street, VIC, 3000",
+      "openingHours": "Mo-Fr 09:00-16:00",
+      "website": "https://www.ainsliebullion.com.au/",
+      "phone": "+61 3 7037 6255",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "shop": "jewelry"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c6a1bc6216604481b72f",
+      "name": "Book Grocer",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "books",
+      "lat": -37.8152248,
+      "lng": 144.9604133,
+      "distanceFromTerminalMeters": 4030,
+      "distanceFromDefaultTerminalMeters": 4030,
+      "minDistanceFromAnyTerminalMeters": 4030,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "455 Bourke Street",
+      "openingHours": "Mo-Fr 10:00-18:00; Sa 10:00-17:00; Su off",
+      "website": "http://bookgrocer.libro.com.au/",
+      "phone": "+61 3 9670 4304",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "shop": "books"
+      }
     }
   ],
-  "portAnchor": {
-    "id": "ports-json-anchor",
-    "name": "MELBOURNE Port",
-    "lat": -37.83,
-    "lng": 144.97,
-    "address": "Melbourne, Victoria, Australia",
-    "source": "ports.json",
-    "sourceId": "",
-    "score": 0,
-    "slug": "melbourne-port"
-  },
   "terminalResolution": {
     "status": "resolved",
-    "method": "terminal_review",
+    "method": "cruise-ports",
     "verified": true,
-    "reviewedAt": "2026-09-28",
     "notes": "Station Pier in Port Melbourne is Melbourne's cruise terminal. The Google result duplicates it. The others are Yarra River berths."
-  }
+  },
+  "gemSuggestions": [
+    "Hosier Lane",
+    "Block Arcade"
+  ]
 }

@@ -16,7 +16,6 @@ creds.env
 cities/*.json
 !cities/ports.json
 cities/.generation-usage.json
-cities/.osm-geocode-cache.json
 cities/.google-place-id-cache.json
 
 # Generated pipeline artifacts
@@ -36,5 +35,7 @@ logs/
 .DS_Store
 Thumbs.db
 
-# Generated port candidates
-cities/port-candidates.json
+# Local agent guidance and development notes
+AGENTS.md
+CHANGELOG.md
+docs/

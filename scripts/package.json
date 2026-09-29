@@ -4,13 +4,15 @@
   "description": "Portlore offline POI extraction and city curation scripts",
   "type": "module",
   "scripts": {
+    "ports": "node build-port-list.js",
     "poi": "node build-poi-catalog.js",
+    "poi:all": "node build-all-poi-catalogs.js",
+    "fame": "node fetch-wikidata-fame.js",
+    "reselect": "node reselect-poi-candidates.js",
+    "catalogs": "node build-port-list.js && node sync-osm-extracts.js --output ../cities/osm-extracts.json && node build-all-poi-catalogs.js --no-sync-manifest --batch-extracts 8 && node fetch-wikidata-fame.js && node reselect-poi-candidates.js && node build-port-list.js && node validate-data.js",
     "generate": "node generate-city.js",
     "sync": "node sync-generated-state.js ../cities",
-    "poi:all": "node build-all-poi-catalogs.js",
-    "places": "node resolve-google-places.js",
     "validate": "node validate-data.js",
-    "audit": "node audit-ports.js",
     "smoke": "node smoke-shared.js"
   },
   "dependencies": {

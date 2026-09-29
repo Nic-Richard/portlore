@@ -1,7 +1,34 @@
 {
+  "defaultTerminalId": "osm/way/65845367",
+  "terminal": {
+    "id": "osm/way/65845367",
+    "name": "Cruise Terminal Guadeloupe Port Caraïbes",
+    "lat": 16.238703,
+    "lng": -61.538882,
+    "terminalType": "passenger_cruise_terminal",
+    "source": "verified_terminal_candidate",
+    "address": "Cruise Terminal Guadeloupe Port Caraïbes, Quai Lefèbvre, Gare maritime, Pointe-à-Pitre, Guadeloupe, 97110, France",
+    "notes": "Accepted 1 candidate explicitly identified as an ocean-cruise or cruise-passenger terminal; ferry and unrelated results were excluded.",
+    "sourceId": "osm/way/65845367",
+    "verified": true
+  },
+  "terminals": [
+    {
+      "id": "osm/way/65845367",
+      "name": "Cruise Terminal Guadeloupe Port Caraïbes",
+      "lat": 16.238703,
+      "lng": -61.538882,
+      "terminalType": "passenger_cruise_terminal",
+      "source": "verified_terminal_candidate",
+      "address": "Cruise Terminal Guadeloupe Port Caraïbes, Quai Lefèbvre, Gare maritime, Pointe-à-Pitre, Guadeloupe, 97110, France",
+      "notes": "Accepted 1 candidate explicitly identified as an ocean-cruise or cruise-passenger terminal; ferry and unrelated results were excluded.",
+      "sourceId": "osm/way/65845367",
+      "verified": true
+    }
+  ],
   "schemaVersion": 5,
   "catalogType": "curation-candidates",
-  "generatedAt": "2026-07-30T08:03:31.395Z",
+  "generatedAt": "2026-09-29T05:47:46.320Z",
   "source": "openstreetmap",
   "sourceExtract": "guadeloupe-latest.osm.pbf",
   "radiusMeters": 10000,
@@ -10,536 +37,23 @@
     "city": "Pointe-à-Pitre",
     "country": "Guadeloupe"
   },
-  "defaultTerminalId": "osm/way/65845367",
-  "terminal": {
-    "id": "osm/way/65845367",
+  "portAnchor": {
+    "id": "ports-json-anchor",
     "name": "Cruise Terminal Guadeloupe Port Caraïbes",
-    "nameEnglish": "",
     "lat": 16.238703,
     "lng": -61.538882,
-    "address": "Cruise Terminal Guadeloupe Port Caraïbes, Quai Lefèbvre, Gare maritime, Pointe-à-Pitre, Guadeloupe, 97110, France",
-    "source": "verified_terminal_candidate",
-    "sourceId": "osm/way/65845367",
-    "terminalType": "passenger_cruise_terminal",
-    "verified": true,
-    "notes": "Accepted 1 candidate explicitly identified as an ocean-cruise or cruise-passenger terminal; ferry and unrelated results were excluded.",
-    "sourceUrls": [],
-    "sources": [
-      "nominatim"
-    ],
-    "sourceIds": [
-      "osm/way/65845367"
-    ],
-    "osmTags": {},
-    "matchedBy": [
-      "Nominatim query: POINTE A PITRE Port, Pointe-à-Pitre, Guadeloupe"
-    ]
+    "address": "Pointe-à-Pitre, Guadeloupe, Guadeloupe",
+    "source": "ports.json",
+    "sourceId": "",
+    "score": 0,
+    "slug": "cruise-terminal-guadeloupe-port-cara-bes"
   },
-  "terminals": [
-    {
-      "id": "osm/way/65845367",
-      "name": "Cruise Terminal Guadeloupe Port Caraïbes",
-      "nameEnglish": "",
-      "lat": 16.238703,
-      "lng": -61.538882,
-      "address": "Cruise Terminal Guadeloupe Port Caraïbes, Quai Lefèbvre, Gare maritime, Pointe-à-Pitre, Guadeloupe, 97110, France",
-      "source": "verified_terminal_candidate",
-      "sourceId": "osm/way/65845367",
-      "terminalType": "passenger_cruise_terminal",
-      "verified": true,
-      "notes": "Accepted 1 candidate explicitly identified as an ocean-cruise or cruise-passenger terminal; ferry and unrelated results were excluded.",
-      "sourceUrls": [],
-      "sources": [
-        "nominatim"
-      ],
-      "sourceIds": [
-        "osm/way/65845367"
-      ],
-      "osmTags": {},
-      "matchedBy": [
-        "Nominatim query: POINTE A PITRE Port, Pointe-à-Pitre, Guadeloupe"
-      ]
-    }
-  ],
-  "terminalCandidateRadiusMeters": 5000,
-  "terminalCandidates": [
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/241c34fed3aca1bea356",
-      "name": "(unnamed maritime feature)",
-      "nameEnglish": "",
-      "lat": 16.2316524,
-      "lng": -61.5348166,
-      "distanceFromPortMeters": 546,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/241c34fed3aca1bea356"
-      ]
-    },
-    {
-      "source": "nominatim",
-      "sourceId": "osm/relation/1024596",
-      "osmType": "relation",
-      "osmId": "1024596",
-      "name": "UFR de sciences exactes et naturelles de Guadeloupe",
-      "nameEnglish": "",
-      "lat": 16.2247675,
-      "lng": -61.5284867,
-      "distanceFromPortMeters": 604,
-      "address": "UFR de sciences exactes et naturelles de Guadeloupe, Avenue Paul Valentino, Université, Pointe-à-Pitre, Guadeloupe, 97110, France",
-      "displayName": "UFR de sciences exactes et naturelles de Guadeloupe, Avenue Paul Valentino, Université, Pointe-à-Pitre, Guadeloupe, 97110, France",
-      "query": "POINTE A PITRE Port, Pointe-à-Pitre, Guadeloupe",
-      "matchedBy": [
-        "Nominatim query: POINTE A PITRE Port, Pointe-à-Pitre, Guadeloupe"
-      ],
-      "osmTags": {
-        "building": "university"
-      },
-      "sources": [
-        "nominatim"
-      ],
-      "sourceIds": [
-        "osm/relation/1024596"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/0b2e6cb782e24b4f294b",
-      "name": "(unnamed maritime feature)",
-      "nameEnglish": "",
-      "lat": 16.224303,
-      "lng": -61.5317058,
-      "distanceFromPortMeters": 659,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/0b2e6cb782e24b4f294b"
-      ]
-    },
-    {
-      "source": "nominatim",
-      "sourceId": "osm/relation/1383949",
-      "osmType": "relation",
-      "osmId": "1383949",
-      "name": "UFR sciences et techniques des activités physiques et sportives de Guadeloupe",
-      "nameEnglish": "",
-      "lat": 16.223466,
-      "lng": -61.529999,
-      "distanceFromPortMeters": 727,
-      "address": "UFR sciences et techniques des activités physiques et sportives de Guadeloupe, Centre Commerce Porte Marina, Université, Pointe-à-Pitre, Guadeloupe, 97110, France",
-      "displayName": "UFR sciences et techniques des activités physiques et sportives de Guadeloupe, Centre Commerce Porte Marina, Université, Pointe-à-Pitre, Guadeloupe, 97110, France",
-      "query": "POINTE A PITRE Port, Pointe-à-Pitre, Guadeloupe",
-      "matchedBy": [
-        "Nominatim query: POINTE A PITRE Port, Pointe-à-Pitre, Guadeloupe"
-      ],
-      "osmTags": {
-        "building": "university"
-      },
-      "sources": [
-        "nominatim"
-      ],
-      "sourceIds": [
-        "osm/relation/1383949"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/8d81e01057128ab13e4b",
-      "name": "(unnamed maritime feature)",
-      "nameEnglish": "",
-      "lat": 16.2358059,
-      "lng": -61.5351409,
-      "distanceFromPortMeters": 847,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "public_transport": "stop_position"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/8d81e01057128ab13e4b"
-      ]
-    },
-    {
-      "source": "nominatim",
-      "sourceId": "osm/node/10818934205",
-      "osmType": "node",
-      "osmId": "10818934205",
-      "name": "Le Yacht Club, Pointe-À-Pitre, Guadeloupe",
-      "nameEnglish": "",
-      "lat": 16.2356344,
-      "lng": -61.535885,
-      "distanceFromPortMeters": 887,
-      "address": "Le Yacht Club, Pointe-À-Pitre, Guadeloupe, Rue Delgrès, Centre-Ville, Pointe-à-Pitre, Guadeloupe, 97110, France",
-      "displayName": "Le Yacht Club, Pointe-À-Pitre, Guadeloupe, Rue Delgrès, Centre-Ville, Pointe-à-Pitre, Guadeloupe, 97110, France",
-      "query": "POINTE A PITRE Port, Pointe-à-Pitre, Guadeloupe",
-      "matchedBy": [
-        "Nominatim query: POINTE A PITRE Port, Pointe-à-Pitre, Guadeloupe"
-      ],
-      "osmTags": {},
-      "sources": [
-        "nominatim"
-      ],
-      "sourceIds": [
-        "osm/node/10818934205"
-      ]
-    },
-    {
-      "source": "nominatim",
-      "sourceId": "osm/node/10281007412",
-      "osmType": "node",
-      "osmId": "10281007412",
-      "name": "Guadeloupe Port Caraibes",
-      "nameEnglish": "",
-      "lat": 16.2350007,
-      "lng": -61.5371084,
-      "distanceFromPortMeters": 941,
-      "address": "Guadeloupe Port Caraibes, Quai Ferdinand de Lesseps, Centre-Ville, Pointe-à-Pitre, Guadeloupe, 97110, France",
-      "displayName": "Guadeloupe Port Caraibes, Quai Ferdinand de Lesseps, Centre-Ville, Pointe-à-Pitre, Guadeloupe, 97110, France",
-      "query": "POINTE A PITRE Port, Pointe-à-Pitre, Guadeloupe",
-      "matchedBy": [
-        "Nominatim query: POINTE A PITRE Port, Pointe-à-Pitre, Guadeloupe"
-      ],
-      "osmTags": {},
-      "sources": [
-        "nominatim"
-      ],
-      "sourceIds": [
-        "osm/node/10281007412"
-      ]
-    },
-    {
-      "source": "nominatim",
-      "sourceId": "osm/node/10280103433",
-      "osmType": "node",
-      "osmId": "10280103433",
-      "name": "Défibrillateur Grand port maritime de Guadeloupe",
-      "nameEnglish": "",
-      "lat": 16.2349733,
-      "lng": -61.537197,
-      "distanceFromPortMeters": 947,
-      "address": "Défibrillateur Grand port maritime de Guadeloupe, Quai Ferdinand de Lesseps, Centre-Ville, Pointe-à-Pitre, Guadeloupe, 97110, France",
-      "displayName": "Défibrillateur Grand port maritime de Guadeloupe, Quai Ferdinand de Lesseps, Centre-Ville, Pointe-à-Pitre, Guadeloupe, 97110, France",
-      "query": "POINTE A PITRE Port, Pointe-à-Pitre, Guadeloupe",
-      "matchedBy": [
-        "Nominatim query: POINTE A PITRE Port, Pointe-à-Pitre, Guadeloupe"
-      ],
-      "osmTags": {
-        "description": "1 er étage"
-      },
-      "sources": [
-        "nominatim"
-      ],
-      "sourceIds": [
-        "osm/node/10280103433"
-      ]
-    },
-    {
-      "source": "nominatim",
-      "sourceId": "osm/way/65828833",
-      "osmType": "way",
-      "osmId": "65828833",
-      "name": "Comité du tourisme des îles de Guadeloupe",
-      "nameEnglish": "",
-      "lat": 16.2370275,
-      "lng": -61.5351263,
-      "distanceFromPortMeters": 954,
-      "address": "Comité du tourisme des îles de Guadeloupe, 5, Quai Perrinon, Centre-Ville, Pointe-à-Pitre, Guadeloupe, 97110, France",
-      "displayName": "Comité du tourisme des îles de Guadeloupe, 5, Quai Perrinon, Centre-Ville, Pointe-à-Pitre, Guadeloupe, 97110, France",
-      "query": "POINTE A PITRE Port, Pointe-à-Pitre, Guadeloupe",
-      "matchedBy": [
-        "Nominatim query: POINTE A PITRE Port, Pointe-à-Pitre, Guadeloupe"
-      ],
-      "osmTags": {
-        "building": "yes"
-      },
-      "sources": [
-        "nominatim"
-      ],
-      "sourceIds": [
-        "osm/way/65828833"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/6d54875a8a66c7651424",
-      "name": "(unnamed maritime feature)",
-      "nameEnglish": "",
-      "lat": 16.2347992,
-      "lng": -61.5374347,
-      "distanceFromPortMeters": 956,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/6d54875a8a66c7651424"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/36de51f6bc8f5f735ec3",
-      "name": "Terminal de Croisière",
-      "nameEnglish": "",
-      "lat": 16.2363716,
-      "lng": -61.5389273,
-      "distanceFromPortMeters": 1188,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal",
-        "terminal-like name"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/36de51f6bc8f5f735ec3"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/468d65e988b9d9693173",
-      "name": "Terminal de croisière 2",
-      "nameEnglish": "",
-      "lat": 16.2365422,
-      "lng": -61.5388106,
-      "distanceFromPortMeters": 1189,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal",
-        "terminal-like name"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "building": "yes",
-        "ferry": "yes",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/468d65e988b9d9693173"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/8cd6e14daa37180c6f59",
-      "name": "Terminal de Croisière",
-      "nameEnglish": "",
-      "lat": 16.2382773,
-      "lng": -61.5392509,
-      "distanceFromPortMeters": 1350,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal",
-        "terminal-like name"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/8cd6e14daa37180c6f59"
-      ]
-    },
-    {
-      "source": "nominatim",
-      "sourceId": "osm/way/65845367",
-      "osmType": "way",
-      "osmId": "65845367",
-      "name": "Cruise Terminal Guadeloupe Port Caraïbes",
-      "nameEnglish": "",
-      "lat": 16.2387028,
-      "lng": -61.5388821,
-      "distanceFromPortMeters": 1355,
-      "address": "Cruise Terminal Guadeloupe Port Caraïbes, Quai Lefèbvre, Gare maritime, Pointe-à-Pitre, Guadeloupe, 97110, France",
-      "displayName": "Cruise Terminal Guadeloupe Port Caraïbes, Quai Lefèbvre, Gare maritime, Pointe-à-Pitre, Guadeloupe, 97110, France",
-      "query": "POINTE A PITRE Port, Pointe-à-Pitre, Guadeloupe",
-      "matchedBy": [
-        "Nominatim query: POINTE A PITRE Port, Pointe-à-Pitre, Guadeloupe"
-      ],
-      "osmTags": {},
-      "sources": [
-        "nominatim"
-      ],
-      "sourceIds": [
-        "osm/way/65845367"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/d9195a81ad47d8116621",
-      "name": "Gare Maritime de Bergevin",
-      "nameEnglish": "",
-      "lat": 16.2410257,
-      "lng": -61.5413871,
-      "distanceFromPortMeters": 1727,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal",
-        "terminal-like name"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "building": "yes",
-        "ferry": "yes",
-        "operator": "Grand Port Maritime de la Guadeloupe (GPMG)",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/d9195a81ad47d8116621"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/96a68a72674902c848dc",
-      "name": "Gare Maritime de Pointe à Pitre",
-      "nameEnglish": "",
-      "lat": 16.2409275,
-      "lng": -61.542097,
-      "distanceFromPortMeters": 1773,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal",
-        "terminal-like name"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "cargo": "passengers;vehicle",
-        "ferry": "yes",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/96a68a72674902c848dc"
-      ]
-    },
-    {
-      "source": "nominatim",
-      "sourceId": "osm/node/9042151050",
-      "osmType": "node",
-      "osmId": "9042151050",
-      "name": "Société Immobilière de la Guadeloupe (SIG)",
-      "nameEnglish": "",
-      "lat": 16.2449937,
-      "lng": -61.5394221,
-      "distanceFromPortMeters": 1947,
-      "address": "Société Immobilière de la Guadeloupe (SIG), Rue Lucien Parize, Résidence Pierre Antonius, Lauricisque, Pointe-à-Pitre, Guadeloupe, 97110, France",
-      "displayName": "Société Immobilière de la Guadeloupe (SIG), Rue Lucien Parize, Résidence Pierre Antonius, Lauricisque, Pointe-à-Pitre, Guadeloupe, 97110, France",
-      "query": "POINTE A PITRE Port, Pointe-à-Pitre, Guadeloupe",
-      "matchedBy": [
-        "Nominatim query: POINTE A PITRE Port, Pointe-à-Pitre, Guadeloupe"
-      ],
-      "osmTags": {},
-      "sources": [
-        "nominatim"
-      ],
-      "sourceIds": [
-        "osm/node/9042151050"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/47c6e40083f9040ce35e",
-      "name": "Ponton Jarry",
-      "nameEnglish": "",
-      "lat": 16.2360387,
-      "lng": -61.5506681,
-      "distanceFromPortMeters": 2306,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "operator": "Karu'lis",
-        "public_transport": "stop_position"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/47c6e40083f9040ce35e"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/177199c7230f0c121bb5",
-      "name": "(unnamed maritime feature)",
-      "nameEnglish": "",
-      "lat": 16.2046585,
-      "lng": -61.4973919,
-      "distanceFromPortMeters": 4479,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/177199c7230f0c121bb5"
-      ]
-    }
-  ],
   "counts": {
-    "attraction": 18,
-    "outdoors": 7,
-    "food_drink": 12,
-    "shopping": 5,
-    "essentials": 1
+    "attraction": 22,
+    "food_drink": 28,
+    "shopping": 18,
+    "outdoors": 12,
+    "essentials": 5
   },
   "pois": [
     {
@@ -551,9 +65,9 @@
       "subcategory": "museum",
       "lat": 16.2315505,
       "lng": -61.5343666,
-      "distanceFromTerminalMeters": 497,
-      "distanceFromDefaultTerminalMeters": 497,
-      "minDistanceFromAnyTerminalMeters": 497,
+      "distanceFromTerminalMeters": 930,
+      "distanceFromDefaultTerminalMeters": 930,
+      "minDistanceFromAnyTerminalMeters": 930,
       "nearestTerminalId": "ports-json-anchor",
       "address": "Rue Raspail, 97110",
       "openingHours": "Tu-Su 09:00-18:00",
@@ -563,59 +77,137 @@
       "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "",
+      "wikipedia": "",
       "osmTags": {
         "tourism": "museum"
-      }
+      },
+      "curated": true,
+      "gem": true
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/03d5139761027162f15f",
-      "name": "Atelier Odysée",
+      "sourceId": "osm/generated/a3efc57b256dc899f20d",
+      "name": "Marché aux épices",
       "nameEnglish": "",
-      "category": "attraction",
-      "subcategory": "gallery",
-      "lat": 16.2368753,
-      "lng": -61.5325657,
-      "distanceFromTerminalMeters": 812,
-      "distanceFromDefaultTerminalMeters": 812,
-      "minDistanceFromAnyTerminalMeters": 812,
+      "category": "shopping",
+      "subcategory": "marketplace",
+      "lat": 16.237278,
+      "lng": -61.5365534,
+      "distanceFromTerminalMeters": 295,
+      "distanceFromDefaultTerminalMeters": 295,
+      "minDistanceFromAnyTerminalMeters": 295,
       "nearestTerminalId": "ports-json-anchor",
-      "address": "17 Rue Victor Hugo, Pointe-à-Pitre, 97110",
+      "address": "",
       "openingHours": "",
-      "website": "http://atelier-odyssee.simplesite.com/",
+      "website": "",
       "phone": "",
       "cuisine": [],
       "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "",
+      "wikipedia": "",
       "osmTags": {
-        "tourism": "gallery"
-      }
+        "amenity": "marketplace"
+      },
+      "curated": true,
+      "gem": true
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/36cf08e8487ae2905253",
-      "name": "Aquarium de la Guadeloupe",
+      "sourceId": "osm/generated/d2c7384b1929edae69bf",
+      "name": "Marché central couvert",
       "nameEnglish": "",
-      "category": "attraction",
-      "subcategory": "aquarium",
-      "lat": 16.2205416,
-      "lng": -61.5230525,
-      "distanceFromTerminalMeters": 1287,
-      "distanceFromDefaultTerminalMeters": 1287,
-      "minDistanceFromAnyTerminalMeters": 1287,
+      "category": "shopping",
+      "subcategory": "marketplace",
+      "lat": 16.2373248,
+      "lng": -61.53662,
+      "distanceFromTerminalMeters": 286,
+      "distanceFromDefaultTerminalMeters": 286,
+      "minDistanceFromAnyTerminalMeters": 286,
       "nearestTerminalId": "ports-json-anchor",
-      "address": "Place Créole, Le Gosier, 97190",
-      "openingHours": "09:00-19:00",
-      "website": "https://www.aquariumdelaguadeloupe.com",
-      "phone": "+590 590 90 92 38; +590 690 57 60 69",
+      "address": "",
+      "openingHours": "Mo, We, Fr 07:00-17:00",
+      "website": "",
+      "phone": "",
       "cuisine": [],
       "wheelchair": "",
       "brand": "",
-      "description": "Aquarium de la Guadeloupe",
+      "description": "",
+      "wikidata": "Q15952732",
+      "wikipedia": "fr:Marché central de Pointe-à-Pitre",
       "osmTags": {
-        "tourism": "aquarium"
-      }
+        "amenity": "marketplace"
+      },
+      "curated": true,
+      "gem": true,
+      "fame": 1
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/72cc62b6540e793a57f5",
+      "name": "An Chodyè La",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 16.2386095,
+      "lng": -61.5322662,
+      "distanceFromTerminalMeters": 706,
+      "distanceFromDefaultTerminalMeters": 706,
+      "minDistanceFromAnyTerminalMeters": 706,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "59 Rue Gilbert de Chambertrand, Pointe-à-Pitre, 97110",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [
+        "regional",
+        "soup",
+        "caribbean",
+        "pie"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      },
+      "curated": true,
+      "gem": true
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/81535c2cc1b8cec8294b",
+      "name": "Restaurant Fairouz",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 16.237317,
+      "lng": -61.5374556,
+      "distanceFromTerminalMeters": 217,
+      "distanceFromDefaultTerminalMeters": 217,
+      "minDistanceFromAnyTerminalMeters": 217,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "17 Rue Jean Jaurès",
+      "openingHours": "Mo-Su 12:00-15:00",
+      "website": "",
+      "phone": "",
+      "cuisine": [
+        "lebanese"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      },
+      "curated": true,
+      "gem": true
     },
     {
       "source": "openstreetmap",
@@ -626,9 +218,9 @@
       "subcategory": "museum",
       "lat": 16.2364264,
       "lng": -61.5358413,
-      "distanceFromTerminalMeters": 948,
-      "distanceFromDefaultTerminalMeters": 948,
-      "minDistanceFromAnyTerminalMeters": 948,
+      "distanceFromTerminalMeters": 412,
+      "distanceFromDefaultTerminalMeters": 412,
+      "minDistanceFromAnyTerminalMeters": 412,
       "nearestTerminalId": "ports-json-anchor",
       "address": "",
       "openingHours": "Mo-Fr 09:00-17:00; Sa 09:00-12:30",
@@ -638,35 +230,13 @@
       "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "Q3329337",
+      "wikipedia": "fr:Musée Saint-John Perse",
       "osmTags": {
         "historic": "building",
         "tourism": "museum"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/09528e87c198809274e1",
-      "name": "Musée départemental d'Art et d'Histoire - MUSARTH",
-      "nameEnglish": "",
-      "category": "attraction",
-      "subcategory": "museum",
-      "lat": 16.2376066,
-      "lng": -61.5378958,
-      "distanceFromTerminalMeters": 1194,
-      "distanceFromDefaultTerminalMeters": 1194,
-      "minDistanceFromAnyTerminalMeters": 1194,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "24 Rue Peynier, Pointe-à-Pitre, 97110",
-      "openingHours": "Mo-Fr 09:00-17:00",
-      "website": "",
-      "phone": "",
-      "cuisine": [],
-      "wheelchair": "limited",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "tourism": "museum"
-      }
+      },
+      "fame": 1
     },
     {
       "source": "openstreetmap",
@@ -677,9 +247,9 @@
       "subcategory": "fort",
       "lat": 16.2168344,
       "lng": -61.5129418,
-      "distanceFromTerminalMeters": 2337,
-      "distanceFromDefaultTerminalMeters": 2337,
-      "minDistanceFromAnyTerminalMeters": 2337,
+      "distanceFromTerminalMeters": 3686,
+      "distanceFromDefaultTerminalMeters": 3686,
+      "minDistanceFromAnyTerminalMeters": 3686,
       "nearestTerminalId": "ports-json-anchor",
       "address": "",
       "openingHours": "",
@@ -689,108 +259,38 @@
       "wheelchair": "",
       "brand": "",
       "description": "Le fort a été construit entre 1750 et 1763 à partir de plans dressés par Sébastien Le Prestre de Vauban afin de défendre la ville de Pointe-à-Pitre contre les attaques anglaises. Il fut un lieu de combat acharné entre les troupes anglaises et française.",
+      "wikidata": "Q3077867",
+      "wikipedia": "",
       "osmTags": {
         "historic": "fort"
-      }
+      },
+      "fame": 4
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/b5fcd5413ffb5c0c9a37",
-      "name": "Musée Schoelcher",
+      "sourceId": "osm/generated/36cf08e8487ae2905253",
+      "name": "Aquarium de la Guadeloupe",
       "nameEnglish": "",
       "category": "attraction",
-      "subcategory": "museum",
-      "lat": 16.2375538,
-      "lng": -61.5377313,
-      "distanceFromTerminalMeters": 1178,
-      "distanceFromDefaultTerminalMeters": 1178,
-      "minDistanceFromAnyTerminalMeters": 1178,
+      "subcategory": "aquarium",
+      "lat": 16.2205416,
+      "lng": -61.5230525,
+      "distanceFromTerminalMeters": 2633,
+      "distanceFromDefaultTerminalMeters": 2633,
+      "minDistanceFromAnyTerminalMeters": 2633,
       "nearestTerminalId": "ports-json-anchor",
-      "address": "",
-      "openingHours": "",
-      "website": "",
-      "phone": "",
+      "address": "Place Créole, Le Gosier, 97190",
+      "openingHours": "09:00-19:00",
+      "website": "https://www.aquariumdelaguadeloupe.com",
+      "phone": "+590 590 90 92 38; +590 690 57 60 69",
       "cuisine": [],
       "wheelchair": "",
       "brand": "",
-      "description": "",
+      "description": "Aquarium de la Guadeloupe",
+      "wikidata": "",
+      "wikipedia": "",
       "osmTags": {
-        "tourism": "museum"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/c4b3bc5ad8fb5a1d2ae9",
-      "name": "Musée L'Herminier",
-      "nameEnglish": "",
-      "category": "attraction",
-      "subcategory": "museum",
-      "lat": 16.238346,
-      "lng": -61.5369939,
-      "distanceFromTerminalMeters": 1191,
-      "distanceFromDefaultTerminalMeters": 1191,
-      "minDistanceFromAnyTerminalMeters": 1191,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "",
-      "openingHours": "",
-      "website": "",
-      "phone": "",
-      "cuisine": [],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "tourism": "museum"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/c04306c1a1d284b319e0",
-      "name": "Fort l'Union",
-      "nameEnglish": "",
-      "category": "attraction",
-      "subcategory": "fort",
-      "lat": 16.2163757,
-      "lng": -61.5258528,
-      "distanceFromTerminalMeters": 1578,
-      "distanceFromDefaultTerminalMeters": 1578,
-      "minDistanceFromAnyTerminalMeters": 1578,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "",
-      "openingHours": "",
-      "website": "",
-      "phone": "",
-      "cuisine": [],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "historic": "fort"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/20dfbd62bde3fa08b277",
-      "name": "Panamax",
-      "nameEnglish": "",
-      "category": "attraction",
-      "subcategory": "attraction",
-      "lat": 16.219778,
-      "lng": -61.5283669,
-      "distanceFromTerminalMeters": 1150,
-      "distanceFromDefaultTerminalMeters": 1150,
-      "minDistanceFromAnyTerminalMeters": 1150,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "la Marina, 97190",
-      "openingHours": "Mo-Su 07:00-19:00",
-      "website": "https://panamaxexcursions.com/",
-      "phone": "+590690627122",
-      "cuisine": [],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "tourism": "attraction"
+        "tourism": "aquarium"
       }
     },
     {
@@ -802,9 +302,9 @@
       "subcategory": "building",
       "lat": 16.2410009,
       "lng": -61.5336241,
-      "distanceFromTerminalMeters": 1283,
-      "distanceFromDefaultTerminalMeters": 1283,
-      "minDistanceFromAnyTerminalMeters": 1283,
+      "distanceFromTerminalMeters": 617,
+      "distanceFromDefaultTerminalMeters": 617,
+      "minDistanceFromAnyTerminalMeters": 617,
       "nearestTerminalId": "ports-json-anchor",
       "address": "",
       "openingHours": "Mo-Fr 07:30-14:30",
@@ -814,10 +314,401 @@
       "wheelchair": "yes",
       "brand": "",
       "description": "",
+      "wikidata": "Q20669773",
+      "wikipedia": "fr:Hôtel de ville de Pointe-à-Pitre",
       "osmTags": {
         "amenity": "townhall",
         "historic": "building"
+      },
+      "fame": 1
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/09528e87c198809274e1",
+      "name": "Musée départemental d'Art et d'Histoire - MUSARTH",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 16.2376066,
+      "lng": -61.5378958,
+      "distanceFromTerminalMeters": 161,
+      "distanceFromDefaultTerminalMeters": 161,
+      "minDistanceFromAnyTerminalMeters": 161,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "24 Rue Peynier, Pointe-à-Pitre, 97110",
+      "openingHours": "Mo-Fr 09:00-17:00",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "limited",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "tourism": "museum"
       }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b5fcd5413ffb5c0c9a37",
+      "name": "Musée Schoelcher",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 16.2375538,
+      "lng": -61.5377313,
+      "distanceFromTerminalMeters": 177,
+      "distanceFromDefaultTerminalMeters": 177,
+      "minDistanceFromAnyTerminalMeters": 177,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q3329342",
+      "wikipedia": "fr:Musée Schœlcher",
+      "osmTags": {
+        "tourism": "museum"
+      },
+      "fame": 1
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c4b3bc5ad8fb5a1d2ae9",
+      "name": "Musée L'Herminier",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 16.238346,
+      "lng": -61.5369939,
+      "distanceFromTerminalMeters": 205,
+      "distanceFromDefaultTerminalMeters": 205,
+      "minDistanceFromAnyTerminalMeters": 205,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q20669919",
+      "wikipedia": "fr:Pavillon L'Herminier",
+      "osmTags": {
+        "tourism": "museum"
+      },
+      "fame": 1
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ec1014973952d2b4086c",
+      "name": "Cinéma de la Renaissance",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "ruins",
+      "lat": 16.2370446,
+      "lng": -61.5334571,
+      "distanceFromTerminalMeters": 608,
+      "distanceFromDefaultTerminalMeters": 608,
+      "minDistanceFromAnyTerminalMeters": 608,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "5Ter Rue du Commandant Mortenol, Pointe-à-Pitre, 97139, GP",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q21540002",
+      "wikipedia": "",
+      "osmTags": {
+        "historic": "ruins"
+      },
+      "fame": 1
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/03d5139761027162f15f",
+      "name": "Atelier Odysée",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "gallery",
+      "lat": 16.2368753,
+      "lng": -61.5325657,
+      "distanceFromTerminalMeters": 704,
+      "distanceFromDefaultTerminalMeters": 704,
+      "minDistanceFromAnyTerminalMeters": 704,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "17 Rue Victor Hugo, Pointe-à-Pitre, 97110",
+      "openingHours": "",
+      "website": "http://atelier-odyssee.simplesite.com/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "tourism": "gallery"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/20dfbd62bde3fa08b277",
+      "name": "Panamax",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 16.219778,
+      "lng": -61.5283669,
+      "distanceFromTerminalMeters": 2385,
+      "distanceFromDefaultTerminalMeters": 2385,
+      "minDistanceFromAnyTerminalMeters": 2385,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "la Marina, 97190",
+      "openingHours": "Mo-Su 07:00-19:00",
+      "website": "https://panamaxexcursions.com/",
+      "phone": "+590690627122",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/12006a9fbb827eb1b246",
+      "name": "Place de la Victoire",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "square",
+      "lat": 16.2365765,
+      "lng": -61.5344732,
+      "distanceFromTerminalMeters": 527,
+      "distanceFromDefaultTerminalMeters": 527,
+      "minDistanceFromAnyTerminalMeters": 527,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q2381010",
+      "wikipedia": "",
+      "osmTags": {
+        "place": "square"
+      },
+      "fame": 1
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c04306c1a1d284b319e0",
+      "name": "Fort l'Union",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "fort",
+      "lat": 16.2163757,
+      "lng": -61.5258528,
+      "distanceFromTerminalMeters": 2846,
+      "distanceFromDefaultTerminalMeters": 2846,
+      "minDistanceFromAnyTerminalMeters": 2846,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q13518771",
+      "wikipedia": "fr:Fort Louis (Grande-Terre)",
+      "osmTags": {
+        "historic": "fort"
+      },
+      "fame": 1
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/811b750deebe6598f9d2",
+      "name": "Habitation Mamiel",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "manor",
+      "lat": 16.260513,
+      "lng": -61.5155892,
+      "distanceFromTerminalMeters": 3473,
+      "distanceFromDefaultTerminalMeters": 3473,
+      "minDistanceFromAnyTerminalMeters": 3473,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "L'habitation Mamiel est une ancienne habitation sucrière située dans la commune des Abymes, en Guadeloupe. Il s’agit d’une maison dont la disposition est typique des habitations créoles sucrières du XIXème siècle : trois pièces en enfilade reliées par une",
+      "wikidata": "Q14627591",
+      "wikipedia": "fr:Habitation Mamiel",
+      "osmTags": {
+        "historic": "manor"
+      },
+      "fame": 2
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/e7f4cb9420c229ba2cf6",
+      "name": "Hôtel de ville (ancien)",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "building",
+      "lat": 16.2372983,
+      "lng": -61.5378591,
+      "distanceFromTerminalMeters": 191,
+      "distanceFromDefaultTerminalMeters": 191,
+      "minDistanceFromAnyTerminalMeters": 191,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q20669726",
+      "wikipedia": "fr:Ancien hôtel de ville de Pointe-à-Pitre",
+      "osmTags": {
+        "historic": "building"
+      },
+      "fame": 1
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/1c68c35eafcc78a6590d",
+      "name": "Maison natale de Saint-John-Perse",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "building",
+      "lat": 16.2371157,
+      "lng": -61.538194,
+      "distanceFromTerminalMeters": 191,
+      "distanceFromDefaultTerminalMeters": 191,
+      "minDistanceFromAnyTerminalMeters": 191,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q20751536",
+      "wikipedia": "fr:Maison natale de Saint-John-Perse",
+      "osmTags": {
+        "historic": "building"
+      },
+      "fame": 1
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b73b1fa7c8442bb69888",
+      "name": "Ancien presbytère Saint-Pierre-et-Saint-Paul",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "building",
+      "lat": 16.2381642,
+      "lng": -61.5342239,
+      "distanceFromTerminalMeters": 501,
+      "distanceFromDefaultTerminalMeters": 501,
+      "minDistanceFromAnyTerminalMeters": 501,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q18015701",
+      "wikipedia": "fr:Ancien presbytère Saint-Pierre-et-Saint-Paul",
+      "osmTags": {
+        "historic": "building"
+      },
+      "fame": 1
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/021cbfbd18786b85be07",
+      "name": "Créole immersion",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "theme_park",
+      "lat": 16.204894,
+      "lng": -61.4950752,
+      "distanceFromTerminalMeters": 6001,
+      "distanceFromDefaultTerminalMeters": 6001,
+      "minDistanceFromAnyTerminalMeters": 6001,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Le Gosier, 97190",
+      "openingHours": "14:00-16:45",
+      "website": "https://www.creole-immersion.fr/espace-de-reservation-en-ligne",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "tourism": "theme_park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/2ef003c5d47c8101e554",
+      "name": "Ancienne usine sucrière Darboussier",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "building",
+      "lat": 16.2317478,
+      "lng": -61.5329055,
+      "distanceFromTerminalMeters": 1003,
+      "distanceFromDefaultTerminalMeters": 1003,
+      "minDistanceFromAnyTerminalMeters": 1003,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q3552676",
+      "wikipedia": "fr:Usine sucrière Darboussier",
+      "osmTags": {
+        "historic": "building"
+      },
+      "fame": 1
     },
     {
       "source": "openstreetmap",
@@ -828,9 +719,9 @@
       "subcategory": "attraction",
       "lat": 16.2168701,
       "lng": -61.5131429,
-      "distanceFromTerminalMeters": 2317,
-      "distanceFromDefaultTerminalMeters": 2317,
-      "minDistanceFromAnyTerminalMeters": 2317,
+      "distanceFromTerminalMeters": 3667,
+      "distanceFromDefaultTerminalMeters": 3667,
+      "minDistanceFromAnyTerminalMeters": 3667,
       "nearestTerminalId": "ports-json-anchor",
       "address": "Le Gosier, 97190",
       "openingHours": "",
@@ -840,6 +731,8 @@
       "wheelchair": "",
       "brand": "",
       "description": "La Caserne est aujourd'hui transformée en salle d'exposition",
+      "wikidata": "",
+      "wikipedia": "",
       "osmTags": {
         "historic": "building",
         "tourism": "attraction"
@@ -854,9 +747,9 @@
       "subcategory": "monument",
       "lat": 16.2407112,
       "lng": -61.5331736,
-      "distanceFromTerminalMeters": 1238,
-      "distanceFromDefaultTerminalMeters": 1238,
-      "minDistanceFromAnyTerminalMeters": 1238,
+      "distanceFromTerminalMeters": 649,
+      "distanceFromDefaultTerminalMeters": 649,
+      "minDistanceFromAnyTerminalMeters": 649,
       "nearestTerminalId": "ports-json-anchor",
       "address": "",
       "openingHours": "",
@@ -866,22 +759,24 @@
       "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "",
+      "wikipedia": "",
       "osmTags": {
         "historic": "monument"
       }
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/6f5638eeeb9a0ad477bb",
-      "name": "Poudrière",
+      "sourceId": "osm/generated/7254364485be102701ba",
+      "name": "Maison Petrelluzzi",
       "nameEnglish": "",
       "category": "attraction",
-      "subcategory": "attraction",
-      "lat": 16.2166789,
-      "lng": -61.5129735,
-      "distanceFromTerminalMeters": 2345,
-      "distanceFromDefaultTerminalMeters": 2345,
-      "minDistanceFromAnyTerminalMeters": 2345,
+      "subcategory": "manor",
+      "lat": 16.2429213,
+      "lng": -61.5185507,
+      "distanceFromTerminalMeters": 2221,
+      "distanceFromDefaultTerminalMeters": 2221,
+      "minDistanceFromAnyTerminalMeters": 2221,
       "nearestTerminalId": "ports-json-anchor",
       "address": "",
       "openingHours": "",
@@ -891,418 +786,159 @@
       "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "Q14627593",
+      "wikipedia": "fr:Maison Petrelluzzi",
       "osmTags": {
-        "historic": "building",
-        "tourism": "attraction"
-      }
+        "historic": "manor"
+      },
+      "fame": 1
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/021cbfbd18786b85be07",
-      "name": "Créole immersion",
+      "sourceId": "osm/generated/29cb4dab0ca70b1fe415",
+      "name": "Jetfry",
       "nameEnglish": "",
-      "category": "attraction",
-      "subcategory": "theme_park",
-      "lat": 16.204894,
-      "lng": -61.4950752,
-      "distanceFromTerminalMeters": 4658,
-      "distanceFromDefaultTerminalMeters": 4658,
-      "minDistanceFromAnyTerminalMeters": 4658,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "Le Gosier, 97190",
-      "openingHours": "14:00-16:45",
-      "website": "https://www.creole-immersion.fr/espace-de-reservation-en-ligne",
-      "phone": "",
-      "cuisine": [],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "tourism": "theme_park"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/2960c6841312534ccaa6",
-      "name": "Fortin de Baimbridge",
-      "nameEnglish": "",
-      "category": "attraction",
-      "subcategory": "battlefield",
-      "lat": 16.2479135,
-      "lng": -61.5234714,
-      "distanceFromTerminalMeters": 2110,
-      "distanceFromDefaultTerminalMeters": 2110,
-      "minDistanceFromAnyTerminalMeters": 2110,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "",
-      "openingHours": "",
-      "website": "",
-      "phone": "",
-      "cuisine": [],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "historic": "battlefield"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/5ae7b26c08327463cfc0",
-      "name": "Snorkeling Park",
-      "nameEnglish": "",
-      "category": "attraction",
-      "subcategory": "attraction",
-      "lat": 16.199689,
-      "lng": -61.492381,
-      "distanceFromTerminalMeters": 5243,
-      "distanceFromDefaultTerminalMeters": 5243,
-      "minDistanceFromAnyTerminalMeters": 5243,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "",
-      "openingHours": "",
-      "website": "http://www.facebook.com/SnorkelingPark",
-      "phone": "+590 6 90 72 88 09",
-      "cuisine": [],
-      "wheelchair": "",
-      "brand": "",
-      "description": "Le sentier découverte sous-marin de l'îlet Gosier randonnée aquatique en PMT (palmes-masque et tuba)",
-      "osmTags": {
-        "tourism": "attraction"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/1c5935dce25051eb49e7",
-      "name": "Station balnéaire de l'Anse Tabarin",
-      "nameEnglish": "",
-      "category": "attraction",
-      "subcategory": "theme_park",
-      "lat": 16.2055222,
-      "lng": -61.5001335,
-      "distanceFromTerminalMeters": 4192,
-      "distanceFromDefaultTerminalMeters": 4192,
-      "minDistanceFromAnyTerminalMeters": 4192,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "",
-      "openingHours": "",
-      "website": "",
-      "phone": "",
-      "cuisine": [],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "tourism": "theme_park"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/7cfe5a094ee2d76b1995",
-      "name": "Plage de Bas-du-Fort",
-      "nameEnglish": "",
-      "category": "outdoors",
-      "subcategory": "beach",
-      "lat": 16.2140114,
-      "lng": -61.5237064,
-      "distanceFromTerminalMeters": 1901,
-      "distanceFromDefaultTerminalMeters": 1901,
-      "minDistanceFromAnyTerminalMeters": 1901,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "",
-      "openingHours": "",
-      "website": "",
-      "phone": "",
-      "cuisine": [],
-      "wheelchair": "",
-      "brand": "",
-      "description": "La Plage de Bas du Fort est une plage de sable blanc situé dans le quartier de Bas du Fort. C'est aussi la Plage la plus proche de la ville de Pointe-à-Pitre",
-      "osmTags": {
-        "natural": "beach"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/b077b6fe3416776e283f",
-      "name": "Plage de la Caye d'Argent",
-      "nameEnglish": "",
-      "category": "outdoors",
-      "subcategory": "beach",
-      "lat": 16.2163816,
-      "lng": -61.5274862,
-      "distanceFromTerminalMeters": 1538,
-      "distanceFromDefaultTerminalMeters": 1538,
-      "minDistanceFromAnyTerminalMeters": 1538,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "",
-      "openingHours": "",
-      "website": "",
-      "phone": "",
-      "cuisine": [],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "natural": "beach"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/fa691aa6dcbe6a0a8523",
-      "name": "Plage de la Datcha",
-      "nameEnglish": "",
-      "category": "outdoors",
-      "subcategory": "beach",
-      "lat": 16.2047339,
-      "lng": -61.4947945,
-      "distanceFromTerminalMeters": 4693,
-      "distanceFromDefaultTerminalMeters": 4693,
-      "minDistanceFromAnyTerminalMeters": 4693,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "",
-      "openingHours": "",
-      "website": "",
-      "phone": "",
-      "cuisine": [],
-      "wheelchair": "",
-      "brand": "",
-      "description": "Plage de la Datcha",
-      "osmTags": {
-        "natural": "beach",
-        "tourism": "attraction"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/4243eba2d7118549d639",
-      "name": "Plage de Grand Baie",
-      "nameEnglish": "",
-      "category": "outdoors",
-      "subcategory": "beach",
-      "lat": 16.2122767,
-      "lng": -61.5075236,
-      "distanceFromTerminalMeters": 3105,
-      "distanceFromDefaultTerminalMeters": 3105,
-      "minDistanceFromAnyTerminalMeters": 3105,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "",
-      "openingHours": "",
-      "website": "",
-      "phone": "",
-      "cuisine": [],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "natural": "beach"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/5d09f813d2cf695a8113",
-      "name": "Morne Mémoire",
-      "nameEnglish": "",
-      "category": "outdoors",
-      "subcategory": "park",
-      "lat": 16.2311257,
-      "lng": -61.5329574,
-      "distanceFromTerminalMeters": 340,
-      "distanceFromDefaultTerminalMeters": 340,
-      "minDistanceFromAnyTerminalMeters": 340,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "",
-      "openingHours": "",
-      "website": "",
-      "phone": "",
-      "cuisine": [],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "leisure": "park"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/3c76ed633e06064d10e6",
-      "name": "Place de la Victoire",
-      "nameEnglish": "",
-      "category": "outdoors",
-      "subcategory": "park",
-      "lat": 16.2371878,
-      "lng": -61.5341825,
-      "distanceFromTerminalMeters": 916,
-      "distanceFromDefaultTerminalMeters": 916,
-      "minDistanceFromAnyTerminalMeters": 916,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "",
-      "openingHours": "",
-      "website": "",
-      "phone": "",
-      "cuisine": [],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "leisure": "park"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/6458a04da63863ef525f",
-      "name": "Morne Labrousse",
-      "nameEnglish": "",
-      "category": "outdoors",
-      "subcategory": "peak",
-      "lat": 16.2212494,
-      "lng": -61.5093803,
-      "distanceFromTerminalMeters": 2407,
-      "distanceFromDefaultTerminalMeters": 2407,
-      "minDistanceFromAnyTerminalMeters": 2407,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "",
-      "openingHours": "",
-      "website": "",
-      "phone": "",
-      "cuisine": [],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "natural": "peak"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/faae4db3529b82b675f5",
-      "name": "Café de France",
-      "nameEnglish": "Café de France",
       "category": "food_drink",
-      "subcategory": "cafe",
-      "lat": 16.2374929,
-      "lng": -61.5344308,
-      "distanceFromTerminalMeters": 958,
-      "distanceFromDefaultTerminalMeters": 958,
-      "minDistanceFromAnyTerminalMeters": 958,
+      "subcategory": "fast_food",
+      "lat": 16.2367133,
+      "lng": -61.5353713,
+      "distanceFromTerminalMeters": 435,
+      "distanceFromDefaultTerminalMeters": 435,
+      "minDistanceFromAnyTerminalMeters": 435,
       "nearestTerminalId": "ports-json-anchor",
       "address": "",
-      "openingHours": "",
-      "website": "",
-      "phone": "",
+      "openingHours": "Mo-Su 11:00-20:30",
+      "website": "jetfry.fr",
+      "phone": "+590 590 489 373",
       "cuisine": [
-        "sandwich",
-        "french"
+        "chicken",
+        "burger",
+        "pizza"
       ],
       "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "",
+      "wikipedia": "",
       "osmTags": {
-        "amenity": "cafe",
-        "shop": "bakery"
+        "amenity": "fast_food"
       }
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/c67f78ba91fab4c7a5db",
-      "name": "CAfé des arts",
+      "sourceId": "osm/generated/f1cbdf9f40db49e23a7a",
+      "name": "Kemapi",
       "nameEnglish": "",
       "category": "food_drink",
-      "subcategory": "restaurant",
-      "lat": 16.2350238,
-      "lng": -61.5365281,
-      "distanceFromTerminalMeters": 893,
-      "distanceFromDefaultTerminalMeters": 893,
-      "minDistanceFromAnyTerminalMeters": 893,
+      "subcategory": "fast_food",
+      "lat": 16.239758,
+      "lng": -61.5663039,
+      "distanceFromTerminalMeters": 2930,
+      "distanceFromDefaultTerminalMeters": 2930,
+      "minDistanceFromAnyTerminalMeters": 2930,
       "nearestTerminalId": "ports-json-anchor",
-      "address": "",
-      "openingHours": "",
+      "address": "29 Rue Ferdinand Forest",
+      "openingHours": "Mo-Fr 07:00-15:00",
       "website": "",
-      "phone": "",
+      "phone": "+590 690 150 138",
       "cuisine": [
-        "italian"
+        "burger",
+        "kebab",
+        "wings",
+        "fries"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "kebab kefta burger wings nuggets frites boissons",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "fast_food"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d4b6135aaa0b83f91c66",
+      "name": "LE TAKAYALÉ",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 16.2506671,
+      "lng": -61.5324912,
+      "distanceFromTerminalMeters": 1495,
+      "distanceFromDefaultTerminalMeters": 1495,
+      "minDistanceFromAnyTerminalMeters": 1495,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Su 11:00-15:30, 18:45-22:30",
+      "website": "https://le-takayale.business.site/",
+      "phone": "+590 5 90 10 51 07",
+      "cuisine": [
+        "japanese"
       ],
       "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "",
+      "wikipedia": "",
       "osmTags": {
         "amenity": "restaurant"
       }
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/1023be75b287f53805db",
-      "name": "Telemacque Tropical Caraïbeen Food",
+      "sourceId": "osm/generated/5b8bbe755b68f74044e1",
+      "name": "Midi Jardin",
       "nameEnglish": "",
       "category": "food_drink",
       "subcategory": "restaurant",
-      "lat": 16.2277498,
-      "lng": -61.5306528,
-      "distanceFromTerminalMeters": 260,
-      "distanceFromDefaultTerminalMeters": 260,
-      "minDistanceFromAnyTerminalMeters": 260,
+      "lat": 16.2417604,
+      "lng": -61.5584745,
+      "distanceFromTerminalMeters": 2119,
+      "distanceFromDefaultTerminalMeters": 2119,
+      "minDistanceFromAnyTerminalMeters": 2119,
       "nearestTerminalId": "ports-json-anchor",
-      "address": "",
-      "openingHours": "Mo-Fr 08:00-22:00; Sa 14:00-22:00; Su 08:00-22:00",
-      "website": "https://telemacque-tropical-caraibeen-food.business.site/",
-      "phone": "+590 690 33 62 12",
+      "address": "Boulevard Marquisat Houelbourg",
+      "openingHours": "Mo-Fr 08:00-14:00",
+      "website": "https://beeliz.wixsite.com/midijardin",
+      "phone": "+590 590 268 395",
       "cuisine": [],
       "wheelchair": "",
       "brand": "",
-      "description": "",
+      "description": "Cultivez vos Papilles",
+      "wikidata": "",
+      "wikipedia": "",
       "osmTags": {
         "amenity": "restaurant"
       }
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/ad60360ab55809a68e80",
-      "name": "Le Yacht Club, Pointe-À-Pitre, Guadeloupe",
+      "sourceId": "osm/generated/1811faa0887c61afb18d",
+      "name": "Bokit'ry",
       "nameEnglish": "",
       "category": "food_drink",
-      "subcategory": "restaurant",
-      "lat": 16.2356344,
-      "lng": -61.535885,
-      "distanceFromTerminalMeters": 887,
-      "distanceFromDefaultTerminalMeters": 887,
-      "minDistanceFromAnyTerminalMeters": 887,
+      "subcategory": "fast_food",
+      "lat": 16.2415273,
+      "lng": -61.5684627,
+      "distanceFromTerminalMeters": 3174,
+      "distanceFromDefaultTerminalMeters": 3174,
+      "minDistanceFromAnyTerminalMeters": 3174,
       "nearestTerminalId": "ports-json-anchor",
-      "address": "",
-      "openingHours": "Mo 12:00-22:00; Tu-Sa 12:00-23:00; Su 12:00-16:00",
-      "website": "https://fr-fr.facebook.com/yachtclubgp/",
-      "phone": "+590 690 74 57 11",
-      "cuisine": [],
-      "wheelchair": "yes",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "amenity": "restaurant"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/83e8ee0ad0692aa3fc0e",
-      "name": "Coco Kafé",
-      "nameEnglish": "",
-      "category": "food_drink",
-      "subcategory": "restaurant",
-      "lat": 16.2212495,
-      "lng": -61.5233745,
-      "distanceFromTerminalMeters": 1203,
-      "distanceFromDefaultTerminalMeters": 1203,
-      "minDistanceFromAnyTerminalMeters": 1203,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "",
-      "openingHours": "Mo-We 12:00-15:00,19:00-22:00; Th-Sa 12:00-15:00,19:00-23:00; Su 12:00-15:00",
-      "website": "https://m.facebook.com/1463044037309479/",
-      "phone": "+590 590 93 63 02; +590 690 34 30 62",
+      "address": "Rue Henri Becquerel, 97122",
+      "openingHours": "Mo-Th 12:00-22:00; Fr-Sa 12:00-23:00",
+      "website": "https://bokitry.com/",
+      "phone": "+590 690 52 04 83",
       "cuisine": [
-        "regional"
+        "caribbean"
       ],
-      "wheelchair": "yes",
+      "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "",
+      "wikipedia": "",
       "osmTags": {
-        "amenity": "restaurant"
+        "amenity": "fast_food"
       }
     },
     {
@@ -1314,9 +950,9 @@
       "subcategory": "restaurant",
       "lat": 16.2135044,
       "lng": -61.5232014,
-      "distanceFromTerminalMeters": 1973,
-      "distanceFromDefaultTerminalMeters": 1973,
-      "minDistanceFromAnyTerminalMeters": 1973,
+      "distanceFromTerminalMeters": 3264,
+      "distanceFromDefaultTerminalMeters": 3264,
+      "minDistanceFromAnyTerminalMeters": 3264,
       "nearestTerminalId": "ports-json-anchor",
       "address": "49 Impasse du Bas du Fort",
       "openingHours": "Tu-Sa 19:00-23:00",
@@ -1332,6 +968,37 @@
       "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f31fbab2c897caebe13e",
+      "name": "HOI SING",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 16.2428519,
+      "lng": -61.5558704,
+      "distanceFromTerminalMeters": 1871,
+      "distanceFromDefaultTerminalMeters": 1871,
+      "minDistanceFromAnyTerminalMeters": 1871,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "50 Boulevard Marquisat de Houëlbourg",
+      "openingHours": "Mo-Sa 11:00-16:00",
+      "website": "",
+      "phone": "+590 590 255 343",
+      "cuisine": [
+        "chinese"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
       "osmTags": {
         "amenity": "restaurant"
       }
@@ -1345,9 +1012,9 @@
       "subcategory": "restaurant",
       "lat": 16.2185325,
       "lng": -61.5152602,
-      "distanceFromTerminalMeters": 2025,
-      "distanceFromDefaultTerminalMeters": 2025,
-      "minDistanceFromAnyTerminalMeters": 2025,
+      "distanceFromTerminalMeters": 3375,
+      "distanceFromDefaultTerminalMeters": 3375,
+      "minDistanceFromAnyTerminalMeters": 3375,
       "nearestTerminalId": "ports-json-anchor",
       "address": "Escale Boutique Cc Bas Du Fort, Le Gosier, 97190",
       "openingHours": "Mo-Th 11:30-14:30, 17:30-21:45; Fr-Sa 11:00-14:45, 17:30-22:45; Su 17:30-21:45",
@@ -1359,232 +1026,831 @@
       "wheelchair": "no",
       "brand": "",
       "description": "",
+      "wikidata": "",
+      "wikipedia": "",
       "osmTags": {
         "amenity": "restaurant"
       }
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/d4b6135aaa0b83f91c66",
-      "name": "LE TAKAYALÉ",
+      "sourceId": "osm/generated/11cafbf369e4bc68363a",
+      "name": "Sushi7",
       "nameEnglish": "",
       "category": "food_drink",
       "subcategory": "restaurant",
-      "lat": 16.2506671,
-      "lng": -61.5324912,
-      "distanceFromTerminalMeters": 2313,
-      "distanceFromDefaultTerminalMeters": 2313,
-      "minDistanceFromAnyTerminalMeters": 2313,
+      "lat": 16.2419529,
+      "lng": -61.5714147,
+      "distanceFromTerminalMeters": 3492,
+      "distanceFromDefaultTerminalMeters": 3492,
+      "minDistanceFromAnyTerminalMeters": 3492,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Voie Verte André Gunot, Baie-Mahault, 97122",
+      "openingHours": "Mo,Su 18:00-22:00; Tu-Sa 11:00-14:30,18:00-22:00",
+      "website": "https://www.sushi-7.fr/",
+      "phone": "+590 590 328 756",
+      "cuisine": [
+        "sushi"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/3d39c04c83d0d48d9ec6",
+      "name": "Toyotomi",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 16.2424814,
+      "lng": -61.5583015,
+      "distanceFromTerminalMeters": 2115,
+      "distanceFromDefaultTerminalMeters": 2115,
+      "minDistanceFromAnyTerminalMeters": 2115,
       "nearestTerminalId": "ports-json-anchor",
       "address": "",
-      "openingHours": "Mo-Su 11:00-15:30, 18:45-22:30",
-      "website": "https://le-takayale.business.site/",
-      "phone": "+590 5 90 10 51 07",
+      "openingHours": "Mo-Sa 11:00-14:30, 18:30-22:30; Su 18:30-22:30",
+      "website": "",
+      "phone": "+590590800196",
       "cuisine": [
         "japanese"
       ],
       "wheelchair": "",
       "brand": "",
-      "description": "",
+      "description": "sushi",
+      "wikidata": "",
+      "wikipedia": "",
       "osmTags": {
         "amenity": "restaurant"
       }
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/f763919d74cb109747f4",
-      "name": "An tol la",
+      "sourceId": "osm/generated/ce1b67ed9fc4794016cb",
+      "name": "Restaurant samouraï",
       "nameEnglish": "",
       "category": "food_drink",
       "subcategory": "restaurant",
-      "lat": 16.2262715,
-      "lng": -61.5314139,
-      "distanceFromTerminalMeters": 441,
-      "distanceFromDefaultTerminalMeters": 441,
-      "minDistanceFromAnyTerminalMeters": 441,
+      "lat": 16.2455333,
+      "lng": -61.5579197,
+      "distanceFromTerminalMeters": 2170,
+      "distanceFromDefaultTerminalMeters": 2170,
+      "minDistanceFromAnyTerminalMeters": 2170,
       "nearestTerminalId": "ports-json-anchor",
-      "address": "",
-      "openingHours": "",
+      "address": "341 Rue Alfred Lumière",
+      "openingHours": "Mo-Th 12:00-14:30,19:00-22:30; Fr,Sa 12:00-14:30,19:00-22:45",
       "website": "",
-      "phone": "+590 690 714 972",
+      "phone": "+590 590 800 888",
+      "cuisine": [
+        "asian",
+        "buffet"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/0ff39d8a437741e8eaa6",
+      "name": "On ti faim",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "fast_food",
+      "lat": 16.2539117,
+      "lng": -61.522496,
+      "distanceFromTerminalMeters": 2433,
+      "distanceFromDefaultTerminalMeters": 2433,
+      "minDistanceFromAnyTerminalMeters": 2433,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Rue Jean Ignace, 97139",
+      "openingHours": "Mo-Su 12:00-15:00,18:30-22:30",
+      "website": "",
+      "phone": "+590 690 58 50 77",
       "cuisine": [
         "regional"
       ],
       "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "",
+      "wikipedia": "",
       "osmTags": {
-        "amenity": "restaurant"
+        "amenity": "fast_food"
       }
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/81535c2cc1b8cec8294b",
-      "name": "Restaurant Fairouz",
+      "sourceId": "osm/generated/83e8ee0ad0692aa3fc0e",
+      "name": "Coco Kafé",
       "nameEnglish": "",
       "category": "food_drink",
       "subcategory": "restaurant",
-      "lat": 16.237317,
-      "lng": -61.5374556,
-      "distanceFromTerminalMeters": 1138,
-      "distanceFromDefaultTerminalMeters": 1138,
-      "minDistanceFromAnyTerminalMeters": 1138,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "17 Rue Jean Jaurès",
-      "openingHours": "Mo-Su 12:00-15:00",
-      "website": "",
-      "phone": "",
-      "cuisine": [
-        "lebanese"
-      ],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "amenity": "restaurant"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/edfd16dd8149a9c388e5",
-      "name": "Restaurant Hong Kong",
-      "nameEnglish": "",
-      "category": "food_drink",
-      "subcategory": "restaurant",
-      "lat": 16.2393187,
-      "lng": -61.5354324,
-      "distanceFromTerminalMeters": 1187,
-      "distanceFromDefaultTerminalMeters": 1187,
-      "minDistanceFromAnyTerminalMeters": 1187,
+      "lat": 16.2212495,
+      "lng": -61.5233745,
+      "distanceFromTerminalMeters": 2551,
+      "distanceFromDefaultTerminalMeters": 2551,
+      "minDistanceFromAnyTerminalMeters": 2551,
       "nearestTerminalId": "ports-json-anchor",
       "address": "",
-      "openingHours": "",
-      "website": "",
-      "phone": "",
+      "openingHours": "Mo-We 12:00-15:00,19:00-22:00; Th-Sa 12:00-15:00,19:00-23:00; Su 12:00-15:00",
+      "website": "https://m.facebook.com/1463044037309479/",
+      "phone": "+590 590 93 63 02; +590 690 34 30 62",
       "cuisine": [
-        "chinese"
+        "regional"
       ],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "amenity": "restaurant"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/2f3810c5a06c49f2fc81",
-      "name": "L'Orient Rouge",
-      "nameEnglish": "",
-      "category": "food_drink",
-      "subcategory": "restaurant",
-      "lat": 16.2399178,
-      "lng": -61.5357074,
-      "distanceFromTerminalMeters": 1260,
-      "distanceFromDefaultTerminalMeters": 1260,
-      "minDistanceFromAnyTerminalMeters": 1260,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "",
-      "openingHours": "",
-      "website": "",
-      "phone": "",
-      "cuisine": [
-        "chinese"
-      ],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "amenity": "restaurant"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/04e43262ebaa07dd58a9",
-      "name": "Bas du Fort Village",
-      "nameEnglish": "Mall Bas du Fort Village",
-      "category": "shopping",
-      "subcategory": "mall",
-      "lat": 16.2185705,
-      "lng": -61.5166543,
-      "distanceFromTerminalMeters": 1909,
-      "distanceFromDefaultTerminalMeters": 1909,
-      "minDistanceFromAnyTerminalMeters": 1909,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "",
-      "openingHours": "",
-      "website": "",
-      "phone": "",
-      "cuisine": [],
       "wheelchair": "yes",
       "brand": "",
-      "description": "Le centre commercial Bas du Fort est le plus grand centre commercial du Gosier avec 5920m².",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
       "osmTags": {
-        "shop": "mall"
+        "amenity": "restaurant"
       }
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/e8f68ce85dfe10f451ab",
-      "name": "Les Galeries de Houelbourg",
+      "sourceId": "osm/generated/88b729ff58afe48782bf",
+      "name": "L'Etoile Gourmande",
       "nameEnglish": "",
-      "category": "shopping",
-      "subcategory": "mall",
-      "lat": 16.2400526,
-      "lng": -61.5675467,
-      "distanceFromTerminalMeters": 4161,
-      "distanceFromDefaultTerminalMeters": 4161,
-      "minDistanceFromAnyTerminalMeters": 4161,
+      "category": "food_drink",
+      "subcategory": "fast_food",
+      "lat": 16.2402003,
+      "lng": -61.5672593,
+      "distanceFromTerminalMeters": 3034,
+      "distanceFromDefaultTerminalMeters": 3034,
+      "minDistanceFromAnyTerminalMeters": 3034,
       "nearestTerminalId": "ports-json-anchor",
       "address": "Rue Ferdinand Forest, Baie-Mahault, 97122",
-      "openingHours": "Mo-Fr 07:00-18:00; Sa 08:00-18:00",
-      "website": "https://www.galeries-houelbourg.com/index.php",
+      "openingHours": "",
+      "website": "",
+      "phone": "+590 590 81 52 95",
+      "cuisine": [
+        "regional",
+        "burger",
+        "dessert",
+        "sandwich",
+        "salad"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Restauration rapide sur place et à emporter",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "fast_food"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/2b5abfb2a5340e2d99b2",
+      "name": "AZ AND CO Restaurant",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "fast_food",
+      "lat": 16.2147738,
+      "lng": -61.5206379,
+      "distanceFromTerminalMeters": 3298,
+      "distanceFromDefaultTerminalMeters": 3298,
+      "minDistanceFromAnyTerminalMeters": 3298,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "124 Rue de Bas du Fort, 97190",
+      "openingHours": "Mo-Su 10:00-20:00",
+      "website": "",
+      "phone": "+590 590 03 06 04",
+      "cuisine": [
+        "burger",
+        "sandwich",
+        "breakfast",
+        "hot_dog",
+        "savory_pancakes",
+        "crepe",
+        "tea",
+        "local",
+        "caribbean",
+        "coffee_shop"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "fast_food"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/2810a971a058ba75acca",
+      "name": "Byron Burger Bar",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "fast_food",
+      "lat": 16.2417874,
+      "lng": -61.5710513,
+      "distanceFromTerminalMeters": 3451,
+      "distanceFromDefaultTerminalMeters": 3451,
+      "minDistanceFromAnyTerminalMeters": 3451,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "47 Rue Henri Becquerel, Baie-Mahault, 97122",
+      "openingHours": "",
+      "website": "https://linktr.ee/byronburgerbar",
+      "phone": "+590 590 250 753",
+      "cuisine": [
+        "burger"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "fast_food"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/2f82acb90b81b335fa7b",
+      "name": "Tropical Gelato",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "fast_food",
+      "lat": 16.2369703,
+      "lng": -61.5350028,
+      "distanceFromTerminalMeters": 457,
+      "distanceFromDefaultTerminalMeters": 457,
+      "minDistanceFromAnyTerminalMeters": 457,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo 07:00-15:00; Tu 07:00-17:00; We-Su 07:00-22:00",
+      "website": "",
+      "phone": "",
+      "cuisine": [
+        "bokit",
+        "agoulou",
+        "panini"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "fast_food"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c78ffea3ea6190af507a",
+      "name": "My Bubble",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 16.2423263,
+      "lng": -61.5583011,
+      "distanceFromTerminalMeters": 2112,
+      "distanceFromDefaultTerminalMeters": 2112,
+      "minDistanceFromAnyTerminalMeters": 2112,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Fr 11:00-18:00",
+      "website": "",
+      "phone": "+590 690 982 888",
+      "cuisine": [
+        "bubble_tea"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d167b8497004f50d42dd",
+      "name": "Jet Fry",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "fast_food",
+      "lat": 16.2523344,
+      "lng": -61.5872214,
+      "distanceFromTerminalMeters": 5378,
+      "distanceFromDefaultTerminalMeters": 5378,
+      "minDistanceFromAnyTerminalMeters": 5378,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Immeuble Charleston Boulevard Destreland",
+      "openingHours": "Mo-Su 11:00-21:00",
+      "website": "jetfry.fr",
+      "phone": "+590 590 580 491",
+      "cuisine": [
+        "burger",
+        "pizza",
+        "chicken"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "fast_food"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/faae4db3529b82b675f5",
+      "name": "Café de France",
+      "nameEnglish": "Café de France",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 16.2374929,
+      "lng": -61.5344308,
+      "distanceFromTerminalMeters": 494,
+      "distanceFromDefaultTerminalMeters": 494,
+      "minDistanceFromAnyTerminalMeters": 494,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [
+        "sandwich",
+        "french"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "cafe",
+        "shop": "bakery"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/156422be5575d8ae6ad5",
+      "name": "Le Café Papier",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 16.2444296,
+      "lng": -61.5688709,
+      "distanceFromTerminalMeters": 3264,
+      "distanceFromDefaultTerminalMeters": 3264,
+      "minDistanceFromAnyTerminalMeters": 3264,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Fr 07:00-16:00; Sa 07:30-13:00",
+      "website": "https://linktr.ee/lecafepapier",
+      "phone": "+590 590 803 523",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/e128ec14117a1a044e82",
+      "name": "O P'tit Barjau",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 16.2390166,
+      "lng": -61.53694,
+      "distanceFromTerminalMeters": 210,
+      "distanceFromDefaultTerminalMeters": 210,
+      "minDistanceFromAnyTerminalMeters": 210,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "47 Rue Armand Barbès",
+      "openingHours": "",
+      "website": "",
       "phone": "",
       "cuisine": [],
       "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "",
+      "wikipedia": "",
       "osmTags": {
-        "shop": "mall"
+        "amenity": "cafe"
       }
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/d23a514588c837e9d3d7",
+      "sourceId": "osm/generated/c6757492e0de4ce4b17b",
+      "name": "Select Café",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 16.2402629,
+      "lng": -61.5674886,
+      "distanceFromTerminalMeters": 3059,
+      "distanceFromDefaultTerminalMeters": 3059,
+      "minDistanceFromAnyTerminalMeters": 3059,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Rue Ferdinand Forest, Baie-Mahault, 97122",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [
+        "sandwich"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/9ce35c561d8fbd871ddf",
+      "name": "Crousty's",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "bakery",
+      "lat": 16.2431674,
+      "lng": -61.5596906,
+      "distanceFromTerminalMeters": 2276,
+      "distanceFromDefaultTerminalMeters": 2276,
+      "minDistanceFromAnyTerminalMeters": 2276,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Boulevard Marquisat de Houëlbourg, Baie-Mahault, 97122",
+      "openingHours": "Mo-Fr 06:00-15:30",
+      "website": "https://croustys-app.zerosix.com/",
+      "phone": "+590 590 320 269",
+      "cuisine": [
+        "sandwich"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "shop": "bakery"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/0756afabcba8ad4c062c",
       "name": "Destreland",
       "nameEnglish": "Destreland shopping center",
       "category": "shopping",
       "subcategory": "mall",
       "lat": 16.2533076,
       "lng": -61.5902468,
-      "distanceFromTerminalMeters": 6934,
-      "distanceFromDefaultTerminalMeters": 6934,
-      "minDistanceFromAnyTerminalMeters": 6934,
+      "distanceFromTerminalMeters": 5719,
+      "distanceFromDefaultTerminalMeters": 5719,
+      "minDistanceFromAnyTerminalMeters": 5719,
       "nearestTerminalId": "ports-json-anchor",
       "address": "Baie-Mahault, 97122",
       "openingHours": "Mo-Fr 08:30-20:30; Sa 08:30-21:00; Su 08:30-12:30",
-      "website": "https://www.destreland.com/",
+      "website": "https://www.amorino.com/stores/guadeloupe-destreland",
       "phone": "+590 590 38 53 85",
       "cuisine": [],
       "wheelchair": "yes",
       "brand": "",
       "description": "Destreland est l'un des plus grand centres commerciaux des petites Antilles avec une superficie total de 50 000m².",
+      "wikidata": "Q3024736",
+      "wikipedia": "fr:Destreland",
       "osmTags": {
         "shop": "mall"
+      },
+      "fame": 1
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/08fc82134a7b1038f7fc",
+      "name": "Mby.fashion",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "clothes",
+      "lat": 16.2351647,
+      "lng": -61.5370523,
+      "distanceFromTerminalMeters": 439,
+      "distanceFromDefaultTerminalMeters": 439,
+      "minDistanceFromAnyTerminalMeters": 439,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Th 09:30-17:30; Fr 09:30-18:00; Sa 10:00-17:00",
+      "website": "https://www.instagram.com/mby.fashion/",
+      "phone": "+590 690 68 81 47",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "shop": "clothes"
       }
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/a6a64bd703905d3e8a94",
-      "name": "Marché de la Darse (poissons)",
+      "sourceId": "osm/generated/d428a5748a26e903ef01",
+      "name": "Jay Kut Shop",
       "nameEnglish": "",
       "category": "shopping",
-      "subcategory": "marketplace",
-      "lat": 16.2359091,
-      "lng": -61.5341678,
-      "distanceFromTerminalMeters": 794,
-      "distanceFromDefaultTerminalMeters": 794,
-      "minDistanceFromAnyTerminalMeters": 794,
+      "subcategory": "sports",
+      "lat": 16.2423614,
+      "lng": -61.5581008,
+      "distanceFromTerminalMeters": 2092,
+      "distanceFromDefaultTerminalMeters": 2092,
+      "minDistanceFromAnyTerminalMeters": 2092,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Fr 09:00-18:00,Sa 09:00-13:00",
+      "website": "https://jaykutshop.sumupstore.com/",
+      "phone": "+590 590 320 146",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Fitness Musculation Diététique Coaching",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "shop": "sports"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b30c077c31afaa614d68",
+      "name": "Boulangerie So",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "bakery",
+      "lat": 16.2424869,
+      "lng": -61.558379,
+      "distanceFromTerminalMeters": 2124,
+      "distanceFromDefaultTerminalMeters": 2124,
+      "minDistanceFromAnyTerminalMeters": 2124,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "14 Boulevard Marquisat de Houëlbourg",
+      "openingHours": "Mo-Fr 06:00-18:00; Sa 06:00-17:00",
+      "website": "https://www.boulangerieso.fr/",
+      "phone": "+590 590 250 004",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "shop": "bakery"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/dcbac2d2e08419dd004d",
+      "name": "Jogger's Sport Running Conseil Les Abymes",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "sports",
+      "lat": 16.245546,
+      "lng": -61.5304382,
+      "distanceFromTerminalMeters": 1180,
+      "distanceFromDefaultTerminalMeters": 1180,
+      "minDistanceFromAnyTerminalMeters": 1180,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Fr 09:00-18:00; Sa 09:00-17:00",
+      "website": "https://www.joggers-sport.fr/",
+      "phone": "+590 590 48 67 18",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "shop": "sports"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/9ed6e219f80768b8cb6f",
+      "name": "Les Délices De Mimimalo",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "bakery",
+      "lat": 16.249532,
+      "lng": -61.5323661,
+      "distanceFromTerminalMeters": 1391,
+      "distanceFromDefaultTerminalMeters": 1391,
+      "minDistanceFromAnyTerminalMeters": 1391,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Tu-Sa 08:00-17:00; Su 10:00-13:00",
+      "website": "https://delicesdemimimalo.com/",
+      "phone": "+590 690 36 83 84",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "shop": "bakery"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/934e7c49e08765e8387f",
+      "name": "Trinitas",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "clothes",
+      "lat": 16.2517191,
+      "lng": -61.5406981,
+      "distanceFromTerminalMeters": 1460,
+      "distanceFromDefaultTerminalMeters": 1460,
+      "minDistanceFromAnyTerminalMeters": 1460,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Fr 08:30-17:30; Sa 09:00-14:00",
+      "website": "https://www.trinitas-gp.com/",
+      "phone": "+590 690 812 995",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "shop": "clothes"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/3b65735db61bac801825",
+      "name": "Jolie Joly",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "clothes",
+      "lat": 16.2405851,
+      "lng": -61.5542635,
+      "distanceFromTerminalMeters": 1655,
+      "distanceFromDefaultTerminalMeters": 1655,
+      "minDistanceFromAnyTerminalMeters": 1655,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Le Village de Jarry, Baie-Mahault, 97122",
+      "openingHours": "",
+      "website": "https://levillagedejarry.com/petite-jolie/",
+      "phone": "+590 590 800 970",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "shop": "clothes"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/79283ef78b56950da8b7",
+      "name": "Queens",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "clothes",
+      "lat": 16.2406037,
+      "lng": -61.5546594,
+      "distanceFromTerminalMeters": 1698,
+      "distanceFromDefaultTerminalMeters": 1698,
+      "minDistanceFromAnyTerminalMeters": 1698,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Le Village de Jarry, Baie-Mahault, 97122",
+      "openingHours": "",
+      "website": "https://levillagedejarry.com/queens/",
+      "phone": "+590 590 102 796",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "shop": "clothes"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b4fd5cbc7de4e8a531d9",
+      "name": "Isabelor",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "jewelry",
+      "lat": 16.2389383,
+      "lng": -61.536373,
+      "distanceFromTerminalMeters": 269,
+      "distanceFromDefaultTerminalMeters": 269,
+      "minDistanceFromAnyTerminalMeters": 269,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Fr 08:30-14:30; Sa 08:30-13:30",
+      "website": "",
+      "phone": "+590 590 90 29 63",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "shop": "jewelry"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/fa691aa6dcbe6a0a8523",
+      "name": "Plage de la Datcha",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "beach",
+      "lat": 16.2047339,
+      "lng": -61.4947945,
+      "distanceFromTerminalMeters": 6035,
+      "distanceFromDefaultTerminalMeters": 6035,
+      "minDistanceFromAnyTerminalMeters": 6035,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Plage de la Datcha",
+      "wikidata": "Q17177019",
+      "wikipedia": "",
+      "osmTags": {
+        "natural": "beach",
+        "tourism": "attraction"
+      },
+      "fame": 1
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/7cfe5a094ee2d76b1995",
+      "name": "Plage de Bas-du-Fort",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "beach",
+      "lat": 16.2140114,
+      "lng": -61.5237064,
+      "distanceFromTerminalMeters": 3188,
+      "distanceFromDefaultTerminalMeters": 3188,
+      "minDistanceFromAnyTerminalMeters": 3188,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "La Plage de Bas du Fort est une plage de sable blanc situé dans le quartier de Bas du Fort. C'est aussi la Plage la plus proche de la ville de Pointe-à-Pitre",
+      "wikidata": "Q124805065",
+      "wikipedia": "",
+      "osmTags": {
+        "natural": "beach"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/8d6f73e1ec05910f45ac",
+      "name": "Plage de l'Anse Tabarin",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "beach",
+      "lat": 16.2054591,
+      "lng": -61.5000744,
+      "distanceFromTerminalMeters": 5553,
+      "distanceFromDefaultTerminalMeters": 5553,
+      "minDistanceFromAnyTerminalMeters": 5553,
       "nearestTerminalId": "ports-json-anchor",
       "address": "",
       "openingHours": "",
@@ -1594,47 +1860,295 @@
       "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "Q113840384",
+      "wikipedia": "fr:Plage de l'Anse Tabarin",
       "osmTags": {
-        "amenity": "marketplace"
-      }
+        "natural": "beach"
+      },
+      "fame": 1
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/d2c7384b1929edae69bf",
-      "name": "Marché central couvert",
+      "sourceId": "osm/generated/b077b6fe3416776e283f",
+      "name": "Plage de la Caye d'Argent",
       "nameEnglish": "",
-      "category": "shopping",
-      "subcategory": "marketplace",
-      "lat": 16.2373248,
-      "lng": -61.53662,
-      "distanceFromTerminalMeters": 1078,
-      "distanceFromDefaultTerminalMeters": 1078,
-      "minDistanceFromAnyTerminalMeters": 1078,
+      "category": "outdoors",
+      "subcategory": "beach",
+      "lat": 16.2163816,
+      "lng": -61.5274862,
+      "distanceFromTerminalMeters": 2764,
+      "distanceFromDefaultTerminalMeters": 2764,
+      "minDistanceFromAnyTerminalMeters": 2764,
       "nearestTerminalId": "ports-json-anchor",
       "address": "",
-      "openingHours": "Mo, We, Fr 07:00-17:00",
+      "openingHours": "",
       "website": "",
       "phone": "",
       "cuisine": [],
       "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "",
+      "wikipedia": "",
       "osmTags": {
-        "amenity": "marketplace"
+        "natural": "beach"
       }
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/e8873e1a776198b744ff",
-      "name": "Comité du tourisme des îles de Guadeloupe",
+      "sourceId": "osm/generated/6458a04da63863ef525f",
+      "name": "Morne Labrousse",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "peak",
+      "lat": 16.2212494,
+      "lng": -61.5093803,
+      "distanceFromTerminalMeters": 3700,
+      "distanceFromDefaultTerminalMeters": 3700,
+      "minDistanceFromAnyTerminalMeters": 3700,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "natural": "peak"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/1375d9c5c55c09d5fc57",
+      "name": "Parc Paysager du Calvaire",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 16.2055788,
+      "lng": -61.4961433,
+      "distanceFromTerminalMeters": 5864,
+      "distanceFromDefaultTerminalMeters": 5864,
+      "minDistanceFromAnyTerminalMeters": 5864,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Avenue de Montauban, Le Gosier, 97190",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/4243eba2d7118549d639",
+      "name": "Plage de Grand Baie",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "beach",
+      "lat": 16.2122767,
+      "lng": -61.5075236,
+      "distanceFromTerminalMeters": 4455,
+      "distanceFromDefaultTerminalMeters": 4455,
+      "minDistanceFromAnyTerminalMeters": 4455,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "natural": "beach"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/cd7d280ec71108e09005",
+      "name": "La Source de Poucet",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "spring",
+      "lat": 16.2203393,
+      "lng": -61.5053481,
+      "distanceFromTerminalMeters": 4122,
+      "distanceFromDefaultTerminalMeters": 4122,
+      "minDistanceFromAnyTerminalMeters": 4122,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "La Source de Poucet",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "natural": "spring"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/28088ca70d14f8cb131a",
+      "name": "Parc paysager Victor Servan Soliman",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 16.201306,
+      "lng": -61.6089941,
+      "distanceFromTerminalMeters": 8563,
+      "distanceFromDefaultTerminalMeters": 8563,
+      "minDistanceFromAnyTerminalMeters": 8563,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Petit-Bourg, 97170",
+      "openingHours": "24/7",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d7aac535f7d183e3b15f",
+      "name": "Point de vue de Bovis",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "viewpoint",
+      "lat": 16.1889706,
+      "lng": -61.5903217,
+      "distanceFromTerminalMeters": 7794,
+      "distanceFromDefaultTerminalMeters": 7794,
+      "minDistanceFromAnyTerminalMeters": 7794,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "tourism": "viewpoint"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/fa48e0886626bd739572",
+      "name": "Arboretum de Montébello",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "garden",
+      "lat": 16.1775181,
+      "lng": -61.6031634,
+      "distanceFromTerminalMeters": 9664,
+      "distanceFromDefaultTerminalMeters": 9664,
+      "minDistanceFromAnyTerminalMeters": 9664,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "leisure": "garden"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/1f7176b091c39afcb337",
+      "name": "Aire de Jeux Place Dominique Larifla",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "playground",
+      "lat": 16.1918748,
+      "lng": -61.5908971,
+      "distanceFromTerminalMeters": 7613,
+      "distanceFromDefaultTerminalMeters": 7613,
+      "minDistanceFromAnyTerminalMeters": 7613,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "+590 590 95 38 00",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/3a0a81e9c7b43acb8966",
+      "name": "Marina Rentals",
+      "nameEnglish": "",
+      "category": "essentials",
+      "subcategory": "car_rental",
+      "lat": 16.2204755,
+      "lng": -61.5278796,
+      "distanceFromTerminalMeters": 2343,
+      "distanceFromDefaultTerminalMeters": 2343,
+      "minDistanceFromAnyTerminalMeters": 2343,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Fr 08:00-17:00; Sa 08:30-12:00",
+      "website": "https://marina-rentals.fr/",
+      "phone": "+590 590 240 603",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Agent CarGo",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "car_rental"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/03dd95b49a3834b95df3",
+      "name": "Maison Karukéra",
       "nameEnglish": "",
       "category": "essentials",
       "subcategory": "visitor_information",
       "lat": 16.2370298,
       "lng": -61.5351303,
-      "distanceFromTerminalMeters": 954,
-      "distanceFromDefaultTerminalMeters": 954,
-      "minDistanceFromAnyTerminalMeters": 954,
+      "distanceFromTerminalMeters": 442,
+      "distanceFromDefaultTerminalMeters": 442,
+      "minDistanceFromAnyTerminalMeters": 442,
       "nearestTerminalId": "ports-json-anchor",
       "address": "5 Square de la Banque, Pointe-à-Pitre",
       "openingHours": "",
@@ -1644,27 +2158,328 @@
       "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "",
+      "wikipedia": "",
       "osmTags": {
         "tourism": "information"
       }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f69e3d85e51e78c4b9f7",
+      "name": "Car-2-Europe Guadeloupe",
+      "nameEnglish": "",
+      "category": "essentials",
+      "subcategory": "car_rental",
+      "lat": 16.2356417,
+      "lng": -61.5599367,
+      "distanceFromTerminalMeters": 2273,
+      "distanceFromDefaultTerminalMeters": 2273,
+      "minDistanceFromAnyTerminalMeters": 2273,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "232 Rue de la Chapelle, Baie-Mahault, 97122",
+      "openingHours": "Mo-Fr 09:30-12:30, 15:00-17:30",
+      "website": "",
+      "phone": "+590 690 80 85 00",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "car_rental"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/472ccf0b8138134954b4",
+      "name": "Coco Mango",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "clothes",
+      "lat": 16.2411007,
+      "lng": -61.5723657,
+      "distanceFromTerminalMeters": 3585,
+      "distanceFromDefaultTerminalMeters": 3585,
+      "minDistanceFromAnyTerminalMeters": 3585,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Cœur de Jarry",
+      "openingHours": "Tu-Sa 09:30-18:30",
+      "website": "http://coco-mango.fr",
+      "phone": "+590 590 920 941",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "shop": "clothes"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/910eda7d56d8cf98940b",
+      "name": "bonhomme de bois",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "toys",
+      "lat": 16.2384495,
+      "lng": -61.5761737,
+      "distanceFromTerminalMeters": 3981,
+      "distanceFromDefaultTerminalMeters": 3981,
+      "minDistanceFromAnyTerminalMeters": 3981,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Rue Amédée Barbotteau, Baie-Mahault, 97122",
+      "openingHours": "Mo-Sa 09:00-18:00",
+      "website": "https://www.bonhommedebois.com/bonhommedebois-guadeloupe",
+      "phone": "+590 590 530 305",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "shop": "toys"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/0cf99022a9d53f253ad6",
+      "name": "Librairie Générale by Caribbean Culture House",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "books",
+      "lat": 16.2411494,
+      "lng": -61.562252,
+      "distanceFromTerminalMeters": 2510,
+      "distanceFromDefaultTerminalMeters": 2510,
+      "minDistanceFromAnyTerminalMeters": 2510,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Impasse Albert Richardson, Baie-Mahault, 97122",
+      "openingHours": "",
+      "website": "https://www.librairiegenerale.fr/",
+      "phone": "+590590698656",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "shop": "books"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/0aa7d3cdf46bf944f02e",
+      "name": "The One - Foot Shoes",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "sports",
+      "lat": 16.254825,
+      "lng": -61.5564743,
+      "distanceFromTerminalMeters": 2596,
+      "distanceFromDefaultTerminalMeters": 2596,
+      "minDistanceFromAnyTerminalMeters": 2596,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1 Boulevard des Armées, Baie-Mahault, 97122",
+      "openingHours": "Mo-Sa 09:30-20:00; Su 10:00-13:00",
+      "website": "",
+      "phone": "+590 690 96 56 86",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "shop": "sports"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/4bb1248f79f83bfc583b",
+      "name": "Milénis",
+      "nameEnglish": "milenis shopping center",
+      "category": "shopping",
+      "subcategory": "mall",
+      "lat": 16.2656386,
+      "lng": -61.5128143,
+      "distanceFromTerminalMeters": 4088,
+      "distanceFromDefaultTerminalMeters": 4088,
+      "minDistanceFromAnyTerminalMeters": 4088,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Sa 07:30-21:00; Su 08:00-12:30",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "Milenis à une superficie total de 24 000 m² environ.",
+      "wikidata": "Q3314570",
+      "wikipedia": "",
+      "osmTags": {
+        "shop": "mall"
+      },
+      "fame": 1
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/9314562ed7f0e6879d57",
+      "name": "C'Wok",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 16.2402252,
+      "lng": -61.5645469,
+      "distanceFromTerminalMeters": 2745,
+      "distanceFromDefaultTerminalMeters": 2745,
+      "minDistanceFromAnyTerminalMeters": 2745,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "26 Rue Ferdinand Forest",
+      "openingHours": "Mo-Sa 12:00-14:30,19:00-22:30",
+      "website": "",
+      "phone": "+590 590 386 868",
+      "cuisine": [
+        "buffet",
+        "chinese",
+        "korean",
+        "regional",
+        "asian"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ac88cad977f84f3ada3f",
+      "name": "La Rose Rouge",
+      "nameEnglish": "La Rose Rouge",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 16.2401847,
+      "lng": -61.5645883,
+      "distanceFromTerminalMeters": 2749,
+      "distanceFromDefaultTerminalMeters": 2749,
+      "minDistanceFromAnyTerminalMeters": 2749,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "26 Rue Ferdinand Forest, 97122",
+      "openingHours": "Mo-Sa 11:00-15:30, 18:00-22:30",
+      "website": "",
+      "phone": "+590 590 386 868",
+      "cuisine": [
+        "chinese",
+        "japanese"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/e9b12e159dc96abfa619",
+      "name": "Pharmacie de Moudong",
+      "nameEnglish": "",
+      "category": "essentials",
+      "subcategory": "pharmacy",
+      "lat": 16.2404929,
+      "lng": -61.5831013,
+      "distanceFromTerminalMeters": 4725,
+      "distanceFromDefaultTerminalMeters": 4725,
+      "minDistanceFromAnyTerminalMeters": 4725,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "5",
+      "openingHours": "Mo-Fr 07:30-19:30; Sa 08:00-16:00",
+      "website": "https://www.pharmaciemoudong.com/",
+      "phone": "+590 590 26 42 75",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "pharmacy"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ae96b4ad1bee6db5a0e8",
+      "name": "Mairie de Pointe-à-Pitre karu'vélo",
+      "nameEnglish": "",
+      "category": "essentials",
+      "subcategory": "bicycle_rental",
+      "lat": 16.2407443,
+      "lng": -61.5335759,
+      "distanceFromTerminalMeters": 610,
+      "distanceFromDefaultTerminalMeters": 610,
+      "minDistanceFromAnyTerminalMeters": 610,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "karuvelo.ecovelo.mobi0",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "no",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "bicycle_rental"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f7417a7d9ed33b9ca6f3",
+      "name": "Pimp my woke",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "fast_food",
+      "lat": 16.243366,
+      "lng": -61.5600223,
+      "distanceFromTerminalMeters": 2316,
+      "distanceFromDefaultTerminalMeters": 2316,
+      "minDistanceFromAnyTerminalMeters": 2316,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Th 12:00-00:00; Fr, Sa 19:00-04:00",
+      "website": "",
+      "phone": "+590690924491",
+      "cuisine": [
+        "asian",
+        "thai"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "fast_food"
+      }
     }
   ],
-  "portAnchor": {
-    "id": "ports-json-anchor",
-    "name": "POINTE A PITRE Port",
-    "lat": 16.23,
-    "lng": -61.53,
-    "address": "Pointe-à-Pitre, Guadeloupe, Guadeloupe",
-    "source": "ports.json",
-    "sourceId": "",
-    "score": 0,
-    "slug": "pointe-a-pitre-port"
-  },
+  "gemSuggestions": [],
   "terminalResolution": {
     "status": "resolved",
-    "method": "terminal_review",
+    "method": "cruise-ports",
     "verified": true,
-    "reviewedAt": "2026-09-28",
     "notes": "Pointe-a-Pitre cruise terminal is correct; the rest are unrelated."
   }
 }

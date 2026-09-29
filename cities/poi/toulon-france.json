@@ -1,15 +1,4 @@
 {
-  "schemaVersion": 5,
-  "catalogType": "curation-candidates",
-  "generatedAt": "2026-07-30T08:47:26.513Z",
-  "source": "openstreetmap",
-  "sourceExtract": "provence-alpes-cote-d-azur-latest.osm.pbf",
-  "radiusMeters": 10000,
-  "port": {
-    "id": "toulon-france",
-    "city": "Toulon",
-    "country": "France"
-  },
   "defaultTerminalId": "review/toulon-france/terminal-croisieres-de-la-seyne-sur-mer",
   "terminal": {
     "id": "review/toulon-france/terminal-croisieres-de-la-seyne-sur-mer",
@@ -18,9 +7,8 @@
     "lng": 5.898063,
     "terminalType": "passenger_cruise_terminal",
     "source": "terminal_review",
-    "sourceUrls": [],
-    "verified": true,
-    "sourceId": "review/toulon-france/terminal-croisieres-de-la-seyne-sur-mer"
+    "sourceId": "review/toulon-france/terminal-croisieres-de-la-seyne-sur-mer",
+    "verified": true
   },
   "terminals": [
     {
@@ -30,494 +18,340 @@
       "lng": 5.898063,
       "terminalType": "passenger_cruise_terminal",
       "source": "terminal_review",
-      "sourceUrls": [],
-      "verified": true,
-      "sourceId": "review/toulon-france/terminal-croisieres-de-la-seyne-sur-mer"
+      "sourceId": "review/toulon-france/terminal-croisieres-de-la-seyne-sur-mer",
+      "verified": true
     },
     {
       "id": "osm/generated/be9acc65293c16a8fa7c",
       "name": "Ponton Toulon",
-      "nameEnglish": "",
       "lat": 43.120064,
       "lng": 5.930745,
-      "address": "",
-      "source": "verified_terminal_candidate",
-      "sourceId": "osm/generated/be9acc65293c16a8fa7c",
       "terminalType": "passenger_cruise_terminal",
-      "verified": true,
+      "source": "verified_terminal_candidate",
       "notes": "Accepted Ponton Toulon as the best supplied city-side landing point. It closely matches the central Toulon waterfront where tendered and centrally berthed cruise passengers enter the city.",
-      "sourceUrls": [],
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/be9acc65293c16a8fa7c"
-      ],
-      "osmTags": {
-        "alt_name": "Station Maritime",
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "public_transport": "stop_position"
-      },
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ]
-    }
-  ],
-  "terminalCandidateRadiusMeters": 5000,
-  "terminalCandidates": [
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/faf74066a9957e6f5429",
-      "name": "Ponton Tamaris",
-      "nameEnglish": "",
-      "lat": 43.0907488,
-      "lng": 5.9013132,
-      "distanceFromPortMeters": 1833,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "alt_name": "Tamaris",
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "operator": "Régie Mixte des Transports Toulonnais (RMTT)",
-        "public_transport": "stop_position"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/faf74066a9957e6f5429"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/0a7ae01e71a5ce225558",
-      "name": "Quai d'Honneur",
-      "nameEnglish": "",
-      "lat": 43.1159959,
-      "lng": 5.9265843,
-      "distanceFromPortMeters": 1857,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "public_transport": "stop_position"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/0a7ae01e71a5ce225558"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/b9bf2d910be3755db042",
-      "name": "(unnamed maritime feature)",
-      "nameEnglish": "",
-      "lat": 43.1159412,
-      "lng": 5.9299693,
-      "distanceFromPortMeters": 1949,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/b9bf2d910be3755db042"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/90af2db8d3889e0d85e2",
-      "name": "(unnamed maritime feature)",
-      "nameEnglish": "",
-      "lat": 43.1153983,
-      "lng": 5.9336143,
-      "distanceFromPortMeters": 2038,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/90af2db8d3889e0d85e2"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/fa11c35c926ff30e05c2",
-      "name": "(unnamed maritime feature)",
-      "nameEnglish": "",
-      "lat": 43.1172156,
-      "lng": 5.9293695,
-      "distanceFromPortMeters": 2060,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "operator": "Corsica Ferries",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/fa11c35c926ff30e05c2"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/a775f8b4746dc0db67fa",
-      "name": "P.E.M. Pôle Ecoles Méditerranée",
-      "nameEnglish": "",
-      "lat": 43.0823075,
-      "lng": 5.9301469,
-      "distanceFromPortMeters": 2133,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "alt_name": "Saint-Mandrier",
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "operator": "Régie Mixte des Transports Toulonnais (RMTT)",
-        "public_transport": "stop_position"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/a775f8b4746dc0db67fa"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/4a40f8a677a6253a0b4a",
-      "name": "(unnamed maritime feature)",
-      "nameEnglish": "",
-      "lat": 43.1171658,
-      "lng": 5.9334852,
-      "distanceFromPortMeters": 2200,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "description": "Do not subscribe to Seafy offer at 5 EUR, it's a scam, the WiFi offer is without internet access.",
-        "ferry": "yes",
-        "operator": "Corsica Ferries",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/4a40f8a677a6253a0b4a"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/006afbe6162b21399d60",
-      "name": "Espace marine 8M",
-      "nameEnglish": "",
-      "lat": 43.1031289,
-      "lng": 5.8919982,
-      "distanceFromPortMeters": 2300,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "operator": "Régie Mixte des Transports Toulonnais (RMTT)",
-        "public_transport": "stop_position"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/006afbe6162b21399d60"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/4996402fa4ac3ddf429e",
-      "name": "Ponton Président",
-      "nameEnglish": "",
-      "lat": 43.0791935,
-      "lng": 5.9251844,
-      "distanceFromPortMeters": 2352,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "cargo": "passengers",
-        "ferry": "yes",
-        "operator": "Régie Mixte des Transports Toulonnais (RMTT)",
-        "public_transport": "stop_position"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/4996402fa4ac3ddf429e"
-      ]
-    },
-    {
-      "source": "openstreetmap",
       "sourceId": "osm/generated/be9acc65293c16a8fa7c",
-      "name": "Ponton Toulon",
-      "nameEnglish": "",
-      "lat": 43.1200637,
-      "lng": 5.9307453,
-      "distanceFromPortMeters": 2395,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "alt_name": "Station Maritime",
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "public_transport": "stop_position"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/be9acc65293c16a8fa7c"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/13fca339b73dfecb5c7d",
-      "name": "Ponton St-Mandrier",
-      "nameEnglish": "",
-      "lat": 43.0781749,
-      "lng": 5.9277379,
-      "distanceFromPortMeters": 2507,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "alt_name": "Saint-Mandrier",
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "operator": "Régie Mixte des Transports Toulonnais (RMTT)",
-        "public_transport": "stop_position"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/13fca339b73dfecb5c7d"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/02743b03c7da1ce073a4",
-      "name": "Saint-Mandrier-sur-Mer",
-      "nameEnglish": "",
-      "lat": 43.077918,
-      "lng": 5.9286736,
-      "distanceFromPortMeters": 2554,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/02743b03c7da1ce073a4"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/aa9d6ef2ace6aa381487",
-      "name": "Ponton Sablettes",
-      "nameEnglish": "",
-      "lat": 43.0807365,
-      "lng": 5.8969073,
-      "distanceFromPortMeters": 2847,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "alt_name": "Sablettes",
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "operator": "Régie Mixte des Transports Toulonnais (RMTT)",
-        "public_transport": "stop_position"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/aa9d6ef2ace6aa381487"
-      ]
-    },
-    {
-      "source": "nominatim",
-      "sourceId": "osm/node/5316386523",
-      "osmType": "node",
-      "osmId": "5316386523",
-      "name": "Maif Toulon",
-      "nameEnglish": "",
-      "lat": 43.1179516,
-      "lng": 5.9475849,
-      "distanceFromPortMeters": 3000,
-      "address": "Maif Toulon, Rue Général Michel Audéoud, Lamalgue, Toulon, Var, Provence-Alpes-Côte d'Azur, France métropolitaine, 83071, France",
-      "displayName": "Maif Toulon, Rue Général Michel Audéoud, Lamalgue, Toulon, Var, Provence-Alpes-Côte d'Azur, France métropolitaine, 83071, France",
-      "query": "TOULON Port, Toulon, France",
-      "matchedBy": [
-        "Nominatim query: TOULON Port, Toulon, France"
-      ],
-      "osmTags": {},
-      "sources": [
-        "nominatim"
-      ],
-      "sourceIds": [
-        "osm/node/5316386523"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/4595f5fdfcc381a74610",
-      "name": "La Seyne Ponton",
-      "nameEnglish": "",
-      "lat": 43.10232,
-      "lng": 5.8818913,
-      "distanceFromPortMeters": 3105,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "public_transport": "stop_position"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/4595f5fdfcc381a74610"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/803e1eb93caeafae4368",
-      "name": "Ponton La Seyne",
-      "nameEnglish": "",
-      "lat": 43.1016781,
-      "lng": 5.8815086,
-      "distanceFromPortMeters": 3131,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "operator": "Réseau Mistral"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/803e1eb93caeafae4368"
-      ]
+      "verified": true
     }
   ],
+  "schemaVersion": 5,
+  "catalogType": "curation-candidates",
+  "generatedAt": "2026-09-29T05:47:50.440Z",
+  "source": "openstreetmap",
+  "sourceExtract": "provence-alpes-cote-d-azur-latest.osm.pbf",
+  "radiusMeters": 10000,
+  "port": {
+    "id": "toulon-france",
+    "city": "Toulon",
+    "country": "France"
+  },
+  "portAnchor": {
+    "id": "ports-json-anchor",
+    "name": "Terminal Croisieres de La Seyne-sur-Mer",
+    "lat": 43.104998,
+    "lng": 5.898063,
+    "address": "Toulon, Var, France",
+    "source": "ports.json",
+    "sourceId": "",
+    "score": 0,
+    "slug": "terminal-croisieres-de-la-seyne-sur-mer"
+  },
   "counts": {
-    "attraction": 17,
-    "outdoors": 9,
-    "food_drink": 12,
-    "shopping": 1,
-    "essentials": 1
+    "attraction": 22,
+    "food_drink": 28,
+    "shopping": 17,
+    "outdoors": 12,
+    "essentials": 4
   },
   "pois": [
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/490d57582a3897b09bcf",
-      "name": "Musée Balaguier",
+      "sourceId": "osm/generated/658ff5eef825047ca79b",
+      "name": "Les Halles de Toulon",
       "nameEnglish": "",
-      "category": "attraction",
-      "subcategory": "museum",
-      "lat": 43.0943859,
-      "lng": 5.9109753,
-      "distanceFromTerminalMeters": 963,
-      "distanceFromDefaultTerminalMeters": 963,
-      "minDistanceFromAnyTerminalMeters": 963,
+      "category": "shopping",
+      "subcategory": "marketplace",
+      "lat": 43.1222425,
+      "lng": 5.934006,
+      "distanceFromTerminalMeters": 3491,
+      "distanceFromDefaultTerminalMeters": 3491,
+      "minDistanceFromAnyTerminalMeters": 3491,
       "nearestTerminalId": "ports-json-anchor",
-      "address": "",
-      "openingHours": "Sep-Jun Tu 14:00-18:00; Sep-Jun We-Su 10:00-12:00,14:00-18:00; Jul-Aug Tu 15:00-19:00; Jul-Aug We-Su 10:00-12:00,15:00-19:00",
-      "website": "",
+      "address": "28 Place Vincent Raspail, 83000",
+      "openingHours": "Tu,We 08:30-15:30,17:30-21:00; Th 08:30-15:30,17:00-22:30; Fr,Sa 08:30-22:30; Su 08:30-15:30",
+      "website": "https://www.halles-de-toulon.fr/",
       "phone": "",
       "cuisine": [],
-      "wheelchair": "",
+      "wheelchair": "yes",
       "brand": "",
       "description": "",
+      "wikidata": "",
+      "wikipedia": "",
       "osmTags": {
-        "tourism": "museum"
-      }
+        "amenity": "marketplace"
+      },
+      "curated": true,
+      "gem": true
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/eca950bd8778184bd642",
-      "name": "Laborieux",
+      "sourceId": "osm/generated/a54a28725cad21347a9e",
+      "name": "Le Bistrot de Gisèle",
       "nameEnglish": "",
-      "category": "attraction",
-      "subcategory": "museum",
-      "lat": 43.0948246,
-      "lng": 5.910275,
-      "distanceFromTerminalMeters": 977,
-      "distanceFromDefaultTerminalMeters": 977,
-      "minDistanceFromAnyTerminalMeters": 977,
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 43.124705,
+      "lng": 5.9302486,
+      "distanceFromTerminalMeters": 3410,
+      "distanceFromDefaultTerminalMeters": 3410,
+      "minDistanceFromAnyTerminalMeters": 3410,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "3 rue Bertholet, Toulon, 83000",
+      "openingHours": "Mo-Sa 08:00-17:00, Fr 19:00-23:00",
+      "website": "https://lebistrotdegisele.wordpress.com/",
+      "phone": "+33 7 69 96 14 76",
+      "cuisine": [
+        "bistro"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "cafe"
+      },
+      "curated": true,
+      "gem": true
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/02bf1332c4517da1c288",
+      "name": "Murato Café",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 43.1013874,
+      "lng": 5.8943337,
+      "distanceFromTerminalMeters": 503,
+      "distanceFromDefaultTerminalMeters": 503,
+      "minDistanceFromAnyTerminalMeters": 503,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Place des Mouissèques, La Seyne-sur-Mer, 83500",
+      "openingHours": "",
+      "website": "https://www.facebook.com/muratocafe/",
+      "phone": "",
+      "cuisine": [
+        "sandwich"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "cafe"
+      },
+      "curated": true,
+      "gem": true
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/603d8ab7978a792df2f8",
+      "name": "Mont Faron",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "peak",
+      "lat": 43.1497416,
+      "lng": 5.9510821,
+      "distanceFromTerminalMeters": 6578,
+      "distanceFromDefaultTerminalMeters": 6578,
+      "minDistanceFromAnyTerminalMeters": 6578,
       "nearestTerminalId": "ports-json-anchor",
       "address": "",
-      "openingHours": "We, Th, Su 09:00-12:00",
+      "openingHours": "",
       "website": "",
       "phone": "",
       "cuisine": [],
       "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "Q2983361",
+      "wikipedia": "",
+      "osmTags": {
+        "natural": "peak"
+      },
+      "fame": 15
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ad98151f86e479fea450",
+      "name": "FNRS III",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 43.1036432,
+      "lng": 5.9257029,
+      "distanceFromTerminalMeters": 2249,
+      "distanceFromDefaultTerminalMeters": 2249,
+      "minDistanceFromAnyTerminalMeters": 2249,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q1351333",
+      "wikipedia": "fr:FNRS-3",
+      "osmTags": {
+        "historic": "ship",
+        "tourism": "attraction"
+      },
+      "fame": 8
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/9e1b84e5c5f1c8c0230d",
+      "name": "Île des Embiez",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "coastline",
+      "lat": 43.0761458,
+      "lng": 5.7847445,
+      "distanceFromTerminalMeters": 9745,
+      "distanceFromDefaultTerminalMeters": 9745,
+      "minDistanceFromAnyTerminalMeters": 9745,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "https://www.lesilespaulricard.com/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q3593460",
+      "wikipedia": "fr:Île des Embiez",
+      "osmTags": {
+        "leisure": "nature_reserve",
+        "natural": "coastline",
+        "place": "island"
+      },
+      "fame": 6
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/7192d687ad9d2dee5b65",
+      "name": "Dupleix",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "ship",
+      "lat": 43.0835721,
+      "lng": 5.9285166,
+      "distanceFromTerminalMeters": 3434,
+      "distanceFromDefaultTerminalMeters": 3434,
+      "minDistanceFromAnyTerminalMeters": 3434,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q3019985",
+      "wikipedia": "fr:Dupleix (frégate)",
+      "osmTags": {
+        "historic": "ship"
+      },
+      "fame": 5
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ab9c3bfb6973a20fde17",
+      "name": "Musée National de la Marine Toulon",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 43.1218148,
+      "lng": 5.9283232,
+      "distanceFromTerminalMeters": 3087,
+      "distanceFromDefaultTerminalMeters": 3087,
+      "minDistanceFromAnyTerminalMeters": 3087,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Feb-Jun,Sep-Dec PH,We-Mo 10:00-18:00; Jul-Aug PH,Mo-Su 10:00-18:00",
+      "website": "http://www.musee-marine.fr/Toulon",
+      "phone": "+33 4 94 02 02 01",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q19365734",
+      "wikipedia": "fr:Musée national de la Marine de Toulon",
       "osmTags": {
         "tourism": "museum"
-      }
+      },
+      "fame": 4
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/cfa08444d15e6331da60",
+      "name": "Musée d'Art",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 43.1263031,
+      "lng": 5.9272107,
+      "distanceFromTerminalMeters": 3348,
+      "distanceFromDefaultTerminalMeters": 3348,
+      "minDistanceFromAnyTerminalMeters": 3348,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "113 Boulevard Général Leclerc, Toulon, 83000, FR",
+      "openingHours": "",
+      "website": "https://toulon.fr/envie-bouger/article/musee-d-art-de-toulon-mat",
+      "phone": "+33 4 94 36 81 01",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q3329600",
+      "wikipedia": "",
+      "osmTags": {
+        "tourism": "museum"
+      },
+      "fame": 3
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/a530fc2dbc029347bc6b",
+      "name": "Tour Royale",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "fort",
+      "lat": 43.1027249,
+      "lng": 5.9257888,
+      "distanceFromTerminalMeters": 2265,
+      "distanceFromDefaultTerminalMeters": 2265,
+      "minDistanceFromAnyTerminalMeters": 2265,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Jan 01-Sep 30 We,Sa,Su 09:00-12:00,14:00-18:00",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q3533868",
+      "wikipedia": "fr:Tour royale",
+      "osmTags": {
+        "historic": "fort"
+      },
+      "fame": 4
     },
     {
       "source": "openstreetmap",
@@ -528,9 +362,9 @@
       "subcategory": "museum",
       "lat": 43.1077593,
       "lng": 5.9370441,
-      "distanceFromTerminalMeters": 1631,
-      "distanceFromDefaultTerminalMeters": 1631,
-      "minDistanceFromAnyTerminalMeters": 1631,
+      "distanceFromTerminalMeters": 3179,
+      "distanceFromDefaultTerminalMeters": 3179,
+      "minDistanceFromAnyTerminalMeters": 3179,
       "nearestTerminalId": "ports-json-anchor",
       "address": "169 littoral Frédéric Mistral, Toulon, 83000",
       "openingHours": "Tu-Sa 12:00-18:00",
@@ -540,47 +374,53 @@
       "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "Q3330161",
+      "wikipedia": "",
       "osmTags": {
         "tourism": "museum"
-      }
+      },
+      "fame": 1
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/9617b49f2a83e48518b8",
-      "name": "Tour Royale",
+      "sourceId": "osm/generated/6a6bc0d9b8a6e5a40747",
+      "name": "Muséum départemental du Var",
       "nameEnglish": "",
       "category": "attraction",
-      "subcategory": "fort",
-      "lat": 43.1027249,
-      "lng": 5.9257888,
-      "distanceFromTerminalMeters": 559,
-      "distanceFromDefaultTerminalMeters": 559,
-      "minDistanceFromAnyTerminalMeters": 559,
+      "subcategory": "museum",
+      "lat": 43.1433322,
+      "lng": 5.910743,
+      "distanceFromTerminalMeters": 4385,
+      "distanceFromDefaultTerminalMeters": 4385,
+      "minDistanceFromAnyTerminalMeters": 4385,
       "nearestTerminalId": "ports-json-anchor",
-      "address": "",
-      "openingHours": "Jan 01-Sep 30 We,Sa,Su 09:00-12:00,14:00-18:00",
-      "website": "",
-      "phone": "",
+      "address": "737 Chemin du Jonquet, Toulon, 83200",
+      "openingHours": "",
+      "website": "https://museum.var.fr/",
+      "phone": "+33 4 83 95 44 20",
       "cuisine": [],
-      "wheelchair": "",
+      "wheelchair": "yes",
       "brand": "",
       "description": "",
+      "wikidata": "Q3330890",
+      "wikipedia": "fr:Muséum départemental du Var",
       "osmTags": {
-        "historic": "fort"
-      }
+        "tourism": "museum"
+      },
+      "fame": 2
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/a51029605e45d87d1b1f",
-      "name": "Fort de l'Éguillette",
+      "sourceId": "osm/generated/26c38b2e500b73f800c6",
+      "name": "Pont Transbordeur",
       "nameEnglish": "",
       "category": "attraction",
-      "subcategory": "fort",
-      "lat": 43.1003359,
-      "lng": 5.9099723,
-      "distanceFromTerminalMeters": 815,
-      "distanceFromDefaultTerminalMeters": 815,
-      "minDistanceFromAnyTerminalMeters": 815,
+      "subcategory": "monument",
+      "lat": 43.1025993,
+      "lng": 5.8831363,
+      "distanceFromTerminalMeters": 1241,
+      "distanceFromDefaultTerminalMeters": 1241,
+      "minDistanceFromAnyTerminalMeters": 1241,
       "nearestTerminalId": "ports-json-anchor",
       "address": "",
       "openingHours": "",
@@ -590,9 +430,68 @@
       "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "Q2103646",
+      "wikipedia": "fr:Pont levant de La Seyne-sur-Mer",
+      "osmTags": {
+        "historic": "monument"
+      },
+      "fame": 4
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/1eaae014d4941f256735",
+      "name": "Batterie de Peyras",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 43.0630603,
+      "lng": 5.8609444,
+      "distanceFromTerminalMeters": 5553,
+      "distanceFromDefaultTerminalMeters": 5553,
+      "minDistanceFromAnyTerminalMeters": 5553,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Chemin de la Batterie de Peyras, 83500",
+      "openingHours": "24/7",
+      "website": "https://www.la-seyne.fr/decouvrir-la-ville/patrimoine/militaire/batterie-de-peyras/",
+      "phone": "+33 4 94 94 84 72",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q15154172",
+      "wikipedia": "fr:Batterie de Peyras",
+      "osmTags": {
+        "tourism": "museum"
+      },
+      "fame": 1
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/7b9da8b99b21b0557266",
+      "name": "Fort Napoléon",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "fort",
+      "lat": 43.094207,
+      "lng": 5.8933455,
+      "distanceFromTerminalMeters": 1260,
+      "distanceFromDefaultTerminalMeters": 1260,
+      "minDistanceFromAnyTerminalMeters": 1260,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Chemin Marc Sagnier, 83500",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q48748871",
+      "wikipedia": "",
       "osmTags": {
         "historic": "fort"
-      }
+      },
+      "fame": 1
     },
     {
       "source": "openstreetmap",
@@ -603,9 +502,9 @@
       "subcategory": "fort",
       "lat": 43.0943911,
       "lng": 5.9109529,
-      "distanceFromTerminalMeters": 964,
-      "distanceFromDefaultTerminalMeters": 964,
-      "minDistanceFromAnyTerminalMeters": 964,
+      "distanceFromTerminalMeters": 1577,
+      "distanceFromDefaultTerminalMeters": 1577,
+      "minDistanceFromAnyTerminalMeters": 1577,
       "nearestTerminalId": "ports-json-anchor",
       "address": "",
       "openingHours": "",
@@ -615,8 +514,205 @@
       "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "Q3077770",
+      "wikipedia": "fr:Fort Balaguier",
       "osmTags": {
         "historic": "fort"
+      },
+      "fame": 2
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/cc80835e3fb6bed998de",
+      "name": "Hôtel des arts (Centre méditerranéen d'art)",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 43.1252165,
+      "lng": 5.929243,
+      "distanceFromTerminalMeters": 3385,
+      "distanceFromDefaultTerminalMeters": 3385,
+      "minDistanceFromAnyTerminalMeters": 3385,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "236 Boulevard du Maréchal Leclerc, Toulon, 83000, FR",
+      "openingHours": "Tu-Su,PH 11:00-18:00",
+      "website": "https://hda-tpm.fr",
+      "phone": "+33 4 83 95 18 40",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/377b88ca50e25048be8d",
+      "name": "Musée d'Histoire de Toulon et de sa région",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 43.121027,
+      "lng": 5.933869,
+      "distanceFromTerminalMeters": 3409,
+      "distanceFromDefaultTerminalMeters": 3409,
+      "minDistanceFromAnyTerminalMeters": 3409,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "10 Rue Saint-Andrieu, Toulon, 83000",
+      "openingHours": "Mo-Sa 14:00-18:00",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q111210709",
+      "wikipedia": "fr:Musée d'Histoire de Toulon et de sa région",
+      "osmTags": {
+        "tourism": "museum"
+      },
+      "fame": 1
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/a51029605e45d87d1b1f",
+      "name": "Fort de l'Éguillette",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "fort",
+      "lat": 43.1003359,
+      "lng": 5.9099723,
+      "distanceFromTerminalMeters": 1097,
+      "distanceFromDefaultTerminalMeters": 1097,
+      "minDistanceFromAnyTerminalMeters": 1097,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q15972148",
+      "wikipedia": "",
+      "osmTags": {
+        "historic": "fort"
+      },
+      "fame": 1
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/8e06f84778f08c10d179",
+      "name": "Zénith de Toulon",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 43.128576,
+      "lng": 5.9321096,
+      "distanceFromTerminalMeters": 3809,
+      "distanceFromDefaultTerminalMeters": 3809,
+      "minDistanceFromAnyTerminalMeters": 3809,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Boulevard du Commandant Nicolas, Toulon, 83000",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q3576479",
+      "wikipedia": "fr:Zénith de Toulon",
+      "osmTags": {
+        "tourism": "attraction"
+      },
+      "fame": 2
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/2714dd3386c22ca6f5ea",
+      "name": "Fort Lamalgue",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "fort",
+      "lat": 43.1106803,
+      "lng": 5.9454618,
+      "distanceFromTerminalMeters": 3899,
+      "distanceFromDefaultTerminalMeters": 3899,
+      "minDistanceFromAnyTerminalMeters": 3899,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q3077912",
+      "wikipedia": "fr:Fort Lamalgue",
+      "osmTags": {
+        "historic": "fort"
+      },
+      "fame": 2
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ebcd7962072eada652f7",
+      "name": "Duquesne",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "ship",
+      "lat": 43.0833483,
+      "lng": 5.9270873,
+      "distanceFromTerminalMeters": 3369,
+      "distanceFromDefaultTerminalMeters": 3369,
+      "minDistanceFromAnyTerminalMeters": 3369,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q3010052",
+      "wikipedia": "fr:Duquesne (frégate)",
+      "osmTags": {
+        "historic": "ship"
+      },
+      "fame": 4
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/eca950bd8778184bd642",
+      "name": "Laborieux",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 43.0948246,
+      "lng": 5.910275,
+      "distanceFromTerminalMeters": 1504,
+      "distanceFromDefaultTerminalMeters": 1504,
+      "minDistanceFromAnyTerminalMeters": 1504,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "We, Th, Su 09:00-12:00",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "tourism": "museum"
       }
     },
     {
@@ -628,9 +724,9 @@
       "subcategory": "castle",
       "lat": 43.106847,
       "lng": 5.938805,
-      "distanceFromTerminalMeters": 1706,
-      "distanceFromDefaultTerminalMeters": 1706,
-      "minDistanceFromAnyTerminalMeters": 1706,
+      "distanceFromTerminalMeters": 3314,
+      "distanceFromDefaultTerminalMeters": 3314,
+      "minDistanceFromAnyTerminalMeters": 3314,
       "nearestTerminalId": "ports-json-anchor",
       "address": "",
       "openingHours": "",
@@ -640,173 +736,52 @@
       "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "Q3078053",
+      "wikipedia": "fr:Fort Saint-Louis (Toulon)",
       "osmTags": {
         "historic": "castle"
-      }
+      },
+      "fame": 1
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/ab9c3bfb6973a20fde17",
-      "name": "Musée National de la Marine Toulon",
+      "sourceId": "osm/generated/3508a63786d6694fd787",
+      "name": "Contenus Débordants",
       "nameEnglish": "",
       "category": "attraction",
-      "subcategory": "museum",
-      "lat": 43.1218148,
-      "lng": 5.9283232,
-      "distanceFromTerminalMeters": 2518,
-      "distanceFromDefaultTerminalMeters": 2518,
-      "minDistanceFromAnyTerminalMeters": 2518,
+      "subcategory": "gallery",
+      "lat": 43.1230859,
+      "lng": 5.9315082,
+      "distanceFromTerminalMeters": 3379,
+      "distanceFromDefaultTerminalMeters": 3379,
+      "minDistanceFromAnyTerminalMeters": 3379,
       "nearestTerminalId": "ports-json-anchor",
-      "address": "",
-      "openingHours": "Feb-Jun,Sep-Dec PH,We-Mo 10:00-18:00; Jul-Aug PH,Mo-Su 10:00-18:00",
-      "website": "http://www.musee-marine.fr/Toulon",
-      "phone": "+33 4 94 02 02 01",
-      "cuisine": [],
-      "wheelchair": "yes",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "tourism": "museum"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/5d4eddb1df5145abae02",
-      "name": "Hôtel des arts (Centre méditerranéen d'art)",
-      "nameEnglish": "",
-      "category": "attraction",
-      "subcategory": "museum",
-      "lat": 43.1252165,
-      "lng": 5.929243,
-      "distanceFromTerminalMeters": 2903,
-      "distanceFromDefaultTerminalMeters": 2903,
-      "minDistanceFromAnyTerminalMeters": 2903,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "236 Boulevard du Maréchal Leclerc, Toulon, 83000, FR",
-      "openingHours": "Tu-Su,PH 11:00-18:00",
-      "website": "https://hda-tpm.fr",
-      "phone": "+33 4 83 95 18 40",
-      "cuisine": [],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "tourism": "museum"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/cfa08444d15e6331da60",
-      "name": "Musée d'Art",
-      "nameEnglish": "",
-      "category": "attraction",
-      "subcategory": "museum",
-      "lat": 43.1263031,
-      "lng": 5.9272107,
-      "distanceFromTerminalMeters": 2983,
-      "distanceFromDefaultTerminalMeters": 2983,
-      "minDistanceFromAnyTerminalMeters": 2983,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "113 Boulevard Général Leclerc, Toulon, 83000, FR",
-      "openingHours": "",
-      "website": "https://toulon.fr/envie-bouger/article/musee-d-art-de-toulon-mat",
-      "phone": "+33 4 94 36 81 01",
-      "cuisine": [],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "tourism": "museum"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/7b9da8b99b21b0557266",
-      "name": "Fort Napoléon",
-      "nameEnglish": "",
-      "category": "attraction",
-      "subcategory": "fort",
-      "lat": 43.094207,
-      "lng": 5.8933455,
-      "distanceFromTerminalMeters": 2258,
-      "distanceFromDefaultTerminalMeters": 2258,
-      "minDistanceFromAnyTerminalMeters": 2258,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "Chemin Marc Sagnier, 83500",
+      "address": "11 Rue Cesar Vezzani, Toulon, 83000",
       "openingHours": "",
       "website": "",
-      "phone": "",
+      "phone": "+33 6 30 36 09 05",
       "cuisine": [],
       "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "",
+      "wikipedia": "",
       "osmTags": {
-        "historic": "fort"
+        "tourism": "gallery"
       }
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/2714dd3386c22ca6f5ea",
-      "name": "Fort Lamalgue",
-      "nameEnglish": "",
-      "category": "attraction",
-      "subcategory": "fort",
-      "lat": 43.1106803,
-      "lng": 5.9454618,
-      "distanceFromTerminalMeters": 2384,
-      "distanceFromDefaultTerminalMeters": 2384,
-      "minDistanceFromAnyTerminalMeters": 2384,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "",
-      "openingHours": "",
-      "website": "",
-      "phone": "",
-      "cuisine": [],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "historic": "fort"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/ad98151f86e479fea450",
-      "name": "FNRS III",
-      "nameEnglish": "",
-      "category": "attraction",
-      "subcategory": "attraction",
-      "lat": 43.1036432,
-      "lng": 5.9257029,
-      "distanceFromTerminalMeters": 615,
-      "distanceFromDefaultTerminalMeters": 615,
-      "minDistanceFromAnyTerminalMeters": 615,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "",
-      "openingHours": "",
-      "website": "",
-      "phone": "",
-      "cuisine": [],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "historic": "ship",
-        "tourism": "attraction"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/ca65bbe08a1d6ca0f178",
+      "sourceId": "osm/generated/0910960de3a1bc4ed050",
       "name": "Monument national des sous-mariniers",
       "nameEnglish": "",
       "category": "attraction",
       "subcategory": "monument",
       "lat": 43.1039763,
       "lng": 5.9259016,
-      "distanceFromTerminalMeters": 652,
-      "distanceFromDefaultTerminalMeters": 652,
-      "minDistanceFromAnyTerminalMeters": 652,
+      "distanceFromTerminalMeters": 2263,
+      "distanceFromDefaultTerminalMeters": 2263,
+      "minDistanceFromAnyTerminalMeters": 2263,
       "nearestTerminalId": "ports-json-anchor",
       "address": "",
       "openingHours": "",
@@ -816,308 +791,99 @@
       "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "",
+      "wikipedia": "fr:Tour royale#Monument national des sous-mariniers",
       "osmTags": {
         "historic": "monument"
-      }
+      },
+      "fame": 1
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/822a9b2d504e33aabf8f",
-      "name": "Place Boy-Scoot Pierre Matteucci",
-      "nameEnglish": "",
-      "category": "attraction",
-      "subcategory": "square",
-      "lat": 43.1181362,
-      "lng": 5.9352441,
-      "distanceFromTerminalMeters": 2366,
-      "distanceFromDefaultTerminalMeters": 2366,
-      "minDistanceFromAnyTerminalMeters": 2366,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "",
-      "openingHours": "",
-      "website": "",
-      "phone": "",
-      "cuisine": [],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "place": "square"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/77662ef085b4f0c8098d",
-      "name": "Funny Land",
-      "nameEnglish": "",
-      "category": "attraction",
-      "subcategory": "theme_park",
-      "lat": 43.0800067,
-      "lng": 5.8948373,
-      "distanceFromTerminalMeters": 3020,
-      "distanceFromDefaultTerminalMeters": 3020,
-      "minDistanceFromAnyTerminalMeters": 3020,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "",
-      "openingHours": "",
-      "website": "",
-      "phone": "",
-      "cuisine": [],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "tourism": "theme_park"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/78a6e0c8cff2aac315cb",
-      "name": "Plage de l'Eguillette",
-      "nameEnglish": "",
-      "category": "outdoors",
-      "subcategory": "beach",
-      "lat": 43.1008085,
-      "lng": 5.9092491,
-      "distanceFromTerminalMeters": 877,
-      "distanceFromDefaultTerminalMeters": 877,
-      "minDistanceFromAnyTerminalMeters": 877,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "",
-      "openingHours": "",
-      "website": "",
-      "phone": "",
-      "cuisine": [],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "natural": "beach"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/9173e4c6cd01411f62b2",
-      "name": "Plage de la Mitre",
-      "nameEnglish": "",
-      "category": "outdoors",
-      "subcategory": "beach",
-      "lat": 43.1030026,
-      "lng": 5.9307361,
-      "distanceFromTerminalMeters": 933,
-      "distanceFromDefaultTerminalMeters": 933,
-      "minDistanceFromAnyTerminalMeters": 933,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "",
-      "openingHours": "",
-      "website": "",
-      "phone": "",
-      "cuisine": [],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "natural": "beach"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/b1a3c24baba904ade636",
-      "name": "Plage de la Vieille",
-      "nameEnglish": "",
-      "category": "outdoors",
-      "subcategory": "beach",
-      "lat": 43.0830781,
-      "lng": 5.9214413,
-      "distanceFromTerminalMeters": 1885,
-      "distanceFromDefaultTerminalMeters": 1885,
-      "minDistanceFromAnyTerminalMeters": 1885,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "Quai Séverine",
-      "openingHours": "24/7",
-      "website": "",
-      "phone": "",
-      "cuisine": [],
-      "wheelchair": "yes",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "natural": "beach"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/7683f631349a0a367f37",
-      "name": "Plage de Balaguier",
-      "nameEnglish": "",
-      "category": "outdoors",
-      "subcategory": "beach",
-      "lat": 43.0971531,
-      "lng": 5.9073854,
-      "distanceFromTerminalMeters": 1072,
-      "distanceFromDefaultTerminalMeters": 1072,
-      "minDistanceFromAnyTerminalMeters": 1072,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "",
-      "openingHours": "",
-      "website": "",
-      "phone": "",
-      "cuisine": [],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "natural": "beach"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/24512c31e2077f7d26d4",
-      "name": "plage du lido",
-      "nameEnglish": "",
-      "category": "outdoors",
-      "subcategory": "beach",
-      "lat": 43.1072389,
-      "lng": 5.9391763,
-      "distanceFromTerminalMeters": 1753,
-      "distanceFromDefaultTerminalMeters": 1753,
-      "minDistanceFromAnyTerminalMeters": 1753,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "",
-      "openingHours": "",
-      "website": "",
-      "phone": "",
-      "cuisine": [],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "natural": "beach"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/3eee4d98f718599708cd",
-      "name": "Plage du Touring",
-      "nameEnglish": "",
-      "category": "outdoors",
-      "subcategory": "beach",
-      "lat": 43.08057,
-      "lng": 5.9228216,
-      "distanceFromTerminalMeters": 2173,
-      "distanceFromDefaultTerminalMeters": 2173,
-      "minDistanceFromAnyTerminalMeters": 2173,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "",
-      "openingHours": "",
-      "website": "",
-      "phone": "",
-      "cuisine": [],
-      "wheelchair": "yes",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "natural": "beach"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/6aaaeb4d466fa1a5a850",
-      "name": "Sentier des Douaniers",
-      "nameEnglish": "",
-      "category": "outdoors",
-      "subcategory": "viewpoint",
-      "lat": 43.1039351,
-      "lng": 5.9328823,
-      "distanceFromTerminalMeters": 1134,
-      "distanceFromDefaultTerminalMeters": 1134,
-      "minDistanceFromAnyTerminalMeters": 1134,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "",
-      "openingHours": "",
-      "website": "",
-      "phone": "",
-      "cuisine": [],
-      "wheelchair": "",
-      "brand": "",
-      "description": "Views of the Toulon bay and Saint-Mandrier, and on a clear day of the Presque-île de Giens and Porquerolles",
-      "osmTags": {
-        "tourism": "viewpoint"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/1bcf29cea28ba77dc5cc",
-      "name": "Les Balisiers",
-      "nameEnglish": "",
-      "category": "outdoors",
-      "subcategory": "garden",
-      "lat": 43.1107228,
-      "lng": 5.9346859,
-      "distanceFromTerminalMeters": 1686,
-      "distanceFromDefaultTerminalMeters": 1686,
-      "minDistanceFromAnyTerminalMeters": 1686,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "",
-      "openingHours": "",
-      "website": "",
-      "phone": "",
-      "cuisine": [],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "leisure": "garden"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/b87a2de4b42660779ae7",
-      "name": "Rond-Point de la Neuvième Division d'Infanterie Colonial",
-      "nameEnglish": "",
-      "category": "outdoors",
-      "subcategory": "garden",
-      "lat": 43.1184822,
-      "lng": 5.9406069,
-      "distanceFromTerminalMeters": 2650,
-      "distanceFromDefaultTerminalMeters": 2650,
-      "minDistanceFromAnyTerminalMeters": 2650,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "",
-      "openingHours": "",
-      "website": "",
-      "phone": "",
-      "cuisine": [],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "leisure": "garden"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/7bb62c664b4f555eedbb",
-      "name": "L'O Beach",
+      "sourceId": "osm/generated/f402d2725862beb9a4ca",
+      "name": "Il pomodoro A & I",
       "nameEnglish": "",
       "category": "food_drink",
       "subcategory": "restaurant",
-      "lat": 43.1076702,
-      "lng": 5.9479743,
-      "distanceFromTerminalMeters": 2426,
-      "distanceFromDefaultTerminalMeters": 2426,
-      "minDistanceFromAnyTerminalMeters": 2426,
+      "lat": 43.1022915,
+      "lng": 5.8803272,
+      "distanceFromTerminalMeters": 1471,
+      "distanceFromDefaultTerminalMeters": 1471,
+      "minDistanceFromAnyTerminalMeters": 1471,
       "nearestTerminalId": "ports-json-anchor",
-      "address": "Plage du Mourillon, 83000",
-      "openingHours": "Mo-Su,PH 08:00-23:00",
-      "website": "https://lo-beach-restaurant.eatbu.com/?lang=en",
-      "phone": "",
+      "address": "4 Avenue Lazare Hoche, 83500",
+      "openingHours": "We 11:00-14:00",
+      "website": "http://www.facebook.com/ilpomodoroai/",
+      "phone": "+33780865820",
       "cuisine": [
-        "mediterranean"
+        "italian"
       ],
       "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/34873c993f66abe08cc3",
+      "name": "Evanescence salon de thé",
+      "nameEnglish": "Evanescence , Tea room",
+      "category": "food_drink",
+      "subcategory": "fast_food",
+      "lat": 43.1026939,
+      "lng": 5.8813846,
+      "distanceFromTerminalMeters": 1378,
+      "distanceFromDefaultTerminalMeters": 1378,
+      "minDistanceFromAnyTerminalMeters": 1378,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "38 Quai Hoche, 83500",
+      "openingHours": "Mo-Sa 07:30-19:00",
+      "website": "",
+      "phone": "+33 6 14 29 17 70",
+      "cuisine": [
+        "savory_pancakes",
+        "crepe",
+        "coffee_shop",
+        "ice_cream"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "fast_food"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/4c14d3662849fe2dd9c7",
+      "name": "Mirch Masala",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 43.1207554,
+      "lng": 5.9307376,
+      "distanceFromTerminalMeters": 3179,
+      "distanceFromDefaultTerminalMeters": 3179,
+      "minDistanceFromAnyTerminalMeters": 3179,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "99 Quai Cronstadt",
+      "openingHours": "Mo-Su 11:00-15:00,18:00-22:30",
+      "website": "http://www.mirchmasaala.co.",
+      "phone": "+33494621973",
+      "cuisine": [
+        "indian"
+      ],
+      "wheelchair": "no",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
       "osmTags": {
         "amenity": "restaurant"
       }
@@ -1131,9 +897,9 @@
       "subcategory": "fast_food",
       "lat": 43.1170739,
       "lng": 5.9356246,
-      "distanceFromTerminalMeters": 2283,
-      "distanceFromDefaultTerminalMeters": 2283,
-      "minDistanceFromAnyTerminalMeters": 2283,
+      "distanceFromTerminalMeters": 3332,
+      "distanceFromDefaultTerminalMeters": 3332,
+      "minDistanceFromAnyTerminalMeters": 3332,
       "nearestTerminalId": "ports-json-anchor",
       "address": "21 Avenue de l'Infanterie de Marine, Toulon, 83000",
       "openingHours": "Mo-Fr 11:30-14:00,17:30-23:00; Sa-Su 17:30-23:00",
@@ -1145,118 +911,10 @@
       "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "",
+      "wikipedia": "",
       "osmTags": {
         "amenity": "fast_food"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/b882500a816596bfd11b",
-      "name": "L'Stac",
-      "nameEnglish": "",
-      "category": "food_drink",
-      "subcategory": "restaurant",
-      "lat": 43.1073555,
-      "lng": 5.9466059,
-      "distanceFromTerminalMeters": 2310,
-      "distanceFromDefaultTerminalMeters": 2310,
-      "minDistanceFromAnyTerminalMeters": 2310,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "8 Plage du Mourillon, Toulon, 83000",
-      "openingHours": "Mo-Su 09:00-22:00",
-      "website": "https://lo-beach-restaurant.eatbu.com/?lang=en",
-      "phone": "+33 7 62 98 30 15",
-      "cuisine": [
-        "burger",
-        "french",
-        "fish"
-      ],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "amenity": "restaurant"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/a54a28725cad21347a9e",
-      "name": "Le Bistrot de Gisèle",
-      "nameEnglish": "",
-      "category": "food_drink",
-      "subcategory": "cafe",
-      "lat": 43.124705,
-      "lng": 5.9302486,
-      "distanceFromTerminalMeters": 2870,
-      "distanceFromDefaultTerminalMeters": 2870,
-      "minDistanceFromAnyTerminalMeters": 2870,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "3 rue Bertholet, Toulon, 83000",
-      "openingHours": "Mo-Sa 08:00-17:00, Fr 19:00-23:00",
-      "website": "https://lebistrotdegisele.wordpress.com/",
-      "phone": "+33 7 69 96 14 76",
-      "cuisine": [
-        "bistro"
-      ],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "amenity": "cafe"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/d1098f5319289ed3fb6e",
-      "name": "Istanbul Grill",
-      "nameEnglish": "",
-      "category": "food_drink",
-      "subcategory": "restaurant",
-      "lat": 43.1194962,
-      "lng": 5.933352,
-      "distanceFromTerminalMeters": 2424,
-      "distanceFromDefaultTerminalMeters": 2424,
-      "minDistanceFromAnyTerminalMeters": 2424,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "394 Avenue de la République",
-      "openingHours": "Mo-Su 11:00-24:00",
-      "website": "",
-      "phone": "+33 4 94 41 53 00",
-      "cuisine": [
-        "kebab"
-      ],
-      "wheelchair": "yes",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "amenity": "restaurant"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/c886103d0cef0c4ff840",
-      "name": "MAYOL",
-      "nameEnglish": "",
-      "category": "food_drink",
-      "subcategory": "restaurant",
-      "lat": 43.1201193,
-      "lng": 5.9350205,
-      "distanceFromTerminalMeters": 2548,
-      "distanceFromDefaultTerminalMeters": 2548,
-      "minDistanceFromAnyTerminalMeters": 2548,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "Centre Commercial Mayol - Rue du Mûrier, Toulon, 83000",
-      "openingHours": "Mo,Tu,We,Th,Fr,Sa 09:00-19:30",
-      "website": "https://www.lunicco.fr/point-de-vente/mayol",
-      "phone": "+33686579177",
-      "cuisine": [
-        "italian"
-      ],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "amenity": "restaurant"
       }
     },
     {
@@ -1268,9 +926,9 @@
       "subcategory": "restaurant",
       "lat": 43.1221767,
       "lng": 5.9320207,
-      "distanceFromTerminalMeters": 2652,
-      "distanceFromDefaultTerminalMeters": 2652,
-      "minDistanceFromAnyTerminalMeters": 2652,
+      "distanceFromTerminalMeters": 3354,
+      "distanceFromDefaultTerminalMeters": 3354,
+      "minDistanceFromAnyTerminalMeters": 3354,
       "nearestTerminalId": "ports-json-anchor",
       "address": "15 Rue de la Glacière, Toulon, 83000",
       "openingHours": "Mo-Th 10:00-15:30; Fr 10:00-15:30,19:00-22:00; Sa 09:00-15:30,19:00-22:00; Su off",
@@ -1284,33 +942,127 @@
       "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "",
+      "wikipedia": "",
       "osmTags": {
         "amenity": "restaurant"
       }
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/12af6c1d20e20f29926e",
-      "name": "Sembilan",
+      "sourceId": "osm/generated/e900bc6aa143f7187d76",
+      "name": "Chicken Soul",
       "nameEnglish": "",
       "category": "food_drink",
-      "subcategory": "restaurant",
-      "lat": 43.1230927,
-      "lng": 5.9314608,
-      "distanceFromTerminalMeters": 2731,
-      "distanceFromDefaultTerminalMeters": 2731,
-      "minDistanceFromAnyTerminalMeters": 2731,
+      "subcategory": "fast_food",
+      "lat": 43.1193682,
+      "lng": 5.9349986,
+      "distanceFromTerminalMeters": 3397,
+      "distanceFromDefaultTerminalMeters": 3397,
+      "minDistanceFromAnyTerminalMeters": 3397,
       "nearestTerminalId": "ports-json-anchor",
-      "address": "",
-      "openingHours": "Mo-Sa 11:30-14:30",
-      "website": "https://www.sembilan.fr/",
-      "phone": "+33 6 70 82 91 73",
+      "address": "503 Avenue de la République, Toulon, 83000",
+      "openingHours": "Sa-Th 11:30-22:30; Fr off",
+      "website": "https://www.chickensoul.fr/",
+      "phone": "+33767328754",
       "cuisine": [
-        "malaysian"
+        "wings",
+        "fried_chicken",
+        "burger"
       ],
       "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "fast_food"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/8f36d525a45fc161e6fb",
+      "name": "A tavola",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 43.1240325,
+      "lng": 5.9311363,
+      "distanceFromTerminalMeters": 3419,
+      "distanceFromDefaultTerminalMeters": 3419,
+      "minDistanceFromAnyTerminalMeters": 3419,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "389 Rue Jean Jaurès, Toulon, 83000",
+      "openingHours": "Mo-Su 11:30-14:30,18:30-22:30",
+      "website": "https://www.atavolatoulon.com/",
+      "phone": "+33 4 83 73 86 26",
+      "cuisine": [
+        "pizza"
+      ],
+      "wheelchair": "limited",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/7bc181bccbe9765e0890",
+      "name": "Lunicco",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "fast_food",
+      "lat": 43.1201193,
+      "lng": 5.9350205,
+      "distanceFromTerminalMeters": 3439,
+      "distanceFromDefaultTerminalMeters": 3439,
+      "minDistanceFromAnyTerminalMeters": 3439,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Centre Commercial Mayol, Toulon, 83000",
+      "openingHours": "Mo,Tu,We,Th,Fr,Sa 09:00-19:30",
+      "website": "https://www.lunicco.fr/point-de-vente/mayol",
+      "phone": "+33686579177",
+      "cuisine": [
+        "Italian",
+        "sandwich"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "fast_food"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c886103d0cef0c4ff840",
+      "name": "MAYOL",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 43.1201193,
+      "lng": 5.9350205,
+      "distanceFromTerminalMeters": 3439,
+      "distanceFromDefaultTerminalMeters": 3439,
+      "minDistanceFromAnyTerminalMeters": 3439,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Centre Commercial Mayol - Rue du Mûrier, Toulon, 83000",
+      "openingHours": "Mo,Tu,We,Th,Fr,Sa 09:00-19:30",
+      "website": "https://www.lunicco.fr/point-de-vente/mayol",
+      "phone": "+33686579177",
+      "cuisine": [
+        "italian"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
       "osmTags": {
         "amenity": "restaurant"
       }
@@ -1324,9 +1076,9 @@
       "subcategory": "restaurant",
       "lat": 43.1227785,
       "lng": 5.9341479,
-      "distanceFromTerminalMeters": 2781,
-      "distanceFromDefaultTerminalMeters": 2781,
-      "minDistanceFromAnyTerminalMeters": 2781,
+      "distanceFromTerminalMeters": 3534,
+      "distanceFromDefaultTerminalMeters": 3534,
+      "minDistanceFromAnyTerminalMeters": 3534,
       "nearestTerminalId": "ports-json-anchor",
       "address": "54 Rue Alezard, Toulon, 83000",
       "openingHours": "We-Sa 12:00-15:00,19:30-22:30",
@@ -1338,62 +1090,1186 @@
       "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "",
+      "wikipedia": "",
       "osmTags": {
         "amenity": "restaurant"
       }
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/3f44e1adbd21419b9b59",
-      "name": "Frankie",
+      "sourceId": "osm/generated/cdb8752839360a292b08",
+      "name": "Al Dente",
       "nameEnglish": "",
       "category": "food_drink",
       "subcategory": "restaurant",
-      "lat": 43.122974,
-      "lng": 5.9343379,
-      "distanceFromTerminalMeters": 2807,
-      "distanceFromDefaultTerminalMeters": 2807,
-      "minDistanceFromAnyTerminalMeters": 2807,
+      "lat": 43.1269871,
+      "lng": 5.9301962,
+      "distanceFromTerminalMeters": 3575,
+      "distanceFromDefaultTerminalMeters": 3575,
+      "minDistanceFromAnyTerminalMeters": 3575,
       "nearestTerminalId": "ports-json-anchor",
-      "address": "",
-      "openingHours": "Mo-Su 12:00-14:30, We-Sa 19:00-22:30",
-      "website": "https://www.frankiefamily.com/",
+      "address": "30 Rue Gimelli",
+      "openingHours": "Mo-Fr 11:45-14:00, Mo-Th 19:00-22:30, Fr,Sa 19:00-23:00",
+      "website": "https://www.al-dente-restaurant-toulon.fr/",
+      "phone": "+33 4 94 93 02 50",
+      "cuisine": [
+        "italian"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/0c6d2caf4d0d63922e33",
+      "name": "Cafétéria SeaTech",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 43.1355191,
+      "lng": 6.010511,
+      "distanceFromTerminalMeters": 9737,
+      "distanceFromDefaultTerminalMeters": 9737,
+      "minDistanceFromAnyTerminalMeters": 9737,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "X Avenue de l'Université, La Garde, 83130",
+      "openingHours": "",
+      "website": "https://www.seatech.fr/",
       "phone": "",
+      "cuisine": [
+        "Crous"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Cafétéria de SeaTech (Université de Toulon), Bat. X",
+      "wikidata": "Q17355542",
+      "wikipedia": "fr:SeaTech",
+      "osmTags": {
+        "amenity": "restaurant"
+      },
+      "fame": 4
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b882500a816596bfd11b",
+      "name": "L'Stac",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 43.1073555,
+      "lng": 5.9466059,
+      "distanceFromTerminalMeters": 3950,
+      "distanceFromDefaultTerminalMeters": 3950,
+      "minDistanceFromAnyTerminalMeters": 3950,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "8 Plage du Mourillon, Toulon, 83000",
+      "openingHours": "Mo-Su 09:00-22:00",
+      "website": "https://lo-beach-restaurant.eatbu.com/?lang=en",
+      "phone": "+33 7 62 98 30 15",
+      "cuisine": [
+        "burger",
+        "french",
+        "fish"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/94de85b446d9c6591593",
+      "name": "Koko Pizza",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "fast_food",
+      "lat": 43.1219091,
+      "lng": 5.9425087,
+      "distanceFromTerminalMeters": 4068,
+      "distanceFromDefaultTerminalMeters": 4068,
+      "minDistanceFromAnyTerminalMeters": 4068,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "51 Avenue François Cuzin, 83000",
+      "openingHours": "Mo-Su 18:00-22:30",
+      "website": "https://www.facebook.com/KOKO-PIZZA-163789037105899/",
+      "phone": "+33 4 94 41 11 01",
+      "cuisine": [
+        "pizza"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "fast_food"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/e3509c8df3866fd3c4f8",
+      "name": "Céno Café",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "fast_food",
+      "lat": 43.0806453,
+      "lng": 5.8937582,
+      "distanceFromTerminalMeters": 2730,
+      "distanceFromDefaultTerminalMeters": 2730,
+      "minDistanceFromAnyTerminalMeters": 2730,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "2271 Corniche Georges Pompidou, La Seyne-sur-Mer, 83500",
+      "openingHours": "",
+      "website": "https://www.instagram.com/ceno_cafe/",
+      "phone": "+33 6 50 83 70 81",
+      "cuisine": [
+        "sandwich",
+        "vietnamese",
+        "breakfast",
+        "cake",
+        "brunch"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "fast_food"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d57c0e65669d6ed6c503",
+      "name": "Le Bistrot Délices",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 43.1310341,
+      "lng": 5.9379732,
+      "distanceFromTerminalMeters": 4345,
+      "distanceFromDefaultTerminalMeters": 4345,
+      "minDistanceFromAnyTerminalMeters": 4345,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "545 Avenue de Siblas, Toulon, 83000",
+      "openingHours": "Mo-Fr 06:00-20:00; Sa 07:00-20:00; Su 07:00-14:00",
+      "website": "https://www.le-bistrot-delices-restaurant-toulon.fr/",
+      "phone": "+33 4 94 93 49 98",
+      "cuisine": [
+        "regional"
+      ],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "cafe",
+        "leisure": "adult_gaming_centre"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f84f930a1cea909126ac",
+      "name": "L Incognitot",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "fast_food",
+      "lat": 43.1286175,
+      "lng": 5.909884,
+      "distanceFromTerminalMeters": 2796,
+      "distanceFromDefaultTerminalMeters": 2796,
+      "minDistanceFromAnyTerminalMeters": 2796,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Toulon, 83200",
+      "openingHours": "Mo 09:00-18:00,Tu-Fr 10:00-18:00,Sa 10:00-16:00",
+      "website": "",
+      "phone": "+33 7 84 75 35 23",
       "cuisine": [
         "sandwich"
       ],
       "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "",
+      "wikipedia": "",
       "osmTags": {
-        "amenity": "restaurant"
+        "amenity": "fast_food"
       }
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/8f36d525a45fc161e6fb",
-      "name": "A tavola",
+      "sourceId": "osm/generated/b4ffae45c88581ad3b60",
+      "name": "La Grignotte Daniel",
       "nameEnglish": "",
       "category": "food_drink",
-      "subcategory": "restaurant",
-      "lat": 43.1240325,
-      "lng": 5.9311363,
-      "distanceFromTerminalMeters": 2821,
-      "distanceFromDefaultTerminalMeters": 2821,
-      "minDistanceFromAnyTerminalMeters": 2821,
+      "subcategory": "fast_food",
+      "lat": 43.1286595,
+      "lng": 5.910326,
+      "distanceFromTerminalMeters": 2813,
+      "distanceFromDefaultTerminalMeters": 2813,
+      "minDistanceFromAnyTerminalMeters": 2813,
       "nearestTerminalId": "ports-json-anchor",
-      "address": "389 Rue Jean Jaurès, Toulon, 83000",
-      "openingHours": "Mo-Su 11:30-14:30,18:30-22:30",
-      "website": "https://www.atavolatoulon.com/",
-      "phone": "+33 4 83 73 86 26",
+      "address": "Toulon, 83200",
+      "openingHours": "Mo-Su 10:30-15:00,18:30-22:00",
+      "website": "",
+      "phone": "+33 4 94 24 30 85",
       "cuisine": [
-        "pizza"
+        "sandwich"
       ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "fast_food"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/3227fb6893e6dfc292b1",
+      "name": "O Belem",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "fast_food",
+      "lat": 43.1013269,
+      "lng": 5.8795325,
+      "distanceFromTerminalMeters": 1559,
+      "distanceFromDefaultTerminalMeters": 1559,
+      "minDistanceFromAnyTerminalMeters": 1559,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "https://www.obelem.fr/",
+      "phone": "+33 9 80 47 82 77",
+      "cuisine": [
+        "portuguese"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "fast_food"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/a92d6509ab10e4a9a072",
+      "name": "Café Culture",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 43.1232636,
+      "lng": 5.9342555,
+      "distanceFromTerminalMeters": 3572,
+      "distanceFromDefaultTerminalMeters": 3572,
+      "minDistanceFromAnyTerminalMeters": 3572,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "24 Rue Paul Lendrin, Toulon, 83000, FR",
+      "openingHours": "Tu-Sa 09:00-18:30",
+      "website": "https://www.cultures-et-communication.org/",
+      "phone": "+33 4 94 62 44 52",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/1bbe0ca34ad8bd6606a4",
+      "name": "Chez Sisters",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 43.1192284,
+      "lng": 5.8016015,
+      "distanceFromTerminalMeters": 7988,
+      "distanceFromDefaultTerminalMeters": 7988,
+      "minDistanceFromAnyTerminalMeters": 7988,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "20 Rue Géneral Rose, Sanary-sur-Mer, 83110",
+      "openingHours": "Tu-Sa 09:30-12:30,14:30-18:30",
+      "website": "https://www.boulesdepoils.fr/",
+      "phone": "+33 4 84 88 50 74;+33 9 86 31 46 55",
+      "cuisine": [
+        "tea"
+      ],
+      "wheelchair": "no",
+      "brand": "",
+      "description": "Spécialisé dans la vente d'accessoires et nourriture haut de gamme pour les animaux de compagnie.",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/fcd3c0fb6f5b15fb54e7",
+      "name": "BorsaVino",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "bar",
+      "lat": 43.1215291,
+      "lng": 5.9317503,
+      "distanceFromTerminalMeters": 3295,
+      "distanceFromDefaultTerminalMeters": 3295,
+      "minDistanceFromAnyTerminalMeters": 3295,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "2 Place Gustave Lambert, 83137",
+      "openingHours": "",
+      "website": "",
+      "phone": "+33 753348632",
+      "cuisine": [
+        "french",
+        "local"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "bar"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/e42feb4ad8d767e83ddf",
+      "name": "Café Noisette",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 43.1231224,
+      "lng": 5.9312878,
+      "distanceFromTerminalMeters": 3367,
+      "distanceFromDefaultTerminalMeters": 3367,
+      "minDistanceFromAnyTerminalMeters": 3367,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Tu-Su 09:00-17:00",
+      "website": "",
+      "phone": "+33 6 82 58 97 94",
+      "cuisine": [
+        "breakfast",
+        "coffee_shop",
+        "pancake",
+        "regional",
+        "sandwich"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/25cbb9a4a6effc0d124e",
+      "name": "Au petit fournil",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "bakery",
+      "lat": 43.099401,
+      "lng": 5.8946212,
+      "distanceFromTerminalMeters": 682,
+      "distanceFromDefaultTerminalMeters": 682,
+      "minDistanceFromAnyTerminalMeters": 682,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "76 Avenue Esprit Armando",
+      "openingHours": "Mo-Sa 07:00-19:30; PH,Su 07:00-13:30",
+      "website": "",
+      "phone": "+33 4 98 03 05 78",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "shop": "bakery"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/877c032b5d0ea567ebd0",
+      "name": "Charlemagne",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "books",
+      "lat": 43.1008009,
+      "lng": 5.8828341,
+      "distanceFromTerminalMeters": 1322,
+      "distanceFromDefaultTerminalMeters": 1322,
+      "minDistanceFromAnyTerminalMeters": 1322,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Sa 09:00-12:30,14:00-19:00",
+      "website": "https://www.librairiecharlemagne.com/",
+      "phone": "+33 4 94 06 01 10",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "shop": "books"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/dabcea06059e2a52dcad",
+      "name": "Chez Pitchou",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "bakery",
+      "lat": 43.1076955,
+      "lng": 5.9330495,
+      "distanceFromTerminalMeters": 2856,
+      "distanceFromDefaultTerminalMeters": 2856,
+      "minDistanceFromAnyTerminalMeters": 2856,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "290 Rue Denis Litardi",
+      "openingHours": "Tu 14:00-19:00; We-Sa 09:00-19:00",
+      "website": "https://chezpitchou.wixsite.com/website",
+      "phone": "+33 4 22795784",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "shop": "bakery"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/5675e3768574ccd618c8",
+      "name": "A Fleur De Pot",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "florist",
+      "lat": 43.0793618,
+      "lng": 5.893374,
+      "distanceFromTerminalMeters": 2876,
+      "distanceFromDefaultTerminalMeters": 2876,
+      "minDistanceFromAnyTerminalMeters": 2876,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "77 Rue André Messager, La Seyne-sur-Mer, 83500",
+      "openingHours": "Tu-Sa 09:00-12:30, 15:00-19:30; Su 09:00-12:30",
+      "website": "https://www.afleurdepotfleuriste.com/",
+      "phone": "+33 4 94 87 00 60",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "shop": "florist"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/a7c8aec74367b2bb7c18",
+      "name": "Esprit sablettes",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "gift",
+      "lat": 43.0794089,
+      "lng": 5.8929423,
+      "distanceFromTerminalMeters": 2876,
+      "distanceFromDefaultTerminalMeters": 2876,
+      "minDistanceFromAnyTerminalMeters": 2876,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "602 Avenue Charles de Gaulle, La Seyne-sur-Mer, 83500",
+      "openingHours": "Tu-Sa 09:30-12:15,14:30-18:30",
+      "website": "https://www.esprit-sablettes.fr/",
+      "phone": "+33 4 83 99 52 91",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "shop": "gift"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/e79788bbc4c14bb6b109",
+      "name": "Running Conseil Ollioules",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "sports",
+      "lat": 43.1226614,
+      "lng": 5.8469839,
+      "distanceFromTerminalMeters": 4588,
+      "distanceFromDefaultTerminalMeters": 4588,
+      "minDistanceFromAnyTerminalMeters": 4588,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Avenue Jean Mermoz, Ollioules, 83190",
+      "openingHours": "Mo 14:00-19:00; Tu-Fr 09:30-13:00,14:00-19:00; Sa 09:30-19:00",
+      "website": "https://www.runningconseilollioules.com/",
+      "phone": "+33 4 94 41 13 10",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Spécialiste Course à pieds, Trail, Athlétisme, Marche nordique, Triathlon. Chaussures, textiles, nutrition, électronique et accesoires.",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "shop": "sports"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/69d6e491b4bdecd941aa",
+      "name": "Clic'O Panier",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "greengrocer",
+      "lat": 43.113237,
+      "lng": 5.9333136,
+      "distanceFromTerminalMeters": 3005,
+      "distanceFromDefaultTerminalMeters": 3005,
+      "minDistanceFromAnyTerminalMeters": 3005,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Quai des Sous-Mariniers, Toulon, 83000",
+      "openingHours": "Tu-Sa 08:30-13:00; Tu 16:00-19:00; Th 16:00-19:00",
+      "website": "https://clicopanier.com/",
+      "phone": "+33609672443",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "shop": "greengrocer"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/891ffa52dc490efb2e31",
+      "name": "L'a-dress",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "clothes",
+      "lat": 43.1208813,
+      "lng": 5.9320756,
+      "distanceFromTerminalMeters": 3277,
+      "distanceFromDefaultTerminalMeters": 3277,
+      "minDistanceFromAnyTerminalMeters": 3277,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "4 Rue Henri Seillon",
+      "openingHours": "Tu-Sa 10:00-19:00",
+      "website": "https://ladressconceptstore.fr/",
+      "phone": "+33483574261",
+      "cuisine": [],
+      "wheelchair": "no",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "shop": "clothes"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/5742c4be331e8fdc3316",
+      "name": "L'Utilidée",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "gift",
+      "lat": 43.1213685,
+      "lng": 5.933694,
+      "distanceFromTerminalMeters": 3417,
+      "distanceFromDefaultTerminalMeters": 3417,
+      "minDistanceFromAnyTerminalMeters": 3417,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "36 Place de la Cathédrale, Toulon, 83000",
+      "openingHours": "Tu-Sa 10:00-18:30",
+      "website": "https://lutilidee.fr/",
+      "phone": "+33 9 87 38 11 06",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "shop": "gift"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/02ce225ec759dd10c514",
+      "name": "Le Fournil de Saint Flavien",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "bakery",
+      "lat": 43.11228,
+      "lng": 5.9395209,
+      "distanceFromTerminalMeters": 3462,
+      "distanceFromDefaultTerminalMeters": 3462,
+      "minDistanceFromAnyTerminalMeters": 3462,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "54 Rue Muiron",
+      "openingHours": "Mo, Tu, Th-Sa 06:00-13:00, 16:00-19:30; Su 06:00-13:00",
+      "website": "https://www.facebook.com/lefournildesaintflavien/",
+      "phone": "+33 4 94 93 47 14",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "shop": "bakery"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/3deff4ba4ee4f4bfe251",
+      "name": "Caubet Joaillier",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "jewelry",
+      "lat": 43.1248968,
+      "lng": 5.9319303,
+      "distanceFromTerminalMeters": 3529,
+      "distanceFromDefaultTerminalMeters": 3529,
+      "minDistanceFromAnyTerminalMeters": 3529,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "23 Boulevard de Strasbourg, Toulon, 83000",
+      "openingHours": "Mo 14:30-19:00; Tu-Sa 10:00-19:00; Su off",
+      "website": "https://www.caubetjoaillier.com/",
+      "phone": "+33 4 94 92 24 31",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "shop": "jewelry"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/aa4339566461583c273a",
+      "name": "Jardin Alexandre 1er",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 43.1268922,
+      "lng": 5.9262597,
+      "distanceFromTerminalMeters": 3341,
+      "distanceFromDefaultTerminalMeters": 3341,
+      "minDistanceFromAnyTerminalMeters": 3341,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "09:00-19:00; Jul-Aug 09:00-21:00",
+      "website": "https://www.toulon.fr/laissez-seduire/proxy/jardin-alexandre-1er",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q3162284",
+      "wikipedia": "fr:Jardin Alexandre-Ier",
+      "osmTags": {
+        "leisure": "park"
+      },
+      "fame": 2
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/48a401e83356e751f38e",
+      "name": "Square Aristide Briand",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 43.1033807,
+      "lng": 5.8818315,
+      "distanceFromTerminalMeters": 1330,
+      "distanceFromDefaultTerminalMeters": 1330,
+      "minDistanceFromAnyTerminalMeters": 1330,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Square Aristide Briand, La Seyne sur Mer, 83500",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b1a3c24baba904ade636",
+      "name": "Plage de la Vieille",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "beach",
+      "lat": 43.0830781,
+      "lng": 5.9214413,
+      "distanceFromTerminalMeters": 3089,
+      "distanceFromDefaultTerminalMeters": 3089,
+      "minDistanceFromAnyTerminalMeters": 3089,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Quai Séverine",
+      "openingHours": "24/7",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "natural": "beach"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d5369d913398dc0516e1",
+      "name": "Jardin de rocaille de la maison Noble",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "garden",
+      "lat": 43.1091104,
+      "lng": 5.9391922,
+      "distanceFromTerminalMeters": 3370,
+      "distanceFromDefaultTerminalMeters": 3370,
+      "minDistanceFromAnyTerminalMeters": 3370,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q58197813",
+      "wikipedia": "",
+      "osmTags": {
+        "leisure": "garden"
+      },
+      "fame": 1
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/7c6dcccb84b8e33b67ff",
+      "name": "Maison du Cygne",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "garden",
+      "lat": 43.0969605,
+      "lng": 5.8178148,
+      "distanceFromTerminalMeters": 6576,
+      "distanceFromDefaultTerminalMeters": 6576,
+      "minDistanceFromAnyTerminalMeters": 6576,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "209 Avenue de la Coudoulière, 83140",
+      "openingHours": "Tu-Sa 09:00-12:00,14:00-17:30; Su 14:00-17:30; PH off",
+      "website": "https://jardincygne.ville-six-fours.fr/",
+      "phone": "+33 4 94 10 49 90",
+      "cuisine": [],
       "wheelchair": "limited",
       "brand": "",
       "description": "",
+      "wikidata": "",
+      "wikipedia": "",
       "osmTags": {
-        "amenity": "restaurant"
+        "leisure": "garden",
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/0f8bc61258ef9f5e7af7",
+      "name": "Jardin d'Acclimatation",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 43.1088096,
+      "lng": 5.9464865,
+      "distanceFromTerminalMeters": 3954,
+      "distanceFromDefaultTerminalMeters": 3954,
+      "minDistanceFromAnyTerminalMeters": 3954,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1053 Littoral Frédéric Mistral, Toulon, 83000",
+      "openingHours": "Oct-Mar 08:00-17:30; Apr-Sep 08:00-19:30",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/78a6e0c8cff2aac315cb",
+      "name": "Plage de l'Eguillette",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "beach",
+      "lat": 43.1008085,
+      "lng": 5.9092491,
+      "distanceFromTerminalMeters": 1021,
+      "distanceFromDefaultTerminalMeters": 1021,
+      "minDistanceFromAnyTerminalMeters": 1021,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "natural": "beach"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/7683f631349a0a367f37",
+      "name": "Plage de Balaguier",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "beach",
+      "lat": 43.0971531,
+      "lng": 5.9073854,
+      "distanceFromTerminalMeters": 1155,
+      "distanceFromDefaultTerminalMeters": 1155,
+      "minDistanceFromAnyTerminalMeters": 1155,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "natural": "beach"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ddcae21dea4f179f0e98",
+      "name": "Jardin du Las",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 43.1434951,
+      "lng": 5.910108,
+      "distanceFromTerminalMeters": 4391,
+      "distanceFromDefaultTerminalMeters": 4391,
+      "minDistanceFromAnyTerminalMeters": 4391,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q109040739",
+      "wikipedia": "",
+      "osmTags": {
+        "leisure": "park"
+      },
+      "fame": 1
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/6aaaeb4d466fa1a5a850",
+      "name": "Sentier des Douaniers",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "viewpoint",
+      "lat": 43.1039351,
+      "lng": 5.9328823,
+      "distanceFromTerminalMeters": 2829,
+      "distanceFromDefaultTerminalMeters": 2829,
+      "minDistanceFromAnyTerminalMeters": 2829,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Views of the Toulon bay and Saint-Mandrier, and on a clear day of the Presque-île de Giens and Porquerolles",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "tourism": "viewpoint"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/3f9d8a426a0b93644333",
+      "name": "Toulon Liberté",
+      "nameEnglish": "",
+      "category": "essentials",
+      "subcategory": "post_office",
+      "lat": 43.1246055,
+      "lng": 5.9297535,
+      "distanceFromTerminalMeters": 3372,
+      "distanceFromDefaultTerminalMeters": 3372,
+      "minDistanceFromAnyTerminalMeters": 3372,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1 Rue Prosper Ferrero, 83000",
+      "openingHours": "Mo-Fr 09:00-18:00; Sa 09:00-12:00; Su off",
+      "website": "https://localiser.laposte.fr/var/toulon/toulon-liberte-839820",
+      "phone": "3631",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q3390369",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "post_office"
+      },
+      "fame": 2
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/fabec0c5335fed2974b9",
+      "name": "Porte Marine",
+      "nameEnglish": "",
+      "category": "essentials",
+      "subcategory": "pharmacy",
+      "lat": 43.1009329,
+      "lng": 5.8878564,
+      "distanceFromTerminalMeters": 944,
+      "distanceFromDefaultTerminalMeters": 944,
+      "minDistanceFromAnyTerminalMeters": 944,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Fr 08:30-19:00; Sa 08:30-12:30",
+      "website": "https://pharmacieportemarine83500.mesoigner.fr/",
+      "phone": "+33 4 94 94 82 19",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "pharmacy"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/2773f9534aa41678fcae",
+      "name": "Pharmacie Sainte-Anne",
+      "nameEnglish": "",
+      "category": "essentials",
+      "subcategory": "pharmacy",
+      "lat": 43.1305971,
+      "lng": 5.9280591,
+      "distanceFromTerminalMeters": 3746,
+      "distanceFromDefaultTerminalMeters": 3746,
+      "minDistanceFromAnyTerminalMeters": 3746,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "117 Avenue de la Victoire du 8 Mai 1945",
+      "openingHours": "Mo-Fr 08:30-13:00,14:30-19:00; Sa 08:30-12:30",
+      "website": "https://pharmacie-sainteanne-toulon.pharm-upp.fr/",
+      "phone": "+33 4 94 89 22 77",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "pharmacy"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/4cc1ecd6a788bb886725",
+      "name": "Strada",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "clothes",
+      "lat": 43.1248199,
+      "lng": 5.9322556,
+      "distanceFromTerminalMeters": 3544,
+      "distanceFromDefaultTerminalMeters": 3544,
+      "minDistanceFromAnyTerminalMeters": 3544,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "25 Boulevard de Strasbourg, Toulon, 83000",
+      "openingHours": "Tu-Sa 10:00-19:00; Mo,Su off",
+      "website": "https://www.stradatoulon.fr/",
+      "phone": "+33 4 94 41 21 36",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "shop": "clothes"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/e2645573f658ad682aa8",
+      "name": "Le Fournil Mandréen",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "bakery",
+      "lat": 43.078381,
+      "lng": 5.9284545,
+      "distanceFromTerminalMeters": 3854,
+      "distanceFromDefaultTerminalMeters": 3854,
+      "minDistanceFromAnyTerminalMeters": 3854,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1 Quai Jean Jaurès, Saint-Mandrier-sur-Mer, 83430",
+      "openingHours": "Mo-Su 06:00-20:00",
+      "website": "https://www.facebook.com/profile.php/?id=100093456445001",
+      "phone": "+334 89 29 08 86",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "shop": "bakery"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/7bb3257ad27df0aa890d",
+      "name": "Maison Sarroche",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "bakery",
+      "lat": 43.0766698,
+      "lng": 5.9281904,
+      "distanceFromTerminalMeters": 3988,
+      "distanceFromDefaultTerminalMeters": 3988,
+      "minDistanceFromAnyTerminalMeters": 3988,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1 Rue Gabriel Péri",
+      "openingHours": "06:00-20:00",
+      "website": "https://www.maison-sarroche.com",
+      "phone": "+33 4 94 03 43 54",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "shop": "bakery"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/34a98c3d2d1d0e3023ca",
+      "name": "Maison levilly",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "bakery",
+      "lat": 43.1010558,
+      "lng": 5.8887279,
+      "distanceFromTerminalMeters": 876,
+      "distanceFromDefaultTerminalMeters": 876,
+      "minDistanceFromAnyTerminalMeters": 876,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "370 Cours Toussaint Merle, 83500",
+      "openingHours": "Mo-Su 04:30-20:00",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "shop": "bakery"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/1582f11275f6f253d7d2",
+      "name": "La Ressourcerie de la Rade",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "second_hand",
+      "lat": 43.122702,
+      "lng": 5.9417207,
+      "distanceFromTerminalMeters": 4054,
+      "distanceFromDefaultTerminalMeters": 4054,
+      "minDistanceFromAnyTerminalMeters": 4054,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "16 Rue Danton, Toulon, 83000",
+      "openingHours": "Mo-Fr 10:00-12:00, 14:00-17:45",
+      "website": "https://m.facebook.com/laressourceriedelarade/",
+      "phone": "+33494462093",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "shop": "second_hand"
       }
     },
     {
@@ -1405,9 +2281,9 @@
       "subcategory": "restaurant",
       "lat": 43.0815474,
       "lng": 5.8934926,
-      "distanceFromTerminalMeters": 2974,
-      "distanceFromDefaultTerminalMeters": 2974,
-      "minDistanceFromAnyTerminalMeters": 2974,
+      "distanceFromTerminalMeters": 2634,
+      "distanceFromDefaultTerminalMeters": 2634,
+      "minDistanceFromAnyTerminalMeters": 2634,
       "nearestTerminalId": "ports-json-anchor",
       "address": "",
       "openingHours": "Tu-Su 11:30-14:00;Tu-Sa 18:30-21:30",
@@ -1419,102 +2295,133 @@
       "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "",
+      "wikipedia": "",
       "osmTags": {
         "amenity": "restaurant"
       }
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/a63be60c12c3c0faad6e",
-      "name": "Centre commercial Mayol",
+      "sourceId": "osm/generated/45c69e18f52c0981cf0c",
+      "name": "Le Cedrus",
       "nameEnglish": "",
-      "category": "shopping",
-      "subcategory": "mall",
-      "lat": 43.1201057,
-      "lng": 5.9368037,
-      "distanceFromTerminalMeters": 2619,
-      "distanceFromDefaultTerminalMeters": 2619,
-      "minDistanceFromAnyTerminalMeters": 2619,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "Rue du Murier",
-      "openingHours": "",
-      "website": "https://centremayol.com",
-      "phone": "",
-      "cuisine": [],
-      "wheelchair": "yes",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "shop": "mall"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/f5fd82d6e4fce9f02b6a",
-      "name": "Maison de la mobilité",
-      "nameEnglish": "",
-      "category": "essentials",
-      "subcategory": "visitor_information",
-      "lat": 43.1213921,
-      "lng": 5.9320928,
-      "distanceFromTerminalMeters": 2573,
-      "distanceFromDefaultTerminalMeters": 2573,
-      "minDistanceFromAnyTerminalMeters": 2573,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "34 Rue d'Alger, Toulon, 83000",
-      "openingHours": "Tu-Sa 10:00-18:00",
-      "website": "",
-      "phone": "+33 4 94 93 37 37",
-      "cuisine": [],
-      "wheelchair": "yes",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "tourism": "information"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/32b9bfc864d0fbe23def",
-      "name": "Esplanade Albert Sébille",
-      "nameEnglish": "",
-      "category": "attraction",
-      "subcategory": "square",
-      "lat": 43.0935462,
-      "lng": 5.9101855,
-      "distanceFromTerminalMeters": 1072,
-      "distanceFromDefaultTerminalMeters": 1072,
-      "minDistanceFromAnyTerminalMeters": 1072,
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 43.0809283,
+      "lng": 5.8937345,
+      "distanceFromTerminalMeters": 2699,
+      "distanceFromDefaultTerminalMeters": 2699,
+      "minDistanceFromAnyTerminalMeters": 2699,
       "nearestTerminalId": "ports-json-anchor",
       "address": "",
-      "openingHours": "",
+      "openingHours": "Mo-Fr 18:00-21:00;Tu-Sa 11:30-13:30; Fr-Sa 18:00-21:30",
+      "website": "https://cdn.me-qr.com",
+      "phone": "+33 489 293 472",
+      "cuisine": [
+        "lebanese"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/490d57582a3897b09bcf",
+      "name": "Musée Balaguier",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 43.0943859,
+      "lng": 5.9109753,
+      "distanceFromTerminalMeters": 1578,
+      "distanceFromDefaultTerminalMeters": 1578,
+      "minDistanceFromAnyTerminalMeters": 1578,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Sep-Jun Tu 14:00-18:00; Sep-Jun We-Su 10:00-12:00,14:00-18:00; Jul-Aug Tu 15:00-19:00; Jul-Aug We-Su 10:00-12:00,15:00-19:00",
       "website": "",
       "phone": "",
       "cuisine": [],
       "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "",
+      "wikipedia": "",
       "osmTags": {
-        "place": "square"
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ded87fd5d93cbea392a5",
+      "name": "La Seyne sur Mer-Garibaldi",
+      "nameEnglish": "",
+      "category": "essentials",
+      "subcategory": "post_office",
+      "lat": 43.0992201,
+      "lng": 5.8831867,
+      "distanceFromTerminalMeters": 1368,
+      "distanceFromDefaultTerminalMeters": 1368,
+      "minDistanceFromAnyTerminalMeters": 1368,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "9 Avenue Garibaldi, 83500",
+      "openingHours": "Mo,Tu,Th,Fr 08:15-17:30, We 08:15-12:00,14:00-17:30, Sa 08:15-12:30",
+      "website": "https://localiser.laposte.fr/var/la-seyne-sur-mer/la-seyne-la-navale-831740",
+      "phone": "3631",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "post_office"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/3877ee98a07618961f74",
+      "name": "CK Food",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "fast_food",
+      "lat": 43.1209223,
+      "lng": 5.9315891,
+      "distanceFromTerminalMeters": 3247,
+      "distanceFromDefaultTerminalMeters": 3247,
+      "minDistanceFromAnyTerminalMeters": 3247,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "31 Rue d'Alger",
+      "openingHours": "Mo-Sa 11:00-23:00",
+      "website": "",
+      "phone": "+33494622814",
+      "cuisine": [
+        "pizza"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "fast_food"
       }
     }
   ],
-  "portAnchor": {
-    "id": "ports-json-anchor",
-    "name": "TOULON Port",
-    "lat": 43.1,
-    "lng": 5.92,
-    "address": "Toulon, Var, France",
-    "source": "ports.json",
-    "sourceId": "",
-    "score": 0,
-    "slug": "toulon-port"
-  },
+  "gemSuggestions": [
+    "Mont Faron cable car",
+    "Cours Lafayette market"
+  ],
   "terminalResolution": {
     "status": "resolved",
-    "method": "terminal_review",
+    "method": "cruise-ports",
     "verified": true,
-    "reviewedAt": "2026-09-28",
     "notes": "Large ships berth at the La Seyne-sur-Mer cruise terminal across the harbour (added from OpenStreetMap), with a shuttle boat to Toulon; smaller ships use the Toulon pontoon."
   }
 }

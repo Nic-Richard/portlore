@@ -1,7 +1,34 @@
 {
+  "defaultTerminalId": "osm/generated/5a710f7ac9b21c6b8fd0",
+  "terminal": {
+    "id": "osm/generated/5a710f7ac9b21c6b8fd0",
+    "name": "Prince Rupert Cruise Terminal",
+    "lat": 54.317888,
+    "lng": -130.322559,
+    "terminalType": "passenger_cruise_terminal",
+    "source": "verified_terminal_candidate",
+    "address": "100 Manson Way, Prince Rupert",
+    "notes": "Accepted 1 candidate explicitly identified as an ocean-cruise or cruise-passenger terminal; ferry and unrelated results were excluded.",
+    "sourceId": "osm/generated/5a710f7ac9b21c6b8fd0",
+    "verified": true
+  },
+  "terminals": [
+    {
+      "id": "osm/generated/5a710f7ac9b21c6b8fd0",
+      "name": "Prince Rupert Cruise Terminal",
+      "lat": 54.317888,
+      "lng": -130.322559,
+      "terminalType": "passenger_cruise_terminal",
+      "source": "verified_terminal_candidate",
+      "address": "100 Manson Way, Prince Rupert",
+      "notes": "Accepted 1 candidate explicitly identified as an ocean-cruise or cruise-passenger terminal; ferry and unrelated results were excluded.",
+      "sourceId": "osm/generated/5a710f7ac9b21c6b8fd0",
+      "verified": true
+    }
+  ],
   "schemaVersion": 5,
   "catalogType": "curation-candidates",
-  "generatedAt": "2026-07-30T08:37:32.160Z",
+  "generatedAt": "2026-09-29T05:47:46.884Z",
   "source": "openstreetmap",
   "sourceExtract": "north-admreg-latest.osm.pbf",
   "radiusMeters": 10000,
@@ -10,315 +37,23 @@
     "city": "Prince Rupert",
     "country": "Canada"
   },
-  "defaultTerminalId": "osm/generated/5a710f7ac9b21c6b8fd0",
-  "terminal": {
-    "id": "osm/generated/5a710f7ac9b21c6b8fd0",
+  "portAnchor": {
+    "id": "ports-json-anchor",
     "name": "Prince Rupert Cruise Terminal",
-    "nameEnglish": "",
     "lat": 54.317888,
     "lng": -130.322559,
-    "address": "100 Manson Way, Prince Rupert",
-    "source": "verified_terminal_candidate",
-    "sourceId": "osm/generated/5a710f7ac9b21c6b8fd0",
-    "terminalType": "passenger_cruise_terminal",
-    "verified": true,
-    "notes": "Accepted 1 candidate explicitly identified as an ocean-cruise or cruise-passenger terminal; ferry and unrelated results were excluded.",
-    "sourceUrls": [],
-    "sources": [
-      "openstreetmap",
-      "nominatim"
-    ],
-    "sourceIds": [
-      "osm/generated/5a710f7ac9b21c6b8fd0",
-      "osm/way/1446476625"
-    ],
-    "osmTags": {
-      "amenity": "ferry_terminal",
-      "building": "yes",
-      "ferry": "yes",
-      "public_transport": "station"
-    },
-    "matchedBy": [
-      "amenity=ferry_terminal",
-      "terminal-like name",
-      "Nominatim query: Prince Rupert cruise terminal, Canada"
-    ]
+    "address": "Prince Rupert, British Columbia, Canada",
+    "source": "ports.json",
+    "sourceId": "",
+    "score": 0,
+    "slug": "prince-rupert-cruise-terminal"
   },
-  "terminals": [
-    {
-      "id": "osm/generated/5a710f7ac9b21c6b8fd0",
-      "name": "Prince Rupert Cruise Terminal",
-      "nameEnglish": "",
-      "lat": 54.317888,
-      "lng": -130.322559,
-      "address": "100 Manson Way, Prince Rupert",
-      "source": "verified_terminal_candidate",
-      "sourceId": "osm/generated/5a710f7ac9b21c6b8fd0",
-      "terminalType": "passenger_cruise_terminal",
-      "verified": true,
-      "notes": "Accepted 1 candidate explicitly identified as an ocean-cruise or cruise-passenger terminal; ferry and unrelated results were excluded.",
-      "sourceUrls": [],
-      "sources": [
-        "openstreetmap",
-        "nominatim"
-      ],
-      "sourceIds": [
-        "osm/generated/5a710f7ac9b21c6b8fd0",
-        "osm/way/1446476625"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "building": "yes",
-        "ferry": "yes",
-        "public_transport": "station"
-      },
-      "matchedBy": [
-        "amenity=ferry_terminal",
-        "terminal-like name",
-        "Nominatim query: Prince Rupert cruise terminal, Canada"
-      ]
-    }
-  ],
-  "terminalCandidateRadiusMeters": 5000,
-  "terminalCandidates": [
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/cf1952f3d8fd1b6cd425",
-      "name": "(unnamed maritime feature)",
-      "nameEnglish": "",
-      "lat": 54.3167492,
-      "lng": -130.3256543,
-      "distanceFromPortMeters": 458,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/cf1952f3d8fd1b6cd425"
-      ]
-    },
-    {
-      "source": "openstreetmap+nominatim",
-      "sourceId": "osm/generated/5a710f7ac9b21c6b8fd0",
-      "name": "Prince Rupert Cruise Terminal",
-      "nameEnglish": "",
-      "lat": 54.3178884,
-      "lng": -130.3225589,
-      "distanceFromPortMeters": 537,
-      "address": "100 Manson Way, Prince Rupert",
-      "matchedBy": [
-        "amenity=ferry_terminal",
-        "terminal-like name",
-        "Nominatim query: Prince Rupert cruise terminal, Canada"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "building": "yes",
-        "ferry": "yes",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap",
-        "nominatim"
-      ],
-      "sourceIds": [
-        "osm/generated/5a710f7ac9b21c6b8fd0",
-        "osm/way/1446476625"
-      ],
-      "displayName": "Prince Rupert Cruise Terminal, 100, Manson Way, Prince Rupert, North Coast Regional District, British Columbia, V8J 1L1, Canada",
-      "query": "Prince Rupert cruise terminal, Canada"
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/5b23cebe98a9cff73191",
-      "name": "(unnamed maritime feature)",
-      "nameEnglish": "",
-      "lat": 54.3010486,
-      "lng": -130.3525553,
-      "distanceFromPortMeters": 2565,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/5b23cebe98a9cff73191"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/2834725f5349eeb83b24",
-      "name": "Prince Rupert",
-      "nameEnglish": "",
-      "lat": 54.2978115,
-      "lng": -130.354086,
-      "distanceFromPortMeters": 2920,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "cargo": "passengers;vehicle",
-        "ferry": "yes",
-        "operator": "BC Ferries",
-        "public_transport": "stop_position"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/2834725f5349eeb83b24"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/b4cd2875c3ab8074e7c0",
-      "name": "Prince Rupert",
-      "nameEnglish": "",
-      "lat": 54.2958343,
-      "lng": -130.353178,
-      "distanceFromPortMeters": 3079,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "cargo": "passengers;vehicle",
-        "ferry": "yes",
-        "operator": "Alaska Marine Highway",
-        "public_transport": "stop_position"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/b4cd2875c3ab8074e7c0"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/3363df488037578dacea",
-      "name": "Fairview",
-      "nameEnglish": "",
-      "lat": 54.2941048,
-      "lng": -130.3538988,
-      "distanceFromPortMeters": 3270,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "operator": "City of Prince Rupert",
-        "public_transport": "stop_position"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/3363df488037578dacea"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/f2dbe4f47094551c0580",
-      "name": "Arrow Point",
-      "nameEnglish": "",
-      "lat": 54.3334302,
-      "lng": -130.2829298,
-      "distanceFromPortMeters": 3398,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "public_transport": "stop_position"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/f2dbe4f47094551c0580"
-      ]
-    },
-    {
-      "source": "nominatim",
-      "sourceId": "osm/way/169852754",
-      "osmType": "way",
-      "osmId": "169852754",
-      "name": "Port of Prince Rupert Container Terminal",
-      "nameEnglish": "",
-      "lat": 54.2845472,
-      "lng": -130.3578927,
-      "distanceFromPortMeters": 4338,
-      "address": "Port of Prince Rupert Container Terminal, Prince Rupert, North Coast Regional District, British Columbia, Canada",
-      "displayName": "Port of Prince Rupert Container Terminal, Prince Rupert, North Coast Regional District, British Columbia, Canada",
-      "query": "PRINCE RUPERT Port, Prince Rupert, Canada",
-      "matchedBy": [
-        "Nominatim query: PRINCE RUPERT Port, Prince Rupert, Canada"
-      ],
-      "osmTags": {
-        "industrial": "port"
-      },
-      "sources": [
-        "nominatim"
-      ],
-      "sourceIds": [
-        "osm/way/169852754"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/4d7224247090fab261d8",
-      "name": "Digby",
-      "nameEnglish": "",
-      "lat": 54.3130201,
-      "lng": -130.4030541,
-      "distanceFromPortMeters": 4801,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "operator": "City of Prince Rupert",
-        "public_transport": "stop_position"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/4d7224247090fab261d8"
-      ]
-    }
-  ],
   "counts": {
-    "attraction": 13,
-    "outdoors": 5,
-    "food_drink": 11,
-    "shopping": 4,
-    "essentials": 2
+    "attraction": 10,
+    "food_drink": 24,
+    "shopping": 16,
+    "outdoors": 11,
+    "essentials": 5
   },
   "pois": [
     {
@@ -330,9 +65,9 @@
       "subcategory": "museum",
       "lat": 54.3163014,
       "lng": -130.3240885,
-      "distanceFromTerminalMeters": 562,
-      "distanceFromDefaultTerminalMeters": 562,
-      "minDistanceFromAnyTerminalMeters": 562,
+      "distanceFromTerminalMeters": 202,
+      "distanceFromDefaultTerminalMeters": 202,
+      "minDistanceFromAnyTerminalMeters": 202,
       "nearestTerminalId": "ports-json-anchor",
       "address": "100 1st Avenue West, Prince Rupert, V8J 1A8",
       "openingHours": "Tu-Sa 09:00-12:00,13:00-16:00; 09:00-16:00 open \"Cruise Ship days\"; PH closed",
@@ -342,34 +77,42 @@
       "wheelchair": "yes",
       "brand": "",
       "description": "",
+      "wikidata": "",
+      "wikipedia": "",
       "osmTags": {
         "tourism": "museum"
-      }
+      },
+      "curated": true,
+      "gem": true
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/0a8000407a0a088bf32d",
-      "name": "Prince Rupert Fire Museum",
+      "sourceId": "osm/generated/ee666c787ba440cfdb35",
+      "name": "Sunken Gardens",
       "nameEnglish": "",
-      "category": "attraction",
-      "subcategory": "museum",
-      "lat": 54.3153958,
-      "lng": -130.3250344,
-      "distanceFromTerminalMeters": 605,
-      "distanceFromDefaultTerminalMeters": 605,
-      "minDistanceFromAnyTerminalMeters": 605,
+      "category": "outdoors",
+      "subcategory": "garden",
+      "lat": 54.3167504,
+      "lng": -130.3202467,
+      "distanceFromTerminalMeters": 196,
+      "distanceFromDefaultTerminalMeters": 196,
+      "minDistanceFromAnyTerminalMeters": 196,
       "nearestTerminalId": "ports-json-anchor",
       "address": "",
       "openingHours": "",
-      "website": "https://www.princerupertlibrary.ca/fire/",
+      "website": "",
       "phone": "",
       "cuisine": [],
       "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "",
+      "wikipedia": "",
       "osmTags": {
-        "tourism": "museum"
-      }
+        "leisure": "garden"
+      },
+      "curated": true,
+      "gem": true
     },
     {
       "source": "openstreetmap",
@@ -380,9 +123,9 @@
       "subcategory": "museum",
       "lat": 54.3137194,
       "lng": -130.3310902,
-      "distanceFromTerminalMeters": 702,
-      "distanceFromDefaultTerminalMeters": 702,
-      "minDistanceFromAnyTerminalMeters": 702,
+      "distanceFromTerminalMeters": 722,
+      "distanceFromDefaultTerminalMeters": 722,
+      "minDistanceFromAnyTerminalMeters": 722,
       "nearestTerminalId": "ports-json-anchor",
       "address": "",
       "openingHours": "",
@@ -392,10 +135,76 @@
       "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "",
+      "wikipedia": "",
       "osmTags": {
         "historic": "train_station",
         "tourism": "museum"
-      }
+      },
+      "curated": true,
+      "gem": true
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/47ac601a6f4ed0c2baee",
+      "name": "Smile's Seafood Cafe",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 54.3188294,
+      "lng": -130.3188769,
+      "distanceFromTerminalMeters": 261,
+      "distanceFromDefaultTerminalMeters": 261,
+      "minDistanceFromAnyTerminalMeters": 261,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "113 Cow Bay Road, Prince Rupert, V8J 3X4",
+      "openingHours": "",
+      "website": "",
+      "phone": "+1-250-624-3072",
+      "cuisine": [
+        "seafood"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      },
+      "curated": true,
+      "gem": true
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/860ba13a4b61b6224e03",
+      "name": "Cowpuccino's Coffee House",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 54.3185831,
+      "lng": -130.3184241,
+      "distanceFromTerminalMeters": 279,
+      "distanceFromDefaultTerminalMeters": 279,
+      "minDistanceFromAnyTerminalMeters": 279,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "25 Cow Bay Road, Prince Rupert, V8J 1A5",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [
+        "coffee_shop"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "cafe"
+      },
+      "curated": true,
+      "gem": true
     },
     {
       "source": "openstreetmap",
@@ -406,9 +215,9 @@
       "subcategory": "gallery",
       "lat": 54.3179239,
       "lng": -130.3204975,
-      "distanceFromTerminalMeters": 658,
-      "distanceFromDefaultTerminalMeters": 658,
-      "minDistanceFromAnyTerminalMeters": 658,
+      "distanceFromTerminalMeters": 134,
+      "distanceFromDefaultTerminalMeters": 134,
+      "minDistanceFromAnyTerminalMeters": 134,
       "nearestTerminalId": "ports-json-anchor",
       "address": "217 1st Avenue East, Prince Rupert",
       "openingHours": "",
@@ -418,59 +227,37 @@
       "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "",
+      "wikipedia": "",
       "osmTags": {
         "tourism": "gallery"
       }
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/e59cb5e7535eac7ec4ae",
-      "name": "Presbyterian Church",
+      "sourceId": "osm/generated/fd169f04cff096e84680",
+      "name": "Prince Rupert Fire Museum",
       "nameEnglish": "",
       "category": "attraction",
-      "subcategory": "church",
-      "lat": 54.3157439,
-      "lng": -130.3181906,
-      "distanceFromTerminalMeters": 900,
-      "distanceFromDefaultTerminalMeters": 900,
-      "minDistanceFromAnyTerminalMeters": 900,
+      "subcategory": "museum",
+      "lat": 54.3153958,
+      "lng": -130.3250344,
+      "distanceFromTerminalMeters": 320,
+      "distanceFromDefaultTerminalMeters": 320,
+      "minDistanceFromAnyTerminalMeters": 320,
       "nearestTerminalId": "ports-json-anchor",
       "address": "",
       "openingHours": "",
-      "website": "",
+      "website": "https://visitprincerupert.com/our-businesses/prince-rupert-fire-museum/",
       "phone": "",
       "cuisine": [],
       "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "",
+      "wikipedia": "",
       "osmTags": {
-        "amenity": "place_of_worship",
-        "historic": "church"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/96805d1197c3ff0223ff",
-      "name": "Fairview Point Battery",
-      "nameEnglish": "",
-      "category": "attraction",
-      "subcategory": "fort",
-      "lat": 54.2871449,
-      "lng": -130.3523369,
-      "distanceFromTerminalMeters": 3930,
-      "distanceFromDefaultTerminalMeters": 3930,
-      "minDistanceFromAnyTerminalMeters": 3930,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "",
-      "openingHours": "",
-      "website": "https://fortwiki.com/Fairview_Point_Battery",
-      "phone": "",
-      "cuisine": [],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "historic": "fort"
+        "tourism": "museum"
       }
     },
     {
@@ -482,9 +269,9 @@
       "subcategory": "monument",
       "lat": 54.3173611,
       "lng": -130.3223586,
-      "distanceFromTerminalMeters": 576,
-      "distanceFromDefaultTerminalMeters": 576,
-      "minDistanceFromAnyTerminalMeters": 576,
+      "distanceFromTerminalMeters": 60,
+      "distanceFromDefaultTerminalMeters": 60,
+      "minDistanceFromAnyTerminalMeters": 60,
       "nearestTerminalId": "ports-json-anchor",
       "address": "",
       "openingHours": "",
@@ -494,6 +281,8 @@
       "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "",
+      "wikipedia": "",
       "osmTags": {
         "historic": "monument"
       }
@@ -507,9 +296,9 @@
       "subcategory": "monument",
       "lat": 54.3171983,
       "lng": -130.3223638,
-      "distanceFromTerminalMeters": 585,
-      "distanceFromDefaultTerminalMeters": 585,
-      "minDistanceFromAnyTerminalMeters": 585,
+      "distanceFromTerminalMeters": 78,
+      "distanceFromDefaultTerminalMeters": 78,
+      "minDistanceFromAnyTerminalMeters": 78,
       "nearestTerminalId": "ports-json-anchor",
       "address": "",
       "openingHours": "",
@@ -519,59 +308,37 @@
       "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "",
+      "wikipedia": "",
       "osmTags": {
         "historic": "monument"
       }
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/53927df3cb364a70421f",
-      "name": "Pillsbury Guest House",
+      "sourceId": "osm/generated/96805d1197c3ff0223ff",
+      "name": "Fairview Point Battery",
       "nameEnglish": "",
       "category": "attraction",
-      "subcategory": "guest_house",
-      "lat": 54.3151474,
-      "lng": -130.3268982,
-      "distanceFromTerminalMeters": 576,
-      "distanceFromDefaultTerminalMeters": 576,
-      "minDistanceFromAnyTerminalMeters": 576,
+      "subcategory": "fort",
+      "lat": 54.2871449,
+      "lng": -130.3523369,
+      "distanceFromTerminalMeters": 3927,
+      "distanceFromDefaultTerminalMeters": 3927,
+      "minDistanceFromAnyTerminalMeters": 3927,
       "nearestTerminalId": "ports-json-anchor",
       "address": "",
       "openingHours": "",
-      "website": "",
+      "website": "https://fortwiki.com/Fairview_Point_Battery",
       "phone": "",
       "cuisine": [],
       "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "",
+      "wikipedia": "",
       "osmTags": {
-        "historic": "house",
-        "tourism": "guest_house"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/8e86593108f3bd41b4f2",
-      "name": "Canadian National Railway Station",
-      "nameEnglish": "",
-      "category": "attraction",
-      "subcategory": "train_station",
-      "lat": 54.3142135,
-      "lng": -130.3296179,
-      "distanceFromTerminalMeters": 644,
-      "distanceFromDefaultTerminalMeters": 644,
-      "minDistanceFromAnyTerminalMeters": 644,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "",
-      "openingHours": "",
-      "website": "",
-      "phone": "",
-      "cuisine": [],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "historic": "train_station"
+        "historic": "fort"
       }
     },
     {
@@ -583,9 +350,9 @@
       "subcategory": "fort",
       "lat": 54.2729939,
       "lng": -130.3580639,
-      "distanceFromTerminalMeters": 5535,
-      "distanceFromDefaultTerminalMeters": 5535,
-      "minDistanceFromAnyTerminalMeters": 5535,
+      "distanceFromTerminalMeters": 5498,
+      "distanceFromDefaultTerminalMeters": 5498,
+      "minDistanceFromAnyTerminalMeters": 5498,
       "nearestTerminalId": "ports-json-anchor",
       "address": "",
       "openingHours": "",
@@ -595,33 +362,10 @@
       "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "",
+      "wikipedia": "",
       "osmTags": {
         "historic": "fort"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/9b8539bdee3d11aada51",
-      "name": "Entrance-BC Ferries-Prince Rupert Terminal",
-      "nameEnglish": "Entrance-BC Ferries-Prince Rupert Terminal",
-      "category": "attraction",
-      "subcategory": "attraction",
-      "lat": 54.2929767,
-      "lng": -130.3533736,
-      "distanceFromTerminalMeters": 3366,
-      "distanceFromDefaultTerminalMeters": 3366,
-      "minDistanceFromAnyTerminalMeters": 3366,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "",
-      "openingHours": "",
-      "website": "",
-      "phone": "",
-      "cuisine": [],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "tourism": "attraction"
       }
     },
     {
@@ -633,9 +377,9 @@
       "subcategory": "fort",
       "lat": 54.2452362,
       "lng": -130.3313911,
-      "distanceFromTerminalMeters": 8314,
-      "distanceFromDefaultTerminalMeters": 8314,
-      "minDistanceFromAnyTerminalMeters": 8314,
+      "distanceFromTerminalMeters": 8099,
+      "distanceFromDefaultTerminalMeters": 8099,
+      "minDistanceFromAnyTerminalMeters": 8099,
       "nearestTerminalId": "ports-json-anchor",
       "address": "",
       "openingHours": "",
@@ -645,22 +389,24 @@
       "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "",
+      "wikipedia": "",
       "osmTags": {
         "historic": "fort"
       }
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/6b8e7ea123c5de715be1",
-      "name": "Rotary Waterfront Park",
+      "sourceId": "osm/generated/2aafdd0aea889bdb710d",
+      "name": "Barrett Rock Lighthouse",
       "nameEnglish": "",
-      "category": "outdoors",
-      "subcategory": "park",
-      "lat": 54.3140232,
-      "lng": -130.330521,
-      "distanceFromTerminalMeters": 665,
-      "distanceFromDefaultTerminalMeters": 665,
-      "minDistanceFromAnyTerminalMeters": 665,
+      "category": "attraction",
+      "subcategory": "lighthouse",
+      "lat": 54.2426369,
+      "lng": -130.3439966,
+      "distanceFromTerminalMeters": 8482,
+      "distanceFromDefaultTerminalMeters": 8482,
+      "minDistanceFromAnyTerminalMeters": 8482,
       "nearestTerminalId": "ports-json-anchor",
       "address": "",
       "openingHours": "",
@@ -670,201 +416,24 @@
       "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "",
+      "wikipedia": "",
       "osmTags": {
-        "leisure": "park"
+        "man_made": "lighthouse"
       }
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/5d8626bec5064ebd67eb",
-      "name": "Pacific Mariners Memorial Park",
-      "nameEnglish": "",
-      "category": "outdoors",
-      "subcategory": "park",
-      "lat": 54.3171181,
-      "lng": -130.3227682,
-      "distanceFromTerminalMeters": 568,
-      "distanceFromDefaultTerminalMeters": 568,
-      "minDistanceFromAnyTerminalMeters": 568,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "",
-      "openingHours": "",
-      "website": "",
-      "phone": "",
-      "cuisine": [],
-      "wheelchair": "",
-      "brand": "",
-      "description": "Dedicated to those who have lost their lives at sea.",
-      "osmTags": {
-        "leisure": "park"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/53b95a8b7d86bf4dbe31",
-      "name": "prince Rupert",
-      "nameEnglish": "prince Rupert",
-      "category": "outdoors",
-      "subcategory": "viewpoint",
-      "lat": 54.3171969,
-      "lng": -130.322708,
-      "distanceFromTerminalMeters": 566,
-      "distanceFromDefaultTerminalMeters": 566,
-      "minDistanceFromAnyTerminalMeters": 566,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "",
-      "openingHours": "",
-      "website": "",
-      "phone": "",
-      "cuisine": [],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "tourism": "viewpoint"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/ee666c787ba440cfdb35",
-      "name": "Sunken Gardens",
-      "nameEnglish": "",
-      "category": "outdoors",
-      "subcategory": "garden",
-      "lat": 54.3167504,
-      "lng": -130.3202467,
-      "distanceFromTerminalMeters": 729,
-      "distanceFromDefaultTerminalMeters": 729,
-      "minDistanceFromAnyTerminalMeters": 729,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "",
-      "openingHours": "",
-      "website": "",
-      "phone": "",
-      "cuisine": [],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "leisure": "garden"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/b3aae679fb97d89c16ab",
-      "name": "Cow Bay Marina",
-      "nameEnglish": "",
-      "category": "outdoors",
-      "subcategory": "marina",
-      "lat": 54.3198743,
-      "lng": -130.3194215,
-      "distanceFromTerminalMeters": 686,
-      "distanceFromDefaultTerminalMeters": 686,
-      "minDistanceFromAnyTerminalMeters": 686,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "Cow Bay 209",
-      "openingHours": "",
-      "website": "https://cowbaymarina.ca/",
-      "phone": "+1-250-622-2628",
-      "cuisine": [],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "leisure": "marina"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/ccbd8a6eda39df8c518b",
-      "name": "Dolly's Fish Market Restaurant",
-      "nameEnglish": "Dolly's Fish Market Restaurant",
-      "category": "food_drink",
-      "subcategory": "restaurant",
-      "lat": 54.3180607,
-      "lng": -130.3178543,
-      "distanceFromTerminalMeters": 817,
-      "distanceFromDefaultTerminalMeters": 817,
-      "minDistanceFromAnyTerminalMeters": 817,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "7 Cow Bay Road, Prince Rupert, v8j 1a5",
-      "openingHours": "",
-      "website": "",
-      "phone": "",
-      "cuisine": [],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "amenity": "restaurant"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/47ac601a6f4ed0c2baee",
-      "name": "Smile's Seafood Cafe",
-      "nameEnglish": "",
-      "category": "food_drink",
-      "subcategory": "restaurant",
-      "lat": 54.3188294,
-      "lng": -130.3188769,
-      "distanceFromTerminalMeters": 733,
-      "distanceFromDefaultTerminalMeters": 733,
-      "minDistanceFromAnyTerminalMeters": 733,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "113 Cow Bay Road, Prince Rupert, V8J 3X4",
-      "openingHours": "",
-      "website": "",
-      "phone": "+1-250-624-3072",
-      "cuisine": [
-        "seafood"
-      ],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "amenity": "restaurant"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/860ba13a4b61b6224e03",
-      "name": "Cowpuccino's Coffee House",
-      "nameEnglish": "",
-      "category": "food_drink",
-      "subcategory": "cafe",
-      "lat": 54.3185831,
-      "lng": -130.3184241,
-      "distanceFromTerminalMeters": 767,
-      "distanceFromDefaultTerminalMeters": 767,
-      "minDistanceFromAnyTerminalMeters": 767,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "25 Cow Bay Road, Prince Rupert, V8J 1A5",
-      "openingHours": "",
-      "website": "",
-      "phone": "",
-      "cuisine": [
-        "coffee_shop"
-      ],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "amenity": "cafe"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/c618ce1170979dbc8f86",
+      "sourceId": "osm/generated/f589a584df2bb624da60",
       "name": "La Gondola",
       "nameEnglish": "",
       "category": "food_drink",
       "subcategory": "restaurant",
       "lat": 54.3124384,
       "lng": -130.3301657,
-      "distanceFromTerminalMeters": 841,
-      "distanceFromDefaultTerminalMeters": 841,
-      "minDistanceFromAnyTerminalMeters": 841,
+      "distanceFromTerminalMeters": 781,
+      "distanceFromDefaultTerminalMeters": 781,
+      "minDistanceFromAnyTerminalMeters": 781,
       "nearestTerminalId": "ports-json-anchor",
       "address": "710 1st Avenue West, Prince Rupert, V8J 3V6",
       "openingHours": "",
@@ -876,160 +445,8 @@
       "wheelchair": "",
       "brand": "",
       "description": "",
-      "osmTags": {
-        "amenity": "restaurant"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/d2f8fb7ccbec6169d6fd",
-      "name": "Breakers Pub",
-      "nameEnglish": "",
-      "category": "food_drink",
-      "subcategory": "pub",
-      "lat": 54.3189927,
-      "lng": -130.3186479,
-      "distanceFromTerminalMeters": 745,
-      "distanceFromDefaultTerminalMeters": 745,
-      "minDistanceFromAnyTerminalMeters": 745,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "",
-      "openingHours": "",
-      "website": "",
-      "phone": "",
-      "cuisine": [],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "amenity": "pub"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/bb02aa048ba3c0d20698",
-      "name": "javadotcup",
-      "nameEnglish": "",
-      "category": "food_drink",
-      "subcategory": "cafe",
-      "lat": 54.3120447,
-      "lng": -130.3262318,
-      "distanceFromTerminalMeters": 918,
-      "distanceFromDefaultTerminalMeters": 918,
-      "minDistanceFromAnyTerminalMeters": 918,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "516 3rd Avenue W",
-      "openingHours": "",
-      "website": "",
-      "phone": "",
-      "cuisine": [],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "amenity": "cafe"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/029c29a80eb005e88ca0",
-      "name": "Opa sushi",
-      "nameEnglish": "",
-      "category": "food_drink",
-      "subcategory": "restaurant",
-      "lat": 54.3181567,
-      "lng": -130.3186279,
-      "distanceFromTerminalMeters": 766,
-      "distanceFromDefaultTerminalMeters": 766,
-      "minDistanceFromAnyTerminalMeters": 766,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "",
-      "openingHours": "",
-      "website": "",
-      "phone": "",
-      "cuisine": [
-        "japanese"
-      ],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "amenity": "restaurant"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/8e6f61ff797f045fd06c",
-      "name": "Pho 88",
-      "nameEnglish": "",
-      "category": "food_drink",
-      "subcategory": "restaurant",
-      "lat": 54.312307,
-      "lng": -130.3250505,
-      "distanceFromTerminalMeters": 914,
-      "distanceFromDefaultTerminalMeters": 914,
-      "minDistanceFromAnyTerminalMeters": 914,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "",
-      "openingHours": "",
-      "website": "",
-      "phone": "",
-      "cuisine": [
-        "vietnamese"
-      ],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "amenity": "restaurant"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/84c8de6926f7c9fd0064",
-      "name": "Bob's On The Rocks",
-      "nameEnglish": "",
-      "category": "food_drink",
-      "subcategory": "restaurant",
-      "lat": 54.3242889,
-      "lng": -130.3050583,
-      "distanceFromTerminalMeters": 1686,
-      "distanceFromDefaultTerminalMeters": 1686,
-      "minDistanceFromAnyTerminalMeters": 1686,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "",
-      "openingHours": "11:00-19:00 open \"Fish and chips\" ||| 08:30-20:00 open \"Bistro\" ; Oct-Apr closed",
-      "website": "",
-      "phone": "",
-      "cuisine": [],
-      "wheelchair": "",
-      "brand": "",
-      "description": "Fish and chips only from 11am to 7pm.\nBistro from 8.30am to 8pm",
-      "osmTags": {
-        "amenity": "restaurant"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/383f1200cc0dc84452ed",
-      "name": "Galaxy Garden Restaurant",
-      "nameEnglish": "",
-      "category": "food_drink",
-      "subcategory": "restaurant",
-      "lat": 54.3097288,
-      "lng": -130.3301702,
-      "distanceFromTerminalMeters": 1142,
-      "distanceFromDefaultTerminalMeters": 1142,
-      "minDistanceFromAnyTerminalMeters": 1142,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "",
-      "openingHours": "",
-      "website": "",
-      "phone": "",
-      "cuisine": [],
-      "wheelchair": "",
-      "brand": "",
-      "description": "Specializing in Cantonese Food",
+      "wikidata": "",
+      "wikipedia": "",
       "osmTags": {
         "amenity": "restaurant"
       }
@@ -1043,9 +460,9 @@
       "subcategory": "restaurant",
       "lat": 54.3311935,
       "lng": -130.2874845,
-      "distanceFromTerminalMeters": 3025,
-      "distanceFromDefaultTerminalMeters": 3025,
-      "minDistanceFromAnyTerminalMeters": 3025,
+      "distanceFromTerminalMeters": 2713,
+      "distanceFromDefaultTerminalMeters": 2713,
+      "minDistanceFromAnyTerminalMeters": 2713,
       "nearestTerminalId": "ports-json-anchor",
       "address": "2209 Seal Cove Road, Prince Rupert",
       "openingHours": "",
@@ -1057,8 +474,545 @@
       "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "",
+      "wikipedia": "",
       "osmTags": {
         "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/029c29a80eb005e88ca0",
+      "name": "Opa sushi",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 54.3181567,
+      "lng": -130.3186279,
+      "distanceFromTerminalMeters": 257,
+      "distanceFromDefaultTerminalMeters": 257,
+      "minDistanceFromAnyTerminalMeters": 257,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [
+        "japanese"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/10833f00817ce5400ff7",
+      "name": "Lee & Ann Family Restaurant Canadian & Vietnamese Cuisine",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 54.3112002,
+      "lng": -130.3277251,
+      "distanceFromTerminalMeters": 816,
+      "distanceFromDefaultTerminalMeters": 816,
+      "minDistanceFromAnyTerminalMeters": 816,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "636 3rd Ave West",
+      "openingHours": "",
+      "website": "",
+      "phone": "+1-250-627-1924",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d403547cababbb764d51",
+      "name": "P & p Steak & Pasta",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 54.3100844,
+      "lng": -130.3295235,
+      "distanceFromTerminalMeters": 978,
+      "distanceFromDefaultTerminalMeters": 978,
+      "minDistanceFromAnyTerminalMeters": 978,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Tu-Su 04:00-21:00",
+      "website": "",
+      "phone": "+1-250-624-9700",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d142d03198b11483c7c6",
+      "name": "Yaga Cafe Garden Co.",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 54.3298573,
+      "lng": -130.2862181,
+      "distanceFromTerminalMeters": 2707,
+      "distanceFromDefaultTerminalMeters": 2707,
+      "minDistanceFromAnyTerminalMeters": 2707,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "2250 Bellis Road, Prince Rupert",
+      "openingHours": "",
+      "website": "https://yaga.co/",
+      "phone": "+12506246115",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/8e6f61ff797f045fd06c",
+      "name": "Pho 88",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 54.312307,
+      "lng": -130.3250505,
+      "distanceFromTerminalMeters": 641,
+      "distanceFromDefaultTerminalMeters": 641,
+      "minDistanceFromAnyTerminalMeters": 641,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [
+        "vietnamese"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/84c8de6926f7c9fd0064",
+      "name": "Bob's On The Rocks",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 54.3242889,
+      "lng": -130.3050583,
+      "distanceFromTerminalMeters": 1340,
+      "distanceFromDefaultTerminalMeters": 1340,
+      "minDistanceFromAnyTerminalMeters": 1340,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "11:00-19:00 open \"Fish and chips\" ||| 08:30-20:00 open \"Bistro\" ; Oct-Apr closed",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Fish and chips only from 11am to 7pm.\nBistro from 8.30am to 8pm",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c81a5fedc2548b8cc40f",
+      "name": "Pizza Hut",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 54.3114212,
+      "lng": -130.3273381,
+      "distanceFromTerminalMeters": 783,
+      "distanceFromDefaultTerminalMeters": 783,
+      "minDistanceFromAnyTerminalMeters": 783,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "616 3rd Avenue West, Prince Rupert, V8J 1M2",
+      "openingHours": "",
+      "website": "",
+      "phone": "+1-250-622-2444",
+      "cuisine": [
+        "pizza"
+      ],
+      "wheelchair": "",
+      "brand": "Pizza Hut",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/53f2e8ec64a15eaf9f2f",
+      "name": "OV Burger Bar",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "fast_food",
+      "lat": 54.3102092,
+      "lng": -130.3336441,
+      "distanceFromTerminalMeters": 1116,
+      "distanceFromDefaultTerminalMeters": 1116,
+      "minDistanceFromAnyTerminalMeters": 1116,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [
+        "burger"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "fast_food"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ccbd8a6eda39df8c518b",
+      "name": "Dolly's Fish Market Restaurant",
+      "nameEnglish": "Dolly's Fish Market Restaurant",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 54.3180607,
+      "lng": -130.3178543,
+      "distanceFromTerminalMeters": 306,
+      "distanceFromDefaultTerminalMeters": 306,
+      "minDistanceFromAnyTerminalMeters": 306,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "7 Cow Bay Road, Prince Rupert, v8j 1a5",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/bb02aa048ba3c0d20698",
+      "name": "javadotcup",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 54.3120447,
+      "lng": -130.3262318,
+      "distanceFromTerminalMeters": 692,
+      "distanceFromDefaultTerminalMeters": 692,
+      "minDistanceFromAnyTerminalMeters": 692,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "516 3rd Avenue W",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d66e5e8225bb05958df1",
+      "name": "The Hub Bar",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "bar",
+      "lat": 54.3119418,
+      "lng": -130.3277138,
+      "distanceFromTerminalMeters": 741,
+      "distanceFromDefaultTerminalMeters": 741,
+      "minDistanceFromAnyTerminalMeters": 741,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "607 2nd Avenue West",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "bar"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/6043300878540904e340",
+      "name": "Panago",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "fast_food",
+      "lat": 54.316177,
+      "lng": -130.3188285,
+      "distanceFromTerminalMeters": 308,
+      "distanceFromDefaultTerminalMeters": 308,
+      "minDistanceFromAnyTerminalMeters": 308,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "182 3rd Avenue East, V8J 1K5",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [
+        "pizza"
+      ],
+      "wheelchair": "",
+      "brand": "Panago",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "fast_food"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/27e45a0e09b3cd95b064",
+      "name": "Starbucks",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 54.3149467,
+      "lng": -130.3240356,
+      "distanceFromTerminalMeters": 341,
+      "distanceFromDefaultTerminalMeters": 341,
+      "minDistanceFromAnyTerminalMeters": 341,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "07:00-20:00",
+      "website": "",
+      "phone": "",
+      "cuisine": [
+        "coffee_shop"
+      ],
+      "wheelchair": "yes",
+      "brand": "Starbucks",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/e0d6c727d87e8c49ea71",
+      "name": "Subway",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "fast_food",
+      "lat": 54.3119718,
+      "lng": -130.3276549,
+      "distanceFromTerminalMeters": 736,
+      "distanceFromDefaultTerminalMeters": 736,
+      "minDistanceFromAnyTerminalMeters": 736,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "601 2nd Avenue West, Prince Rupert",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [
+        "sandwich"
+      ],
+      "wheelchair": "",
+      "brand": "Subway",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "fast_food"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/db3db3af1c11dc14c63e",
+      "name": "Tim Hortons",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 54.3119229,
+      "lng": -130.3287995,
+      "distanceFromTerminalMeters": 777,
+      "distanceFromDefaultTerminalMeters": 777,
+      "minDistanceFromAnyTerminalMeters": 777,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "24/7",
+      "website": "",
+      "phone": "",
+      "cuisine": [
+        "coffee_shop"
+      ],
+      "wheelchair": "yes",
+      "brand": "Tim Hortons",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d6e01a376a62aaac835c",
+      "name": "A&W",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "fast_food",
+      "lat": 54.3146382,
+      "lng": -130.3210952,
+      "distanceFromTerminalMeters": 374,
+      "distanceFromDefaultTerminalMeters": 374,
+      "minDistanceFromAnyTerminalMeters": 374,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [
+        "burger"
+      ],
+      "wheelchair": "",
+      "brand": "A&W",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "fast_food"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/bb7e95d078a0c4030beb",
+      "name": "Pita Pit",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "fast_food",
+      "lat": 54.3121229,
+      "lng": -130.3282189,
+      "distanceFromTerminalMeters": 739,
+      "distanceFromDefaultTerminalMeters": 739,
+      "minDistanceFromAnyTerminalMeters": 739,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [
+        "pita"
+      ],
+      "wheelchair": "",
+      "brand": "Pita Pit",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "fast_food"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/36f085be542ef21dec19",
+      "name": "McDonald's",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "fast_food",
+      "lat": 54.309921,
+      "lng": -130.3094032,
+      "distanceFromTerminalMeters": 1230,
+      "distanceFromDefaultTerminalMeters": 1230,
+      "minDistanceFromAnyTerminalMeters": 1230,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [
+        "burger"
+      ],
+      "wheelchair": "",
+      "brand": "McDonald's",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "fast_food"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/3f871080392d2592ca4e",
+      "name": "Homework",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "clothes",
+      "lat": 54.3189371,
+      "lng": -130.3193784,
+      "distanceFromTerminalMeters": 237,
+      "distanceFromDefaultTerminalMeters": 237,
+      "minDistanceFromAnyTerminalMeters": 237,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "145 Cow Bay Road, Prince Rupert, V8J 3X4",
+      "openingHours": "",
+      "website": "https://www.homeworkprincerupert.com/",
+      "phone": "+12506243663",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "shop": "clothes"
       }
     },
     {
@@ -1070,9 +1024,9 @@
       "subcategory": "marketplace",
       "lat": 54.3188134,
       "lng": -130.3206248,
-      "distanceFromTerminalMeters": 622,
-      "distanceFromDefaultTerminalMeters": 622,
-      "minDistanceFromAnyTerminalMeters": 622,
+      "distanceFromTerminalMeters": 162,
+      "distanceFromDefaultTerminalMeters": 162,
+      "minDistanceFromAnyTerminalMeters": 162,
       "nearestTerminalId": "ports-json-anchor",
       "address": "105-215 Cow Bay Road",
       "openingHours": "Mo-Sa 10:00-18:00; Su 11:00-17:00",
@@ -1082,24 +1036,53 @@
       "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "",
+      "wikipedia": "",
       "osmTags": {
         "amenity": "marketplace"
       }
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/ccea8cf574b78ec4e8dd",
-      "name": "Pa’s Food Market",
+      "sourceId": "osm/generated/fec0ec4acfc922e408fc",
+      "name": "Saltwater Bakery",
       "nameEnglish": "",
       "category": "shopping",
-      "subcategory": "convenience",
-      "lat": 54.3094582,
-      "lng": -130.3235633,
-      "distanceFromTerminalMeters": 1244,
-      "distanceFromDefaultTerminalMeters": 1244,
-      "minDistanceFromAnyTerminalMeters": 1244,
+      "subcategory": "bakery",
+      "lat": 54.3176505,
+      "lng": -130.3178241,
+      "distanceFromTerminalMeters": 308,
+      "distanceFromDefaultTerminalMeters": 308,
+      "minDistanceFromAnyTerminalMeters": 308,
       "nearestTerminalId": "ports-json-anchor",
-      "address": "601 6th Avenue West, V8J 1Z8",
+      "address": "",
+      "openingHours": "Mo-Sa 08:00-16:00; PH closed",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "shop": "bakery"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/4ba16eb0860bac940e8f",
+      "name": "LeBLANC Boutique",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "clothes",
+      "lat": 54.3126255,
+      "lng": -130.3246396,
+      "distanceFromTerminalMeters": 601,
+      "distanceFromDefaultTerminalMeters": 601,
+      "minDistanceFromAnyTerminalMeters": 601,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "413 3rd Avenue East, Prince Rupert, V8J 1K7, CA",
       "openingHours": "",
       "website": "",
       "phone": "",
@@ -1107,8 +1090,469 @@
       "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "",
+      "wikipedia": "",
       "osmTags": {
-        "shop": "convenience"
+        "shop": "clothes"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/26f5398dc152f786beb6",
+      "name": "Eddie's News",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "books",
+      "lat": 54.311869,
+      "lng": -130.3279037,
+      "distanceFromTerminalMeters": 754,
+      "distanceFromDefaultTerminalMeters": 754,
+      "minDistanceFromAnyTerminalMeters": 754,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "611",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "shop": "books"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/9193fad9e31a652c0334",
+      "name": "Slickers Raingear",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "clothes",
+      "lat": 54.3097072,
+      "lng": -130.3321738,
+      "distanceFromTerminalMeters": 1103,
+      "distanceFromDefaultTerminalMeters": 1103,
+      "minDistanceFromAnyTerminalMeters": 1103,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "906 2nd Avenue West, Prince Rupert, V8J 1H7",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "shop": "clothes"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/2fa53015102572497fa7",
+      "name": "Ansens Consignment",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "second_hand",
+      "lat": 54.3089705,
+      "lng": -130.3313859,
+      "distanceFromTerminalMeters": 1145,
+      "distanceFromDefaultTerminalMeters": 1145,
+      "minDistanceFromAnyTerminalMeters": 1145,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "964 3rd Avenue West, Prince Rupert, V8J 1M8, CA",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "shop": "second_hand"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/22b30dbfe4601bcb89b3",
+      "name": "CityWest;SHUTTER SHACK",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "photo",
+      "lat": 54.315963,
+      "lng": -130.3233438,
+      "distanceFromTerminalMeters": 220,
+      "distanceFromDefaultTerminalMeters": 220,
+      "minDistanceFromAnyTerminalMeters": 220,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "248;115 3rd Avenue West;1st AveW, Prince Rupert, V8J 1L1",
+      "openingHours": "",
+      "website": "",
+      "phone": "+1-250-624-2111",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "shop": "photo"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/bddd3ed16d78a6d4f84d",
+      "name": "Sea-Sport Outboard Marina",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "outdoor",
+      "lat": 54.3170835,
+      "lng": -130.3183866,
+      "distanceFromTerminalMeters": 285,
+      "distanceFromDefaultTerminalMeters": 285,
+      "minDistanceFromAnyTerminalMeters": 285,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "295 1st Avenue East, V8J 1A7",
+      "openingHours": "Mo-Fr 08:30-17:30; Sa 09:00-17:00; PH closed",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "shop": "outdoor"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/068d46d5c8da45df56d6",
+      "name": "Good Times Games",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "games",
+      "lat": 54.314085,
+      "lng": -130.3250763,
+      "distanceFromTerminalMeters": 453,
+      "distanceFromDefaultTerminalMeters": 453,
+      "minDistanceFromAnyTerminalMeters": 453,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "302 2nd Avenue West",
+      "openingHours": "",
+      "website": "https://good-times-games.myshopify.com/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "shop": "games"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/cbda11704ad8ffb198cd",
+      "name": "Nailz by Tamara",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "cosmetics",
+      "lat": 54.3160133,
+      "lng": -130.3230008,
+      "distanceFromTerminalMeters": 210,
+      "distanceFromDefaultTerminalMeters": 210,
+      "minDistanceFromAnyTerminalMeters": 210,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "+1-778-884-1315",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "shop": "cosmetics"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/5d8626bec5064ebd67eb",
+      "name": "Pacific Mariners Memorial Park",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 54.3171181,
+      "lng": -130.3227682,
+      "distanceFromTerminalMeters": 87,
+      "distanceFromDefaultTerminalMeters": 87,
+      "minDistanceFromAnyTerminalMeters": 87,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Dedicated to those who have lost their lives at sea.",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b3aae679fb97d89c16ab",
+      "name": "Cow Bay Marina",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "marina",
+      "lat": 54.3198743,
+      "lng": -130.3194215,
+      "distanceFromTerminalMeters": 300,
+      "distanceFromDefaultTerminalMeters": 300,
+      "minDistanceFromAnyTerminalMeters": 300,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Cow Bay 209",
+      "openingHours": "",
+      "website": "https://cowbaymarina.ca/",
+      "phone": "+1-250-622-2628",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "leisure": "marina"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/53b95a8b7d86bf4dbe31",
+      "name": "prince Rupert",
+      "nameEnglish": "prince Rupert",
+      "category": "outdoors",
+      "subcategory": "viewpoint",
+      "lat": 54.3171969,
+      "lng": -130.322708,
+      "distanceFromTerminalMeters": 77,
+      "distanceFromDefaultTerminalMeters": 77,
+      "minDistanceFromAnyTerminalMeters": 77,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "tourism": "viewpoint"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/1c2a8cf63f6179913509",
+      "name": "Mt. Oldfield",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "viewpoint",
+      "lat": 54.3035069,
+      "lng": -130.2858403,
+      "distanceFromTerminalMeters": 2869,
+      "distanceFromDefaultTerminalMeters": 2869,
+      "minDistanceFromAnyTerminalMeters": 2869,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "tourism": "viewpoint"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/452c813233e9dd8038ce",
+      "name": "Mt. Oldfeild",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "peak",
+      "lat": 54.3034561,
+      "lng": -130.2854533,
+      "distanceFromTerminalMeters": 2893,
+      "distanceFromDefaultTerminalMeters": 2893,
+      "minDistanceFromAnyTerminalMeters": 2893,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "natural": "peak"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/7b750fff4a7cc944c505",
+      "name": "Mt Hays",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "peak",
+      "lat": 54.2835912,
+      "lng": -130.3148469,
+      "distanceFromTerminalMeters": 3846,
+      "distanceFromDefaultTerminalMeters": 3846,
+      "minDistanceFromAnyTerminalMeters": 3846,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "natural": "peak"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/14d6b0c6b610459c5436",
+      "name": "Butze Rapids Viewpoint",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "viewpoint",
+      "lat": 54.3012679,
+      "lng": -130.2522478,
+      "distanceFromTerminalMeters": 4921,
+      "distanceFromDefaultTerminalMeters": 4921,
+      "minDistanceFromAnyTerminalMeters": 4921,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "tourism": "viewpoint"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/0d56435eb96cb18ef79e",
+      "name": "Grassy Bay Viewpoint",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "viewpoint",
+      "lat": 54.2929997,
+      "lng": -130.258962,
+      "distanceFromTerminalMeters": 4968,
+      "distanceFromDefaultTerminalMeters": 4968,
+      "minDistanceFromAnyTerminalMeters": 4968,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "tourism": "viewpoint"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/5e02739094fd69720cd2",
+      "name": "Mount Morse",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "peak",
+      "lat": 54.3842621,
+      "lng": -130.3055864,
+      "distanceFromTerminalMeters": 7462,
+      "distanceFromDefaultTerminalMeters": 7462,
+      "minDistanceFromAnyTerminalMeters": 7462,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "natural": "peak"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/90a8a45746b5b932ff09",
+      "name": "Mount Stewert",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "peak",
+      "lat": 54.2405699,
+      "lng": -130.2524256,
+      "distanceFromTerminalMeters": 9729,
+      "distanceFromDefaultTerminalMeters": 9729,
+      "minDistanceFromAnyTerminalMeters": 9729,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "natural": "peak"
       }
     },
     {
@@ -1120,9 +1564,9 @@
       "subcategory": "visitor_information",
       "lat": 54.3189201,
       "lng": -130.3199482,
-      "distanceFromTerminalMeters": 663,
-      "distanceFromDefaultTerminalMeters": 663,
-      "minDistanceFromAnyTerminalMeters": 663,
+      "distanceFromTerminalMeters": 205,
+      "distanceFromDefaultTerminalMeters": 205,
+      "minDistanceFromAnyTerminalMeters": 205,
       "nearestTerminalId": "ports-json-anchor",
       "address": "215 Cow Bay Road, V8J 1A2",
       "openingHours": "Mo-Fr 08:00-16:30; PH closed",
@@ -1132,8 +1576,37 @@
       "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "",
+      "wikipedia": "",
       "osmTags": {
         "tourism": "information"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/49e2c6c42b7e882d0eb0",
+      "name": "Save-On-Foods Pharmacy",
+      "nameEnglish": "",
+      "category": "essentials",
+      "subcategory": "pharmacy",
+      "lat": 54.3092495,
+      "lng": -130.3293016,
+      "distanceFromTerminalMeters": 1055,
+      "distanceFromDefaultTerminalMeters": 1055,
+      "minDistanceFromAnyTerminalMeters": 1055,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Fr 07:00-19:00; Sa,Su 10:00-14:00; PH off",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "pharmacy"
       }
     },
     {
@@ -1145,9 +1618,9 @@
       "subcategory": "visitor_information",
       "lat": 54.3167108,
       "lng": -130.3198185,
-      "distanceFromTerminalMeters": 755,
-      "distanceFromDefaultTerminalMeters": 755,
-      "minDistanceFromAnyTerminalMeters": 755,
+      "distanceFromTerminalMeters": 221,
+      "distanceFromDefaultTerminalMeters": 221,
+      "minDistanceFromAnyTerminalMeters": 221,
       "nearestTerminalId": "ports-json-anchor",
       "address": "",
       "openingHours": "",
@@ -1157,77 +1630,263 @@
       "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "",
+      "wikipedia": "",
       "osmTags": {
         "tourism": "information"
       }
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/15c2e6adea010dc3019a",
-      "name": "Save-On-Foods",
+      "sourceId": "osm/generated/094d96f9d41301beb70d",
+      "name": "Shoppers Drug Mart",
       "nameEnglish": "",
-      "category": "shopping",
-      "subcategory": "supermarket",
-      "lat": 54.3094565,
-      "lng": -130.3289866,
-      "distanceFromTerminalMeters": 1174,
-      "distanceFromDefaultTerminalMeters": 1174,
-      "minDistanceFromAnyTerminalMeters": 1174,
+      "category": "essentials",
+      "subcategory": "pharmacy",
+      "lat": 54.3128636,
+      "lng": -130.327803,
+      "distanceFromTerminalMeters": 654,
+      "distanceFromDefaultTerminalMeters": 654,
+      "minDistanceFromAnyTerminalMeters": 654,
       "nearestTerminalId": "ports-json-anchor",
-      "address": "841 3rd Avenue West",
-      "openingHours": "08:00-22:00",
-      "website": "",
-      "phone": "+1 250-624-9023",
+      "address": "",
+      "openingHours": "",
+      "website": "https://www.shoppersdrugmart.ca/en/store-locator/store/2256",
+      "phone": "+1-250-624-9656",
       "cuisine": [],
-      "wheelchair": "yes",
-      "brand": "Save-On-Foods",
+      "wheelchair": "",
+      "brand": "Shoppers Drug Mart",
       "description": "",
+      "wikidata": "",
+      "wikipedia": "",
       "osmTags": {
-        "shop": "supermarket"
+        "amenity": "pharmacy"
       }
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/9445edcd2d83eb0bf670",
-      "name": "Safeway",
+      "sourceId": "osm/generated/ef803ee0aa61b6eb6403",
+      "name": "Sunset Lounge & Grill",
       "nameEnglish": "",
-      "category": "shopping",
-      "subcategory": "supermarket",
-      "lat": 54.3149038,
-      "lng": -130.3244135,
-      "distanceFromTerminalMeters": 673,
-      "distanceFromDefaultTerminalMeters": 673,
-      "minDistanceFromAnyTerminalMeters": 673,
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 54.3136738,
+      "lng": -130.3228551,
+      "distanceFromTerminalMeters": 469,
+      "distanceFromDefaultTerminalMeters": 469,
+      "minDistanceFromAnyTerminalMeters": 469,
       "nearestTerminalId": "ports-json-anchor",
-      "address": "200 2nd Avenue West",
-      "openingHours": "07:00-22:00",
+      "address": "243 3rd Avenue West, Prince Rupert, V8J 1L2, CA",
+      "openingHours": "",
       "website": "",
       "phone": "",
       "cuisine": [],
-      "wheelchair": "yes",
-      "brand": "Safeway",
+      "wheelchair": "",
+      "brand": "",
       "description": "",
+      "wikidata": "",
+      "wikipedia": "",
       "osmTags": {
-        "shop": "supermarket"
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/dc339aa8f4190b30b3bb",
+      "name": "The Pavilion Restaurant",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 54.314276,
+      "lng": -130.3269061,
+      "distanceFromTerminalMeters": 491,
+      "distanceFromDefaultTerminalMeters": 491,
+      "minDistanceFromAnyTerminalMeters": 491,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "346 Stiles Place, Prince Rupert, V8J 3S5, CA",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/5dac4a244ef9d0a0ec9f",
+      "name": "Ocean Fisheries Ltd. Royal Plant",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "fishing",
+      "lat": 54.319759,
+      "lng": -130.3151125,
+      "distanceFromTerminalMeters": 526,
+      "distanceFromDefaultTerminalMeters": 526,
+      "minDistanceFromAnyTerminalMeters": 526,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "137 George Hills Way",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "shop": "fishing"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/472cf1334d84afcfca86",
+      "name": "Hekate Esthetics",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "massage",
+      "lat": 54.3131242,
+      "lng": -130.3238526,
+      "distanceFromTerminalMeters": 536,
+      "distanceFromDefaultTerminalMeters": 536,
+      "minDistanceFromAnyTerminalMeters": 536,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "313 3rd Avenue West, Prince Rupert, V8J 1L3, CA",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "shop": "massage"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/77e0bb895b28f428668b",
+      "name": "Wheelhouse Brewing Co.",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "brewery",
+      "lat": 54.3141963,
+      "lng": -130.3296559,
+      "distanceFromTerminalMeters": 617,
+      "distanceFromDefaultTerminalMeters": 617,
+      "minDistanceFromAnyTerminalMeters": 617,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "380 Bill Murray Drive, Prince Rupert, V8J 4P5",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "craft": "brewery"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/af918ed9ab7cf19faff5",
+      "name": "Sullivan Mechanical",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "plumber",
+      "lat": 54.3085841,
+      "lng": -130.3314011,
+      "distanceFromTerminalMeters": 1183,
+      "distanceFromDefaultTerminalMeters": 1183,
+      "minDistanceFromAnyTerminalMeters": 1183,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "985 3rd Avenue West, Prince Rupert, V8J 1M9, CA",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "craft": "plumber"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/26c967388e49f5382a4e",
+      "name": "Five Corners Cannabis",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "cannabis",
+      "lat": 54.3076218,
+      "lng": -130.334383,
+      "distanceFromTerminalMeters": 1375,
+      "distanceFromDefaultTerminalMeters": 1375,
+      "minDistanceFromAnyTerminalMeters": 1375,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1100 Park Avenue, V8J 1K1",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "shop": "cannabis"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/a0402b9b8d362d2c3dd3",
+      "name": "Prince Rupert Main",
+      "nameEnglish": "",
+      "category": "essentials",
+      "subcategory": "post_office",
+      "lat": 54.3130861,
+      "lng": -130.325793,
+      "distanceFromTerminalMeters": 574,
+      "distanceFromDefaultTerminalMeters": 574,
+      "minDistanceFromAnyTerminalMeters": 574,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "417 2nd Avenue West, V8J 3T0",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "Canada Post",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "post_office"
       }
     }
   ],
-  "portAnchor": {
-    "id": "ports-json-anchor",
-    "name": "PRINCE RUPERT Port",
-    "lat": 54.32,
-    "lng": -130.33,
-    "address": "Prince Rupert, British Columbia, Canada",
-    "source": "ports.json",
-    "sourceId": "",
-    "score": 0,
-    "slug": "prince-rupert-port"
-  },
+  "gemSuggestions": [
+    "Cow Bay"
+  ],
   "terminalResolution": {
     "status": "resolved",
-    "method": "terminal_review",
+    "method": "cruise-ports",
     "verified": true,
-    "reviewedAt": "2026-09-28",
     "notes": "Northland cruise terminal is correct."
   }
 }

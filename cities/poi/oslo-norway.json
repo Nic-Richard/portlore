@@ -1,7 +1,70 @@
 {
+  "defaultTerminalId": "manual/oslo-norway/s-ndre-akershuskai-cruise-quay",
+  "terminal": {
+    "id": "manual/oslo-norway/s-ndre-akershuskai-cruise-quay",
+    "name": "Søndre Akershuskai Cruise Quay",
+    "lat": 59.90497,
+    "lng": 10.73859,
+    "terminalType": "city_center_cruise_quay",
+    "source": "manual_web_research",
+    "sourceUrls": [
+      "https://www.oslohavn.no/en/menu/cruise/",
+      "https://www.openstreetmap.org/?mlat=59.90497&mlon=10.73859#map=17/59.90497/10.73859"
+    ],
+    "notes": "Central quay below Akershus Fortress.",
+    "sourceId": "manual/oslo-norway/s-ndre-akershuskai-cruise-quay",
+    "verified": true
+  },
+  "terminals": [
+    {
+      "id": "manual/oslo-norway/s-ndre-akershuskai-cruise-quay",
+      "name": "Søndre Akershuskai Cruise Quay",
+      "lat": 59.90497,
+      "lng": 10.73859,
+      "terminalType": "city_center_cruise_quay",
+      "source": "manual_web_research",
+      "sourceUrls": [
+        "https://www.oslohavn.no/en/menu/cruise/",
+        "https://www.openstreetmap.org/?mlat=59.90497&mlon=10.73859#map=17/59.90497/10.73859"
+      ],
+      "notes": "Central quay below Akershus Fortress.",
+      "sourceId": "manual/oslo-norway/s-ndre-akershuskai-cruise-quay",
+      "verified": true
+    },
+    {
+      "id": "manual/oslo-norway/revierkaia-cruise-quay",
+      "name": "Revierkaia Cruise Quay",
+      "lat": 59.90683,
+      "lng": 10.74759,
+      "terminalType": "city_center_cruise_quay",
+      "source": "manual_web_research",
+      "sourceUrls": [
+        "https://www.oslohavn.no/en/menu/cruise/",
+        "https://www.openstreetmap.org/?mlat=59.90683&mlon=10.74759#map=17/59.90683/10.74759"
+      ],
+      "notes": "Central Oslo cruise quay near Bjørvika.",
+      "sourceId": "manual/oslo-norway/revierkaia-cruise-quay",
+      "verified": true
+    },
+    {
+      "id": "manual/oslo-norway/filipstad-cruise-terminal",
+      "name": "Filipstad Cruise Terminal",
+      "lat": 59.9083,
+      "lng": 10.70706,
+      "terminalType": "cruise_quay",
+      "source": "manual_web_research",
+      "sourceUrls": [
+        "https://www.oslohavn.no/en/menu/cruise/",
+        "https://www.openstreetmap.org/?mlat=59.9083&mlon=10.70706#map=17/59.9083/10.70706"
+      ],
+      "notes": "Western Oslo cruise berth with a separate passenger exit and shuttle area.",
+      "sourceId": "manual/oslo-norway/filipstad-cruise-terminal",
+      "verified": true
+    }
+  ],
   "schemaVersion": 5,
   "catalogType": "curation-candidates",
-  "generatedAt": "2026-07-30T08:41:08.221Z",
+  "generatedAt": "2026-09-29T05:47:45.953Z",
   "source": "openstreetmap",
   "sourceExtract": "ostlandet-latest.osm.pbf",
   "radiusMeters": 10000,
@@ -10,890 +73,177 @@
     "city": "Oslo",
     "country": "Norway"
   },
-  "defaultTerminalId": "manual/oslo-norway/s-ndre-akershuskai-cruise-quay",
-  "terminal": {
-    "id": "manual/oslo-norway/s-ndre-akershuskai-cruise-quay",
+  "portAnchor": {
+    "id": "ports-json-anchor",
     "name": "Søndre Akershuskai Cruise Quay",
-    "nameEnglish": "",
     "lat": 59.90497,
     "lng": 10.73859,
-    "address": "",
-    "source": "manual_web_research",
-    "sourceId": "manual/oslo-norway/s-ndre-akershuskai-cruise-quay",
-    "terminalType": "city_center_cruise_quay",
-    "verified": true,
-    "notes": "Central quay below Akershus Fortress.",
-    "sourceUrls": [
-      "https://www.oslohavn.no/en/menu/cruise/",
-      "https://www.openstreetmap.org/?mlat=59.90497&mlon=10.73859#map=17/59.90497/10.73859"
-    ],
-    "sources": [
-      "manual_web_research"
-    ],
-    "sourceIds": [
-      "manual/oslo-norway/s-ndre-akershuskai-cruise-quay"
-    ],
-    "osmTags": {},
-    "matchedBy": [
-      "web_researched_terminal"
-    ]
+    "address": "Oslo, Oslo, Norway",
+    "source": "ports.json",
+    "sourceId": "",
+    "score": 0,
+    "slug": "s-ndre-akershuskai-cruise-quay"
   },
-  "terminals": [
-    {
-      "id": "manual/oslo-norway/s-ndre-akershuskai-cruise-quay",
-      "name": "Søndre Akershuskai Cruise Quay",
-      "nameEnglish": "",
-      "lat": 59.90497,
-      "lng": 10.73859,
-      "address": "",
-      "source": "manual_web_research",
-      "sourceId": "manual/oslo-norway/s-ndre-akershuskai-cruise-quay",
-      "terminalType": "city_center_cruise_quay",
-      "verified": true,
-      "notes": "Central quay below Akershus Fortress.",
-      "sourceUrls": [
-        "https://www.oslohavn.no/en/menu/cruise/",
-        "https://www.openstreetmap.org/?mlat=59.90497&mlon=10.73859#map=17/59.90497/10.73859"
-      ],
-      "sources": [
-        "manual_web_research"
-      ],
-      "sourceIds": [
-        "manual/oslo-norway/s-ndre-akershuskai-cruise-quay"
-      ],
-      "osmTags": {},
-      "matchedBy": [
-        "web_researched_terminal"
-      ]
-    },
-    {
-      "id": "manual/oslo-norway/revierkaia-cruise-quay",
-      "name": "Revierkaia Cruise Quay",
-      "nameEnglish": "",
-      "lat": 59.90683,
-      "lng": 10.74759,
-      "address": "",
-      "source": "manual_web_research",
-      "sourceId": "manual/oslo-norway/revierkaia-cruise-quay",
-      "terminalType": "city_center_cruise_quay",
-      "verified": true,
-      "notes": "Central Oslo cruise quay near Bjørvika.",
-      "sourceUrls": [
-        "https://www.oslohavn.no/en/menu/cruise/",
-        "https://www.openstreetmap.org/?mlat=59.90683&mlon=10.74759#map=17/59.90683/10.74759"
-      ],
-      "sources": [
-        "manual_web_research"
-      ],
-      "sourceIds": [
-        "manual/oslo-norway/revierkaia-cruise-quay"
-      ],
-      "osmTags": {},
-      "matchedBy": [
-        "web_researched_terminal"
-      ]
-    },
-    {
-      "id": "manual/oslo-norway/filipstad-cruise-terminal",
-      "name": "Filipstad Cruise Terminal",
-      "nameEnglish": "",
-      "lat": 59.9083,
-      "lng": 10.70706,
-      "address": "",
-      "source": "manual_web_research",
-      "sourceId": "manual/oslo-norway/filipstad-cruise-terminal",
-      "terminalType": "cruise_quay",
-      "verified": true,
-      "notes": "Western Oslo cruise berth with a separate passenger exit and shuttle area.",
-      "sourceUrls": [
-        "https://www.oslohavn.no/en/menu/cruise/",
-        "https://www.openstreetmap.org/?mlat=59.9083&mlon=10.70706#map=17/59.9083/10.70706"
-      ],
-      "sources": [
-        "manual_web_research"
-      ],
-      "sourceIds": [
-        "manual/oslo-norway/filipstad-cruise-terminal"
-      ],
-      "osmTags": {},
-      "matchedBy": [
-        "web_researched_terminal"
-      ]
-    }
-  ],
-  "terminalCandidateRadiusMeters": 5000,
-  "terminalCandidates": [
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/38de84cebcf215781a75",
-      "name": "Langkaia Vision of the Fjord",
-      "nameEnglish": "",
-      "lat": 59.90742,
-      "lng": 10.7480401,
-      "distanceFromPortMeters": 1403,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "man_made": "pier",
-        "operator": "The Fjords",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/38de84cebcf215781a75"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/3336a3e0fecc8b02ebeb",
-      "name": "Rådhusbryggen",
-      "nameEnglish": "",
-      "lat": 59.9107296,
-      "lng": 10.7314772,
-      "distanceFromPortMeters": 1459,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "public_transport": "stop_position"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/3336a3e0fecc8b02ebeb"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/7390719338da0751d537",
-      "name": "Salt brygge",
-      "nameEnglish": "",
-      "lat": 59.9066345,
-      "lng": 10.7472152,
-      "distanceFromPortMeters": 1494,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "public_transport": "stop_position"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/7390719338da0751d537"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/df1bb629c01595c34fb7",
-      "name": "Aker brygge",
-      "nameEnglish": "",
-      "lat": 59.9107701,
-      "lng": 10.7300996,
-      "distanceFromPortMeters": 1511,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "public_transport": "stop_position"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/df1bb629c01595c34fb7"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/65afbe48d9bc32a5c206",
-      "name": "Munch Bjørvika",
-      "nameEnglish": "",
-      "lat": 59.9056982,
-      "lng": 10.7536076,
-      "distanceFromPortMeters": 1603,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "public_transport": "stop_position"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/65afbe48d9bc32a5c206"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/22b2ea7508076baefe35",
-      "name": "Aker brygge",
-      "nameEnglish": "",
-      "lat": 59.9101383,
-      "lng": 10.7287289,
-      "distanceFromPortMeters": 1615,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "operator": "Norled",
-        "public_transport": "stop_position"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/22b2ea7508076baefe35"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/f94a40fb5db21ed3b9a0",
-      "name": "Oslo Vippetangen",
-      "nameEnglish": "",
-      "lat": 59.9036979,
-      "lng": 10.7437407,
-      "distanceFromPortMeters": 1846,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "cargo": "passengers;vehicle",
-        "ferry": "yes",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/f94a40fb5db21ed3b9a0"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/53cfcdeba7703b68c31b",
-      "name": "Oslo Ferry Terminal",
-      "nameEnglish": "",
-      "lat": 59.902474,
-      "lng": 10.743621,
-      "distanceFromPortMeters": 1981,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/53cfcdeba7703b68c31b"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/3e321fe8e0c40ed9109a",
-      "name": "Vippetangen",
-      "nameEnglish": "",
-      "lat": 59.9018382,
-      "lng": 10.7408316,
-      "distanceFromPortMeters": 2083,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/3e321fe8e0c40ed9109a"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/862427cdc38c36140155",
-      "name": "Color Line Terminal",
-      "nameEnglish": "",
-      "lat": 59.90884,
-      "lng": 10.7101196,
-      "distanceFromPortMeters": 2546,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "alt_name": "Color Line Terminal Oslo",
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/862427cdc38c36140155"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/bf584b8ee736458bc26f",
-      "name": "Kiel - Oslo - Kiel",
-      "nameEnglish": "",
-      "lat": 59.9098282,
-      "lng": 10.7087912,
-      "distanceFromPortMeters": 2560,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "cargo": "passengers;vehicle",
-        "ferry": "yes",
-        "operator": "Colorline",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/bf584b8ee736458bc26f"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/b1fd66f81a7c958ccc40",
-      "name": "Hovedøya",
-      "nameEnglish": "",
-      "lat": 59.8990231,
-      "lng": 10.7306162,
-      "distanceFromPortMeters": 2571,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "public_transport": "stop_position"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/b1fd66f81a7c958ccc40"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/d1908d80cd75733884cc",
-      "name": "Bygdøynes",
-      "nameEnglish": "",
-      "lat": 59.9042701,
-      "lng": 10.7010721,
-      "distanceFromPortMeters": 3240,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/d1908d80cd75733884cc"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/16be5726a530259da81e",
-      "name": "Dronningen",
-      "nameEnglish": "",
-      "lat": 59.9073782,
-      "lng": 10.6963752,
-      "distanceFromPortMeters": 3302,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/16be5726a530259da81e"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/ba9e7774e619fad0d3c5",
-      "name": "Bleikøya",
-      "nameEnglish": "",
-      "lat": 59.8890528,
-      "lng": 10.7348947,
-      "distanceFromPortMeters": 3543,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "public_transport": "stop_position"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/ba9e7774e619fad0d3c5"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/5410c7546dda361190af",
-      "name": "Lindøya øst",
-      "nameEnglish": "",
-      "lat": 59.8905739,
-      "lng": 10.7196185,
-      "distanceFromPortMeters": 3685,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "public_transport": "stop_position"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/5410c7546dda361190af"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/2bcbd46f20be3849a9f9",
-      "name": "Herbernveien",
-      "nameEnglish": "",
-      "lat": 59.900304,
-      "lng": 10.6946596,
-      "distanceFromPortMeters": 3783,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/2bcbd46f20be3849a9f9"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/33d653d27271d2a3bc8f",
-      "name": "Lille Herbern",
-      "nameEnglish": "",
-      "lat": 59.8997847,
-      "lng": 10.6941558,
-      "distanceFromPortMeters": 3840,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/33d653d27271d2a3bc8f"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/0149ec49e6d09b11ba8e",
-      "name": "Gressholmen",
-      "nameEnglish": "",
-      "lat": 59.8864539,
-      "lng": 10.7253565,
-      "distanceFromPortMeters": 3975,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/0149ec49e6d09b11ba8e"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/0263f28f83e01ab8d381",
-      "name": "Lindøya vest",
-      "nameEnglish": "",
-      "lat": 59.8901099,
-      "lng": 10.7064978,
-      "distanceFromPortMeters": 4115,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "public_transport": "stop_position"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/0263f28f83e01ab8d381"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/212ae4ab972fa8de178e",
-      "name": "Gressholmen",
-      "nameEnglish": "",
-      "lat": 59.8845071,
-      "lng": 10.7247411,
-      "distanceFromPortMeters": 4190,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "operator": "Ruter",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/212ae4ab972fa8de178e"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/76310944f735caf2dbf9",
-      "name": "Nakkholmen",
-      "nameEnglish": "",
-      "lat": 59.8907562,
-      "lng": 10.6969152,
-      "distanceFromPortMeters": 4397,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "public_transport": "stop_position"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/76310944f735caf2dbf9"
-      ]
-    }
-  ],
   "counts": {
-    "attraction": 10,
-    "outdoors": 5,
-    "food_drink": 12,
-    "shopping": 2,
-    "essentials": 1
+    "attraction": 28,
+    "food_drink": 25,
+    "shopping": 16,
+    "outdoors": 13,
+    "essentials": 3
   },
   "pois": [
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/1fb37016586514c2dd98",
-      "name": "Popsenteret",
-      "nameEnglish": "",
-      "category": "attraction",
-      "subcategory": "museum",
-      "lat": 59.919777,
-      "lng": 10.761033,
-      "distanceFromTerminalMeters": 615,
-      "distanceFromDefaultTerminalMeters": 615,
-      "minDistanceFromAnyTerminalMeters": 615,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "",
-      "openingHours": "closed",
-      "website": "https://www.popsenteret.no/",
-      "phone": "+47 22468020",
-      "cuisine": [],
-      "wheelchair": "",
-      "brand": "",
-      "description": "Interactive museum of popular music. Experience Centre for and history of Norwegian Popular Music",
-      "osmTags": {
-        "tourism": "museum"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/c87238336d828200c89f",
-      "name": "Kulturhistorisk museum",
-      "nameEnglish": "Museum of Cultural History",
-      "category": "attraction",
-      "subcategory": "museum",
-      "lat": 59.9170376,
-      "lng": 10.7345688,
-      "distanceFromTerminalMeters": 921,
-      "distanceFromDefaultTerminalMeters": 921,
-      "minDistanceFromAnyTerminalMeters": 921,
+      "sourceId": "osm/generated/416f3adba7589178965a",
+      "name": "Botanisk hage",
+      "nameEnglish": "University Botanical Garden",
+      "category": "outdoors",
+      "subcategory": "garden",
+      "lat": 59.9183654,
+      "lng": 10.7697505,
+      "distanceFromTerminalMeters": 2288,
+      "distanceFromDefaultTerminalMeters": 2288,
+      "minDistanceFromAnyTerminalMeters": 2288,
       "nearestTerminalId": "ports-json-anchor",
       "address": "",
       "openingHours": "",
-      "website": "https://www.khm.uio.no/",
+      "website": "https://www.nhm.uio.no/utstillinger/botanisk-hage/index.html",
       "phone": "",
       "cuisine": [],
       "wheelchair": "",
       "brand": "",
-      "description": "Includes Egyptioan mummies and the only complete Viking helmet ever found",
+      "description": "Norway's oldest botanical garden, established in 1814. About 35 000 plants, distributed in about 7,500 different species or varieties. (website)",
+      "wikidata": "Q3116396",
+      "wikipedia": "en:University Botanical Garden (Oslo)",
       "osmTags": {
+        "leisure": "garden",
         "tourism": "museum"
-      }
+      },
+      "curated": true,
+      "gem": true,
+      "fame": 12
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/43aab66460beca5de3a5",
-      "name": "Historisk museum",
-      "nameEnglish": "Historical Museum",
-      "category": "attraction",
-      "subcategory": "museum",
-      "lat": 59.916783,
-      "lng": 10.7355402,
-      "distanceFromTerminalMeters": 882,
-      "distanceFromDefaultTerminalMeters": 882,
-      "minDistanceFromAnyTerminalMeters": 882,
+      "sourceId": "osm/generated/72d526d951d9513966a1",
+      "name": "Sjømagasinet – Fiskebutikken",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "seafood",
+      "lat": 59.9078202,
+      "lng": 10.7219687,
+      "distanceFromTerminalMeters": 979,
+      "distanceFromDefaultTerminalMeters": 979,
+      "minDistanceFromAnyTerminalMeters": 979,
       "nearestTerminalId": "ports-json-anchor",
       "address": "",
-      "openingHours": "Tu-We, Fr-Su 11:00-16:00; Th 11:00-20:00",
-      "website": "https://www.khm.uio.no/",
+      "openingHours": "Tu-Sa 11:00-18:00",
+      "website": "https://www.sjomagasinet.no/fiskebutikken",
       "phone": "",
       "cuisine": [],
       "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "",
+      "wikipedia": "",
       "osmTags": {
-        "tourism": "museum"
-      }
+        "shop": "seafood"
+      },
+      "curated": true,
+      "gem": true
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/7c40c17cb66e35442e56",
-      "name": "Atelier Nord",
-      "nameEnglish": "",
-      "category": "attraction",
-      "subcategory": "gallery",
-      "lat": 59.92227,
-      "lng": 10.7581945,
-      "distanceFromTerminalMeters": 522,
-      "distanceFromDefaultTerminalMeters": 522,
-      "minDistanceFromAnyTerminalMeters": 522,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "",
-      "openingHours": "Th-Fr 15:00-18:00; Sa-Su 13:00-18:00",
-      "website": "https://ateliernord.no",
-      "phone": "+47 23 06 08 80",
-      "cuisine": [],
-      "wheelchair": "",
-      "brand": "",
-      "description": "Atelier Nord er en plattform for samtidskunst med fokus på mediekunst. Vi viser et skiftende program utstillinger, videovisninger, performancer og workshops i visningsstedet vårt på Olaf Ryes plass i Oslo.",
-      "osmTags": {
-        "amenity": "arts_centre",
-        "tourism": "gallery"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/ae4979926120e7dbc760",
-      "name": "Arbeidermuseet",
-      "nameEnglish": "Labour Museum",
+      "sourceId": "osm/generated/f819d59b4621db0962cb",
+      "name": "Astrup Fearnley Museet",
+      "nameEnglish": "Astrup Fearnley Museum",
       "category": "attraction",
       "subcategory": "museum",
-      "lat": 59.930892,
-      "lng": 10.75576,
-      "distanceFromTerminalMeters": 1253,
-      "distanceFromDefaultTerminalMeters": 1253,
-      "minDistanceFromAnyTerminalMeters": 1253,
+      "lat": 59.906925,
+      "lng": 10.721938,
+      "distanceFromTerminalMeters": 954,
+      "distanceFromDefaultTerminalMeters": 954,
+      "minDistanceFromAnyTerminalMeters": 954,
       "nearestTerminalId": "ports-json-anchor",
       "address": "",
-      "openingHours": "We-Su 11:00-16:00",
-      "website": "https://www.oslomuseum.no/arbeidermuseet/",
-      "phone": "",
+      "openingHours": "Tu-We 12:00-17:00; Th 12:00-19:00; Fr 12:00-17:00; Sa-Su 11:00-17:00",
+      "website": "http://afmuseet.no",
+      "phone": "+47 22936060",
       "cuisine": [],
       "wheelchair": "yes",
       "brand": "",
-      "description": "Opplev historien om Akerselva, industrieventyrene og arbeiderbevegelsen",
+      "description": "A privately owned museum, which presents temporary exhibitions of international art. First opened in 1993 in Dronningensgtate 4.",
+      "wikidata": "Q761048",
+      "wikipedia": "no:Astrup Fearnley Museet",
       "osmTags": {
         "tourism": "museum"
-      }
+      },
+      "curated": true,
+      "gem": true,
+      "fame": 12
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/3969a036ba4be5974204",
-      "name": "Nasjonalgalleriet",
-      "nameEnglish": "National Gallery",
-      "category": "attraction",
-      "subcategory": "yes",
-      "lat": 59.9162037,
-      "lng": 10.7375406,
-      "distanceFromTerminalMeters": 813,
-      "distanceFromDefaultTerminalMeters": 813,
-      "minDistanceFromAnyTerminalMeters": 813,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "",
-      "openingHours": "Tu-We 10:00-18:00; Th 10:00-19:00; Fr 10:00-18:00; Sa-Su 11:00-17:00",
-      "website": "https://www.nasjonalmuseet.no/",
-      "phone": "+47 21982000",
-      "cuisine": [],
-      "wheelchair": "yes",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "historic": "yes"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/e1344574b1338c5b8bcf",
-      "name": "Ibsenmuseet",
-      "nameEnglish": "The Ibsen Museum",
-      "category": "attraction",
-      "subcategory": "museum",
-      "lat": 59.9150305,
-      "lng": 10.7270455,
-      "distanceFromTerminalMeters": 1394,
-      "distanceFromDefaultTerminalMeters": 1394,
-      "minDistanceFromAnyTerminalMeters": 1394,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "",
-      "openingHours": "",
-      "website": "https://ibsenmt.no",
-      "phone": "",
-      "cuisine": [],
-      "wheelchair": "",
-      "brand": "",
-      "description": "The main attraction is playwright and poet Henrik Ibsen's home in Oslo. The apartment is fully restored and the visitor center features an exhibit on Ibsen's life and writing.",
-      "osmTags": {
-        "tourism": "museum"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/69a3d6a64a44f2090319",
-      "name": "Oslo Reptilpark",
+      "sourceId": "osm/generated/503e29cbc27ed6b7aee4",
+      "name": "Marani",
       "nameEnglish": "",
-      "category": "attraction",
-      "subcategory": "zoo",
-      "lat": 59.918079,
-      "lng": 10.7432891,
-      "distanceFromTerminalMeters": 431,
-      "distanceFromDefaultTerminalMeters": 431,
-      "minDistanceFromAnyTerminalMeters": 431,
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 59.9033002,
+      "lng": 10.7543297,
+      "distanceFromTerminalMeters": 897,
+      "distanceFromDefaultTerminalMeters": 897,
+      "minDistanceFromAnyTerminalMeters": 897,
       "nearestTerminalId": "ports-json-anchor",
-      "address": "",
-      "openingHours": "Tu-Su 10:00-18:00",
-      "website": "https://www.reptilpark.no/",
-      "phone": "+4741021522",
-      "cuisine": [],
+      "address": "69 Sørengkaia",
+      "openingHours": "Mo-Su 13:00-23:00",
+      "website": "https://www.marani.no/",
+      "phone": "",
+      "cuisine": [
+        "georgian"
+      ],
       "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "",
+      "wikipedia": "",
       "osmTags": {
-        "tourism": "zoo"
-      }
+        "amenity": "restaurant"
+      },
+      "curated": true,
+      "gem": true
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/860dcd9ce94553d72ff5",
-      "name": "Akershus slott",
-      "nameEnglish": "Akershus castle",
-      "category": "attraction",
-      "subcategory": "attraction",
-      "lat": 59.9066596,
-      "lng": 10.7361132,
-      "distanceFromTerminalMeters": 1673,
-      "distanceFromDefaultTerminalMeters": 1673,
-      "minDistanceFromAnyTerminalMeters": 1673,
+      "sourceId": "osm/generated/9c31c02fd4e46bf0ca4a",
+      "name": "Lorry",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 59.9207598,
+      "lng": 10.728849,
+      "distanceFromTerminalMeters": 1838,
+      "distanceFromDefaultTerminalMeters": 1838,
+      "minDistanceFromAnyTerminalMeters": 1838,
       "nearestTerminalId": "ports-json-anchor",
       "address": "",
-      "openingHours": "Mo-Sa 10:00-16:00; Su 12:00-17:00",
-      "website": "https://kultur.forsvaret.no/museer/akershus-slott",
-      "phone": "+47 23 09 39 17",
-      "cuisine": [],
-      "wheelchair": "",
+      "openingHours": "Mo 11:00-01:00; Tu-Sa 11:00-03:30; Su 12:00-01:00",
+      "website": "https://www.lorry.no/",
+      "phone": "+47 22696904",
+      "cuisine": [
+        "regional"
+      ],
+      "wheelchair": "no",
       "brand": "",
       "description": "",
+      "wikidata": "Q19380173",
+      "wikipedia": "no:Lorry (restaurant)",
       "osmTags": {
-        "historic": "castle",
-        "tourism": "attraction"
-      }
+        "amenity": "restaurant"
+      },
+      "curated": true,
+      "gem": true,
+      "fame": 1
     },
     {
       "source": "openstreetmap",
@@ -904,9 +254,9 @@
       "subcategory": "attraction",
       "lat": 59.9074842,
       "lng": 10.7526811,
-      "distanceFromTerminalMeters": 1400,
-      "distanceFromDefaultTerminalMeters": 1400,
-      "minDistanceFromAnyTerminalMeters": 1400,
+      "distanceFromTerminalMeters": 834,
+      "distanceFromDefaultTerminalMeters": 834,
+      "minDistanceFromAnyTerminalMeters": 834,
       "nearestTerminalId": "ports-json-anchor",
       "address": "",
       "openingHours": "",
@@ -916,74 +266,339 @@
       "wheelchair": "yes",
       "brand": "",
       "description": "",
+      "wikidata": "Q43280",
+      "wikipedia": "en:Oslo Opera House",
       "osmTags": {
         "amenity": "theatre",
         "tourism": "attraction"
-      }
+      },
+      "fame": 43
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/91577cb12dc57ffba878",
-      "name": "Oslo Motorbåtforening",
-      "nameEnglish": "",
-      "category": "outdoors",
-      "subcategory": "marina",
-      "lat": 59.918832,
-      "lng": 10.6717386,
-      "distanceFromTerminalMeters": 4364,
-      "distanceFromDefaultTerminalMeters": 4364,
-      "minDistanceFromAnyTerminalMeters": 4364,
+      "sourceId": "osm/generated/b0b273751ab0456b9215",
+      "name": "Akershus slott",
+      "nameEnglish": "Akershus castle",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 59.9066596,
+      "lng": 10.7361132,
+      "distanceFromTerminalMeters": 233,
+      "distanceFromDefaultTerminalMeters": 233,
+      "minDistanceFromAnyTerminalMeters": 233,
       "nearestTerminalId": "ports-json-anchor",
       "address": "",
-      "openingHours": "Mo-Fr 09:00-16:00",
-      "website": "https://www.om1911.no",
-      "phone": "+47 954 54 531",
+      "openingHours": "Mo-Sa 10:00-16:00; Su 12:00-17:00",
+      "website": "https://kultur.forsvaret.no/museer/akershus-slott",
+      "phone": "+47 23 09 39 17",
       "cuisine": [],
       "wheelchair": "",
       "brand": "",
-      "description": "Established in 1911, Oslo Motorbåtforening is a non-profit boating club with marina facilities, guest harbor, clubhouse, restaurant, and services for boaters.",
+      "description": "",
+      "wikidata": "Q644464",
+      "wikipedia": "",
       "osmTags": {
-        "leisure": "marina"
-      }
+        "historic": "castle",
+        "tourism": "attraction"
+      },
+      "fame": 37
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/6d94ba0b3e9988295199",
-      "name": "Botanisk hage",
-      "nameEnglish": "University Botanical Garden",
-      "category": "outdoors",
-      "subcategory": "garden",
-      "lat": 59.9183654,
-      "lng": 10.7697494,
-      "distanceFromTerminalMeters": 1116,
-      "distanceFromDefaultTerminalMeters": 1116,
-      "minDistanceFromAnyTerminalMeters": 1116,
+      "sourceId": "osm/generated/c9166d5d39ab10f6b213",
+      "name": "Munchmuseet",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 59.9057241,
+      "lng": 10.7552547,
+      "distanceFromTerminalMeters": 933,
+      "distanceFromDefaultTerminalMeters": 933,
+      "minDistanceFromAnyTerminalMeters": 933,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Tu,Su 10:00-18:00; We-Sa 10:00-21:00",
+      "website": "https://www.munchmuseet.no/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "designated",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q844926",
+      "wikipedia": "en:Munch Museum",
+      "osmTags": {
+        "tourism": "museum"
+      },
+      "fame": 37
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/86f7e5214f2c2b91da86",
+      "name": "Oslo domkirke",
+      "nameEnglish": "Oslo Cathedral",
+      "category": "attraction",
+      "subcategory": "yes",
+      "lat": 59.91252,
+      "lng": 10.7468671,
+      "distanceFromTerminalMeters": 958,
+      "distanceFromDefaultTerminalMeters": 958,
+      "minDistanceFromAnyTerminalMeters": 958,
       "nearestTerminalId": "ports-json-anchor",
       "address": "",
       "openingHours": "",
-      "website": "https://www.nhm.uio.no/utstillinger/botanisk-hage/index.html",
+      "website": "http://www.oslodomkirke.no",
       "phone": "",
       "cuisine": [],
       "wheelchair": "",
       "brand": "",
-      "description": "Norway's oldest botanical garden, established in 1814. About 35 000 plants, distributed in about 7,500 different species or varieties. (website)",
+      "description": "Domkirke",
+      "wikidata": "Q1063209",
+      "wikipedia": "en:Oslo Cathedral",
       "osmTags": {
-        "leisure": "garden",
-        "tourism": "museum"
-      }
+        "amenity": "place_of_worship",
+        "historic": "yes"
+      },
+      "fame": 33
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/5712751477633142cbce",
-      "name": "Vikinghagen",
-      "nameEnglish": "The Viking Garden",
+      "sourceId": "osm/generated/b1de627aaae1c0837712",
+      "name": "Det kongelige slott",
+      "nameEnglish": "Royal Palace",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 59.9171934,
+      "lng": 10.7272358,
+      "distanceFromTerminalMeters": 1499,
+      "distanceFromDefaultTerminalMeters": 1499,
+      "minDistanceFromAnyTerminalMeters": 1499,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "https://www.kongehuset.no/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q863932",
+      "wikipedia": "en:Royal Palace, Oslo",
+      "osmTags": {
+        "historic": "castle",
+        "tourism": "attraction"
+      },
+      "fame": 32
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c9885b782730b60ae82e",
+      "name": "Oslo rådhus",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 59.9120494,
+      "lng": 10.7336915,
+      "distanceFromTerminalMeters": 833,
+      "distanceFromDefaultTerminalMeters": 833,
+      "minDistanceFromAnyTerminalMeters": 833,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Su 09:00-16:00",
+      "website": "https://www.oslo.kommune.no/politikk-og-administrasjon/radhuset/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q373850",
+      "wikipedia": "no:Oslo rådhus",
+      "osmTags": {
+        "amenity": "townhall",
+        "tourism": "attraction"
+      },
+      "fame": 28
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/1bcec15d899beb44a6ff",
+      "name": "Framhuset;Frammuseet",
+      "nameEnglish": "Fram Museum",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 59.9033623,
+      "lng": 10.699526,
+      "distanceFromTerminalMeters": 2185,
+      "distanceFromDefaultTerminalMeters": 2185,
+      "minDistanceFromAnyTerminalMeters": 2185,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Jan-Apr: 10:00-17:00; May; 10:00-18:00; Jun-Aug: 10:00-17:00; Sep: 10:00-18:00; Oct-Dec: 10:00-17:00",
+      "website": "https://frammuseum.no/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q941250",
+      "wikipedia": "no:Frammuseet",
+      "osmTags": {
+        "tourism": "museum"
+      },
+      "fame": 26
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/99c0063b113151dfac92",
+      "name": "Nobels Fredssenter",
+      "nameEnglish": "Nobel Peace Center",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 59.911612,
+      "lng": 10.7304,
+      "distanceFromTerminalMeters": 868,
+      "distanceFromDefaultTerminalMeters": 868,
+      "minDistanceFromAnyTerminalMeters": 868,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Jan 1 off; Jan 2‑6 Mo off; Jan 2‑6 Tu‑Su 11:00‑17:00; Jan 7‑May 31 Mo off; Jan 7‑May 31 Tu 11:00‑17:00; Jan 7‑May 31 We 11:00‑20:00; Jan 7‑May 31 Th‑Su 11:00‑17:00; May 1 11:00‑17:00; May 20 11:00‑13:00; Jun 1‑Aug 31 Mo‑Su 10:00‑18:00; May 17 off; Dec 9 o",
+      "website": "https://www.nobelpeacecenter.org",
+      "phone": "+47 48 30 10 00",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q941120",
+      "wikipedia": "en:Nobel Peace Center",
+      "osmTags": {
+        "tourism": "museum"
+      },
+      "fame": 25
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/8c2fe8a234de5047d57d",
+      "name": "Vikingskipshuset",
+      "nameEnglish": "Viking Ship Museum",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 59.9048373,
+      "lng": 10.6844777,
+      "distanceFromTerminalMeters": 3017,
+      "distanceFromDefaultTerminalMeters": 3017,
+      "minDistanceFromAnyTerminalMeters": 3017,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "closed",
+      "website": "https://www.khm.uio.no/vikingskipshuset/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "closed for renovations until 2027",
+      "wikidata": "Q961220",
+      "wikipedia": "",
+      "osmTags": {
+        "historic": "yes",
+        "tourism": "museum"
+      },
+      "fame": 25
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/0b660b74c52476c22d45",
+      "name": "Kon-Tiki Museet",
+      "nameEnglish": "Kon-Tiki Museum",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 59.9034922,
+      "lng": 10.6980292,
+      "distanceFromTerminalMeters": 2268,
+      "distanceFromDefaultTerminalMeters": 2268,
+      "minDistanceFromAnyTerminalMeters": 2268,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "May 10:00-18:00; Jun-Aug 09:30-18:00; Sep-Apr 10:00-17:00",
+      "website": "https://www.kon-tiki.no",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "Thor Heyerdahl (1914-2002) gained worldwide fame when he crossed the Pacific Ocean on Kon-Tiki in 1947 and followed up with spectacular expeditions on the reed boats Ra and Tigris.",
+      "wikidata": "Q1415972",
+      "wikipedia": "",
+      "osmTags": {
+        "tourism": "museum"
+      },
+      "fame": 24
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/07b67e9be4c142ee3735",
+      "name": "Norsk Folkemuseum",
+      "nameEnglish": "The Norwegian Museum of Cultural History",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 59.9068343,
+      "lng": 10.6830416,
+      "distanceFromTerminalMeters": 3104,
+      "distanceFromDefaultTerminalMeters": 3104,
+      "minDistanceFromAnyTerminalMeters": 3104,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "https://www.norskfolkemuseum.no/",
+      "phone": "+47 22 12 37 00",
+      "cuisine": [],
+      "wheelchair": "limited",
+      "brand": "",
+      "description": "Landets største kulturhistoriske museum med verdens første friluftsmuseum og store innendørs utstillinger.",
+      "wikidata": "Q937521",
+      "wikipedia": "",
+      "osmTags": {
+        "tourism": "museum"
+      },
+      "fame": 23
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/3969a036ba4be5974204",
+      "name": "Nasjonalgalleriet",
+      "nameEnglish": "National Gallery",
+      "category": "attraction",
+      "subcategory": "yes",
+      "lat": 59.9162037,
+      "lng": 10.7375406,
+      "distanceFromTerminalMeters": 1250,
+      "distanceFromDefaultTerminalMeters": 1250,
+      "minDistanceFromAnyTerminalMeters": 1250,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Tu-We 10:00-18:00; Th 10:00-19:00; Fr 10:00-18:00; Sa-Su 11:00-17:00",
+      "website": "https://www.nasjonalmuseet.no/",
+      "phone": "+47 21982000",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q3330707",
+      "wikipedia": "en:National Gallery (Norway)",
+      "osmTags": {
+        "historic": "yes"
+      },
+      "fame": 20
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/94302455b2d64b49b7b6",
+      "name": "Frognerparken",
+      "nameEnglish": "Frogner Park",
       "category": "outdoors",
-      "subcategory": "garden",
-      "lat": 59.9175331,
-      "lng": 10.7669859,
-      "distanceFromTerminalMeters": 986,
-      "distanceFromDefaultTerminalMeters": 986,
-      "minDistanceFromAnyTerminalMeters": 986,
+      "subcategory": "park",
+      "lat": 59.9266588,
+      "lng": 10.7016558,
+      "distanceFromTerminalMeters": 3171,
+      "distanceFromDefaultTerminalMeters": 3171,
+      "minDistanceFromAnyTerminalMeters": 3171,
       "nearestTerminalId": "ports-json-anchor",
       "address": "",
       "openingHours": "",
@@ -993,334 +608,465 @@
       "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "Q1126911",
+      "wikipedia": "en:Frogner Park",
       "osmTags": {
-        "leisure": "garden"
-      }
+        "leisure": "park"
+      },
+      "fame": 19
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/98da342164b6b1edfe03",
-      "name": "Arboretet",
-      "nameEnglish": "Arboretum",
-      "category": "outdoors",
-      "subcategory": "garden",
-      "lat": 59.918652,
-      "lng": 10.7685407,
-      "distanceFromTerminalMeters": 1044,
-      "distanceFromDefaultTerminalMeters": 1044,
-      "minDistanceFromAnyTerminalMeters": 1044,
+      "sourceId": "osm/generated/c87238336d828200c89f",
+      "name": "Kulturhistorisk museum",
+      "nameEnglish": "Museum of Cultural History",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 59.9170376,
+      "lng": 10.7345688,
+      "distanceFromTerminalMeters": 1360,
+      "distanceFromDefaultTerminalMeters": 1360,
+      "minDistanceFromAnyTerminalMeters": 1360,
       "nearestTerminalId": "ports-json-anchor",
       "address": "",
       "openingHours": "",
-      "website": "https://www.nhm.uio.no/utstillinger/botanisk-hage/avdelinger/arboretet/index.html",
+      "website": "https://www.khm.uio.no/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Includes Egyptioan mummies and the only complete Viking helmet ever found",
+      "wikidata": "Q3356148",
+      "wikipedia": "en:Museum of Cultural History, Oslo",
+      "osmTags": {
+        "tourism": "museum"
+      },
+      "fame": 14
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/fc36d34e2eb066dd5aae",
+      "name": "Lystslottet Oscarshall",
+      "nameEnglish": "Oscarshall palace",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 59.9102658,
+      "lng": 10.6922559,
+      "distanceFromTerminalMeters": 2650,
+      "distanceFromDefaultTerminalMeters": 2650,
+      "minDistanceFromAnyTerminalMeters": 2650,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "May-Aug Th-Su 11:00-16:00",
+      "website": "https://www.kongehuset.no/c79771/seksjonstekst/vis.html?tid=79776",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "Royal summer palace. Built by Oscar I 1847 - 1852 and is \"finest example of Neo-Gothic architecture in Norway.\" Open as a museum since 1881.",
+      "wikidata": "Q1818601",
+      "wikipedia": "",
+      "osmTags": {
+        "historic": "castle",
+        "tourism": "museum"
+      },
+      "fame": 13
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/6a83909772e6ebc6b5e8",
+      "name": "Norges hjemmefrontmuseum",
+      "nameEnglish": "Norway's Resistance Museum",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 59.907803,
+      "lng": 10.735762,
+      "distanceFromTerminalMeters": 352,
+      "distanceFromDefaultTerminalMeters": 352,
+      "minDistanceFromAnyTerminalMeters": 352,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Sep-Apr: Mo-Su 10:00-16:00; May-Aug: Mo-Su 10:00-17:00",
+      "website": "https://kultur.forsvaret.no/museer/norges-hjemmefrontmuseum",
       "phone": "",
       "cuisine": [],
       "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "Q1781522",
+      "wikipedia": "en:Norway's Resistance Museum",
       "osmTags": {
-        "leisure": "garden"
-      }
+        "tourism": "museum"
+      },
+      "fame": 10
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/2f25a7a94fd3aae74a62",
-      "name": "Dufthagen",
-      "nameEnglish": "The Aromatic Garden",
-      "category": "outdoors",
-      "subcategory": "garden",
-      "lat": 59.9176567,
-      "lng": 10.7727186,
-      "distanceFromTerminalMeters": 1293,
-      "distanceFromDefaultTerminalMeters": 1293,
-      "minDistanceFromAnyTerminalMeters": 1293,
+      "sourceId": "osm/generated/e6870ec81efb84497a7e",
+      "name": "Forsvarsmuseet",
+      "nameEnglish": "Defence Musuem",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 59.904511,
+      "lng": 10.7408879,
+      "distanceFromTerminalMeters": 138,
+      "distanceFromDefaultTerminalMeters": 138,
+      "minDistanceFromAnyTerminalMeters": 138,
       "nearestTerminalId": "ports-json-anchor",
       "address": "",
-      "openingHours": "",
-      "website": "https://www.nhm.uio.no/utstillinger/botanisk-hage/avdelinger/dufthagen/",
+      "openingHours": "May-Aug: Mo-Su 10:00-17:00; Sep-Apr: Mo-Su 10:00-16:00",
+      "website": "https://www.forsvarsbygg.no/festningene/Festningene/Akershus-festning/Museer-og-utstillinger/Forsvarsmuseet/",
       "phone": "",
       "cuisine": [],
       "wheelchair": "yes",
       "brand": "",
       "description": "",
+      "wikidata": "Q4793001",
+      "wikipedia": "en:Armed Forces Museum (Norway)",
       "osmTags": {
-        "leisure": "garden"
-      }
+        "tourism": "museum"
+      },
+      "fame": 8
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/d180550f860d6e3a86f1",
-      "name": "Cafe Cathedral",
+      "sourceId": "osm/generated/5ef144660a05cf6644a5",
+      "name": "Norsk Maritimt Museum",
+      "nameEnglish": "Norwegian Maritime Museum",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 59.902833,
+      "lng": 10.698662,
+      "distanceFromTerminalMeters": 2239,
+      "distanceFromDefaultTerminalMeters": 2239,
+      "minDistanceFromAnyTerminalMeters": 2239,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Oct-Mar: Tu-Su 11:00-18:00; Apr-Sep: Mo-Su 10:00-17:00",
+      "website": "https://marmuseum.no",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q1334270",
+      "wikipedia": "",
+      "osmTags": {
+        "tourism": "museum"
+      },
+      "fame": 12
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/53943cb25506be9fd264",
+      "name": "Vigelandmuseet",
+      "nameEnglish": "The Vigeland Museum",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 59.9228701,
+      "lng": 10.700061,
+      "distanceFromTerminalMeters": 2928,
+      "distanceFromDefaultTerminalMeters": 2928,
+      "minDistanceFromAnyTerminalMeters": 2928,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Tu-Su 12:00-16:00",
+      "website": "https://vigeland.museum.no/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "The Vigeland Museum is the sculpture museum of Oslo and is dedicated to sculptor Gustav Vigeland.",
+      "wikidata": "Q7928869",
+      "wikipedia": "",
+      "osmTags": {
+        "tourism": "museum"
+      },
+      "fame": 9
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ff1f9483c90df1afdd72",
+      "name": "Nordisk bibelmuseum",
+      "nameEnglish": "Nordic Bible Museum",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 59.910326,
+      "lng": 10.740945,
+      "distanceFromTerminalMeters": 610,
+      "distanceFromDefaultTerminalMeters": 610,
+      "minDistanceFromAnyTerminalMeters": 610,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Fr-Su 11:00-16:00; Tu-We 12:00-17:00; Th 11:00-18:00",
+      "website": "https://nobimu.no/",
+      "phone": "+4740105777",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q65234215",
+      "wikipedia": "",
+      "osmTags": {
+        "tourism": "museum"
+      },
+      "fame": 5
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b6d6d8413fbde64e0024",
+      "name": "Naturhistorisk museum",
+      "nameEnglish": "Natural History Museum at the University of Oslo",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 59.919783,
+      "lng": 10.771714,
+      "distanceFromTerminalMeters": 2474,
+      "distanceFromDefaultTerminalMeters": 2474,
+      "minDistanceFromAnyTerminalMeters": 2474,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Su 10:00-17:00",
+      "website": "https://www.nhm.uio.no/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q1840963",
+      "wikipedia": "en:Natural History Museum at the University of Oslo",
+      "osmTags": {
+        "tourism": "museum"
+      },
+      "fame": 10
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/e32f810b2846315fd59b",
+      "name": "Senter for studier av Holocaust og livssynsminoriteter",
+      "nameEnglish": "Holocaust museum at the Center for Studies of Holocaust and Religious Minorities",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 59.898946,
+      "lng": 10.67814,
+      "distanceFromTerminalMeters": 3437,
+      "distanceFromDefaultTerminalMeters": 3437,
+      "minDistanceFromAnyTerminalMeters": 3437,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Su 10:00-18:00",
+      "website": "https://www.hlsenteret.no/",
+      "phone": "+47 22 84 21 00",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q7061042",
+      "wikipedia": "",
+      "osmTags": {
+        "tourism": "museum"
+      },
+      "fame": 8
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/043f59d2d4c186f48d08",
+      "name": "Maaemo",
       "nameEnglish": "",
       "category": "food_drink",
       "subcategory": "restaurant",
-      "lat": 59.911827,
-      "lng": 10.747301,
-      "distanceFromTerminalMeters": 921,
-      "distanceFromDefaultTerminalMeters": 921,
-      "minDistanceFromAnyTerminalMeters": 921,
+      "lat": 59.907552,
+      "lng": 10.7581789,
+      "distanceFromTerminalMeters": 1129,
+      "distanceFromDefaultTerminalMeters": 1129,
+      "minDistanceFromAnyTerminalMeters": 1129,
       "nearestTerminalId": "ports-json-anchor",
       "address": "",
-      "openingHours": "Mo-Su 09:30-23:30",
-      "website": "https://cafecathedral.no/",
-      "phone": "+47 22330035",
+      "openingHours": "Mo-Fr 18:00+",
+      "website": "https://maaemo.no/",
+      "phone": "+47 91994805",
       "cuisine": [
-        "pizza",
-        "noodle",
-        "burger"
+        "regional"
       ],
       "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "Q6721016",
+      "wikipedia": "en:Maaemo",
       "osmTags": {
         "amenity": "restaurant"
-      }
+      },
+      "fame": 6
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/8b5811ce65683f128983",
-      "name": "Beijing Palace",
+      "sourceId": "osm/generated/4e651e61a1658f92f973",
+      "name": "Asylet",
       "nameEnglish": "",
       "category": "food_drink",
       "subcategory": "restaurant",
-      "lat": 59.9175946,
-      "lng": 10.7383605,
-      "distanceFromTerminalMeters": 702,
-      "distanceFromDefaultTerminalMeters": 702,
-      "minDistanceFromAnyTerminalMeters": 702,
+      "lat": 59.912872,
+      "lng": 10.762362,
+      "distanceFromTerminalMeters": 1590,
+      "distanceFromDefaultTerminalMeters": 1590,
+      "minDistanceFromAnyTerminalMeters": 1590,
       "nearestTerminalId": "ports-json-anchor",
       "address": "",
-      "openingHours": "We-Fr 16:00-22:00; Sa-Su 16:00-22:00",
-      "website": "https://beijingpalace.no/",
-      "phone": "+47 22 11 08 00",
+      "openingHours": "Mo-Tu 11:00-22:00; We-Fr 11:00-24:00; Sa 12:00-24:00; Su 12:00-22:00",
+      "website": "https://www.asylet.no/",
+      "phone": "+47 22170939",
       "cuisine": [
-        "chinese"
-      ],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "amenity": "restaurant"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/42cd1dd28ede762acb75",
-      "name": "Mela Café",
-      "nameEnglish": "",
-      "category": "food_drink",
-      "subcategory": "restaurant",
-      "lat": 59.9167832,
-      "lng": 10.7505866,
-      "distanceFromTerminalMeters": 359,
-      "distanceFromDefaultTerminalMeters": 359,
-      "minDistanceFromAnyTerminalMeters": 359,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "",
-      "openingHours": "Mo-Fr 11:00-24:00; Sa 13:00-24:00",
-      "website": "http://www.melacafe.no",
-      "phone": "+47 91 77 37 36",
-      "cuisine": [
-        "arab"
-      ],
-      "wheelchair": "yes",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "amenity": "restaurant"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/94e34fa7c8825aaa76d2",
-      "name": "Habibi Restaurant",
-      "nameEnglish": "",
-      "category": "food_drink",
-      "subcategory": "restaurant",
-      "lat": 59.914414,
-      "lng": 10.747056,
-      "distanceFromTerminalMeters": 642,
-      "distanceFromDefaultTerminalMeters": 642,
-      "minDistanceFromAnyTerminalMeters": 642,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "",
-      "openingHours": "Mo-Fr 15:00-23:00; Sa 12:00-23:00; Su 15:00-22:00; Mo-Th 16:00-24:00, Fr 16:00-01:00, Sa 12:00-01:00, Su 12:00-24:00",
-      "website": "https://habibi.no",
-      "phone": "+47 22 17 02 01",
-      "cuisine": [
-        "palestinian",
-        "lebanese"
-      ],
-      "wheelchair": "",
-      "brand": "",
-      "description": "Arab cuisine/Arabisk kjøkken",
-      "osmTags": {
-        "amenity": "restaurant"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/c2f864d04fb7292acd6f",
-      "name": "EatHappy Vegan - Fredensborgveien",
-      "nameEnglish": "",
-      "category": "food_drink",
-      "subcategory": "restaurant",
-      "lat": 59.919145,
-      "lng": 10.748152,
-      "distanceFromTerminalMeters": 140,
-      "distanceFromDefaultTerminalMeters": 140,
-      "minDistanceFromAnyTerminalMeters": 140,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "",
-      "openingHours": "Tu-Fr 12:00-20:00; Sa-Su 13:00-20:00",
-      "website": "https://www.eathappyvegan.no",
-      "phone": "+47 458 87 878",
-      "cuisine": [
-        "vietnamese"
+        "regional"
       ],
       "wheelchair": "limited",
       "brand": "",
       "description": "",
+      "wikidata": "Q4812018",
+      "wikipedia": "en:Asylet",
       "osmTags": {
         "amenity": "restaurant"
-      }
+      },
+      "fame": 3
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/c41d5e0bb8f8f9f83981",
-      "name": "Hrimnir Ramen",
+      "sourceId": "osm/generated/7b08d8c61ddeb9dfb9da",
+      "name": "Theatercaféen",
       "nameEnglish": "",
       "category": "food_drink",
-      "subcategory": "restaurant",
-      "lat": 59.921388,
-      "lng": 10.751334,
-      "distanceFromTerminalMeters": 171,
-      "distanceFromDefaultTerminalMeters": 171,
-      "minDistanceFromAnyTerminalMeters": 171,
+      "subcategory": "cafe",
+      "lat": 59.9139731,
+      "lng": 10.7340202,
+      "distanceFromTerminalMeters": 1033,
+      "distanceFromDefaultTerminalMeters": 1033,
+      "minDistanceFromAnyTerminalMeters": 1033,
       "nearestTerminalId": "ports-json-anchor",
       "address": "",
-      "openingHours": "Su 13:00-21:30; Mo-Sa 13:00-22:30",
-      "website": "https://www.hrimnir-ramen.no",
-      "phone": "+47 22 60 60 30",
-      "cuisine": [
-        "japanese",
-        "ramen"
-      ],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "amenity": "restaurant"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/3bb40a62ecd936fdff34",
-      "name": "Nam Kang",
-      "nameEnglish": "",
-      "category": "food_drink",
-      "subcategory": "restaurant",
-      "lat": 59.9188075,
-      "lng": 10.7476749,
-      "distanceFromTerminalMeters": 185,
-      "distanceFromDefaultTerminalMeters": 185,
-      "minDistanceFromAnyTerminalMeters": 185,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "",
-      "openingHours": "Mo-We 16:00-22:30; Th-Sa 16:00-23:00",
-      "website": "https://www.namkang.no/",
-      "phone": "+47 22201940",
-      "cuisine": [
-        "japanese",
-        "korean"
-      ],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "amenity": "restaurant"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/15413aec56c93b6e825b",
-      "name": "Døgnvill Burger",
-      "nameEnglish": "",
-      "category": "food_drink",
-      "subcategory": "restaurant",
-      "lat": 59.9217225,
-      "lng": 10.7516596,
-      "distanceFromTerminalMeters": 213,
-      "distanceFromDefaultTerminalMeters": 213,
-      "minDistanceFromAnyTerminalMeters": 213,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "",
-      "openingHours": "Tu,Fr 15:00-23:00; Mo,We-Th 15:00-22:00; Sa 12:00-23:00; Su 13:00-22:00",
-      "website": "https://www.dognvillburger.no/",
-      "phone": "+47 21 38 50 10",
-      "cuisine": [
-        "burger"
-      ],
+      "openingHours": "Mo-Sa 11:00-23:00; Su 15:00-22:00",
+      "website": "https://www.theatercafeen.no",
+      "phone": "+47 22824050",
+      "cuisine": [],
       "wheelchair": "yes",
       "brand": "",
       "description": "",
+      "wikidata": "Q12005986",
+      "wikipedia": "no:Theatercaféen",
       "osmTags": {
-        "amenity": "restaurant"
-      }
+        "amenity": "cafe"
+      },
+      "fame": 4
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/4b18f4ffd68654a60746",
-      "name": "Xin Chao",
+      "sourceId": "osm/generated/b332288663af92e4e4c1",
+      "name": "Engebret Kafé",
       "nameEnglish": "",
       "category": "food_drink",
-      "subcategory": "restaurant",
-      "lat": 59.9180107,
-      "lng": 10.7506116,
-      "distanceFromTerminalMeters": 224,
-      "distanceFromDefaultTerminalMeters": 224,
-      "minDistanceFromAnyTerminalMeters": 224,
+      "subcategory": "cafe",
+      "lat": 59.90889,
+      "lng": 10.742171,
+      "distanceFromTerminalMeters": 479,
+      "distanceFromDefaultTerminalMeters": 479,
+      "minDistanceFromAnyTerminalMeters": 479,
       "nearestTerminalId": "ports-json-anchor",
       "address": "",
-      "openingHours": "Tu-Su 14:00-21:00",
-      "website": "https://www.xinchao.no/",
-      "phone": "+47 95223111",
-      "cuisine": [
-        "vietnamese"
-      ],
-      "wheelchair": "no",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "amenity": "restaurant"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/954dcf3d8cd2c5e1c36b",
-      "name": "Helt Vilt",
-      "nameEnglish": "",
-      "category": "food_drink",
-      "subcategory": "restaurant",
-      "lat": 59.922033,
-      "lng": 10.7522538,
-      "distanceFromTerminalMeters": 259,
-      "distanceFromDefaultTerminalMeters": 259,
-      "minDistanceFromAnyTerminalMeters": 259,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "",
-      "openingHours": "Mo off; Tu-Sa 11:00-22:00; Su 11:00-21:00",
-      "website": "https://www.heltviltoslo.no/",
-      "phone": "+47 92 92 92 52",
-      "cuisine": [
-        "meat"
-      ],
+      "openingHours": "",
+      "website": "https://www.engebret-cafe.no/",
+      "phone": "+4722822525",
+      "cuisine": [],
       "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "Q11967476",
+      "wikipedia": "en:Engebret Café",
+      "osmTags": {
+        "amenity": "cafe"
+      },
+      "fame": 5
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/fb2297c5ec03991828dd",
+      "name": "Stortorvets Gjæstgiveri",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 59.9135622,
+      "lng": 10.7449315,
+      "distanceFromTerminalMeters": 1019,
+      "distanceFromDefaultTerminalMeters": 1019,
+      "minDistanceFromAnyTerminalMeters": 1019,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Tu,We 12:00-22:00; Th-Sa 12:00-23:00",
+      "website": "https://www.stortorvet.no/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "no",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q12003540",
+      "wikipedia": "",
       "osmTags": {
         "amenity": "restaurant"
-      }
+      },
+      "fame": 4
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d1b68597a370e6b3011d",
+      "name": "Statholdergaarden",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 59.909517,
+      "lng": 10.743218,
+      "distanceFromTerminalMeters": 568,
+      "distanceFromDefaultTerminalMeters": 568,
+      "minDistanceFromAnyTerminalMeters": 568,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Sa 18:00-24:00",
+      "website": "https://www.statholdergaarden.no/",
+      "phone": "+47 22418800",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q22979556",
+      "wikipedia": "en:Statholdergaarden",
+      "osmTags": {
+        "amenity": "restaurant"
+      },
+      "fame": 2
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d149c224ce67059fa831",
+      "name": "Grand Café",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 59.9137595,
+      "lng": 10.7393822,
+      "distanceFromTerminalMeters": 978,
+      "distanceFromDefaultTerminalMeters": 978,
+      "minDistanceFromAnyTerminalMeters": 978,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Fr 06:30-10:00,11:00-16:00,17:00-23:00; Sa 07:00-11:00,12:00-16:00,17:00-23:00; Su 07:00-12:00,13:00-17:00,17:00-22:00",
+      "website": "https://grand.no/no/Restauranter--Barer/Grand-Cafe/",
+      "phone": "+47 23 21 20 00",
+      "cuisine": [],
+      "wheelchair": "limited",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q181729",
+      "wikipedia": "no:Grand Café",
+      "osmTags": {
+        "amenity": "restaurant"
+      },
+      "fame": 2
     },
     {
       "source": "openstreetmap",
@@ -1331,9 +1077,9 @@
       "subcategory": "restaurant",
       "lat": 59.909536,
       "lng": 10.7419657,
-      "distanceFromTerminalMeters": 1247,
-      "distanceFromDefaultTerminalMeters": 1247,
-      "minDistanceFromAnyTerminalMeters": 1247,
+      "distanceFromTerminalMeters": 541,
+      "distanceFromDefaultTerminalMeters": 541,
+      "minDistanceFromAnyTerminalMeters": 541,
       "nearestTerminalId": "ports-json-anchor",
       "address": "",
       "openingHours": "Mo-Th 08:00-16:00; Fr 09:00-15:00",
@@ -1345,6 +1091,8 @@
       "wheelchair": "",
       "brand": "",
       "description": "Lunch & Catering",
+      "wikidata": "",
+      "wikipedia": "",
       "osmTags": {
         "amenity": "restaurant"
       }
@@ -1358,9 +1106,9 @@
       "subcategory": "restaurant",
       "lat": 59.9086804,
       "lng": 10.7259401,
-      "distanceFromTerminalMeters": 1839,
-      "distanceFromDefaultTerminalMeters": 1839,
-      "minDistanceFromAnyTerminalMeters": 1839,
+      "distanceFromTerminalMeters": 817,
+      "distanceFromDefaultTerminalMeters": 817,
+      "minDistanceFromAnyTerminalMeters": 817,
       "nearestTerminalId": "ports-json-anchor",
       "address": "",
       "openingHours": "Tu-Th 13:00-22:00; Fr 13:00-22:00; Sa 13:00-22:00; Mo, Su off",
@@ -1373,8 +1121,431 @@
       "wheelchair": "",
       "brand": "",
       "description": "Vesuvio Cafè & Pizzeria er et familiedrevet italiensk pizzeria som har blitt en lokal favoritt i Oslo.",
+      "wikidata": "",
+      "wikipedia": "",
       "osmTags": {
         "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/bcd6786080503413b8d6",
+      "name": "Habibi Restaurant",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 59.914414,
+      "lng": 10.747056,
+      "distanceFromTerminalMeters": 1151,
+      "distanceFromDefaultTerminalMeters": 1151,
+      "minDistanceFromAnyTerminalMeters": 1151,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Fr 15:00-23:00; Sa 12:00-23:00; Su 15:00-22:00; Mo-Th 16:00-24:00, Fr 16:00-01:00, Sa 12:00-01:00, Su 12:00-24:00",
+      "website": "https://habibi.no",
+      "phone": "+47 22 17 02 01",
+      "cuisine": [
+        "palestinian",
+        "lebanese"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Arab cuisine/Arabisk kjøkken",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/a7727a2909d7cd62d521",
+      "name": "Arv Kaffe & Retro",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 59.908157,
+      "lng": 10.769673,
+      "distanceFromTerminalMeters": 1769,
+      "distanceFromDefaultTerminalMeters": 1769,
+      "minDistanceFromAnyTerminalMeters": 1769,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Fr 14:00-18:00; Sa-Su 10:00-17:00",
+      "website": "https://www.facebook.com/arvkafferetro/",
+      "phone": "+47 458 33 691",
+      "cuisine": [
+        "waffle",
+        "toast"
+      ],
+      "wheelchair": "no",
+      "brand": "",
+      "description": "Cafe, bar, and retro shop. has quiz nights and music at times as well.",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "cafe",
+        "shop": "second_hand"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/7e3f5588558ba730fe50",
+      "name": "Skur 33",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 59.9077661,
+      "lng": 10.7334808,
+      "distanceFromTerminalMeters": 422,
+      "distanceFromDefaultTerminalMeters": 422,
+      "minDistanceFromAnyTerminalMeters": 422,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Tu 16:00-22:00; We-Sa 11:30-22:00; Su 13:00-20:00",
+      "website": "https://skur33.no/",
+      "phone": "+47 23 35 70 60",
+      "cuisine": [
+        "italian"
+      ],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/363192393cb0f830322a",
+      "name": "Pascal kaffebar",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 59.910029,
+      "lng": 10.746171,
+      "distanceFromTerminalMeters": 704,
+      "distanceFromDefaultTerminalMeters": 704,
+      "minDistanceFromAnyTerminalMeters": 704,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Fr 07:30-17:00; Sa 09:00-17:00; Su 10:00-17:00",
+      "website": "https://www.pascal.no/restauranter/tollbugata-11-kaffebar/",
+      "phone": "+47 22 41 97 99",
+      "cuisine": [
+        "cake",
+        "coffee_shop",
+        "french",
+        "tea"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d3c18cf5254593cb4c95",
+      "name": "Pascal",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 59.9099938,
+      "lng": 10.7463081,
+      "distanceFromTerminalMeters": 705,
+      "distanceFromDefaultTerminalMeters": 705,
+      "minDistanceFromAnyTerminalMeters": 705,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Sa 11:00-17:00",
+      "website": "https://www.pascal.no/restauranter/tollbugata-11/",
+      "phone": "+47 22421119",
+      "cuisine": [
+        "cake",
+        "coffee_shop",
+        "french",
+        "tea"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "cafe",
+        "shop": "confectionery"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/3f8df3bac3f538971e6e",
+      "name": "Los Tacos",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "fast_food",
+      "lat": 59.9117964,
+      "lng": 10.743085,
+      "distanceFromTerminalMeters": 799,
+      "distanceFromDefaultTerminalMeters": 799,
+      "minDistanceFromAnyTerminalMeters": 799,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Fr 10:00-19:00; Sa 10:00-18:00",
+      "website": "https://lostacos.no/",
+      "phone": "+47 41 37 77 41",
+      "cuisine": [
+        "mexican"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "fast_food"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/fba03a64f20aaae78ace",
+      "name": "Royal Gastropub",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "pub",
+      "lat": 59.9105698,
+      "lng": 10.7518896,
+      "distanceFromTerminalMeters": 968,
+      "distanceFromDefaultTerminalMeters": 968,
+      "minDistanceFromAnyTerminalMeters": 968,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-We 11:00-23:00; Th-Fr 11:00-00:30; Su 12:00-23:00",
+      "website": "https://www.royalgastropub.no/",
+      "phone": "+47 21082272",
+      "cuisine": [
+        "burger"
+      ],
+      "wheelchair": "limited",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "pub"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/935015523ddd08601489",
+      "name": "Baker Hansen",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 59.9137852,
+      "lng": 10.7349017,
+      "distanceFromTerminalMeters": 1002,
+      "distanceFromDefaultTerminalMeters": 1002,
+      "minDistanceFromAnyTerminalMeters": 1002,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Fr 07:00-18:00; Sa 09:00-17:00; Su 10:00-16:00",
+      "website": "https://www.bakerhansen.no/stortingsgaten/",
+      "phone": "+47 22426166",
+      "cuisine": [
+        "coffee_shop"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "cafe",
+        "shop": "bakery"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/fcf1bb3af13e5d10eb18",
+      "name": "Baker Hansen",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 59.9137216,
+      "lng": 10.7312493,
+      "distanceFromTerminalMeters": 1056,
+      "distanceFromDefaultTerminalMeters": 1056,
+      "minDistanceFromAnyTerminalMeters": 1056,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Fr 07:00-18:00; Sa 09:00-17:00; Su 11:00-17:00",
+      "website": "https://www.bakerhansen.no/",
+      "phone": "+47 94023806",
+      "cuisine": [
+        "coffee_shop",
+        "pastry",
+        "sandwich"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c95b37cdaaa56089d2ea",
+      "name": "Ugly Duckling",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "fast_food",
+      "lat": 59.9150404,
+      "lng": 10.736936,
+      "distanceFromTerminalMeters": 1124,
+      "distanceFromDefaultTerminalMeters": 1124,
+      "minDistanceFromAnyTerminalMeters": 1124,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "We-Fr 12:00-18:00, Sa 12:00-17:00 ,Su 12:00-18:00",
+      "website": "https://www.udoslo.com",
+      "phone": "+47 46663883",
+      "cuisine": [
+        "sandwich"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "fast_food"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/cb1fd15a30f9dbb5238b",
+      "name": "Baker Hansen",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 59.914248,
+      "lng": 10.729055,
+      "distanceFromTerminalMeters": 1161,
+      "distanceFromDefaultTerminalMeters": 1161,
+      "minDistanceFromAnyTerminalMeters": 1161,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Fr 06:00-18:00; Sa 09:00-16:00",
+      "website": "https://www.bakerhansen.no/vika/",
+      "phone": "+47 22832166",
+      "cuisine": [
+        "coffee_shop"
+      ],
+      "wheelchair": "limited",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "cafe",
+        "shop": "bakery"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/51738719dc6c02ec4ed5",
+      "name": "Café Fiasco",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "bar",
+      "lat": 59.912133,
+      "lng": 10.755369,
+      "distanceFromTerminalMeters": 1229,
+      "distanceFromDefaultTerminalMeters": 1229,
+      "minDistanceFromAnyTerminalMeters": 1229,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Th 11:00-24:00; Fr-Sa 11:00-02:00; Su 12:00-24:00",
+      "website": "https://www.fiasco.no/",
+      "phone": "+47 47 17 40 00",
+      "cuisine": [
+        "burger"
+      ],
+      "wheelchair": "limited",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "bar"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/e4d215b624b72a29642e",
+      "name": "Vinny's Kebab",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "fast_food",
+      "lat": 59.9134696,
+      "lng": 10.7538702,
+      "distanceFromTerminalMeters": 1272,
+      "distanceFromDefaultTerminalMeters": 1272,
+      "minDistanceFromAnyTerminalMeters": 1272,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Th 10:00-23:00; Fr 10:00-03:00; Sa 11:00-03:00; Su 12:00-23:00",
+      "website": "https://gunerius.no/butikker/vinnys-kebab/",
+      "phone": "+47 22179009",
+      "cuisine": [
+        "kebab"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "fast_food"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/509d6fb74ba09c0c9ff8",
+      "name": "Prindsen hage",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 59.914657,
+      "lng": 10.755541,
+      "distanceFromTerminalMeters": 1433,
+      "distanceFromDefaultTerminalMeters": 1433,
+      "minDistanceFromAnyTerminalMeters": 1433,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "May-Sep: Mo-Su 18:00-22:00",
+      "website": "https://www.prindsenhage.no/",
+      "phone": "",
+      "cuisine": [
+        "korean",
+        "hipster"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "En sommerkafé. Tilbyr diverse utendørs spill. Bestilling av bane og bord om ønskelig. https://www.prindsenhage.no/ https://www.facebook.com/pg/prindsenhage/about/",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "cafe"
       }
     },
     {
@@ -1386,9 +1557,9 @@
       "subcategory": "mall",
       "lat": 59.9144565,
       "lng": 10.7377411,
-      "distanceFromTerminalMeters": 920,
-      "distanceFromDefaultTerminalMeters": 920,
-      "minDistanceFromAnyTerminalMeters": 920,
+      "distanceFromTerminalMeters": 1056,
+      "distanceFromDefaultTerminalMeters": 1056,
+      "minDistanceFromAnyTerminalMeters": 1056,
       "nearestTerminalId": "ports-json-anchor",
       "address": "",
       "openingHours": "Mo-Fr 10:00-20:00; Sa 10:00-18:00",
@@ -1398,77 +1569,967 @@
       "wheelchair": "yes",
       "brand": "",
       "description": "",
+      "wikidata": "Q37113",
+      "wikipedia": "en:Paléet",
       "osmTags": {
         "shop": "mall"
-      }
+      },
+      "fame": 4
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/35e3774b8d4e48488f91",
-      "name": "Vestkanttorvet antikk- og bruktmarked",
-      "nameEnglish": "",
+      "sourceId": "osm/generated/5647c59f826f07fd1c09",
+      "name": "Oslo City",
+      "nameEnglish": "Oslo City",
       "category": "shopping",
-      "subcategory": "marketplace",
-      "lat": 59.9241926,
-      "lng": 10.7135144,
-      "distanceFromTerminalMeters": 2086,
-      "distanceFromDefaultTerminalMeters": 2086,
-      "minDistanceFromAnyTerminalMeters": 2086,
+      "subcategory": "mall",
+      "lat": 59.912695,
+      "lng": 10.7524305,
+      "distanceFromTerminalMeters": 1155,
+      "distanceFromDefaultTerminalMeters": 1155,
+      "minDistanceFromAnyTerminalMeters": 1155,
       "nearestTerminalId": "ports-json-anchor",
       "address": "",
-      "openingHours": "Sa 09:00-17:00",
-      "website": "https://www.visitoslo.com/no/produkt/?tlp=2984503&name=Vestkanttorvet-antikk-og-bruktmarked",
-      "phone": "+4748154738",
+      "openingHours": "Mo-Fr 10:00-20:00; Sa 10:00-20:00",
+      "website": "https://oslo-city.steenstrom.no/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q1771032",
+      "wikipedia": "en:Oslo City",
+      "osmTags": {
+        "shop": "mall"
+      },
+      "fame": 6
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/9012f5ebadca5162ef35",
+      "name": "Glasmagasinet",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "mall",
+      "lat": 59.913292,
+      "lng": 10.7457245,
+      "distanceFromTerminalMeters": 1007,
+      "distanceFromDefaultTerminalMeters": 1007,
+      "minDistanceFromAnyTerminalMeters": 1007,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Fr 10:00-19:00; Sa 10:00-18:00",
+      "website": "https://www.glasmagasinet.no/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "limited",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q11972168",
+      "wikipedia": "",
+      "osmTags": {
+        "shop": "mall"
+      },
+      "fame": 4
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/5b4b6f9f9644c6f7df93",
+      "name": "Byporten Shopping",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "mall",
+      "lat": 59.9116968,
+      "lng": 10.7522668,
+      "distanceFromTerminalMeters": 1068,
+      "distanceFromDefaultTerminalMeters": 1068,
+      "minDistanceFromAnyTerminalMeters": 1068,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Fr 10:00-21:00; Sa 10:00-20:00",
+      "website": "https://www.byporten.no/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q1154016",
+      "wikipedia": "",
+      "osmTags": {
+        "shop": "mall"
+      },
+      "fame": 3
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/0fd1c12c8a9f85a805be",
+      "name": "Platekompaniet",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "music",
+      "lat": 59.9137037,
+      "lng": 10.7501752,
+      "distanceFromTerminalMeters": 1166,
+      "distanceFromDefaultTerminalMeters": 1166,
+      "minDistanceFromAnyTerminalMeters": 1166,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Fr 10:00-20:00; Sa 10:00-18:00",
+      "website": "https://www.platekompaniet.no/",
+      "phone": "",
       "cuisine": [],
       "wheelchair": "",
       "brand": "",
-      "description": "Byens eldste og største marked, med møbler, porselen, glass, klær, sølvtøy, smykker, samlerobjekter og snurrepiperier.",
+      "description": "Musikkbutikk som selger LP, CD, videospill, DVD, Blu-Ray.",
+      "wikidata": "Q19385400",
+      "wikipedia": "",
       "osmTags": {
-        "amenity": "marketplace"
+        "shop": "music"
+      },
+      "fame": 1
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ee8473ea3bdec2e20d86",
+      "name": "Tronsmo Bokhandel",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "books",
+      "lat": 59.9166305,
+      "lng": 10.7387569,
+      "distanceFromTerminalMeters": 1297,
+      "distanceFromDefaultTerminalMeters": 1297,
+      "minDistanceFromAnyTerminalMeters": 1297,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-We 09:00-17:00; Th-Fr 09:00-18:00; Sa 10:00-16:00",
+      "website": "https://tronsmo.no/",
+      "phone": "+4722990399",
+      "cuisine": [],
+      "wheelchair": "no",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q12007673",
+      "wikipedia": "no:Tronsmo",
+      "osmTags": {
+        "shop": "books"
+      },
+      "fame": 1
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/9abe3dbc794598a9bf29",
+      "name": "Norli Litteraturhuset",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "books",
+      "lat": 59.9202839,
+      "lng": 10.7285477,
+      "distanceFromTerminalMeters": 1792,
+      "distanceFromDefaultTerminalMeters": 1792,
+      "minDistanceFromAnyTerminalMeters": 1792,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Fr 11:00-20:00; Sa 10:00-17:00; Su 12:00-16:00",
+      "website": "https://litteraturhuset.no/huset/Bokhandelen.html",
+      "phone": "+47 23691080",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q11986494",
+      "wikipedia": "",
+      "osmTags": {
+        "shop": "books"
+      },
+      "fame": 1
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/961b80e6657bc4d23657",
+      "name": "Baker Hansen",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "bakery",
+      "lat": 59.910193,
+      "lng": 10.7434888,
+      "distanceFromTerminalMeters": 642,
+      "distanceFromDefaultTerminalMeters": 642,
+      "minDistanceFromAnyTerminalMeters": 642,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Fr 07:00-17:00; Sa 10:00-16:00",
+      "website": "https://www.bakerhansen.no/",
+      "phone": "+47 94 02 88 89",
+      "cuisine": [],
+      "wheelchair": "limited",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "shop": "bakery"
       }
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/d5ac9fcf3ed2034f835f",
-      "name": "Den Norske Turistforening",
+      "sourceId": "osm/generated/e36b0cf8eb4797749007",
+      "name": "Acne Studios",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "clothes",
+      "lat": 59.912299,
+      "lng": 10.741446,
+      "distanceFromTerminalMeters": 830,
+      "distanceFromDefaultTerminalMeters": 830,
+      "minDistanceFromAnyTerminalMeters": 830,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Fr 10:00-19:00; Sa 10:00-18:00",
+      "website": "http://shop.acnestudios.com",
+      "phone": "+47 22155100",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "shop": "clothes"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ef407138c16065b07520",
+      "name": "Floriss",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "florist",
+      "lat": 59.910474,
+      "lng": 10.7279374,
+      "distanceFromTerminalMeters": 853,
+      "distanceFromDefaultTerminalMeters": 853,
+      "minDistanceFromAnyTerminalMeters": 853,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Fr 10:00-19:00; Sa 10:00-18:00",
+      "website": "https://floriss.no/",
+      "phone": "+4723239210",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "shop": "florist"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/502909ba37c575c76cfb",
+      "name": "Mendel’s",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "bakery",
+      "lat": 59.911727,
+      "lng": 10.7468614,
+      "distanceFromTerminalMeters": 882,
+      "distanceFromDefaultTerminalMeters": 882,
+      "minDistanceFromAnyTerminalMeters": 882,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Su-Th 10:00-18:00; Fr-Sa 10:00-20:00",
+      "website": "https://www.mendelsoslo.com/",
+      "phone": "+47 90 56 97 96",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "shop": "bakery"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b9555ac6b06473af92fe",
+      "name": "Eidsvolls plass",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 59.9133293,
+      "lng": 10.7389982,
+      "distanceFromTerminalMeters": 930,
+      "distanceFromDefaultTerminalMeters": 930,
+      "minDistanceFromAnyTerminalMeters": 930,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q4587553",
+      "wikipedia": "no:Eidsvolls plass (Oslo)",
+      "osmTags": {
+        "leisure": "park"
+      },
+      "fame": 7
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d1705c0a1e165a864428",
+      "name": "Middelalderparken",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 59.9041747,
+      "lng": 10.7636594,
+      "distanceFromTerminalMeters": 1401,
+      "distanceFromDefaultTerminalMeters": 1401,
+      "minDistanceFromAnyTerminalMeters": 1401,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q6841153",
+      "wikipedia": "en:Middelalderparken",
+      "osmTags": {
+        "leisure": "park"
+      },
+      "fame": 7
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/8ef1f0133d6d1f88ab14",
+      "name": "Olaf Ryes plass",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 59.922882,
+      "lng": 10.7582595,
+      "distanceFromTerminalMeters": 2274,
+      "distanceFromDefaultTerminalMeters": 2274,
+      "minDistanceFromAnyTerminalMeters": 2274,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q4993079",
+      "wikipedia": "en:Olaf Ryes plass",
+      "osmTags": {
+        "leisure": "park"
+      },
+      "fame": 6
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/6a6286866ad2d6a63e67",
+      "name": "Minneparken",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 59.9061608,
+      "lng": 10.7688379,
+      "distanceFromTerminalMeters": 1692,
+      "distanceFromDefaultTerminalMeters": 1692,
+      "minDistanceFromAnyTerminalMeters": 1692,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q11989578",
+      "wikipedia": "en:Minneparken",
+      "osmTags": {
+        "leisure": "park"
+      },
+      "fame": 5
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/faa65123d401a8cad859",
+      "name": "Studenterlunden",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 59.9145977,
+      "lng": 10.7344119,
+      "distanceFromTerminalMeters": 1096,
+      "distanceFromDefaultTerminalMeters": 1096,
+      "minDistanceFromAnyTerminalMeters": 1096,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q7627912",
+      "wikipedia": "no:Studenterlunden",
+      "osmTags": {
+        "leisure": "park"
+      },
+      "fame": 4
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/1ee48f8e75c07c9cf556",
+      "name": "Ekebergskråningen naturreservat",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "nature_reserve",
+      "lat": 59.8917953,
+      "lng": 10.764855,
+      "distanceFromTerminalMeters": 2072,
+      "distanceFromDefaultTerminalMeters": 2072,
+      "minDistanceFromAnyTerminalMeters": 2072,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q17769381",
+      "wikipedia": "",
+      "osmTags": {
+        "leisure": "nature_reserve"
+      },
+      "fame": 2
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/5de8ec6c02f10bd069df",
+      "name": "Malmøya og Malmøykalven naturreservat",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "nature_reserve",
+      "lat": 59.8648434,
+      "lng": 10.752321,
+      "distanceFromTerminalMeters": 4527,
+      "distanceFromDefaultTerminalMeters": 4527,
+      "minDistanceFromAnyTerminalMeters": 4527,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q19380934",
+      "wikipedia": "",
+      "osmTags": {
+        "leisure": "nature_reserve"
+      },
+      "fame": 3
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/3365128c1e59cc052dfd",
+      "name": "Dronningberget naturreservat",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "nature_reserve",
+      "lat": 59.9158199,
+      "lng": 10.6843557,
+      "distanceFromTerminalMeters": 3255,
+      "distanceFromDefaultTerminalMeters": 3255,
+      "minDistanceFromAnyTerminalMeters": 3255,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q11966098",
+      "wikipedia": "",
+      "osmTags": {
+        "leisure": "nature_reserve"
+      },
+      "fame": 2
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/af97709efdfdd1a9a339",
+      "name": "Brannfjell",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "peak",
+      "lat": 59.8877762,
+      "lng": 10.7945581,
+      "distanceFromTerminalMeters": 3660,
+      "distanceFromDefaultTerminalMeters": 3660,
+      "minDistanceFromAnyTerminalMeters": 3660,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q11962099",
+      "wikipedia": "",
+      "osmTags": {
+        "natural": "peak"
+      },
+      "fame": 2
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/6d73a61d116cf2ce430c",
+      "name": "Lindøya naturreservat",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "nature_reserve",
+      "lat": 59.8916577,
+      "lng": 10.7141158,
+      "distanceFromTerminalMeters": 2013,
+      "distanceFromDefaultTerminalMeters": 2013,
+      "minDistanceFromAnyTerminalMeters": 2013,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q11984110",
+      "wikipedia": "no:Lindøya naturreservat",
+      "osmTags": {
+        "leisure": "nature_reserve"
+      },
+      "fame": 1
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/eb3eef3fde44966e797c",
+      "name": "Galteskjær biotopvernområde",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "nature_reserve",
+      "lat": 59.8942895,
+      "lng": 10.7056765,
+      "distanceFromTerminalMeters": 2186,
+      "distanceFromDefaultTerminalMeters": 2186,
+      "minDistanceFromAnyTerminalMeters": 2186,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q17775774",
+      "wikipedia": "",
+      "osmTags": {
+        "leisure": "nature_reserve"
+      },
+      "fame": 1
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/4e13277691a8d93b1409",
+      "name": "Havnepromenaden infotårn 4 Vika",
       "nameEnglish": "",
       "category": "essentials",
       "subcategory": "visitor_information",
-      "lat": 59.913106,
-      "lng": 10.748154,
-      "distanceFromTerminalMeters": 773,
-      "distanceFromDefaultTerminalMeters": 773,
-      "minDistanceFromAnyTerminalMeters": 773,
+      "lat": 59.9095143,
+      "lng": 10.7145123,
+      "distanceFromTerminalMeters": 1434,
+      "distanceFromDefaultTerminalMeters": 1434,
+      "minDistanceFromAnyTerminalMeters": 1434,
       "nearestTerminalId": "ports-json-anchor",
       "address": "",
-      "openingHours": "Mo-We,Fr 10:00-17:00; Th 10:00-18:00; Sa 11:00-16:00",
-      "website": "https://www.dnt.no/",
+      "openingHours": "",
+      "website": "https://www.oslo.kommune.no/slik-bygger-vi-oslo/fjordbyen/havnepromenaden/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q19373843",
+      "wikipedia": "no:Havnepromenaden (Oslo)",
+      "osmTags": {
+        "tourism": "information"
+      },
+      "fame": 1
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/e715e94052952487a5ea",
+      "name": "Ruter S",
+      "nameEnglish": "",
+      "category": "essentials",
+      "subcategory": "visitor_information",
+      "lat": 59.9113881,
+      "lng": 10.7502951,
+      "distanceFromTerminalMeters": 967,
+      "distanceFromDefaultTerminalMeters": 967,
+      "minDistanceFromAnyTerminalMeters": 967,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Sa 09:00-18:00; Su 10:00-16:00; Mo-Fr 09:00-20:00",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "Ruter Help Center, Public Transport Help Center",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "tourism": "information"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/891f19dd94acf3aaed12",
+      "name": "Viking Biking",
+      "nameEnglish": "",
+      "category": "essentials",
+      "subcategory": "bicycle_rental",
+      "lat": 59.9022867,
+      "lng": 10.7434042,
+      "distanceFromTerminalMeters": 401,
+      "distanceFromDefaultTerminalMeters": 401,
+      "minDistanceFromAnyTerminalMeters": 401,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "https://vikingbikingoslo.com/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "bicycle_rental",
+        "tourism": "bike_tours"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/8a528db26d74134c4132",
+      "name": "Kunstnernes hus",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "gallery",
+      "lat": 59.9195708,
+      "lng": 10.730827,
+      "distanceFromTerminalMeters": 1680,
+      "distanceFromDefaultTerminalMeters": 1680,
+      "minDistanceFromAnyTerminalMeters": 1680,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Tu,We,Fr-Su 11:00-17:00; Th 11:00-19:00",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q1772519",
+      "wikipedia": "en:Kunstnernes Hus",
+      "osmTags": {
+        "tourism": "gallery"
+      },
+      "fame": 9
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/32baed19420713762e3c",
+      "name": "Hovedøya kloster",
+      "nameEnglish": "Hovedøya Abbey",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 59.8963274,
+      "lng": 10.7283804,
+      "distanceFromTerminalMeters": 1117,
+      "distanceFromDefaultTerminalMeters": 1117,
+      "minDistanceFromAnyTerminalMeters": 1117,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "https://youtu.be/g7Dxh-oIFIs",
       "phone": "",
       "cuisine": [],
       "wheelchair": "no",
       "brand": "",
       "description": "",
+      "wikidata": "Q1477794",
+      "wikipedia": "no:Hovedøya kloster",
       "osmTags": {
-        "tourism": "information"
+        "historic": "ruins;archaeological_site",
+        "tourism": "attraction"
+      },
+      "fame": 8
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/e5e31523d04e7f076fd0",
+      "name": "Jernbanetorget",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "square",
+      "lat": 59.9109428,
+      "lng": 10.7503355,
+      "distanceFromTerminalMeters": 933,
+      "distanceFromDefaultTerminalMeters": 933,
+      "minDistanceFromAnyTerminalMeters": 933,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q1783215",
+      "wikipedia": "",
+      "osmTags": {
+        "place": "square"
+      },
+      "fame": 8
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/6fd31dfd983a3300b457",
+      "name": "Stortorvet",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "square",
+      "lat": 59.9127689,
+      "lng": 10.7452943,
+      "distanceFromTerminalMeters": 944,
+      "distanceFromDefaultTerminalMeters": 944,
+      "minDistanceFromAnyTerminalMeters": 944,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q3356024",
+      "wikipedia": "",
+      "osmTags": {
+        "place": "square"
+      },
+      "fame": 8
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/55a5e2118e226e0509d6",
+      "name": "Bankplassen",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "square",
+      "lat": 59.908833,
+      "lng": 10.7414986,
+      "distanceFromTerminalMeters": 459,
+      "distanceFromDefaultTerminalMeters": 459,
+      "minDistanceFromAnyTerminalMeters": 459,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q4856441",
+      "wikipedia": "",
+      "osmTags": {
+        "place": "square"
+      },
+      "fame": 6
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/69a3d6a64a44f2090319",
+      "name": "Oslo Reptilpark",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "zoo",
+      "lat": 59.918079,
+      "lng": 10.7432891,
+      "distanceFromTerminalMeters": 1481,
+      "distanceFromDefaultTerminalMeters": 1481,
+      "minDistanceFromAnyTerminalMeters": 1481,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Tu-Su 10:00-18:00",
+      "website": "https://www.reptilpark.no/",
+      "phone": "+4741021522",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q11994240",
+      "wikipedia": "",
+      "osmTags": {
+        "tourism": "zoo"
+      },
+      "fame": 1
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/282344cc20ff3cde4239",
+      "name": "Thon Senter Gunerius",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "mall",
+      "lat": 59.9140885,
+      "lng": 10.7534115,
+      "distanceFromTerminalMeters": 1308,
+      "distanceFromDefaultTerminalMeters": 1308,
+      "minDistanceFromAnyTerminalMeters": 1308,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Fr 09:00-20:00, Sa 10:00-18:00",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q11973263",
+      "wikipedia": "en:Gunerius Shoppingsenter",
+      "osmTags": {
+        "shop": "mall"
+      },
+      "fame": 3
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/8acb53340c2f99ed870b",
+      "name": "CC Vest",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "mall",
+      "lat": 59.9176785,
+      "lng": 10.635415,
+      "distanceFromTerminalMeters": 5923,
+      "distanceFromDefaultTerminalMeters": 5923,
+      "minDistanceFromAnyTerminalMeters": 5923,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "16 Lilleakerveien, Oslo, 0283",
+      "openingHours": "Mo-Fr 09:00-21:00; Sa 09:00-19:00",
+      "website": "https://ccvest.no/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q5009766",
+      "wikipedia": "",
+      "osmTags": {
+        "shop": "mall"
+      },
+      "fame": 3
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/2bed30ca7549817429bf",
+      "name": "Carl Heftye",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "greengrocer",
+      "lat": 59.9118537,
+      "lng": 10.7470403,
+      "distanceFromTerminalMeters": 899,
+      "distanceFromDefaultTerminalMeters": 899,
+      "minDistanceFromAnyTerminalMeters": 899,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Fr 09:00-17:00; Sa 10:00-16:00",
+      "website": "https://m.facebook.com/CarlHeftye/about/",
+      "phone": "+47 22 42 50 54",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "shop": "greengrocer"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/1177530cc120ba8a75e7",
+      "name": "Olivenlunden 1830 Østbanehallen",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "deli",
+      "lat": 59.9109541,
+      "lng": 10.7513859,
+      "distanceFromTerminalMeters": 976,
+      "distanceFromDefaultTerminalMeters": 976,
+      "minDistanceFromAnyTerminalMeters": 976,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Fr 10:00-21:00; Sa 10:00-18:00; Su 11:00-17:00",
+      "website": "https://www.olivenlunden1830.no/butikker/ostbanehallen/",
+      "phone": "+47 92 02 01 62",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "shop": "deli"
       }
     }
   ],
-  "portAnchor": {
-    "id": "ports-json-anchor",
-    "name": "OSLO Port",
-    "lat": 59.92,
-    "lng": 10.75,
-    "address": "Oslo, Oslo, Norway",
-    "source": "ports.json",
-    "sourceId": "",
-    "score": 0,
-    "slug": "oslo-port"
-  },
+  "gemSuggestions": [
+    "Vulkan Mathallen food hall"
+  ],
   "terminalResolution": {
     "status": "resolved",
-    "method": "terminal_review",
+    "method": "cruise-ports",
     "verified": true,
-    "reviewedAt": "2026-09-28",
     "notes": "Sondre Akershuskai, Revierkaia, and Filipstad are all Oslo cruise quays."
   }
 }

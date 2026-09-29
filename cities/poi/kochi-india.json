@@ -1,7 +1,31 @@
 {
+  "defaultTerminalId": "osm/generated/72100d63279204d1a4b5",
+  "terminal": {
+    "id": "osm/generated/72100d63279204d1a4b5",
+    "name": "Cochin International Cruise Terminal",
+    "lat": 9.965842,
+    "lng": 76.262077,
+    "terminalType": "passenger_cruise_terminal",
+    "source": "verified_terminal_candidate",
+    "notes": "Accepted 1 candidate explicitly identified as an ocean-cruise or cruise-passenger terminal; ferry and unrelated results were excluded.",
+    "sourceId": "osm/generated/72100d63279204d1a4b5",
+    "verified": true
+  },
+  "terminals": [
+    {
+      "id": "osm/generated/72100d63279204d1a4b5",
+      "name": "Cochin International Cruise Terminal",
+      "lat": 9.965842,
+      "lng": 76.262077,
+      "terminalType": "passenger_cruise_terminal",
+      "source": "verified_terminal_candidate",
+      "notes": "Accepted 1 candidate explicitly identified as an ocean-cruise or cruise-passenger terminal; ferry and unrelated results were excluded.",
+      "sourceId": "osm/generated/72100d63279204d1a4b5",
+      "verified": true
+    }
+  ],
   "schemaVersion": 5,
   "catalogType": "curation-candidates",
-  "generatedAt": "2026-07-30T08:59:43.883Z",
   "source": "openstreetmap",
   "sourceExtract": "southern-zone-latest.osm.pbf",
   "radiusMeters": 10000,
@@ -10,797 +34,57 @@
     "city": "Kochi",
     "country": "India"
   },
-  "defaultTerminalId": "osm/generated/72100d63279204d1a4b5",
-  "terminal": {
-    "id": "osm/generated/72100d63279204d1a4b5",
+  "portAnchor": {
+    "id": "ports-json-anchor",
     "name": "Cochin International Cruise Terminal",
-    "nameEnglish": "",
     "lat": 9.965842,
     "lng": 76.262077,
-    "address": "",
-    "source": "verified_terminal_candidate",
-    "sourceId": "osm/generated/72100d63279204d1a4b5",
-    "terminalType": "passenger_cruise_terminal",
-    "verified": true,
-    "notes": "Accepted 1 candidate explicitly identified as an ocean-cruise or cruise-passenger terminal; ferry and unrelated results were excluded.",
-    "sourceUrls": [],
-    "sources": [
-      "openstreetmap"
-    ],
-    "sourceIds": [
-      "osm/generated/72100d63279204d1a4b5"
-    ],
-    "osmTags": {
-      "amenity": "ferry_terminal",
-      "industrial": "port"
-    },
-    "matchedBy": [
-      "amenity=ferry_terminal",
-      "terminal-like name"
-    ]
+    "address": "Kochi, Kerala, India",
+    "source": "ports.json",
+    "sourceId": "",
+    "score": 0,
+    "slug": "cochin-international-cruise-terminal"
   },
-  "terminals": [
-    {
-      "id": "osm/generated/72100d63279204d1a4b5",
-      "name": "Cochin International Cruise Terminal",
-      "nameEnglish": "",
-      "lat": 9.965842,
-      "lng": 76.262077,
-      "address": "",
-      "source": "verified_terminal_candidate",
-      "sourceId": "osm/generated/72100d63279204d1a4b5",
-      "terminalType": "passenger_cruise_terminal",
-      "verified": true,
-      "notes": "Accepted 1 candidate explicitly identified as an ocean-cruise or cruise-passenger terminal; ferry and unrelated results were excluded.",
-      "sourceUrls": [],
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/72100d63279204d1a4b5"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "industrial": "port"
-      },
-      "matchedBy": [
-        "amenity=ferry_terminal",
-        "terminal-like name"
-      ]
-    }
-  ],
-  "terminalCandidateRadiusMeters": 5000,
-  "terminalCandidates": [
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/f7d3cbfdb8b193523bec",
-      "name": "Fort Kochi Water Metro Stop",
-      "nameEnglish": "Fort Kochi Water Metro Stop",
-      "lat": 9.968459,
-      "lng": 76.243082,
-      "distanceFromPortMeters": 1443,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "name:en": "Fort Kochi Water Metro Stop",
-        "public_transport": "stop_position"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/f7d3cbfdb8b193523bec"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/6d9805b594be3d2d0427",
-      "name": "Fort Kochi Water Metro Station",
-      "nameEnglish": "Fort Kochi Water Metro Station",
-      "lat": 9.9683373,
-      "lng": 76.2431346,
-      "distanceFromPortMeters": 1450,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "building": "yes",
-        "ferry": "yes",
-        "name:en": "Fort Kochi Water Metro Station",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/6d9805b594be3d2d0427"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/f6def3ca0fb6874b5324",
-      "name": "Vypin Water Metro",
-      "nameEnglish": "Vypin - Ernakulam Ferry",
-      "lat": 9.9740636,
-      "lng": 76.2443334,
-      "distanceFromPortMeters": 1633,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "building": "yes",
-        "ferry": "yes",
-        "name:en": "Vypin Water Metro",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/f6def3ca0fb6874b5324"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/51cd09343e3e79f89a7a",
-      "name": "Vypeen - Fort Kochi Ferry",
-      "nameEnglish": "Vypeen - Fort Kochi Ferry",
-      "lat": 9.9736796,
-      "lng": 76.2444456,
-      "distanceFromPortMeters": 1634,
-      "address": "Vypin - Pallippuram Road, ERNAKULAM, 682508",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "name:en": "Vypeen - Fort Kochi Ferry",
-        "operator": "Government",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/51cd09343e3e79f89a7a"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/cf4ce7152328608ac724",
-      "name": "Fort Kochi Junkar Jetty",
-      "nameEnglish": "",
-      "lat": 9.9687133,
-      "lng": 76.2450063,
-      "distanceFromPortMeters": 1650,
-      "address": "Bellar Road, 682001",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "alt_name": "Fort Cochin Boat Jetty.",
-        "amenity": "ferry_terminal",
-        "cargo": "passengers;vehicle",
-        "ferry": "yes",
-        "public_transport": "stop_position"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/cf4ce7152328608ac724"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/24f1c7423f60ce6d4208",
-      "name": "Vypin Jetty",
-      "nameEnglish": "Vypin Jetty",
-      "lat": 9.9738544,
-      "lng": 76.2445868,
-      "distanceFromPortMeters": 1654,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "cargo": "passengers;vehicle",
-        "ferry": "yes",
-        "name:en": "Vypin Jetty",
-        "public_transport": "stop_position"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/24f1c7423f60ce6d4208"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/f2ab99ee85aadac308fa",
-      "name": "Vypin",
-      "nameEnglish": "Vypin",
-      "lat": 9.9744056,
-      "lng": 76.2444925,
-      "distanceFromPortMeters": 1661,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "cargo": "passengers",
-        "ferry": "yes",
-        "name:en": "Vypin",
-        "public_transport": "stop_position"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/f2ab99ee85aadac308fa"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/73c33834bf4135174e29",
-      "name": "Fort Kochi",
-      "nameEnglish": "",
-      "lat": 9.9690858,
-      "lng": 76.2518604,
-      "distanceFromPortMeters": 2396,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "building": "yes",
-        "ferry": "yes",
-        "man_made": "pier",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/73c33834bf4135174e29"
-      ]
-    },
-    {
-      "source": "nominatim",
-      "sourceId": "osm/node/5952992244",
-      "osmType": "node",
-      "osmId": "5952992244",
-      "name": "Customs House-Kochi",
-      "nameEnglish": "",
-      "lat": 9.9688149,
-      "lng": 76.2591686,
-      "distanceFromPortMeters": 3197,
-      "address": "Customs House-Kochi, Port Trust Circle, Mattancherry, Kochi, Ernakulam, Kerala, 628002, India",
-      "displayName": "Customs House-Kochi, Port Trust Circle, Mattancherry, Kochi, Ernakulam, Kerala, 628002, India",
-      "query": "KOCHI (COCHIN) Port, Kochi, India",
-      "matchedBy": [
-        "Nominatim query: KOCHI (COCHIN) Port, Kochi, India"
-      ],
-      "osmTags": {},
-      "sources": [
-        "nominatim"
-      ],
-      "sourceIds": [
-        "osm/node/5952992244"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/27f07bc86b304294b9bb",
-      "name": "Embarkation Jetty",
-      "nameEnglish": "",
-      "lat": 9.9700632,
-      "lng": 76.2621716,
-      "distanceFromPortMeters": 3523,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "building": "yes",
-        "ferry": "yes",
-        "man_made": "pier",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/27f07bc86b304294b9bb"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/72100d63279204d1a4b5",
-      "name": "Cochin International Cruise Terminal",
-      "nameEnglish": "",
-      "lat": 9.9658422,
-      "lng": 76.2620768,
-      "distanceFromPortMeters": 3543,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal",
-        "terminal-like name"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "industrial": "port"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/72100d63279204d1a4b5"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/fcc9e6590d899f66a875",
-      "name": "Mattanchery water metro terminal",
-      "nameEnglish": "",
-      "lat": 9.9586822,
-      "lng": 76.2603651,
-      "distanceFromPortMeters": 3556,
-      "address": "Jew Town Road, 682002",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/fcc9e6590d899f66a875"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/44476c19568c74b38d6c",
-      "name": "Mattancherry Water Metro Station",
-      "nameEnglish": "",
-      "lat": 9.958861,
-      "lng": 76.2605458,
-      "distanceFromPortMeters": 3567,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "building": "yes",
-        "ferry": "yes",
-        "operator": "Kochi Water Metro",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/44476c19568c74b38d6c"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/7c75b3d1098b2fccaca8",
-      "name": "Mattanchery",
-      "nameEnglish": "",
-      "lat": 9.9578355,
-      "lng": 76.2607201,
-      "distanceFromPortMeters": 3626,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/7c75b3d1098b2fccaca8"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/a3751f92c19a45a83977",
-      "name": "Willingdon Island Water Metro Station",
-      "nameEnglish": "",
-      "lat": 9.9643452,
-      "lng": 76.263003,
-      "distanceFromPortMeters": 3669,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "building": "yes",
-        "ferry": "yes",
-        "operator": "Kochi Water Metro",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/a3751f92c19a45a83977"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/32039ee487d09b98e0b0",
-      "name": "Bolgatty Boat Jetty",
-      "nameEnglish": "",
-      "lat": 9.9834496,
-      "lng": 76.2665267,
-      "distanceFromPortMeters": 4271,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/32039ee487d09b98e0b0"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/b472796da766db928bc3",
-      "name": "Bolgatty Water Metro Station",
-      "nameEnglish": "",
-      "lat": 9.9869617,
-      "lng": 76.2674938,
-      "distanceFromPortMeters": 4519,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "building": "yes",
-        "ferry": "yes",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/b472796da766db928bc3"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/ed2d4f83ad673ef5aece",
-      "name": "Lakshadweep Passenger Terminal",
-      "nameEnglish": "",
-      "lat": 9.949546,
-      "lng": 76.2663693,
-      "distanceFromPortMeters": 4587,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal",
-        "terminal-like name"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/ed2d4f83ad673ef5aece"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/19004ebe5af0990382b0",
-      "name": "Ro-Ro Terminal Ferry",
-      "nameEnglish": "",
-      "lat": 9.990985,
-      "lng": 76.2666588,
-      "distanceFromPortMeters": 4643,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/19004ebe5af0990382b0"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/e9fb39bfe66dd393621c",
-      "name": "(unnamed maritime feature)",
-      "nameEnglish": "",
-      "lat": 9.9973892,
-      "lng": 76.2649957,
-      "distanceFromPortMeters": 4895,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "man_made": "pier"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/e9fb39bfe66dd393621c"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/89f6ddebef6be76555de",
-      "name": "Ernakulam Ferry Terminal",
-      "nameEnglish": "",
-      "lat": 9.9846115,
-      "lng": 76.2723968,
-      "distanceFromPortMeters": 4919,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "man_made": "pier"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/89f6ddebef6be76555de"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/893e4df0dfe397801b2d",
-      "name": "High Court Water Metro",
-      "nameEnglish": "",
-      "lat": 9.9838611,
-      "lng": 76.272697,
-      "distanceFromPortMeters": 4923,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "public_transport": "station",
-        "building": "yes"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/893e4df0dfe397801b2d"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/d0d43e3f91e9f5a74ba7",
-      "name": "High Court Boat Jetty",
-      "nameEnglish": "",
-      "lat": 9.9832656,
-      "lng": 76.273098,
-      "distanceFromPortMeters": 4945,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "public_transport": "stop_position"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/d0d43e3f91e9f5a74ba7"
-      ]
-    }
-  ],
+  "generatedAt": "2026-09-29T05:47:41.538Z",
   "counts": {
-    "attraction": 20,
-    "outdoors": 7,
-    "food_drink": 12,
-    "shopping": 1,
-    "essentials": 0
+    "attraction": 26,
+    "food_drink": 27,
+    "shopping": 16,
+    "outdoors": 13,
+    "essentials": 3
   },
   "pois": [
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/10880daaabdc86947786",
-      "name": "Indo-Portuguese Museum",
-      "nameEnglish": "Indo-Portuguese Museum",
-      "category": "attraction",
-      "subcategory": "museum",
-      "lat": 9.9623143,
-      "lng": 76.2402724,
-      "distanceFromTerminalMeters": 1413,
-      "distanceFromDefaultTerminalMeters": 1413,
-      "minDistanceFromAnyTerminalMeters": 1413,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "",
-      "openingHours": "Tu-Su 09:00-13:00, 14:00-18:00",
-      "website": "",
-      "phone": "",
-      "cuisine": [],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "tourism": "museum"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/5a5b5a1513ab337b8625",
-      "name": "Fort Kochi Jail",
-      "nameEnglish": "Fort Kochi Jail",
+      "sourceId": "osm/generated/56cdfc1c8cd538f59378",
+      "name": "Mattancherry Paradesi Synagogue",
+      "nameEnglish": "Mattancherry Paradesi Synagogue",
       "category": "attraction",
       "subcategory": "attraction",
-      "lat": 9.9676561,
-      "lng": 76.2439121,
-      "distanceFromTerminalMeters": 1546,
-      "distanceFromDefaultTerminalMeters": 1546,
-      "minDistanceFromAnyTerminalMeters": 1546,
+      "lat": 9.9574826,
+      "lng": 76.2593017,
+      "distanceFromTerminalMeters": 978,
+      "distanceFromDefaultTerminalMeters": 978,
+      "minDistanceFromAnyTerminalMeters": 978,
       "nearestTerminalId": "ports-json-anchor",
-      "address": "",
-      "openingHours": "Mo-Su 08:00-17:00",
-      "website": "",
+      "address": "Palace Road, Mattancherry, Kochi",
+      "openingHours": "10:00-12:00,15:00-17:00; Fr,Sa off",
+      "website": "https://www.keralatourism.org/kochi/paradeso-synagogue-mattancherry.php",
       "phone": "",
       "cuisine": [],
       "wheelchair": "",
       "brand": "",
       "description": "",
-      "osmTags": {
-        "tourism": "attraction"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/94c8ace363e8a409f7c0",
-      "name": "Ernakulam District Heritage Museum",
-      "nameEnglish": "Ernakulam District Heritage Museum",
-      "category": "attraction",
-      "subcategory": "museum",
-      "lat": 9.9674678,
-      "lng": 76.2410669,
-      "distanceFromTerminalMeters": 1244,
-      "distanceFromDefaultTerminalMeters": 1244,
-      "minDistanceFromAnyTerminalMeters": 1244,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "",
-      "openingHours": "",
-      "website": "",
-      "phone": "",
-      "cuisine": [],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "tourism": "museum"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/7f47364eb768e6a357fc",
-      "name": "Indian Naval Maritime Museum",
-      "nameEnglish": "",
-      "category": "attraction",
-      "subcategory": "museum",
-      "lat": 9.9582773,
-      "lng": 76.2388644,
-      "distanceFromTerminalMeters": 1625,
-      "distanceFromDefaultTerminalMeters": 1625,
-      "minDistanceFromAnyTerminalMeters": 1625,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "KJ Herschel Road",
-      "openingHours": "Tu-Fr 9:30-13:30, 14:30-17:30; Sa-Su 9:30-13:30, 14:30-20:00",
-      "website": "",
-      "phone": "",
-      "cuisine": [],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "tourism": "museum"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/112a44cf59051eed430d",
-      "name": "St Francis Church",
-      "nameEnglish": "",
-      "category": "attraction",
-      "subcategory": "attraction",
-      "lat": 9.9659381,
-      "lng": 76.2410679,
-      "distanceFromTerminalMeters": 1294,
-      "distanceFromDefaultTerminalMeters": 1294,
-      "minDistanceFromAnyTerminalMeters": 1294,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "",
-      "openingHours": "",
-      "website": "",
-      "phone": "",
-      "cuisine": [],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
+      "wikidata": "Q3495970",
+      "wikipedia": "en:Paradesi Synagogue",
       "osmTags": {
         "amenity": "place_of_worship",
-        "historic": "church",
+        "historic": "yes",
         "tourism": "attraction"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/4e9e6a8ffc9ede21f444",
-      "name": "Fort Vypin Walkway",
-      "nameEnglish": "",
-      "category": "attraction",
-      "subcategory": "attraction",
-      "lat": 9.9729389,
-      "lng": 76.2421223,
-      "distanceFromTerminalMeters": 1367,
-      "distanceFromDefaultTerminalMeters": 1367,
-      "minDistanceFromAnyTerminalMeters": 1367,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "",
-      "openingHours": "",
-      "website": "",
-      "phone": "",
-      "cuisine": [],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "tourism": "attraction"
-      }
+      },
+      "curated": true,
+      "gem": true,
+      "fame": 14
     },
     {
       "source": "openstreetmap",
@@ -811,9 +95,9 @@
       "subcategory": "ruins",
       "lat": 9.9663159,
       "lng": 76.2390124,
-      "distanceFromTerminalMeters": 1069,
-      "distanceFromDefaultTerminalMeters": 1069,
-      "minDistanceFromAnyTerminalMeters": 1069,
+      "distanceFromTerminalMeters": 2527,
+      "distanceFromDefaultTerminalMeters": 2527,
+      "minDistanceFromAnyTerminalMeters": 2527,
       "nearestTerminalId": "ports-json-anchor",
       "address": "",
       "openingHours": "",
@@ -823,22 +107,27 @@
       "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "Q18355920",
+      "wikipedia": "en:Fort Emmanuel",
       "osmTags": {
         "historic": "ruins"
-      }
+      },
+      "curated": true,
+      "gem": true,
+      "fame": 11
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/44f54ca9b32d35fef0d8",
-      "name": "David Hall",
-      "nameEnglish": "David Hall",
+      "sourceId": "osm/generated/6b2db7de0d27b3078695",
+      "name": "Bolgatty Palace",
+      "nameEnglish": "",
       "category": "attraction",
-      "subcategory": "gallery",
-      "lat": 9.9652538,
-      "lng": 76.239527,
-      "distanceFromTerminalMeters": 1169,
-      "distanceFromDefaultTerminalMeters": 1169,
-      "minDistanceFromAnyTerminalMeters": 1169,
+      "subcategory": "attraction",
+      "lat": 9.9851394,
+      "lng": 76.2675929,
+      "distanceFromTerminalMeters": 2229,
+      "distanceFromDefaultTerminalMeters": 2229,
+      "minDistanceFromAnyTerminalMeters": 2229,
       "nearestTerminalId": "ports-json-anchor",
       "address": "",
       "openingHours": "",
@@ -848,9 +137,363 @@
       "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "Q12053248",
+      "wikipedia": "en:Bolgatty Palace",
       "osmTags": {
-        "tourism": "gallery"
-      }
+        "historic": "castle",
+        "tourism": "attraction"
+      },
+      "curated": true,
+      "gem": true,
+      "fame": 4
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/1b5a06db48680ae59b95",
+      "name": "Kayees Biryani, Mattancherry",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 9.9627532,
+      "lng": 76.2547019,
+      "distanceFromTerminalMeters": 878,
+      "distanceFromDefaultTerminalMeters": 878,
+      "minDistanceFromAnyTerminalMeters": 878,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Gujarathi Road, Kochi",
+      "openingHours": "12:30AM onwards",
+      "website": "",
+      "phone": "",
+      "cuisine": [
+        "regional"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "One of the oldest biriyani spots in cochin. It is a trademark of cochin you can say. Delicious biriyani and other kerala dishes at affordable prices. ",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      },
+      "curated": true,
+      "gem": true
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/9acf7a5ccff16189c59d",
+      "name": "Kashi Art Cafe",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 9.966641,
+      "lng": 76.2431002,
+      "distanceFromTerminalMeters": 2080,
+      "distanceFromDefaultTerminalMeters": 2080,
+      "minDistanceFromAnyTerminalMeters": 2080,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Burgher Street, Fort Kochi, 682001",
+      "openingHours": "Mo-Su 08:30-22:00",
+      "website": "https://www.kashiartgallery.com/",
+      "phone": "",
+      "cuisine": [
+        "international"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Cafe cum art gallery",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "cafe"
+      },
+      "curated": true,
+      "gem": true
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/08e01c86fad365cebf70",
+      "name": "Lee",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "clothes",
+      "lat": 9.9779835,
+      "lng": 76.283343,
+      "distanceFromTerminalMeters": 2692,
+      "distanceFromDefaultTerminalMeters": 2692,
+      "minDistanceFromAnyTerminalMeters": 2692,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q1632681",
+      "wikipedia": "en:Lee (jeans)",
+      "osmTags": {
+        "shop": "clothes"
+      },
+      "fame": 22
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/112a44cf59051eed430d",
+      "name": "St Francis Church",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 9.9659381,
+      "lng": 76.2410679,
+      "distanceFromTerminalMeters": 2301,
+      "distanceFromDefaultTerminalMeters": 2301,
+      "minDistanceFromAnyTerminalMeters": 2301,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q3595372",
+      "wikipedia": "en:Church of Saint Francis, Kochi",
+      "osmTags": {
+        "amenity": "place_of_worship",
+        "historic": "church",
+        "tourism": "attraction"
+      },
+      "fame": 19
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ff2163f7ba6b32f932e9",
+      "name": "Jawaharlal Nehru International Stadium",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "stadium",
+      "lat": 9.9972342,
+      "lng": 76.3008344,
+      "distanceFromTerminalMeters": 5495,
+      "distanceFromDefaultTerminalMeters": 5495,
+      "minDistanceFromAnyTerminalMeters": 5495,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q1684271",
+      "wikipedia": "en:Jawaharlal Nehru Stadium (Kochi)",
+      "osmTags": {
+        "leisure": "stadium",
+        "tourism": "attraction"
+      },
+      "fame": 18
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/90e61f761dfb64e41f64",
+      "name": "Mattancherry Dutch Palace Complex",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 9.9584395,
+      "lng": 76.2589856,
+      "distanceFromTerminalMeters": 890,
+      "distanceFromDefaultTerminalMeters": 890,
+      "minDistanceFromAnyTerminalMeters": 890,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q1267941",
+      "wikipedia": "en:Mattancherry Palace",
+      "osmTags": {
+        "historic": "castle",
+        "tourism": "attraction"
+      },
+      "fame": 14
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/891ae7958d6596567ca8",
+      "name": "Marine Drive, Kochi",
+      "nameEnglish": "Marine Drive, Kochi",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 9.9784782,
+      "lng": 76.2757727,
+      "distanceFromTerminalMeters": 2055,
+      "distanceFromDefaultTerminalMeters": 2055,
+      "minDistanceFromAnyTerminalMeters": 2055,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q5122325",
+      "wikipedia": "en:Marine Drive, Kochi",
+      "osmTags": {
+        "tourism": "attraction"
+      },
+      "fame": 6
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/cbcbdfbdf5fdc05c8cca",
+      "name": "Kerala Museum",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 10.038,
+      "lng": 76.3147468,
+      "distanceFromTerminalMeters": 9881,
+      "distanceFromDefaultTerminalMeters": 9881,
+      "minDistanceFromAnyTerminalMeters": 9881,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Sa 10:00-17:00",
+      "website": "https://www.keralamuseum.org",
+      "phone": "+91 484 254 1768",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "Museum of Kerala History by Madhavan Nair Foundation",
+      "wikidata": "Q28153754",
+      "wikipedia": "en:Kerala Museum",
+      "osmTags": {
+        "tourism": "museum"
+      },
+      "fame": 5
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/10880daaabdc86947786",
+      "name": "Indo-Portuguese Museum",
+      "nameEnglish": "Indo-Portuguese Museum",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 9.9623143,
+      "lng": 76.2402724,
+      "distanceFromTerminalMeters": 2420,
+      "distanceFromDefaultTerminalMeters": 2420,
+      "minDistanceFromAnyTerminalMeters": 2420,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Tu-Su 09:00-13:00, 14:00-18:00",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q6025543",
+      "wikipedia": "en:Indo-Portuguese Museum",
+      "osmTags": {
+        "tourism": "museum"
+      },
+      "fame": 3
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/fc7c8fdb96c7116e2f68",
+      "name": "Puthuvype Light House",
+      "nameEnglish": "Puthuvype Lighthouse",
+      "category": "attraction",
+      "subcategory": "lighthouse",
+      "lat": 9.998408,
+      "lng": 76.221506,
+      "distanceFromTerminalMeters": 5732,
+      "distanceFromDefaultTerminalMeters": 5732,
+      "minDistanceFromAnyTerminalMeters": 5732,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Puthuvypu, Ochanthuruth, Ernakulam, 682508",
+      "openingHours": "",
+      "website": "https://www.dgll.nic.in/DGLL-light-house-location/kochi/vypin-lighthouse",
+      "phone": "+91-484-2502443",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q13114877",
+      "wikipedia": "en:Vypin Lighthouse",
+      "osmTags": {
+        "man_made": "lighthouse"
+      },
+      "fame": 3
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/0fa6ccfc465fcd7029bc",
+      "name": "Broadway",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 9.9786613,
+      "lng": 76.2775084,
+      "distanceFromTerminalMeters": 2211,
+      "distanceFromDefaultTerminalMeters": 2211,
+      "minDistanceFromAnyTerminalMeters": 2211,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Historic shopping street",
+      "wikidata": "Q21684267",
+      "wikipedia": "",
+      "osmTags": {
+        "historic": "yes",
+        "tourism": "attraction"
+      },
+      "fame": 3
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/898670c0e8a19f8a74a9",
+      "name": "Ernakulam Terminus",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 9.9882128,
+      "lng": 76.2742703,
+      "distanceFromTerminalMeters": 2823,
+      "distanceFromDefaultTerminalMeters": 2823,
+      "minDistanceFromAnyTerminalMeters": 2823,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "no",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q5392596",
+      "wikipedia": "en:Ernakulam Terminus railway station",
+      "osmTags": {
+        "historic": "ruins",
+        "tourism": "attraction"
+      },
+      "fame": 3
     },
     {
       "source": "openstreetmap",
@@ -861,9 +504,9 @@
       "subcategory": "museum",
       "lat": 9.9583392,
       "lng": 76.2593959,
-      "distanceFromTerminalMeters": 3471,
-      "distanceFromDefaultTerminalMeters": 3471,
-      "minDistanceFromAnyTerminalMeters": 3471,
+      "distanceFromTerminalMeters": 884,
+      "distanceFromDefaultTerminalMeters": 884,
+      "minDistanceFromAnyTerminalMeters": 884,
       "nearestTerminalId": "ports-json-anchor",
       "address": "",
       "openingHours": "09:00-17:00; Fr off",
@@ -873,6 +516,8 @@
       "wheelchair": "yes",
       "brand": "",
       "description": "",
+      "wikidata": "",
+      "wikipedia": "",
       "osmTags": {
         "tourism": "museum"
       }
@@ -886,9 +531,9 @@
       "subcategory": "museum",
       "lat": 9.95596,
       "lng": 76.26,
-      "distanceFromTerminalMeters": 3638,
-      "distanceFromDefaultTerminalMeters": 3638,
-      "minDistanceFromAnyTerminalMeters": 3638,
+      "distanceFromTerminalMeters": 1122,
+      "distanceFromDefaultTerminalMeters": 1122,
+      "minDistanceFromAnyTerminalMeters": 1122,
       "nearestTerminalId": "ports-json-anchor",
       "address": "682002",
       "openingHours": "",
@@ -898,22 +543,78 @@
       "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "",
+      "wikipedia": "",
       "osmTags": {
         "tourism": "museum"
       }
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/6b2db7de0d27b3078695",
-      "name": "Bolgatty Palace",
+      "sourceId": "osm/generated/7f47364eb768e6a357fc",
+      "name": "Indian Naval Maritime Museum",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 9.9582773,
+      "lng": 76.2388644,
+      "distanceFromTerminalMeters": 2678,
+      "distanceFromDefaultTerminalMeters": 2678,
+      "minDistanceFromAnyTerminalMeters": 2678,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "KJ Herschel Road",
+      "openingHours": "Tu-Fr 9:30-13:30, 14:30-17:30; Sa-Su 9:30-13:30, 14:30-20:00",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ce5c076acd6e833c20de",
+      "name": "Mangalavanam Bird Sanctuary",
       "nameEnglish": "",
       "category": "attraction",
       "subcategory": "attraction",
-      "lat": 9.9851394,
-      "lng": 76.2675929,
-      "distanceFromTerminalMeters": 4448,
-      "distanceFromDefaultTerminalMeters": 4448,
-      "minDistanceFromAnyTerminalMeters": 4448,
+      "lat": 9.9887741,
+      "lng": 76.2726534,
+      "distanceFromTerminalMeters": 2801,
+      "distanceFromDefaultTerminalMeters": 2801,
+      "minDistanceFromAnyTerminalMeters": 2801,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "High Ct Rd, Marine Drive, Kochi, 682031",
+      "openingHours": "",
+      "website": "https://www.keralatourism.org/kerala-article/mangalavanam-bird-sanctuary/181/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Quiet, forested nature refuge in the middle of the city attracting migratory birds & other animals.",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/30245df4bb39978b366c",
+      "name": "OED gallery",
+      "nameEnglish": "OED gallery",
+      "category": "attraction",
+      "subcategory": "gallery",
+      "lat": 9.9622072,
+      "lng": 76.2579781,
+      "distanceFromTerminalMeters": 604,
+      "distanceFromDefaultTerminalMeters": 604,
+      "minDistanceFromAnyTerminalMeters": 604,
       "nearestTerminalId": "ports-json-anchor",
       "address": "",
       "openingHours": "",
@@ -923,9 +624,64 @@
       "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "",
+      "wikipedia": "",
       "osmTags": {
-        "historic": "castle",
-        "tourism": "attraction"
+        "tourism": "gallery"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/dbc71d3962dfc634b7d2",
+      "name": "Idha",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "gallery",
+      "lat": 9.9653219,
+      "lng": 76.2419021,
+      "distanceFromTerminalMeters": 2210,
+      "distanceFromDefaultTerminalMeters": 2210,
+      "minDistanceFromAnyTerminalMeters": 2210,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "+91 94475 08249",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "tourism": "gallery"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/0f0527249d369859aa29",
+      "name": "Forlay Society",
+      "nameEnglish": "BC Gallery",
+      "category": "attraction",
+      "subcategory": "gallery",
+      "lat": 9.9622261,
+      "lng": 76.2575328,
+      "distanceFromTerminalMeters": 640,
+      "distanceFromDefaultTerminalMeters": 640,
+      "minDistanceFromAnyTerminalMeters": 640,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "tourism": "gallery"
       }
     },
     {
@@ -937,9 +693,9 @@
       "subcategory": "attraction",
       "lat": 9.9638915,
       "lng": 76.242808,
-      "distanceFromTerminalMeters": 1558,
-      "distanceFromDefaultTerminalMeters": 1558,
-      "minDistanceFromAnyTerminalMeters": 1558,
+      "distanceFromTerminalMeters": 2121,
+      "distanceFromDefaultTerminalMeters": 2121,
+      "minDistanceFromAnyTerminalMeters": 2121,
       "nearestTerminalId": "ports-json-anchor",
       "address": "KB Jacob Road, Fort Cochin, 682001",
       "openingHours": "",
@@ -949,6 +705,8 @@
       "wheelchair": "no",
       "brand": "",
       "description": "",
+      "wikidata": "",
+      "wikipedia": "",
       "osmTags": {
         "amenity": "theatre",
         "tourism": "attraction"
@@ -956,468 +714,137 @@
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/0fa6ccfc465fcd7029bc",
-      "name": "Broadway",
+      "sourceId": "osm/generated/31a0f96d30e39b282af5",
+      "name": "Durbar Hall Art Centre",
       "nameEnglish": "",
       "category": "attraction",
-      "subcategory": "attraction",
-      "lat": 9.9786613,
-      "lng": 76.2775084,
-      "distanceFromTerminalMeters": 5291,
-      "distanceFromDefaultTerminalMeters": 5291,
-      "minDistanceFromAnyTerminalMeters": 5291,
+      "subcategory": "gallery",
+      "lat": 9.9688751,
+      "lng": 76.283659,
+      "distanceFromTerminalMeters": 2388,
+      "distanceFromDefaultTerminalMeters": 2388,
+      "minDistanceFromAnyTerminalMeters": 2388,
       "nearestTerminalId": "ports-json-anchor",
-      "address": "",
+      "address": "Durbar Hall Road",
       "openingHours": "",
       "website": "",
       "phone": "",
-      "cuisine": [],
-      "wheelchair": "",
-      "brand": "",
-      "description": "Historic shopping street",
-      "osmTags": {
-        "historic": "yes",
-        "tourism": "attraction"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/eaa5bc6bce85e27e837b",
-      "name": "Vasco da Gama Square",
-      "nameEnglish": "Vasco da Gama Square",
-      "category": "attraction",
-      "subcategory": "attraction",
-      "lat": 9.9679554,
-      "lng": 76.2424324,
-      "distanceFromTerminalMeters": 1380,
-      "distanceFromDefaultTerminalMeters": 1380,
-      "minDistanceFromAnyTerminalMeters": 1380,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "",
-      "openingHours": "",
-      "website": "",
-      "phone": "",
-      "cuisine": [],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "place": "square",
-        "tourism": "attraction"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/56cdfc1c8cd538f59378",
-      "name": "Mattancherry Paradesi Synagogue",
-      "nameEnglish": "Mattancherry Paradesi Synagogue",
-      "category": "attraction",
-      "subcategory": "attraction",
-      "lat": 9.9574826,
-      "lng": 76.2593017,
-      "distanceFromTerminalMeters": 3498,
-      "distanceFromDefaultTerminalMeters": 3498,
-      "minDistanceFromAnyTerminalMeters": 3498,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "Palace Road, Mattancherry, Kochi",
-      "openingHours": "10:00-12:00,15:00-17:00; Fr,Sa off",
-      "website": "https://www.keralatourism.org/kochi/paradeso-synagogue-mattancherry.php",
-      "phone": "",
-      "cuisine": [],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "amenity": "place_of_worship",
-        "historic": "yes",
-        "tourism": "attraction"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/fcb77b65e3bcf4e1a394",
-      "name": "Kovil Homestay",
-      "nameEnglish": "",
-      "category": "attraction",
-      "subcategory": "monument",
-      "lat": 9.9574961,
-      "lng": 76.2446409,
-      "distanceFromTerminalMeters": 2122,
-      "distanceFromDefaultTerminalMeters": 2122,
-      "minDistanceFromAnyTerminalMeters": 2122,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "",
-      "openingHours": "",
-      "website": "",
-      "phone": "",
-      "cuisine": [],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "historic": "monument"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/977e861d1bcd8193895f",
-      "name": "Synagogue Lane",
-      "nameEnglish": "",
-      "category": "attraction",
-      "subcategory": "attraction",
-      "lat": 9.9569411,
-      "lng": 76.2597321,
-      "distanceFromTerminalMeters": 3565,
-      "distanceFromDefaultTerminalMeters": 3565,
-      "minDistanceFromAnyTerminalMeters": 3565,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "",
-      "openingHours": "",
-      "website": "",
-      "phone": "",
-      "cuisine": [],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "tourism": "attraction"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/ea9b831af1ae6f363399",
-      "name": "Kadavumbhagam Ernakulam Synagogue",
-      "nameEnglish": "",
-      "category": "attraction",
-      "subcategory": "attraction",
-      "lat": 9.9801962,
-      "lng": 76.2784041,
-      "distanceFromTerminalMeters": 5421,
-      "distanceFromDefaultTerminalMeters": 5421,
-      "minDistanceFromAnyTerminalMeters": 5421,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "",
-      "openingHours": "",
-      "website": "http://cochinsyn.com/page-kada-erna.html",
-      "phone": "",
-      "cuisine": [],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "amenity": "place_of_worship",
-        "historic": "yes",
-        "tourism": "attraction"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/88ae5e6a17e52c4df325",
-      "name": "Puthuvype Light House",
-      "nameEnglish": "",
-      "category": "attraction",
-      "subcategory": "lighthouse",
-      "lat": 9.998408,
-      "lng": 76.221506,
-      "distanceFromTerminalMeters": 3293,
-      "distanceFromDefaultTerminalMeters": 3293,
-      "minDistanceFromAnyTerminalMeters": 3293,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "Puthuvypu, Ochanthuruth, Ernakulam, 682508",
-      "openingHours": "",
-      "website": "",
-      "phone": "+91-484-2502443",
-      "cuisine": [],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "man_made": "lighthouse"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/ccfff48bdda51534555d",
-      "name": "Fathima Matha Groto",
-      "nameEnglish": "",
-      "category": "attraction",
-      "subcategory": "monument",
-      "lat": 9.9123729,
-      "lng": 76.270935,
-      "distanceFromTerminalMeters": 7821,
-      "distanceFromDefaultTerminalMeters": 7821,
-      "minDistanceFromAnyTerminalMeters": 7821,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "",
-      "openingHours": "",
-      "website": "",
-      "phone": "",
-      "cuisine": [],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "historic": "monument"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/03e41817ec6b564d203d",
-      "name": "Zone 1",
-      "nameEnglish": "Zone 1",
-      "category": "outdoors",
-      "subcategory": "beach",
-      "lat": 9.9660439,
-      "lng": 76.2385038,
-      "distanceFromTerminalMeters": 1030,
-      "distanceFromDefaultTerminalMeters": 1030,
-      "minDistanceFromAnyTerminalMeters": 1030,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "",
-      "openingHours": "",
-      "website": "",
-      "phone": "",
-      "cuisine": [],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "natural": "beach"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/b65318ca4d53dda65662",
-      "name": "Fort Kochi Beach",
-      "nameEnglish": "Fort Kochi Beach",
-      "category": "outdoors",
-      "subcategory": "beach",
-      "lat": 9.9671361,
-      "lng": 76.2398222,
-      "distanceFromTerminalMeters": 1122,
-      "distanceFromDefaultTerminalMeters": 1122,
-      "minDistanceFromAnyTerminalMeters": 1122,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "",
-      "openingHours": "",
-      "website": "",
-      "phone": "",
-      "cuisine": [],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "natural": "beach"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/cfeda7c8f05c3263fcc2",
-      "name": "Vypeen Beach",
-      "nameEnglish": "",
-      "category": "outdoors",
-      "subcategory": "beach",
-      "lat": 9.9727355,
-      "lng": 76.2406444,
-      "distanceFromTerminalMeters": 1205,
-      "distanceFromDefaultTerminalMeters": 1205,
-      "minDistanceFromAnyTerminalMeters": 1205,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "",
-      "openingHours": "",
-      "website": "",
-      "phone": "",
-      "cuisine": [],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "natural": "beach"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/87e05228a8e6e57fcfdb",
-      "name": "Valappu Beach",
-      "nameEnglish": "",
-      "category": "outdoors",
-      "subcategory": "beach",
-      "lat": 10.0082821,
-      "lng": 76.216044,
-      "distanceFromTerminalMeters": 4523,
-      "distanceFromDefaultTerminalMeters": 4523,
-      "minDistanceFromAnyTerminalMeters": 4523,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "",
-      "openingHours": "",
-      "website": "",
-      "phone": "",
-      "cuisine": [],
-      "wheelchair": "",
-      "brand": "",
-      "description": "Valappu Beach",
-      "osmTags": {
-        "natural": "beach"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/738d14a636bb406cd3e2",
-      "name": "Nazareth Beach",
-      "nameEnglish": "",
-      "category": "outdoors",
-      "subcategory": "beach",
-      "lat": 9.945188,
-      "lng": 76.2416438,
-      "distanceFromTerminalMeters": 3039,
-      "distanceFromDefaultTerminalMeters": 3039,
-      "minDistanceFromAnyTerminalMeters": 3039,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "",
-      "openingHours": "",
-      "website": "",
-      "phone": "",
-      "cuisine": [],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "natural": "beach"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/3b0afbdb3c6ad4ef8655",
-      "name": "Puthuvype Beach",
-      "nameEnglish": "",
-      "category": "outdoors",
-      "subcategory": "beach",
-      "lat": 9.9986847,
-      "lng": 76.2183407,
-      "distanceFromTerminalMeters": 3436,
-      "distanceFromDefaultTerminalMeters": 3436,
-      "minDistanceFromAnyTerminalMeters": 3436,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "",
-      "openingHours": "",
-      "website": "",
-      "phone": "",
-      "cuisine": [],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "natural": "beach"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/150021ef4ded78d9b96c",
-      "name": "Valappu Wetland Viewpoint",
-      "nameEnglish": "",
-      "category": "outdoors",
-      "subcategory": "viewpoint",
-      "lat": 10.0078367,
-      "lng": 76.217234,
-      "distanceFromTerminalMeters": 4433,
-      "distanceFromDefaultTerminalMeters": 4433,
-      "minDistanceFromAnyTerminalMeters": 4433,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "",
-      "openingHours": "",
-      "website": "",
-      "phone": "",
-      "cuisine": [],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "tourism": "viewpoint"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/9acf7a5ccff16189c59d",
-      "name": "Kashi Art Cafe",
-      "nameEnglish": "",
-      "category": "food_drink",
-      "subcategory": "cafe",
-      "lat": 9.966641,
-      "lng": 76.2431002,
-      "distanceFromTerminalMeters": 1483,
-      "distanceFromDefaultTerminalMeters": 1483,
-      "minDistanceFromAnyTerminalMeters": 1483,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "Burgher Street, Fort Kochi, 682001",
-      "openingHours": "Mo-Su 08:30-22:00",
-      "website": "https://www.kashiartgallery.com/",
-      "phone": "",
-      "cuisine": [
-        "international"
-      ],
-      "wheelchair": "",
-      "brand": "",
-      "description": "Cafe cum art gallery",
-      "osmTags": {
-        "amenity": "cafe"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/5e045ff0210957d15cd8",
-      "name": "Fort Paragon",
-      "nameEnglish": "Fort Paragon",
-      "category": "food_drink",
-      "subcategory": "restaurant",
-      "lat": 9.9656535,
-      "lng": 76.2396715,
-      "distanceFromTerminalMeters": 1164,
-      "distanceFromDefaultTerminalMeters": 1164,
-      "minDistanceFromAnyTerminalMeters": 1164,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "",
-      "openingHours": "",
-      "website": "",
-      "phone": "",
-      "cuisine": [
-        "asian",
-        "indonesian",
-        "japanese",
-        "korean",
-        "malaysian",
-        "thai",
-        "vietnamese"
-      ],
-      "wheelchair": "no",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "amenity": "restaurant"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/0f1756c8e6ccafe26eb0",
-      "name": "Fort Inn Restaurant",
-      "nameEnglish": "Fort Inn Restaurant",
-      "category": "food_drink",
-      "subcategory": "restaurant",
-      "lat": 9.9672744,
-      "lng": 76.2416064,
-      "distanceFromTerminalMeters": 1307,
-      "distanceFromDefaultTerminalMeters": 1307,
-      "minDistanceFromAnyTerminalMeters": 1307,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "",
-      "openingHours": "11:00-23:00",
-      "website": "",
-      "phone": "+91 85905 04554;+91 98952 65429",
       "cuisine": [],
       "wheelchair": "limited",
       "brand": "",
       "description": "",
+      "wikidata": "",
+      "wikipedia": "",
       "osmTags": {
-        "amenity": "restaurant"
+        "tourism": "gallery"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/5a5b5a1513ab337b8625",
+      "name": "Fort Kochi Jail",
+      "nameEnglish": "Fort Kochi Jail",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 9.9676561,
+      "lng": 76.2439121,
+      "distanceFromTerminalMeters": 2000,
+      "distanceFromDefaultTerminalMeters": 2000,
+      "minDistanceFromAnyTerminalMeters": 2000,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Su 08:00-17:00",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/bf06809bdff5a2ed727f",
+      "name": "Kerala Folklore Museum",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 9.933021,
+      "lng": 76.2991467,
+      "distanceFromTerminalMeters": 5459,
+      "distanceFromDefaultTerminalMeters": 5459,
+      "minDistanceFromAnyTerminalMeters": 5459,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "https://www.keralafolkloremuseum.org",
+      "phone": "+91 484 266 5452",
+      "cuisine": [],
+      "wheelchair": "no",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/94c8ace363e8a409f7c0",
+      "name": "Ernakulam District Heritage Museum",
+      "nameEnglish": "Ernakulam District Heritage Museum",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 9.9674678,
+      "lng": 76.2410669,
+      "distanceFromTerminalMeters": 2308,
+      "distanceFromDefaultTerminalMeters": 2308,
+      "minDistanceFromAnyTerminalMeters": 2308,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d66431213bcbcebeab94",
+      "name": "TK Padmini Gallery",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "gallery",
+      "lat": 9.9689193,
+      "lng": 76.2836352,
+      "distanceFromTerminalMeters": 2386,
+      "distanceFromDefaultTerminalMeters": 2386,
+      "minDistanceFromAnyTerminalMeters": 2386,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "tourism": "gallery"
       }
     },
     {
@@ -1429,9 +856,9 @@
       "subcategory": "cafe",
       "lat": 9.9661815,
       "lng": 76.2423745,
-      "distanceFromTerminalMeters": 1420,
-      "distanceFromDefaultTerminalMeters": 1420,
-      "minDistanceFromAnyTerminalMeters": 1420,
+      "distanceFromTerminalMeters": 2158,
+      "distanceFromDefaultTerminalMeters": 2158,
+      "minDistanceFromAnyTerminalMeters": 2158,
       "nearestTerminalId": "ports-json-anchor",
       "address": "Princess St, Fort Nagar, Fort Kochi, 682001",
       "openingHours": "Mo-Fr 09:00-21:00; Sa-Su 08:30-22:00",
@@ -1447,85 +874,37 @@
       "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "",
+      "wikipedia": "",
       "osmTags": {
         "amenity": "cafe"
       }
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/f25994497aca901bdaff",
-      "name": "Friends Cafe",
-      "nameEnglish": "",
-      "category": "food_drink",
-      "subcategory": "cafe",
-      "lat": 9.9673921,
-      "lng": 76.2445511,
-      "distanceFromTerminalMeters": 1620,
-      "distanceFromDefaultTerminalMeters": 1620,
-      "minDistanceFromAnyTerminalMeters": 1620,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "KB Jacob Road, 682001",
-      "openingHours": "",
-      "website": "http://www.no18.co.in",
-      "phone": "",
-      "cuisine": [
-        "coffee_shop"
-      ],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "amenity": "cafe"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/4ef3af5c916c95f4f600",
-      "name": "Lila - Curated Experiencesലില",
-      "nameEnglish": "Lila - Curated Experiencesലില",
-      "category": "food_drink",
-      "subcategory": "cafe",
-      "lat": 9.9654438,
-      "lng": 76.2412708,
-      "distanceFromTerminalMeters": 1334,
-      "distanceFromDefaultTerminalMeters": 1334,
-      "minDistanceFromAnyTerminalMeters": 1334,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "",
-      "openingHours": "",
-      "website": "https://www.lilahc.com/",
-      "phone": "",
-      "cuisine": [],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "amenity": "cafe"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/72ed55f5aa5a2875d2ca",
-      "name": "Pizza Italia",
+      "sourceId": "osm/generated/fae30ed4bf88ac3af498",
+      "name": "Gokul Oottupura",
       "nameEnglish": "",
       "category": "food_drink",
       "subcategory": "restaurant",
-      "lat": 9.9672132,
-      "lng": 76.2433427,
-      "distanceFromTerminalMeters": 1494,
-      "distanceFromDefaultTerminalMeters": 1494,
-      "minDistanceFromAnyTerminalMeters": 1494,
+      "lat": 9.9694696,
+      "lng": 76.2827036,
+      "distanceFromTerminalMeters": 2295,
+      "distanceFromDefaultTerminalMeters": 2295,
+      "minDistanceFromAnyTerminalMeters": 2295,
       "nearestTerminalId": "ports-json-anchor",
-      "address": "",
-      "openingHours": "Mo-Su 09:00-22:30",
-      "website": "http://www.pizaitaliakichi.com",
-      "phone": "",
+      "address": "Government Press Road, 682011",
+      "openingHours": "Mo-Su 07:00-22:30",
+      "website": "https://gokuloottupura.in/",
+      "phone": "090610 48194",
       "cuisine": [
-        "italian_pizza"
+        "indian"
       ],
-      "wheelchair": "limited",
+      "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "",
+      "wikipedia": "",
       "osmTags": {
         "amenity": "restaurant"
       }
@@ -1539,9 +918,9 @@
       "subcategory": "cafe",
       "lat": 9.9565021,
       "lng": 76.2603773,
-      "distanceFromTerminalMeters": 3650,
-      "distanceFromDefaultTerminalMeters": 3650,
-      "minDistanceFromAnyTerminalMeters": 3650,
+      "distanceFromTerminalMeters": 1055,
+      "distanceFromDefaultTerminalMeters": 1055,
+      "minDistanceFromAnyTerminalMeters": 1055,
       "nearestTerminalId": "ports-json-anchor",
       "address": "VI/141 Jew Town, Cochin",
       "openingHours": "",
@@ -1551,35 +930,10 @@
       "wheelchair": "no",
       "brand": "",
       "description": "vegetarian dishes (burger too) available. non-expensive price. coconut icecream!",
+      "wikidata": "",
+      "wikipedia": "",
       "osmTags": {
         "amenity": "cafe"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/5b6e58460280715040c9",
-      "name": "French Toast",
-      "nameEnglish": "French Toast",
-      "category": "food_drink",
-      "subcategory": "restaurant",
-      "lat": 9.9671233,
-      "lng": 76.2405567,
-      "distanceFromTerminalMeters": 1200,
-      "distanceFromDefaultTerminalMeters": 1200,
-      "minDistanceFromAnyTerminalMeters": 1200,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "",
-      "openingHours": "",
-      "website": "",
-      "phone": "",
-      "cuisine": [
-        "international"
-      ],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "amenity": "restaurant"
       }
     },
     {
@@ -1591,9 +945,9 @@
       "subcategory": "restaurant",
       "lat": 9.9629752,
       "lng": 76.2411688,
-      "distanceFromTerminalMeters": 1451,
-      "distanceFromDefaultTerminalMeters": 1451,
-      "minDistanceFromAnyTerminalMeters": 1451,
+      "distanceFromTerminalMeters": 2312,
+      "distanceFromDefaultTerminalMeters": 2312,
+      "minDistanceFromAnyTerminalMeters": 2312,
       "nearestTerminalId": "ports-json-anchor",
       "address": "1/1996A Vadathaza Lane, Fort Kochi",
       "openingHours": "12:00-24:00",
@@ -1607,54 +961,57 @@
       "wheelchair": "no",
       "brand": "",
       "description": "",
+      "wikidata": "",
+      "wikipedia": "",
       "osmTags": {
         "amenity": "restaurant"
       }
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/43bccc525e2cb55e90c1",
-      "name": "The Zen Garden",
+      "sourceId": "osm/generated/7b4d0b91d4a4a8296bff",
+      "name": "Caza Maria",
       "nameEnglish": "",
       "category": "food_drink",
       "subcategory": "restaurant",
-      "lat": 9.9650513,
-      "lng": 76.2388078,
-      "distanceFromTerminalMeters": 1111,
-      "distanceFromDefaultTerminalMeters": 1111,
-      "minDistanceFromAnyTerminalMeters": 1111,
+      "lat": 9.9586771,
+      "lng": 76.2595398,
+      "distanceFromTerminalMeters": 844,
+      "distanceFromDefaultTerminalMeters": 844,
+      "minDistanceFromAnyTerminalMeters": 844,
       "nearestTerminalId": "ports-json-anchor",
-      "address": "",
+      "address": "6/125 Jew Town Road, 682002",
       "openingHours": "",
       "website": "",
-      "phone": "",
+      "phone": "+919846050901",
       "cuisine": [
-        "noodles",
-        "seafood",
         "indian"
       ],
       "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "",
+      "wikipedia": "",
       "osmTags": {
-        "amenity": "restaurant"
+        "amenity": "restaurant",
+        "tourism": "hotel"
       }
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/1b5a06db48680ae59b95",
-      "name": "Kayees Biryani, Mattancherry",
+      "sourceId": "osm/generated/9f00441f3a2ae04f13c1",
+      "name": "B for Biryani Kochi.",
       "nameEnglish": "",
       "category": "food_drink",
       "subcategory": "restaurant",
-      "lat": 9.9627532,
-      "lng": 76.2547019,
-      "distanceFromTerminalMeters": 2823,
-      "distanceFromDefaultTerminalMeters": 2823,
-      "minDistanceFromAnyTerminalMeters": 2823,
+      "lat": 9.9628396,
+      "lng": 76.2546907,
+      "distanceFromTerminalMeters": 875,
+      "distanceFromDefaultTerminalMeters": 875,
+      "minDistanceFromAnyTerminalMeters": 875,
       "nearestTerminalId": "ports-json-anchor",
       "address": "Gujarathi Road, Kochi",
-      "openingHours": "12:30AM onwards",
+      "openingHours": "12:30AM to 04:00PM Lunch time only.",
       "website": "",
       "phone": "",
       "cuisine": [
@@ -1662,23 +1019,804 @@
       ],
       "wheelchair": "",
       "brand": "",
-      "description": "One of the oldest biriyani spots in cochin. It is a trademark of cochin you can say. Delicious biriyani and other kerala dishes at affordable prices. ",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
       "osmTags": {
         "amenity": "restaurant"
       }
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/755c332acfbf70df27c1",
-      "name": "Beach Market",
-      "nameEnglish": "Beach Market",
+      "sourceId": "osm/generated/3829cbae8388309dfbfd",
+      "name": "Ginger House Museum Restaurant",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 9.9567423,
+      "lng": 76.2609122,
+      "distanceFromTerminalMeters": 1020,
+      "distanceFromDefaultTerminalMeters": 1020,
+      "minDistanceFromAnyTerminalMeters": 1020,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Jew Town",
+      "openingHours": "",
+      "website": "",
+      "phone": "+91 0484 2213400",
+      "cuisine": [
+        "indian"
+      ],
+      "wheelchair": "limited",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d8124efccd134e11f2c4",
+      "name": "Chariot Restaurant",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 9.9764192,
+      "lng": 76.2835801,
+      "distanceFromTerminalMeters": 2632,
+      "distanceFromDefaultTerminalMeters": 2632,
+      "minDistanceFromAnyTerminalMeters": 2632,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Convent Road (Near Cafe Coffee Day, MG Road), Ernakulam, 682035",
+      "openingHours": "Mo-Su 10:00-20:00",
+      "website": "",
+      "phone": "+91 484 2368123",
+      "cuisine": [
+        "chinese",
+        "indian"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/91261ef8fbec4d19b0e5",
+      "name": "Frys",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 9.9838213,
+      "lng": 76.283617,
+      "distanceFromTerminalMeters": 3092,
+      "distanceFromDefaultTerminalMeters": 3092,
+      "minDistanceFromAnyTerminalMeters": 3092,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Chittoor Road, 682018",
+      "openingHours": "Mo-Su 12:00-22:00",
+      "website": "",
+      "phone": "+914842353983",
+      "cuisine": [
+        "fish",
+        "indian",
+        "curry"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/9e7e6133b705649c767c",
+      "name": "Hotel Cochin Fort",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 9.9680169,
+      "lng": 76.2454728,
+      "distanceFromTerminalMeters": 1834,
+      "distanceFromDefaultTerminalMeters": 1834,
+      "minDistanceFromAnyTerminalMeters": 1834,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Bellar Road, Ernakulam, 682001",
+      "openingHours": "12:00-22:00",
+      "website": "",
+      "phone": "",
+      "cuisine": [
+        "indian",
+        "seafood",
+        "fish"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f25994497aca901bdaff",
+      "name": "Friends Cafe",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 9.9673921,
+      "lng": 76.2445511,
+      "distanceFromTerminalMeters": 1927,
+      "distanceFromDefaultTerminalMeters": 1927,
+      "minDistanceFromAnyTerminalMeters": 1927,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "KB Jacob Road, 682001",
+      "openingHours": "",
+      "website": "http://www.no18.co.in",
+      "phone": "",
+      "cuisine": [
+        "coffee_shop"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/0fa245d1e74c0bb5ea3c",
+      "name": "Upstairs Italian Restaurant",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 9.9654331,
+      "lng": 76.2435872,
+      "distanceFromTerminalMeters": 2025,
+      "distanceFromDefaultTerminalMeters": 2025,
+      "minDistanceFromAnyTerminalMeters": 2025,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Fort Cochin",
+      "openingHours": "",
+      "website": "",
+      "phone": "+91 94961 86608",
+      "cuisine": [
+        "italian",
+        "pizza"
+      ],
+      "wheelchair": "no",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/34a8359216498d300b64",
+      "name": "Milano Ice Cream",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "ice_cream",
+      "lat": 9.961832,
+      "lng": 76.2886924,
+      "distanceFromTerminalMeters": 2949,
+      "distanceFromDefaultTerminalMeters": 2949,
+      "minDistanceFromAnyTerminalMeters": 2949,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Mahatma Gandhi Road, Ernakulam, 682036",
+      "openingHours": "Mo-Su 10:00-21:00",
+      "website": "",
+      "phone": "",
+      "cuisine": [
+        "ice_cream"
+      ],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "ice_cream"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/a35793dbb0943fafffe4",
+      "name": "ChaiCofi",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 9.9917884,
+      "lng": 76.2931768,
+      "distanceFromTerminalMeters": 4464,
+      "distanceFromDefaultTerminalMeters": 4464,
+      "minDistanceFromAnyTerminalMeters": 4464,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Kaloor Kadavanthara Road, 682017",
+      "openingHours": "Mo-Su 11:00-24:00",
+      "website": "",
+      "phone": "+914844027774",
+      "cuisine": [
+        "burger",
+        "sandwich",
+        "crepe",
+        "cake",
+        "coffee_shop",
+        "pasta",
+        "italian",
+        "pizza",
+        "italian_pizza"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/90b40482c0f54a65fe85",
+      "name": "McDonald's",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "fast_food",
+      "lat": 9.9807397,
+      "lng": 76.2833975,
+      "distanceFromTerminalMeters": 2863,
+      "distanceFromDefaultTerminalMeters": 2863,
+      "minDistanceFromAnyTerminalMeters": 2863,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Ravi’s Arcade, Next to Citi Bank,Padma Junction Mahatma Gandhi Road, Kochi, 682035",
+      "openingHours": "Mo-Su 11:00-04:00",
+      "website": "https://mcdelivery.co.in/restaurants/cochin/293/order-food-online-in-McDonalds-cochinmgroad-mgroad",
+      "phone": "+91-8928-304175",
+      "cuisine": [
+        "burger"
+      ],
+      "wheelchair": "",
+      "brand": "McDonald's",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "fast_food"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/fd21a4397f0cddeb8495",
+      "name": "The Lilly's Stories",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 9.9642057,
+      "lng": 76.2398889,
+      "distanceFromTerminalMeters": 2437,
+      "distanceFromDefaultTerminalMeters": 2437,
+      "minDistanceFromAnyTerminalMeters": 2437,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1/791/A2 Lilly Street, Fortkochi, 682001",
+      "openingHours": "",
+      "website": "https://lillysstories.in/",
+      "phone": "+918606614000",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ba9f9975c0161d903071",
+      "name": "Loving Earth Yoga Cafe vegan",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 9.9638506,
+      "lng": 76.2390847,
+      "distanceFromTerminalMeters": 2528,
+      "distanceFromDefaultTerminalMeters": 2528,
+      "minDistanceFromAnyTerminalMeters": 2528,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Su 12:00-21:30",
+      "website": "https://lovingearthyogacafe.com/",
+      "phone": "+917907036694",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ea3bb7debad82d56db36",
+      "name": "Solar Cafe",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 9.9681873,
+      "lng": 76.2517496,
+      "distanceFromTerminalMeters": 1161,
+      "distanceFromDefaultTerminalMeters": 1161,
+      "minDistanceFromAnyTerminalMeters": 1161,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Fort Kochi",
+      "openingHours": "Mo-Su 08:15-18:00",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d5b12236d97c71f958bd",
+      "name": "Club House",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "fast_food",
+      "lat": 9.9671227,
+      "lng": 76.2428405,
+      "distanceFromTerminalMeters": 2112,
+      "distanceFromDefaultTerminalMeters": 2112,
+      "minDistanceFromAnyTerminalMeters": 2112,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "+91 94478 17715",
+      "cuisine": [
+        "burger"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "fast_food"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/cb8076e61907c83fc7f9",
+      "name": "Master's Art Cafe",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 9.963496,
+      "lng": 76.2423065,
+      "distanceFromTerminalMeters": 2181,
+      "distanceFromDefaultTerminalMeters": 2181,
+      "minDistanceFromAnyTerminalMeters": 2181,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1/927 KL Bernard Master Road, Fort Cochin., 682001",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [
+        "regional",
+        "coffee_shop",
+        "sandwich",
+        "indian",
+        "chicken",
+        "ice_cream",
+        "seafood"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/0175c0011b77ff21d44c",
+      "name": "Pepper House Cafe",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 9.9688999,
+      "lng": 76.2501472,
+      "distanceFromTerminalMeters": 1350,
+      "distanceFromDefaultTerminalMeters": 1350,
+      "minDistanceFromAnyTerminalMeters": 1350,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Fort Kochi",
+      "openingHours": "Mo-Su 09:00-19:00",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/0a04c8329d78be437895",
+      "name": "Chicking",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "fast_food",
+      "lat": 9.9725045,
+      "lng": 76.2853967,
+      "distanceFromTerminalMeters": 2659,
+      "distanceFromDefaultTerminalMeters": 2659,
+      "minDistanceFromAnyTerminalMeters": 2659,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "https://www.chickingindia.in/",
+      "phone": "",
+      "cuisine": [
+        "burger",
+        "chicken"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "fast_food"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/7ad0b6ac7f7ab2022150",
+      "name": "Fresh Juice Point",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "fast_food",
+      "lat": 9.9767385,
+      "lng": 76.2865943,
+      "distanceFromTerminalMeters": 2946,
+      "distanceFromDefaultTerminalMeters": 2946,
+      "minDistanceFromAnyTerminalMeters": 2946,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Ammankovil Road, Ernakulam, 682035",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [
+        "juice"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "fast_food"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/bb6a28eaf25960e7f79a",
+      "name": "LuLu International Shopping Mall, Kochi",
+      "nameEnglish": "LuLu International Shopping Mall, Kochi",
       "category": "shopping",
-      "subcategory": "marketplace",
-      "lat": 9.9680808,
-      "lng": 76.2426432,
-      "distanceFromTerminalMeters": 1401,
-      "distanceFromDefaultTerminalMeters": 1401,
-      "minDistanceFromAnyTerminalMeters": 1401,
+      "subcategory": "mall",
+      "lat": 10.0272177,
+      "lng": 76.3079771,
+      "distanceFromTerminalMeters": 8476,
+      "distanceFromDefaultTerminalMeters": 8476,
+      "minDistanceFromAnyTerminalMeters": 8476,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "34/1000 Old NH 47, Edappally Junction, Nethaji Nagar, Edappally, Kochi, Kerala, 682024, IN",
+      "openingHours": "Mo-Su 09:00-23:00",
+      "website": "https://lulumall.in/",
+      "phone": "+91-484 272 7777",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q6644430",
+      "wikipedia": "en:Lulu International Shopping Mall, Kochi",
+      "osmTags": {
+        "shop": "mall"
+      },
+      "fame": 3
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/504737cd417b20740b0a",
+      "name": "Sthayi",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "clothes",
+      "lat": 9.9701212,
+      "lng": 76.2835344,
+      "distanceFromTerminalMeters": 2398,
+      "distanceFromDefaultTerminalMeters": 2398,
+      "minDistanceFromAnyTerminalMeters": 2398,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "KT Koshi Road, Kochi, 682011",
+      "openingHours": "Mo-Sa 14:00-19:00",
+      "website": "https://sthayi.com",
+      "phone": "+91 81118 84848",
+      "cuisine": [],
+      "wheelchair": "no",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "shop": "clothes"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/2b4033c6f97eeae0fb44",
+      "name": "Leen's Exports Art & Antiques",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "antiques",
+      "lat": 9.9574293,
+      "lng": 76.260207,
+      "distanceFromTerminalMeters": 958,
+      "distanceFromDefaultTerminalMeters": 958,
+      "minDistanceFromAnyTerminalMeters": 958,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "6/92 Jew Town Road, 682002",
+      "openingHours": "Mo-Su 09:00-18:00",
+      "website": "",
+      "phone": "+919847011901",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "shop": "antiques"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/0a2fb61b87abe937caa6",
+      "name": "Anokhi",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "clothes",
+      "lat": 9.9643126,
+      "lng": 76.2399398,
+      "distanceFromTerminalMeters": 2430,
+      "distanceFromDefaultTerminalMeters": 2430,
+      "minDistanceFromAnyTerminalMeters": 2430,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Lilly Street",
+      "openingHours": "Mo-Su 10:00-19:00",
+      "website": "https://www.anokhi.com/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "ethical fashion",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "shop": "clothes"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/176c05a8545021934bc2",
+      "name": "Forum Thomsun Mall",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "mall",
+      "lat": 9.9440242,
+      "lng": 76.3167887,
+      "distanceFromTerminalMeters": 6465,
+      "distanceFromDefaultTerminalMeters": 6465,
+      "minDistanceFromAnyTerminalMeters": 6465,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Salem - Kochi - Kanyakumari Road, Maradu, Kochi, 682304",
+      "openingHours": "Mo-Su 10:00-22:00",
+      "website": "https://forummalls.in/portfolio/forum-kochi/",
+      "phone": "‎+91 9606008193",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "en:Forum Thomsun Mall",
+      "osmTags": {
+        "shop": "mall"
+      },
+      "fame": 1
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/3e1ae39d3737077f4627",
+      "name": "Nucleus Mall",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "mall",
+      "lat": 9.9398566,
+      "lng": 76.331035,
+      "distanceFromTerminalMeters": 8086,
+      "distanceFromDefaultTerminalMeters": 8086,
+      "minDistanceFromAnyTerminalMeters": 8086,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "10:00-22:00",
+      "website": "http://www.nucleusmall.in",
+      "phone": "+91 81298 22734",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q4663194",
+      "wikipedia": "en:Abad Nucleus Mall",
+      "osmTags": {
+        "shop": "mall"
+      },
+      "fame": 3
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/047a0f9eef5282a04114",
+      "name": "Rouka Boutique",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "clothes",
+      "lat": 9.9638036,
+      "lng": 76.2891643,
+      "distanceFromTerminalMeters": 2975,
+      "distanceFromDefaultTerminalMeters": 2975,
+      "minDistanceFromAnyTerminalMeters": 2975,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "https://shoprouka.com/",
+      "phone": "+91-90201 63096",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "A boutique by Sreejith",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "shop": "clothes"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f958c3f5c546375b189b",
+      "name": "Seematti",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "clothes",
+      "lat": 9.9851786,
+      "lng": 76.2822953,
+      "distanceFromTerminalMeters": 3086,
+      "distanceFromDefaultTerminalMeters": 3086,
+      "minDistanceFromAnyTerminalMeters": 3086,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Mahatma Gandhi Road, Ernakulam, 682035",
+      "openingHours": "",
+      "website": "https://www.seematti.com/",
+      "phone": "+91 484 2353523",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "shop": "clothes"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/a3e6f4d99fc0bf0d2e1b",
+      "name": "V.I.P.",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "bag",
+      "lat": 9.9773523,
+      "lng": 76.2768758,
+      "distanceFromTerminalMeters": 2065,
+      "distanceFromDefaultTerminalMeters": 2065,
+      "minDistanceFromAnyTerminalMeters": 2065,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Shanmugham Road",
+      "openingHours": "Mo-Su 10:30-21:00",
+      "website": "https://shop.vipbags.com/",
+      "phone": "+91 484 404 3664",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "VIP Bags & Suitcase Store ",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "shop": "bag"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ac839b17b55a67a3d897",
+      "name": "I.R.S Incense and Perfume Oils",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "perfumery",
+      "lat": 9.9560433,
+      "lng": 76.2601644,
+      "distanceFromTerminalMeters": 1110,
+      "distanceFromDefaultTerminalMeters": 1110,
+      "minDistanceFromAnyTerminalMeters": 1110,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "529/3 Jew Town Street, Kochi, 682002",
+      "openingHours": "Mo-Su 09:00-19:00",
+      "website": "https://irs-natural-incense-and-flower-oils.business.site/",
+      "phone": "+91-87113696",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "shop": "perfumery"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c0a328d3c06f95d51f47",
+      "name": "Kochi International Marina",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "marina",
+      "lat": 9.9858285,
+      "lng": 76.2682,
+      "distanceFromTerminalMeters": 2321,
+      "distanceFromDefaultTerminalMeters": 2321,
+      "minDistanceFromAnyTerminalMeters": 2321,
       "nearestTerminalId": "ports-json-anchor",
       "address": "",
       "openingHours": "",
@@ -1688,27 +1826,651 @@
       "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "Q6424865",
+      "wikipedia": "en:Kochi Marina",
       "osmTags": {
-        "amenity": "marketplace"
+        "leisure": "marina"
+      },
+      "fame": 3
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b65318ca4d53dda65662",
+      "name": "Fort Kochi Beach",
+      "nameEnglish": "Fort Kochi Beach",
+      "category": "outdoors",
+      "subcategory": "beach",
+      "lat": 9.9671361,
+      "lng": 76.2398222,
+      "distanceFromTerminalMeters": 2442,
+      "distanceFromDefaultTerminalMeters": 2442,
+      "minDistanceFromAnyTerminalMeters": 2442,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "en:Fort Kochi Beach",
+      "osmTags": {
+        "natural": "beach"
+      },
+      "fame": 1
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/9e59ef052959b464f213",
+      "name": "Tirumala Devaswom High School,Mattanchery",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 9.9583469,
+      "lng": 76.2519721,
+      "distanceFromTerminalMeters": 1385,
+      "distanceFromDefaultTerminalMeters": 1385,
+      "minDistanceFromAnyTerminalMeters": 1385,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Mattanchery, Ernakulam, 682002",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/e55dd51e6667055cc7bd",
+      "name": "Subhash Bose Park",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 9.9705646,
+      "lng": 76.2796945,
+      "distanceFromTerminalMeters": 2000,
+      "distanceFromDefaultTerminalMeters": 2000,
+      "minDistanceFromAnyTerminalMeters": 2000,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "06:00-09:00,14:00-20:30",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ab7149903c9eada9a61b",
+      "name": "Thamarakullam Park, Amaravathy",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 9.9570803,
+      "lng": 76.2427575,
+      "distanceFromTerminalMeters": 2329,
+      "distanceFromDefaultTerminalMeters": 2329,
+      "minDistanceFromAnyTerminalMeters": 2329,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Thamarakulam Road, 682001",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/a04ec9c66508f2bf7357",
+      "name": "Changampuzha Park",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 10.0164826,
+      "lng": 76.3020269,
+      "distanceFromTerminalMeters": 7131,
+      "distanceFromDefaultTerminalMeters": 7131,
+      "minDistanceFromAnyTerminalMeters": 7131,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q5071715",
+      "wikipedia": "en:Changampuzha Park",
+      "osmTags": {
+        "leisure": "park",
+        "tourism": "attraction"
+      },
+      "fame": 3
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/eea9686ee98f5284254f",
+      "name": "Sree Gujarathi Mahajan playground",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "garden",
+      "lat": 9.9611004,
+      "lng": 76.2547845,
+      "distanceFromTerminalMeters": 957,
+      "distanceFromDefaultTerminalMeters": 957,
+      "minDistanceFromAnyTerminalMeters": 957,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "leisure": "garden"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/1e01d24a16111bed0c45",
+      "name": "Pallathuraman Park, Fort Kochi Veli",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 9.95221,
+      "lng": 76.244283,
+      "distanceFromTerminalMeters": 2469,
+      "distanceFromDefaultTerminalMeters": 2469,
+      "minDistanceFromAnyTerminalMeters": 2469,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Veli Road, 682001",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d74a0cd19ede17b3011a",
+      "name": "Sunset View",
+      "nameEnglish": "Sunset View",
+      "category": "outdoors",
+      "subcategory": "viewpoint",
+      "lat": 9.9686055,
+      "lng": 76.2438934,
+      "distanceFromTerminalMeters": 2015,
+      "distanceFromDefaultTerminalMeters": 2015,
+      "minDistanceFromAnyTerminalMeters": 2015,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "tourism": "viewpoint"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/a2c26f3afe526ccb79b7",
+      "name": "Garden space",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "garden",
+      "lat": 9.9450103,
+      "lng": 76.259249,
+      "distanceFromTerminalMeters": 2337,
+      "distanceFromDefaultTerminalMeters": 2337,
+      "minDistanceFromAnyTerminalMeters": 2337,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "leisure": "garden"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/cfeda7c8f05c3263fcc2",
+      "name": "Vypeen Beach",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "beach",
+      "lat": 9.9727355,
+      "lng": 76.2406444,
+      "distanceFromTerminalMeters": 2469,
+      "distanceFromDefaultTerminalMeters": 2469,
+      "minDistanceFromAnyTerminalMeters": 2469,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "natural": "beach"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/7a729c4b984233b90532",
+      "name": "Avalon Pharmacy",
+      "nameEnglish": "",
+      "category": "essentials",
+      "subcategory": "pharmacy",
+      "lat": 9.9920587,
+      "lng": 76.282585,
+      "distanceFromTerminalMeters": 3680,
+      "distanceFromDefaultTerminalMeters": 3680,
+      "minDistanceFromAnyTerminalMeters": 3680,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "ESI Hospital Road",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Ayurvedic Medicine",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "pharmacy"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b1b46f73910f8cd1f7c8",
+      "name": "Thejus Medicals",
+      "nameEnglish": "",
+      "category": "essentials",
+      "subcategory": "pharmacy",
+      "lat": 9.9719595,
+      "lng": 76.2832611,
+      "distanceFromTerminalMeters": 2418,
+      "distanceFromDefaultTerminalMeters": 2418,
+      "minDistanceFromAnyTerminalMeters": 2418,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "+91 484 235 5313",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "pharmacy"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/a7e5d6a4631aeb7e3dd2",
+      "name": "Tourist Information",
+      "nameEnglish": "",
+      "category": "essentials",
+      "subcategory": "visitor_information",
+      "lat": 9.9729589,
+      "lng": 76.2783027,
+      "distanceFromTerminalMeters": 1945,
+      "distanceFromDefaultTerminalMeters": 1945,
+      "minDistanceFromAnyTerminalMeters": 1945,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "tourism": "information"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/190970924c84a7126ba9",
+      "name": "H&C Stores",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "books",
+      "lat": 9.9686597,
+      "lng": 76.2870825,
+      "distanceFromTerminalMeters": 2756,
+      "distanceFromDefaultTerminalMeters": 2756,
+      "minDistanceFromAnyTerminalMeters": 2756,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Swami Chinmayananda Road, Ernakulam, 682016",
+      "openingHours": "",
+      "website": "",
+      "phone": "+91 484 2377235",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "shop": "books"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/fa238b39e5df06d9870e",
+      "name": "Pepper House",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "gift",
+      "lat": 9.9688519,
+      "lng": 76.2503032,
+      "distanceFromTerminalMeters": 1332,
+      "distanceFromDefaultTerminalMeters": 1332,
+      "minDistanceFromAnyTerminalMeters": 1332,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Fort Kochi",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "no",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "shop": "gift"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/45a1ebe864cfa4c23329",
+      "name": "Fabindia",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "gift",
+      "lat": 9.9589528,
+      "lng": 76.2880106,
+      "distanceFromTerminalMeters": 2942,
+      "distanceFromDefaultTerminalMeters": 2942,
+      "minDistanceFromAnyTerminalMeters": 2942,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Old Thevara Road, Ernakulam, 682015",
+      "openingHours": "",
+      "website": "https://www.fabindia.com/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "shop": "gift"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/0daa0ff5dba0910ba934",
+      "name": "Paal Ice",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "bakery",
+      "lat": 9.9922053,
+      "lng": 76.2929914,
+      "distanceFromTerminalMeters": 4478,
+      "distanceFromDefaultTerminalMeters": 4478,
+      "minDistanceFromAnyTerminalMeters": 4478,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Kaloor Kadavanthara Road, 682017",
+      "openingHours": "Mo-Su 11:00-01:00",
+      "website": "",
+      "phone": "+914844063300",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "shop": "bakery"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/bbe22c1fabb7bf17493b",
+      "name": "A S VEGETABLES",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "greengrocer",
+      "lat": 9.9576994,
+      "lng": 76.251679,
+      "distanceFromTerminalMeters": 1455,
+      "distanceFromDefaultTerminalMeters": 1455,
+      "minDistanceFromAnyTerminalMeters": 1455,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "KOCHI, 682002",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "shop": "greengrocer"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/72ed55f5aa5a2875d2ca",
+      "name": "Pizza Italia",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 9.9672132,
+      "lng": 76.2433427,
+      "distanceFromTerminalMeters": 2057,
+      "distanceFromDefaultTerminalMeters": 2057,
+      "minDistanceFromAnyTerminalMeters": 2057,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Su 09:00-22:30",
+      "website": "http://www.pizaitaliakichi.com",
+      "phone": "",
+      "cuisine": [
+        "italian_pizza"
+      ],
+      "wheelchair": "limited",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/e99e92e05c07f0a82348",
+      "name": "Anantha Bhavan Inn Pure Vegetarian Restaurant",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 9.9635983,
+      "lng": 76.2432873,
+      "distanceFromTerminalMeters": 2073,
+      "distanceFromDefaultTerminalMeters": 2073,
+      "minDistanceFromAnyTerminalMeters": 2073,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1/1029 KJ Harshal road, Fort Cochin, 682001",
+      "openingHours": "",
+      "website": "",
+      "phone": "+91-9709707641",
+      "cuisine": [
+        "indian"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/5dc211f570b3ad753583",
+      "name": "Veli Park",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 9.9523168,
+      "lng": 76.242068,
+      "distanceFromTerminalMeters": 2658,
+      "distanceFromDefaultTerminalMeters": 2658,
+      "minDistanceFromAnyTerminalMeters": 2658,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Veli Road, Fort Cochin",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/19cd95a334c2fb34a5c9",
+      "name": "D Gallery",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "gallery",
+      "lat": 9.9689813,
+      "lng": 76.2836558,
+      "distanceFromTerminalMeters": 2389,
+      "distanceFromDefaultTerminalMeters": 2389,
+      "minDistanceFromAnyTerminalMeters": 2389,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "tourism": "gallery"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ea9b831af1ae6f363399",
+      "name": "Kadavumbhagam Ernakulam Synagogue",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 9.9801962,
+      "lng": 76.2784041,
+      "distanceFromTerminalMeters": 2397,
+      "distanceFromDefaultTerminalMeters": 2397,
+      "minDistanceFromAnyTerminalMeters": 2397,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "http://cochinsyn.com/page-kada-erna.html",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "place_of_worship",
+        "historic": "yes",
+        "tourism": "attraction"
       }
     }
   ],
-  "portAnchor": {
-    "id": "ports-json-anchor",
-    "name": "KOCHI (COCHIN) Port",
-    "lat": 9.97,
-    "lng": 76.23,
-    "address": "Kochi, Kerala, India",
-    "source": "ports.json",
-    "sourceId": "",
-    "score": 0,
-    "slug": "kochi-cochin-port"
-  },
   "terminalResolution": {
     "status": "resolved",
-    "method": "terminal_review",
+    "method": "cruise-ports",
     "verified": true,
-    "reviewedAt": "2026-09-28",
     "notes": "Cochin International Cruise Terminal on Willingdon Island is correct; the rest are water metro and ferry stops."
-  }
+  },
+  "gemSuggestions": [
+    "Chinese fishing nets, Fort Kochi"
+  ]
 }

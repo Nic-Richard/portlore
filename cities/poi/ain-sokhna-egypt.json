@@ -1,0 +1,179 @@
+{
+  "defaultTerminalId": "review/ain-sokhna-egypt/ain-sokna-port-cruise-ship-terminal",
+  "terminal": {
+    "id": "review/ain-sokhna-egypt/ain-sokna-port-cruise-ship-terminal",
+    "name": "Ain Sokna port cruise ship terminal",
+    "lat": 29.653716,
+    "lng": 32.343783,
+    "terminalType": "passenger_cruise_terminal",
+    "source": "google_places",
+    "googlePlaceId": "ChIJMwLuTLetVxQRbfrs6FN3O1k",
+    "sourceId": "review/ain-sokhna-egypt/ain-sokna-port-cruise-ship-terminal",
+    "verified": true
+  },
+  "terminals": [
+    {
+      "id": "review/ain-sokhna-egypt/ain-sokna-port-cruise-ship-terminal",
+      "name": "Ain Sokna port cruise ship terminal",
+      "lat": 29.653716,
+      "lng": 32.343783,
+      "terminalType": "passenger_cruise_terminal",
+      "source": "google_places",
+      "googlePlaceId": "ChIJMwLuTLetVxQRbfrs6FN3O1k",
+      "sourceId": "review/ain-sokhna-egypt/ain-sokna-port-cruise-ship-terminal",
+      "verified": true
+    }
+  ],
+  "schemaVersion": 5,
+  "catalogType": "curation-candidates",
+  "source": "openstreetmap",
+  "sourceExtract": "egypt-latest.osm.pbf",
+  "radiusMeters": 10000,
+  "port": {
+    "id": "ain-sokhna-egypt",
+    "city": "Ain Sokhna",
+    "country": "Egypt"
+  },
+  "portAnchor": {
+    "id": "ports-json-anchor",
+    "name": "Ain Sokna port cruise ship terminal",
+    "lat": 29.653716,
+    "lng": 32.343783,
+    "address": "Ain Sokhna, Egypt",
+    "source": "ports.json",
+    "sourceId": "",
+    "score": 0,
+    "slug": "ain-sokna-port-cruise-ship-terminal"
+  },
+  "generatedAt": "2026-09-29T05:47:33.739Z",
+  "counts": {
+    "attraction": 1,
+    "food_drink": 2,
+    "shopping": 0,
+    "outdoors": 0,
+    "essentials": 1
+  },
+  "pois": [
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/2db3ffc77395c35d01f2",
+      "name": "Temaya",
+      "nameEnglish": "Temaya",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 29.6709644,
+      "lng": 32.3592971,
+      "distanceFromTerminalMeters": 2434,
+      "distanceFromDefaultTerminalMeters": 2434,
+      "minDistanceFromAnyTerminalMeters": 2434,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [
+        "fish"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      },
+      "curated": true,
+      "gem": true
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/1225468dd54d80670f62",
+      "name": "Teda Fun Valley",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "theme_park",
+      "lat": 29.6733537,
+      "lng": 32.3117122,
+      "distanceFromTerminalMeters": 3791,
+      "distanceFromDefaultTerminalMeters": 3791,
+      "minDistanceFromAnyTerminalMeters": 3791,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "tourism": "theme_park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/9451a73b693bab89a401",
+      "name": "KFC",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "fast_food",
+      "lat": 29.6925734,
+      "lng": 32.3420125,
+      "distanceFromTerminalMeters": 4324,
+      "distanceFromDefaultTerminalMeters": 4324,
+      "minDistanceFromAnyTerminalMeters": 4324,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [
+        "chicken"
+      ],
+      "wheelchair": "",
+      "brand": "KFC",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "fast_food"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/427fe24eef7ce25a3069",
+      "name": "Pharmacy",
+      "nameEnglish": "Pharmacy",
+      "category": "essentials",
+      "subcategory": "pharmacy",
+      "lat": 29.6663029,
+      "lng": 32.3329834,
+      "distanceFromTerminalMeters": 1746,
+      "distanceFromDefaultTerminalMeters": 1746,
+      "minDistanceFromAnyTerminalMeters": 1746,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "01204129991",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "pharmacy"
+      }
+    }
+  ],
+  "terminalResolution": {
+    "status": "resolved",
+    "method": "cruise-ports",
+    "verified": true,
+    "notes": ""
+  },
+  "gemSuggestions": []
+}

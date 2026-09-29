@@ -1,72 +1,27 @@
 {
-  "schemaVersion": 5,
-  "catalogType": "curation-candidates",
-  "generatedAt": "2026-07-30T08:02:04.235Z",
-  "source": "openstreetmap",
-  "sourceExtract": "greece-latest.osm.pbf",
-  "radiusMeters": 10000,
-  "port": {
-    "id": "drapetsona-greece",
-    "city": "Piraeus (Athens)",
-    "country": "Greece"
-  },
   "defaultTerminalId": "osm/generated/1abfa94ed6ff013b33d4",
   "terminal": {
     "id": "osm/generated/1abfa94ed6ff013b33d4",
     "name": "Λιμένας Κρουαζιέρας Πειραιά",
-    "nameEnglish": "Piraeus Cruise Port",
     "lat": 37.936886,
     "lng": 23.630609,
-    "address": "",
-    "source": "verified_terminal_candidate",
-    "sourceId": "osm/generated/1abfa94ed6ff013b33d4",
     "terminalType": "passenger_cruise_terminal",
-    "verified": true,
+    "source": "verified_terminal_candidate",
     "notes": "Accepted 2 candidates explicitly identified as an ocean-cruise or cruise-passenger terminal; ferry and unrelated results were excluded.",
-    "sourceUrls": [],
-    "sources": [
-      "openstreetmap"
-    ],
-    "sourceIds": [
-      "osm/generated/1abfa94ed6ff013b33d4"
-    ],
-    "osmTags": {
-      "name:en": "Piraeus Cruise Port",
-      "operator": "ΟΛΠ",
-      "seamark:type": "harbour"
-    },
-    "matchedBy": [
-      "terminal-like name"
-    ]
+    "sourceId": "osm/generated/1abfa94ed6ff013b33d4",
+    "verified": true
   },
   "terminals": [
     {
       "id": "osm/generated/1abfa94ed6ff013b33d4",
       "name": "Λιμένας Κρουαζιέρας Πειραιά",
-      "nameEnglish": "Piraeus Cruise Port",
       "lat": 37.936886,
       "lng": 23.630609,
-      "address": "",
-      "source": "verified_terminal_candidate",
-      "sourceId": "osm/generated/1abfa94ed6ff013b33d4",
       "terminalType": "passenger_cruise_terminal",
-      "verified": true,
+      "source": "verified_terminal_candidate",
       "notes": "Accepted 2 candidates explicitly identified as an ocean-cruise or cruise-passenger terminal; ferry and unrelated results were excluded.",
-      "sourceUrls": [],
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/1abfa94ed6ff013b33d4"
-      ],
-      "osmTags": {
-        "name:en": "Piraeus Cruise Port",
-        "operator": "ΟΛΠ",
-        "seamark:type": "harbour"
-      },
-      "matchedBy": [
-        "terminal-like name"
-      ]
+      "sourceId": "osm/generated/1abfa94ed6ff013b33d4",
+      "verified": true
     },
     {
       "id": "review/drapetsona-greece/cruise-terminal-a-miaoulis",
@@ -75,682 +30,110 @@
       "lng": 23.63586,
       "terminalType": "passenger_cruise_terminal",
       "source": "terminal_review",
-      "sourceUrls": [],
-      "verified": true,
-      "sourceId": "review/drapetsona-greece/cruise-terminal-a-miaoulis"
+      "sourceId": "review/drapetsona-greece/cruise-terminal-a-miaoulis",
+      "verified": true
     },
     {
       "id": "osm/generated/0d62f50629cc7583da40",
       "name": "Πύλη Ε12 -  Σταθμός Κρουαζιέρας Β «ΘΕΜΙΣΤΟΚΛΗΣ»",
-      "nameEnglish": "Gate E12 - Cruise Terminal B \"THEMISTOCLES\"",
       "lat": 37.938537,
       "lng": 23.629731,
-      "address": "",
-      "source": "verified_terminal_candidate",
-      "sourceId": "osm/generated/0d62f50629cc7583da40",
       "terminalType": "passenger_cruise_terminal",
-      "verified": true,
+      "source": "verified_terminal_candidate",
       "notes": "Accepted 2 candidates explicitly identified as an ocean-cruise or cruise-passenger terminal; ferry and unrelated results were excluded.",
-      "sourceUrls": [],
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/0d62f50629cc7583da40"
-      ],
-      "osmTags": {
-        "alt_name": "Kanellos Cruise Terminal",
-        "name:en": "Gate E12 - Cruise Terminal C \"ALKIMOS\"",
-        "operator": "ΟΛΠ"
-      },
-      "matchedBy": [
-        "terminal-like name"
-      ]
-    }
-  ],
-  "terminalCandidateRadiusMeters": 5000,
-  "terminalCandidates": [
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/b9f15de64fca45dcb911",
-      "name": "(unnamed maritime feature)",
-      "nameEnglish": "",
-      "lat": 37.9373296,
-      "lng": 23.6370552,
-      "distanceFromPortMeters": 1398,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/b9f15de64fca45dcb911"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/3d0a1a96dcbc9d446681",
-      "name": "(unnamed maritime feature)",
-      "nameEnglish": "",
-      "lat": 37.9428089,
-      "lng": 23.6425597,
-      "distanceFromPortMeters": 1567,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/3d0a1a96dcbc9d446681"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/fb635caa188a8724e936",
-      "name": "(unnamed maritime feature)",
-      "nameEnglish": "",
-      "lat": 37.9426026,
-      "lng": 23.6409089,
-      "distanceFromPortMeters": 1612,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/fb635caa188a8724e936"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/8cebcca9b663c5e27309",
-      "name": "(unnamed maritime feature)",
-      "nameEnglish": "",
-      "lat": 37.9440622,
-      "lng": 23.6431938,
-      "distanceFromPortMeters": 1674,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/8cebcca9b663c5e27309"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/1b6980717bde25d13fbe",
-      "name": "(unnamed maritime feature)",
-      "nameEnglish": "",
-      "lat": 37.9451195,
-      "lng": 23.641558,
-      "distanceFromPortMeters": 1837,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/1b6980717bde25d13fbe"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/1abfa94ed6ff013b33d4",
-      "name": "Λιμένας Κρουαζιέρας Πειραιά",
-      "nameEnglish": "Piraeus Cruise Port",
-      "lat": 37.9368861,
-      "lng": 23.6306088,
-      "distanceFromPortMeters": 1865,
-      "address": "",
-      "matchedBy": [
-        "terminal-like name"
-      ],
-      "osmTags": {
-        "name:en": "Piraeus Cruise Port",
-        "operator": "ΟΛΠ",
-        "seamark:type": "harbour"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/1abfa94ed6ff013b33d4"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/a1202dae3b4f0e4ca01f",
-      "name": "E7",
-      "nameEnglish": "",
-      "lat": 37.9446986,
-      "lng": 23.6383785,
-      "distanceFromPortMeters": 1926,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/a1202dae3b4f0e4ca01f"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/3b65c64568ebf0d855a4",
-      "name": "(unnamed maritime feature)",
-      "nameEnglish": "",
-      "lat": 37.9420681,
-      "lng": 23.633523,
-      "distanceFromPortMeters": 1972,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "cargo": "passengers",
-        "ferry": "yes",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/3b65c64568ebf0d855a4"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/3b4d02b66cd4f9f94b07",
-      "name": "E7",
-      "nameEnglish": "",
-      "lat": 37.9456961,
-      "lng": 23.6388843,
-      "distanceFromPortMeters": 1999,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/3b4d02b66cd4f9f94b07"
-      ]
-    },
-    {
-      "source": "openstreetmap",
       "sourceId": "osm/generated/0d62f50629cc7583da40",
-      "name": "Πύλη Ε12 -  Σταθμός Κρουαζιέρας Β «ΘΕΜΙΣΤΟΚΛΗΣ»",
-      "nameEnglish": "Gate E12 - Cruise Terminal B \"THEMISTOCLES\"",
-      "lat": 37.9385367,
-      "lng": 23.6297311,
-      "distanceFromPortMeters": 2015,
-      "address": "",
-      "matchedBy": [
-        "terminal-like name"
-      ],
-      "osmTags": {
-        "alt_name": "Kanellos Cruise Terminal",
-        "name:en": "Gate E12 - Cruise Terminal C \"ALKIMOS\"",
-        "operator": "ΟΛΠ"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/0d62f50629cc7583da40"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/916fa8ebfd2b3490e08a",
-      "name": "Αναχώρηση Μινωικών Γραμμών Κρήτης",
-      "nameEnglish": "",
-      "lat": 37.9449291,
-      "lng": 23.636275,
-      "distanceFromPortMeters": 2050,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "operator": "Minoan Lines",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/916fa8ebfd2b3490e08a"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/b7319766cea1baad02fa",
-      "name": "(unnamed maritime feature)",
-      "nameEnglish": "",
-      "lat": 37.9473336,
-      "lng": 23.64152,
-      "distanceFromPortMeters": 2066,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/b7319766cea1baad02fa"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/f952ca076ea65f19f8e6",
-      "name": "(unnamed maritime feature)",
-      "nameEnglish": "",
-      "lat": 37.9483767,
-      "lng": 23.6415178,
-      "distanceFromPortMeters": 2175,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/f952ca076ea65f19f8e6"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/5be9301cf046743f5558",
-      "name": "(unnamed maritime feature)",
-      "nameEnglish": "",
-      "lat": 37.9471249,
-      "lng": 23.6367819,
-      "distanceFromPortMeters": 2229,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/5be9301cf046743f5558"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/b2cd0a38008bbe4406dd",
-      "name": "(unnamed maritime feature)",
-      "nameEnglish": "",
-      "lat": 37.9487773,
-      "lng": 23.6379011,
-      "distanceFromPortMeters": 2342,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/b2cd0a38008bbe4406dd"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/8cac88a18fc8995f269d",
-      "name": "(unnamed maritime feature)",
-      "nameEnglish": "",
-      "lat": 37.9431404,
-      "lng": 23.6291024,
-      "distanceFromPortMeters": 2344,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/8cac88a18fc8995f269d"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/30b5f62f375d2cdd9c27",
-      "name": "Πειραιάς Πορθμείο",
-      "nameEnglish": "Piraeus Ferry Port",
-      "lat": 37.9487689,
-      "lng": 23.637218,
-      "distanceFromPortMeters": 2369,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "cargo": "passengers;vehicle",
-        "ferry": "yes",
-        "name:en": "Piraeus Ferry Port",
-        "operator": "ANEK LINES",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/30b5f62f375d2cdd9c27"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/c8701481b9c7e29a03ad",
-      "name": "Πειραιάς",
-      "nameEnglish": "",
-      "lat": 37.9419453,
-      "lng": 23.6252337,
-      "distanceFromPortMeters": 2546,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/c8701481b9c7e29a03ad"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/1d89e825f50032ac2a9c",
-      "name": "(unnamed maritime feature)",
-      "nameEnglish": "",
-      "lat": 37.9424512,
-      "lng": 23.6251445,
-      "distanceFromPortMeters": 2582,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/1d89e825f50032ac2a9c"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/64196fef31412036bd91",
-      "name": "(unnamed maritime feature)",
-      "nameEnglish": "",
-      "lat": 37.9418264,
-      "lng": 23.6236926,
-      "distanceFromPortMeters": 2656,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/64196fef31412036bd91"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/0237e9572ab26603cd8c",
-      "name": "(unnamed maritime feature)",
-      "nameEnglish": "",
-      "lat": 37.9413851,
-      "lng": 23.6226675,
-      "distanceFromPortMeters": 2711,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/0237e9572ab26603cd8c"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/22a6912e899d51bf214f",
-      "name": "(unnamed maritime feature)",
-      "nameEnglish": "",
-      "lat": 37.935238,
-      "lng": 23.688578,
-      "distanceFromPortMeters": 3433,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/22a6912e899d51bf214f"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/b1c4d448a79fad7eff1f",
-      "name": "(unnamed maritime feature)",
-      "nameEnglish": "",
-      "lat": 37.9486559,
-      "lng": 23.6069431,
-      "distanceFromPortMeters": 4308,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "operator": "Κέντρο Επεξεργασίας Λυμάτων",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/b1c4d448a79fad7eff1f"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/15fc2ef4e5ab166c2fe5",
-      "name": "Λάντζες Ρούσσης",
-      "nameEnglish": "",
-      "lat": 37.955719,
-      "lng": 23.6108768,
-      "distanceFromPortMeters": 4466,
-      "address": "Κερατσίνι",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "description": "Υπηρεσία μεφοράς",
-        "ferry": "yes",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/15fc2ef4e5ab166c2fe5"
-      ]
+      "verified": true
     }
   ],
+  "schemaVersion": 5,
+  "catalogType": "curation-candidates",
+  "generatedAt": "2026-09-29T05:47:37.825Z",
+  "source": "openstreetmap",
+  "sourceExtract": "greece-latest.osm.pbf",
+  "radiusMeters": 10000,
+  "port": {
+    "id": "drapetsona-greece",
+    "city": "Piraeus (Athens)",
+    "country": "Greece"
+  },
+  "portAnchor": {
+    "id": "ports-json-anchor",
+    "name": "Λιμένας Κρουαζιέρας Πειραιά",
+    "lat": 37.936886,
+    "lng": 23.630609,
+    "address": "Drapetsona, Attica, Greece",
+    "source": "ports.json",
+    "sourceId": "",
+    "score": 0,
+    "slug": ""
+  },
   "counts": {
-    "attraction": 15,
-    "outdoors": 5,
-    "food_drink": 13,
-    "shopping": 2,
-    "essentials": 2
+    "attraction": 29,
+    "food_drink": 25,
+    "shopping": 16,
+    "outdoors": 12,
+    "essentials": 3
   },
   "pois": [
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/46c14f940bd156c57581",
-      "name": "Μουσείο Ακρόπολης",
-      "nameEnglish": "Acropolis Museum",
-      "category": "attraction",
-      "subcategory": "museum",
-      "lat": 37.9685227,
-      "lng": 23.7284883,
-      "distanceFromTerminalMeters": 8106,
-      "distanceFromDefaultTerminalMeters": 8106,
-      "minDistanceFromAnyTerminalMeters": 8106,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "15 Διονυσίου Αρεοπαγίτου, Αθήνα, 11742, GR",
-      "openingHours": "Mo 08:00-16:00; Tu-Th, Sa-Su 08:00-20:00; Fr 08:00-22:00",
-      "website": "https://www.theacropolismuseum.gr/",
-      "phone": "+30 21 0900 0900",
-      "cuisine": [],
-      "wheelchair": "yes",
-      "brand": "",
-      "description": "Το Μουσείο Ακρόπολης, από τα σπουδαιότερα στον κόσμο, περιλαμβάνει μοναδικά αριστουργήματα, κυρίως πρωτότυπα έργα της αρχαϊκής και κλασικής ελληνικής τέχνης, που συνδέονται άμεσα με τον ιερό βράχο της αθηναϊκής Ακρόπολης.",
-      "osmTags": {
-        "tourism": "museum"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/f6f02bcf612b61de7568",
+      "sourceId": "osm/generated/5193e8a7e7e635c130e0",
       "name": "Αρχαιολογικό Μουσείο Πειραιά",
       "nameEnglish": "Archaeological Museum of Piraeus",
       "category": "attraction",
       "subcategory": "museum",
       "lat": 37.9371561,
       "lng": 23.6442109,
-      "distanceFromTerminalMeters": 944,
-      "distanceFromDefaultTerminalMeters": 944,
-      "minDistanceFromAnyTerminalMeters": 944,
+      "distanceFromTerminalMeters": 1193,
+      "distanceFromDefaultTerminalMeters": 1193,
+      "minDistanceFromAnyTerminalMeters": 1193,
       "nearestTerminalId": "ports-json-anchor",
       "address": "31 Χαριλάου Τρικούπη, Πειραιάς, 18536, GR",
       "openingHours": "Mo, We-Su 09:00-17:00 off",
       "website": "http://odysseus.culture.gr/h/1/eh155.jsp?obj_id=3371",
-      "phone": "+30 210 4521598",
+      "phone": "+30 21 0452 1598",
       "cuisine": [],
       "wheelchair": "yes",
       "brand": "",
       "description": "",
+      "wikidata": "Q637040",
+      "wikipedia": "el:Αρχαιολογικό Μουσείο Πειραιά",
       "osmTags": {
         "tourism": "museum"
-      }
+      },
+      "curated": true,
+      "gem": true,
+      "fame": 8
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/8015e014d9e313ec17c9",
+      "name": "Αρχαία δεξαμενή",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "ruins",
+      "lat": 37.9384375,
+      "lng": 23.6438347,
+      "distanceFromTerminalMeters": 1173,
+      "distanceFromDefaultTerminalMeters": 1173,
+      "minDistanceFromAnyTerminalMeters": 1173,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "11 Περικλέους",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Αρχαία δεξαμενή 5ου αιώνα π.Χ. κάτω από την Χ.Ο.Ν. Το στόμιο της είναι ορατό στο ισόγειο της Χ.Ο.Ν και πραγματοποιούνται ξεναγήσεις. Είσοδος μέσα από το 2ο υπόγειο του κτηρίου, μέσα από εκκλησάκι αφιερωμένο στον Άγιο Γεώργιο.",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "historic": "ruins",
+        "man_made": "storage_tank"
+      },
+      "curated": true,
+      "gem": true
     },
     {
       "source": "openstreetmap",
@@ -761,9 +144,9 @@
       "subcategory": "museum",
       "lat": 37.9325798,
       "lng": 23.6461137,
-      "distanceFromTerminalMeters": 445,
-      "distanceFromDefaultTerminalMeters": 445,
-      "minDistanceFromAnyTerminalMeters": 445,
+      "distanceFromTerminalMeters": 1442,
+      "distanceFromDefaultTerminalMeters": 1442,
+      "minDistanceFromAnyTerminalMeters": 1442,
       "nearestTerminalId": "ports-json-anchor",
       "address": "Ακτή Θεμιστοκλέους, Πειραιάς, 18537, GR",
       "openingHours": "Tu-Sa 09:00-14:00; PH off",
@@ -773,334 +156,220 @@
       "wheelchair": "",
       "brand": "",
       "description": "The museum displays the evolution of the Greek shipbuilding through the ancient times until the Greek revolution of 1821. It also displays the active role of the Greek navy and merchantile marine in modern history. Ticket 4€, 2€.",
+      "wikidata": "Q3035316",
+      "wikipedia": "el:Ναυτικό Μουσείο Ελλάδος",
       "osmTags": {
         "tourism": "museum"
-      }
+      },
+      "curated": true,
+      "gem": true,
+      "fame": 5
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/5f864bb79ffa7a6274ad",
-      "name": "Cruise Pier Piraeus",
+      "sourceId": "osm/generated/a3c901a3ac6ce63c15ea",
+      "name": "Θαλασσάκι",
       "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 37.9296122,
+      "lng": 23.6282436,
+      "distanceFromTerminalMeters": 835,
+      "distanceFromDefaultTerminalMeters": 835,
+      "minDistanceFromAnyTerminalMeters": 835,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "310 Ακτή Θεμιστοκλέους, Πειραιάς, 18539",
+      "openingHours": "Mo-Su 12:00-00:00",
+      "website": "https://thalasaki.gr/",
+      "phone": "+30 2104181616",
+      "cuisine": [
+        "seafood"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      },
+      "curated": true,
+      "gem": true
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/8a26a873addeb2142693",
+      "name": "Ο Ξιφίας",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 37.9347919,
+      "lng": 23.6308297,
+      "distanceFromTerminalMeters": 234,
+      "distanceFromDefaultTerminalMeters": 234,
+      "minDistanceFromAnyTerminalMeters": 234,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "133 Χατζηκυριάκου, Πειραιάς",
+      "openingHours": "",
+      "website": "https://www.facebook.com/xifiasseafood",
+      "phone": "+30210428 0011",
+      "cuisine": [
+        "seafood"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      },
+      "curated": true,
+      "gem": true
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/07350f6b5fdb7af02593",
+      "name": "Ακρόπολη",
+      "nameEnglish": "Acropolis",
       "category": "attraction",
       "subcategory": "attraction",
-      "lat": 37.9376919,
-      "lng": 23.6363342,
-      "distanceFromTerminalMeters": 1472,
-      "distanceFromDefaultTerminalMeters": 1472,
-      "minDistanceFromAnyTerminalMeters": 1472,
+      "lat": 37.9717048,
+      "lng": 23.7264289,
+      "distanceFromTerminalMeters": 9250,
+      "distanceFromDefaultTerminalMeters": 9250,
+      "minDistanceFromAnyTerminalMeters": 9250,
       "nearestTerminalId": "ports-json-anchor",
-      "address": "Ακτή Μιαούλη",
+      "address": "",
       "openingHours": "",
       "website": "",
       "phone": "",
       "cuisine": [],
-      "wheelchair": "",
+      "wheelchair": "yes",
       "brand": "",
       "description": "",
+      "wikidata": "Q131013",
+      "wikipedia": "el:Ακρόπολη Αθηνών",
       "osmTags": {
+        "historic": "castle",
         "tourism": "attraction"
-      }
+      },
+      "fame": 93
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/7f3752d4d7fdcea2aca5",
-      "name": "Μουσείο Ηλεκτρικών Σιδηροδρόμων",
-      "nameEnglish": "Electric Railways Museum",
+      "sourceId": "osm/generated/6472d1f0e331a92703a8",
+      "name": "Μονή Δαφνίου",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "monastery",
+      "lat": 38.0129771,
+      "lng": 23.6359256,
+      "distanceFromTerminalMeters": 8474,
+      "distanceFromDefaultTerminalMeters": 8474,
+      "minDistanceFromAnyTerminalMeters": 8474,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q500444",
+      "wikipedia": "el:Μονή Δαφνίου",
+      "osmTags": {
+        "amenity": "place_of_worship",
+        "historic": "monastery"
+      },
+      "fame": 44
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/40bf7ae4337a8c95e195",
+      "name": "Ναός Ηφαίστου",
+      "nameEnglish": "Temple of Hephaestus",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 37.975604,
+      "lng": 23.7214117,
+      "distanceFromTerminalMeters": 9051,
+      "distanceFromDefaultTerminalMeters": 9051,
+      "minDistanceFromAnyTerminalMeters": 9051,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "no",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q756824",
+      "wikipedia": "el:Ναός Ηφαίστου",
+      "osmTags": {
+        "historic": "ruins",
+        "tourism": "attraction"
+      },
+      "fame": 37
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/46c14f940bd156c57581",
+      "name": "Μουσείο Ακρόπολης",
+      "nameEnglish": "Acropolis Museum",
       "category": "attraction",
       "subcategory": "museum",
-      "lat": 37.9481619,
-      "lng": 23.6425872,
-      "distanceFromTerminalMeters": 2122,
-      "distanceFromDefaultTerminalMeters": 2122,
-      "minDistanceFromAnyTerminalMeters": 2122,
+      "lat": 37.9685227,
+      "lng": 23.7284883,
+      "distanceFromTerminalMeters": 9275,
+      "distanceFromDefaultTerminalMeters": 9275,
+      "minDistanceFromAnyTerminalMeters": 9275,
       "nearestTerminalId": "ports-json-anchor",
-      "address": "",
-      "openingHours": "Mo-Fr 09:00-14:00",
-      "website": "http://www.museum-synt-isap.gr",
-      "phone": "+30 21 44141552",
+      "address": "15 Διονυσίου Αρεοπαγίτου, Αθήνα, 11742, GR",
+      "openingHours": "Mo 08:00-16:00; Tu-Th, Sa-Su 08:00-20:00; Fr 08:00-22:00",
+      "website": "https://www.theacropolismuseum.gr/",
+      "phone": "+30 21 0900 0900",
       "cuisine": [],
-      "wheelchair": "",
+      "wheelchair": "yes",
       "brand": "",
-      "description": "",
+      "description": "Το Μουσείο Ακρόπολης, από τα σπουδαιότερα στον κόσμο, περιλαμβάνει μοναδικά αριστουργήματα, κυρίως πρωτότυπα έργα της αρχαϊκής και κλασικής ελληνικής τέχνης, που συνδέονται άμεσα με τον ιερό βράχο της αθηναϊκής Ακρόπολης.",
+      "wikidata": "Q421084",
+      "wikipedia": "el:Μουσείο Ακρόπολης",
       "osmTags": {
         "tourism": "museum"
-      }
+      },
+      "fame": 37
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/09ca7461921538632a10",
-      "name": "Τμήμα των Μακρών Τειχών",
-      "nameEnglish": "Part of Long Walls",
+      "sourceId": "osm/generated/edf08a3fd00ca2d105a3",
+      "name": "Ναός του Ολυμπίου Διός",
+      "nameEnglish": "Temple of Olympian Zeus",
       "category": "attraction",
-      "subcategory": "castle",
-      "lat": 37.9502169,
-      "lng": 23.665047,
-      "distanceFromTerminalMeters": 2607,
-      "distanceFromDefaultTerminalMeters": 2607,
-      "minDistanceFromAnyTerminalMeters": 2607,
+      "subcategory": "attraction",
+      "lat": 37.9693685,
+      "lng": 23.7330942,
+      "distanceFromTerminalMeters": 9685,
+      "distanceFromDefaultTerminalMeters": 9685,
+      "minDistanceFromAnyTerminalMeters": 9685,
       "nearestTerminalId": "ports-json-anchor",
       "address": "",
-      "openingHours": "",
+      "openingHours": "Mo-Su 08:00-18:30",
       "website": "",
       "phone": "",
       "cuisine": [],
-      "wheelchair": "",
+      "wheelchair": "no",
       "brand": "",
       "description": "",
+      "wikidata": "Q1123019",
+      "wikipedia": "el:Ναός του Ολυμπίου Διός",
       "osmTags": {
-        "historic": "castle"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/0fd6b975a1a97396103d",
-      "name": "Μουσείο Παιχνιδιών Μπενάκη",
-      "nameEnglish": "Children's toys Benaki Museum",
-      "category": "attraction",
-      "subcategory": "museum",
-      "lat": 37.929788,
-      "lng": 23.6874548,
-      "distanceFromTerminalMeters": 3285,
-      "distanceFromDefaultTerminalMeters": 3285,
-      "minDistanceFromAnyTerminalMeters": 3285,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "14 Ποσειδώνος",
-      "openingHours": "Th-Su 10:00-18:00",
-      "website": "https://www.benaki.gr/index.php?option=com_buildings&view=building&id=7&lang=el",
-      "phone": "",
-      "cuisine": [],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "tourism": "museum"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/d8c1aed23db5cd10e07c",
-      "name": "Σηράγγειο",
-      "nameEnglish": "Serangheion Bath",
-      "category": "attraction",
-      "subcategory": "archaeological_site",
-      "lat": 37.936179,
-      "lng": 23.652883,
-      "distanceFromTerminalMeters": 732,
-      "distanceFromDefaultTerminalMeters": 732,
-      "minDistanceFromAnyTerminalMeters": 732,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "",
-      "openingHours": "",
-      "website": "",
-      "phone": "",
-      "cuisine": [],
-      "wheelchair": "",
-      "brand": "",
-      "description": "one of only 3 underground (dug in rock) Greek style ancient public baths (\"balaneion\") known so far. Contains: tholos with rock carvings (for bathers' clothes), fountain-house (nymphaion), mosaic decorations and tunnels.",
-      "osmTags": {
-        "historic": "archaeological_site"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/8d86d0c729cafdafb79e",
-      "name": "Η Σκευοθήκη του Φίλωνος",
-      "nameEnglish": "The arsenal of Philo",
-      "category": "attraction",
-      "subcategory": "archaeological_site",
-      "lat": 37.9397103,
-      "lng": 23.64741,
-      "distanceFromTerminalMeters": 1103,
-      "distanceFromDefaultTerminalMeters": 1103,
-      "minDistanceFromAnyTerminalMeters": 1103,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "",
-      "openingHours": "",
-      "website": "",
-      "phone": "",
-      "cuisine": [],
-      "wheelchair": "",
-      "brand": "",
-      "description": "Τμήμα αρχαίας ναυτικής αποθήκης για εξαρτήματα πλοίων.",
-      "osmTags": {
-        "historic": "archaeological_site"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/8323deb1a4983c7bfa9c",
-      "name": "Ancient port of Zea",
-      "nameEnglish": "Ancient port of Zea",
-      "category": "attraction",
-      "subcategory": "ruins",
-      "lat": 37.9345975,
-      "lng": 23.6484427,
-      "distanceFromTerminalMeters": 529,
-      "distanceFromDefaultTerminalMeters": 529,
-      "minDistanceFromAnyTerminalMeters": 529,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "",
-      "openingHours": "",
-      "website": "",
-      "phone": "",
-      "cuisine": [],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "historic": "ruins"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/10eba8f7ececb318276c",
-      "name": "Τμήμα οικοδομικού τετραγώνου λατρείας Διονυσιαστών",
-      "nameEnglish": "Remains of building and courtyard for Dionysus' worshipers",
-      "category": "attraction",
-      "subcategory": "archaeological_site",
-      "lat": 37.9432565,
-      "lng": 23.6466328,
-      "distanceFromTerminalMeters": 1503,
-      "distanceFromDefaultTerminalMeters": 1503,
-      "minDistanceFromAnyTerminalMeters": 1503,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "",
-      "openingHours": "",
-      "website": "",
-      "phone": "",
-      "cuisine": [],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "historic": "archaeological_site"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/4dcffc7f6be150bc1ee8",
-      "name": "DIG | Designed in Greece",
-      "nameEnglish": "DIG | Designed in Greece",
-      "category": "attraction",
-      "subcategory": "gallery",
-      "lat": 37.9227174,
-      "lng": 23.6978109,
-      "distanceFromTerminalMeters": 4271,
-      "distanceFromDefaultTerminalMeters": 4271,
-      "minDistanceFromAnyTerminalMeters": 4271,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "13 Άρεως, Παλαιό Φάληρο, 17562, GR",
-      "openingHours": "",
-      "website": "https://digathens.com",
-      "phone": "+30 210 92 42 535",
-      "cuisine": [],
-      "wheelchair": "",
-      "brand": "",
-      "description": "DIG Athens is an Athens based fashion label, founded in 2012. DIG Athens creates easy to wear styles for independent creative individuals for their everyday battle of live. All garments are designed and made in Greece.",
-      "osmTags": {
-        "tourism": "gallery"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/c66b1fe092cc7acf02c7",
-      "name": "Μαρίνα Ζέας",
-      "nameEnglish": "Zea Marina",
-      "category": "outdoors",
-      "subcategory": "marina",
-      "lat": 37.9348083,
-      "lng": 23.649343,
-      "distanceFromTerminalMeters": 538,
-      "distanceFromDefaultTerminalMeters": 538,
-      "minDistanceFromAnyTerminalMeters": 538,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "Πειραιάς, 18536, GR",
-      "openingHours": "",
-      "website": "http://www.d-marin.com/",
-      "phone": "+302104559000",
-      "cuisine": [],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "leisure": "marina"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/316fea45d542eb445623",
-      "name": "Παραλία Φρεαττύδος",
-      "nameEnglish": "Blue Lagoon",
-      "category": "outdoors",
-      "subcategory": "beach",
-      "lat": 37.9303774,
-      "lng": 23.6473513,
-      "distanceFromTerminalMeters": 236,
-      "distanceFromDefaultTerminalMeters": 236,
-      "minDistanceFromAnyTerminalMeters": 236,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "",
-      "openingHours": "",
-      "website": "",
-      "phone": "",
-      "cuisine": [],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "natural": "beach"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/a0b1f5ac8bc4ff4b0e6d",
-      "name": "Μαρίνα Αθηνών",
-      "nameEnglish": "Athens Marina",
-      "category": "outdoors",
-      "subcategory": "marina",
-      "lat": 37.9399454,
-      "lng": 23.6691255,
-      "distanceFromTerminalMeters": 2009,
-      "distanceFromDefaultTerminalMeters": 2009,
-      "minDistanceFromAnyTerminalMeters": 2009,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "",
-      "openingHours": "",
-      "website": "http://www.athens-marina.com/",
-      "phone": "",
-      "cuisine": [],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "leisure": "marina"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/70397d9ba8aee9dd2d51",
-      "name": "Βοτανικός Κήπος Πάρκου Φλοίσβου",
-      "nameEnglish": "Floisvos botanical garden",
-      "category": "outdoors",
-      "subcategory": "garden",
-      "lat": 37.9287978,
-      "lng": 23.6867325,
-      "distanceFromTerminalMeters": 3224,
-      "distanceFromDefaultTerminalMeters": 3224,
-      "minDistanceFromAnyTerminalMeters": 3224,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "",
-      "openingHours": "",
-      "website": "",
-      "phone": "",
-      "cuisine": [],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "leisure": "garden"
-      }
+        "historic": "ruins",
+        "tourism": "attraction"
+      },
+      "fame": 37
     },
     {
       "source": "openstreetmap",
@@ -1111,9 +380,9 @@
       "subcategory": "heath",
       "lat": 37.9747143,
       "lng": 23.7228039,
-      "distanceFromTerminalMeters": 8091,
-      "distanceFromDefaultTerminalMeters": 8091,
-      "minDistanceFromAnyTerminalMeters": 8091,
+      "distanceFromTerminalMeters": 9112,
+      "distanceFromDefaultTerminalMeters": 9112,
+      "minDistanceFromAnyTerminalMeters": 9112,
       "nearestTerminalId": "ports-json-anchor",
       "address": "",
       "openingHours": "Mo-Su 08:00-20:00",
@@ -1123,91 +392,552 @@
       "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "Q395367",
+      "wikipedia": "el:Αρχαία Αγορά της Αθήνας",
       "osmTags": {
         "historic": "archaeological_site",
         "natural": "heath",
         "tourism": "attraction"
-      }
+      },
+      "fame": 34
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/c20093e8566b8862f828",
-      "name": "Parmigiani",
-      "nameEnglish": "",
-      "category": "food_drink",
-      "subcategory": "restaurant",
-      "lat": 37.9376072,
-      "lng": 23.6509135,
-      "distanceFromTerminalMeters": 850,
-      "distanceFromDefaultTerminalMeters": 850,
-      "minDistanceFromAnyTerminalMeters": 850,
+      "sourceId": "osm/generated/f4678839aa4aa02f1c61",
+      "name": "Ωδείο Ηρώδου Αττικού",
+      "nameEnglish": "Odeon of Herodes Atticus",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 37.9708176,
+      "lng": 23.7245444,
+      "distanceFromTerminalMeters": 9059,
+      "distanceFromDefaultTerminalMeters": 9059,
+      "minDistanceFromAnyTerminalMeters": 9059,
       "nearestTerminalId": "ports-json-anchor",
-      "address": "11 Ακτή Μουτσοπούλου",
+      "address": "",
       "openingHours": "",
-      "website": "https://parmigiani.gr/",
-      "phone": "+30 2104112450",
-      "cuisine": [
-        "italian"
-      ],
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q1328165",
+      "wikipedia": "el:Ωδείο Ηρώδου του Αττικού",
+      "osmTags": {
+        "amenity": "theatre",
+        "historic": "odeon",
+        "tourism": "attraction"
+      },
+      "fame": 32
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/01d704b9af7c6641803c",
+      "name": "Νέον Βουλευτήριον",
+      "nameEnglish": "New Bouleuterion",
+      "category": "attraction",
+      "subcategory": "ruins",
+      "lat": 37.9751399,
+      "lng": 23.7218225,
+      "distanceFromTerminalMeters": 9058,
+      "distanceFromDefaultTerminalMeters": 9058,
+      "minDistanceFromAnyTerminalMeters": 9058,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
       "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "Q751024",
+      "wikipedia": "",
       "osmTags": {
-        "amenity": "restaurant"
-      }
+        "historic": "ruins"
+      },
+      "fame": 30
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/7ad6783898a63dcaa693",
-      "name": "Belle Amie",
+      "sourceId": "osm/generated/175d155cc3b8d80c839e",
+      "name": "Αρχαιολογικός Χώρος Κεραμεικού",
+      "nameEnglish": "Archaeological site of Kerameikos",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 37.9786211,
+      "lng": 23.7181838,
+      "distanceFromTerminalMeters": 8971,
+      "distanceFromDefaultTerminalMeters": 8971,
+      "minDistanceFromAnyTerminalMeters": 8971,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "http://odysseus.culture.gr/h/3/eh352.jsp?obj_id=2392",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q630974",
+      "wikipedia": "",
+      "osmTags": {
+        "historic": "archaeological_site",
+        "leisure": "park",
+        "tourism": "attraction"
+      },
+      "fame": 29
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/1cf417d6240976e7be62",
+      "name": "Βιβλιοθήκη του Αδριανού",
+      "nameEnglish": "Hadrian's Library",
+      "category": "attraction",
+      "subcategory": "archaeological_site",
+      "lat": 37.9754,
+      "lng": 23.7265505,
+      "distanceFromTerminalMeters": 9439,
+      "distanceFromDefaultTerminalMeters": 9439,
+      "minDistanceFromAnyTerminalMeters": 9439,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q1455447",
+      "wikipedia": "",
+      "osmTags": {
+        "historic": "archaeological_site"
+      },
+      "fame": 28
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/608ece3218d8cf27aa78",
+      "name": "Τμήμα του Νοτίου σκέλους των Μακρών Τειχών επί των οδών Τέω και Βρυούλων",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "archaeological_site",
+      "lat": 37.9623675,
+      "lng": 23.7026146,
+      "distanceFromTerminalMeters": 6920,
+      "distanceFromDefaultTerminalMeters": 6920,
+      "minDistanceFromAnyTerminalMeters": 6920,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q1163616",
+      "wikipedia": "",
+      "osmTags": {
+        "historic": "archaeological_site"
+      },
+      "fame": 27
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/a9364cec83e8e4c43676",
+      "name": "Μουσείο Μπενάκη (Κτήριο Οδού Πειραιώς)",
+      "nameEnglish": "Benaki Museum (Pireos St. Annexe)",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 37.9744725,
+      "lng": 23.7082755,
+      "distanceFromTerminalMeters": 7990,
+      "distanceFromDefaultTerminalMeters": 7990,
+      "minDistanceFromAnyTerminalMeters": 7990,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "138 Πειραιώς, Αθήνα, 11854, GR",
+      "openingHours": "Su, Th 10:00-18:00; Fr-Sa 10:00-22:00; Mo-We off",
+      "website": "https://www.benaki.gr/",
+      "phone": "+30 210 3453111",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q816669",
+      "wikipedia": "el:Μουσείο Μπενάκη",
+      "osmTags": {
+        "tourism": "museum"
+      },
+      "fame": 27
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/a4b0e7008ea8c349894c",
+      "name": "Ρωμαϊκή Αγορά Αθηνών",
+      "nameEnglish": "Roman Agora of Athens",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 37.9742995,
+      "lng": 23.7263549,
+      "distanceFromTerminalMeters": 9369,
+      "distanceFromDefaultTerminalMeters": 9369,
+      "minDistanceFromAnyTerminalMeters": 9369,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "limited",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q1435551",
+      "wikipedia": "el:Ρωμαϊκή Αγορά της Αθήνας",
+      "osmTags": {
+        "historic": "archaeological_site",
+        "tourism": "attraction"
+      },
+      "fame": 19
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/cb7f565f737a21c5b5f5",
+      "name": "Θωρηκτό Γεώργιος Αβέρωφ",
+      "nameEnglish": "Georgios Averof",
+      "category": "attraction",
+      "subcategory": "ship",
+      "lat": 37.9337888,
+      "lng": 23.6838334,
+      "distanceFromTerminalMeters": 4680,
+      "distanceFromDefaultTerminalMeters": 4680,
+      "minDistanceFromAnyTerminalMeters": 4680,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "https://averof.hellenicnavy.gr/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q651638",
+      "wikipedia": "en:Greek cruiser Georgios Averof",
+      "osmTags": {
+        "historic": "ship"
+      },
+      "fame": 17
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d75f98aa263ea8bf1ea7",
+      "name": "Στοά Ευμένους",
+      "nameEnglish": "Stoa of Eumenes",
+      "category": "attraction",
+      "subcategory": "archaeological_site",
+      "lat": 37.9705276,
+      "lng": 23.7259939,
+      "distanceFromTerminalMeters": 9162,
+      "distanceFromDefaultTerminalMeters": 9162,
+      "minDistanceFromAnyTerminalMeters": 9162,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q1905296",
+      "wikipedia": "el:Στοά Ευμένους",
+      "osmTags": {
+        "historic": "archaeological_site"
+      },
+      "fame": 17
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/7f3752d4d7fdcea2aca5",
+      "name": "Μουσείο Ηλεκτρικών Σιδηροδρόμων",
+      "nameEnglish": "Electric Railways Museum",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 37.9481619,
+      "lng": 23.6425872,
+      "distanceFromTerminalMeters": 1636,
+      "distanceFromDefaultTerminalMeters": 1636,
+      "minDistanceFromAnyTerminalMeters": 1636,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Fr 09:00-14:00",
+      "website": "http://www.museum-synt-isap.gr",
+      "phone": "+30 21 44141552",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q5357472",
+      "wikipedia": "el:Μουσείο Ηλεκτρικών Σιδηροδρόμων",
+      "osmTags": {
+        "tourism": "museum"
+      },
+      "fame": 5
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/7152e808848110d9ee3c",
+      "name": "Νέο Σιδηροδρομικό Μουσείο",
+      "nameEnglish": "Railway Museum Athens",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 37.9535388,
+      "lng": 23.6506685,
+      "distanceFromTerminalMeters": 2554,
+      "distanceFromDefaultTerminalMeters": 2554,
+      "minDistanceFromAnyTerminalMeters": 2554,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Υμηττού",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q1311748",
+      "wikipedia": "",
+      "osmTags": {
+        "tourism": "museum"
+      },
+      "fame": 9
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ee984719337dd3c84e23",
+      "name": "Εβραϊκό Μουσείο Ελλάδος",
+      "nameEnglish": "The Jewish Museum of Greece",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 37.9729207,
+      "lng": 23.7331957,
+      "distanceFromTerminalMeters": 9847,
+      "distanceFromDefaultTerminalMeters": 9847,
+      "minDistanceFromAnyTerminalMeters": 9847,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "39 Νίκης, Αθήνα, 10557, GR",
+      "openingHours": "Mo-Fr 09:00-16:00; Su 10:00-16:00; Sa,PH off",
+      "website": "https://www.jewishmuseum.gr/",
+      "phone": "+30 21 0322 5582",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "The Jewish Museum of Greece was founded with the aim of collecting, studying, preserving, and exhibiting the artifacts that reflect the life, customs, history and traditions of the Greek Jews",
+      "wikidata": "Q930891",
+      "wikipedia": "",
+      "osmTags": {
+        "tourism": "museum"
+      },
+      "fame": 10
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d827d2b0fbc17cf1587d",
+      "name": "Αρχαιολογικό Μουσείο Κεραμεικού",
+      "nameEnglish": "Kerameikos Archaeological Museum",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 37.977989,
+      "lng": 23.7167664,
+      "distanceFromTerminalMeters": 8829,
+      "distanceFromDefaultTerminalMeters": 8829,
+      "minDistanceFromAnyTerminalMeters": 8829,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "148 Ερμού, Αθήνα, 10553, GR",
+      "openingHours": "Nov-Mar Mo, Th-Su 08:00-17:00; Nov-Mar Tu 10:00-17:00; Apr-Oct Mo, Th-Su 08:00-20:00; Apr-Oct Tu 10:00-20:00",
+      "website": "",
+      "phone": "+30 21 0346 3552",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q2574469",
+      "wikipedia": "el:Αρχαιολογικό Μουσείο Κεραμεικού",
+      "osmTags": {
+        "tourism": "museum"
+      },
+      "fame": 15
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/a0cbf98ede150a24c5a5",
+      "name": "Μουσείο Αρχαίας Αγοράς",
+      "nameEnglish": "Museum of the Ancient Agora",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 37.9750214,
+      "lng": 23.7241932,
+      "distanceFromTerminalMeters": 9236,
+      "distanceFromDefaultTerminalMeters": 9236,
+      "minDistanceFromAnyTerminalMeters": 9236,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "24 Αδριανού, Αθήνα, 10555",
+      "openingHours": "Nov-Mar Mo, Th-Su 08:00-17:00; Nov-Mar Tu 10:00-17:00; Apr-Oct Mo, Th-Su 08:00-20:00; Apr-Oct Tu 10:00-20:00",
+      "website": "",
+      "phone": "+30 2103210180",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q2383284",
+      "wikipedia": "en:Museum of the Ancient Agora",
+      "osmTags": {
+        "tourism": "museum"
+      },
+      "fame": 12
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d8c1aed23db5cd10e07c",
+      "name": "Σηράγγειο",
+      "nameEnglish": "Serangheion Bath",
+      "category": "attraction",
+      "subcategory": "archaeological_site",
+      "lat": 37.936179,
+      "lng": 23.652883,
+      "distanceFromTerminalMeters": 1955,
+      "distanceFromDefaultTerminalMeters": 1955,
+      "minDistanceFromAnyTerminalMeters": 1955,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "one of only 3 underground (dug in rock) Greek style ancient public baths (\"balaneion\") known so far. Contains: tholos with rock carvings (for bathers' clothes), fountain-house (nymphaion), mosaic decorations and tunnels.",
+      "wikidata": "Q12884409",
+      "wikipedia": "el:Σηράγγιο",
+      "osmTags": {
+        "historic": "archaeological_site"
+      },
+      "fame": 3
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/8d86d0c729cafdafb79e",
+      "name": "Η Σκευοθήκη του Φίλωνος",
+      "nameEnglish": "The arsenal of Philo",
+      "category": "attraction",
+      "subcategory": "archaeological_site",
+      "lat": 37.9397103,
+      "lng": 23.64741,
+      "distanceFromTerminalMeters": 1506,
+      "distanceFromDefaultTerminalMeters": 1506,
+      "minDistanceFromAnyTerminalMeters": 1506,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Τμήμα αρχαίας ναυτικής αποθήκης για εξαρτήματα πλοίων.",
+      "wikidata": "Q5706396",
+      "wikipedia": "",
+      "osmTags": {
+        "historic": "archaeological_site"
+      },
+      "fame": 2
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f046aaccdfd0d33da15e",
+      "name": "Μουσείο Κοσμήματος Ηλία Λαλαούνη",
+      "nameEnglish": "Ilias Lalaounis Jewelry Museum",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 37.9693199,
+      "lng": 23.726666,
+      "distanceFromTerminalMeters": 9162,
+      "distanceFromDefaultTerminalMeters": 9162,
+      "minDistanceFromAnyTerminalMeters": 9162,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "12 Καλλισπέρη, Αθήνα, 11742, GR",
+      "openingHours": "Tu-Fr 09:00-15:00; We,Sa 10:00-18:00; PH off",
+      "website": "https://www.lalaounis-jewelrymuseum.gr/",
+      "phone": "+30 210 9221044",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q15051919",
+      "wikipedia": "",
+      "osmTags": {
+        "tourism": "museum"
+      },
+      "fame": 4
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d80d775d53d02705ffcd",
+      "name": "Στης Φλώρας το βεράνι",
       "nameEnglish": "",
       "category": "food_drink",
       "subcategory": "restaurant",
-      "lat": 37.9393932,
-      "lng": 23.6500423,
-      "distanceFromTerminalMeters": 1044,
-      "distanceFromDefaultTerminalMeters": 1044,
-      "minDistanceFromAnyTerminalMeters": 1044,
+      "lat": 37.9332829,
+      "lng": 23.6369757,
+      "distanceFromTerminalMeters": 687,
+      "distanceFromDefaultTerminalMeters": 687,
+      "minDistanceFromAnyTerminalMeters": 687,
       "nearestTerminalId": "ports-json-anchor",
-      "address": "11 Αγγέλου Μεταξά, Πειραιάς, 18534, GR",
-      "openingHours": "Mo-Su 09:00-02:00",
-      "website": "https://www.belleamie.gr/",
-      "phone": "+302104175740",
+      "address": "57 Φαβιέρου, Πειραιάς, 18538",
+      "openingHours": "",
+      "website": "https://www.verani.gr/",
+      "phone": "+30 6980082334",
       "cuisine": [
         "greek"
       ],
-      "wheelchair": "no",
+      "wheelchair": "",
       "brand": "",
-      "description": "",
+      "description": "Μουσικό μεζεδοπωλείο /  ρεμπετάδικο",
+      "wikidata": "",
+      "wikipedia": "",
       "osmTags": {
         "amenity": "restaurant"
       }
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/99f111d1f545b5ef3195",
-      "name": "Βαρούλκο Seaside",
-      "nameEnglish": "Varoulko Seaside",
+      "sourceId": "osm/generated/b6903bd6fdea8f2752c9",
+      "name": "Pizza Fan",
+      "nameEnglish": "",
       "category": "food_drink",
-      "subcategory": "restaurant",
-      "lat": 37.937305,
-      "lng": 23.6585293,
-      "distanceFromTerminalMeters": 1104,
-      "distanceFromDefaultTerminalMeters": 1104,
-      "minDistanceFromAnyTerminalMeters": 1104,
+      "subcategory": "fast_food",
+      "lat": 37.9382492,
+      "lng": 23.6396368,
+      "distanceFromTerminalMeters": 806,
+      "distanceFromDefaultTerminalMeters": 806,
+      "minDistanceFromAnyTerminalMeters": 806,
       "nearestTerminalId": "ports-json-anchor",
-      "address": "52 Ακτή Αλέξανδρου Κουμουνδούρου, Πειραιάς, 185 33, GR",
-      "openingHours": "",
-      "website": "https://www.varoulko.gr/",
-      "phone": "",
+      "address": "9 Αγίου Νικολάου, Πειραιάς, 18537",
+      "openingHours": "Mo-Su 12:00-00:30",
+      "website": "https://www.pizzafan.gr/",
+      "phone": "+302104510025",
       "cuisine": [
-        "seafood"
+        "pizza"
       ],
       "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "",
+      "wikipedia": "",
       "osmTags": {
-        "amenity": "restaurant"
+        "amenity": "fast_food"
       }
     },
     {
@@ -1219,9 +949,9 @@
       "subcategory": "restaurant",
       "lat": 37.9383738,
       "lng": 23.6403793,
-      "distanceFromTerminalMeters": 1257,
-      "distanceFromDefaultTerminalMeters": 1257,
-      "minDistanceFromAnyTerminalMeters": 1257,
+      "distanceFromTerminalMeters": 873,
+      "distanceFromDefaultTerminalMeters": 873,
+      "minDistanceFromAnyTerminalMeters": 873,
       "nearestTerminalId": "ports-json-anchor",
       "address": "3 Αγίου Νικολάου, Πειραιάς",
       "openingHours": "Mo-Th 12:30-23:15; Fr 12:30-23:45; Sa 14:00-23:45; Su off",
@@ -1233,6 +963,8 @@
       "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "",
+      "wikipedia": "",
       "osmTags": {
         "amenity": "restaurant"
       }
@@ -1246,9 +978,9 @@
       "subcategory": "restaurant",
       "lat": 37.9398252,
       "lng": 23.6426905,
-      "distanceFromTerminalMeters": 1267,
-      "distanceFromDefaultTerminalMeters": 1267,
-      "minDistanceFromAnyTerminalMeters": 1267,
+      "distanceFromTerminalMeters": 1109,
+      "distanceFromDefaultTerminalMeters": 1109,
+      "minDistanceFromAnyTerminalMeters": 1109,
       "nearestTerminalId": "ports-json-anchor",
       "address": "14 Σκουζέ, Πειραιάς, 18536",
       "openingHours": "12:00-23:30",
@@ -1260,137 +992,182 @@
       "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "",
+      "wikipedia": "",
       "osmTags": {
         "amenity": "restaurant"
       }
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/d38e8a461ad6eaeb3acd",
-      "name": "Italida",
+      "sourceId": "osm/generated/01a25073affb790f091f",
+      "name": "Ιμαλάια",
       "nameEnglish": "",
       "category": "food_drink",
-      "subcategory": "restaurant",
-      "lat": 37.9394982,
-      "lng": 23.6413144,
-      "distanceFromTerminalMeters": 1302,
-      "distanceFromDefaultTerminalMeters": 1302,
-      "minDistanceFromAnyTerminalMeters": 1302,
+      "subcategory": "fast_food",
+      "lat": 37.9356086,
+      "lng": 23.6466223,
+      "distanceFromTerminalMeters": 1412,
+      "distanceFromDefaultTerminalMeters": 1412,
+      "minDistanceFromAnyTerminalMeters": 1412,
       "nearestTerminalId": "ports-json-anchor",
-      "address": "",
-      "openingHours": "Mo-Su 12:00-00:00",
-      "website": "https://italida.gr/",
-      "phone": "+30 2104292005",
+      "address": "50 Ακτή Μουτσοπούλου, Πειραιάς",
+      "openingHours": "Tu-Sa 19:00-03:00",
+      "website": "https://mmga.gr/menu_imalaia.pdf",
+      "phone": "+30 2104287662",
       "cuisine": [
-        "italian"
+        "hot_dog"
       ],
       "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "fast_food"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/7ad6783898a63dcaa693",
+      "name": "Belle Amie",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 37.9393932,
+      "lng": 23.6500423,
+      "distanceFromTerminalMeters": 1727,
+      "distanceFromDefaultTerminalMeters": 1727,
+      "minDistanceFromAnyTerminalMeters": 1727,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "11 Αγγέλου Μεταξά, Πειραιάς, 18534, GR",
+      "openingHours": "Mo-Su 09:00-02:00",
+      "website": "https://www.belleamie.gr/",
+      "phone": "+302104175740",
+      "cuisine": [
+        "greek"
+      ],
+      "wheelchair": "no",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
       "osmTags": {
         "amenity": "restaurant"
       }
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/a1b4446ee3d1ab7caf01",
-      "name": "Coffee Island",
+      "sourceId": "osm/generated/a8bbeef1a032348c0060",
+      "name": "Τεχνών Γεύσεις",
       "nameEnglish": "",
       "category": "food_drink",
-      "subcategory": "cafe",
-      "lat": 37.9431077,
-      "lng": 23.6482886,
-      "distanceFromTerminalMeters": 1465,
-      "distanceFromDefaultTerminalMeters": 1465,
-      "minDistanceFromAnyTerminalMeters": 1465,
+      "subcategory": "restaurant",
+      "lat": 37.9477822,
+      "lng": 23.6449356,
+      "distanceFromTerminalMeters": 1745,
+      "distanceFromDefaultTerminalMeters": 1745,
+      "minDistanceFromAnyTerminalMeters": 1745,
       "nearestTerminalId": "ports-json-anchor",
-      "address": "15 Agiou Konstantinou",
-      "openingHours": "Mo-Sa 05:30-21:00; Su 07:00-21:00",
-      "website": "https://coffeeisland.gr",
-      "phone": "+30 21 6002 8527",
+      "address": "1 Κέκροπος, Πειραιάς, 18531, GR",
+      "openingHours": "Mo-Fr",
+      "website": "",
+      "phone": "+30 2102461267",
       "cuisine": [
-        "coffee_shop"
+        "greek"
       ],
       "wheelchair": "",
-      "brand": "Coffee Island",
-      "description": "",
+      "brand": "",
+      "description": "Μαγειρείο",
+      "wikidata": "",
+      "wikipedia": "",
       "osmTags": {
-        "amenity": "cafe"
+        "amenity": "restaurant"
       }
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/86bc8199d115441993cb",
-      "name": "Τα Κατσαρολάκια",
-      "nameEnglish": "Ta Κatsarolakia",
+      "sourceId": "osm/generated/d25b00cb6c34c877bd64",
+      "name": "Τάκα-Τάκα",
+      "nameEnglish": "",
       "category": "food_drink",
-      "subcategory": "restaurant",
-      "lat": 37.9365475,
-      "lng": 23.6507973,
-      "distanceFromTerminalMeters": 731,
-      "distanceFromDefaultTerminalMeters": 731,
-      "minDistanceFromAnyTerminalMeters": 731,
+      "subcategory": "fast_food",
+      "lat": 37.9423531,
+      "lng": 23.6503059,
+      "distanceFromTerminalMeters": 1831,
+      "distanceFromDefaultTerminalMeters": 1831,
+      "minDistanceFromAnyTerminalMeters": 1831,
       "nearestTerminalId": "ports-json-anchor",
-      "address": "21 Ακτή Μουτσοπούλου",
+      "address": "66 Tsamadou",
+      "openingHours": "Mo-Fr, Su 11:30-00:00; Sa 11:30-17:00",
+      "website": "https://thelosouvlakia.gr",
+      "phone": "+30 21 0413 6951",
+      "cuisine": [
+        "souvlaki"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "fast_food"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/15a4ebecbbd79d4eb0db",
+      "name": "El Forno",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "fast_food",
+      "lat": 37.9338253,
+      "lng": 23.6337666,
+      "distanceFromTerminalMeters": 439,
+      "distanceFromDefaultTerminalMeters": 439,
+      "minDistanceFromAnyTerminalMeters": 439,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "88 Γεωργίου Θεοτόκη, Πειραιάς, 18539, GR",
       "openingHours": "",
-      "website": "https://takatsarolakia.gr/",
-      "phone": "+30 21 04100609",
-      "cuisine": [],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "amenity": "restaurant"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/31665b2d91a4578ef723",
-      "name": "CHE Cocina y Barra Sudamericana",
-      "nameEnglish": "",
-      "category": "food_drink",
-      "subcategory": "restaurant",
-      "lat": 37.9403294,
-      "lng": 23.6461311,
-      "distanceFromTerminalMeters": 1198,
-      "distanceFromDefaultTerminalMeters": 1198,
-      "minDistanceFromAnyTerminalMeters": 1198,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "151 Καραΐσκου, 18535",
-      "openingHours": "Mo-Fr 13:00-02:00; Sa 10:00-03:00; Su 10:00-02:00",
-      "website": "https://cherestaurant.gr",
-      "phone": "+30 21 0429 6660",
-      "cuisine": [],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "amenity": "restaurant"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/000dd92a215f320ce092",
-      "name": "Di Bella",
-      "nameEnglish": "",
-      "category": "food_drink",
-      "subcategory": "restaurant",
-      "lat": 37.9493026,
-      "lng": 23.6566856,
-      "distanceFromTerminalMeters": 2225,
-      "distanceFromDefaultTerminalMeters": 2225,
-      "minDistanceFromAnyTerminalMeters": 2225,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "59 Πειραιώς, Πειραιάς, 18540, GR",
-      "openingHours": "19:00+",
-      "website": "http://dibella.com.gr",
-      "phone": "+30 21 0417 6878",
+      "website": "https://www.elforno.gr/",
+      "phone": "+30 21 04516170",
       "cuisine": [
-        "regional"
+        "pizza"
+      ],
+      "wheelchair": "no",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "fast_food"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/4a1b48a4f9af2c6c6c10",
+      "name": "Το ρόδον του Νείλου",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 37.9338121,
+      "lng": 23.6351212,
+      "distanceFromTerminalMeters": 523,
+      "distanceFromDefaultTerminalMeters": 523,
+      "minDistanceFromAnyTerminalMeters": 523,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "53 Γεωργίου Θεοτόκη, Πειραιάς, 18538, GR",
+      "openingHours": "",
+      "website": "https://www.rodontouneilou.com",
+      "phone": "+30 2114118859",
+      "cuisine": [
+        "greek"
       ],
       "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "",
+      "wikipedia": "",
       "osmTags": {
         "amenity": "restaurant"
       }
@@ -1404,9 +1181,9 @@
       "subcategory": "restaurant",
       "lat": 37.9548527,
       "lng": 23.640007,
-      "distanceFromTerminalMeters": 2899,
-      "distanceFromDefaultTerminalMeters": 2899,
-      "minDistanceFromAnyTerminalMeters": 2899,
+      "distanceFromTerminalMeters": 2161,
+      "distanceFromDefaultTerminalMeters": 2161,
+      "minDistanceFromAnyTerminalMeters": 2161,
       "nearestTerminalId": "ports-json-anchor",
       "address": "72 Αιτωλικού, Πειραιάς, 18545",
       "openingHours": "Mo-Su 12:00-00:30",
@@ -1418,74 +1195,723 @@
       "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "",
+      "wikipedia": "",
       "osmTags": {
         "amenity": "restaurant"
       }
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/2e8041a86d8a05ffdc5a",
-      "name": "Amber Cellar",
-      "nameEnglish": "Amber Cellar",
+      "sourceId": "osm/generated/5f47d0dddfe957f4c232",
+      "name": "Η Τρικαλινή",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "fast_food",
+      "lat": 37.9310106,
+      "lng": 23.6331181,
+      "distanceFromTerminalMeters": 689,
+      "distanceFromDefaultTerminalMeters": 689,
+      "minDistanceFromAnyTerminalMeters": 689,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "68 Καρπάθου, Πειραιάς, 18539, GR",
+      "openingHours": "18:00-00:30",
+      "website": "",
+      "phone": "+30 210 4522762",
+      "cuisine": [
+        "souvlaki"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "fast_food"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b976ba17a04beb19c00d",
+      "name": "Starfish",
+      "nameEnglish": "",
       "category": "food_drink",
       "subcategory": "restaurant",
-      "lat": 37.9462611,
-      "lng": 23.6428954,
-      "distanceFromTerminalMeters": 1912,
-      "distanceFromDefaultTerminalMeters": 1912,
-      "minDistanceFromAnyTerminalMeters": 1912,
+      "lat": 37.9290856,
+      "lng": 23.6286552,
+      "distanceFromTerminalMeters": 884,
+      "distanceFromDefaultTerminalMeters": 884,
+      "minDistanceFromAnyTerminalMeters": 884,
       "nearestTerminalId": "ports-json-anchor",
-      "address": "Αριστείδου, Πειραιάς",
-      "openingHours": "Mo-Su 11:00-00:00",
-      "website": "https://www.mitsis.com/en/hotels/nu-piraeus-port/restaurant/amber-cellar",
-      "phone": "+30 2144091060",
+      "address": "302 Ακτή Θεμιστοκλέους, Πειραιάς",
+      "openingHours": "Mo-Sa 12:00-23:30",
+      "website": "",
+      "phone": "+306940701595",
+      "cuisine": [
+        "seafood"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/cc7b8c8e9a46438af6a2",
+      "name": "Τα βράχια της Πειραϊκής",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 37.9289931,
+      "lng": 23.6288098,
+      "distanceFromTerminalMeters": 892,
+      "distanceFromDefaultTerminalMeters": 892,
+      "minDistanceFromAnyTerminalMeters": 892,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "300 Ακτή Θεμιστοκλέους, Πειραιάς, 18539",
+      "openingHours": "Mo-Su 12:00-23:00",
+      "website": "",
+      "phone": "+30 2104538461",
+      "cuisine": [
+        "seafood"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/9669357e913366bbb812",
+      "name": "Πίτα νοστιμιάς",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "fast_food",
+      "lat": 37.9368563,
+      "lng": 23.6412696,
+      "distanceFromTerminalMeters": 935,
+      "distanceFromDefaultTerminalMeters": 935,
+      "minDistanceFromAnyTerminalMeters": 935,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "29-31 Σαχτούρη, Πειραιάς, 18536, GR",
+      "openingHours": "Mo-Su 12:00-01:00",
+      "website": "",
+      "phone": "+30 210 003 4860",
+      "cuisine": [
+        "barbecue"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "fast_food"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/085d899251d1211c0bb3",
+      "name": "Roma Pizza",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "fast_food",
+      "lat": 37.9368876,
+      "lng": 23.6416031,
+      "distanceFromTerminalMeters": 964,
+      "distanceFromDefaultTerminalMeters": 964,
+      "minDistanceFromAnyTerminalMeters": 964,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "102 Ηρώων Πολυτεχνείου",
+      "openingHours": "Mo-Su 12:00-00:00",
+      "website": "",
+      "phone": "+30 2104528000",
+      "cuisine": [
+        "pizza"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "fast_food"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b57ad959c0d9e2d2cd47",
+      "name": "Da Luca",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "fast_food",
+      "lat": 37.9475179,
+      "lng": 23.6425856,
+      "distanceFromTerminalMeters": 1581,
+      "distanceFromDefaultTerminalMeters": 1581,
+      "minDistanceFromAnyTerminalMeters": 1581,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "2 Πλατεία Λουδοβίκου, Πειραιάς, 18531",
+      "openingHours": "Mo-Su 06:00-22:30",
+      "website": "",
+      "phone": "+30 2104130424",
+      "cuisine": [
+        "italian"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "fast_food"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d4b7b46692b7aaab742a",
+      "name": "Chef in love",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "fast_food",
+      "lat": 37.943391,
+      "lng": 23.6498599,
+      "distanceFromTerminalMeters": 1837,
+      "distanceFromDefaultTerminalMeters": 1837,
+      "minDistanceFromAnyTerminalMeters": 1837,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "113 Πραξιτέλους, Πειραιάς, 18532, GR",
+      "openingHours": "",
+      "website": "https://chefinlovepizza.gr/",
+      "phone": "+30 2104222521",
+      "cuisine": [
+        "pizza"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "fast_food"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/552d23933b8fca03861d",
+      "name": "Healthy harmony",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 37.940924,
+      "lng": 23.6475107,
+      "distanceFromTerminalMeters": 1549,
+      "distanceFromDefaultTerminalMeters": 1549,
+      "minDistanceFromAnyTerminalMeters": 1549,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "156-158 Πραξιτέλους, Πειραιάς, 18535",
+      "openingHours": "Mo-Fr 08:30-17:30",
+      "website": "https://healthyharmony.gr",
+      "phone": "+302104100201",
+      "cuisine": [],
+      "wheelchair": "limited",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/fd578ea03bd00b7fa51b",
+      "name": "Coffee & snack",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 37.942174,
+      "lng": 23.6438649,
+      "distanceFromTerminalMeters": 1303,
+      "distanceFromDefaultTerminalMeters": 1303,
+      "minDistanceFromAnyTerminalMeters": 1303,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "50Α Φίλωνος",
+      "openingHours": "",
+      "website": "",
+      "phone": "+302104226565",
+      "cuisine": [
+        "coffee_shop"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/150e2fc94c29ef8fd78b",
+      "name": "Krema Kanela",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 37.9414692,
+      "lng": 23.6506125,
+      "distanceFromTerminalMeters": 1827,
+      "distanceFromDefaultTerminalMeters": 1827,
+      "minDistanceFromAnyTerminalMeters": 1827,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "18534",
+      "openingHours": "Mo-Fr 06:00-22:00; Sa-Su 07:00-22:00",
+      "website": "https://kremakanela.gr",
+      "phone": "+30 21 0422 5959",
       "cuisine": [],
       "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "",
+      "wikipedia": "",
       "osmTags": {
-        "amenity": "restaurant"
+        "amenity": "cafe"
       }
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/f74e3da8009a39c775c9",
-      "name": "Απολλώνια Λύρα-Πλάκα",
-      "nameEnglish": "Apollonia Lyra - Plaka",
+      "sourceId": "osm/generated/6bffa4ad7b75534d23f2",
+      "name": "Bubbletale",
+      "nameEnglish": "",
       "category": "food_drink",
-      "subcategory": "restaurant",
-      "lat": 37.9735287,
-      "lng": 23.7280984,
-      "distanceFromTerminalMeters": 8386,
-      "distanceFromDefaultTerminalMeters": 8386,
-      "minDistanceFromAnyTerminalMeters": 8386,
+      "subcategory": "cafe",
+      "lat": 37.9411582,
+      "lng": 23.6479266,
+      "distanceFromTerminalMeters": 1591,
+      "distanceFromDefaultTerminalMeters": 1591,
+      "minDistanceFromAnyTerminalMeters": 1591,
       "nearestTerminalId": "ports-json-anchor",
-      "address": "",
-      "openingHours": "We-Su 09:00-00:30; Mo 09:00-00:00; Tu 08:30-23:30",
-      "website": "https://lyrarestaurant.gr",
-      "phone": "+30 21 0322 9727",
+      "address": "29 Σωτήρος Διός, Πειραιάς, 18535, GR",
+      "openingHours": "",
+      "website": "http://www.bubbletale.gr/",
+      "phone": "",
       "cuisine": [
-        "greek"
+        "bubble_tea"
       ],
       "wheelchair": "no",
       "brand": "",
       "description": "",
+      "wikidata": "",
+      "wikipedia": "",
       "osmTags": {
-        "amenity": "restaurant"
+        "amenity": "cafe"
       }
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/6449ffdd1baf1c4de629",
-      "name": "Αγνό market",
+      "sourceId": "osm/generated/8b135e9e08c84518ea5b",
+      "name": "Relax Point",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 37.9292686,
+      "lng": 23.628483,
+      "distanceFromTerminalMeters": 867,
+      "distanceFromDefaultTerminalMeters": 867,
+      "minDistanceFromAnyTerminalMeters": 867,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "306 Ακτή Θεμιστοκλέους, Πειραιάς",
+      "openingHours": "Mo-Su 07:00-12:00",
+      "website": "",
+      "phone": "+30 2104599671",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/735e8e6be15e6e7460da",
+      "name": "Jemma",
       "nameEnglish": "",
       "category": "shopping",
-      "subcategory": "butcher",
-      "lat": 37.9331188,
-      "lng": 23.6453696,
-      "distanceFromTerminalMeters": 534,
-      "distanceFromDefaultTerminalMeters": 534,
-      "minDistanceFromAnyTerminalMeters": 534,
+      "subcategory": "books",
+      "lat": 37.9410028,
+      "lng": 23.6470293,
+      "distanceFromTerminalMeters": 1511,
+      "distanceFromDefaultTerminalMeters": 1511,
+      "minDistanceFromAnyTerminalMeters": 1511,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "138-140 Αλκιβιάδου, Πειραιάς",
+      "openingHours": "Mo-Sa 10:00-20:00",
+      "website": "https://jemmacomics.com/",
+      "phone": "+30 21 04227664",
+      "cuisine": [],
+      "wheelchair": "no",
+      "brand": "",
+      "description": "books & comics",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "shop": "books"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/59e296fd0db68d3de87d",
+      "name": "Αφροδίτη",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "jewelry",
+      "lat": 37.9409195,
+      "lng": 23.6454945,
+      "distanceFromTerminalMeters": 1380,
+      "distanceFromDefaultTerminalMeters": 1380,
+      "minDistanceFromAnyTerminalMeters": 1380,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "55-57 Ηρώων Πολυτεχνείου, Πειραιάς, 18535, GR",
+      "openingHours": "Mo-Sa 10:00-16:00; Tu,Th 10:00-14:30,17:00-20:00; Fr 10:00-20:00",
+      "website": "https://www.symbolcollection.gr",
+      "phone": "+30 21 04296637",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "shop": "jewelry"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/55e6a5136a27d8688071",
+      "name": "Panos Kapakos",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "jewelry",
+      "lat": 37.9408202,
+      "lng": 23.6459459,
+      "distanceFromTerminalMeters": 1414,
+      "distanceFromDefaultTerminalMeters": 1414,
+      "minDistanceFromAnyTerminalMeters": 1414,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "26 Μπουμπουλίνας, Πειραιάς, 18535",
+      "openingHours": "",
+      "website": "http://www.nausica.gr;https://jewelies.com",
+      "phone": "+30 2104297081",
+      "cuisine": [],
+      "wheelchair": "no",
+      "brand": "",
+      "description": "κοσμήματα και κεραμικά",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "shop": "jewelry"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f1a61efbb60341854a39",
+      "name": "Εκθεση Χριστιανικού Βιβλίου",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "books",
+      "lat": 37.9442494,
+      "lng": 23.6451821,
+      "distanceFromTerminalMeters": 1518,
+      "distanceFromDefaultTerminalMeters": 1518,
+      "minDistanceFromAnyTerminalMeters": 1518,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "2 Εθνικής Αντιστάσεως, Πειραιάς, 18535",
+      "openingHours": "Mo,We,Sa 10:00-15:00; Tu,Th,Fr 09:00-14:00,17:00-20:00",
+      "website": "https://exb.imp.gr/",
+      "phone": "+302104122625",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "shop": "books"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/4880c15046c15b706883",
+      "name": "Zimari",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "bakery",
+      "lat": 37.9475193,
+      "lng": 23.6429072,
+      "distanceFromTerminalMeters": 1600,
+      "distanceFromDefaultTerminalMeters": 1600,
+      "minDistanceFromAnyTerminalMeters": 1600,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Γεωργίου Κασιμάτη, Πειραιάς",
+      "openingHours": "Mo-Su 05:30-21:00",
+      "website": "",
+      "phone": "+30 210 4112000",
+      "cuisine": [
+        "coffee_shop"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "shop": "bakery"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c558e489c9c1ee0ab786",
+      "name": "Σωτήρ",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "books",
+      "lat": 37.9450281,
+      "lng": 23.646332,
+      "distanceFromTerminalMeters": 1649,
+      "distanceFromDefaultTerminalMeters": 1649,
+      "minDistanceFromAnyTerminalMeters": 1649,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "34α Φίλωνος, Πειραιάς, 18531",
+      "openingHours": "Mo, We, Sa 09:00-15:00; Tu, Th, Fr 09:00-14:00; Tu, Th 17:00-20:00; Fr 17:00-18:30",
+      "website": "https://www.osotir.org/pireas/",
+      "phone": "+302104179022",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "shop": "books"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c954fa033c8b2084b4c5",
+      "name": "STOP personal protective equipment",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "clothes",
+      "lat": 37.9514679,
+      "lng": 23.6350436,
+      "distanceFromTerminalMeters": 1667,
+      "distanceFromDefaultTerminalMeters": 1667,
+      "minDistanceFromAnyTerminalMeters": 1667,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "2-4 Αναπαύσεως, Πειραιάς, 18546, GR",
+      "openingHours": "Mo,We 08:00-16:00; Tu,Th-Fr 08:00-20:00; Sa 08:00-15:00",
+      "website": "https://www.stop.gr/",
+      "phone": "+30 210 4626800",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "shop": "clothes"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b61cb07d59968ddc3962",
+      "name": "allegra",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "jewelry",
+      "lat": 37.9413747,
+      "lng": 23.6495643,
+      "distanceFromTerminalMeters": 1736,
+      "distanceFromDefaultTerminalMeters": 1736,
+      "minDistanceFromAnyTerminalMeters": 1736,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "26 Βασιλέως Γεωργίου Α', Πειραιάς, 18535, GR",
+      "openingHours": "Mo-Sa 10:00-15:00; Tu,Th,Fr 10:00-21:00; PH off",
+      "website": "https://allegrajewels.gr/",
+      "phone": "+30 2104127433",
+      "cuisine": [],
+      "wheelchair": "no",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "shop": "jewelry"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/196057074a7b3ccbffba",
+      "name": "Μουστάκας",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "toys",
+      "lat": 37.9521929,
+      "lng": 23.638502,
+      "distanceFromTerminalMeters": 1837,
+      "distanceFromDefaultTerminalMeters": 1837,
+      "minDistanceFromAnyTerminalMeters": 1837,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "15 Αιγάλεω, Πειραιάς, 18545",
+      "openingHours": "Mo-Fr 09:00-21:00; Sa 09:00-20:00",
+      "website": "https://www.moustakastoys.gr",
+      "phone": "+302104629086",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "shop": "toys"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/14676489c1a7a19f753a",
+      "name": "George's Bakery",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "bakery",
+      "lat": 37.9424176,
+      "lng": 23.6524459,
+      "distanceFromTerminalMeters": 2011,
+      "distanceFromDefaultTerminalMeters": 2011,
+      "minDistanceFromAnyTerminalMeters": 2011,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "74 Καραολή - Δημητρίου, Πειραιάς, 18534, GR",
+      "openingHours": "Mo-Su 06:00-20:00",
+      "website": "https://georgesbakery.gr",
+      "phone": "+30 21 0411 3360",
+      "cuisine": [],
+      "wheelchair": "no",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "shop": "bakery"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/70b56264a0ef6fe5ba16",
+      "name": "Ο Νικήτας",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "seafood",
+      "lat": 37.9309623,
+      "lng": 23.6319873,
+      "distanceFromTerminalMeters": 670,
+      "distanceFromDefaultTerminalMeters": 670,
+      "minDistanceFromAnyTerminalMeters": 670,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "+30 2104513295",
+      "cuisine": [
+        "seafood"
+      ],
+      "wheelchair": "no",
+      "brand": "",
+      "description": "Ιχθυοπωλείο που πωλεί/παραδίδει και μαγειρεμένο φαγητό",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "shop": "seafood"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/3a46810d8068e5af3085",
+      "name": "Κέντρο Πολιτισμού Ίδρυμα Σταύρος Νιάρχος",
+      "nameEnglish": "Stavros Niarchos Foundation Cultural Center",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 37.9409751,
+      "lng": 23.6930741,
+      "distanceFromTerminalMeters": 5497,
+      "distanceFromDefaultTerminalMeters": 5497,
+      "minDistanceFromAnyTerminalMeters": 5497,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "364 Συγγρού, Καλλιθέα, 17674",
+      "openingHours": "06:00-24:00",
+      "website": "https://www.snfcc.org/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q17511186",
+      "wikipedia": "",
+      "osmTags": {
+        "leisure": "park"
+      },
+      "fame": 13
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/1fe2903341b081880b2c",
+      "name": "Τινάνειος Κήπος",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 37.9435067,
+      "lng": 23.6445485,
+      "distanceFromTerminalMeters": 1427,
+      "distanceFromDefaultTerminalMeters": 1427,
+      "minDistanceFromAnyTerminalMeters": 1427,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Πειραιάς",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q25166889",
+      "wikipedia": "",
+      "osmTags": {
+        "leisure": "park"
+      },
+      "fame": 1
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/33e3f9c05bb166f3ac01",
+      "name": "Μικρολίμανο",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "marina",
+      "lat": 37.9373748,
+      "lng": 23.6603425,
+      "distanceFromTerminalMeters": 2608,
+      "distanceFromDefaultTerminalMeters": 2608,
+      "minDistanceFromAnyTerminalMeters": 2608,
       "nearestTerminalId": "ports-json-anchor",
       "address": "",
       "openingHours": "",
@@ -1495,72 +1921,353 @@
       "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "Q15940472",
+      "wikipedia": "",
       "osmTags": {
-        "shop": "butcher"
+        "leisure": "marina"
+      },
+      "fame": 4
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/316fea45d542eb445623",
+      "name": "Παραλία Φρεαττύδος",
+      "nameEnglish": "Blue Lagoon",
+      "category": "outdoors",
+      "subcategory": "beach",
+      "lat": 37.9303774,
+      "lng": 23.6473513,
+      "distanceFromTerminalMeters": 1637,
+      "distanceFromDefaultTerminalMeters": 1637,
+      "minDistanceFromAnyTerminalMeters": 1637,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q25166886",
+      "wikipedia": "",
+      "osmTags": {
+        "natural": "beach"
+      },
+      "fame": 1
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/21e484a425e8f4d4e4bf",
+      "name": "Βοτσαλάκια",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "beach",
+      "lat": 37.9353353,
+      "lng": 23.6550592,
+      "distanceFromTerminalMeters": 2151,
+      "distanceFromDefaultTerminalMeters": 2151,
+      "minDistanceFromAnyTerminalMeters": 2151,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q25166884",
+      "wikipedia": "",
+      "osmTags": {
+        "natural": "beach"
+      },
+      "fame": 1
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c66b1fe092cc7acf02c7",
+      "name": "Μαρίνα Ζέας",
+      "nameEnglish": "Zea Marina",
+      "category": "outdoors",
+      "subcategory": "marina",
+      "lat": 37.9348083,
+      "lng": 23.649343,
+      "distanceFromTerminalMeters": 1659,
+      "distanceFromDefaultTerminalMeters": 1659,
+      "minDistanceFromAnyTerminalMeters": 1659,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Πειραιάς, 18536, GR",
+      "openingHours": "",
+      "website": "http://www.d-marin.com/",
+      "phone": "+302104559000",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "leisure": "marina"
       }
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/14f70458e65f70ee6656",
-      "name": "Tsakiris Mallas",
+      "sourceId": "osm/generated/fa0488ce9c209a9c1d98",
+      "name": "Πλατεία Ηρώων Αεροπόρων και Πεσόντων C-130",
       "nameEnglish": "",
-      "category": "shopping",
-      "subcategory": "shoes",
-      "lat": 37.9419015,
-      "lng": 23.6491668,
-      "distanceFromTerminalMeters": 1325,
-      "distanceFromDefaultTerminalMeters": 1325,
-      "minDistanceFromAnyTerminalMeters": 1325,
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 37.9522461,
+      "lng": 23.6331716,
+      "distanceFromTerminalMeters": 1723,
+      "distanceFromDefaultTerminalMeters": 1723,
+      "minDistanceFromAnyTerminalMeters": 1723,
       "nearestTerminalId": "ports-json-anchor",
-      "address": "19 Βασιλέως Γεωργίου Α', Πειραιάς, 18532, GR",
-      "openingHours": "Mo-Sa 09:00-17:00; Tu,Th,Fr 09:00-21:00; PH off",
+      "address": "Σφακτηρίας, Πειραιάς",
+      "openingHours": "",
       "website": "",
-      "phone": "+30 2104126620",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/e82ca4da1bfb6d729539",
+      "name": "πλαζ \"Καλαμπάκα\"",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "beach",
+      "lat": 37.9322145,
+      "lng": 23.6272419,
+      "distanceFromTerminalMeters": 598,
+      "distanceFromDefaultTerminalMeters": 598,
+      "minDistanceFromAnyTerminalMeters": 598,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "natural": "beach"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c754ee3aece88eeff2d0",
+      "name": "Κράκαρης",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "beach",
+      "lat": 37.9407621,
+      "lng": 23.6207656,
+      "distanceFromTerminalMeters": 965,
+      "distanceFromDefaultTerminalMeters": 965,
+      "minDistanceFromAnyTerminalMeters": 965,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "natural": "beach"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c50aa212793350d9f553",
+      "name": "Πλατεία Λαού",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 37.9585224,
+      "lng": 23.6247773,
+      "distanceFromTerminalMeters": 2460,
+      "distanceFromDefaultTerminalMeters": 2460,
+      "minDistanceFromAnyTerminalMeters": 2460,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Λεωφόρος Δημοκρατίας & Θεοφράστου, Κερατσίνι, 18756",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ecebdfdf9fa4db59a009",
+      "name": "Virtus",
+      "nameEnglish": "",
+      "category": "essentials",
+      "subcategory": "car_rental",
+      "lat": 37.9379327,
+      "lng": 23.6395612,
+      "distanceFromTerminalMeters": 794,
+      "distanceFromDefaultTerminalMeters": 794,
+      "minDistanceFromAnyTerminalMeters": 794,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "67 Ακτή Μιαούλη, Πειραιάς, 18537, GR",
+      "openingHours": "Mo-Su 08:00-20:00",
+      "website": "https://www.virtus-cars.com/",
+      "phone": "+30 2104530997",
       "cuisine": [],
       "wheelchair": "no",
       "brand": "",
       "description": "",
+      "wikidata": "",
+      "wikipedia": "",
       "osmTags": {
-        "shop": "shoes"
+        "amenity": "car_rental"
       }
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/b241da4f9dac9c39eed5",
+      "sourceId": "osm/generated/dcbb6f546640511b2a37",
       "name": "Φαρμακείο Mole",
       "nameEnglish": "MOLE Pharmacy",
       "category": "essentials",
       "subcategory": "pharmacy",
       "lat": 37.9495187,
       "lng": 23.6385063,
-      "distanceFromTerminalMeters": 2393,
-      "distanceFromDefaultTerminalMeters": 2393,
-      "minDistanceFromAnyTerminalMeters": 2393,
+      "distanceFromTerminalMeters": 1566,
+      "distanceFromDefaultTerminalMeters": 1566,
+      "minDistanceFromAnyTerminalMeters": 1566,
       "nearestTerminalId": "ports-json-anchor",
       "address": "40 Ακτή Κονδύλη, Πειραιάς, 18545, GR",
       "openingHours": "Mo-Fr 08:00-21:00; Sa 08:00-20:00",
       "website": "https://molepharmacy.com/",
-      "phone": "2104082288",
+      "phone": "+30 21 0408 2288",
       "cuisine": [],
-      "wheelchair": "",
+      "wheelchair": "no",
       "brand": "",
       "description": "",
+      "wikidata": "",
+      "wikipedia": "",
       "osmTags": {
         "amenity": "pharmacy"
       }
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/49a443d41776c993bc66",
-      "name": "Ο Παρθενών",
-      "nameEnglish": "The Parthenon",
+      "sourceId": "osm/generated/59ff7c58a91616febed2",
+      "name": "Καρατζάς Π. - Κουνέλη Ε.",
+      "nameEnglish": "",
       "category": "essentials",
-      "subcategory": "visitor_information",
-      "lat": 37.9715777,
-      "lng": 23.7271541,
-      "distanceFromTerminalMeters": 8194,
-      "distanceFromDefaultTerminalMeters": 8194,
-      "minDistanceFromAnyTerminalMeters": 8194,
+      "subcategory": "pharmacy",
+      "lat": 37.9387002,
+      "lng": 23.6449075,
+      "distanceFromTerminalMeters": 1270,
+      "distanceFromDefaultTerminalMeters": 1270,
+      "minDistanceFromAnyTerminalMeters": 1270,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "26 Σκουζέ, Πειραιάς, 18536, GR",
+      "openingHours": "",
+      "website": "",
+      "phone": "+30 21 04520642",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Έχει φύγει το φαρμακείο από εκεί",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "pharmacy"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/151bfb0bebea5e3444e1",
+      "name": "Μουσείο Ελληνικών Λαϊκών Οργάνων",
+      "nameEnglish": "Museum of Greek Folk Musical Instruments",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 37.9744782,
+      "lng": 23.7275511,
+      "distanceFromTerminalMeters": 9472,
+      "distanceFromDefaultTerminalMeters": 9472,
+      "minDistanceFromAnyTerminalMeters": 9472,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1-3 Διογένους, Αθήνα, 10556, GR",
+      "openingHours": "We-Mo 08:30-15:30",
+      "website": "",
+      "phone": "+30 210 3250198",
+      "cuisine": [],
+      "wheelchair": "no",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q4306254",
+      "wikipedia": "",
+      "osmTags": {
+        "tourism": "museum"
+      },
+      "fame": 6
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/e14456cb36a80dfa82b3",
+      "name": "Μουσείο Μπενάκη Ισλαμικής Τέχνης",
+      "nameEnglish": "Benaki's Museum of Islamic Art",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 37.9792279,
+      "lng": 23.7203407,
+      "distanceFromTerminalMeters": 9168,
+      "distanceFromDefaultTerminalMeters": 9168,
+      "minDistanceFromAnyTerminalMeters": 9168,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Αγίων Ασωμάτων 22 & Διπύλου 12",
+      "openingHours": "Th-Su 10:00-18:00",
+      "website": "https://www.benaki.gr/",
+      "phone": "+30 210 325 1311",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "Includes a collection of over 8000 samples of ceramic, glass, metalwork, jewelery, woodwork, etc. It also promotes the development of Islamic art in the 19th century.",
+      "wikidata": "Q59165188",
+      "wikipedia": "",
+      "osmTags": {
+        "tourism": "museum"
+      },
+      "fame": 2
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/9d705f255c5c89e1fa6f",
+      "name": "Αρχαία Ιερά Οδός",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "archaeological_site",
+      "lat": 38.0124153,
+      "lng": 23.6079239,
+      "distanceFromTerminalMeters": 8631,
+      "distanceFromDefaultTerminalMeters": 8631,
+      "minDistanceFromAnyTerminalMeters": 8631,
       "nearestTerminalId": "ports-json-anchor",
       "address": "",
       "openingHours": "",
@@ -1570,9 +2277,12 @@
       "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "Q3737100",
+      "wikipedia": "el:Αρχαία Ιερά Οδός",
       "osmTags": {
-        "tourism": "information"
-      }
+        "historic": "archaeological_site"
+      },
+      "fame": 13
     },
     {
       "source": "openstreetmap",
@@ -1583,9 +2293,9 @@
       "subcategory": "gallery",
       "lat": 37.9381038,
       "lng": 23.6452496,
-      "distanceFromTerminalMeters": 993,
-      "distanceFromDefaultTerminalMeters": 993,
-      "minDistanceFromAnyTerminalMeters": 993,
+      "distanceFromTerminalMeters": 1291,
+      "distanceFromDefaultTerminalMeters": 1291,
+      "minDistanceFromAnyTerminalMeters": 1291,
       "nearestTerminalId": "ports-json-anchor",
       "address": "",
       "openingHours": "Mo-Fr 11:00-21:00; Sa 11:00-17:00; Su off; PH off",
@@ -1595,77 +2305,183 @@
       "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "",
+      "wikipedia": "",
       "osmTags": {
         "tourism": "gallery"
       }
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/f89b2c0dbf7dc4f91b43",
-      "name": "Art Prisma",
+      "sourceId": "osm/generated/d65f7a3402f6445561e9",
+      "name": "Φιλήντρα",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "clothes",
+      "lat": 37.9427985,
+      "lng": 23.6440882,
+      "distanceFromTerminalMeters": 1353,
+      "distanceFromDefaultTerminalMeters": 1353,
+      "minDistanceFromAnyTerminalMeters": 1353,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "2 Δημοσθένη Πουρή, Πειραιάς, 18535, GR",
+      "openingHours": "",
+      "website": "https://filindra.gr/",
+      "phone": "+302104122744",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "shop": "clothes"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f17763f74fd7fa74592e",
+      "name": "Amira",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "clothes",
+      "lat": 37.9407856,
+      "lng": 23.6453704,
+      "distanceFromTerminalMeters": 1365,
+      "distanceFromDefaultTerminalMeters": 1365,
+      "minDistanceFromAnyTerminalMeters": 1365,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "55-57 Ηρώων Πολυτεχνείου, Πειραιάς, 18535, GR",
+      "openingHours": "",
+      "website": "https://www.cuca.gr/",
+      "phone": "+30 21 04297854",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "shop": "clothes"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f2346c034be83d333f59",
+      "name": "Just Jeans",
+      "nameEnglish": "JUST JEANS",
+      "category": "shopping",
+      "subcategory": "clothes",
+      "lat": 37.9451006,
+      "lng": 23.6432886,
+      "distanceFromTerminalMeters": 1439,
+      "distanceFromDefaultTerminalMeters": 1439,
+      "minDistanceFromAnyTerminalMeters": 1439,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "8 Ακτή Ποσειδώνος, 18531, GR",
+      "openingHours": "Mo-Su 08:30-20:30",
+      "website": "",
+      "phone": "+30 21 0417 6773",
+      "cuisine": [],
+      "wheelchair": "no",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "shop": "clothes"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b58bd2596ec74dfe0f3b",
+      "name": "Yacht Winss",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "clothes",
+      "lat": 37.9333017,
+      "lng": 23.6467682,
+      "distanceFromTerminalMeters": 1472,
+      "distanceFromDefaultTerminalMeters": 1472,
+      "minDistanceFromAnyTerminalMeters": 1472,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "4 Ακτή Θεμιστοκλέους, Πειραιάς, 18536",
+      "openingHours": "",
+      "website": "https://yachtwinss.com/",
+      "phone": "+30 6977710818",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "shop": "clothes"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/89ce3515ce927d10110b",
+      "name": "Ανατομικά Σακελλάρη",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "shoes",
+      "lat": 37.9417583,
+      "lng": 23.646522,
+      "distanceFromTerminalMeters": 1497,
+      "distanceFromDefaultTerminalMeters": 1497,
+      "minDistanceFromAnyTerminalMeters": 1497,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "20 Σωτήρος Διός, Πειραιάς",
+      "openingHours": "",
+      "website": "https://sakellaris.gr/",
+      "phone": "+30 21 04223293",
+      "cuisine": [],
+      "wheelchair": "no",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "shop": "shoes"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f2242d658f2ada63d687",
+      "name": "Ξυλαποθήκη",
       "nameEnglish": "",
       "category": "attraction",
       "subcategory": "gallery",
-      "lat": 37.9397122,
-      "lng": 23.6472362,
-      "distanceFromTerminalMeters": 1107,
-      "distanceFromDefaultTerminalMeters": 1107,
-      "minDistanceFromAnyTerminalMeters": 1107,
+      "lat": 37.9468857,
+      "lng": 23.6504842,
+      "distanceFromTerminalMeters": 2067,
+      "distanceFromDefaultTerminalMeters": 2067,
+      "minDistanceFromAnyTerminalMeters": 2067,
       "nearestTerminalId": "ports-json-anchor",
-      "address": "",
+      "address": "8 Πύλης",
       "openingHours": "",
       "website": "",
-      "phone": "",
+      "phone": "+30 2104127154",
       "cuisine": [],
       "wheelchair": "",
       "brand": "",
-      "description": "",
+      "description": "εκθεσιακός χώρος",
+      "wikidata": "",
+      "wikipedia": "",
       "osmTags": {
         "tourism": "gallery"
       }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/7152e808848110d9ee3c",
-      "name": "Νέο Σιδηροδρομικό Μουσείο",
-      "nameEnglish": "Railway Museum Athens",
-      "category": "attraction",
-      "subcategory": "museum",
-      "lat": 37.9535388,
-      "lng": 23.6506685,
-      "distanceFromTerminalMeters": 2618,
-      "distanceFromDefaultTerminalMeters": 2618,
-      "minDistanceFromAnyTerminalMeters": 2618,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "Υμηττού",
-      "openingHours": "",
-      "website": "",
-      "phone": "",
-      "cuisine": [],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "tourism": "museum"
-      }
     }
   ],
-  "portAnchor": {
-    "id": "ports-json-anchor",
-    "name": "PIRAIEVS Port",
-    "lat": 37.93,
-    "lng": 23.65,
-    "address": "Drapetsona, Attica, Greece",
-    "source": "ports.json",
-    "sourceId": "",
-    "score": 0,
-    "slug": "piraievs-port"
-  },
+  "gemSuggestions": [
+    "Mikrolimano harbour",
+    "Varvakios Agora (Athens Central Market)"
+  ],
   "terminalResolution": {
     "status": "resolved",
-    "method": "terminal_review",
+    "method": "cruise-ports",
     "verified": true,
-    "reviewedAt": "2026-09-28",
-    "notes": "These are the Piraeus cruise terminals (for Athens). Worth renaming this port to Piraeus. Terminal sweep: Added Piraeus Cruise Terminal A (Miaoulis), from Google Maps."
+    "notes": "These are the Piraeus cruise terminals (for Athens). Worth renaming this port to Piraeus. Added Piraeus Cruise Terminal A (Miaoulis), from Google Maps."
   }
 }

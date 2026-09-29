@@ -1,7 +1,34 @@
 {
+  "defaultTerminalId": "osm/generated/d8670698cb81edc53285",
+  "terminal": {
+    "id": "osm/generated/d8670698cb81edc53285",
+    "name": "Passenger Terminal Amsterdam",
+    "lat": 52.377812,
+    "lng": 4.915329,
+    "terminalType": "passenger_cruise_terminal",
+    "source": "verified_terminal_candidate",
+    "address": "27 Piet Heinkade, Amsterdam, 1019BR, NL",
+    "notes": "Accepted 1 candidate explicitly identified as an ocean-cruise or cruise-passenger terminal; ferry and unrelated results were excluded.",
+    "sourceId": "osm/generated/d8670698cb81edc53285",
+    "verified": true
+  },
+  "terminals": [
+    {
+      "id": "osm/generated/d8670698cb81edc53285",
+      "name": "Passenger Terminal Amsterdam",
+      "lat": 52.377812,
+      "lng": 4.915329,
+      "terminalType": "passenger_cruise_terminal",
+      "source": "verified_terminal_candidate",
+      "address": "27 Piet Heinkade, Amsterdam, 1019BR, NL",
+      "notes": "Accepted 1 candidate explicitly identified as an ocean-cruise or cruise-passenger terminal; ferry and unrelated results were excluded.",
+      "sourceId": "osm/generated/d8670698cb81edc53285",
+      "verified": true
+    }
+  ],
   "schemaVersion": 5,
   "catalogType": "curation-candidates",
-  "generatedAt": "2026-07-30T08:31:18.445Z",
+  "generatedAt": "2026-09-29T05:47:34.135Z",
   "source": "openstreetmap",
   "sourceExtract": "noord-holland-latest.osm.pbf",
   "radiusMeters": 10000,
@@ -10,605 +37,148 @@
     "city": "Amsterdam",
     "country": "Netherlands"
   },
-  "defaultTerminalId": "osm/generated/d8670698cb81edc53285",
-  "terminal": {
-    "id": "osm/generated/d8670698cb81edc53285",
+  "portAnchor": {
+    "id": "ports-json-anchor",
     "name": "Passenger Terminal Amsterdam",
-    "nameEnglish": "",
     "lat": 52.377812,
     "lng": 4.915329,
-    "address": "27 Piet Heinkade, Amsterdam, 1019BR, NL",
-    "source": "verified_terminal_candidate",
-    "sourceId": "osm/generated/d8670698cb81edc53285",
-    "terminalType": "passenger_cruise_terminal",
-    "verified": true,
-    "notes": "Accepted 1 candidate explicitly identified as an ocean-cruise or cruise-passenger terminal; ferry and unrelated results were excluded.",
-    "sourceUrls": [],
-    "sources": [
-      "openstreetmap"
-    ],
-    "sourceIds": [
-      "osm/generated/d8670698cb81edc53285"
-    ],
-    "osmTags": {
-      "amenity": "ferry_terminal"
-    },
-    "matchedBy": [
-      "amenity=ferry_terminal",
-      "terminal-like name"
-    ]
+    "address": "Amsterdam, Noord-Holland, Netherlands",
+    "source": "ports.json",
+    "sourceId": "",
+    "score": 0,
+    "slug": "passenger-terminal-amsterdam"
   },
-  "terminals": [
-    {
-      "id": "osm/generated/d8670698cb81edc53285",
-      "name": "Passenger Terminal Amsterdam",
-      "nameEnglish": "",
-      "lat": 52.377812,
-      "lng": 4.915329,
-      "address": "27 Piet Heinkade, Amsterdam, 1019BR, NL",
-      "source": "verified_terminal_candidate",
-      "sourceId": "osm/generated/d8670698cb81edc53285",
-      "terminalType": "passenger_cruise_terminal",
-      "verified": true,
-      "notes": "Accepted 1 candidate explicitly identified as an ocean-cruise or cruise-passenger terminal; ferry and unrelated results were excluded.",
-      "sourceUrls": [],
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/d8670698cb81edc53285"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal"
-      },
-      "matchedBy": [
-        "amenity=ferry_terminal",
-        "terminal-like name"
-      ]
-    }
-  ],
-  "terminalCandidateRadiusMeters": 5000,
-  "terminalCandidates": [
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/5ef548e65db7148095bd",
-      "name": "Centraal Station",
-      "nameEnglish": "",
-      "lat": 52.3786216,
-      "lng": 4.9058483,
-      "distanceFromPortMeters": 1038,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "man_made": "pier",
-        "operator": "Gemeentelijk Vervoerbedrijf",
-        "public_transport": "stop_position"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/5ef548e65db7148095bd"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/3334fbca951c4733d2a5",
-      "name": "Centraal Station",
-      "nameEnglish": "",
-      "lat": 52.3806768,
-      "lng": 4.8993817,
-      "distanceFromPortMeters": 1188,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "man_made": "pier",
-        "operator": "Gemeentelijk Vervoerbedrijf",
-        "public_transport": "platform"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/3334fbca951c4733d2a5"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/d8670698cb81edc53285",
-      "name": "Passenger Terminal Amsterdam",
-      "nameEnglish": "",
-      "lat": 52.3778116,
-      "lng": 4.9153293,
-      "distanceFromPortMeters": 1356,
-      "address": "27 Piet Heinkade, Amsterdam, 1019BR, NL",
-      "matchedBy": [
-        "amenity=ferry_terminal",
-        "terminal-like name"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/d8670698cb81edc53285"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/087f848aa6917a29211d",
-      "name": "Buiksloterweg",
-      "nameEnglish": "",
-      "lat": 52.3821461,
-      "lng": 4.9031727,
-      "distanceFromPortMeters": 1368,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "public_transport": "stop_position",
-        "man_made": "pier",
-        "operator": "Gemeentelijk Vervoerbedrijf"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/087f848aa6917a29211d"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/5f2a6e46edeaedba585a",
-      "name": "IJplein",
-      "nameEnglish": "",
-      "lat": 52.3816808,
-      "lng": 4.908295,
-      "distanceFromPortMeters": 1416,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "public_transport": "platform",
-        "operator": "Gemeentelijk Vervoerbedrijf",
-        "man_made": "pier"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/5f2a6e46edeaedba585a"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/8ad5f7835b1a836e6628",
-      "name": "Amsterdam canal cruises",
-      "nameEnglish": "",
-      "lat": 52.3582092,
-      "lng": 4.8914313,
-      "distanceFromPortMeters": 1434,
-      "address": "",
-      "matchedBy": [
-        "terminal-like name"
-      ],
-      "osmTags": {},
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/8ad5f7835b1a836e6628"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/50e6f9513b83742b7065",
-      "name": "Passenger Terminal Amsterdam",
-      "nameEnglish": "",
-      "lat": 52.3780754,
-      "lng": 4.9170976,
-      "distanceFromPortMeters": 1467,
-      "address": "",
-      "matchedBy": [
-        "terminal-like name"
-      ],
-      "osmTags": {
-        "man_made": "pier"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/50e6f9513b83742b7065"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/2f6d1f4242a7101c8ceb",
-      "name": "Lovers canal Cruises",
-      "nameEnglish": "",
-      "lat": 52.3636914,
-      "lng": 4.8808218,
-      "distanceFromPortMeters": 1479,
-      "address": "",
-      "matchedBy": [
-        "terminal-like name"
-      ],
-      "osmTags": {
-        "cargo": "passengers"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/2f6d1f4242a7101c8ceb"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/79884f9e100f1fca9538",
-      "name": "Canal Cruise",
-      "nameEnglish": "",
-      "lat": 52.3635339,
-      "lng": 4.880547,
-      "distanceFromPortMeters": 1504,
-      "address": "",
-      "matchedBy": [
-        "terminal-like name"
-      ],
-      "osmTags": {
-        "cargo": "passengers"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/79884f9e100f1fca9538"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/7928408fc53ee333f715",
-      "name": "(unnamed maritime feature)",
-      "nameEnglish": "",
-      "lat": 52.3542959,
-      "lng": 4.8869632,
-      "distanceFromPortMeters": 1958,
-      "address": "",
-      "matchedBy": [
-        "terminal-like name"
-      ],
-      "osmTags": {
-        "operator": "Smidtje Luxury Cruises"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/7928408fc53ee333f715"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/1384f405b5ad0cfa25e6",
-      "name": "Pontsteiger",
-      "nameEnglish": "",
-      "lat": 52.3919497,
-      "lng": 4.8858668,
-      "distanceFromPortMeters": 2622,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "man_made": "pier",
-        "public_transport": "stop_position",
-        "operator": "Gemeentelijk Vervoerbedrijf"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/1384f405b5ad0cfa25e6"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/3165d8efeea11ce09279",
-      "name": "Veer Zamenhofstraat",
-      "nameEnglish": "",
-      "lat": 52.3847785,
-      "lng": 4.9308851,
-      "distanceFromPortMeters": 2664,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "public_transport": "stop_position"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/3165d8efeea11ce09279"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/dfd9efb912ee399ce797",
-      "name": "Azartplein",
-      "nameEnglish": "",
-      "lat": 52.3779572,
-      "lng": 4.9372171,
-      "distanceFromPortMeters": 2677,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "alt_name": "Oostveer",
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "man_made": "pier",
-        "public_transport": "platform"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/dfd9efb912ee399ce797"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/6b914fb225061e1b4461",
-      "name": "Distelweg",
-      "nameEnglish": "",
-      "lat": 52.3957676,
-      "lng": 4.8964739,
-      "distanceFromPortMeters": 2875,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "operator": "Gemeentelijk Vervoerbedrijf",
-        "public_transport": "platform"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/6b914fb225061e1b4461"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/382c8881fa5dade3a367",
-      "name": "Sporenburg",
-      "nameEnglish": "",
-      "lat": 52.3744644,
-      "lng": 4.9498098,
-      "distanceFromPortMeters": 3418,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "public_transport": "stop_position"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/382c8881fa5dade3a367"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/1ba83e2c04b5e46c7746",
-      "name": "NDSM",
-      "nameEnglish": "",
-      "lat": 52.401133,
-      "lng": 4.8911964,
-      "distanceFromPortMeters": 3513,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "man_made": "pier",
-        "operator": "Gemeentelijk Vervoerbedrijf",
-        "public_transport": "platform"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/1ba83e2c04b5e46c7746"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/2a8543eff7d1c3248ac0",
-      "name": "Sluisbuurt",
-      "nameEnglish": "",
-      "lat": 52.375741,
-      "lng": 4.9559568,
-      "distanceFromPortMeters": 3852,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "public_transport": "stop_position"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/2a8543eff7d1c3248ac0"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/00a07ae6d2b0f9732b66",
-      "name": "(unnamed maritime feature)",
-      "nameEnglish": "",
-      "lat": 52.3843898,
-      "lng": 4.9534825,
-      "distanceFromPortMeters": 3967,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/00a07ae6d2b0f9732b66"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/154750de30ae901ce56d",
-      "name": "(unnamed maritime feature)",
-      "nameEnglish": "",
-      "lat": 52.3833223,
-      "lng": 4.9607545,
-      "distanceFromPortMeters": 4382,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/154750de30ae901ce56d"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/04cb4a3fd40c907bfdbf",
-      "name": "(unnamed maritime feature)",
-      "nameEnglish": "",
-      "lat": 52.356795,
-      "lng": 4.9620598,
-      "distanceFromPortMeters": 4462,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/04cb4a3fd40c907bfdbf"
-      ]
-    }
-  ],
   "counts": {
-    "attraction": 15,
-    "outdoors": 7,
-    "food_drink": 15,
-    "shopping": 0,
-    "essentials": 0
+    "attraction": 27,
+    "food_drink": 25,
+    "shopping": 16,
+    "outdoors": 13,
+    "essentials": 3
   },
   "pois": [
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/55f5796036f8fbf1a2e8",
-      "name": "Anne Frank Huis",
-      "nameEnglish": "Anne Frank House",
-      "category": "attraction",
-      "subcategory": "museum",
-      "lat": 52.3751545,
-      "lng": 4.8840978,
-      "distanceFromTerminalMeters": 1222,
-      "distanceFromDefaultTerminalMeters": 1222,
-      "minDistanceFromAnyTerminalMeters": 1222,
+      "sourceId": "osm/generated/6b84b638c5dda8a83e92",
+      "name": "Hortus Botanicus",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "garden",
+      "lat": 52.3666432,
+      "lng": 4.9077753,
+      "distanceFromTerminalMeters": 1344,
+      "distanceFromDefaultTerminalMeters": 1344,
+      "minDistanceFromAnyTerminalMeters": 1344,
       "nearestTerminalId": "ports-json-anchor",
-      "address": "267 Prinsengracht, Amsterdam, 1016GV, NL",
-      "openingHours": "Mo-Su,PH 09:00-22:00 open \"Online tickets only\"; Jan 01 12:00-22:00; Apr 27 09:00-17:00; May 04 09:00-17:00; 2026 Sep 20 09:00-17:00; 2026 Sep 21 off; 2026 Nov 07 09:00-18:30; Dec 25 09:00-17:00; Dec 31 09:00-17:00",
-      "website": "https://www.annefrank.org/",
-      "phone": "+31 20 556 7100",
+      "address": "2a Plantage Middenlaan, Amsterdam, 1018DD",
+      "openingHours": "Mo-Su 10:00-17:00",
+      "website": "https://www.dehortus.nl/",
+      "phone": "+31 20 625 9021",
       "cuisine": [],
-      "wheelchair": "no",
+      "wheelchair": "",
       "brand": "",
-      "description": "",
+      "description": "botanical garden with greenhouses and buildings",
+      "wikidata": "Q1576733",
+      "wikipedia": "nl:Hortus Botanicus Amsterdam",
       "osmTags": {
-        "tourism": "museum"
-      }
+        "leisure": "garden",
+        "tourism": "attraction"
+      },
+      "curated": true,
+      "gem": true,
+      "fame": 17
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/20b2daf2cabd524a3e3c",
-      "name": "Van Gogh Museum",
-      "nameEnglish": "Van Gogh Museum",
-      "category": "attraction",
-      "subcategory": "museum",
-      "lat": 52.3582033,
-      "lng": 4.8811434,
-      "distanceFromTerminalMeters": 1833,
-      "distanceFromDefaultTerminalMeters": 1833,
-      "minDistanceFromAnyTerminalMeters": 1833,
+      "sourceId": "osm/generated/3221c155c79e024b9f56",
+      "name": "Nieuwmarkt",
+      "nameEnglish": "New Market",
+      "category": "shopping",
+      "subcategory": "marketplace",
+      "lat": 52.3725531,
+      "lng": 4.9000895,
+      "distanceFromTerminalMeters": 1188,
+      "distanceFromDefaultTerminalMeters": 1188,
+      "minDistanceFromAnyTerminalMeters": 1188,
       "nearestTerminalId": "ports-json-anchor",
-      "address": "7 Paulus Potterstraat, Amsterdam, 1071CX, NL",
-      "openingHours": "Sa-Th 09:00-18:00; Fr 09:00-22:00",
-      "website": "https://www.vangoghmuseum.nl/",
-      "phone": "+31 20 570 5200",
+      "address": "",
+      "openingHours": "Mo-Fr 10:00-18:30; Sa 09:00-18:30; Su 09:00-17:00",
+      "website": "https://amsterdamnieuwmarkt.nl/markt/",
+      "phone": "",
       "cuisine": [],
       "wheelchair": "yes",
       "brand": "",
-      "description": "picture gallery",
+      "description": "",
+      "wikidata": "Q1568693",
+      "wikipedia": "nl:Nieuwmarkt (Amsterdam)",
       "osmTags": {
-        "tourism": "museum"
-      }
+        "amenity": "marketplace"
+      },
+      "curated": true,
+      "gem": true,
+      "fame": 15
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/4dd25d6f6ab1f75f784f",
+      "name": "Café Warung Pas",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 52.3811001,
+      "lng": 4.9128268,
+      "distanceFromTerminalMeters": 403,
+      "distanceFromDefaultTerminalMeters": 403,
+      "minDistanceFromAnyTerminalMeters": 403,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1 Noordwal, Amsterdam, 1021PX, NL",
+      "openingHours": "Th 17:30-22:00; Fr 17:30-22:15; Sa 17:30-22:30; Su 17:00-22:00; We 17:30-21:30",
+      "website": "https://www.cafewarungpas.com/",
+      "phone": "",
+      "cuisine": [
+        "indonesian"
+      ],
+      "wheelchair": "limited",
+      "brand": "",
+      "description": "cubic orange building",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      },
+      "curated": true,
+      "gem": true
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ddcc9c0c3e5fb4084a61",
+      "name": "Hannekes Boom",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 52.3762934,
+      "lng": 4.9116163,
+      "distanceFromTerminalMeters": 303,
+      "distanceFromDefaultTerminalMeters": 303,
+      "minDistanceFromAnyTerminalMeters": 303,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "4 Dijksgracht, Amsterdam, 1019BS",
+      "openingHours": "Mo-Th,Su 11:00-01:00; Fr-Sa 11:00-03:00",
+      "website": "https://hannekesboom.nl",
+      "phone": "+31 20 419 9820",
+      "cuisine": [
+        "international",
+        "tapas"
+      ],
+      "wheelchair": "limited",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      },
+      "curated": true,
+      "gem": true
     },
     {
       "source": "openstreetmap",
@@ -619,9 +189,9 @@
       "subcategory": "museum",
       "lat": 52.3598609,
       "lng": 4.8849957,
-      "distanceFromTerminalMeters": 1520,
-      "distanceFromDefaultTerminalMeters": 1520,
-      "minDistanceFromAnyTerminalMeters": 1520,
+      "distanceFromTerminalMeters": 2868,
+      "distanceFromDefaultTerminalMeters": 2868,
+      "minDistanceFromAnyTerminalMeters": 2868,
       "nearestTerminalId": "ports-json-anchor",
       "address": "",
       "openingHours": "Mo-Su 09:00-17:00",
@@ -631,9 +201,238 @@
       "wheelchair": "yes",
       "brand": "",
       "description": "",
+      "wikidata": "Q190804",
+      "wikipedia": "nl:Rijksmuseum Amsterdam",
       "osmTags": {
         "tourism": "museum"
-      }
+      },
+      "fame": 68
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/fbbc4da06918309ca96e",
+      "name": "Van Gogh Museum",
+      "nameEnglish": "Van Gogh Museum",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 52.3582033,
+      "lng": 4.8811434,
+      "distanceFromTerminalMeters": 3185,
+      "distanceFromDefaultTerminalMeters": 3185,
+      "minDistanceFromAnyTerminalMeters": 3185,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "7 Paulus Potterstraat, Amsterdam, 1071CX, NL",
+      "openingHours": "Sa-Th 09:00-18:00; Fr 09:00-22:00",
+      "website": "https://www.vangoghmuseum.nl/",
+      "phone": "+31 20 570 5200",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "picture gallery",
+      "wikidata": "Q224124",
+      "wikipedia": "nl:Van Gogh Museum",
+      "osmTags": {
+        "tourism": "museum"
+      },
+      "fame": 60
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/55f5796036f8fbf1a2e8",
+      "name": "Anne Frank Huis",
+      "nameEnglish": "Anne Frank House",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 52.3751545,
+      "lng": 4.8840978,
+      "distanceFromTerminalMeters": 2141,
+      "distanceFromDefaultTerminalMeters": 2141,
+      "minDistanceFromAnyTerminalMeters": 2141,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "267 Prinsengracht, Amsterdam, 1016GV, NL",
+      "openingHours": "Mo-Su,PH 09:00-22:00 open \"Online tickets only\"; Jan 01 12:00-22:00; Apr 27 09:00-17:00; May 04 09:00-17:00; 2026 Sep 20 09:00-17:00; 2026 Sep 21 off; 2026 Nov 07 09:00-18:30; Dec 25 09:00-17:00; Dec 31 09:00-17:00",
+      "website": "https://www.annefrank.org/",
+      "phone": "+31 20 556 7100",
+      "cuisine": [],
+      "wheelchair": "no",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q165366",
+      "wikipedia": "nl:Anne Frank Huis",
+      "osmTags": {
+        "tourism": "museum"
+      },
+      "fame": 37
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/2529e1eeed57009c959f",
+      "name": "Koninklijk Paleis",
+      "nameEnglish": "Royal Palace",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 52.3731449,
+      "lng": 4.891336,
+      "distanceFromTerminalMeters": 1709,
+      "distanceFromDefaultTerminalMeters": 1709,
+      "minDistanceFromAnyTerminalMeters": 1709,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "147 Nieuwezijds Voorburgwal, Amsterdam, 1012RJ, NL",
+      "openingHours": "10:00-17:00",
+      "website": "https://www.paleisamsterdam.nl/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q1056152",
+      "wikipedia": "nl:Paleis op de Dam",
+      "osmTags": {
+        "historic": "castle",
+        "tourism": "attraction"
+      },
+      "fame": 36
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/2c2deb37c1141a6ec384",
+      "name": "Centraal Station",
+      "nameEnglish": "Central Station",
+      "category": "attraction",
+      "subcategory": "railway_station",
+      "lat": 52.3790435,
+      "lng": 4.9005645,
+      "distanceFromTerminalMeters": 1011,
+      "distanceFromDefaultTerminalMeters": 1011,
+      "minDistanceFromAnyTerminalMeters": 1011,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Amsterdam, NL",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q50719",
+      "wikipedia": "nl:Station Amsterdam Centraal",
+      "osmTags": {
+        "historic": "railway_station"
+      },
+      "fame": 35
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/87966b6de97390dab6a0",
+      "name": "de Wallen",
+      "nameEnglish": "Red Light District",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 52.3734588,
+      "lng": 4.8981942,
+      "distanceFromTerminalMeters": 1260,
+      "distanceFromDefaultTerminalMeters": 1260,
+      "minDistanceFromAnyTerminalMeters": 1260,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q447664",
+      "wikipedia": "nl:De Wallen",
+      "osmTags": {
+        "tourism": "attraction"
+      },
+      "fame": 35
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/dac6d9948797f82ceba9",
+      "name": "Dam",
+      "nameEnglish": "Dam Square",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 52.3731226,
+      "lng": 4.8926093,
+      "distanceFromTerminalMeters": 1628,
+      "distanceFromDefaultTerminalMeters": 1628,
+      "minDistanceFromAnyTerminalMeters": 1628,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q839050",
+      "wikipedia": "nl:Dam (Amsterdam)",
+      "osmTags": {
+        "place": "square",
+        "tourism": "attraction"
+      },
+      "fame": 32
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/492c2c4ba2ae7fe1536e",
+      "name": "Artis",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "zoo",
+      "lat": 52.3660463,
+      "lng": 4.9167065,
+      "distanceFromTerminalMeters": 1312,
+      "distanceFromDefaultTerminalMeters": 1312,
+      "minDistanceFromAnyTerminalMeters": 1312,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "38-40 Plantage Kerklaan, Amsterdam, 1018CZ",
+      "openingHours": "Mar 01-Oct 31 09:00-18:00; Nov 01-Feb 28 09:00-17:00",
+      "website": "https://www.artis.nl/nl/",
+      "phone": "+31 20 523 3670",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q713124",
+      "wikipedia": "nl:Artis",
+      "osmTags": {
+        "tourism": "zoo"
+      },
+      "fame": 29
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/06139489214ac4a46472",
+      "name": "Wereldmuseum Amsterdam",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 52.362688,
+      "lng": 4.9224397,
+      "distanceFromTerminalMeters": 1750,
+      "distanceFromDefaultTerminalMeters": 1750,
+      "minDistanceFromAnyTerminalMeters": 1750,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "2 Linnaeusstraat, Amsterdam, 1092CK, NL",
+      "openingHours": "Tu-Su 10:00-17:00",
+      "website": "https://amsterdam.wereldmuseum.nl/",
+      "phone": "+31 88 00 42 800",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "ethnographic museum",
+      "wikidata": "Q1131589",
+      "wikipedia": "nl:Wereldmuseum Amsterdam",
+      "osmTags": {
+        "tourism": "museum"
+      },
+      "fame": 28
     },
     {
       "source": "openstreetmap",
@@ -644,9 +443,9 @@
       "subcategory": "museum",
       "lat": 52.3693692,
       "lng": 4.9012497,
-      "distanceFromTerminalMeters": 110,
-      "distanceFromDefaultTerminalMeters": 110,
-      "minDistanceFromAnyTerminalMeters": 110,
+      "distanceFromTerminalMeters": 1340,
+      "distanceFromDefaultTerminalMeters": 1340,
+      "minDistanceFromAnyTerminalMeters": 1340,
       "nearestTerminalId": "ports-json-anchor",
       "address": "4 Jodenbreestraat, Amsterdam, 1011NK",
       "openingHours": "Mo-Su 10:00-17:00; Jan 05-Feb 13 10:00-17:00; Feb 14-Mar 27 10:00-18:00; Mar 28-May 10 10:00-19:00; May 11-Nov 01 10:00-18:00; Nov 02-Dec 18 10:00-17:00; Dec 19-31 10:00-18:00; Apr 27 off; Dec 25 off; Dec 24 10:00-17:00; Dec 31 10:00-17:00",
@@ -656,59 +455,153 @@
       "wheelchair": "limited",
       "brand": "",
       "description": "The house where Rembrandt van Rijn lived.",
+      "wikidata": "Q277316",
+      "wikipedia": "nl:Rembrandthuis",
       "osmTags": {
         "tourism": "museum"
-      }
+      },
+      "fame": 27
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/4483f37f0ccda8e9a269",
-      "name": "Hash Marihuana & Hemp Museum",
-      "nameEnglish": "Hash Marihuana & Hemp Museum",
+      "sourceId": "osm/generated/52936c1151eea41dd189",
+      "name": "Westerkerk",
+      "nameEnglish": "Westerkerk",
       "category": "attraction",
-      "subcategory": "museum",
-      "lat": 52.3717617,
-      "lng": 4.896959,
-      "distanceFromTerminalMeters": 285,
-      "distanceFromDefaultTerminalMeters": 285,
-      "minDistanceFromAnyTerminalMeters": 285,
+      "subcategory": "attraction",
+      "lat": 52.3745627,
+      "lng": 4.8839192,
+      "distanceFromTerminalMeters": 2163,
+      "distanceFromDefaultTerminalMeters": 2163,
+      "minDistanceFromAnyTerminalMeters": 2163,
       "nearestTerminalId": "ports-json-anchor",
-      "address": "148 Oudezijds Achterburgwal, Amsterdam, 1012DV",
-      "openingHours": "10:00-22:00",
-      "website": "https://hashmuseum.com/amsterdam",
-      "phone": "",
+      "address": "",
+      "openingHours": "Mo-Fr 11:00-15:00",
+      "website": "https://www.westerkerk.nl/",
+      "phone": "+31 20 6247766",
       "cuisine": [],
       "wheelchair": "yes",
       "brand": "",
-      "description": "This is an information centre cq attraction, that does not conform to the museum definitions of Unesco, ICOM and Museumvereniging.",
+      "description": "",
+      "wikidata": "Q1130722",
+      "wikipedia": "nl:Westerkerk (Amsterdam)",
       "osmTags": {
-        "tourism": "museum"
-      }
+        "amenity": "place_of_worship",
+        "tourism": "attraction"
+      },
+      "fame": 27
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/d1f2873b2860804ca1d8",
-      "name": "Allard Pierson Museum",
-      "nameEnglish": "Allard Pierson Museum",
-      "category": "attraction",
-      "subcategory": "museum",
-      "lat": 52.3688053,
-      "lng": 4.8930549,
-      "distanceFromTerminalMeters": 490,
-      "distanceFromDefaultTerminalMeters": 490,
-      "minDistanceFromAnyTerminalMeters": 490,
+      "sourceId": "osm/generated/793d20d22fe5041a849d",
+      "name": "Vondelpark",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 52.3572052,
+      "lng": 4.8685818,
+      "distanceFromTerminalMeters": 3915,
+      "distanceFromDefaultTerminalMeters": 3915,
+      "minDistanceFromAnyTerminalMeters": 3915,
       "nearestTerminalId": "ports-json-anchor",
-      "address": "127 Oude Turfmarkt, Amsterdam, 1012GC, NL",
+      "address": "",
       "openingHours": "",
-      "website": "https://allardpierson.nl/",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q1419691",
+      "wikipedia": "nl:Vondelpark",
+      "osmTags": {
+        "leisure": "park"
+      },
+      "fame": 26
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/3626c665c41db61cb8c3",
+      "name": "Nieuwe Kerk",
+      "nameEnglish": "New Church",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 52.3739231,
+      "lng": 4.8916924,
+      "distanceFromTerminalMeters": 1662,
+      "distanceFromDefaultTerminalMeters": 1662,
+      "minDistanceFromAnyTerminalMeters": 1662,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "12 Dam, Amsterdam, 1012NP, NL",
+      "openingHours": "Mo-Su 10:00-17:00",
+      "website": "https://www.nieuwekerk.nl/",
       "phone": "",
       "cuisine": [],
       "wheelchair": "yes",
       "brand": "",
-      "description": "Archeological museum",
+      "description": "",
+      "wikidata": "Q1419675",
+      "wikipedia": "nl:Nieuwe Kerk (Amsterdam)",
       "osmTags": {
         "tourism": "museum"
-      }
+      },
+      "fame": 24
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/e27f19c149da964d2eee",
+      "name": "Nemo",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 52.3738532,
+      "lng": 4.9121113,
+      "distanceFromTerminalMeters": 491,
+      "distanceFromDefaultTerminalMeters": 491,
+      "minDistanceFromAnyTerminalMeters": 491,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "2 Oosterdok, Amsterdam, 1011VX",
+      "openingHours": "Mo-Su 09:30-17:30",
+      "website": "https://www.nemosciencemuseum.nl",
+      "phone": "+31 20 531 3233",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q1422000",
+      "wikipedia": "nl:NEMO Science Museum",
+      "osmTags": {
+        "tourism": "museum"
+      },
+      "fame": 23
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/03a8b865e34fc020faf3",
+      "name": "Museumplein",
+      "nameEnglish": "Museum Square",
+      "category": "attraction",
+      "subcategory": "square",
+      "lat": 52.3587105,
+      "lng": 4.8833872,
+      "distanceFromTerminalMeters": 3036,
+      "distanceFromDefaultTerminalMeters": 3036,
+      "minDistanceFromAnyTerminalMeters": 3036,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q639321",
+      "wikipedia": "nl:Museumplein",
+      "osmTags": {
+        "place": "square"
+      },
+      "fame": 22
     },
     {
       "source": "openstreetmap",
@@ -719,9 +612,9 @@
       "subcategory": "museum",
       "lat": 52.3743606,
       "lng": 4.8980721,
-      "distanceFromTerminalMeters": 502,
-      "distanceFromDefaultTerminalMeters": 502,
-      "minDistanceFromAnyTerminalMeters": 502,
+      "distanceFromTerminalMeters": 1233,
+      "distanceFromDefaultTerminalMeters": 1233,
+      "minDistanceFromAnyTerminalMeters": 1233,
       "nearestTerminalId": "ports-json-anchor",
       "address": "23 Oudekerksplein, Amsterdam, 1012GX",
       "openingHours": "Mo-Sa 10:00-18:00; Su 13:00-17:30",
@@ -731,10 +624,69 @@
       "wheelchair": "yes",
       "brand": "",
       "description": "Kerkgebouw voor religieus en seculier gebruik. Oorspronkelijk een rooms-katholieke kerk gewijd aan Sint-Nicolaas, totdat het werd omgevormd tot een protestantse kerk met de naam Oude Kerk.",
+      "wikidata": "Q623558",
+      "wikipedia": "nl:Oude Kerk (Amsterdam)",
       "osmTags": {
         "historic": "yes",
         "tourism": "museum"
-      }
+      },
+      "fame": 21
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/542109aef9eb772951cb",
+      "name": "Het Scheepvaartmuseum",
+      "nameEnglish": "The National Maritime Museum",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 52.3720101,
+      "lng": 4.9147861,
+      "distanceFromTerminalMeters": 646,
+      "distanceFromDefaultTerminalMeters": 646,
+      "minDistanceFromAnyTerminalMeters": 646,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1 Kattenburgerplein, Amsterdam, 1018KK, NL",
+      "openingHours": "Tu-Su 10:00-17:00; SH Mo-Su 10:00-17:00; Jan 01,Apr 27,Dec 25 off",
+      "website": "https://www.hetscheepvaartmuseum.nl",
+      "phone": "+31 20 523 2222",
+      "cuisine": [],
+      "wheelchair": "limited",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q1616123",
+      "wikipedia": "nl:Het Scheepvaartmuseum",
+      "osmTags": {
+        "tourism": "museum"
+      },
+      "fame": 16
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/9c43d3ce947cfe8ac580",
+      "name": "H'ART Museum",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 52.3656522,
+      "lng": 4.9022137,
+      "distanceFromTerminalMeters": 1619,
+      "distanceFromDefaultTerminalMeters": 1619,
+      "minDistanceFromAnyTerminalMeters": 1619,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "51 Amstel, Amsterdam, 1018EJ",
+      "openingHours": "Mo-Su 10:00-17:00; Dec 25,Jan 1 12:00-17:00",
+      "website": "https://hartmuseum.nl",
+      "phone": "+31 20 530 87 55",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q1350009",
+      "wikipedia": "nl:H'ART Museum",
+      "osmTags": {
+        "tourism": "museum"
+      },
+      "fame": 19
     },
     {
       "source": "openstreetmap",
@@ -745,9 +697,9 @@
       "subcategory": "museum",
       "lat": 52.3704312,
       "lng": 4.8904288,
-      "distanceFromTerminalMeters": 652,
-      "distanceFromDefaultTerminalMeters": 652,
-      "minDistanceFromAnyTerminalMeters": 652,
+      "distanceFromTerminalMeters": 1879,
+      "distanceFromDefaultTerminalMeters": 1879,
+      "minDistanceFromAnyTerminalMeters": 1879,
       "nearestTerminalId": "ports-json-anchor",
       "address": "92 Kalverstraat, Amsterdam, 1012PH, NL",
       "openingHours": "Mo-Su 10:00-17:00",
@@ -757,285 +709,417 @@
       "wheelchair": "yes",
       "brand": "",
       "description": "museum over de geschiedenis van Amsterdam",
+      "wikidata": "Q1820897",
+      "wikipedia": "nl:Amsterdam Museum",
       "osmTags": {
         "tourism": "museum"
-      }
+      },
+      "fame": 19
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/797b4e0ad9c9221a2efa",
-      "name": "Huis Marseille",
-      "nameEnglish": "Marseille House",
+      "sourceId": "osm/generated/9a8b913fd811b6f4ec67",
+      "name": "Ons' Lieve Heer op Solder",
+      "nameEnglish": "Our Lord in the Attic",
       "category": "attraction",
       "subcategory": "museum",
-      "lat": 52.3676412,
-      "lng": 4.8848369,
-      "distanceFromTerminalMeters": 1062,
-      "distanceFromDefaultTerminalMeters": 1062,
-      "minDistanceFromAnyTerminalMeters": 1062,
+      "lat": 52.3751725,
+      "lng": 4.8993657,
+      "distanceFromTerminalMeters": 1123,
+      "distanceFromDefaultTerminalMeters": 1123,
+      "minDistanceFromAnyTerminalMeters": 1123,
       "nearestTerminalId": "ports-json-anchor",
-      "address": "401 Keizersgracht, Amsterdam, 1016EK, NL",
-      "openingHours": "Fr-We 10:00-18:00, Th 10:00-09:00; PH off",
-      "website": "https://www.huismarseille.nl/",
-      "phone": "",
+      "address": "38 Oudezijds Voorburgwal, Amsterdam, 1012GD",
+      "openingHours": "Mo-Sa 10:00-17:00; Su 13:00-17:00",
+      "website": "https://www.opsolder.nl/",
+      "phone": "+31 20 624 6604",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q493160",
+      "wikipedia": "nl:Museum Ons' Lieve Heer op Solder",
+      "osmTags": {
+        "tourism": "museum"
+      },
+      "fame": 14
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/444db3591f10d4cece6a",
+      "name": "Eye Filmmuseum",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 52.384335,
+      "lng": 4.900812,
+      "distanceFromTerminalMeters": 1224,
+      "distanceFromDefaultTerminalMeters": 1224,
+      "minDistanceFromAnyTerminalMeters": 1224,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1 IJpromenade, Amsterdam, 1031KT",
+      "openingHours": "Mo-Su 10:00-19:00",
+      "website": "https://www.eyefilm.nl/",
+      "phone": "+31 20 5891400",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q1538389",
+      "wikipedia": "nl:Eye Filmmuseum",
+      "osmTags": {
+        "tourism": "museum"
+      },
+      "fame": 13
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/2ce9ff367041f7087af5",
+      "name": "Venustempel Sexmuseum",
+      "nameEnglish": "Sexmuseum",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": 52.3765815,
+      "lng": 4.8972749,
+      "distanceFromTerminalMeters": 1233,
+      "distanceFromDefaultTerminalMeters": 1233,
+      "minDistanceFromAnyTerminalMeters": 1233,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "18 Damrak, Amsterdam, 1012LH, NL",
+      "openingHours": "Mo-Su 10:00-18:00",
+      "website": "https://sexmuseumamsterdam.nl/",
+      "phone": "+31 20 622 8376",
       "cuisine": [],
       "wheelchair": "no",
       "brand": "",
-      "description": "photography museum in two 17th century monumental canal houses.",
+      "description": "",
+      "wikidata": "Q3329876",
+      "wikipedia": "nl:Sexmuseum",
       "osmTags": {
         "tourism": "museum"
-      }
+      },
+      "fame": 13
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/b4133d93223442ebb31d",
-      "name": "The Amsterdam Dungeon",
-      "nameEnglish": "The Amsterdam Dungeon",
-      "category": "attraction",
-      "subcategory": "attraction",
-      "lat": 52.3701984,
-      "lng": 4.892168,
-      "distanceFromTerminalMeters": 532,
-      "distanceFromDefaultTerminalMeters": 532,
-      "minDistanceFromAnyTerminalMeters": 532,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "78 Rokin, Amsterdam, 1012KW",
-      "openingHours": "Su-Th 11:00-18:00; Fr-Sa 11:00-19:00",
-      "website": "https://www.thedungeons.com/amsterdam/en/",
-      "phone": "+31 20 530 8500",
-      "cuisine": [],
-      "wheelchair": "no",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "tourism": "attraction"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/ab410fce29acb7636b2c",
-      "name": "Grachtenhuis",
-      "nameEnglish": "Museum of the Canals",
-      "category": "attraction",
-      "subcategory": "museum",
-      "lat": 52.3678921,
-      "lng": 4.8862198,
-      "distanceFromTerminalMeters": 964,
-      "distanceFromDefaultTerminalMeters": 964,
-      "minDistanceFromAnyTerminalMeters": 964,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "386 Herengracht, Amsterdam, 1016CJ",
-      "openingHours": "Tu-Su 10:00-17:00",
-      "website": "https://grachten.museum/",
-      "phone": "+31 20 421 1656",
-      "cuisine": [],
-      "wheelchair": "yes",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "tourism": "museum"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/d5f721984af50a351eab",
-      "name": "Damslachtoffers 7 mei 1945",
-      "nameEnglish": "Dam Square Victims 7 mei 1945",
-      "category": "attraction",
-      "subcategory": "memorial",
-      "lat": 52.3733933,
-      "lng": 4.8928004,
-      "distanceFromTerminalMeters": 617,
-      "distanceFromDefaultTerminalMeters": 617,
-      "minDistanceFromAnyTerminalMeters": 617,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "2 Dam, Amsterdam, 1012NP, NL",
-      "openingHours": "",
-      "website": "https://de-dam-zevenmei1945.nl/",
-      "phone": "",
-      "cuisine": [],
-      "wheelchair": "yes",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "historic": "memorial"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/6a0ef7e93f578030ea26",
-      "name": "Vondelpark",
+      "sourceId": "osm/generated/75badbb6aa3ea46f10ec",
+      "name": "Brouwerij 't IJ",
       "nameEnglish": "",
-      "category": "outdoors",
-      "subcategory": "park",
-      "lat": 52.3572052,
-      "lng": 4.8685818,
-      "distanceFromTerminalMeters": 2564,
-      "distanceFromDefaultTerminalMeters": 2564,
-      "minDistanceFromAnyTerminalMeters": 2564,
+      "category": "food_drink",
+      "subcategory": "pub",
+      "lat": 52.3666977,
+      "lng": 4.9263471,
+      "distanceFromTerminalMeters": 1445,
+      "distanceFromDefaultTerminalMeters": 1445,
+      "minDistanceFromAnyTerminalMeters": 1445,
       "nearestTerminalId": "ports-json-anchor",
-      "address": "",
-      "openingHours": "",
-      "website": "",
-      "phone": "",
-      "cuisine": [],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "leisure": "park"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/214da6ec00c4bf8fbd0d",
-      "name": "Energetica - Rooftop NEMO Science Center",
-      "nameEnglish": "",
-      "category": "outdoors",
-      "subcategory": "viewpoint",
-      "lat": 52.3739466,
-      "lng": 4.9123201,
-      "distanceFromTerminalMeters": 945,
-      "distanceFromDefaultTerminalMeters": 945,
-      "minDistanceFromAnyTerminalMeters": 945,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "",
-      "openingHours": "",
-      "website": "",
-      "phone": "",
-      "cuisine": [],
-      "wheelchair": "yes",
-      "brand": "",
-      "description": "Viewpoint with water playground",
-      "osmTags": {
-        "tourism": "viewpoint"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/d9ec977ba939ef2ea7af",
-      "name": "Dancing Houses",
-      "nameEnglish": "",
-      "category": "outdoors",
-      "subcategory": "viewpoint",
-      "lat": 52.3670973,
-      "lng": 4.8971411,
-      "distanceFromTerminalMeters": 377,
-      "distanceFromDefaultTerminalMeters": 377,
-      "minDistanceFromAnyTerminalMeters": 377,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "",
-      "openingHours": "",
-      "website": "",
-      "phone": "",
-      "cuisine": [],
-      "wheelchair": "yes",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "tourism": "viewpoint"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/2b9ffb231cbe4866e57e",
-      "name": "Blauwbrug",
-      "nameEnglish": "",
-      "category": "outdoors",
-      "subcategory": "viewpoint",
-      "lat": 52.3663589,
-      "lng": 4.9008808,
-      "distanceFromTerminalMeters": 409,
-      "distanceFromDefaultTerminalMeters": 409,
-      "minDistanceFromAnyTerminalMeters": 409,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "",
-      "openingHours": "",
-      "website": "",
-      "phone": "",
+      "address": "7 Funenkade, Amsterdam, 1018AL, NL",
+      "openingHours": "Mo-Fr 14:00-22:00; Sa,Su 12:00-22:00",
+      "website": "https://www.brouwerijhetij.nl",
+      "phone": "+31 20 261 9800",
       "cuisine": [],
       "wheelchair": "limited",
       "brand": "",
-      "description": "",
+      "description": "brouwerij met proeflokaal",
+      "wikidata": "Q3496897",
+      "wikipedia": "nl:Brouwerij 't IJ",
       "osmTags": {
-        "man_made": "bridge",
-        "tourism": "viewpoint"
+        "amenity": "pub",
+        "craft": "brewery"
+      },
+      "fame": 6
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/70ff058228af913fb9f4",
+      "name": "'t Mandje",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "pub",
+      "lat": 52.374815,
+      "lng": 4.900983,
+      "distanceFromTerminalMeters": 1029,
+      "distanceFromDefaultTerminalMeters": 1029,
+      "minDistanceFromAnyTerminalMeters": 1029,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "63 Zeedijk, Amsterdam",
+      "openingHours": "Mo-Th 17:00+; Fr-Su 14:00+",
+      "website": "https://www.cafetmandje.nl",
+      "phone": "+31 20 622 5375",
+      "cuisine": [],
+      "wheelchair": "no",
+      "brand": "",
+      "description": "Reopened after 25 years this oldest gay/lesbian bar tries to revive the times of its legendary first owner, Bet van Beren. If this will work or not, it is worth visiting as it has been restored to its original interior.",
+      "wikidata": "Q5017290",
+      "wikipedia": "nl:Café 't Mandje",
+      "osmTags": {
+        "amenity": "pub"
+      },
+      "fame": 5
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/cbd45e24b95182a02718",
+      "name": "Sichuan Food",
+      "nameEnglish": "Sichuan Food",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 52.3665075,
+      "lng": 4.8905627,
+      "distanceFromTerminalMeters": 2099,
+      "distanceFromDefaultTerminalMeters": 2099,
+      "minDistanceFromAnyTerminalMeters": 2099,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "35 Reguliersdwarsstraat, Amsterdam, 1017BK",
+      "openingHours": "Mo-Su 18:00-22:00",
+      "website": "http://sichuanfood.nl",
+      "phone": "+31 20 626 9327",
+      "cuisine": [
+        "chinese"
+      ],
+      "wheelchair": "limited",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q7507429",
+      "wikipedia": "nl:Sichuan Food",
+      "osmTags": {
+        "amenity": "restaurant"
+      },
+      "fame": 3
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ac82eeb94098ec07ffd5",
+      "name": "Vermeer",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 52.3764859,
+      "lng": 4.9004724,
+      "distanceFromTerminalMeters": 1019,
+      "distanceFromDefaultTerminalMeters": 1019,
+      "minDistanceFromAnyTerminalMeters": 1019,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "59-72 Prins Hendrikkade, Amsterdam, 1021AD",
+      "openingHours": "We-Sa 18:00-20:30",
+      "website": "https://www.restaurantvermeer.nl/",
+      "phone": "+31 20 556 4885",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q7316098",
+      "wikipedia": "nl:Vermeer (restaurant)",
+      "osmTags": {
+        "amenity": "restaurant"
+      },
+      "fame": 4
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c50a41cfa4a1cc0f1006",
+      "name": "De Juwelier",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 52.3642561,
+      "lng": 4.8982758,
+      "distanceFromTerminalMeters": 1901,
+      "distanceFromDefaultTerminalMeters": 1901,
+      "minDistanceFromAnyTerminalMeters": 1901,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "51-H Utrechtsestraat, Amsterdam, 1017VJ",
+      "openingHours": "Mo-Su 12:00-13:30, 18:00-22:00",
+      "website": "https://www.restaurant-dejuwelier.nl/restaurantdejuwelier",
+      "phone": "+31 20 247 1007",
+      "cuisine": [
+        "french"
+      ],
+      "wheelchair": "limited",
+      "brand": "",
+      "description": "à la carte-restaurant",
+      "wikidata": "Q124477482",
+      "wikipedia": "nl:De Juwelier (restaurant)",
+      "osmTags": {
+        "amenity": "restaurant"
+      },
+      "fame": 1
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/bce5fbc4ed8fdf034c5a",
+      "name": "Vinkeles",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 52.3692629,
+      "lng": 4.8834577,
+      "distanceFromTerminalMeters": 2363,
+      "distanceFromDefaultTerminalMeters": 2363,
+      "minDistanceFromAnyTerminalMeters": 2363,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "384 Keizersgracht, Amsterdam, 1016GB",
+      "openingHours": "Tu-Sa 18:30-21:00",
+      "website": "https://www.vinkeles.com",
+      "phone": "+31 20 530 2010",
+      "cuisine": [
+        "french"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q17195570",
+      "wikipedia": "nl:Vinkeles",
+      "osmTags": {
+        "amenity": "restaurant"
+      },
+      "fame": 2
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/135695e81e8ed90ebfa3",
+      "name": "Yamazato",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 52.3486474,
+      "lng": 4.8939215,
+      "distanceFromTerminalMeters": 3554,
+      "distanceFromDefaultTerminalMeters": 3554,
+      "minDistanceFromAnyTerminalMeters": 3554,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "333 Ferdinand Bolstraat, Amsterdam, 1072LH",
+      "openingHours": "We-Su 18:00+",
+      "website": "https://www.okura.nl/nl/yamazato",
+      "phone": "+31 20 678 7111",
+      "cuisine": [
+        "japanese"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q8048010",
+      "wikipedia": "nl:Yamazato Restaurant",
+      "osmTags": {
+        "amenity": "restaurant"
+      },
+      "fame": 2
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d17904b5e52443701373",
+      "name": "Bistro de la Mer",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 52.3641316,
+      "lng": 4.8982919,
+      "distanceFromTerminalMeters": 1911,
+      "distanceFromDefaultTerminalMeters": 1911,
+      "minDistanceFromAnyTerminalMeters": 1911,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "57-H Utrechtsestraat, Amsterdam, 1017VJ",
+      "openingHours": "Mo-Su 12:00-14:30,18:00-22:00",
+      "website": "https://www.bistrodelamer.com/bistrodelamer",
+      "phone": "+31 20 237 4790",
+      "cuisine": [
+        "fish",
+        "french"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q122459927",
+      "wikipedia": "nl:Bistro de la Mer",
+      "osmTags": {
+        "amenity": "restaurant"
+      },
+      "fame": 1
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/99501a880b1c54d86070",
+      "name": "&moshik",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 52.376322,
+      "lng": 4.9060727,
+      "distanceFromTerminalMeters": 650,
+      "distanceFromDefaultTerminalMeters": 650,
+      "minDistanceFromAnyTerminalMeters": 650,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "5 Oosterdokskade, Amsterdam",
+      "openingHours": "",
+      "website": "https://www.samhoudplaces.com/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q4540372",
+      "wikipedia": "nl:&moshik",
+      "osmTags": {
+        "amenity": "restaurant"
+      },
+      "fame": 4
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/0152410993c6a07e1260",
+      "name": "Saigon Càphê",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 52.3792538,
+      "lng": 4.9023978,
+      "distanceFromTerminalMeters": 892,
+      "distanceFromDefaultTerminalMeters": 892,
+      "minDistanceFromAnyTerminalMeters": 892,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "44A De Ruijterkade, Amsterdam, 1012AA",
+      "openingHours": "Tu-Su 11:00-20:45; Mo 12:00-20:45",
+      "website": "https://saigoncaphe.nl/amsterdam-centralstation/",
+      "phone": "+31 20 489 7918",
+      "cuisine": [
+        "vietnamese"
+      ],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "WiFi username:saigon-cafe-guests password: ilovepho",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "restaurant"
       }
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/e5a4c840ace7e7b7a9d3",
-      "name": "7 Bruggen op een rij",
-      "nameEnglish": "7 Bridges in a row",
-      "category": "outdoors",
-      "subcategory": "viewpoint",
-      "lat": 52.364762,
-      "lng": 4.8958761,
-      "distanceFromTerminalMeters": 646,
-      "distanceFromDefaultTerminalMeters": 646,
-      "minDistanceFromAnyTerminalMeters": 646,
+      "sourceId": "osm/generated/19a38c41280aa194c090",
+      "name": "Spectrum",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": 52.3646319,
+      "lng": 4.896983,
+      "distanceFromTerminalMeters": 1923,
+      "distanceFromDefaultTerminalMeters": 1923,
+      "minDistanceFromAnyTerminalMeters": 1923,
       "nearestTerminalId": "ports-json-anchor",
-      "address": "",
-      "openingHours": "",
-      "website": "",
-      "phone": "",
+      "address": "542-556 Herengracht, Amsterdam, 1017CG",
+      "openingHours": "We-Sa 18:00-24:00",
+      "website": "https://restaurantspectrum.com",
+      "phone": "+31 20 718 4635",
       "cuisine": [],
       "wheelchair": "yes",
       "brand": "",
       "description": "",
+      "wikidata": "Q19887997",
+      "wikipedia": "nl:Spectrum (restaurant)",
       "osmTags": {
-        "tourism": "viewpoint"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/0828e8e31cc4d5508e3f",
-      "name": "kruising Leidsegracht-Keizersgracht",
-      "nameEnglish": "Leidsegracht-Keizersgracht intersection",
-      "category": "outdoors",
-      "subcategory": "viewpoint",
-      "lat": 52.3666542,
-      "lng": 4.8848593,
-      "distanceFromTerminalMeters": 1093,
-      "distanceFromDefaultTerminalMeters": 1093,
-      "minDistanceFromAnyTerminalMeters": 1093,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "",
-      "openingHours": "",
-      "website": "",
-      "phone": "",
-      "cuisine": [],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "tourism": "viewpoint"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/69874dcc4f30c2d6b305",
-      "name": "Shaffy's tuin",
-      "nameEnglish": "",
-      "category": "outdoors",
-      "subcategory": "garden",
-      "lat": 52.3764111,
-      "lng": 4.9124456,
-      "distanceFromTerminalMeters": 1105,
-      "distanceFromDefaultTerminalMeters": 1105,
-      "minDistanceFromAnyTerminalMeters": 1105,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "",
-      "openingHours": "",
-      "website": "https://shaffystuin.nl/",
-      "phone": "",
-      "cuisine": [],
-      "wheelchair": "",
-      "brand": "",
-      "description": "vegetable garden",
-      "osmTags": {
-        "leisure": "garden"
-      }
+        "amenity": "restaurant"
+      },
+      "fame": 2
     },
     {
       "source": "openstreetmap",
@@ -1046,9 +1130,9 @@
       "subcategory": "bar",
       "lat": 52.3739521,
       "lng": 4.8965109,
-      "distanceFromTerminalMeters": 499,
-      "distanceFromDefaultTerminalMeters": 499,
-      "minDistanceFromAnyTerminalMeters": 499,
+      "distanceFromTerminalMeters": 1348,
+      "distanceFromDefaultTerminalMeters": 1348,
+      "minDistanceFromAnyTerminalMeters": 1348,
       "nearestTerminalId": "ports-json-anchor",
       "address": "129 Warmoesstraat, Amsterdam, 1012JA",
       "openingHours": "Su-Th 10:00-03:00; Fr-Sa 10:00-04:00",
@@ -1061,483 +1145,1322 @@
       "wheelchair": "no",
       "brand": "",
       "description": "Cool location with good music (alternative rock/pop) and a lot of food, beer, cocktails and extra rooms to see sports",
+      "wikidata": "",
+      "wikipedia": "",
       "osmTags": {
         "amenity": "bar"
       }
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/6a21b008f009ad94bb22",
-      "name": "Peacock Alley",
+      "sourceId": "osm/generated/8fc244b6b83c88360c8b",
+      "name": "Caldi e Freddi",
       "nameEnglish": "",
       "category": "food_drink",
-      "subcategory": "restaurant",
-      "lat": 52.3646233,
-      "lng": 4.8969206,
-      "distanceFromTerminalMeters": 633,
-      "distanceFromDefaultTerminalMeters": 633,
-      "minDistanceFromAnyTerminalMeters": 633,
+      "subcategory": "fast_food",
+      "lat": 52.3750114,
+      "lng": 4.8907614,
+      "distanceFromTerminalMeters": 1697,
+      "distanceFromDefaultTerminalMeters": 1697,
+      "minDistanceFromAnyTerminalMeters": 1697,
       "nearestTerminalId": "ports-json-anchor",
-      "address": "542-556 Herengracht, Amsterdam, 1017CG",
-      "openingHours": "Mo-Su 09:00-22:00",
-      "website": "https://www.hilton.com/en/hotels/amswawa-waldorf-astoria-amsterdam/dining/peacock-alley/",
-      "phone": "+31 20 718 4643",
+      "address": "102 Spuistraat",
+      "openingHours": "Mo-Fr 09:00-17:30",
+      "website": "https://caldiefreddi.nl",
+      "phone": "+31 20 320 2024",
       "cuisine": [
-        "international",
-        "afternoon_tea"
-      ],
-      "wheelchair": "yes",
-      "brand": "",
-      "description": "The renowned restaurant Peacock Alley is situated in Waldorf Astoria Amsterdam, and is the place to be. Enjoy the ambiance of the legendary Amsterdam restaurant which paints an unparalleled setting for a leisurely meal with its gold and blue palette.",
-      "osmTags": {
-        "amenity": "restaurant"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/c50a41cfa4a1cc0f1006",
-      "name": "De Juwelier",
-      "nameEnglish": "",
-      "category": "food_drink",
-      "subcategory": "restaurant",
-      "lat": 52.3642561,
-      "lng": 4.8982758,
-      "distanceFromTerminalMeters": 649,
-      "distanceFromDefaultTerminalMeters": 649,
-      "minDistanceFromAnyTerminalMeters": 649,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "51-H Utrechtsestraat, Amsterdam, 1017VJ",
-      "openingHours": "Mo-Su 12:00-13:30, 18:00-22:00",
-      "website": "https://www.restaurant-dejuwelier.nl/restaurantdejuwelier",
-      "phone": "+31 20 247 1007",
-      "cuisine": [
-        "french"
+        "italian",
+        "sandwich",
+        "pizza"
       ],
       "wheelchair": "limited",
       "brand": "",
-      "description": "à la carte-restaurant",
+      "description": "Panini place",
+      "wikidata": "",
+      "wikipedia": "",
       "osmTags": {
-        "amenity": "restaurant"
+        "amenity": "fast_food"
       }
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/d0534fff9d58d3300258",
-      "name": "Cuddle Pub",
+      "sourceId": "osm/generated/f4f349802af2ebd72756",
+      "name": "A Beautiful Mess",
       "nameEnglish": "",
       "category": "food_drink",
-      "subcategory": "restaurant",
-      "lat": 52.3753635,
-      "lng": 4.893945,
-      "distanceFromTerminalMeters": 724,
-      "distanceFromDefaultTerminalMeters": 724,
-      "minDistanceFromAnyTerminalMeters": 724,
+      "subcategory": "cafe",
+      "lat": 52.37579,
+      "lng": 4.9100473,
+      "distanceFromTerminalMeters": 423,
+      "distanceFromDefaultTerminalMeters": 423,
+      "minDistanceFromAnyTerminalMeters": 423,
       "nearestTerminalId": "ports-json-anchor",
-      "address": "20H Nieuwe Nieuwstraat, Amsterdam, 1012NH, NL",
-      "openingHours": "Mo-Th 00:00-01:15,12:00-24:00; Fr,Sa 00:00-03:00,12:00-24:00; Su 00:00-01:00,12:00-24:00",
-      "website": "https://www.cuddlepub.com/",
-      "phone": "+31 20 846 4680",
+      "address": "227 Oosterdokskade, Amsterdam, 1011DL",
+      "openingHours": "Mo 12:00-23:00; Tu-Sa 11:00-23:00; Su 11:00-19:00",
+      "website": "https://abeautifulmess.nl/amsterdam/",
+      "phone": "+31 20 2470392",
       "cuisine": [
-        "burger",
-        "regional"
+        "african",
+        "arab"
       ],
       "wheelchair": "yes",
-      "brand": "",
-      "description": "Food & Drink & Cocktail & Music & Play",
-      "osmTags": {
-        "amenity": "restaurant"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/b04b3ba6217343e4c0df",
-      "name": "Saigon Càphê",
-      "nameEnglish": "",
-      "category": "food_drink",
-      "subcategory": "restaurant",
-      "lat": 52.3792538,
-      "lng": 4.9023978,
-      "distanceFromTerminalMeters": 1042,
-      "distanceFromDefaultTerminalMeters": 1042,
-      "minDistanceFromAnyTerminalMeters": 1042,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "44A De Ruijterkade, Amsterdam, 1012AA",
-      "openingHours": "Mo-Su 10:00-22:00",
-      "website": "https://saigoncaphe.nl/amsterdam-centralstation/",
-      "phone": "+31 20 489 7918",
-      "cuisine": [
-        "vietnamese"
-      ],
-      "wheelchair": "yes",
-      "brand": "",
-      "description": "WiFi username:saigon-cafe-guests password: ilovepho",
-      "osmTags": {
-        "amenity": "restaurant"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/001308880f7381f1aa8b",
-      "name": "Nyonya",
-      "nameEnglish": "",
-      "category": "food_drink",
-      "subcategory": "restaurant",
-      "lat": 52.371321,
-      "lng": 4.8986226,
-      "distanceFromTerminalMeters": 174,
-      "distanceFromDefaultTerminalMeters": 174,
-      "minDistanceFromAnyTerminalMeters": 174,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "38-H Kloveniersburgwal, Amsterdam, 1012CW",
-      "openingHours": "Th-Su 12:00-21:00",
-      "website": "https://www.nyonyamalaysiarest.nl",
-      "phone": "+31 20 422 2447",
-      "cuisine": [
-        "malaysian"
-      ],
-      "wheelchair": "no",
       "brand": "",
       "description": "",
+      "wikidata": "",
+      "wikipedia": "",
       "osmTags": {
-        "amenity": "restaurant"
+        "amenity": "cafe"
       }
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/e486e80f24fc4373ea76",
-      "name": "Ristorante Papa Carlo",
+      "sourceId": "osm/generated/510f87d6fe6656b51a9b",
+      "name": "Vatten Ramen",
       "nameEnglish": "",
       "category": "food_drink",
-      "subcategory": "restaurant",
-      "lat": 52.371892,
-      "lng": 4.9000207,
-      "distanceFromTerminalMeters": 210,
-      "distanceFromDefaultTerminalMeters": 210,
-      "minDistanceFromAnyTerminalMeters": 210,
+      "subcategory": "fast_food",
+      "lat": 52.3756794,
+      "lng": 4.9005981,
+      "distanceFromTerminalMeters": 1028,
+      "distanceFromDefaultTerminalMeters": 1028,
+      "minDistanceFromAnyTerminalMeters": 1028,
       "nearestTerminalId": "ports-json-anchor",
-      "address": "7 Kloveniersburgwal, 1011JT",
-      "openingHours": "Mo-Su 12:30-22:30",
-      "website": "https://www.ristorantepapacarlo.nl/",
-      "phone": "+31 20 363 6293",
+      "address": "18 Zeedijk, Amsterdam, 1012AZ",
+      "openingHours": "Su,Tu-Th 12:30-22:00; Fr-Sa 12:30-23:00; Mo 17:00-22:00",
+      "website": "https://www.vattenramen.com",
+      "phone": "+31 6 24887362",
       "cuisine": [
-        "italian"
+        "ramen"
       ],
       "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "",
+      "wikipedia": "",
       "osmTags": {
-        "amenity": "restaurant"
+        "amenity": "fast_food"
       }
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/a198efab453c67f6b31b",
-      "name": "Cafe Piazza",
+      "sourceId": "osm/generated/85de4e8b5ad93a19acf3",
+      "name": "Coba",
       "nameEnglish": "",
       "category": "food_drink",
-      "subcategory": "restaurant",
-      "lat": 52.3719346,
-      "lng": 4.9000321,
-      "distanceFromTerminalMeters": 215,
-      "distanceFromDefaultTerminalMeters": 215,
-      "minDistanceFromAnyTerminalMeters": 215,
+      "subcategory": "fast_food",
+      "lat": 52.3849793,
+      "lng": 4.9251113,
+      "distanceFromTerminalMeters": 1037,
+      "distanceFromDefaultTerminalMeters": 1037,
+      "minDistanceFromAnyTerminalMeters": 1037,
       "nearestTerminalId": "ports-json-anchor",
-      "address": "5 Kloveniersburgwal, Amsterdam, 1011JT",
-      "openingHours": "Su-Th 15:00-23:00; Fr-Sa 15:00-23:30",
-      "website": "https://cafepiazza.nl",
-      "phone": "+31 20 423 0164",
+      "address": "4 Schaafstraat, Amsterdam",
+      "openingHours": "Tu-Su 18:00-24:00",
+      "website": "https://www.coba-taqueria.com",
+      "phone": "+31 6 45782010",
       "cuisine": [
-        "italian",
-        "polish"
-      ],
-      "wheelchair": "no",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "amenity": "restaurant"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/14ecce6a4595a6958a4b",
-      "name": "De Palmboom",
-      "nameEnglish": "",
-      "category": "food_drink",
-      "subcategory": "restaurant",
-      "lat": 52.3701445,
-      "lng": 4.8967247,
-      "distanceFromTerminalMeters": 223,
-      "distanceFromDefaultTerminalMeters": 223,
-      "minDistanceFromAnyTerminalMeters": 223,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "17 Rusland, Amsterdam, 1012CK, NL",
-      "openingHours": "Mo-Su 12:00-22:30",
-      "website": "https://www.radissonblu.com/de/hotel-amsterdam/restaurants",
-      "phone": "+31 20 623 1231",
-      "cuisine": [
-        "regional"
-      ],
-      "wheelchair": "yes",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "amenity": "restaurant"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/e822c9956b292df2cb5a",
-      "name": "Eetcafe van Beeren",
-      "nameEnglish": "",
-      "category": "food_drink",
-      "subcategory": "restaurant",
-      "lat": 52.3720695,
-      "lng": 4.902218,
-      "distanceFromTerminalMeters": 275,
-      "distanceFromDefaultTerminalMeters": 275,
-      "minDistanceFromAnyTerminalMeters": 275,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "54 Koningsstraat, Amsterdam, 1011EW",
-      "openingHours": "Mo-We 17:00-01:00; Th 17:00-03:00; Fr 16:00-03:00; Su 16:00-01:00",
-      "website": "https://www.eetcafevanbeeren.nl/",
-      "phone": "+31 20 622 2329",
-      "cuisine": [
-        "regional"
-      ],
-      "wheelchair": "no",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "amenity": "restaurant"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/f08918e81d6ab6e1984e",
-      "name": "Kyo",
-      "nameEnglish": "",
-      "category": "food_drink",
-      "subcategory": "restaurant",
-      "lat": 52.3723595,
-      "lng": 4.9020474,
-      "distanceFromTerminalMeters": 297,
-      "distanceFromDefaultTerminalMeters": 297,
-      "minDistanceFromAnyTerminalMeters": 297,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "29 Koningsstraat, Amsterdam, 1011ET",
-      "openingHours": "We-Su",
-      "website": "https://restaurantkyo.nl/",
-      "phone": "+31 20 354 1219",
-      "cuisine": [
-        "japanese"
-      ],
-      "wheelchair": "yes",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "amenity": "restaurant"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/94fdc2bcab8904b33186",
-      "name": "Phu thai",
-      "nameEnglish": "",
-      "category": "food_drink",
-      "subcategory": "restaurant",
-      "lat": 52.3724185,
-      "lng": 4.9019071,
-      "distanceFromTerminalMeters": 298,
-      "distanceFromDefaultTerminalMeters": 298,
-      "minDistanceFromAnyTerminalMeters": 298,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "25 Koningsstraat, Amsterdam, 1011ET",
-      "openingHours": "Mo-Su 14:00-22:00",
-      "website": "https://www.phuthai.nl/",
-      "phone": "+31 20 737 1009",
-      "cuisine": [
-        "thai"
-      ],
-      "wheelchair": "yes",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "amenity": "restaurant"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/e38702bbcfbb01d6a045",
-      "name": "Oriental City",
-      "nameEnglish": "",
-      "category": "food_drink",
-      "subcategory": "restaurant",
-      "lat": 52.3718212,
-      "lng": 4.8963021,
-      "distanceFromTerminalMeters": 323,
-      "distanceFromDefaultTerminalMeters": 323,
-      "minDistanceFromAnyTerminalMeters": 323,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "177-179 Oudezijds Voorburgwal, Amsterdam",
-      "openingHours": "Su-Th 11:30-22:00; Fr,Sa 11:30-22:30",
-      "website": "https://www.oriental-city.com",
-      "phone": "+31 20 626 8352",
-      "cuisine": [
-        "asian"
-      ],
-      "wheelchair": "no",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "amenity": "restaurant"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/4a9212e8ebf062e83721",
-      "name": "Jasmine",
-      "nameEnglish": "Pad Thai",
-      "category": "food_drink",
-      "subcategory": "restaurant",
-      "lat": 52.3735356,
-      "lng": 4.9003082,
-      "distanceFromTerminalMeters": 394,
-      "distanceFromDefaultTerminalMeters": 394,
-      "minDistanceFromAnyTerminalMeters": 394,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "119 Zeedijk, Amsterdam, 1012AW, NL",
-      "openingHours": "Mo-Su 12:00-23:00",
-      "website": "https://padthai.world/",
-      "phone": "+31 20 280 7841",
-      "cuisine": [
-        "thai"
+        "mexican"
       ],
       "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "",
+      "wikipedia": "",
       "osmTags": {
-        "amenity": "restaurant"
+        "amenity": "fast_food"
       }
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/e760d3623ab40cbf4afa",
-      "name": "Portugalia Tasha",
-      "nameEnglish": "Portugalia Tasca",
+      "sourceId": "osm/generated/159bdaa30ee3e124dbdf",
+      "name": "il Sogno",
+      "nameEnglish": "",
       "category": "food_drink",
-      "subcategory": "restaurant",
-      "lat": 52.366794,
-      "lng": 4.8972106,
-      "distanceFromTerminalMeters": 404,
-      "distanceFromDefaultTerminalMeters": 404,
-      "minDistanceFromAnyTerminalMeters": 404,
+      "subcategory": "cafe",
+      "lat": 52.3725169,
+      "lng": 4.9017585,
+      "distanceFromTerminalMeters": 1093,
+      "distanceFromDefaultTerminalMeters": 1093,
+      "minDistanceFromAnyTerminalMeters": 1093,
       "nearestTerminalId": "ports-json-anchor",
-      "address": "12 Bakkersstraat, Amsterdam, 1017CW",
-      "openingHours": "Mo-Su 12:00-23:00",
-      "website": "https://portugaliatasca.nl/",
-      "phone": "+31 6 58 94 39 97",
+      "address": "19 Koningsstraat, Amsterdam, 1011ET",
+      "openingHours": "Mo-Th,Su 15:00-22:00; Fr-Sa 12:00-22:00",
+      "website": "https://il-sogno.nl/koningsstraat/",
+      "phone": "+31 20 237 4378",
       "cuisine": [
-        "portuguese"
+        "pizza"
+      ],
+      "wheelchair": "limited",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/233e95e12494e5807268",
+      "name": "Cafe Smit & Voogt",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "pub",
+      "lat": 52.3673515,
+      "lng": 4.9095413,
+      "distanceFromTerminalMeters": 1228,
+      "distanceFromDefaultTerminalMeters": 1228,
+      "minDistanceFromAnyTerminalMeters": 1228,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "10 Plantage Parklaan, Amsterdam, 1018ST",
+      "openingHours": "Mo-Th,Su 09:00-01:00; Fr-Sa 09:00-03:00",
+      "website": "https://www.cafesmitenvoogt.nl",
+      "phone": "+31 20 737 0829",
+      "cuisine": [
+        "regional"
+      ],
+      "wheelchair": "limited",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "pub"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ea501ccbe00b4a5c7a0e",
+      "name": "Burger Fabriek",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "fast_food",
+      "lat": 52.3749671,
+      "lng": 4.8976937,
+      "distanceFromTerminalMeters": 1238,
+      "distanceFromDefaultTerminalMeters": 1238,
+      "minDistanceFromAnyTerminalMeters": 1238,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "73HS Warmoesstraat, Amsterdam, 1012HX",
+      "openingHours": "Su-Th 11:00-23:00; Fr-Sa 11:00-23:00",
+      "website": "https://burgerfabriek.nl/",
+      "phone": "+31 20 362 7952",
+      "cuisine": [
+        "burger"
       ],
       "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "",
+      "wikipedia": "",
       "osmTags": {
-        "amenity": "restaurant"
+        "amenity": "fast_food"
       }
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/1eeb72f597e8e34e2342",
-      "name": "foam",
+      "sourceId": "osm/generated/986b899da85d6639e5fb",
+      "name": "Slainte",
       "nameEnglish": "",
-      "category": "attraction",
-      "subcategory": "museum",
-      "lat": 52.3639884,
-      "lng": 4.8932631,
-      "distanceFromTerminalMeters": 810,
-      "distanceFromDefaultTerminalMeters": 810,
-      "minDistanceFromAnyTerminalMeters": 810,
+      "category": "food_drink",
+      "subcategory": "pub",
+      "lat": 52.3746948,
+      "lng": 4.8973185,
+      "distanceFromTerminalMeters": 1271,
+      "distanceFromDefaultTerminalMeters": 1271,
+      "minDistanceFromAnyTerminalMeters": 1271,
       "nearestTerminalId": "ports-json-anchor",
-      "address": "609 Keizersgracht, Amsterdam, 1017DS, NL",
-      "openingHours": "Sa-We 10:00-18:00; Th-Fr 10:00-21:00",
-      "website": "https://www.foam.org/",
-      "phone": "+31 20 551 6500",
-      "cuisine": [],
-      "wheelchair": "no",
+      "address": "87 Warmoesstraat, Amsterdam, 1012HZ",
+      "openingHours": "Su-Th 09:00-01:00; Fr-Sa 09:00-03:00",
+      "website": "http://www.irishpubslainte.nl",
+      "phone": "+31 20 625 5974",
+      "cuisine": [
+        "irish"
+      ],
+      "wheelchair": "",
       "brand": "",
-      "description": "Fotografiemuseum Amsterdam",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
       "osmTags": {
-        "tourism": "museum"
+        "amenity": "pub"
       }
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/cc0ba7e34f625cbc4099",
-      "name": "Nationaal Holocaustmuseum",
-      "nameEnglish": "National Holocaust Museum",
-      "category": "attraction",
-      "subcategory": "museum",
-      "lat": 52.3668719,
-      "lng": 4.9110104,
-      "distanceFromTerminalMeters": 824,
-      "distanceFromDefaultTerminalMeters": 824,
-      "minDistanceFromAnyTerminalMeters": 824,
+      "sourceId": "osm/generated/3686da60eafaf2ba3be1",
+      "name": "Het Kleine Lokaal",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": 52.3660752,
+      "lng": 4.9134972,
+      "distanceFromTerminalMeters": 1311,
+      "distanceFromDefaultTerminalMeters": 1311,
+      "minDistanceFromAnyTerminalMeters": 1311,
       "nearestTerminalId": "ports-json-anchor",
-      "address": "27 Plantage Middenlaan, Amsterdam, 1018DB",
+      "address": "41 Plantage Middenlaan, Amsterdam, 1018CZ",
       "openingHours": "Mo-Su 10:00-17:00",
-      "website": "https://jck.nl/locatie/nationaal-holocaustmuseum",
-      "phone": "",
-      "cuisine": [],
+      "website": "https://hetkleinelokaal.nl",
+      "phone": "+31 6 25408134",
+      "cuisine": [
+        "local"
+      ],
       "wheelchair": "",
       "brand": "",
-      "description": "The former Hervormde Kweekschool, opened approx April 2016. National Holocaust Museum is opened in 2024",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
       "osmTags": {
-        "tourism": "museum"
+        "amenity": "cafe"
       }
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/847c6f31d0ad886f4d41",
-      "name": "The Amsterdam Toy Museum",
+      "sourceId": "osm/generated/11cda2e5c2f5fad3f789",
+      "name": "Waterkant",
       "nameEnglish": "",
-      "category": "attraction",
-      "subcategory": "museum",
-      "lat": 52.3701923,
-      "lng": 4.8895378,
-      "distanceFromTerminalMeters": 711,
-      "distanceFromDefaultTerminalMeters": 711,
-      "minDistanceFromAnyTerminalMeters": 711,
+      "category": "food_drink",
+      "subcategory": "pub",
+      "lat": 52.3697209,
+      "lng": 4.8761877,
+      "distanceFromTerminalMeters": 2805,
+      "distanceFromDefaultTerminalMeters": 2805,
+      "minDistanceFromAnyTerminalMeters": 2805,
       "nearestTerminalId": "ports-json-anchor",
-      "address": "310 Nieuwezijds Voorburgwal, Amsterdam, 1012RV",
-      "openingHours": "",
-      "website": "https://theamsterdamtoymuseum.com/",
+      "address": "246 Marnixstraat, Amsterdam, 1016TL",
+      "openingHours": "Su-Th 11:00-01:00, Fr-Sa 11:00-27:00",
+      "website": "https://www.waterkantamsterdam.nl",
+      "phone": "+31 20 737 1126",
+      "cuisine": [
+        "dutch",
+        "surinamese"
+      ],
+      "wheelchair": "limited",
+      "brand": "",
+      "description": "Modern canalside bar & eatery with Dutch & Surinamese fare, a wide choice of beer & outdoor seating.",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "pub"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c53509ade7483474a6d5",
+      "name": "Burgerbar",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "fast_food",
+      "lat": 52.3761851,
+      "lng": 4.895521,
+      "distanceFromTerminalMeters": 1357,
+      "distanceFromDefaultTerminalMeters": 1357,
+      "minDistanceFromAnyTerminalMeters": 1357,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "2 Kolksteeg, Amsterdam, 1012PT",
+      "openingHours": "11:00-01:00",
+      "website": "https://www.burgerbar.nl/",
+      "phone": "+31 20 624 9049",
+      "cuisine": [
+        "burger"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "fast_food"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/bd0c97e7cec89620e691",
+      "name": "Comics shop Lambiek",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "books",
+      "lat": 52.3723878,
+      "lng": 4.9019814,
+      "distanceFromTerminalMeters": 1088,
+      "distanceFromDefaultTerminalMeters": 1088,
+      "minDistanceFromAnyTerminalMeters": 1088,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "27 Koningsstraat, Amsterdam, 1011ET",
+      "openingHours": "Mo-Fr 11:00-18:00, Sa 11:00-17:00, Su 13:00-17:00",
+      "website": "https://www.lambiek.net/",
+      "phone": "+31 20 626 7543",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q2714676",
+      "wikipedia": "nl:Lambiek (stripwinkel)",
+      "osmTags": {
+        "shop": "books"
+      },
+      "fame": 9
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/2f81b0a2730f03e162ae",
+      "name": "Albert Cuyp-markt",
+      "nameEnglish": "Albert Cuyp market",
+      "category": "shopping",
+      "subcategory": "marketplace",
+      "lat": 52.356054,
+      "lng": 4.8949678,
+      "distanceFromTerminalMeters": 2786,
+      "distanceFromDefaultTerminalMeters": 2786,
+      "minDistanceFromAnyTerminalMeters": 2786,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "1073 Albert Cuypstraat, Amsterdam",
+      "openingHours": "Mo-Sa 09:00-17:00",
+      "website": "https://albertcuyp-markt.amsterdam/",
       "phone": "",
       "cuisine": [],
       "wheelchair": "",
       "brand": "",
-      "description": "open on appointment",
+      "description": "",
+      "wikidata": "Q2342892",
+      "wikipedia": "",
       "osmTags": {
-        "tourism": "museum"
+        "amenity": "marketplace",
+        "tourism": "attraction"
+      },
+      "fame": 13
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b805a855b8703bae6fad",
+      "name": "Bloemenmarkt",
+      "nameEnglish": "Flower Market",
+      "category": "shopping",
+      "subcategory": "marketplace",
+      "lat": 52.3669538,
+      "lng": 4.8914048,
+      "distanceFromTerminalMeters": 2024,
+      "distanceFromDefaultTerminalMeters": 2024,
+      "minDistanceFromAnyTerminalMeters": 2024,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Sa 09:00-17:30; Su 11:30-17:30",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "limited",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q643079",
+      "wikipedia": "nl:Bloemenmarkt",
+      "osmTags": {
+        "amenity": "marketplace",
+        "tourism": "attraction"
+      },
+      "fame": 16
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/a8352fafe9f32903bee7",
+      "name": "Dappermarkt",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "marketplace",
+      "lat": 52.3631528,
+      "lng": 4.9272884,
+      "distanceFromTerminalMeters": 1821,
+      "distanceFromDefaultTerminalMeters": 1821,
+      "minDistanceFromAnyTerminalMeters": 1821,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Sa 09:00-17:00",
+      "website": "https://www.dappermarkt.nl",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q1165557",
+      "wikipedia": "nl:Dappermarkt",
+      "osmTags": {
+        "amenity": "marketplace"
+      },
+      "fame": 7
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/5cdb76c09e7a46bbbdb0",
+      "name": "Magna Plaza",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "mall",
+      "lat": 52.3736558,
+      "lng": 4.890238,
+      "distanceFromTerminalMeters": 1765,
+      "distanceFromDefaultTerminalMeters": 1765,
+      "minDistanceFromAnyTerminalMeters": 1765,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo 11:00-19:00; Tu-Sa 10:00-19:00; Th 10:00-21:00; Su 12:00-19:00",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q1962448",
+      "wikipedia": "nl:Magna Plaza",
+      "osmTags": {
+        "shop": "mall"
+      },
+      "fame": 8
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/86f62597ce9dd3b46d6f",
+      "name": "Kalverpassage",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "mall",
+      "lat": 52.3674733,
+      "lng": 4.8915613,
+      "distanceFromTerminalMeters": 1981,
+      "distanceFromDefaultTerminalMeters": 1981,
+      "minDistanceFromAnyTerminalMeters": 1981,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "457 Singel, Amsterdam, 1012WP",
+      "openingHours": "",
+      "website": "https://www.kalverpassage.nl",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q2596789",
+      "wikipedia": "nl:Kalverpassage",
+      "osmTags": {
+        "shop": "mall"
+      },
+      "fame": 3
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/10c458eb7e2384aff11b",
+      "name": "Thinking of Holland",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "gift",
+      "lat": 52.3777697,
+      "lng": 4.9148645,
+      "distanceFromTerminalMeters": 32,
+      "distanceFromDefaultTerminalMeters": 32,
+      "minDistanceFromAnyTerminalMeters": 32,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "23 Piet Heinkade, Amsterdam, 1019BR",
+      "openingHours": "Mo-We,Sa 10:00-18:00; Th,Fr,Su off",
+      "website": "https://www.thinkingofholland.com/",
+      "phone": "+31 20 419 1229",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "shop": "gift"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/97842875c3e3152c9f34",
+      "name": "De Duif",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "books",
+      "lat": 52.3835372,
+      "lng": 4.9131826,
+      "distanceFromTerminalMeters": 653,
+      "distanceFromDefaultTerminalMeters": 653,
+      "minDistanceFromAnyTerminalMeters": 653,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "24 Valkenweg, Amsterdam, 1021HB",
+      "openingHours": "Tu-Fr 10:00-18:00; Sa,Su 10:00-17:00",
+      "website": "https://boekhandeldeduif.nl",
+      "phone": "+31 6 3453 3022",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "shop": "books"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/4211191afeaf2820e467",
+      "name": "Xantippe",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "books",
+      "lat": 52.3704422,
+      "lng": 4.8824031,
+      "distanceFromTerminalMeters": 2381,
+      "distanceFromDefaultTerminalMeters": 2381,
+      "minDistanceFromAnyTerminalMeters": 2381,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "290 Prinsengracht, Amsterdam, 1016HJ",
+      "openingHours": "Mo off; Tu-Fr 10:00-18:00; Sa 10:00-17:00; Su 12:00-17:00",
+      "website": "https://www.xantippe.nl/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q62033683",
+      "wikipedia": "nl:Xantippe (boekhandel)",
+      "osmTags": {
+        "shop": "books"
+      },
+      "fame": 1
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/626aa765eb27698d34d8",
+      "name": "Boekie Woekie",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "books",
+      "lat": 52.3753246,
+      "lng": 4.9023219,
+      "distanceFromTerminalMeters": 925,
+      "distanceFromDefaultTerminalMeters": 925,
+      "minDistanceFromAnyTerminalMeters": 925,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "39 Geldersekade, Amsterdam, 1011EJ",
+      "openingHours": "Mo-Su 12:00-18:00",
+      "website": "https://boekiewoekie.com/",
+      "phone": "+31 20 639 0507",
+      "cuisine": [],
+      "wheelchair": "limited",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "shop": "books"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/e36b822da40ac70f3d80",
+      "name": "Frank's Smoke House",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "deli",
+      "lat": 52.3694054,
+      "lng": 4.9205667,
+      "distanceFromTerminalMeters": 1000,
+      "distanceFromDefaultTerminalMeters": 1000,
+      "minDistanceFromAnyTerminalMeters": 1000,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "303 Wittenburgergracht, Amsterdam, 1018ZL",
+      "openingHours": "Tu-Fr 11:00-18:00,10:00-17:00",
+      "website": "https://www.smokehouse.nl",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Restaurant en winkel voor gerookte vis",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "shop": "deli"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d6c92ce6a967777f76ee",
+      "name": "Museumplein",
+      "nameEnglish": "Museum Square",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 52.3574015,
+      "lng": 4.881608,
+      "distanceFromTerminalMeters": 3224,
+      "distanceFromDefaultTerminalMeters": 3224,
+      "minDistanceFromAnyTerminalMeters": 3224,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q639321",
+      "wikipedia": "nl:Museumplein",
+      "osmTags": {
+        "leisure": "park"
+      },
+      "fame": 22
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/2b9ffb231cbe4866e57e",
+      "name": "Blauwbrug",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "viewpoint",
+      "lat": 52.3663589,
+      "lng": 4.9008808,
+      "distanceFromTerminalMeters": 1607,
+      "distanceFromDefaultTerminalMeters": 1607,
+      "minDistanceFromAnyTerminalMeters": 1607,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "limited",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q883126",
+      "wikipedia": "nl:Blauwbrug",
+      "osmTags": {
+        "man_made": "bridge",
+        "tourism": "viewpoint"
+      },
+      "fame": 14
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/fc3f94f3946ef52c1377",
+      "name": "Oosterpark",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 52.3602243,
+      "lng": 4.9204218,
+      "distanceFromTerminalMeters": 1986,
+      "distanceFromDefaultTerminalMeters": 1986,
+      "minDistanceFromAnyTerminalMeters": 1986,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q2718912",
+      "wikipedia": "nl:Oosterpark (Amsterdam)",
+      "osmTags": {
+        "leisure": "park"
+      },
+      "fame": 7
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b42fa9b9308832196a53",
+      "name": "Botanische Tuin Zuidas",
+      "nameEnglish": "Botanical Garden Zuidas",
+      "category": "outdoors",
+      "subcategory": "garden",
+      "lat": 52.3326514,
+      "lng": 4.860581,
+      "distanceFromTerminalMeters": 6248,
+      "distanceFromDefaultTerminalMeters": 6248,
+      "minDistanceFromAnyTerminalMeters": 6248,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "8 Van der Boechorststraat, Amsterdam, 1081BT",
+      "openingHours": "Su-Th 09:00-17:00; Fr-Sa 12:00-17:00",
+      "website": "https://botanischetuinzuidas.nl/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "botanical garden, Hortus Botanicus Vrije Universiteit",
+      "wikidata": "Q2610973",
+      "wikipedia": "nl:Botanische tuin Zuidas",
+      "osmTags": {
+        "leisure": "garden"
+      },
+      "fame": 4
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/43d5544d2efd07b26efb",
+      "name": "Sarphatipark",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 52.3544204,
+      "lng": 4.8963858,
+      "distanceFromTerminalMeters": 2902,
+      "distanceFromDefaultTerminalMeters": 2902,
+      "minDistanceFromAnyTerminalMeters": 2902,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q645372",
+      "wikipedia": "nl:Sarphatipark",
+      "osmTags": {
+        "leisure": "park"
+      },
+      "fame": 7
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/5e6f1a6e1ff408e85d38",
+      "name": "Amstelpark",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 52.3282052,
+      "lng": 4.8942355,
+      "distanceFromTerminalMeters": 5699,
+      "distanceFromDefaultTerminalMeters": 5699,
+      "minDistanceFromAnyTerminalMeters": 5699,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "https://www.amsterdam.info/parks/amstelpark/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q655469",
+      "wikipedia": "nl:Amstelpark",
+      "osmTags": {
+        "leisure": "park"
+      },
+      "fame": 9
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/fcc2b65ca05ec732b149",
+      "name": "Flevopark",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": 52.361904,
+      "lng": 4.9506474,
+      "distanceFromTerminalMeters": 2980,
+      "distanceFromDefaultTerminalMeters": 2980,
+      "minDistanceFromAnyTerminalMeters": 2980,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q2335366",
+      "wikipedia": "nl:Flevopark",
+      "osmTags": {
+        "leisure": "park"
+      },
+      "fame": 5
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/bb8d116c300028886600",
+      "name": "Hollandsche Manege",
+      "nameEnglish": "Dutch Equestrian School Museum Hollandsche Manege",
+      "category": "outdoors",
+      "subcategory": "sports_centre",
+      "lat": 52.3612839,
+      "lng": 4.8718724,
+      "distanceFromTerminalMeters": 3476,
+      "distanceFromDefaultTerminalMeters": 3476,
+      "minDistanceFromAnyTerminalMeters": 3476,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "140 Vondelstraat, Amsterdam, 1054GT",
+      "openingHours": "",
+      "website": "https://dehollandschemanege.nl/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "limited",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q2191087",
+      "wikipedia": "nl:Hollandsche Manege",
+      "osmTags": {
+        "leisure": "sports_centre",
+        "tourism": "attraction"
+      },
+      "fame": 4
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/72c3d4069bd165b92327",
+      "name": "Deutzenhofje",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "garden",
+      "lat": 52.3627969,
+      "lng": 4.8901433,
+      "distanceFromTerminalMeters": 2390,
+      "distanceFromDefaultTerminalMeters": 2390,
+      "minDistanceFromAnyTerminalMeters": 2390,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q2609918",
+      "wikipedia": "nl:Deutzenhofje",
+      "osmTags": {
+        "leisure": "garden"
+      },
+      "fame": 3
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/5aaba1cbb7a4edb4f78a",
+      "name": "Moestuinschool",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "garden",
+      "lat": 52.384093,
+      "lng": 4.9090424,
+      "distanceFromTerminalMeters": 818,
+      "distanceFromDefaultTerminalMeters": 818,
+      "minDistanceFromAnyTerminalMeters": 818,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "24/7",
+      "website": "https://www.moestuinschoolamsterdam.nl/",
+      "phone": "+31 6 21517627",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "leisure": "garden"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/80ce007bb40c237850ee",
+      "name": "A'dam Lookout",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "viewpoint",
+      "lat": 52.3838564,
+      "lng": 4.9021028,
+      "distanceFromTerminalMeters": 1121,
+      "distanceFromDefaultTerminalMeters": 1121,
+      "minDistanceFromAnyTerminalMeters": 1121,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Su 10:00-22:00",
+      "website": "https://www.adamlookout.com/",
+      "phone": "+31 20 242 0100",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "tourism": "viewpoint"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f13920c20ff241436715",
+      "name": "Normaal Amsterdams Peil",
+      "nameEnglish": "",
+      "category": "essentials",
+      "subcategory": "visitor_information",
+      "lat": 52.3733211,
+      "lng": 4.8922813,
+      "distanceFromTerminalMeters": 1642,
+      "distanceFromDefaultTerminalMeters": 1642,
+      "minDistanceFromAnyTerminalMeters": 1642,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q4271952",
+      "wikipedia": "nl:Normaal Amsterdams Peil",
+      "osmTags": {
+        "man_made": "survey_point",
+        "tourism": "information"
+      },
+      "fame": 16
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/fae7c954d944d1cde153",
+      "name": "Prostitutie Informatie Centrum",
+      "nameEnglish": "Prostitution Information Centre",
+      "category": "essentials",
+      "subcategory": "visitor_information",
+      "lat": 52.3747307,
+      "lng": 4.8978239,
+      "distanceFromTerminalMeters": 1237,
+      "distanceFromDefaultTerminalMeters": 1237,
+      "minDistanceFromAnyTerminalMeters": 1237,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "3 Enge Kerksteeg, Amsterdam, 1012GV",
+      "openingHours": "We,Th,Fr 10:00-17:00; Sa 10:00-19:00; Su,PH off",
+      "website": "https://www.pic-amsterdam.com",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Information for tourists, customers and sex workers about prostitution in the red light district",
+      "wikidata": "Q7250999",
+      "wikipedia": "nl:Prostitutie Informatie Centrum",
+      "osmTags": {
+        "tourism": "information"
+      },
+      "fame": 2
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/09165a8db42e97d1598b",
+      "name": "Doctor & Pharmacy",
+      "nameEnglish": "",
+      "category": "essentials",
+      "subcategory": "pharmacy",
+      "lat": 52.3800745,
+      "lng": 4.8992326,
+      "distanceFromTerminalMeters": 1121,
+      "distanceFromDefaultTerminalMeters": 1121,
+      "minDistanceFromAnyTerminalMeters": 1121,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "24A De Ruijterkade, Amsterdam, 1012AA",
+      "openingHours": "Mo-Th 08:30-19:00; Fr 08:30-20:00; Sa-Su,PH 10:00-20:00",
+      "website": "https://www.centraldoctors.nl",
+      "phone": "+31 202357823",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "pharmacy"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/8fe1cdc2be1e94e99dd8",
+      "name": "Beurs van Berlage",
+      "nameEnglish": "Berlage's Stock Market",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 52.375045,
+      "lng": 4.8962774,
+      "distanceFromTerminalMeters": 1329,
+      "distanceFromDefaultTerminalMeters": 1329,
+      "minDistanceFromAnyTerminalMeters": 1329,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "243 Damrak, Amsterdam, 1012ZJ",
+      "openingHours": "",
+      "website": "https://www.beursvanberlage.com/",
+      "phone": "+31 20 530 4141",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q851200",
+      "wikipedia": "nl:Beurs van Berlage",
+      "osmTags": {
+        "tourism": "attraction"
+      },
+      "fame": 11
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/45f117c9468ef562d229",
+      "name": "Waag",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 52.3727728,
+      "lng": 4.9003161,
+      "distanceFromTerminalMeters": 1163,
+      "distanceFromDefaultTerminalMeters": 1163,
+      "minDistanceFromAnyTerminalMeters": 1163,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "4 Nieuwmarkt, Amsterdam, 1012CR",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "Waag Society",
+      "wikidata": "Q2466999",
+      "wikipedia": "nl:Waag (Amsterdam)",
+      "osmTags": {
+        "tourism": "attraction"
+      },
+      "fame": 12
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f040292de316aea5ca03",
+      "name": "Zuiderkerk",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 52.3702928,
+      "lng": 4.8997483,
+      "distanceFromTerminalMeters": 1348,
+      "distanceFromDefaultTerminalMeters": 1348,
+      "minDistanceFromAnyTerminalMeters": 1348,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "http://www.zuiderkerkamsterdam.nl",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "former protestant church in Renaissance style.",
+      "wikidata": "Q228629",
+      "wikipedia": "nl:Zuiderkerk (Amsterdam)",
+      "osmTags": {
+        "historic": "yes",
+        "tourism": "attraction"
+      },
+      "fame": 12
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b4133d93223442ebb31d",
+      "name": "The Amsterdam Dungeon",
+      "nameEnglish": "The Amsterdam Dungeon",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 52.3701984,
+      "lng": 4.892168,
+      "distanceFromTerminalMeters": 1786,
+      "distanceFromDefaultTerminalMeters": 1786,
+      "minDistanceFromAnyTerminalMeters": 1786,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "78 Rokin, Amsterdam, 1012KW",
+      "openingHours": "Su-Th 11:00-18:00; Fr-Sa 11:00-19:00",
+      "website": "https://www.thedungeons.com/amsterdam/en/",
+      "phone": "+31 20 530 8500",
+      "cuisine": [],
+      "wheelchair": "no",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q2134254",
+      "wikipedia": "nl:Amsterdam Dungeon",
+      "osmTags": {
+        "tourism": "attraction"
+      },
+      "fame": 5
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/abc201124fa3a02d5f12",
+      "name": "Magere Brug",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 52.3635809,
+      "lng": 4.9023579,
+      "distanceFromTerminalMeters": 1811,
+      "distanceFromDefaultTerminalMeters": 1811,
+      "minDistanceFromAnyTerminalMeters": 1811,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q1344400",
+      "wikipedia": "nl:Magere Brug",
+      "osmTags": {
+        "historic": "bridge",
+        "man_made": "bridge",
+        "tourism": "attraction"
+      },
+      "fame": 21
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/24d66a5a47a6c5d8e693",
+      "name": "Portugese Synagoge",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": 52.3675391,
+      "lng": 4.9053431,
+      "distanceFromTerminalMeters": 1328,
+      "distanceFromDefaultTerminalMeters": 1328,
+      "minDistanceFromAnyTerminalMeters": 1328,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q1853707",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "place_of_worship",
+        "tourism": "attraction"
+      },
+      "fame": 18
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/62dcfb538c3a939c2beb",
+      "name": "BBrood",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "bakery",
+      "lat": 52.3747006,
+      "lng": 4.9006886,
+      "distanceFromTerminalMeters": 1052,
+      "distanceFromDefaultTerminalMeters": 1052,
+      "minDistanceFromAnyTerminalMeters": 1052,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "66-H Zeedijk, Amsterdam, 1012BA",
+      "openingHours": "Mo-Fr 07:30-17:00; Sa 08:00-17:00",
+      "website": "https://www.bbrood.nl",
+      "phone": "+31 20 626 2919",
+      "cuisine": [],
+      "wheelchair": "no",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "shop": "bakery"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/fd374ea5aab342d79516",
+      "name": "Moonflower",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "florist",
+      "lat": 52.379201,
+      "lng": 4.8993593,
+      "distanceFromTerminalMeters": 1095,
+      "distanceFromDefaultTerminalMeters": 1095,
+      "minDistanceFromAnyTerminalMeters": 1095,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "45C Stationsplein, Amsterdam, 1012AB",
+      "openingHours": "Mo-Sa 08:00-20:00; Su 08:00-19:00",
+      "website": "https://www.moonflowerbv.nl/",
+      "phone": "+31 20 528 5300",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "shop": "florist"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ccb2618b71413017037a",
+      "name": "Henk Comics",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "books",
+      "lat": 52.373959,
+      "lng": 4.9003619,
+      "distanceFromTerminalMeters": 1103,
+      "distanceFromDefaultTerminalMeters": 1103,
+      "minDistanceFromAnyTerminalMeters": 1103,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "101a Zeedijk, Amsterdam, 1012AV",
+      "openingHours": "Mo-Sa 11:00-19:00; Su 12:00-18:00",
+      "website": "https://www.comics.nl",
+      "phone": "+31 20 4213688",
+      "cuisine": [],
+      "wheelchair": "no",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "shop": "books"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/23c371f6a865744c3222",
+      "name": "Mr. Nata",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "bakery",
+      "lat": 52.3562236,
+      "lng": 4.8999349,
+      "distanceFromTerminalMeters": 2618,
+      "distanceFromDefaultTerminalMeters": 2618,
+      "minDistanceFromAnyTerminalMeters": 2618,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "48A Van Woustraat, Amsterdam, 1073LM",
+      "openingHours": "Mo-Fr 08:00-18:00, Sa-Su 09:00-18:00",
+      "website": "https://misternata.com/",
+      "phone": "+31 6 21493534",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Portuguese Pastries",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "shop": "bakery"
       }
     }
   ],
-  "portAnchor": {
-    "id": "ports-json-anchor",
-    "name": "AMSTERDAM Port",
-    "lat": 52.37,
-    "lng": 4.9,
-    "address": "Amsterdam, Noord-Holland, Netherlands",
-    "source": "ports.json",
-    "sourceId": "",
-    "score": 0,
-    "slug": "amsterdam-port"
-  },
+  "gemSuggestions": [
+    "Begijnhof",
+    "Winkel 43 apple pie"
+  ],
   "terminalResolution": {
     "status": "resolved",
-    "method": "terminal_review",
+    "method": "cruise-ports",
     "verified": true,
-    "reviewedAt": "2026-09-28",
     "notes": "Passenger Terminal Amsterdam is correct; the rest are GVB ferry stops and canal tours."
   }
 }

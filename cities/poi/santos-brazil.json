@@ -1,15 +1,4 @@
 {
-  "schemaVersion": 5,
-  "catalogType": "curation-candidates",
-  "generatedAt": "2026-07-30T09:03:52.460Z",
-  "source": "openstreetmap",
-  "sourceExtract": "sudeste-latest.osm.pbf",
-  "radiusMeters": 10000,
-  "port": {
-    "id": "santos-brazil",
-    "city": "Santos",
-    "country": "Brazil"
-  },
   "defaultTerminalId": "review/santos-brazil/terminal-mar-timo-de-passageiros-giusfredo-santini",
   "terminal": {
     "id": "review/santos-brazil/terminal-mar-timo-de-passageiros-giusfredo-santini",
@@ -18,9 +7,8 @@
     "lng": -46.310752,
     "terminalType": "passenger_cruise_terminal",
     "source": "openstreetmap",
-    "sourceUrls": [],
-    "verified": true,
-    "sourceId": "review/santos-brazil/terminal-mar-timo-de-passageiros-giusfredo-santini"
+    "sourceId": "review/santos-brazil/terminal-mar-timo-de-passageiros-giusfredo-santini",
+    "verified": true
   },
   "terminals": [
     {
@@ -30,930 +18,81 @@
       "lng": -46.310752,
       "terminalType": "passenger_cruise_terminal",
       "source": "openstreetmap",
-      "sourceUrls": [],
-      "verified": true,
-      "sourceId": "review/santos-brazil/terminal-mar-timo-de-passageiros-giusfredo-santini"
+      "sourceId": "review/santos-brazil/terminal-mar-timo-de-passageiros-giusfredo-santini",
+      "verified": true
     }
   ],
-  "terminalCandidateRadiusMeters": 5000,
-  "terminalCandidates": [
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/b1fbf2cd25d79e22af19",
-      "name": "Terminal Marítimo de Passageiros Giusfredo Santini",
-      "nameEnglish": "",
-      "lat": -23.952356,
-      "lng": -46.3107518,
-      "distanceFromPortMeters": 1124,
-      "address": "Avenida Cândido Gaffrée, Santos",
-      "matchedBy": [
-        "amenity=ferry_terminal",
-        "terminal-like name"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "building": "transportation",
-        "cargo": "passengers",
-        "ferry": "yes",
-        "operator": "Concais",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/b1fbf2cd25d79e22af19"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/1c5bbd52bee2a811f0d8",
-      "name": "Travessias de Barcas Santas/ Vicente de Carvalho",
-      "nameEnglish": "",
-      "lat": -23.9396284,
-      "lng": -46.3080794,
-      "distanceFromPortMeters": 1416,
-      "address": "Avenida Thiago Ferreira, Guarujá",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "building": "yes",
-        "ferry": "yes",
-        "operator": "DH - Departamento Hidroviário do Estado de São Paulo",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/1c5bbd52bee2a811f0d8"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/83db4864644e39d6644a",
-      "name": "(unnamed maritime feature)",
-      "nameEnglish": "",
-      "lat": -23.9396446,
-      "lng": -46.3082695,
-      "distanceFromPortMeters": 1426,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/83db4864644e39d6644a"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/2293eee7849c5358b1b8",
-      "name": "Catraia (Santos/ Vicente de Carvalho)",
-      "nameEnglish": "",
-      "lat": -23.9394529,
-      "lng": -46.3083658,
-      "distanceFromPortMeters": 1449,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "operator": "Associação dos Catraieiros (Santos)",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/2293eee7849c5358b1b8"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/ec6861507eeb20df310e",
-      "name": "Terminal de Passageiros Santos-Vicente de Carvalho",
-      "nameEnglish": "",
-      "lat": -23.9407684,
-      "lng": -46.3177616,
-      "distanceFromPortMeters": 2076,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/ec6861507eeb20df310e"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/414de725b67fdc55e82a",
-      "name": "Catraia (Santos/ Vicente de Carvalho)",
-      "nameEnglish": "",
-      "lat": -23.9406707,
-      "lng": -46.3177453,
-      "distanceFromPortMeters": 2080,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "operator": "Associação dos Catraieiros (Santos)",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/414de725b67fdc55e82a"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/5945ef47e0f101aa4395",
-      "name": "(unnamed maritime feature)",
-      "nameEnglish": "",
-      "lat": -23.967049,
-      "lng": -46.2904102,
-      "distanceFromPortMeters": 2132,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/5945ef47e0f101aa4395"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/5eb7210e0c1a9adbcf89",
-      "name": "(unnamed maritime feature)",
-      "nameEnglish": "",
-      "lat": -23.9742359,
-      "lng": -46.293322,
-      "distanceFromPortMeters": 2779,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/5eb7210e0c1a9adbcf89"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/b27814a915dcd5ede1af",
-      "name": "Cais de passageiros 35",
-      "nameEnglish": "",
-      "lat": -23.9743984,
-      "lng": -46.2934561,
-      "distanceFromPortMeters": 2793,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "public_transport": "station",
-        "seamark:type": "anchor_berth"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/b27814a915dcd5ede1af"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/eb002269b1f7afeb5b06",
-      "name": "(unnamed maritime feature)",
-      "nameEnglish": "",
-      "lat": -23.9236902,
-      "lng": -46.3072652,
-      "distanceFromPortMeters": 3017,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/eb002269b1f7afeb5b06"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/83897a3814416d3257d4",
-      "name": "Terminal de Passageiros Santos-Vicente de Carvalho-Ilha Diana",
-      "nameEnglish": "",
-      "lat": -23.9317751,
-      "lng": -46.3245571,
-      "distanceFromPortMeters": 3215,
-      "address": "Avenida Xavier da Silveira (Praça da República), Santos",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "building": "yes",
-        "ferry": "yes",
-        "operator": "DH - Departamento Hidroviário do Estado de São Paulo",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/83897a3814416d3257d4"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/36ac33ff93d717665864",
-      "name": "Travessias de Barcas Santas/ Vicente de Carvalho",
-      "nameEnglish": "",
-      "lat": -23.9317052,
-      "lng": -46.3245128,
-      "distanceFromPortMeters": 3216,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "operator": "DERSA Desenvolvimento Rodoviário S/A",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/36ac33ff93d717665864"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/eed6f052ab71d7221436",
-      "name": "Libra Terminais T37",
-      "nameEnglish": "",
-      "lat": -23.9780092,
-      "lng": -46.2917425,
-      "distanceFromPortMeters": 3226,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/eed6f052ab71d7221436"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/94d02bdb05781864230a",
-      "name": "(unnamed maritime feature)",
-      "nameEnglish": "",
-      "lat": -23.9198715,
-      "lng": -46.2822638,
-      "distanceFromPortMeters": 3804,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/94d02bdb05781864230a"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/415d687da75bb40b4198",
-      "name": "(unnamed maritime feature)",
-      "nameEnglish": "",
-      "lat": -23.9151922,
-      "lng": -46.3085632,
-      "distanceFromPortMeters": 3967,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/415d687da75bb40b4198"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/1a8715f0feaab65120a7",
-      "name": "Gaveta Entreposto",
-      "nameEnglish": "",
-      "lat": -23.9865367,
-      "lng": -46.2935433,
-      "distanceFromPortMeters": 4115,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "operator": "Departamento Hidroviário",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/1a8715f0feaab65120a7"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/0bb00d5594625cc8224e",
-      "name": "Porto do Terminal da Adonai Química",
-      "nameEnglish": "",
-      "lat": -23.9246901,
-      "lng": -46.3297495,
-      "distanceFromPortMeters": 4131,
-      "address": "Ilha Barnabé, 11095-700",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/0bb00d5594625cc8224e"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/8f01c66fcc8309659380",
-      "name": "(unnamed maritime feature)",
-      "nameEnglish": "",
-      "lat": -23.9867203,
-      "lng": -46.2936284,
-      "distanceFromPortMeters": 4134,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "operator": "Departamento Hidroviário",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/8f01c66fcc8309659380"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/088a8c5f9ec7a0cb108d",
-      "name": "Gaveta Sul",
-      "nameEnglish": "",
-      "lat": -23.9869175,
-      "lng": -46.2937932,
-      "distanceFromPortMeters": 4153,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "operator": "Departamento Hidroviário",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/088a8c5f9ec7a0cb108d"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/50304693d7fba02a6911",
-      "name": "Santos",
-      "nameEnglish": "",
-      "lat": -23.9870561,
-      "lng": -46.2940844,
-      "distanceFromPortMeters": 4164,
-      "address": "525 Praça Almirante Gago Coutinho, Santos",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "cargo": "passengers;vehicle",
-        "ferry": "yes",
-        "operator": "Departamento Hidroviário",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/50304693d7fba02a6911"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/8ea1da2ed6fbb85c9810",
-      "name": "Embarque Velho de Santos",
-      "nameEnglish": "",
-      "lat": -23.9876728,
-      "lng": -46.2942726,
-      "distanceFromPortMeters": 4229,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "operator": "Departamento Hidroviário",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/8ea1da2ed6fbb85c9810"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/391c772037d0876e476c",
-      "name": "Ferryboat - Barca Ponta da Praia - (Santos/ Guarujá)",
-      "nameEnglish": "",
-      "lat": -23.9878131,
-      "lng": -46.2949298,
-      "distanceFromPortMeters": 4236,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "operator": "BSG - Barcas",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/391c772037d0876e476c"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/d70ee9cef7a8340f8e7d",
-      "name": "Gav.Iate Clube",
-      "nameEnglish": "",
-      "lat": -23.9879186,
-      "lng": -46.2891621,
-      "distanceFromPortMeters": 4358,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "operator": "Departamento Hidroviário",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/d70ee9cef7a8340f8e7d"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/93cb94bc9e89b54bd0e7",
-      "name": "Gav. Central",
-      "nameEnglish": "",
-      "lat": -23.9881345,
-      "lng": -46.2893141,
-      "distanceFromPortMeters": 4377,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "operator": "Departamento Hidroviário",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/93cb94bc9e89b54bd0e7"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/e0b03cbb685600935fc7",
-      "name": "Gav. CCO",
-      "nameEnglish": "",
-      "lat": -23.988325,
-      "lng": -46.2894351,
-      "distanceFromPortMeters": 4395,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "operator": "Departamento Hidroviário",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/e0b03cbb685600935fc7"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/67ec06851b7e0fa08f6d",
-      "name": "Guarujá",
-      "nameEnglish": "",
-      "lat": -23.9886155,
-      "lng": -46.2893377,
-      "distanceFromPortMeters": 4428,
-      "address": "3300 Avenida Adhemar de Barros, Guarujá",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "cargo": "passengers;vehicle",
-        "ferry": "yes",
-        "operator": "Departamento Hidroviário",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/67ec06851b7e0fa08f6d"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/1d680e32d2d996edeae6",
-      "name": "Ecoporto",
-      "nameEnglish": "",
-      "lat": -23.9277439,
-      "lng": -46.3362914,
-      "distanceFromPortMeters": 4442,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/1d680e32d2d996edeae6"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/0408937c744686171ae0",
-      "name": "Velho do Guarujá",
-      "nameEnglish": "",
-      "lat": -23.9891406,
-      "lng": -46.290896,
-      "distanceFromPortMeters": 4449,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "operator": "Departamento Hidroviário",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/0408937c744686171ae0"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/9dec00b1c80c06187953",
-      "name": "Barca Ferryboat - (Guarujá/ Santos)",
-      "nameEnglish": "",
-      "lat": -23.9897404,
-      "lng": -46.2909528,
-      "distanceFromPortMeters": 4514,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "operator": "BSG - Barcas",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/9dec00b1c80c06187953"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/8b6cd84cf2b20bc4d29f",
-      "name": "Terminal de Passageiros Santos-Praia do Góes e Nossa Senhora dos Navegantes",
-      "nameEnglish": "",
-      "lat": -23.9915776,
-      "lng": -46.3028959,
-      "distanceFromPortMeters": 4633,
-      "address": "Avenida Almirante Saldanha da Gama, Santos",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/8b6cd84cf2b20bc4d29f"
-      ]
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/16a0fca71cbbfdf052ea",
-      "name": "(unnamed maritime feature)",
-      "nameEnglish": "",
-      "lat": -23.9918537,
-      "lng": -46.3028622,
-      "distanceFromPortMeters": 4663,
-      "address": "",
-      "matchedBy": [
-        "amenity=ferry_terminal"
-      ],
-      "osmTags": {
-        "amenity": "ferry_terminal",
-        "ferry": "yes",
-        "public_transport": "station"
-      },
-      "sources": [
-        "openstreetmap"
-      ],
-      "sourceIds": [
-        "osm/generated/16a0fca71cbbfdf052ea"
-      ]
-    }
-  ],
+  "schemaVersion": 5,
+  "catalogType": "curation-candidates",
+  "generatedAt": "2026-09-29T05:47:48.479Z",
+  "source": "openstreetmap",
+  "sourceExtract": "sudeste-latest.osm.pbf",
+  "radiusMeters": 10000,
+  "port": {
+    "id": "santos-brazil",
+    "city": "Santos",
+    "country": "Brazil"
+  },
+  "portAnchor": {
+    "id": "ports-json-anchor",
+    "name": "Terminal Marítimo de Passageiros Giusfredo Santini",
+    "lat": -23.952356,
+    "lng": -46.310752,
+    "address": "Santos, São Paulo, Brazil",
+    "source": "ports.json",
+    "sourceId": "",
+    "score": 0,
+    "slug": "terminal-mar-timo-de-passageiros-giusfredo-santini"
+  },
   "counts": {
-    "attraction": 15,
-    "outdoors": 5,
-    "food_drink": 9,
-    "shopping": 4,
-    "essentials": 0
+    "attraction": 23,
+    "food_drink": 26,
+    "shopping": 17,
+    "outdoors": 15,
+    "essentials": 3
   },
   "pois": [
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/005960066415cd612200",
-      "name": "Museu de Pesca",
+      "sourceId": "osm/generated/796f911089852397f3ce",
+      "name": "Mercado Municipal",
       "nameEnglish": "",
-      "category": "attraction",
-      "subcategory": "museum",
-      "lat": -23.9900258,
-      "lng": -46.3062374,
-      "distanceFromTerminalMeters": 4496,
-      "distanceFromDefaultTerminalMeters": 4496,
-      "minDistanceFromAnyTerminalMeters": 4496,
+      "category": "shopping",
+      "subcategory": "marketplace",
+      "lat": -23.9403845,
+      "lng": -46.318505,
+      "distanceFromTerminalMeters": 1547,
+      "distanceFromDefaultTerminalMeters": 1547,
+      "minDistanceFromAnyTerminalMeters": 1547,
       "nearestTerminalId": "ports-json-anchor",
-      "address": "192 Avenida Rei Pelé, 11030-906",
-      "openingHours": "off",
-      "website": "https://www.pesca.sp.gov.br/museu",
-      "phone": "",
-      "cuisine": [],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "tourism": "museum"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/da751c0e435a149781ae",
-      "name": "Memorial das Conquistas",
-      "nameEnglish": "",
-      "category": "attraction",
-      "subcategory": "museum",
-      "lat": -23.950766,
-      "lng": -46.339475,
-      "distanceFromTerminalMeters": 4012,
-      "distanceFromDefaultTerminalMeters": 4012,
-      "minDistanceFromAnyTerminalMeters": 4012,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "Rua Princesa Isabel, Santos, 11075-501",
-      "openingHours": "",
-      "website": "https://www.memorialdasconquistas.com.br/",
-      "phone": "",
-      "cuisine": [],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "tourism": "museum"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/514c0f2a93fe2c517606",
-      "name": "Museu de Arte Sacra de Santos",
-      "nameEnglish": "",
-      "category": "attraction",
-      "subcategory": "museum",
-      "lat": -23.9347299,
-      "lng": -46.3360524,
-      "distanceFromTerminalMeters": 4038,
-      "distanceFromDefaultTerminalMeters": 4038,
-      "minDistanceFromAnyTerminalMeters": 4038,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "795 Rua Joana D' Arc, Santos, 11082-460",
-      "openingHours": "",
-      "website": "http://mass.org.br/",
-      "phone": "+55 13 3219-1111",
-      "cuisine": [],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "tourism": "museum"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/34e7eaf7f5d185585112",
-      "name": "Aquário Municipal de Santos",
-      "nameEnglish": "",
-      "category": "attraction",
-      "subcategory": "aquarium",
-      "lat": -23.9862775,
-      "lng": -46.3083172,
-      "distanceFromTerminalMeters": 4121,
-      "distanceFromDefaultTerminalMeters": 4121,
-      "minDistanceFromAnyTerminalMeters": 4121,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "Praça Vereador Luiz La Scala, Santos, 11030-600",
-      "openingHours": "off",
-      "website": "https://www.turismosantos.com.br/pt-br/content/aquario",
-      "phone": "+55 13 3278 7830",
-      "cuisine": [],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "tourism": "aquarium"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/ba55f742c4bf4e597bd0",
-      "name": "Museu do Café",
-      "nameEnglish": "",
-      "category": "attraction",
-      "subcategory": "museum",
-      "lat": -23.9322371,
-      "lng": -46.3300503,
-      "distanceFromTerminalMeters": 3637,
-      "distanceFromDefaultTerminalMeters": 3637,
-      "minDistanceFromAnyTerminalMeters": 3637,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "95 Rua Quinze de Novembro, Santos, 11010-151",
+      "address": "Praça Iguatemi Martins, Santos",
       "openingHours": "",
       "website": "",
-      "phone": "+55 13 3213-1750",
+      "phone": "+55 13 3235-6432",
       "cuisine": [],
       "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "",
+      "wikipedia": "",
       "osmTags": {
-        "historic": "building",
-        "tourism": "museum"
-      }
+        "amenity": "marketplace"
+      },
+      "curated": true,
+      "gem": true
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/92811beba31bbd931794",
-      "name": "Paróquia Santo Antônio do Embaré",
-      "nameEnglish": "Basilica of St. Anthony",
-      "category": "attraction",
-      "subcategory": "church",
-      "lat": -23.9740738,
-      "lng": -46.3199069,
-      "distanceFromTerminalMeters": 3355,
-      "distanceFromDefaultTerminalMeters": 3355,
-      "minDistanceFromAnyTerminalMeters": 3355,
+      "sourceId": "osm/generated/c2efce9f2f272738494a",
+      "name": "Praia do Boqueirão",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "beach",
+      "lat": -23.9734725,
+      "lng": -46.3256177,
+      "distanceFromTerminalMeters": 2792,
+      "distanceFromDefaultTerminalMeters": 2792,
+      "minDistanceFromAnyTerminalMeters": 2792,
       "nearestTerminalId": "ports-json-anchor",
       "address": "",
       "openingHours": "",
@@ -963,363 +102,45 @@
       "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "Q10352960",
+      "wikipedia": "ceb:Praia do Boqueirão",
       "osmTags": {
-        "amenity": "place_of_worship",
-        "historic": "church"
-      }
+        "natural": "beach"
+      },
+      "curated": true,
+      "gem": true,
+      "fame": 2
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/fafcdab439971126e77d",
-      "name": "Engenho dos Erasmos",
+      "sourceId": "osm/generated/4eef9b330aac4fe992b6",
+      "name": "Simpatia do Embaré",
       "nameEnglish": "",
-      "category": "attraction",
-      "subcategory": "museum",
-      "lat": -23.9476316,
-      "lng": -46.3630451,
-      "distanceFromTerminalMeters": 6412,
-      "distanceFromDefaultTerminalMeters": 6412,
-      "minDistanceFromAnyTerminalMeters": 6412,
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": -23.9661375,
+      "lng": -46.3141131,
+      "distanceFromTerminalMeters": 1570,
+      "distanceFromDefaultTerminalMeters": 1570,
+      "minDistanceFromAnyTerminalMeters": 1570,
       "nearestTerminalId": "ports-json-anchor",
-      "address": "96 Rua Alan Cíber Pinto, Santos, SP, 11085-625",
+      "address": "418 Avenida Senador Dantas, Santos",
       "openingHours": "",
-      "website": "http://www.engenho.prceu.usp.br",
-      "phone": "+55 13 3229-2703",
-      "cuisine": [],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "historic": "ruins",
-        "tourism": "museum"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/19492912c3a37be91730",
-      "name": "Parque Zoobotânico Orquidário Municipal de Santos",
-      "nameEnglish": "",
-      "category": "attraction",
-      "subcategory": "zoo",
-      "lat": -23.9659353,
-      "lng": -46.3499269,
-      "distanceFromTerminalMeters": 5374,
-      "distanceFromDefaultTerminalMeters": 5374,
-      "minDistanceFromAnyTerminalMeters": 5374,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "Praça Washington, 11065-600",
-      "openingHours": "",
-      "website": "https://www.museudavida.fiocruz.br/brasiliana/www.museudavidahomolog.fiocruz.br/brasiliana/cgi/cgilua.exe/sys/start11fe.html",
-      "phone": "+55 13 3237-6970",
-      "cuisine": [],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "tourism": "zoo"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/08d753e9ca1bc997c86c",
-      "name": "Statue Pelé",
-      "nameEnglish": "",
-      "category": "attraction",
-      "subcategory": "attraction",
-      "lat": -23.9761083,
-      "lng": -46.3137212,
-      "distanceFromTerminalMeters": 3221,
-      "distanceFromDefaultTerminalMeters": 3221,
-      "minDistanceFromAnyTerminalMeters": 3221,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "Avenida Almirante Cochrane, Santos, 11040-000",
-      "openingHours": "",
-      "website": "https://www.santosfc.com.br/",
-      "phone": "+55 13 3257 4000",
-      "cuisine": [],
+      "website": "",
+      "phone": "",
+      "cuisine": [
+        "regional"
+      ],
       "wheelchair": "yes",
       "brand": "",
-      "description": "Statue Pelé, Santos Futebol Clube",
-      "osmTags": {
-        "historic": "monument",
-        "tourism": "attraction"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/48061cf690ad1a06847c",
-      "name": "Monumento do Zito",
-      "nameEnglish": "",
-      "category": "attraction",
-      "subcategory": "attraction",
-      "lat": -23.9502141,
-      "lng": -46.3391246,
-      "distanceFromTerminalMeters": 3976,
-      "distanceFromDefaultTerminalMeters": 3976,
-      "minDistanceFromAnyTerminalMeters": 3976,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "Rua Princesa Isabel, Santos, 11075-500",
-      "openingHours": "",
-      "website": "https://www.santosfc.com.br/",
-      "phone": "+55 13 3257-4000",
-      "cuisine": [],
-      "wheelchair": "yes",
-      "brand": "",
-      "description": "Zito appeared regularly for Santos in the following 15 years, playing 733 games and scoring 57 goals. He was the captain of the Os Santásticos team of the late 1950s and 1960s, playing alongside Pelé, Pepe and other Brazilian stars.",
-      "osmTags": {
-        "historic": "monument",
-        "tourism": "attraction"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/62406d1a4a76e91c36de",
-      "name": "Nossa Senhora de Fátima",
-      "nameEnglish": "",
-      "category": "attraction",
-      "subcategory": "monument",
-      "lat": -23.9509607,
-      "lng": -46.3125729,
-      "distanceFromTerminalMeters": 1282,
-      "distanceFromDefaultTerminalMeters": 1282,
-      "minDistanceFromAnyTerminalMeters": 1282,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "",
-      "openingHours": "",
-      "website": "",
-      "phone": "",
-      "cuisine": [],
-      "wheelchair": "",
-      "brand": "",
       "description": "",
+      "wikidata": "",
+      "wikipedia": "",
       "osmTags": {
-        "historic": "monument"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/f0efd2b0c9774fef3f0b",
-      "name": "Trabalhador Portuário",
-      "nameEnglish": "",
-      "category": "attraction",
-      "subcategory": "monument",
-      "lat": -23.9504664,
-      "lng": -46.3179892,
-      "distanceFromTerminalMeters": 1829,
-      "distanceFromDefaultTerminalMeters": 1829,
-      "minDistanceFromAnyTerminalMeters": 1829,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "",
-      "openingHours": "",
-      "website": "",
-      "phone": "",
-      "cuisine": [],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "historic": "monument"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/7c357ba57c17cbc2f60c",
-      "name": "Onça Branca",
-      "nameEnglish": "",
-      "category": "attraction",
-      "subcategory": "monument",
-      "lat": -23.9690853,
-      "lng": -46.3363984,
-      "distanceFromTerminalMeters": 4264,
-      "distanceFromDefaultTerminalMeters": 4264,
-      "minDistanceFromAnyTerminalMeters": 4264,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "",
-      "openingHours": "",
-      "website": "",
-      "phone": "",
-      "cuisine": [],
-      "wheelchair": "",
-      "brand": "",
-      "description": "Originalmente essa estátua é conhecida como Leoa, uma vez que seria o par da estátua do Leão da praia, porém a estátua se aproxima fisicamente mais de uma Onça (ou Jaguar)",
-      "osmTags": {
-        "historic": "monument"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/99e20990780468c444e9",
-      "name": "Marco da Ponta da Praia",
-      "nameEnglish": "",
-      "category": "attraction",
-      "subcategory": "monument",
-      "lat": -23.9900923,
-      "lng": -46.3076985,
-      "distanceFromTerminalMeters": 4526,
-      "distanceFromDefaultTerminalMeters": 4526,
-      "minDistanceFromAnyTerminalMeters": 4526,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "",
-      "openingHours": "",
-      "website": "",
-      "phone": "",
-      "cuisine": [],
-      "wheelchair": "",
-      "brand": "",
-      "description": "Trata-se da Escultura do Arquiteto Aníbal Martins Clemente inaugurada em 25 de Janeiro de 1962, em Comemoração ao 123º Aniversário da Elevação de Santos à Categoria de Cidade.",
-      "osmTags": {
-        "historic": "monument"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/96a0be7d561613460a67",
-      "name": "Monumento aos Imigrantes",
-      "nameEnglish": "",
-      "category": "attraction",
-      "subcategory": "monument",
-      "lat": -23.9788902,
-      "lng": -46.3148646,
-      "distanceFromTerminalMeters": 3550,
-      "distanceFromDefaultTerminalMeters": 3550,
-      "minDistanceFromAnyTerminalMeters": 3550,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "",
-      "openingHours": "",
-      "website": "",
-      "phone": "",
-      "cuisine": [],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "historic": "monument"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/9859d0d3184c71cf2bf9",
-      "name": "Praça Prefeito Gomide Ribeiro",
-      "nameEnglish": "",
-      "category": "outdoors",
-      "subcategory": "garden",
-      "lat": -23.9630798,
-      "lng": -46.3184952,
-      "distanceFromTerminalMeters": 2376,
-      "distanceFromDefaultTerminalMeters": 2376,
-      "minDistanceFromAnyTerminalMeters": 2376,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "",
-      "openingHours": "",
-      "website": "",
-      "phone": "",
-      "cuisine": [],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "leisure": "garden"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/f61f5b549f0fedd7da25",
-      "name": "Morro do Itapema",
-      "nameEnglish": "",
-      "category": "outdoors",
-      "subcategory": "peak",
-      "lat": -23.9363273,
-      "lng": -46.3025693,
-      "distanceFromTerminalMeters": 1543,
-      "distanceFromDefaultTerminalMeters": 1543,
-      "minDistanceFromAnyTerminalMeters": 1543,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "",
-      "openingHours": "",
-      "website": "",
-      "phone": "",
-      "cuisine": [],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "natural": "peak"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/ef6273995ce5d362b95f",
-      "name": "Morro do Leme",
-      "nameEnglish": "",
-      "category": "outdoors",
-      "subcategory": "peak",
-      "lat": -23.9351113,
-      "lng": -46.2991361,
-      "distanceFromTerminalMeters": 1658,
-      "distanceFromDefaultTerminalMeters": 1658,
-      "minDistanceFromAnyTerminalMeters": 1658,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "",
-      "openingHours": "",
-      "website": "",
-      "phone": "",
-      "cuisine": [],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "natural": "peak"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/566c87073ce08b3d1c69",
-      "name": "Praça Desembargador Aloysio Álvares Cruz",
-      "nameEnglish": "",
-      "category": "outdoors",
-      "subcategory": "garden",
-      "lat": -23.9569202,
-      "lng": -46.3261372,
-      "distanceFromTerminalMeters": 2765,
-      "distanceFromDefaultTerminalMeters": 2765,
-      "minDistanceFromAnyTerminalMeters": 2765,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "",
-      "openingHours": "",
-      "website": "",
-      "phone": "",
-      "cuisine": [],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "leisure": "garden"
-      }
-    },
-    {
-      "source": "openstreetmap",
-      "sourceId": "osm/generated/85662b995c835b86359c",
-      "name": "Morro Marinho",
-      "nameEnglish": "",
-      "category": "outdoors",
-      "subcategory": "peak",
-      "lat": -23.9245641,
-      "lng": -46.2904161,
-      "distanceFromTerminalMeters": 2991,
-      "distanceFromDefaultTerminalMeters": 2991,
-      "minDistanceFromAnyTerminalMeters": 2991,
-      "nearestTerminalId": "ports-json-anchor",
-      "address": "",
-      "openingHours": "",
-      "website": "",
-      "phone": "",
-      "cuisine": [],
-      "wheelchair": "",
-      "brand": "",
-      "description": "",
-      "osmTags": {
-        "natural": "peak"
-      }
+        "amenity": "restaurant"
+      },
+      "curated": true,
+      "gem": true
     },
     {
       "source": "openstreetmap",
@@ -1330,9 +151,9 @@
       "subcategory": "cafe",
       "lat": -23.960467,
       "lng": -46.3324254,
-      "distanceFromTerminalMeters": 3494,
-      "distanceFromDefaultTerminalMeters": 3494,
-      "minDistanceFromAnyTerminalMeters": 3494,
+      "distanceFromTerminalMeters": 2380,
+      "distanceFromDefaultTerminalMeters": 2380,
+      "minDistanceFromAnyTerminalMeters": 2380,
       "nearestTerminalId": "ports-json-anchor",
       "address": "380 Avenida Anna Costa, Santos",
       "openingHours": "Mo-Fr 09:00-18:00",
@@ -1344,62 +165,748 @@
       "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "",
+      "wikipedia": "",
       "osmTags": {
         "amenity": "cafe"
-      }
+      },
+      "curated": true,
+      "gem": true
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/693467aaed533d55fd04",
-      "name": "Massas Dourado",
+      "sourceId": "osm/generated/48061cf690ad1a06847c",
+      "name": "Monumento do Zito",
       "nameEnglish": "",
-      "category": "food_drink",
-      "subcategory": "restaurant",
-      "lat": -23.9841302,
-      "lng": -46.3077108,
-      "distanceFromTerminalMeters": 3875,
-      "distanceFromDefaultTerminalMeters": 3875,
-      "minDistanceFromAnyTerminalMeters": 3875,
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": -23.9502141,
+      "lng": -46.3391246,
+      "distanceFromTerminalMeters": 2893,
+      "distanceFromDefaultTerminalMeters": 2893,
+      "minDistanceFromAnyTerminalMeters": 2893,
       "nearestTerminalId": "ports-json-anchor",
-      "address": "91;97 Rua Bassin Nagib Trabulsi, Santos, 11030-540",
-      "openingHours": "Mo-Su 07:00-19:00",
-      "website": "https://massasdourado.com.br/",
+      "address": "Rua Princesa Isabel, Santos, 11075-500",
+      "openingHours": "",
+      "website": "https://www.santosfc.com.br/",
+      "phone": "+55 13 3257-4000",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "Zito appeared regularly for Santos in the following 15 years, playing 733 games and scoring 57 goals. He was the captain of the Os Santásticos team of the late 1950s and 1960s, playing alongside Pelé, Pepe and other Brazilian stars.",
+      "wikidata": "Q372092",
+      "wikipedia": "pt:Zito (futebolista)",
+      "osmTags": {
+        "historic": "monument",
+        "tourism": "attraction"
+      },
+      "fame": 41
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/410e4926b75526102dbe",
+      "name": "Swift",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "frozen_food",
+      "lat": -23.982125,
+      "lng": -46.2299817,
+      "distanceFromTerminalMeters": 8849,
+      "distanceFromDefaultTerminalMeters": 8849,
+      "minDistanceFromAnyTerminalMeters": 8849,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "2200 Avenida Dom Pedro I",
+      "openingHours": "PH,Mo-Sa 08:00-21:00; Su 08:00-15:00",
+      "website": "https://www.swift.com.br/",
       "phone": "",
-      "cuisine": [
-        "pasta",
-        "brazilian"
-      ],
-      "wheelchair": "",
+      "cuisine": [],
+      "wheelchair": "yes",
       "brand": "",
       "description": "",
+      "wikidata": "Q1808939",
+      "wikipedia": "pt:JBS-Swift Foods Company",
       "osmTags": {
-        "amenity": "restaurant"
-      }
+        "shop": "frozen_food"
+      },
+      "fame": 8
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/e296d5f9fcc9f69d6cda",
-      "name": "As Guerreiras Restaurante",
-      "nameEnglish": "",
-      "category": "food_drink",
-      "subcategory": "restaurant",
-      "lat": -23.9156797,
-      "lng": -46.30861,
-      "distanceFromTerminalMeters": 3915,
-      "distanceFromDefaultTerminalMeters": 3915,
-      "minDistanceFromAnyTerminalMeters": 3915,
+      "sourceId": "osm/generated/92811beba31bbd931794",
+      "name": "Paróquia Santo Antônio do Embaré",
+      "nameEnglish": "Basilica of St. Anthony",
+      "category": "attraction",
+      "subcategory": "church",
+      "lat": -23.9740738,
+      "lng": -46.3199069,
+      "distanceFromTerminalMeters": 2588,
+      "distanceFromDefaultTerminalMeters": 2588,
+      "minDistanceFromAnyTerminalMeters": 2588,
       "nearestTerminalId": "ports-json-anchor",
       "address": "",
-      "openingHours": "Tu-Su 11:00-23:00",
-      "website": "https://api.whatsapp.com/message/GU4TWZ2XXV7RJ1?autoload=1&app_absent=0",
+      "openingHours": "",
+      "website": "",
       "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q9650887",
+      "wikipedia": "pt:Basílica Menor de Santo Antônio do Embaré",
+      "osmTags": {
+        "amenity": "place_of_worship",
+        "historic": "church"
+      },
+      "fame": 6
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c4fc4a5d9623c179e0b5",
+      "name": "Morro Itararé",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "peak",
+      "lat": -23.9646677,
+      "lng": -46.3624685,
+      "distanceFromTerminalMeters": 5431,
+      "distanceFromDefaultTerminalMeters": 5431,
+      "minDistanceFromAnyTerminalMeters": 5431,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q6024427",
+      "wikipedia": "",
+      "osmTags": {
+        "natural": "peak"
+      },
+      "fame": 5
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/34e7eaf7f5d185585112",
+      "name": "Aquário Municipal de Santos",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "aquarium",
+      "lat": -23.9862775,
+      "lng": -46.3083172,
+      "distanceFromTerminalMeters": 3780,
+      "distanceFromDefaultTerminalMeters": 3780,
+      "minDistanceFromAnyTerminalMeters": 3780,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Praça Vereador Luiz La Scala, Santos, 11030-600",
+      "openingHours": "off",
+      "website": "https://www.turismosantos.com.br/pt-br/content/aquario",
+      "phone": "+55 13 3278 7830",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q524626",
+      "wikipedia": "pt:Aquário Municipal de Santos",
+      "osmTags": {
+        "tourism": "aquarium"
+      },
+      "fame": 2
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/fafcdab439971126e77d",
+      "name": "Engenho dos Erasmos",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": -23.9476316,
+      "lng": -46.3630451,
+      "distanceFromTerminalMeters": 5340,
+      "distanceFromDefaultTerminalMeters": 5340,
+      "minDistanceFromAnyTerminalMeters": 5340,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "96 Rua Alan Cíber Pinto, Santos, SP, 11085-625",
+      "openingHours": "",
+      "website": "http://www.engenho.prceu.usp.br",
+      "phone": "+55 13 3229-2703",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q10272965",
+      "wikipedia": "pt:Engenho dos Erasmos",
+      "osmTags": {
+        "historic": "ruins",
+        "tourism": "museum"
+      },
+      "fame": 4
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/005960066415cd612200",
+      "name": "Museu de Pesca",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": -23.9900258,
+      "lng": -46.3062374,
+      "distanceFromTerminalMeters": 4214,
+      "distanceFromDefaultTerminalMeters": 4214,
+      "minDistanceFromAnyTerminalMeters": 4214,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "192 Avenida Rei Pelé, 11030-906",
+      "openingHours": "off",
+      "website": "https://www.pesca.sp.gov.br/museu",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q18278301",
+      "wikipedia": "pt:Museu de Pesca de Santos",
+      "osmTags": {
+        "tourism": "museum"
+      },
+      "fame": 1
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/19492912c3a37be91730",
+      "name": "Parque Zoobotânico Orquidário Municipal de Santos",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "zoo",
+      "lat": -23.9659353,
+      "lng": -46.3499269,
+      "distanceFromTerminalMeters": 4257,
+      "distanceFromDefaultTerminalMeters": 4257,
+      "minDistanceFromAnyTerminalMeters": 4257,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Praça Washington, 11065-600",
+      "openingHours": "",
+      "website": "https://www.museudavida.fiocruz.br/brasiliana/www.museudavidahomolog.fiocruz.br/brasiliana/cgi/cgilua.exe/sys/start11fe.html",
+      "phone": "+55 13 3237-6970",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q18479945",
+      "wikipedia": "pt:Orquidário Municipal de Santos",
+      "osmTags": {
+        "tourism": "zoo"
+      },
+      "fame": 1
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/da751c0e435a149781ae",
+      "name": "Memorial das Conquistas",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": -23.950766,
+      "lng": -46.339475,
+      "distanceFromTerminalMeters": 2924,
+      "distanceFromDefaultTerminalMeters": 2924,
+      "minDistanceFromAnyTerminalMeters": 2924,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Rua Princesa Isabel, Santos, 11075-501",
+      "openingHours": "",
+      "website": "https://www.memorialdasconquistas.com.br/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q30939734",
+      "wikipedia": "pt:Memorial das Conquistas (Santos Futebol Clube)",
+      "osmTags": {
+        "tourism": "museum"
+      },
+      "fame": 1
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ba55f742c4bf4e597bd0",
+      "name": "Museu do Café",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": -23.9322371,
+      "lng": -46.3300503,
+      "distanceFromTerminalMeters": 2975,
+      "distanceFromDefaultTerminalMeters": 2975,
+      "minDistanceFromAnyTerminalMeters": 2975,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "95 Rua Quinze de Novembro, Santos, 11010-151",
+      "openingHours": "",
+      "website": "",
+      "phone": "+55 13 3213-1750",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q9660690",
+      "wikipedia": "pt:Bolsa Oficial de Café",
+      "osmTags": {
+        "historic": "building",
+        "tourism": "museum"
+      },
+      "fame": 1
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/9bed6a5b9d9c4591515a",
+      "name": "Museu Pelé",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": -23.9314009,
+      "lng": -46.33313,
+      "distanceFromTerminalMeters": 3256,
+      "distanceFromDefaultTerminalMeters": 3256,
+      "minDistanceFromAnyTerminalMeters": 3256,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "2 Largo Marquês de Monte Alegre, Santos",
+      "openingHours": "Tu-Su 10:00-18:00",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q18278306",
+      "wikipedia": "pt:Museu Pelé",
+      "osmTags": {
+        "tourism": "museum"
+      },
+      "fame": 1
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/dafff4c523e045cbae94",
+      "name": "Antiga Estação Ferroviária Valongo - Santos",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "building",
+      "lat": -23.9310283,
+      "lng": -46.3335926,
+      "distanceFromTerminalMeters": 3318,
+      "distanceFromDefaultTerminalMeters": 3318,
+      "minDistanceFromAnyTerminalMeters": 3318,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Largo Marquês de Monte Alegre, Santos",
+      "openingHours": "",
+      "website": "",
+      "phone": "+55 13 3219-3494",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "A estação foi inaugurada em 16 de fevereiro de 1867 pela São Paulo Railway. Atualmente encontra-se desativada. Há um projeto para a sua reativação, o Trem Intercidades São Paulo - Santos.",
+      "wikidata": "Q10276323",
+      "wikipedia": "pt:Estação Valongo",
+      "osmTags": {
+        "historic": "building"
+      },
+      "fame": 2
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c709622a08181d8abba6",
+      "name": "Museu do Mar",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": -23.9841391,
+      "lng": -46.2973711,
+      "distanceFromTerminalMeters": 3787,
+      "distanceFromDefaultTerminalMeters": 3787,
+      "minDistanceFromAnyTerminalMeters": 3787,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "81 Rua República do Equador, Santos, 11030-151",
+      "openingHours": "09:00 - 18:00",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q30939579",
+      "wikipedia": "pt:Museu do Mar (Santos)",
+      "osmTags": {
+        "tourism": "museum"
+      },
+      "fame": 1
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c54856510846642dfb99",
+      "name": "Museu Marítimo",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": -23.9845697,
+      "lng": -46.2977217,
+      "distanceFromTerminalMeters": 3819,
+      "distanceFromDefaultTerminalMeters": 3819,
+      "minDistanceFromAnyTerminalMeters": 3819,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "343 Rua Governador Fernando Costa, Santos, 11030-181",
+      "openingHours": "09:00 - 18:00",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q44632231",
+      "wikipedia": "pt:Museu Marítimo",
+      "osmTags": {
+        "tourism": "museum"
+      },
+      "fame": 1
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b0169f18a74ee6bdbdf3",
+      "name": "Palácio Saturnino de Brito",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": -23.9369652,
+      "lng": -46.3291786,
+      "distanceFromTerminalMeters": 2537,
+      "distanceFromDefaultTerminalMeters": 2537,
+      "minDistanceFromAnyTerminalMeters": 2537,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "128 Avenida São Francisco, Santos, 11013-210",
+      "openingHours": "Tu-Su 11:00-17:00",
+      "website": "",
+      "phone": "+55 13 3201-2500",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/08d753e9ca1bc997c86c",
+      "name": "Statue Pelé",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": -23.9761083,
+      "lng": -46.3137212,
+      "distanceFromTerminalMeters": 2658,
+      "distanceFromDefaultTerminalMeters": 2658,
+      "minDistanceFromAnyTerminalMeters": 2658,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Avenida Almirante Cochrane, Santos, 11040-000",
+      "openingHours": "",
+      "website": "https://www.santosfc.com.br/",
+      "phone": "+55 13 3257 4000",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "Statue Pelé, Santos Futebol Clube",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "historic": "monument",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/06fd52457ce7157afb85",
+      "name": "A Tribuna (Antigo Edifício)",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "building",
+      "lat": -23.9347386,
+      "lng": -46.32712,
+      "distanceFromTerminalMeters": 2570,
+      "distanceFromDefaultTerminalMeters": 2570,
+      "minDistanceFromAnyTerminalMeters": 2570,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "129 Rua João Pessoa, Santos, 11013-001",
+      "openingHours": "",
+      "website": "https://www.atribuna.com.br/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q26208711",
+      "wikipedia": "pt:A Tribuna",
+      "osmTags": {
+        "historic": "building"
+      },
+      "fame": 1
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/32cbe2c09f1239f4742c",
+      "name": "Fortaleza de Santo Amaro da Barra Grande",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": -23.9947429,
+      "lng": -46.3069367,
+      "distanceFromTerminalMeters": 4729,
+      "distanceFromDefaultTerminalMeters": 4729,
+      "minDistanceFromAnyTerminalMeters": 4729,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Guarujá",
+      "openingHours": "",
+      "website": "",
+      "phone": "+55 13 3257 4000",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q10283632",
+      "wikipedia": "pt:Fortaleza de Santo Amaro da Barra Grande",
+      "osmTags": {
+        "tourism": "attraction"
+      },
+      "fame": 1
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/26982d5ae079714832c3",
+      "name": "Escolástica Rosa",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "building",
+      "lat": -23.9813746,
+      "lng": -46.3111654,
+      "distanceFromTerminalMeters": 3227,
+      "distanceFromDefaultTerminalMeters": 3227,
+      "minDistanceFromAnyTerminalMeters": 3227,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "111 Avenida Bartholomeu de Gusmão, Santos, 11045-401",
+      "openingHours": "",
+      "website": "",
+      "phone": "+55 13 3236 9986",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q10274515",
+      "wikipedia": "",
+      "osmTags": {
+        "historic": "building"
+      },
+      "fame": 1
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d1405e7c91c7aeb375fe",
+      "name": "Estação da Cidadania",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "building",
+      "lat": -23.958877,
+      "lng": -46.3323296,
+      "distanceFromTerminalMeters": 2309,
+      "distanceFromDefaultTerminalMeters": 2309,
+      "minDistanceFromAnyTerminalMeters": 2309,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "340 Avenida Anna Costa, Santos, 11060-002",
+      "openingHours": "",
+      "website": "https://www.santos.sp.gov.br/?q=portal/estacao-da-cidadania",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "Antiga estação ferroviária de Santos, da Estrada de Ferro Sorocabana.",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "social_facility",
+        "historic": "building"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/a782ac2993a6aa15bdf9",
+      "name": "Ilha Porchat",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": -23.9797539,
+      "lng": -46.3702485,
+      "distanceFromTerminalMeters": 6770,
+      "distanceFromDefaultTerminalMeters": 6770,
+      "minDistanceFromAnyTerminalMeters": 6770,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q9009663",
+      "wikipedia": "pt:Ilha Porchat",
+      "osmTags": {
+        "place": "island",
+        "tourism": "attraction"
+      },
+      "fame": 4
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/f928a6414be83fbd4748",
+      "name": "Praça Mauá",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "monument",
+      "lat": -23.9335667,
+      "lng": -46.3289458,
+      "distanceFromTerminalMeters": 2790,
+      "distanceFromDefaultTerminalMeters": 2790,
+      "minDistanceFromAnyTerminalMeters": 2790,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q10353331",
+      "wikipedia": "",
+      "osmTags": {
+        "historic": "monument"
+      },
+      "fame": 1
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/df6d778de6b366920015",
+      "name": "Biquinha de Anchieta",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "attraction",
+      "lat": -23.9714183,
+      "lng": -46.3859349,
+      "distanceFromTerminalMeters": 7928,
+      "distanceFromDefaultTerminalMeters": 7928,
+      "minDistanceFromAnyTerminalMeters": 7928,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Praça Vinte e Dois de Janeiro, São Vicente, 11310-090",
+      "openingHours": "24/7",
+      "website": "https://www.saovicente.sp.gov.br/publico/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q52389799",
+      "wikipedia": "pt:Biquinha de Anchieta",
+      "osmTags": {
+        "historic": "drinking_water",
+        "tourism": "attraction"
+      },
+      "fame": 1
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c206bac82ecc2d2d256f",
+      "name": "Da hora Burguer",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "fast_food",
+      "lat": -23.9483682,
+      "lng": -46.3184828,
+      "distanceFromTerminalMeters": 902,
+      "distanceFromDefaultTerminalMeters": 902,
+      "minDistanceFromAnyTerminalMeters": 902,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "41 Rua Doutor Emílio Ribas, Santos, 11015070",
+      "openingHours": "",
+      "website": "https://bio.link/dahoraburger013",
+      "phone": "+55 13 99168-9848",
       "cuisine": [
-        "regional",
-        "fish"
+        "sandwich",
+        "burger"
       ],
       "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "fast_food"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/fbbcda6f76cd2636da01",
+      "name": "Adega e tabacaria RG",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "fast_food",
+      "lat": -23.9482227,
+      "lng": -46.3199116,
+      "distanceFromTerminalMeters": 1038,
+      "distanceFromDefaultTerminalMeters": 1038,
+      "minDistanceFromAnyTerminalMeters": 1038,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "89 Rua Doutor Emílio Ribas, Santos, 11015070",
+      "openingHours": "Mo-Mo 10:00 - 00:00",
+      "website": "",
+      "phone": "+55 13 99165-9111",
+      "cuisine": [
+        "bebidas"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "fast_food"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b56faee3999cd205995a",
+      "name": "Takê Restaurante Natural",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": -23.9653008,
+      "lng": -46.3360114,
+      "distanceFromTerminalMeters": 2943,
+      "distanceFromDefaultTerminalMeters": 2943,
+      "minDistanceFromAnyTerminalMeters": 2943,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "33 Rua Alagoas, Santos, 11065-120, BR",
+      "openingHours": "Mo-Fr 11:30-15:00",
+      "website": "http://takerestaurantenatural.com.br",
+      "phone": "+55 13 3284 7260",
+      "cuisine": [
+        "asian",
+        "regional"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
       "osmTags": {
         "amenity": "restaurant"
       }
@@ -1413,9 +920,9 @@
       "subcategory": "restaurant",
       "lat": -23.9312359,
       "lng": -46.3334214,
-      "distanceFromTerminalMeters": 3986,
-      "distanceFromDefaultTerminalMeters": 3986,
-      "minDistanceFromAnyTerminalMeters": 3986,
+      "distanceFromTerminalMeters": 3290,
+      "distanceFromDefaultTerminalMeters": 3290,
+      "minDistanceFromAnyTerminalMeters": 3290,
       "nearestTerminalId": "ports-json-anchor",
       "address": "Largo Marquês de Monte Alegre",
       "openingHours": "Tu-Sa 12:00-15:00",
@@ -1427,36 +934,39 @@
       "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "",
+      "wikipedia": "",
       "osmTags": {
         "amenity": "restaurant"
       }
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/b56faee3999cd205995a",
-      "name": "Takê Restaurante Natural",
+      "sourceId": "osm/generated/c8e761b34c18680af061",
+      "name": "Seven Kings Burgers n Beers",
       "nameEnglish": "",
       "category": "food_drink",
-      "subcategory": "restaurant",
-      "lat": -23.9653008,
-      "lng": -46.3360114,
-      "distanceFromTerminalMeters": 4035,
-      "distanceFromDefaultTerminalMeters": 4035,
-      "minDistanceFromAnyTerminalMeters": 4035,
+      "subcategory": "fast_food",
+      "lat": -23.9649432,
+      "lng": -46.3222096,
+      "distanceFromTerminalMeters": 1821,
+      "distanceFromDefaultTerminalMeters": 1821,
+      "minDistanceFromAnyTerminalMeters": 1821,
       "nearestTerminalId": "ports-json-anchor",
-      "address": "33 Rua Alagoas, Santos, 11065-120, BR",
-      "openingHours": "Mo-Fr 11:30-15:00",
-      "website": "http://takerestaurantenatural.com.br",
-      "phone": "+55 13 3284 7260",
+      "address": "22 Rua Lobo Viana, Santos",
+      "openingHours": "",
+      "website": "https://www.facebook.com/SevenKingsBurger/",
+      "phone": "+55 13 3307 3836",
       "cuisine": [
-        "asian",
-        "regional"
+        "burger"
       ],
       "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "",
+      "wikipedia": "",
       "osmTags": {
-        "amenity": "restaurant"
+        "amenity": "fast_food"
       }
     },
     {
@@ -1468,9 +978,9 @@
       "subcategory": "restaurant",
       "lat": -23.9897872,
       "lng": -46.3068179,
-      "distanceFromTerminalMeters": 4478,
-      "distanceFromDefaultTerminalMeters": 4478,
-      "minDistanceFromAnyTerminalMeters": 4478,
+      "distanceFromTerminalMeters": 4181,
+      "distanceFromDefaultTerminalMeters": 4181,
+      "minDistanceFromAnyTerminalMeters": 4181,
       "nearestTerminalId": "ports-json-anchor",
       "address": "187 Avenida Bartholomeu de Gusmão, Santos",
       "openingHours": "Mo-Fr 12:00-15:30,19:00-22:00; Sa,PH 12:00-16:00,19:00-22:00; Su 12:00-17:00",
@@ -1482,35 +992,210 @@
       "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "",
+      "wikipedia": "",
       "osmTags": {
         "amenity": "restaurant"
       }
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/5c615897a5666cf05d07",
-      "name": "Graminha Pizzaria",
+      "sourceId": "osm/generated/38862836e02cc0bb331a",
+      "name": "Croasonho",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "fast_food",
+      "lat": -23.9679107,
+      "lng": -46.3302051,
+      "distanceFromTerminalMeters": 2627,
+      "distanceFromDefaultTerminalMeters": 2627,
+      "minDistanceFromAnyTerminalMeters": 2627,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "15 Rua Doutor Galeão Carvalhal, Santos",
+      "openingHours": "Mo-Sa 10:00-22:00; Su 16:00-22:00; PH 16:00-22:00",
+      "website": "https://www.croasonho.com.br/",
+      "phone": "",
+      "cuisine": [
+        "sandwich"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "fast_food"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/df04d7bdcd095441f209",
+      "name": "Master Veggie",
       "nameEnglish": "",
       "category": "food_drink",
       "subcategory": "restaurant",
-      "lat": -23.9626091,
-      "lng": -46.3185871,
-      "distanceFromTerminalMeters": 2352,
-      "distanceFromDefaultTerminalMeters": 2352,
-      "minDistanceFromAnyTerminalMeters": 2352,
+      "lat": -23.9629081,
+      "lng": -46.3238829,
+      "distanceFromTerminalMeters": 1777,
+      "distanceFromDefaultTerminalMeters": 1777,
+      "minDistanceFromAnyTerminalMeters": 1777,
       "nearestTerminalId": "ports-json-anchor",
-      "address": "",
+      "address": "48 Rua Machado de Assis, 11050-000",
+      "openingHours": "Su,Tu-Sa 11:00-22:30",
+      "website": "https://app.menudino.com/",
+      "phone": "+55 13 98100-2959",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/a794c802c2383330b014",
+      "name": "Maxim's Restaurante e Pizzaria",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": -23.9629107,
+      "lng": -46.3235817,
+      "distanceFromTerminalMeters": 1754,
+      "distanceFromDefaultTerminalMeters": 1754,
+      "minDistanceFromAnyTerminalMeters": 1754,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "656 Avenida Conselheiro Nébias, Santos",
       "openingHours": "",
       "website": "",
-      "phone": "",
+      "phone": "+55 13 3234-4405",
       "cuisine": [
         "pizza"
       ],
       "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "",
+      "wikipedia": "",
       "osmTags": {
         "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/693467aaed533d55fd04",
+      "name": "Massas Dourado",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": -23.9841302,
+      "lng": -46.3077108,
+      "distanceFromTerminalMeters": 3547,
+      "distanceFromDefaultTerminalMeters": 3547,
+      "minDistanceFromAnyTerminalMeters": 3547,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "91;97 Rua Bassin Nagib Trabulsi, Santos, 11030-540",
+      "openingHours": "Mo-Su 07:00-19:00",
+      "website": "https://massasdourado.com.br/",
+      "phone": "",
+      "cuisine": [
+        "pasta",
+        "brazilian"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/83bf1f357547629b8351",
+      "name": "Nagasaki Ya",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": -23.9652133,
+      "lng": -46.32886,
+      "distanceFromTerminalMeters": 2330,
+      "distanceFromDefaultTerminalMeters": 2330,
+      "minDistanceFromAnyTerminalMeters": 2330,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Avenida Washington Luiz",
+      "openingHours": "Mo-Su 00:00-16:00",
+      "website": "",
+      "phone": "",
+      "cuisine": [
+        "japanese"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q60191837",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/128d22d6b703883cab62",
+      "name": "Uncle Black Burger",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": -23.964435,
+      "lng": -46.3349646,
+      "distanceFromTerminalMeters": 2803,
+      "distanceFromDefaultTerminalMeters": 2803,
+      "minDistanceFromAnyTerminalMeters": 2803,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "23 Praça Fernandes Pacheco, 11060410",
+      "openingHours": "Mo-Su 19:00-00:00",
+      "website": "https://uncleblackburger.goomer.app/",
+      "phone": "+55 13 3222 4528",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c6b066330d784f773530",
+      "name": "Piratas Bar",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "bar",
+      "lat": -23.9676086,
+      "lng": -46.3464965,
+      "distanceFromTerminalMeters": 4009,
+      "distanceFromDefaultTerminalMeters": 4009,
+      "minDistanceFromAnyTerminalMeters": 4009,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "130 Av. Pres. Wilson, Santos, 11065-201",
+      "openingHours": "Mo-Su 10:00-02:00",
+      "website": "",
+      "phone": "+55 13 3225 4414",
+      "cuisine": [
+        "brazilian"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "bar"
       }
     },
     {
@@ -1522,9 +1207,9 @@
       "subcategory": "restaurant",
       "lat": -23.9736532,
       "lng": -46.3181371,
-      "distanceFromTerminalMeters": 3212,
-      "distanceFromDefaultTerminalMeters": 3212,
-      "minDistanceFromAnyTerminalMeters": 3212,
+      "distanceFromTerminalMeters": 2484,
+      "distanceFromDefaultTerminalMeters": 2484,
+      "minDistanceFromAnyTerminalMeters": 2484,
       "nearestTerminalId": "ports-json-anchor",
       "address": "179 Avenida Doutor Epitácio Pessoa, Santos",
       "openingHours": "",
@@ -1538,33 +1223,1062 @@
       "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "",
+      "wikipedia": "",
       "osmTags": {
         "amenity": "restaurant"
       }
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/df04d7bdcd095441f209",
-      "name": "Master Veggie",
+      "sourceId": "osm/generated/b2fbd83cf0cf90925d9f",
+      "name": "HP Geek Bar n Burguer",
       "nameEnglish": "",
       "category": "food_drink",
-      "subcategory": "restaurant",
-      "lat": -23.9629081,
-      "lng": -46.3238829,
-      "distanceFromTerminalMeters": 2820,
-      "distanceFromDefaultTerminalMeters": 2820,
-      "minDistanceFromAnyTerminalMeters": 2820,
+      "subcategory": "pub",
+      "lat": -23.9628866,
+      "lng": -46.3333851,
+      "distanceFromTerminalMeters": 2581,
+      "distanceFromDefaultTerminalMeters": 2581,
+      "minDistanceFromAnyTerminalMeters": 2581,
       "nearestTerminalId": "ports-json-anchor",
-      "address": "48 Rua Machado de Assis, 11050-000",
-      "openingHours": "Su,Tu-Sa 11:00-22:30",
-      "website": "https://app.menudino.com/",
-      "phone": "+55 13 98100-2959",
+      "address": "116 Rua Luís de Faria",
+      "openingHours": "",
+      "website": "",
+      "phone": "+55 13 33495770",
+      "cuisine": [
+        "burger"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "pub"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/cbb372c22a3a2769ea4c",
+      "name": "Revo Manufactory",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": -23.9886492,
+      "lng": -46.3053138,
+      "distanceFromTerminalMeters": 4073,
+      "distanceFromDefaultTerminalMeters": 4073,
+      "minDistanceFromAnyTerminalMeters": 4073,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "737 Avenida Doutor Epitácio Pessoa, Santos, 11030-603",
+      "openingHours": "",
+      "website": "https://revomanufactory.com.br/",
+      "phone": "+55 13 99755 7386",
+      "cuisine": [
+        "international"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/5a0b26cf0358e7e78c36",
+      "name": "Baraçai - Drinks 'n' fruits",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "pub",
+      "lat": -23.9823578,
+      "lng": -46.3103035,
+      "distanceFromTerminalMeters": 3336,
+      "distanceFromDefaultTerminalMeters": 3336,
+      "minDistanceFromAnyTerminalMeters": 3336,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "235 Rua Januário dos Santos, Santos, 11030-560",
+      "openingHours": "",
+      "website": "",
+      "phone": "+55 13 3877 8960",
+      "cuisine": [
+        "regional"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "pub"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/a321639ce845026ace45",
+      "name": "Bar, Lanchonete e Restaurante da Ilha",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "fast_food",
+      "lat": -23.9154249,
+      "lng": -46.3082682,
+      "distanceFromTerminalMeters": 4114,
+      "distanceFromDefaultTerminalMeters": 4114,
+      "minDistanceFromAnyTerminalMeters": 4114,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "Mo-Su 09:00-17:00",
+      "website": "",
+      "phone": "+551330195418",
+      "cuisine": [
+        "regional"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "fast_food"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/1507513e2faeb5a3e3fe",
+      "name": "Bar do Jorge 2",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "bar",
+      "lat": -23.9651673,
+      "lng": -46.319173,
+      "distanceFromTerminalMeters": 1662,
+      "distanceFromDefaultTerminalMeters": 1662,
+      "minDistanceFromAnyTerminalMeters": 1662,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "475 Avenida Siqueira Campos, Santos, 11045-201",
+      "openingHours": "",
+      "website": "",
+      "phone": "+55 13 3227-2673",
       "cuisine": [],
       "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "",
+      "wikipedia": "",
       "osmTags": {
-        "amenity": "restaurant"
+        "amenity": "bar"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/a4eee099ec8c1b0b560a",
+      "name": "Temakinho",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "fast_food",
+      "lat": -23.9582004,
+      "lng": -46.3203278,
+      "distanceFromTerminalMeters": 1170,
+      "distanceFromDefaultTerminalMeters": 1170,
+      "minDistanceFromAnyTerminalMeters": 1170,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [
+        "japanese"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "fast_food"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/72690a01c6d213c4e943",
+      "name": "Café Filomena",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "fast_food",
+      "lat": -23.9645211,
+      "lng": -46.3213761,
+      "distanceFromTerminalMeters": 1731,
+      "distanceFromDefaultTerminalMeters": 1731,
+      "minDistanceFromAnyTerminalMeters": 1731,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "287 Rua Oswaldo Cruz, Santos",
+      "openingHours": "",
+      "website": "",
+      "phone": "+55 13 3222-5645",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "fast_food"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/35a41e2f0de7bb40e70f",
+      "name": "Lanches Verde Gaio",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "fast_food",
+      "lat": -23.9775645,
+      "lng": -46.3119684,
+      "distanceFromTerminalMeters": 2806,
+      "distanceFromDefaultTerminalMeters": 2806,
+      "minDistanceFromAnyTerminalMeters": 2806,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "393 Avenida Doutor Epitácio Pessoa, Santos",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [
+        "pizza"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "fast_food"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/a2c4df37edbcc9f4efc7",
+      "name": "Cafeteria do Museu",
+      "nameEnglish": "",
+      "category": "food_drink",
+      "subcategory": "cafe",
+      "lat": -23.9324842,
+      "lng": -46.3300089,
+      "distanceFromTerminalMeters": 2952,
+      "distanceFromDefaultTerminalMeters": 2952,
+      "minDistanceFromAnyTerminalMeters": 2952,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "95 Rua Quinze de Novembro, Santos",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [
+        "coffee_shop"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/90117164718a005a9ce5",
+      "name": "Praiamar Shopping",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "mall",
+      "lat": -23.9774969,
+      "lng": -46.3092615,
+      "distanceFromTerminalMeters": 2800,
+      "distanceFromDefaultTerminalMeters": 2800,
+      "minDistanceFromAnyTerminalMeters": 2800,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "80 Rua Alexandre Martins, Santos, 11025-200",
+      "openingHours": "Mo-Sa 10:00-22:00; Su,PH 11:00-22:00 \"Praça de Alimentação\"; Su,PH 15:00-21:00 \"Lojas\"",
+      "website": "https://praiamarshopping.com.br",
+      "phone": "+55 13 32792000",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q10353170",
+      "wikipedia": "pt:Praiamar Shopping Center",
+      "osmTags": {
+        "shop": "mall"
+      },
+      "fame": 1
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/a5ba8a8ed192dc69b8a7",
+      "name": "Ya Boutique",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "clothes",
+      "lat": -23.9428165,
+      "lng": -46.2994462,
+      "distanceFromTerminalMeters": 1564,
+      "distanceFromDefaultTerminalMeters": 1564,
+      "minDistanceFromAnyTerminalMeters": 1564,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "490 Rua Mato Grosso, Guarujá, 11450-250",
+      "openingHours": "Mo-Sa 10:00-19:00",
+      "website": "https://instagram.com/yaaboutique_?utm_medium=copy_link",
+      "phone": "+55 13 997134706",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "shop": "clothes"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/97eefcc62389ecbd125d",
+      "name": "Shopping Pátio Iporanga",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "mall",
+      "lat": -23.9648902,
+      "lng": -46.3321163,
+      "distanceFromTerminalMeters": 2580,
+      "distanceFromDefaultTerminalMeters": 2580,
+      "minDistanceFromAnyTerminalMeters": 2580,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "465 Avenida Anna Costa, Santos, 11060-001",
+      "openingHours": "Mo-Sa 10:00-22:00; Su 12:00-22:00",
+      "website": "https://shoppingpatioiporanga.com.br/",
+      "phone": "+55 13 3286 1138",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "shop": "mall"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/06aeb380aa97e37cf686",
+      "name": "Camões Padaria",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "bakery",
+      "lat": -23.9501458,
+      "lng": -46.3244411,
+      "distanceFromTerminalMeters": 1413,
+      "distanceFromDefaultTerminalMeters": 1413,
+      "minDistanceFromAnyTerminalMeters": 1413,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "253 Rua Xavier Pinheiro, Santos",
+      "openingHours": "",
+      "website": "",
+      "phone": "+55 13 3232-2695",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "shop": "bakery"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/9b33f0d6f2f7ac92683a",
+      "name": "La Banoffeeria",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "confectionery",
+      "lat": -23.9668168,
+      "lng": -46.3383624,
+      "distanceFromTerminalMeters": 3234,
+      "distanceFromDefaultTerminalMeters": 3234,
+      "minDistanceFromAnyTerminalMeters": 3234,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "160 Avenida Marechal Floriano Peixoto, 11060-300",
+      "openingHours": "",
+      "website": "https://www.goomer.app/",
+      "phone": "+55 13 99106 9604",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "shop": "confectionery"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/890c772cb434156ffd09",
+      "name": "Super Centro Boqueirão",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "mall",
+      "lat": -23.965219,
+      "lng": -46.3211128,
+      "distanceFromTerminalMeters": 1776,
+      "distanceFromDefaultTerminalMeters": 1776,
+      "minDistanceFromAnyTerminalMeters": 1776,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "319 Rua Oswaldo Cruz, Santos",
+      "openingHours": "",
+      "website": "",
+      "phone": "+55 13 3222-4403",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "shop": "mall"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/d544a3b952c492c7f9fc",
+      "name": "Extra Mini",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "marketplace",
+      "lat": -23.9709368,
+      "lng": -46.3189292,
+      "distanceFromTerminalMeters": 2227,
+      "distanceFromDefaultTerminalMeters": 2227,
+      "minDistanceFromAnyTerminalMeters": 2227,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "35 Rua Castro Alves, Santos",
+      "openingHours": "Mo-Sa 08:00-21:00; Su 08:00-20:00",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "marketplace"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/1d5a75c8f6d1d211f23e",
+      "name": "Imperatriz Pães e Doces",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "bakery",
+      "lat": -23.9867506,
+      "lng": -46.3055156,
+      "distanceFromTerminalMeters": 3861,
+      "distanceFromDefaultTerminalMeters": 3861,
+      "minDistanceFromAnyTerminalMeters": 3861,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "2 Rua Vereador Rocha e Silva, Santos, 11035-140",
+      "openingHours": "Mo-Su 06:00-21:00",
+      "website": "",
+      "phone": "+55 13 32365688",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "shop": "bakery"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/4d11c6fd4d78f3326089",
+      "name": "Carangueijo do Messias",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "seafood",
+      "lat": -23.960945,
+      "lng": -46.3083973,
+      "distanceFromTerminalMeters": 985,
+      "distanceFromDefaultTerminalMeters": 985,
+      "minDistanceFromAnyTerminalMeters": 985,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "59 Avenida Siqueira Campos, Santos",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "shop": "seafood"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/3cae8116084843b64b89",
+      "name": "Praiano",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "confectionery",
+      "lat": -23.9556923,
+      "lng": -46.3356465,
+      "distanceFromTerminalMeters": 2557,
+      "distanceFromDefaultTerminalMeters": 2557,
+      "minDistanceFromAnyTerminalMeters": 2557,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "120 Rua Espírito Santo, Santos, 11075390",
+      "openingHours": "Mo-Sa 11:00-19:00",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "shop": "confectionery"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/b489a8702d8bf1f240da",
+      "name": "Praça da Árvore",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": -23.9466186,
+      "lng": -46.3225867,
+      "distanceFromTerminalMeters": 1361,
+      "distanceFromDefaultTerminalMeters": 1361,
+      "minDistanceFromAnyTerminalMeters": 1361,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q1736410",
+      "wikipedia": "pt:Universidade Católica de Santos",
+      "osmTags": {
+        "leisure": "park"
+      },
+      "fame": 4
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/513e629f3c0e5dc485c0",
+      "name": "Monte Serrat",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "peak",
+      "lat": -23.9396876,
+      "lng": -46.3305133,
+      "distanceFromTerminalMeters": 2453,
+      "distanceFromDefaultTerminalMeters": 2453,
+      "minDistanceFromAnyTerminalMeters": 2453,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q10332041",
+      "wikipedia": "pt:Monte Serrat",
+      "osmTags": {
+        "natural": "peak"
+      },
+      "fame": 4
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/3d9e0dbcbb785ac8dadc",
+      "name": "Praia do Gonzaga",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "beach",
+      "lat": -23.9709257,
+      "lng": -46.334441,
+      "distanceFromTerminalMeters": 3171,
+      "distanceFromDefaultTerminalMeters": 3171,
+      "minDistanceFromAnyTerminalMeters": 3171,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q22041957",
+      "wikipedia": "ceb:Praia do Gonzaga",
+      "osmTags": {
+        "natural": "beach"
+      },
+      "fame": 2
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/06460c2d8835b07f1ed1",
+      "name": "Praia do Góes",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "beach",
+      "lat": -23.9984231,
+      "lng": -46.3144348,
+      "distanceFromTerminalMeters": 5136,
+      "distanceFromDefaultTerminalMeters": 5136,
+      "minDistanceFromAnyTerminalMeters": 5136,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q10353019",
+      "wikipedia": "pt:Praia do Góis",
+      "osmTags": {
+        "natural": "beach"
+      },
+      "fame": 3
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/ec0446af9f6febd35d63",
+      "name": "Praia do José Menino",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "beach",
+      "lat": -23.970017,
+      "lng": -46.3476212,
+      "distanceFromTerminalMeters": 4230,
+      "distanceFromDefaultTerminalMeters": 4230,
+      "minDistanceFromAnyTerminalMeters": 4230,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q22039976",
+      "wikipedia": "ceb:Praia do José Menino",
+      "osmTags": {
+        "natural": "beach"
+      },
+      "fame": 2
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/fa7fb6bacd97427f69e9",
+      "name": "Praia do Itararé",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "beach",
+      "lat": -23.9733654,
+      "lng": -46.363379,
+      "distanceFromTerminalMeters": 5836,
+      "distanceFromDefaultTerminalMeters": 5836,
+      "minDistanceFromAnyTerminalMeters": 5836,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q10353022",
+      "wikipedia": "pt:Praia do Itararé",
+      "osmTags": {
+        "natural": "beach"
+      },
+      "fame": 3
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/75804d61dc9d26ea3ed3",
+      "name": "Jardins da orla de Santos",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": -23.9726216,
+      "lng": -46.325389,
+      "distanceFromTerminalMeters": 2700,
+      "distanceFromDefaultTerminalMeters": 2700,
+      "minDistanceFromAnyTerminalMeters": 2700,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q10306381",
+      "wikipedia": "pt:Jardins da orla de Santos",
+      "osmTags": {
+        "leisure": "park"
+      },
+      "fame": 1
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/e655c04c78ff339311ed",
+      "name": "Jardins da orla de Santos",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": -23.9762799,
+      "lng": -46.3186119,
+      "distanceFromTerminalMeters": 2778,
+      "distanceFromDefaultTerminalMeters": 2778,
+      "minDistanceFromAnyTerminalMeters": 2778,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q10306381",
+      "wikipedia": "pt:Jardins da orla de Santos",
+      "osmTags": {
+        "leisure": "park"
+      },
+      "fame": 1
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/60735c6f96e3845c1bf0",
+      "name": "Praça da Independência",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": -23.9674,
+      "lng": -46.3328573,
+      "distanceFromTerminalMeters": 2801,
+      "distanceFromDefaultTerminalMeters": 2801,
+      "minDistanceFromAnyTerminalMeters": 2801,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q10353425",
+      "wikipedia": "pt:Praça da Independência (Santos)",
+      "osmTags": {
+        "leisure": "park"
+      },
+      "fame": 1
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/58cd6dee3cd95ca39c70",
+      "name": "Praça Ruy Barbosa",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": -23.9340491,
+      "lng": -46.3305185,
+      "distanceFromTerminalMeters": 2860,
+      "distanceFromDefaultTerminalMeters": 2860,
+      "minDistanceFromAnyTerminalMeters": 2860,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "Praça Ruy Barbosa",
+      "openingHours": "",
+      "website": "https://www.novomilenio.inf.br/santos/fotos070.htm",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/80bad6ae34948d03858e",
+      "name": "Praia das Pitangueiras",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "beach",
+      "lat": -23.9993119,
+      "lng": -46.2584195,
+      "distanceFromTerminalMeters": 7452,
+      "distanceFromDefaultTerminalMeters": 7452,
+      "minDistanceFromAnyTerminalMeters": 7452,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q10350097",
+      "wikipedia": "pt:Pitangueiras (Guarujá)",
+      "osmTags": {
+        "natural": "beach"
+      },
+      "fame": 4
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/2d447a6259b0a12bcff3",
+      "name": "Nissei",
+      "nameEnglish": "",
+      "category": "essentials",
+      "subcategory": "pharmacy",
+      "lat": -23.9429605,
+      "lng": -46.300554,
+      "distanceFromTerminalMeters": 1472,
+      "distanceFromDefaultTerminalMeters": 1472,
+      "minDistanceFromAnyTerminalMeters": 1472,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "895 Avenida Thiago Ferreira, Guarujá, 11450-003",
+      "openingHours": "Mo-Su 08:00-23:00",
+      "website": "https://www.farmaciasnissei.com.br/",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "yes",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "pharmacy"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/89ad345d076dd291b372",
+      "name": "Localiza",
+      "nameEnglish": "",
+      "category": "essentials",
+      "subcategory": "car_rental",
+      "lat": -23.9555794,
+      "lng": -46.3311939,
+      "distanceFromTerminalMeters": 2108,
+      "distanceFromDefaultTerminalMeters": 2108,
+      "minDistanceFromAnyTerminalMeters": 2108,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "271 Avenida Anna Costa, 11060-001",
+      "openingHours": "Mo-Fr 07:00-20:00; Sa 08:00-20:00; Su 08:00-14:00",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "car_rental"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/86ba66ae39271a76ece5",
+      "name": "Rosa Gálica",
+      "nameEnglish": "",
+      "category": "essentials",
+      "subcategory": "pharmacy",
+      "lat": -23.9774332,
+      "lng": -46.312181,
+      "distanceFromTerminalMeters": 2792,
+      "distanceFromDefaultTerminalMeters": 2792,
+      "minDistanceFromAnyTerminalMeters": 2792,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "385 Avenida Doutor Epitácio Pessoa, Santos",
+      "openingHours": "",
+      "website": "",
+      "phone": "+55 13 3271-1177",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "pharmacy"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/514c0f2a93fe2c517606",
+      "name": "Museu de Arte Sacra de Santos",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": -23.9347299,
+      "lng": -46.3360524,
+      "distanceFromTerminalMeters": 3233,
+      "distanceFromDefaultTerminalMeters": 3233,
+      "minDistanceFromAnyTerminalMeters": 3233,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "795 Rua Joana D' Arc, Santos, 11082-460",
+      "openingHours": "",
+      "website": "http://mass.org.br/",
+      "phone": "+55 13 3219-1111",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/cc1c3c5c1767790759f7",
+      "name": "Pinacoteca Benedito Calixto",
+      "nameEnglish": "",
+      "category": "attraction",
+      "subcategory": "museum",
+      "lat": -23.973244,
+      "lng": -46.3222107,
+      "distanceFromTerminalMeters": 2598,
+      "distanceFromDefaultTerminalMeters": 2598,
+      "minDistanceFromAnyTerminalMeters": 2598,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "Q10349779",
+      "wikipedia": "",
+      "osmTags": {
+        "tourism": "museum"
+      },
+      "fame": 1
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/c94b760619c3a93bf1a4",
+      "name": "Rei do Café",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "coffee",
+      "lat": -23.9333597,
+      "lng": -46.3327424,
+      "distanceFromTerminalMeters": 3075,
+      "distanceFromDefaultTerminalMeters": 3075,
+      "minDistanceFromAnyTerminalMeters": 3075,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "34 Rua Gonçalves Dias",
+      "openingHours": "",
+      "website": "",
+      "phone": "+5513 32191015",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "shop": "coffee"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/56f0482e7d9635a450d8",
+      "name": "A Rainha",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "bakery",
+      "lat": -23.9648635,
+      "lng": -46.319149,
+      "distanceFromTerminalMeters": 1632,
+      "distanceFromDefaultTerminalMeters": 1632,
+      "minDistanceFromAnyTerminalMeters": 1632,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "461 Rua Frei Francisco Sampaio, Santos, 11045-201",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "shop": "bakery"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/a6ca54212597ef07e2d4",
+      "name": "Afonso Pena Flores",
+      "nameEnglish": "",
+      "category": "shopping",
+      "subcategory": "florist",
+      "lat": -23.9670237,
+      "lng": -46.3076288,
+      "distanceFromTerminalMeters": 1662,
+      "distanceFromDefaultTerminalMeters": 1662,
+      "minDistanceFromAnyTerminalMeters": 1662,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "383 Av. Afonso Pena, Santos, 11020-400",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "shop": "florist"
       }
     },
     {
@@ -1576,9 +2290,9 @@
       "subcategory": "marketplace",
       "lat": -23.9475926,
       "lng": -46.2922188,
-      "distanceFromTerminalMeters": 835,
-      "distanceFromDefaultTerminalMeters": 835,
-      "minDistanceFromAnyTerminalMeters": 835,
+      "distanceFromTerminalMeters": 1956,
+      "distanceFromDefaultTerminalMeters": 1956,
+      "minDistanceFromAnyTerminalMeters": 1956,
       "nearestTerminalId": "ports-json-anchor",
       "address": "1015 Avenida Oswaldo Cruz",
       "openingHours": "",
@@ -1588,22 +2302,24 @@
       "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "",
+      "wikipedia": "",
       "osmTags": {
         "amenity": "marketplace"
       }
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/ee045bf0838c8519e958",
-      "name": "Camelodromo das Barcas",
+      "sourceId": "osm/generated/5667118008431262d573",
+      "name": "Jardins da orla de Santos",
       "nameEnglish": "",
-      "category": "shopping",
-      "subcategory": "marketplace",
-      "lat": -23.9397498,
-      "lng": -46.3076988,
-      "distanceFromTerminalMeters": 1382,
-      "distanceFromDefaultTerminalMeters": 1382,
-      "minDistanceFromAnyTerminalMeters": 1382,
+      "category": "outdoors",
+      "subcategory": "park",
+      "lat": -23.970379,
+      "lng": -46.331389,
+      "distanceFromTerminalMeters": 2901,
+      "distanceFromDefaultTerminalMeters": 2901,
+      "minDistanceFromAnyTerminalMeters": 2901,
       "nearestTerminalId": "ports-json-anchor",
       "address": "",
       "openingHours": "",
@@ -1613,47 +2329,81 @@
       "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "Q10306381",
+      "wikipedia": "pt:Jardins da orla de Santos",
       "osmTags": {
-        "amenity": "marketplace"
-      }
+        "leisure": "park"
+      },
+      "fame": 1
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/796f911089852397f3ce",
-      "name": "Mercado Municipal",
+      "sourceId": "osm/generated/e0d29e3bfb4cf19279dc",
+      "name": "Galeria",
       "nameEnglish": "",
       "category": "shopping",
-      "subcategory": "marketplace",
-      "lat": -23.9403845,
-      "lng": -46.318505,
-      "distanceFromTerminalMeters": 2163,
-      "distanceFromDefaultTerminalMeters": 2163,
-      "minDistanceFromAnyTerminalMeters": 2163,
+      "subcategory": "mall",
+      "lat": -23.9721738,
+      "lng": -46.3082658,
+      "distanceFromTerminalMeters": 2218,
+      "distanceFromDefaultTerminalMeters": 2218,
+      "minDistanceFromAnyTerminalMeters": 2218,
       "nearestTerminalId": "ports-json-anchor",
-      "address": "Praça Iguatemi Martins, Santos",
+      "address": "681 Rua Prefeito Antenor Bué, Santos",
       "openingHours": "",
       "website": "",
-      "phone": "+55 13 3235-6432",
+      "phone": "",
       "cuisine": [],
       "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "",
+      "wikipedia": "",
       "osmTags": {
-        "amenity": "marketplace"
+        "shop": "mall"
       }
     },
     {
       "source": "openstreetmap",
-      "sourceId": "osm/generated/d3a0db688f89a78f3d08",
-      "name": "Viva La Fruta",
+      "sourceId": "osm/generated/04916cd0feeb57cf6113",
+      "name": "Moderna Pizzaria",
       "nameEnglish": "",
-      "category": "shopping",
-      "subcategory": "marketplace",
-      "lat": -23.9561242,
-      "lng": -46.322463,
-      "distanceFromTerminalMeters": 2382,
-      "distanceFromDefaultTerminalMeters": 2382,
-      "minDistanceFromAnyTerminalMeters": 2382,
+      "category": "food_drink",
+      "subcategory": "restaurant",
+      "lat": -23.9554927,
+      "lng": -46.3374024,
+      "distanceFromTerminalMeters": 2731,
+      "distanceFromDefaultTerminalMeters": 2731,
+      "minDistanceFromAnyTerminalMeters": 2731,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "286 Avenida Doutor Bernardino de Campos, Santos, 11065-001",
+      "openingHours": "",
+      "website": "",
+      "phone": "+55 13 3221 4642",
+      "cuisine": [
+        "pizza"
+      ],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/1ba95375423ad5b4624d",
+      "name": "Praia do Tombo",
+      "nameEnglish": "",
+      "category": "outdoors",
+      "subcategory": "beach",
+      "lat": -24.0143295,
+      "lng": -46.2725822,
+      "distanceFromTerminalMeters": 7907,
+      "distanceFromDefaultTerminalMeters": 7907,
+      "minDistanceFromAnyTerminalMeters": 7907,
       "nearestTerminalId": "ports-json-anchor",
       "address": "",
       "openingHours": "",
@@ -1663,27 +2413,22 @@
       "wheelchair": "",
       "brand": "",
       "description": "",
+      "wikidata": "Q10353124",
+      "wikipedia": "pt:Praia do Tombo",
       "osmTags": {
-        "amenity": "marketplace"
-      }
+        "natural": "beach"
+      },
+      "fame": 4
     }
   ],
-  "portAnchor": {
-    "id": "ports-json-anchor",
-    "name": "SANTOS Port",
-    "lat": -23.95,
-    "lng": -46.3,
-    "address": "Santos, São Paulo, Brazil",
-    "source": "ports.json",
-    "sourceId": "",
-    "score": 0,
-    "slug": "santos-port"
-  },
+  "gemSuggestions": [
+    "Museu do Café",
+    "Bonde turístico (heritage tram)"
+  ],
   "terminalResolution": {
     "status": "resolved",
-    "method": "terminal_review",
+    "method": "cruise-ports",
     "verified": true,
-    "reviewedAt": "2026-09-28",
     "notes": "The Concais maritime passenger terminal is correct; the rest are local ferry crossings."
   }
 }

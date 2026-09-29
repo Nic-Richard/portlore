@@ -1,0 +1,96 @@
+{
+  "defaultTerminalId": "review/fakarava-french-polynesia/fakarava-cruise-port",
+  "terminal": {
+    "id": "review/fakarava-french-polynesia/fakarava-cruise-port",
+    "name": "Fakarava cruise port",
+    "lat": -16.26779,
+    "lng": -145.60997,
+    "terminalType": "passenger_cruise_terminal",
+    "source": "cruisemapper",
+    "approximate": true,
+    "sourceId": "review/fakarava-french-polynesia/fakarava-cruise-port",
+    "verified": true
+  },
+  "terminals": [
+    {
+      "id": "review/fakarava-french-polynesia/fakarava-cruise-port",
+      "name": "Fakarava cruise port",
+      "lat": -16.26779,
+      "lng": -145.60997,
+      "terminalType": "passenger_cruise_terminal",
+      "source": "cruisemapper",
+      "approximate": true,
+      "sourceId": "review/fakarava-french-polynesia/fakarava-cruise-port",
+      "verified": true
+    }
+  ],
+  "schemaVersion": 5,
+  "catalogType": "curation-candidates",
+  "source": "openstreetmap",
+  "sourceExtract": "polynesie-francaise-latest.osm.pbf",
+  "radiusMeters": 10000,
+  "port": {
+    "id": "fakarava-french-polynesia",
+    "city": "Fakarava",
+    "country": "French Polynesia"
+  },
+  "portAnchor": {
+    "id": "ports-json-anchor",
+    "name": "Fakarava cruise port",
+    "lat": -16.26779,
+    "lng": -145.60997,
+    "address": "Fakarava, French Polynesia",
+    "source": "ports.json",
+    "sourceId": "",
+    "score": 0,
+    "slug": "fakarava-cruise-port"
+  },
+  "generatedAt": "2026-09-29T05:47:38.201Z",
+  "counts": {
+    "attraction": 0,
+    "food_drink": 0,
+    "shopping": 0,
+    "outdoors": 0,
+    "essentials": 1
+  },
+  "pois": [
+    {
+      "source": "openstreetmap",
+      "sourceId": "osm/generated/843101476332895fac60",
+      "name": "Pakokota yacht services",
+      "nameEnglish": "",
+      "category": "essentials",
+      "subcategory": "visitor_information",
+      "lat": -16.2249712,
+      "lng": -145.5560832,
+      "distanceFromTerminalMeters": 7467,
+      "distanceFromDefaultTerminalMeters": 7467,
+      "minDistanceFromAnyTerminalMeters": 7467,
+      "nearestTerminalId": "ports-json-anchor",
+      "address": "",
+      "openingHours": "",
+      "website": "",
+      "phone": "",
+      "cuisine": [],
+      "wheelchair": "",
+      "brand": "",
+      "description": "",
+      "wikidata": "",
+      "wikipedia": "",
+      "osmTags": {
+        "tourism": "information"
+      }
+    }
+  ],
+  "terminalResolution": {
+    "status": "resolved",
+    "method": "cruise-ports",
+    "verified": true,
+    "notes": ""
+  },
+  "gemSuggestions": [
+    "Topaka Lighthouse",
+    "Rotoava village pearl shops",
+    "Tetamanu pass"
+  ]
+}
