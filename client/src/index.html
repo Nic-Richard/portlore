@@ -783,6 +783,37 @@ html.detail-open, body.detail-open { overflow: hidden !important; overscroll-beh
 .itin-safety.over { color:#a92f27; background:#fdecea; border:1px solid #f5b8b0; }
 @media(min-width:900px){ .desktop-pane .nearby-search { position:absolute; top:0; left:0; right:0; z-index:500; background:rgba(255,255,255,.95); backdrop-filter:blur(8px); } }
 
+.w-ticks, .w-port-sub, .w-search-result-meta { font-size: 0.8rem; }
+.back-btn, .chip, .local-time, .rail-t { font-size: 13px; }
+.stops-meta, .terminal-picker select { font-size: 14px; }
+.dock-note, .wx-note, .stop-band p, .hidden-gems-sub, .amins { font-size: 13px; }
+.stop-band h3, .hidden-gems-title, .stop-filter, .btn-line { font-size: 14px; }
+.awalk small, .itin-clock small { font-size: 12px; }
+.itin-summary, .itin-leg, .itin-return, .itin-card-meta, .itin-safety, .itin-empty-sub { font-size: 14px; }
+.itin-duration input { font-size: 0.8rem; }
+.itin-duration span, .mrow-sub, .mrow-status, .nearby-search-status, .terminal-lookup-status { font-size: 0.78rem; }
+.d-kind, .d-facts details summary, .d-facts details div { font-size: 0.85rem; }
+.d-fit-row { font-size: 0.78rem; }
+.d-facts { font-size: 0.9rem; }
+@media (min-width: 900px) {
+  .w-ticks, .w-port-sub, .w-search-result-meta { font-size: 0.85rem; }
+  .back-btn, .chip, .local-time, .rail-t { font-size: 14px; }
+  .chip b { font-size: 24px; }
+  .stops-meta, .terminal-picker select { font-size: 15px; }
+  .dock-note, .wx-note, .stop-band p, .hidden-gems-sub, .amins { font-size: 14px; }
+  .stop-band h3, .hidden-gems-title, .stop-filter, .btn-line { font-size: 15px; }
+  .awalk small, .itin-clock small { font-size: 13px; }
+  .ameta { font-size: 15px; }
+  .itin-summary, .itin-leg, .itin-return, .itin-card-meta, .itin-safety, .itin-empty-sub { font-size: 15px; }
+  .itin-card-name, .itin-return strong { font-size: 17px; }
+  .itin-clock { font-size: 19px; }
+  .itin-card, .itin-leg, .itin-return { grid-template-columns: 5.6rem minmax(0, 1fr); }
+  .itin-duration input { font-size: 0.85rem; }
+  .itin-duration span, .mrow-sub, .mrow-status, .nearby-search-status, .terminal-lookup-status { font-size: 0.82rem; }
+  .d-kind, .d-facts details summary, .d-facts details div { font-size: 0.9rem; }
+  .d-fit-row { font-size: 0.82rem; }
+  .d-facts { font-size: 0.95rem; }
+}
 </style>
 </head>
 <body>
@@ -936,7 +967,7 @@ html.detail-open, body.detail-open { overflow: hidden !important; overscroll-beh
       <div id="itin-list"></div>
       <div class="itin-bar" id="itin-bar">
         <button class="btn-line" id="itin-optimize"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="m3 16 4 4 4-4"/><path d="M7 20V4"/><path d="m21 8-4-4-4 4"/><path d="M17 4v16"/></svg>Shortest route</button>
-        <button class="btn-line" id="itin-open-maps"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M14.1 6.1 9.9 3.9a2 2 0 0 0-1.8 0L3.6 6.2A1 1 0 0 0 3 7.1v12.3a1 1 0 0 0 1.4.9l3.7-1.9a2 2 0 0 1 1.8 0l4.2 2.1a2 2 0 0 0 1.8 0l4.5-2.3a1 1 0 0 0 .6-.9V5.1a1 1 0 0 0-1.4-.9l-3.7 1.9a2 2 0 0 1-1.8 0z"/><path d="M15 6v15M9 3v15"/></svg>Open route in Maps</button>
+        <button class="btn-line" id="itin-open-maps"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M14.1 6.1 9.9 3.9a2 2 0 0 0-1.8 0L3.6 6.2A1 1 0 0 0 3 7.1v12.3a1 1 0 0 0 1.4.9l3.7-1.9a2 2 0 0 1 1.8 0l4.2 2.1a2 2 0 0 0 1.8 0l4.5-2.3a1 1 0 0 0 .6-.9V5.1a1 1 0 0 0-1.4-.9l-3.7 1.9a2 2 0 0 1-1.8 0z"/><path d="M15 6v15M9 3v15"/></svg>Open in Maps</button>
       </div>
     </div>
 
@@ -2231,14 +2262,13 @@ function buildExploreList() {
   }
   let lower = 0;
   let gemsPlaced = false;
-  const walkLabel = city.centre ? `from ${city.centre.name}` : 'on foot';
   STOP_BANDS.forEach(([upper, title, note]) => {
     const items = filtered.filter(place => walkMinutes(place) > lower && walkMinutes(place) <= upper);
     lower = upper;
     if (!items.length) return;
     const head = document.createElement('div');
     head.className = 'stop-band';
-    head.innerHTML = `<h3>${city.centre && title === 'Close to the pier' ? 'Close to the centre' : title}<span>${items.length}</span></h3><p>${upper === Infinity ? note : `${note} ${walkLabel}`}</p>`;
+    head.innerHTML = `<h3>${city.centre && title === 'Close to the pier' ? 'Close to the centre' : title}<span>${items.length}</span></h3><p>${note}</p>`;
     el.appendChild(head);
     items.forEach(place => el.appendChild(makeCard(place)));
     if (!gemsPlaced) { el.appendChild(gemsWrap); gemsPlaced = true; }
