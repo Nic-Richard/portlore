@@ -235,6 +235,13 @@ async function resolveGooglePlace(request, options = {}) {
     const score = scorePlace(place, request);
     if (!best || score > best.score) best = { place, score };
   }
+  // Google's search already matches translated and alternate names ("The Orange Trees Garden" for
+  // "Giardino degli Aranci"), so for places the model adds, its first open result near the port is trusted.
+  if (request.kind === 'supplement' && (!best || best.score < 55)) {
+    const top = places.find(place => place.businessStatus !== 'CLOSED_PERMANENTLY' && placePoint(place)
+      && (!request.reference || haversineMeters(request.reference, placePoint(place)) <= 25000));
+    if (top) best = { place: top, score: 55 };
+  }
   if (!best || best.score < 55 || !best.place.id) {
     cache[cacheKey] = { googlePlaceId: '', queryName: request.name, resolvedAt: new Date().toISOString() };
     saveCache(options.cachePath, cache);
