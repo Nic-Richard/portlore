@@ -37,7 +37,7 @@ router.post('/', async (req, res) => {
   if (cached && Date.now() - cached.at < 30 * 60 * 1000) return res.json({ ...cached.data, cached: true });
 
   const coordinates = points.map(p => `${p.lng},${p.lat}`).join(';');
-  const url = `https://routing.openstreetmap.de/routed-foot/route/v1/driving/${coordinates}?overview=false&steps=false&annotations=false`;
+  const url = `https://routing.openstreetmap.de/routed-foot/route/v1/driving/${coordinates}?overview=full&geometries=geojson&steps=false&annotations=false`;
   const controller = new AbortController();
   const timeout = setTimeout(() => controller.abort(), 18000);
   try {
@@ -50,6 +50,7 @@ router.post('/', async (req, res) => {
       legs: route.legs.map(leg => ({ distanceMeters: Math.round(leg.distance), durationSeconds: Math.round(leg.duration), approximate: false })),
       distanceMeters: Math.round(route.distance),
       durationSeconds: Math.round(route.duration),
+      path: route.geometry.coordinates.map(([lng, lat]) => [Number(lat.toFixed(5)), Number(lng.toFixed(5))]),
       approximate: false,
     };
     cache.set(key, { at: Date.now(), data: result });

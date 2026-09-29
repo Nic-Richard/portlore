@@ -145,6 +145,8 @@ The script uploads the release, installs server dependencies, preserves existing
 
 Portlore is a planning tool. Opening hours, accessibility, transportation, terminal use, and cruise schedules can change. Travelers should confirm important details with official sources.
 
+Map data comes from OpenStreetMap contributors. Line icons are from [Lucide](https://lucide.dev) (ISC licence), plus a few drawn for Portlore in the same style.
+
 ## Adding or removing ports
 
 1. Add or delete the port's entry in `data/cruise-ports.json`.
