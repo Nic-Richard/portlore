@@ -153,7 +153,9 @@ router.post('/:id', async (req, res) => {
     });
 
     const responseUsage = response.usage || {};
-    logger.debug(`Claude response for ${id}: stop_reason=${response.stop_reason || 'unknown'}, input_tokens=${responseUsage.input_tokens || 0}, output_tokens=${responseUsage.output_tokens || 0}, max_tokens=${CITY_MAX_TOKENS}`);
+    const searches = responseUsage.server_tool_use?.web_search_requests || 0;
+    const cost = ((responseUsage.input_tokens || 0) / 1e6) * 1 + ((responseUsage.output_tokens || 0) / 1e6) * 5 + searches * 0.01;
+    logger.info(`Generated ${id}: stop_reason=${response.stop_reason || 'unknown'}, input_tokens=${responseUsage.input_tokens || 0}, output_tokens=${responseUsage.output_tokens || 0}, web_searches=${searches}, est_cost=$${cost.toFixed(4)}`);
 
     const fullText = response.content.filter(block => block.type === 'text').map(block => block.text).join('');
     const start = fullText.indexOf('{');

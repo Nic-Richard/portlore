@@ -1,7 +1,8 @@
-export const CURRENT_CITY_SCHEMA_VERSION = '2.0';
+export const CURRENT_CITY_SCHEMA_VERSION = '2.1';
 export const POI_CATALOG_SCHEMA_VERSION = 5;
 export const CITY_MODEL = 'claude-haiku-4-5-20251001';
 export const CITY_MAX_TOKENS = 20000;
+const MAX_HIDDEN_GEMS = 7;
 export const CITY_SYSTEM_PROMPT = 'You are a careful cruise-port guide editor with web research access. Output only valid JSON. No narration, explanation, preamble, markdown, or citations outside the JSON fields.';
 export const CITY_TOOLS = [
   {
@@ -50,7 +51,7 @@ Editor's hidden gem suggestions not in the POI list: ${JSON.stringify(catalog.ge
 
 Cruise terminals where passengers come ashore: ${terminalJson}
 
-Curate the best possible day ashore from the POI shortlist below: the must-see sights, well-loved local favourites, a few hidden gems a first-time visitor would miss, and a varied spread of food and drink, shops, and outdoor stops. Most ports should end up with roughly 25 to 45 stops; a truly lively destination can go past 45.
+Curate the best possible day ashore from the POI shortlist below: the must-see sights, well-loved local favourites, a few hidden gems a first-time visitor would miss, and a varied spread of food and drink, shops, and outdoor stops. Most ports should end up with roughly 25 to 45 stops. Large capitals and major cities deserve the upper end of that range; only the very biggest destinations should go past 45, and rarely beyond 60.
 - Keep the exact sourceId of each stop you include. Leave out closed, private, industrial, duplicated, unrelated, or low-value places.
 - k is how many Wikipedia language editions cover a place: the higher it is, the more famous the place.
 - p=1 marks an editor's pick; keep it unless it has closed.
@@ -362,6 +363,10 @@ export function buildCityData(portInfo, catalog, curation = {}, googleMatches = 
     if (duplicatesPlace(supplement, [...places, ...hiddenGems])) continue;
     (isGem ? hiddenGems : places).push(supplement);
   }
+  // Editor's gems go first so the cap trims the model's extra picks; the rest stay as regular stops.
+  const rankedGems = [...hiddenGems.filter(item => byId.get(item.sourceId)?.gem), ...hiddenGems.filter(item => !byId.get(item.sourceId)?.gem)];
+  hiddenGems.splice(0, hiddenGems.length, ...rankedGems.slice(0, MAX_HIDDEN_GEMS));
+  places.push(...rankedGems.slice(MAX_HIDDEN_GEMS));
 
   const fallback = catalog.portAnchor || catalog.port || portInfo;
   const terminals = buildTerminals(catalog, fallback, portInfo);
