@@ -76,11 +76,14 @@ To rerun the shortlist rules on catalogs that are already built, for example aft
 node scripts/reselect-poi-candidates.js --ports saint-john-canada
 ```
 
-Check that ports and catalogs line up:
+Check that ports and catalogs line up, and run the shortlist and guide-building tests:
 
 ```bash
 node scripts/validate-data.js
+node scripts/smoke-shared.js
 ```
+
+GitHub Actions runs both on every push, along with a syntax check and a check that `cities/ports.json` and the catalogs match `data/cruise-ports.json`.
 
 ## Local setup
 
