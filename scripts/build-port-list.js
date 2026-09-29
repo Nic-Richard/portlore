@@ -52,6 +52,7 @@ function portListEntry(port) {
     lat: centre.lat,
     lng: centre.lng,
     region: port.region,
+    ...(port.guideCentre ? { guideCentre: port.guideCentre.name.replace(/\s*\([^)]*\)/g, '') } : {}),
     generated: false,
   };
 }
