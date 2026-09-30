@@ -1,4 +1,5 @@
 import fs from 'fs';
+import { stopCategory } from './poi-curation.js';
 
 const SEARCH_URL = 'https://places.googleapis.com/v1/places:searchText';
 const FIELD_MASK = [
@@ -281,19 +282,153 @@ export async function resolveCatalogGooglePlaces(portInfo, catalog, options = {}
   return { pois, terminals };
 }
 
-const BUSINESS_TYPES = /(restaurant|cafe|coffee|bakery|bar|pub|brewery|winery|food|store|shop|market|deli|ice_cream|dessert|meal|confectionery|tea_house)/;
+const FOOD_TYPE_WORDS = new Set(['restaurant', 'cafe', 'coffee', 'bakery', 'bar', 'pub', 'brewery', 'winery', 'food', 'deli', 'ice', 'dessert', 'meal', 'confectionery', 'tea', 'bistro', 'diner', 'cafeteria', 'pizza', 'steak', 'sandwich', 'seafood', 'brunch', 'breakfast']);
+const SHOP_TYPE_WORDS = new Set(['store', 'shop', 'market', 'mall', 'boutique', 'florist', 'jeweler']);
 const BUSINESS_MATCH_MAX_METRES = 250;
+const OTHER_MATCH_MAX_METRES = 1000;
 
-// A café or shop named like a nearby landmark or a similar business ("Gregory's" and Gregory's Arch) can match
-// the wrong Google place. Restaurants and shops are pinned accurately in OpenStreetMap, so a match that moves
-// one far away, or that Google doesn't list as any kind of business, is a different place.
-export function isWrongBusinessMatch(poi, match) {
-  if (!['food_drink', 'shopping'].includes(poi?.category) || !match?.googleLocation) return false;
+// Food wins for types like "coffee_shop" or "ice_cream_shop"; "barber_shop" is a shop.
+function typeFamily(type) {
+  const words = cleanString(type).split('_');
+  if (words.some(word => FOOD_TYPE_WORDS.has(word))) return 'food_drink';
+  if (words.some(word => SHOP_TYPE_WORDS.has(word))) return 'shopping';
+  return type ? 'other' : '';
+}
+
+// A stop named like a nearby landmark or a similar business ("Gregory's" and Gregory's Arch, a boutique and a
+// café called Del Sol) can match the wrong Google place. OpenStreetMap pins and tags are the reference, so a
+// match that lies far from the OSM point, or that is a different kind of place, is ignored.
+export function isWrongMatch(poi, match) {
+  if (!poi || !match?.googleLocation) return false;
+  const category = stopCategory(poi);
+  const business = category === 'food_drink' || category === 'shopping';
   const lat = Number(poi.lat);
   const lng = Number(poi.lng);
-  if (Number.isFinite(lat) && Number.isFinite(lng) && haversineMeters({ lat, lng }, match.googleLocation) > BUSINESS_MATCH_MAX_METRES) return true;
-  const types = [match.googlePrimaryType, ...(match.googleTypes || [])].filter(Boolean);
-  return types.length > 0 && !types.some(type => BUSINESS_TYPES.test(type));
+  const limit = business ? BUSINESS_MATCH_MAX_METRES : OTHER_MATCH_MAX_METRES;
+  if (Number.isFinite(lat) && Number.isFinite(lng) && haversineMeters({ lat, lng }, match.googleLocation) > limit) return true;
+  const primary = typeFamily(match.googlePrimaryType);
+  if (business) {
+    if (primary) return primary !== category;
+    const families = (match.googleTypes || []).map(typeFamily);
+    return families.length > 0 && !families.includes(category);
+  }
+  return primary === 'food_drink' || primary === 'shopping';
+}
+
+const OVERPASS_URLS = ['https://overpass-api.de/api/interpreter', 'https://overpass.kumi.systems/api/interpreter'];
+const OVERPASS_GAP_MS = 1500;
+const OVERPASS_RETRY_MS = [5000, 10000, 15000];
+const SUPPLEMENT_SEARCH_METRES = 800;
+// Words the model adds to describe a place that OSM names usually leave out.
+const GENERIC_NAME_WORDS = new Set(['the', 'and', 'of', 'de', 'del', 'della', 'di', 'la', 'le', 'el', 'ruins', 'ruin', 'mayan', 'site', 'visitor', 'center', 'centre', 'path', 'trail', 'walk', 'caldera', 'historic', 'district', 'old', 'town', 'area']);
+let nextOverpassAt = 0;
+
+// Overpass asks for gentle use, so calls queue behind each other, move to the next server when one is
+// busy, and back off before trying again.
+async function overpass(query, { retries, timeoutMs }) {
+  for (let attempt = 0; ; attempt += 1) {
+    const wait = Math.max(0, nextOverpassAt - Date.now());
+    nextOverpassAt = Date.now() + wait + OVERPASS_GAP_MS;
+    if (wait) await new Promise(resolve => setTimeout(resolve, wait));
+    let status;
+    try {
+      const response = await fetch(OVERPASS_URLS[attempt % OVERPASS_URLS.length], {
+        method: 'POST',
+        headers: { 'User-Agent': 'Portlore/1.0 (https://portlore.com)', 'Content-Type': 'application/x-www-form-urlencoded' },
+        body: `data=${encodeURIComponent(query)}`,
+        signal: AbortSignal.timeout(timeoutMs),
+      });
+      if (response.ok) return response.json();
+      status = response.status;
+    } catch (error) {
+      status = error.name === 'TimeoutError' ? 'timeout' : error.message;
+    }
+    if (![429, 502, 503, 504, 'timeout'].includes(status) || attempt >= retries) {
+      throw new Error(`Overpass returned ${status}`);
+    }
+    if (attempt % OVERPASS_URLS.length === OVERPASS_URLS.length - 1) {
+      await new Promise(resolve => setTimeout(resolve, OVERPASS_RETRY_MS[attempt]));
+    }
+  }
+}
+
+function nameWords(value) {
+  return normalize(String(value || '').replace(/\(.*?\)/g, ' '))
+    .split(' ')
+    .filter(word => word.length > 1 && !GENERIC_NAME_WORDS.has(word));
+}
+
+const NOMINATIM_URL = 'https://nominatim.openstreetmap.org/search';
+const NOMINATIM_GAP_MS = 1100;
+let nextNominatimAt = 0;
+
+// Nominatim knows translated names ("Roman Forum" for Foro Romano) and allows one request a second.
+async function nominatimNear(name, near) {
+  const wait = Math.max(0, nextNominatimAt - Date.now());
+  nextNominatimAt = Date.now() + wait + NOMINATIM_GAP_MS;
+  if (wait) await new Promise(resolve => setTimeout(resolve, wait));
+  const latDelta = SUPPLEMENT_SEARCH_METRES / 111000;
+  const lngDelta = latDelta / Math.max(Math.cos((near.lat * Math.PI) / 180), 0.2);
+  const response = await fetch(`${NOMINATIM_URL}?${new URLSearchParams({
+    q: name, format: 'jsonv2', addressdetails: '1', limit: '5', bounded: '1',
+    viewbox: `${near.lng - lngDelta},${near.lat + latDelta},${near.lng + lngDelta},${near.lat - latDelta}`,
+  })}`, {
+    headers: { 'User-Agent': 'Portlore/1.0 (https://portlore.com)', Accept: 'application/json' },
+    signal: AbortSignal.timeout(12000),
+  });
+  if (!response.ok) throw new Error(`Nominatim returned ${response.status}`);
+  const results = await response.json();
+  const item = (Array.isArray(results) ? results : [])
+    .map(result => ({ result, point: { lat: Number(result.lat), lng: Number(result.lon) } }))
+    .filter(({ point }) => Number.isFinite(point.lat) && Number.isFinite(point.lng))
+    .sort((a, b) => haversineMeters(near, a.point) - haversineMeters(near, b.point))[0];
+  if (!item) return null;
+  const address = item.result.address || {};
+  return {
+    ...item.point,
+    distance: haversineMeters(near, item.point),
+    address: [address.house_number, address.road].filter(Boolean).join(' '),
+    osmType: cleanString(item.result.osm_type),
+    osmId: String(item.result.osm_id || ''),
+  };
+}
+
+// A guide build waits on this, so it tries Overpass once; a one-off cleanup can afford to retry.
+export async function osmPlaceNear(name, near, { patient = false } = {}) {
+  const found = await nominatimNear(name, near).catch(() => null);
+  return found || overpassNear(name, near, patient
+    ? { retries: OVERPASS_RETRY_MS.length, timeoutMs: 20000 }
+    : { retries: 0, timeoutMs: 10000 });
+}
+
+// The named OpenStreetMap feature near where Google found a place, so a stop the model added is pinned
+// with OSM data instead of Google's. Most of the name's distinctive words must match.
+async function overpassNear(name, near, options) {
+  const wanted = nameWords(name);
+  if (!wanted.length) return null;
+  const data = await overpass(`[out:json][timeout:25];nwr(around:${SUPPLEMENT_SEARCH_METRES},${near.lat},${near.lng})[name];out center tags 400;`, options);
+  let best = null;
+  for (const element of Array.isArray(data?.elements) ? data.elements : []) {
+    const tags = element.tags || {};
+    const point = { lat: Number(element.center?.lat ?? element.lat), lng: Number(element.center?.lon ?? element.lon) };
+    if (!Number.isFinite(point.lat) || !Number.isFinite(point.lng)) continue;
+    const labels = [tags['name:en'], tags.name, tags.alt_name, tags.official_name].filter(Boolean);
+    const score = Math.max(0, ...labels.map(label => {
+      const words = new Set(nameWords(label));
+      return wanted.filter(word => words.has(word)).length / wanted.length;
+    }));
+    if (score < 0.6) continue;
+    const distance = haversineMeters(near, point);
+    if (best && (score < best.score || (score === best.score && distance >= best.distance))) continue;
+    const street = [tags['addr:housenumber'], tags['addr:street']].filter(Boolean).join(' ');
+    best = {
+      ...point, score, distance,
+      address: street,
+      osmType: cleanString(element.type),
+      osmId: String(element.id || ''),
+    };
+  }
+  return best;
 }
 
 export async function resolveCurationGooglePlaces(portInfo, catalog, curation, options = {}) {
@@ -311,7 +446,7 @@ export async function resolveCurationGooglePlaces(portInfo, catalog, curation, o
   ].map(item => cleanString(item?.sourceId)).filter(Boolean));
 
   for (const sourceId of selectedIds) {
-    if (isWrongBusinessMatch(poisById.get(sourceId), catalogMatches.pois?.[sourceId])) {
+    if (isWrongMatch(poisById.get(sourceId), catalogMatches.pois?.[sourceId])) {
       console.warn(`Ignoring Google match for ${sourceId}: ${catalogMatches.pois[sourceId].googleDisplayName} is a different place`);
       delete catalogMatches.pois[sourceId];
     }
@@ -351,14 +486,27 @@ export async function resolveCurationGooglePlaces(portInfo, catalog, curation, o
       console.warn(`Skipping unresolved supplemental POI: ${request.name}`);
       continue;
     }
+    let place = null;
+    try {
+      place = await osmPlaceNear(request.name, match.googleLocation);
+    } catch (error) {
+      console.warn(`OpenStreetMap lookup failed for ${request.name}: ${error.message}`);
+    }
+    if (!place) {
+      console.warn(`Skipping supplemental POI not found in OpenStreetMap: ${request.name}`);
+      continue;
+    }
     resolvedSupplements.push({
       ...poi,
-      ...match,
-      lat: match.googleLocation.lat,
-      lng: match.googleLocation.lng,
-      address: cleanString(poi.address) || match.googleFormattedAddress,
+      googlePlaceId: match.googlePlaceId,
+      googleMatchConfidence: match.googleMatchConfidence,
+      lat: place.lat,
+      lng: place.lng,
+      address: cleanString(poi.address) || place.address,
       hoursNote: cleanString(poi.hoursNote),
-      coordinateSource: 'google_places',
+      coordinateSource: 'openstreetmap',
+      osmType: place.osmType,
+      osmId: place.osmId,
     });
   }
   result.supplementedPois = resolvedSupplements;

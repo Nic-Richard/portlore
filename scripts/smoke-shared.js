@@ -7,7 +7,7 @@ import { selectCurationCandidates } from '../shared/poi-selection.js';
 import { buildCityData } from '../shared/poi-curation.js';
 import { renderPortPage } from '../server/src/lib/port-page.js';
 import { isParkedDomain, websiteText } from '../shared/website-descriptions.js';
-import { isWrongBusinessMatch } from '../shared/google-places.js';
+import { isWrongMatch } from '../shared/google-places.js';
 import { isStale } from '../server/src/lib/generation.js';
 
 const tests = [];
@@ -130,15 +130,21 @@ test('an added stop that repeats a supplied one is dropped', () => {
   assert.strictEqual(data.places.length, 1);
 });
 
-test('Google place types decide the category of a matched stop', () => {
+test('stops keep OpenStreetMap positions and categories, and only the Google place ID', () => {
   const pois = [
-    { sourceId: 'osm/cat1', name: 'Corner Bakery', category: 'shopping', lat: 44.64, lng: -63.57 },
-    { sourceId: 'osm/cat2', name: 'Harbour Museum', category: 'food_drink', lat: 44.64, lng: -63.57 },
+    { sourceId: 'osm/cat1', name: 'Corner Bakery', category: 'shopping', subcategory: 'bakery', lat: 44.64, lng: -63.57 },
+    { sourceId: 'osm/cat2', name: 'Del Sol', category: 'shopping', subcategory: 'clothes', lat: 44.65, lng: -63.58 },
   ];
   const curation = { places: [{ sourceId: 'osm/cat1' }, { sourceId: 'osm/cat2' }] };
-  const matches = { pois: { 'osm/cat1': { googlePrimaryType: 'bakery' }, 'osm/cat2': { googlePrimaryType: 'museum' } } };
+  const matches = { pois: { 'osm/cat2': {
+    googlePlaceId: 'g-2', googlePrimaryType: 'cafe', googleLocation: { lat: 44.66, lng: -63.59 },
+    googleBusinessStatus: 'OPERATIONAL', googleFormattedAddress: '1 Road',
+  } } };
   const data = buildCityData(portInfo, { ...guideCatalog, pois }, curation, matches);
-  assert.deepStrictEqual(data.places.map(p => p.category), ['food_drink', 'attraction']);
+  assert.deepStrictEqual(data.places.map(p => p.category), ['food_drink', 'shopping']);
+  const delSol = data.places[1];
+  assert.deepStrictEqual([delSol.lat, delSol.lng, delSol.googlePlaceId], [44.65, -63.58, 'g-2']);
+  assert.ok(!('googleBusinessStatus' in delSol) && !('sourceLat' in delSol));
 });
 
 test('website text keeps the page summary and drops scripts, and parked domains are spotted', () => {
@@ -150,15 +156,23 @@ test('website text keeps the page summary and drops scripts, and parked domains 
   assert.ok(!isParkedDomain(text));
 });
 
-test('a café is not matched to a landmark or a similar business far away', () => {
+test('a stop is not matched to a landmark, a different kind of business, or a place far away', () => {
   const cafe = { category: 'food_drink', lat: 25.0775, lng: -77.3420 };
   const arch = { googleLocation: { lat: 25.0756, lng: -77.3436 }, googlePrimaryType: 'historical_landmark', googleTypes: ['tourist_attraction'] };
   const sameCafe = { googleLocation: { lat: 25.0776, lng: -77.3421 }, googlePrimaryType: 'cafe', googleTypes: ['cafe', 'food'] };
   const otherRestaurant = { googleLocation: { lat: 25.0880, lng: -77.3420 }, googlePrimaryType: 'restaurant', googleTypes: ['restaurant'] };
-  assert.strictEqual(isWrongBusinessMatch(cafe, arch), true);
-  assert.strictEqual(isWrongBusinessMatch(cafe, otherRestaurant), true);
-  assert.strictEqual(isWrongBusinessMatch(cafe, sameCafe), false);
-  assert.strictEqual(isWrongBusinessMatch({ category: 'attraction', lat: 25.0775, lng: -77.3420 }, otherRestaurant), false);
+  const boutique = { category: 'shopping', subcategory: 'clothes', lat: 25.0775, lng: -77.3420 };
+  const bakery = { category: 'shopping', subcategory: 'bakery', lat: 25.0775, lng: -77.3420 };
+  const sandbar = { category: 'attraction', lat: 19.3565, lng: -81.3778 };
+  const landSpot = { googleLocation: { lat: 19.3294, lng: -81.3810 }, googlePrimaryType: 'tourist_attraction' };
+  assert.strictEqual(isWrongMatch(cafe, arch), true);
+  assert.strictEqual(isWrongMatch(cafe, otherRestaurant), true);
+  assert.strictEqual(isWrongMatch(cafe, sameCafe), false);
+  assert.strictEqual(isWrongMatch(boutique, sameCafe), true);
+  assert.strictEqual(isWrongMatch(bakery, { ...sameCafe, googlePrimaryType: 'bakery' }), false);
+  assert.strictEqual(isWrongMatch({ category: 'attraction', lat: 25.0775, lng: -77.3420 }, sameCafe), true);
+  assert.strictEqual(isWrongMatch(sandbar, landSpot), true);
+  assert.strictEqual(isWrongMatch({ category: 'attraction', lat: 25.0757, lng: -77.3437 }, arch), false);
 });
 
 test('bare website domains get https', () => {

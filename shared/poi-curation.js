@@ -110,22 +110,11 @@ function iconFor(category, subcategory = '') {
   return category || 'default';
 }
 
-const GOOGLE_CATEGORIES = [
-  ['essentials', /^(pharmacy|drugstore|atm|bank|car_rental|hospital|post_office|supermarket|grocery_store|convenience_store|tourist_information_center)$/],
-  ['food_drink', /(restaurant|cafe|coffee_shop|bakery|bar|pub|brewery|winery|ice_cream_shop|dessert_shop|food_court|meal_takeaway|tea_house|confectionery|deli)$/],
-  ['shopping', /(_store|^store$|shopping_mall|^market$|farmers_market|gift_shop|flea_market)$/],
-  ['outdoors', /^(park|national_park|state_park|garden|botanical_garden|beach|hiking_area|marina|plaza|dog_park|city_park)$/],
-  ['attraction', /(museum|art_gallery|church|place_of_worship|tourist_attraction|historical_landmark|historical_place|monument|castle|cultural_landmark|aquarium|zoo|observation_deck|performing_arts_theater|landmark)$/],
-];
+// OSM files bakeries, delis and the like as shops, but passengers go to them to eat and drink.
+const FOOD_SHOPS = new Set(['bakery', 'pastry', 'confectionery', 'chocolate', 'deli', 'coffee', 'tea', 'cheese', 'ice_cream', 'brewery', 'winery']);
 
-// Google's place types are more reliable than OSM tags, so they decide the category when a stop matched.
-function categoryFromGoogle(match) {
-  const types = [cleanString(match?.googlePrimaryType), ...(Array.isArray(match?.googleTypes) ? match.googleTypes : [])].filter(Boolean);
-  for (const type of types) {
-    const found = GOOGLE_CATEGORIES.find(([, pattern]) => pattern.test(type));
-    if (found) return found[0];
-  }
-  return '';
+export function stopCategory(poi) {
+  return poi?.category === 'shopping' && FOOD_SHOPS.has(poi.subcategory) ? 'food_drink' : poi?.category;
 }
 
 // Some listings give a bare domain ("www.example.com"), which a browser would treat as a relative link.
@@ -152,12 +141,12 @@ function normalizeEditorial(editorial = {}) {
   };
 }
 
+// Google only verifies a stop; its place ID is the one piece of Google data a guide keeps, as the Maps terms allow.
 function copySuppliedPoi(poi, editorial, googleMatch = null) {
   const generated = normalizeEditorial(editorial);
-  const category = categoryFromGoogle(googleMatch) || generated.category || poi.category;
-  // Google's website comes from the business listing, so it is fresher than OSM's tag.
-  const officialWebsiteUrl = websiteUrl(googleMatch?.googleWebsite, poi.website, generated.officialWebsiteUrl);
-  const hours = cleanString(googleMatch?.googleOpeningHours) || generated.hoursNote || cleanString(poi.openingHours);
+  const category = stopCategory(poi) || generated.category;
+  const officialWebsiteUrl = websiteUrl(poi.website, generated.officialWebsiteUrl);
+  const hours = cleanString(poi.openingHours) || generated.hoursNote;
   return {
     id: poi.sourceId,
     sourceId: poi.sourceId,
@@ -169,10 +158,8 @@ function copySuppliedPoi(poi, editorial, googleMatch = null) {
     category,
     subcategory: poi.subcategory || '',
     icon: iconFor(category, poi.subcategory),
-    lat: Number(googleMatch?.googleLocation?.lat ?? poi.lat),
-    lng: Number(googleMatch?.googleLocation?.lng ?? poi.lng),
-    sourceLat: Number(poi.lat),
-    sourceLng: Number(poi.lng),
+    lat: Number(poi.lat),
+    lng: Number(poi.lng),
     address: poi.address || '',
     hours,
     website: officialWebsiteUrl,
@@ -189,12 +176,11 @@ function copySuppliedPoi(poi, editorial, googleMatch = null) {
     verificationSourceUrls: generated.verificationSourceUrls,
     googlePlaceId: cleanString(googleMatch?.googlePlaceId),
     googlePlaceMatchConfidence: cleanString(googleMatch?.googleMatchConfidence),
-    googleBusinessStatus: cleanString(googleMatch?.googleBusinessStatus),
   };
 }
 
 function copySupplement(poi) {
-  const editorial = normalizeEditorial({ ...poi, displayCategory: categoryFromGoogle(poi) || poi.category });
+  const editorial = normalizeEditorial({ ...poi, displayCategory: poi.category });
   const id = cleanString(poi.sourceId);
   if (!id.startsWith('supplement/')) return null;
   const lat = Number(poi.lat);
@@ -215,8 +201,8 @@ function copySupplement(poi) {
     lng,
     address: cleanString(poi.address),
     hours: editorial.hoursNote,
-    website: websiteUrl(poi.googleWebsite, editorial.officialWebsiteUrl),
-    officialWebsiteUrl: websiteUrl(poi.googleWebsite, editorial.officialWebsiteUrl),
+    website: websiteUrl(editorial.officialWebsiteUrl),
+    officialWebsiteUrl: websiteUrl(editorial.officialWebsiteUrl),
     phone: '',
     cuisine: [],
     wheelchair: '',
@@ -235,7 +221,6 @@ function copySupplement(poi) {
     geocodeConfidence: cleanString(poi.geocodeConfidence),
     googlePlaceId: cleanString(poi.googlePlaceId),
     googlePlaceMatchConfidence: cleanString(poi.googleMatchConfidence),
-    googleBusinessStatus: cleanString(poi.googleBusinessStatus),
   };
 }
 
@@ -399,7 +384,7 @@ export function buildCityData(portInfo, catalog, curation = {}, googleMatches = 
   return {
     schemaVersion: CURRENT_CITY_SCHEMA_VERSION,
     generatedAt: new Date().toISOString(),
-    source: 'curated-poi-v5-google-places',
+    source: 'curated-poi-v6-osm-verified',
     id: portInfo.id,
     city: portInfo.city,
     country: portInfo.country,
