@@ -71,6 +71,7 @@ export async function buildGuide(id, portInfo, catalog) {
       apiKey: process.env.GOOGLE_MAPS_API_KEY,
       cachePath: path.join(CITIES_DIR, '.google-place-id-cache.json'),
       onlyIds: (Array.isArray(curation.places) ? curation.places : []).map(item => item?.sourceId).filter(Boolean),
+      requireFields: true,
     });
     const resolvedCuration = await resolveCurationGooglePlaces(portInfo, catalog, curation, {
       apiKey: process.env.GOOGLE_MAPS_API_KEY,
@@ -80,7 +81,7 @@ export async function buildGuide(id, portInfo, catalog) {
     const data = { ...buildCityData(portInfo, catalog, resolvedCuration, googleMatches), model: result.model };
     try {
       const websites = await describeFromWebsites(data, catalog);
-      logger.info(`Described ${id} from websites: checked=${websites.checked}, rewritten=${websites.rewritten}, dead=${websites.dead}, est_cost=$${websites.cost.toFixed(4)}`);
+      logger.info(`Described ${id} from websites: checked=${websites.checked}, found=${websites.found}, searches=${websites.searches}, rewritten=${websites.rewritten}, dead=${websites.dead}, est_cost=$${websites.cost.toFixed(4)}`);
     } catch (error) {
       logger.warn(`Website descriptions failed for ${id}: ${error.message}`);
     }

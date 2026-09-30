@@ -1,20 +1,6 @@
 import fs from 'fs';
 
 const SEARCH_URL = 'https://places.googleapis.com/v1/places:searchText';
-const DETAILS_URL = 'https://places.googleapis.com/v1/places';
-
-const DETAILS_FIELD_MASK = [
-  'id',
-  'displayName',
-  'formattedAddress',
-  'location',
-  'primaryType',
-  'types',
-  'businessStatus',
-  'regularOpeningHours',
-  'websiteUri',
-].join(',');
-
 const FIELD_MASK = [
   'places.id',
   'places.displayName',
@@ -160,28 +146,6 @@ async function searchText(request, apiKey) {
 }
 
 
-function openingHoursText(place) {
-  const descriptions = place?.regularOpeningHours?.weekdayDescriptions;
-  return Array.isArray(descriptions)
-    ? descriptions.filter(value => typeof value === 'string' && value.trim()).join(' · ')
-    : '';
-}
-
-async function placeDetails(placeId, apiKey) {
-  if (!cleanString(placeId)) return null;
-  const response = await fetch(`${DETAILS_URL}/${encodeURIComponent(placeId)}`, {
-    headers: {
-      'X-Goog-Api-Key': apiKey,
-      'X-Goog-FieldMask': DETAILS_FIELD_MASK,
-    },
-  });
-  if (!response.ok) {
-    const text = await response.text();
-    throw new Error(`Google Place Details returned ${response.status}: ${text.slice(0, 300)}`);
-  }
-  return response.json();
-}
-
 function publicMatch(place, score, query) {
   const point = placePoint(place);
   return {
@@ -190,9 +154,7 @@ function publicMatch(place, score, query) {
     googleFormattedAddress: cleanString(place?.formattedAddress),
     googlePrimaryType: cleanString(place?.primaryType),
     googleTypes: Array.isArray(place?.types) ? place.types : [],
-    googleWebsite: cleanString(place?.websiteUri),
     googleBusinessStatus: cleanString(place?.businessStatus),
-    googleOpeningHours: openingHoursText(place),
     googleLocation: point,
     googleMatchConfidence: score >= 82 ? 'high' : 'medium',
     googleMatchScore: Math.round(score),
@@ -213,14 +175,14 @@ async function resolveGooglePlace(request, options = {}) {
     kind: request.kind,
   }));
   const cached = cache[cacheKey];
-  if (cached?.googlePlaceId && !options.force && !options.requireDetails) {
+  if (cached?.googlePlaceId && !options.force && !options.requireFields) {
     return {
       googlePlaceId: cached.googlePlaceId,
       googleMatchConfidence: 'cached',
       googleQuery: buildTextQuery(request),
     };
   }
-  if (cached?.googlePlaceId && !options.force && options.requireDetails) {
+  if (cached?.googlePlaceId && !options.force && options.requireFields) {
     const places = await searchText({ ...request, name: cached.queryName || request.name }, apiKey);
     const exact = places.find(place => place.id === cached.googlePlaceId);
     if (exact) {
@@ -307,6 +269,7 @@ export async function resolveCatalogGooglePlaces(portInfo, catalog, options = {}
         cachePath: options.cachePath,
         cacheKey: `poi:${sourceId}`,
         force: options.force,
+        requireFields: options.requireFields,
       });
       if (match) pois[sourceId] = match;
     } catch (error) {
@@ -347,23 +310,12 @@ export async function resolveCurationGooglePlaces(portInfo, catalog, curation, o
     ...(Array.isArray(result.hiddenGems) ? result.hiddenGems : []),
   ].map(item => cleanString(item?.sourceId)).filter(Boolean));
 
-  await mapWithConcurrency([...selectedIds], options.concurrency || 4, async sourceId => {
-    const match = catalogMatches.pois?.[sourceId];
-    if (!match?.googlePlaceId) return;
-    try {
-      const details = await placeDetails(match.googlePlaceId, apiKey);
-      if (!details) return;
-      const detailed = { ...match, ...publicMatch(details, Number(match.googleMatchScore) || 100, match.googleQuery || '') };
-      if (isWrongBusinessMatch(poisById.get(sourceId), detailed)) {
-        console.warn(`Ignoring Google match for ${sourceId}: ${detailed.googleDisplayName} is a different place`);
-        delete catalogMatches.pois[sourceId];
-        return;
-      }
-      catalogMatches.pois[sourceId] = detailed;
-    } catch (error) {
-      console.warn(`Google Place Details failed for ${sourceId}: ${error.message}`);
+  for (const sourceId of selectedIds) {
+    if (isWrongBusinessMatch(poisById.get(sourceId), catalogMatches.pois?.[sourceId])) {
+      console.warn(`Ignoring Google match for ${sourceId}: ${catalogMatches.pois[sourceId].googleDisplayName} is a different place`);
+      delete catalogMatches.pois[sourceId];
     }
-  });
+  }
 
   const isPermanentlyClosed = item => {
     const sourceId = cleanString(item?.sourceId);
@@ -390,12 +342,8 @@ export async function resolveCurationGooglePlaces(portInfo, catalog, curation, o
         cache,
         cachePath: options.cachePath,
         cacheKey: `supplement:${cleanString(poi.sourceId) || normalize(JSON.stringify(request))}`,
-        requireDetails: true,
+        requireFields: true,
       });
-      if (match?.googlePlaceId) {
-        const details = await placeDetails(match.googlePlaceId, apiKey);
-        match = { ...match, ...publicMatch(details, match.googleMatchScore || 100, match.googleQuery || '') };
-      }
     } catch (error) {
       console.warn(`Google supplement lookup failed for ${request.name}: ${error.message}`);
     }
@@ -409,7 +357,7 @@ export async function resolveCurationGooglePlaces(portInfo, catalog, curation, o
       lat: match.googleLocation.lat,
       lng: match.googleLocation.lng,
       address: cleanString(poi.address) || match.googleFormattedAddress,
-      hoursNote: cleanString(poi.hoursNote) || match.googleOpeningHours,
+      hoursNote: cleanString(poi.hoursNote),
       coordinateSource: 'google_places',
     });
   }

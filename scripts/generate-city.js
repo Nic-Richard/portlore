@@ -64,6 +64,7 @@ async function main() {
     apiKey: process.env.GOOGLE_MAPS_API_KEY,
     cachePath: path.join(ROOT, 'cities', '.google-place-id-cache.json'),
     onlyIds: (Array.isArray(curation.places) ? curation.places : []).map(item => item?.sourceId).filter(Boolean),
+    requireFields: true,
   });
   const resolvedCuration = await resolveCurationGooglePlaces(portInfo, catalog, curation, {
     apiKey: process.env.GOOGLE_MAPS_API_KEY,
@@ -71,13 +72,13 @@ async function main() {
     catalogMatches: googleMatches,
   });
   const data = { ...buildCityData(portInfo, catalog, resolvedCuration, googleMatches), model: result.model };
-  let websites = { checked: 0, rewritten: 0, dead: 0, cost: 0 };
+  let websites = { checked: 0, found: 0, searches: 0, rewritten: 0, dead: 0, cost: 0 };
   try {
     websites = await describeFromWebsites(data, catalog);
   } catch (error) {
     console.warn(`Website descriptions failed: ${error.message}`);
   }
-  console.log(`Websites: checked ${websites.checked}, rewrote ${websites.rewritten}, dropped ${websites.dead} dead links.`);
+  console.log(`Websites: checked ${websites.checked}, found ${websites.found} with ${websites.searches} searches, rewrote ${websites.rewritten}, dropped ${websites.dead} dead links.`);
 
   const outPath = path.join(ROOT, 'cities', `${portInfo.id}.json`);
   fs.writeFileSync(outPath, JSON.stringify(data, null, 2));

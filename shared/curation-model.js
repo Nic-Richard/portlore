@@ -2,7 +2,7 @@ import { CITY_MAX_TOKENS, CITY_SYSTEM_PROMPT } from './poi-curation.js';
 
 // Gemini curates by default; set CITY_MODEL_PROVIDER=anthropic to use Claude instead.
 const PROVIDERS = {
-  gemini: { model: 'gemini-3.8-flash', keyName: 'GEMINI_API_KEY', inputPrice: 0.75, outputPrice: 3.75, call: callGemini },
+  gemini: { model: 'gemini-3.8-flash', keyName: 'GEMINI_API_KEY', inputPrice: 0.75, outputPrice: 3.75, searchPrice: 0.014, call: callGemini },
   anthropic: { model: 'claude-haiku-4-5-20251001', keyName: 'ANTHROPIC_API_KEY', inputPrice: 1, outputPrice: 5, call: callAnthropic },
 };
 const TIMEOUT_MS = 180000;
@@ -37,9 +37,10 @@ async function callGemini(provider, apiKey, prompt, options) {
     body: JSON.stringify({
       systemInstruction: { parts: [{ text: CITY_SYSTEM_PROMPT }] },
       contents: [{ role: 'user', parts: [{ text: prompt }] }],
+      ...(options.search ? { tools: [{ google_search: {} }] } : {}),
       generationConfig: {
         maxOutputTokens: CITY_MAX_TOKENS,
-        responseMimeType: 'application/json',
+        ...(options.search ? {} : { responseMimeType: 'application/json' }),
         ...(options.lightThinking ? { thinkingConfig: { thinkingLevel: 'low' } } : {}),
       },
     }),
@@ -55,6 +56,7 @@ async function callGemini(provider, apiKey, prompt, options) {
     inputTokens: usage.promptTokenCount || 0,
     // Gemini bills its thinking as output.
     outputTokens: (usage.candidatesTokenCount || 0) + (usage.thoughtsTokenCount || 0),
+    searches: candidate.groundingMetadata?.webSearchQueries?.length || 0,
   };
 }
 
@@ -95,20 +97,23 @@ export function curationModel() {
 }
 
 // Asks the model for a guide, retrying once when the reply is not usable JSON. Simple rewrites can use light thinking.
+// Google Search grounding (Gemini only) is billed per search after a monthly free allowance; the cost counts every search.
 export async function curateCity(prompt, options = {}) {
   const provider = curationModel();
   const apiKey = process.env[provider.keyName];
   if (!apiKey) throw new Error(`${provider.keyName} is not set in .env`);
 
   let lastError;
-  const totals = { inputTokens: 0, outputTokens: 0 };
+  const totals = { inputTokens: 0, outputTokens: 0, searches: 0 };
   for (let attempt = 1; attempt <= 2; attempt += 1) {
     const reply = await callWithRetry(provider, apiKey, prompt, options);
     totals.inputTokens += reply.inputTokens;
     totals.outputTokens += reply.outputTokens;
+    totals.searches += reply.searches || 0;
     try {
       const curation = parseCuration(reply.text);
-      const cost = (totals.inputTokens / 1e6) * provider.inputPrice + (totals.outputTokens / 1e6) * provider.outputPrice;
+      const cost = (totals.inputTokens / 1e6) * provider.inputPrice + (totals.outputTokens / 1e6) * provider.outputPrice
+        + totals.searches * (provider.searchPrice || 0);
       return { curation, model: provider.model, stopReason: reply.stopReason, attempts: attempt, ...totals, cost };
     } catch (error) {
       lastError = new Error(`${provider.model} returned unusable JSON (stop reason ${reply.stopReason}): ${error.message}`);

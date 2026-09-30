@@ -1,4 +1,4 @@
-import { curateCity } from './curation-model.js';
+import { curateCity, curationModel } from './curation-model.js';
 
 const FETCH_TIMEOUT_MS = 6000;
 const CONCURRENCY = 8;
@@ -41,13 +41,43 @@ async function fetchWebsite(url) {
   }
 }
 
+// Restaurants, cafés, and shops without a website get one grounded Gemini search for all of them together. The
+// sites it finds go through the same checks below, and are dropped when their text turns out to be about another place.
+async function findMissingWebsites(stops, place) {
+  const missing = stops.filter(stop => ['food_drink', 'shopping'].includes(stop.category) && !stop.website);
+  if (!missing.length || curationModel().name !== 'gemini') return { found: new Set(), searches: 0, cost: 0 };
+  const result = await curateCity(`Find the official website of each place below, using Google Search.
+
+Only give a URL that appears in your search results and belongs to the place itself: its own site, or its official Facebook or Instagram page if it has no site. Never give review, booking, delivery, map, or directory sites such as Tripadvisor, Yelp, or Google Maps. If you are not sure a result is this exact place in this city, give an empty string.
+
+Return only this JSON:
+{"stops":[{"id":"","website":""}]}
+
+Places:
+${JSON.stringify(missing.map(stop => ({ id: stop.id, name: stop.name, address: stop.address || '', city: place })))}`, { search: true, lightThinking: true });
+
+  const byId = new Map(missing.map(stop => [stop.id, stop]));
+  const found = new Set();
+  for (const item of Array.isArray(result.curation.stops) ? result.curation.stops : []) {
+    const stop = byId.get(item?.id);
+    const url = String(item?.website || '').trim();
+    if (!stop || !/^https?:\/\/[^\s/]+\.[^\s]+$/i.test(url) || /tripadvisor|yelp|google\.|booking\.com|opentable|thefork|ubereats|deliveroo|doordash/i.test(url)) continue;
+    stop.website = url;
+    stop.officialWebsiteUrl = url;
+    found.add(stop.id);
+  }
+  return { found, searches: result.searches, cost: result.cost };
+}
+
 // Every stop's website is checked, and links to sites that are gone are dropped. Restaurants, cafés, and shops the
 // shortlist had no facts about are then rewritten from their own website, so details like a menu are real. Sights
 // keep their first description, since their sites rarely say what makes them worth a visit.
 export async function describeFromWebsites(guide, catalog) {
   const sourced = new Set((catalog.pois || []).filter(poi => poi.intro || poi.description).map(poi => poi.sourceId));
+  const search = await findMissingWebsites([...guide.places, ...guide.hiddenGems], [guide.city, guide.country].filter(Boolean).join(', '));
   const linked = [...guide.places, ...guide.hiddenGems].filter(stop => stop.website);
-  const stops = linked.filter(stop => ['food_drink', 'shopping'].includes(stop.category) && !sourced.has(stop.sourceId));
+  const stops = linked.filter(stop => ['food_drink', 'shopping'].includes(stop.category)
+    && (!sourced.has(stop.sourceId) || search.found.has(stop.id)));
   const texts = new Map();
   let dead = 0;
   let next = 0;
@@ -64,7 +94,9 @@ export async function describeFromWebsites(guide, catalog) {
       }
     }
   }));
-  if (!texts.size) return { checked: linked.length, rewritten: 0, dead, cost: 0 };
+  const found = [...search.found].filter(id => linked.some(stop => stop.id === id && stop.website)).length;
+  const summary = { checked: linked.length, found, searches: search.searches, dead };
+  if (!texts.size) return { ...summary, rewritten: 0, cost: search.cost };
 
   const items = stops.filter(stop => texts.has(stop.id)).map(stop => ({
     id: stop.id,
@@ -87,10 +119,16 @@ ${JSON.stringify(items)}`, { lightThinking: true });
   let rewritten = 0;
   for (const item of Array.isArray(result.curation.stops) ? result.curation.stops : []) {
     const stop = byId.get(item?.id);
+    if (stop && item.skip && search.found.has(stop.id)) {
+      stop.website = '';
+      stop.officialWebsiteUrl = '';
+      summary.found -= 1;
+      continue;
+    }
     if (!stop || item.skip || !String(item.description || '').trim()) continue;
     stop.subtitle = String(item.subtitle || stop.subtitle).trim();
     stop.description = String(item.description).trim();
     rewritten += 1;
   }
-  return { checked: linked.length, rewritten, dead, cost: result.cost };
+  return { ...summary, rewritten, cost: search.cost + result.cost };
 }
