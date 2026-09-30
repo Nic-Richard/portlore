@@ -41,8 +41,11 @@ async function fetchWebsite(url) {
   }
 }
 
+const SEARCH_SYSTEM = 'You look up official websites with Google Search and answer only with the requested JSON.';
+
 // Restaurants, cafés, and shops without a website get one grounded Gemini search for all of them together. The
-// sites it finds go through the same checks below, and are dropped when their text turns out to be about another place.
+// model often answers well-known places without searching, so a site it gives is only kept when it loads and its
+// own text turns out to be about this place.
 async function findMissingWebsites(stops, place) {
   const missing = stops.filter(stop => ['food_drink', 'shopping'].includes(stop.category) && !stop.website);
   if (!missing.length || curationModel().name !== 'gemini') return { found: new Set(), searches: 0, cost: 0 };
@@ -54,7 +57,7 @@ Return only this JSON:
 {"stops":[{"id":"","website":""}]}
 
 Places:
-${JSON.stringify(missing.map(stop => ({ id: stop.id, name: stop.name, address: stop.address || '', city: place })))}`, { search: true, lightThinking: true });
+${JSON.stringify(missing.map(stop => ({ id: stop.id, name: stop.name, address: stop.address || '', city: place })))}`, { search: true, lightThinking: true, system: SEARCH_SYSTEM });
 
   const byId = new Map(missing.map(stop => [stop.id, stop]));
   const found = new Set();
@@ -94,7 +97,13 @@ export async function describeFromWebsites(guide, catalog) {
       }
     }
   }));
-  const found = [...search.found].filter(id => linked.some(stop => stop.id === id && stop.website)).length;
+  for (const stop of linked) {
+    if (search.found.has(stop.id) && !texts.has(stop.id)) {
+      stop.website = '';
+      stop.officialWebsiteUrl = '';
+    }
+  }
+  const found = [...search.found].filter(id => texts.has(id)).length;
   const summary = { checked: linked.length, found, searches: search.searches, dead };
   if (!texts.size) return { ...summary, rewritten: 0, cost: search.cost };
 

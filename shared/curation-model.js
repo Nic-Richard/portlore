@@ -35,7 +35,7 @@ async function callGemini(provider, apiKey, prompt, options) {
     method: 'POST',
     headers: { 'Content-Type': 'application/json', 'x-goog-api-key': apiKey },
     body: JSON.stringify({
-      systemInstruction: { parts: [{ text: CITY_SYSTEM_PROMPT }] },
+      systemInstruction: { parts: [{ text: options.system || CITY_SYSTEM_PROMPT }] },
       contents: [{ role: 'user', parts: [{ text: prompt }] }],
       ...(options.search ? { tools: [{ google_search: {} }] } : {}),
       generationConfig: {
