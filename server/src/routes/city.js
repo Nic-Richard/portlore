@@ -1,5 +1,6 @@
 import { Router } from 'express';
 import { listGuideIds, readGuide } from '../lib/guides.js';
+import { refreshIfStale } from '../lib/generation.js';
 
 const router = Router();
 
@@ -20,6 +21,7 @@ router.get('/:id', (req, res) => {
   }
 
   res.json(data);
+  refreshIfStale(id, data);
 });
 
 export default router;

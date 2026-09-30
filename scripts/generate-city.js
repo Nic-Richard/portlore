@@ -71,13 +71,13 @@ async function main() {
     catalogMatches: googleMatches,
   });
   const data = { ...buildCityData(portInfo, catalog, resolvedCuration, googleMatches), model: result.model };
-  let websites = { checked: 0, rewritten: 0, parked: 0, cost: 0 };
+  let websites = { checked: 0, rewritten: 0, dead: 0, cost: 0 };
   try {
     websites = await describeFromWebsites(data, catalog);
   } catch (error) {
     console.warn(`Website descriptions failed: ${error.message}`);
   }
-  console.log(`Websites: checked ${websites.checked}, rewrote ${websites.rewritten}, dropped ${websites.parked} parked domains.`);
+  console.log(`Websites: checked ${websites.checked}, rewrote ${websites.rewritten}, dropped ${websites.dead} dead links.`);
 
   const outPath = path.join(ROOT, 'cities', `${portInfo.id}.json`);
   fs.writeFileSync(outPath, JSON.stringify(data, null, 2));

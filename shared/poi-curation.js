@@ -128,6 +128,12 @@ function categoryFromGoogle(match) {
   return '';
 }
 
+// Some listings give a bare domain ("www.example.com"), which a browser would treat as a relative link.
+function websiteUrl(...candidates) {
+  const value = candidates.map(item => cleanString(item)).find(Boolean) || '';
+  return !value || /^https?:\/\//i.test(value) ? value : `https://${value.replace(/^\/+/, '')}`;
+}
+
 function normalizeEditorial(editorial = {}) {
   return {
     subtitle: cleanString(editorial.subtitle),
@@ -150,7 +156,7 @@ function copySuppliedPoi(poi, editorial, googleMatch = null) {
   const generated = normalizeEditorial(editorial);
   const category = categoryFromGoogle(googleMatch) || generated.category || poi.category;
   // Google's website comes from the business listing, so it is fresher than OSM's tag.
-  const officialWebsiteUrl = cleanString(googleMatch?.googleWebsite) || cleanString(poi.website) || generated.officialWebsiteUrl;
+  const officialWebsiteUrl = websiteUrl(googleMatch?.googleWebsite, poi.website, generated.officialWebsiteUrl);
   const hours = cleanString(googleMatch?.googleOpeningHours) || generated.hoursNote || cleanString(poi.openingHours);
   return {
     id: poi.sourceId,
@@ -209,8 +215,8 @@ function copySupplement(poi) {
     lng,
     address: cleanString(poi.address),
     hours: editorial.hoursNote,
-    website: cleanString(poi.googleWebsite) || editorial.officialWebsiteUrl,
-    officialWebsiteUrl: cleanString(poi.googleWebsite) || editorial.officialWebsiteUrl,
+    website: websiteUrl(poi.googleWebsite, editorial.officialWebsiteUrl),
+    officialWebsiteUrl: websiteUrl(poi.googleWebsite, editorial.officialWebsiteUrl),
     phone: '',
     cuisine: [],
     wheelchair: '',

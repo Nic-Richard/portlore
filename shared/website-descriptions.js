@@ -24,42 +24,47 @@ export function isParkedDomain(text) {
   return PARKED.test(text);
 }
 
-async function fetchWebsiteText(url) {
+// Only failures that mean the site is gone count as dead. Many sites, like Facebook, refuse automated requests
+// with 400 or 403 but work in a browser, and a timeout may just be a slow server.
+async function fetchWebsite(url) {
   try {
     const response = await fetch(url, {
       headers: { 'User-Agent': 'Mozilla/5.0 (compatible; Portlore/1.0; +https://portlore.com)' },
       signal: AbortSignal.timeout(FETCH_TIMEOUT_MS),
     });
-    if (!response.ok || !/html/i.test(response.headers.get('content-type') || '')) return null;
-    return websiteText((await response.text()).slice(0, 300000));
-  } catch {
-    return null;
+    if ([404, 410].includes(response.status)) return { dead: true };
+    if (!response.ok || !/html/i.test(response.headers.get('content-type') || '')) return {};
+    const text = websiteText((await response.text()).slice(0, 300000));
+    return isParkedDomain(text) ? { dead: true } : { text };
+  } catch (error) {
+    return { dead: error.cause?.code === 'ENOTFOUND' };
   }
 }
 
-// Restaurants, cafés, and shops the shortlist had no facts about are rewritten from their own website, so details
-// like a menu are real. Sights keep their first description, since their sites rarely say what makes them worth a visit.
+// Every stop's website is checked, and links to sites that are gone are dropped. Restaurants, cafés, and shops the
+// shortlist had no facts about are then rewritten from their own website, so details like a menu are real. Sights
+// keep their first description, since their sites rarely say what makes them worth a visit.
 export async function describeFromWebsites(guide, catalog) {
   const sourced = new Set((catalog.pois || []).filter(poi => poi.intro || poi.description).map(poi => poi.sourceId));
-  const stops = [...guide.places, ...guide.hiddenGems]
-    .filter(stop => stop.website && ['food_drink', 'shopping'].includes(stop.category) && !sourced.has(stop.sourceId));
+  const linked = [...guide.places, ...guide.hiddenGems].filter(stop => stop.website);
+  const stops = linked.filter(stop => ['food_drink', 'shopping'].includes(stop.category) && !sourced.has(stop.sourceId));
   const texts = new Map();
-  let parked = 0;
+  let dead = 0;
   let next = 0;
   await Promise.all(Array.from({ length: CONCURRENCY }, async () => {
-    while (next < stops.length) {
-      const stop = stops[next++];
-      const text = await fetchWebsiteText(stop.website);
-      if (text && isParkedDomain(text)) {
+    while (next < linked.length) {
+      const stop = linked[next++];
+      const site = await fetchWebsite(stop.website);
+      if (site.dead) {
         stop.website = '';
         stop.officialWebsiteUrl = '';
-        parked += 1;
-      } else if (text && text.length > 80) {
-        texts.set(stop.id, text);
+        dead += 1;
+      } else if (site.text && site.text.length > 80 && stops.includes(stop)) {
+        texts.set(stop.id, site.text);
       }
     }
   }));
-  if (!texts.size) return { checked: stops.length, rewritten: 0, parked, cost: 0 };
+  if (!texts.size) return { checked: linked.length, rewritten: 0, dead, cost: 0 };
 
   const items = stops.filter(stop => texts.has(stop.id)).map(stop => ({
     id: stop.id,
@@ -87,5 +92,5 @@ ${JSON.stringify(items)}`, { lightThinking: true });
     stop.description = String(item.description).trim();
     rewritten += 1;
   }
-  return { checked: stops.length, rewritten, parked, cost: result.cost };
+  return { checked: linked.length, rewritten, dead, cost: result.cost };
 }

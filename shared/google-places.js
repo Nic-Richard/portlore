@@ -318,6 +318,21 @@ export async function resolveCatalogGooglePlaces(portInfo, catalog, options = {}
   return { pois, terminals };
 }
 
+const BUSINESS_TYPES = /(restaurant|cafe|coffee|bakery|bar|pub|brewery|winery|food|store|shop|market|deli|ice_cream|dessert|meal|confectionery|tea_house)/;
+const BUSINESS_MATCH_MAX_METRES = 250;
+
+// A café or shop named like a nearby landmark or a similar business ("Gregory's" and Gregory's Arch) can match
+// the wrong Google place. Restaurants and shops are pinned accurately in OpenStreetMap, so a match that moves
+// one far away, or that Google doesn't list as any kind of business, is a different place.
+export function isWrongBusinessMatch(poi, match) {
+  if (!['food_drink', 'shopping'].includes(poi?.category) || !match?.googleLocation) return false;
+  const lat = Number(poi.lat);
+  const lng = Number(poi.lng);
+  if (Number.isFinite(lat) && Number.isFinite(lng) && haversineMeters({ lat, lng }, match.googleLocation) > BUSINESS_MATCH_MAX_METRES) return true;
+  const types = [match.googlePrimaryType, ...(match.googleTypes || [])].filter(Boolean);
+  return types.length > 0 && !types.some(type => BUSINESS_TYPES.test(type));
+}
+
 export async function resolveCurationGooglePlaces(portInfo, catalog, curation, options = {}) {
   const result = structuredClone(curation || {});
   const apiKey = cleanString(options.apiKey);
@@ -325,6 +340,7 @@ export async function resolveCurationGooglePlaces(portInfo, catalog, curation, o
   const cache = loadCache(options.cachePath);
   const reference = portReference(portInfo, catalog);
   const catalogMatches = options.catalogMatches || { pois: {} };
+  const poisById = new Map((catalog.pois || []).map(poi => [cleanString(poi.sourceId), poi]));
 
   const selectedIds = new Set([
     ...(Array.isArray(result.places) ? result.places : []),
@@ -337,10 +353,13 @@ export async function resolveCurationGooglePlaces(portInfo, catalog, curation, o
     try {
       const details = await placeDetails(match.googlePlaceId, apiKey);
       if (!details) return;
-      catalogMatches.pois[sourceId] = {
-        ...match,
-        ...publicMatch(details, Number(match.googleMatchScore) || 100, match.googleQuery || ''),
-      };
+      const detailed = { ...match, ...publicMatch(details, Number(match.googleMatchScore) || 100, match.googleQuery || '') };
+      if (isWrongBusinessMatch(poisById.get(sourceId), detailed)) {
+        console.warn(`Ignoring Google match for ${sourceId}: ${detailed.googleDisplayName} is a different place`);
+        delete catalogMatches.pois[sourceId];
+        return;
+      }
+      catalogMatches.pois[sourceId] = detailed;
     } catch (error) {
       console.warn(`Google Place Details failed for ${sourceId}: ${error.message}`);
     }

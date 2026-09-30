@@ -7,6 +7,8 @@ import { selectCurationCandidates } from '../shared/poi-selection.js';
 import { buildCityData } from '../shared/poi-curation.js';
 import { renderPortPage } from '../server/src/lib/port-page.js';
 import { isParkedDomain, websiteText } from '../shared/website-descriptions.js';
+import { isWrongBusinessMatch } from '../shared/google-places.js';
+import { isStale } from '../server/src/lib/generation.js';
 
 const tests = [];
 
@@ -146,6 +148,30 @@ test('website text keeps the page summary and drops scripts, and parked domains 
   assert.ok(!text.includes('track()') && !text.includes('Menu'));
   assert.ok(isParkedDomain('This domain may be for sale. Terms of Service'));
   assert.ok(!isParkedDomain(text));
+});
+
+test('a café is not matched to a landmark or a similar business far away', () => {
+  const cafe = { category: 'food_drink', lat: 25.0775, lng: -77.3420 };
+  const arch = { googleLocation: { lat: 25.0756, lng: -77.3436 }, googlePrimaryType: 'historical_landmark', googleTypes: ['tourist_attraction'] };
+  const sameCafe = { googleLocation: { lat: 25.0776, lng: -77.3421 }, googlePrimaryType: 'cafe', googleTypes: ['cafe', 'food'] };
+  const otherRestaurant = { googleLocation: { lat: 25.0880, lng: -77.3420 }, googlePrimaryType: 'restaurant', googleTypes: ['restaurant'] };
+  assert.strictEqual(isWrongBusinessMatch(cafe, arch), true);
+  assert.strictEqual(isWrongBusinessMatch(cafe, otherRestaurant), true);
+  assert.strictEqual(isWrongBusinessMatch(cafe, sameCafe), false);
+  assert.strictEqual(isWrongBusinessMatch({ category: 'attraction', lat: 25.0775, lng: -77.3420 }, otherRestaurant), false);
+});
+
+test('bare website domains get https', () => {
+  const pois = [{ sourceId: 'osm/web1', name: 'Seven Arches Museum', category: 'attraction', lat: 44.64, lng: -63.57, website: 'www.sevenarchesmuseum.com' }];
+  const data = buildCityData(portInfo, { ...guideCatalog, pois }, { places: [{ sourceId: 'osm/web1' }] }, {});
+  assert.strictEqual(data.places[0].website, 'https://www.sevenarchesmuseum.com');
+});
+
+test('guides go stale after the maximum age', () => {
+  const daysAgo = days => new Date(Date.now() - days * 24 * 60 * 60 * 1000).toISOString();
+  assert.strictEqual(isStale({ generatedAt: daysAgo(10) }), false);
+  assert.strictEqual(isStale({ generatedAt: daysAgo(200) }), true);
+  assert.strictEqual(isStale({}), true);
 });
 
 test('port pages are indexed only when the port has a guide', () => {
