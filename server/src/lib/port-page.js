@@ -21,6 +21,18 @@ export function renderPortPage({ port, guide, photo, nearby = [] }) {
     ? `Where ships dock in ${port.city} and what's worth seeing, sorted by walking time from ${gateway ? originName : 'the terminal'}, with hidden gems and a planner for your day ashore.`
     : `Where cruise ships dock in ${port.city}, ${port.country}, and a planner for your day ashore.`;
 
+  const image = photo?.url || `${SITE}/og-image.png`;
+  // Escaped so a place name can't close the script tag early.
+  const jsonLd = JSON.stringify({
+    '@context': 'https://schema.org',
+    '@type': 'TouristDestination',
+    name: gateway ? port.guideCentre : name,
+    description,
+    url,
+    geo: { '@type': 'GeoCoordinates', latitude: Number(origin.lat), longitude: Number(origin.lng) },
+    containedInPlace: { '@type': 'Country', name: port.country },
+  }).replace(/</g, '\\u003c');
+
   const withWalk = list => list.map(place => ({ place, minutes: Math.max(1, Math.round(metres(origin, place) / 80)) })).sort((a, b) => a.minutes - b.minutes);
   const gemIds = new Set((guide?.hiddenGems || []).map(gem => gem.id));
   const stops = guide ? withWalk(guide.places.filter(p => !gemIds.has(p.id))) : [];
@@ -47,7 +59,10 @@ export function renderPortPage({ port, guide, photo, nearby = [] }) {
 <title>${esc(title)}</title>
 <meta name="description" content="${esc(description)}">
 ${guide ? `<link rel="canonical" href="${url}">` : '<meta name="robots" content="noindex">'}
-<meta property="og:title" content="${esc(`${port.city} cruise port guide`)}"><meta property="og:description" content="${esc(description)}"><meta property="og:url" content="${url}">${photo ? `<meta property="og:image" content="${esc(photo.url)}">` : ''}
+<meta property="og:type" content="website"><meta property="og:site_name" content="Portlore"><meta property="og:title" content="${esc(`${port.city} cruise port guide`)}"><meta property="og:description" content="${esc(description)}"><meta property="og:url" content="${url}"><meta property="og:image" content="${esc(image)}">
+<meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="${esc(`${port.city} cruise port guide`)}"><meta name="twitter:description" content="${esc(description)}"><meta name="twitter:image" content="${esc(image)}">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml"><link rel="icon" href="/favicon.ico" sizes="32x32"><link rel="apple-touch-icon" href="/apple-touch-icon.png">
+${guide ? `<script type="application/ld+json">${jsonLd}</script>` : ''}
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600&display=swap" rel="stylesheet">
 <style>

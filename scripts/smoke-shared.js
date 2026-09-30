@@ -174,6 +174,15 @@ test('guides go stale after the maximum age', () => {
   assert.strictEqual(isStale({}), true);
 });
 
+test('port page structured data cannot close its script tag', () => {
+  const port = { id: 'x', city: 'Odd</script> Port', country: 'Canada', terminal: 'T', lat: 44.6, lng: -63.5 };
+  const guide = { terminals: [{ name: 'T', lat: 44.6, lng: -63.5 }], places: [{ id: 'a', name: 'A', lat: 44.6, lng: -63.5 }], hiddenGems: [] };
+  const html = renderPortPage({ port, guide });
+  const data = html.match(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/)[1];
+  assert.ok(!data.includes('</script'));
+  assert.strictEqual(JSON.parse(data).name, 'Odd</script> Port');
+});
+
 test('port pages are indexed only when the port has a guide', () => {
   const port = { id: 'halifax-canada', city: 'Halifax', country: 'Canada', terminal: 'Seaport Cruise Pavilion', lat: 44.638, lng: -63.565 };
   const guide = { terminals: [{ name: 'Seaport Cruise Pavilion', lat: 44.638, lng: -63.565 }], places: [{ id: 'a', name: 'Pier 21 <Museum>', lat: 44.637, lng: -63.566 }], hiddenGems: [] };
