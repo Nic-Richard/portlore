@@ -28,6 +28,7 @@
   --text:    #0f2340;
   --r:       3px;
   --r-lg:    4px;
+  --w-hero-h: 40vh;
   --r-btn:   6px;
   --r-panel: 8px;
   --panel:   radial-gradient(80% 110% at 0% 0%, rgba(220,198,144,.34) 0%, transparent 60%), linear-gradient(110deg, var(--blue) 0%, var(--navy) 72%);
@@ -47,7 +48,7 @@ body { font-family: var(--sans); background: var(--sand); color: var(--text); mi
   background: var(--sand);
 }
 .w-photo {
-  position: absolute; inset: 0 0 auto; height: 52vh;
+  position: absolute; inset: 0 0 auto; height: var(--w-hero-h);
   background-size: cover;
   background-position: center;
   transition: opacity 0.8s ease;
@@ -55,11 +56,11 @@ body { font-family: var(--sans); background: var(--sand); color: var(--text); mi
 }
 .w-photo.loaded { opacity: 1; }
 .w-photo-fallback {
-  position: absolute; inset: 0 0 auto; height: 52vh;
+  position: absolute; inset: 0 0 auto; height: var(--w-hero-h);
   background: var(--panel);
 }
 .w-overlay-top {
-  position: absolute; inset: 0 0 auto; height: 52vh;
+  position: absolute; inset: 0 0 auto; height: var(--w-hero-h);
   background: linear-gradient(180deg, rgba(15,35,64,0.65) 0%, rgba(15,35,64,0.05) 35%, rgba(15,35,64,0.85) 100%);
   z-index: 1;
 }
@@ -81,7 +82,7 @@ body { font-family: var(--sans); background: var(--sand); color: var(--text); mi
   flex-direction: column;
   justify-content: flex-end;
   padding: 0 1.4rem 1.6rem;
-  min-height: calc(52vh - 3.2rem);
+  min-height: calc(var(--w-hero-h) - 3.2rem);
   color: #fff;
 }
 .w-eyebrow {
@@ -104,6 +105,11 @@ body { font-family: var(--sans); background: var(--sand); color: var(--text); mi
   color: rgba(255,255,255,0.88);
   max-width: 42ch;
   line-height: 1.5;
+}
+@media (max-width: 899px) and (max-height: 700px) {
+  :root { --w-hero-h: 30vh; }
+  .w-city { font-size: 2.3rem; }
+  .w-tagline { display: none; }
 }
 .w-photo-credit {
   font-size: 0.62rem;
@@ -625,7 +631,7 @@ body { font-family: var(--sans); background: var(--sand); color: var(--text); mi
   border: 0; background: none; padding: 0 1.1rem 0 0; max-width: 100%;
   font: 600 0.8rem var(--sans); color: var(--navy);
   text-decoration: underline; text-underline-offset: 3px; text-decoration-color: var(--blue-m);
-  cursor: pointer;
+  cursor: pointer; text-overflow: ellipsis; overflow: hidden; white-space: nowrap;
 }
 .deals-empty {
   background: var(--card); border-radius: var(--r);

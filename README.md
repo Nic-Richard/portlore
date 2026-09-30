@@ -96,7 +96,7 @@ Requirements:
 
 - Node.js 20 or newer
 - Gemini API key (or an Anthropic API key, with `CITY_MODEL_PROVIDER=anthropic`)
-- Google Maps Platform key with Places and Routes access
+- Google Maps Platform key with Places access
 - Pexels API key
 
 Create the local environment file:
