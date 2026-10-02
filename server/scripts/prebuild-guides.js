@@ -1,8 +1,9 @@
 #!/usr/bin/env node
 
 // Builds guides for ports that have none, best-known ports first, and stops before a month's Google search
-// budget runs out. --first lists ports to build before the rest. Run on the server:
-//   node server/scripts/prebuild-guides.js --budget 4500 [--limit 20] [--first id,id] [--dry-run]
+// budget runs out. --first lists ports to build before the rest; --rebuild builds only the listed ports, even
+// those with a guide (the old guide stays if a build fails). Run on the server:
+//   node server/scripts/prebuild-guides.js --budget 4500 [--limit 20] [--first id,id | --rebuild id,id] [--dry-run]
 
 import fs from 'fs';
 import path from 'path';
@@ -18,14 +19,16 @@ const args = process.argv.slice(2);
 const option = name => (args.includes(name) ? args[args.indexOf(name) + 1] : undefined);
 const budget = Number(option('--budget'));
 const limit = Number(option('--limit') || Infinity);
-const first = (option('--first') || '').split(',').map(id => id.trim()).filter(Boolean);
+const list = name => (option(name) || '').split(',').map(id => id.trim()).filter(Boolean);
+const first = list('--first');
+const rebuild = list('--rebuild');
 if (!(budget > 0)) {
-  console.error('Usage: node server/scripts/prebuild-guides.js --budget <Google searches this month> [--limit <guides>] [--first id,id] [--dry-run]');
+  console.error('Usage: node server/scripts/prebuild-guides.js --budget <Google searches this month> [--limit <guides>] [--first id,id | --rebuild id,id] [--dry-run]');
   process.exit(1);
 }
-const unknown = first.filter(id => !readPorts().some(port => port.id === id));
+const unknown = [...first, ...rebuild].filter(id => !readPorts().some(port => port.id === id));
 if (unknown.length) {
-  console.error(`Unknown port IDs in --first: ${unknown.join(', ')}`);
+  console.error(`Unknown port IDs: ${unknown.join(', ')}`);
   process.exit(1);
 }
 
@@ -42,7 +45,7 @@ try {
 const guidePath = id => path.join(CITIES_DIR, `${id}.json`);
 const fame = catalog => (catalog.pois || []).reduce((sum, poi) => sum + (Number(poi.fame) || 0), 0);
 const queue = readPorts()
-  .filter(port => !fs.existsSync(guidePath(port.id)))
+  .filter(port => (rebuild.length ? rebuild.includes(port.id) : !fs.existsSync(guidePath(port.id))))
   .map(port => ({ port, catalog: readCatalog(port.id) }))
   .filter(item => item.catalog)
   .sort((a, b) => fame(b.catalog) - fame(a.catalog));
@@ -50,7 +53,7 @@ const queue = readPorts()
 const rank = id => (first.includes(id) ? first.indexOf(id) : first.length);
 queue.sort((a, b) => rank(a.port.id) - rank(b.port.id));
 
-console.log(`${queue.length} ports without a guide. ${used} of ${budget} Google searches used this month.`);
+console.log(`${queue.length} ports to build. ${used} of ${budget} Google searches used this month.`);
 if (args.includes('--dry-run')) {
   queue.slice(0, 25).forEach(({ port, catalog }, index) => console.log(`${index + 1}. ${port.id} (fame ${fame(catalog)})`));
   process.exit(0);
@@ -60,7 +63,7 @@ let built = 0;
 for (const { port, catalog } of queue) {
   if (built >= limit || used + SEARCHES_PER_GUIDE_MAX > budget) break;
   const before = googleSearchCount();
-  await buildGuide(port.id, port, catalog);
+  await buildGuide(port.id, port, catalog, { patient: true });
   used += googleSearchCount() - before;
   fs.writeFileSync(usagePath, JSON.stringify({ month, searches: used }, null, 2));
 

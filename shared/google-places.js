@@ -415,9 +415,11 @@ async function nominatimNear(name, near) {
 // A guide build waits on this, so it tries Overpass once; a one-off cleanup can afford to retry.
 export async function osmPlaceNear(name, near, { patient = false } = {}) {
   const found = await nominatimNear(name, near).catch(() => null);
+  // A visitor is waiting on a live build, so it only tries the second server once; batch builds can wait out
+  // a busy Overpass.
   return found || overpassNear(name, near, patient
     ? { retries: OVERPASS_RETRY_MS.length, timeoutMs: 20000 }
-    : { retries: 0, timeoutMs: 10000 });
+    : { retries: 1, timeoutMs: 10000 });
 }
 
 // The named OpenStreetMap feature near where Google found a place, so a stop the model added is pinned
@@ -507,7 +509,7 @@ export async function resolveCurationGooglePlaces(portInfo, catalog, curation, o
     }
     let place = null;
     try {
-      place = await osmPlaceNear(request.name, match.googleLocation);
+      place = await osmPlaceNear(request.name, match.googleLocation, { patient: options.patient });
     } catch (error) {
       console.warn(`OpenStreetMap lookup failed for ${request.name}: ${error.message}`);
     }

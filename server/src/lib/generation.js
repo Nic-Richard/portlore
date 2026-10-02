@@ -72,11 +72,12 @@ export function isStale(guide) {
 }
 
 // Builds a guide and writes it only once it is complete, so a failed rebuild leaves the old guide in place.
-export async function buildGuide(id, portInfo, catalog) {
+export async function buildGuide(id, portInfo, catalog, { patient = false } = {}) {
   try {
     const { data, model, websites, googleSearches } = await buildGuideData(portInfo, catalog, {
       apiKey: process.env.GOOGLE_MAPS_API_KEY,
       cachePath: path.join(CITIES_DIR, '.google-place-id-cache.json'),
+      patient,
     });
     logger.info(`Generated ${id}: model=${model.model}, stop_reason=${model.stopReason}, attempts=${model.attempts}, input_tokens=${model.inputTokens}, output_tokens=${model.outputTokens}, google_searches=${googleSearches}, est_cost=$${model.cost.toFixed(4)}`);
     if (websites.error) logger.warn(`Website descriptions failed for ${id}: ${websites.error}`);

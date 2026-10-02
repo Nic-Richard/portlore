@@ -11,7 +11,7 @@ function needsOpenCheck(poi) {
     && !['marketplace', 'mall'].includes(poi.subcategory);
 }
 
-export async function buildGuideData(portInfo, catalog, { apiKey, cachePath }) {
+export async function buildGuideData(portInfo, catalog, { apiKey, cachePath, patient = false }) {
   const searchesBefore = googleSearchCount();
   const model = await curateCity(buildCityCurationPrompt(portInfo, catalog));
   const curation = model.curation;
@@ -40,8 +40,10 @@ export async function buildGuideData(portInfo, catalog, { apiKey, cachePath }) {
     apiKey,
     cachePath,
     catalogMatches: googleMatches,
+    patient,
   });
   const data = { ...buildCityData(portInfo, catalog, resolvedCuration, googleMatches), model: model.model };
+  if (!data.places.length) throw new Error('None of the stops the model picked are in the catalog');
 
   let websites = { checked: 0, found: 0, searches: 0, rewritten: 0, dead: 0, cost: 0 };
   try {
