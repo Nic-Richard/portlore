@@ -66,7 +66,7 @@ export function claimGeneration(id) {
 }
 
 export function isStale(guide) {
-  const maxAgeMs = getLimit('GUIDE_MAX_AGE_DAYS', 120) * DAY_MS;
+  const maxAgeMs = getLimit('GUIDE_MAX_AGE_DAYS', 182) * DAY_MS;
   const generatedAt = Date.parse(guide?.generatedAt || '');
   return !Number.isFinite(generatedAt) || Date.now() - generatedAt > maxAgeMs;
 }
