@@ -1,0 +1,22 @@
+{
+  "name": "portlore-mobile",
+  "version": "1.0.0",
+  "scripts": {
+    "build:web": "node build-web.mjs",
+    "sync": "node build-web.mjs && cap sync android",
+    "open": "cap open android"
+  },
+  "type": "module",
+  "dependencies": {
+    "@capacitor/android": "^8.5.2",
+    "@capacitor/app": "^8.1.1",
+    "@capacitor/core": "^8.5.2",
+    "@capacitor/local-notifications": "^8.3.1",
+    "@capacitor/splash-screen": "^8.0.2"
+  },
+  "devDependencies": {
+    "@capacitor/assets": "^3.0.5",
+    "@capacitor/cli": "^8.5.2"
+  },
+  "private": true
+}

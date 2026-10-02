@@ -36,6 +36,8 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/leaflet.markercluster.js" integrity="sha384-eXVCORTRlv4FUUgS/xmOyr66XBVraen8ATNLMESp92FKXLAMiKkerixTiBvXriZr" crossorigin="anonymous"></script>
 <style>
 :root {
+  /* The Android app draws under the status bar; Capacitor supplies the inset, and it is 0 on the website. */
+  --inset-top: var(--safe-area-inset-top, env(safe-area-inset-top, 0px));
   --navy:    #0f2340;
   --blue:    #4a7299;
   --blue-l:  #eef2f7;
@@ -93,7 +95,7 @@ body { font-family: var(--sans); background: var(--sand); color: var(--text); mi
   min-height: 100vh;
 }
 .w-wordmark {
-  padding: 1.4rem 1.4rem 0;
+  padding: calc(1.4rem + var(--inset-top)) 1.4rem 0;
   font-size: 1.05rem;
   font-weight: 600;
   letter-spacing: 0.02em;
@@ -328,7 +330,7 @@ body { font-family: var(--sans); background: var(--sand); color: var(--text); mi
 @keyframes spin { to { transform: rotate(360deg); } }
 .port-map-overlay {
   position: fixed; inset: 0; z-index: 600; display: none;
-  background: var(--sand); flex-direction: column;
+  background: var(--sand); flex-direction: column; padding-top: var(--inset-top);
 }
 .port-map-overlay.open { display: flex; }
 .port-map-head {
@@ -380,7 +382,7 @@ body { font-family: var(--sans); background: var(--sand); color: var(--text); mi
 
 .w-go:disabled { opacity: 0.45; cursor: default; box-shadow: none; }
 
-#page-generating { min-height: 100vh; padding: 2rem 1.5rem; background: var(--panel); align-items: center; justify-content: center; }
+#page-generating { min-height: 100vh; padding: calc(2rem + var(--inset-top)) 1.5rem 2rem; background: var(--panel); align-items: center; justify-content: center; }
 #page-explore { flex-direction: row; min-height: 100vh; }
 
 .app-col {
@@ -447,7 +449,7 @@ body { font-family: var(--sans); background: var(--sand); color: var(--text); mi
   position: sticky; top: 0; z-index: 50; flex-shrink: 0;
   background: var(--card);
   border-bottom: 1px solid var(--border);
-  padding: 18px 20px 14px;
+  padding: calc(18px + var(--inset-top)) 20px 14px;
 }
 .topbar-row { display: flex; align-items: flex-end; justify-content: space-between; gap: 0.9rem; }
 .topbar-left { min-width: 0; }
@@ -911,7 +913,7 @@ html.detail-open, body.detail-open { overflow: hidden !important; overscroll-beh
         <p><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.5 2"/></svg><span><b>A day that fits</b> before all aboard</span></p>
         <p><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M6 3h12l4 6-10 13L2 9Z"/><path d="M11 3 8 9l4 13 4-13-3-6"/><path d="M2 9h20"/></svg><span><b>Hidden gems</b> most passengers miss</span></p>
       </div>
-      <div class="w-legal"><a href="/privacy">Privacy</a> and <a href="/terms">terms</a></div>
+      <div class="w-legal"><a href="https://portlore.com/privacy" target="_blank" rel="noopener">Privacy</a> and <a href="https://portlore.com/terms" target="_blank" rel="noopener">terms</a></div>
     </div>
   </div>
 </div>
@@ -1105,6 +1107,13 @@ html.detail-open, body.detail-open { overflow: hidden !important; overscroll-beh
 <div class="toast" id="toast"></div>
 
 <script>
+// Inside the Android app the page is served from the phone, so API calls go to portlore.com, and native
+// plugins are reached through the Capacitor bridge.
+const NATIVE_APP = !!window.Capacitor?.isNativePlatform?.();
+const API_ORIGIN = NATIVE_APP ? 'https://portlore.com' : '';
+const nativePlugin = name => (NATIVE_APP ? window.Capacitor.Plugins?.[name] || null : null);
+</script>
+<script>
 const ICON_MAP = {
   market: '🛒', museum: '🏛️', gallery: '🎨', park: '🌿', garden: '🌿',
   waterfall: '💧', water: '💧', rapids: '💧', harbour: '🌊', beach: '🏖️',
@@ -1251,6 +1260,25 @@ const IS_EXPLORE = PATH === '/explore';
 function showPage(id) {
   document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
   document.getElementById(id).classList.add('active');
+  syncSystemBars();
+}
+// Newer Android WebViews draw the page under the status bar, so the icons follow the page; older ones keep a
+// navy band above it, where the icons always stay light.
+function drawsUnderStatusBar() {
+  const probe = document.createElement('div');
+  probe.style.cssText = 'position:absolute;visibility:hidden;height:var(--inset-top)';
+  document.body.appendChild(probe);
+  const height = probe.getBoundingClientRect().height;
+  probe.remove();
+  return height > 0;
+}
+function syncSystemBars() {
+  const bars = nativePlugin('SystemBars');
+  if (!bars) return;
+  const darkTop = !drawsUnderStatusBar()
+    || (document.getElementById('page-welcome').classList.contains('active')
+      && !document.getElementById('port-map-overlay').classList.contains('open'));
+  bars.setStyle({ style: darkTop ? 'DARK' : 'LIGHT' }).catch(() => {});
 }
 function resetGoButton() {
   const btn = document.getElementById('goBtn');
@@ -1310,12 +1338,27 @@ let exploreBooted=false;
 let ports=[], selectedPort=null;
 
 const isDesktop = () => window.innerWidth >= 900;
+// Ports and the last few guides opened are kept on the device, so a passenger ashore without data still
+// has them.
+const SAVED_GUIDE_LIMIT = 10;
+function readSaved(key) {
+  try { return JSON.parse(localStorage.getItem(key) || 'null'); } catch { return null; }
+}
+function saveGuide(portId, guide) {
+  try {
+    const ids = (readSaved('portlore-saved-guides') || []).filter(id => id !== portId);
+    ids.unshift(portId);
+    for (const old of ids.splice(SAVED_GUIDE_LIMIT)) localStorage.removeItem(`portlore-guide:${old}`);
+    localStorage.setItem(`portlore-guide:${portId}`, JSON.stringify(guide));
+    localStorage.setItem('portlore-saved-guides', JSON.stringify(ids));
+  } catch {}
+}
 async function init() {
   try {
-    const r = await fetch('/ports.json', { cache: 'no-store' });
+    const r = await fetch(API_ORIGIN+'/ports.json', { cache: 'no-store' });
     if (r.ok) ports = await r.json();
 
-    const generatedResponse = await fetch('/api/city', { cache: 'no-store' });
+    const generatedResponse = await fetch(API_ORIGIN+'/api/city', { cache: 'no-store' });
     if (generatedResponse.ok) {
       const { generatedIds = [] } = await generatedResponse.json();
       const generatedSet = new Set(generatedIds);
@@ -1323,7 +1366,13 @@ async function init() {
         if (generatedSet.has(port.id)) port.generated = true;
       });
     }
+    if (ports.length) localStorage.setItem('portlore-ports', JSON.stringify(ports));
   } catch {}
+  if (!ports.length) {
+    const saved = readSaved('portlore-ports');
+    const savedGuides = new Set(readSaved('portlore-saved-guides') || []);
+    if (Array.isArray(saved)) ports = saved.map(port => ({ ...port, generated: port.generated || savedGuides.has(port.id) }));
+  }
   fetchGenericPhoto();
 
   const presetPort = !IS_EXPLORE && ports.find(p => p.id === new URLSearchParams(window.location.search).get('port'));
@@ -1378,7 +1427,7 @@ async function fetchGenericPhoto() {
 
 async function fetchPortPhoto(port) {
   try {
-    const r = await fetch(`/api/city/${port.id}`);
+    const r = await fetch(`${API_ORIGIN}/api/city/${port.id}`);
     if (!r.ok) return;
     const data = await r.json();
     if (data.photo_query) {
@@ -1389,7 +1438,7 @@ async function fetchPortPhoto(port) {
 
 async function fetchPhotoByQuery(query, bgPosition) {
   try {
-    const r = await fetch(`/api/photo?q=${encodeURIComponent(query)}`);
+    const r = await fetch(`${API_ORIGIN}/api/photo?q=${encodeURIComponent(query)}`);
     if (!r.ok) return;
 
     const data = await r.json();
@@ -1631,16 +1680,25 @@ function refreshMapsForResolvedTerminals() {
 
 async function loadCity(portId) {
   try {
-    const r = await fetch(`/api/city/${portId}`);
+    const r = await fetch(`${API_ORIGIN}/api/city/${portId}`);
     if (r.ok) {
       city = await r.json();
+      saveGuide(portId, city);
       resolvePortTerminals(portId);
       return true;
     }
     if (r.status === 404) return false;
-  } catch {}
+  } catch {
+    const saved = readSaved(`portlore-guide:${portId}`);
+    if (saved) {
+      city = saved;
+      resolvePortTerminals(portId);
+      showToast('Offline. Showing your saved guide.');
+      return true;
+    }
+  }
   try {
-    const r = await fetch(`/cities/${portId}.json`);
+    const r = await fetch(`${API_ORIGIN}/cities/${portId}.json`);
     if (r.ok) {
       city = await r.json();
       resolvePortTerminals(portId);
@@ -1683,7 +1741,7 @@ async function generateCity(port) {
   }, 1000);
 
   try {
-    const startResponse = await fetch(`/api/generate/${port.id}`, { method: 'POST' });
+    const startResponse = await fetch(`${API_ORIGIN}/api/generate/${port.id}`, { method: 'POST' });
     const startData = await startResponse.json().catch(() => ({}));
 
     if (!startResponse.ok) {
@@ -1695,7 +1753,7 @@ async function generateCity(port) {
     const maxAttempts = 150;
     while (!ready && attempts < maxAttempts) {
       await new Promise(r => setTimeout(r, 2000));
-      const r = await fetch(`/api/generate/${port.id}/status`);
+      const r = await fetch(`${API_ORIGIN}/api/generate/${port.id}/status`);
       const data = await r.json();
       if (data.status === 'failed') throw new Error(data.error);
       ready = data.status === 'ready';
@@ -1754,7 +1812,7 @@ async function fetchCityPhoto() {
   if (!query) return;
 
   try {
-    const r = await fetch(`/api/photo?q=${encodeURIComponent(query)}`);
+    const r = await fetch(`${API_ORIGIN}/api/photo?q=${encodeURIComponent(query)}`);
     if (!r.ok) return;
     const data = await r.json();
     const photos = data.photos;
@@ -2044,7 +2102,7 @@ async function calculateItineraryRoute() {
   const origin = city.centre || city.port;
   const points = [origin, ...places, origin].map(p => ({ lat: Number(p.lat), lng: Number(p.lng) }));
   try {
-    const response = await fetch('/api/route', { method:'POST', headers:{'Content-Type':'application/json'}, body:JSON.stringify({ points }) });
+    const response = await fetch(API_ORIGIN+'/api/route', { method:'POST', headers:{'Content-Type':'application/json'}, body:JSON.stringify({ points }) });
     const data = await response.json();
     if (token !== itineraryRouteToken) return;
     itineraryRoute = response.ok ? data : null;
@@ -2415,6 +2473,7 @@ function openHomePortMap() {
   const overlay = document.getElementById('port-map-overlay');
   overlay.classList.add('open');
   overlay.setAttribute('aria-hidden', 'false');
+  syncSystemBars();
   if (!homeMapReady) initHomePortMap();
   setTimeout(() => homeMap?.invalidateSize(), 80);
 }
@@ -2422,6 +2481,7 @@ function closeHomePortMap() {
   const overlay = document.getElementById('port-map-overlay');
   overlay.classList.remove('open');
   overlay.setAttribute('aria-hidden', 'true');
+  syncSystemBars();
 }
 function initHomePortMap() {
   if (homeMapReady || !ports.length) return;
@@ -2548,7 +2608,7 @@ async function runNearbySearch(kind) {
   if (query.length < 2 || !city?.port) return;
   status.textContent = 'Searching near the selected terminal...';
   try {
-    const response = await fetch(`/api/nearby?q=${encodeURIComponent(query)}&lat=${city.port.lat}&lng=${city.port.lng}`);
+    const response = await fetch(`${API_ORIGIN}/api/nearby?q=${encodeURIComponent(query)}&lat=${city.port.lat}&lng=${city.port.lng}`);
     const data = await response.json();
     if (!response.ok) throw new Error(data.error || 'Search failed');
     searchedPlaces = data.results.map(place => ({ ...place, subtitle:defaultSearchMeta(place), description:place.address, icon:'📍', goodFor:['found nearby'], suggestedVisitMinutes:defaultVisitMinutes(place) }));
@@ -2898,7 +2958,7 @@ function renderSailReminder(){
   if(status){status.textContent=enabled?formatReminderTime(mins):'Off';status.classList.toggle('on',enabled);}
   if(sub){
     if(!enabled)sub.textContent='Choose when to be alerted before departure';
-    else if('Notification' in window&&Notification.permission==='denied')sub.textContent='In-app alert only · browser notifications blocked';
+    else if(!NATIVE_APP&&'Notification' in window&&Notification.permission==='denied')sub.textContent='In-app alert only · browser notifications blocked';
     else sub.textContent=`Alert set for ${formatReminderTime(mins)} before departure`;
   }
 }
@@ -2976,7 +3036,7 @@ async function saveSailReminder(){
   if(!key||!minsKey)return;
   const mins=reminderPickerHours*60+reminderPickerMins;
   if(mins<5){showToast('Choose at least 5 minutes');return;}
-  if('Notification' in window&&Notification.permission==='default'){
+  if(!NATIVE_APP&&'Notification' in window&&Notification.permission==='default'){
     try{await Notification.requestPermission();}catch{}
   }
   localStorage.setItem(key,'1');
@@ -2984,7 +3044,9 @@ async function saveSailReminder(){
   sailReminderFired=false;
   closeReminderPicker();
   renderSailReminder();
-  if('Notification' in window&&Notification.permission==='denied')showToast(`Reminder set for ${formatReminderTime(mins)} · in-app alert only`);
+  scheduledSailAt=0;
+  syncNativeSailReminder();
+  if(!NATIVE_APP&&'Notification' in window&&Notification.permission==='denied')showToast(`Reminder set for ${formatReminderTime(mins)} · in-app alert only`);
   else showToast(`Reminder set for ${formatReminderTime(mins)} before departure`);
 }
 function disableSailReminder(){
@@ -2995,17 +3057,67 @@ function disableSailReminder(){
   sailReminderFired=false;
   closeReminderPicker();
   renderSailReminder();
+  syncNativeSailReminder();
   showToast('Sail-away reminder turned off');
 }
 function toggleSailReminder(){openReminderPicker();}
 function sendSailReminder(){
   const mins=sailReminderMinutes();
   const message=`${formatReminderTime(mins)} until departure. Start heading back to the ship.`;
-  if('Notification' in window&&Notification.permission==='granted'){
+  if(!NATIVE_APP&&'Notification' in window&&Notification.permission==='granted'){
     try{new Notification('Portlore sail-away reminder',{body:message});}catch{}
   }
   showToast(message);
 }
+const SAIL_NOTIFICATION_ID=1;
+let scheduledSailAt=0;
+let askedForExactAlarms=false;
+// In the app the reminder is scheduled with Android, so it fires with the screen off or the app closed.
+// It is kept in step with the countdown and replaced whenever the time or the reminder changes.
+async function syncNativeSailReminder(){
+  const notifications=nativePlugin('LocalNotifications');
+  if(!notifications)return;
+  const at=sailReminderEnabled()&&cdownMins>0?Date.now()+(cdownMins-sailReminderMinutes())*60000:0;
+  if(Math.abs(at-scheduledSailAt)<60000)return;
+  scheduledSailAt=at;
+  try{
+    await notifications.cancel({notifications:[{id:SAIL_NOTIFICATION_ID}]});
+    if(at<=Date.now())return;
+    let permission=await notifications.checkPermissions();
+    if(permission.display!=='granted')permission=await notifications.requestPermissions();
+    if(permission.display!=='granted')return;
+    // Android 14 turns exact alarms off by default, and without them the reminder can arrive minutes late.
+    // Asking for an exact one makes the plugin jump straight to settings, so it is only asked for once allowed.
+    const exact=notifications.checkExactNotificationSetting
+      ?(await notifications.checkExactNotificationSetting()).exact_alarm==='granted'
+      :true;
+    await notifications.schedule({notifications:[{
+      id:SAIL_NOTIFICATION_ID,
+      title:'Portlore sail-away reminder',
+      body:`${formatReminderTime(sailReminderMinutes())} until all aboard. Start heading back to the ship.`,
+      schedule:{at:new Date(at),allowWhileIdle:true},
+      isExactNotification:exact,
+    }]});
+    if(!exact&&!askedForExactAlarms){
+      askedForExactAlarms=true;
+      if(confirm('Get your sail-away reminder at the exact minute?\n\nAndroid needs you to allow "Alarms & reminders" for Portlore. Without it, the reminder can arrive a few minutes late.')){
+        await notifications.changeExactNotificationSetting();
+      }
+    }
+  }catch{}
+}
+// Coming back from Android settings, the reminder is set again so it picks up exact timing.
+nativePlugin('App')?.addListener('appStateChange',({isActive})=>{
+  if(isActive){scheduledSailAt=0;syncNativeSailReminder();}
+});
+// Android's back button closes whatever is open first, then returns to the start screen, then leaves the app.
+nativePlugin('App')?.addListener('backButton',()=>{
+  if(document.getElementById('reminder-picker').classList.contains('open'))return closeReminderPicker();
+  if(document.getElementById('detail').classList.contains('open'))return closeDetail();
+  if(document.getElementById('port-map-overlay').classList.contains('open'))return closeHomePortMap();
+  if(!document.getElementById('page-welcome').classList.contains('active'))return goToWelcome();
+  nativePlugin('App').exitApp();
+});
 document.getElementById('b-sail').addEventListener('click',toggleSailReminder);
 document.getElementById('reminder-picker-backdrop').addEventListener('click',closeReminderPicker);
 document.getElementById('reminder-picker-cancel').addEventListener('click',closeReminderPicker);
@@ -3091,6 +3203,7 @@ function tickCountdown(){
   if(cdownMins===15)showToast('15 minutes. Head back to port.');
   updateLocalTime();
   renderSailReminder();
+  syncNativeSailReminder();
   if(cdownMins>0)cdownMins--;
 }
 function showToast(msg){const t=document.getElementById('toast');t.textContent=msg;t.classList.add('show');clearTimeout(toastTmr);toastTmr=setTimeout(()=>t.classList.remove('show'),2800);}

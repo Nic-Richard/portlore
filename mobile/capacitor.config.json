@@ -1,0 +1,27 @@
+{
+  "appId": "com.portlore.app",
+  "appName": "Portlore",
+  "webDir": "www",
+  "android": {
+    "backgroundColor": "#0f2340"
+  },
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 600,
+      "backgroundColor": "#0f2340",
+      "showSpinner": false
+    },
+    "LocalNotifications": {
+      "smallIcon": "ic_stat_portlore",
+      "iconColor": "#c9a24a"
+    },
+    "SystemBars": {
+      "insetsHandling": "css",
+      "initialViewportFitValueHint": "cover",
+      "style": "DARK"
+    },
+    "CapacitorHttp": {
+      "enabled": true
+    }
+  }
+}
