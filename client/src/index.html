@@ -133,9 +133,7 @@ body { font-family: var(--sans); background: var(--sand); color: var(--text); mi
   line-height: 1.5;
 }
 @media (max-width: 899px) and (max-height: 700px) {
-  :root { --w-hero-h: 30vh; }
-  .w-city { font-size: 2.3rem; }
-  .w-tagline { display: none; }
+  .w-tagline, #page-welcome .w-eyebrow { display: none; }
 }
 /* Phones: the start screen is exactly one screen tall. The card keeps its height and the photo fills what
    is left above it; fitWelcomeHero() sizes the photo to where the card starts. */
@@ -148,12 +146,7 @@ body { font-family: var(--sans); background: var(--sand); color: var(--text); mi
   #page-welcome .w-gets { display: none; }
   #page-welcome .w-mode { margin-bottom: 1rem; }
 }
-@media (max-width: 899px) and (max-height: 700px) {
-  #page-welcome .w-hero { min-height: 6.5rem; padding-bottom: 1rem; }
-  #page-welcome .w-card { padding-top: 1rem; }
-  #page-welcome .w-clock, #page-welcome .w-hours-view { font-size: 2.1rem; }
-  #page-welcome .w-mode { margin: 0.6rem 0 0.8rem; }
-}
+
 .w-photo-credit {
   font-size: 0.62rem;
   color: rgba(255,255,255,0.55);
@@ -410,8 +403,35 @@ body { font-family: var(--sans); background: var(--sand); color: var(--text); mi
 }
 .desktop-pane { display: none; }
 
+/* Start screen sizes follow the screen height, from a readable minimum up to full size, so it fits
+   without scrolling on most screens; very short windows scroll instead. */
+#page-welcome .w-port-select { margin-bottom: clamp(0.8rem, 2.6vh, 1.4rem); margin-bottom: clamp(0.8rem, 2.6svh, 1.4rem); }
+#page-welcome .w-field-label { margin-bottom: clamp(0.3rem, 0.9vh, 0.5rem); margin-bottom: clamp(0.3rem, 0.9svh, 0.5rem); }
+#page-welcome .w-port-row { padding-block: clamp(0.55rem, 1.5vh, 0.8rem); padding-block: clamp(0.55rem, 1.5svh, 0.8rem); }
+#page-welcome .w-clock, #page-welcome .w-hours-view { font-size: clamp(1.9rem, 5.2vh, 2.5rem); font-size: clamp(1.9rem, 5.2svh, 2.5rem); }
+#page-welcome .w-hours-bar { margin-top: clamp(0.6rem, 1.9vh, 1.1rem); margin-top: clamp(0.6rem, 1.9svh, 1.1rem); }
+#page-welcome .w-mode { margin-block: clamp(0.5rem, 1.6vh, 0.9rem) clamp(0.7rem, 2.2vh, 1.3rem); margin-block: clamp(0.5rem, 1.6svh, 0.9rem) clamp(0.7rem, 2.2svh, 1.3rem); }
+#page-welcome .w-go { padding-block: clamp(0.75rem, 2vh, 1rem); padding-block: clamp(0.75rem, 2svh, 1rem); }
+#page-welcome .w-legal { margin-top: clamp(0.6rem, 1.9vh, 1.1rem); margin-top: clamp(0.6rem, 1.9svh, 1.1rem); }
+@media (max-width: 899px) {
+  #page-welcome .w-card { padding-top: clamp(0.9rem, 2.8vh, 1.5rem); padding-top: clamp(0.9rem, 2.8svh, 1.5rem); }
+  #page-welcome .w-hero { min-height: clamp(4.75rem, 17vh, 8.5rem); min-height: clamp(4.75rem, 17svh, 8.5rem); }
+  #page-welcome .w-hero { padding-bottom: clamp(0.9rem, 2.8vh, 1.6rem); padding-bottom: clamp(0.9rem, 2.8svh, 1.6rem); }
+  #page-welcome .w-city { font-size: clamp(1.75rem, min(13vw, 5.8vh), 4.6rem); font-size: clamp(1.75rem, min(13vw, 5.8svh), 4.6rem); }
+  #page-welcome .w-wordmark { padding-top: calc(clamp(0.8rem, 2.4vh, 1.4rem) + var(--inset-top)); padding-top: calc(clamp(0.8rem, 2.4svh, 1.4rem) + var(--inset-top)); }
+}
 @media (min-width: 900px) {
-  body { overflow: hidden; height: 100vh; }
+  #page-welcome .w-card { padding-block: clamp(0.75rem, 4vh, 3rem); padding-block: clamp(0.75rem, 4svh, 3rem); }
+  #page-welcome .w-city { font-size: clamp(3rem, min(7vw, 11vh), 7.5rem); font-size: clamp(3rem, min(7vw, 11svh), 7.5rem); }
+  #page-welcome .w-wordmark { padding-top: clamp(1rem, 3.5vh, 2.2rem); padding-top: clamp(1rem, 3.5svh, 2.2rem); }
+  #page-welcome .w-hero { padding-bottom: clamp(1.5rem, 6vh, 3.5rem); padding-bottom: clamp(1.5rem, 6svh, 3.5rem); }
+}
+@media (min-width: 900px) and (max-height: 760px) {
+  #page-welcome .w-gets { display: none; }
+}
+@media (min-width: 900px) {
+  /* Only the guide is a fixed two-column screen; the other pages scroll when the window is short. */
+  body:has(#page-explore.active) { overflow: hidden; height: 100vh; }
   #page-explore { overflow: hidden; height: 100vh; }
   .app-col {
     width: 460px; flex-shrink: 0; margin: 0;
@@ -501,6 +521,12 @@ body { font-family: var(--sans); background: var(--sand); color: var(--text); mi
 .shore-rail.over { background: #f3d6d2; }
 .rail-t { display: flex; justify-content: space-between; gap: 0.6rem; margin-top: 8px; font-size: 12px; color: var(--muted); }
 .rail-t b { color: var(--navy); font-weight: 600; }
+/* The guide's pinned top bar tightens on short screens so more of the list shows. */
+.topbar { padding: calc(clamp(10px, 3.2vh, 18px) + var(--inset-top)) 20px clamp(8px, 2.4vh, 14px); padding: calc(clamp(10px, 3.2svh, 18px) + var(--inset-top)) 20px clamp(8px, 2.4svh, 14px); }
+.topbar-title { font-size: clamp(26px, 4.6vh, 34px); font-size: clamp(26px, 4.6svh, 34px); }
+.topbar-title.long { font-size: clamp(22px, 3.8vh, 28px); font-size: clamp(22px, 3.8svh, 28px); }
+.shore-rail { margin-top: clamp(8px, 2.2vh, 16px); margin-top: clamp(8px, 2.2svh, 16px); }
+.rail-t { margin-top: clamp(4px, 1.1vh, 8px); margin-top: clamp(4px, 1.1svh, 8px); }
 .nav-tabs {
   display: flex; gap: 24px; padding: 0 20px; flex-shrink: 0;
   background: var(--card); border-bottom: 1px solid var(--border);
@@ -1385,6 +1411,10 @@ const welcomeResize = new ResizeObserver(fitWelcomeHero);
 welcomeResize.observe(document.querySelector('.w-card'));
 welcomeResize.observe(document.querySelector('.w-hero'));
 window.addEventListener('resize', fitWelcomeHero);
+// The tabs stick just below the guide's top bar, whose height follows the port name and the screen height.
+new ResizeObserver(([entry]) => {
+  if (entry.target.offsetHeight) document.documentElement.style.setProperty('--topbar-h', `${entry.target.offsetHeight}px`);
+}).observe(document.getElementById('topbar'));
 async function init() {
   try {
     const r = await fetch(API_ORIGIN+'/ports.json', { cache: 'no-store' });
@@ -1964,7 +1994,6 @@ function bootExplore() {
   // Populate the selected city view.
   document.getElementById('topbar-city').textContent = city.city;
   document.getElementById('topbar-city').classList.toggle('long', city.city.length > 13);
-  requestAnimationFrame(() => document.documentElement.style.setProperty('--topbar-h', `${document.getElementById('topbar').offsetHeight}px`));
   document.getElementById('dp-city').textContent = city.city;
   document.title = `Portlore · ${city.city}`;
   buildDeals();
