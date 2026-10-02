@@ -4,14 +4,9 @@ import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import { config } from 'dotenv';
-import {
-  buildCityCurationPrompt,
-  buildCityData,
-  POI_CATALOG_SCHEMA_VERSION,
-} from '../shared/poi-curation.js';
-import { curateCity, curationModel } from '../shared/curation-model.js';
-import { resolveCatalogGooglePlaces, resolveCurationGooglePlaces } from '../shared/google-places.js';
-import { describeFromWebsites } from '../shared/website-descriptions.js';
+import { POI_CATALOG_SCHEMA_VERSION } from '../shared/poi-curation.js';
+import { curationModel } from '../shared/curation-model.js';
+import { buildGuideData } from '../shared/build-guide.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.join(__dirname, '..');
@@ -57,27 +52,13 @@ async function main() {
   }
 
   console.log(`Curating ${portInfo.city}, ${portInfo.country} from ${catalog.pois.length} POIs with ${curationModel().model}...`);
-  const result = await curateCity(buildCityCurationPrompt(portInfo, catalog));
+  const { data, model: result, websites, googleSearches } = await buildGuideData(portInfo, catalog, {
+    apiKey: process.env.GOOGLE_MAPS_API_KEY,
+    cachePath: path.join(ROOT, 'cities', '.google-place-id-cache.json'),
+  });
   console.log(`Model response: stop_reason=${result.stopReason}, attempts=${result.attempts}, input_tokens=${result.inputTokens}, output_tokens=${result.outputTokens}`);
-  const curation = result.curation;
-  const googleMatches = await resolveCatalogGooglePlaces(portInfo, catalog, {
-    apiKey: process.env.GOOGLE_MAPS_API_KEY,
-    cachePath: path.join(ROOT, 'cities', '.google-place-id-cache.json'),
-    onlyIds: (Array.isArray(curation.places) ? curation.places : []).map(item => item?.sourceId).filter(Boolean),
-    requireFields: true,
-  });
-  const resolvedCuration = await resolveCurationGooglePlaces(portInfo, catalog, curation, {
-    apiKey: process.env.GOOGLE_MAPS_API_KEY,
-    cachePath: path.join(ROOT, 'cities', '.google-place-id-cache.json'),
-    catalogMatches: googleMatches,
-  });
-  const data = { ...buildCityData(portInfo, catalog, resolvedCuration, googleMatches), model: result.model };
-  let websites = { checked: 0, found: 0, searches: 0, rewritten: 0, dead: 0, cost: 0 };
-  try {
-    websites = await describeFromWebsites(data, catalog);
-  } catch (error) {
-    console.warn(`Website descriptions failed: ${error.message}`);
-  }
+  console.log(`Google searches: ${googleSearches}`);
+  if (websites.error) console.warn(`Website descriptions failed: ${websites.error}`);
   console.log(`Websites: checked ${websites.checked}, found ${websites.found} with ${websites.searches} searches, rewrote ${websites.rewritten}, dropped ${websites.dead} dead links.`);
 
   const outPath = path.join(ROOT, 'cities', `${portInfo.id}.json`);

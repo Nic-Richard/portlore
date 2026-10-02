@@ -1,9 +1,7 @@
 import fs from 'fs';
 import path from 'path';
-import { buildCityCurationPrompt, buildCityData, POI_CATALOG_SCHEMA_VERSION } from '../../../shared/poi-curation.js';
-import { curateCity } from '../../../shared/curation-model.js';
-import { resolveCatalogGooglePlaces, resolveCurationGooglePlaces } from '../../../shared/google-places.js';
-import { describeFromWebsites } from '../../../shared/website-descriptions.js';
+import { POI_CATALOG_SCHEMA_VERSION } from '../../../shared/poi-curation.js';
+import { buildGuideData } from '../../../shared/build-guide.js';
 import { CITIES_DIR, readPorts } from './guides.js';
 import * as logger from './logger.js';
 
@@ -37,6 +35,20 @@ export function getDailyUsage() {
   return { date, count: 0 };
 }
 
+// New guides can be paused until a date (GENERATION_PAUSED_UNTIL=2026-11-01), e.g. once the month's free
+// Google searches are used.
+export function generationPausedUntil() {
+  const until = Date.parse(process.env.GENERATION_PAUSED_UNTIL || '');
+  return Number.isFinite(until) && Date.now() < until ? new Date(until) : null;
+}
+
+export function generationAvailability() {
+  const pausedUntil = generationPausedUntil();
+  if (pausedUntil) return { available: false, reason: 'paused', until: pausedUntil.toISOString().slice(0, 10) };
+  if (getDailyUsage().count >= getLimit('GENERATION_DAILY_LIMIT', 20)) return { available: false, reason: 'daily_limit' };
+  return { available: true };
+}
+
 export function cooldownRemainingMs() {
   const cooldownMs = getLimit('GENERATION_COOLDOWN_SECONDS', 60, 0) * 1000;
   return cooldownMs - (Date.now() - lastGenerationStartedAt);
@@ -62,29 +74,13 @@ export function isStale(guide) {
 // Builds a guide and writes it only once it is complete, so a failed rebuild leaves the old guide in place.
 export async function buildGuide(id, portInfo, catalog) {
   try {
-    const result = await curateCity(buildCityCurationPrompt(portInfo, catalog));
-    logger.info(`Generated ${id}: model=${result.model}, stop_reason=${result.stopReason}, attempts=${result.attempts}, input_tokens=${result.inputTokens}, output_tokens=${result.outputTokens}, est_cost=$${result.cost.toFixed(4)}`);
-
-    const curation = result.curation;
-    // Google is only searched for the stops the model picked, not the whole shortlist.
-    const googleMatches = await resolveCatalogGooglePlaces(portInfo, catalog, {
+    const { data, model, websites, googleSearches } = await buildGuideData(portInfo, catalog, {
       apiKey: process.env.GOOGLE_MAPS_API_KEY,
       cachePath: path.join(CITIES_DIR, '.google-place-id-cache.json'),
-      onlyIds: (Array.isArray(curation.places) ? curation.places : []).map(item => item?.sourceId).filter(Boolean),
-      requireFields: true,
     });
-    const resolvedCuration = await resolveCurationGooglePlaces(portInfo, catalog, curation, {
-      apiKey: process.env.GOOGLE_MAPS_API_KEY,
-      cachePath: path.join(CITIES_DIR, '.google-place-id-cache.json'),
-      catalogMatches: googleMatches,
-    });
-    const data = { ...buildCityData(portInfo, catalog, resolvedCuration, googleMatches), model: result.model };
-    try {
-      const websites = await describeFromWebsites(data, catalog);
-      logger.info(`Described ${id} from websites: checked=${websites.checked}, found=${websites.found}, searches=${websites.searches}, rewritten=${websites.rewritten}, dead=${websites.dead}, est_cost=$${websites.cost.toFixed(4)}`);
-    } catch (error) {
-      logger.warn(`Website descriptions failed for ${id}: ${error.message}`);
-    }
+    logger.info(`Generated ${id}: model=${model.model}, stop_reason=${model.stopReason}, attempts=${model.attempts}, input_tokens=${model.inputTokens}, output_tokens=${model.outputTokens}, google_searches=${googleSearches}, est_cost=$${model.cost.toFixed(4)}`);
+    if (websites.error) logger.warn(`Website descriptions failed for ${id}: ${websites.error}`);
+    else logger.info(`Described ${id} from websites: checked=${websites.checked}, found=${websites.found}, searches=${websites.searches}, rewritten=${websites.rewritten}, dead=${websites.dead}, est_cost=$${websites.cost.toFixed(4)}`);
     fs.writeFileSync(path.join(CITIES_DIR, `${id}.json`), JSON.stringify(data, null, 2));
 
     try {
@@ -109,7 +105,7 @@ export async function buildGuide(id, portInfo, catalog) {
 // is running or a limit is reached, so a later visit tries again.
 export function refreshIfStale(id, guide) {
   if (!isStale(guide) || inProgress.size > 0 || !process.env.GOOGLE_MAPS_API_KEY) return false;
-  if (cooldownRemainingMs() > 0 || getDailyUsage().count >= getLimit('GENERATION_DAILY_LIMIT', 20)) return false;
+  if (cooldownRemainingMs() > 0 || !generationAvailability().available) return false;
   let portInfo;
   let catalog;
   try {

@@ -12,6 +12,21 @@ const FIELD_MASK = [
   'places.businessStatus',
 ].join(',');
 
+// Google's terms allow keeping place IDs but not the other Places fields, so only a place Google had no match for
+// is skipped on later builds, for a year.
+const NO_MATCH_REUSE_DAYS = 365;
+let searchCount = 0;
+let quotaRefused = false;
+
+export function googleSearchCount() {
+  return searchCount;
+}
+
+// Lookups that fail are skipped, so a guide built after the daily quota runs out is missing its checks.
+export function googleQuotaRefused() {
+  return quotaRefused;
+}
+
 function cleanString(value) {
   return typeof value === 'string' ? value.trim() : '';
 }
@@ -129,6 +144,7 @@ async function searchText(request, apiKey) {
     };
   }
 
+  searchCount += 1;
   const response = await fetch(SEARCH_URL, {
     method: 'POST',
     headers: {
@@ -139,6 +155,7 @@ async function searchText(request, apiKey) {
     body: JSON.stringify(body),
   });
   if (!response.ok) {
+    if (response.status === 429) quotaRefused = true;
     const text = await response.text();
     throw new Error(`Google Places returned ${response.status}: ${text.slice(0, 300)}`);
   }
@@ -176,6 +193,8 @@ async function resolveGooglePlace(request, options = {}) {
     kind: request.kind,
   }));
   const cached = cache[cacheKey];
+  if (cached && !cached.googlePlaceId && !options.force
+    && Date.now() - Date.parse(cached.resolvedAt || '') < NO_MATCH_REUSE_DAYS * 86400000) return null;
   if (cached?.googlePlaceId && !options.force && !options.requireFields) {
     return {
       googlePlaceId: cached.googlePlaceId,

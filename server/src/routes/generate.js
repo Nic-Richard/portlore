@@ -8,7 +8,7 @@ import {
   claimGeneration,
   cooldownRemainingMs,
   failures,
-  getDailyUsage,
+  generationAvailability,
   getLimit,
   inProgress,
   readCatalog,
@@ -32,6 +32,11 @@ function getIpState(ip) {
   }
   return existing;
 }
+
+router.get('/availability', (req, res) => {
+  res.set('Cache-Control', 'no-store');
+  res.json(generationAvailability());
+});
 
 router.post('/:id', async (req, res) => {
   const id = cleanId(req.params.id);
@@ -88,8 +93,9 @@ router.post('/:id', async (req, res) => {
     return res.status(429).json({ error: 'Generation is cooling down. Try again shortly.', retryAfter });
   }
 
-  if (getDailyUsage().count >= getLimit('GENERATION_DAILY_LIMIT', 20)) {
-    return res.status(429).json({ error: 'The daily generation limit has been reached.' });
+  const availability = generationAvailability();
+  if (!availability.available) {
+    return res.status(429).json({ error: 'This port is temporarily unavailable.', ...availability });
   }
 
   ipState.count += 1;

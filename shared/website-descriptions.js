@@ -4,6 +4,7 @@ const FETCH_TIMEOUT_MS = 6000;
 const CONCURRENCY = 8;
 const MAX_TEXT = 900;
 const PARKED = /domain (?:name )?(?:may be |is )?for sale|buy this domain|domain is parked|domain has expired/i;
+const CLOSED = /permanently closed|closed permanently|closed for good|(?:have|has) closed (?:our|its) doors|we are now closed/i;
 
 function decode(text) {
   return text.replace(/&nbsp;|&#160;/g, ' ').replace(/&amp;/g, '&').replace(/&#39;|&rsquo;|&apos;/g, "'").replace(/&quot;|&ldquo;|&rdquo;/g, '"');
@@ -26,7 +27,14 @@ export function isParkedDomain(text) {
 
 // Only failures that mean the site is gone count as dead. Many sites, like Facebook, refuse automated requests
 // with 400 or 403 but work in a browser, and a timeout may just be a slow server.
-async function fetchWebsite(url) {
+async function fetchWebsite(url, pages) {
+  if (pages?.has(url)) return pages.get(url);
+  const site = await loadWebsite(url);
+  pages?.set(url, site);
+  return site;
+}
+
+async function loadWebsite(url) {
   try {
     const response = await fetch(url, {
       headers: { 'User-Agent': 'Mozilla/5.0 (compatible; Portlore/1.0; +https://portlore.com)' },
@@ -43,10 +51,33 @@ async function fetchWebsite(url) {
 
 const SEARCH_SYSTEM = 'You look up official websites with Google Search and answer only with the requested JSON.';
 
+function mentions(text, name) {
+  const plain = value => String(value || '').toLowerCase().normalize('NFKD').replace(/[\u0300-\u036f]/g, '');
+  const page = plain(text);
+  return plain(name).split(/[^a-z0-9]+/).some(word => word.length > 3 && page.includes(word));
+}
+
+// A business whose own site still loads is open, so it needs no Google check. A site the model found must also
+// name the business, since the model sometimes gives a URL without searching. Pages are kept in `pages` for the
+// description step.
+export async function liveWebsiteIds(stops, pages) {
+  const live = new Set();
+  let next = 0;
+  await Promise.all(Array.from({ length: CONCURRENCY }, async () => {
+    while (next < stops.length) {
+      const stop = stops[next++];
+      const site = await fetchWebsite(stop.website, pages);
+      if (site.text && site.text.length > 80 && !CLOSED.test(site.text)
+        && (!stop.found || mentions(site.text, stop.name))) live.add(stop.id);
+    }
+  }));
+  return live;
+}
+
 // Restaurants, cafés, and shops without a website get one grounded Gemini search for all of them together. The
 // model often answers well-known places without searching, so a site it gives is only kept when it loads and its
 // own text turns out to be about this place.
-async function findMissingWebsites(stops, place) {
+export async function findMissingWebsites(stops, place) {
   const missing = stops.filter(stop => ['food_drink', 'shopping'].includes(stop.category) && !stop.website);
   if (!missing.length || curationModel().name !== 'gemini') return { found: new Set(), searches: 0, cost: 0 };
   const result = await curateCity(`Find the official website of each place below, using Google Search.
@@ -75,9 +106,15 @@ ${JSON.stringify(missing.map(stop => ({ id: stop.id, name: stop.name, address: s
 // Every stop's website is checked, and links to sites that are gone are dropped. Restaurants, cafés, and shops the
 // shortlist had no facts about are then rewritten from their own website, so details like a menu are real. Sights
 // keep their first description, since their sites rarely say what makes them worth a visit.
-export async function describeFromWebsites(guide, catalog) {
+export async function describeFromWebsites(guide, catalog, { pages = new Map(), foundSites = new Map() } = {}) {
   const sourced = new Set((catalog.pois || []).filter(poi => poi.intro || poi.description).map(poi => poi.sourceId));
-  const search = await findMissingWebsites([...guide.places, ...guide.hiddenGems], [guide.city, guide.country].filter(Boolean).join(', '));
+  const all = [...guide.places, ...guide.hiddenGems];
+  for (const stop of all) {
+    const url = foundSites.get(stop.sourceId);
+    if (url && !stop.website) Object.assign(stop, { website: url, officialWebsiteUrl: url });
+  }
+  const search = await findMissingWebsites(all, [guide.city, guide.country].filter(Boolean).join(', '));
+  for (const stop of all) if (foundSites.has(stop.sourceId) && stop.website === foundSites.get(stop.sourceId)) search.found.add(stop.id);
   const linked = [...guide.places, ...guide.hiddenGems].filter(stop => stop.website);
   const stops = linked.filter(stop => ['food_drink', 'shopping'].includes(stop.category)
     && (!sourced.has(stop.sourceId) || search.found.has(stop.id)));
@@ -87,7 +124,7 @@ export async function describeFromWebsites(guide, catalog) {
   await Promise.all(Array.from({ length: CONCURRENCY }, async () => {
     while (next < linked.length) {
       const stop = linked[next++];
-      const site = await fetchWebsite(stop.website);
+      const site = await fetchWebsite(stop.website, pages);
       if (site.dead) {
         stop.website = '';
         stop.officialWebsiteUrl = '';

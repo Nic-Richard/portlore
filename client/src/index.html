@@ -309,6 +309,9 @@ body { font-family: var(--sans); background: var(--sand); color: var(--text); mi
   content: ', guide written on first visit';
   font-size: 0.7rem; color: var(--muted); font-weight: 400;
 }
+.new-guides-off .w-search-result.not-generated .w-search-result-city::after { content: ', temporarily unavailable'; }
+.w-go-note { margin-top: 0.55rem; font-size: 0.8rem; color: var(--muted); text-align: center; }
+.w-go-note:empty { display: none; }
 .gen { width: 100%; max-width: 420px; text-align: center; color: #fff; }
 .gen-icon { display: block; width: 44px; height: 44px; margin: 0 auto 1.25rem; fill: none; stroke: var(--brass-l); stroke-width: 1.5; stroke-linecap: round; stroke-linejoin: round; animation: bob 3s ease-in-out infinite; }
 .gen-title { font-size: 1.75rem; font-weight: 600; letter-spacing: -0.03em; line-height: 1.15; margin-bottom: 0.6rem; }
@@ -934,6 +937,7 @@ html.detail-open, body.detail-open { overflow: hidden !important; overscroll-beh
       <div class="w-ticks" id="w-ticks" aria-hidden="true"></div>
       <button type="button" class="w-mode" id="w-mode">Planning ahead? Set hours ashore instead</button>
       <button class="w-go" id="goBtn" disabled>Plan my day</button>
+      <p class="w-go-note" id="w-go-note" role="status"></p>
       <div class="w-gets">
         <p><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><circle cx="13" cy="4.5" r="1.8"/><path d="m9 21 2.5-6.5 2.5 2V21"/><path d="M11.5 14.5 12.5 8l-3 2L8 13"/><path d="m12.5 8 2.5 3.5 2.5 1"/></svg><span><b>Stops by walk time</b> from your pier</span></p>
         <p><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.5 2"/></svg><span><b>A day that fits</b> before all aboard</span></p>
@@ -1362,7 +1366,7 @@ let mUserPin=null, dUserPin=null;
 let currentPlace=null, selectedMapPlaceId=null, toastTmr=null;
 let dMarkers={}, mMarkers={}, homePortMarkers=[], itinIds=[];
 let exploreBooted=false;
-let ports=[], selectedPort=null;
+let ports=[], selectedPort=null, newGuides={ available: true };
 
 const isDesktop = () => window.innerWidth >= 900;
 // Ports and the last few guides opened are kept on the device, so a passenger ashore without data still
@@ -1414,6 +1418,7 @@ async function init() {
     if (Array.isArray(saved)) ports = saved.map(port => ({ ...port, generated: port.generated || savedGuides.has(port.id) }));
   }
   fetchGenericPhoto();
+  checkNewGuides();
 
   const presetPort = !IS_EXPLORE && ports.find(p => p.id === new URLSearchParams(window.location.search).get('port'));
   if (presetPort) {
@@ -1454,6 +1459,7 @@ function selectPort(port) {
   document.getElementById('w-eyebrow').textContent = port.country;
   document.getElementById('w-tagline').textContent = 'Discover what this port has to offer';
   refreshBtn();
+  if (!port.generated) checkNewGuides();
   if (port.generated) {
     fetchPortPhoto(port);
   } else {
@@ -1934,7 +1940,22 @@ function renderTime() {
 
 function refreshBtn() {
   renderTime();
-  document.getElementById('goBtn').disabled = !(getMins() && selectedPort);
+  const blocked = !!selectedPort && !selectedPort.generated && !newGuides.available;
+  document.getElementById('goBtn').disabled = !(getMins() && selectedPort) || blocked;
+  document.getElementById('w-go-note').textContent = blocked ? newGuidesMessage() : '';
+}
+
+// The server can pause new guides for the day or until a date; ports that already have a guide stay open.
+async function checkNewGuides() {
+  try {
+    const r = await fetch(API_ORIGIN+'/api/generate/availability', { cache: 'no-store' });
+    if (r.ok) newGuides = await r.json();
+  } catch {}
+  document.getElementById('page-welcome').classList.toggle('new-guides-off', !newGuides.available);
+  refreshBtn();
+}
+function newGuidesMessage() {
+  return 'This port is temporarily unavailable.';
 }
 
 function stepTime(direction) {
@@ -2553,6 +2574,7 @@ document.addEventListener('keydown', e => { if (e.key === 'Escape') closeHomePor
 
 async function switchPortFromMap(port) {
   if (!port || port.id === selectedPort?.id) return;
+  if (!port.generated && !newGuides.available) return showToast(newGuidesMessage());
   selectedPort = port;
   showToast(`Loading ${port.city}...`);
   resetExploreMaps();

@@ -6,8 +6,10 @@ import { fallbackTerminal, distanceMeters } from '../shared/port-resolution.js';
 import { selectCurationCandidates } from '../shared/poi-selection.js';
 import { buildCityData } from '../shared/poi-curation.js';
 import { renderPortPage } from '../server/src/lib/port-page.js';
-import { isParkedDomain, websiteText } from '../shared/website-descriptions.js';
-import { isWrongMatch } from '../shared/google-places.js';
+import os from 'os';
+import path from 'path';
+import { isParkedDomain, liveWebsiteIds, websiteText } from '../shared/website-descriptions.js';
+import { googleSearchCount, isWrongMatch, resolveCatalogGooglePlaces } from '../shared/google-places.js';
 import { isStale } from '../server/src/lib/generation.js';
 
 const tests = [];
@@ -205,6 +207,40 @@ test('port pages are indexed only when the port has a guide', () => {
   assert.ok(withGuide.includes('rel="canonical"') && !withGuide.includes('noindex'));
   assert.ok(withGuide.includes('Pier 21 &lt;Museum&gt;'));
   assert.ok(withoutGuide.includes('noindex') && !withoutGuide.includes('rel="canonical"'));
+});
+
+test('a place Google had no match for is not searched again within a year', async () => {
+  const cachePath = path.join(os.tmpdir(), `portlore-cache-${process.pid}.json`);
+  fs.writeFileSync(cachePath, JSON.stringify({ 'poi:osm/1': { googlePlaceId: '', resolvedAt: new Date().toISOString() } }));
+  const realFetch = globalThis.fetch;
+  globalThis.fetch = () => { throw new Error('Google was searched'); };
+  try {
+    const before = googleSearchCount();
+    const result = await resolveCatalogGooglePlaces({ city: 'Halifax', country: 'Canada', lat: 1, lng: 2 },
+      { pois: [{ sourceId: 'osm/1', name: 'Cafe', lat: 1, lng: 2 }] },
+      { apiKey: 'key', cachePath, onlyIds: ['osm/1'], requireFields: true });
+    assert.deepStrictEqual(result.pois, {});
+    assert.strictEqual(googleSearchCount(), before);
+  } finally {
+    globalThis.fetch = realFetch;
+    fs.rmSync(cachePath, { force: true });
+  }
+});
+
+test('a website the model found only counts as live when it names the business', async () => {
+  const page = 'Welcome to Harbour Bistro on the waterfront. Fresh seafood, local beer and views of the ships every day.';
+  const realFetch = globalThis.fetch;
+  globalThis.fetch = async () => new Response(`<html><body>${page}</body></html>`, { headers: { 'content-type': 'text/html' } });
+  try {
+    const live = await liveWebsiteIds([
+      { id: 'a', name: 'Harbour Bistro', website: 'https://a.example', found: true },
+      { id: 'b', name: 'Lighthouse Diner', website: 'https://b.example', found: true },
+      { id: 'c', name: 'Lighthouse Diner', website: 'https://c.example' },
+    ], new Map());
+    assert.deepStrictEqual([...live].sort(), ['a', 'c']);
+  } finally {
+    globalThis.fetch = realFetch;
+  }
 });
 
 (async () => {
