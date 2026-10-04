@@ -1,6 +1,6 @@
 import { buildCityCurationPrompt, buildCityData } from './poi-curation.js';
 import { curateCity } from './curation-model.js';
-import { googleSearchCount, resolveCatalogGooglePlaces, resolveCurationGooglePlaces } from './google-places.js';
+import { fillPlaceIds, googleSearchCount, resolveCatalogGooglePlaces, resolveCurationGooglePlaces } from './google-places.js';
 import { describeFromWebsites, findMissingWebsites, liveWebsiteIds } from './website-descriptions.js';
 
 // Google is only asked whether businesses are still open; sights, parks, beaches, markets and malls rarely close.
@@ -44,6 +44,11 @@ export async function buildGuideData(portInfo, catalog, { apiKey, cachePath, pat
   });
   const data = { ...buildCityData(portInfo, catalog, resolvedCuration, googleMatches), model: model.model };
   if (!data.places.length) throw new Error('None of the stops the model picked are in the catalog');
+  try {
+    await fillPlaceIds(data, apiKey);
+  } catch (error) {
+    console.warn(`Free place ID lookups stopped: ${error.message}`);
+  }
 
   let websites = { checked: 0, found: 0, searches: 0, rewritten: 0, dead: 0, cost: 0 };
   try {

@@ -9,7 +9,7 @@ import { renderPortPage } from '../server/src/lib/port-page.js';
 import os from 'os';
 import path from 'path';
 import { isParkedDomain, liveWebsiteIds, websiteText } from '../shared/website-descriptions.js';
-import { googleSearchCount, isWrongMatch, resolveCatalogGooglePlaces } from '../shared/google-places.js';
+import { fillPlaceIds, googleSearchCount, isWrongMatch, resolveCatalogGooglePlaces } from '../shared/google-places.js';
 import { isStale } from '../server/src/lib/generation.js';
 
 const tests = [];
@@ -224,6 +224,32 @@ test('a place Google had no match for is not searched again within a year', asyn
   } finally {
     globalThis.fetch = realFetch;
     fs.rmSync(cachePath, { force: true });
+  }
+});
+
+test('stops without a place ID get one from a free search limited to their surroundings', async () => {
+  const realFetch = globalThis.fetch;
+  const requests = [];
+  globalThis.fetch = async (url, options) => {
+    requests.push({ mask: options.headers['X-Goog-FieldMask'], body: JSON.parse(options.body) });
+    return Response.json({ places: [{ id: 'g-new' }] });
+  };
+  try {
+    const guide = {
+      places: [
+        { name: 'Harbour Cafe', category: 'food_drink', lat: 44.65, lng: -63.57 },
+        { name: 'Citadel', category: 'attraction', lat: 44.647, lng: -63.58, googlePlaceId: 'g-old' },
+      ],
+      hiddenGems: [],
+    };
+    assert.strictEqual(await fillPlaceIds(guide, 'key'), 1);
+    assert.deepStrictEqual(guide.places.map(stop => stop.googlePlaceId), ['g-new', 'g-old']);
+    assert.strictEqual(requests.length, 1);
+    assert.strictEqual(requests[0].mask, 'places.id');
+    const box = requests[0].body.locationRestriction.rectangle;
+    assert.ok(box.low.latitude < 44.65 && box.high.latitude > 44.65 && box.high.latitude - box.low.latitude < 0.01);
+  } finally {
+    globalThis.fetch = realFetch;
   }
 });
 

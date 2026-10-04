@@ -163,6 +163,65 @@ async function searchText(request, apiKey) {
   return Array.isArray(data.places) ? data.places : [];
 }
 
+// A search that asks for nothing but the ID is billed as Google's free IDs Only search. It can't be checked
+// against the place's name or location, so results are restricted to a small box around the stop instead.
+let idSearchCount = 0;
+
+export function googleIdSearchCount() {
+  return idSearchCount;
+}
+
+const ID_SEARCH_METRES = { food_drink: 150, shopping: 150, essentials: 150, attraction: 400, outdoors: 1000, terminal: 500 };
+
+export function idSearchMetres(category) {
+  return ID_SEARCH_METRES[category] || 300;
+}
+
+export async function findPlaceIdNear(name, point, metres, apiKey) {
+  const lat = Number(point?.lat);
+  const lng = Number(point?.lng);
+  if (!cleanString(name) || !Number.isFinite(lat) || !Number.isFinite(lng) || !cleanString(apiKey)) return '';
+  const dLat = metres / 111320;
+  const dLng = metres / (111320 * Math.max(0.01, Math.cos(toRadians(lat))));
+  idSearchCount += 1;
+  const response = await fetch(SEARCH_URL, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json', 'X-Goog-Api-Key': apiKey, 'X-Goog-FieldMask': 'places.id' },
+    body: JSON.stringify({
+      textQuery: name,
+      pageSize: 1,
+      languageCode: 'en',
+      locationRestriction: {
+        rectangle: {
+          low: { latitude: lat - dLat, longitude: lng - dLng },
+          high: { latitude: lat + dLat, longitude: lng + dLng },
+        },
+      },
+    }),
+  });
+  if (!response.ok) {
+    if (response.status === 429) quotaRefused = true;
+    throw new Error(`Google Places returned ${response.status}: ${(await response.text()).slice(0, 300)}`);
+  }
+  const data = await response.json();
+  return cleanString(data.places?.[0]?.id);
+}
+
+// Gives every stop without a place ID one from the free lookup, so its map link opens the exact place.
+export async function fillPlaceIds(guide, apiKey) {
+  let added = 0;
+  for (const stop of [...(guide.places || []), ...(guide.hiddenGems || [])]) {
+    if (stop.googlePlaceId || quotaRefused) continue;
+    const metres = idSearchMetres(stopCategory(stop));
+    const id = await findPlaceIdNear(stop.name, stop, metres, apiKey)
+      || (stop.localName && stop.localName !== stop.name ? await findPlaceIdNear(stop.localName, stop, metres, apiKey) : '');
+    if (!id) continue;
+    stop.googlePlaceId = id;
+    stop.googlePlaceMatchConfidence = 'nearby';
+    added += 1;
+  }
+  return added;
+}
 
 function publicMatch(place, score, query) {
   const point = placePoint(place);
