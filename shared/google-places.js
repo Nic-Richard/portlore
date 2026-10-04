@@ -207,17 +207,47 @@ export async function findPlaceIdNear(name, point, metres, apiKey) {
   return cleanString(data.places?.[0]?.id);
 }
 
+// Words that describe what a place is rather than which one it is. A name search can land on a neighbour on these
+// alone (Zeitz MOCAA for "Chavonnes Battery Museum"), so the rest of the name is searched as a check.
+const GENERIC_WORDS = new Set(('the of de del della di da do dos das du des la le les el los las und and at in on '
+  + 'museum museo musee musée museu muzej muzeum gallery galleria galerie restaurant ristorante restaurante cafe café '
+  + 'caffe caffè bar pub bistro bakery panaderia boulangerie shop store market mercado markt marche marché mall centre '
+  + 'center beach playa praia plage spiaggia strand plaža plaza piazza praca praça square trg platz park parque parc '
+  + 'parco garden gardens jardin jardim church iglesia igreja igrexa chiesa eglise église cathedral catedral cathédrale '
+  + 'basilica chapel temple mosque monastery castle castillo castelo castello fort fortress tower torre lighthouse '
+  + 'bridge viewpoint point mirador miradouro road street national historic old new city town house palace palacio '
+  + 'palazzo').split(' '));
+const TIGHT_SEARCH_METRES = { food_drink: 75, shopping: 75, essentials: 75, attraction: 150, outdoors: 400 };
+
+function distinctiveName(name) {
+  const words = cleanString(name).split(/[\s,.'’()&/-]+/).filter(Boolean);
+  const kept = words.filter(word => !GENERIC_WORDS.has(word.toLowerCase()));
+  return kept.length && kept.length < words.length ? kept.join(' ') : '';
+}
+
+// The free search can't say what it found, so a match is only kept when a second search agrees: the distinctive part
+// of the name finds the same place, or, if that part is too vague to find it, a much smaller box around the stop does.
+async function checkedPlaceIdNear(name, stop, apiKey) {
+  const category = stopCategory(stop);
+  const found = await findPlaceIdNear(name, stop, idSearchMetres(category), apiKey);
+  const core = distinctiveName(name);
+  if (!found || !core) return found;
+  const byCore = await findPlaceIdNear(core, stop, idSearchMetres(category), apiKey);
+  if (!byCore || byCore === found) return byCore;
+  const close = await findPlaceIdNear(name, stop, TIGHT_SEARCH_METRES[category] || 150, apiKey);
+  return close === found ? found : '';
+}
+
 // Gives every stop without a place ID one from the free lookup, so its map link opens the exact place.
 export async function fillPlaceIds(guide, apiKey) {
   let added = 0;
   for (const stop of [...(guide.places || []), ...(guide.hiddenGems || [])]) {
     if (stop.googlePlaceId || quotaRefused) continue;
-    const metres = idSearchMetres(stopCategory(stop));
-    const id = await findPlaceIdNear(stop.name, stop, metres, apiKey)
-      || (stop.localName && stop.localName !== stop.name ? await findPlaceIdNear(stop.localName, stop, metres, apiKey) : '');
+    const id = await checkedPlaceIdNear(stop.name, stop, apiKey)
+      || (stop.localName && stop.localName !== stop.name ? await checkedPlaceIdNear(stop.localName, stop, apiKey) : '');
     if (!id) continue;
     stop.googlePlaceId = id;
-    stop.googlePlaceMatchConfidence = 'nearby';
+    stop.googlePlaceMatchConfidence = 'checked';
     added += 1;
   }
   return added;

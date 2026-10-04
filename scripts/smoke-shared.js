@@ -244,10 +244,26 @@ test('stops without a place ID get one from a free search limited to their surro
     };
     assert.strictEqual(await fillPlaceIds(guide, 'key'), 1);
     assert.deepStrictEqual(guide.places.map(stop => stop.googlePlaceId), ['g-new', 'g-old']);
-    assert.strictEqual(requests.length, 1);
-    assert.strictEqual(requests[0].mask, 'places.id');
+    assert.deepStrictEqual(requests.map(request => request.body.textQuery), ['Harbour Cafe', 'Harbour']);
+    assert.ok(requests.every(request => request.mask === 'places.id'));
     const box = requests[0].body.locationRestriction.rectangle;
     assert.ok(box.low.latitude < 44.65 && box.high.latitude > 44.65 && box.high.latitude - box.low.latitude < 0.01);
+  } finally {
+    globalThis.fetch = realFetch;
+  }
+});
+
+test('a free match that only shares a generic word with the stop is not kept', async () => {
+  const realFetch = globalThis.fetch;
+  // Like "Chavonnes Battery Museum": the full name finds another museum, the rest of the name finds nothing.
+  globalThis.fetch = async (url, options) => {
+    const query = JSON.parse(options.body).textQuery;
+    return Response.json(query === 'Chavonnes Battery' ? {} : { places: [{ id: 'g-zeitz' }] });
+  };
+  try {
+    const guide = { places: [{ name: 'Chavonnes Battery Museum', category: 'attraction', lat: -33.907, lng: 18.42 }] };
+    assert.strictEqual(await fillPlaceIds(guide, 'key'), 0);
+    assert.strictEqual(guide.places[0].googlePlaceId, undefined);
   } finally {
     globalThis.fetch = realFetch;
   }
