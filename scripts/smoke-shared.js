@@ -273,7 +273,7 @@ test('a stop whose website says it has closed is removed, even when the notice i
   const realFetch = globalThis.fetch;
   const filler = 'Explore the history of the harbour among the ruins and cannons. '.repeat(40);
   globalThis.fetch = async url => new Response(
-    `<html><body><h1>Battery Museum</h1><p>${filler}</p><p>${url.includes('closed') ? 'The museum is now permanently closed.' : 'Open daily.'}</p></body></html>`,
+    `<html><body><h1>Battery Museum</h1><p>${filler}</p><p>${url.includes('closed') ? 'The museum is now permanently closed.' : 'We are now closed for the 2025 season.'}</p></body></html>`,
     { headers: { 'content-type': 'text/html' } });
   try {
     const guide = {

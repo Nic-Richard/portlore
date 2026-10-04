@@ -4,7 +4,8 @@ const FETCH_TIMEOUT_MS = 6000;
 const CONCURRENCY = 8;
 const MAX_TEXT = 900;
 const PARKED = /domain (?:name )?(?:may be |is )?for sale|buy this domain|domain is parked|domain has expired/i;
-const CLOSED = /permanently closed|closed permanently|closed for good|(?:have|has) closed (?:our|its) doors|we are now closed/i;
+// "We are now closed for the 2025 season" is a seasonal break, not a closure.
+const CLOSED = /permanently closed|closed permanently|closed for good|(?:have|has) closed (?:our|its|the) doors|ceased? trading|we are now closed(?! for| until| till| from| on )/i;
 
 function decode(text) {
   return text.replace(/&nbsp;|&#160;/g, ' ').replace(/&amp;/g, '&').replace(/&#39;|&rsquo;|&apos;/g, "'").replace(/&quot;|&ldquo;|&rdquo;/g, '"');
