@@ -8,7 +8,7 @@ import { buildCityData } from '../shared/poi-curation.js';
 import { renderPortPage } from '../server/src/lib/port-page.js';
 import os from 'os';
 import path from 'path';
-import { isParkedDomain, liveWebsiteIds, websiteText } from '../shared/website-descriptions.js';
+import { isParkedDomain, liveWebsiteIds, removeClosedStops, websiteText } from '../shared/website-descriptions.js';
 import { fillPlaceIds, googleSearchCount, isWrongMatch, resolveCatalogGooglePlaces } from '../shared/google-places.js';
 import { isStale } from '../server/src/lib/generation.js';
 
@@ -264,6 +264,27 @@ test('a free match that only shares a generic word with the stop is not kept', a
     const guide = { places: [{ name: 'Chavonnes Battery Museum', category: 'attraction', lat: -33.907, lng: 18.42 }] };
     assert.strictEqual(await fillPlaceIds(guide, 'key'), 0);
     assert.strictEqual(guide.places[0].googlePlaceId, undefined);
+  } finally {
+    globalThis.fetch = realFetch;
+  }
+});
+
+test('a stop whose website says it has closed is removed, even when the notice is far down the page', async () => {
+  const realFetch = globalThis.fetch;
+  const filler = 'Explore the history of the harbour among the ruins and cannons. '.repeat(40);
+  globalThis.fetch = async url => new Response(
+    `<html><body><h1>Battery Museum</h1><p>${filler}</p><p>${url.includes('closed') ? 'The museum is now permanently closed.' : 'Open daily.'}</p></body></html>`,
+    { headers: { 'content-type': 'text/html' } });
+  try {
+    const guide = {
+      places: [
+        { id: 'a', name: 'Battery Museum', website: 'https://closed.example' },
+        { id: 'b', name: 'Clock Tower', website: 'https://open.example' },
+      ],
+      hiddenGems: [],
+    };
+    assert.deepStrictEqual(await removeClosedStops(guide), ['Battery Museum']);
+    assert.deepStrictEqual(guide.places.map(stop => stop.id), ['b']);
   } finally {
     globalThis.fetch = realFetch;
   }

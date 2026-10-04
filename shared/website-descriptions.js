@@ -42,8 +42,12 @@ async function loadWebsite(url) {
     });
     if ([404, 410].includes(response.status)) return { dead: true };
     if (!response.ok || !/html/i.test(response.headers.get('content-type') || '')) return {};
-    const text = websiteText((await response.text()).slice(0, 300000));
-    return isParkedDomain(text) ? { dead: true } : { text };
+    const html = (await response.text()).slice(0, 300000);
+    const text = websiteText(html);
+    if (isParkedDomain(text)) return { dead: true };
+    // A closure notice is often a banner well down the page, past the start kept for descriptions.
+    const page = decode(html.replace(/<(script|style|noscript|svg)[\s\S]*?<\/>/gi, ' ').replace(/<[^>]+>/g, ' '));
+    return { text, closed: CLOSED.test(page) };
   } catch (error) {
     return { dead: error.cause?.code === 'ENOTFOUND' };
   }
@@ -67,7 +71,7 @@ export async function liveWebsiteIds(stops, pages) {
     while (next < stops.length) {
       const stop = stops[next++];
       const site = await fetchWebsite(stop.website, pages);
-      if (site.text && site.text.length > 80 && !CLOSED.test(site.text)
+      if (site.text && site.text.length > 80 && !site.closed
         && (!stop.found || mentions(site.text, stop.name))) live.add(stop.id);
     }
   }));
@@ -106,6 +110,25 @@ ${JSON.stringify(missing.map(stop => ({ id: stop.id, name: stop.name, address: s
 // Every stop's website is checked, and links to sites that are gone are dropped. Restaurants, cafés, and shops the
 // shortlist had no facts about are then rewritten from their own website, so details like a menu are real. Sights
 // keep their first description, since their sites rarely say what makes them worth a visit.
+// A stop whose own website says it has closed for good comes out of the guide. Sights get no Google open check,
+// so this is the only way a closed museum or attraction is noticed.
+export async function removeClosedStops(guide, pages = new Map()) {
+  const linked = [...(guide.places || []), ...(guide.hiddenGems || [])].filter(stop => stop.website);
+  const closed = new Set();
+  let next = 0;
+  await Promise.all(Array.from({ length: CONCURRENCY }, async () => {
+    while (next < linked.length) {
+      const stop = linked[next++];
+      if ((await fetchWebsite(stop.website, pages)).closed) closed.add(stop.id);
+    }
+  }));
+  const places = (guide.places || []).filter(stop => !closed.has(stop.id));
+  if (!closed.size || !places.length) return [];
+  guide.places = places;
+  guide.hiddenGems = (guide.hiddenGems || []).filter(stop => !closed.has(stop.id));
+  return linked.filter(stop => closed.has(stop.id)).map(stop => stop.name);
+}
+
 export async function describeFromWebsites(guide, catalog, { pages = new Map(), foundSites = new Map() } = {}) {
   const sourced = new Set((catalog.pois || []).filter(poi => poi.intro || poi.description).map(poi => poi.sourceId));
   const all = [...guide.places, ...guide.hiddenGems];
@@ -113,7 +136,8 @@ export async function describeFromWebsites(guide, catalog, { pages = new Map(), 
     const url = foundSites.get(stop.sourceId);
     if (url && !stop.website) Object.assign(stop, { website: url, officialWebsiteUrl: url });
   }
-  const search = await findMissingWebsites(all, [guide.city, guide.country].filter(Boolean).join(', '));
+  const closed = await removeClosedStops(guide, pages);
+  const search = await findMissingWebsites([...guide.places, ...guide.hiddenGems], [guide.city, guide.country].filter(Boolean).join(', '));
   for (const stop of all) if (foundSites.has(stop.sourceId) && stop.website === foundSites.get(stop.sourceId)) search.found.add(stop.id);
   const linked = [...guide.places, ...guide.hiddenGems].filter(stop => stop.website);
   const stops = linked.filter(stop => ['food_drink', 'shopping'].includes(stop.category)
@@ -141,7 +165,7 @@ export async function describeFromWebsites(guide, catalog, { pages = new Map(), 
     }
   }
   const found = [...search.found].filter(id => texts.has(id)).length;
-  const summary = { checked: linked.length, found, searches: search.searches, dead };
+  const summary = { checked: linked.length, found, searches: search.searches, dead, closed: closed.length };
   if (!texts.size) return { ...summary, rewritten: 0, cost: search.cost };
 
   const items = stops.filter(stop => texts.has(stop.id)).map(stop => ({
