@@ -47,7 +47,7 @@ async function loadWebsite(url) {
     const text = websiteText(html);
     if (isParkedDomain(text)) return { dead: true };
     // A closure notice is often a banner well down the page, past the start kept for descriptions.
-    const page = decode(html.replace(/<(script|style|noscript|svg)[\s\S]*?<\/>/gi, ' ').replace(/<[^>]+>/g, ' '));
+    const page = decode(html.replace(/<(script|style|noscript|svg)[\s\S]*?<\/\1>/gi, ' ').replace(/<[^>]+>/g, ' '));
     return { text, closed: CLOSED.test(page) };
   } catch (error) {
     return { dead: error.cause?.code === 'ENOTFOUND' };

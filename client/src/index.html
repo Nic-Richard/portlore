@@ -752,6 +752,7 @@ html.detail-open, body.detail-open { overflow: hidden !important; overscroll-beh
 .d-kind { display: flex; align-items: center; gap: 0.4rem; font-size: 0.8rem; font-weight: 500; color: var(--muted); margin-bottom: 0.3rem; padding-right: 2.5rem; }
 .d-kind .line-icon { width: 16px; height: 16px; color: var(--blue); }
 .d-name { font-size: 1.75rem; font-weight: 600; color: var(--navy); letter-spacing: -0.03em; line-height: 1.1; margin-bottom: 0.35rem; padding-right: 2rem; }
+.d-local { font-size: 0.95rem; color: var(--muted); margin: -0.15rem 0 0.4rem; }
 .d-meta { font-size: 0.9rem; color: var(--muted); margin-bottom: 0.8rem; }
 .d-desc { font-size: 0.95rem; line-height: 1.6; color: var(--navy); margin-bottom: 1.1rem; }
 .d-fit { background: var(--panel); color: #fff; border-radius: var(--r-panel); padding: 0.95rem 1rem; margin-bottom: 1.1rem; position: relative; overflow: hidden; }
@@ -1105,6 +1106,7 @@ html.detail-open, body.detail-open { overflow: hidden !important; overscroll-beh
     <div class="d-handle"></div>
     <div class="d-kind" id="d-kind"></div>
     <h2 id="d-name" class="d-name"></h2>
+    <p id="d-local" class="d-local" hidden></p>
     <p id="d-meta" class="d-meta"></p>
     <p id="d-desc" class="d-desc"></p>
     <section class="d-fit" aria-label="How this stop fits your day">
@@ -2826,6 +2828,11 @@ function openDetail(place){
   const visit=Number(place.suggestedVisitMinutes)||defaultVisitMinutes(place);
   document.getElementById('d-kind').innerHTML=`${placeLineIcon(place)}${STOP_CATEGORY_LABELS[place.category] || STOP_CATEGORY_LABELS[inferStopCategory(place)] || 'Stop'}`;
   document.getElementById('d-name').textContent=place.name;
+  // The name on signs and in local maps, for stops whose guide name is translated or romanised.
+  const plainName=value=>String(value||'').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^\p{L}\p{N}]+/gu,'');
+  const localName=document.getElementById('d-local');
+  localName.textContent=place.localName||'';
+  localName.hidden=!place.localName||plainName(place.localName)===plainName(place.name);
   document.getElementById('d-meta').textContent=place.subtitle || '';
   document.getElementById('d-desc').textContent=place.description || '';
   document.getElementById('d-dist').textContent=walk>45?'Ride':String(walk);

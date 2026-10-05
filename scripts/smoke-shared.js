@@ -4,7 +4,7 @@ import assert from 'assert';
 import fs from 'fs';
 import { fallbackTerminal, distanceMeters } from '../shared/port-resolution.js';
 import { selectCurationCandidates } from '../shared/poi-selection.js';
-import { buildCityData } from '../shared/poi-curation.js';
+import { buildCityData, latinName, tidyStopName } from '../shared/poi-curation.js';
 import { renderPortPage } from '../server/src/lib/port-page.js';
 import os from 'os';
 import path from 'path';
@@ -273,7 +273,7 @@ test('a stop whose website says it has closed is removed, even when the notice i
   const realFetch = globalThis.fetch;
   const filler = 'Explore the history of the harbour among the ruins and cannons. '.repeat(40);
   globalThis.fetch = async url => new Response(
-    `<html><body><h1>Battery Museum</h1><p>${filler}</p><p>${url.includes('closed') ? 'The museum is now permanently closed.' : 'We are now closed for the 2025 season.'}</p></body></html>`,
+    `<html><body><h1>Battery Museum</h1><p>${filler}</p><p>${url.includes('closed') ? 'The museum is now permanently closed.' : 'We are now closed for the 2025 season.'}</p><script>const notice = 'permanently closed';</script></body></html>`,
     { headers: { 'content-type': 'text/html' } });
   try {
     const guide = {
@@ -288,6 +288,17 @@ test('a stop whose website says it has closed is removed, even when the notice i
   } finally {
     globalThis.fetch = realFetch;
   }
+});
+
+test('stop names are tidied and read in Latin letters', () => {
+  assert.strictEqual(tidyStopName('LA HACIENDA GRILL - BAR'), 'La Hacienda Grill - Bar');
+  assert.strictEqual(tidyStopName('BBQ'), 'BBQ');
+  assert.strictEqual(tidyStopName('Post office (701)'), 'Post office');
+  assert.strictEqual(tidyStopName('Kem-Kon (เข้ม-ข้น)'), 'Kem-Kon');
+  assert.strictEqual(tidyStopName('Rizal Park (Luneta)'), 'Rizal Park (Luneta)');
+  assert.strictEqual(tidyStopName('THE CITY BAKERY アトレ品川'), 'The City Bakery');
+  assert.strictEqual(latinName({ name: '田子坊', osmTags: { 'name:zh_pinyin': 'Tiánzǐfāng' } }), 'Tiánzǐfāng');
+  assert.strictEqual(latinName({ name: 'Τινάνειος Κήπος', osmTags: {} }), '');
 });
 
 test('a website the model found only counts as live when it names the business', async () => {

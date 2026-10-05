@@ -4,11 +4,53 @@ export const CITY_MAX_TOKENS = 32000;
 const MAX_HIDDEN_GEMS = 7;
 export const CITY_SYSTEM_PROMPT = 'You are a careful cruise-port guide editor. Output only valid JSON. No narration, explanation, preamble, markdown, or citations outside the JSON fields.';
 
+const NON_LATIN = /[^\u0000-\u024f\u1e00-\u1eff\u2000-\u206f\u20a0-\u20cf\u2100-\u214f]/;
+const NON_LATIN_ALL = new RegExp(NON_LATIN.source, 'g');
+const GENERIC_NAME = /^(?:the )?(?:cafe|café|restaurant|bar|pub|bakery|beach|park|market|museum|church|viewpoint|shop|supermarket|pharmacy|kiosk|snack bar|playground)s?$/i;
+
+// A readable name from OpenStreetMap when the main one is in another script: its English name, or a romanised one
+// (name:ja-Latn, name:zh_pinyin, int_name and the like).
+export function latinName(poi) {
+  const tags = poi?.osmTags || {};
+  const candidates = [poi?.nameEnglish, tags['name:en'], tags.int_name,
+    ...Object.entries(tags).filter(([key]) => /^name:[a-z]{2,3}[-_](?:latn|rm|pinyin|latin)$/i.test(key)).map(([, value]) => value)];
+  return candidates.map(value => cleanString(value)).find(value => value && !NON_LATIN.test(value)) || '';
+}
+
+export function hasNonLatinName(name) {
+  return NON_LATIN.test(cleanString(name));
+}
+
+export function isGenericName(name) {
+  return GENERIC_NAME.test(cleanString(name));
+}
+
+// Shop signs in OpenStreetMap are often in capitals, and some names carry a reference number or the same name in
+// another script in brackets ("Post office (701)", "Kem-Kon (เข้ม-ข้น)").
+export function tidyStopName(name) {
+  let value = cleanString(name)
+    .replace(/\s*[(\[（][^)\]）]*[)\]）]/g, part => (/^[\s(\[（]*[\d\s#-]+[)\]）]$/.test(part) || NON_LATIN.test(part) ? '' : part))
+    .replace(/\s+/g, ' ')
+    .trim();
+  // A name mostly in Latin letters drops a short part in another script ("The City Bakery アトレ品川"). One mostly in
+  // another script is left whole for the model to name.
+  const other = value.match(NON_LATIN_ALL) || [];
+  if (other.length) {
+    const latin = value.replace(NON_LATIN_ALL, ' ').replace(/[\s\-–—|·・]+/gu, ' ').trim();
+    if ((latin.match(/\p{L}/gu) || []).length >= 2 * other.length) value = latin;
+    else return value;
+  }
+  if (value.length > 4 && value === value.toUpperCase() && /[A-Z]{4}/.test(value)) {
+    value = value.toLowerCase().replace(/(^|[\s\-'’&/])(\p{L})/gu, (match, gap, letter) => gap + letter.toUpperCase());
+  }
+  return value;
+}
+
 function compactPoi(poi, terminals = []) {
   const value = {
     id: poi.sourceId,
     n: poi.name,
-    e: poi.nameEnglish || undefined,
+    e: latinName(poi) || undefined,
     c: poi.category,
     s: poi.subcategory,
     lat: poi.lat,
@@ -70,10 +112,12 @@ Never invent anything. Describe a place only from its POI data (d is its Wikiped
 
 For each stop, write a subtitle of at most 15 words, a one- or two-sentence description, and suggestedVisitMinutes.
 
+Give each stop a "name": what an English-speaking visitor should see. Keep a place's own name when it is written in Latin letters and is what its sign says (Igreja de Santa Clara, Museo del Prado). Give the English or romanised name for anything written in another script (Greek, Japanese, Chinese, Thai, Arabic, Cyrillic and so on), using e when it has one. Use normal capitalisation instead of all capitals, drop reference numbers and repeated names in brackets, and shorten long official names to what people call the place. Never leave a bare word like "Museum" or "Viewpoint"; name which one it is.
+
 The summary says what the destination offers, how passengers get from the terminal into town with a realistic distance and travel time, and whether they can explore on foot.
 
 Return only this JSON:
-{"timezone":"","photo_query":"","overview":{"summary":""},"places":[{"sourceId":"","subtitle":"","description":"","suggestedVisitMinutes":45}],"supplementedPois":[{"sourceId":"supplement/example-slug","name":"","address":"","category":"attraction","subtitle":"","description":"","suggestedVisitMinutes":45}]}
+{"timezone":"","photo_query":"","overview":{"summary":""},"places":[{"sourceId":"","name":"","subtitle":"","description":"","suggestedVisitMinutes":45}],"supplementedPois":[{"sourceId":"supplement/example-slug","name":"","address":"","category":"attraction","subtitle":"","description":"","suggestedVisitMinutes":45}]}
 
 POI keys: id=sourceId, n=name, e=English name, c=category, s=subcategory, lat/lng, t=distance in metres, a=address, h=hours, u=cuisine, o=description, d=Wikipedia intro, k=Wikipedia editions covering the place, p=editor's pick, g=editor's gem candidate.
 ${suggestions}
@@ -125,6 +169,7 @@ function websiteUrl(...candidates) {
 
 function normalizeEditorial(editorial = {}) {
   return {
+    displayName: cleanString(editorial.name),
     subtitle: cleanString(editorial.subtitle),
     description: cleanString(editorial.description),
     suggestedVisitMinutes: clampMinutes(editorial.suggestedVisitMinutes),
@@ -151,7 +196,7 @@ function copySuppliedPoi(poi, editorial, googleMatch = null) {
     id: poi.sourceId,
     sourceId: poi.sourceId,
     source: 'supplied',
-    name: poi.nameEnglish || poi.name,
+    name: tidyStopName(generated.displayName || latinName(poi) || poi.name),
     localName: poi.name,
     subtitle: generated.subtitle,
     description: generated.description,
@@ -190,7 +235,7 @@ function copySupplement(poi) {
     id,
     sourceId: id,
     source: 'supplement',
-    name: cleanString(poi.name),
+    name: tidyStopName(poi.name),
     localName: cleanString(poi.name),
     subtitle: editorial.subtitle,
     description: editorial.description,
@@ -353,7 +398,9 @@ export function buildCityData(portInfo, catalog, curation = {}, googleMatches = 
     used.add(id);
     // An editor's gem stays a gem unless the model explicitly turns it down.
     const isGem = editorial.hiddenGem === true || (poi.gem && editorial.hiddenGem !== false);
-    (isGem ? hiddenGems : places).push(copySuppliedPoi(poi, editorial, googleMatches.pois?.[id]));
+    const stop = copySuppliedPoi(poi, editorial, googleMatches.pois?.[id]);
+    if (isGenericName(stop.name)) continue;
+    (isGem ? hiddenGems : places).push(stop);
   }
 
   const supplements = [];
