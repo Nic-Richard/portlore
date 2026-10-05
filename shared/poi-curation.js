@@ -82,6 +82,11 @@ export function buildCityCurationPrompt(portInfo, catalog) {
     ? `The port is about ${centreKm} km from ${centreName}'s centre. Passengers travel in by train, coach, or taxi, then explore on foot from there. t is each POI's distance in metres from ${centreName}'s centre.`
     : "Passengers explore on foot from the terminal. t is each POI's distance in metres from the nearest terminal.";
   const poiJson = JSON.stringify((catalog.pois || []).map(poi => compactPoi(poi, origins)));
+  const terminalNaming = terminals.some(terminal => hasNonLatinName(terminal.name))
+    ? `
+Some terminal names (n) are not in Latin letters. Also return "terminalNames": [{"n": "<the name as given>", "name": "<its English name>"}] for each of them, such as "Kobe Port Terminal".
+`
+    : '';
   const suggestions = Array.isArray(catalog.gemSuggestions) && catalog.gemSuggestions.length
     ? `
 Editor's hidden gem suggestions not in the POI list: ${JSON.stringify(catalog.gemSuggestions)}. Add any that hold up as new stops with "hiddenGem": true.
@@ -113,7 +118,7 @@ Never invent anything. Describe a place only from its POI data (d is its Wikiped
 For each stop, write a subtitle of at most 15 words, a one- or two-sentence description, and suggestedVisitMinutes.
 
 Give each stop a "name": what an English-speaking visitor should see. Keep a place's own name when it is written in Latin letters and is what its sign says (Igreja de Santa Clara, Museo del Prado). Give the English or romanised name for anything written in another script (Greek, Japanese, Chinese, Thai, Arabic, Cyrillic and so on), using e when it has one. Use normal capitalisation instead of all capitals, drop reference numbers and repeated names in brackets, and shorten long official names to what people call the place. Never leave a bare word like "Museum" or "Viewpoint"; name which one it is.
-
+${terminalNaming}
 The summary says what the destination offers, how passengers get from the terminal into town with a realistic distance and travel time, and whether they can explore on foot.
 
 Return only this JSON:
@@ -313,7 +318,7 @@ function nearestTerminal(place, terminals) {
 }
 
 function nameKey(value) {
-  return cleanString(value).toLowerCase().normalize('NFKD').replace(/[̀-ͯ]/g, '').replace(/[^a-z0-9]+/g, ' ').trim();
+  return cleanString(value).toLowerCase().normalize('NFKD').replace(/[\u0300-\u036f]/g, '').replace(/[^a-z0-9]+/g, ' ').trim();
 }
 
 // Drops an added stop when the model re-adds a supplied stop under a longer or shorter name.
@@ -420,7 +425,12 @@ export function buildCityData(portInfo, catalog, curation = {}, googleMatches = 
   places.push(...rankedGems.slice(MAX_HIDDEN_GEMS));
 
   const fallback = catalog.portAnchor || catalog.port || portInfo;
-  const terminals = buildTerminals(catalog, fallback, portInfo);
+  const englishTerminalNames = new Map((Array.isArray(curation.terminalNames) ? curation.terminalNames : [])
+    .map(item => [cleanString(item?.n), tidyStopName(item?.name)]));
+  const terminals = buildTerminals(catalog, fallback, portInfo).map(terminal => {
+    const name = hasNonLatinName(terminal.name) ? englishTerminalNames.get(cleanString(terminal.name)) : '';
+    return name && !hasNonLatinName(name) ? { ...terminal, name, localName: terminal.name } : terminal;
+  });
   const verifiedTerminals = terminals.some(item => item.verified);
   const defaultTerminal = terminals.find(item => item.id === catalog.defaultTerminalId) || terminals[0];
 

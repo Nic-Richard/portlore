@@ -1581,11 +1581,13 @@ document.getElementById('w-search-input').addEventListener('input', e => {
   searchTimeout = setTimeout(() => renderSearchResults(q), 150);
 });
 
+const plainText = value => String(value || '').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/[^a-z0-9]+/g, ' ').trim();
 function renderSearchResults(q) {
+  const query = plainText(q);
   const results = ports.filter(p =>
-    p.city.toLowerCase().includes(q) ||
-    p.country.toLowerCase().includes(q) ||
-    p.terminal.toLowerCase().includes(q)
+    plainText(p.city).includes(query) ||
+    plainText(p.country).includes(query) ||
+    plainText(p.terminal).includes(query)
   ).slice(0, 8);
 
   const el = document.getElementById('w-search-results');
@@ -2525,11 +2527,17 @@ function wnote(code, temp, wind, hour){
   return '';
 }
 
-function portPin(generated) {
-  return L.divIcon({
-    className: '',
-    html: `<div style="width:${generated ? 13 : 10}px;height:${generated ? 13 : 10}px;border-radius:50%;background:${generated ? '#1a4a7a' : '#7f9aaa'};border:2px solid white;box-shadow:0 1px 5px rgba(0,0,0,.35)"></div>`,
-    iconSize: [16, 16], iconAnchor: [8, 8]
+// Ports are drawn on one canvas per map so hundreds of them pan smoothly on phones; the wider tolerance keeps the
+// small dots easy to tap.
+function portDot(port, map) {
+  map.portCanvas = map.portCanvas || L.canvas({ tolerance: 8 });
+  return L.circleMarker([port.lat, port.lng], {
+    renderer: map.portCanvas,
+    radius: port.generated ? 6.5 : 5,
+    color: '#fff',
+    weight: 2,
+    fillColor: port.generated ? '#1a4a7a' : '#7f9aaa',
+    fillOpacity: 1,
   });
 }
 function openHomePortMap() {
@@ -2560,7 +2568,7 @@ function initHomePortMap() {
       selectPort(port);
       closeHomePortMap();
     });
-    const marker = L.marker([port.lat, port.lng], { icon: portPin(port.generated) }).addTo(homeMap).bindPopup(popup);
+    const marker = portDot(port, homeMap).addTo(homeMap).bindPopup(popup);
     homePortMarkers.push(marker);
   });
 
@@ -2704,7 +2712,7 @@ function addPins(map,markers){
     popup.innerHTML = `<strong>${port.city}</strong><div class="port-popup-meta">${port.terminal}, ${port.country}</div><div class="port-popup-actions"><button class="port-popup-select">Explore port</button><button class="port-popup-nav">Directions</button></div>`;
     popup.querySelector('.port-popup-select').addEventListener('click', () => switchPortFromMap(port));
     popup.querySelector('.port-popup-nav').addEventListener('click', () => openPortDirections(port));
-    L.marker([port.lat, port.lng], { icon: portPin(port.generated) }).addTo(map).bindPopup(popup);
+    portDot(port, map).addTo(map).bindPopup(popup);
   });
   const places=enrich([...(city.places || []), ...(city.hiddenGems || [])]);
   const group=L.markerClusterGroup?L.markerClusterGroup({maxClusterRadius:28,disableClusteringAtZoom:16,showCoverageOnHover:false,iconCreateFunction:cluster=>L.divIcon({className:'',html:`<div class="pin-cluster">${cluster.getChildCount()}</div>`,iconSize:[34,34]})}):map;
