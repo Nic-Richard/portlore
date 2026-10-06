@@ -95,10 +95,8 @@ try {
   socket = new WebSocket(targets.find(target => target.type === 'page').webSocketDebuggerUrl);
   await once(socket, 'open');
   let nextId = 0;
-  let navigation = 0;
   const pending = new Map();
   function command(method, params = {}) {
-    if (method === 'Page.navigate') navigation++;
     const id = ++nextId;
     return new Promise((resolve, reject) => {
       const timeout = setTimeout(() => { pending.delete(id); reject(Error(`CDP timeout: ${method}`)); }, 15000);
@@ -116,7 +114,6 @@ try {
     }
     if (message.method === 'Runtime.exceptionThrown') errors.push(message.params.exceptionDetails.exception?.description || message.params.exceptionDetails.text);
     if (message.method === 'Fetch.requestPaused') {
-      const requestNavigation = navigation;
       const { requestId, request, resourceType } = message.params;
       const url = new URL(request.url);
       try {
@@ -141,8 +138,8 @@ try {
         }
         await command('Fetch.fulfillRequest', { requestId, responseCode: status, responseHeaders: [{ name: 'Content-Type', value: type }, { name: 'Access-Control-Allow-Origin', value: '*' }], body: body.toString('base64') });
       } catch (error) {
-        // Navigation can cancel a paused request before Chrome accepts its fixture response.
-        if (requestNavigation !== navigation && error.message === 'Invalid InterceptionId.') {
+        // Chrome can retire a request before its queued interception event reaches the test.
+        if (error.message === 'Invalid InterceptionId.') {
           if (url.hostname === 'cancelled-fixture.invalid') cancelledFixtures++;
           return;
         }
