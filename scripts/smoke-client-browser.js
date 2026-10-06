@@ -41,6 +41,8 @@ const fixtures = Object.fromEntries(['halifax-canada', 'saint-john-canada'].map(
   }];
 }));
 let routeDelay = 0, guideOffline = false;
+let markFixturePaused, cancelledFixtures = 0;
+const fixturePaused = new Promise(resolve => { markFixturePaused = resolve; });
 const requests = [];
 function apiResponse(url, method) {
   const pathname = url.pathname;
@@ -93,8 +95,10 @@ try {
   socket = new WebSocket(targets.find(target => target.type === 'page').webSocketDebuggerUrl);
   await once(socket, 'open');
   let nextId = 0;
+  let navigation = 0;
   const pending = new Map();
   function command(method, params = {}) {
+    if (method === 'Page.navigate') navigation++;
     const id = ++nextId;
     return new Promise((resolve, reject) => {
       const timeout = setTimeout(() => { pending.delete(id); reject(Error(`CDP timeout: ${method}`)); }, 15000);
@@ -112,6 +116,7 @@ try {
     }
     if (message.method === 'Runtime.exceptionThrown') errors.push(message.params.exceptionDetails.exception?.description || message.params.exceptionDetails.text);
     if (message.method === 'Fetch.requestPaused') {
+      const requestNavigation = navigation;
       const { requestId, request, resourceType } = message.params;
       const url = new URL(request.url);
       try {
@@ -124,6 +129,9 @@ try {
         let body = Buffer.alloc(0), type = 'text/css', status = 200;
         if (vendors.has(request.url)) {
           body = vendors.get(request.url); type = url.pathname.endsWith('.js') ? 'application/javascript' : 'text/css';
+        } else if (url.hostname === 'cancelled-fixture.invalid') {
+          markFixturePaused();
+          await delay(200);
         } else if (url.hostname === 'portlore.com' || url.hostname === 'api.open-meteo.com') {
           const data = url.hostname === 'portlore.com' ? apiResponse(url, request.method) : { current: { temperature_2m: 18, weathercode: 0, windspeed_10m: 8 } };
           if (url.pathname === '/api/route') await delay(routeDelay);
@@ -132,7 +140,14 @@ try {
           body = Buffer.from('iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+a7x8AAAAASUVORK5CYII=', 'base64'); type = 'image/png';
         }
         await command('Fetch.fulfillRequest', { requestId, responseCode: status, responseHeaders: [{ name: 'Content-Type', value: type }, { name: 'Access-Control-Allow-Origin', value: '*' }], body: body.toString('base64') });
-      } catch (error) { errors.push(error.message); }
+      } catch (error) {
+        // Navigation can cancel a paused request before Chrome accepts its fixture response.
+        if (requestNavigation !== navigation && error.message === 'Invalid InterceptionId.') {
+          if (url.hostname === 'cancelled-fixture.invalid') cancelledFixtures++;
+          return;
+        }
+        errors.push(error.message);
+      }
     }
   });
   await command('Runtime.enable'); await command('Page.enable');
@@ -228,9 +243,13 @@ try {
   routeDelay = 0;
   assert.equal(await evaluate("document.querySelectorAll('#itin-list .itin-card').length"), 0);
   assert.equal(await evaluate("document.querySelectorAll('#hidden-gems-list .acard').length"), 1);
+  await evaluate("void fetch('https://cancelled-fixture.invalid/request').catch(() => {});");
+  await fixturePaused;
   guideOffline = true;
   await command('Page.navigate', { url: `${origin}/explore?minutes=240&port=saint-john-canada` });
   await until("document.querySelector('#toast').textContent.includes('Offline')", 'Saved offline guide');
+  await delay(250);
+  assert.equal(cancelledFixtures, 1, 'Cancelled fixture response must be ignored after navigation');
   guideOffline = false;
   await command('Page.addScriptToEvaluateOnNewDocument', { source: `window.Capacitor = { isNativePlatform: () => true, Plugins: { App: { addListener() {} }, SystemBars: { setStyle: async () => {} } } };` });
   await command('Page.navigate', { url: `${origin}/explore?minutes=240&port=halifax-canada` });
