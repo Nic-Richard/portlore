@@ -124,7 +124,7 @@ export async function removeClosedStops(guide, pages = new Map()) {
     }
   }));
   const places = (guide.places || []).filter(stop => !closed.has(stop.id));
-  if (!closed.size || !places.length) return [];
+  if (!closed.size) return [];
   guide.places = places;
   guide.hiddenGems = (guide.hiddenGems || []).filter(stop => !closed.has(stop.id));
   return linked.filter(stop => closed.has(stop.id)).map(stop => stop.name);

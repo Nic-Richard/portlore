@@ -290,6 +290,35 @@ test('a stop whose website says it has closed is removed, even when the notice i
   }
 });
 
+test('every closed stop is removed even when the main list becomes empty', async () => {
+  const realFetch = globalThis.fetch;
+  globalThis.fetch = async () => new Response('<html><body>We are permanently closed.</body></html>', {
+    headers: { 'content-type': 'text/html' },
+  });
+  try {
+    const guide = {
+      places: [{ id: 'a', name: 'Museum', website: 'https://closed.example' }],
+      hiddenGems: [{ id: 'b', name: 'Shop', website: 'https://closed.example' }],
+    };
+    assert.deepStrictEqual(await removeClosedStops(guide), ['Museum', 'Shop']);
+    assert.deepStrictEqual(guide.places, []);
+    assert.deepStrictEqual(guide.hiddenGems, []);
+  } finally {
+    globalThis.fetch = realFetch;
+  }
+});
+
+test('closed hidden gems are removed without changing open main stops', async () => {
+  const guide = {
+    places: [{ id: 'a', name: 'Park' }],
+    hiddenGems: [{ id: 'b', name: 'Shop', website: 'https://closed.example' }],
+  };
+  const pages = new Map([['https://closed.example', { closed: true }]]);
+  assert.deepStrictEqual(await removeClosedStops(guide, pages), ['Shop']);
+  assert.deepStrictEqual(guide.places.map(stop => stop.id), ['a']);
+  assert.deepStrictEqual(guide.hiddenGems, []);
+});
+
 test('stop names are tidied and read in Latin letters', () => {
   assert.strictEqual(tidyStopName('LA HACIENDA GRILL - BAR'), 'La Hacienda Grill - Bar');
   assert.strictEqual(tidyStopName('BBQ'), 'BBQ');

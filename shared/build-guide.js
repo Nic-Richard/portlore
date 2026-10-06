@@ -56,6 +56,7 @@ export async function buildGuideData(portInfo, catalog, { apiKey, cachePath, pat
   } catch (error) {
     websites.error = error.message;
   }
+  if (!data.places.length) throw new Error('No open stops remain in this guide');
   websites.searches += search.searches;
   websites.cost += search.cost;
   return { data, model, websites, googleSearches: googleSearchCount() - searchesBefore };
