@@ -92,6 +92,24 @@ node scripts/smoke-shared.js
 
 GitHub Actions runs both on every push, along with a syntax check and a check that `cities/ports.json` and the catalogs match `data/cruise-ports.json`.
 
+## Client checks
+
+The website and Capacitor app share `client/src/`. `index.html` loads `app.js`; maps, day planning,
+reminders, responsive screens and reusable guide logic live in separate ES modules. Styles live in
+`styles.css`. There is no client bundler or separate mobile implementation.
+
+```bash
+node --test scripts/test-client.js
+node scripts/smoke-client-browser.js
+```
+
+The regression tests run offline and also check native web packaging. Browser checks need Node 22
+or newer and Chrome. They use an isolated headless profile and fixture APIs, including the native
+API origin. They download
+only the existing Leaflet assets from cdnjs; guide generation, live APIs, fonts and map tiles are
+not requested. Set `CHROME_PATH` if Chrome is not at its usual Windows path or `google-chrome` on Linux.
+CI runs both checks. Actual Android plugin behavior still needs an emulator or device check.
+
 ## Local setup
 
 Requirements:

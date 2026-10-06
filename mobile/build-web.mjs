@@ -9,6 +9,7 @@ const www = path.join(here, 'www');
 
 fs.rmSync(www, { recursive: true, force: true });
 fs.cpSync(path.join(client, 'public'), www, { recursive: true });
+fs.cpSync(path.join(client, 'src'), www, { recursive: true, filter: source => !source.endsWith('package.json') });
 // The app draws edge to edge, under the status bar; the website keeps its normal viewport.
 const html = fs.readFileSync(path.join(client, 'src', 'index.html'), 'utf8')
   .replace('maximum-scale=1.0"', 'maximum-scale=1.0, viewport-fit=cover"');

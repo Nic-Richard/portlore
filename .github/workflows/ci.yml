@@ -15,7 +15,16 @@ jobs:
           node-version: 22
 
       - name: Syntax check
-        run: for file in $(git ls-files 'scripts/*.js' 'shared/*.js' 'server/src/**/*.js' 'server/src/*.js'); do node --check "$file"; done
+        run: for file in $(git ls-files 'client/src/*.js' 'mobile/*.mjs' 'scripts/*.js' 'shared/*.js' 'server/src/**/*.js' 'server/src/*.js'); do node --check "$file"; done
+
+      - name: Client regression tests
+        run: node --test scripts/test-client.js
+
+      - name: Headless client checks
+        run: node scripts/smoke-client-browser.js
+
+      - name: Native web assets
+        run: node mobile/build-web.mjs
 
       - name: Shared logic tests
         run: node scripts/smoke-shared.js
