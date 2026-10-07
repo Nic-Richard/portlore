@@ -1,6 +1,7 @@
 import { inferStopCategory, defaultVisitMinutes, walkMinutes } from './places.js';
 import { lineIconSvg, placeLineIcon } from './icons.js';
 import { API_ORIGIN } from './platform.js';
+import { addBasemap } from './basemap.js';
 
 export function createMaps(state, { syncSystemBars, selectPort, switchPortFromMap, terminalKey, setActiveTerminal, enrich, googleMapsSearchUrl, googleMapsDirectionsUrl, openDetail, getItinPlaces, isInItin, addToItin, removeFromItin }) {
   const searchTokens = { desktop: 0, mobile: 0 };
@@ -35,7 +36,7 @@ export function createMaps(state, { syncSystemBars, selectPort, switchPortFromMa
     if (state.homeMapReady || !state.ports.length) return;
     state.homeMapReady = true;
     state.homeMap = L.map('home-port-map', { worldCopyJump: true }).setView([25, -20], 2);
-    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', { attribution: '© OpenStreetMap', maxZoom: 18 }).addTo(state.homeMap);
+    addBasemap(state.homeMap, API_ORIGIN);
 
     state.ports.forEach(port => {
       const popup = document.createElement('div');
@@ -234,8 +235,8 @@ export function createMaps(state, { syncSystemBars, selectPort, switchPortFromMa
     map.fitBounds(bounds,{padding:[24,24],maxZoom:17});
     drawPlanLine(map);
   }
-  function initDesktopMap(){if(state.dReady||!state.city)return;state.dReady=true;state.dMap=L.map('dp-map',{zoomControl:false,scrollWheelZoom:true}).setView([state.city.port.lat,state.city.port.lng],14);L.control.zoom({position:'bottomright'}).addTo(state.dMap);L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'© OpenStreetMap',maxZoom:19}).addTo(state.dMap);addPins(state.dMap,state.dMarkers);fitStops(state.dMap);state.dMap.on('click',clearSelectedMapPlace);if(state.userLat!==null)state.dUserPin=L.marker([state.userLat,state.userLng],{icon:youPin()}).addTo(state.dMap);}
-  function initMobileMap(){if(state.mReady||!state.city)return;state.mReady=true;state.mMap=L.map('map-container',{zoomControl:false}).setView([state.city.port.lat,state.city.port.lng],14);L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'© OpenStreetMap',maxZoom:19}).addTo(state.mMap);addPins(state.mMap,state.mMarkers);state.mMap.on('click',clearSelectedMapPlace);if(state.userLat!==null)state.mUserPin=L.marker([state.userLat,state.userLng],{icon:youPin()}).addTo(state.mMap);const map=state.mMap;setTimeout(()=>{if(state.mMap!==map)return;map.invalidateSize();fitStops(map);},80);}
+  function initDesktopMap(){if(state.dReady||!state.city)return;state.dReady=true;state.dMap=L.map('dp-map',{zoomControl:false,scrollWheelZoom:true}).setView([state.city.port.lat,state.city.port.lng],14);L.control.zoom({position:'bottomright'}).addTo(state.dMap);addBasemap(state.dMap,API_ORIGIN);addPins(state.dMap,state.dMarkers);fitStops(state.dMap);state.dMap.on('click',clearSelectedMapPlace);if(state.userLat!==null)state.dUserPin=L.marker([state.userLat,state.userLng],{icon:youPin()}).addTo(state.dMap);}
+  function initMobileMap(){if(state.mReady||!state.city)return;state.mReady=true;state.mMap=L.map('map-container',{zoomControl:false}).setView([state.city.port.lat,state.city.port.lng],14);addBasemap(state.mMap,API_ORIGIN);addPins(state.mMap,state.mMarkers);state.mMap.on('click',clearSelectedMapPlace);if(state.userLat!==null)state.mUserPin=L.marker([state.userLat,state.userLng],{icon:youPin()}).addTo(state.mMap);const map=state.mMap;setTimeout(()=>{if(state.mMap!==map)return;map.invalidateSize();fitStops(map);},80);}
   function updateUserPins(){[[state.dMap,'d'],[state.mMap,'m']].forEach(([map,k])=>{if(!map||state.userLat===null)return;const cur=k==='d'?state.dUserPin:state.mUserPin;if(cur)map.removeLayer(cur);const pin=L.marker([state.userLat,state.userLng],{icon:youPin()}).addTo(map);if(k==='d')state.dUserPin=pin;else state.mUserPin=pin;});}
   function highlightPins(){refreshSelectedMapPins();}
   function pulsePin(id){const m=state.dMarkers[id];if(!m)return;const p=(state.city.places || []).find(x=>x.id===id)||(state.city.hiddenGems || []).find(x=>x.id===id);if(p)m.setIcon(makePlacePin(p,state.selectedMapPlaceId===id,true));}

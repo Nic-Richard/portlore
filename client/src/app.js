@@ -168,6 +168,7 @@ function findNearestPort(lat, lng) {
 function selectPort(port) {
   resetGoButton();
   state.selectedPort = port;
+  clearWelcomePhoto();
   document.getElementById('w-port-row').style.display = 'flex';
   document.getElementById('w-port-search').style.display = 'none';
   document.getElementById('w-port-name').textContent = port.city;
@@ -181,7 +182,7 @@ function selectPort(port) {
   if (port.generated) {
     fetchPortPhoto(port);
   } else {
-    fetchPhotoByQuery(`${port.city} ${port.country} harbor cruise port`, 'center 65%');
+    fetchPhotoByQuery('', 'center 65%', port.id);
   }
 }
 
@@ -194,25 +195,37 @@ async function fetchPortPhoto(port) {
     const r = await fetch(`${API_ORIGIN}/api/city/${port.id}`);
     if (!r.ok) return;
     const data = await r.json();
-    if (data.photo_query) {
-      await fetchPhotoByQuery(data.photo_query, data.background_position || 'center 70%');
-    }
+    if (state.selectedPort?.id !== port.id) return;
+    await fetchPhotoByQuery('', data.background_position || 'center 70%', port.id);
   } catch {}
 }
 
-async function fetchPhotoByQuery(query, bgPosition) {
+let photoRequest = 0;
+function clearWelcomePhoto() {
+  photoRequest++;
+  const photo = document.getElementById('w-photo');
+  photo.style.backgroundImage = '';
+  photo.classList.remove('loaded');
+  document.getElementById('w-photo-credit').textContent = '';
+}
+async function fetchPhotoByQuery(query, bgPosition, portId) {
+  clearWelcomePhoto();
+  const request = photoRequest;
+  const selectedPortId = state.selectedPort?.id;
   try {
-    const r = await fetch(`${API_ORIGIN}/api/photo?q=${encodeURIComponent(query)}`);
+    const search = portId ? `port=${encodeURIComponent(portId)}` : `q=${encodeURIComponent(query)}`;
+    const r = await fetch(`${API_ORIGIN}/api/photo?${search}`);
     if (!r.ok) return;
 
     const data = await r.json();
     if (data.photos?.length) {
-      applyPhoto(data.photos[Math.floor(Math.random() * data.photos.length)], bgPosition);
+      applyPhoto(data.photos[Math.floor(Math.random() * data.photos.length)], bgPosition,
+        () => request === photoRequest && state.selectedPort?.id === selectedPortId);
     }
   } catch {}
 }
 
-function applyPhoto(photoData, bgPosition) {
+function applyPhoto(photoData, bgPosition, isCurrent) {
   const url = typeof photoData === 'string' ? photoData : photoData?.url;
   const photographer = typeof photoData === 'object' ? photoData.photographer : null;
   const photographerUrl = typeof photoData === 'object' ? photoData.photographer_url : null;
@@ -220,6 +233,7 @@ function applyPhoto(photoData, bgPosition) {
   const photo = document.getElementById('w-photo');
   const img = new Image();
   img.onload = () => {
+    if (!isCurrent()) return;
     photo.style.backgroundImage = `url('${url}')`;
     photo.style.backgroundPosition = bgPosition || 'center 70%';
     photo.classList.add('loaded');
@@ -546,39 +560,6 @@ document.getElementById('goBtn').addEventListener('click', async () => {
   showPage('page-explore');
   bootExplore();
 });
-async function fetchCityPhoto() {
-  if (!state.city) return;
-  const query = state.city.photo_query || state.city.unsplash_query;
-  if (!query) return;
-
-  try {
-    const r = await fetch(`${API_ORIGIN}/api/photo?q=${encodeURIComponent(query)}`);
-    if (!r.ok) return;
-    const data = await r.json();
-    const photos = data.photos;
-    if (!photos || !photos.length) return;
-
-    const pick = photos[Math.floor(Math.random() * photos.length)];
-    const url = pick.url;
-    const photographer = pick.photographer;
-    const photographerUrl = pick.photographer_url;
-
-    if (!url) return;
-    const photo = document.getElementById('w-photo');
-    const img = new Image();
-    img.onload = () => {
-      photo.style.backgroundImage = `url('${url}')`;
-      photo.style.backgroundPosition = state.city.background_position || 'center 70%';
-      photo.classList.add('loaded');
-      if (photographer) {
-        document.getElementById('w-photo-credit').innerHTML =
-          `Photo by <a href="${photographerUrl}" target="_blank">${photographer}</a> on <a href="https://www.pexels.com" target="_blank">Pexels</a>`;
-      }
-    };
-    img.src = url;
-  } catch {
-  }
-}
 // The clock is the device's local time, which matches the port on the day; hours mode covers planning ahead.
 const timeState = { mode: 'aboard', aboard: null, hours: 240 };
 const STEP_MINS = 30;

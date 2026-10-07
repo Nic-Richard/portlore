@@ -3,6 +3,9 @@ import { test } from 'node:test';
 import { readFileSync, readdirSync } from 'node:fs';
 import { execFileSync } from 'node:child_process';
 import { fileURLToPath } from 'node:url';
+import { runInNewContext } from 'node:vm';
+import { MAP_TIERS, findMapTile } from '../client/src/basemap.js';
+import { mapRegion } from './build-map-tiles.js';
 import { findPorts } from '../client/src/search.js';
 import { createGuideStore } from '../client/src/storage.js';
 import { createGuideApi } from '../client/src/guide-api.js';
@@ -14,6 +17,7 @@ import { placeLineIcon } from '../client/src/icons.js';
 globalThis.window = {};
 const { createPlanner } = await import('../client/src/planner.js');
 const { createMaps } = await import('../client/src/maps.js');
+const mapRenderer = runInNewContext(readFileSync(new URL('../client/src/protomaps-leaflet-5.1.0.js', import.meta.url), 'utf8') + '\n; protomapsL');
 
 function memoryStorage() {
   const values = new Map();
@@ -57,6 +61,51 @@ const mapActions = {
   openDetail: quiet, getItinPlaces: () => [], isInItin: () => false,
   addToItin: quiet, removeFromItin: quiet,
 };
+
+test('map fallback uses the nearest available parent and preserves its transform', async () => {
+  assert.deepEqual(MAP_TIERS.flatMap(tier => Array.from({ length: tier.maxZoom - tier.minZoom + 1 }, (_, i) => tier.minZoom + i)), Array.from({ length: 16 }, (_, i) => i));
+  const calls = [];
+  const cache = { tileSize: 512, get: async tile => {
+    calls.push(tile);
+    return tile.z <= 13 ? new Map([['roads', []]]) : new Map();
+  } };
+  const views = Array.from({ length: 16 }, (_, z) => new mapRenderer.View(cache, z, 1));
+  const coordinates = { z: 19, x: 169563, y: 189357 };
+  const tile = await findMapTile(views, coordinates);
+  assert.deepEqual(calls.map(tile => tile.z), [15, 14, 13]);
+  assert.equal(tile.dataTile.x, Math.floor(coordinates.x / 64));
+  assert.equal(tile.dataTile.y, Math.floor(coordinates.y / 64));
+  assert.equal(tile.scale, 32);
+  assert.equal(tile.dim, 16384);
+  assert.equal(tile.origin.x, Math.floor(coordinates.x / 64) * 16384);
+  assert.equal(tile.origin.y, Math.floor(coordinates.y / 64) * 16384);
+  calls.length = 0;
+  assert.equal((await findMapTile(views, { z: 2, x: 2, y: 1 })).dataTile.z, 1);
+  assert.deepEqual(calls.map(tile => tile.z), [1]);
+  assert.equal((await findMapTile(views, { z: 0, x: 0, y: 0 })).dataTile.z, 0);
+});
+
+test('map fallback does not hide network failures or missing world coverage', async () => {
+  const empty = { getDisplayTile: async () => ({ data: new Map() }) };
+  await assert.rejects(findMapTile(Array(16).fill(empty), { z: 19 }), /No background map tile/);
+  let parentCalls = 0;
+  const views = Array(16).fill({ getDisplayTile: async () => { parentCalls++; } });
+  views[15] = { getDisplayTile: async () => { throw Error('Network failure'); } };
+  await assert.rejects(findMapTile(views, { z: 19 }), /Network failure/);
+  assert.equal(parentCalls, 0);
+});
+
+test('map coverage includes gateway anchors and splits dateline rectangles', () => {
+  const region = mapRegion([{ lat: 0, lng: 179.9 }, { lat: 78, lng: -179.9 }, { lat: 41.9, lng: 12.5 }], 30);
+  assert.equal(region.coordinates.length, 5);
+  for (const [ring] of region.coordinates) {
+    assert.deepEqual(ring[0], ring.at(-1));
+    assert.ok(ring.every(([lng, lat]) => Math.abs(lng) <= 180 && Math.abs(lat) < 85.052));
+  }
+  assert.ok(region.coordinates[0][0][0][1] < -30 / 111);
+  assert.ok(region.coordinates.at(-1)[0].some(([lng]) => lng > 12.5));
+  assert.throws(() => mapRegion([{ lat: 0, lng: NaN }], 30), /Invalid map anchor/);
+});
 
 test('port search ignores accents, combining marks and punctuation across all fields', () => {
   const ports = [

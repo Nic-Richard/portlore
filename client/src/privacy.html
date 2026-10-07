@@ -39,7 +39,7 @@ footer a { color: var(--muted); }
   <a class="wordmark" href="/">Portlore</a>
 
   <h1>Privacy Policy</h1>
-  <p class="updated">Last updated: September 28, 2026</p>
+  <p class="updated">Last updated: October 7, 2026</p>
   <p class="intro">This policy explains what Portlore collects and how it is used. Portlore is operated by Nic Richard in New Brunswick, Canada.</p>
 
   <section>
@@ -49,7 +49,7 @@ footer a { color: var(--muted); }
 
   <section>
     <h2>2. Your location</h2>
-    <p>If you allow it, Portlore uses your device's location to find your nearest cruise port and to show walking distances to places. Your location stays on your device. It is never sent to Portlore's servers or stored.</p>
+    <p>If you allow it, Portlore uses your device's location to find your nearest cruise port, show your position on the map, and estimate distances to places. Your precise device coordinates stay on your device; Portlore does not send them to its server or save them.</p>
     <p>If you don't allow location access, Portlore shows distances from the cruise terminal instead.</p>
   </section>
 
@@ -58,6 +58,7 @@ footer a { color: var(--muted); }
     <ul>
       <li>The ports and places you look up.</li>
       <li>The stops in an itinerary, to calculate travel times between them. These requests contain the places' coordinates, not your location.</li>
+      <li>Map tile requests, which indicate the areas and zoom levels you view, and nearby searches with the selected terminal's coordinates.</li>
       <li>Basic technical information found in server logs, such as IP address, browser, and request times.</li>
     </ul>
     <p>IP addresses are also kept briefly in memory to limit how often new port guides can be generated.</p>
@@ -65,18 +66,19 @@ footer a { color: var(--muted); }
 
   <section>
     <h2>4. Analytics</h2>
-    <p>Portlore uses TraceTray to understand how people use the site. It records things like cursor movement, taps, scrolling, and which pages are visited, and stores a random visitor ID in your browser so visits can be grouped together. It doesn't record what you type, form entries, or anything that identifies you, and it isn't used for advertising. See <a href="https://tracetray.com/privacy.html">TraceTray's privacy policy</a> for details.</p>
+    <p>Portlore uses TraceTray to understand how people use the site. It records things like cursor movement, taps, scrolling, and which pages are visited, and stores a random visitor ID in your browser so visits can be grouped together. It doesn't record what you type or form entries, and it isn't used for advertising. Like other web services, TraceTray receives technical request information such as your IP address. See <a href="https://tracetray.com/privacy.html">TraceTray's privacy policy</a> for details.</p>
   </section>
 
   <section>
     <h2>5. Third-party services</h2>
-    <p>While you use Portlore, your browser loads map tiles from OpenStreetMap, weather for the port from Open-Meteo, fonts from Google Fonts, and the map library from unpkg. Like any web request, these services receive your IP address. Links to Google Maps open Google's own site.</p>
-    <p>Portlore's server uses Google Places and Google Routes for place and travel details, and Anthropic to write short place descriptions. These services receive place information only, never information about you.</p>
+    <p>Map tiles and the Protomaps renderer are served by Portlore, not a third-party tile server. Your browser or app also loads port weather from Open-Meteo, photos from Pexels, fonts from Google Fonts, and Leaflet from cdnjs. These services receive your IP address and normal request information. Links to Google Maps open Google's own site or app.</p>
+    <p>Portlore's server uses <a href="https://nominatim.org/">Nominatim</a> for nearby place searches and an <a href="https://routing.openstreetmap.de/">OpenStreetMap-based routing service</a> for walking routes, Pexels for photo searches, Google Places to check places and find their Maps IDs, and Google Gemini to help write guides. Anthropic may be used instead of Gemini when configured. These server-to-server requests contain port, place, search or route information, not your device's precise location or a visitor ID.</p>
   </section>
 
   <section>
     <h2>6. Cookies and storage</h2>
-    <p>Portlore doesn't use cookies. The only thing stored in your browser is TraceTray's random visitor ID, described above.</p>
+    <p>Portlore doesn't set cookies. It uses local storage in your browser or app for the port list, the last ten guides opened, selected terminals, and sail-away reminder preferences. This lets you reopen saved guides without a connection; maps and photos still need one. TraceTray also stores its random visitor ID as described above.</p>
+    <p>In the Android app, enabled sail-away reminders are scheduled on your device with notification permissions. You can remove locally saved information by clearing site data in your browser or app storage in Android settings.</p>
   </section>
 
   <section>
@@ -99,7 +101,7 @@ footer a { color: var(--muted); }
     <p>Questions or requests about privacy can be sent to <a href="mailto:support@portlore.com">support@portlore.com</a>.</p>
   </section>
 
-  <footer><a href="/">Portlore</a> · <a href="/terms">Terms of Use</a></footer>
+  <footer><a href="/">Portlore</a> · <a href="/terms">Terms of Use</a> · <a href="/map-licenses.html">Map licences</a></footer>
 </main>
 <!-- TraceTray loads only on the live domain; a site key binds to the first domain that sends it data. -->
 <script>

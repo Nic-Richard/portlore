@@ -2,7 +2,7 @@ import assert from 'node:assert/strict';
 import { createServer } from 'node:http';
 import { spawn } from 'node:child_process';
 import { once } from 'node:events';
-import { readFile, mkdtemp, rm } from 'node:fs/promises';
+import { readFile, mkdtemp, rm, open } from 'node:fs/promises';
 import { existsSync } from 'node:fs';
 import { tmpdir } from 'node:os';
 import path from 'node:path';
@@ -14,6 +14,31 @@ const chrome = process.env.CHROME_PATH || (process.platform === 'win32'
 const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
 const html = await readFile(path.join(root, 'client/src/index.html'), 'utf8');
 const ports = JSON.parse(await readFile(path.join(root, 'cities/ports.json'), 'utf8'));
+const mapFixture = await readFile(path.join(root, 'scripts/fixtures/world.pmtiles'));
+const mapRequests = [];
+async function mapResponse(url, headers = {}) {
+  if (!/^\/maps\/(world|outer|region|town|detail)\.pmtiles$/.test(url.pathname)) return null;
+  const file = process.env.MAP_FIXTURE_DIR
+    ? await open(path.join(process.env.MAP_FIXTURE_DIR, path.basename(url.pathname))) : null;
+  try {
+    const size = file ? (await file.stat()).size : mapFixture.length;
+    const range = (headers.range || headers.Range)?.match(/^bytes=(\d+)-(\d+)$/);
+    assert.ok(range, 'Browser maps must use bounded byte ranges, not download whole archives');
+    const start = Number(range[1]), end = Math.min(Number(range[2]), size - 1);
+    assert.ok(start <= end && end < size, 'Map Range request must fit the archive');
+    const body = file ? Buffer.alloc(end - start + 1) : mapFixture.subarray(start, end + 1);
+    if (file) {
+      const { bytesRead } = await file.read(body, 0, body.length, start);
+      assert.equal(bytesRead, body.length, 'Complete map range must be read');
+    }
+    mapRequests.push(url.href);
+    return { status: 206, body, headers: {
+      'Content-Type': 'application/octet-stream', 'Accept-Ranges': 'bytes',
+      'Access-Control-Allow-Origin': '*', 'Access-Control-Expose-Headers': 'ETag, Content-Range',
+      'Content-Range': `bytes ${start}-${end}/${size}`,
+    } };
+  } finally { await file?.close(); }
+}
 const vendors = new Map();
 for (const url of new Set(html.match(/https:\/\/cdnjs\.cloudflare\.com\/[^"\s]+/g))) {
   const response = await fetch(url, { signal: AbortSignal.timeout(20000) });
@@ -44,6 +69,7 @@ let routeDelay = 0, guideOffline = false;
 let markFixturePaused, cancelledFixtures = 0;
 const fixturePaused = new Promise(resolve => { markFixturePaused = resolve; });
 const requests = [];
+const photoPorts = [];
 function apiResponse(url, method) {
   const pathname = url.pathname;
   requests.push(`${method} ${pathname}`);
@@ -52,7 +78,10 @@ function apiResponse(url, method) {
   if (pathname.startsWith('/api/city/')) return fixtures[pathname.split('/').pop()] || null;
   if (pathname === '/api/generate/availability') return { available: true };
   if (pathname.startsWith('/api/generate/')) throw Error('Browser check must not generate a guide');
-  if (pathname === '/api/photo') return { photos: [] };
+  if (pathname === '/api/photo') {
+    photoPorts.push(url.searchParams.get('port'));
+    return { photos: [{ url: `https://images.example/${url.searchParams.get('port') || 'generic'}.png`, photographer: 'Fixture', photographer_url: 'https://www.pexels.com/@fixture' }] };
+  }
   if (pathname === '/api/nearby') return { results: [{ id: 'nearby-coffee', name: 'Nearby Coffee', category: 'food_drink', lat: 44.65, lng: -63.57, address: 'Fixture address' }] };
   if (pathname === '/api/route') return { durationSeconds: 360, legs: [{ durationSeconds: 180 }, { durationSeconds: 180 }], path: [[44.65, -63.57], [44.651, -63.57]] };
   return null;
@@ -60,6 +89,8 @@ function apiResponse(url, method) {
 const server = createServer(async (request, response) => {
   try {
     const url = new URL(request.url, 'http://localhost');
+    const map = await mapResponse(url, request.headers);
+    if (map) { response.writeHead(map.status, map.headers).end(map.body); return; }
     if (url.pathname === '/ports.json' || url.pathname.startsWith('/api/')) {
       if (guideOffline && url.pathname.startsWith('/api/city/')) { request.socket.destroy(); return; }
       const data = apiResponse(url, request.method);
@@ -113,6 +144,7 @@ try {
       if (message.error) waiter.reject(Error(message.error.message)); else waiter.resolve(message.result);
     }
     if (message.method === 'Runtime.exceptionThrown') errors.push(message.params.exceptionDetails.exception?.description || message.params.exceptionDetails.text);
+    if (message.method === 'Runtime.consoleAPICalled' && message.params.type === 'error') errors.push(message.params.args.map(arg => arg.description || arg.value).join(' '));
     if (message.method === 'Fetch.requestPaused') {
       const { requestId, request, resourceType } = message.params;
       const url = new URL(request.url);
@@ -129,6 +161,12 @@ try {
         } else if (url.hostname === 'cancelled-fixture.invalid') {
           markFixturePaused();
           await delay(200);
+        } else if (url.hostname === 'portlore.com' && url.pathname.startsWith('/maps/')) {
+          const map = await mapResponse(url, request.headers);
+          assert.ok(map, 'Unexpected map archive');
+          await command('Fetch.fulfillRequest', { requestId, responseCode: map.status,
+            responseHeaders: Object.entries(map.headers).map(([name, value]) => ({ name, value })), body: map.body.toString('base64') });
+          return;
         } else if (url.hostname === 'portlore.com' || url.hostname === 'api.open-meteo.com') {
           const data = url.hostname === 'portlore.com' ? apiResponse(url, request.method) : { current: { temperature_2m: 18, weathercode: 0, windspeed_10m: 8 } };
           if (url.pathname === '/api/route') await delay(routeDelay);
@@ -178,6 +216,8 @@ try {
   await until("document.querySelector('#home-port-map canvas')", 'Port canvas map');
   assert.equal(await evaluate("document.querySelectorAll('#home-port-map .leaflet-interactive').length"), 0);
   assert.equal(await evaluate('window.portDots'), ports.length);
+  await until("document.querySelector('#home-port-map canvas.leaflet-tile-loaded')", 'World background tiles');
+  assert.ok(await evaluate("document.querySelector('#home-port-map .leaflet-control-attribution').textContent.includes('OpenStreetMap contributors')"));
   await click('#port-map-close');
   for (const [width, height] of [[360, 640], [390, 844], [430, 932], [915, 412], [1280, 600]]) {
     await viewport(width, height);
@@ -187,6 +227,7 @@ try {
   await viewport(1280, 800);
   await command('Page.navigate', { url: `${origin}/explore?minutes=240&port=halifax-canada` });
   await until("document.querySelectorAll('#explore-list .acard').length === 3 && document.querySelector('#dp-map canvas')", 'Desktop guide and map');
+  await until("document.querySelector('#dp-map canvas.leaflet-tile-loaded')", 'Desktop background fallback');
   await click('#explore-list .acard-add');
   await until("document.querySelectorAll('#itin-list .itin-card').length === 1", 'Add to day');
   await click('[data-tab="itinerary"]');
@@ -212,6 +253,7 @@ try {
   await viewport(390, 844);
   await click('[data-tab="map"]');
   await until("document.querySelector('#map-container canvas')", 'Phone map');
+  await until("document.querySelector('#map-container canvas.leaflet-tile-loaded')", 'Phone background fallback');
   await viewport(1280, 800);
   await until("document.querySelector('[data-tab=explore]').classList.contains('active')", 'Wide-screen map tab switch');
   await viewport(390, 844);
@@ -255,10 +297,15 @@ try {
   await viewport(390, 844);
   await click('[data-tab="map"]');
   await until("document.querySelector('#map-container canvas')", 'Native phone map');
+  await until("document.querySelector('#map-container canvas.leaflet-tile-loaded')", 'Native background tiles');
+  assert.ok(mapRequests.some(url => url.startsWith('https://portlore.com/maps/')));
   await click('#backBtn');
   await delay(200);
   assert.ok(await evaluate("document.querySelector('#page-welcome').classList.contains('active')"));
   assert.ok(requests.every(request => !/POST \/api\/generate\//.test(request)));
+  await command('Page.navigate', { url: `${origin}/?port=saint-john-canada` });
+  await until("document.querySelector('#w-photo').style.backgroundImage.includes('saint-john-canada.png')", 'Port-specific welcome photo');
+  assert.ok(photoPorts.includes('saint-john-canada'));
   assert.deepEqual(errors, []);
   console.log('Headless client checks passed: search, canvas maps, planner, details, nearby search, responsive tabs, port reset, late route, offline guide and native origin.');
 } finally {

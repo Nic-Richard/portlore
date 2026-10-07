@@ -1,11 +1,21 @@
 import { Router } from 'express';
+import { readFileSync } from 'node:fs';
+import path from 'node:path';
+import { CITIES_DIR, readPorts } from '../lib/guides.js';
+import { portPhotoQuery } from '../../../shared/photo-query.js';
 
 const router = Router();
 
-const cache = {};
+const cache = new Map();
 
-export async function findPhotos(query, { timeoutMs } = {}) {
-  if (cache[query]) return cache[query];
+export async function findPhotos(query, { timeoutMs, port } = {}) {
+  if (port) {
+    let anchor;
+    try { anchor = JSON.parse(readFileSync(path.join(CITIES_DIR, 'poi', `${port.id}.json`), 'utf8')).portAnchor; } catch {}
+    query = portPhotoQuery(port, anchor);
+  }
+  const cacheKey = `${port?.id || ''}|${query}`;
+  if (cache.has(cacheKey)) return cache.get(cacheKey);
 
   const key = process.env.PEXELS_API_KEY;
   if (!key) throw new Error('Pexels API key not configured');
@@ -22,16 +32,19 @@ export async function findPhotos(query, { timeoutMs } = {}) {
     photographer_url: p.photographer_url,
   })).filter(p => p.url);
 
-  cache[query] = { photos };
-  return cache[query];
+  const result = { photos };
+  cache.set(cacheKey, result);
+  return result;
 }
 
 router.get('/', async (req, res) => {
-  const query = req.query.q;
-  if (!query) return res.status(400).json({ error: 'Missing query parameter q' });
+  const port = typeof req.query.port === 'string' ? readPorts().find(p => p.id === req.query.port) : null;
+  if (req.query.port !== undefined && !port) return res.status(400).json({ error: 'Unknown port' });
+  const query = typeof req.query.q === 'string' ? req.query.q.trim() : '';
+  if (!port && !query) return res.status(400).json({ error: 'Provide a port or query parameter q' });
 
   try {
-    res.json(await findPhotos(query));
+    res.json(await findPhotos(query, { port }));
   } catch (err) {
     res.status(500).json({ error: err.message });
   }

@@ -28,7 +28,7 @@ cities/ports.json        Generated from data/cruise-ports.json
 cities/poi/              Generated POI shortlists, one per port
 ```
 
-The frontend is currently contained in `client/src/index.html` and can be reworked into a more structured client later.
+The web and Android app share the ES modules and styles in `client/src/`.
 
 ## How the data is made
 
@@ -112,6 +112,41 @@ CI runs both checks. Actual Android plugin behavior still needs an emulator or d
 
 ## Local setup
 
+### Background maps
+
+All three maps use self-hosted Protomaps vector tiles. The Leaflet overlays, walking
+routes, stop clusters, terminal selection and nearby search are unchanged. Missing
+fine tiles fall back to an available parent tile, so detail decreases outside port
+regions without leaving empty rectangles.
+
+Install the [PMTiles CLI](https://github.com/protomaps/go-pmtiles/releases) (tested
+with v1.31.2). Choose a current build from [Protomaps downloads](https://docs.protomaps.com/basemaps/downloads).
+The script sizes the dataset without downloading tile payloads unless `--download`
+is supplied:
+
+```bash
+node scripts/build-map-tiles.js --build 20261007
+node scripts/build-map-tiles.js --build 20261007 --download
+```
+
+Use `--cli /path/to/pmtiles` if it is not on PATH. All terminals and gateway centres
+are included: world zooms 0-9, then 100/60/45 km tiers and a 30 km finest-detail core.
+The script refuses estimates above 15 GiB, verifies archive structure and records
+SHA-256 checksums. Its output in `data/map-tiles/<build>/` is ignored by Git.
+It requires a new output directory, including when retrying an interrupted build.
+
+For local use, serve the five archives under `/maps/` with HTTP Range support.
+On the server they live in `/var/www/portlore/maps/`, outside client releases. Map
+uploads are separate from `deploy.sh`: verify their checksums and free disk space
+before switching the client. Do not keep a full duplicate dataset on a small disk;
+prepare future updates locally and schedule their replacement separately.
+
+The 128 KB renderer is pinned to Protomaps Leaflet 5.1.0 and served locally, with
+its checksum and bundled licence notices in `client/src/map-notices.txt`. Map labels
+use system fonts. Visible OSM attribution and `map-licenses.html` cover the map
+data and archive downloads. The 68 KB browser-test fixture is a zoom-0 cutout of
+the October 7, 2026 Protomaps build, under the same map-data licence.
+
 Requirements:
 
 - Node.js 20 or newer
@@ -170,7 +205,7 @@ The script uploads the release, installs server dependencies, preserves existing
 
 Portlore is a planning tool. Opening hours, accessibility, transportation, terminal use, and cruise schedules can change. Travelers should confirm important details with official sources.
 
-Map data comes from OpenStreetMap contributors. Place descriptions draw on Wikipedia (CC BY-SA). Line icons are from [Lucide](https://lucide.dev) (ISC licence), plus a few drawn for Portlore in the same style.
+Map data comes from OpenStreetMap contributors under [ODbL 1.0](https://opendatacommons.org/licenses/odbl/1-0/), with public-domain Natural Earth data in the basemap. This also applies to the browser-test map fixture. Place descriptions draw on Wikipedia (CC BY-SA). Line icons are from [Lucide](https://lucide.dev) (ISC licence), plus a few drawn for Portlore in the same style.
 
 ## Adding or removing ports
 
