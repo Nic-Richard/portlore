@@ -226,6 +226,9 @@ try {
   await until("document.querySelector('#dp-map canvas.leaflet-tile-loaded')", 'Desktop background fallback');
   await click('#explore-list .acard-add');
   await until("document.querySelectorAll('#itin-list .itin-card').length === 1", 'Add to day');
+  await until("getComputedStyle(document.querySelector('#toast')).opacity === '1'", 'Visible add-to-day message');
+  assert.ok(await evaluate("document.querySelector('#toast').getBoundingClientRect().bottom <= innerHeight"));
+  await until("getComputedStyle(document.querySelector('#toast')).visibility === 'hidden'", 'Dismissed message is fully hidden');
   await click('[data-tab="itinerary"]');
   await until("document.querySelector('#itin-summary').textContent.includes('walking')", 'Walking route');
   await evaluate("const duration = document.querySelector('.itin-duration input'); duration.value = 90; duration.dispatchEvent(new Event('change', { bubbles: true }));");
@@ -286,7 +289,15 @@ try {
   await delay(250);
   assert.equal(cancelledFixtures, 1, 'Cancelled fixture response must be ignored after navigation');
   guideOffline = false;
-  await command('Page.addScriptToEvaluateOnNewDocument', { source: `window.Capacitor = { isNativePlatform: () => true, Plugins: { App: { addListener() {} }, SystemBars: { setStyle: async () => {} } } };` });
+  await command('Page.addScriptToEvaluateOnNewDocument', { source: `
+    window.Capacitor = { isNativePlatform: () => true, Plugins: { App: { addListener() {} }, SystemBars: { setStyle: async () => {} } } };
+    window.CapacitorWebFetch = window.fetch.bind(window);
+    const nativeFetch = window.fetch;
+    window.fetch = (resource, options) => {
+      if (String(resource).includes('/maps/') && new Headers(options?.headers).get('range') !== 'bytes=0-16383') return Promise.reject(Error('Native proxy cannot read map offsets'));
+      return nativeFetch(resource, options);
+    };
+  ` });
   await command('Page.navigate', { url: `${origin}/explore?minutes=240&port=halifax-canada` });
   await until("document.querySelectorAll('#explore-list .acard').length === 3", 'Native-origin client');
   assert.equal(await evaluate("import('/platform.js').then(platform => platform.API_ORIGIN)"), 'https://portlore.com');
@@ -294,6 +305,10 @@ try {
   await click('[data-tab="map"]');
   await until("document.querySelector('#map-container canvas')", 'Native phone map');
   await until("document.querySelector('#map-container canvas.leaflet-tile-loaded')", 'Native background tiles');
+  assert.equal(await evaluate(`(async () => {
+    const response = await fetch('https://portlore.com/maps/world.pmtiles', { headers: { Range: 'bytes=127-255' } });
+    return response.status === 206 && (await response.arrayBuffer()).byteLength === 129;
+  })()`), true, 'Native maps must read offsets beyond the archive header');
   assert.ok(mapRequests.some(url => url.startsWith('https://portlore.com/maps/')));
   await click('#backBtn');
   await delay(200);

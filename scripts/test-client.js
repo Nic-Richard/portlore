@@ -19,6 +19,27 @@ const { createPlanner } = await import('../client/src/planner.js');
 const { createMaps } = await import('../client/src/maps.js');
 const mapRenderer = runInNewContext(readFileSync(new URL('../client/src/protomaps-leaflet-5.1.0.js', import.meta.url), 'utf8') + '\n; protomapsL');
 
+test('native maps bypass the HTTP proxy without changing other requests', () => {
+  const source = readFileSync(new URL('../client/src/platform.js', import.meta.url), 'utf8').replace(/^export /gm, '');
+  const calls = [];
+  const raw = (resource, options) => { calls.push(['raw', resource, options]); };
+  const proxy = (resource, options) => { calls.push(['proxy', resource, options]); };
+  const window = { Capacitor: { isNativePlatform: () => true }, CapacitorWebFetch: raw, fetch: proxy };
+  runInNewContext(source, { window });
+  const options = { headers: { Range: 'bytes=58153-66728' }, signal: new AbortController().signal };
+  for (const resource of ['https://portlore.com/maps/detail.pmtiles', new URL('https://portlore.com/maps/world.pmtiles'), new Request('https://portlore.com/maps/town.pmtiles')]) {
+    window.fetch(resource, options);
+    assert.deepEqual(calls.at(-1), ['raw', resource, options]);
+  }
+  for (const resource of ['https://portlore.com/api/photo?q=Halifax', 'https://portlore.com/api/city/halifax-canada', 'https://portlore.com/ports.json', 'https://example.com/maps/world.pmtiles']) {
+    window.fetch(resource, options);
+    assert.deepEqual(calls.at(-1), ['proxy', resource, options]);
+  }
+  const browser = { CapacitorWebFetch: raw, fetch: proxy };
+  runInNewContext(source, { window: browser });
+  assert.equal(browser.fetch, proxy);
+});
+
 function memoryStorage() {
   const values = new Map();
   return {
