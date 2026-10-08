@@ -191,6 +191,27 @@ Generated guides are written to `cities/<port-id>.json`. The source files in `ci
 
 ## Deployment
 
+### Android release
+
+With JDK 21 and the Android SDK installed, build a signed Play bundle locally:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File mobile/build-release.ps1
+```
+
+This syncs the current client and writes the normal output at
+`mobile/android/app/build/outputs/bundle/release/app-release.aab`.
+The upload key and Windows-encrypted password live outside Git in `../keys/`;
+use `-KeyDirectory` for another location. Back up the key and password separately
+in a password manager before publishing. Release signing reads
+`PORTLORE_KEYSTORE_PATH` and `PORTLORE_KEYSTORE_PASSWORD` for other build environments.
+Unsigned release builds are rejected; debug builds need no release credentials.
+
+Increase `versionCode` in `mobile/android/app/build.gradle` for each Play upload.
+This builds the bundle only; it does not upload it to Play or deploy the website.
+
+### Website
+
 Copy `.env.deploy.example` to `.env.deploy` and add the SSH target and remote directory.
 
 Deploy with:

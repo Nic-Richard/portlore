@@ -1,5 +1,8 @@
 apply plugin: 'com.android.application'
 
+def releaseStore = System.getenv('PORTLORE_KEYSTORE_PATH')
+def releasePassword = System.getenv('PORTLORE_KEYSTORE_PASSWORD')
+
 android {
     namespace = "com.portlore.app"
     compileSdk = rootProject.ext.compileSdkVersion
@@ -16,10 +19,31 @@ android {
             ignoreAssetsPattern = '!.svn:!.git:!.ds_store:!*.scc:.*:!CVS:!thumbs.db:!picasa.ini:!*~'
         }
     }
+    signingConfigs {
+        release {
+            if (releaseStore && releasePassword) {
+                storeFile file(releaseStore)
+                storePassword releasePassword
+                keyAlias 'portlore-upload'
+                keyPassword releasePassword
+            }
+        }
+    }
     buildTypes {
         release {
+            signingConfig signingConfigs.release
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+tasks.configureEach {
+    if (name == 'preReleaseBuild') {
+        doFirst {
+            if (!releaseStore || !releasePassword) {
+                throw new GradleException('Release signing requires PORTLORE_KEYSTORE_PATH and PORTLORE_KEYSTORE_PASSWORD.')
+            }
         }
     }
 }
