@@ -6,9 +6,9 @@ import { findPhotos } from './photo.js';
 
 const router = Router();
 
-async function heroPhoto(port) {
+async function heroPhoto(query) {
   try {
-    return (await findPhotos('', { port, timeoutMs: 2500 })).photos[0] || null;
+    return (await findPhotos(query, { timeoutMs: 2500 })).photos[0] || null;
   } catch {
     return null;
   }
@@ -23,7 +23,7 @@ router.get('/ports/:id', async (req, res) => {
   }
 
   const guide = readGuide(id);
-  const photo = await heroPhoto(port);
+  const photo = await heroPhoto(guide?.photo_query || `${port.guideCentre || port.city} ${port.country}`);
   const nearby = ports
     .filter(p => p.id !== id)
     .map(p => ({ p, d: distanceMeters(port.lat, port.lng, p.lat, p.lng) }))

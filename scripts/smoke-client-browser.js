@@ -69,7 +69,6 @@ let routeDelay = 0, guideOffline = false;
 let markFixturePaused, cancelledFixtures = 0;
 const fixturePaused = new Promise(resolve => { markFixturePaused = resolve; });
 const requests = [];
-const photoPorts = [];
 function apiResponse(url, method) {
   const pathname = url.pathname;
   requests.push(`${method} ${pathname}`);
@@ -78,10 +77,7 @@ function apiResponse(url, method) {
   if (pathname.startsWith('/api/city/')) return fixtures[pathname.split('/').pop()] || null;
   if (pathname === '/api/generate/availability') return { available: true };
   if (pathname.startsWith('/api/generate/')) throw Error('Browser check must not generate a guide');
-  if (pathname === '/api/photo') {
-    photoPorts.push(url.searchParams.get('port'));
-    return { photos: [{ url: `https://images.example/${url.searchParams.get('port') || 'generic'}.png`, photographer: 'Fixture', photographer_url: 'https://www.pexels.com/@fixture' }] };
-  }
+  if (pathname === '/api/photo') return { photos: [] };
   if (pathname === '/api/nearby') return { results: [{ id: 'nearby-coffee', name: 'Nearby Coffee', category: 'food_drink', lat: 44.65, lng: -63.57, address: 'Fixture address' }] };
   if (pathname === '/api/route') return { durationSeconds: 360, legs: [{ durationSeconds: 180 }, { durationSeconds: 180 }], path: [[44.65, -63.57], [44.651, -63.57]] };
   return null;
@@ -303,9 +299,6 @@ try {
   await delay(200);
   assert.ok(await evaluate("document.querySelector('#page-welcome').classList.contains('active')"));
   assert.ok(requests.every(request => !/POST \/api\/generate\//.test(request)));
-  await command('Page.navigate', { url: `${origin}/?port=saint-john-canada` });
-  await until("document.querySelector('#w-photo').style.backgroundImage.includes('saint-john-canada.png')", 'Port-specific welcome photo');
-  assert.ok(photoPorts.includes('saint-john-canada'));
   assert.deepEqual(errors, []);
   console.log('Headless client checks passed: search, canvas maps, planner, details, nearby search, responsive tabs, port reset, late route, offline guide and native origin.');
 } finally {

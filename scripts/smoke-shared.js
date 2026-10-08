@@ -11,24 +11,12 @@ import path from 'path';
 import { isParkedDomain, liveWebsiteIds, removeClosedStops, websiteText } from '../shared/website-descriptions.js';
 import { fillPlaceIds, googleSearchCount, isWrongMatch, resolveCatalogGooglePlaces } from '../shared/google-places.js';
 import { isStale } from '../server/src/lib/generation.js';
-import { portPhotoQuery } from '../shared/photo-query.js';
 
 const tests = [];
 
 function test(name, fn) {
   tests.push({ name, fn });
 }
-
-test('photo queries reuse local address context and keep gateway centres', () => {
-  const port = { city: 'Saint John', country: 'Canada', lat: 45.27, lng: -66.06 };
-  const anchor = { ...port, address: 'Saint John, New Brunswick, Canada' };
-  assert.strictEqual(portPhotoQuery(port, anchor), anchor.address);
-  assert.strictEqual(portPhotoQuery(port), 'Saint John Canada');
-  assert.strictEqual(portPhotoQuery(port, { ...anchor, lat: 48 }), 'Saint John Canada');
-  assert.strictEqual(portPhotoQuery(port, { ...anchor, address: 'Another city, Canada' }), 'Saint John Canada');
-  assert.strictEqual(portPhotoQuery({ ...port, guideCentre: 'Rome', country: 'Italy' }, anchor), 'Rome Italy');
-  assert.strictEqual(portPhotoQuery({ ...port, guideCentre: 'Rome', country: 'Italy' }, { ...anchor, address: 'Civitavecchia (Rome), Italy' }), 'Rome Italy');
-});
 
 test('distanceMeters returns 0 for identical coordinates', () => {
   assert.strictEqual(distanceMeters(43.6532, -79.3832, 43.6532, -79.3832), 0);
