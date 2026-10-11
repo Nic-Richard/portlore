@@ -102,7 +102,7 @@
         <p><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.5 2"/></svg><span><b>A day that fits</b> before all aboard</span></p>
         <p><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M6 3h12l4 6-10 13L2 9Z"/><path d="M11 3 8 9l4 13 4-13-3-6"/><path d="M2 9h20"/></svg><span><b>Hidden gems</b> most passengers miss</span></p>
       </div>
-      <div class="w-legal"><a href="https://portlore.com/privacy" target="_blank" rel="noopener">Privacy</a> and <a href="https://portlore.com/terms" target="_blank" rel="noopener">terms</a></div>
+      <div class="w-legal"><a href="https://portlore.com/privacy" target="_blank" rel="noopener">Privacy</a> and <a href="https://portlore.com/terms" target="_blank" rel="noopener">terms</a> · <button type="button" class="w-legal-link" data-open-feedback>Report a problem</button></div>
     </div>
   </div>
 </div>
@@ -212,6 +212,10 @@
         <button class="mrow" id="b-sail"><div class="mrow-icon">🚢</div><div class="mrow-text"><div class="mrow-title">Sail-away reminder</div><div class="mrow-sub" id="sail-reminder-sub">Choose when to be alerted before departure</div></div><div class="mrow-status" id="sail-reminder-status">Off</div></button>
         <button class="mrow" id="b-port"><div class="mrow-icon">🗺️</div><div class="mrow-text"><div class="mrow-title">Back to port</div><div class="mrow-sub">Directions to your selected cruise terminal</div></div><div class="mrow-arr">›</div></button>
       </div>
+      <div class="more-lbl" style="margin-top:.75rem">Help</div>
+      <div class="more-list">
+        <button class="mrow" data-open-feedback><div class="mrow-icon">✉️</div><div class="mrow-text"><div class="mrow-title">Report a problem</div><div class="mrow-sub">Wrong place, closed stop, a bug or an idea</div></div><div class="mrow-arr">›</div></button>
+      </div>
       <div class="more-lbl" style="margin-top:.75rem">Language</div>
       <div class="lang-pills">
         <button class="lang-pill sel">EN</button>
@@ -255,6 +259,27 @@
     </div>
     <button class="reminder-picker-off" id="reminder-picker-off" type="button">Turn reminder off</button>
   </div>
+</div>
+
+<div class="reminder-picker" id="feedback" aria-hidden="true">
+  <div class="reminder-picker-backdrop" id="feedback-backdrop"></div>
+  <form class="reminder-picker-sheet feedback-sheet" id="feedback-form" role="dialog" aria-modal="true" aria-labelledby="feedback-title">
+    <div class="reminder-picker-handle"></div>
+    <div class="reminder-picker-title" id="feedback-title">Report a problem</div>
+    <div class="reminder-picker-sub">Wrong place, closed stop, a bug or an idea</div>
+    <div class="feedback-kinds" role="radiogroup" aria-label="What is it about?">
+      <label><input type="radio" name="kind" value="bug" checked/><span>Something is wrong</span></label>
+      <label><input type="radio" name="kind" value="idea"/><span>An idea</span></label>
+      <label><input type="radio" name="kind" value="other"/><span>Something else</span></label>
+    </div>
+    <textarea class="feedback-input" id="feedback-message" name="message" rows="4" maxlength="2000" placeholder="What happened, and where?" aria-label="Details"></textarea>
+    <input class="feedback-input" name="email" type="email" maxlength="200" placeholder="Email, if you'd like a reply (optional)" aria-label="Email"/>
+    <p class="feedback-error" id="feedback-error" role="alert"></p>
+    <div class="reminder-picker-actions">
+      <button class="reminder-picker-cancel" id="feedback-cancel" type="button">Cancel</button>
+      <button class="reminder-picker-save" id="feedback-send" type="submit" disabled>Send</button>
+    </div>
+  </form>
 </div>
 
 <div id="detail">

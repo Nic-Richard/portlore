@@ -1,3 +1,5 @@
+import { errorAlert } from './alerts.js';
+
 const DEBUG_PORTLORE = process.env.DEBUG_PORTLORE === '1';
 
 export function debug(...args) {
@@ -14,4 +16,5 @@ export function warn(...args) {
 
 export function error(...args) {
   console.error(...args);
+  errorAlert(args);
 }

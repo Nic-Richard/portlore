@@ -13,6 +13,7 @@ import {
   inProgress,
   readCatalog,
 } from '../lib/generation.js';
+import { sendAlert } from '../lib/alerts.js';
 
 const router = Router();
 const requestsByIp = new Map();
@@ -95,6 +96,13 @@ router.post('/:id', async (req, res) => {
 
   const availability = generationAvailability();
   if (!availability.available) {
+    if (availability.reason === 'daily_limit') {
+      sendAlert('costs', {
+        title: 'Daily guide limit reached',
+        description: 'New guides are refused until midnight UTC (GENERATION_DAILY_LIMIT).',
+        key: 'daily-limit',
+      });
+    }
     return res.status(429).json({ error: 'This port is temporarily unavailable.', ...availability });
   }
 

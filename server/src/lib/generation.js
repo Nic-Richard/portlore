@@ -4,6 +4,7 @@ import { POI_CATALOG_SCHEMA_VERSION } from '../../../shared/poi-curation.js';
 import { buildGuideData } from '../../../shared/build-guide.js';
 import { CITIES_DIR, readPorts } from './guides.js';
 import * as logger from './logger.js';
+import { sendAlert } from './alerts.js';
 
 const POI_DIR = path.join(CITIES_DIR, 'poi');
 const PORTS_FILE = path.join(CITIES_DIR, 'ports.json');
@@ -83,6 +84,17 @@ export async function buildGuide(id, portInfo, catalog, { patient = false } = {}
     if (websites.error) logger.warn(`Website descriptions failed for ${id}: ${websites.error}`);
     else logger.info(`Described ${id} from websites: checked=${websites.checked}, found=${websites.found}, searches=${websites.searches}, rewritten=${websites.rewritten}, dead=${websites.dead}, est_cost=$${websites.cost.toFixed(4)}`);
     fs.writeFileSync(path.join(CITIES_DIR, `${id}.json`), JSON.stringify(data, null, 2));
+    const usage = getDailyUsage();
+    sendAlert('costs', {
+      title: `Guide built: ${portInfo.city}, ${portInfo.country}`,
+      url: `https://portlore.com/ports/${id}`,
+      fields: [
+        { name: 'Model', value: model.model },
+        { name: 'Est. cost', value: `${(model.cost + (websites.cost || 0)).toFixed(4)}` },
+        { name: 'Google searches', value: String(googleSearches) },
+        { name: 'Today', value: `${usage.count} of ${getLimit('GENERATION_DAILY_LIMIT', 20)} builds` },
+      ],
+    });
 
     try {
       const ports = readPorts();

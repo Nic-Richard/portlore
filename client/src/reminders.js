@@ -1,6 +1,6 @@
 import { NATIVE_APP, nativePlugin } from './platform.js';
 
-export function createReminders(state, { showToast, closeDetail, closeHomePortMap, goToWelcome }) {
+export function createReminders(state, { showToast, closeDetail, closeHomePortMap, goToWelcome, closeFeedback, isFeedbackOpen }) {
   function sailReminderKey(){return state.city?.id?`portlore-sail-reminder:${state.city.id}`:'';}
   function sailReminderMinutesKey(){return state.city?.id?`portlore-sail-reminder-minutes:${state.city.id}`:'';}
   function sailReminderEnabled(){const key=sailReminderKey();return key?localStorage.getItem(key)==='1':false;}
@@ -170,6 +170,7 @@ export function createReminders(state, { showToast, closeDetail, closeHomePortMa
     if(isActive){scheduledSailAt=0;syncNativeSailReminder();}
   });
   nativePlugin('App')?.addListener('backButton',()=>{
+    if(isFeedbackOpen())return closeFeedback();
     if(document.getElementById('reminder-picker').classList.contains('open'))return closeReminderPicker();
     if(document.getElementById('detail').classList.contains('open'))return closeDetail();
     if(document.getElementById('port-map-overlay').classList.contains('open'))return closeHomePortMap();

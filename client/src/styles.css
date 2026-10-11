@@ -680,6 +680,16 @@ body { font-family: var(--sans); background: var(--sand); color: var(--text); mi
 .reminder-picker-actions button { border-radius:var(--r); padding:.78rem .8rem; font:700 .82rem var(--sans); cursor:pointer; }
 .reminder-picker-cancel { border:1px solid var(--border); background:var(--card); color:var(--navy); }
 .reminder-picker-save { border:1px solid var(--navy); background:var(--navy); color:white; }
+.feedback-kinds { display:flex; flex-wrap:wrap; gap:.4rem; margin-bottom:.6rem; }
+.feedback-kinds label { cursor:pointer; }
+.feedback-kinds input { position:absolute; opacity:0; pointer-events:none; }
+.feedback-kinds span { display:block; border:1px solid var(--border); background:var(--card); color:var(--navy); border-radius:999px; padding:.42rem .75rem; font:600 .76rem var(--sans); }
+.feedback-kinds input:checked + span { border-color:var(--navy); background:var(--navy); color:white; }
+.feedback-kinds input:focus-visible + span { outline:2px solid var(--navy); outline-offset:2px; }
+.feedback-input { display:block; width:100%; box-sizing:border-box; margin-bottom:.5rem; border:1px solid var(--border); border-radius:var(--r); background:var(--card); color:var(--navy); padding:.65rem .7rem; font:.85rem var(--sans); resize:vertical; }
+.feedback-error { min-height:1em; margin:0 0 .5rem; color:#9a3e3e; font-size:.76rem; }
+.reminder-picker-save:disabled { opacity:.5; cursor:default; }
+.w-legal-link { border:0; background:none; padding:0; color:inherit; font:inherit; text-decoration:underline; cursor:pointer; }
 .reminder-picker-off { width:100%; margin-top:.55rem; border:0; background:none; color:#9a3e3e; font:700 .76rem var(--sans); cursor:pointer; padding:.5rem; }
 
 

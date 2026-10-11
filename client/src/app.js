@@ -10,6 +10,7 @@ import { createPlanner } from './planner.js';
 import { createMaps } from './maps.js';
 import { createScreens, isDesktop } from './screens.js';
 import { createReminders } from './reminders.js';
+import { createFeedback } from './feedback.js';
 
 const state = createState();
 let activeStopCategory = 'all';
@@ -27,8 +28,9 @@ const { closeHomePortMap, resetExploreMaps, initDesktopMap, initMobileMap, updat
   googleMapsSearchUrl, googleMapsDirectionsUrl, openDetail, getItinPlaces, isInItin, addToItin, removeFromItin,
 });
 createScreens(state, { initDesktopMap, initMobileMap });
+const { closeFeedback, isFeedbackOpen } = createFeedback(state, { showToast });
 const { checkSailReminder, renderSailReminder, syncNativeSailReminder } = createReminders(state, {
-  showToast, closeDetail, closeHomePortMap, goToWelcome,
+  showToast, closeDetail, closeHomePortMap, goToWelcome, closeFeedback, isFeedbackOpen,
 });
 
 const PATH = window.location.pathname.replace(/\/$/, '') || '/';
