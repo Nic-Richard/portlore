@@ -2,6 +2,7 @@
   "name": "portlore-mobile",
   "version": "1.0.0",
   "scripts": {
+    "brand": "node scripts/build-brand-assets.mjs",
     "build:web": "node build-web.mjs",
     "sync": "node build-web.mjs && cap sync android",
     "open": "cap open android"
