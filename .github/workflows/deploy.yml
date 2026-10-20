@@ -1,0 +1,45 @@
+name: Deploy Portlore
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  actions: read
+
+concurrency:
+  group: portlore-production
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    environment: Production
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          ref: ${{ github.sha }}
+          persist-credentials: false
+      - name: Require successful CI for this commit
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          result=$(gh run list --workflow ci.yml --commit "$GITHUB_SHA" --branch main --event push --json conclusion --jq '.[0].conclusion')
+          test "$result" = success || { echo 'This commit must pass CI before deployment.'; exit 1; }
+      - name: Publish application and nginx configuration
+        env:
+          DEPLOY_KEY: ${{ secrets.PORTLORE_DEPLOY_KEY }}
+          DEPLOY_KNOWN_HOSTS: ${{ secrets.PORTLORE_DEPLOY_KNOWN_HOSTS }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          umask 077
+          key="$RUNNER_TEMP/portlore-deploy-key"
+          hosts="$RUNNER_TEMP/portlore-known-hosts"
+          trap 'rm -f "$key" "$hosts"' EXIT
+          printf '%s\n' "$DEPLOY_KEY" > "$key"
+          printf '%s\n' "$DEPLOY_KNOWN_HOSTS" > "$hosts"
+          git archive --format=tar.gz HEAD client/src client/public server/src server/package.json server/package-lock.json shared deploy/nginx.conf |
+            ssh -T -i "$key" -o IdentitiesOnly=yes -o BatchMode=yes -o StrictHostKeyChecking=yes -o UserKnownHostsFile="$hosts" root@5.78.178.181 "deploy $GITHUB_SHA"
