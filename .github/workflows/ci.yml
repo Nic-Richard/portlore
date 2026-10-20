@@ -18,7 +18,7 @@ jobs:
         run: for file in $(git ls-files 'client/src/*.js' 'mobile/*.mjs' 'scripts/*.js' 'shared/*.js' 'server/src/**/*.js' 'server/src/*.js'); do node --check "$file"; done
 
       - name: Client regression tests
-        run: node --test scripts/test-client.js
+        run: node --test scripts/test-client.js scripts/test-pages.js
 
       - name: Headless client checks
         run: node scripts/smoke-client-browser.js

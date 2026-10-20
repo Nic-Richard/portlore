@@ -128,8 +128,8 @@ footer { border-top: 1px solid var(--line); padding: 22px 20px; font-size: 13px;
 </head>
 <body>
 <div class="page">
-  <header class="top"><a class="brand" href="/">Portlore</a><a href="/">All ports</a></header>
-  <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Ports</a> / ${esc(port.country)} / ${esc(name)}</nav>
+  <header class="top"><a class="brand" href="/">Portlore</a><a href="/guides">Port guides</a></header>
+  <nav class="crumbs" aria-label="Breadcrumb"><a href="/guides">Port guides</a> / ${esc(port.country)} / ${esc(name)}</nav>
   <div class="intro">
     <h1${name.length > 10 ? ' class="long"' : ''}>${esc(name)}<span>${esc(kicker)}</span></h1>
     <div>
@@ -151,7 +151,7 @@ footer { border-top: 1px solid var(--line); padding: 22px 20px; font-size: 13px;
 }
 
 export function renderSitemap(entries) {
-  const urls = [`  <url><loc>${SITE}/</loc></url>`, ...entries.map(({ id, lastmod }) => `  <url><loc>${SITE}/ports/${id}</loc>${lastmod ? `<lastmod>${lastmod.slice(0, 10)}</lastmod>` : ''}</url>`)];
+  const urls = [`  <url><loc>${SITE}/</loc></url>`, `  <url><loc>${SITE}/guides</loc></url>`, ...entries.map(({ id, lastmod }) => `  <url><loc>${SITE}/ports/${id}</loc>${lastmod ? `<lastmod>${lastmod.slice(0, 10)}</lastmod>` : ''}</url>`)];
   return `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 ${urls.join('\n')}

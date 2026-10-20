@@ -3,8 +3,15 @@ import { distanceMeters } from '../../../shared/port-resolution.js';
 import { listGuideIds, readGuide, readPorts } from '../lib/guides.js';
 import { renderPortPage, renderSitemap } from '../lib/port-page.js';
 import { findPhotos } from './photo.js';
+import { renderGuideDirectory } from '../lib/guide-directory.js';
 
 const router = Router();
+
+router.get('/guides', (_req, res) => {
+  const published = new Set(listGuideIds());
+  const ports = readPorts().filter(port => published.has(port.id));
+  res.set('Cache-Control', 'public, max-age=600').type('html').send(renderGuideDirectory(ports));
+});
 
 async function heroPhoto(query) {
   try {
