@@ -2,6 +2,8 @@
 
 - `liner.png`: approved stronger line-art mark, used above 32px.
 - `favicon.png`: approved solid companion, used at 16px and 32px.
+  Its ship is enlarged and taller to fill roughly 92% width and 82% height.
+  The blue background is circular, with transparent corners.
 
 Run `npm run brand` from `mobile/` to regenerate website PNG/SVG/ICO icons,
 Apple/PWA icons, Android launcher resources and splash screens. The generator
