@@ -75,9 +75,20 @@ done
 curl --fail --silent http://127.0.0.1:3002/api/health
 curl --fail --silent http://127.0.0.1:3002/guides >/dev/null
 systemctl reload nginx
-curl --fail --silent --resolve portlore.com:443:127.0.0.1 https://portlore.com/guides >/dev/null
-status=$(curl --silent --output /dev/null --write-out '%{http_code}' --resolve portlore.com:443:127.0.0.1 https://portlore.com/deploy-check-missing-page)
-[[ "$status" == 404 ]]
+routes_ready=0
+status=unknown
+for attempt in $(seq 1 30); do
+  if curl --fail --silent --show-error --connect-timeout 2 --max-time 5 --resolve portlore.com:443:127.0.0.1 https://portlore.com/guides --output "$stage/guides.html" &&
+    grep -Fq 'rel="canonical" href="https://portlore.com/guides"' "$stage/guides.html"; then
+    status=$(curl --silent --show-error --connect-timeout 2 --max-time 5 --output /dev/null --write-out '%{http_code}' --resolve portlore.com:443:127.0.0.1 https://portlore.com/deploy-check-missing-page) || status=unavailable
+    if [[ "$status" == 404 ]]; then routes_ready=1; break; fi
+  fi
+  sleep 1
+done
+if [[ "$routes_ready" != 1 ]]; then
+  echo "Nginx routes did not become ready: expected guide directory and HTTP 404, last missing-page status $status." >&2
+  false
+fi
 printf '%s\n' "$revision" > "$root/.release"
 trap - ERR
 echo "Portlore deployed: $revision"
