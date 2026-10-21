@@ -20,6 +20,9 @@ jobs:
       - name: Client regression tests
         run: node --test scripts/test-client.js scripts/test-pages.js
 
+      - name: Moderation callback tests
+        run: node --test server/tests/*.test.js
+
       - name: Headless client checks
         run: node scripts/smoke-client-browser.js
 

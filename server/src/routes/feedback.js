@@ -1,5 +1,6 @@
 import { Router } from 'express';
 import fs from 'fs';
+import { randomUUID } from 'node:crypto';
 import path from 'path';
 import { CITIES_DIR } from '../lib/guides.js';
 import { sendAlert } from '../lib/alerts.js';
@@ -25,6 +26,7 @@ router.post(
     const message = clip(req.body?.message, 2000);
     if (message.length < 10) return res.status(400).json({ error: 'Please add a little more detail.' });
     const entry = {
+      id: randomUUID(),
       kind,
       message,
       email: clip(req.body?.email, 200),
@@ -37,12 +39,14 @@ router.post(
       fs.appendFileSync(FEEDBACK_FILE, JSON.stringify(entry) + '\n');
     } catch (error) {
       logger.error('Could not save feedback:', error);
+      return res.status(503).json({ error: 'Could not save your report. Please try again.' });
     }
     sendAlert('bugs', {
       title: KINDS[kind],
       description: message,
       url: entry.page.startsWith('/') ? `https://portlore.com${entry.page}` : '',
       fields: [
+        { name: 'Feedback', value: entry.id },
         { name: 'Port', value: entry.port },
         { name: 'Reply to', value: entry.email },
         { name: 'Client', value: entry.client },

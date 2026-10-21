@@ -1,13 +1,21 @@
+import { createHmac } from 'node:crypto';
 const APP = 'portlore';
 
 // Posts to the Discord alerts relay. Never throws and never delays the caller.
 export function sendAlert(type, alert) {
   const { ALERTS_URL, ALERTS_SECRET } = process.env;
   if (!ALERTS_URL || !ALERTS_SECRET) return;
+  const body = JSON.stringify({ app: APP, type, ...alert });
+  const headers = { Authorization: `Bearer ${ALERTS_SECRET}`, 'Content-Type': 'application/json' };
+  if (process.env.ALERTS_ACTION_SECRET) {
+      const timestamp = String(Math.floor(Date.now() / 1000));
+      headers['X-Alert-Timestamp'] = timestamp;
+      headers['X-Alert-Signature'] = createHmac('sha256', process.env.ALERTS_ACTION_SECRET).update(`${timestamp}.${body}`).digest('hex');
+  }
   fetch(ALERTS_URL, {
     method: 'POST',
-    headers: { Authorization: `Bearer ${ALERTS_SECRET}`, 'Content-Type': 'application/json' },
-    body: JSON.stringify({ app: APP, type, ...alert }),
+    headers,
+    body,
     signal: AbortSignal.timeout(5000),
   }).catch((err) => console.warn('alert not sent:', err.message));
 }

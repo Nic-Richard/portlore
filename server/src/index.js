@@ -11,6 +11,9 @@ import routeRoute from './routes/route.js';
 import pagesRoute from './routes/pages.js';
 import feedbackRoute from './routes/feedback.js';
 import * as logger from './lib/logger.js';
+import { CITIES_DIR } from './lib/guides.js';
+import { createFeedbackModeration } from './lib/feedbackModeration.js';
+import { actionHandler } from './lib/moderationAuth.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 config({ path: path.join(__dirname, '..', '..', '.env') });
@@ -20,6 +23,7 @@ app.set('trust proxy', 1);
 const PORT = process.env.PORT || 3002;
 
 app.use(cors({ origin: ['https://portlore.com', 'http://localhost:8080'] }));
+app.post('/api/moderation/discord', express.raw({ type: 'application/json', limit: '64kb' }), actionHandler(createFeedbackModeration(CITIES_DIR)));
 app.use(express.json());
 
 app.use('/api/photo', photoRoute);
