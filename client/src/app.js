@@ -1093,16 +1093,6 @@ function focusMapSearch(){
 }
 document.getElementById('explore-search-map').addEventListener('click',focusMapSearch);
 document.getElementById('b-port').addEventListener('click',()=>{if(!state.city)return;window.open(googleMapsDirectionsUrl(state.city.port),'_blank');});
-document.querySelectorAll('.lang-pill').forEach(p=>{
-  p.addEventListener('click',()=>{
-    document.querySelectorAll('.lang-pill').forEach(x=>x.classList.remove('sel'));
-    p.classList.add('sel');
-    const l=p.textContent.trim();
-    if(l==='EN'){showToast('Language set to English');return;}
-    showToast(`${l} coming soon`);
-    setTimeout(()=>{document.querySelectorAll('.lang-pill').forEach(x=>x.classList.remove('sel'));document.querySelector('.lang-pill').classList.add('sel');},1500);
-  });
-});
 
 function updateLocalTime(){
   const el=document.getElementById('local-time');

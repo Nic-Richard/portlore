@@ -693,14 +693,6 @@ body { font-family: var(--sans); background: var(--sand); color: var(--text); mi
 .reminder-picker-off { width:100%; margin-top:.55rem; border:0; background:none; color:#9a3e3e; font:700 .76rem var(--sans); cursor:pointer; padding:.5rem; }
 
 
-.lang-pills { display: flex; gap: 0.38rem; flex-wrap: wrap; }
-.lang-pill {
-  padding: 0.35rem 0.75rem; border-radius: var(--r-lg);
-  border: 1px solid var(--border); font-size: 0.73rem;
-  font-weight: 500; cursor: pointer; transition: all 0.14s;
-  background: var(--card); color: var(--navy); font-family: var(--sans);
-}
-.lang-pill.sel { background: var(--navy); color: #fff; border-color: var(--navy); font-weight: 600; }
 html.detail-open, body.detail-open { overflow: hidden !important; overscroll-behavior: none; }
 #detail { position: fixed; inset: 0; z-index: 300; display: none; flex-direction: column; touch-action: none; overscroll-behavior: none; }
 #detail.open { display: flex; }
