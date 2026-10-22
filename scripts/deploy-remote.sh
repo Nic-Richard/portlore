@@ -27,7 +27,7 @@ PY
 for directory in server/src shared client/src; do
   while IFS= read -r -d '' file; do node --check "$file"; done < <(find "$stage/$directory" -name '*.js' -print0)
 done
-(cd "$stage/server" && npm ci --omit=dev)
+(umask 022 && cd "$stage/server" && npm ci --omit=dev)
 
 install -d -m 700 "$backup" "$stage/restore"
 tar -czf "$backup/source.tar.gz.next" -C "$root" client/src client/public server/src server/package.json server/package-lock.json shared

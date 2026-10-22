@@ -84,6 +84,7 @@ ssh "$SERVER" "node '$REMOTE/scripts/sync-generated-state.js' '$REMOTE/cities'"
 scp "$NGINX_CONFIG" "$SERVER:/etc/nginx/sites-available/portlore"
 ssh "$SERVER" "ln -sf /etc/nginx/sites-available/portlore /etc/nginx/sites-enabled/portlore"
 
+ssh "$SERVER" "chown portlore:portlore '$REMOTE/.env' && chown -R portlore:portlore '$REMOTE/cities'"
 ssh "$SERVER" "cd '$REMOTE' && pm2 startOrRestart ecosystem.config.js --update-env && pm2 save"
 ssh "$SERVER" "for i in {1..15}; do curl -fsS http://127.0.0.1:3002/api/health >/dev/null && exit 0; sleep 1; done; echo 'Portlore health check failed on port 3002' >&2; exit 1"
 ssh "$SERVER" "nginx -t && systemctl reload nginx"
