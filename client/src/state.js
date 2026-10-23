@@ -31,5 +31,7 @@ export function createState() {
     itineraryDurations: {},
     itineraryRoute: null,
     itineraryRouteToken: 0,
+    walkTimes: null,
+    walkTimesToken: 0,
   };
 }

@@ -9,23 +9,33 @@ function accessFromDistance(m){
 function accessLabel(access){
   return ({walkable:'Short walk',long_walk:'Longer walk',short_ride:'Short ride',transport_required:'Transport needed'})[access]||'';
 }
-function enrich(arr, city){
+const walkOrigin = city => city.centre || city.port;
+const originKey = origin => `${Number(origin.lat).toFixed(5)},${Number(origin.lng).toFixed(5)}`;
+const placeKey = p => p.id || `${Number(p.lat).toFixed(5)},${Number(p.lng).toFixed(5)}`;
+
+// walks holds routed walking seconds from the current origin. A pier can be minutes from a sight across the
+// water and an hour round by road, so straight-line distance is only the fallback until they arrive.
+function enrich(arr, city, walks = null){
   if (!city?.port) return arr.map(p => ({...p}));
   // Gateway ports (Civitavecchia for Rome) measure walks from the city passengers travel into.
-  const origin = city.centre || city.port;
+  const origin = walkOrigin(city);
   const calcLat = origin.lat;
   const calcLng = origin.lng;
   const terminalId = city.port.id || city.port.sourceId || '';
+  const routed = walks?.origin === originKey(origin) ? walks.seconds : null;
 
   return arr.map(p=>{
-    const m=hav(calcLat,calcLng,p.lat,p.lng);
+    const straight=hav(calcLat,calcLng,p.lat,p.lng);
+    const seconds=routed?.[placeKey(p)];
+    // _m is in walking metres (80 per minute), so routed seconds convert to the same scale.
+    const m=seconds>0?seconds*80/60:straight;
     const minutes=Number(p.suggestedVisitMinutes) || 45;
     return{
       ...p,
       _m:m,
       distLabel:dlabel(m),
       tnLabel:minutes>=60?`${Math.floor(minutes/60)}h${minutes%60?` ${minutes%60}m`:""}`:`${minutes} min`,
-      distanceFromTerminalMeters:Math.round(m),
+      distanceFromTerminalMeters:Math.round(straight),
       nearestTerminalId:terminalId,
       access:accessFromDistance(m),
       accessLabel:accessLabel(accessFromDistance(m))
@@ -64,6 +74,6 @@ function defaultVisitMinutes(place) {
   return 45;
 }
 
-export { hav, dlabel, accessFromDistance, accessLabel, enrich, STOP_CATEGORY_LABELS, inferStopCategory, normalizeStop, defaultVisitMinutes };
+export { hav, dlabel, accessFromDistance, accessLabel, enrich, walkOrigin, originKey, placeKey, STOP_CATEGORY_LABELS, inferStopCategory, normalizeStop, defaultVisitMinutes };
 
 export const walkMinutes = place => Math.max(1, Math.round((place._m || 0) / 80));

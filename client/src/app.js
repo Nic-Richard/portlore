@@ -1,7 +1,7 @@
 import { NATIVE_APP, API_ORIGIN, nativePlugin } from './platform.js';
 import { createState } from './state.js';
 import { lineIconSvg, placeLineIcon } from './icons.js';
-import { hav, dlabel, enrich as enrichPlaces, STOP_CATEGORY_LABELS, inferStopCategory, normalizeStop, defaultVisitMinutes, walkMinutes } from './places.js';
+import { hav, enrich as enrichPlaces, walkOrigin, originKey, placeKey, STOP_CATEGORY_LABELS, inferStopCategory, normalizeStop, defaultVisitMinutes, walkMinutes } from './places.js';
 import { todaysHours, escapeText, closingMinutes, clockLabel } from './hours.js';
 import { findPorts } from './search.js';
 import { createGuideStore } from './storage.js';
@@ -370,6 +370,7 @@ function setActiveTerminal(terminal, remember = true) {
     if (key) localStorage.setItem(key, terminalKey(terminal));
   }
   renderTerminalSelector();
+  loadWalkTimes();
   if (state.exploreBooted) {
     buildExploreList();
     buildMapList();
@@ -420,6 +421,7 @@ function resolvePortTerminals(portId) {
   }
   refreshMapsForResolvedTerminals();
   if (state.itineraryIds.length) refreshItinTab();
+  loadWalkTimes();
 }
 
 function setTerminalLookupStatus(show) {
@@ -733,7 +735,28 @@ function googleMapsDirectionsUrl(place){
   return `https://www.google.com/maps/dir/?api=1&destination=${destination}${placeId}`;
 }
 
-function enrich(arr) { return enrichPlaces(arr, state.city); }
+function enrich(arr) { return enrichPlaces(arr, state.city, state.walkTimes); }
+
+async function loadWalkTimes() {
+  const city = state.city;
+  if (!city?.port) return;
+  const origin = walkOrigin(city);
+  const key = originKey(origin);
+  if (state.walkTimes?.origin === key) return;
+  const places = [...(city.places || []), ...(city.hiddenGems || [])];
+  if (!places.length) return;
+  const token = ++state.walkTimesToken;
+  try {
+    const response = await fetch(`${API_ORIGIN}/api/route/walks`, { method: 'POST', headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ origin: { lat: Number(origin.lat), lng: Number(origin.lng) }, points: places.map(p => ({ lat: Number(p.lat), lng: Number(p.lng) })) }) });
+    const data = await response.json();
+    if (token !== state.walkTimesToken || state.city !== city || !response.ok || !Array.isArray(data.seconds)) return;
+    const seconds = {};
+    places.forEach((place, i) => { if (data.seconds[i] > 0) seconds[placeKey(place)] = data.seconds[i]; });
+    state.walkTimes = { origin: key, seconds };
+  } catch { return; }
+  if (state.exploreBooted) { buildExploreList(); buildMapList(); }
+}
 
 document.getElementById('stop-filters').addEventListener('click', event => {
   const button = event.target.closest('.stop-filter');
@@ -1073,10 +1096,7 @@ function doSurp(){
   if(!state.city)return;
   const options=[...(state.city.places||[]), ...(state.city.hiddenGems||[])];
   if(!options.length)return;
-  const pick={...options[Math.floor(Math.random()*options.length)]};
-  const m=hav(state.city.port.lat,state.city.port.lng,pick.lat,pick.lng);
-  pick.distLabel=dlabel(m);
-  pick.tnLabel=`${pick.suggestedVisitMinutes ?? 45} min`;
+  const pick=enrich([normalizeStop(options[Math.floor(Math.random()*options.length)])])[0];
   openDetail(pick);
   showToast('Here is one to try');
 }
