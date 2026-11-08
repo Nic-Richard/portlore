@@ -15,6 +15,21 @@ It covers 631 cruise ports. For each one it finds the real passenger terminals, 
 - Build an itinerary with visit and travel time
 - Open matched locations in Google Maps
 - Generate guides for ports that do not have one yet
+- Use the guides from an AI assistant through an MCP server
+
+## Use Portlore in Claude
+
+Portlore's guides are available as a read-only MCP server at `https://portlore.com/api/mcp`. In Claude,
+open Settings → Connectors → Add custom connector and paste that address; other assistants that support
+remote MCP servers work the same way. No account or key is needed.
+
+It has three tools:
+
+- `find_port`: search ports by city, country or terminal, and see which have a guide
+- `get_port_guide`: a port's overview, cruise piers and what the guide covers
+- `list_stops`: stops sorted by walking time from a pier, with visit length, hidden gems, hours and a map link
+
+It only reads guides that already exist; it never builds a new one or calls an AI model.
 
 ## Project structure
 

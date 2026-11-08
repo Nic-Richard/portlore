@@ -1,5 +1,6 @@
 import { Router } from 'express';
 import fetch from 'node-fetch';
+import { walkSeconds } from '../lib/walks.js';
 
 const router = Router();
 const cache = new Map();
@@ -36,27 +37,7 @@ router.post('/walks', async (req, res) => {
   if (!valid(origin) || points.length < 1 || points.length > 150 || !points.every(valid)) {
     return res.status(400).json({ error: 'Provide an origin and between 1 and 150 valid points.' });
   }
-  const coordinates = [origin, ...points].map(p => `${p.lng.toFixed(5)},${p.lat.toFixed(5)}`).join(';');
-  const cached = cache.get(`walks:${coordinates}`);
-  if (cached && Date.now() - cached.at < 24 * 60 * 60 * 1000) return res.json(cached.data);
-
-  const url = `https://routing.openstreetmap.de/routed-foot/table/v1/driving/${coordinates}?sources=0&annotations=duration`;
-  const controller = new AbortController();
-  const timeout = setTimeout(() => controller.abort(), 18000);
-  try {
-    const response = await fetch(url, { signal: controller.signal, headers: { 'User-Agent': 'Portlore/1.0 (https://portlore.com)' } });
-    if (!response.ok) throw new Error(`Routing service failed (${response.status})`);
-    const data = await response.json();
-    const row = data.durations?.[0];
-    if (data.code !== 'Ok' || !Array.isArray(row)) throw new Error('No walking times found.');
-    const result = { seconds: row.slice(1).map(s => (Number.isFinite(s) && s > 0 ? Math.round(s) : null)) };
-    cache.set(`walks:${coordinates}`, { at: Date.now(), data: result });
-    res.json(result);
-  } catch {
-    res.json({ seconds: null });
-  } finally {
-    clearTimeout(timeout);
-  }
+  res.json({ seconds: await walkSeconds(origin, points) });
 });
 
 router.post('/', async (req, res) => {

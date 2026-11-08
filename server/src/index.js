@@ -10,6 +10,7 @@ import nearbyRoute from './routes/nearby.js';
 import routeRoute from './routes/route.js';
 import pagesRoute from './routes/pages.js';
 import feedbackRoute from './routes/feedback.js';
+import mcpRoute from './routes/mcp.js';
 import * as logger from './lib/logger.js';
 import { CITIES_DIR } from './lib/guides.js';
 import { createFeedbackModeration } from './lib/feedbackModeration.js';
@@ -32,6 +33,7 @@ app.use('/api/city', cityRoute);
 app.use('/api/nearby', nearbyRoute);
 app.use('/api/route', routeRoute);
 app.use('/api/feedback', feedbackRoute);
+app.use('/api/mcp', mcpRoute);
 app.use(pagesRoute);
 
 app.get('/api/health', (_, res) => res.json({ ok: true }));
