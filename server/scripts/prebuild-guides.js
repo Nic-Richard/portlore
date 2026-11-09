@@ -13,6 +13,7 @@ import { config } from 'dotenv';
 config({ path: path.join(path.dirname(fileURLToPath(import.meta.url)), '..', '..', '.env') });
 const { CITIES_DIR, readPorts } = await import('../src/lib/guides.js');
 const { buildGuide, readCatalog } = await import('../src/lib/generation.js');
+const { sendAlert } = await import('../src/lib/alerts.js');
 const { googleQuotaRefused, googleSearchCount } = await import('../../shared/google-places.js');
 
 const args = process.argv.slice(2);
@@ -60,10 +61,12 @@ if (args.includes('--dry-run')) {
 }
 
 let built = 0;
+let cost = 0;
+const failed = [];
 for (const { port, catalog } of queue) {
   if (built >= limit || used + SEARCHES_PER_GUIDE_MAX > budget) break;
   const before = googleSearchCount();
-  await buildGuide(port.id, port, catalog, { patient: true });
+  const result = await buildGuide(port.id, port, catalog, { patient: true, alert: false });
   used += googleSearchCount() - before;
   fs.writeFileSync(usagePath, JSON.stringify({ month, searches: used }, null, 2));
 
@@ -79,7 +82,23 @@ for (const { port, catalog } of queue) {
     console.log(`Google refused searches for quota while building ${port.id}. Stopped; run again after the quota resets.`);
     break;
   }
-  if (fs.existsSync(guidePath(port.id))) built += 1;
-  console.log(`${fs.existsSync(guidePath(port.id)) ? 'Built' : 'Failed'} ${port.id}: ${googleSearchCount() - before} searches, ${used} this month.`);
+  if (result) {
+    built += 1;
+    cost += result.cost;
+  } else {
+    failed.push(port.id);
+  }
+  console.log(`${result ? 'Built' : 'Failed'} ${port.id}: ${googleSearchCount() - before} searches, ${used} this month.`);
 }
 console.log(`Done: ${built} guides built, ${used} of ${budget} Google searches used this month.`);
+// One summary instead of a post per guide, which would flood the costs channel.
+if (built || failed.length) {
+  sendAlert('costs', {
+    title: `${rebuild.length ? 'Rebuilt' : 'Pre-built'} ${built} guide${built === 1 ? '' : 's'}${failed.length ? `, ${failed.length} failed` : ''}`,
+    fields: [
+      { name: 'Est. cost', value: `$${cost.toFixed(2)}` },
+      { name: 'Google searches this month', value: `${used} of ${budget}` },
+      { name: 'Failed', value: failed.join(', ').slice(0, 1000) || 'None' },
+    ],
+  });
+}

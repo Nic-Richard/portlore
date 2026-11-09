@@ -73,7 +73,8 @@ export function isStale(guide) {
 }
 
 // Builds a guide and writes it only once it is complete, so a failed rebuild leaves the old guide in place.
-export async function buildGuide(id, portInfo, catalog, { patient = false } = {}) {
+// Returns the build's cost and Google searches, or null when it failed.
+export async function buildGuide(id, portInfo, catalog, { patient = false, alert = true } = {}) {
   try {
     const { data, model, websites, googleSearches } = await buildGuideData(portInfo, catalog, {
       apiKey: process.env.GOOGLE_MAPS_API_KEY,
@@ -84,13 +85,14 @@ export async function buildGuide(id, portInfo, catalog, { patient = false } = {}
     if (websites.error) logger.warn(`Website descriptions failed for ${id}: ${websites.error}`);
     else logger.info(`Described ${id} from websites: checked=${websites.checked}, found=${websites.found}, searches=${websites.searches}, rewritten=${websites.rewritten}, dead=${websites.dead}, est_cost=$${websites.cost.toFixed(4)}`);
     fs.writeFileSync(path.join(CITIES_DIR, `${id}.json`), JSON.stringify(data, null, 2));
+    const cost = model.cost + (websites.cost || 0);
     const usage = getDailyUsage();
-    sendAlert('costs', {
+    if (alert) sendAlert('costs', {
       title: `Guide built: ${portInfo.city}, ${portInfo.country}`,
       url: `https://portlore.com/ports/${id}`,
       fields: [
         { name: 'Model', value: model.model },
-        { name: 'Est. cost', value: `${(model.cost + (websites.cost || 0)).toFixed(4)}` },
+        { name: 'Est. cost', value: `$${cost.toFixed(4)}` },
         { name: 'Google searches', value: String(googleSearches) },
         { name: 'Today', value: `${usage.count} of ${getLimit('GENERATION_DAILY_LIMIT', 20)} builds` },
       ],
@@ -104,11 +106,13 @@ export async function buildGuide(id, portInfo, catalog, { patient = false } = {}
         fs.writeFileSync(PORTS_FILE, JSON.stringify(ports, null, 2));
       }
     } catch {}
+    return { cost, googleSearches };
   } catch (error) {
     logger.error(`Generation failed for ${id}:`, error.message);
     failures.set(id, error.overloaded
       ? 'The server is overloaded right now. Please try again in a few minutes.'
       : 'There was a server error building this guide. Please try again in a few minutes.');
+    return null;
   } finally {
     inProgress.delete(id);
   }
